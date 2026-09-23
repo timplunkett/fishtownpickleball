@@ -11454,8 +11454,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -12172,6 +12171,169 @@
   ],
   "partners": []
  },
+ "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 118,
+    "pa": 98,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Susan Colicchio",
+    "vs": [
+     "Valerie Ablaza",
+     "John Zhong"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Claudia Calle",
+    "vs": [
+     "Jinghua Shi",
+     "Buyi Zhang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Steven Jaffe",
+    "vs": [
+     "Brandon Fulford",
+     "John Zhong"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Paula Kolb",
+    "vs": [
+     "Haiying Hu",
+     "Buyi Zhang"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Allstar Pickler",
+    "t": "male",
+    "with": "Steven Jaffe",
+    "vs": [
+     "John Zhong",
+     "Scott Richeal"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Allstar Pickler",
+    "t": "mixed",
+    "with": "Susan Colicchio",
+    "vs": [
+     "Rita Hung",
+     "John Zhong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 51,
+    "rank": 135,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1.4
+   }
+  ],
+  "partners": []
+ },
  "36b33227-285b-4959-a3b8-21012748391e": {
   "log": [
    {
@@ -12348,169 +12510,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Allstar Pickler",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 118,
-    "pa": 98,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 1,
-    "subFor": "PCKLRAMA"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Susan Colicchio",
-    "vs": [
-     "Valerie Ablaza",
-     "John Zhong"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PCKLRAMA",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Claudia Calle",
-    "vs": [
-     "Jinghua Shi",
-     "Buyi Zhang"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PCKLRAMA"
-   },
-   {
-    "wk": 5,
-    "opp": "Allstar Pickler",
-    "t": "male",
-    "with": "Steven Jaffe",
-    "vs": [
-     "Brandon Fulford",
-     "John Zhong"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PCKLRAMA",
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Paula Kolb",
-    "vs": [
-     "Haiying Hu",
-     "Buyi Zhang"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PCKLRAMA",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Allstar Pickler",
-    "t": "male",
-    "with": "Steven Jaffe",
-    "vs": [
-     "John Zhong",
-     "Scott Richeal"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PCKLRAMA",
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Allstar Pickler",
-    "t": "mixed",
-    "with": "Susan Colicchio",
-    "vs": [
-     "Rita Hung",
-     "John Zhong"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "PCKLRAMA",
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0.7,
-    "confidence": 51,
-    "rank": 135,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -55992,7 +55991,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -56081,7 +56079,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -69854,7 +69851,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -73511,7 +73507,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -73532,7 +73527,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -75641,11 +75635,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -90285,11 +90275,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -92389,11 +92375,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 5,
@@ -94313,11 +94295,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -102514,11 +102492,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 5,
@@ -102566,11 +102540,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 5,
@@ -102586,11 +102556,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 5,
@@ -102606,11 +102572,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 5,
@@ -103887,11 +103849,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -103908,11 +103866,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -107733,11 +107687,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -114649,11 +114599,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,

@@ -1824,7 +1824,7 @@
       "gender": "Female",
       "dupr": "3LN2GQ",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "teamName": "Flemington",
       "wins": 8,

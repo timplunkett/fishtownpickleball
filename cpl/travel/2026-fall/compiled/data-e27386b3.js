@@ -4729,6 +4729,35 @@
    "playerId": "e5a9569f-f8ce-4c71-912c-a6872bb7de77"
   },
   {
+   "name": "Srinath Katari",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 3,
+   "losses": 3,
+   "pointsWon": 117,
+   "totalPointsAgainst": 103,
+   "mixedWins": 1,
+   "mixedLosses": 2,
+   "genderWins": 2,
+   "genderLosses": 1,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "winPct": 50,
+   "diff": 14,
+   "ppg": 19.5,
+   "leagueRank": 229,
+   "rating": 0.9,
+   "ratingGames": 6,
+   "confidence": 53,
+   "strengthOfPartners": 0,
+   "strengthOfOpponents": -0.4,
+   "playerId": "abd6070d-3dd7-4313-b27e-2f2c702d0dd5"
+  },
+  {
    "name": "Amanda Zhou",
    "gender": "Female",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -4756,35 +4785,6 @@
    "strengthOfPartners": 1.7,
    "strengthOfOpponents": 0.8,
    "playerId": "70422d8a-2761-48c4-ac68-ae5bfe532394"
-  },
-  {
-   "name": "Srinath Katari",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 3,
-   "losses": 3,
-   "pointsWon": 117,
-   "totalPointsAgainst": 103,
-   "mixedWins": 1,
-   "mixedLosses": 2,
-   "genderWins": 2,
-   "genderLosses": 1,
-   "clutchWins": 0,
-   "clutchLosses": 1,
-   "winPct": 50,
-   "diff": 14,
-   "ppg": 19.5,
-   "leagueRank": 229,
-   "rating": 0.9,
-   "ratingGames": 6,
-   "confidence": 53,
-   "strengthOfPartners": 0,
-   "strengthOfOpponents": -0.4,
-   "playerId": "abd6070d-3dd7-4313-b27e-2f2c702d0dd5"
   },
   {
    "name": "Wendy Braithwaite",
@@ -30291,9 +30291,7 @@
      ]
     }
    ],
-   "subs": [
-    "Srinath Katari"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -34993,7 +34991,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-22T20:41:08.146Z";
+  DATA.meta.asOf = "2026-09-23T02:32:01.084Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

@@ -613,18 +613,6 @@
       "awayName": "Dill Dinkers Hatboro The Factory"
     },
     {
-      "matchupId": "0d20fd6b-635f-418a-9619-5aaaef0a5928",
-      "weekNumber": 5,
-      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T09:00:00",
-      "homeName": "Pickleball Kingdom Tinton Falls",
-      "awayName": "Pickle Place"
-    },
-    {
       "matchupId": "33017b3a-cda2-4ec6-8595-a400ac21d20b",
       "weekNumber": 5,
       "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
@@ -673,18 +661,6 @@
       "awayName": "Home Court"
     },
     {
-      "matchupId": "95d2197f-707a-4f56-b57f-d5450d56f793",
-      "weekNumber": 5,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T15:00:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "Montville"
-    },
-    {
       "matchupId": "d12c86ac-88c2-4c95-9cbd-abbd1d65f117",
       "weekNumber": 5,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
@@ -707,6 +683,18 @@
       "scheduledTime": "2026-09-26T18:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "95d2197f-707a-4f56-b57f-d5450d56f793",
+      "weekNumber": 6,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-29T19:30:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "Montville"
     },
     {
       "matchupId": "15851943-0de6-4338-a052-4155d6a7bf5f",
@@ -1117,6 +1105,18 @@
       "awayName": "Bounce Philly"
     },
     {
+      "matchupId": "0d20fd6b-635f-418a-9619-5aaaef0a5928",
+      "weekNumber": 8,
+      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-18T12:00:00",
+      "homeName": "Pickleball Kingdom Tinton Falls",
+      "awayName": "Pickle Place"
+    },
+    {
       "matchupId": "6259567e-583a-4a90-909a-0c2655ffdf05",
       "weekNumber": 9,
       "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
@@ -1249,18 +1249,6 @@
       "awayName": "Flemington Green"
     },
     {
-      "matchupId": "1733628e-d247-4171-9a26-13782dd58d78",
-      "weekNumber": 9,
-      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T15:00:00",
-      "homeName": "Bounce Philly",
-      "awayName": "Pickleball Kingdom Tinton Falls"
-    },
-    {
       "matchupId": "1f04c145-7fa0-425b-a647-9af53f4c08cd",
       "weekNumber": 9,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
@@ -1283,6 +1271,18 @@
       "scheduledTime": "2026-10-24T18:00:00",
       "homeName": "Montville",
       "awayName": "Pickleball Kingdom Watchung"
+    },
+    {
+      "matchupId": "1733628e-d247-4171-9a26-13782dd58d78",
+      "weekNumber": 9,
+      "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T14:00:00",
+      "homeName": "Bounce Philly",
+      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "8d838846-d3fb-4a7c-bd3f-30f27c031b23",

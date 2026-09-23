@@ -337,18 +337,6 @@
       "awayName": "Pickleball Palace"
     },
     {
-      "matchupId": "e265cf28-b654-4c96-9f2a-4b191fb1ba5d",
-      "weekNumber": 6,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-01T09:00:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "ACE Moorestown"
-    },
-    {
       "matchupId": "254cad7f-223e-4475-b081-88c86459b979",
       "weekNumber": 7,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
@@ -791,6 +779,18 @@
       "scheduledTime": "2026-10-31T14:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Pickle Place"
+    },
+    {
+      "matchupId": "e265cf28-b654-4c96-9f2a-4b191fb1ba5d",
+      "weekNumber": 11,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-01T09:00:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "ACE Moorestown"
     },
     {
       "matchupId": "2a7ca877-76b8-41b6-9176-c69ff7b0f26c",

@@ -1133,6 +1133,35 @@
    "playerId": "ca6af12a-17d5-44b7-a137-49789e9eac2c"
   },
   {
+   "name": "Steven Giudice",
+   "gender": "Male",
+   "team": "PCKLRAMA",
+   "matches": 1,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 6,
+   "wins": 5,
+   "losses": 1,
+   "pointsWon": 118,
+   "totalPointsAgainst": 98,
+   "mixedWins": 4,
+   "mixedLosses": 0,
+   "genderWins": 1,
+   "genderLosses": 1,
+   "clutchWins": 1,
+   "clutchLosses": 0,
+   "winPct": 83.3,
+   "diff": 20,
+   "ppg": 19.7,
+   "leagueRank": 147,
+   "rating": 0.7,
+   "ratingGames": 6,
+   "confidence": 51,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": -1.4,
+   "playerId": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be"
+  },
+  {
    "name": "Hal Greenspan",
    "gender": "Male",
    "team": "One Love",
@@ -1160,35 +1189,6 @@
    "strengthOfPartners": -0.6,
    "strengthOfOpponents": 0.1,
    "playerId": "36b33227-285b-4959-a3b8-21012748391e"
-  },
-  {
-   "name": "Steven Giudice",
-   "gender": "Male",
-   "team": "PCKLRAMA",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 6,
-   "wins": 5,
-   "losses": 1,
-   "pointsWon": 118,
-   "totalPointsAgainst": 98,
-   "mixedWins": 4,
-   "mixedLosses": 0,
-   "genderWins": 1,
-   "genderLosses": 1,
-   "clutchWins": 1,
-   "clutchLosses": 0,
-   "winPct": 83.3,
-   "diff": 20,
-   "ppg": 19.7,
-   "leagueRank": 147,
-   "rating": 0.7,
-   "ratingGames": 6,
-   "confidence": 51,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -1.4,
-   "playerId": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be"
   },
   {
    "name": "Kristie Capitanelli",
@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 408,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9882,7 +9882,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 402,
+   "leagueRank": 403,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9969,7 +9969,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10056,7 +10056,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 403,
+   "leagueRank": 404,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10143,7 +10143,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10266,6 +10266,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "076baef0-3766-4902-a737-578d6262a38a"
+  },
+  {
+   "name": "Madan P",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 399,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "34a8449f-208d-484e-967e-604247a5ba33"
   },
   {
    "name": "Bin Li",
@@ -30589,7 +30618,6 @@
     }
    ],
    "subs": [
-    "Steven Giudice",
     "Haiying Hu",
     "John Zhong",
     "Dan Lorenz"
@@ -30774,11 +30802,15 @@
      "t": "mixed",
      "h": [
       "Ting Chen",
-      "Pedro Oliveira"
+      "Madan P"
      ],
      "a": [
       "",
       ""
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -31492,7 +31524,7 @@
   "matchesPlayed": 36,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 381,
+  "totalPlayers": 382,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -31598,7 +31630,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-22T16:01:22.224Z";
+  DATA.meta.asOf = "2026-09-23T02:34:17.006Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

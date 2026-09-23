@@ -19388,11 +19388,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -35312,11 +35308,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -36843,8 +36835,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -51916,11 +51907,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -51968,11 +51955,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -64507,11 +64490,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -64607,11 +64586,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -65581,6 +65556,149 @@
    }
   ]
  },
+ "abd6070d-3dd7-4313-b27e-2f2c702d0dd5": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 117,
+    "pa": 103,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Suki Wong",
+    "vs": [
+     "Alyssa Beattie",
+     "David Schwartz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Rob Stever",
+    "vs": [
+     "Brian Perlowitz",
+     "Marvin Lao"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Rob Stever",
+    "vs": [
+     "David Schwartz",
+     "Marvin Lao"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Nikki Nigro",
+    "vs": [
+     "Rosellen Perlowitz",
+     "David Cartwright"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Home Court",
+    "t": "male",
+    "with": "Matthew Marciani",
+    "vs": [
+     "Andy Pineda",
+     "Marvin Lao"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Home Court",
+    "t": "mixed",
+    "with": "Hee Kim",
+    "vs": [
+     "Alyssa Beattie",
+     "Marvin Lao"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 0.9,
+    "confidence": 53,
+    "rank": 116,
+    "ratingGames": 6,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": []
+ },
  "70422d8a-2761-48c4-ac68-ae5bfe532394": {
   "log": [
    {
@@ -65721,149 +65839,6 @@
     "ratingGames": 4,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.8
-   }
-  ],
-  "partners": []
- },
- "abd6070d-3dd7-4313-b27e-2f2c702d0dd5": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 117,
-    "pa": 103,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "games": [
-   {
-    "wk": 5,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Suki Wong",
-    "vs": [
-     "Alyssa Beattie",
-     "David Schwartz"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Rob Stever",
-    "vs": [
-     "Brian Perlowitz",
-     "Marvin Lao"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Rob Stever",
-    "vs": [
-     "David Schwartz",
-     "Marvin Lao"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Nikki Nigro",
-    "vs": [
-     "Rosellen Perlowitz",
-     "David Cartwright"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Home Court",
-    "t": "male",
-    "with": "Matthew Marciani",
-    "vs": [
-     "Andy Pineda",
-     "Marvin Lao"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   },
-   {
-    "wk": 5,
-    "opp": "Home Court",
-    "t": "mixed",
-    "with": "Hee Kim",
-    "vs": [
-     "Alyssa Beattie",
-     "Marvin Lao"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0.9,
-    "confidence": 53,
-    "rank": 116,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.4
    }
   ],
   "partners": []
@@ -67679,11 +67654,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -70439,8 +70410,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -72817,8 +72787,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -73236,11 +73205,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -74399,8 +74364,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -74432,8 +74396,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -86921,11 +86884,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -86941,11 +86900,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -86977,11 +86932,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -86997,11 +86948,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -109096,8 +109043,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,

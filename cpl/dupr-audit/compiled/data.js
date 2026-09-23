@@ -5137,6 +5137,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Elisangela Harrington",
+   "playerId": "55bbe71c-1181-4875-b16d-f121f3a133e0",
+   "team": "Flemington",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Elisia Clark",
    "playerId": "0fc17b3e-17c5-43af-be22-89b0fd25490e",
    "team": "Pickle Place",
@@ -10160,6 +10167,13 @@ window.DUPR_AUDIT = {
    "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c",
    "team": "Dill Dinkers Freehold",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Kevin Lo",
+   "playerId": "55816295-00f5-4b9b-bec7-6192da7c66c2",
+   "team": "Pickleball Palace",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {
@@ -16358,6 +16372,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Srinath Katari",
+   "playerId": "abd6070d-3dd7-4313-b27e-2f2c702d0dd5",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Srinatha Nanjundaiah",
    "playerId": "2fa3bb27-766b-4a83-b0b4-0ecffc01b778",
    "team": "Pickleball Kingdom Hamilton Strikers",
@@ -16656,6 +16677,13 @@ window.DUPR_AUDIT = {
    "playerId": "7a9bc90f-45eb-410a-a56b-a1b7c9a8145c",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Steven Giudice",
+   "playerId": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be",
+   "team": "PCKLRAMA",
+   "slug": "c43b8608",
    "gender": "Male"
   },
   {

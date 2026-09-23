@@ -23425,7 +23425,7 @@
           {
             "playerId": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be",
             "teamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 6,
             "wins": 5,
             "losses": 1,
@@ -24182,7 +24182,7 @@
             {
               "matchupId": "0e5960f1-5247-4b82-9b9d-70e9abcc781d",
               "homePlayerId1": "9642a1bd-ed0a-4d65-9c6e-8f0c04721c75",
-              "homePlayerId2": "6600b9f3-d27b-4772-8308-5636ac646776",
+              "homePlayerId2": "34a8449f-208d-484e-967e-604247a5ba33",
               "awayPlayerId1": null,
               "awayPlayerId2": null,
               "homeScore": null,
