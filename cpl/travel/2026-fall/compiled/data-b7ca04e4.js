@@ -48157,8 +48157,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Ahmed Aziz"
      ],
      "a": [
       "Jennifer Kline",
@@ -48168,8 +48168,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Juan Millan"
      ],
      "a": [
       "Allyssa Perez",
@@ -48179,8 +48179,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Beth Osipowitz",
+      "Sam Forin"
      ],
      "a": [
       "Clarisse Espiritu",
@@ -48190,8 +48190,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Xavier Yandoli"
      ],
      "a": [
       "Kristina Salomia",
@@ -48201,8 +48201,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tracy Wong",
+      "Brianna Burns"
      ],
      "a": [
       "Allyssa Perez",
@@ -48212,8 +48212,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Beth Osipowitz"
      ],
      "a": [
       "Clarisse Espiritu",
@@ -48223,8 +48223,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Forin",
+      "Jeff Burke"
      ],
      "a": [
       "Tom Draney",
@@ -48234,8 +48234,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ahmed Aziz",
+      "Kyle Korman"
      ],
      "a": [
       "Brian Kline",
@@ -48245,8 +48245,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tracy Wong",
+      "Xavier Yandoli"
      ],
      "a": [
       "Jennifer Kline",
@@ -48256,8 +48256,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Jeff Burke"
      ],
      "a": [
       "Kristina Salomia",
@@ -48267,8 +48267,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Juan Millan"
      ],
      "a": [
       "Allyssa Perez",
@@ -48278,8 +48278,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Kyle Korman"
      ],
      "a": [
       "Clarisse Espiritu",
@@ -48289,8 +48289,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Osipowitz",
+      "Stephanie Ho"
      ],
      "a": [
       "Jennifer Kline",
@@ -48300,8 +48300,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Tracy Wong"
      ],
      "a": [
       "Allyssa Perez",
@@ -48311,8 +48311,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ahmed Aziz",
+      "Juan Millan"
      ],
      "a": [
       "Tom Draney",
@@ -48322,8 +48322,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Forin",
+      "Xavier Yandoli"
      ],
      "a": [
       "Jonathan Bautista",
@@ -48333,8 +48333,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Ahmed Aziz"
      ],
      "a": [
       "Kristina Salomia",
@@ -48344,8 +48344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Jeff Burke"
      ],
      "a": [
       "Jennifer Kline",
@@ -48355,8 +48355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Beth Osipowitz",
+      "Kyle Korman"
      ],
      "a": [
       "Allyssa Perez",
@@ -48366,8 +48366,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Sam Forin"
      ],
      "a": [
       "Clarisse Espiritu",
@@ -48377,8 +48377,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Brianna Burns"
      ],
      "a": [
       "Allyssa Perez",
@@ -48388,8 +48388,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Tracy Wong"
      ],
      "a": [
       "Jennifer Kline",
@@ -48399,8 +48399,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Juan Millan"
      ],
      "a": [
       "Tom Draney",
@@ -48410,8 +48410,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xavier Yandoli",
+      "Jeff Burke"
      ],
      "a": [
       "Jonathan Bautista",
@@ -48421,8 +48421,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Ahmed Aziz"
      ],
      "a": [
       "Kristina Salomia",
@@ -48432,8 +48432,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Sam Forin"
      ],
      "a": [
       "Allyssa Perez",
@@ -48443,8 +48443,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tracy Wong",
+      "Xavier Yandoli"
      ],
      "a": [
       "Jennifer Kline",
@@ -48454,8 +48454,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Beth Osipowitz",
+      "Juan Millan"
      ],
      "a": [
       "Clarisse Espiritu",
@@ -48465,8 +48465,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Burns",
+      "Stephanie Ho"
      ],
      "a": [
       "Allyssa Perez",
@@ -48476,8 +48476,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Jung-Moss",
+      "Paula Cushing"
      ],
      "a": [
       "Clarisse Espiritu",
@@ -48487,8 +48487,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Forin",
+      "Jeff Burke"
      ],
      "a": [
       "Jonathan Bautista",
@@ -48498,8 +48498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ahmed Aziz",
+      "Kyle Korman"
      ],
      "a": [
       "Tom Draney",
@@ -54704,7 +54704,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-23T02:33:32.639Z";
+  DATA.meta.asOf = "2026-09-23T10:31:45.931Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
