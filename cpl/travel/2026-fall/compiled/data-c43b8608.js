@@ -10297,6 +10297,35 @@
    "playerId": "34a8449f-208d-484e-967e-604247a5ba33"
   },
   {
+   "name": "Jennifer Liss",
+   "gender": "Female",
+   "team": "Picklr Fair Lawn",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 389,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6da2022e-df04-471b-b640-65324174a368"
+  },
+  {
    "name": "Bin Li",
    "gender": "Male",
    "team": "Pickleball Kingdom Watchung",
@@ -30646,8 +30675,8 @@
       "Stephen Levitt"
      ],
      "a": [
-      "",
-      ""
+      "Nicole Nelson",
+      "Stu Schwartz"
      ]
     },
     {
@@ -30657,8 +30686,12 @@
       "Pedro Oliveira"
      ],
      "a": [
-      "",
-      ""
+      "Jennifer Liss",
+      "Derek Manwaring"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -30668,8 +30701,8 @@
       "Gary Grzankowski"
      ],
      "a": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Garry Wright"
      ]
     },
     {
@@ -30679,8 +30712,8 @@
       "Herald Barber"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Joe Chin"
      ]
     },
     {
@@ -30690,8 +30723,8 @@
       "Judy Brougham"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Nicole Nelson"
      ],
      "hSub": [
       0,
@@ -30705,8 +30738,8 @@
       "Izabel Illipronti"
      ],
      "a": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Maricel Pineda"
      ]
     },
     {
@@ -30716,8 +30749,8 @@
       "Stephen Stasiulewicz"
      ],
      "a": [
-      "",
-      ""
+      "Garry Wright",
+      "Zhaohui Li"
      ]
     },
     {
@@ -30727,8 +30760,8 @@
       "Bin Li"
      ],
      "a": [
-      "",
-      ""
+      "Derek Manwaring",
+      "Stu Schwartz"
      ],
      "hSub": [
       0,
@@ -30742,8 +30775,8 @@
       "Stephen Stasiulewicz"
      ],
      "a": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Garry Wright"
      ],
      "hSub": [
       1,
@@ -30757,8 +30790,8 @@
       "Herald Barber"
      ],
      "a": [
-      "",
-      ""
+      "Nicole Nelson",
+      "Zhaohui Li"
      ]
     },
     {
@@ -30768,8 +30801,8 @@
       "Gary Grzankowski"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Sergio Fasciano"
      ]
     },
     {
@@ -30779,34 +30812,42 @@
       "Bin Li"
      ],
      "a": [
-      "",
-      ""
+      "Jennifer Liss",
+      "Joe Chin"
      ],
      "hSub": [
       0,
       1
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
       "Margaret Bayse",
-      "Nan Feng"
+      "Shobana Ravishankar"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Nicole Nelson"
      ]
     },
     {
      "t": "female",
      "h": [
       "Izabel Illipronti",
-      "Shobana Ravishankar"
+      "Nan Feng"
      ],
      "a": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Jennifer Liss"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -30816,8 +30857,8 @@
       "Gary Grzankowski"
      ],
      "a": [
-      "",
-      ""
+      "Sergio Fasciano",
+      "Joe Chin"
      ]
     },
     {
@@ -30827,8 +30868,8 @@
       "Pedro Oliveira"
      ],
      "a": [
-      "",
-      ""
+      "Garry Wright",
+      "Stu Schwartz"
      ]
     },
     {
@@ -30838,8 +30879,8 @@
       "Stephen Stasiulewicz"
      ],
      "a": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Joe Chin"
      ]
     },
     {
@@ -30849,12 +30890,16 @@
       "Bin Li"
      ],
      "a": [
-      "",
-      ""
+      "Jennifer Liss",
+      "Derek Manwaring"
      ],
      "hSub": [
       1,
       1
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -30864,8 +30909,8 @@
       "Stephen Levitt"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Zhaohui Li"
      ]
     },
     {
@@ -30875,32 +30920,36 @@
       "Pedro Oliveira"
      ],
      "a": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Sergio Fasciano"
      ]
     },
     {
      "t": "female",
      "h": [
       "Nan Feng",
-      "Ting Chen"
+      "Judy Brougham"
      ],
      "a": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Nicole Nelson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
       "Margaret Bayse",
-      "Judy Brougham"
+      "Ting Chen"
      ],
      "a": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Jennifer Liss"
      ],
-     "hSub": [
+     "aSub": [
       0,
       1
      ]
@@ -30912,8 +30961,8 @@
       "Gary Grzankowski"
      ],
      "a": [
-      "",
-      ""
+      "Derek Manwaring",
+      "Sergio Fasciano"
      ]
     },
     {
@@ -30923,8 +30972,8 @@
       "Bin Li"
      ],
      "a": [
-      "",
-      ""
+      "Garry Wright",
+      "Zhaohui Li"
      ],
      "hSub": [
       0,
@@ -30938,30 +30987,30 @@
       "Stephen Levitt"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Joe Chin"
      ]
     },
     {
      "t": "mixed",
      "h": [
       "Nan Feng",
-      "Gary Grzankowski"
+      "Pedro Oliveira"
      ],
      "a": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Derek Manwaring"
      ]
     },
     {
      "t": "mixed",
      "h": [
       "Shobana Ravishankar",
-      "Pedro Oliveira"
+      "Gary Grzankowski"
      ],
      "a": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Stu Schwartz"
      ]
     },
     {
@@ -30971,8 +31020,8 @@
       "Herald Barber"
      ],
      "a": [
-      "",
-      ""
+      "Nicole Nelson",
+      "Garry Wright"
      ]
     },
     {
@@ -30982,8 +31031,8 @@
       "Judy Brougham"
      ],
      "a": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Nicole Nelson"
      ],
      "hSub": [
       0,
@@ -30997,8 +31046,8 @@
       "Shobana Ravishankar"
      ],
      "a": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Maricel Pineda"
      ]
     },
     {
@@ -31008,8 +31057,8 @@
       "Stephen Stasiulewicz"
      ],
      "a": [
-      "",
-      ""
+      "Zhaohui Li",
+      "Sergio Fasciano"
      ]
     },
     {
@@ -31019,8 +31068,8 @@
       "Bin Li"
      ],
      "a": [
-      "",
-      ""
+      "Derek Manwaring",
+      "Stu Schwartz"
      ],
      "hSub": [
       0,
@@ -31301,17 +31350,6 @@
      "t": "mixed",
      "h": [
       "Nan Feng",
-      "Gary Grzankowski"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Izabel Illipronti",
       "Madan P"
      ],
      "a": [
@@ -31321,6 +31359,17 @@
      "hSub": [
       0,
       1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Izabel Illipronti",
+      "Gary Grzankowski"
+     ],
+     "a": [
+      "",
+      ""
      ]
     },
     {
@@ -31353,7 +31402,7 @@
      "t": "female",
      "h": [
       "Nan Feng",
-      "Ting Chen"
+      "Shobana Ravishankar"
      ],
      "a": [
       "",
@@ -31363,7 +31412,7 @@
     {
      "t": "female",
      "h": [
-      "Shobana Ravishankar",
+      "Izabel Illipronti",
       "Margaret Bayse"
      ],
      "a": [
@@ -31437,7 +31486,7 @@
     {
      "t": "mixed",
      "h": [
-      "Margaret Bayse",
+      "Nan Feng",
       "Chris Shung"
      ],
      "a": [
@@ -31463,8 +31512,8 @@
     {
      "t": "female",
      "h": [
-      "Nan Feng",
-      "Izabel Illipronti"
+      "Ting Chen",
+      "Margaret Bayse"
      ],
      "a": [
       "",
@@ -32141,7 +32190,6 @@
   "Denise Werner": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
   "Lisa Blaber": "6202ab1c-d9ee-46e0-8020-c19f73658e3c",
   "Christine Algozo": "67afa47c-0543-4eb0-a949-fd28b870d20c",
-  "Jennifer Liss": "6da2022e-df04-471b-b640-65324174a368",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
@@ -32162,7 +32210,7 @@
   "matchesPlayed": 36,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 382,
+  "totalPlayers": 383,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -32268,7 +32316,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T15:52:17.180Z";
+  DATA.meta.asOf = "2026-09-23T20:55:50.549Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -9418,7 +9418,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 369,
+   "leagueRank": 370,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9476,7 +9476,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 387,
+   "leagueRank": 388,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9563,7 +9563,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 386,
+   "leagueRank": 387,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9592,7 +9592,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 397,
+   "leagueRank": 398,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9708,7 +9708,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 379,
+   "leagueRank": 380,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9766,7 +9766,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 371,
+   "leagueRank": 372,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -29365,7 +29365,6 @@
    "away": "Pickleball HQ",
    "time": "2026-09-21T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 637,
    "awayPoints": 586,
    "homeGW": 19,
@@ -29821,9 +29820,9 @@
     }
    ],
    "subs": [
+    "Mark Wenstrom",
     "Gene Stahl",
     "Agnieszka Procner",
-    "Mark Wenstrom",
     "Tom Dominczyk"
    ]
   },
@@ -34866,11 +34865,12 @@
   "Vineet Agarwala": "f160fd0d-11cd-4dd5-865b-0c92d2583949",
   "Brian Criscuolo": "f59307d0-0495-421c-8cee-28c2e2b56bcf",
   "Nina Donnelly": "fd9de335-6ef4-48c0-82ac-c1e618f5f062",
-  "Laura Peng": "fee0899c-870f-49f7-b07b-d34ed516a9f9"
+  "Laura Peng": "fee0899c-870f-49f7-b07b-d34ed516a9f9",
+  "Natalia Maciejewicz": "ffd29340-40ba-4a85-a922-f93075d9b0df"
  },
  "meta": {
   "matchesPlayed": 41,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-5",
   "totalPlayers": 354,
   "ratingHistoryWeeks": [
@@ -34989,7 +34989,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T15:49:44.220Z";
+  DATA.meta.asOf = "2026-09-23T20:53:35.449Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

@@ -115,11 +115,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -177,11 +173,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -1430,11 +1422,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Green",
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": "Flemington Green"
    },
    {
     "wk": 2,
@@ -1450,11 +1438,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Green",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Flemington Green"
    },
    {
     "wk": 2,
@@ -2473,7 +2457,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Roe Palermo",
      "Sabrina Trunzo Dinkle"
@@ -2494,7 +2478,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Suzanne Leon",
      "Linda Iacono"
@@ -3179,7 +3163,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -3196,11 +3180,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -3585,11 +3565,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -3624,7 +3600,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -3642,11 +3618,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -3682,11 +3654,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -4342,11 +4310,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -4410,11 +4374,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 3,
@@ -5828,8 +5788,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 4,
@@ -5855,8 +5815,8 @@
     "teamRes": "W",
     "teamGW": 29,
     "teamGL": 3,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -5873,8 +5833,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -5889,8 +5849,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -5906,8 +5866,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -5923,8 +5883,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -5940,8 +5900,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -5956,8 +5916,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -5972,8 +5932,8 @@
     "a": 22,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -5988,8 +5948,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -6004,8 +5964,8 @@
     "a": 3,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -6020,14 +5980,14 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Dawn Dalessio",
      "Sally Sitro"
@@ -6036,15 +5996,15 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Denise Bonagura",
      "Sabrina Trunzo Dinkle"
@@ -6053,8 +6013,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -6070,8 +6030,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -6086,8 +6046,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -6986,8 +6946,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -7003,8 +6962,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -7319,8 +7277,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -7336,8 +7293,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -7375,7 +7331,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Suzanne Leon",
      "Denise Bonagura"
@@ -7392,7 +7348,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Suzanne Leon",
      "Sally Sitro"
@@ -7639,7 +7595,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -7970,7 +7926,7 @@
    }
   ]
  },
- "3cf3093b-1667-4242-9ad5-1d72fc5d24f8": {
+ "6764cb03-b6a2-4b85-95c7-f6ab7d00f203": {
   "log": [
    {
     "week": 4,
@@ -8091,8 +8047,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 4,
@@ -8108,8 +8063,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 4,
@@ -8226,7 +8180,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Stacey Cohen",
      "Suzanne Leon"
@@ -8243,7 +8197,7 @@
     "wk": 4,
     "opp": "Premiere",
     "t": "female",
-    "with": "Paula Ro",
+    "with": "Megan Curren",
     "vs": [
      "Stacey Cohen",
      "Roe Palermo"
@@ -16089,7 +16043,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -21781,8 +21735,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -21916,8 +21869,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -28334,8 +28286,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -28351,8 +28302,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -28401,7 +28351,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -28688,8 +28637,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -28705,8 +28653,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -33452,8 +33399,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 3,
@@ -34560,8 +34506,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 2,
@@ -34597,8 +34542,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 2,
@@ -40051,11 +39995,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -40074,7 +40014,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -41028,7 +40968,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -41607,7 +41547,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -41696,11 +41636,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 3,
@@ -42475,8 +42411,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -42524,8 +42459,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 3,
@@ -42671,8 +42605,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -42688,8 +42621,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -42993,11 +42925,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -43752,7 +43680,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -45113,7 +45041,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -45593,7 +45520,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -45614,7 +45541,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -45647,11 +45574,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -45667,11 +45590,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 3,
@@ -46220,11 +46139,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -46250,7 +46165,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Jaime Luongo",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 21,
     "a": 19,
@@ -46270,7 +46185,7 @@
     "with": "Roe Palermo",
     "vs": [
      "Jaime Luongo",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 21,
     "a": 10,
@@ -47294,7 +47209,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -47865,7 +47780,7 @@
     "with": "Sabrina Trunzo Dinkle",
     "vs": [
      "Josephine Catanzaro",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 15,
     "a": 21,
@@ -47921,7 +47836,7 @@
     "with": "Stacey Cohen",
     "vs": [
      "Jaime Luongo",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 21,
     "a": 10,
@@ -48557,11 +48472,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -48579,7 +48490,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -48617,11 +48528,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -49039,11 +48946,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -49079,11 +48982,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -50479,11 +50378,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 3,
@@ -50937,11 +50832,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -50950,7 +50841,7 @@
     "with": "Linda Iacono",
     "vs": [
      "Josephine Catanzaro",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 10,
     "a": 21,
@@ -50970,7 +50861,7 @@
     "with": "Stacey Cohen",
     "vs": [
      "Jaime Luongo",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 21,
     "a": 19,
@@ -51043,7 +50934,7 @@
     "with": "Denise Bonagura",
     "vs": [
      "Sushma Rayapudi",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 9,
     "a": 21,
@@ -51063,7 +50954,7 @@
     "with": "Sally Sitro",
     "vs": [
      "Sushma Rayapudi",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 7,
     "a": 21,
@@ -51244,7 +51135,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -52383,7 +52274,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -52858,8 +52749,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -52885,8 +52776,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -52903,8 +52794,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -52920,8 +52811,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -52936,8 +52827,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -52953,8 +52844,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -52969,8 +52860,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -52986,8 +52877,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -53002,8 +52893,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -53018,8 +52909,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -53034,8 +52925,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -53051,8 +52942,8 @@
     "a": 23,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -53071,8 +52962,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -53091,8 +52982,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -53423,8 +53314,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 2,
@@ -53440,8 +53330,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 2,
@@ -54190,7 +54079,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Josephine Catanzaro",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 10,
     "a": 21,
@@ -54862,11 +54751,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -54914,11 +54799,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -55625,7 +55506,7 @@
     "with": "Roe Palermo",
     "vs": [
      "Josephine Catanzaro",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 15,
     "a": 21,
@@ -55653,11 +55534,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -55723,7 +55600,7 @@
     "with": "Denise Bonagura",
     "vs": [
      "Kim Allaga",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 17,
     "a": 21,
@@ -55732,7 +55609,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -55770,11 +55647,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -55895,8 +55768,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 1,
@@ -56442,8 +56314,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 1,
@@ -56475,8 +56346,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 1,
@@ -57707,11 +57577,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -57720,7 +57586,7 @@
     "with": "Dawn Dalessio",
     "vs": [
      "Kim Allaga",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 9,
     "a": 21,
@@ -57729,7 +57595,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -57768,11 +57634,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -57781,7 +57643,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Sushma Rayapudi",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 7,
     "a": 21,
@@ -58661,11 +58523,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -58681,11 +58539,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -58710,7 +58564,7 @@
     "with": "Sally Sitro",
     "vs": [
      "Kim Allaga",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 9,
     "a": 21,
@@ -58719,7 +58573,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -58753,11 +58607,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -59337,11 +59187,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -59357,11 +59203,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -59386,7 +59228,7 @@
     "with": "Sabrina Trunzo Dinkle",
     "vs": [
      "Kim Allaga",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 17,
     "a": 21,
@@ -59395,7 +59237,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -59406,7 +59248,7 @@
     "with": "Suzanne Leon",
     "vs": [
      "Sushma Rayapudi",
-     "Paula Ro"
+     "Megan Curren"
     ],
     "f": 9,
     "a": 21,
@@ -59433,11 +59275,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [

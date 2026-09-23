@@ -2787,7 +2787,7 @@
     "duprRating": "3.176",
     "duprNumericId": 5844720189,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-09"
   },
   {
     "playerId": "1872d8d8-f958-4747-af3a-443d5f88a1c3",
@@ -7261,13 +7261,13 @@
   },
   {
     "playerId": "ffd29340-40ba-4a85-a922-f93075d9b0df",
-    "firstName": "Natalia ",
-    "lastName": "Maciejewicz ",
+    "firstName": "Natalia",
+    "lastName": "Maciejewicz",
     "dupr": "Q9X664",
     "duprRating": "2.551",
     "duprNumericId": 4595297245,
     "duprProvisional": false,
-    "lastSeen": "2026-08-31"
+    "lastSeen": "2026-09"
   },
   {
     "playerId": "91fa0505-9e84-4deb-b11a-a42e6c55696c",
@@ -34956,7 +34956,7 @@
     "lastName": "de Waal",
     "dupr": "KXO5EY",
     "duprRating": "3.255",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 6779855426,
     "duprProvisional": false
   },
@@ -44213,10 +44213,10 @@
   {
     "playerId": "6cdbf43a-33cf-4a69-9c4e-b8df71f208e6",
     "firstName": "Amy",
-    "lastName": "McChesney",
-    "dupr": "XJYEQ7",
+    "lastName": "Mcchesney",
+    "dupr": "RZXG9E",
     "duprRating": "3.423",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 4467548848,
     "duprProvisional": false
   },
@@ -46814,6 +46814,36 @@
     "duprRating": "3.870",
     "lastSeen": "2026-09",
     "duprNumericId": 5444336829,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "a759ff99-72ca-49f2-9128-906d86db8788",
+    "firstName": "Becca",
+    "lastName": "Naftoly",
+    "dupr": "7ZDN45",
+    "duprRating": "4.074",
+    "lastSeen": "2026-09",
+    "duprNumericId": 8465812969,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "12a884e9-e596-444c-8a0e-ed8cfa243232",
+    "firstName": "Jenny",
+    "lastName": "Tong",
+    "dupr": "XJK554",
+    "duprRating": "3.416",
+    "lastSeen": "2026-09",
+    "duprNumericId": 4312504967,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "6764cb03-b6a2-4b85-95c7-f6ab7d00f203",
+    "firstName": "Megan",
+    "lastName": "Curren",
+    "dupr": "EXMMLJ",
+    "duprRating": "2.748",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6459592564,
     "duprProvisional": false
   }
 ]

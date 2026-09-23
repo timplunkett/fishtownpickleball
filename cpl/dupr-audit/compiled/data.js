@@ -7181,6 +7181,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jake Maske",
+   "playerId": "dae921b5-d9da-47cb-9f22-0b6863940dd5",
+   "team": "Montville",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "James Azarowicz",
    "playerId": "c22c2b8e-2758-4b56-b8e4-6758dc47a61d",
    "team": "Pickleball Palace Black",
@@ -10275,6 +10282,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Kim Allaga",
+   "playerId": "4986f918-309d-4d39-abde-336bc27ae79d",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Kim Barton",
    "playerId": "618ea8c2-7d45-4878-b110-9e8450a2e0e1",
    "team": "Monroe",
@@ -11472,6 +11486,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lynne Silber",
+   "playerId": "58252bb7-5aa1-4dbd-85ba-e7ccbc56d64c",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Lynne Walrod",
    "playerId": "779942b7-7f8c-45bd-ba33-9c07bd261d23",
    "team": "One Love",
@@ -11868,6 +11889,13 @@ window.DUPR_AUDIT = {
    "playerId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de",
    "team": "PickleRage Union County",
    "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Maritoni Agatep",
+   "playerId": "cb9b7db4-1854-4aba-93bd-2fc96f563e6c",
+   "team": "Home Court",
+   "slug": "a1413f3d",
    "gender": "Female"
   },
   {
@@ -14892,6 +14920,13 @@ window.DUPR_AUDIT = {
    "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
    "team": "Home Court",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Ricky Jutkiewicz",
+   "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
+   "team": "Home Court",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {

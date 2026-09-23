@@ -377,9 +377,9 @@
       "weekNumber": 5,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 637,
+      "awayPoints": 586,
+      "endResult": "home",
       "scheduledTime": "2026-09-21T19:00:00",
       "homeName": "Flemington",
       "awayName": "Pickleball HQ"

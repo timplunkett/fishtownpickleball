@@ -759,8 +759,8 @@
    "name": "Jake Maske",
    "gender": "Male",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 5,
@@ -7516,8 +7516,8 @@
    "name": "Maritoni Agatep",
    "gender": "Female",
    "team": "Home Court",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 2,
@@ -8096,8 +8096,8 @@
    "name": "Ricky Jutkiewicz",
    "gender": "Male",
    "team": "Home Court",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 4,
@@ -10317,7 +10317,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 422,
+   "leagueRank": 423,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10346,7 +10346,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 409,
+   "leagueRank": 410,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10462,7 +10462,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10491,7 +10491,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 428,
+   "leagueRank": 429,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10520,7 +10520,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 418,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10549,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 423,
+   "leagueRank": 424,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10665,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 415,
+   "leagueRank": 416,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10723,7 +10723,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 432,
+   "leagueRank": 433,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10752,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 429,
+   "leagueRank": 430,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 425,
+   "leagueRank": 426,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10926,13 +10926,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 435,
+   "leagueRank": 436,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "30c66392-1494-4e99-a538-b3f06dda6681"
+  },
+  {
+   "name": "Bryan Mccourt",
+   "gender": "Male",
+   "team": "Home Court",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 405,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa"
   },
   {
    "name": "Timothy Vorhauer",
@@ -17486,8 +17515,7 @@
     }
    ],
    "subs": [
-    "Malek Weiner",
-    "Ricky Jutkiewicz"
+    "Malek Weiner"
    ]
   },
   {
@@ -19346,9 +19374,7 @@
      ]
     }
    ],
-   "subs": [
-    "Jake Maske"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -24463,10 +24489,7 @@
      ]
     }
    ],
-   "subs": [
-    "Ricky Jutkiewicz",
-    "Maritoni Agatep"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -38144,10 +38167,6 @@
      "a": [
       "Maritoni Agatep",
       "Phil Mania"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -38169,11 +38188,7 @@
      ],
      "a": [
       "Kristy Detore",
-      "Malek Weiner"
-     ],
-     "aSub": [
-      0,
-      1
+      "Ricky Jutkiewicz"
      ]
     },
     {
@@ -38196,10 +38211,6 @@
      "a": [
       "Kristy Detore",
       "Maritoni Agatep"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -38209,12 +38220,8 @@
       ""
      ],
      "a": [
-      "Malek Weiner",
+      "Ricky Jutkiewicz",
       "Kevin Sheehan"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -38270,10 +38277,6 @@
      "a": [
       "Maritoni Agatep",
       "Jacob Yoo"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -38316,12 +38319,8 @@
       ""
      ],
      "a": [
-      "Malek Weiner",
+      "Ricky Jutkiewicz",
       "Kevin Sheehan"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -38355,10 +38354,6 @@
      "a": [
       "Maritoni Agatep",
       "Phil Mania"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -38369,11 +38364,7 @@
      ],
      "a": [
       "Lian Odonnell",
-      "Malek Weiner"
-     ],
-     "aSub": [
-      0,
-      1
+      "Ricky Jutkiewicz"
      ]
     },
     {
@@ -38396,10 +38387,6 @@
      "a": [
       "Lian Odonnell",
       "Maritoni Agatep"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -38421,11 +38408,7 @@
      ],
      "a": [
       "Phil Mania",
-      "Malek Weiner"
-     ],
-     "aSub": [
-      0,
-      1
+      "Ricky Jutkiewicz"
      ]
     },
     {
@@ -38448,10 +38431,6 @@
      "a": [
       "Maritoni Agatep",
       "Marc Kunesch"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -38473,11 +38452,7 @@
      ],
      "a": [
       "Lian Odonnell",
-      "Malek Weiner"
-     ],
-     "aSub": [
-      0,
-      1
+      "Ricky Jutkiewicz"
      ]
     },
     {
@@ -38500,10 +38475,6 @@
      "a": [
       "Nicole Niver",
       "Maritoni Agatep"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -38541,8 +38512,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Campbell",
+      "Rohan Sabharwal"
      ],
      "a": [
       "Ashlee Novelli",
@@ -38552,8 +38523,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joyce Yu",
+      "Al Mancini"
      ],
      "a": [
       "Laura Sweet",
@@ -38563,8 +38534,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizz Dunn",
+      "Gage Cvijic"
      ],
      "a": [
       "Taylor Lambe",
@@ -38574,8 +38545,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Bianca Previdi",
@@ -38585,8 +38556,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Joyce Yu"
      ],
      "a": [
       "Bianca Previdi",
@@ -38596,8 +38567,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alicia Campbell",
+      "Stephany Venuto"
      ],
      "a": [
       "Taylor Lambe",
@@ -38607,8 +38578,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Venuto",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Nhan Duong",
@@ -38618,8 +38589,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gage Cvijic",
+      "Al Mancini"
      ],
      "a": [
       "Eric Padernilla",
@@ -38629,8 +38600,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Gage Cvijic"
      ],
      "a": [
       "Janelle Donnian",
@@ -38640,8 +38611,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizz Dunn",
+      "Rohan Sabharwal"
      ],
      "a": [
       "Taylor Lambe",
@@ -38651,8 +38622,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephany Venuto",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Bianca Previdi",
@@ -38662,8 +38633,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Campbell",
+      "Al Mancini"
      ],
      "a": [
       "Laura Sweet",
@@ -38673,8 +38644,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joyce Yu",
+      "Lizz Dunn"
      ],
      "a": [
       "Laura Sweet",
@@ -38684,8 +38655,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Stephany Venuto"
      ],
      "a": [
       "Taylor Lambe",
@@ -38695,8 +38666,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohan Sabharwal",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -38706,8 +38677,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gage Cvijic",
+      "Christopher Venuto"
      ],
      "a": [
       "Eric Padernilla",
@@ -38717,8 +38688,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Ashlee Novelli",
@@ -38728,8 +38699,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephany Venuto",
+      "Christopher Venuto"
      ],
      "a": [
       "Janelle Donnian",
@@ -38739,8 +38710,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joyce Yu",
+      "Gage Cvijic"
      ],
      "a": [
       "Bianca Previdi",
@@ -38750,8 +38721,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Campbell",
+      "Al Mancini"
      ],
      "a": [
       "Laura Sweet",
@@ -38761,8 +38732,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Joyce Yu"
      ],
      "a": [
       "Bianca Previdi",
@@ -38772,8 +38743,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lizz Dunn",
+      "Alicia Campbell"
      ],
      "a": [
       "Ashlee Novelli",
@@ -38783,8 +38754,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gage Cvijic",
+      "Al Mancini"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -38794,8 +38765,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohan Sabharwal",
+      "Christopher Venuto"
      ],
      "a": [
       "Eric Padernilla",
@@ -38805,8 +38776,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephany Venuto",
+      "Christopher Venuto"
      ],
      "a": [
       "Janelle Donnian",
@@ -38816,8 +38787,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Rohan Sabharwal"
      ],
      "a": [
       "Taylor Lambe",
@@ -38827,8 +38798,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joyce Yu",
+      "Gage Cvijic"
      ],
      "a": [
       "Bianca Previdi",
@@ -38838,8 +38809,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Campbell",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Laura Sweet",
@@ -38849,8 +38820,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lizz Dunn",
+      "Joyce Yu"
      ],
      "a": [
       "Ashlee Novelli",
@@ -38860,8 +38831,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caitlin Hall",
+      "Stephany Venuto"
      ],
      "a": [
       "Bianca Previdi",
@@ -38871,8 +38842,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Venuto",
+      "Al Mancini"
      ],
      "a": [
       "Eric Padernilla",
@@ -38882,8 +38853,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohan Sabharwal",
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Nhan Duong",
@@ -39284,7 +39255,393 @@
    "home": "Pickleball Kingdom Watchung",
    "away": "Home Court",
    "time": "2026-09-26T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maritoni Agatep",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lian Odonnell",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Kathy Behrmann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lian Odonnell",
+      "Maritoni Agatep"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sheehan",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marc Kunesch",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maritoni Agatep",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lian Odonnell",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Maritoni Agatep"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Lian Odonnell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sheehan",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maritoni Agatep",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lian Odonnell",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Lian Odonnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Maritoni Agatep"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sheehan",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yoo",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Bryan Mccourt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maritoni Agatep",
+      "Marc Kunesch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lian Odonnell",
+      "Kevin Sheehan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Siu",
+      "Kathy Behrmann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maritoni Agatep",
+      "Lian Odonnell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sheehan",
+      "Jacob Yoo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bryan Mccourt",
+      "Marc Kunesch"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -39983,11 +40340,11 @@
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
   "Bryan Tsang": "63cd3df2-bdd8-4e38-b449-653b71e10ff4",
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
-  "Bryan Mccourt": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
   "Chase Pac": "76874590-6501-40f8-ab24-7df0fb631c71",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Lauren Mammano": "8d896637-2c2a-4541-9155-257bf5a37055",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
+  "Becca Naftoly": "a759ff99-72ca-49f2-9128-906d86db8788",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
   "Shyler Smith": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
   "Ian Karr": "acf05b71-fa40-494b-adca-d3c411d484a6",
@@ -40009,7 +40366,7 @@
   "matchesPlayed": 44,
   "provisionalMatches": 0,
   "weeks": "1-4",
-  "totalPlayers": 396,
+  "totalPlayers": 397,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -40131,7 +40488,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T02:32:34.970Z";
+  DATA.meta.asOf = "2026-09-23T20:54:09.355Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
