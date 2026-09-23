@@ -45800,9 +45800,11 @@
     "playerId": "82c36821-3add-4e98-90d1-486d4626372a",
     "firstName": "Suzanne",
     "lastName": "Bauer",
-    "dupr": "XXXXXX",
-    "duprRating": "missing",
-    "lastSeen": "2026-09"
+    "dupr": "2L02MR",
+    "lastSeen": "2026-09",
+    "duprRating": "3.415",
+    "duprNumericId": 6073276209,
+    "duprProvisional": false
   },
   {
     "playerId": "06c2eeea-6213-4e27-b45c-e9c0f89420cd",
