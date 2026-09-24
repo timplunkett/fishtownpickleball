@@ -274,7 +274,7 @@ concurrency group so they can never race each other's push.
 - **`.github/workflows/update-dupr.yml` — Update DUPR Ratings.** Manual
   (`workflow_dispatch`) only, no cron. Needs the `DUPR_ACCESS_TOKEN` secret.
 - **`.github/workflows/ci.yml` — CI.** Runs on pushes to `main` and on every
-  PR: lint, unit tests, and `npm run compile` as a smoke test.
+  PR: lint, unit tests, and `npm run compile -- --full` as a smoke test.
 
 ## Verifying a change
 
@@ -286,16 +286,26 @@ npm run compile          # offline smoke test — must succeed
 bundle exec jekyll build # the Jekyll site itself
 ```
 
-Run all four before pushing; CI runs the first three.
+Run all four before pushing; CI runs the first three (with `-- --full`, below).
 
-A pre-push hook (`.githooks/pre-push`) also runs `npm run compile` and
-checks `cpl/` for drift automatically whenever a push includes commits that
-touch `_cpl/` or the generated part of `cpl/` — the same check CI does, just
-before the push instead of after. It runs once per push rather than once per
-commit, so a string of WIP commits isn't slowed down until you actually push.
-It's enabled by the `prepare` npm script, so it activates on `npm install`; to
-turn it on without reinstalling, run `git config core.hooksPath .githooks`
-once.
+`npm run compile` defaults to recompiling only the divisions whose cached
+`_cpl/data*/` inputs (or the compiler code itself — `_cpl/modules/incremental.js`
+tracks both) changed since the last time it ran locally, using a small cache at
+`_cpl/.compile-cache.json` (gitignored, safe to delete any time — its absence
+just means the next compile treats everything as changed). Pass `--full` to
+ignore that cache and recompile every division in scope regardless, the way
+`npm run compile` always used to behave. CI and the pre-push hook always pass
+`--full`: their job is proving a *fresh* compile still matches what's
+committed, which an incremental run — by design — can't promise.
+
+A pre-push hook (`.githooks/pre-push`) also runs `npm run compile -- --full`
+and checks `cpl/` for drift automatically whenever a push includes commits
+that touch `_cpl/` or the generated part of `cpl/` — the same check CI does,
+just before the push instead of after. It runs once per push rather than once
+per commit, so a string of WIP commits isn't slowed down until you actually
+push. It's enabled by the `prepare` npm script, so it activates on
+`npm install`; to turn it on without reinstalling, run
+`git config core.hooksPath .githooks` once.
 
 "The generated part of `cpl/`" means anything under a `compiled/` directory,
 plus the two league/season `index.html` files that are generated but stay
@@ -314,6 +324,9 @@ under `_cpl/`/`cpl/` at all, is left alone.
 node _cpl/run-pipeline.js local --division=<slug>   # refetch + recompile
 node _cpl/compile.js local --division=<slug>        # recompile from cache only
 ```
+
+An explicit `--division=` always compiles, regardless of the incremental cache
+described above.
 
 Commit the resulting `cpl/` and `_cpl/data*/` changes.
 

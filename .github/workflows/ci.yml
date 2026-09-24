@@ -27,8 +27,13 @@ jobs:
       - name: Unit tests
         run: npm test
 
+      # --full: `npm run compile` defaults to skipping divisions whose cached
+      # inputs haven't changed since the last local compile (see
+      # _cpl/modules/incremental.js) — a speed-up with no meaning on a fresh CI
+      # checkout, and the drift check below needs a genuinely fresh compile to
+      # mean anything.
       - name: Compile from cached data (smoke test)
-        run: npm run compile
+        run: npm run compile -- --full
 
       # Recompiling and discarding the result only proved the compiler doesn't
       # crash. cpl/ is committed and served directly, so if it differs from what

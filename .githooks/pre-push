@@ -62,7 +62,13 @@ fi
 
 echo "pre-push: _cpl/ or generated cpl/ output changed in this push — recompiling to check for drift..."
 
-if ! npm run --silent compile; then
+# --full: `npm run compile` defaults to recompiling only divisions whose cached
+# inputs changed since the last local compile (see _cpl/modules/incremental.js),
+# which is exactly the wrong thing here — this check exists to prove a *fresh*
+# compile still matches what's committed, and an incremental run would happily
+# report no drift just because it skipped recompiling the very divisions whose
+# committed output has gone stale.
+if ! npm run --silent compile -- --full; then
   echo "" >&2
   echo "pre-push: 'npm run compile' failed — fix the error above before pushing." >&2
   exit 1

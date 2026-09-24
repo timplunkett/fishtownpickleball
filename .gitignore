@@ -8,3 +8,10 @@ vendor
 .bundle/
 node_modules/
 .env
+
+# Local speed-up cache for `npm run compile`'s incremental default (see
+# _cpl/modules/incremental.js) — safe to delete any time, and never meaningful
+# to commit: CI and the pre-push hook always compile with --full instead of
+# trusting it, and a stale checked-in copy would only mislead the next person's
+# machine.
+_cpl/.compile-cache.json
