@@ -289,18 +289,6 @@
       "awayName": "Premiere"
     },
     {
-      "matchupId": "5f4066e0-0aeb-4d71-921f-f20bd29e7307",
-      "weekNumber": 5,
-      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T12:00:00",
-      "homeName": "Monroe",
-      "awayName": "Jersey Pickleball Club"
-    },
-    {
       "matchupId": "b2a15965-4ab8-4099-ad0f-6394b1d7627d",
       "weekNumber": 5,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
@@ -419,6 +407,18 @@
       "scheduledTime": "2026-09-28T19:30:00",
       "homeName": "ACE Moorestown",
       "awayName": "Jersey Devil"
+    },
+    {
+      "matchupId": "5f4066e0-0aeb-4d71-921f-f20bd29e7307",
+      "weekNumber": 6,
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-09-30T19:30:00",
+      "homeName": "Monroe",
+      "awayName": "Jersey Pickleball Club"
     },
     {
       "matchupId": "658d2847-d8d6-4cb9-85cf-4faff476132e",

@@ -671,9 +671,9 @@
   {
    "name": "Christine Ostapiak",
    "gender": "Female",
-   "team": "Pickleball Palace Black",
-   "matches": 0,
-   "outsideSub": true,
+   "team": "Pickleball Palace Blue",
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 12,
@@ -689,7 +689,7 @@
    "winPct": 85.7,
    "diff": 50,
    "ppg": 20.5,
-   "leagueRank": 90,
+   "leagueRank": 105,
    "rating": 0,
    "ratingGames": 14,
    "confidence": 69,
@@ -11025,9 +11025,9 @@
    "name": "Karen Mcbride",
    "gender": "Female",
    "team": "Dill Dinkers Newport",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": true,
    "gamesPlayed": 12,
    "wins": 2,
    "losses": 10,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 457,
+   "leagueRank": 461,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 474,
+   "leagueRank": 480,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 498,
+   "leagueRank": 508,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11796,7 +11796,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 511,
+   "leagueRank": 523,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11825,7 +11825,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 510,
+   "leagueRank": 522,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11854,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 503,
+   "leagueRank": 514,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11883,7 +11883,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 464,
+   "leagueRank": 468,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11912,7 +11912,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 481,
+   "leagueRank": 489,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11941,7 +11941,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 519,
+   "leagueRank": 531,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11970,7 +11970,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 475,
+   "leagueRank": 483,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11999,7 +11999,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 462,
+   "leagueRank": 466,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12028,7 +12028,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 516,
+   "leagueRank": 528,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12057,7 +12057,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 518,
+   "leagueRank": 530,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12086,7 +12086,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 463,
+   "leagueRank": 467,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12115,7 +12115,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 499,
+   "leagueRank": 509,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12144,7 +12144,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 524,
+   "leagueRank": 537,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12173,7 +12173,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 500,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12202,7 +12202,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 456,
+   "leagueRank": 460,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12231,7 +12231,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 484,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12260,7 +12260,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 495,
+   "leagueRank": 505,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12289,7 +12289,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 496,
+   "leagueRank": 506,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12318,7 +12318,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 508,
+   "leagueRank": 520,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12347,7 +12347,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 472,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 517,
+   "leagueRank": 529,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,13 +12405,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 505,
+   "leagueRank": 516,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
+  },
+  {
+   "name": "Lynn Bresnahan",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 462,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
   },
   {
    "name": "James Xiong",
@@ -13403,8 +13432,8 @@
    "name": "Angela Chen",
    "gender": "Female",
    "team": "Allstar Pickler",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 0,
@@ -13731,7 +13760,7 @@
    "gl": 20,
    "diff": 517,
    "gameDiff": 56,
-   "power": 1.4,
+   "power": 1.5,
    "powerRank": 1,
    "pod": 2,
    "reportedPod": "Northwest",
@@ -21419,7 +21448,6 @@
     }
    ],
    "subs": [
-    "Angela Chen",
     "Buyi Zhang",
     "Feng Zhang",
     "George Zhou",
@@ -23747,9 +23775,7 @@
      ]
     }
    ],
-   "subs": [
-    "Karen Mcbride"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -24222,8 +24248,7 @@
     "John Cusano",
     "Cheryl Minerowicz",
     "Robert Shea",
-    "Christine Levesque",
-    "Christine Ostapiak"
+    "Christine Levesque"
    ]
   },
   {
@@ -34025,9 +34050,7 @@
      ]
     }
    ],
-   "subs": [
-    "Karen Mcbride"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -36824,7 +36847,6 @@
     }
    ],
    "subs": [
-    "Angela Chen",
     "Alan Fang",
     "Richard Tang",
     "Allen Wang"
@@ -36900,7 +36922,409 @@
    "home": "Forward",
    "away": "Players Courtyard",
    "time": "2026-09-26T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Michael Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Bresnahan",
+      "Craig Mehnert"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Lynn Bresnahan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Elisa Riesenbach"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Mehnert",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "Michael Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Michael Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisa Riesenbach",
+      "Edward Verish"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Bresnahan",
+      "Frank Choi"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Xiaojun Yuan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisa Riesenbach",
+      "Danya George"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Ross",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Verish",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Bresnahan",
+      "Frank Choi"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisa Riesenbach",
+      "Joseph Koerner"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Danya George"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Bresnahan",
+      "Suzanne Garcia"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Verish",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elisa Riesenbach",
+      "Joseph Koerner"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Bresnahan",
+      "Craig Mehnert"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Bresnahan",
+      "Suzanne Garcia"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Xiaojun Yuan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Koerner",
+      "Edward Verish"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -36908,7 +37332,361 @@
    "home": "Flemington Blue",
    "away": "Mercer Bucks",
    "time": "2026-09-26T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Jean Knab"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gregg Downs",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Tami Mohney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Cheryl Tarby"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gregg Downs",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Margulies",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Tracy Leahy"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Cheryl Tarby"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gregg Downs",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joe Miller",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Jean Knab"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gregg Downs",
+      "Jerry Margulies"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -36996,15 +37774,361 @@
    "home": "Premiere Dinkers",
    "away": "Mercer Bucks",
    "time": "2026-09-27T17:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
-   "home": "Pickleball Kingdom Hamilton Strikers",
-   "away": "Life Time Red Bank",
-   "time": "2026-09-27T18:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Lisa Angelini"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Margulies",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Jean Knab"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gregg Downs",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Lisa Angelini"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Cheryl Tarby"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Belmont",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Joe Miller"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Jean Knab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gregg Downs",
+      "Jason Belmont"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -37204,6 +38328,14 @@
    "home": "Jersey Devil",
    "away": "Dill Dinkers Newport",
    "time": "2026-10-10T15:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 8,
+   "home": "Pickleball Kingdom Hamilton Strikers",
+   "away": "Life Time Red Bank",
+   "time": "2026-10-11T12:00:00",
    "complete": false
   },
   {
@@ -37745,8 +38877,11 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Jodi De Waal": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
+  "Brett Wilson": "0442b5bc-7af7-4e95-acc1-08adc22cdb2e",
   "Feng Song": "04d8793a-fa03-4789-86fe-49b33eacbbea",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
+  "Suzanne Bauer": "129227bd-dad6-4c63-9d24-d3c6a34e9621",
   "Peter Lunarola": "12c54c90-1be8-4575-8714-11076f1a5758",
   "Linda Goss": "14e5edae-ff22-415b-8267-d46a2117ed8d",
   "Sara Hylan": "153fa815-ce9c-4c36-8fce-c525887f05b1",
@@ -37757,9 +38892,12 @@
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Jim Shih": "33e2962e-1f89-4317-9859-9191b4376a2c",
+  "April Danks": "37721720-7c72-44d7-bc7c-c73f62e2fb4b",
   "Ed Palek": "405bd830-a019-4631-98a5-212b6ffadaaa",
   "Beth Hyland": "45a2a93a-32a4-41a0-b270-ef17b9ff2391",
+  "Michael Altilio": "4e4e7aba-3b58-490c-a288-cb42f2fd1f74",
   "Ron Dodson": "4f3b5d69-09ea-4e93-b797-c772df1dd2f8",
+  "Nicholai Ola": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
   "Debra Crawford": "5c28285b-7837-4f7b-8841-c23b92fe26af",
   "Steve Brossok": "5caeabb2-cef2-4a5f-99dc-5b3636d1d09e",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
@@ -37772,10 +38910,14 @@
   "Neal Shipon": "7d298d79-0931-4682-8a6f-305e27d992b7",
   "Vincent Daversa": "80054c20-062f-4190-b268-c8e0e90d089a",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
+  "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
+  "Anthony Dejesse": "a05eff32-b5f1-479b-a823-d1c89922235e",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Barbara Brossok": "b1d99b73-dd73-4998-a310-0c6f0ed36b4b",
+  "Vincent Rizzo": "ba7888da-e110-406f-b2fd-4c1166dc28ed",
+  "Achilles Alon": "bba20fc9-f147-4875-af0c-0426a70c2b7a",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
@@ -37785,18 +38927,20 @@
   "Virgo Marjamaa": "d8d92449-f754-45b9-acf1-821822b1abb5",
   "Nipam Patel": "dadd5cb5-8165-44be-8553-8774bc0949e2",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
-  "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
+  "Joe Amendolara": "e014dcb5-a4a2-4cf6-8773-14fb13bf2c7b",
   "Norm Jones": "e25b79a2-a054-4642-a926-1499e0768832",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
   "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea",
   "Weiyong Sun": "f1189c90-cc36-40a6-91cb-ab1274e3b07a",
+  "Judi London": "f5a9ad03-1ba0-4048-b558-a5813164d067",
+  "Enza Cristino": "f8a02dac-93af-436d-bbab-f6b69803f19a",
   "Mike Yang": "fde88c4a-e006-4396-bc8a-92bf97916537"
  },
  "meta": {
   "matchesPlayed": 42,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 472,
+  "totalPlayers": 473,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -37918,7 +39062,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-21T22:29:54.520Z";
+  DATA.meta.asOf = "2026-09-24T04:40:29.041Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -757,18 +757,6 @@
       "awayName": "Mercer Bucks"
     },
     {
-      "matchupId": "8a4a25cc-86b1-42d7-898c-99aacdeecdff",
-      "weekNumber": 6,
-      "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
-      "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-27T18:00:00",
-      "homeName": "Pickleball Kingdom Hamilton Strikers",
-      "awayName": "Life Time Red Bank"
-    },
-    {
       "matchupId": "d7df754e-c6a9-48c6-a136-faa553ede129",
       "weekNumber": 6,
       "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
@@ -1067,6 +1055,18 @@
       "scheduledTime": "2026-10-10T15:00:00",
       "homeName": "Jersey Devil",
       "awayName": "Dill Dinkers Newport"
+    },
+    {
+      "matchupId": "8a4a25cc-86b1-42d7-898c-99aacdeecdff",
+      "weekNumber": 8,
+      "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
+      "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-11T12:00:00",
+      "homeName": "Pickleball Kingdom Hamilton Strikers",
+      "awayName": "Life Time Red Bank"
     },
     {
       "matchupId": "2011ca3a-afda-4a08-8b4e-a0daba0796e7",

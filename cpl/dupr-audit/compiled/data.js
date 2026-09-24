@@ -1273,6 +1273,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Angela Chen",
+   "playerId": "0eea8d08-e55e-40be-b1cd-4853b2fbb11d",
+   "team": "Allstar Pickler",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Angela Delconte",
    "playerId": "cb5b6c5a-8090-4d4d-bd56-941454023f77",
    "team": "Delco Turf & Pickle",
@@ -3363,6 +3370,13 @@ window.DUPR_AUDIT = {
    "playerId": "ee78e47f-84f7-4e9a-ba5c-04e7850650f5",
    "team": "Bounce Tempest",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Christine Ostapiak",
+   "playerId": "e5d63f22-5a18-4b5d-b916-61d59e17fc0d",
+   "team": "Pickleball Palace Blue",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {
@@ -9607,6 +9621,13 @@ window.DUPR_AUDIT = {
    "playerId": "53a84b91-acc8-4a27-a7e5-2081e1afcc98",
    "team": "Pickle Juice Blackwood",
    "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Karen Mcbride",
+   "playerId": "f86cfd40-dc38-4bc2-88b8-e0f4c4f5bc1a",
+   "team": "Dill Dinkers Newport",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {

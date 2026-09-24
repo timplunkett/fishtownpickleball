@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 172,
+   "leagueRank": 173,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 179,
+   "leagueRank": 181,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 180,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4923,7 +4923,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -18701,14 +18701,6 @@
   {
    "result": null,
    "week": 5,
-   "home": "Monroe",
-   "away": "Jersey Pickleball Club",
-   "time": "2026-09-26T12:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
    "home": "Pickleball Kingdom Watchung",
    "away": "Dill Dinkers Freehold",
    "time": "2026-09-26T12:00:00",
@@ -18784,6 +18776,14 @@
    "home": "ACE Moorestown",
    "away": "Jersey Devil",
    "time": "2026-09-28T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 6,
+   "home": "Monroe",
+   "away": "Jersey Pickleball Club",
+   "time": "2026-09-30T19:30:00",
    "complete": false
   },
   {
@@ -19137,12 +19137,14 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
+  "Ethan Henigan": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
   "Eric Jiang": "5a604f85-b8f8-4084-8636-d403530fd480",
   "Nicholas Yandoli": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Turney Hall": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
+  "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
  "meta": {
@@ -19240,7 +19242,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-22T20:43:43.027Z";
+  DATA.meta.asOf = "2026-09-24T04:42:56.469Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

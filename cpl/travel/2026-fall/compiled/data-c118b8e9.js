@@ -7359,7 +7359,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 273,
+   "leagueRank": 274,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7388,7 +7388,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7417,7 +7417,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 286,
+   "leagueRank": 287,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7446,7 +7446,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 275,
+   "leagueRank": 276,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -34874,6 +34874,7 @@
   "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
+  "Julian Edgren": "b979a109-08fd-4041-8da4-e306ef13330a",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
   "Jieping Wang": "c9088878-9755-4e32-abed-4a4e5a42f9a8",
   "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
@@ -34993,7 +34994,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T02:23:27.075Z";
+  DATA.meta.asOf = "2026-09-24T04:43:33.837Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -9476,7 +9476,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 388,
+   "leagueRank": 389,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9563,7 +9563,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 387,
+   "leagueRank": 388,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9592,7 +9592,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 398,
+   "leagueRank": 399,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9708,7 +9708,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 380,
+   "leagueRank": 381,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -34852,6 +34852,7 @@
   "Donna Stone": "af8a6e4b-f588-45db-906e-5766f1307e50",
   "Paul Sokolson": "b754b9dc-11ea-4958-8c14-0f667cc0f57e",
   "Sheila Curran": "bbb3cbbd-edc3-4fa6-adef-800076f97402",
+  "Jayne Mayer": "c6743f83-5947-4eec-aca8-f4f19b1e7a35",
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
   "Jennalee Fede": "d043b0ad-d33b-4f58-b605-709246b23c11",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
@@ -34989,7 +34990,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-23T20:53:35.449Z";
+  DATA.meta.asOf = "2026-09-24T04:39:49.706Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
