@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -23312,7 +23312,8 @@
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
-  "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021"
+  "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
+  "Garv Singhal": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a"
  },
  "meta": {
   "matchesPlayed": 28,
@@ -23405,7 +23406,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T15:54:40.824Z";
+  DATA.meta.asOf = "2026-09-24T16:12:11.171Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
