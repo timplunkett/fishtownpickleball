@@ -5416,7 +5416,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,7 +5590,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -23313,6 +23313,7 @@
   "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
+  "Kathy Behrmann": "c6c3c899-b824-4074-b683-ad755850747a",
   "Garv Singhal": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a"
  },
  "meta": {
@@ -23406,7 +23407,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T16:12:11.171Z";
+  DATA.meta.asOf = "2026-09-24T20:59:14.018Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -1,463 +1,5 @@
 (function () {
   const DETAILS = {
- "ab244dd7-ca2a-4e68-befd-b60c8fbad96f": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 74,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 89,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "PKLD",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 90,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     7,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Rani Borusu",
-     "Sushma Rayapudi"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Jeannine Calhoun",
-    "vs": [
-     "Kara Chubrik",
-     "Lynne Silber"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Rani Borusu",
-     "Beth Pardilla"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Sherry Sili",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Eileen Clark",
-     "Lynne Silber"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Lynda Levan",
-    "vs": [
-     "Nikki Nigro",
-     "Rani Borusu"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jeannine Calhoun",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Joanne Rim"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Hope Lo"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Hope Lo",
-     "Joanne Rim"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Janice Aliberti",
-    "vs": [
-     "Jess Cox",
-     "Theresa Corderi"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jeannine Calhoun",
-    "vs": [
-     "Theresa Corderi",
-     "Ly Kim"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Grace Brennan",
-    "vs": [
-     "Olga Kim",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Linda Seemann",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Linda Johns",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jamie Levin",
-    "vs": [
-     "Jasmine Ho",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Annette Marsh",
-    "vs": [
-     "Kayla Gipson",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Lynda Levan",
-    "vs": [
-     "Marina Volpe",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Olga Kim",
-     "Linda Seemann"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 3.9,
-    "confidence": 52,
-    "rank": 1,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 5,
-    "confidence": 69,
-    "rank": 1,
-    "ratingGames": 12,
-    "strengthOfPartners": 2.6,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 5.1,
-    "confidence": 79,
-    "rank": 1,
-    "ratingGames": 19,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "201e264e-23da-435d-a4b5-0fea908d1098",
-    "name": "Susan Goeckeler",
-    "n": 4,
-    "synergy": 0.6
-   },
-   {
-    "pid": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
-    "name": "Jeannine Calhoun",
-    "n": 3,
-    "synergy": 0.5
-   },
-   {
-    "pid": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
-    "name": "Tammy Dragon",
-    "n": 3,
-    "synergy": 0.4
-   }
-  ]
- },
  "b466c6a0-1ec9-4148-819b-972cc37ca5ec": {
   "log": [
    {
@@ -678,21 +220,32 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -3.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.4,
+    "confidence": 62,
+    "rank": 22,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -3
    }
   ],
   "partners": []
  },
- "3e72d2ad-b218-4f3e-b362-4286543ac449": {
+ "818811e5-0eb6-4611-8ac3-f65c10316305": {
   "log": [
    {
-    "week": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
     "w": 5,
     "l": 0,
     "gp": 5,
     "pf": 105,
-    "pa": 70,
+    "pa": 55,
     "mx": [
      0,
      0
@@ -706,37 +259,197 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Tinton Falls"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jeanmarie Farkouh",
+    "vs": [
+     "Dawn Dalessio",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Tinton Falls"
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Sally Sitro",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Tinton Falls"
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Stacey Cohen",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Tinton Falls"
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Diana Macri",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Tinton Falls"
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Stacey Cohen",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball Kingdom Tinton Falls"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1,
+    "confidence": 50,
+    "rank": 46,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -3.8
+   }
+  ],
+  "partners": []
+ },
+ "24c2ba9d-4af9-41c8-9a2c-ad9631349481": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 56,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 5,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Donna Finn",
+    "with": "Vanessa Tortorice",
     "vs": [
-     "Sandy Hess",
-     "Lynn Hauth"
+     "Dawn Dalessio",
+     "Sally Sitro"
     ],
     "f": 21,
-    "a": 14,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Denise Bonagura",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 10,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 5,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Wendi Wolanske",
+    "with": "Susana Palumbo",
     "vs": [
-     "Denise Stevens",
-     "Charlie Trapasso"
+     "Diana Macri",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Christine Pisapia",
+     "Sally Sitro"
     ],
     "f": 21,
     "a": 15,
@@ -746,48 +459,16 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Denise Stevens",
-     "Ghada Abraham"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 5,
+    "opp": "Premiere",
     "t": "female",
     "with": "Donna Finn",
     "vs": [
-     "Sandy Hess",
-     "Lynn Hauth"
+     "Dawn Dalessio",
+     "Sally Sitro"
     ],
     "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Deborah Muschio",
-    "vs": [
-     "Charlie Trapasso",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 14,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -796,15 +477,15 @@
   ],
   "ratingHistory": [
    {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.3,
-    "confidence": 49,
-    "rank": 39,
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 99,
     "ratingGames": 5,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -2.4
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -4.8
    }
   ],
   "partners": []
@@ -962,6 +643,17 @@
     "rating": 2.5,
     "confidence": 52,
     "rank": 18,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.4,
+    "confidence": 52,
+    "rank": 23,
     "ratingGames": 5,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 1.1
@@ -1287,6 +979,17 @@
     "ratingGames": 14,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 4.5,
+    "confidence": 72,
+    "rank": 2,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -1294,7 +997,7 @@
     "pid": "fa858fcb-0eed-4ab9-94ea-efec4132e791",
     "name": "Amy Wondrack",
     "n": 3,
-    "synergy": 0
+    "synergy": -0.1
    }
   ]
  },
@@ -1586,6 +1289,17 @@
     "ratingGames": 12,
     "strengthOfPartners": 2.7,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.6,
+    "confidence": 71,
+    "rank": 9,
+    "ratingGames": 12,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -1593,127 +1307,285 @@
     "pid": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f",
     "name": "Julia Hollman",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 1.2
    }
   ]
  },
- "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598": {
+ "cc2a9e08-b163-4553-856f-c20895cb9930": {
   "log": [
    {
-    "week": 2,
-    "opp": "PKLD",
-    "homeAway": "H",
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
     "w": 4,
-    "l": 0,
-    "gp": 4,
-    "pf": 84,
-    "pa": 57,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 92,
     "mx": [
      0,
      0
     ],
     "gn": [
      4,
-     0
+     1
     ],
     "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 94,
+    "pa": 81,
+    "mx": [
      0,
      0
     ],
+    "gn": [
+     4,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 22,
+    "teamGL": 10,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 4,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
     "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 123,
-    "pa": 85,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 58,
     "mx": [
      0,
      0
     ],
     "gn": [
      5,
-     1
+     0
     ],
     "cl": [
      0,
      0
     ],
     "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 60,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 1,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Peggy Matzen",
+    "with": "Toni Demaio",
     "vs": [
-     "Kayla Gipson",
-     "Olga Turova"
+     "Chiti Joshi",
+     "Pam Mcdannell"
     ],
     "f": 21,
-    "a": 15,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 1,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Jessica Wormeck",
+    "with": "Toni Demaio",
     "vs": [
-     "Paula Cushing",
-     "Marina Volpe"
+     "Holli Lish",
+     "Rachel Mcgowan"
     ],
     "f": 21,
-    "a": 14,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 1,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Holly Ferguson",
+    "with": "Corinne Palma",
     "vs": [
-     "Linda Johns",
-     "Kayla Gipson"
+     "Virginie Boutin",
+     "Esha Gajjar"
     ],
-    "f": 21,
-    "a": 13,
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Heather Waters",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 22,
+    "a": 20,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 1,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Kelly Bowers",
+    "with": "Debbie Pall",
     "vs": [
-     "Linda Johns",
-     "Marina Volpe"
+     "Holli Lish",
+     "Heather Waters"
     ],
     "f": 21,
-    "a": 15,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Randee Schneeberg-Pomerantz",
+    "vs": [
+     "Rani Borusu",
+     "Sushma Rayapudi"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Corinne Palma",
+    "vs": [
+     "Sherry Sili",
+     "Kara Chubrik"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Corinne Palma",
+    "vs": [
+     "Rani Borusu",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Nikki Nigro",
+     "Sherry Sili"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Sushma Rayapudi",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 6,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -1721,12 +1593,12 @@
    },
    {
     "wk": 4,
-    "opp": "Picklr Newtown",
+    "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Nancy Cook",
+    "with": "Susana Palumbo",
     "vs": [
-     "Sulyn Kulick",
-     "Virginie Boutin"
+     "Darlene Fusco",
+     "Susan Hughes"
     ],
     "f": 21,
     "a": 10,
@@ -1737,15 +1609,15 @@
    },
    {
     "wk": 4,
-    "opp": "Picklr Newtown",
+    "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Christine Ziegler",
+    "with": "Tina Cros",
     "vs": [
-     "Sulyn Kulick",
-     "Esha Gajjar"
+     "Jean Dalstad",
+     "Trena Hahn"
     ],
     "f": 21,
-    "a": 11,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -1753,12 +1625,44 @@
    },
    {
     "wk": 4,
-    "opp": "Picklr Newtown",
+    "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Jessica Wormeck",
+    "with": "Kimberley Levins",
     "vs": [
-     "Lori Wild",
-     "Esha Gajjar"
+     "Maureen Murphy",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Charlie Trapasso",
+     "Susan Hughes"
     ],
     "f": 21,
     "a": 14,
@@ -1768,90 +1672,158 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Picklr Newtown",
+    "wk": 5,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Holly Ferguson",
+    "with": "Kimberley Levins",
     "vs": [
-     "Sulyn Kulick",
-     "Heather Waters"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Esha Gajjar",
-     "Virginie Boutin"
+     "Christine Pisapia",
+     "Denise Bonagura"
     ],
     "f": 21,
-    "a": 17,
+    "a": 9,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Picklr Newtown",
+    "wk": 5,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Maureen Dazzo",
+    "with": "Jeanmarie Farkouh",
     "vs": [
-     "Heather Waters",
-     "Chiti Joshi"
+     "Denise Bonagura",
+     "Dawn Dalessio"
     ],
     "f": 21,
-    "a": 12,
+    "a": 10,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Dawn Dalessio",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Linda Iacono",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Vanessa Tortorice",
+    "vs": [
+     "Stacey Cohen",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 0.6,
+    "confidence": 44,
+    "rank": 28,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.2
+   },
+   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 2.5,
-    "confidence": 44,
-    "rank": 11,
-    "ratingGames": 4,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.8
+    "rating": 1.9,
+    "confidence": 48,
+    "rank": 22,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 1.3
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 2.6,
-    "confidence": 45,
-    "rank": 16,
-    "ratingGames": 4,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.8
+    "rating": 2,
+    "confidence": 65,
+    "rank": 26,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 5,
-    "confidence": 67,
-    "rank": 2,
-    "ratingGames": 10,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.5
+    "rating": 2.5,
+    "confidence": 74,
+    "rank": 17,
+    "ratingGames": 15,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2,
+    "confidence": 79,
+    "rank": 29,
+    "ratingGames": 20,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1.3
    }
   ],
-  "partners": []
+  "partners": [
+   {
+    "pid": "db4adc99-5a82-4911-90f5-3624fda60ee3",
+    "name": "Toni Demaio",
+    "n": 5,
+    "synergy": 1
+   },
+   {
+    "pid": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15",
+    "name": "Corinne Palma",
+    "n": 3,
+    "synergy": -0.3
+   }
+  ]
  },
  "fa858fcb-0eed-4ab9-94ea-efec4132e791": {
   "log": [
@@ -1960,6 +1932,33 @@
     "teamRes": "W",
     "teamGW": 30,
     "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 56,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
@@ -2353,6 +2352,86 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Diana Macri",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jeanmarie Farkouh",
+    "vs": [
+     "Christine Pisapia",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Linda Iacono",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -2399,6 +2478,17 @@
     "ratingGames": 24,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.6,
+    "confidence": 84,
+    "rank": 18,
+    "ratingGames": 29,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": [
@@ -2406,19 +2496,454 @@
     "pid": "56a497f1-828c-4bec-ad2f-1ed1add39788",
     "name": "Tina Cros",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "892b68ae-7d54-456c-82f6-f2514e107d16",
     "name": "Kathleen Lynch",
     "n": 7,
-    "synergy": 0.3
+    "synergy": 0.6
    },
    {
     "pid": "d183236f-85a1-41a3-a26a-2f9bc04c3b07",
     "name": "Shanasia Bagnol",
     "n": 3,
-    "synergy": 0
+    "synergy": -0.1
+   },
+   {
+    "pid": "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6",
+    "name": "Donna Finn",
+    "n": 4,
+    "synergy": -0.9
+   }
+  ]
+ },
+ "c132bfd5-ae12-478d-86bc-e483f85cb26a": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 87,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 74,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 54,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tina Cros",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Corinne Palma",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tina Cros",
+    "vs": [
+     "Sherry Sili",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Kathleen Lynch",
+    "vs": [
+     "Rani Borusu",
+     "Kara Chubrik"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Randee Schneeberg-Pomerantz",
+    "vs": [
+     "Rani Borusu",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Nikki Nigro",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Tina Cros",
+    "vs": [
+     "Denise Stevens",
+     "Ghada Abraham"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Darlene Fusco",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Maureen Murphy",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Shanasia Bagnol",
+    "vs": [
+     "Susan Hughes",
+     "Maureen Murphy"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Maureen Murphy",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Sandy Hess",
+     "Trena Hahn"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Christine Pisapia",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Vanessa Tortorice",
+    "vs": [
+     "Sally Sitro",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Christine Pisapia",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 4,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Stacey Cohen",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Diana Macri"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Christine Pisapia",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 2.9,
+    "confidence": 52,
+    "rank": 8,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 3.1,
+    "confidence": 70,
+    "rank": 12,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.9,
+    "confidence": 78,
+    "rank": 13,
+    "ratingGames": 18,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "56a497f1-828c-4bec-ad2f-1ed1add39788",
+    "name": "Tina Cros",
+    "n": 3,
+    "synergy": 2.2
+   },
+   {
+    "pid": "fa88f51d-14cc-4f01-ace6-505565019abb",
+    "name": "Susana Palumbo",
+    "n": 3,
+    "synergy": 1.5
    }
   ]
  },
@@ -2613,32 +3138,70 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -2.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.1,
+    "confidence": 61,
+    "rank": 80,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -2.7
    }
   ],
   "partners": []
  },
- "cc2a9e08-b163-4553-856f-c20895cb9930": {
+ "ab244dd7-ca2a-4e68-befd-b60c8fbad96f": {
   "log": [
    {
-    "week": 1,
-    "opp": "Picklr Newtown",
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
     "homeAway": "A",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 103,
-    "pa": 92,
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 74,
     "mx": [
      0,
      0
     ],
     "gn": [
-     4,
-     1
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 89,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
     ],
     "cl": [
      1,
-     1
+     0
     ],
     "teamRes": "W",
     "teamGW": 21,
@@ -2647,168 +3210,125 @@
     "subFor": null
    },
    {
-    "week": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "week": 4,
+    "opp": "PKLD",
     "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 90,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
     "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 94,
-    "pa": 81,
+    "l": 4,
+    "gp": 8,
+    "pf": 149,
+    "pa": 159,
     "mx": [
      0,
      0
     ],
     "gn": [
      4,
+     4
+    ],
+    "cl": [
+     3,
      1
     ],
-    "cl": [
-     1,
-     0
-    ],
     "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 58,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
+    "teamGW": 17,
+    "teamGL": 15,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Chiti Joshi",
-     "Pam Mcdannell"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Holli Lish",
-     "Rachel Mcgowan"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Corinne Palma",
-    "vs": [
-     "Virginie Boutin",
-     "Esha Gajjar"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Susana Palumbo",
-    "vs": [
-     "Heather Waters",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Debbie Pall",
-    "vs": [
-     "Holli Lish",
-     "Heather Waters"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
+    "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Randee Schneeberg-Pomerantz",
+    "with": "Tammy Dragon",
     "vs": [
      "Rani Borusu",
      "Sushma Rayapudi"
     ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 13,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 3,
+    "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Corinne Palma",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Kara Chubrik",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Rani Borusu",
+     "Beth Pardilla"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
     "vs": [
      "Sherry Sili",
-     "Kara Chubrik"
+     "Eileen Clark"
     ],
-    "f": 22,
-    "a": 20,
+    "f": 21,
+    "a": 9,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -2819,16 +3339,33 @@
     ]
    },
    {
-    "wk": 3,
+    "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Corinne Palma",
+    "with": "Susan Goeckeler",
     "vs": [
-     "Rani Borusu",
-     "Lay Wassana"
+     "Eileen Clark",
+     "Lynne Silber"
     ],
     "f": 21,
-    "a": 17,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Nikki Nigro",
+     "Rani Borusu"
+    ],
+    "f": 21,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -2836,35 +3373,97 @@
    },
    {
     "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Montville",
     "t": "female",
-    "with": "Toni Demaio",
+    "with": "Jeannine Calhoun",
     "vs": [
-     "Nikki Nigro",
-     "Sherry Sili"
+     "Vilayvanh Sysounthone",
+     "Joanne Rim"
     ],
     "f": 21,
     "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Montville",
     "t": "female",
-    "with": "Toni Demaio",
+    "with": "Susan Goeckeler",
     "vs": [
-     "Sushma Rayapudi",
-     "Tanyalak Sawangpak"
+     "Vilayvanh Sysounthone",
+     "Hope Lo"
     ],
     "f": 21,
-    "a": 6,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Hope Lo",
+     "Joanne Rim"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Jess Cox",
+     "Theresa Corderi"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Theresa Corderi",
+     "Ly Kim"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Janine Thompson"
+    ],
+    "f": 21,
+    "a": 19,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -2872,28 +3471,12 @@
    },
    {
     "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Susana Palumbo",
+    "with": "Grace Brennan",
     "vs": [
-     "Darlene Fusco",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Tina Cros",
-    "vs": [
-     "Jean Dalstad",
-     "Trena Hahn"
+     "Olga Kim",
+     "Linda Johns"
     ],
     "f": 21,
     "a": 16,
@@ -2904,12 +3487,60 @@
    },
    {
     "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Kimberley Levins",
+    "with": "Tammy Dragon",
     "vs": [
-     "Maureen Murphy",
-     "Jean Dalstad"
+     "Linda Seemann",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Linda Johns",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jamie Levin",
+    "vs": [
+     "Jasmine Ho",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Annette Marsh",
+    "vs": [
+     "Kayla Gipson",
+     "Olga Turova"
     ],
     "f": 21,
     "a": 13,
@@ -2920,15 +3551,15 @@
    },
    {
     "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Melissa Mcconnell",
+    "with": "Lynda Levan",
     "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
+     "Marina Volpe",
+     "Linda Johns"
     ],
     "f": 21,
-    "a": 5,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -2936,16 +3567,146 @@
    },
    {
     "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Darragh Odonnell",
+    "with": "Marianne Rosato",
     "vs": [
-     "Charlie Trapasso",
-     "Susan Hughes"
+     "Olga Kim",
+     "Linda Seemann"
     ],
     "f": 21,
-    "a": 14,
+    "a": 15,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Christine Ziegler",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Meghan Klein",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Brogann Bowden",
+    "vs": [
+     "Johanna Kreilick",
+     "Christine Ziegler"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Brogann Bowden",
+    "vs": [
+     "Johanna Kreilick",
+     "Meghan Klein"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Nancy Cook",
+     "Christine Ziegler"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Meghan Klein",
+     "Monika Torbus"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Kelly Bowers",
+     "Meghan Klein"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Johanna Kreilick",
+     "Christine Ziegler"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -2953,62 +3714,68 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 0.6,
-    "confidence": 44,
-    "rank": 28,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.2
-   },
-   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 1.9,
-    "confidence": 48,
-    "rank": 22,
-    "ratingGames": 5,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": 1.3
+    "rating": 3.9,
+    "confidence": 52,
+    "rank": 1,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 2,
-    "confidence": 65,
-    "rank": 26,
-    "ratingGames": 10,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.6
+    "rating": 5,
+    "confidence": 69,
+    "rank": 1,
+    "ratingGames": 12,
+    "strengthOfPartners": 2.6,
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 2.5,
-    "confidence": 74,
-    "rank": 17,
-    "ratingGames": 15,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.3
+    "rating": 5.1,
+    "confidence": 79,
+    "rank": 1,
+    "ratingGames": 19,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.7,
+    "confidence": 84,
+    "rank": 8,
+    "ratingGames": 27,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
    {
-    "pid": "db4adc99-5a82-4911-90f5-3624fda60ee3",
-    "name": "Toni Demaio",
+    "pid": "201e264e-23da-435d-a4b5-0fea908d1098",
+    "name": "Susan Goeckeler",
     "n": 4,
     "synergy": 1.2
    },
    {
-    "pid": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15",
-    "name": "Corinne Palma",
-    "n": 3,
-    "synergy": -0.4
+    "pid": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
+    "name": "Jeannine Calhoun",
+    "n": 5,
+    "synergy": 0.1
+   },
+   {
+    "pid": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
+    "name": "Tammy Dragon",
+    "n": 5,
+    "synergy": -0.3
    }
   ]
  },
@@ -3092,6 +3859,33 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 145,
+    "pa": 101,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
     "sub": 0,
     "subFor": null
    }
@@ -3414,6 +4208,118 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Christine Ziegler",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Nancy Cook",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Jessica Wormeck",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Kelly Bowers",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Meghan Klein",
+     "Monika Torbus"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Karen Waldon",
+     "Nancy Cook"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Kelly Bowers",
+     "Karen Waldon"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -3449,20 +4355,43 @@
     "ratingGames": 19,
     "strengthOfPartners": 2,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 4.4,
+    "confidence": 83,
+    "rank": 3,
+    "ratingGames": 26,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
    {
     "pid": "ca92ce54-a58c-4bf2-a49b-125be4b376ba",
     "name": "Lynda Levan",
+    "n": 5,
+    "synergy": 1.5
+   },
+   {
+    "pid": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
+    "name": "Jeannine Calhoun",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 0.5
+   },
+   {
+    "pid": "078bc1a3-2897-4dc0-ae17-26b349108047",
+    "name": "Janice Aliberti",
+    "n": 3,
+    "synergy": 0.1
    },
    {
     "pid": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f",
     "name": "Julia Hollman",
-    "n": 3,
-    "synergy": 0.4
+    "n": 5,
+    "synergy": -0.3
    }
   ]
  },
@@ -3546,6 +4475,33 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 106,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
     "sub": 0,
     "subFor": null
    }
@@ -3876,6 +4832,121 @@
     "sub": 0,
     "subFor": null,
     "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Brogann Bowden",
+    "vs": [
+     "Johanna Kreilick",
+     "Kelly Bowers"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Meghan Klein",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Meghan Klein",
+     "Karen Waldon"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Kelly Bowers",
+     "Monika Torbus"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Brogann Bowden",
+    "vs": [
+     "Johanna Kreilick",
+     "Nancy Cook"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Jessica Wormeck",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Jessica Wormeck",
+     "Monika Torbus"
+    ],
+    "f": 1,
+    "a": 0,
+    "w": 1,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -3911,6 +4982,17 @@
     "ratingGames": 19,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.7,
+    "confidence": 83,
+    "rank": 17,
+    "ratingGames": 25,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -3918,104 +5000,249 @@
     "pid": "5db7fb50-d1a1-4c3f-8d61-34ca1947300c",
     "name": "Annette Marsh",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
-    "pid": "ca92ce54-a58c-4bf2-a49b-125be4b376ba",
-    "name": "Lynda Levan",
+    "pid": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
+    "name": "Tammy Dragon",
     "n": 3,
-    "synergy": -0.4
+    "synergy": 0.1
    },
    {
     "pid": "c7dd526f-b8fe-4172-977d-912044350954",
     "name": "Diane Bracco",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
+   },
+   {
+    "pid": "ca92ce54-a58c-4bf2-a49b-125be4b376ba",
+    "name": "Lynda Levan",
+    "n": 4,
+    "synergy": -0.7
    }
   ]
  },
- "c132bfd5-ae12-478d-86bc-e483f85cb26a": {
+ "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598": {
   "log": [
    {
-    "week": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
+    "week": 2,
+    "opp": "PKLD",
+    "homeAway": "H",
     "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 87,
+    "l": 0,
+    "gp": 4,
+    "pf": 84,
+    "pa": 57,
     "mx": [
      0,
      0
     ],
     "gn": [
      4,
-     2
+     0
     ],
     "cl": [
      0,
-     2
+     0
     ],
     "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
+    "teamGW": 24,
+    "teamGL": 8,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
     "gp": 6,
-    "pf": 126,
-    "pa": 74,
+    "pf": 123,
+    "pa": 85,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 160,
+    "pa": 137,
     "mx": [
      0,
      0
     ],
     "gn": [
      6,
-     0
+     2
     ],
     "cl": [
-     1,
-     0
+     0,
+     1
     ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 2,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Tina Cros",
+    "with": "Peggy Matzen",
     "vs": [
-     "Kara Chubrik",
-     "Nikki Nigro"
+     "Kayla Gipson",
+     "Olga Turova"
     ],
     "f": 21,
-    "a": 7,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 2,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Corinne Palma",
+    "with": "Jessica Wormeck",
     "vs": [
-     "Kara Chubrik",
-     "Nikki Nigro"
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Linda Johns",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Linda Johns",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Sulyn Kulick",
+     "Virginie Boutin"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Sulyn Kulick",
+     "Esha Gajjar"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Lori Wild",
+     "Esha Gajjar"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Sulyn Kulick",
+     "Heather Waters"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Esha Gajjar",
+     "Virginie Boutin"
     ],
     "f": 21,
     "a": 17,
@@ -4025,16 +5252,72 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 4,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Tina Cros",
+    "with": "Maureen Dazzo",
     "vs": [
-     "Sherry Sili",
-     "Kara Chubrik"
+     "Heather Waters",
+     "Chiti Joshi"
     ],
     "f": 21,
-    "a": 8,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Janice Aliberti",
+     "Brogann Bowden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Lynda Levan",
+     "Brogann Bowden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Brogann Bowden",
+     "Julia Hollman"
+    ],
+    "f": 21,
+    "a": 18,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -4045,141 +5328,89 @@
     ]
    },
    {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Kathleen Lynch",
+    "with": "Meghan Klein",
     "vs": [
-     "Rani Borusu",
-     "Kara Chubrik"
+     "Brogann Bowden",
+     "Julia Hollman"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Brogann Bowden",
+     "Lynda Levan"
+    ],
+    "f": 15,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Randee Schneeberg-Pomerantz",
+    "with": "Nancy Cook",
     "vs": [
-     "Rani Borusu",
-     "Tanyalak Sawangpak"
+     "Brogann Bowden",
+     "Janice Aliberti"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Amy Wondrack",
+    "with": "Monika Torbus",
     "vs": [
-     "Nikki Nigro",
-     "Lay Wassana"
+     "Diane Bracco",
+     "Grace Brennan"
     ],
     "f": 21,
-    "a": 13,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Tina Cros",
+    "with": "Christine Ziegler",
     "vs": [
-     "Denise Stevens",
-     "Ghada Abraham"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Amy Wondrack",
-    "vs": [
-     "Darlene Fusco",
-     "Charlie Trapasso"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Deborah Muschio",
-    "vs": [
-     "Maureen Murphy",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Shanasia Bagnol",
-    "vs": [
-     "Susan Hughes",
-     "Maureen Murphy"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Susana Palumbo",
-    "vs": [
-     "Maureen Murphy",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Wendi Wolanske",
-    "vs": [
-     "Sandy Hess",
-     "Trena Hahn"
+     "Julia Hollman",
+     "Diane Bracco"
     ],
     "f": 21,
     "a": 12,
@@ -4191,34 +5422,62 @@
   ],
   "ratingHistory": [
    {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 2.5,
+    "confidence": 44,
+    "rank": 11,
+    "ratingGames": 4,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.8
+   },
+   {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 2.9,
-    "confidence": 52,
-    "rank": 8,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.3
+    "rating": 2.6,
+    "confidence": 45,
+    "rank": 16,
+    "ratingGames": 4,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 3.1,
-    "confidence": 70,
-    "rank": 12,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.9
+    "rating": 5,
+    "confidence": 67,
+    "rank": 2,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 4.8,
+    "confidence": 75,
+    "rank": 1,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
    {
-    "pid": "56a497f1-828c-4bec-ad2f-1ed1add39788",
-    "name": "Tina Cros",
+    "pid": "63946930-2dca-489e-8158-028722c045f5",
+    "name": "Christine Ziegler",
     "n": 3,
-    "synergy": 2
+    "synergy": 2.5
+   },
+   {
+    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
+    "name": "Jessica Wormeck",
+    "n": 3,
+    "synergy": -0.6
    }
   ]
  },
@@ -4275,6 +5534,33 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 95,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
     "sub": 0,
     "subFor": null
    }
@@ -4475,6 +5761,118 @@
      0,
      1
     ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Meghan Klein",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Nancy Cook",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Jessica Wormeck",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Nancy Cook",
+     "Christine Ziegler"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Karen Waldon",
+     "Jessica Wormeck"
+    ],
+    "f": 15,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Kelly Bowers",
+     "Meghan Klein"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Meghan Klein",
+     "Nancy Cook"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -4510,14 +5908,37 @@
     "ratingGames": 12,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.4,
+    "confidence": 79,
+    "rank": 10,
+    "ratingGames": 19,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
    {
-    "pid": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f",
-    "name": "Julia Hollman",
+    "pid": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
+    "name": "Tammy Dragon",
     "n": 3,
     "synergy": 0.5
+   },
+   {
+    "pid": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f",
+    "name": "Julia Hollman",
+    "n": 5,
+    "synergy": 0.1
+   },
+   {
+    "pid": "ca92ce54-a58c-4bf2-a49b-125be4b376ba",
+    "name": "Lynda Levan",
+    "n": 3,
+    "synergy": -0.6
    }
   ]
  },
@@ -4574,6 +5995,33 @@
     "teamRes": "W",
     "teamGW": 30,
     "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 119,
+    "pa": 67,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
@@ -4738,6 +6186,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Stacey Cohen",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Christine Pisapia",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 4,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jeanmarie Farkouh",
+    "vs": [
+     "Diana Macri",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Stacey Cohen",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Stacey Cohen",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -4784,13 +6328,30 @@
     "ratingGames": 10,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.4,
+    "confidence": 75,
+    "rank": 39,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1.9
    }
   ],
   "partners": [
    {
+    "pid": "c132bfd5-ae12-478d-86bc-e483f85cb26a",
+    "name": "Kimberley Levins",
+    "n": 3,
+    "synergy": 1.5
+   },
+   {
     "pid": "e4d09d13-0fd5-4686-ac53-f4eb160b2045",
     "name": "Wendi Wolanske",
-    "n": 4,
+    "n": 5,
     "synergy": 0.6
    }
   ]
@@ -4875,6 +6436,33 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 102,
+    "pa": 64,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
@@ -5123,6 +6711,86 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Linda Iacono",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Dawn Dalessio",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Linda Iacono",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Stacey Cohen",
+     "Dawn Dalessio"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -5169,20 +6837,37 @@
     "ratingGames": 15,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.8,
+    "confidence": 79,
+    "rank": 53,
+    "ratingGames": 20,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": [
    {
+    "pid": "16e36ab6-5591-4a2f-97cf-23be0e69c5ef",
+    "name": "Melissa Mcconnell",
+    "n": 3,
+    "synergy": 1.2
+   },
+   {
     "pid": "cc2a9e08-b163-4553-856f-c20895cb9930",
     "name": "Deborah Muschio",
-    "n": 4,
-    "synergy": 1.2
+    "n": 5,
+    "synergy": 1
    },
    {
     "pid": "301def1b-f1d0-410c-aba8-13c15d2e091e",
     "name": "Karyn Jarmer",
-    "n": 3,
-    "synergy": -0.1
+    "n": 4,
+    "synergy": -0.9
    }
   ]
  },
@@ -5438,6 +7123,17 @@
     "ratingGames": 10,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.5,
+    "confidence": 67,
+    "rank": 65,
+    "ratingGames": 10,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": []
@@ -5598,6 +7294,17 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.4,
+    "confidence": 52,
+    "rank": 69,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -5758,6 +7465,17 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 52,
+    "rank": 61,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -6083,6 +7801,17 @@
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -2.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 73,
+    "rank": 72,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -2.3
    }
   ],
   "partners": [
@@ -6090,7 +7819,7 @@
     "pid": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
     "name": "Nikki Nigro",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.1
    }
   ]
  },
@@ -6437,6 +8166,17 @@
     "ratingGames": 14,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.1,
+    "confidence": 69,
+    "rank": 44,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -6450,7 +8190,1205 @@
     "pid": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
     "name": "Ly Kim",
     "n": 6,
-    "synergy": 0.1
+    "synergy": 0
+   }
+  ]
+ },
+ "ca92ce54-a58c-4bf2-a49b-125be4b376ba": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 141,
+    "pa": 120,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 115,
+    "pa": 115,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "PKLD",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 107,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 143,
+    "pa": 110,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Nikki Nigro",
+     "Eileen Clark"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Beth Pardilla",
+     "Kim Allaga"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Lay Wassana",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Beth Pardilla",
+     "Nikki Nigro"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Nikki Nigro",
+     "Rani Borusu"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Debi Mcdonald",
+     "Angie Ratkowitz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Jess Cox",
+     "Amanda Gardiner"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Hope Lo",
+     "Amanda Gardiner"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Kumi Dalton",
+     "Vilayvanh Sysounthone"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Amanda Gardiner",
+     "Kumi Dalton"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Jess Cox",
+     "Amanda Gardiner"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Linda Johns",
+     "Jasmine Ho"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jamie Levin",
+    "vs": [
+     "Marina Volpe",
+     "Linda Seemann"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Linda Seemann",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Linda Johns",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Olga Kim",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Marina Volpe",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Annette Marsh",
+    "vs": [
+     "Linda Johns",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Meghan Klein",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Brogann Bowden",
+    "vs": [
+     "Johanna Kreilick",
+     "Karen Waldon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Meghan Klein",
+     "Karen Waldon"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Brogann Bowden",
+    "vs": [
+     "Johanna Kreilick",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Kelly Bowers",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Karen Waldon",
+     "Nancy Cook"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Kelly Bowers",
+     "Karen Waldon"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.6,
+    "confidence": 55,
+    "rank": 52,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.7,
+    "confidence": 69,
+    "rank": 56,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 1.2,
+    "confidence": 79,
+    "rank": 41,
+    "ratingGames": 20,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.3,
+    "confidence": 83,
+    "rank": 24,
+    "ratingGames": 27,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
+    "name": "Tammy Dragon",
+    "n": 5,
+    "synergy": 1.5
+   },
+   {
+    "pid": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
+    "name": "Jeannine Calhoun",
+    "n": 3,
+    "synergy": -0.6
+   },
+   {
+    "pid": "078bc1a3-2897-4dc0-ae17-26b349108047",
+    "name": "Janice Aliberti",
+    "n": 4,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "9278b092-c3e6-4c05-a09a-998cbde410be": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 108,
+    "pa": 101,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 60,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 84,
+    "pa": 95,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 77,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Amy Wondrack",
+     "Jill Collins"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Shanasia Bagnol",
+     "Karyn Jarmer"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Wendi Wolanske",
+     "Toni Demaio"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Wendi Wolanske",
+     "Melissa Mcconnell"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Virginia Kenny",
+     "Melissa Mcconnell"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Donna Finn",
+     "Kathleen Lynch"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Suzanne Leon",
+     "Roe Palermo"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Suzanne Leon",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Roe Palermo",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Karen Pisano",
+     "Roe Palermo"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Karen Pisano",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Ani Stone",
+     "Hope Lo"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Debi Mcdonald",
+     "Angie Ratkowitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Ani Stone",
+     "Kumi Dalton"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Debi Mcdonald",
+     "Angie Ratkowitz"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Janine Thompson"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Olga Kim",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Olga Turova",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Olga Kim",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Marina Berger",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Paula Cushing",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Olga Kim",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.6,
+    "confidence": 51,
+    "rank": 53,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.3,
+    "confidence": 65,
+    "rank": 41,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.6,
+    "confidence": 74,
+    "rank": 62,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.9,
+    "confidence": 80,
+    "rank": 30,
+    "ratingGames": 22,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "067afbd0-d803-4eb0-b467-3af2930f18af",
+    "name": "Rachel Levkov",
+    "n": 5,
+    "synergy": 1.6
+   },
+   {
+    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
+    "name": "Brittany Messing",
+    "n": 6,
+    "synergy": -0.1
+   },
+   {
+    "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
+    "name": "Kathleen Nitti",
+    "n": 3,
+    "synergy": -0.2
+   },
+   {
+    "pid": "e84d93a0-c527-4a44-a896-ccc20d0ac474",
+    "name": "Kathy Baker",
+    "n": 5,
+    "synergy": -0.7
    }
   ]
  },
@@ -6745,6 +9683,17 @@
     "ratingGames": 13,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.6,
+    "confidence": 73,
+    "rank": 62,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -6752,7 +9701,7 @@
     "pid": "078bc1a3-2897-4dc0-ae17-26b349108047",
     "name": "Janice Aliberti",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.3
    }
   ]
  },
@@ -7406,6 +10355,17 @@
     "ratingGames": 30,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.8,
+    "confidence": 85,
+    "rank": 7,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": [
@@ -7413,82 +10373,136 @@
     "pid": "6a8bbc75-9016-4f35-95f5-0e681d1e25e4",
     "name": "Rani Borusu",
     "n": 6,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
     "name": "Nikki Nigro",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "2abe95e2-0e73-49b6-aca8-689041f98b94",
     "name": "Eileen Clark",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
     "name": "Lay Wassana",
     "n": 4,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "97f8761c-a825-4f89-9d92-0c8dea9d0065",
     "name": "Tanyalak Sawangpak",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.8
    }
   ]
  },
- "ca92ce54-a58c-4bf2-a49b-125be4b376ba": {
+ "067afbd0-d803-4eb0-b467-3af2930f18af": {
   "log": [
    {
     "week": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 106,
+    "pa": 112,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
     "homeAway": "A",
     "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 141,
-    "pa": 120,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 59,
     "mx": [
      0,
      0
     ],
     "gn": [
      5,
-     2
+     1
     ],
     "cl": [
      0,
      1
     ],
     "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 3,
+    "week": 4,
     "opp": "Montville",
     "homeAway": "H",
-    "w": 3,
-    "l": 3,
+    "w": 6,
+    "l": 0,
     "gp": 6,
-    "pf": 115,
-    "pa": 115,
+    "pf": 126,
+    "pa": 93,
     "mx": [
      0,
      0
     ],
     "gn": [
-     3,
-     3
+     6,
+     0
     ],
     "cl": [
-     1,
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 75,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     0,
      0
     ],
     "teamRes": "W",
@@ -7496,48 +10510,53 @@
     "teamGL": 11,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "PKLD",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 107,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     7,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "games": [
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Marianne Rosato",
+    "with": "Gina Faccone",
     "vs": [
-     "Sherry Sili",
-     "Eileen Clark"
+     "Shanasia Bagnol",
+     "Karyn Jarmer"
     ],
-    "f": 21,
-    "a": 17,
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Shanasia Bagnol",
+     "Melissa Mcconnell"
+    ],
+    "f": 23,
+    "a": 21,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Jill Collins",
+     "Shanasia Bagnol"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null,
@@ -7548,12 +10567,112 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Janice Aliberti",
+    "with": "Kathleen Nitti",
     "vs": [
-     "Nikki Nigro",
-     "Eileen Clark"
+     "Shanasia Bagnol",
+     "Jill Collins"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Shanasia Bagnol",
+     "Corinne Palma"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Donna Finn",
+     "Kathleen Lynch"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Denise Bonagura",
+     "Karen Pisano"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Karen Pisano",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Dawn Dalessio",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Suzanne Leon",
+     "Stacey Cohen"
     ],
     "f": 19,
     "a": 21,
@@ -7563,88 +10682,16 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 3,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Jackie Coneeny",
     "vs": [
-     "Kara Chubrik",
-     "Nikki Nigro"
+     "Karen Pisano",
+     "Nancy Ciappina"
     ],
     "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Beth Pardilla",
-     "Kim Allaga"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Jeannine Calhoun",
-    "vs": [
-     "Lay Wassana",
-     "Kara Chubrik"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Elizabeth Biehl",
-    "vs": [
-     "Beth Pardilla",
-     "Nikki Nigro"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Julia Hollman",
-    "vs": [
-     "Nikki Nigro",
-     "Rani Borusu"
-    ],
-    "f": 21,
-    "a": 16,
+    "a": 5,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7652,125 +10699,28 @@
    },
    {
     "wk": 3,
-    "opp": "Montville",
+    "opp": "Premiere",
     "t": "female",
-    "with": "Marianne Rosato",
+    "with": "Marie Walsh Mccarty",
     "vs": [
-     "Debi Mcdonald",
-     "Angie Ratkowitz"
+     "Sabrina Trunzo Dinkle",
+     "Dawn Dalessio"
     ],
     "f": 21,
-    "a": 16,
+    "a": 8,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Janice Aliberti",
-    "vs": [
-     "Jess Cox",
-     "Amanda Gardiner"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Elizabeth Biehl",
-    "vs": [
-     "Hope Lo",
-     "Amanda Gardiner"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Kumi Dalton",
-     "Vilayvanh Sysounthone"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Amanda Gardiner",
-     "Kumi Dalton"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jeannine Calhoun",
-    "vs": [
-     "Jess Cox",
-     "Amanda Gardiner"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
    },
    {
     "wk": 4,
-    "opp": "PKLD",
+    "opp": "Montville",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Kathleen Nitti",
     "vs": [
-     "Linda Johns",
-     "Jasmine Ho"
+     "Joanne Rim",
+     "Vilayvanh Sysounthone"
     ],
     "f": 22,
     "a": 20,
@@ -7781,44 +10731,12 @@
    },
    {
     "wk": 4,
-    "opp": "PKLD",
+    "opp": "Montville",
     "t": "female",
-    "with": "Jamie Levin",
+    "with": "Marian Kingston",
     "vs": [
-     "Marina Volpe",
-     "Linda Seemann"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Linda Seemann",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Linda Johns",
-     "Kayla Gipson"
+     "Ani Stone",
+     "Hope Lo"
     ],
     "f": 21,
     "a": 14,
@@ -7829,47 +10747,159 @@
    },
    {
     "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Janine Thompson",
+     "Cheryl Brodsky"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Ani Stone",
+     "Kumi Dalton"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Janine Thompson",
+     "Joanne Rim"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Debi Mcdonald",
+     "Cheryl Brodsky"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
     "opp": "PKLD",
     "t": "female",
-    "with": "Janice Aliberti",
+    "with": "Kathy Baker",
+    "vs": [
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Kayla Gipson",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Paula Cushing",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Olga Kim",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathy Baker",
     "vs": [
      "Olga Kim",
      "Jasmine Ho"
     ],
     "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Julia Hollman",
-    "vs": [
-     "Marina Volpe",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Annette Marsh",
-    "vs": [
-     "Linda Johns",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 17,
+    "a": 8,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -7881,46 +10911,69 @@
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 0.6,
-    "confidence": 55,
-    "rank": 52,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.4,
-    "strengthOfOpponents": -0.3
+    "rating": 0.3,
+    "confidence": 41,
+    "rank": 62,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 1
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.7,
-    "confidence": 69,
-    "rank": 56,
-    "ratingGames": 13,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.5
+    "rating": 1.1,
+    "confidence": 66,
+    "rank": 49,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.1
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 1.2,
-    "confidence": 79,
-    "rank": 41,
-    "ratingGames": 20,
-    "strengthOfPartners": 2,
+    "rating": 3.6,
+    "confidence": 77,
+    "rank": 8,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 4.4,
+    "confidence": 82,
+    "rank": 4,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
    {
-    "pid": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
-    "name": "Tammy Dragon",
-    "n": 3,
-    "synergy": 1.3
+    "pid": "9278b092-c3e6-4c05-a09a-998cbde410be",
+    "name": "Gina Faccone",
+    "n": 5,
+    "synergy": 1.6
    },
    {
-    "pid": "078bc1a3-2897-4dc0-ae17-26b349108047",
-    "name": "Janice Aliberti",
+    "pid": "f7f80e1e-cebe-432b-9862-1120daaba26e",
+    "name": "Marie Walsh Mccarty",
+    "n": 3,
+    "synergy": 0.8
+   },
+   {
+    "pid": "e84d93a0-c527-4a44-a896-ccc20d0ac474",
+    "name": "Kathy Baker",
+    "n": 4,
+    "synergy": 0.3
+   },
+   {
+    "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
+    "name": "Kathleen Nitti",
     "n": 3,
     "synergy": -0.4
    }
@@ -8109,6 +11162,17 @@
     "ratingGames": 8,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -3.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.9,
+    "confidence": 61,
+    "rank": 105,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -3
    }
   ],
   "partners": []
@@ -8300,6 +11364,17 @@
     "ratingGames": 8,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -2.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0,
+    "confidence": 60,
+    "rank": 84,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -2.4
    }
   ],
   "partners": []
@@ -8765,6 +11840,17 @@
     "ratingGames": 19,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.8,
+    "confidence": 79,
+    "rank": 54,
+    "ratingGames": 19,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": [
@@ -8772,19 +11858,19 @@
     "pid": "406e8166-48fc-410b-99b2-5cbc3534fee3",
     "name": "Heather Waters",
     "n": 3,
-    "synergy": 1.2
-   },
-   {
-    "pid": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
-    "name": "Virginie Boutin",
-    "n": 6,
-    "synergy": -0.6
+    "synergy": 1.3
    },
    {
     "pid": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
     "name": "Esha Gajjar",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.7
+   },
+   {
+    "pid": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
+    "name": "Virginie Boutin",
+    "n": 6,
+    "synergy": -0.8
    }
   ]
  },
@@ -9151,6 +12237,17 @@
     "ratingGames": 15,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.1,
+    "confidence": 69,
+    "rank": 28,
+    "ratingGames": 15,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
@@ -9164,7 +12261,7 @@
     "pid": "2912d9de-09e7-4b21-b93e-ae84f2f8fe93",
     "name": "Angie Ratkowitz",
     "n": 6,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -9745,32 +12842,43 @@
     "ratingGames": 26,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3,
+    "confidence": 83,
+    "rank": 11,
+    "ratingGames": 26,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
    {
-    "pid": "86d3ef72-f614-40a4-994d-836a87d21e9e",
-    "name": "Chiti Joshi",
-    "n": 5,
-    "synergy": 0.9
-   },
-   {
     "pid": "d74868c1-242c-4230-8117-fbbd3c41e250",
     "name": "Jacqueline Hillgrube",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 1
+   },
+   {
+    "pid": "86d3ef72-f614-40a4-994d-836a87d21e9e",
+    "name": "Chiti Joshi",
+    "n": 5,
+    "synergy": 1
    },
    {
     "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
     "name": "Lori Wild",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "d5bb6605-5ea8-42e6-8c85-03402664956d",
     "name": "Sulyn Kulick",
     "n": 6,
-    "synergy": -0.6
+    "synergy": -0.8
    },
    {
     "pid": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
@@ -9780,677 +12888,43 @@
    }
   ]
  },
- "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Montville",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 132,
-    "pa": 130,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     4
-    ],
-    "cl": [
-     1,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 133,
-    "pa": 109,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 115,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 138,
-    "pa": 116,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Vera Wong",
-     "Janine Thompson"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Ly Kim",
-     "Angie Ratkowitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Theresa Corderi",
-     "Ly Kim"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Joanne Rim",
-     "Sonu Munshi"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Ly Kim",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Joanne Rim",
-     "Angie Ratkowitz"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Janine Thompson",
-     "San Yang"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Monika Torbus",
-    "vs": [
-     "Paula Cushing",
-     "Marina Berger"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Linda Seemann",
-     "Maureen Bruno"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Marina Berger",
-     "Maureen Bruno"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Karen Waldon",
-    "vs": [
-     "Linda Johns",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Linda Johns",
-     "Kayla Gipson"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Holly Ferguson",
-    "vs": [
-     "Linda Seemann",
-     "Kayla Gipson"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Monika Torbus",
-    "vs": [
-     "Paula Cushing",
-     "Marina Berger"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Maureen Murphy",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Christine Steigerwalt",
-     "Jenna Haas"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Denise Stevens",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Nami Huang",
-     "Darlene Fusco"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Darlene Fusco",
-     "Trena Hahn"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Charlie Trapasso",
-     "Denise Stevens"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Ghada Abraham",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Darlene Fusco",
-     "Christine Steigerwalt"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Heather Waters",
-     "Chiti Joshi"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Pam Mcdannell",
-     "Chiti Joshi"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Suzi French",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Lori Wild",
-     "Virginie Boutin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Esha Gajjar",
-     "Virginie Boutin"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Chiti Joshi",
-     "Virginie Boutin"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Suzi French",
-     "Chiti Joshi"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1,
-    "confidence": 50,
-    "rank": 24,
-    "ratingGames": 7,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 2.1,
-    "confidence": 72,
-    "rank": 17,
-    "ratingGames": 14,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 2.6,
-    "confidence": 81,
-    "rank": 14,
-    "ratingGames": 22,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 2.6,
-    "confidence": 85,
-    "rank": 16,
-    "ratingGames": 29,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
-    "name": "Jessica Wormeck",
-    "n": 7,
-    "synergy": 1.4
-   },
-   {
-    "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
-    "name": "Kelly Bowers",
-    "n": 3,
-    "synergy": -0.1
-   },
-   {
-    "pid": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
-    "name": "Nancy Cook",
-    "n": 4,
-    "synergy": -0.4
-   },
-   {
-    "pid": "63946930-2dca-489e-8158-028722c045f5",
-    "name": "Christine Ziegler",
-    "n": 3,
-    "synergy": -0.7
-   },
-   {
-    "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
-    "name": "Peggy Matzen",
-    "n": 4,
-    "synergy": -2.6
-   }
-  ]
- },
- "067afbd0-d803-4eb0-b467-3af2930f18af": {
+ "0e5a80ef-a9db-4089-841d-f3083efff2a6": {
   "log": [
    {
     "week": 2,
     "opp": "Pickleball Kingdom Tinton Falls",
     "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 108,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
     "w": 2,
     "l": 4,
     "gp": 6,
-    "pf": 106,
+    "pf": 101,
     "pa": 112,
     "mx": [
      0,
@@ -10461,51 +12935,24 @@
      4
     ],
     "cl": [
-     1,
-     0
+     0,
+     1
     ],
     "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
+    "teamGW": 12,
+    "teamGL": 20,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 59,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Montville",
+    "week": 5,
+    "opp": "PKLD",
     "homeAway": "H",
     "w": 6,
     "l": 0,
     "gp": 6,
     "pf": 126,
-    "pa": 93,
+    "pa": 95,
     "mx": [
      0,
      0
@@ -10518,9 +12965,9 @@
      2,
      0
     ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
     "sub": 0,
     "subFor": null
    }
@@ -10530,14 +12977,30 @@
     "wk": 2,
     "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Gina Faccone",
+    "with": "Marie Walsh Mccarty",
     "vs": [
-     "Shanasia Bagnol",
-     "Karyn Jarmer"
+     "Kathleen Lynch",
+     "Corinne Palma"
     ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Virginia Kenny",
+     "Corinne Palma"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -10548,46 +13011,30 @@
     "t": "female",
     "with": "Brittany Messing",
     "vs": [
-     "Shanasia Bagnol",
-     "Melissa Mcconnell"
+     "Virginia Kenny",
+     "Jill Collins"
     ],
-    "f": 23,
-    "a": 21,
+    "f": 21,
+    "a": 15,
     "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Jill Collins",
-     "Shanasia Bagnol"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
-     0
+     0,
+     1
     ]
    },
    {
     "wk": 2,
     "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Kathleen Nitti",
+    "with": "Caroline Kinlin",
     "vs": [
-     "Shanasia Bagnol",
+     "Wendi Wolanske",
      "Jill Collins"
     ],
-    "f": 15,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -10602,14 +13049,14 @@
     "wk": 2,
     "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Sara Hylan",
     "vs": [
-     "Shanasia Bagnol",
-     "Corinne Palma"
+     "Toni Demaio",
+     "Donna Finn"
     ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
+    "f": 24,
+    "a": 22,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -10618,76 +13065,32 @@
     "wk": 2,
     "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Gina Faccone",
+    "with": "Brittany Messing",
     "vs": [
-     "Donna Finn",
-     "Kathleen Lynch"
+     "Virginia Kenny",
+     "Jill Collins"
     ],
     "f": 21,
-    "a": 9,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Denise Bonagura",
-     "Karen Pisano"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
+    "wk": 4,
+    "opp": "Montville",
     "t": "female",
     "with": "Sara Hylan",
     "vs": [
-     "Karen Pisano",
-     "Suzanne Leon"
+     "Jess Cox",
+     "Janine Thompson"
     ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Dawn Dalessio",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Suzanne Leon",
-     "Stacey Cohen"
-    ],
-    "f": 19,
+    "f": 13,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -10695,58 +13098,10 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Karen Pisano",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Dawn Dalessio"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Joanne Rim",
-     "Vilayvanh Sysounthone"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marian Kingston",
+    "with": "Rachel Levkov",
     "vs": [
      "Ani Stone",
      "Hope Lo"
@@ -10762,14 +13117,14 @@
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Kathy Baker",
+    "with": "Brittany Messing",
     "vs": [
-     "Janine Thompson",
-     "Cheryl Brodsky"
+     "Ly Kim",
+     "Angie Ratkowitz"
     ],
     "f": 21,
-    "a": 9,
-    "w": 1,
+    "a": 23,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -10778,14 +13133,14 @@
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Gina Faccone",
+    "with": "Brittany Messing",
     "vs": [
      "Ani Stone",
-     "Kumi Dalton"
+     "Jess Cox"
     ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
+    "f": 10,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -10794,10 +13149,10 @@
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Caroline Kinlin",
+    "with": "Kathy Baker",
     "vs": [
-     "Janine Thompson",
-     "Joanne Rim"
+     "Ly Kim",
+     "Kumi Dalton"
     ],
     "f": 21,
     "a": 14,
@@ -10810,13 +13165,109 @@
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Sara Hylan",
     "vs": [
-     "Debi Mcdonald",
-     "Cheryl Brodsky"
+     "Ani Stone",
+     "Kumi Dalton"
     ],
-    "f": 25,
-    "a": 23,
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Marina Volpe",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Olga Kim",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Linda Seemann",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Jasmine Ho",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Kayla Gipson",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 19,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -10828,9 +13279,9 @@
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 0.3,
-    "confidence": 41,
-    "rank": 62,
+    "rating": 2.6,
+    "confidence": 47,
+    "rank": 9,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 1
@@ -10839,37 +13290,1187 @@
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 1.1,
-    "confidence": 66,
-    "rank": 49,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1.1
+    "rating": 2.4,
+    "confidence": 49,
+    "rank": 19,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 3.6,
+    "rating": 1.9,
+    "confidence": 67,
+    "rank": 28,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.6,
     "confidence": 77,
-    "rank": 8,
+    "rank": 19,
     "ratingGames": 18,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
    {
-    "pid": "9278b092-c3e6-4c05-a09a-998cbde410be",
-    "name": "Gina Faccone",
-    "n": 3,
-    "synergy": 0.7
+    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
+    "name": "Brittany Messing",
+    "n": 5,
+    "synergy": 0.1
    },
    {
-    "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
-    "name": "Kathleen Nitti",
+    "pid": "153fa815-ce9c-4c36-8fce-c525887f05b1",
+    "name": "Sara Hylan",
+    "n": 4,
+    "synergy": -0.6
+   }
+  ]
+ },
+ "16e36ab6-5591-4a2f-97cf-23be0e69c5ef": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 99,
+    "pa": 98,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Life Time Red Bank",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 96,
+    "pa": 98,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 100,
+    "pa": 82,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 70,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 47,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Pam Mcdannell",
+     "Chiti Joshi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Virginia Kenny",
+    "vs": [
+     "Lori Wild",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Pam Mcdannell",
+     "Heather Waters"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Virginia Kenny",
+    "vs": [
+     "Esha Gajjar",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Tina Cros",
+    "vs": [
+     "Virginie Boutin",
+     "Rachel Mcgowan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Donna Facconerusin",
+     "Caroline Kinlin"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Donna Facconerusin",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Shanasia Bagnol",
+    "vs": [
+     "Rachel Levkov",
+     "Brittany Messing"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Gina Faccone",
+     "Brittany Messing"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Virginia Kenny",
+    "vs": [
+     "Kathy Baker",
+     "Gina Faccone"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Virginia Kenny",
+    "vs": [
+     "Eileen Clark",
+     "Sherry Sili"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Lay Wassana",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Kara Chubrik",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Virginia Kenny",
+    "vs": [
+     "Nikki Nigro",
+     "Lay Wassana"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Maureen Murphy",
+     "Sandy Hess"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Kathleen Lynch",
+    "vs": [
+     "Jean Dalstad",
+     "Lynn Hauth"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Ghada Abraham",
+     "Sandy Hess"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Charlie Trapasso",
+     "Ghada Abraham"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Diana Macri"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Linda Iacono",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Diana Macri",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Christine Pisapia",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.5,
+    "confidence": 46,
+    "rank": 51,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0,
+    "confidence": 64,
+    "rank": 69,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.4,
+    "confidence": 73,
+    "rank": 64,
+    "ratingGames": 15,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.6,
+    "confidence": 79,
+    "rank": 60,
+    "ratingGames": 20,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.1,
+    "confidence": 82,
+    "rank": 43,
+    "ratingGames": 25,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "db4adc99-5a82-4911-90f5-3624fda60ee3",
+    "name": "Toni Demaio",
     "n": 3,
-    "synergy": -0.1
+    "synergy": 1.2
+   },
+   {
+    "pid": "301def1b-f1d0-410c-aba8-13c15d2e091e",
+    "name": "Karyn Jarmer",
+    "n": 8,
+    "synergy": 0.5
+   },
+   {
+    "pid": "92deb15a-86c4-4f82-8e0e-d95f7bb6cb68",
+    "name": "Virginia Kenny",
+    "n": 5,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "e4d09d13-0fd5-4686-ac53-f4eb160b2045": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 93,
+    "pa": 100,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Life Time Red Bank",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 92,
+    "pa": 95,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 62,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 71,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Jacqueline Ho",
+     "Pam Mcdannell"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Lori Wild",
+     "Chiti Joshi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Virginia Kenny",
+    "vs": [
+     "Rachel Mcgowan",
+     "Chiti Joshi"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Suzi French",
+     "Heather Waters"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Tina Cros",
+    "vs": [
+     "Jacqueline Ho",
+     "Esha Gajjar"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Julie Biondi",
+    "vs": [
+     "Sara Hylan",
+     "Jackie Coneeny"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Donna Facconerusin",
+     "Caroline Kinlin"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Jill Collins",
+    "vs": [
+     "Marian Kingston",
+     "Caroline Kinlin"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Gina Faccone",
+     "Brittany Messing"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Gina Faccone",
+     "Brittany Messing"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Shanasia Bagnol",
+    "vs": [
+     "Darlene Fusco",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Denise Stevens",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Mary Marger",
+     "Sandy Hess"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Mary Marger",
+     "Denise Stevens"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Sandy Hess",
+     "Trena Hahn"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Stacey Cohen",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Diana Macri"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Vanessa Tortorice",
+    "vs": [
+     "Stacey Cohen",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kimberley Levins",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Diana Macri"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Diana Macri",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -1,
+    "confidence": 45,
+    "rank": 65,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.8,
+    "confidence": 64,
+    "rank": 91,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -0.6,
+    "confidence": 66,
+    "rank": 93,
+    "ratingGames": 10,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.4,
+    "confidence": 75,
+    "rank": 93,
+    "ratingGames": 15,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 81,
+    "rank": 71,
+    "ratingGames": 21,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -1.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "fa88f51d-14cc-4f01-ace6-505565019abb",
+    "name": "Susana Palumbo",
+    "n": 5,
+    "synergy": 0.6
    }
   ]
  },
@@ -11028,6 +14629,17 @@
     "ratingGames": 7,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.9,
+    "confidence": 59,
+    "rank": 31,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -11581,6 +15193,17 @@
     "ratingGames": 24,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.9,
+    "confidence": 81,
+    "rank": 5,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -11594,13 +15217,13 @@
     "pid": "5f062913-9951-481b-8e1d-fee0093e68f2",
     "name": "Hope Lo",
     "n": 5,
-    "synergy": 0.7
+    "synergy": 0.5
    },
    {
     "pid": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
     "name": "Joanne Rim",
     "n": 7,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "2912d9de-09e7-4b21-b93e-ae84f2f8fe93",
@@ -12022,6 +15645,17 @@
     "ratingGames": 17,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.5,
+    "confidence": 76,
+    "rank": 38,
+    "ratingGames": 17,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -12029,7 +15663,7 @@
     "pid": "92deb15a-86c4-4f82-8e0e-d95f7bb6cb68",
     "name": "Virginia Kenny",
     "n": 5,
-    "synergy": 1
+    "synergy": 0.8
    },
    {
     "pid": "892b68ae-7d54-456c-82f6-f2514e107d16",
@@ -12041,7 +15675,7 @@
     "pid": "cc2a9e08-b163-4553-856f-c20895cb9930",
     "name": "Deborah Muschio",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
    }
   ]
  },
@@ -12522,6 +16156,17 @@
     "ratingGames": 20,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.1,
+    "confidence": 78,
+    "rank": 27,
+    "ratingGames": 20,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -12541,7 +16186,7 @@
     "pid": "9d83f1a4-547c-43e9-85b3-cb5fa8391bff",
     "name": "Debi Mcdonald",
     "n": 6,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -13022,6 +16667,17 @@
     "ratingGames": 20,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.3,
+    "confidence": 77,
+    "rank": 41,
+    "ratingGames": 20,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -13029,7 +16685,7 @@
     "pid": "5a35b4ac-7b94-48d4-bd8f-d9c327751821",
     "name": "Theresa Corderi",
     "n": 5,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "2912d9de-09e7-4b21-b93e-ae84f2f8fe93",
@@ -13041,13 +16697,1241 @@
     "pid": "aca67666-3f71-498b-9ef7-c24729d89030",
     "name": "Cheryl Brodsky",
     "n": 6,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "0b60e384-c0c5-4859-883c-1183e79437e3",
     "name": "Kumi Dalton",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
+   }
+  ]
+ },
+ "3e72d2ad-b218-4f3e-b362-4286543ac449": {
+  "log": [
+   {
+    "week": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 70,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 90,
+    "pa": 91,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Sandy Hess",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Denise Stevens",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Denise Stevens",
+     "Ghada Abraham"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Sandy Hess",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Charlie Trapasso",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Karyn Jarmer",
+    "vs": [
+     "Stacey Cohen",
+     "Diana Macri"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Finn",
+    "vs": [
+     "Stacey Cohen",
+     "Linda Iacono"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Vanessa Tortorice",
+    "vs": [
+     "Diana Macri",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Deborah Muschio",
+    "vs": [
+     "Linda Iacono",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Susana Palumbo",
+    "vs": [
+     "Stacey Cohen",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 1.3,
+    "confidence": 49,
+    "rank": 39,
+    "ratingGames": 5,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -2.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.4,
+    "confidence": 66,
+    "rank": 113,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -2.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6",
+    "name": "Donna Finn",
+    "n": 3,
+    "synergy": 0.1
+   }
+  ]
+ },
+ "233811c2-7a6f-48f1-beb9-35c581eaf9d5": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 120,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 60,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 84,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 67,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Virginia Kenny",
+     "Jill Collins"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Shanasia Bagnol",
+     "Melissa Mcconnell"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Wendi Wolanske",
+     "Toni Demaio"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Wendi Wolanske",
+     "Melissa Mcconnell"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Shanasia Bagnol",
+     "Corinne Palma"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Virginia Kenny",
+     "Jill Collins"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Karen Pisano",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Denise Bonagura",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Dawn Dalessio",
+     "Roe Palermo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Dawn Dalessio",
+     "Stacey Cohen"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Denise Bonagura",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Karen Pisano",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Ani Stone",
+     "Hope Lo"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Rachel Baluyot"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Debi Mcdonald",
+     "Angie Ratkowitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Ly Kim",
+     "Angie Ratkowitz"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Ani Stone",
+     "Jess Cox"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Joanne Rim"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Olga Kim",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Maureen Bruno",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Marina Volpe",
+     "Linda Seemann"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Jasmine Ho",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Maureen Bruno",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 2.1,
+    "confidence": 50,
+    "rank": 18,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 3,
+    "confidence": 69,
+    "rank": 6,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 1.1,
+    "confidence": 77,
+    "rank": 44,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.8,
+    "confidence": 81,
+    "rank": 33,
+    "ratingGames": 23,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "f7f80e1e-cebe-432b-9862-1120daaba26e",
+    "name": "Marie Walsh Mccarty",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
+    "name": "Kathleen Nitti",
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
+    "name": "Marian Kingston",
+    "n": 5,
+    "synergy": 0.1
+   },
+   {
+    "pid": "9278b092-c3e6-4c05-a09a-998cbde410be",
+    "name": "Gina Faccone",
+    "n": 6,
+    "synergy": -0.1
+   }
+  ]
+ },
+ "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Life Time Red Bank",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 79,
+    "pa": 88,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 102,
+    "pa": 78,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 122,
+    "pa": 75,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Julie Biondi",
+    "vs": [
+     "Jackie Coneeny",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kathleen Lynch",
+    "vs": [
+     "Jackie Coneeny",
+     "Caroline Kinlin"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Jackie Coneeny",
+     "Kathy Baker"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Sara Hylan",
+     "Marian Kingston"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kathleen Lynch",
+    "vs": [
+     "Gina Faccone",
+     "Rachel Levkov"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Sandy Hess",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Tina Cros",
+    "vs": [
+     "Denise Stevens",
+     "Maureen Murphy"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Mary Marger",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Kathleen Lynch",
+    "vs": [
+     "Jean Dalstad",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Sandy Hess",
+     "Lynn Hauth"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Diana Macri",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Linda Iacono",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Stacey Cohen",
+     "Linda Iacono"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jeanmarie Farkouh",
+    "vs": [
+     "Dawn Dalessio",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Linda Iacono",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1.4,
+    "confidence": 46,
+    "rank": 99,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -0.5,
+    "confidence": 49,
+    "rank": 90,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -1.3,
+    "confidence": 65,
+    "rank": 109,
+    "ratingGames": 10,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.8,
+    "confidence": 75,
+    "rank": 100,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -2.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "892b68ae-7d54-456c-82f6-f2514e107d16",
+    "name": "Kathleen Lynch",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "3e72d2ad-b218-4f3e-b362-4286543ac449",
+    "name": "Darragh Odonnell",
+    "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "fa858fcb-0eed-4ab9-94ea-efec4132e791",
+    "name": "Amy Wondrack",
+    "n": 4,
+    "synergy": -0.9
    }
   ]
  },
@@ -13158,6 +18042,33 @@
     "teamRes": "W",
     "teamGW": 30,
     "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 98,
+    "pa": 68,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    }
@@ -13486,6 +18397,86 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Darragh Odonnell",
+    "vs": [
+     "Stacey Cohen",
+     "Diana Macri"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Amy Wondrack",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Toni Demaio",
+    "vs": [
+     "Stacey Cohen",
+     "Dawn Dalessio"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Melissa Mcconnell",
+    "vs": [
+     "Diana Macri",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Wendi Wolanske",
+    "vs": [
+     "Diana Macri",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -13532,323 +18523,196 @@
     "ratingGames": 20,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.4,
+    "confidence": 82,
+    "rank": 93,
+    "ratingGames": 25,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -1.2
    }
   ],
   "partners": [
    {
     "pid": "16e36ab6-5591-4a2f-97cf-23be0e69c5ef",
     "name": "Melissa Mcconnell",
-    "n": 7,
-    "synergy": 0.1
+    "n": 8,
+    "synergy": 0.5
    },
    {
     "pid": "db4adc99-5a82-4911-90f5-3624fda60ee3",
     "name": "Toni Demaio",
-    "n": 3,
-    "synergy": -0.1
+    "n": 4,
+    "synergy": -0.9
    }
   ]
  },
- "9278b092-c3e6-4c05-a09a-998cbde410be": {
+ "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909": {
   "log": [
    {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "week": 1,
+    "opp": "Montville",
     "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 108,
-    "pa": 101,
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 132,
+    "pa": 130,
     "mx": [
      0,
      0
     ],
     "gn": [
-     4,
-     2
+     3,
+     4
     ],
     "cl": [
      1,
-     0
+     3
     ],
     "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
+    "teamGW": 9,
+    "teamGL": 23,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
+    "week": 2,
+    "opp": "PKLD",
+    "homeAway": "H",
     "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 60,
+    "l": 2,
+    "gp": 7,
+    "pf": 133,
+    "pa": 109,
     "mx": [
      0,
      0
     ],
     "gn": [
      5,
-     0
+     2
     ],
     "cl": [
      1,
-     0
+     1
     ],
     "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
+    "teamGW": 24,
+    "teamGL": 8,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 84,
-    "pa": 95,
+    "week": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 115,
     "mx": [
      0,
      0
     ],
     "gn": [
-     2,
-     3
+     8,
+     0
     ],
     "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 138,
+    "pa": 116,
+    "mx": [
      0,
      0
     ],
+    "gn": [
+     5,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 153,
+    "pa": 149,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     2,
+     1
+    ],
     "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
+    "teamGW": 15,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Amy Wondrack",
-     "Jill Collins"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Shanasia Bagnol",
-     "Karyn Jarmer"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Wendi Wolanske",
-     "Toni Demaio"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Wendi Wolanske",
-     "Melissa Mcconnell"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Virginia Kenny",
-     "Melissa Mcconnell"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Donna Finn",
-     "Kathleen Lynch"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Suzanne Leon",
-     "Roe Palermo"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Suzanne Leon",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Roe Palermo",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Karen Pisano",
-     "Roe Palermo"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Karen Pisano",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
+    "wk": 1,
     "opp": "Montville",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Kelly Bowers",
     "vs": [
-     "Ani Stone",
-     "Hope Lo"
+     "Vera Wong",
+     "Janine Thompson"
     ],
-    "f": 12,
-    "a": 21,
+    "f": 22,
+    "a": 24,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
+    "wk": 1,
     "opp": "Montville",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Peggy Matzen",
     "vs": [
-     "Debi Mcdonald",
+     "Ly Kim",
      "Angie Ratkowitz"
     ],
     "f": 12,
@@ -13859,13 +18723,65 @@
     "subFor": null
    },
    {
-    "wk": 4,
+    "wk": 1,
     "opp": "Montville",
     "t": "female",
-    "with": "Rachel Levkov",
+    "with": "Jessica Wormeck",
     "vs": [
-     "Ani Stone",
-     "Kumi Dalton"
+     "Theresa Corderi",
+     "Ly Kim"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Joanne Rim",
+     "Sonu Munshi"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Ly Kim",
+     "Janine Thompson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Joanne Rim",
+     "Angie Ratkowitz"
     ],
     "f": 21,
     "a": 18,
@@ -13875,13 +18791,109 @@
     "subFor": null
    },
    {
-    "wk": 4,
+    "wk": 1,
     "opp": "Montville",
     "t": "female",
-    "with": "Kathy Baker",
+    "with": "Jo Marie Holzhammer",
     "vs": [
-     "Debi Mcdonald",
-     "Angie Ratkowitz"
+     "Janine Thompson",
+     "San Yang"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Linda Seemann",
+     "Maureen Bruno"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Marina Berger",
+     "Maureen Bruno"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Linda Johns",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Linda Johns",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Linda Seemann",
+     "Kayla Gipson"
     ],
     "f": 21,
     "a": 14,
@@ -13891,13 +18903,370 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Montville",
+    "wk": 2,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Kathleen Nitti",
+    "with": "Monika Torbus",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Janine Thompson"
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Maureen Murphy",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Christine Steigerwalt",
+     "Jenna Haas"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Denise Stevens",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Nami Huang",
+     "Darlene Fusco"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Darlene Fusco",
+     "Trena Hahn"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Charlie Trapasso",
+     "Denise Stevens"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Ghada Abraham",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Darlene Fusco",
+     "Christine Steigerwalt"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Heather Waters",
+     "Chiti Joshi"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Pam Mcdannell",
+     "Chiti Joshi"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Suzi French",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Lori Wild",
+     "Virginie Boutin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Esha Gajjar",
+     "Virginie Boutin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Chiti Joshi",
+     "Virginie Boutin"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Suzi French",
+     "Chiti Joshi"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Lynda Levan",
+     "Jeannine Calhoun"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Julia Hollman",
+     "Janice Aliberti"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Lynda Levan",
+     "Janice Aliberti"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Brogann Bowden",
+     "Julia Hollman"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Diane Bracco",
+     "Marianne Rosato"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Julia Hollman",
+     "Tammy Dragon"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Julia Hollman",
+     "Jeannine Calhoun"
     ],
     "f": 18,
     "a": 21,
@@ -13905,61 +19274,123 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Jeannine Calhoun",
+     "Marianne Rosato"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 1,
+    "confidence": 50,
+    "rank": 24,
+    "ratingGames": 7,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.1
+   },
+   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 0.6,
-    "confidence": 51,
-    "rank": 53,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.4
+    "rating": 2.1,
+    "confidence": 72,
+    "rank": 17,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 1.3,
-    "confidence": 65,
-    "rank": 41,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -0.6
+    "rating": 2.6,
+    "confidence": 81,
+    "rank": 14,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 0.6,
-    "confidence": 74,
-    "rank": 62,
-    "ratingGames": 16,
-    "strengthOfPartners": 1.9,
+    "rating": 2.6,
+    "confidence": 85,
+    "rank": 16,
+    "ratingGames": 29,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.9,
+    "confidence": 88,
+    "rank": 12,
+    "ratingGames": 37,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
    {
-    "pid": "067afbd0-d803-4eb0-b467-3af2930f18af",
-    "name": "Rachel Levkov",
+    "pid": "c9f10502-3413-4189-87c9-d05ec7accae3",
+    "name": "Karen Waldon",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 1
    },
    {
-    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
-    "name": "Brittany Messing",
+    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
+    "name": "Jessica Wormeck",
+    "n": 9,
+    "synergy": 0.9
+   },
+   {
+    "pid": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d",
+    "name": "Monika Torbus",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
+    "name": "Kelly Bowers",
+    "n": 4,
+    "synergy": -0.3
+   },
+   {
+    "pid": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
+    "name": "Nancy Cook",
     "n": 5,
     "synergy": -0.3
    },
    {
-    "pid": "e84d93a0-c527-4a44-a896-ccc20d0ac474",
-    "name": "Kathy Baker",
+    "pid": "63946930-2dca-489e-8158-028722c045f5",
+    "name": "Christine Ziegler",
+    "n": 3,
+    "synergy": -1
+   },
+   {
+    "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
+    "name": "Peggy Matzen",
     "n": 4,
-    "synergy": -0.6
+    "synergy": -2.7
    }
   ]
  },
@@ -14043,6 +19474,33 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 116,
+    "pa": 99,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
     "sub": 0,
     "subFor": null
    }
@@ -14347,6 +19805,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Olga Kim",
+     "Marina Volpe"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Marina Berger",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Marina Volpe",
+     "Marina Berger"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Marina Volpe",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Olga Kim",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -14382,567 +19936,37 @@
     "ratingGames": 18,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.8,
+    "confidence": 82,
+    "rank": 15,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
    {
     "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
     "name": "Kathleen Nitti",
-    "n": 5,
-    "synergy": 0
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "067afbd0-d803-4eb0-b467-3af2930f18af",
+    "name": "Rachel Levkov",
+    "n": 4,
+    "synergy": 0.3
    },
    {
     "pid": "9278b092-c3e6-4c05-a09a-998cbde410be",
     "name": "Gina Faccone",
-    "n": 4,
-    "synergy": -0.6
-   }
-  ]
- },
- "e94c3831-b63f-4858-a2a1-94c0c10ee4e7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 93,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 133,
-    "pa": 148,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     5
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 160,
-    "pa": 150,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     3
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Karen Pisano",
-     "Lenore David"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Sally Sitro",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Denise Bonagura",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Sally Sitro",
-     "Lenore David"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Karen Pisano"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Sally Sitro",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Denise Bonagura",
-     "Eileen Clark"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Karen Pisano",
-     "Sally Sitro"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Jessica Wormeck",
-     "Jo Marie Holzhammer"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Meghan Klein",
-     "Peggy Matzen"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Kelly Bowers"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Meghan Klein",
-     "Jessica Wormeck"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Holly Ferguson"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Jessica Wormeck"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Monika Torbus",
-     "Kelly Bowers"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Kelly Bowers",
-     "Jo Marie Holzhammer"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Holli Lish",
-     "Chiti Joshi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Chiti Joshi",
-     "Holli Lish"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Heather Waters",
-     "Holli Lish"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Virginie Boutin",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Rachel Mcgowan",
-     "Chiti Joshi"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Virginie Boutin",
-     "Chiti Joshi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Esha Gajjar",
-     "Lori Wild"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Lori Wild",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 2.6,
-    "confidence": 54,
-    "rank": 5,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -1.9
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 1.3,
-    "confidence": 73,
-    "rank": 36,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.3,
-    "confidence": 81,
-    "rank": 38,
-    "ratingGames": 24,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.1,
-    "confidence": 82,
-    "rank": 43,
-    "ratingGames": 24,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.8
-   }
-  ],
-  "partners": [
-   {
-    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
-    "name": "Marina Berger",
-    "n": 3,
-    "synergy": 0.6
-   },
-   {
-    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-    "name": "Linda Johns",
-    "n": 4,
-    "synergy": -0.1
-   },
-   {
-    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
-    "name": "Marina Volpe",
     "n": 5,
-    "synergy": -0.5
-   },
-   {
-    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
-    "name": "Paula Cushing",
-    "n": 6,
-    "synergy": -1
+    "synergy": -0.7
    }
   ]
  },
@@ -15498,6 +20522,17 @@
     "ratingGames": 24,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.4,
+    "confidence": 81,
+    "rank": 20,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -15505,13 +20540,13 @@
     "pid": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
     "name": "Janine Thompson",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.2
    },
    {
     "pid": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56",
     "name": "Ani Stone",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
@@ -15523,7 +20558,7 @@
     "pid": "5f062913-9951-481b-8e1d-fee0093e68f2",
     "name": "Hope Lo",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    }
   ]
  },
@@ -15905,6 +20940,17 @@
     "ratingGames": 15,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.8,
+    "confidence": 76,
+    "rank": 34,
+    "ratingGames": 15,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -15912,96 +20958,69 @@
     "pid": "c132bfd5-ae12-478d-86bc-e483f85cb26a",
     "name": "Kimberley Levins",
     "n": 3,
-    "synergy": 2
+    "synergy": 2.2
    },
    {
     "pid": "fa858fcb-0eed-4ab9-94ea-efec4132e791",
     "name": "Amy Wondrack",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    }
   ]
  },
- "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3": {
+ "8f56fb31-09f6-4c12-aa46-6b2f56433f3d": {
   "log": [
    {
     "week": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
+    "opp": "PKLD",
+    "homeAway": "H",
     "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 118,
-    "pa": 87,
+    "l": 3,
+    "gp": 8,
+    "pf": 160,
+    "pa": 132,
     "mx": [
      0,
      0
     ],
     "gn": [
      5,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 121,
-    "pa": 115,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     3,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "PKLD",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 110,
-    "pa": 113,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
      3
     ],
     "cl": [
      0,
-     0
+     2
     ],
     "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 138,
+    "pa": 124,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    }
@@ -16009,55 +21028,15 @@
   "games": [
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Lynda Levan",
+    "with": "Meghan Klein",
     "vs": [
-     "Sherry Sili",
-     "Eileen Clark"
+     "Paula Cushing",
+     "Marina Berger"
     ],
     "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Kim Allaga",
-     "Sherry Sili"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Jeannine Calhoun",
-    "vs": [
-     "Rani Borusu",
-     "Tanyalak Sawangpak"
-    ],
-    "f": 21,
-    "a": 18,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -16065,72 +21044,176 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Julia Hollman",
+    "with": "Kelly Bowers",
     "vs": [
-     "Sherry Sili",
-     "Eileen Clark"
+     "Kayla Gipson",
+     "Marina Berger"
     ],
     "f": 21,
-    "a": 9,
+    "a": 12,
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Tammy Dragon",
+    "with": "Jessica Wormeck",
     "vs": [
-     "Sherry Sili",
-     "Tanyalak Sawangpak"
+     "Marina Berger",
+     "Olga Turova"
     ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Grace Brennan",
-    "vs": [
-     "Eileen Clark",
-     "Beth Pardilla"
-    ],
-    "f": 13,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Kayla Gipson",
+     "Paula Cushing"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Kayla Gipson",
+     "Linda Seemann"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Linda Seemann",
+     "Marina Berger"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Maureen Bruno",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Tammy Dragon",
+     "Julia Hollman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Marianne Rosato",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Barbara Mccarron",
+     "Marianne Rosato"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
     "subFor": null,
     "vsSub": [
-     0,
-     1
+     1,
+     0
     ]
    },
    {
-    "wk": 3,
-    "opp": "Montville",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Lynda Levan",
+    "with": "Karen Waldon",
     "vs": [
-     "Debi Mcdonald",
-     "Angie Ratkowitz"
+     "Grace Brennan",
+     "Marianne Rosato"
     ],
     "f": 21,
     "a": 16,
@@ -16140,15 +21223,15 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Montville",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Kelly Bowers",
     "vs": [
-     "Janine Thompson",
-     "Ly Kim"
+     "Tammy Dragon",
+     "Janice Aliberti"
     ],
-    "f": 18,
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -16156,159 +21239,29 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Montville",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Diane Bracco",
+    "with": "Meghan Klein",
     "vs": [
-     "Ly Kim",
-     "Cheryl Brodsky"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Tammy Dragon",
-    "vs": [
-     "Angie Ratkowitz",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Elizabeth Biehl",
-    "vs": [
-     "Hope Lo",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Debi Mcdonald",
-     "Kumi Dalton"
+     "Julia Hollman",
+     "Tammy Dragon"
     ],
     "f": 22,
     "a": 20,
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jamie Levin",
-    "vs": [
-     "Paula Cushing",
-     "Marina Volpe"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "PKLD",
+    "wk": 5,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Annette Marsh",
+    "with": "Johanna Kreilick",
     "vs": [
-     "Olga Kim",
-     "Kayla Gipson"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Paula Cushing",
-     "Kayla Gipson"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Janice Aliberti",
-    "vs": [
-     "Marina Volpe",
-     "Olga Turova"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Grace Brennan",
-    "vs": [
-     "Marina Volpe",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Julia Hollman",
-    "vs": [
-     "Olga Kim",
-     "Linda Seemann"
+     "Diane Bracco",
+     "Grace Brennan"
     ],
     "f": 21,
     "a": 15,
@@ -16316,6 +21269,26 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Janice Aliberti",
+     "Barbara Mccarron"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -16323,42 +21296,59 @@
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 0.6,
-    "confidence": 46,
-    "rank": 55,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1.4
+    "rating": 1.6,
+    "confidence": 55,
+    "rank": 26,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 1.4,
-    "confidence": 69,
-    "rank": 36,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.1
+    "rating": 1.8,
+    "confidence": 59,
+    "rank": 29,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 0.3,
-    "confidence": 78,
-    "rank": 70,
-    "ratingGames": 18,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0
+    "rating": 1.7,
+    "confidence": 59,
+    "rank": 31,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.4,
+    "confidence": 74,
+    "rank": 21,
+    "ratingGames": 15,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
    {
-    "pid": "15778391-96b7-4888-9d08-d63b96e104ca",
-    "name": "Grace Brennan",
+    "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
+    "name": "Kelly Bowers",
+    "n": 4,
+    "synergy": 1.5
+   },
+   {
+    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
+    "name": "Meghan Klein",
     "n": 3,
-    "synergy": -0.8
+    "synergy": 0.5
    }
   ]
  },
@@ -16523,1958 +21513,20 @@
     "ratingGames": 6,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": 1.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.9,
+    "confidence": 55,
+    "rank": 14,
+    "ratingGames": 6,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": 2.2
    }
   ],
   "partners": []
- },
- "b3448785-cc93-4aed-9940-a4cc2e7a66d9": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Montville",
-    "homeAway": "A",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 137,
-    "pa": 158,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     6
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 158,
-    "pa": 137,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 121,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 155,
-    "pa": 128,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Ani Stone",
-     "Sonu Munshi"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Joanne Rim"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Hope Lo"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Theresa Corderi",
-     "Ly Kim"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Jess Cox",
-     "Hope Lo"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Ly Kim",
-     "Janine Thompson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Karen Waldon",
-    "vs": [
-     "Janine Thompson",
-     "Vilayvanh Sysounthone"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Karen Waldon",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Joanne Rim"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Marina Volpe",
-     "Maureen Bruno"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Paula Cushing",
-     "Marina Volpe"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Monika Torbus",
-    "vs": [
-     "Marina Berger",
-     "Olga Turova"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Marina Berger",
-     "Maureen Bruno"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Marina Volpe",
-     "Marina Berger"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Maureen Bruno",
-     "Marina Volpe"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Karen Waldon",
-    "vs": [
-     "Olga Turova",
-     "Marina Berger"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Olga Turova",
-     "Linda Seemann"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Jean Dalstad",
-     "Denise Stevens"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Christine Steigerwalt",
-     "Jenna Haas"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Denise Stevens",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Susan Hughes",
-     "Ghada Abraham"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Sandy Hess",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Susan Hughes",
-     "Nami Huang"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Denise Stevens",
-     "Maureen Murphy"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Susan Hughes",
-     "Maureen Murphy"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Holly Ferguson",
-    "vs": [
-     "Esha Gajjar",
-     "Lori Wild"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Pam Mcdannell",
-     "Chiti Joshi"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Lori Wild",
-     "Esha Gajjar"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Lori Wild",
-     "Virginie Boutin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Lori Wild",
-     "Chiti Joshi"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Suzi French",
-     "Esha Gajjar"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Pam Mcdannell",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Esha Gajjar",
-     "Virginie Boutin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.3,
-    "confidence": 54,
-    "rank": 41,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0.7,
-    "confidence": 72,
-    "rank": 49,
-    "ratingGames": 16,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 1.2
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1,
-    "confidence": 81,
-    "rank": 51,
-    "ratingGames": 24,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.2,
-    "confidence": 86,
-    "rank": 40,
-    "ratingGames": 32,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
-    "name": "Meghan Klein",
-    "n": 7,
-    "synergy": 1.4
-   },
-   {
-    "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
-    "name": "Peggy Matzen",
-    "n": 3,
-    "synergy": 1.1
-   },
-   {
-    "pid": "63946930-2dca-489e-8158-028722c045f5",
-    "name": "Christine Ziegler",
-    "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "c9f10502-3413-4189-87c9-d05ec7accae3",
-    "name": "Karen Waldon",
-    "n": 3,
-    "synergy": -0.4
-   },
-   {
-    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
-    "name": "Jo Marie Holzhammer",
-    "n": 5,
-    "synergy": -0.8
-   },
-   {
-    "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
-    "name": "Kelly Bowers",
-    "n": 4,
-    "synergy": -1
-   }
-  ]
- },
- "f8a42c6f-43b2-4769-b0ed-a1d648353e04": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 92,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 136,
-    "pa": 157,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     5
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 158,
-    "pa": 145,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     3
-    ],
-    "cl": [
-     3,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 150,
-    "pa": 145,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     3
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Linda Iacono",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Sally Sitro",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Elizabeth Damico"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Filomena Rega",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Linda Iacono"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Filomena Rega",
-    "vs": [
-     "Christine Pisapia",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Sally Sitro",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Christine Pisapia",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Meghan Klein",
-     "Monika Torbus"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Johanna Kreilick",
-     "Jessica Wormeck"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Kelly Bowers"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Monika Torbus",
-     "Jo Marie Holzhammer"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Holly Ferguson"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Peggy Matzen",
-     "Karen Waldon"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Peggy Matzen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Meghan Klein",
-     "Monika Torbus"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Lori Wild",
-     "Jacqueline Ho"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Lori Wild",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Heather Waters",
-     "Holli Lish"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Lori Wild",
-     "Esha Gajjar"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Rachel Mcgowan",
-     "Chiti Joshi"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Rachel Mcgowan",
-     "Esha Gajjar"
-    ],
-    "f": 26,
-    "a": 24,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Chiti Joshi",
-     "Virginie Boutin"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Rachel Mcgowan",
-     "Esha Gajjar"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Diane Bracco",
-     "Suzanne Bauer"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Marianne Rosato",
-     "Jamie Levin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Grace Brennan",
-     "Suzanne Bauer"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Marianne Rosato",
-     "Suzanne Bauer"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Annette Marsh",
-     "Suzanne Bauer"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Jamie Levin",
-     "Tammy Dragon"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Diane Bracco",
-     "Tammy Dragon"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Janice Aliberti",
-     "Suzanne Bauer"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 2.5,
-    "confidence": 51,
-    "rank": 8,
-    "ratingGames": 8,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -1.9
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0.7,
-    "confidence": 72,
-    "rank": 50,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.3,
-    "confidence": 80,
-    "rank": 39,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.3,
-    "confidence": 85,
-    "rank": 36,
-    "ratingGames": 32,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
-    "name": "Olga Kim",
-    "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
-    "name": "Marina Volpe",
-    "n": 8,
-    "synergy": 1.1
-   },
-   {
-    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
-    "name": "Marina Berger",
-    "n": 4,
-    "synergy": -0.2
-   },
-   {
-    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
-    "name": "Olga Turova",
-    "n": 3,
-    "synergy": -0.5
-   },
-   {
-    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
-    "name": "Maureen Bruno",
-    "n": 6,
-    "synergy": -1
-   }
-  ]
- },
- "16e36ab6-5591-4a2f-97cf-23be0e69c5ef": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 99,
-    "pa": 98,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Life Time Red Bank",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 96,
-    "pa": 98,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 100,
-    "pa": 82,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 70,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Pam Mcdannell",
-     "Chiti Joshi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Virginia Kenny",
-    "vs": [
-     "Lori Wild",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Pam Mcdannell",
-     "Heather Waters"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Virginia Kenny",
-    "vs": [
-     "Esha Gajjar",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Tina Cros",
-    "vs": [
-     "Virginie Boutin",
-     "Rachel Mcgowan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Donna Facconerusin",
-     "Caroline Kinlin"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Donna Facconerusin",
-     "Marie Walsh Mccarty"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Shanasia Bagnol",
-    "vs": [
-     "Rachel Levkov",
-     "Brittany Messing"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Wendi Wolanske",
-    "vs": [
-     "Gina Faccone",
-     "Brittany Messing"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Virginia Kenny",
-    "vs": [
-     "Kathy Baker",
-     "Gina Faccone"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Virginia Kenny",
-    "vs": [
-     "Eileen Clark",
-     "Sherry Sili"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Tanyalak Sawangpak",
-     "Nikki Nigro"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Lay Wassana",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Kara Chubrik",
-     "Tanyalak Sawangpak"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Virginia Kenny",
-    "vs": [
-     "Nikki Nigro",
-     "Lay Wassana"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Maureen Murphy",
-     "Sandy Hess"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Kathleen Lynch",
-    "vs": [
-     "Jean Dalstad",
-     "Lynn Hauth"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Karyn Jarmer",
-    "vs": [
-     "Ghada Abraham",
-     "Sandy Hess"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Deborah Muschio",
-    "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Amy Wondrack",
-    "vs": [
-     "Charlie Trapasso",
-     "Ghada Abraham"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.5,
-    "confidence": 46,
-    "rank": 51,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0,
-    "confidence": 64,
-    "rank": 69,
-    "ratingGames": 10,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.4,
-    "confidence": 73,
-    "rank": 64,
-    "ratingGames": 15,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.6,
-    "confidence": 79,
-    "rank": 60,
-    "ratingGames": 20,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "301def1b-f1d0-410c-aba8-13c15d2e091e",
-    "name": "Karyn Jarmer",
-    "n": 7,
-    "synergy": 0.1
-   },
-   {
-    "pid": "92deb15a-86c4-4f82-8e0e-d95f7bb6cb68",
-    "name": "Virginia Kenny",
-    "n": 5,
-    "synergy": -0.5
-   }
-  ]
  },
  "a6f156e3-7dfa-42ec-8c69-a73c25e55833": {
   "log": [
@@ -19042,6 +22094,17 @@
     "ratingGames": 25,
     "strengthOfPartners": 2,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.3,
+    "confidence": 82,
+    "rank": 25,
+    "ratingGames": 25,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -19055,7 +22118,7 @@
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
     "name": "Vilayvanh Sysounthone",
     "n": 7,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "5f062913-9951-481b-8e1d-fee0093e68f2",
@@ -19556,6 +22619,17 @@
     "ratingGames": 22,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.9,
+    "confidence": 81,
+    "rank": 48,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -19563,13 +22637,13 @@
     "pid": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
     "name": "Nancy Cook",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
     "name": "Jo Marie Holzhammer",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
@@ -19581,7 +22655,7 @@
     "pid": "63946930-2dca-489e-8158-028722c045f5",
     "name": "Christine Ziegler",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.7
    },
    {
     "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
@@ -19591,559 +22665,17 @@
    }
   ]
  },
- "c3649296-108a-4a74-ad2a-e045d2fdee4c": {
+ "f8a42c6f-43b2-4769-b0ed-a1d648353e04": {
   "log": [
    {
     "week": 1,
-    "opp": "Montville",
+    "opp": "Premiere",
     "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 113,
-    "pa": 142,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     5
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "A",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 164,
-    "pa": 138,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 143,
-    "pa": 106,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Ani Stone",
-     "Sonu Munshi"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Ani Stone",
-     "Jess Cox"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Karen Waldon",
-    "vs": [
-     "Vera Wong",
-     "Theresa Corderi"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Karen Waldon",
-    "vs": [
-     "Ani Stone",
-     "San Yang"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Joanne Rim",
-     "Sonu Munshi"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Joanne Rim",
-     "Angie Ratkowitz"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Vera Wong",
-     "Angie Ratkowitz"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Charlie Trapasso",
-     "Trena Hahn"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Nami Huang",
-     "Ghada Abraham"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Ghada Abraham",
-     "Jenna Haas"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Christine Steigerwalt",
-     "Jean Dalstad"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Denise Stevens",
-     "Maureen Murphy"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Charlie Trapasso",
-     "Denise Stevens"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Denise Stevens",
-     "Maureen Murphy"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Nami Huang",
-     "Sandy Hess"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Sulyn Kulick",
-     "Virginie Boutin"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Suzi French",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Pam Mcdannell",
-     "Suzi French"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Heather Waters",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Holly Ferguson",
-    "vs": [
-     "Virginie Boutin",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Esha Gajjar",
-     "Lori Wild"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Heather Waters",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -2,
-    "confidence": 50,
-    "rank": 75,
-    "ratingGames": 7,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.3,
-    "confidence": 52,
-    "rank": 97,
-    "ratingGames": 7,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 1.7
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1,
-    "confidence": 73,
-    "rank": 101,
-    "ratingGames": 15,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.9,
-    "confidence": 81,
-    "rank": 49,
-    "ratingGames": 22,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
-    "name": "Peggy Matzen",
-    "n": 4,
-    "synergy": 1.9
-   },
-   {
-    "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
-    "name": "Maureen Dazzo",
-    "n": 3,
-    "synergy": 0.8
-   },
-   {
-    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
-    "name": "Meghan Klein",
-    "n": 4,
-    "synergy": -0.4
-   }
-  ]
- },
- "25c2cf33-ede0-4610-85d6-e08cddc05484": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Montville",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 122,
-    "pa": 162,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "PKLD",
-    "homeAway": "H",
     "w": 8,
     "l": 0,
     "gp": 8,
     "pf": 168,
-    "pa": 106,
+    "pa": 92,
     "mx": [
      0,
      0
@@ -20157,35 +22689,116 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 31,
+    "teamGL": 1,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 3,
-    "opp": "Pickleball Lehigh Valley",
+    "week": 2,
+    "opp": "Flemington Blue",
     "homeAway": "A",
-    "w": 6,
-    "l": 2,
+    "w": 3,
+    "l": 5,
     "gp": 8,
-    "pf": 164,
-    "pa": 143,
+    "pf": 136,
+    "pa": 157,
     "mx": [
      0,
      0
     ],
     "gn": [
-     6,
-     2
+     3,
+     5
     ],
     "cl": [
      2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 158,
+    "pa": 145,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     3
+    ],
+    "cl": [
+     3,
      2
     ],
     "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 150,
+    "pa": 145,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     3
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 106,
+    "pa": 104,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -20193,30 +22806,378 @@
   "games": [
    {
     "wk": 1,
-    "opp": "Montville",
+    "opp": "Premiere",
     "t": "female",
-    "with": "Meghan Klein",
+    "with": "Marina Volpe",
     "vs": [
-     "Vera Wong",
-     "Janine Thompson"
+     "Linda Iacono",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Sally Sitro",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Filomena Rega",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Filomena Rega",
+    "vs": [
+     "Christine Pisapia",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Sally Sitro",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Christine Pisapia",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Meghan Klein",
+     "Monika Torbus"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Johanna Kreilick",
+     "Jessica Wormeck"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Kelly Bowers"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Monika Torbus",
+     "Jo Marie Holzhammer"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Holly Ferguson"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Peggy Matzen",
+     "Karen Waldon"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Peggy Matzen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Meghan Klein",
+     "Monika Torbus"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Lori Wild",
+     "Jacqueline Ho"
     ],
     "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Lori Wild",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Heather Waters",
+     "Holli Lish"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Lori Wild",
+     "Esha Gajjar"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Rachel Mcgowan",
+     "Chiti Joshi"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Rachel Mcgowan",
+     "Esha Gajjar"
+    ],
+    "f": 26,
     "a": 24,
-    "w": 0,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Montville",
+    "wk": 3,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Jessica Wormeck",
+    "with": "Marina Volpe",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Joanne Rim"
+     "Chiti Joshi",
+     "Virginie Boutin"
     ],
-    "f": 17,
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -20224,31 +23185,107 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Montville",
+    "wk": 3,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Jessica Wormeck",
+    "with": "Marina Berger",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Hope Lo"
+     "Rachel Mcgowan",
+     "Esha Gajjar"
     ],
-    "f": 9,
-    "a": 21,
+    "f": 25,
+    "a": 27,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Montville",
+    "wk": 4,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Karen Veninger",
+    "with": "Jasmine Ho",
     "vs": [
-     "Hope Lo",
-     "Sonu Munshi"
+     "Diane Bracco",
+     "Suzanne Bauer"
     ],
-    "f": 11,
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Marianne Rosato",
+     "Jamie Levin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Grace Brennan",
+     "Suzanne Bauer"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Marianne Rosato",
+     "Suzanne Bauer"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Annette Marsh",
+     "Suzanne Bauer"
+    ],
+    "f": 18,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -20260,15 +23297,15 @@
     ]
    },
    {
-    "wk": 1,
-    "opp": "Montville",
+    "wk": 4,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Peggy Matzen",
+    "with": "Linda Seemann",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Angie Ratkowitz"
+     "Jamie Levin",
+     "Tammy Dragon"
     ],
-    "f": 12,
+    "f": 8,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -20276,15 +23313,67 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Montville",
+    "wk": 4,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Karen Veninger",
+    "with": "Olga Kim",
     "vs": [
-     "Theresa Corderi",
-     "Joanne Rim"
+     "Diane Bracco",
+     "Tammy Dragon"
     ],
-    "f": 19,
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Janice Aliberti",
+     "Suzanne Bauer"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Rachel Levkov",
+     "Kathy Baker"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Rachel Levkov",
+     "Marian Kingston"
+    ],
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -20292,31 +23381,15 @@
     "subFor": null
    },
    {
-    "wk": 1,
-    "opp": "Montville",
+    "wk": 5,
+    "opp": "Life Time Red Bank",
     "t": "female",
-    "with": "Jo Marie Holzhammer",
+    "with": "Maureen Bruno",
     "vs": [
-     "Ani Stone",
-     "San Yang"
+     "Marie Walsh Mccarty",
+     "Kathleen Nitti"
     ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Hope Lo",
-     "Ani Stone"
-    ],
-    "f": 14,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -20324,45 +23397,13 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 5,
+    "opp": "Life Time Red Bank",
     "t": "female",
-    "with": "Holly Ferguson",
+    "with": "Jasmine Ho",
     "vs": [
-     "Linda Johns",
-     "Linda Seemann"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Monika Torbus",
-    "vs": [
-     "Kayla Gipson",
-     "Marina Berger"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Paula Cushing",
-     "Maureen Bruno"
+     "Donna Facconerusin",
+     "Jackie Coneeny"
     ],
     "f": 21,
     "a": 13,
@@ -20372,61 +23413,29 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 5,
+    "opp": "Life Time Red Bank",
     "t": "female",
-    "with": "Johanna Kreilick",
+    "with": "Maureen Bruno",
     "vs": [
-     "Linda Johns",
-     "Marina Volpe"
+     "Rachel Levkov",
+     "Gina Faccone"
     ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
+    "f": 9,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 5,
+    "opp": "Life Time Red Bank",
     "t": "female",
-    "with": "Jessica Wormeck",
+    "with": "Jasmine Ho",
     "vs": [
-     "Marina Volpe",
-     "Marina Berger"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Linda Johns",
-     "Kayla Gipson"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Monika Torbus",
-    "vs": [
-     "Maureen Bruno",
-     "Linda Johns"
+     "Donna Facconerusin",
+     "Jerzie-Ann Coppola"
     ],
     "f": 21,
     "a": 10,
@@ -20436,145 +23445,16 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "PKLD",
+    "wk": 5,
+    "opp": "Life Time Red Bank",
     "t": "female",
-    "with": "Jo Marie Holzhammer",
+    "with": "Marina Berger",
     "vs": [
-     "Kayla Gipson",
-     "Maureen Bruno"
+     "Caroline Kinlin",
+     "Sara Hylan"
     ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Jean Dalstad",
-     "Denise Stevens"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Susan Hughes",
-     "Trena Hahn"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Nancy Cook",
-    "vs": [
-     "Ghada Abraham",
-     "Jenna Haas"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Jenna Haas",
-     "Trena Hahn"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Christine Ziegler",
-    "vs": [
-     "Christine Steigerwalt",
-     "Charlie Trapasso"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Ghada Abraham",
-     "Sandy Hess"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Jean Dalstad",
-     "Nami Huang"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Darlene Fusco",
-     "Christine Steigerwalt"
-    ],
-    "f": 23,
-    "a": 21,
+    "f": 12,
+    "a": 8,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -20586,1021 +23466,94 @@
     "week": 1,
     "seq": 0,
     "label": "1",
-    "rating": -2.4,
-    "confidence": 55,
-    "rank": 78,
+    "rating": 2.5,
+    "confidence": 51,
+    "rank": 8,
     "ratingGames": 8,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -1.9
    },
    {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 1.5,
-    "confidence": 74,
-    "rank": 29,
+    "rating": 0.7,
+    "confidence": 72,
+    "rank": 50,
     "ratingGames": 16,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.8
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 1,
-    "confidence": 82,
-    "rank": 50,
+    "rating": 1.3,
+    "confidence": 80,
+    "rank": 39,
     "ratingGames": 24,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.5
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 0.9,
-    "confidence": 83,
-    "rank": 48,
-    "ratingGames": 24,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.2
+    "rating": 1.3,
+    "confidence": 85,
+    "rank": 36,
+    "ratingGames": 32,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.8,
+    "confidence": 87,
+    "rank": 32,
+    "ratingGames": 39,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
    {
-    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
-    "name": "Jo Marie Holzhammer",
-    "n": 3,
-    "synergy": 1.9
+    "pid": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
+    "name": "Olga Kim",
+    "n": 4,
+    "synergy": 1.4
    },
    {
-    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
-    "name": "Meghan Klein",
-    "n": 3,
-    "synergy": -0.1
+    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
+    "name": "Jasmine Ho",
+    "n": 4,
+    "synergy": 1.2
    },
    {
-    "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
-    "name": "Maureen Dazzo",
+    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
+    "name": "Marina Volpe",
+    "n": 9,
+    "synergy": 1
+   },
+   {
+    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
+    "name": "Marina Berger",
+    "n": 6,
+    "synergy": 0.5
+   },
+   {
+    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+    "name": "Olga Turova",
     "n": 3,
     "synergy": -0.4
    },
    {
-    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
-    "name": "Jessica Wormeck",
-    "n": 4,
-    "synergy": -1
-   }
-  ]
- },
- "8f56fb31-09f6-4c12-aa46-6b2f56433f3d": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 160,
-    "pa": 132,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Paula Cushing",
-     "Marina Berger"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Kayla Gipson",
-     "Marina Berger"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Marina Berger",
-     "Olga Turova"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Kayla Gipson",
-     "Paula Cushing"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Kayla Gipson",
-     "Linda Seemann"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Holly Ferguson",
-    "vs": [
-     "Linda Seemann",
-     "Marina Berger"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Maureen Bruno",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Paula Cushing",
-     "Marina Berger"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 1.6,
-    "confidence": 55,
-    "rank": 26,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.8,
-    "confidence": 59,
-    "rank": 29,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.7,
-    "confidence": 59,
-    "rank": 31,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": []
- },
- "153fa815-ce9c-4c36-8fce-c525887f05b1": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "homeAway": "A",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 100,
-    "pa": 94,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     1
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 71,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 70,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     5
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Wendi Wolanske",
-     "Julie Biondi"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Virginia Kenny",
-     "Corinne Palma"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Karyn Jarmer",
-     "Julie Biondi"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Toni Demaio",
-     "Donna Finn"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Toni Demaio",
-     "Julie Biondi"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Stacey Cohen",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Karen Pisano",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Dawn Dalessio",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Dawn Dalessio",
-     "Stacey Cohen"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Nancy Ciappina",
-     "Stacey Cohen"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Nancy Ciappina",
-     "Denise Bonagura"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Jess Cox",
-     "Janine Thompson"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Ly Kim",
-     "Angie Ratkowitz"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Rachel Baluyot",
-     "Janine Thompson"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Joanne Rim",
-     "Angie Ratkowitz"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Ani Stone",
-     "Kumi Dalton"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 1,
-    "confidence": 45,
-    "rank": 45,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.7,
-    "confidence": 67,
-    "rank": 31,
-    "ratingGames": 11,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.1,
-    "confidence": 75,
-    "rank": 85,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": [
-   {
-    "pid": "cee0559f-0285-4e86-9254-128f836efee8",
-    "name": "Jackie Coneeny",
-    "n": 3,
-    "synergy": 0.9
-   },
-   {
-    "pid": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
-    "name": "Marian Kingston",
-    "n": 4,
-    "synergy": -0.7
-   }
-  ]
- },
- "63946930-2dca-489e-8158-028722c045f5": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "A",
-    "w": 7,
-    "l": 1,
-    "gp": 8,
-    "pf": 160,
-    "pa": 137,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     7,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 153,
-    "pa": 153,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     5
-    ],
-    "cl": [
-     1,
-     4
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Darlene Fusco",
-     "Christine Steigerwalt"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Darlene Fusco",
-     "Sandy Hess"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Maureen Murphy",
-     "Charlie Trapasso"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Susan Hughes",
-     "Ghada Abraham"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Kelly Bowers",
-    "vs": [
-     "Christine Steigerwalt",
-     "Charlie Trapasso"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Susan Hughes",
-     "Nami Huang"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Ghada Abraham",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Jenna Haas",
-     "Ghada Abraham"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Heather Waters",
-     "Chiti Joshi"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Johanna Kreilick",
-    "vs": [
-     "Sulyn Kulick",
-     "Esha Gajjar"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Dazzo",
-    "vs": [
-     "Pam Mcdannell",
-     "Chiti Joshi"
-    ],
-    "f": 27,
-    "a": 29,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jo Marie Holzhammer",
-    "vs": [
-     "Esha Gajjar",
-     "Chiti Joshi"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jessica Wormeck",
-    "vs": [
-     "Lori Wild",
-     "Chiti Joshi"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Peggy Matzen",
-    "vs": [
-     "Pam Mcdannell",
-     "Lori Wild"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Meghan Klein",
-    "vs": [
-     "Chiti Joshi",
-     "Virginie Boutin"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Holly Ferguson",
-    "vs": [
-     "Pam Mcdannell",
-     "Lori Wild"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.2,
-    "confidence": 59,
-    "rank": 72,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.7,
-    "confidence": 76,
-    "rank": 97,
-    "ratingGames": 16,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
-    "name": "Jessica Wormeck",
-    "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
-    "name": "Maureen Dazzo",
-    "n": 3,
-    "synergy": -0.6
-   },
-   {
-    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
-    "name": "Meghan Klein",
-    "n": 3,
-    "synergy": -0.7
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 8,
+    "synergy": -1.9
    }
   ]
  },
@@ -22081,6 +24034,17 @@
     "ratingGames": 21,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.1,
+    "confidence": 80,
+    "rank": 26,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -22088,13 +24052,13 @@
     "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
     "name": "Sushma Rayapudi",
     "n": 6,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
     "name": "Lay Wassana",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    }
   ]
  },
@@ -22671,6 +24635,17 @@
     "ratingGames": 26,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0,
+    "confidence": 83,
+    "rank": 82,
+    "ratingGames": 26,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
@@ -22678,601 +24653,242 @@
     "pid": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
     "name": "Virginie Boutin",
     "n": 5,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
     "name": "Lori Wild",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.8
    },
    {
     "pid": "0d736ba1-d552-490a-a21c-8aa58bec268e",
     "name": "Holli Lish",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0
    },
    {
     "pid": "da7ce23d-f915-469e-9ec1-d820d55b3b22",
     "name": "Pam Mcdannell",
     "n": 6,
-    "synergy": -0.3
+    "synergy": -0.5
    },
    {
     "pid": "f1291bb6-abec-48c1-9730-68eaeead8426",
     "name": "Rachel Mcgowan",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
- "233811c2-7a6f-48f1-beb9-35c581eaf9d5": {
+ "c3649296-108a-4a74-ad2a-e045d2fdee4c": {
   "log": [
    {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "week": 1,
+    "opp": "Montville",
     "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 120,
-    "pa": 103,
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 113,
+    "pa": 142,
     "mx": [
      0,
      0
     ],
     "gn": [
-     5,
-     1
+     2,
+     5
     ],
     "cl": [
      1,
-     0
+     1
     ],
     "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
+    "teamGW": 9,
+    "teamGL": 23,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 3,
-    "opp": "Premiere",
+    "opp": "Pickleball Lehigh Valley",
     "homeAway": "A",
     "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 60,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 138,
     "mx": [
      0,
      0
     ],
     "gn": [
      6,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 143,
+    "pa": 106,
+    "mx": [
+     0,
      0
+    ],
+    "gn": [
+     6,
+     1
     ],
     "cl": [
      0,
      0
     ],
     "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
+    "teamGW": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 84,
-    "pa": 126,
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 142,
+    "pa": 153,
     "mx": [
      0,
      0
     ],
     "gn": [
-     0,
-     6
+     4,
+     4
     ],
     "cl": [
-     0,
-     1
+     3,
+     2
     ],
     "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
+    "teamGW": 15,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Virginia Kenny",
-     "Jill Collins"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Shanasia Bagnol",
-     "Melissa Mcconnell"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Gina Faccone",
-    "vs": [
-     "Wendi Wolanske",
-     "Toni Demaio"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Gina Faccone",
-    "vs": [
-     "Wendi Wolanske",
-     "Melissa Mcconnell"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Shanasia Bagnol",
-     "Corinne Palma"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Virginia Kenny",
-     "Jill Collins"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Karen Pisano",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Denise Bonagura",
-     "Dawn Dalessio"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Dawn Dalessio",
-     "Roe Palermo"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Dawn Dalessio",
-     "Stacey Cohen"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Denise Bonagura",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Gina Faccone",
-    "vs": [
-     "Karen Pisano",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
+    "wk": 1,
     "opp": "Montville",
     "t": "female",
-    "with": "Gina Faccone",
+    "with": "Jessica Wormeck",
     "vs": [
      "Ani Stone",
-     "Hope Lo"
+     "Sonu Munshi"
     ],
-    "f": 12,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
-    "wk": 4,
+    "wk": 1,
     "opp": "Montville",
     "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Rachel Baluyot"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Gina Faccone",
-    "vs": [
-     "Debi Mcdonald",
-     "Angie Ratkowitz"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Ly Kim",
-     "Angie Ratkowitz"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marian Kingston",
+    "with": "Jo Marie Holzhammer",
     "vs": [
      "Ani Stone",
      "Jess Cox"
     ],
-    "f": 10,
+    "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Joanne Rim"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 2.1,
-    "confidence": 50,
-    "rank": 18,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 3,
-    "confidence": 69,
-    "rank": 6,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.1,
-    "confidence": 77,
-    "rank": 44,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
-    "name": "Kathleen Nitti",
-    "n": 4,
-    "synergy": 0.4
-   },
-   {
-    "pid": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
-    "name": "Marian Kingston",
-    "n": 4,
-    "synergy": 0.1
-   },
-   {
-    "pid": "9278b092-c3e6-4c05-a09a-998cbde410be",
-    "name": "Gina Faccone",
-    "n": 5,
-    "synergy": -0.3
-   }
-  ]
- },
- "e4d09d13-0fd5-4686-ac53-f4eb160b2045": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 93,
-    "pa": 100,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     3
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Life Time Red Bank",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 92,
-    "pa": 95,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     3
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 62,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
    {
     "wk": 1,
-    "opp": "Picklr Newtown",
+    "opp": "Montville",
     "t": "female",
-    "with": "Susana Palumbo",
+    "with": "Karen Waldon",
     "vs": [
-     "Jacqueline Ho",
-     "Pam Mcdannell"
+     "Vera Wong",
+     "Theresa Corderi"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Ani Stone",
+     "San Yang"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Joanne Rim",
+     "Sonu Munshi"
     ],
     "f": 21,
     "a": 23,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 1,
-    "opp": "Picklr Newtown",
+    "opp": "Montville",
     "t": "female",
-    "with": "Karyn Jarmer",
+    "with": "Meghan Klein",
     "vs": [
-     "Lori Wild",
-     "Chiti Joshi"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Virginia Kenny",
-    "vs": [
-     "Rachel Mcgowan",
-     "Chiti Joshi"
+     "Joanne Rim",
+     "Angie Ratkowitz"
     ],
     "f": 21,
     "a": 18,
@@ -23283,30 +24899,14 @@
    },
    {
     "wk": 1,
-    "opp": "Picklr Newtown",
+    "opp": "Montville",
     "t": "female",
-    "with": "Susana Palumbo",
+    "with": "Peggy Matzen",
     "vs": [
-     "Suzi French",
-     "Heather Waters"
+     "Vera Wong",
+     "Angie Ratkowitz"
     ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Tina Cros",
-    "vs": [
-     "Jacqueline Ho",
-     "Esha Gajjar"
-    ],
-    "f": 13,
+    "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -23314,110 +24914,13 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Julie Biondi",
-    "vs": [
-     "Sara Hylan",
-     "Jackie Coneeny"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Donna Facconerusin",
-     "Caroline Kinlin"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Jill Collins",
-    "vs": [
-     "Marian Kingston",
-     "Caroline Kinlin"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Gina Faccone",
-     "Brittany Messing"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Melissa Mcconnell",
-    "vs": [
-     "Gina Faccone",
-     "Brittany Messing"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
+    "wk": 3,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Shanasia Bagnol",
+    "with": "Peggy Matzen",
     "vs": [
-     "Darlene Fusco",
-     "Susan Hughes"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Darragh Odonnell",
-    "vs": [
-     "Denise Stevens",
-     "Charlie Trapasso"
+     "Charlie Trapasso",
+     "Trena Hahn"
     ],
     "f": 21,
     "a": 15,
@@ -23427,29 +24930,13 @@
     "subFor": null
    },
    {
-    "wk": 4,
+    "wk": 3,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Susana Palumbo",
+    "with": "Peggy Matzen",
     "vs": [
-     "Mary Marger",
-     "Sandy Hess"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Susana Palumbo",
-    "vs": [
-     "Mary Marger",
-     "Denise Stevens"
+     "Nami Huang",
+     "Ghada Abraham"
     ],
     "f": 21,
     "a": 11,
@@ -23459,16 +24946,354 @@
     "subFor": null
    },
    {
-    "wk": 4,
+    "wk": 3,
     "opp": "Pickleball Lehigh Valley",
     "t": "female",
-    "with": "Kimberley Levins",
+    "with": "Kelly Bowers",
     "vs": [
-     "Sandy Hess",
-     "Trena Hahn"
+     "Ghada Abraham",
+     "Jenna Haas"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Christine Steigerwalt",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Denise Stevens",
+     "Maureen Murphy"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Charlie Trapasso",
+     "Denise Stevens"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Denise Stevens",
+     "Maureen Murphy"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Nami Huang",
+     "Sandy Hess"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Sulyn Kulick",
+     "Virginie Boutin"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Suzi French",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Pam Mcdannell",
+     "Suzi French"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Heather Waters",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Virginie Boutin",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Esha Gajjar",
+     "Lori Wild"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Heather Waters",
+     "Jacqueline Hillgrube"
     ],
     "f": 21,
     "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Diane Bracco",
+     "Barbara Mccarron"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Tammy Dragon",
+     "Jeannine Calhoun"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Barbara Mccarron",
+     "Marianne Rosato"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Diane Bracco",
+     "Barbara Mccarron"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Jeannine Calhoun",
+     "Julia Hollman"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Brogann Bowden",
+     "Janice Aliberti"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Tammy Dragon",
+     "Lynda Levan"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Jeannine Calhoun",
+     "Marianne Rosato"
+    ],
+    "f": 25,
+    "a": 23,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -23480,53 +25305,82 @@
     "week": 1,
     "seq": 0,
     "label": "1",
-    "rating": -1,
-    "confidence": 45,
-    "rank": 65,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.1
+    "rating": -2,
+    "confidence": 50,
+    "rank": 75,
+    "ratingGames": 7,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": -0.8,
-    "confidence": 64,
-    "rank": 91,
-    "ratingGames": 10,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.3
+    "rating": -1.3,
+    "confidence": 52,
+    "rank": 97,
+    "ratingGames": 7,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.7
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -0.6,
-    "confidence": 66,
-    "rank": 93,
-    "ratingGames": 10,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.5
+    "rating": -1,
+    "confidence": 73,
+    "rank": 101,
+    "ratingGames": 15,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.2
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": -0.4,
-    "confidence": 75,
-    "rank": 93,
-    "ratingGames": 15,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -0.6
+    "rating": 0.9,
+    "confidence": 81,
+    "rank": 49,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 85,
+    "rank": 56,
+    "ratingGames": 30,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
    {
-    "pid": "fa88f51d-14cc-4f01-ace6-505565019abb",
-    "name": "Susana Palumbo",
+    "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
+    "name": "Peggy Matzen",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 2
+   },
+   {
+    "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
+    "name": "Maureen Dazzo",
+    "n": 3,
+    "synergy": 0.9
+   },
+   {
+    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
+    "name": "Meghan Klein",
+    "n": 5,
+    "synergy": -0.3
+   },
+   {
+    "pid": "c9f10502-3413-4189-87c9-d05ec7accae3",
+    "name": "Karen Waldon",
+    "n": 4,
+    "synergy": -2
    }
   ]
  },
@@ -24007,6 +25861,17 @@
     "ratingGames": 20,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.8,
+    "confidence": 80,
+    "rank": 52,
+    "ratingGames": 20,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -24014,276 +25879,13 @@
     "pid": "e8a46252-99c1-405e-857c-d52d9550717a",
     "name": "Jess Cox",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.2
    },
    {
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
     "name": "Vilayvanh Sysounthone",
     "n": 4,
     "synergy": -0.2
-   }
-  ]
- },
- "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Life Time Red Bank",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 79,
-    "pa": 88,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "homeAway": "H",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 102,
-    "pa": 78,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Julie Biondi",
-    "vs": [
-     "Jackie Coneeny",
-     "Marie Walsh Mccarty"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Kathleen Lynch",
-    "vs": [
-     "Jackie Coneeny",
-     "Caroline Kinlin"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Amy Wondrack",
-    "vs": [
-     "Jackie Coneeny",
-     "Kathy Baker"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Toni Demaio",
-    "vs": [
-     "Sara Hylan",
-     "Marian Kingston"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Kathleen Lynch",
-    "vs": [
-     "Gina Faccone",
-     "Rachel Levkov"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Darragh Odonnell",
-    "vs": [
-     "Sandy Hess",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Tina Cros",
-    "vs": [
-     "Denise Stevens",
-     "Maureen Murphy"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Amy Wondrack",
-    "vs": [
-     "Mary Marger",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Kathleen Lynch",
-    "vs": [
-     "Jean Dalstad",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Lehigh Valley",
-    "t": "female",
-    "with": "Darragh Odonnell",
-    "vs": [
-     "Sandy Hess",
-     "Lynn Hauth"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.4,
-    "confidence": 46,
-    "rank": 99,
-    "ratingGames": 5,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -0.5,
-    "confidence": 49,
-    "rank": 90,
-    "ratingGames": 5,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.3,
-    "confidence": 65,
-    "rank": 109,
-    "ratingGames": 10,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "892b68ae-7d54-456c-82f6-f2514e107d16",
-    "name": "Kathleen Lynch",
-    "n": 3,
-    "synergy": 0.6
    }
   ]
  },
@@ -24543,6 +26145,17 @@
     "ratingGames": 10,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.4,
+    "confidence": 67,
+    "rank": 68,
+    "ratingGames": 10,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -24681,6 +26294,17 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.8,
+    "confidence": 49,
+    "rank": 35,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": []
@@ -24842,9 +26466,752 @@
     "ratingGames": 5,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.2,
+    "confidence": 50,
+    "rank": 79,
+    "ratingGames": 5,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": 1.2
    }
   ],
   "partners": []
+ },
+ "25c2cf33-ede0-4610-85d6-e08cddc05484": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 122,
+    "pa": 162,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 106,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     8,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 143,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 147,
+    "pa": 134,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Vera Wong",
+     "Janine Thompson"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Joanne Rim"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Hope Lo"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Karen Veninger",
+    "vs": [
+     "Hope Lo",
+     "Sonu Munshi"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Angie Ratkowitz"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Karen Veninger",
+    "vs": [
+     "Theresa Corderi",
+     "Joanne Rim"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Ani Stone",
+     "San Yang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Hope Lo",
+     "Ani Stone"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Linda Johns",
+     "Linda Seemann"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Kayla Gipson",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Paula Cushing",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Linda Johns",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Marina Volpe",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Linda Johns",
+     "Kayla Gipson"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Maureen Bruno",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Kayla Gipson",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Jean Dalstad",
+     "Denise Stevens"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Susan Hughes",
+     "Trena Hahn"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Ghada Abraham",
+     "Jenna Haas"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Jenna Haas",
+     "Trena Hahn"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Christine Steigerwalt",
+     "Charlie Trapasso"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Ghada Abraham",
+     "Sandy Hess"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Jean Dalstad",
+     "Nami Huang"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Darlene Fusco",
+     "Christine Steigerwalt"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Janice Aliberti",
+     "Brogann Bowden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Marianne Rosato",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Diane Bracco",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Diane Bracco",
+     "Barbara Mccarron"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Tammy Dragon",
+     "Janice Aliberti"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Lynda Levan",
+     "Barbara Mccarron"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Julia Hollman",
+     "Jeannine Calhoun"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Tammy Dragon",
+     "Lynda Levan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -2.4,
+    "confidence": 55,
+    "rank": 78,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 1.5,
+    "confidence": 74,
+    "rank": 29,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1,
+    "confidence": 82,
+    "rank": 50,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.9,
+    "confidence": 83,
+    "rank": 48,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.3,
+    "confidence": 86,
+    "rank": 40,
+    "ratingGames": 32,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
+    "name": "Jo Marie Holzhammer",
+    "n": 3,
+    "synergy": 1.6
+   },
+   {
+    "pid": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d",
+    "name": "Monika Torbus",
+    "n": 4,
+    "synergy": 1.5
+   },
+   {
+    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
+    "name": "Jessica Wormeck",
+    "n": 5,
+    "synergy": 0
+   },
+   {
+    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
+    "name": "Meghan Klein",
+    "n": 4,
+    "synergy": -0.3
+   },
+   {
+    "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
+    "name": "Maureen Dazzo",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
  },
  "892b68ae-7d54-456c-82f6-f2514e107d16": {
   "log": [
@@ -25363,20 +27730,31 @@
     "ratingGames": 22,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.3,
+    "confidence": 80,
+    "rank": 89,
+    "ratingGames": 22,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
    {
-    "pid": "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6",
-    "name": "Donna Finn",
-    "n": 3,
-    "synergy": 0.6
-   },
-   {
     "pid": "fa858fcb-0eed-4ab9-94ea-efec4132e791",
     "name": "Amy Wondrack",
     "n": 7,
-    "synergy": 0.3
+    "synergy": 0.6
+   },
+   {
+    "pid": "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6",
+    "name": "Donna Finn",
+    "n": 3,
+    "synergy": 0.5
    },
    {
     "pid": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15",
@@ -25682,6 +28060,17 @@
     "ratingGames": 12,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 3.9,
+    "confidence": 69,
+    "rank": 6,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 1.8
    }
   ],
   "partners": [
@@ -25689,85 +28078,314 @@
     "pid": "5f062913-9951-481b-8e1d-fee0093e68f2",
     "name": "Hope Lo",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 1.2
    },
    {
     "pid": "e8a46252-99c1-405e-857c-d52d9550717a",
     "name": "Jess Cox",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.3
    }
   ]
  },
- "0e5a80ef-a9db-4089-841d-f3083efff2a6": {
+ "b3448785-cc93-4aed-9940-a4cc2e7a66d9": {
   "log": [
    {
+    "week": 1,
+    "opp": "Montville",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 137,
+    "pa": 158,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
     "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 158,
+    "pa": 137,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 24,
+    "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 121,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     8,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Picklr Newtown",
     "homeAway": "A",
     "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 108,
+    "l": 3,
+    "gp": 8,
+    "pf": 155,
+    "pa": 128,
     "mx": [
      0,
      0
     ],
     "gn": [
      5,
-     1
+     3
     ],
     "cl": [
-     2,
-     1
+     0,
+     2
     ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
     "gp": 6,
-    "pf": 101,
-    "pa": 112,
+    "pf": 99,
+    "pa": 113,
     "mx": [
      0,
      0
     ],
     "gn": [
-     2,
-     4
+     1,
+     5
     ],
     "cl": [
      0,
      1
     ],
     "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
+    "teamGW": 15,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "wk": 1,
+    "opp": "Montville",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Nancy Cook",
     "vs": [
-     "Kathleen Lynch",
-     "Corinne Palma"
+     "Ani Stone",
+     "Sonu Munshi"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Joanne Rim"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Hope Lo"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Theresa Corderi",
+     "Ly Kim"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Jess Cox",
+     "Hope Lo"
     ],
     "f": 21,
-    "a": 17,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Ly Kim",
+     "Janine Thompson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Janine Thompson",
+     "Vilayvanh Sysounthone"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Joanne Rim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Marina Volpe",
+     "Maureen Bruno"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 14,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -25775,12 +28393,28 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Monika Torbus",
     "vs": [
-     "Virginia Kenny",
-     "Corinne Palma"
+     "Marina Berger",
+     "Olga Turova"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Marina Berger",
+     "Maureen Bruno"
     ],
     "f": 22,
     "a": 20,
@@ -25791,52 +28425,44 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Kelly Bowers",
     "vs": [
-     "Virginia Kenny",
-     "Jill Collins"
+     "Marina Volpe",
+     "Marina Berger"
     ],
     "f": 21,
     "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Caroline Kinlin",
+    "with": "Jo Marie Holzhammer",
     "vs": [
-     "Wendi Wolanske",
-     "Jill Collins"
+     "Maureen Bruno",
+     "Marina Volpe"
     ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 10,
+    "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Karen Waldon",
     "vs": [
-     "Toni Demaio",
-     "Donna Finn"
+     "Olga Turova",
+     "Marina Berger"
     ],
     "f": 24,
     "a": 22,
@@ -25847,48 +28473,189 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "PKLD",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Peggy Matzen",
     "vs": [
-     "Virginia Kenny",
-     "Jill Collins"
+     "Olga Turova",
+     "Linda Seemann"
     ],
     "f": 21,
-    "a": 17,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Jean Dalstad",
+     "Denise Stevens"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Christine Steigerwalt",
+     "Jenna Haas"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Denise Stevens",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Susan Hughes",
+     "Ghada Abraham"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Sandy Hess",
+     "Jean Dalstad"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Susan Hughes",
+     "Nami Huang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Denise Stevens",
+     "Maureen Murphy"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Susan Hughes",
+     "Maureen Murphy"
+    ],
+    "f": 21,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Holly Ferguson",
     "vs": [
-     "Jess Cox",
-     "Janine Thompson"
+     "Esha Gajjar",
+     "Lori Wild"
     ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 13,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Rachel Levkov",
+    "with": "Meghan Klein",
     "vs": [
-     "Ani Stone",
-     "Hope Lo"
+     "Pam Mcdannell",
+     "Chiti Joshi"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Lori Wild",
+     "Esha Gajjar"
     ],
     "f": 21,
     "a": 14,
@@ -25899,12 +28666,28 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Meghan Klein",
     "vs": [
-     "Ly Kim",
-     "Angie Ratkowitz"
+     "Lori Wild",
+     "Virginie Boutin"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Lori Wild",
+     "Chiti Joshi"
     ],
     "f": 21,
     "a": 23,
@@ -25915,14 +28698,14 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Jo Marie Holzhammer",
     "vs": [
-     "Ani Stone",
-     "Jess Cox"
+     "Suzi French",
+     "Esha Gajjar"
     ],
-    "f": 10,
+    "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -25931,15 +28714,15 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Kathy Baker",
+    "with": "Peggy Matzen",
     "vs": [
-     "Ly Kim",
-     "Kumi Dalton"
+     "Pam Mcdannell",
+     "Jacqueline Hillgrube"
     ],
     "f": 21,
-    "a": 14,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -25947,68 +28730,256 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Jo Marie Holzhammer",
     "vs": [
-     "Ani Stone",
-     "Kumi Dalton"
+     "Esha Gajjar",
+     "Virginie Boutin"
     ],
-    "f": 17,
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Lynda Levan",
+     "Jeannine Calhoun"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Julia Hollman",
+     "Janice Aliberti"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Diane Bracco",
+     "Grace Brennan"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Tammy Dragon",
+     "Jeannine Calhoun"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Brogann Bowden",
+     "Lynda Levan"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Karen Waldon",
+    "vs": [
+     "Jeannine Calhoun",
+     "Grace Brennan"
+    ],
+    "f": 9,
+    "a": 15,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Christine Ziegler",
+    "vs": [
+     "Janice Aliberti",
+     "Marianne Rosato"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Janice Aliberti",
+     "Barbara Mccarron"
+    ],
+    "f": 0,
+    "a": 1,
+    "w": 0,
+    "ff": 1,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    }
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.3,
+    "confidence": 54,
+    "rank": 41,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 2.6,
-    "confidence": 47,
-    "rank": 9,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 1
+    "rating": 0.7,
+    "confidence": 72,
+    "rank": 49,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.2
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 2.4,
-    "confidence": 49,
-    "rank": 19,
-    "ratingGames": 6,
+    "rating": 1,
+    "confidence": 81,
+    "rank": 51,
+    "ratingGames": 24,
     "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 1.2
+    "strengthOfOpponents": 0.1
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 1.9,
-    "confidence": 67,
-    "rank": 28,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 1.4
+    "rating": 1.2,
+    "confidence": 86,
+    "rank": 40,
+    "ratingGames": 32,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 88,
+    "rank": 55,
+    "ratingGames": 39,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
    {
-    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
-    "name": "Brittany Messing",
-    "n": 4,
-    "synergy": 0.1
+    "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
+    "name": "Peggy Matzen",
+    "n": 3,
+    "synergy": 1.4
    },
    {
-    "pid": "153fa815-ce9c-4c36-8fce-c525887f05b1",
-    "name": "Sara Hylan",
+    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
+    "name": "Meghan Klein",
+    "n": 9,
+    "synergy": 0.9
+   },
+   {
+    "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
+    "name": "Kelly Bowers",
+    "n": 5,
+    "synergy": 0
+   },
+   {
+    "pid": "63946930-2dca-489e-8158-028722c045f5",
+    "name": "Christine Ziegler",
+    "n": 5,
+    "synergy": -0.5
+   },
+   {
+    "pid": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+    "name": "Johanna Kreilick",
+    "n": 3,
+    "synergy": -0.6
+   },
+   {
+    "pid": "c9f10502-3413-4189-87c9-d05ec7accae3",
+    "name": "Karen Waldon",
     "n": 4,
     "synergy": -0.7
+   },
+   {
+    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
+    "name": "Jo Marie Holzhammer",
+    "n": 5,
+    "synergy": -0.8
    }
   ]
  },
@@ -26328,9 +29299,560 @@
     "ratingGames": 14,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.2,
+    "confidence": 74,
+    "rank": 77,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
+ },
+ "d5933ee7-ffb8-4b4a-92cd-1a28579372d6": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 98,
+    "pa": 121,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 80,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 89,
+    "pa": 94,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 3,
+    "l": 1,
+    "gp": 4,
+    "pf": 80,
+    "pa": 70,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Karyn Jarmer",
+     "Melissa Mcconnell"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Wendi Wolanske",
+     "Toni Demaio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Corinne Palma",
+     "Julie Biondi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Wendi Wolanske",
+     "Jill Collins"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Kathleen Lynch",
+     "Donna Finn"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Karyn Jarmer",
+     "Julie Biondi"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Dawn Dalessio",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Stacey Cohen",
+     "Suzanne Leon"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Nancy Ciappina",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Karen Pisano"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Roe Palermo",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Stacey Cohen",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Joanne Rim",
+     "Jess Cox"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Hope Lo"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Debi Mcdonald",
+     "Rachel Baluyot"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Janine Thompson",
+     "Joanne Rim"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Ly Kim",
+     "Cheryl Brodsky"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Marina Volpe",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Kayla Gipson",
+     "Linda Seemann"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Olga Turova",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Marina Volpe",
+     "Marina Berger"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 8,
+    "a": 12,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -2.1,
+    "confidence": 51,
+    "rank": 110,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.1,
+    "confidence": 69,
+    "rank": 102,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.1,
+    "confidence": 77,
+    "rank": 83,
+    "ratingGames": 17,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.4,
+    "confidence": 81,
+    "rank": 66,
+    "ratingGames": 22,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d324c1b4-fb13-47d4-b380-f8427448308a",
+    "name": "Jerzie-Ann Coppola",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
+    "pid": "cee0559f-0285-4e86-9254-128f836efee8",
+    "name": "Jackie Coneeny",
+    "n": 6,
+    "synergy": -0.4
+   },
+   {
+    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
+    "name": "Donna Facconerusin",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
  },
  "5a35b4ac-7b94-48d4-bd8f-d9c327751821": {
   "log": [
@@ -26687,6 +30209,17 @@
     "ratingGames": 14,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 73,
+    "rank": 73,
+    "ratingGames": 14,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -26694,7 +30227,7 @@
     "pid": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
     "name": "Ly Kim",
     "n": 5,
-    "synergy": 0.6
+    "synergy": 0.7
    }
   ]
  },
@@ -26751,6 +30284,33 @@
     "teamRes": "W",
     "teamGW": 24,
     "teamGL": 8,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 126,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    }
@@ -26983,6 +30543,142 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Diane Bracco",
+     "Barbara Mccarron"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Lynda Levan",
+     "Brogann Bowden"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Lynda Levan",
+     "Janice Aliberti"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Grace Brennan",
+     "Marianne Rosato"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Diane Bracco",
+     "Marianne Rosato"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Jeannine Calhoun",
+     "Grace Brennan"
+    ],
+    "f": 9,
+    "a": 15,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Tammy Dragon",
+     "Lynda Levan"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Tammy Dragon",
+     "Lynda Levan"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -27029,6 +30725,17 @@
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.5,
+    "confidence": 81,
+    "rank": 64,
+    "ratingGames": 22,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -27036,13 +30743,593 @@
     "pid": "d64631c2-5086-4d28-b93e-26c8661af87b",
     "name": "Peggy Matzen",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
+   },
+   {
+    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
+    "name": "Meghan Klein",
+    "n": 3,
+    "synergy": 1
    },
    {
     "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
     "name": "Jessica Wormeck",
+    "n": 4,
+    "synergy": -0.7
+   },
+   {
+    "pid": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
+    "name": "Nancy Cook",
+    "n": 4,
+    "synergy": -2
+   }
+  ]
+ },
+ "e6d3fe0a-88ab-4a56-8461-fc162ab5d308": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 96,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 50,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 107,
+    "pa": 122,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 77,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Amy Wondrack",
+     "Shanasia Bagnol"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Amy Wondrack",
+     "Kathleen Lynch"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Jill Collins",
+     "Shanasia Bagnol"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Shanasia Bagnol",
+     "Jill Collins"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Amy Wondrack",
+     "Kathleen Lynch"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Amy Wondrack",
+     "Shanasia Bagnol"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Dawn Dalessio",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Denise Bonagura",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Suzanne Leon",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Denise Bonagura",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Denise Bonagura",
+     "Suzanne Leon"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Nancy Ciappina",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Joanne Rim",
+     "Vilayvanh Sysounthone"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Rachel Baluyot"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Jess Cox",
+     "Hope Lo"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Ani Stone",
+     "Jess Cox"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Janine Thompson"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Joanne Rim"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Olga Turova",
+     "Marina Berger"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Paula Cushing",
+     "Maureen Bruno"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Marina Volpe",
+     "Linda Seemann"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Marina Volpe",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Maureen Bruno",
+     "Marina Volpe"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1.1,
+    "confidence": 43,
+    "rank": 93,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.3,
+    "confidence": 65,
+    "rank": 67,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.2,
+    "confidence": 76,
+    "rank": 75,
+    "ratingGames": 18,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.9,
+    "confidence": 80,
+    "rank": 49,
+    "ratingGames": 23,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e84d93a0-c527-4a44-a896-ccc20d0ac474",
+    "name": "Kathy Baker",
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
+    "name": "Brittany Messing",
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "9278b092-c3e6-4c05-a09a-998cbde410be",
+    "name": "Gina Faccone",
+    "n": 3,
+    "synergy": -0.2
+   },
+   {
+    "pid": "067afbd0-d803-4eb0-b467-3af2930f18af",
+    "name": "Rachel Levkov",
     "n": 3,
     "synergy": -0.4
+   },
+   {
+    "pid": "f7f80e1e-cebe-432b-9862-1120daaba26e",
+    "name": "Marie Walsh Mccarty",
+    "n": 3,
+    "synergy": -0.5
    }
   ]
  },
@@ -27442,6 +31729,17 @@
     "ratingGames": 16,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1,
+    "confidence": 74,
+    "rank": 45,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -27449,13 +31747,13 @@
     "pid": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15",
     "name": "Corinne Palma",
     "n": 5,
-    "synergy": 1
+    "synergy": 0.8
    },
    {
     "pid": "16e36ab6-5591-4a2f-97cf-23be0e69c5ef",
     "name": "Melissa Mcconnell",
     "n": 5,
-    "synergy": -0.5
+    "synergy": -0.7
    }
   ]
  },
@@ -28028,9 +32326,26 @@
     "ratingGames": 25,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.7,
+    "confidence": 82,
+    "rank": 36,
+    "ratingGames": 25,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
+   {
+    "pid": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
+    "name": "Jacqueline Ho",
+    "n": 4,
+    "synergy": 1.5
+   },
    {
     "pid": "f1291bb6-abec-48c1-9730-68eaeead8426",
     "name": "Rachel Mcgowan",
@@ -28038,16 +32353,10 @@
     "synergy": 1.4
    },
    {
-    "pid": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
-    "name": "Jacqueline Ho",
-    "n": 4,
-    "synergy": 1.2
-   },
-   {
     "pid": "d5bb6605-5ea8-42e6-8c85-03402664956d",
     "name": "Sulyn Kulick",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.7
    },
    {
     "pid": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
@@ -28059,7 +32368,7 @@
     "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
     "name": "Lori Wild",
     "n": 8,
-    "synergy": -1
+    "synergy": -1.1
    }
   ]
  },
@@ -28700,6 +33009,17 @@
     "ratingGames": 29,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 85,
+    "rank": 57,
+    "ratingGames": 29,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
@@ -28716,22 +33036,22 @@
     "synergy": 0.7
    },
    {
-    "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
-    "name": "Sushma Rayapudi",
-    "n": 3,
-    "synergy": 0.2
-   },
-   {
     "pid": "2abe95e2-0e73-49b6-aca8-689041f98b94",
     "name": "Eileen Clark",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0.4
+   },
+   {
+    "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
+    "name": "Sushma Rayapudi",
+    "n": 3,
+    "synergy": 0.3
    },
    {
     "pid": "4986f918-309d-4d39-abde-336bc27ae79d",
     "name": "Kim Allaga",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "6848f02a-1acc-47f8-8743-3525311031a9",
@@ -28741,28 +33061,55 @@
    }
   ]
  },
- "d324c1b4-fb13-47d4-b380-f8427448308a": {
+ "153fa815-ce9c-4c36-8fce-c525887f05b1": {
   "log": [
    {
-    "week": 3,
-    "opp": "Premiere",
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
     "homeAway": "A",
     "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 122,
-    "pa": 81,
+    "l": 1,
+    "gp": 5,
+    "pf": 100,
+    "pa": 94,
     "mx": [
      0,
      0
     ],
     "gn": [
      4,
-     2
+     1
     ],
     "cl": [
+     3,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 71,
+    "mx": [
      0,
-     2
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     1,
+     0
     ],
     "teamRes": "W",
     "teamGW": 28,
@@ -28774,21 +33121,21 @@
     "week": 4,
     "opp": "Montville",
     "homeAway": "H",
-    "w": 2,
-    "l": 3,
+    "w": 0,
+    "l": 5,
     "gp": 5,
-    "pf": 81,
-    "pa": 101,
+    "pf": 70,
+    "pa": 105,
     "mx": [
      0,
      0
     ],
     "gn": [
-     2,
-     3
+     0,
+     5
     ],
     "cl": [
-     2,
+     0,
      0
     ],
     "teamRes": "L",
@@ -28796,37 +33143,112 @@
     "teamGL": 20,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 61,
+    "pa": 72,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 3,
-    "opp": "Premiere",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Caroline Kinlin",
+    "with": "Jackie Coneeny",
     "vs": [
-     "Dawn Dalessio",
-     "Nancy Ciappina"
+     "Wendi Wolanske",
+     "Julie Biondi"
     ],
     "f": 21,
-    "a": 9,
+    "a": 19,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Premiere",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Kathleen Nitti",
+    "with": "Marian Kingston",
     "vs": [
-     "Dawn Dalessio",
-     "Denise Bonagura"
+     "Virginia Kenny",
+     "Corinne Palma"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Karyn Jarmer",
+     "Julie Biondi"
     ],
     "f": 21,
-    "a": 11,
+    "a": 16,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Toni Demaio",
+     "Donna Finn"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Toni Demaio",
+     "Julie Biondi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -28838,18 +33260,14 @@
     "with": "Donna Facconerusin",
     "vs": [
      "Stacey Cohen",
-     "Roe Palermo"
+     "Sabrina Trunzo Dinkle"
     ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
+    "f": 24,
+    "a": 22,
+    "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 3,
@@ -28857,12 +33275,12 @@
     "t": "female",
     "with": "Rachel Levkov",
     "vs": [
-     "Suzanne Leon",
-     "Stacey Cohen"
+     "Karen Pisano",
+     "Suzanne Leon"
     ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 15,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -28871,50 +33289,78 @@
     "wk": 3,
     "opp": "Premiere",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Rachel Levkov",
     "vs": [
-     "Sabrina Trunzo Dinkle",
+     "Dawn Dalessio",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Brittany Messing",
+    "vs": [
+     "Dawn Dalessio",
+     "Stacey Cohen"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Nancy Ciappina",
+     "Stacey Cohen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Nancy Ciappina",
      "Denise Bonagura"
     ],
     "f": 21,
-    "a": 11,
+    "a": 7,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Roe Palermo",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
    },
    {
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Caroline Kinlin",
+    "with": "Marian Kingston",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Hope Lo"
+     "Jess Cox",
+     "Janine Thompson"
     ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
+    "f": 13,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -28925,10 +33371,10 @@
     "t": "female",
     "with": "Jackie Coneeny",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Kumi Dalton"
+     "Ly Kim",
+     "Angie Ratkowitz"
     ],
-    "f": 11,
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -28942,11 +33388,11 @@
     "with": "Donna Facconerusin",
     "vs": [
      "Rachel Baluyot",
-     "Hope Lo"
+     "Janine Thompson"
     ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
+    "f": 16,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -28955,7 +33401,7 @@
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Jerzie-Ann Coppola",
     "vs": [
      "Joanne Rim",
      "Angie Ratkowitz"
@@ -28971,12 +33417,766 @@
     "wk": 4,
     "opp": "Montville",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Marian Kingston",
     "vs": [
-     "Jess Cox",
-     "Rachel Baluyot"
+     "Ani Stone",
+     "Kumi Dalton"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Linda Johns",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Linda Johns",
+     "Olga Turova"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Olga Kim",
+     "Marina Volpe"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Linda Johns",
+     "Linda Seemann"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Paula Cushing",
+     "Marina Berger"
+    ],
+    "f": 8,
+    "a": 12,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 1,
+    "confidence": 45,
+    "rank": 45,
+    "ratingGames": 5,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.7,
+    "confidence": 67,
+    "rank": 31,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.1,
+    "confidence": 75,
+    "rank": 85,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.9,
+    "confidence": 81,
+    "rank": 102,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "cee0559f-0285-4e86-9254-128f836efee8",
+    "name": "Jackie Coneeny",
+    "n": 5,
+    "synergy": -0.5
+   },
+   {
+    "pid": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
+    "name": "Marian Kingston",
+    "n": 4,
+    "synergy": -0.6
+   }
+  ]
+ },
+ "e94c3831-b63f-4858-a2a1-94c0c10ee4e7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 93,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     8,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 133,
+    "pa": 148,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 160,
+    "pa": 150,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     3
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 113,
+    "pa": 142,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     6
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Karen Pisano",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Sally Sitro",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Denise Bonagura",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Sally Sitro",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Karen Pisano"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Sally Sitro",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Denise Bonagura",
+     "Eileen Clark"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Karen Pisano",
+     "Sally Sitro"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Jessica Wormeck",
+     "Jo Marie Holzhammer"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Meghan Klein",
+     "Peggy Matzen"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Kelly Bowers"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Meghan Klein",
+     "Jessica Wormeck"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Holly Ferguson"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Jessica Wormeck"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Monika Torbus",
+     "Kelly Bowers"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Kelly Bowers",
+     "Jo Marie Holzhammer"
     ],
     "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Holli Lish",
+     "Chiti Joshi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Chiti Joshi",
+     "Holli Lish"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Heather Waters",
+     "Holli Lish"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Virginie Boutin",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Rachel Mcgowan",
+     "Chiti Joshi"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Virginie Boutin",
+     "Chiti Joshi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Esha Gajjar",
+     "Lori Wild"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Lori Wild",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Marian Kingston",
+     "Caroline Kinlin"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Jackie Coneeny",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Kathleen Nitti"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Brittany Messing"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Gina Faccone",
+     "Kathy Baker"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Rachel Levkov",
+     "Gina Faccone"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Brittany Messing",
+     "Kathleen Nitti"
+    ],
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -28986,34 +34186,678 @@
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 2.6,
+    "confidence": 54,
+    "rank": 5,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -1.9
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 1.3,
+    "confidence": 73,
+    "rank": 36,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -1.2
+   },
+   {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.7,
-    "confidence": 54,
-    "rank": 58,
+    "rating": 1.3,
+    "confidence": 81,
+    "rank": 38,
+    "ratingGames": 24,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 1.1,
+    "confidence": 82,
+    "rank": 43,
+    "ratingGames": 24,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.2,
+    "confidence": 85,
+    "rank": 75,
+    "ratingGames": 31,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+    "name": "Linda Seemann",
+    "n": 3,
+    "synergy": 2.4
+   },
+   {
+    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
+    "name": "Marina Berger",
+    "n": 4,
+    "synergy": 0.7
+   },
+   {
+    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+    "name": "Linda Johns",
+    "n": 4,
+    "synergy": 0.1
+   },
+   {
+    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
+    "name": "Kayla Gipson",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
+    "name": "Marina Volpe",
+    "n": 7,
+    "synergy": -0.5
+   },
+   {
+    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
+    "name": "Paula Cushing",
+    "n": 8,
+    "synergy": -1.9
+   }
+  ]
+ },
+ "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 118,
+    "pa": 87,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 121,
+    "pa": 115,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "PKLD",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 110,
+    "pa": 113,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 99,
+    "pa": 121,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Kim Allaga",
+     "Sherry Sili"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Rani Borusu",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Sherry Sili",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Sherry Sili",
+     "Tanyalak Sawangpak"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Eileen Clark",
+     "Beth Pardilla"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Debi Mcdonald",
+     "Angie Ratkowitz"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Janine Thompson",
+     "Ly Kim"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Ly Kim",
+     "Cheryl Brodsky"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Angie Ratkowitz",
+     "Janine Thompson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Hope Lo",
+     "Janine Thompson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Susan Goeckeler",
+    "vs": [
+     "Debi Mcdonald",
+     "Kumi Dalton"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jamie Levin",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Annette Marsh",
+    "vs": [
+     "Olga Kim",
+     "Kayla Gipson"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Paula Cushing",
+     "Kayla Gipson"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Marina Volpe",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Marina Volpe",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Olga Kim",
+     "Linda Seemann"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Kelly Bowers",
+     "Monika Torbus"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Nancy Cook",
+     "Monika Torbus"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Monika Torbus",
+     "Karen Waldon"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Meghan Klein",
+     "Karen Waldon"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Jessica Wormeck",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Meghan Klein",
+     "Nancy Cook"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.6,
+    "confidence": 46,
+    "rank": 55,
     "ratingGames": 6,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": -3.2
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.4,
+    "confidence": 69,
+    "rank": 36,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.1
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
     "rating": 0.3,
-    "confidence": 69,
-    "rank": 72,
-    "ratingGames": 11,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": -1.1
+    "confidence": 78,
+    "rank": 70,
+    "ratingGames": 18,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.1,
+    "confidence": 82,
+    "rank": 85,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
    {
-    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
-    "name": "Donna Facconerusin",
+    "pid": "c7dd526f-b8fe-4172-977d-912044350954",
+    "name": "Diane Bracco",
     "n": 3,
-    "synergy": 1.8
+    "synergy": 0.7
+   },
+   {
+    "pid": "15778391-96b7-4888-9d08-d63b96e104ca",
+    "name": "Grace Brennan",
+    "n": 5,
+    "synergy": -0.9
    }
   ]
  },
@@ -29385,6 +35229,17 @@
     "ratingGames": 15,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 75,
+    "rank": 59,
+    "ratingGames": 15,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -29398,1141 +35253,7 @@
     "pid": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
     "name": "Ly Kim",
     "n": 3,
-    "synergy": -0.4
-   }
-  ]
- },
- "cb063892-906f-4769-8815-2a87da5bf426": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 114,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 132,
-    "pa": 155,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     6
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 147,
-    "pa": 155,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 139,
-    "pa": 158,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     5
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Linda Iacono",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Linda Iacono"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Sally Sitro",
-     "Lenore David"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Sally Sitro",
-     "Lenore David"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Sally Sitro",
-     "Elizabeth Damico"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Filomena Rega",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Denise Bonagura",
-     "Eileen Clark"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Jessica Wormeck",
-     "Jo Marie Holzhammer"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Johanna Kreilick",
-     "Jessica Wormeck"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Karen Waldon",
-     "Peggy Matzen"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Johanna Kreilick",
-     "Kelly Bowers"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Kelly Bowers",
-     "Jessica Wormeck"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Jessica Wormeck"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Peggy Matzen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Holly Ferguson",
-     "Karen Waldon"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Holli Lish",
-     "Chiti Joshi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Lori Wild",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Virginie Boutin",
-     "Lori Wild"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Sulyn Kulick",
-     "Suzi French"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Heather Waters",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Holli Lish",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Chiti Joshi",
-     "Virginie Boutin"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Virginie Boutin",
-     "Suzi French"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Tammy Dragon",
-     "Jamie Levin"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Marianne Rosato",
-     "Jamie Levin"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Lynda Levan",
-     "Jamie Levin"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Janice Aliberti",
-     "Diane Bracco"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Janice Aliberti",
-     "Marianne Rosato"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Marianne Rosato",
-     "Grace Brennan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Julia Hollman",
-     "Lynda Levan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Janice Aliberti",
-     "Suzanne Bauer"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1,
-    "confidence": 52,
-    "rank": 23,
-    "ratingGames": 8,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": -1.6
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.2,
-    "confidence": 72,
-    "rank": 73,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -0.5,
-    "confidence": 81,
-    "rank": 88,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.1,
-    "confidence": 85,
-    "rank": 79,
-    "ratingGames": 32,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
-    "name": "Paula Cushing",
-    "n": 8,
-    "synergy": 1.1
-   },
-   {
-    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-    "name": "Linda Johns",
-    "n": 7,
-    "synergy": -0.1
-   },
-   {
-    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
-    "name": "Maureen Bruno",
-    "n": 5,
-    "synergy": -0.5
-   },
-   {
-    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
-    "name": "Linda Seemann",
-    "n": 4,
-    "synergy": -1.5
-   }
-  ]
- },
- "d5933ee7-ffb8-4b4a-92cd-1a28579372d6": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 98,
-    "pa": 121,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     5
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 80,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 89,
-    "pa": 94,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Karyn Jarmer",
-     "Melissa Mcconnell"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Wendi Wolanske",
-     "Toni Demaio"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Corinne Palma",
-     "Julie Biondi"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Wendi Wolanske",
-     "Jill Collins"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Kathleen Lynch",
-     "Donna Finn"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Karyn Jarmer",
-     "Julie Biondi"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Dawn Dalessio",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Stacey Cohen",
-     "Suzanne Leon"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Nancy Ciappina",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Karen Pisano"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Gina Faccone",
-    "vs": [
-     "Roe Palermo",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Stacey Cohen",
-     "Dawn Dalessio"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Joanne Rim",
-     "Jess Cox"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Hope Lo"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Debi Mcdonald",
-     "Rachel Baluyot"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Janine Thompson",
-     "Joanne Rim"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Ly Kim",
-     "Cheryl Brodsky"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -2.1,
-    "confidence": 51,
-    "rank": 110,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.1,
-    "confidence": 69,
-    "rank": 102,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.1,
-    "confidence": 77,
-    "rank": 83,
-    "ratingGames": 17,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": [
-   {
-    "pid": "cee0559f-0285-4e86-9254-128f836efee8",
-    "name": "Jackie Coneeny",
-    "n": 6,
-    "synergy": -0.9
-   },
-   {
-    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
-    "name": "Donna Facconerusin",
-    "n": 3,
-    "synergy": -1
+    "synergy": -0.3
    }
   ]
  },
@@ -30982,9 +35703,26 @@
     "ratingGames": 19,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.3,
+    "confidence": 78,
+    "rank": 90,
+    "ratingGames": 19,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -1
    }
   ],
   "partners": [
+   {
+    "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
+    "name": "Lori Wild",
+    "n": 5,
+    "synergy": 0.8
+   },
    {
     "pid": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
     "name": "Jacqueline Ho",
@@ -30992,16 +35730,10 @@
     "synergy": 0.7
    },
    {
-    "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
-    "name": "Lori Wild",
-    "n": 5,
-    "synergy": 0.7
-   },
-   {
     "pid": "86d3ef72-f614-40a4-994d-836a87d21e9e",
     "name": "Chiti Joshi",
     "n": 6,
-    "synergy": -0.3
+    "synergy": -0.5
    }
   ]
  },
@@ -31507,6 +36239,17 @@
     "ratingGames": 23,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 2.8,
+    "confidence": 81,
+    "rank": 16,
+    "ratingGames": 23,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
@@ -31514,13 +36257,13 @@
     "pid": "25c2cf33-ede0-4610-85d6-e08cddc05484",
     "name": "Kelly Bowers",
     "n": 3,
-    "synergy": 1.9
+    "synergy": 1.6
    },
    {
     "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
     "name": "Maureen Dazzo",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
@@ -32158,6 +36901,17 @@
     "ratingGames": 29,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.1,
+    "confidence": 85,
+    "rank": 121,
+    "ratingGames": 29,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
@@ -32165,19 +36919,19 @@
     "pid": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
     "name": "Nancy Cook",
     "n": 4,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "c9f10502-3413-4189-87c9-d05ec7accae3",
     "name": "Karen Waldon",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
     "name": "Jessica Wormeck",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1.4
    },
    {
     "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
@@ -32195,7 +36949,7 @@
     "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
     "name": "Meghan Klein",
     "n": 4,
-    "synergy": -2.6
+    "synergy": -2.7
    }
   ]
  },
@@ -32744,6 +37498,17 @@
     "ratingGames": 24,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 81,
+    "rank": 70,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": [
@@ -32751,13 +37516,13 @@
     "pid": "d5bb6605-5ea8-42e6-8c85-03402664956d",
     "name": "Sulyn Kulick",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "0d736ba1-d552-490a-a21c-8aa58bec268e",
     "name": "Holli Lish",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.5
    },
    {
     "pid": "0f84aab6-2ae2-4a0b-ba2f-cd31c57fa7d7",
@@ -32769,7 +37534,7 @@
     "pid": "d74868c1-242c-4230-8117-fbbd3c41e250",
     "name": "Jacqueline Hillgrube",
     "n": 5,
-    "synergy": -1.3
+    "synergy": -1.5
    }
   ]
  },
@@ -33068,6 +37833,17 @@
     "ratingGames": 12,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.6,
+    "confidence": 70,
+    "rank": 37,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -33081,7 +37857,407 @@
     "pid": "86d3ef72-f614-40a4-994d-836a87d21e9e",
     "name": "Chiti Joshi",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
+   }
+  ]
+ },
+ "d324c1b4-fb13-47d4-b380-f8427448308a": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 122,
+    "pa": 81,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 81,
+    "pa": 101,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 88,
+    "pa": 91,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     3
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Dawn Dalessio",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Dawn Dalessio",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Stacey Cohen",
+     "Roe Palermo"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Suzanne Leon",
+     "Stacey Cohen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Roe Palermo",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Hope Lo"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Kumi Dalton"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Rachel Baluyot",
+     "Hope Lo"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Joanne Rim",
+     "Angie Ratkowitz"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Jess Cox",
+     "Rachel Baluyot"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Kayla Gipson",
+     "Linda Seemann"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Linda Johns",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Kayla Gipson",
+     "Linda Seemann"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Olga Turova",
+     "Jasmine Ho"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Paula Cushing",
+     "Jasmine Ho"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.7,
+    "confidence": 54,
+    "rank": 58,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": -3.2
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.3,
+    "confidence": 69,
+    "rank": 72,
+    "ratingGames": 11,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.2,
+    "confidence": 76,
+    "rank": 76,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.8
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
+    "name": "Donna Facconerusin",
+    "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6",
+    "name": "Caroline Kinlin",
+    "n": 4,
+    "synergy": 0.2
    }
   ]
  },
@@ -33574,15 +38750,20 @@
     "ratingGames": 22,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.8,
+    "confidence": 81,
+    "rank": 51,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
-   {
-    "pid": "6a8bbc75-9016-4f35-95f5-0e681d1e25e4",
-    "name": "Rani Borusu",
-    "n": 4,
-    "synergy": 0.9
-   },
    {
     "pid": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
     "name": "Nikki Nigro",
@@ -33590,10 +38771,16 @@
     "synergy": 0.8
    },
    {
+    "pid": "6a8bbc75-9016-4f35-95f5-0e681d1e25e4",
+    "name": "Rani Borusu",
+    "n": 4,
+    "synergy": 0.8
+   },
+   {
     "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
     "name": "Sushma Rayapudi",
     "n": 4,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "97f8761c-a825-4f89-9d92-0c8dea9d0065",
@@ -33603,151 +38790,258 @@
    }
   ]
  },
- "cac68244-9c27-49bf-9354-1e9282427426": {
+ "f7f80e1e-cebe-432b-9862-1120daaba26e": {
   "log": [
    {
-    "week": 1,
-    "opp": "Premiere",
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
     "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 98,
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 98,
+    "pa": 120,
     "mx": [
      0,
      0
     ],
     "gn": [
-     8,
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 120,
+    "pa": 70,
+    "mx": [
+     0,
      0
+    ],
+    "gn": [
+     5,
+     1
     ],
     "cl": [
      0,
      0
     ],
     "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 113,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 28,
+    "teamGL": 4,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 4,
-    "opp": "Flemington Green",
+    "opp": "Montville",
     "homeAway": "H",
-    "w": 4,
+    "w": 1,
     "l": 4,
-    "gp": 8,
-    "pf": 142,
-    "pa": 153,
+    "gp": 5,
+    "pf": 78,
+    "pa": 103,
     "mx": [
      0,
      0
     ],
     "gn": [
-     4,
+     1,
      4
     ],
     "cl": [
-     2,
+     1,
      1
     ],
     "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 98,
+    "pa": 89,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 1,
-    "opp": "Premiere",
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Filomena Rega",
+    "with": "Marian Kingston",
     "vs": [
-     "Sally Sitro",
-     "Elizabeth Damico"
+     "Kathleen Lynch",
+     "Corinne Palma"
     ],
     "f": 21,
-    "a": 11,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Julie Biondi",
+     "Donna Finn"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Melissa Mcconnell",
+     "Karyn Jarmer"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Amy Wondrack",
+     "Kathleen Lynch"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathleen Nitti",
+    "vs": [
+     "Amy Wondrack",
+     "Kathleen Lynch"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Toni Demaio",
+     "Julie Biondi"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
     "opp": "Premiere",
     "t": "female",
-    "with": "Linda Johns",
+    "with": "Brittany Messing",
     "vs": [
      "Karen Pisano",
-     "Lenore David"
+     "Nancy Ciappina"
     ],
     "f": 21,
-    "a": 13,
+    "a": 7,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "Premiere",
     "t": "female",
-    "with": "Filomena Rega",
+    "with": "Donna Facconerusin",
     "vs": [
-     "Linda Iacono",
-     "Eileen Clark"
+     "Roe Palermo",
+     "Stacey Cohen"
     ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
+    "f": 15,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     0,
-     1
+     1,
+     0
     ]
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "Premiere",
     "t": "female",
-    "with": "Olga Turova",
+    "with": "Kathy Baker",
     "vs": [
      "Denise Bonagura",
-     "Elizabeth Damico"
+     "Karen Pisano"
     ],
     "f": 21,
     "a": 6,
@@ -33757,61 +39051,33 @@
     "subFor": null
    },
    {
-    "wk": 1,
+    "wk": 3,
     "opp": "Premiere",
     "t": "female",
-    "with": "Maureen Bruno",
+    "with": "Brittany Messing",
+    "vs": [
+     "Dawn Dalessio",
+     "Roe Palermo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
     "vs": [
      "Sabrina Trunzo Dinkle",
-     "Karen Pisano"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Elizabeth Damico",
-     "Linda Iacono"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Karen Pisano",
-     "Elizabeth Damico"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Lenore David",
-     "Christine Pisapia"
+     "Denise Bonagura"
     ],
     "f": 21,
     "a": 11,
@@ -33821,29 +39087,45 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Flemington Blue",
+    "wk": 3,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Olga Turova",
+    "with": "Rachel Levkov",
     "vs": [
-     "Johanna Kreilick",
-     "Peggy Matzen"
+     "Sabrina Trunzo Dinkle",
+     "Dawn Dalessio"
     ],
-    "f": 15,
-    "a": 21,
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Debi Mcdonald",
+     "Cheryl Brodsky"
+    ],
+    "f": 21,
+    "a": 23,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Flemington Blue",
+    "wk": 4,
+    "opp": "Montville",
     "t": "female",
-    "with": "Marina Berger",
+    "with": "Caroline Kinlin",
     "vs": [
-     "Monika Torbus",
-     "Kelly Bowers"
+     "Joanne Rim",
+     "Jess Cox"
     ],
     "f": 12,
     "a": 21,
@@ -33853,15 +39135,15 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Flemington Blue",
+    "wk": 4,
+    "opp": "Montville",
     "t": "female",
-    "with": "Linda Johns",
+    "with": "Donna Facconerusin",
     "vs": [
-     "Johanna Kreilick",
-     "Holly Ferguson"
+     "Ly Kim",
+     "Cheryl Brodsky"
     ],
-    "f": 13,
+    "f": 8,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -33869,77 +39151,29 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Flemington Blue",
+    "wk": 4,
+    "opp": "Montville",
     "t": "female",
-    "with": "Paula Cushing",
+    "with": "Rachel Levkov",
     "vs": [
-     "Monika Torbus",
-     "Jo Marie Holzhammer"
+     "Debi Mcdonald",
+     "Cheryl Brodsky"
     ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
+    "f": 25,
+    "a": 23,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Flemington Blue",
+    "wk": 4,
+    "opp": "Montville",
     "t": "female",
-    "with": "Linda Seemann",
+    "with": "Jerzie-Ann Coppola",
     "vs": [
-     "Monika Torbus",
-     "Peggy Matzen"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Meghan Klein",
-     "Kelly Bowers"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Meghan Klein",
-     "Holly Ferguson"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Kelly Bowers",
-     "Jo Marie Holzhammer"
+     "Jess Cox",
+     "Rachel Baluyot"
     ],
     "f": 18,
     "a": 21,
@@ -33949,15 +39183,15 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Flemington Green",
+    "wk": 5,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Marina Volpe",
+    "with": "Jackie Coneeny",
     "vs": [
-     "Tammy Dragon",
-     "Jamie Levin"
+     "Linda Seemann",
+     "Maureen Bruno"
     ],
-    "f": 12,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -33965,121 +39199,65 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Flemington Green",
+    "wk": 5,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Olga Kim",
+    "with": "Kathleen Nitti",
     "vs": [
-     "Janice Aliberti",
-     "Annette Marsh"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Marianne Rosato",
-     "Annette Marsh"
+     "Paula Cushing",
+     "Maureen Bruno"
     ],
     "f": 21,
-    "a": 16,
+    "a": 17,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Flemington Green",
+    "wk": 5,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Paula Cushing",
+    "with": "Brittany Messing",
     "vs": [
-     "Marianne Rosato",
-     "Suzanne Bauer"
+     "Maureen Bruno",
+     "Kayla Gipson"
     ],
     "f": 21,
-    "a": 15,
+    "a": 18,
     "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Lynda Levan",
-     "Tammy Dragon"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Flemington Green",
+    "wk": 5,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Olga Turova",
+    "with": "Rachel Levkov",
     "vs": [
-     "Julia Hollman",
-     "Annette Marsh"
+     "Kayla Gipson",
+     "Olga Turova"
     ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
+    "f": 21,
+    "a": 12,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Flemington Green",
+    "wk": 5,
+    "opp": "PKLD",
     "t": "female",
-    "with": "Olga Turova",
+    "with": "Donna Facconerusin",
     "vs": [
-     "Grace Brennan",
-     "Suzanne Bauer"
+     "Olga Kim",
+     "Linda Johns"
     ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Diane Bracco",
-     "Jamie Levin"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
+    "f": 20,
+    "a": 22,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -34087,68 +39265,74 @@
   ],
   "ratingHistory": [
    {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 2.5,
-    "confidence": 56,
-    "rank": 7,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -1.5
-   },
-   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": -0.8,
-    "confidence": 73,
-    "rank": 89,
-    "ratingGames": 16,
+    "rating": -1.5,
+    "confidence": 50,
+    "rank": 102,
+    "ratingGames": 6,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": -1
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -1,
-    "confidence": 74,
-    "rank": 100,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -1
+    "rating": -1.4,
+    "confidence": 70,
+    "rank": 109,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -1.6
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 0,
-    "confidence": 82,
-    "rank": 81,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.3
+    "rating": -1.6,
+    "confidence": 77,
+    "rank": 112,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.1,
+    "confidence": 81,
+    "rank": 107,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": [
    {
-    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
-    "name": "Olga Turova",
-    "n": 4,
-    "synergy": 0.9
+    "pid": "067afbd0-d803-4eb0-b467-3af2930f18af",
+    "name": "Rachel Levkov",
+    "n": 3,
+    "synergy": 0.8
    },
    {
-    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
-    "name": "Linda Seemann",
-    "n": 4,
-    "synergy": 0
+    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
+    "name": "Brittany Messing",
+    "n": 3,
+    "synergy": 0.5
    },
    {
-    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-    "name": "Linda Johns",
-    "n": 5,
-    "synergy": -0.7
+    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
+    "name": "Donna Facconerusin",
+    "n": 4,
+    "synergy": -0.5
+   },
+   {
+    "pid": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
+    "name": "Kathleen Nitti",
+    "n": 3,
+    "synergy": -0.5
    }
   ]
  },
@@ -34457,9 +39641,561 @@
     "ratingGames": 14,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.9,
+    "confidence": 74,
+    "rank": 104,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -0.6
    }
   ],
   "partners": []
+ },
+ "63946930-2dca-489e-8158-028722c045f5": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 160,
+    "pa": 137,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 153,
+    "pa": 153,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     1,
+     4
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Green",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 135,
+    "pa": 156,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 15,
+    "teamGL": 17,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Darlene Fusco",
+     "Christine Steigerwalt"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Darlene Fusco",
+     "Sandy Hess"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Maureen Murphy",
+     "Charlie Trapasso"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Susan Hughes",
+     "Ghada Abraham"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Christine Steigerwalt",
+     "Charlie Trapasso"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Susan Hughes",
+     "Nami Huang"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Ghada Abraham",
+     "Susan Hughes"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Pickleball Lehigh Valley",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Jenna Haas",
+     "Ghada Abraham"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Heather Waters",
+     "Chiti Joshi"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Sulyn Kulick",
+     "Esha Gajjar"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Dazzo",
+    "vs": [
+     "Pam Mcdannell",
+     "Chiti Joshi"
+    ],
+    "f": 27,
+    "a": 29,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jo Marie Holzhammer",
+    "vs": [
+     "Esha Gajjar",
+     "Chiti Joshi"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Lori Wild",
+     "Chiti Joshi"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Peggy Matzen",
+    "vs": [
+     "Pam Mcdannell",
+     "Lori Wild"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Meghan Klein",
+    "vs": [
+     "Chiti Joshi",
+     "Virginie Boutin"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Holly Ferguson",
+    "vs": [
+     "Pam Mcdannell",
+     "Lori Wild"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Monika Torbus",
+    "vs": [
+     "Tammy Dragon",
+     "Julia Hollman"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Tammy Dragon",
+     "Jeannine Calhoun"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Brogann Bowden",
+     "Julia Hollman"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Tammy Dragon",
+     "Jeannine Calhoun"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Nancy Cook",
+    "vs": [
+     "Jeannine Calhoun",
+     "Julia Hollman"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kelly Bowers",
+    "vs": [
+     "Lynda Levan",
+     "Barbara Mccarron"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jessica Wormeck",
+    "vs": [
+     "Janice Aliberti",
+     "Marianne Rosato"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Johanna Kreilick",
+    "vs": [
+     "Julia Hollman",
+     "Diane Bracco"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.2,
+    "confidence": 59,
+    "rank": 72,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.7,
+    "confidence": 76,
+    "rank": 97,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.4,
+    "confidence": 83,
+    "rank": 92,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+    "name": "Johanna Kreilick",
+    "n": 3,
+    "synergy": 2.5
+   },
+   {
+    "pid": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
+    "name": "Jessica Wormeck",
+    "n": 5,
+    "synergy": -0.5
+   },
+   {
+    "pid": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
+    "name": "Maureen Dazzo",
+    "n": 3,
+    "synergy": -0.7
+   },
+   {
+    "pid": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
+    "name": "Meghan Klein",
+    "n": 3,
+    "synergy": -1
+   }
+  ]
  },
  "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee": {
   "log": [
@@ -34626,6 +40362,17 @@
     "ratingGames": 6,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.3,
+    "confidence": 55,
+    "rank": 74,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -35169,6 +40916,17 @@
     "ratingGames": 23,
     "strengthOfPartners": 2.4,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.5,
+    "confidence": 82,
+    "rank": 63,
+    "ratingGames": 23,
+    "strengthOfPartners": 2.5,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -35176,19 +40934,19 @@
     "pid": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56",
     "name": "Ani Stone",
     "n": 3,
-    "synergy": 0.9
+    "synergy": 1.2
    },
    {
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
     "name": "Vilayvanh Sysounthone",
     "n": 5,
-    "synergy": 0.7
+    "synergy": 0.5
    },
    {
     "pid": "e8a46252-99c1-405e-857c-d52d9550717a",
     "name": "Jess Cox",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
@@ -35608,6 +41366,17 @@
     "ratingGames": 17,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0,
+    "confidence": 77,
+    "rank": 83,
+    "ratingGames": 17,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -35615,7 +41384,7 @@
     "pid": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
     "name": "Esha Gajjar",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.5
    },
    {
     "pid": "da7ce23d-f915-469e-9ec1-d820d55b3b22",
@@ -35627,416 +41396,6 @@
     "pid": "b1066a81-7537-4512-939d-5acbf11ef9aa",
     "name": "Lori Wild",
     "n": 4,
-    "synergy": -0.7
-   }
-  ]
- },
- "f7f80e1e-cebe-432b-9862-1120daaba26e": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 98,
-    "pa": 120,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 120,
-    "pa": 70,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 78,
-    "pa": 103,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marian Kingston",
-    "vs": [
-     "Kathleen Lynch",
-     "Corinne Palma"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Julie Biondi",
-     "Donna Finn"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Melissa Mcconnell",
-     "Karyn Jarmer"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Amy Wondrack",
-     "Kathleen Lynch"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathleen Nitti",
-    "vs": [
-     "Amy Wondrack",
-     "Kathleen Lynch"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Toni Demaio",
-     "Julie Biondi"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Karen Pisano",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Roe Palermo",
-     "Stacey Cohen"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Denise Bonagura",
-     "Karen Pisano"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Dawn Dalessio",
-     "Roe Palermo"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Denise Bonagura"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Dawn Dalessio"
-    ],
-    "f": 21,
-    "a": 8,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Debi Mcdonald",
-     "Cheryl Brodsky"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Joanne Rim",
-     "Jess Cox"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Ly Kim",
-     "Cheryl Brodsky"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Debi Mcdonald",
-     "Cheryl Brodsky"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Jess Cox",
-     "Rachel Baluyot"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.5,
-    "confidence": 50,
-    "rank": 102,
-    "ratingGames": 6,
-    "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.4,
-    "confidence": 70,
-    "rank": 109,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -1.6
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.6,
-    "confidence": 77,
-    "rank": 112,
-    "ratingGames": 17,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.7
-   }
-  ],
-  "partners": [
-   {
-    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
-    "name": "Donna Facconerusin",
-    "n": 3,
     "synergy": -0.5
    }
   ]
@@ -36415,6 +41774,17 @@
     "ratingGames": 15,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 75,
+    "rank": 97,
+    "ratingGames": 15,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.3
    }
   ],
   "partners": [
@@ -36422,60 +41792,33 @@
     "pid": "406e8166-48fc-410b-99b2-5cbc3534fee3",
     "name": "Heather Waters",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.5
    },
    {
     "pid": "86d3ef72-f614-40a4-994d-836a87d21e9e",
     "name": "Chiti Joshi",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0
    }
   ]
  },
- "e6d3fe0a-88ab-4a56-8461-fc162ab5d308": {
+ "cac68244-9c27-49bf-9354-1e9282427426": {
   "log": [
    {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 96,
-    "pa": 126,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     6
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
+    "week": 1,
     "opp": "Premiere",
     "homeAway": "A",
-    "w": 6,
+    "w": 8,
     "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 50,
+    "gp": 8,
+    "pf": 168,
+    "pa": 98,
     "mx": [
      0,
      0
     ],
     "gn": [
-     6,
+     8,
      0
     ],
     "cl": [
@@ -36483,20 +41826,74 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 113,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 4,
-    "opp": "Montville",
+    "opp": "Flemington Green",
     "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 142,
+    "pa": 153,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
     "w": 2,
     "l": 4,
     "gp": 6,
-    "pf": 107,
-    "pa": 122,
+    "pf": 103,
+    "pa": 120,
     "mx": [
      0,
      0
@@ -36506,25 +41903,269 @@
      4
     ],
     "cl": [
-     2,
-     0
+     1,
+     1
     ],
     "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "wk": 1,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Kathy Baker",
+    "with": "Filomena Rega",
     "vs": [
-     "Amy Wondrack",
-     "Shanasia Bagnol"
+     "Sally Sitro",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Karen Pisano",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Filomena Rega",
+    "vs": [
+     "Linda Iacono",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Denise Bonagura",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Karen Pisano"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Elizabeth Damico",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Karen Pisano",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Lenore David",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Johanna Kreilick",
+     "Peggy Matzen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Monika Torbus",
+     "Kelly Bowers"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Johanna Kreilick",
+     "Holly Ferguson"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Monika Torbus",
+     "Jo Marie Holzhammer"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Monika Torbus",
+     "Peggy Matzen"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Meghan Klein",
+     "Kelly Bowers"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Meghan Klein",
+     "Holly Ferguson"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Kelly Bowers",
+     "Jo Marie Holzhammer"
     ],
     "f": 18,
     "a": 21,
@@ -36534,16 +42175,577 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "wk": 4,
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Marina Volpe",
     "vs": [
-     "Amy Wondrack",
-     "Kathleen Lynch"
+     "Tammy Dragon",
+     "Jamie Levin"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Janice Aliberti",
+     "Annette Marsh"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Marianne Rosato",
+     "Annette Marsh"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Marianne Rosato",
+     "Suzanne Bauer"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Lynda Levan",
+     "Tammy Dragon"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Julia Hollman",
+     "Annette Marsh"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Grace Brennan",
+     "Suzanne Bauer"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Diane Bracco",
+     "Jamie Levin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Donna Facconerusin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Caroline Kinlin",
+     "Jerzie-Ann Coppola"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Brittany Messing"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Rachel Levkov",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Marian Kingston",
+     "Brittany Messing"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Marian Kingston",
+     "Jackie Coneeny"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 2.5,
+    "confidence": 56,
+    "rank": 7,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.5
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.8,
+    "confidence": 73,
+    "rank": 89,
+    "ratingGames": 16,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1,
+    "confidence": 74,
+    "rank": 100,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0,
+    "confidence": 82,
+    "rank": 81,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0,
+    "confidence": 85,
+    "rank": 81,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": [
+   {
+    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+    "name": "Olga Turova",
+    "n": 6,
+    "synergy": 0.5
+   },
+   {
+    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+    "name": "Linda Seemann",
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+    "name": "Linda Johns",
+    "n": 5,
+    "synergy": -0.7
+   }
+  ]
+ },
+ "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 116,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 145,
+    "pa": 152,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 98,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 114,
+    "pa": 101,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Karen Pisano",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Sally Sitro",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Karen Pisano",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Linda Iacono",
+     "Lenore David"
+    ],
+    "f": 27,
+    "a": 29,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Elizabeth Damico",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Filomena Rega",
+    "vs": [
+     "Linda Iacono",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Lenore David",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Kelly Bowers",
+     "Holly Ferguson"
+    ],
+    "f": 14,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -36551,36 +42753,706 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Rachel Levkov",
+    "with": "Maureen Bruno",
     "vs": [
-     "Jill Collins",
-     "Shanasia Bagnol"
+     "Meghan Klein",
+     "Peggy Matzen"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Karen Waldon",
+     "Peggy Matzen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Holly Ferguson",
+     "Karen Waldon"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Monika Torbus",
+     "Peggy Matzen"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Rachel Levkov",
+    "with": "Marina Berger",
     "vs": [
-     "Shanasia Bagnol",
-     "Jill Collins"
+     "Monika Torbus",
+     "Holly Ferguson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Meghan Klein",
+     "Holly Ferguson"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Peggy Matzen",
+     "Jessica Wormeck"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Janice Aliberti",
+     "Annette Marsh"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Julia Hollman",
+     "Tammy Dragon"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Lynda Levan",
+     "Jamie Levin"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Lynda Levan",
+     "Tammy Dragon"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Diane Bracco",
+     "Grace Brennan"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Jamie Levin",
+     "Tammy Dragon"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Annette Marsh",
+     "Jamie Levin"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Julia Hollman",
+     "Marianne Rosato"
     ],
     "f": 15,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Donna Facconerusin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Jackie Coneeny",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Caroline Kinlin",
+     "Jerzie-Ann Coppola"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Marian Kingston",
+     "Donna Facconerusin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Kathleen Nitti",
+     "Brittany Messing"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Sara Hylan",
+     "Jackie Coneeny"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 0.8,
+    "confidence": 53,
+    "rank": 26,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -1.6
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.4,
+    "confidence": 70,
+    "rank": 57,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.4,
+    "confidence": 71,
+    "rank": 65,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -1.5,
+    "confidence": 81,
+    "rank": 111,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 85,
+    "rank": 95,
+    "ratingGames": 30,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 3,
+    "synergy": 2.4
+   },
+   {
+    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+    "name": "Linda Johns",
+    "n": 5,
+    "synergy": 1.2
+   },
+   {
+    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
+    "name": "Kayla Gipson",
+    "n": 6,
+    "synergy": 0.4
+   },
+   {
+    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+    "name": "Olga Turova",
+    "n": 5,
+    "synergy": -1.3
+   },
+   {
+    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
+    "name": "Marina Volpe",
+    "n": 5,
+    "synergy": -2.1
+   }
+  ]
+ },
+ "cb063892-906f-4769-8815-2a87da5bf426": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 114,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     8,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 132,
+    "pa": 155,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 147,
+    "pa": 155,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 139,
+    "pa": 158,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 110,
+    "pa": 140,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     6
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Linda Iacono",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Linda Iacono"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Sally Sitro",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Sally Sitro",
+     "Lenore David"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Sally Sitro",
+     "Elizabeth Damico"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Filomena Rega",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Denise Bonagura",
+     "Eileen Clark"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Eileen Clark"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null,
@@ -36591,14 +43463,30 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Maureen Bruno",
     "vs": [
-     "Amy Wondrack",
-     "Kathleen Lynch"
+     "Jessica Wormeck",
+     "Jo Marie Holzhammer"
     ],
-    "f": 8,
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Johanna Kreilick",
+     "Jessica Wormeck"
+    ],
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -36607,12 +43495,12 @@
    },
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Kathy Baker",
+    "with": "Linda Seemann",
     "vs": [
-     "Amy Wondrack",
-     "Shanasia Bagnol"
+     "Karen Waldon",
+     "Peggy Matzen"
     ],
     "f": 19,
     "a": 21,
@@ -36622,16 +43510,112 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Premiere",
+    "wk": 2,
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Jerzie-Ann Coppola",
+    "with": "Linda Johns",
     "vs": [
-     "Dawn Dalessio",
-     "Denise Bonagura"
+     "Johanna Kreilick",
+     "Kelly Bowers"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Kelly Bowers",
+     "Jessica Wormeck"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Jessica Wormeck"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Peggy Matzen"
     ],
     "f": 21,
-    "a": 11,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Holly Ferguson",
+     "Karen Waldon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Holli Lish",
+     "Chiti Joshi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Lori Wild",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 15,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -36639,15 +43623,31 @@
    },
    {
     "wk": 3,
-    "opp": "Premiere",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Jasmine Ho",
     "vs": [
-     "Denise Bonagura",
-     "Dawn Dalessio"
+     "Virginie Boutin",
+     "Lori Wild"
     ],
-    "f": 21,
-    "a": 9,
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Sulyn Kulick",
+     "Suzi French"
+    ],
+    "f": 23,
+    "a": 21,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -36655,76 +43655,12 @@
    },
    {
     "wk": 3,
-    "opp": "Premiere",
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Gina Faccone",
+    "with": "Marina Berger",
     "vs": [
-     "Suzanne Leon",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Denise Bonagura",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Brittany Messing",
-    "vs": [
-     "Denise Bonagura",
-     "Suzanne Leon"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Nancy Ciappina",
-     "Denise Bonagura"
-    ],
-    "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Joanne Rim",
-     "Vilayvanh Sysounthone"
+     "Heather Waters",
+     "Jacqueline Hillgrube"
     ],
     "f": 22,
     "a": 20,
@@ -36734,48 +43670,80 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Montville",
+    "wk": 3,
+    "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Olga Turova",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Rachel Baluyot"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Jess Cox",
-     "Hope Lo"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Ani Stone",
-     "Jess Cox"
+     "Holli Lish",
+     "Jacqueline Ho"
     ],
     "f": 21,
-    "a": 19,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Chiti Joshi",
+     "Virginie Boutin"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Virginie Boutin",
+     "Suzi French"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Tammy Dragon",
+     "Jamie Levin"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Marianne Rosato",
+     "Jamie Levin"
+    ],
+    "f": 21,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -36783,12 +43751,60 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Gina Faccone",
+    "with": "Linda Seemann",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Janine Thompson"
+     "Lynda Levan",
+     "Jamie Levin"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Janice Aliberti",
+     "Diane Bracco"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Janice Aliberti",
+     "Marianne Rosato"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Marianne Rosato",
+     "Grace Brennan"
     ],
     "f": 18,
     "a": 21,
@@ -36799,14 +43815,146 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Brittany Messing",
+    "with": "Linda Johns",
     "vs": [
-     "Vilayvanh Sysounthone",
-     "Joanne Rim"
+     "Julia Hollman",
+     "Lynda Levan"
     ],
-    "f": 15,
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Janice Aliberti",
+     "Suzanne Bauer"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Marian Kingston",
+     "Caroline Kinlin"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Rachel Levkov",
+     "Marian Kingston"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Kathy Baker",
+     "Sara Hylan"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Kathleen Nitti",
+     "Brittany Messing"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Kathy Baker",
+     "Caroline Kinlin"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Kathleen Nitti",
+     "Kathy Baker"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Brittany Messing",
+     "Kathleen Nitti"
+    ],
+    "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -36816,57 +43964,97 @@
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 1,
+    "confidence": 52,
+    "rank": 23,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -1.6
+   },
+   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": -1.1,
-    "confidence": 43,
-    "rank": 93,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 1.5
+    "rating": -0.2,
+    "confidence": 72,
+    "rank": 73,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.9
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.3,
-    "confidence": 65,
-    "rank": 67,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -1.1
+    "rating": -0.5,
+    "confidence": 81,
+    "rank": 88,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.6
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 0.2,
-    "confidence": 76,
-    "rank": 75,
-    "ratingGames": 18,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0.1
+    "rating": 0.1,
+    "confidence": 85,
+    "rank": 79,
+    "ratingGames": 32,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.3,
+    "confidence": 88,
+    "rank": 87,
+    "ratingGames": 39,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
    {
-    "pid": "233811c2-7a6f-48f1-beb9-35c581eaf9d5",
-    "name": "Brittany Messing",
-    "n": 4,
-    "synergy": 0.4
+    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
+    "name": "Paula Cushing",
+    "n": 9,
+    "synergy": 1
    },
    {
-    "pid": "e84d93a0-c527-4a44-a896-ccc20d0ac474",
-    "name": "Kathy Baker",
-    "n": 5,
-    "synergy": 0
-   },
-   {
-    "pid": "067afbd0-d803-4eb0-b467-3af2930f18af",
-    "name": "Rachel Levkov",
+    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+    "name": "Olga Turova",
     "n": 3,
-    "synergy": -0.1
+    "synergy": 0.3
+   },
+   {
+    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+    "name": "Linda Johns",
+    "n": 7,
+    "synergy": -0.3
+   },
+   {
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 7,
+    "synergy": -0.5
+   },
+   {
+    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
+    "name": "Marina Berger",
+    "n": 3,
+    "synergy": -0.5
+   },
+   {
+    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+    "name": "Linda Seemann",
+    "n": 5,
+    "synergy": -2.1
    }
   ]
  },
@@ -37471,6 +44659,17 @@
     "ratingGames": 27,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.1,
+    "confidence": 83,
+    "rank": 122,
+    "ratingGames": 27,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -37478,427 +44677,31 @@
     "pid": "86d3ef72-f614-40a4-994d-836a87d21e9e",
     "name": "Chiti Joshi",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.8
    },
    {
     "pid": "da7ce23d-f915-469e-9ec1-d820d55b3b22",
     "name": "Pam Mcdannell",
     "n": 5,
-    "synergy": 0.7
+    "synergy": 0.8
    },
    {
     "pid": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
     "name": "Virginie Boutin",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
     "name": "Jacqueline Ho",
     "n": 4,
-    "synergy": -0.7
+    "synergy": -0.5
    },
    {
     "pid": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
     "name": "Esha Gajjar",
     "n": 8,
-    "synergy": -1
-   }
-  ]
- },
- "cee0559f-0285-4e86-9254-128f836efee8": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 104,
-    "pa": 112,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 103,
-    "pa": 65,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 70,
-    "pa": 103,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Wendi Wolanske",
-     "Julie Biondi"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Julie Biondi",
-     "Donna Finn"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Corinne Palma",
-     "Julie Biondi"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Toni Demaio",
-     "Karyn Jarmer"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Kathleen Lynch",
-     "Donna Finn"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Donna Finn",
-     "Amy Wondrack"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Gina Faccone",
-    "vs": [
-     "Suzanne Leon",
-     "Roe Palermo"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Stacey Cohen",
-     "Suzanne Leon"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Rachel Levkov",
-    "vs": [
-     "Karen Pisano",
-     "Nancy Ciappina"
-    ],
-    "f": 21,
-    "a": 5,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Nancy Ciappina",
-     "Stacey Cohen"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Stacey Cohen",
-     "Dawn Dalessio"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Sara Hylan",
-    "vs": [
-     "Ly Kim",
-     "Angie Ratkowitz"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Donna Facconerusin",
-    "vs": [
-     "Joanne Rim",
-     "Kumi Dalton"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Debi Mcdonald",
-     "Rachel Baluyot"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Vilayvanh Sysounthone",
-     "Kumi Dalton"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Ly Kim",
-     "Cheryl Brodsky"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.2,
-    "confidence": 49,
-    "rank": 77,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.2,
-    "confidence": 66,
-    "rank": 46,
-    "ratingGames": 11,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.5,
-    "confidence": 75,
-    "rank": 94,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "153fa815-ce9c-4c36-8fce-c525887f05b1",
-    "name": "Sara Hylan",
-    "n": 3,
-    "synergy": 0.9
-   },
-   {
-    "pid": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6",
-    "name": "Caroline Kinlin",
-    "n": 6,
-    "synergy": -0.9
+    "synergy": -1.1
    }
   ]
  },
@@ -37955,6 +44758,33 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 82,
+    "pa": 117,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
@@ -38219,6 +45049,102 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Brittany Messing",
+     "Gina Faccone"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Gina Faccone",
+     "Marian Kingston"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Kathy Baker",
+     "Sara Hylan"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Donna Facconerusin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Gina Faccone",
+     "Rachel Levkov"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Rachel Levkov",
+     "Kathy Baker"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -38243,6 +45169,17 @@
     "ratingGames": 16,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.3,
+    "confidence": 81,
+    "rank": 88,
+    "ratingGames": 22,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1
    }
   ],
   "partners": [
@@ -38250,1127 +45187,50 @@
     "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
     "name": "Paula Cushing",
     "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
-    "name": "Jasmine Ho",
-    "n": 3,
-    "synergy": -1
-   }
-  ]
- },
- "18052e12-bbc5-4535-b93b-0e11242c27d7": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 3,
-    "l": 5,
-    "gp": 8,
-    "pf": 143,
-    "pa": 160,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     5
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 150,
-    "pa": 156,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Meghan Klein",
-     "Monika Torbus"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Monika Torbus",
-     "Kelly Bowers"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Monika Torbus",
-     "Jessica Wormeck"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Meghan Klein",
-     "Jessica Wormeck"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Kelly Bowers",
-     "Jessica Wormeck"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Monika Torbus",
-     "Holly Ferguson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Jessica Wormeck",
-     "Karen Waldon"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Meghan Klein",
-     "Monika Torbus"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Lori Wild",
-     "Jacqueline Ho"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Rachel Mcgowan",
-     "Sulyn Kulick"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Rachel Mcgowan",
-     "Jacqueline Ho"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Virginie Boutin",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Heather Waters",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Virginie Boutin",
-     "Chiti Joshi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Holli Lish",
-     "Rachel Mcgowan"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Rachel Mcgowan",
-     "Esha Gajjar"
-    ],
-    "f": 25,
-    "a": 27,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0.4,
-    "confidence": 54,
-    "rank": 58,
-    "ratingGames": 8,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.5,
-    "confidence": 73,
-    "rank": 62,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.5,
-    "confidence": 73,
-    "rank": 64,
-    "ratingGames": 16,
-    "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
-    "name": "Olga Turova",
-    "n": 4,
-    "synergy": 0.9
-   },
-   {
-    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
-    "name": "Maureen Bruno",
-    "n": 3,
-    "synergy": 0.6
-   },
-   {
-    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
-    "name": "Paula Cushing",
-    "n": 4,
-    "synergy": -0.2
-   }
-  ]
- },
- "1aeb5726-1c67-4c13-8884-b35f0c5c854f": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 7,
-    "l": 1,
-    "gp": 8,
-    "pf": 166,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     7,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 131,
-    "pa": 162,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     6
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 147,
-    "pa": 154,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 104,
-    "pa": 166,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Denise Bonagura",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Filomena Rega",
-    "vs": [
-     "Denise Bonagura",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Elizabeth Damico"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Denise Bonagura",
-     "Elizabeth Damico"
-    ],
-    "f": 21,
-    "a": 6,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Linda Iacono",
-     "Lenore David"
-    ],
-    "f": 27,
-    "a": 29,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Karen Pisano",
-     "Denise Bonagura"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Christine Pisapia",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Filomena Rega",
-    "vs": [
-     "Denise Bonagura",
-     "Elizabeth Damico"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Johanna Kreilick",
-     "Peggy Matzen"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Karen Waldon"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Monika Torbus",
-     "Jessica Wormeck"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Holly Ferguson",
-     "Karen Waldon"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Meghan Klein",
-     "Karen Waldon"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Peggy Matzen",
-     "Karen Waldon"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Jessica Wormeck",
-     "Karen Waldon"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Peggy Matzen",
-     "Jessica Wormeck"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Jacqueline Hillgrube",
-     "Sulyn Kulick"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Suzi French",
-     "Heather Waters"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Rachel Mcgowan",
-     "Jacqueline Ho"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Jacqueline Hillgrube",
-     "Heather Waters"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Holli Lish",
-     "Suzi French"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Holli Lish",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Holli Lish",
-     "Rachel Mcgowan"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Chiti Joshi",
-     "Jacqueline Ho"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Janice Aliberti",
-     "Annette Marsh"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Julia Hollman",
-     "Tammy Dragon"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Diane Bracco",
-     "Julia Hollman"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Jamie Levin",
-     "Julia Hollman"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Janice Aliberti",
-     "Marianne Rosato"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Julia Hollman",
-     "Annette Marsh"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Grace Brennan",
-     "Suzanne Bauer"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Lynda Levan",
-     "Annette Marsh"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1.2,
-    "confidence": 52,
-    "rank": 18,
-    "ratingGames": 8,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -1.8
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.8,
-    "confidence": 71,
-    "rank": 90,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1,
-    "confidence": 80,
-    "rank": 99,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -1.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.3,
-    "confidence": 85,
-    "rank": 107,
-    "ratingGames": 32,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
-    "name": "Kayla Gipson",
-    "n": 4,
-    "synergy": 0.9
-   },
-   {
-    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
-    "name": "Marina Berger",
-    "n": 4,
-    "synergy": 0.9
-   },
-   {
-    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
-    "name": "Jasmine Ho",
-    "n": 3,
-    "synergy": 0
+    "synergy": 1.4
    },
    {
     "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
     "name": "Linda Johns",
-    "n": 8,
-    "synergy": -0.1
-   },
-   {
-    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
-    "name": "Paula Cushing",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -1.1
    },
    {
-    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
-    "name": "Linda Seemann",
+    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
+    "name": "Marina Berger",
+    "n": 3,
+    "synergy": -1.2
+   },
+   {
+    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
+    "name": "Jasmine Ho",
     "n": 5,
-    "synergy": -0.9
+    "synergy": -1.6
    }
   ]
  },
- "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c": {
+ "36cebb3b-4b08-456f-91f6-6fcdf4262e73": {
   "log": [
    {
     "week": 1,
     "opp": "Premiere",
     "homeAway": "A",
-    "w": 7,
-    "l": 1,
+    "w": 8,
+    "l": 0,
     "gp": 8,
-    "pf": 166,
-    "pa": 116,
+    "pf": 168,
+    "pa": 108,
     "mx": [
      0,
      0
     ],
     "gn": [
-     7,
-     1
+     8,
+     0
     ],
     "cl": [
-     0,
-     1
+     1,
+     0
     ],
     "teamRes": "W",
     "teamGW": 31,
@@ -39382,26 +45242,53 @@
     "week": 2,
     "opp": "Flemington Blue",
     "homeAway": "A",
-    "w": 3,
-    "l": 5,
+    "w": 0,
+    "l": 8,
     "gp": 8,
-    "pf": 145,
-    "pa": 152,
+    "pf": 99,
+    "pa": 168,
     "mx": [
      0,
      0
     ],
     "gn": [
-     3,
-     5
+     0,
+     8
     ],
     "cl": [
-     2,
-     1
+     0,
+     0
     ],
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 145,
+    "pa": 150,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
     "sub": 0,
     "subFor": null
    },
@@ -39412,7 +45299,7 @@
     "w": 0,
     "l": 8,
     "gp": 8,
-    "pf": 98,
+    "pf": 119,
     "pa": 168,
     "mx": [
      0,
@@ -39431,6 +45318,33 @@
     "teamGL": 23,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 91,
+    "pa": 87,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -39438,7 +45352,23 @@
     "wk": 1,
     "opp": "Premiere",
     "t": "female",
-    "with": "Maureen Bruno",
+    "with": "Olga Turova",
+    "vs": [
+     "Denise Bonagura",
+     "Christine Pisapia"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kayla Gipson",
     "vs": [
      "Karen Pisano",
      "Lenore David"
@@ -39454,13 +45384,13 @@
     "wk": 1,
     "opp": "Premiere",
     "t": "female",
-    "with": "Marina Volpe",
+    "with": "Maureen Bruno",
     "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Linda Iacono"
+     "Denise Bonagura",
+     "Christine Pisapia"
     ],
     "f": 21,
-    "a": 17,
+    "a": 11,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -39470,23 +45400,7 @@
     "wk": 1,
     "opp": "Premiere",
     "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Sally Sitro",
-     "Lenore David"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Johns",
+    "with": "Linda Seemann",
     "vs": [
      "Karen Pisano",
      "Eileen Clark"
@@ -39506,14 +45420,30 @@
     "wk": 1,
     "opp": "Premiere",
     "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Sally Sitro",
+     "Elizabeth Damico"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
     "with": "Olga Turova",
     "vs": [
-     "Linda Iacono",
-     "Lenore David"
+     "Karen Pisano",
+     "Denise Bonagura"
     ],
-    "f": 27,
-    "a": 29,
-    "w": 0,
+    "f": 21,
+    "a": 14,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -39524,8 +45454,8 @@
     "t": "female",
     "with": "Kayla Gipson",
     "vs": [
-     "Elizabeth Damico",
-     "Linda Iacono"
+     "Karen Pisano",
+     "Elizabeth Damico"
     ],
     "f": 21,
     "a": 16,
@@ -39538,29 +45468,13 @@
     "wk": 1,
     "opp": "Premiere",
     "t": "female",
-    "with": "Filomena Rega",
+    "with": "Maureen Bruno",
     "vs": [
-     "Linda Iacono",
-     "Lenore David"
+     "Karen Pisano",
+     "Sally Sitro"
     ],
     "f": 21,
-    "a": 7,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Lenore David",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 11,
+    "a": 10,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -39570,7 +45484,7 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "female",
-    "with": "Linda Johns",
+    "with": "Linda Seemann",
     "vs": [
      "Kelly Bowers",
      "Holly Ferguson"
@@ -39586,14 +45500,30 @@
     "wk": 2,
     "opp": "Flemington Blue",
     "t": "female",
-    "with": "Maureen Bruno",
+    "with": "Olga Turova",
     "vs": [
-     "Meghan Klein",
-     "Peggy Matzen"
+     "Jo Marie Holzhammer",
+     "Karen Waldon"
     ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Johanna Kreilick",
+     "Holly Ferguson"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -39604,10 +45534,10 @@
     "t": "female",
     "with": "Marina Volpe",
     "vs": [
-     "Karen Waldon",
-     "Peggy Matzen"
+     "Johanna Kreilick",
+     "Kelly Bowers"
     ],
-    "f": 19,
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -39620,44 +45550,12 @@
     "t": "female",
     "with": "Olga Turova",
     "vs": [
-     "Holly Ferguson",
+     "Meghan Klein",
      "Karen Waldon"
     ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Monika Torbus",
-     "Peggy Matzen"
-    ],
-    "f": 17,
+    "f": 10,
     "a": 21,
     "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Berger",
-    "vs": [
-     "Monika Torbus",
-     "Holly Ferguson"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -39669,55 +45567,7 @@
     "with": "Kayla Gipson",
     "vs": [
      "Meghan Klein",
-     "Holly Ferguson"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Peggy Matzen",
-     "Jessica Wormeck"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Janice Aliberti",
-     "Annette Marsh"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Julia Hollman",
-     "Tammy Dragon"
+     "Kelly Bowers"
     ],
     "f": 9,
     "a": 21,
@@ -39727,13 +45577,157 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Flemington Green",
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Monika Torbus",
+     "Kelly Bowers"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
     "t": "female",
     "with": "Marina Volpe",
     "vs": [
-     "Lynda Levan",
-     "Jamie Levin"
+     "Holly Ferguson",
+     "Karen Waldon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Suzi French",
+     "Heather Waters"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Suzi French",
+     "Heather Waters"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Sulyn Kulick",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Sulyn Kulick",
+     "Suzi French"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Holli Lish",
+     "Suzi French"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Sulyn Kulick",
+     "Heather Waters"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Esha Gajjar",
+     "Lori Wild"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Virginie Boutin",
+     "Suzi French"
     ],
     "f": 11,
     "a": 21,
@@ -39746,7 +45740,55 @@
     "wk": 4,
     "opp": "Flemington Green",
     "t": "female",
-    "with": "Linda Johns",
+    "with": "Olga Kim",
+    "vs": [
+     "Julia Hollman",
+     "Grace Brennan"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Lynda Levan",
+     "Grace Brennan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Diane Bracco",
+     "Julia Hollman"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Seemann",
     "vs": [
      "Lynda Levan",
      "Tammy Dragon"
@@ -39762,28 +45804,12 @@
     "wk": 4,
     "opp": "Flemington Green",
     "t": "female",
-    "with": "Jasmine Ho",
+    "with": "Kayla Gipson",
     "vs": [
-     "Diane Bracco",
-     "Grace Brennan"
-    ],
-    "f": 30,
-    "a": 32,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Jamie Levin",
+     "Lynda Levan",
      "Tammy Dragon"
     ],
-    "f": 8,
+    "f": 14,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -39794,10 +45820,10 @@
     "wk": 4,
     "opp": "Flemington Green",
     "t": "female",
-    "with": "Jasmine Ho",
+    "with": "Marina Volpe",
     "vs": [
-     "Annette Marsh",
-     "Jamie Levin"
+     "Marianne Rosato",
+     "Grace Brennan"
     ],
     "f": 18,
     "a": 21,
@@ -39810,14 +45836,110 @@
     "wk": 4,
     "opp": "Flemington Green",
     "t": "female",
-    "with": "Olga Kim",
+    "with": "Marina Volpe",
     "vs": [
      "Julia Hollman",
-     "Marianne Rosato"
+     "Lynda Levan"
     ],
-    "f": 15,
+    "f": 18,
     "a": 21,
     "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Lynda Levan",
+     "Annette Marsh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Sara Hylan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Sara Hylan",
+     "Jackie Coneeny"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Marian Kingston",
+     "Donna Facconerusin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Donna Facconerusin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Sara Hylan",
+     "Jackie Coneeny"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -39828,490 +45950,100 @@
     "week": 1,
     "seq": 0,
     "label": "1",
-    "rating": 0.8,
+    "rating": 1.5,
     "confidence": 53,
-    "rank": 26,
+    "rank": 14,
     "ratingGames": 8,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -1.6
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -1.7
    },
    {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": 0.4,
-    "confidence": 70,
-    "rank": 57,
+    "rating": -2.3,
+    "confidence": 71,
+    "rank": 111,
     "ratingGames": 16,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": -1.3
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -1.2
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.4,
-    "confidence": 71,
-    "rank": 65,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -1.3
+    "rating": -1.7,
+    "confidence": 80,
+    "rank": 112,
+    "ratingGames": 24,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.8
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": -1.5,
-    "confidence": 81,
-    "rank": 111,
-    "ratingGames": 24,
+    "rating": -2,
+    "confidence": 84,
+    "rank": 117,
+    "ratingGames": 32,
     "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.4,
+    "confidence": 87,
+    "rank": 112,
+    "ratingGames": 37,
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
    {
-    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
-    "name": "Kayla Gipson",
-    "n": 4,
-    "synergy": 0
+    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+    "name": "Linda Seemann",
+    "n": 5,
+    "synergy": 1.2
    },
    {
-    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-    "name": "Linda Johns",
-    "n": 3,
-    "synergy": -0.2
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 4,
+    "synergy": 0.1
+   },
+   {
+    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
+    "name": "Jasmine Ho",
+    "n": 4,
+    "synergy": 0.1
    },
    {
     "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
     "name": "Olga Turova",
-    "n": 5,
-    "synergy": -0.9
+    "n": 9,
+    "synergy": 0
    },
    {
     "pid": "cb063892-906f-4769-8815-2a87da5bf426",
     "name": "Marina Volpe",
-    "n": 4,
-    "synergy": -1.5
-   }
-  ]
- },
- "15778391-96b7-4888-9d08-d63b96e104ca": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 103,
-    "pa": 119,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
+    "n": 7,
+    "synergy": -0.3
    },
    {
-    "week": 3,
-    "opp": "Montville",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 81,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     5
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
+    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
+    "name": "Kayla Gipson",
+    "n": 5,
+    "synergy": -0.7
    },
    {
-    "week": 4,
-    "opp": "PKLD",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 112,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     1
-    ],
-    "cl": [
-     3,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Janice Aliberti",
-    "vs": [
-     "Nikki Nigro",
-     "Kim Allaga"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Elizabeth Biehl",
-    "vs": [
-     "Beth Pardilla",
-     "Kim Allaga"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Lynda Levan",
-    "vs": [
-     "Kara Chubrik",
-     "Nikki Nigro"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Tanyalak Sawangpak",
-     "Sushma Rayapudi"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Susan Goeckeler",
-    "vs": [
-     "Rani Borusu",
-     "Sushma Rayapudi"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Eileen Clark",
-     "Beth Pardilla"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Janine Thompson",
-     "Ly Kim"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Debi Mcdonald",
-     "Cheryl Brodsky"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Annette Marsh",
-    "vs": [
-     "Debi Mcdonald",
-     "Cheryl Brodsky"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Debi Mcdonald",
-     "Angie Ratkowitz"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Elizabeth Biehl",
-    "vs": [
-     "Ly Kim",
-     "Cheryl Brodsky"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Julia Hollman",
-    "vs": [
-     "Olga Kim",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Lynda Levan",
-    "vs": [
-     "Linda Johns",
-     "Jasmine Ho"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Jasmine Ho",
-     "Paula Cushing"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Diane Bracco",
-    "vs": [
-     "Linda Seemann",
-     "Jasmine Ho"
-    ],
-    "f": 32,
-    "a": 30,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Marianne Rosato",
-    "vs": [
-     "Marina Volpe",
-     "Linda Johns"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Olga Turova",
-     "Kayla Gipson"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.9,
-    "confidence": 53,
-    "rank": 106,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -2,
-    "confidence": 67,
-    "rank": 116,
-    "ratingGames": 11,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.1,
-    "confidence": 77,
-    "rank": 103,
-    "ratingGames": 17,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "c7dd526f-b8fe-4172-977d-912044350954",
-    "name": "Diane Bracco",
-    "n": 4,
-    "synergy": 0.9
-   },
-   {
-    "pid": "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3",
-    "name": "Marianne Rosato",
+    "pid": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
+    "name": "Olga Kim",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -1.1
    }
   ]
  },
@@ -40872,6 +46604,17 @@
     "ratingGames": 25,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.9,
+    "confidence": 81,
+    "rank": 101,
+    "ratingGames": 25,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.8
    }
   ],
   "partners": [
@@ -41053,259 +46796,168 @@
     "ratingGames": 5,
     "strengthOfPartners": -2.2,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.2,
+    "confidence": 50,
+    "rank": 78,
+    "ratingGames": 5,
+    "strengthOfPartners": -2.3,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
  },
- "e81f3561-3e91-48aa-8430-f177ad30248b": {
+ "1aeb5726-1c67-4c13-8884-b35f0c5c854f": {
   "log": [
    {
-    "week": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
+    "week": 1,
+    "opp": "Premiere",
     "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 82,
-    "pa": 103,
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 105,
     "mx": [
      0,
      0
     ],
     "gn": [
-     1,
-     4
+     7,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 131,
+    "pa": 162,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
     ],
     "cl": [
      1,
-     0
+     1
     ],
     "teamRes": "L",
-    "teamGW": 14,
-    "teamGL": 18,
+    "teamGW": 8,
+    "teamGL": 24,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 3,
-    "opp": "Premiere",
+    "opp": "Picklr Newtown",
     "homeAway": "A",
     "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 118,
-    "pa": 91,
+    "l": 4,
+    "gp": 8,
+    "pf": 147,
+    "pa": 154,
     "mx": [
      0,
      0
     ],
     "gn": [
      4,
-     2
+     4
     ],
     "cl": [
      1,
-     1
+     2
     ],
     "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
+    "teamGW": 17,
+    "teamGL": 15,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 4,
-    "opp": "Montville",
+    "opp": "Flemington Green",
     "homeAway": "H",
     "w": 1,
-    "l": 3,
-    "gp": 4,
-    "pf": 55,
-    "pa": 82,
+    "l": 7,
+    "gp": 8,
+    "pf": 104,
+    "pa": 166,
     "mx": [
      0,
      0
     ],
     "gn": [
      1,
-     3
+     7
     ],
     "cl": [
      1,
      0
     ],
     "teamRes": "L",
-    "teamGW": 12,
-    "teamGL": 20,
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 101,
+    "pa": 124,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
     "sub": 0,
     "subFor": null
    }
   ],
   "games": [
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Karyn Jarmer",
-     "Melissa Mcconnell"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Wendi Wolanske",
-     "Toni Demaio"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Melissa Mcconnell",
-     "Karyn Jarmer"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Jackie Coneeny",
-    "vs": [
-     "Toni Demaio",
-     "Karyn Jarmer"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Tinton Falls",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Corinne Palma",
-     "Virginia Kenny"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
+    "wk": 1,
     "opp": "Premiere",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Linda Johns",
     "vs": [
-     "Stacey Cohen",
-     "Sabrina Trunzo Dinkle"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kathy Baker",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Roe Palermo"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marie Walsh Mccarty",
-    "vs": [
-     "Roe Palermo",
-     "Stacey Cohen"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Jerzie-Ann Coppola",
-    "vs": [
-     "Stacey Cohen",
-     "Roe Palermo"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Caroline Kinlin",
-    "vs": [
-     "Sabrina Trunzo Dinkle",
-     "Karen Pisano"
+     "Denise Bonagura",
+     "Christine Pisapia"
     ],
     "f": 21,
     "a": 10,
@@ -41315,33 +46967,193 @@
     "subFor": null
    },
    {
-    "wk": 3,
+    "wk": 1,
     "opp": "Premiere",
     "t": "female",
-    "with": "Jerzie-Ann Coppola",
+    "with": "Filomena Rega",
     "vs": [
-     "Roe Palermo",
-     "Sabrina Trunzo Dinkle"
+     "Denise Bonagura",
+     "Eileen Clark"
     ],
     "f": 21,
-    "a": 8,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
-     0
+     0,
+     1
     ]
    },
    {
-    "wk": 4,
-    "opp": "Montville",
+    "wk": 1,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Jackie Coneeny",
+    "with": "Paula Cushing",
     "vs": [
-     "Joanne Rim",
-     "Kumi Dalton"
+     "Sabrina Trunzo Dinkle",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Denise Bonagura",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 6,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Linda Iacono",
+     "Lenore David"
+    ],
+    "f": 27,
+    "a": 29,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Karen Pisano",
+     "Denise Bonagura"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Christine Pisapia",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Filomena Rega",
+    "vs": [
+     "Denise Bonagura",
+     "Elizabeth Damico"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Johanna Kreilick",
+     "Peggy Matzen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Jo Marie Holzhammer",
+     "Karen Waldon"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Monika Torbus",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Holly Ferguson",
+     "Karen Waldon"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Meghan Klein",
+     "Karen Waldon"
     ],
     "f": 10,
     "a": 21,
@@ -41351,13 +47163,189 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Montville",
+    "wk": 2,
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Marie Walsh Mccarty",
+    "with": "Paula Cushing",
     "vs": [
-     "Ly Kim",
-     "Cheryl Brodsky"
+     "Peggy Matzen",
+     "Karen Waldon"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Jessica Wormeck",
+     "Karen Waldon"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Peggy Matzen",
+     "Jessica Wormeck"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Jacqueline Hillgrube",
+     "Sulyn Kulick"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Suzi French",
+     "Heather Waters"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Rachel Mcgowan",
+     "Jacqueline Ho"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Jacqueline Hillgrube",
+     "Heather Waters"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Holli Lish",
+     "Suzi French"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Holli Lish",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Holli Lish",
+     "Rachel Mcgowan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Chiti Joshi",
+     "Jacqueline Ho"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Janice Aliberti",
+     "Annette Marsh"
     ],
     "f": 8,
     "a": 21,
@@ -41368,14 +47356,14 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Sara Hylan",
+    "with": "Linda Seemann",
     "vs": [
-     "Rachel Baluyot",
-     "Janine Thompson"
+     "Julia Hollman",
+     "Tammy Dragon"
     ],
-    "f": 16,
+    "f": 9,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -41384,16 +47372,196 @@
    },
    {
     "wk": 4,
-    "opp": "Montville",
+    "opp": "Flemington Green",
     "t": "female",
-    "with": "Jerzie-Ann Coppola",
+    "with": "Linda Johns",
     "vs": [
-     "Rachel Baluyot",
-     "Hope Lo"
+     "Diane Bracco",
+     "Julia Hollman"
     ],
-    "f": 21,
-    "a": 19,
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Jamie Levin",
+     "Julia Hollman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Janice Aliberti",
+     "Marianne Rosato"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Julia Hollman",
+     "Annette Marsh"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Grace Brennan",
+     "Suzanne Bauer"
+    ],
+    "f": 22,
+    "a": 20,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Lynda Levan",
+     "Annette Marsh"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Berger",
+    "vs": [
+     "Kathleen Nitti",
+     "Gina Faccone"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Sara Hylan",
+     "Jackie Coneeny"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Jasmine Ho",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Caroline Kinlin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Rachel Levkov",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Kathleen Nitti",
+     "Kathy Baker"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Marian Kingston",
+     "Jackie Coneeny"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -41401,57 +47569,103 @@
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 1.2,
+    "confidence": 52,
+    "rank": 18,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -1.8
+   },
+   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": -1.2,
-    "confidence": 45,
-    "rank": 95,
-    "ratingGames": 5,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.5
+    "rating": -0.8,
+    "confidence": 71,
+    "rank": 90,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -1.4
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -1.6,
-    "confidence": 64,
-    "rank": 111,
-    "ratingGames": 11,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": -1.2
+    "rating": -1,
+    "confidence": 80,
+    "rank": 99,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -1.1
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": -2.1,
-    "confidence": 73,
-    "rank": 122,
-    "ratingGames": 15,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.5
+    "rating": -1.3,
+    "confidence": 85,
+    "rank": 107,
+    "ratingGames": 32,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.8,
+    "confidence": 88,
+    "rank": 117,
+    "ratingGames": 38,
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
    {
-    "pid": "d324c1b4-fb13-47d4-b380-f8427448308a",
-    "name": "Jerzie-Ann Coppola",
-    "n": 3,
-    "synergy": 1.8
+    "pid": "18052e12-bbc5-4535-b93b-0e11242c27d7",
+    "name": "Marina Berger",
+    "n": 5,
+    "synergy": 0.8
    },
    {
-    "pid": "f7f80e1e-cebe-432b-9862-1120daaba26e",
-    "name": "Marie Walsh Mccarty",
-    "n": 3,
-    "synergy": -0.5
+    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
+    "name": "Kayla Gipson",
+    "n": 6,
+    "synergy": 0.5
    },
    {
-    "pid": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6",
-    "name": "Caroline Kinlin",
+    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
+    "name": "Jasmine Ho",
+    "n": 4,
+    "synergy": 0.5
+   },
+   {
+    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
+    "name": "Marina Volpe",
     "n": 3,
-    "synergy": -1
+    "synergy": 0.3
+   },
+   {
+    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+    "name": "Linda Johns",
+    "n": 9,
+    "synergy": 0
+   },
+   {
+    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
+    "name": "Paula Cushing",
+    "n": 3,
+    "synergy": -0.4
+   },
+   {
+    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
+    "name": "Linda Seemann",
+    "n": 5,
+    "synergy": -1.3
    }
   ]
  },
@@ -41772,6 +47986,17 @@
     "ratingGames": 13,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 1.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 72,
+    "rank": 60,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -42269,6 +48494,17 @@
     "ratingGames": 21,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.1,
+    "confidence": 80,
+    "rank": 108,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.9
    }
   ],
   "partners": [
@@ -42276,7 +48512,7 @@
     "pid": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
     "name": "Virginie Boutin",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 1
    },
    {
     "pid": "0f84aab6-2ae2-4a0b-ba2f-cd31c57fa7d7",
@@ -42288,7 +48524,527 @@
     "pid": "406e8166-48fc-410b-99b2-5cbc3534fee3",
     "name": "Heather Waters",
     "n": 5,
-    "synergy": -1.3
+    "synergy": -1.5
+   }
+  ]
+ },
+ "cee0559f-0285-4e86-9254-128f836efee8": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 104,
+    "pa": 112,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 103,
+    "pa": 65,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 70,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 76,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Wendi Wolanske",
+     "Julie Biondi"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Julie Biondi",
+     "Donna Finn"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Corinne Palma",
+     "Julie Biondi"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Toni Demaio",
+     "Karyn Jarmer"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Kathleen Lynch",
+     "Donna Finn"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Donna Finn",
+     "Amy Wondrack"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Gina Faccone",
+    "vs": [
+     "Suzanne Leon",
+     "Roe Palermo"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Stacey Cohen",
+     "Suzanne Leon"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Rachel Levkov",
+    "vs": [
+     "Karen Pisano",
+     "Nancy Ciappina"
+    ],
+    "f": 21,
+    "a": 5,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Nancy Ciappina",
+     "Stacey Cohen"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Stacey Cohen",
+     "Dawn Dalessio"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Ly Kim",
+     "Angie Ratkowitz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Joanne Rim",
+     "Kumi Dalton"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Debi Mcdonald",
+     "Rachel Baluyot"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Vilayvanh Sysounthone",
+     "Kumi Dalton"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Ly Kim",
+     "Cheryl Brodsky"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Linda Seemann",
+     "Maureen Bruno"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Linda Johns",
+     "Olga Turova"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Donna Facconerusin",
+    "vs": [
+     "Paula Cushing",
+     "Jasmine Ho"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Linda Johns",
+     "Linda Seemann"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Kayla Gipson",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.2,
+    "confidence": 49,
+    "rank": 77,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.2,
+    "confidence": 66,
+    "rank": 46,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.5,
+    "confidence": 75,
+    "rank": 94,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.5,
+    "confidence": 80,
+    "rank": 114,
+    "ratingGames": 21,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6",
+    "name": "Caroline Kinlin",
+    "n": 6,
+    "synergy": -0.4
+   },
+   {
+    "pid": "153fa815-ce9c-4c36-8fce-c525887f05b1",
+    "name": "Sara Hylan",
+    "n": 5,
+    "synergy": -0.5
+   },
+   {
+    "pid": "e81f3561-3e91-48aa-8430-f177ad30248b",
+    "name": "Donna Facconerusin",
+    "n": 3,
+    "synergy": -0.9
    }
   ]
  },
@@ -42769,6 +49525,17 @@
     "ratingGames": 21,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.5,
+    "confidence": 80,
+    "rank": 94,
+    "ratingGames": 21,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -42782,7 +49549,703 @@
     "pid": "2abe95e2-0e73-49b6-aca8-689041f98b94",
     "name": "Eileen Clark",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1.2
+   }
+  ]
+ },
+ "da4d615a-2d9f-4939-be52-1760fb37eb60": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 66,
+    "pa": 100,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Life Time Red Bank",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 142,
+    "pa": 156,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 139,
+    "pa": 155,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 135,
+    "pa": 150,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Esha Gajjar",
+     "Sulyn Kulick"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Stacey Nusser",
+    "vs": [
+     "Virginie Boutin",
+     "Holli Lish"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Esha Gajjar",
+     "Jacqueline Ho"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula De Nisc",
+    "vs": [
+     "Suzi French",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Stacey Nusser",
+    "vs": [
+     "Esha Gajjar",
+     "Jacqueline Ho"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Sara Hylan",
+     "Donna Facconerusin"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Jackie Coneeny",
+     "Caroline Kinlin"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Marie Walsh Mccarty",
+     "Donna Facconerusin"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Donna Facconerusin",
+     "Jerzie-Ann Coppola"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Rachel Levkov",
+     "Jerzie-Ann Coppola"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Brittany Messing",
+     "Sara Hylan"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Nancy Ciappina",
+    "vs": [
+     "Sara Hylan",
+     "Jackie Coneeny"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Caroline Kinlin",
+     "Jackie Coneeny"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Kim Allaga",
+     "Kara Chubrik"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Sushma Rayapudi",
+     "Nikki Nigro"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Jaime Luongo",
+     "Megan Curren"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Jaime Luongo",
+     "Megan Curren"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Josephine Catanzaro",
+     "Jaime Luongo"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Eileen Clark",
+     "Josephine Catanzaro"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Jaime Luongo",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Susana Palumbo",
+     "Wendi Wolanske"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Karyn Jarmer",
+     "Darragh Odonnell"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Donna Finn",
+     "Darragh Odonnell"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Vanessa Tortorice",
+     "Wendi Wolanske"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Kimberley Levins",
+     "Susana Palumbo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Karyn Jarmer",
+     "Toni Demaio"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Deborah Muschio",
+     "Vanessa Tortorice"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Susana Palumbo",
+     "Darragh Odonnell"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.7,
+    "confidence": 46,
+    "rank": 88,
+    "ratingGames": 5,
+    "strengthOfPartners": -3.4,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.5,
+    "confidence": 70,
+    "rank": 63,
+    "ratingGames": 13,
+    "strengthOfPartners": -3.3,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.5,
+    "confidence": 79,
+    "rank": 63,
+    "ratingGames": 21,
+    "strengthOfPartners": -3.5,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.1,
+    "confidence": 84,
+    "rank": 42,
+    "ratingGames": 29,
+    "strengthOfPartners": -3.7,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d895a1b4-ebbc-4f93-bca7-4e8b01b40635",
+    "name": "Suzanne Leon",
+    "n": 4,
+    "synergy": 1.4
+   },
+   {
+    "pid": "d86280ad-5733-417d-af40-42a66c14b874",
+    "name": "Roe Palermo",
+    "n": 4,
+    "synergy": 0.9
+   },
+   {
+    "pid": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
+    "name": "Linda Iacono",
+    "n": 3,
+    "synergy": 0.2
+   },
+   {
+    "pid": "aecabaca-f05b-489f-87d6-afacfd32295c",
+    "name": "Dawn Dalessio",
+    "n": 3,
+    "synergy": -0.1
+   },
+   {
+    "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
+    "name": "Sabrina Trunzo Dinkle",
+    "n": 6,
+    "synergy": -0.4
+   },
+   {
+    "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
+    "name": "Denise Bonagura",
+    "n": 3,
+    "synergy": -0.6
    }
   ]
  },
@@ -43188,6 +50651,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.7,
+    "confidence": 76,
+    "rank": 58,
+    "ratingGames": 16,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -43201,381 +50675,13 @@
     "pid": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087",
     "name": "Jean Dalstad",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "c40f8a3d-21b9-45d0-bbdc-1b1ca6f5a15a",
     "name": "Trena Hahn",
     "n": 3,
-    "synergy": -0.7
-   }
-  ]
- },
- "681fe702-3295-4dba-98a2-15e8aedc2873": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 153,
-    "pa": 154,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     3,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 147,
-    "pa": 158,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     6
-    ],
-    "cl": [
-     1,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Suzi French",
-     "Heather Waters"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Chiti Joshi",
-     "Holli Lish"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Virginie Boutin",
-     "Lori Wild"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Jacqueline Hillgrube",
-     "Heather Waters"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Virginie Boutin",
-     "Sulyn Kulick"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Sulyn Kulick",
-     "Heather Waters"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Suzi French",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Chiti Joshi",
-     "Jacqueline Ho"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Diane Bracco",
-     "Suzanne Bauer"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Johns",
-    "vs": [
-     "Lynda Levan",
-     "Grace Brennan"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Paula Cushing",
-    "vs": [
-     "Grace Brennan",
-     "Suzanne Bauer"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Jamie Levin",
-     "Julia Hollman"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Diane Bracco",
-     "Grace Brennan"
-    ],
-    "f": 30,
-    "a": 32,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Janice Aliberti",
-     "Lynda Levan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Annette Marsh",
-     "Jamie Levin"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Diane Bracco",
-     "Jamie Levin"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.7,
-    "confidence": 61,
-    "rank": 57,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.4,
-    "confidence": 76,
-    "rank": 68,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.5,
-    "strengthOfOpponents": 0.4
-   }
-  ],
-  "partners": [
-   {
-    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
-    "name": "Linda Johns",
-    "n": 3,
-    "synergy": 1.4
-   },
-   {
-    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
-    "name": "Olga Turova",
-    "n": 3,
-    "synergy": 0
-   },
-   {
-    "pid": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
-    "name": "Olga Kim",
-    "n": 3,
-    "synergy": -1
+    "synergy": -0.8
    }
   ]
  },
@@ -43985,6 +51091,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.4,
+    "confidence": 75,
+    "rank": 67,
+    "ratingGames": 16,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -43998,721 +51115,7 @@
     "pid": "2a233243-51cc-4a54-aaab-1297a41ce67a",
     "name": "Charlie Trapasso",
     "n": 5,
-    "synergy": -0.3
-   }
-  ]
- },
- "36cebb3b-4b08-456f-91f6-6fcdf4262e73": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 108,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 99,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 145,
-    "pa": 150,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 17,
-    "teamGL": 15,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Flemington Green",
-    "homeAway": "H",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 119,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Denise Bonagura",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Karen Pisano",
-     "Lenore David"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Denise Bonagura",
-     "Christine Pisapia"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Karen Pisano",
-     "Eileen Clark"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Sally Sitro",
-     "Elizabeth Damico"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Karen Pisano",
-     "Denise Bonagura"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Karen Pisano",
-     "Elizabeth Damico"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Premiere",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Karen Pisano",
-     "Sally Sitro"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Kelly Bowers",
-     "Holly Ferguson"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Jo Marie Holzhammer",
-     "Karen Waldon"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Johanna Kreilick",
-     "Holly Ferguson"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Johanna Kreilick",
-     "Kelly Bowers"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Meghan Klein",
-     "Karen Waldon"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Meghan Klein",
-     "Kelly Bowers"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Monika Torbus",
-     "Kelly Bowers"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Flemington Blue",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Holly Ferguson",
-     "Karen Waldon"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Suzi French",
-     "Heather Waters"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Suzi French",
-     "Heather Waters"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Sulyn Kulick",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Sulyn Kulick",
-     "Suzi French"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Holli Lish",
-     "Suzi French"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Sulyn Kulick",
-     "Heather Waters"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Maureen Bruno",
-    "vs": [
-     "Esha Gajjar",
-     "Lori Wild"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Virginie Boutin",
-     "Suzi French"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Kim",
-    "vs": [
-     "Julia Hollman",
-     "Grace Brennan"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Jasmine Ho",
-    "vs": [
-     "Lynda Levan",
-     "Grace Brennan"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Diane Bracco",
-     "Julia Hollman"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Linda Seemann",
-    "vs": [
-     "Lynda Levan",
-     "Tammy Dragon"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Kayla Gipson",
-    "vs": [
-     "Lynda Levan",
-     "Tammy Dragon"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Marianne Rosato",
-     "Grace Brennan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Marina Volpe",
-    "vs": [
-     "Julia Hollman",
-     "Lynda Levan"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Flemington Green",
-    "t": "female",
-    "with": "Olga Turova",
-    "vs": [
-     "Lynda Levan",
-     "Annette Marsh"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1.5,
-    "confidence": 53,
-    "rank": 14,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -1.7
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -2.3,
-    "confidence": 71,
-    "rank": 111,
-    "ratingGames": 16,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.7,
-    "confidence": 80,
-    "rank": 112,
-    "ratingGames": 24,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -2,
-    "confidence": 84,
-    "rank": 117,
-    "ratingGames": 32,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "681fe702-3295-4dba-98a2-15e8aedc2873",
-    "name": "Jasmine Ho",
-    "n": 3,
-    "synergy": 1.4
-   },
-   {
-    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
-    "name": "Olga Turova",
-    "n": 8,
-    "synergy": -0.1
-   },
-   {
-    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
-    "name": "Maureen Bruno",
-    "n": 4,
-    "synergy": -0.1
-   },
-   {
-    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
-    "name": "Marina Volpe",
-    "n": 7,
-    "synergy": -0.1
-   },
-   {
-    "pid": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
-    "name": "Linda Seemann",
-    "n": 3,
     "synergy": -0.2
-   },
-   {
-    "pid": "cac68244-9c27-49bf-9354-1e9282427426",
-    "name": "Kayla Gipson",
-    "n": 5,
-    "synergy": -0.7
    }
   ]
  },
@@ -45374,9 +51777,26 @@
     "ratingGames": 30,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.4,
+    "confidence": 85,
+    "rank": 91,
+    "ratingGames": 30,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
+   {
+    "pid": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
+    "name": "Nikki Nigro",
+    "n": 3,
+    "synergy": 0.4
+   },
    {
     "pid": "e3874889-50a3-472f-aada-20f41ce1bc3f",
     "name": "Sherry Sili",
@@ -45384,62 +51804,643 @@
     "synergy": 0.2
    },
    {
-    "pid": "01c2e4d1-3738-4ee6-8878-4a2559ec006a",
-    "name": "Nikki Nigro",
-    "n": 3,
-    "synergy": 0.1
-   },
-   {
     "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
     "name": "Sushma Rayapudi",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "6848f02a-1acc-47f8-8743-3525311031a9",
     "name": "Kara Chubrik",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1.2
    }
   ]
  },
- "c7dd526f-b8fe-4172-977d-912044350954": {
+ "18052e12-bbc5-4535-b93b-0e11242c27d7": {
   "log": [
    {
     "week": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Flemington Blue",
     "homeAway": "A",
     "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 109,
-    "pa": 102,
+    "l": 5,
+    "gp": 8,
+    "pf": 143,
+    "pa": 160,
     "mx": [
      0,
      0
     ],
     "gn": [
      3,
-     3
+     5
     ],
     "cl": [
-     0,
-     0
+     2,
+     2
     ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
     "sub": 0,
     "subFor": null
    },
    {
     "week": 3,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 150,
+    "pa": 156,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 101,
+    "pa": 123,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Meghan Klein",
+     "Monika Torbus"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Monika Torbus",
+     "Kelly Bowers"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Monika Torbus",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Meghan Klein",
+     "Jessica Wormeck"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Kelly Bowers",
+     "Jessica Wormeck"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Monika Torbus",
+     "Holly Ferguson"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Jessica Wormeck",
+     "Karen Waldon"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Meghan Klein",
+     "Monika Torbus"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Lori Wild",
+     "Jacqueline Ho"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Rachel Mcgowan",
+     "Sulyn Kulick"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Rachel Mcgowan",
+     "Jacqueline Ho"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Virginie Boutin",
+     "Jacqueline Ho"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Heather Waters",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Virginie Boutin",
+     "Chiti Joshi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Holli Lish",
+     "Rachel Mcgowan"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Rachel Mcgowan",
+     "Esha Gajjar"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Rachel Levkov",
+     "Kathy Baker"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Kathleen Nitti",
+     "Gina Faccone"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Gina Faccone",
+     "Marian Kingston"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Gina Faccone",
+     "Kathy Baker"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Kathy Baker",
+     "Caroline Kinlin"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Gina Faccone",
+     "Rachel Levkov"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Caroline Kinlin",
+     "Sara Hylan"
+    ],
+    "f": 12,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.4,
+    "confidence": 54,
+    "rank": 58,
+    "ratingGames": 8,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.5,
+    "confidence": 73,
+    "rank": 62,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.5,
+    "confidence": 73,
+    "rank": 64,
+    "ratingGames": 16,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.9,
+    "confidence": 81,
+    "rank": 47,
+    "ratingGames": 23,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+    "name": "Olga Turova",
+    "n": 5,
+    "synergy": 0.8
+   },
+   {
+    "pid": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
+    "name": "Maureen Bruno",
+    "n": 4,
+    "synergy": 0.7
+   },
+   {
+    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
+    "name": "Paula Cushing",
+    "n": 6,
+    "synergy": 0.5
+   },
+   {
+    "pid": "cb063892-906f-4769-8815-2a87da5bf426",
+    "name": "Marina Volpe",
+    "n": 3,
+    "synergy": -0.5
+   },
+   {
+    "pid": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
+    "name": "Olga Kim",
+    "n": 3,
+    "synergy": -1.2
+   }
+  ]
+ },
+ "e81f3561-3e91-48aa-8430-f177ad30248b": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 82,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 118,
+    "pa": 91,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
     "opp": "Montville",
+    "homeAway": "H",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 55,
+    "pa": 82,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 12,
+    "teamGL": 20,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "PKLD",
     "homeAway": "H",
     "w": 1,
     "l": 4,
     "gp": 5,
-    "pf": 94,
+    "pf": 82,
     "pa": 103,
     "mx": [
      0,
@@ -45458,44 +52459,173 @@
     "teamGL": 11,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "PKLD",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 111,
-    "pa": 110,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "games": [
    {
     "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "opp": "Pickleball Kingdom Tinton Falls",
     "t": "female",
-    "with": "Jeannine Calhoun",
+    "with": "Caroline Kinlin",
     "vs": [
-     "Tanyalak Sawangpak",
-     "Lay Wassana"
+     "Karyn Jarmer",
+     "Melissa Mcconnell"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Wendi Wolanske",
+     "Toni Demaio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Melissa Mcconnell",
+     "Karyn Jarmer"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Toni Demaio",
+     "Karyn Jarmer"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Corinne Palma",
+     "Virginia Kenny"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Stacey Cohen",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Kathy Baker",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Roe Palermo"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Roe Palermo",
+     "Stacey Cohen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Stacey Cohen",
+     "Roe Palermo"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "female",
+    "with": "Caroline Kinlin",
+    "vs": [
+     "Sabrina Trunzo Dinkle",
+     "Karen Pisano"
     ],
     "f": 21,
     "a": 10,
@@ -45505,13 +52635,464 @@
     "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 3,
+    "opp": "Premiere",
     "t": "female",
-    "with": "Marianne Rosato",
+    "with": "Jerzie-Ann Coppola",
     "vs": [
-     "Kim Allaga",
-     "Sherry Sili"
+     "Roe Palermo",
+     "Sabrina Trunzo Dinkle"
+    ],
+    "f": 21,
+    "a": 8,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Joanne Rim",
+     "Kumi Dalton"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Ly Kim",
+     "Cheryl Brodsky"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Sara Hylan",
+    "vs": [
+     "Rachel Baluyot",
+     "Janine Thompson"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Rachel Baluyot",
+     "Hope Lo"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Kayla Gipson",
+     "Linda Seemann"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marian Kingston",
+    "vs": [
+     "Linda Seemann",
+     "Linda Johns"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jackie Coneeny",
+    "vs": [
+     "Paula Cushing",
+     "Jasmine Ho"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Marie Walsh Mccarty",
+    "vs": [
+     "Olga Kim",
+     "Linda Johns"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jerzie-Ann Coppola",
+    "vs": [
+     "Paula Cushing",
+     "Jasmine Ho"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1.2,
+    "confidence": 45,
+    "rank": 95,
+    "ratingGames": 5,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.6,
+    "confidence": 64,
+    "rank": 111,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -2.1,
+    "confidence": 73,
+    "rank": 122,
+    "ratingGames": 15,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.3,
+    "confidence": 79,
+    "rank": 126,
+    "ratingGames": 20,
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d324c1b4-fb13-47d4-b380-f8427448308a",
+    "name": "Jerzie-Ann Coppola",
+    "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "f7f80e1e-cebe-432b-9862-1120daaba26e",
+    "name": "Marie Walsh Mccarty",
+    "n": 4,
+    "synergy": -0.5
+   },
+   {
+    "pid": "d5933ee7-ffb8-4b4a-92cd-1a28579372d6",
+    "name": "Caroline Kinlin",
+    "n": 3,
+    "synergy": -0.9
+   },
+   {
+    "pid": "cee0559f-0285-4e86-9254-128f836efee8",
+    "name": "Jackie Coneeny",
+    "n": 3,
+    "synergy": -0.9
+   }
+  ]
+ },
+ "681fe702-3295-4dba-98a2-15e8aedc2873": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 153,
+    "pa": 154,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     3,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Flemington Green",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 147,
+    "pa": 158,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Life Time Red Bank",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 97,
+    "pa": 128,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     5
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Suzi French",
+     "Heather Waters"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Maureen Bruno",
+    "vs": [
+     "Chiti Joshi",
+     "Holli Lish"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Marina Volpe",
+    "vs": [
+     "Virginie Boutin",
+     "Lori Wild"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Jacqueline Hillgrube",
+     "Heather Waters"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Virginie Boutin",
+     "Sulyn Kulick"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Sulyn Kulick",
+     "Heather Waters"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Suzi French",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Chiti Joshi",
+     "Jacqueline Ho"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Diane Bracco",
+     "Suzanne Bauer"
     ],
     "f": 21,
     "a": 13,
@@ -45525,17 +53106,579 @@
     ]
    },
    {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Lynda Levan",
+     "Grace Brennan"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Grace Brennan",
+     "Suzanne Bauer"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Jamie Levin",
+     "Julia Hollman"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Diane Bracco",
+     "Grace Brennan"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Janice Aliberti",
+     "Lynda Levan"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Linda Seemann",
+    "vs": [
+     "Annette Marsh",
+     "Jamie Levin"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Flemington Green",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Diane Bracco",
+     "Jamie Levin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Brittany Messing",
+     "Gina Faccone"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Linda Johns",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Sara Hylan"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Turova",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Caroline Kinlin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Donna Facconerusin",
+     "Jackie Coneeny"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Kayla Gipson",
+    "vs": [
+     "Marian Kingston",
+     "Brittany Messing"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Paula Cushing",
+    "vs": [
+     "Donna Facconerusin",
+     "Jerzie-Ann Coppola"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Olga Kim",
+    "vs": [
+     "Rachel Levkov",
+     "Kathy Baker"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.7,
+    "confidence": 61,
+    "rank": 57,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.4,
+    "confidence": 76,
+    "rank": 68,
+    "ratingGames": 16,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 82,
+    "rank": 96,
+    "ratingGames": 23,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",
+    "name": "Paula Cushing",
+    "n": 4,
+    "synergy": 1.2
+   },
+   {
+    "pid": "1aeb5726-1c67-4c13-8884-b35f0c5c854f",
+    "name": "Olga Turova",
+    "n": 4,
+    "synergy": 0.5
+   },
+   {
+    "pid": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
+    "name": "Linda Johns",
+    "n": 4,
+    "synergy": 0.1
+   },
+   {
+    "pid": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
+    "name": "Olga Kim",
+    "n": 5,
+    "synergy": -1.6
+   }
+  ]
+ },
+ "996f277e-53e6-42b3-b2a1-0ad51949e64b": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 110,
+    "pa": 118,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Johanna Kreilick",
+     "Kelly Bowers"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Johanna Kreilick",
+     "Karen Waldon"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Johanna Kreilick",
+     "Christine Ziegler"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Johanna Kreilick",
+     "Meghan Klein"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Johanna Kreilick",
+     "Jessica Wormeck"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Johanna Kreilick",
+     "Nancy Cook"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 0.9,
+    "confidence": 50,
+    "rank": 50,
+    "ratingGames": 6,
+    "strengthOfPartners": 2.9,
+    "strengthOfOpponents": 2.9
+   }
+  ],
+  "partners": []
+ },
+ "15778391-96b7-4888-9d08-d63b96e104ca": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 103,
+    "pa": 119,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 81,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "PKLD",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 112,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 4,
+    "gp": 4,
+    "pf": 52,
+    "pa": 84,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
     "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
     "with": "Janice Aliberti",
     "vs": [
-     "Sherry Sili",
-     "Lynne Silber"
+     "Nikki Nigro",
+     "Kim Allaga"
     ],
     "f": 21,
-    "a": 16,
+    "a": 17,
     "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Beth Pardilla",
+     "Kim Allaga"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null,
@@ -45548,7 +53691,23 @@
     "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Lynda Levan",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Diane Bracco",
     "vs": [
      "Tanyalak Sawangpak",
      "Sushma Rayapudi"
@@ -45564,46 +53723,31 @@
     "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Tammy Dragon",
+    "with": "Susan Goeckeler",
     "vs": [
      "Rani Borusu",
-     "Kim Allaga"
+     "Sushma Rayapudi"
     ],
-    "f": 15,
+    "f": 12,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Elizabeth Biehl",
+    "with": "Marianne Rosato",
     "vs": [
-     "Lay Wassana",
-     "Kim Allaga"
+     "Eileen Clark",
+     "Beth Pardilla"
     ],
     "f": 13,
     "a": 21,
     "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Montville",
-    "t": "female",
-    "with": "Janice Aliberti",
-    "vs": [
-     "Theresa Corderi",
-     "Amanda Gardiner"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null,
@@ -45616,7 +53760,23 @@
     "wk": 3,
     "opp": "Montville",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Janine Thompson",
+     "Ly Kim"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Diane Bracco",
     "vs": [
      "Debi Mcdonald",
      "Cheryl Brodsky"
@@ -45632,13 +53792,13 @@
     "wk": 3,
     "opp": "Montville",
     "t": "female",
-    "with": "Marianne Rosato",
+    "with": "Annette Marsh",
     "vs": [
-     "Ly Kim",
+     "Debi Mcdonald",
      "Cheryl Brodsky"
     ],
-    "f": 20,
-    "a": 22,
+    "f": 8,
+    "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
@@ -45648,7 +53808,7 @@
     "wk": 3,
     "opp": "Montville",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Diane Bracco",
     "vs": [
      "Debi Mcdonald",
      "Angie Ratkowitz"
@@ -45664,38 +53824,17 @@
     "wk": 3,
     "opp": "Montville",
     "t": "female",
-    "with": "Lynda Levan",
+    "with": "Elizabeth Biehl",
     "vs": [
-     "Amanda Gardiner",
-     "Kumi Dalton"
+     "Ly Kim",
+     "Cheryl Brodsky"
     ],
-    "f": 18,
-    "a": 21,
+    "f": 22,
+    "a": 24,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Suzanne Bauer",
-    "vs": [
-     "Paula Cushing",
-     "Jasmine Ho"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -45703,11 +53842,11 @@
     "t": "female",
     "with": "Julia Hollman",
     "vs": [
-     "Linda Johns",
-     "Olga Turova"
+     "Olga Kim",
+     "Linda Johns"
     ],
     "f": 21,
-    "a": 7,
+    "a": 16,
     "w": 1,
     "ff": 0,
     "sub": 0,
@@ -45717,14 +53856,14 @@
     "wk": 4,
     "opp": "PKLD",
     "t": "female",
-    "with": "Janice Aliberti",
+    "with": "Lynda Levan",
     "vs": [
-     "Olga Kim",
-     "Marina Volpe"
+     "Linda Johns",
+     "Jasmine Ho"
     ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
+    "f": 22,
+    "a": 20,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -45733,7 +53872,24 @@
     "wk": 4,
     "opp": "PKLD",
     "t": "female",
-    "with": "Grace Brennan",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Jasmine Ho",
+     "Paula Cushing"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Diane Bracco",
     "vs": [
      "Linda Seemann",
      "Jasmine Ho"
@@ -45749,14 +53905,14 @@
     "wk": 4,
     "opp": "PKLD",
     "t": "female",
-    "with": "Tammy Dragon",
+    "with": "Marianne Rosato",
     "vs": [
-     "Paula Cushing",
-     "Olga Kim"
+     "Marina Volpe",
+     "Linda Johns"
     ],
     "f": 21,
-    "a": 23,
-    "w": 0,
+    "a": 18,
+    "w": 1,
     "ff": 0,
     "sub": 0,
     "subFor": null
@@ -45765,9 +53921,9 @@
     "wk": 4,
     "opp": "PKLD",
     "t": "female",
-    "with": "Jamie Levin",
+    "with": "Suzanne Bauer",
     "vs": [
-     "Jasmine Ho",
+     "Olga Turova",
      "Kayla Gipson"
     ],
     "f": 20,
@@ -45775,316 +53931,17 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.6,
-    "confidence": 51,
-    "rank": 86,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -0.1,
-    "confidence": 67,
-    "rank": 83,
-    "ratingGames": 11,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.7,
-    "confidence": 77,
-    "rank": 96,
-    "ratingGames": 17,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "15778391-96b7-4888-9d08-d63b96e104ca",
-    "name": "Grace Brennan",
-    "n": 4,
-    "synergy": 0.9
-   },
-   {
-    "pid": "078bc1a3-2897-4dc0-ae17-26b349108047",
-    "name": "Janice Aliberti",
-    "n": 3,
-    "synergy": -0.5
-   }
-  ]
- },
- "da4d615a-2d9f-4939-be52-1760fb37eb60": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 66,
-    "pa": 100,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 2,
-    "teamGL": 30,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Life Time Red Bank",
-    "homeAway": "H",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 142,
-    "pa": 156,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     3,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 4,
-    "teamGL": 28,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "H",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 139,
-    "pa": 155,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     6
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Esha Gajjar",
-     "Sulyn Kulick"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Stacey Nusser",
-    "vs": [
-     "Virginie Boutin",
-     "Holli Lish"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
     "subFor": null,
     "withSub": 1
    },
    {
-    "wk": 2,
-    "opp": "Picklr Newtown",
+    "wk": 5,
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
+    "with": "Marianne Rosato",
     "vs": [
-     "Esha Gajjar",
-     "Jacqueline Ho"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula De Nisc",
-    "vs": [
-     "Suzi French",
-     "Jacqueline Ho"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Stacey Nusser",
-    "vs": [
-     "Esha Gajjar",
-     "Jacqueline Ho"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Sara Hylan",
-     "Donna Facconerusin"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Jackie Coneeny",
-     "Caroline Kinlin"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Marie Walsh Mccarty",
-     "Donna Facconerusin"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Donna Facconerusin",
-     "Jerzie-Ann Coppola"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Rachel Levkov",
-     "Jerzie-Ann Coppola"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Dawn Dalessio",
-    "vs": [
-     "Brittany Messing",
-     "Sara Hylan"
+     "Kelly Bowers",
+     "Monika Torbus"
     ],
     "f": 13,
     "a": 21,
@@ -46094,15 +53951,15 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
+    "wk": 5,
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Nancy Ciappina",
+    "with": "Diane Bracco",
     "vs": [
-     "Sara Hylan",
-     "Jackie Coneeny"
+     "Jessica Wormeck",
+     "Kelly Bowers"
     ],
-    "f": 12,
+    "f": 8,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -46110,123 +53967,13 @@
     "subFor": null
    },
    {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
+    "wk": 5,
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Dawn Dalessio",
+    "with": "Marianne Rosato",
     "vs": [
-     "Caroline Kinlin",
-     "Jackie Coneeny"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Kim Allaga",
-     "Kara Chubrik"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Sushma Rayapudi",
-     "Nikki Nigro"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Jaime Luongo",
-     "Megan Curren"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Jaime Luongo",
-     "Megan Curren"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Josephine Catanzaro",
-     "Jaime Luongo"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Linda Iacono",
-    "vs": [
-     "Kara Chubrik",
-     "Nikki Nigro"
+     "Monika Torbus",
+     "Karen Waldon"
     ],
     "f": 16,
     "a": 21,
@@ -46236,44 +53983,36 @@
     "subFor": null
    },
    {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
+    "wk": 5,
+    "opp": "Flemington Blue",
     "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
+    "with": "Jeannine Calhoun",
     "vs": [
-     "Eileen Clark",
-     "Josephine Catanzaro"
+     "Karen Waldon",
+     "Jessica Wormeck"
     ],
-    "f": 18,
+    "f": 15,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Johanna Kreilick",
+     "Monika Torbus"
+    ],
+    "f": 15,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Linda Iacono",
-    "vs": [
-     "Jaime Luongo",
-     "Kara Chubrik"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -46281,54 +54020,59 @@
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": -0.7,
-    "confidence": 46,
-    "rank": 88,
-    "ratingGames": 5,
-    "strengthOfPartners": -3.4,
-    "strengthOfOpponents": 1.1
+    "rating": -1.9,
+    "confidence": 53,
+    "rank": 106,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.1
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": 0.5,
-    "confidence": 70,
-    "rank": 63,
-    "ratingGames": 13,
-    "strengthOfPartners": -3.3,
-    "strengthOfOpponents": 0.5
+    "rating": -2,
+    "confidence": 67,
+    "rank": 116,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": 0.5,
-    "confidence": 79,
-    "rank": 63,
-    "ratingGames": 21,
-    "strengthOfPartners": -3.5,
-    "strengthOfOpponents": 0.1
+    "rating": -1.1,
+    "confidence": 77,
+    "rank": 103,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.1,
+    "confidence": 81,
+    "rank": 106,
+    "ratingGames": 22,
+    "strengthOfPartners": 0.3,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
    {
-    "pid": "d895a1b4-ebbc-4f93-bca7-4e8b01b40635",
-    "name": "Suzanne Leon",
-    "n": 4,
-    "synergy": 1.8
+    "pid": "c7dd526f-b8fe-4172-977d-912044350954",
+    "name": "Diane Bracco",
+    "n": 6,
+    "synergy": 0.8
    },
    {
-    "pid": "d86280ad-5733-417d-af40-42a66c14b874",
-    "name": "Roe Palermo",
-    "n": 4,
-    "synergy": 1.1
-   },
-   {
-    "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
-    "name": "Sabrina Trunzo Dinkle",
-    "n": 4,
-    "synergy": -1
+    "pid": "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3",
+    "name": "Marianne Rosato",
+    "n": 5,
+    "synergy": -0.9
    }
   ]
  },
@@ -46520,6 +54264,17 @@
     "rating": -2.8,
     "confidence": 56,
     "rank": 131,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": -1.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.7,
+    "confidence": 56,
+    "rank": 132,
     "ratingGames": 7,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": -1.6
@@ -47002,6 +54757,17 @@
     "ratingGames": 21,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -3,
+    "confidence": 80,
+    "rank": 133,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": [
@@ -47015,7 +54781,7 @@
     "pid": "ea658d89-a540-405d-9819-9c98a0484f60",
     "name": "Sushma Rayapudi",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.8
    },
    {
     "pid": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
@@ -47558,6 +55324,17 @@
     "ratingGames": 22,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.2,
+    "confidence": 80,
+    "rank": 110,
+    "ratingGames": 22,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -47565,7 +55342,7 @@
     "pid": "e204f8ea-5c0b-4182-8af0-f372a67c2132",
     "name": "Susan Hughes",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "0b40bb1c-5eb7-4684-a979-bb55ba7cf3e4",
@@ -47583,9 +55360,703 @@
     "pid": "b5c2a59a-34f6-4b86-ac00-0a2d46082870",
     "name": "Jenna Haas",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.8
    }
   ]
+ },
+ "c7dd526f-b8fe-4172-977d-912044350954": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 109,
+    "pa": 102,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Montville",
+    "homeAway": "H",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 94,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "PKLD",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 111,
+    "pa": 110,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 77,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Jeannine Calhoun",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Lay Wassana"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Kim Allaga",
+     "Sherry Sili"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Sherry Sili",
+     "Lynne Silber"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Tanyalak Sawangpak",
+     "Sushma Rayapudi"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Rani Borusu",
+     "Kim Allaga"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Elizabeth Biehl",
+    "vs": [
+     "Lay Wassana",
+     "Kim Allaga"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Theresa Corderi",
+     "Amanda Gardiner"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Debi Mcdonald",
+     "Cheryl Brodsky"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Ly Kim",
+     "Cheryl Brodsky"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Debi Mcdonald",
+     "Angie Ratkowitz"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Montville",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Amanda Gardiner",
+     "Kumi Dalton"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Suzanne Bauer",
+    "vs": [
+     "Paula Cushing",
+     "Jasmine Ho"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Linda Johns",
+     "Olga Turova"
+    ],
+    "f": 21,
+    "a": 7,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Olga Kim",
+     "Marina Volpe"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Linda Seemann",
+     "Jasmine Ho"
+    ],
+    "f": 32,
+    "a": 30,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Tammy Dragon",
+    "vs": [
+     "Paula Cushing",
+     "Olga Kim"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Jamie Levin",
+    "vs": [
+     "Jasmine Ho",
+     "Kayla Gipson"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Nancy Cook",
+     "Karen Waldon"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Jessica Wormeck",
+     "Kelly Bowers"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Barbara Mccarron",
+    "vs": [
+     "Nancy Cook",
+     "Kelly Bowers"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Meghan Klein",
+     "Karen Waldon"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Grace Brennan",
+    "vs": [
+     "Johanna Kreilick",
+     "Monika Torbus"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Julia Hollman",
+    "vs": [
+     "Johanna Kreilick",
+     "Christine Ziegler"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.6,
+    "confidence": 51,
+    "rank": 86,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -0.1,
+    "confidence": 67,
+    "rank": 83,
+    "ratingGames": 11,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.7,
+    "confidence": 77,
+    "rank": 96,
+    "ratingGames": 17,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.8,
+    "confidence": 82,
+    "rank": 118,
+    "ratingGames": 23,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "15778391-96b7-4888-9d08-d63b96e104ca",
+    "name": "Grace Brennan",
+    "n": 6,
+    "synergy": 0.8
+   },
+   {
+    "pid": "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3",
+    "name": "Marianne Rosato",
+    "n": 3,
+    "synergy": 0.7
+   },
+   {
+    "pid": "078bc1a3-2897-4dc0-ae17-26b349108047",
+    "name": "Janice Aliberti",
+    "n": 3,
+    "synergy": -0.4
+   }
+  ]
+ },
+ "9179cc04-34f4-48f4-b30d-69ec894d05f4": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 1,
+    "l": 3,
+    "gp": 4,
+    "pf": 71,
+    "pa": 80,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 17,
+    "teamGL": 15,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Nancy Cook",
+     "Karen Waldon"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Marianne Rosato",
+    "vs": [
+     "Nancy Cook",
+     "Monika Torbus"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Diane Bracco",
+    "vs": [
+     "Nancy Cook",
+     "Kelly Bowers"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Lynda Levan",
+    "vs": [
+     "Kelly Bowers",
+     "Christine Ziegler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   },
+   {
+    "wk": 5,
+    "opp": "Flemington Blue",
+    "t": "female",
+    "with": "Janice Aliberti",
+    "vs": [
+     "Jessica Wormeck",
+     "Monika Torbus"
+    ],
+    "f": 1,
+    "a": 0,
+    "w": 1,
+    "ff": 1,
+    "sub": 1,
+    "subFor": "Flemington Green"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.1,
+    "confidence": 45,
+    "rank": 86,
+    "ratingGames": 4,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
  },
  "d86280ad-5733-417d-af40-42a66c14b874": {
   "log": [
@@ -47948,6 +56419,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -3.2,
     "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.2,
+    "confidence": 75,
+    "rank": 111,
+    "ratingGames": 16,
+    "strengthOfPartners": -2.8,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -47955,19 +56437,19 @@
     "pid": "da4d615a-2d9f-4939-be52-1760fb37eb60",
     "name": "Stacey Cohen",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 0.9
    },
    {
     "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
     "name": "Sabrina Trunzo Dinkle",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.4
    },
    {
     "pid": "d895a1b4-ebbc-4f93-bca7-4e8b01b40635",
     "name": "Suzanne Leon",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.7
    }
   ]
  },
@@ -48346,6 +56828,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.9,
+    "confidence": 76,
+    "rank": 103,
+    "ratingGames": 16,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -48353,7 +56846,7 @@
     "pid": "481c21f0-8481-47e8-9eba-9ab21c167cf4",
     "name": "Nami Huang",
     "n": 3,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -48767,6 +57260,17 @@
     "ratingGames": 17,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.5,
+    "confidence": 76,
+    "rank": 115,
+    "ratingGames": 17,
+    "strengthOfPartners": -2.2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -48774,7 +57278,7 @@
     "pid": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087",
     "name": "Jean Dalstad",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "fc6e0ba7-6a7d-4303-89a7-0d56a6905e11",
@@ -49316,6 +57820,17 @@
     "rank": 106,
     "ratingGames": 22,
     "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.1,
+    "confidence": 79,
+    "rank": 109,
+    "ratingGames": 22,
+    "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -49865,6 +58380,17 @@
     "ratingGames": 22,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.8,
+    "confidence": 81,
+    "rank": 119,
+    "ratingGames": 22,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -49878,19 +58404,19 @@
     "pid": "4f9985c1-7c99-4816-9ddf-c45dc6dd9d7c",
     "name": "Mary Marger",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "fc6e0ba7-6a7d-4303-89a7-0d56a6905e11",
     "name": "Lynn Hauth",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.1
    },
    {
     "pid": "b5c2a59a-34f6-4b86-ac00-0a2d46082870",
     "name": "Jenna Haas",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -50054,155 +58580,17 @@
     "ratingGames": 5,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1.5
-   }
-  ],
-  "partners": []
- },
- "288693fd-92c5-429d-8f1f-96206a0eb640": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 60,
-    "pa": 103,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 2,
-    "teamGL": 30,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Sally Sitro",
-    "vs": [
-     "Esha Gajjar",
-     "Sulyn Kulick"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Virginie Boutin",
-     "Sulyn Kulick"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Nancy Ciappina",
-    "vs": [
-     "Holli Lish",
-     "Heather Waters"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Paula De Nisc",
-    "vs": [
-     "Holli Lish",
-     "Heather Waters"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Karen Pisano",
-    "vs": [
-     "Pam Mcdannell",
-     "Chiti Joshi"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.5,
-    "confidence": 49,
-    "rank": 103,
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 52,
+    "rank": 98,
     "ratingGames": 5,
-    "strengthOfPartners": -3.1,
+    "strengthOfPartners": 0.8,
     "strengthOfOpponents": 1.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.3,
-    "confidence": 51,
-    "rank": 107,
-    "ratingGames": 5,
-    "strengthOfPartners": -4.1,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.6,
-    "confidence": 51,
-    "rank": 113,
-    "ratingGames": 5,
-    "strengthOfPartners": -4.4,
-    "strengthOfOpponents": 0.7
    }
   ],
   "partners": []
@@ -50613,6 +59001,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.2,
+    "confidence": 75,
+    "rank": 124,
+    "ratingGames": 16,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -50620,7 +59019,7 @@
     "pid": "c40f8a3d-21b9-45d0-bbdc-1b1ca6f5a15a",
     "name": "Trena Hahn",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "294d9682-5231-4d0b-ab16-cf9f8bfb99bc",
@@ -50990,6 +59389,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -2.9,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.3,
+    "confidence": 75,
+    "rank": 127,
+    "ratingGames": 16,
+    "strengthOfPartners": -2.7,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -50997,13 +59407,13 @@
     "pid": "da4d615a-2d9f-4939-be52-1760fb37eb60",
     "name": "Stacey Cohen",
     "n": 4,
-    "synergy": 1.8
+    "synergy": 1.4
    },
    {
     "pid": "d86280ad-5733-417d-af40-42a66c14b874",
     "name": "Roe Palermo",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.7
    }
   ]
  },
@@ -51536,6 +59946,17 @@
     "ratingGames": 22,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.6,
+    "confidence": 80,
+    "rank": 116,
+    "ratingGames": 22,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -51549,7 +59970,7 @@
     "pid": "33f1ae41-08db-4067-b5f5-f9324faf93f0",
     "name": "Christine Steigerwalt",
     "n": 5,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "0b40bb1c-5eb7-4684-a979-bb55ba7cf3e4",
@@ -52094,6 +60515,17 @@
     "ratingGames": 22,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.3,
+    "confidence": 80,
+    "rank": 125,
+    "ratingGames": 22,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -52535,6 +60967,17 @@
     "ratingGames": 17,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.1,
+    "confidence": 77,
+    "rank": 123,
+    "ratingGames": 17,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -52719,6 +61162,17 @@
     "ratingGames": 6,
     "strengthOfPartners": -3.6,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.3,
+    "confidence": 55,
+    "rank": 128,
+    "ratingGames": 6,
+    "strengthOfPartners": -3.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -53030,9 +61484,346 @@
     "ratingGames": 12,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.7,
+    "confidence": 70,
+    "rank": 131,
+    "ratingGames": 12,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
+ },
+ "288693fd-92c5-429d-8f1f-96206a0eb640": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 60,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 91,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Esha Gajjar",
+     "Sulyn Kulick"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Virginie Boutin",
+     "Sulyn Kulick"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Nancy Ciappina",
+    "vs": [
+     "Holli Lish",
+     "Heather Waters"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Paula De Nisc",
+    "vs": [
+     "Holli Lish",
+     "Heather Waters"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Karen Pisano",
+    "vs": [
+     "Pam Mcdannell",
+     "Chiti Joshi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Amy Wondrack",
+     "Donna Finn"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Karyn Jarmer",
+     "Darragh Odonnell"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Wendi Wolanske",
+     "Melissa Mcconnell"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Jeanmarie Farkouh",
+     "Susana Palumbo"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Vanessa Tortorice",
+     "Darragh Odonnell"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Kimberley Levins",
+     "Wendi Wolanske"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Karyn Jarmer",
+     "Melissa Mcconnell"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Karyn Jarmer",
+     "Wendi Wolanske"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1.5,
+    "confidence": 49,
+    "rank": 103,
+    "ratingGames": 5,
+    "strengthOfPartners": -3.1,
+    "strengthOfOpponents": 1.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.3,
+    "confidence": 51,
+    "rank": 107,
+    "ratingGames": 5,
+    "strengthOfPartners": -4.1,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -1.6,
+    "confidence": 51,
+    "rank": 113,
+    "ratingGames": 5,
+    "strengthOfPartners": -4.4,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -3,
+    "confidence": 73,
+    "rank": 135,
+    "ratingGames": 13,
+    "strengthOfPartners": -4.2,
+    "strengthOfOpponents": 0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "977d5afb-cd69-4327-9e27-4887259d384b",
+    "name": "Sally Sitro",
+    "n": 3,
+    "synergy": -0.6
+   }
+  ]
  },
  "c5c674c6-e1c9-4f4b-96bf-873e84931042": {
   "log": [
@@ -53222,9 +62013,575 @@
     "ratingGames": 7,
     "strengthOfPartners": -4.6,
     "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.5,
+    "confidence": 58,
+    "rank": 130,
+    "ratingGames": 7,
+    "strengthOfPartners": -4.6,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
+ },
+ "de5f989a-61bd-45ff-8be9-1168a4ec65e7": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "PKLD",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 101,
+    "pa": 145,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     6
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 101,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 96,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Paula Cushing",
+     "Marina Volpe"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Linda Seemann",
+     "Marina Volpe"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Eileen Clark",
+    "vs": [
+     "Filomena Rega",
+     "Kayla Gipson"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Paula Cushing",
+     "Filomena Rega"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Lenore David",
+    "vs": [
+     "Olga Turova",
+     "Linda Seemann"
+    ],
+    "f": 29,
+    "a": 27,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Elizabeth Damico",
+    "vs": [
+     "Kayla Gipson",
+     "Linda Seemann"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Lenore David",
+    "vs": [
+     "Linda Seemann",
+     "Filomena Rega"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Jaime Luongo",
+     "Eileen Clark"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Josephine Catanzaro",
+     "Megan Curren"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Eileen Clark",
+     "Nikki Nigro"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Josephine Catanzaro",
+     "Kara Chubrik"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Eileen Clark",
+     "Sushma Rayapudi"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Kara Chubrik",
+     "Nikki Nigro"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Kara Chubrik",
+     "Jaime Luongo"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Jaime Luongo",
+     "Kara Chubrik"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Amy Wondrack",
+     "Donna Finn"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Donna Finn",
+     "Toni Demaio"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Donna Finn",
+     "Darragh Odonnell"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Amy Wondrack",
+     "Karyn Jarmer"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Toni Demaio",
+     "Melissa Mcconnell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Deborah Muschio",
+     "Darragh Odonnell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Susana Palumbo",
+     "Toni Demaio"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Amy Wondrack",
+     "Donna Finn"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.4,
+    "confidence": 52,
+    "rank": 45,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 1.9
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -1.3,
+    "confidence": 55,
+    "rank": 96,
+    "ratingGames": 7,
+    "strengthOfPartners": -3,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.3,
+    "confidence": 56,
+    "rank": 106,
+    "ratingGames": 7,
+    "strengthOfPartners": -3.1,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -3.7,
+    "confidence": 74,
+    "rank": 134,
+    "ratingGames": 15,
+    "strengthOfPartners": -2.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -3.5,
+    "confidence": 81,
+    "rank": 138,
+    "ratingGames": 23,
+    "strengthOfPartners": -3,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
+    "name": "Denise Bonagura",
+    "n": 3,
+    "synergy": 0.4
+   },
+   {
+    "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
+    "name": "Sabrina Trunzo Dinkle",
+    "n": 4,
+    "synergy": 0.3
+   },
+   {
+    "pid": "da4d615a-2d9f-4939-be52-1760fb37eb60",
+    "name": "Stacey Cohen",
+    "n": 3,
+    "synergy": 0.2
+   }
+  ]
  },
  "e3874889-50a3-472f-aada-20f41ce1bc3f": {
   "log": [
@@ -53542,6 +62899,17 @@
     "ratingGames": 14,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -3,
+    "confidence": 74,
+    "rank": 134,
+    "ratingGames": 14,
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": [
@@ -53869,6 +63237,17 @@
     "ratingGames": 14,
     "strengthOfPartners": -4.3,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4.2,
+    "confidence": 74,
+    "rank": 142,
+    "ratingGames": 14,
+    "strengthOfPartners": -4.2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -53876,379 +63255,9 @@
     "pid": "3665068b-4c6d-49b2-9cd4-e3148c984ec7",
     "name": "Karen Pisano",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1
    }
   ]
- },
- "de5f989a-61bd-45ff-8be9-1168a4ec65e7": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 101,
-    "pa": 145,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     6
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 1,
-    "teamGL": 31,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "H",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 101,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Eileen Clark",
-    "vs": [
-     "Paula Cushing",
-     "Marina Volpe"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Linda Seemann",
-     "Marina Volpe"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Eileen Clark",
-    "vs": [
-     "Filomena Rega",
-     "Kayla Gipson"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Paula Cushing",
-     "Filomena Rega"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Lenore David",
-    "vs": [
-     "Olga Turova",
-     "Linda Seemann"
-    ],
-    "f": 29,
-    "a": 27,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Elizabeth Damico",
-    "vs": [
-     "Kayla Gipson",
-     "Linda Seemann"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Lenore David",
-    "vs": [
-     "Linda Seemann",
-     "Filomena Rega"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Sally Sitro",
-    "vs": [
-     "Jaime Luongo",
-     "Eileen Clark"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Josephine Catanzaro",
-     "Megan Curren"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Sally Sitro",
-    "vs": [
-     "Eileen Clark",
-     "Nikki Nigro"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Josephine Catanzaro",
-     "Kara Chubrik"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Eileen Clark",
-     "Sushma Rayapudi"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Stacey Cohen",
-    "vs": [
-     "Kara Chubrik",
-     "Nikki Nigro"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Kara Chubrik",
-     "Jaime Luongo"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Stacey Cohen",
-    "vs": [
-     "Jaime Luongo",
-     "Kara Chubrik"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.4,
-    "confidence": 52,
-    "rank": 45,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 1.9
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -1.3,
-    "confidence": 55,
-    "rank": 96,
-    "ratingGames": 7,
-    "strengthOfPartners": -3,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.3,
-    "confidence": 56,
-    "rank": 106,
-    "ratingGames": 7,
-    "strengthOfPartners": -3.1,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -3.7,
-    "confidence": 74,
-    "rank": 134,
-    "ratingGames": 15,
-    "strengthOfPartners": -2.6,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": []
  },
  "bec84964-d6ad-4c96-8abb-2f204bd1e64b": {
   "log": [
@@ -54625,6 +63634,17 @@
     "ratingGames": 16,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -3.1,
+    "confidence": 76,
+    "rank": 137,
+    "ratingGames": 16,
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -54632,7 +63652,7 @@
     "pid": "fc6e0ba7-6a7d-4303-89a7-0d56a6905e11",
     "name": "Lynn Hauth",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.6
    }
   ]
  },
@@ -55022,12 +64042,23 @@
     "ratingGames": 16,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4.1,
+    "confidence": 74,
+    "rank": 140,
+    "ratingGames": 16,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
    {
-    "pid": "bec84964-d6ad-4c96-8abb-2f204bd1e64b",
-    "name": "Sandy Hess",
+    "pid": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087",
+    "name": "Jean Dalstad",
     "n": 3,
     "synergy": -0.1
    },
@@ -55038,10 +64069,10 @@
     "synergy": -0.3
    },
    {
-    "pid": "eb91adfb-2dda-4f7d-b4d5-8c2dfc075087",
-    "name": "Jean Dalstad",
+    "pid": "bec84964-d6ad-4c96-8abb-2f204bd1e64b",
+    "name": "Sandy Hess",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.6
    }
   ]
  },
@@ -55152,6 +64183,33 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 104,
+    "pa": 161,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
     "sub": 0,
     "subFor": null
    }
@@ -55648,6 +64706,134 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Susana Palumbo",
+     "Wendi Wolanske"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Amy Wondrack",
+     "Melissa Mcconnell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Wendi Wolanske",
+     "Melissa Mcconnell"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Amy Wondrack",
+     "Karyn Jarmer"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Donna Finn",
+     "Wendi Wolanske"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Kimberley Levins",
+     "Wendi Wolanske"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Susana Palumbo",
+     "Toni Demaio"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Susana Palumbo",
+     "Darragh Odonnell"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -55694,6 +64880,17 @@
     "ratingGames": 29,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4.7,
+    "confidence": 88,
+    "rank": 144,
+    "ratingGames": 37,
+    "strengthOfPartners": -2.8,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -55701,25 +64898,708 @@
     "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
     "name": "Denise Bonagura",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "aecabaca-f05b-489f-87d6-afacfd32295c",
     "name": "Dawn Dalessio",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
+   },
+   {
+    "pid": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
+    "name": "Linda Iacono",
+    "n": 4,
+    "synergy": 0.3
+   },
+   {
+    "pid": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
+    "name": "Christine Pisapia",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "da4d615a-2d9f-4939-be52-1760fb37eb60",
+    "name": "Stacey Cohen",
+    "n": 6,
+    "synergy": -0.4
    },
    {
     "pid": "d86280ad-5733-417d-af40-42a66c14b874",
     "name": "Roe Palermo",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.4
+   }
+  ]
+ },
+ "aecabaca-f05b-489f-87d6-afacfd32295c": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 51,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 2,
+    "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Life Time Red Bank",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 86,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 69,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 95,
+    "pa": 165,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Holli Lish",
+     "Sulyn Kulick"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Sulyn Kulick",
+     "Heather Waters"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Sulyn Kulick",
+     "Chiti Joshi"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Suzi French",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Stacey Nusser",
+    "vs": [
+     "Esha Gajjar",
+     "Lori Wild"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Nancy Ciappina",
+    "vs": [
+     "Jerzie-Ann Coppola",
+     "Caroline Kinlin"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Kathleen Nitti",
+     "Jerzie-Ann Coppola"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Brittany Messing",
+     "Kathleen Nitti"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Nancy Ciappina",
+    "vs": [
+     "Sara Hylan",
+     "Rachel Levkov"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Brittany Messing",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Brittany Messing",
+     "Sara Hylan"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Rachel Levkov",
+     "Marie Walsh Mccarty"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Life Time Red Bank",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Caroline Kinlin",
+     "Jackie Coneeny"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Sushma Rayapudi",
+     "Nikki Nigro"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Kim Allaga",
+     "Kara Chubrik"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Kim Allaga",
+     "Sushma Rayapudi"
+    ],
+    "f": 3,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Eileen Clark",
+     "Nikki Nigro"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Kim Allaga",
+     "Megan Curren"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Suzanne Leon",
+    "vs": [
+     "Eileen Clark",
+     "Sushma Rayapudi"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Kim Allaga",
+     "Nikki Nigro"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Roe Palermo",
+    "vs": [
+     "Eileen Clark",
+     "Josephine Catanzaro"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Jeanmarie Farkouh",
+     "Vanessa Tortorice"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Donna Finn",
+     "Toni Demaio"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Jeanmarie Farkouh",
+     "Deborah Muschio"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Deborah Muschio",
+     "Toni Demaio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Toni Demaio",
+     "Melissa Mcconnell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Karyn Jarmer",
+     "Toni Demaio"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Donna Finn",
+     "Jeanmarie Farkouh"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Kimberley Levins",
+     "Melissa Mcconnell"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -3,
+    "confidence": 47,
+    "rank": 121,
+    "ratingGames": 5,
+    "strengthOfPartners": -3.8,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -4.4,
+    "confidence": 70,
+    "rank": 136,
+    "ratingGames": 13,
+    "strengthOfPartners": -3.3,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -5.4,
+    "confidence": 80,
+    "rank": 143,
+    "ratingGames": 21,
+    "strengthOfPartners": -3.8,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4.9,
+    "confidence": 84,
+    "rank": 145,
+    "ratingGames": 29,
+    "strengthOfPartners": -3.8,
+    "strengthOfOpponents": 0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
+    "name": "Sabrina Trunzo Dinkle",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
+    "name": "Denise Bonagura",
+    "n": 5,
+    "synergy": -0.1
    },
    {
     "pid": "da4d615a-2d9f-4939-be52-1760fb37eb60",
     "name": "Stacey Cohen",
+    "n": 3,
+    "synergy": -0.1
+   },
+   {
+    "pid": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
+    "name": "Christine Pisapia",
     "n": 4,
-    "synergy": -1
+    "synergy": -0.3
+   },
+   {
+    "pid": "977d5afb-cd69-4327-9e27-4887259d384b",
+    "name": "Sally Sitro",
+    "n": 6,
+    "synergy": -0.4
    }
   ]
  },
@@ -55897,6 +65777,17 @@
     "ratingGames": 6,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -3,
+    "confidence": 54,
+    "rank": 136,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
@@ -56039,6 +65930,17 @@
     "ratingGames": 5,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -5,
+    "confidence": 51,
+    "rank": 146,
+    "ratingGames": 5,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": []
@@ -56228,6 +66130,17 @@
     "rating": -1.9,
     "confidence": 58,
     "rank": 116,
+    "ratingGames": 7,
+    "strengthOfPartners": -5,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.9,
+    "confidence": 59,
+    "rank": 120,
     "ratingGames": 7,
     "strengthOfPartners": -5,
     "strengthOfOpponents": -0.2
@@ -56426,6 +66339,17 @@
     "ratingGames": 7,
     "strengthOfPartners": -2.8,
     "strengthOfOpponents": -1.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4.4,
+    "confidence": 56,
+    "rank": 143,
+    "ratingGames": 7,
+    "strengthOfPartners": -2.8,
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": []
@@ -56607,6 +66531,17 @@
     "ratingGames": 7,
     "strengthOfPartners": -3.4,
     "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4.1,
+    "confidence": 59,
+    "rank": 141,
+    "ratingGames": 7,
+    "strengthOfPartners": -3,
+    "strengthOfOpponents": 0
    }
   ],
   "partners": []
@@ -56879,6 +66814,17 @@
     "ratingGames": 11,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -2.4,
+    "confidence": 68,
+    "rank": 129,
+    "ratingGames": 11,
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -56886,7 +66832,7 @@
     "pid": "2ff1b895-1513-4eba-bfb9-3fc61a2d106a",
     "name": "Ghada Abraham",
     "n": 3,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -56943,6 +66889,33 @@
     "teamRes": "L",
     "teamGW": 2,
     "teamGL": 30,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 75,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
     "sub": 0,
     "subFor": null
    }
@@ -57157,6 +67130,134 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Deborah Muschio",
+     "Kimberley Levins"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Amy Wondrack",
+     "Melissa Mcconnell"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Kimberley Levins",
+     "Susana Palumbo"
+    ],
+    "f": 4,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Deborah Muschio",
+     "Toni Demaio"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Donna Finn",
+     "Wendi Wolanske"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Amy Wondrack",
+     "Jeanmarie Farkouh"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Karyn Jarmer",
+     "Melissa Mcconnell"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Kimberley Levins",
+     "Melissa Mcconnell"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -57203,512 +67304,43 @@
     "ratingGames": 13,
     "strengthOfPartners": -4.4,
     "strengthOfOpponents": 0
-   }
-  ],
-  "partners": [
-   {
-    "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
-    "name": "Denise Bonagura",
-    "n": 3,
-    "synergy": -1.3
-   }
-  ]
- },
- "977d5afb-cd69-4327-9e27-4887259d384b": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "PKLD",
-    "homeAway": "H",
-    "w": 0,
-    "l": 7,
-    "gp": 7,
-    "pf": 87,
-    "pa": 147,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     7
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 1,
-    "teamGL": 31,
-    "sub": 0,
-    "subFor": null
    },
    {
-    "week": 2,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 59,
-    "pa": 126,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     6
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 2,
-    "teamGL": 30,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "H",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 77,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Elizabeth Damico",
-    "vs": [
-     "Kayla Gipson",
-     "Filomena Rega"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Christine Pisapia",
-    "vs": [
-     "Paula Cushing",
-     "Maureen Bruno"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Lenore David",
-    "vs": [
-     "Linda Seemann",
-     "Marina Volpe"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Lenore David",
-    "vs": [
-     "Marina Volpe",
-     "Maureen Bruno"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Elizabeth Damico",
-    "vs": [
-     "Marina Volpe",
-     "Linda Johns"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Christine Pisapia",
-    "vs": [
-     "Paula Cushing",
-     "Maureen Bruno"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "PKLD",
-    "t": "female",
-    "with": "Karen Pisano",
-    "vs": [
-     "Maureen Bruno",
-     "Linda Johns"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Virginie Boutin",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 3,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Diana Macri",
-    "vs": [
-     "Esha Gajjar",
-     "Sulyn Kulick"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Dawn Dalessio",
-    "vs": [
-     "Holli Lish",
-     "Sulyn Kulick"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Karen Pisano",
-    "vs": [
-     "Pam Mcdannell",
-     "Lori Wild"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Dawn Dalessio",
-    "vs": [
-     "Sulyn Kulick",
-     "Chiti Joshi"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Jacqueline Hillgrube",
-     "Jacqueline Ho"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Linda Iacono",
-    "vs": [
-     "Jaime Luongo",
-     "Eileen Clark"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Jaime Luongo",
-     "Eileen Clark"
-    ],
-    "f": 6,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Linda Iacono",
-    "vs": [
-     "Eileen Clark",
-     "Nikki Nigro"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Kim Allaga",
-     "Sushma Rayapudi"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Dawn Dalessio",
-    "vs": [
-     "Kim Allaga",
-     "Megan Curren"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Josephine Catanzaro",
-     "Jaime Luongo"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Dawn Dalessio",
-    "vs": [
-     "Kim Allaga",
-     "Nikki Nigro"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Suzanne Leon",
-    "vs": [
-     "Sushma Rayapudi",
-     "Megan Curren"
-    ],
-    "f": 7,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -1.7,
-    "confidence": 50,
-    "rank": 71,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 2
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -3.9,
-    "confidence": 70,
-    "rank": 125,
-    "ratingGames": 13,
-    "strengthOfPartners": -3.6,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -3.6,
-    "confidence": 71,
-    "rank": 131,
-    "ratingGames": 13,
-    "strengthOfPartners": -3.9,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -4.8,
-    "confidence": 80,
-    "rank": 140,
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -4,
+    "confidence": 81,
+    "rank": 139,
     "ratingGames": 21,
-    "strengthOfPartners": -4,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -4.5,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
+   {
+    "pid": "977d5afb-cd69-4327-9e27-4887259d384b",
+    "name": "Sally Sitro",
+    "n": 4,
+    "synergy": 0.6
+   },
+   {
+    "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
+    "name": "Sabrina Trunzo Dinkle",
+    "n": 3,
+    "synergy": 0
+   },
    {
     "pid": "aecabaca-f05b-489f-87d6-afacfd32295c",
     "name": "Dawn Dalessio",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.3
+   },
+   {
+    "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
+    "name": "Denise Bonagura",
+    "n": 4,
+    "synergy": -0.9
    }
   ]
  },
@@ -58181,6 +67813,17 @@
     "ratingGames": 21,
     "strengthOfPartners": -3.6,
     "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -5.3,
+    "confidence": 80,
+    "rank": 148,
+    "ratingGames": 21,
+    "strengthOfPartners": -3.7,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -58188,34 +67831,61 @@
     "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
     "name": "Denise Bonagura",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0
    },
    {
     "pid": "02318afc-9bde-4df3-a7b3-7f1d1da3186c",
     "name": "Nancy Ciappina",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1
    }
   ]
  },
- "aecabaca-f05b-489f-87d6-afacfd32295c": {
+ "977d5afb-cd69-4327-9e27-4887259d384b": {
   "log": [
    {
-    "week": 2,
-    "opp": "Picklr Newtown",
-    "homeAway": "A",
+    "week": 1,
+    "opp": "PKLD",
+    "homeAway": "H",
     "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 51,
-    "pa": 105,
+    "l": 7,
+    "gp": 7,
+    "pf": 87,
+    "pa": 147,
     "mx": [
      0,
      0
     ],
     "gn": [
      0,
-     5
+     7
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 1,
+    "teamGL": 31,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Picklr Newtown",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 59,
+    "pa": 126,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     6
     ],
     "cl": [
      0,
@@ -58228,13 +67898,40 @@
     "subFor": null
    },
    {
-    "week": 3,
-    "opp": "Life Time Red Bank",
+    "week": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
     "homeAway": "H",
     "w": 0,
     "l": 8,
     "gp": 8,
-    "pf": 86,
+    "pf": 77,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 84,
     "pa": 168,
     "mx": [
      0,
@@ -58253,41 +67950,158 @@
     "teamGL": 28,
     "sub": 0,
     "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "H",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 69,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
    }
   ],
   "games": [
    {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Elizabeth Damico",
+    "vs": [
+     "Kayla Gipson",
+     "Filomena Rega"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Paula Cushing",
+     "Maureen Bruno"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Lenore David",
+    "vs": [
+     "Linda Seemann",
+     "Marina Volpe"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Lenore David",
+    "vs": [
+     "Marina Volpe",
+     "Maureen Bruno"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Elizabeth Damico",
+    "vs": [
+     "Marina Volpe",
+     "Linda Johns"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Paula Cushing",
+     "Maureen Bruno"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "PKLD",
+    "t": "female",
+    "with": "Karen Pisano",
+    "vs": [
+     "Maureen Bruno",
+     "Linda Johns"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
     "wk": 2,
     "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Sally Sitro",
+    "with": "Sabrina Trunzo Dinkle",
+    "vs": [
+     "Virginie Boutin",
+     "Jacqueline Hillgrube"
+    ],
+    "f": 3,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Esha Gajjar",
+     "Sulyn Kulick"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Picklr Newtown",
+    "t": "female",
+    "with": "Dawn Dalessio",
     "vs": [
      "Holli Lish",
      "Sulyn Kulick"
@@ -58303,12 +68117,12 @@
     "wk": 2,
     "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Christine Pisapia",
+    "with": "Karen Pisano",
     "vs": [
-     "Sulyn Kulick",
-     "Heather Waters"
+     "Pam Mcdannell",
+     "Lori Wild"
     ],
-    "f": 8,
+    "f": 9,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -58319,7 +68133,7 @@
     "wk": 2,
     "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Sally Sitro",
+    "with": "Dawn Dalessio",
     "vs": [
      "Sulyn Kulick",
      "Chiti Joshi"
@@ -58335,158 +68149,12 @@
     "wk": 2,
     "opp": "Picklr Newtown",
     "t": "female",
-    "with": "Christine Pisapia",
-    "vs": [
-     "Suzi French",
-     "Jacqueline Hillgrube"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Picklr Newtown",
-    "t": "female",
-    "with": "Stacey Nusser",
-    "vs": [
-     "Esha Gajjar",
-     "Lori Wild"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Nancy Ciappina",
-    "vs": [
-     "Jerzie-Ann Coppola",
-     "Caroline Kinlin"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Kathleen Nitti",
-     "Jerzie-Ann Coppola"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Denise Bonagura",
-    "vs": [
-     "Brittany Messing",
-     "Kathleen Nitti"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Nancy Ciappina",
-    "vs": [
-     "Sara Hylan",
-     "Rachel Levkov"
-    ],
-    "f": 5,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Roe Palermo",
-    "vs": [
-     "Brittany Messing",
-     "Marie Walsh Mccarty"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Stacey Cohen",
-    "vs": [
-     "Brittany Messing",
-     "Sara Hylan"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
     "with": "Sabrina Trunzo Dinkle",
     "vs": [
-     "Rachel Levkov",
-     "Marie Walsh Mccarty"
+     "Jacqueline Hillgrube",
+     "Jacqueline Ho"
     ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Life Time Red Bank",
-    "t": "female",
-    "with": "Stacey Cohen",
-    "vs": [
-     "Caroline Kinlin",
-     "Jackie Coneeny"
-    ],
-    "f": 14,
+    "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -58497,28 +68165,52 @@
     "wk": 4,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Jaime Luongo",
+     "Eileen Clark"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
     "with": "Denise Bonagura",
     "vs": [
-     "Sushma Rayapudi",
+     "Jaime Luongo",
+     "Eileen Clark"
+    ],
+    "f": 6,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Eileen Clark",
      "Nikki Nigro"
     ],
-    "f": 5,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Kim Allaga",
-     "Kara Chubrik"
-    ],
-    "f": 9,
+    "f": 10,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -58534,7 +68226,7 @@
      "Kim Allaga",
      "Sushma Rayapudi"
     ],
-    "f": 3,
+    "f": 9,
     "a": 21,
     "w": 0,
     "ff": 0,
@@ -58545,23 +68237,7 @@
     "wk": 4,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Sabrina Trunzo Dinkle",
-    "vs": [
-     "Eileen Clark",
-     "Nikki Nigro"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "t": "female",
-    "with": "Sally Sitro",
+    "with": "Dawn Dalessio",
     "vs": [
      "Kim Allaga",
      "Megan Curren"
@@ -58581,23 +68257,28 @@
     "wk": 4,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Suzanne Leon",
+    "with": "Roe Palermo",
     "vs": [
-     "Eileen Clark",
-     "Sushma Rayapudi"
+     "Josephine Catanzaro",
+     "Jaime Luongo"
     ],
-    "f": 7,
-    "a": 21,
+    "f": 21,
+    "a": 23,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    },
    {
     "wk": 4,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Sally Sitro",
+    "with": "Dawn Dalessio",
     "vs": [
      "Kim Allaga",
      "Nikki Nigro"
@@ -58613,77 +68294,248 @@
     "wk": 4,
     "opp": "Pickleball Kingdom Hillsborough",
     "t": "female",
-    "with": "Roe Palermo",
+    "with": "Suzanne Leon",
     "vs": [
-     "Eileen Clark",
-     "Josephine Catanzaro"
+     "Sushma Rayapudi",
+     "Megan Curren"
     ],
-    "f": 11,
+    "f": 7,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
     ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Jeanmarie Farkouh",
+     "Vanessa Tortorice"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Denise Bonagura",
+    "vs": [
+     "Vanessa Tortorice",
+     "Kimberley Levins"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Kimberley Levins",
+     "Susana Palumbo"
+    ],
+    "f": 4,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Vanessa Tortorice",
+     "Wendi Wolanske"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Vanessa Tortorice",
+     "Darragh Odonnell"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Amy Wondrack",
+     "Jeanmarie Farkouh"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Donna Finn",
+     "Jeanmarie Farkouh"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Karyn Jarmer",
+     "Wendi Wolanske"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
    {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -1.7,
+    "confidence": 50,
+    "rank": 71,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 2
+   },
+   {
     "week": 2,
     "seq": 1,
     "label": "2",
-    "rating": -3,
-    "confidence": 47,
-    "rank": 121,
-    "ratingGames": 5,
-    "strengthOfPartners": -3.8,
-    "strengthOfOpponents": 0.8
+    "rating": -3.9,
+    "confidence": 70,
+    "rank": 125,
+    "ratingGames": 13,
+    "strengthOfPartners": -3.6,
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 3,
     "seq": 2,
     "label": "3",
-    "rating": -4.4,
-    "confidence": 70,
-    "rank": 136,
+    "rating": -3.6,
+    "confidence": 71,
+    "rank": 131,
     "ratingGames": 13,
-    "strengthOfPartners": -3.3,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -3.9,
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 4,
     "seq": 3,
     "label": "4",
-    "rating": -5.4,
+    "rating": -4.8,
     "confidence": 80,
-    "rank": 143,
+    "rank": 140,
     "ratingGames": 21,
+    "strengthOfPartners": -4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -5.2,
+    "confidence": 84,
+    "rank": 147,
+    "ratingGames": 29,
     "strengthOfPartners": -3.8,
-    "strengthOfOpponents": 0.5
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
    {
-    "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
-    "name": "Sabrina Trunzo Dinkle",
-    "n": 3,
+    "pid": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
+    "name": "Christine Pisapia",
+    "n": 4,
     "synergy": 0.6
    },
    {
     "pid": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
     "name": "Denise Bonagura",
-    "n": 4,
-    "synergy": -0.2
+    "n": 3,
+    "synergy": 0
    },
    {
-    "pid": "977d5afb-cd69-4327-9e27-4887259d384b",
-    "name": "Sally Sitro",
-    "n": 4,
-    "synergy": -0.5
+    "pid": "aecabaca-f05b-489f-87d6-afacfd32295c",
+    "name": "Dawn Dalessio",
+    "n": 6,
+    "synergy": -0.4
+   },
+   {
+    "pid": "288693fd-92c5-429d-8f1f-96206a0eb640",
+    "name": "Diana Macri",
+    "n": 3,
+    "synergy": -0.6
    }
   ]
  },
@@ -58794,6 +68646,33 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "homeAway": "H",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 84,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 4,
+    "teamGL": 28,
     "sub": 0,
     "subFor": null
    }
@@ -59276,6 +69155,142 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Christine Pisapia",
+    "vs": [
+     "Deborah Muschio",
+     "Kimberley Levins"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Sally Sitro",
+    "vs": [
+     "Vanessa Tortorice",
+     "Kimberley Levins"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Dawn Dalessio",
+    "vs": [
+     "Jeanmarie Farkouh",
+     "Deborah Muschio"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Diana Macri",
+    "vs": [
+     "Jeanmarie Farkouh",
+     "Susana Palumbo"
+    ],
+    "f": 7,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Kimberley Levins",
+     "Susana Palumbo"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Deborah Muschio",
+     "Darragh Odonnell"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Stacey Cohen",
+    "vs": [
+     "Deborah Muschio",
+     "Vanessa Tortorice"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball Kingdom Tinton Falls",
+    "t": "female",
+    "with": "Linda Iacono",
+    "vs": [
+     "Amy Wondrack",
+     "Donna Finn"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -59322,6 +69337,17 @@
     "ratingGames": 29,
     "strengthOfPartners": -3.7,
     "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -5.5,
+    "confidence": 87,
+    "rank": 149,
+    "ratingGames": 37,
+    "strengthOfPartners": -3.4,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
@@ -59329,25 +69355,43 @@
     "pid": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
     "name": "Sabrina Trunzo Dinkle",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
+   },
+   {
+    "pid": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
+    "name": "Linda Iacono",
+    "n": 3,
+    "synergy": 0.4
    },
    {
     "pid": "3665068b-4c6d-49b2-9cd4-e3148c984ec7",
     "name": "Karen Pisano",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0
+   },
+   {
+    "pid": "977d5afb-cd69-4327-9e27-4887259d384b",
+    "name": "Sally Sitro",
+    "n": 3,
+    "synergy": 0
    },
    {
     "pid": "aecabaca-f05b-489f-87d6-afacfd32295c",
     "name": "Dawn Dalessio",
-    "n": 4,
-    "synergy": -0.2
+    "n": 5,
+    "synergy": -0.1
+   },
+   {
+    "pid": "da4d615a-2d9f-4939-be52-1760fb37eb60",
+    "name": "Stacey Cohen",
+    "n": 3,
+    "synergy": -0.6
    },
    {
     "pid": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
     "name": "Christine Pisapia",
-    "n": 3,
-    "synergy": -1.3
+    "n": 4,
+    "synergy": -0.9
    }
   ]
  }

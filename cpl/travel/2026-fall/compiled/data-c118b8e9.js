@@ -7388,7 +7388,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 285,
+   "leagueRank": 286,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7417,7 +7417,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 287,
+   "leagueRank": 288,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -34870,8 +34870,10 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
+  "John Zhong": "6bfd212d-c7b4-4eff-ae3c-5e9424080282",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
+  "Andy Suphaphol": "a58f9ffa-60cc-46b5-ba59-0c78a43ac986",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Julian Edgren": "b979a109-08fd-4041-8da4-e306ef13330a",
@@ -34994,7 +34996,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T04:43:33.837Z";
+  DATA.meta.asOf = "2026-09-24T21:00:53.155Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

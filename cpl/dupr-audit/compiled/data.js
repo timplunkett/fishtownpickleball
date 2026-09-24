@@ -4528,6 +4528,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Davis Kahl",
+   "playerId": "76b19538-3ce3-4569-b273-34c14544ce30",
+   "team": "Forward",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Dawn Dalessio",
    "playerId": "aecabaca-f05b-489f-87d6-afacfd32295c",
    "team": "Premiere",
@@ -6730,6 +6737,13 @@ window.DUPR_AUDIT = {
    "playerId": "515009fd-ac6a-4124-a871-dff85a118781",
    "team": "Bounce Tempest",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Holden Lenoff",
+   "playerId": "3f06f7a5-cf95-4a74-bdc0-38a080fd0a6c",
+   "team": "Pickle Juice Blackwood",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -14951,13 +14965,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Ricky Jutkiewicz",
-   "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
-   "team": "Home Court",
-   "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
    "name": "Riguo Zheng",
    "playerId": "c5fa0e7c-eb97-45fa-8a86-850a918fff54",
    "team": "ACE Moorestown",
@@ -18161,6 +18168,13 @@ window.DUPR_AUDIT = {
    "playerId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
    "team": "PickleRage Union County",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Vinay Shankar Galla",
+   "playerId": "1591fbbb-7191-49bc-bc26-e936af3f947c",
+   "team": "Picklr Newark",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {
