@@ -37337,8 +37337,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Tom Dominczyk"
      ],
      "a": [
       "Cheryl Tarby",
@@ -37348,8 +37348,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Ren Mortara"
      ],
      "a": [
       "Tami Mohney",
@@ -37359,8 +37359,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Anthony Leone"
      ],
      "a": [
       "Jean Knab",
@@ -37370,8 +37370,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Curran",
+      "Doug Jordan"
      ],
      "a": [
       "Cindy Suter",
@@ -37381,8 +37381,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Cathy Matko"
      ],
      "a": [
       "Tami Mohney",
@@ -37392,8 +37392,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Xinxin Huang"
      ],
      "a": [
       "Tracy Leahy",
@@ -37403,8 +37403,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Phillips",
+      "Tom Dominczyk"
      ],
      "a": [
       "Howard Eng",
@@ -37414,8 +37414,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Ren Mortara"
      ],
      "a": [
       "Gregg Downs",
@@ -37425,8 +37425,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Tom Dominczyk"
      ],
      "a": [
       "Cindy Suter",
@@ -37436,8 +37436,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Matko",
+      "Anthony Leone"
      ],
      "a": [
       "Jean Knab",
@@ -37447,8 +37447,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Doug Jordan"
      ],
      "a": [
       "Cheryl Tarby",
@@ -37458,8 +37458,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Curran",
+      "Paul Phillips"
      ],
      "a": [
       "Tracy Leahy",
@@ -37469,8 +37469,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Curran",
+      "Xinxin Huang"
      ],
      "a": [
       "Jean Knab",
@@ -37480,8 +37480,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Gail Hannagan"
      ],
      "a": [
       "Cindy Suter",
@@ -37491,8 +37491,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Tom Dominczyk"
      ],
      "a": [
       "Gregg Downs",
@@ -37502,8 +37502,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Mortara",
+      "Paul Phillips"
      ],
      "a": [
       "Jerry Margulies",
@@ -37513,8 +37513,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Anthony Leone"
      ],
      "a": [
       "Cheryl Tarby",
@@ -37524,8 +37524,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Doug Jordan"
      ],
      "a": [
       "Tami Mohney",
@@ -37535,8 +37535,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Matko",
+      "Ren Mortara"
      ],
      "a": [
       "Tracy Leahy",
@@ -37546,8 +37546,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Xinxin Huang",
+      "Paul Phillips"
      ],
      "a": [
       "Cindy Suter",
@@ -37557,8 +37557,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Curran",
+      "Cathy Matko"
      ],
      "a": [
       "Jean Knab",
@@ -37568,8 +37568,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Xinxin Huang"
      ],
      "a": [
       "Cindy Suter",
@@ -37579,8 +37579,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Phillips",
+      "Doug Jordan"
      ],
      "a": [
       "Gregg Downs",
@@ -37590,8 +37590,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Mortara",
+      "Tom Dominczyk"
      ],
      "a": [
       "Joe Miller",
@@ -37601,8 +37601,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Curran",
+      "Tom Dominczyk"
      ],
      "a": [
       "Tracy Leahy",
@@ -37612,8 +37612,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Doug Jordan"
      ],
      "a": [
       "Tami Mohney",
@@ -37623,8 +37623,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Anthony Leone"
      ],
      "a": [
       "Jean Knab",
@@ -37634,8 +37634,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Xinxin Huang",
+      "Ren Mortara"
      ],
      "a": [
       "Cheryl Tarby",
@@ -37645,8 +37645,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Gail Hannagan"
      ],
      "a": [
       "Cheryl Tarby",
@@ -37656,8 +37656,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Cathy Matko"
      ],
      "a": [
       "Tami Mohney",
@@ -37667,8 +37667,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Tom Dominczyk"
      ],
      "a": [
       "Howard Eng",
@@ -37678,8 +37678,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Mortara",
+      "Paul Phillips"
      ],
      "a": [
       "Gregg Downs",
@@ -39062,7 +39062,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T04:40:29.041Z";
+  DATA.meta.asOf = "2026-09-24T15:52:45.667Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

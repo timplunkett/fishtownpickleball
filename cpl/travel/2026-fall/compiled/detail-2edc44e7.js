@@ -8787,11 +8787,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -8826,7 +8822,7 @@
     "subFor": null,
     "withSub": 1,
     "vsSub": [
-     1,
+     0,
      1
     ]
    }
@@ -10025,7 +10021,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -16893,11 +16889,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -16914,11 +16906,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -16951,11 +16939,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -24305,7 +24289,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -25019,11 +25002,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Place",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Pickle Place"
    },
    {
     "wk": 5,
@@ -25075,11 +25054,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Place",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Pickle Place"
    },
    {
     "wk": 5,
@@ -25097,7 +25072,7 @@
     "sub": 1,
     "subFor": "Pickle Place",
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -25115,11 +25090,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickle Place",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Pickle Place"
    }
   ],
   "ratingHistory": [
@@ -25174,8 +25145,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -25192,8 +25163,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -25212,8 +25183,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -25229,8 +25200,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -25245,8 +25216,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -25261,8 +25232,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -25281,8 +25252,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1,
     "vsSub": [
      1,
@@ -25302,8 +25273,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -28098,11 +28069,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -28120,7 +28087,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -28138,11 +28105,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -31133,7 +31096,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -31218,7 +31180,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -33236,8 +33197,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -35241,11 +35201,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -37110,8 +37066,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Green",
-    "withSub": 1
+    "subFor": "Flemington Green"
    },
    {
     "wk": 5,
@@ -37180,7 +37135,6 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Flemington Green",
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -44956,8 +44910,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,

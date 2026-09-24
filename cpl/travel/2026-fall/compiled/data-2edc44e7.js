@@ -2093,8 +2093,8 @@
    "name": "Barbara Hess",
    "gender": "Female",
    "team": "Flemington Green",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 4,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14751,7 +14751,6 @@
    ],
    "subs": [
     "David Mcintyre",
-    "Barbara Hess",
     "Dottie Kelly"
    ]
   },
@@ -16129,6 +16128,7 @@
   "Stephen Locker": "188607ba-a609-4881-87bb-7c997a032cc2",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Ed Saxman": "32244c70-6859-44af-a408-8294d65b592d",
+  "Thomas Schillow": "4ab0fd39-c108-419c-80f8-0dbe37dd75be",
   "Kim Hamilton": "4d6a9dce-3c23-4d65-85f9-8b440c44a318",
   "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
   "John Hauth": "60e2facd-7ab0-4dee-9e9e-919be67cf30c",
@@ -16237,7 +16237,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T02:20:22.560Z";
+  DATA.meta.asOf = "2026-09-24T15:51:25.823Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

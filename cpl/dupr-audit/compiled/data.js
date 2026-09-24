@@ -1882,6 +1882,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Barbara Hess",
+   "playerId": "21baa2cb-e882-442e-a5e0-a6d88126c9c3",
+   "team": "Flemington Green",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Barbara Markoglu",
    "playerId": "4ca325bd-f0d7-4b18-b570-c6ef241d2ff5",
    "team": "Premiere Dinkers",

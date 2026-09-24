@@ -4720,7 +4720,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 173,
+   "leagueRank": 174,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4923,7 +4923,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -19135,6 +19135,7 @@
  "extraPlayerIds": {
   "Darren Johnson": "00092e4b-b019-43ae-bfef-503e1fc6f657",
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
+  "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Ethan Henigan": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
@@ -19144,6 +19145,8 @@
   "Turney Hall": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
+  "Austin Williams": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9",
+  "Omar Husain": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
   "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
@@ -19242,7 +19245,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T04:42:56.469Z";
+  DATA.meta.asOf = "2026-09-24T15:55:36.173Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

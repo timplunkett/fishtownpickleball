@@ -341,9 +341,9 @@
       "weekNumber": 5,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 625,
+      "awayPoints": 575,
+      "endResult": "home",
       "scheduledTime": "2026-09-23T19:30:00",
       "homeName": "ACE Moorestown",
       "awayName": "Jersey Devil"
