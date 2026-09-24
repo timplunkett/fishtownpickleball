@@ -255,9 +255,20 @@ function selectCanonicalRosterPlayers(players, duprByPid = {}, divisionMeta = nu
   return [...byNameAndTeam.values()];
 }
 
+// Memoized per process: compileSeason calls this once per division (up to 35
+// times and counting in one compile), and global_players.json doesn't change
+// mid-run — every `node _cpl/compile.js` invocation is a fresh process, so
+// there is no cross-run staleness risk to caching it for the process's
+// lifetime.
+let cachedDuprByPid = null;
+
 function loadDuprByPid() {
+  if (cachedDuprByPid) return cachedDuprByPid;
   const globalPlayersPath = path.join(__dirname, '..', 'data', 'global_players.json');
-  if (!fs.existsSync(globalPlayersPath)) return {};
+  if (!fs.existsSync(globalPlayersPath)) {
+    cachedDuprByPid = {};
+    return cachedDuprByPid;
+  }
   const globalPlayers = JSON.parse(fs.readFileSync(globalPlayersPath, 'utf8'));
   const map = {};
   for (const p of globalPlayers) {
@@ -269,6 +280,7 @@ function loadDuprByPid() {
       };
     }
   }
+  cachedDuprByPid = map;
   return map;
 }
 

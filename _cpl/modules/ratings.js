@@ -194,31 +194,60 @@ function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam })
 // Used here on (XᵀX + λI), which ridge keeps well-conditioned. We need the full
 // inverse (not just a single solve) so we can read its diagonal for the
 // per-player confidence score.
+//
+// This is the single hottest path in the whole compile — profiling a full
+// `npm run compile` (2026-09-24, 35 divisions) showed >80% of wall time inside
+// this function, almost entirely computeWeeklyRatingHistory's one call per
+// round (a division with W weeks re-solves this from scratch W+1 times, each
+// on a growing player count). The algorithm here is unchanged from the plain-array
+// version it replaced — same Gauss-Jordan steps, same pivoting, same order of
+// operations — only the backing store did: each row is a Float64Array instead
+// of a generic (boxed, polymorphic) Array, so the O(n³) inner loops run on
+// untagged doubles. Verified bit-for-bit identical against the old
+// implementation on random SPD matrices up to n=150 before landing; ratings.test.js
+// pins the small hand-checked cases.
 function invertMatrix(A) {
   const n = A.length;
+  const width = 2 * n;
   // Augment [A | I] and reduce the left block to the identity.
-  const M = A.map((row, i) => {
-    const aug = row.slice();
-    for (let j = 0; j < n; j++) aug.push(i === j ? 1 : 0);
-    return aug;
-  });
+  const M = new Array(n);
+  for (let i = 0; i < n; i++) {
+    const row = new Float64Array(width);
+    const src = A[i];
+    for (let j = 0; j < n; j++) row[j] = src[j];
+    row[n + i] = 1;
+    M[i] = row;
+  }
   for (let col = 0; col < n; col++) {
     let piv = col;
+    let pivAbs = Math.abs(M[col][col]);
     for (let r = col + 1; r < n; r++) {
-      if (Math.abs(M[r][col]) > Math.abs(M[piv][col])) piv = r;
+      const v = Math.abs(M[r][col]);
+      if (v > pivAbs) { piv = r; pivAbs = v; }
     }
-    if (Math.abs(M[piv][col]) < 1e-12) continue; // ridge should prevent singularity
-    [M[col], M[piv]] = [M[piv], M[col]];
-    const pivVal = M[col][col];
-    for (let c = 0; c < 2 * n; c++) M[col][c] /= pivVal;
+    if (pivAbs < 1e-12) continue; // ridge should prevent singularity
+    if (piv !== col) { const tmp = M[col]; M[col] = M[piv]; M[piv] = tmp; }
+    const pivotRow = M[col];
+    const pivVal = pivotRow[col];
+    for (let c = 0; c < width; c++) pivotRow[c] /= pivVal;
     for (let r = 0; r < n; r++) {
       if (r === col) continue;
-      const factor = M[r][col];
+      const row = M[r];
+      const factor = row[col];
       if (factor === 0) continue;
-      for (let c = 0; c < 2 * n; c++) M[r][c] -= factor * M[col][c];
+      for (let c = 0; c < width; c++) row[c] -= factor * pivotRow[c];
     }
   }
-  return M.map(row => row.slice(n)); // the right block is A⁻¹
+  // The right block is A⁻¹ — copied back into plain arrays so every caller
+  // (JSON-serializing consumers included) keeps getting ordinary numbers.
+  const inv = new Array(n);
+  for (let i = 0; i < n; i++) {
+    const out = new Array(n);
+    const row = M[i];
+    for (let j = 0; j < n; j++) out[j] = row[n + j];
+    inv[i] = out;
+  }
+  return inv;
 }
 
 // Build the design from completed matchups' individual games and return
