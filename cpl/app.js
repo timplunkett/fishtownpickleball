@@ -2080,13 +2080,13 @@ function renderModalHeader(player) {
   const captainTag = player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : '';
   // Same-gender divisions (the /gender leg of the API) play one game type —
   // every mixed split is 0–0 and the gender split just repeats the overall
-  // record — so these two stats add nothing there. See SINGLE_GENDER above.
-  const mixedWinPctStat = SINGLE_GENDER
-    ? ''
-    : `<div class="mh-stat"><div class="n">${formatCategoryWinPct(player.mixedWins, player.mixedLosses)}</div><div class="l">MIXED WIN%</div></div>`;
-  const genderWinPctStat = SINGLE_GENDER
-    ? ''
-    : `<div class="mh-stat"><div class="n">${formatCategoryWinPct(player.genderWins, player.genderLosses)}</div><div class="l">GENDER WIN%</div></div>`;
+  // record — so these four stats add nothing there. See SINGLE_GENDER above.
+  const mixedSplitStats = SINGLE_GENDER ? '' : `
+      <div class="mh-stat"><div class="n">${player.mixedWins}–${player.mixedLosses}</div><div class="l">MIXED RECORD</div></div>
+      <div class="mh-stat"><div class="n">${formatCategoryWinPct(player.mixedWins, player.mixedLosses)}</div><div class="l">MIXED WIN%</div></div>
+      <div class="mh-stat"><div class="n">${player.genderWins}–${player.genderLosses}</div><div class="l">GENDER RECORD</div></div>
+      <div class="mh-stat"><div class="n">${formatCategoryWinPct(player.genderWins, player.genderLosses)}</div><div class="l">GENDER WIN%</div></div>
+  `;
 
   return `
     <div class="mh-name">${escapeHtml(player.name)}${captainTag} ${favoriteStarHtml('player', playerFavoriteId(player), player.name, playerFavoriteHref(player), `${player.team} — ${divisionTitleSubject()}`, ' mh-fav')}</div>
@@ -2101,8 +2101,7 @@ function renderModalHeader(player) {
       <div class="mh-stat"><div class="n">${isMissing(player.strengthOfPartners) ? EMPTY_VALUE : formatSignedValue(player.strengthOfPartners)}</div><div class="l">PARTNER STR</div></div>
       <div class="mh-stat"><div class="n">${player.wins}–${player.losses}</div><div class="l">RECORD</div></div>
       <div class="mh-stat"><div class="n">${player.winPct.toFixed(0)}%</div><div class="l">WIN RATE</div></div>
-      ${mixedWinPctStat}
-      ${genderWinPctStat}
+      ${mixedSplitStats}
       <div class="mh-stat"><div class="n">${player.pointsWon}</div><div class="l">POINTS FOR</div></div>
       <div class="mh-stat"><div class="n ${diffClass}">${formatSignedValue(player.diff)}</div><div class="l">DIFF</div></div>
       <div class="mh-stat"><div class="n">${player.matches}</div><div class="l">MATCH${pluralize(player.matches, '', 'ES')}</div></div>
@@ -3986,17 +3985,23 @@ function renderTeamPage(team, { scroll = true } = {}) {
     { key: 'rating', label: 'Rating' },
     { key: 'dupr', label: 'DUPR' },
     { key: 'conf', label: 'Conf' },
-    { key: 'soo', label: 'Opp Str' },
-    { key: 'sop', label: 'Partner Str' },
+    // <br> wraps a two-word label onto a second line, same trick the main
+    // table's COLUMNS uses for these two — it keeps the column no wider than
+    // its longest word instead of its full label, which matters more here now
+    // that this table carries four more columns than it used to.
+    { key: 'soo', label: 'Opp <br>Str' },
+    { key: 'sop', label: 'Partner <br>Str' },
     { key: 'wl', label: 'W–L' },
     { key: 'winPct', label: 'Win%' },
     { key: 'diff', label: '+/–' },
-    { key: 'mixedWinPct', label: 'Mixed Win%' },
-    { key: 'genderWinPct', label: 'Gender Win%' },
+    { key: 'mixed', label: 'Mixed' },
+    { key: 'mixedWinPct', label: 'Mixed <br>Win%' },
+    { key: 'gender', label: 'Gendr' },
+    { key: 'genderWinPct', label: 'Gendr <br>Win%' },
     { key: 'gamesPlayed', label: 'GP' },
     // Mixed is always 0–0 in a single-gender division and Gender just repeats
-    // the overall win%, same reasoning as the main table's COLUMNS filter.
-  ].filter(({ key }) => !(SINGLE_GENDER && (key === 'mixedWinPct' || key === 'genderWinPct')));
+    // the overall record/win%, same reasoning as the main table's COLUMNS filter.
+  ].filter(({ key }) => !(SINGLE_GENDER && (key === 'mixed' || key === 'mixedWinPct' || key === 'gender' || key === 'genderWinPct')));
 
   const sortedRoster = roster.slice().sort((a, b) => comparePlayers(a, b, rosterSortKey, rosterSortDirection));
 
@@ -4010,7 +4015,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
   }).join('');
 
   const genderSplitCells = (player) => SINGLE_GENDER ? '' : `
+        <td>${renderCell(player, 'mixed')}</td>
         <td>${formatCategoryWinPct(player.mixedWins, player.mixedLosses)}</td>
+        <td>${renderCell(player, 'gender')}</td>
         <td>${formatCategoryWinPct(player.genderWins, player.genderLosses)}</td>
   `;
 
