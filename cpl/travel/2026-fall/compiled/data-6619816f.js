@@ -5416,7 +5416,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,13 +5590,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 206,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "d23839c0-334b-4423-9305-0c6281523d5d"
+  },
+  {
+   "name": "Tessa Arendt",
+   "gender": "Female",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 200,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "78d27fdd-25fb-4fe7-8f3e-9ff1f67fb2bc"
+  },
+  {
+   "name": "Brandyn Schuchart",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 213,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9d821d34-4af3-4e4a-999d-25308b75ca0f"
   },
   {
    "name": "Michael Velez",
@@ -22357,8 +22415,12 @@
       ""
      ],
      "a": [
-      "Julia Sternberg",
-      "Dustin Rabinowitz"
+      "Alyssa Boyle",
+      "Brandyn Schuchart"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -22368,8 +22430,8 @@
       ""
      ],
      "a": [
-      "Alyssa Boyle",
-      "Ashwin Korde"
+      "Julia Sternberg",
+      "Dustin Rabinowitz"
      ]
     },
     {
@@ -22390,8 +22452,8 @@
       ""
      ],
      "a": [
-      "Alyssa Boyle",
-      "Charlotte Healey"
+      "Charlotte Healey",
+      "Elysia Price"
      ]
     },
     {
@@ -22401,8 +22463,38 @@
       ""
      ],
      "a": [
-      "Elysia Price",
-      "Julia Sternberg"
+      "Alyssa Boyle",
+      "Tessa Arendt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Dustin Rabinowitz"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Boory",
+      "Ashwin Korde"
      ]
     },
     {
@@ -22434,7 +22526,74 @@
       ""
      ],
      "a": [
+      "Elysia Price",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tessa Arendt",
+      "Brandyn Schuchart"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlotte Healey",
+      "Julia Sternberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
       "Alyssa Boyle",
+      "Tessa Arendt"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Brandyn Schuchart"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
       "Ashwin Korde"
      ]
     },
@@ -22445,30 +22604,12 @@
       ""
      ],
      "a": [
-      "Elysia Price",
-      "Zachary Lessner"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
       "Alyssa Boyle",
-      "Charlotte Healey"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
+      "Brandyn Schuchart"
      ],
-     "a": [
-      "Elysia Price",
-      "Julia Sternberg"
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -22489,7 +22630,7 @@
       ""
      ],
      "a": [
-      "Elysia Price",
+      "Charlotte Healey",
       "Dustin Rabinowitz"
      ]
     },
@@ -22500,19 +22641,12 @@
       ""
      ],
      "a": [
-      "Alyssa Boyle",
+      "Tessa Arendt",
       "Alex Boory"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
      ],
-     "a": [
-      "Charlotte Healey",
-      "Ashwin Korde"
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -22538,25 +22672,25 @@
      ]
     },
     {
-     "t": "mixed",
+     "t": "male",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Julia Sternberg",
-      "Alex Boory"
+      "Zachary Lessner",
+      "Dustin Rabinowitz"
      ]
     },
     {
-     "t": "mixed",
+     "t": "male",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Elysia Price",
-      "Dustin Rabinowitz"
+      "Alex Boory",
+      "Ashwin Korde"
      ]
     },
     {
@@ -22577,8 +22711,38 @@
       ""
      ],
      "a": [
-      "Charlotte Healey",
-      "Ashwin Korde"
+      "Tessa Arendt",
+      "Alex Boory"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Sternberg",
+      "Brandyn Schuchart"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -22589,7 +22753,7 @@
      ],
      "a": [
       "Alyssa Boyle",
-      "Elysia Price"
+      "Charlotte Healey"
      ]
     },
     {
@@ -22599,8 +22763,38 @@
       ""
      ],
      "a": [
-      "Charlotte Healey",
-      "Julia Sternberg"
+      "Tessa Arendt",
+      "Elysia Price"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Brandyn Schuchart"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Ashwin Korde"
      ]
     }
    ]
@@ -23306,11 +23500,12 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Austin Gow": "0e577096-0b13-441d-b087-cc49cb55cfe2",
+  "Emily Ocasio": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
-  "Brandyn Schuchart": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
   "Kathy Behrmann": "c6c3c899-b824-4074-b683-ad755850747a",
@@ -23320,7 +23515,7 @@
   "matchesPlayed": 28,
   "provisionalMatches": 2,
   "weeks": "1-5",
-  "totalPlayers": 201,
+  "totalPlayers": 203,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -23407,7 +23602,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T02:38:38.427Z";
+  DATA.meta.asOf = "2026-09-25T16:13:19.986Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

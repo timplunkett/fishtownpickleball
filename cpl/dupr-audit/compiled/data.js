@@ -7174,6 +7174,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Jacquelyn Hardenburgh",
+   "playerId": "4fd249ba-ff70-4e34-a92c-0ea979aa608b",
+   "team": "Home Court",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Jacquie Verish",
    "playerId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
    "team": "Jersey Devil Navy",
@@ -12298,6 +12305,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Matthew Carroll",
+   "playerId": "e89d6c72-5911-4458-b9b8-3d670a1364a8",
+   "team": "Picklr Exton",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Matthew Chen",
    "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183",
    "team": "Jersey Devil",
@@ -15040,6 +15054,13 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "b7ca04e4",
    "gender": "Female"
+  },
+  {
+   "name": "Rob Mendez",
+   "playerId": "164f7429-f944-4ac8-955b-8b53aa175065",
+   "team": "One Love",
+   "slug": "c43b8608",
+   "gender": "Male"
   },
   {
    "name": "Rob Oddy",
@@ -17866,6 +17887,13 @@ window.DUPR_AUDIT = {
    "name": "Tracy Giunta",
    "playerId": "0053115a-f6c0-43c0-ab0e-ec6abf16bc32",
    "team": "Players Courtyard",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Tracy Kaban",
+   "playerId": "ca3da64e-b479-46c8-a6ef-e9a5430c12c5",
+   "team": "One Love",
    "slug": "1e12eb3f",
    "gender": "Female"
   },

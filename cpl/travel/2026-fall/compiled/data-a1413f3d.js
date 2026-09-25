@@ -10549,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 426,
+   "leagueRank": 427,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 399,
+   "leagueRank": 400,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10636,7 +10636,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 416,
+   "leagueRank": 417,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10665,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 432,
+   "leagueRank": 433,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10694,7 +10694,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 422,
+   "leagueRank": 423,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10723,13 +10723,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 438,
+   "leagueRank": 439,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "45ea05c6-ef48-4b0a-9f71-a640be038d08"
+  },
+  {
+   "name": "Jacquelyn Hardenburgh",
+   "gender": "Female",
+   "team": "Home Court",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 396,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4fd249ba-ff70-4e34-a92c-0ea979aa608b"
   },
   {
    "name": "Layla Darian",
@@ -10781,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 427,
+   "leagueRank": 428,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 420,
+   "leagueRank": 421,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 409,
+   "leagueRank": 410,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10897,7 +10926,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 436,
+   "leagueRank": 437,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10926,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 433,
+   "leagueRank": 434,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10955,7 +10984,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10984,7 +11013,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 429,
+   "leagueRank": 430,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11013,7 +11042,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 396,
+   "leagueRank": 397,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11158,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11158,7 +11187,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 413,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11187,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 425,
+   "leagueRank": 426,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11216,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 417,
+   "leagueRank": 418,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42608,8 +42637,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Krenek",
+      "Matthew Schwartz"
      ],
      "a": [
       "Jiyun Yuh",
@@ -42623,8 +42652,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Leonard Krenek"
      ],
      "a": [
       "Laura Sweet",
@@ -42634,8 +42663,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Sciarillo",
+      "Gary White"
      ],
      "a": [
       "Bianca Previdi",
@@ -42645,8 +42674,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Michael Mazzola"
      ],
      "a": [
       "Laura Bruno",
@@ -42660,8 +42689,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Gabrielle Padilla"
      ],
      "a": [
       "Laura Bruno",
@@ -42675,8 +42704,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Alyssa Krenek"
      ],
      "a": [
       "Jiyun Yuh",
@@ -42686,8 +42715,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Mazzola"
      ],
      "a": [
       "Nhan Duong",
@@ -42697,8 +42726,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leonard Krenek",
+      "Daniel Antonelli"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -42712,8 +42741,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Matthew Schwartz"
      ],
      "a": [
       "Janelle Donnian",
@@ -42723,8 +42752,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Daniel Antonelli"
      ],
      "a": [
       "Laura Sweet",
@@ -42734,8 +42763,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Michael Rapaglia"
      ],
      "a": [
       "Bianca Previdi",
@@ -42745,8 +42774,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Sciarillo",
+      "Gary White"
      ],
      "a": [
       "Laura Bruno",
@@ -42760,8 +42789,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Alyssa Krenek"
      ],
      "a": [
       "Bianca Previdi",
@@ -42771,8 +42800,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Taylor Regenwether"
      ],
      "a": [
       "Laura Sweet",
@@ -42782,8 +42811,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Mazzola",
+      "Leonard Krenek"
      ],
      "a": [
       "Nhan Duong",
@@ -42797,8 +42826,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Schwartz",
+      "Michael Rapaglia"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -42808,8 +42837,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Gary White"
      ],
      "a": [
       "Jiyun Yuh",
@@ -42819,8 +42848,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Krenek",
+      "Leonard Krenek"
      ],
      "a": [
       "Janelle Donnian",
@@ -42834,8 +42863,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Michael Rapaglia"
      ],
      "a": [
       "Bianca Previdi",
@@ -42845,8 +42874,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Sciarillo",
+      "Daniel Antonelli"
      ],
      "a": [
       "Laura Bruno",
@@ -42860,8 +42889,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Kaylee Ritchie"
      ],
      "a": [
       "Janelle Donnian",
@@ -42871,8 +42900,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Krenek",
+      "Gabrielle Padilla"
      ],
      "a": [
       "Laura Sweet",
@@ -42886,8 +42915,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leonard Krenek",
+      "Michael Mazzola"
      ],
      "a": [
       "Nhan Duong",
@@ -42901,8 +42930,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Matthew Schwartz"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -42912,8 +42941,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Sciarillo",
+      "Michael Rapaglia"
      ],
      "a": [
       "Laura Sweet",
@@ -42923,8 +42952,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Matthew Schwartz"
      ],
      "a": [
       "Jiyun Yuh",
@@ -42934,8 +42963,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Daniel Antonelli"
      ],
      "a": [
       "Bianca Previdi",
@@ -42945,8 +42974,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Michael Mazzola"
      ],
      "a": [
       "Janelle Donnian",
@@ -42960,8 +42989,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Michelle Sciarillo"
      ],
      "a": [
       "Laura Sweet",
@@ -42971,8 +43000,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Gabrielle Padilla"
      ],
      "a": [
       "Laura Bruno",
@@ -42986,8 +43015,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Matthew Schwartz"
      ],
      "a": [
       "Nhan Duong",
@@ -42997,8 +43026,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Daniel Antonelli"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -44105,7 +44134,7 @@
   "matchesPlayed": 50,
   "provisionalMatches": 1,
   "weeks": "1-5",
-  "totalPlayers": 406,
+  "totalPlayers": 407,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -44232,7 +44261,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T10:52:51.348Z";
+  DATA.meta.asOf = "2026-09-25T16:12:20.946Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
