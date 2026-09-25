@@ -4506,7 +4506,12 @@ function initialize() {
     if (!isPlainClick(event)) return;
     event.preventDefault();
     routeSetByApp = true;
-    setRouteInUrl({ team: '', player: '', lineup: true });
+    // A second click on the nav link while the lab is already open is read as
+    // "leave it" rather than "reload it" — the same link doubles as the way
+    // in and the way out, alongside the "← All standings" link inside the
+    // lab itself.
+    const isOpen = elements.lineupLink.classList.contains('active');
+    setRouteInUrl({ team: '', player: '', lineup: !isOpen });
   });
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
