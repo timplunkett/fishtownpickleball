@@ -33128,7 +33128,7 @@
     "lastName": "Chen",
     "dupr": "JZVD2M",
     "duprRating": "4.011",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 6748854883,
     "duprProvisional": false
   },
@@ -47142,6 +47142,16 @@
     "duprRating": "3.916",
     "lastSeen": "2026-09",
     "duprNumericId": 5220298201,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "e97daa4f-0d54-4e83-87a3-3762d363be43",
+    "firstName": "Joy",
+    "lastName": "Frederick",
+    "dupr": "MYYPED",
+    "duprRating": "3.735",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7832891331,
     "duprProvisional": false
   }
 ]

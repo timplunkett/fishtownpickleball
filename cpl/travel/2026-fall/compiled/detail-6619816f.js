@@ -10770,7 +10770,7 @@
      0,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -24483,7 +24483,7 @@
      2,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -27864,7 +27864,7 @@
      2,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -31126,7 +31126,7 @@
      1,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -32230,7 +32230,7 @@
      0,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 1,
@@ -32617,7 +32617,7 @@
      2,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -39435,7 +39435,7 @@
      3,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -47440,7 +47440,7 @@
      4,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -56336,7 +56336,7 @@
      1,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,
@@ -58902,7 +58902,7 @@
      1,
      3
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,
@@ -59608,7 +59608,7 @@
      0,
      3
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,
@@ -60232,7 +60232,7 @@
      0,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,
@@ -64753,7 +64753,7 @@
      2,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
     "sub": 0,
@@ -67036,7 +67036,7 @@
      0,
      0
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,
@@ -72484,7 +72484,7 @@
      1,
      1
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,
@@ -77463,7 +77463,7 @@
      1,
      1
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 1,
@@ -84378,7 +84378,7 @@
      0,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
     "sub": 0,

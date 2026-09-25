@@ -4778,13 +4778,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "18c27a5c-a694-4777-98fc-4feff755d047"
+  },
+  {
+   "name": "Christopher Venuto",
+   "gender": "Male",
+   "team": "Monroe",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 194,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "19d10737-b8cb-4106-9b6d-1c9aced87b19"
   },
   {
    "name": "Emil Pescatore",
@@ -5010,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5048,6 +5077,64 @@
    "playerId": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23"
   },
   {
+   "name": "Michael Swell",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 192,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5436acd1-542a-4ca5-a652-c0addcf23ea2"
+  },
+  {
+   "name": "Eric Jiang",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 181,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5a604f85-b8f8-4084-8636-d403530fd480"
+  },
+  {
    "name": "Nicholas Yandoli",
    "gender": "Male",
    "team": "Premiere",
@@ -5068,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,13 +5242,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9"
+  },
+  {
+   "name": "Matthew Korsak",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 183,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "bc07a8b9-9b24-4afb-8c30-852eac7888ee"
   },
   {
    "name": "Peter Nagy",
@@ -19482,12 +19598,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Daniel Gallegos"
      ],
      "a": [
       "Adam Weinstock",
       "Obege Janvier"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -19497,8 +19617,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Stanley Bonczek"
      ],
      "a": [
       "Caesar Gene",
@@ -19508,23 +19628,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Drew Youssef",
+      "Ken Velarde"
      ],
      "a": [
-      "Samuel Levinson",
+      "Michael Swell",
       "Eugene Zaslavsky"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gautham Bondugula",
+      "Matthew Korsak"
      ],
      "a": [
       "Marcin Glowacki",
       "Turney Hall"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -19534,19 +19662,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Daniel Gallegos"
      ],
      "a": [
       "Nicholas Lagrua",
       "Eugene Zaslavsky"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stanley Bonczek",
+      "Anthony Bonaventura"
      ],
      "a": [
       "Caesar Gene",
@@ -19556,13 +19688,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gautham Bondugula",
+      "Matthew Korsak"
      ],
      "a": [
       "Adam Weinstock",
       "Turney Hall"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -19571,28 +19707,32 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Velarde",
+      "Drew Youssef"
      ],
      "a": [
-      "Samuel Levinson",
+      "Michael Swell",
       "Obege Janvier"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Drew Youssef",
+      "Matthew Korsak"
      ],
      "a": [
       "Eugene Zaslavsky",
       "Turney Hall"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -19601,8 +19741,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Gautham Bondugula"
      ],
      "a": [
       "Adam Weinstock",
@@ -19612,8 +19752,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Ken Velarde"
      ],
      "a": [
       "Obege Janvier",
@@ -19627,93 +19767,113 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Eric Jiang"
      ],
      "a": [
-      "Samuel Levinson",
+      "Michael Swell",
+      "Caesar Gene"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Stanley Bonczek",
+      "Kevin Sun"
+     ],
+     "a": [
+      "Caesar Gene",
+      "Obege Janvier"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Gallegos",
+      "Gautham Bondugula"
+     ],
+     "a": [
+      "Michael Swell",
+      "Turney Hall"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bonaventura",
+      "Eric Jiang"
+     ],
+     "a": [
+      "Nicholas Lagrua",
+      "Marcin Glowacki"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Korsak",
+      "Ken Velarde"
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Adam Weinstock"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Korsak",
+      "Eric Jiang"
+     ],
+     "a": [
+      "Marcin Glowacki",
+      "Eugene Zaslavsky"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bonaventura",
+      "Ken Velarde"
+     ],
+     "a": [
+      "Adam Weinstock",
       "Caesar Gene"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Caesar Gene",
-      "Obege Janvier"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Samuel Levinson",
-      "Turney Hall"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nicholas Lagrua",
-      "Marcin Glowacki"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Eugene Zaslavsky",
-      "Adam Weinstock"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marcin Glowacki",
-      "Eugene Zaslavsky"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Adam Weinstock",
-      "Caesar Gene"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Kevin Sun"
      ],
      "a": [
       "Nicholas Lagrua",
@@ -19727,23 +19887,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stanley Bonczek",
+      "Gautham Bondugula"
      ],
      "a": [
       "Obege Janvier",
-      "Samuel Levinson"
+      "Michael Swell"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stanley Bonczek",
+      "Gautham Bondugula"
      ],
      "a": [
       "Obege Janvier",
@@ -19757,19 +19917,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Ken Velarde"
      ],
      "a": [
       "Eugene Zaslavsky",
-      "Samuel Levinson"
+      "Michael Swell"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Kevin Sun"
      ],
      "a": [
       "Caesar Gene",
@@ -19783,19 +19947,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Drew Youssef",
+      "Matthew Korsak"
      ],
      "a": [
       "Nicholas Lagrua",
       "Marcin Glowacki"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stanley Bonczek",
+      "Ken Velarde"
      ],
      "a": [
       "Caesar Gene",
@@ -19809,12 +19977,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Drew Youssef"
      ],
      "a": [
       "Adam Weinstock",
       "Turney Hall"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -19824,41 +19996,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Daniel Gallegos"
      ],
      "a": [
-      "Samuel Levinson",
+      "Michael Swell",
       "Marcin Glowacki"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Matthew Korsak"
      ],
      "a": [
       "Eugene Zaslavsky",
       "Nicholas Lagrua"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stanley Bonczek",
+      "Ken Velarde"
      ],
      "a": [
-      "Samuel Levinson",
+      "Michael Swell",
       "Marcin Glowacki"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gautham Bondugula",
+      "Drew Youssef"
      ],
      "a": [
       "Obege Janvier",
@@ -19872,8 +20056,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Anthony Bonaventura"
      ],
      "a": [
       "Turney Hall",
@@ -19887,12 +20071,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Korsak",
+      "Eric Jiang"
      ],
      "a": [
       "Eugene Zaslavsky",
       "Adam Weinstock"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     }
    ]
@@ -20742,12 +20930,10 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
-  "Eric Jiang": "5a604f85-b8f8-4084-8636-d403530fd480",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
   "Omar Husain": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
-  "Matthew Korsak": "bc07a8b9-9b24-4afb-8c30-852eac7888ee",
   "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
@@ -20755,7 +20941,7 @@
   "matchesPlayed": 23,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 182,
+  "totalPlayers": 186,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -20846,7 +21032,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T16:14:02.988Z";
+  DATA.meta.asOf = "2026-09-25T20:56:00.819Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

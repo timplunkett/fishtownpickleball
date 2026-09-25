@@ -10723,7 +10723,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 439,
+   "leagueRank": 440,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10926,7 +10926,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42243,8 +42243,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "An Nguyen"
      ],
      "a": [
       "Sheila Siu",
@@ -42254,8 +42254,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Su",
+      "Bhushan Gupta"
      ],
      "a": [
       "Kathy Behrmann",
@@ -42265,8 +42265,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jane Lin",
+      "Jonathan Dong"
      ],
      "a": [
       "Maritoni Agatep",
@@ -42276,8 +42276,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Sacchetti",
+      "Nathaniel Flores"
      ],
      "a": [
       "Lian Odonnell",
@@ -42291,8 +42291,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Kelly Sacchetti"
      ],
      "a": [
       "Sheila Siu",
@@ -42302,19 +42302,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Su",
+      "Diana Nguyen"
      ],
      "a": [
       "Lian Odonnell",
       "Maritoni Agatep"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "An Nguyen",
+      "Jonathan Dong"
      ],
      "a": [
       "Kevin Sheehan",
@@ -42324,8 +42328,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kurt Henson",
+      "Bhushan Gupta"
      ],
      "a": [
       "Marc Kunesch",
@@ -42339,8 +42343,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Bhushan Gupta"
      ],
      "a": [
       "Sheila Siu",
@@ -42350,8 +42354,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Su",
+      "Kurt Henson"
      ],
      "a": [
       "Kathy Behrmann",
@@ -42365,8 +42369,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jane Lin",
+      "Nathaniel Flores"
      ],
      "a": [
       "Maritoni Agatep",
@@ -42376,30 +42380,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "An Nguyen"
      ],
      "a": [
       "Lian Odonnell",
       "Kevin Sheehan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Sacchetti",
+      "Diana Nguyen"
      ],
      "a": [
       "Sheila Siu",
       "Maritoni Agatep"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Jane Lin"
      ],
      "a": [
       "Kathy Behrmann",
@@ -42409,8 +42421,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bhushan Gupta",
+      "Nathaniel Flores"
      ],
      "a": [
       "Kevin Sheehan",
@@ -42424,8 +42436,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kurt Henson",
+      "Jonathan Dong"
      ],
      "a": [
       "Jacob Yoo",
@@ -42435,8 +42447,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Kurt Henson"
      ],
      "a": [
       "Sheila Siu",
@@ -42446,8 +42458,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jane Lin",
+      "Bhushan Gupta"
      ],
      "a": [
       "Kathy Behrmann",
@@ -42457,8 +42469,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Sacchetti",
+      "Jonathan Dong"
      ],
      "a": [
       "Maritoni Agatep",
@@ -42468,12 +42480,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "An Nguyen"
      ],
      "a": [
       "Lian Odonnell",
       "Bryan Mccourt"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -42483,8 +42499,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Sacchetti",
+      "Jane Lin"
      ],
      "a": [
       "Sheila Siu",
@@ -42494,8 +42510,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Emily Su"
      ],
      "a": [
       "Kathy Behrmann",
@@ -42505,8 +42521,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kurt Henson",
+      "Jonathan Dong"
      ],
      "a": [
       "Kevin Sheehan",
@@ -42516,8 +42532,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "An Nguyen",
+      "Nathaniel Flores"
      ],
      "a": [
       "Jacob Yoo",
@@ -42531,8 +42547,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Su",
+      "Kurt Henson"
      ],
      "a": [
       "Sheila Siu",
@@ -42546,8 +42562,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Bhushan Gupta"
      ],
      "a": [
       "Kathy Behrmann",
@@ -42557,8 +42573,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jane Lin",
+      "Jonathan Dong"
      ],
      "a": [
       "Maritoni Agatep",
@@ -42568,8 +42584,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Sacchetti",
+      "Nathaniel Flores"
      ],
      "a": [
       "Lian Odonnell",
@@ -42579,8 +42595,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amita Gupta",
+      "Kelly Sacchetti"
      ],
      "a": [
       "Sheila Siu",
@@ -42590,19 +42606,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Su",
+      "Diana Nguyen"
      ],
      "a": [
       "Maritoni Agatep",
       "Lian Odonnell"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kurt Henson",
+      "Bhushan Gupta"
      ],
      "a": [
       "Kevin Sheehan",
@@ -42612,8 +42632,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "An Nguyen",
+      "Nathaniel Flores"
      ],
      "a": [
       "Bryan Mccourt",
@@ -44126,6 +44146,7 @@
   "Brandon Tsang": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
   "Lucy Li": "d22f8b69-76a6-41e0-8b04-c5dae68d9f69",
   "Brian Landau": "e036945a-5009-4ae2-96a1-623387de7100",
+  "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
   "Daniel Pham": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
   "Ryan Ly": "fdb06ae5-2465-4c24-ad6c-ea21b86e2e0c",
   "Nicholas Brow": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec"
@@ -44261,7 +44282,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T16:12:20.946Z";
+  DATA.meta.asOf = "2026-09-25T20:54:23.573Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

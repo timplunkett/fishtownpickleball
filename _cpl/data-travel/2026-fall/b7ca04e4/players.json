@@ -11760,7 +11760,7 @@
       "gender": "Female",
       "dupr": "99PELV",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
       "teamName": "Pickleball Kingdom Lehigh Valley",
       "wins": 1,

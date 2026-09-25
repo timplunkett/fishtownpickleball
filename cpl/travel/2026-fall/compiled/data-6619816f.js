@@ -5416,7 +5416,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 211,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,13 +5590,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "d23839c0-334b-4423-9305-0c6281523d5d"
+  },
+  {
+   "name": "Austin Gow",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 207,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0e577096-0b13-441d-b087-cc49cb55cfe2"
+  },
+  {
+   "name": "Emily Ocasio",
+   "gender": "Female",
+   "team": "Bounce Malvern",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 209,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a"
   },
   {
    "name": "Tessa Arendt",
@@ -5648,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6041,6 +6099,36 @@
    }
   },
   {
+   "name": "Flemington",
+   "w": 3,
+   "l": 2,
+   "pf": 3023,
+   "pa": 3065,
+   "gw": 82,
+   "gl": 78,
+   "diff": -42,
+   "gameDiff": 4,
+   "power": 0,
+   "powerRank": 4,
+   "pod": 1,
+   "reportedPod": "North",
+   "podName": "North / South",
+   "fmt": {
+    "mixed": [
+     44,
+     36
+    ],
+    "male": [
+     25,
+     15
+    ],
+    "female": [
+     13,
+     27
+    ]
+   }
+  },
+  {
    "name": "Bounce Philly",
    "w": 2,
    "l": 2,
@@ -6067,36 +6155,6 @@
     "female": [
      16,
      16
-    ]
-   }
-  },
-  {
-   "name": "Flemington",
-   "w": 2,
-   "l": 3,
-   "pf": 2384,
-   "pa": 2490,
-   "gw": 82,
-   "gl": 78,
-   "diff": -106,
-   "gameDiff": 4,
-   "power": 0,
-   "powerRank": 4,
-   "pod": 1,
-   "reportedPod": "North",
-   "podName": "North / South",
-   "fmt": {
-    "mixed": [
-     44,
-     36
-    ],
-    "male": [
-     25,
-     15
-    ],
-    "female": [
-     13,
-     27
     ]
    }
   },
@@ -6192,13 +6250,13 @@
   },
   {
    "name": "Home Court",
-   "w": 1,
-   "l": 4,
-   "pf": 2372,
-   "pa": 2517,
+   "w": 0,
+   "l": 5,
+   "pf": 2947,
+   "pa": 3156,
    "gw": 56,
    "gl": 104,
-   "diff": -145,
+   "diff": -209,
    "gameDiff": -48,
    "power": -0.4,
    "powerRank": 5,
@@ -19553,14 +19611,14 @@
    ]
   },
   {
-   "result": "draw",
+   "result": "home",
    "week": 5,
    "home": "Flemington",
    "away": "Home Court",
    "time": "2026-09-23T19:00:00",
    "complete": true,
-   "homePoints": 0,
-   "awayPoints": 0,
+   "homePoints": 639,
+   "awayPoints": 575,
    "homeGW": 25,
    "awayGW": 7,
    "games": [
@@ -20025,7 +20083,6 @@
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-09-23T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 532,
    "awayPoints": 666,
    "homeGW": 6,
@@ -21426,7 +21483,6 @@
    "away": "Monroe",
    "time": "2026-09-23T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 618,
    "awayPoints": 616,
    "homeGW": 20,
@@ -22379,7 +22435,417 @@
    "home": "Flemington",
    "away": "Bounce Malvern",
    "time": "2026-09-27T09:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Ocasio",
+      "Austin Gow"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Sarah Kline"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Emily Ocasio"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Meale",
+      "Austin Gow"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Ocasio",
+      "Austin Gow"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Sarah Kline"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Emily Ocasio"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Meale",
+      "Austin Gow"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Austin Gow"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Ocasio",
+      "Shashank Kamdar"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Megan Harvey"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Emily Ocasio"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Meale",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Austin Gow"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Austin Gow"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Ocasio",
+      "Lou Frignito"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Emily Ocasio"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Sarah Kline"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Meale",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Austin Gow"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23500,11 +23966,11 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
-  "Austin Gow": "0e577096-0b13-441d-b087-cc49cb55cfe2",
-  "Emily Ocasio": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
+  "Jaco De Waal": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
+  "Jenny Chen": "54c51642-8048-4dd1-9221-a4306301ff72",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
@@ -23513,9 +23979,9 @@
  },
  "meta": {
   "matchesPlayed": 28,
-  "provisionalMatches": 2,
+  "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 203,
+  "totalPlayers": 205,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -23602,7 +24068,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T16:13:19.986Z";
+  DATA.meta.asOf = "2026-09-25T20:55:23.338Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

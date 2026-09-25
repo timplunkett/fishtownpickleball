@@ -3527,6 +3527,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Christopher Venuto",
+   "playerId": "19d10737-b8cb-4106-9b6d-1c9aced87b19",
+   "team": "Monroe",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Christopher Yang",
    "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
    "team": "ACE Moorestown",
@@ -4567,6 +4574,13 @@ window.DUPR_AUDIT = {
    "playerId": "756e256e-ea2f-4e25-9c6a-e780860d048f",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Dawn Moore",
+   "playerId": "e4c338f7-bc8e-4e1c-bcb7-cb4aad1dbfc0",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {
