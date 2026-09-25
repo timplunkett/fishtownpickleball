@@ -2656,10 +2656,16 @@ function ensureLineupLabState() {
   if (!lineupLabState.games.length) lineupLabState.games = rebuildLineupLabGames();
 }
 
+// DATA.teams is standings order (division rank), the right order for a
+// standings table but not for finding a team by name in a dropdown — sorted
+// alphabetically here instead, same as any other name picker on the page.
 function lineupTeamOptions(selected) {
-  return DATA.teams.map((team) => (
-    `<option value="${escapeHtml(team.name)}"${team.name === selected ? ' selected' : ''}>${escapeHtml(team.name)}</option>`
-  )).join('');
+  return DATA.teams
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((team) => (
+      `<option value="${escapeHtml(team.name)}"${team.name === selected ? ' selected' : ''}>${escapeHtml(team.name)}</option>`
+    )).join('');
 }
 
 // One option per Team A's own match, for the whole season (see
