@@ -1644,7 +1644,7 @@
     "with": "Samuel Levinson",
     "vs": [
      "Steven Gregov",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 23,
     "a": 21,
@@ -2386,7 +2386,7 @@
     "t": "male",
     "with": "Harrison Mui",
     "vs": [
-     "Obe Janvier",
+     "Obege Janvier",
      "Frank Clark"
     ],
     "f": 21,
@@ -2438,7 +2438,7 @@
     "t": "male",
     "with": "Yoon Choi",
     "vs": [
-     "Obe Janvier",
+     "Obege Janvier",
      "Jay Alquiros"
     ],
     "f": 21,
@@ -3745,7 +3745,7 @@
     "with": "Yoon Choi",
     "vs": [
      "Tim Dowd",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 21,
     "a": 19,
@@ -3765,7 +3765,7 @@
     "with": "Chenfei Gao",
     "vs": [
      "Jay Alquiros",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 23,
     "a": 21,
@@ -3785,7 +3785,7 @@
     "with": "Eugene Zaslavsky",
     "vs": [
      "Steven Gregov",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 23,
     "a": 21,
@@ -3824,7 +3824,7 @@
     "t": "male",
     "with": "Harrison Mui",
     "vs": [
-     "Obe Janvier",
+     "Obege Janvier",
      "Andy Ead"
     ],
     "f": 15,
@@ -3845,7 +3845,7 @@
     "with": "Yoon Choi",
     "vs": [
      "Andy Ead",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 21,
     "a": 14,
@@ -8355,7 +8355,7 @@
     "with": "Nicholas Lagrua",
     "vs": [
      "Tim Dowd",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 14,
     "a": 21,
@@ -8375,7 +8375,7 @@
     "with": "Samuel Levinson",
     "vs": [
      "Tim Dowd",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 21,
     "a": 19,
@@ -8459,7 +8459,7 @@
     "with": "Samuel Levinson",
     "vs": [
      "Andy Ead",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 21,
     "a": 14,
@@ -8478,7 +8478,7 @@
     "t": "male",
     "with": "Tom Laiso",
     "vs": [
-     "Obe Janvier",
+     "Obege Janvier",
      "Jay Alquiros"
     ],
     "f": 21,
@@ -11364,7 +11364,7 @@
     "with": "Yoon Choi",
     "vs": [
      "Tim Dowd",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 14,
     "a": 21,
@@ -13315,7 +13315,7 @@
     "with": "Samuel Levinson",
     "vs": [
      "Jay Alquiros",
-     "Obe Janvier"
+     "Obege Janvier"
     ],
     "f": 23,
     "a": 21,
@@ -14261,11 +14261,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Jersey Devil",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -16939,7 +16935,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -18199,7 +18194,7 @@
     "t": "male",
     "with": "Tom Laiso",
     "vs": [
-     "Obe Janvier",
+     "Obege Janvier",
      "Frank Clark"
     ],
     "f": 21,
@@ -18219,7 +18214,7 @@
     "t": "male",
     "with": "Samuel Levinson",
     "vs": [
-     "Obe Janvier",
+     "Obege Janvier",
      "Andy Ead"
     ],
     "f": 15,
@@ -20489,11 +20484,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -22594,8 +22585,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -22755,8 +22745,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -22824,8 +22813,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -26201,11 +26189,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -29556,8 +29540,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -29594,7 +29577,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -29762,8 +29744,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -29799,8 +29780,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -31404,11 +31384,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -32810,8 +32786,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -36071,11 +36046,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Jersey Devil",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Jersey Devil"
    },
    {
     "wk": 2,
@@ -36091,11 +36062,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Jersey Devil",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Jersey Devil"
    },
    {
     "wk": 2,
@@ -36128,11 +36095,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Jersey Devil",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -37817,11 +37780,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -39477,7 +39436,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Harrison Mui",
      "Samuel Levinson"
@@ -39494,7 +39453,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Yoon Choi",
      "Samuel Levinson"
@@ -41908,8 +41867,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -41935,8 +41894,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -41953,8 +41912,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -41969,8 +41928,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -41989,8 +41948,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -42009,8 +41968,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -42025,8 +41984,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -42045,8 +42004,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -42061,8 +42020,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -42077,8 +42036,8 @@
     "a": 23,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -42093,8 +42052,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -42109,8 +42068,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -42125,8 +42084,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -42740,11 +42699,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -43123,11 +43078,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -44150,7 +44101,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -48400,11 +48350,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -51273,11 +51219,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -55736,8 +55678,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -60921,11 +60862,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -60957,11 +60894,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -60993,11 +60926,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -63875,11 +63804,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -63895,11 +63820,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -63915,11 +63836,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -63935,11 +63852,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -64279,11 +64192,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -67358,7 +67267,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Yoon Choi",
      "Nicholas Lagrua"
@@ -67375,7 +67284,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Yoon Choi",
      "Samuel Levinson"
@@ -68010,11 +67919,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -68030,11 +67935,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -68562,7 +68463,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Tom Laiso",
      "Harrison Mui"
@@ -69901,7 +69802,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Samuel Levinson",
      "Chenfei Gao"
@@ -69982,7 +69883,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Tom Laiso",
      "Yoon Choi"
@@ -70822,7 +70723,7 @@
     "wk": 5,
     "opp": "Dill Dinkers Freehold",
     "t": "male",
-    "with": "Obe Janvier",
+    "with": "Obege Janvier",
     "vs": [
      "Eugene Zaslavsky",
      "Samuel Levinson"

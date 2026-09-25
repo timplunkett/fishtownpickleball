@@ -2519,6 +2519,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Bruce Freedman",
+   "playerId": "7ddf77c0-349d-4332-8209-10b5cc5be62a",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Bruce Nguyen",
    "playerId": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
    "team": "APC Garden State",
@@ -2944,6 +2951,13 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "6619816f",
    "gender": "Male"
+  },
+  {
+   "name": "Chantal Reme",
+   "playerId": "c1486563-656a-4953-88d2-015e47c6fb47",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
+   "gender": "Female"
   },
   {
    "name": "Chanthorn Heng",
@@ -4357,6 +4371,13 @@ window.DUPR_AUDIT = {
    "playerId": "be10853a-1f2c-4b56-8fd7-902ddc686401",
    "team": "Bounce Tempest",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "David Brandolph",
+   "playerId": "be10853a-1f2c-4b56-8fd7-902ddc686401",
+   "team": "Bounce Tempest",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {
@@ -11248,6 +11269,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lisa Miller",
+   "playerId": "dfb719fa-b0aa-436f-868b-0130018d36c6",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Lisa Munjack",
    "playerId": "d04e4e93-c62c-4352-ac19-a5c7ce293763",
    "team": "Pickleball Palace Blue",
@@ -15252,6 +15280,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Roe Palermo",
+   "playerId": "d86280ad-5733-417d-af40-42a66c14b874",
+   "team": "Premiere",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Rohan Sabharwal",
    "playerId": "a7de14f0-a8da-402c-9340-c57389b6736a",
    "team": "Pickle House",
@@ -15963,6 +15998,13 @@ window.DUPR_AUDIT = {
    "playerId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d",
    "team": "Players Courtyard",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Scott Walden",
+   "playerId": "f74767f9-212a-4197-b80c-ada302226df6",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {
@@ -18609,6 +18651,13 @@ window.DUPR_AUDIT = {
    "playerId": "afec0287-b62d-4aaf-977f-afb96aed0e17",
    "team": "Bounce Malvern",
    "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
+   "name": "Yuqi Yin",
+   "playerId": "4740fdbe-adb4-4857-8b81-2ea8766ca68e",
+   "team": "LBF Pickleball",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {

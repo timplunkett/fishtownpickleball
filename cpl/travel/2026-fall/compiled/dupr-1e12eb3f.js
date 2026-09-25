@@ -23,6 +23,7 @@ window.DUPR_RATINGS = {
  "0ac4f132-2c5c-4a1b-92a6-350f1952aa75": {"rating":3.278,"numericId":6617406821,"provisional":false},
  "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f": {"rating":"NR","numericId":6319350350,"provisional":false},
  "0be5bd1e-33a2-41b0-beaf-fa0c9cbbdafe": {"rating":2,"numericId":6423122569,"provisional":false},
+ "0d326b1f-4b59-4138-a03a-1adf0d465b70": {"rating":3.427,"numericId":5775544892,"provisional":false},
  "0e3e69b5-e482-4ff9-bebe-f4ddab5eab85": {"rating":3.098,"numericId":4336066849,"provisional":false},
  "0e543890-4c91-45d2-bd5d-819dc476b245": {"rating":3.109,"numericId":5892782600,"provisional":false},
  "0eea8d08-e55e-40be-b1cd-4853b2fbb11d": {"rating":2.902,"numericId":6993134489,"provisional":false},
@@ -262,6 +263,7 @@ window.DUPR_RATINGS = {
  "833c4691-ccec-4d0d-b9a1-0a833728ea7f": {"rating":2.499,"numericId":6819564988,"provisional":false},
  "83ef92aa-1e74-4ef1-8a56-ce4458a80528": {"rating":2.492,"numericId":5595889136,"provisional":false},
  "8433ad3d-29ba-48ec-8e0a-2e8552a12fcb": {"rating":"NR","numericId":7136480906,"provisional":false},
+ "8471c0ed-751f-45e9-a85f-3125465ee459": {"rating":"NR","numericId":6903087115,"provisional":false},
  "84a3279f-7449-4f3a-9d37-1cb1bfe2c45e": {"rating":2.923,"numericId":7573754604,"provisional":false},
  "84de6bd2-281f-424f-bbc0-254f670e052b": {"rating":2.778,"numericId":7432292882,"provisional":false},
  "85b6cf96-6ca6-460f-924d-a70bce3ea487": {"rating":2.832,"numericId":6120860605,"provisional":false},
@@ -529,5 +531,6 @@ window.DUPR_RATINGS = {
  "fde88c4a-e006-4396-bc8a-92bf97916537": {"rating":"NR","numericId":6765583904,"provisional":false},
  "fee0899c-870f-49f7-b07b-d34ed516a9f9": {"rating":2.863,"numericId":7118900554,"provisional":false},
  "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3": {"rating":2.938,"numericId":6136001700,"provisional":false},
- "ffde9017-6c1a-4fb4-947d-6a46338593ce": {"rating":3.066,"numericId":7797837881,"provisional":false}
+ "ffde9017-6c1a-4fb4-947d-6a46338593ce": {"rating":3.066,"numericId":7797837881,"provisional":false},
+ "ffeaed4d-cfb0-4c86-a3e9-15d162d7e247": {"rating":"NR","numericId":8367268361,"provisional":false}
 };

@@ -531,7 +531,7 @@
     "subFor": "Dill Dinkers Hatboro",
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -3514,11 +3514,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -3771,11 +3767,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -3794,7 +3786,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -3860,11 +3852,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -5779,7 +5767,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -5866,11 +5854,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -7236,7 +7220,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -7255,7 +7239,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -7274,11 +7258,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -11343,11 +11323,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -11403,11 +11379,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -11830,11 +11802,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -12027,11 +11995,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -12063,11 +12027,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -12084,11 +12044,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -12104,11 +12060,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -12124,11 +12076,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -12372,11 +12320,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -12395,7 +12339,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -12412,11 +12356,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -12564,11 +12504,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -13150,11 +13086,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -13170,11 +13102,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -13190,11 +13118,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -13214,7 +13138,7 @@
     "withSub": 1,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -16740,7 +16664,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -16757,11 +16681,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -16780,7 +16700,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -21339,11 +21259,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -21379,11 +21295,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -21423,7 +21335,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -21495,7 +21407,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -21516,7 +21428,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -21590,11 +21502,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -24512,11 +24420,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -24575,7 +24479,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -26341,7 +26245,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -26360,7 +26264,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -44979,11 +44883,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -47131,8 +47031,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -47311,7 +47210,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -47364,7 +47262,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -56323,7 +56220,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -58148,8 +58045,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 2,
@@ -58165,8 +58061,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 2,
@@ -59562,7 +59457,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -75639,11 +75534,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 1,
@@ -77837,8 +77728,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -77982,8 +77872,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -78047,8 +77936,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -80472,7 +80360,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -80513,7 +80401,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -80530,11 +80418,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -83725,7 +83609,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -84571,8 +84455,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -84658,8 +84541,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -84675,8 +84557,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -89437,7 +89318,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -89478,7 +89358,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -91495,7 +91374,6 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Bounce Philly",
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -95304,11 +95182,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -95363,7 +95237,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -95380,11 +95254,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 4,
@@ -95561,11 +95431,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": "Forward"
    },
    {
     "wk": 4,
@@ -95614,11 +95480,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Forward",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -95691,11 +95553,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Forward",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -95785,11 +95643,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Forward"
    },
    {
     "wk": 4,
@@ -95805,11 +95659,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": "Forward"
    },
    {
     "wk": 4,
@@ -95826,11 +95676,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Forward",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 4,
@@ -95846,11 +95692,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "vsSub": [
-     1,
-     1
-    ]
+    "subFor": "Forward"
    },
    {
     "wk": 4,
@@ -95866,11 +95708,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": "Forward"
    },
    {
     "wk": 4,
@@ -95903,11 +95741,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Forward",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -103060,8 +102894,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -103168,7 +103001,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -103294,7 +103126,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -105026,7 +104857,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -109564,8 +109395,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 1,
@@ -109614,8 +109444,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 4,
@@ -120600,8 +120429,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 1,
@@ -121215,8 +121043,8 @@
     "teamRes": "L",
     "teamGW": 10,
     "teamGL": 22,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -121233,8 +121061,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -121249,8 +121077,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -121265,8 +121093,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -121281,8 +121109,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 1,
@@ -121297,8 +121125,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -121314,8 +121142,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -121411,8 +121239,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 4,
@@ -121428,8 +121255,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 4,
@@ -124517,8 +124343,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -124535,8 +124361,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -124555,8 +124381,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -124572,8 +124398,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -124592,8 +124418,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -124608,9 +124434,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1,
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -124629,9 +124454,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -124646,8 +124470,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -124702,8 +124526,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 4,
@@ -124729,8 +124553,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -124747,8 +124571,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -124763,8 +124587,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -124780,8 +124604,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -124796,8 +124620,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -124813,8 +124637,8 @@
     "a": 23,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -124830,9 +124654,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -124847,8 +124670,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -124864,8 +124687,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -124884,8 +124707,8 @@
     "a": 24,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -124901,8 +124724,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -124921,9 +124744,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1,
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -124942,8 +124764,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -124962,9 +124784,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 4,
@@ -124979,8 +124800,8 @@
     "a": 22,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -131249,8 +131070,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 2,
@@ -131826,8 +131646,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 4,
@@ -133597,6 +133416,179 @@
   ],
   "partners": []
  },
+ "7ddf77c0-349d-4332-8209-10b5cc5be62a": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 70,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Wen Chang",
+    "vs": [
+     "David Wisch",
+     "Eric Pollock"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Deborah Jordan",
+    "vs": [
+     "Lauren Ricks",
+     "Andrew Bush"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Joseph Gronczewski",
+    "vs": [
+     "Andrew Frey",
+     "Chris Hannah"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Sandy Cohen",
+    "vs": [
+     "Jill Honicker",
+     "Eric Pollock"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "mixed",
+    "with": "Deborah Jordan",
+    "vs": [
+     "Bonny Mayerberg",
+     "Chris Hannah"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Dill Dinkers Hatboro",
+    "t": "male",
+    "with": "Scott Walden",
+    "vs": [
+     "David Wisch",
+     "Chris Hannah"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -4.3,
+    "confidence": 50,
+    "rank": 363,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": -3.9,
+    "confidence": 51,
+    "rank": 394,
+    "ratingGames": 6,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.8
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": -4,
+    "confidence": 51,
+    "rank": 439,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": 1
+   }
+  ],
+  "partners": []
+ },
  "a0d294b1-27ed-4751-ae6c-eadf62746d20": {
   "log": [
    {
@@ -133842,180 +133834,6 @@
   ],
   "partners": []
  },
- "7ddf77c0-349d-4332-8209-10b5cc5be62a": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "homeAway": "H",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 70,
-    "pa": 126,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "male",
-    "with": "Wen Chang",
-    "vs": [
-     "David Wisch",
-     "Eric Pollock"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly"
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "mixed",
-    "with": "Deborah Jordan",
-    "vs": [
-     "Lauren Ricks",
-     "Andrew Bush"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "male",
-    "with": "Joseph Gronczewski",
-    "vs": [
-     "Andrew Frey",
-     "Chris Hannah"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "mixed",
-    "with": "Sandy Cohen",
-    "vs": [
-     "Jill Honicker",
-     "Eric Pollock"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "mixed",
-    "with": "Deborah Jordan",
-    "vs": [
-     "Bonny Mayerberg",
-     "Chris Hannah"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Dill Dinkers Hatboro",
-    "t": "male",
-    "with": "Scott Walden",
-    "vs": [
-     "David Wisch",
-     "Chris Hannah"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -4.3,
-    "confidence": 50,
-    "rank": 363,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": -3.9,
-    "confidence": 51,
-    "rank": 394,
-    "ratingGames": 6,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.8
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": -4,
-    "confidence": 51,
-    "rank": 439,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": 1
-   }
-  ],
-  "partners": []
- },
  "7625818c-612a-4d6e-8172-426379bb306a": {
   "log": [
    {
@@ -134078,8 +133896,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 2,
@@ -134095,8 +133912,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 2,
@@ -134112,8 +133928,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Philly",
-    "withSub": 1
+    "subFor": "Bounce Philly"
    },
    {
     "wk": 2,

@@ -2673,8 +2673,8 @@
    "name": "David Brandolph",
    "gender": "Male",
    "team": "Bounce Tempest",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 5,
@@ -4062,7 +4062,7 @@
    "playerId": "329df703-2af3-46cd-a7ae-372a1956536e"
   },
   {
-   "name": "Obe Janvier",
+   "name": "Obege Janvier",
    "gender": "Male",
    "team": "Flemington",
    "matches": 0,
@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4923,13 +4923,100 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 186,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a9df21e2-b62a-4af0-a793-80f0de708466"
+  },
+  {
+   "name": "Clayton Schmucker",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 188,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3"
+  },
+  {
+   "name": "Jonah Fliegelman",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 172,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "1070bcd5-fdff-4adc-8d03-460a208fe4e8"
+  },
+  {
+   "name": "Ethan Henigan",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 176,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23"
   },
   {
    "name": "Abhishekh Mehra",
@@ -13107,7 +13194,6 @@
    "subs": [
     "Vincent Tran",
     "Damien Stahl",
-    "David Brandolph",
     "Zach Bowe"
    ]
   },
@@ -16402,7 +16488,7 @@
      ],
      "a": [
       "Tim Dowd",
-      "Obe Janvier"
+      "Obege Janvier"
      ]
     },
     {
@@ -16458,7 +16544,7 @@
      ],
      "a": [
       "Tim Dowd",
-      "Obe Janvier"
+      "Obege Janvier"
      ]
     },
     {
@@ -16542,7 +16628,7 @@
      ],
      "a": [
       "Jay Alquiros",
-      "Obe Janvier"
+      "Obege Janvier"
      ]
     },
     {
@@ -16598,7 +16684,7 @@
      ],
      "a": [
       "Steven Gregov",
-      "Obe Janvier"
+      "Obege Janvier"
      ]
     },
     {
@@ -16639,7 +16725,7 @@
       "Harrison Mui"
      ],
      "a": [
-      "Obe Janvier",
+      "Obege Janvier",
       "Frank Clark"
      ]
     },
@@ -16695,7 +16781,7 @@
       "Samuel Levinson"
      ],
      "a": [
-      "Obe Janvier",
+      "Obege Janvier",
       "Andy Ead"
      ]
     },
@@ -16738,7 +16824,7 @@
      ],
      "a": [
       "Andy Ead",
-      "Obe Janvier"
+      "Obege Janvier"
      ]
     },
     {
@@ -16793,7 +16879,7 @@
       "Yoon Choi"
      ],
      "a": [
-      "Obe Janvier",
+      "Obege Janvier",
       "Jay Alquiros"
      ]
     },
@@ -16828,7 +16914,7 @@
    ],
    "subs": [
     "Steven Gregov",
-    "Obe Janvier"
+    "Obege Janvier"
    ]
   },
   {
@@ -18223,7 +18309,6 @@
     }
    ],
    "subs": [
-    "David Brandolph",
     "Jack Blumberg"
    ]
   },
@@ -18712,7 +18797,421 @@
    "home": "Bounce Tempest",
    "away": "Picklr Newtown",
    "time": "2026-09-26T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Christian Lupica"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "Ethan Henigan"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Timoty Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Clayton Schmucker"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonah Fliegelman",
+      "Ethan Henigan"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christian Lupica",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonah Fliegelman",
+      "Ethan Henigan"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Clayton Schmucker"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christian Lupica",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Timoty Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christian Lupica",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "Jonah Fliegelman"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaco De Waal",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ethan Henigan",
+      "Timoty Cahalin"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christian Lupica",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Timoty Cahalin",
+      "Jonah Fliegelman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaco De Waal",
+      "Ethan Henigan"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "Jonah Fliegelman"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ethan Henigan",
+      "Timoty Cahalin"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaco De Waal",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Christian Lupica"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Timoty Cahalin",
+      "Jonah Fliegelman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "William Lee"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaco De Waal",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Christian Lupica"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "Ethan Henigan"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Jonah Fliegelman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Timoty Cahalin"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -19135,18 +19634,19 @@
  "extraPlayerIds": {
   "Darren Johnson": "00092e4b-b019-43ae-bfef-503e1fc6f657",
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
-  "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
+  "Geoff Watson": "41191982-ca10-4665-8eb2-6d5231b4a0c4",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
-  "Ethan Henigan": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
   "Eric Jiang": "5a604f85-b8f8-4084-8636-d403530fd480",
   "Nicholas Yandoli": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Turney Hall": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
+  "Andrew Nguyen": "97048a47-d6b3-4c25-84c4-2b8d85e78b7d",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
   "Austin Williams": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9",
   "Omar Husain": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
+  "Peter Nagy": "db98d397-2496-4147-943c-febe48812018",
   "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
@@ -19154,7 +19654,7 @@
   "matchesPlayed": 23,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 173,
+  "totalPlayers": 176,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -19245,7 +19745,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-24T15:55:36.173Z";
+  DATA.meta.asOf = "2026-09-25T02:39:19.820Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
