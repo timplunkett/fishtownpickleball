@@ -236,6 +236,8 @@ const elements = {
   gridViewToggle: getRequiredElement('grid-view'),
   head: getRequiredElement('head'),
   kicker: getRequiredElement('kicker'),
+  lineupLink: document.getElementById('lineup-lab-link'),
+  lineupView: document.getElementById('lineupview'),
   mainView: getRequiredElement('mainview'),
   minGames: getRequiredElement('minq'),
   modalBody: getRequiredElement('mbody'),
@@ -368,6 +370,7 @@ function teamHref(teamName, fragment = '') {
   const url = new URL(window.location.href);
   url.searchParams.set('team', slugify(teamName));
   url.searchParams.delete('player');
+  url.searchParams.delete('lineup');
   url.hash = fragment ? `#${fragment}` : '';
   return `${url.pathname}${url.search}${url.hash}`;
 }
@@ -380,6 +383,16 @@ function standingsHref() {
   const url = new URL(window.location.href);
   url.searchParams.delete('team');
   url.searchParams.delete('player');
+  url.searchParams.delete('lineup');
+  url.hash = '';
+  return `${url.pathname}${url.search}`;
+}
+
+function lineupLabHref() {
+  const url = new URL(window.location.href);
+  url.searchParams.delete('team');
+  url.searchParams.delete('player');
+  url.searchParams.set('lineup', '1');
   url.hash = '';
   return `${url.pathname}${url.search}`;
 }
@@ -401,6 +414,7 @@ function opponentLinkHtml(name, fragment = '') {
 function playerHref(player) {
   const url = new URL(window.location.href);
   url.searchParams.set('player', routeKeyForPlayer(player));
+  url.searchParams.delete('lineup');
   url.hash = '';
   return `${url.pathname}${url.search}`;
 }
@@ -525,8 +539,9 @@ function getRouteFromLocation() {
   const url = new URL(window.location.href);
   const team = url.searchParams.get('team') || '';
   const player = url.searchParams.get('player') || '';
-  if (team || player) {
-    return { team, player };
+  const lineup = url.searchParams.get('lineup') === '1';
+  if (lineup || team || player) {
+    return { team, player, lineup };
   }
   return parseLegacyHashRoute(url.hash);
 }
@@ -542,6 +557,11 @@ function setRouteInUrl(route, { replace = false } = {}) {
     url.searchParams.set('player', route.player);
   } else {
     url.searchParams.delete('player');
+  }
+  if (route.lineup) {
+    url.searchParams.set('lineup', '1');
+  } else {
+    url.searchParams.delete('lineup');
   }
   url.hash = route.hash ? `#${route.hash}` : '';
   const nextUrl = url.toString();
@@ -1439,6 +1459,7 @@ function renderHeader() {
     elements.kicker.textContent = typicalDay ? `${clubName} • ${typicalDay}` : clubName;
   }
   elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
+  if (elements.lineupLink) elements.lineupLink.href = lineupLabHref();
   renderDivisionFavoriteButton();
 
   // One HTML file serves every division in its league, so the <title> in it can
@@ -2466,6 +2487,402 @@ function summarizeProjections(projections) {
   };
 }
 
+// ── Lineup Lab ──────────────────────────────────────────────────────────
+// This is deliberately client-only: captains can experiment without saving or
+// sending a lineup anywhere. The model is the same one used by pending-match
+// projections above, so a hypothetical row and a posted row answer the same
+// question with the same thresholds.
+const lineupLabState = {
+  teamA: '',
+  teamB: '',
+  sourceWeek: 'latest',
+  games: [],
+};
+
+function lineupRoster(teamName) {
+  return DATA.players.filter((player) => player.team === teamName);
+}
+
+function lineupPlayer(name) {
+  return DATA.players.find((player) => player.name === name) || null;
+}
+
+function lineupMatchesForTeam(teamName) {
+  return (DATA.matches || [])
+    .filter((match) => match.complete && (match.home === teamName || match.away === teamName) && match.games?.length)
+    .slice()
+    .sort((a, b) => b.week - a.week);
+}
+
+function lineupMatchForWeek(teamName, week) {
+  const matches = lineupMatchesForTeam(teamName);
+  if (week === 'latest') return matches[0] || null;
+  return matches.find((match) => String(match.week) === String(week)) || null;
+}
+
+function lineupPairFromMatch(match, teamName, gameIndex) {
+  if (!match || !match.games?.[gameIndex]) return ['', ''];
+  const game = match.games[gameIndex];
+  const pair = match.home === teamName ? game.h : game.a;
+  return [pair?.[0] || '', pair?.[1] || ''];
+}
+
+function lineupHistoryWeeks(teamA, teamB) {
+  const weeks = new Set([
+    ...lineupMatchesForTeam(teamA).map((match) => match.week),
+    ...lineupMatchesForTeam(teamB).map((match) => match.week),
+  ]);
+  return [...weeks].sort((a, b) => b - a);
+}
+
+function lineupTemplateMatch(teamA, teamB, sourceA, sourceB) {
+  const direct = (DATA.matches || [])
+    .filter((match) => (
+      ((match.home === teamA && match.away === teamB) || (match.home === teamB && match.away === teamA))
+      && match.games?.length
+    ))
+    .sort((a, b) => b.week - a.week)[0];
+  return direct || sourceA || sourceB || (DATA.matches || []).find((match) => match.games?.length) || null;
+}
+
+function buildLineupLabGames() {
+  const { teamA, teamB, sourceWeek } = lineupLabState;
+  const sourceA = sourceWeek === 'blank' ? null : lineupMatchForWeek(teamA, sourceWeek);
+  const sourceB = sourceWeek === 'blank' ? null : lineupMatchForWeek(teamB, sourceWeek);
+  const template = lineupTemplateMatch(teamA, teamB, sourceA, sourceB);
+  if (!template) return [];
+  return template.games.map((game, index) => ({
+    type: game.t,
+    a: lineupPairFromMatch(sourceA, teamA, index),
+    b: lineupPairFromMatch(sourceB, teamB, index),
+  }));
+}
+
+function ensureLineupLabState() {
+  const teamNames = DATA.teams.map((team) => team.name);
+  if (!teamNames.includes(lineupLabState.teamA)) lineupLabState.teamA = teamNames[0] || '';
+  if (!teamNames.includes(lineupLabState.teamB) || lineupLabState.teamB === lineupLabState.teamA) {
+    lineupLabState.teamB = teamNames.find((name) => name !== lineupLabState.teamA) || '';
+  }
+  if (!lineupLabState.games.length) lineupLabState.games = buildLineupLabGames();
+}
+
+function lineupTeamOptions(selected, otherTeam) {
+  return DATA.teams.map((team) => (
+    `<option value="${escapeHtml(team.name)}"${team.name === selected ? ' selected' : ''}${team.name === otherTeam ? ' disabled' : ''}>${escapeHtml(team.name)}</option>`
+  )).join('');
+}
+
+function lineupSourceOptions() {
+  const weeks = lineupHistoryWeeks(lineupLabState.teamA, lineupLabState.teamB);
+  return [
+    `<option value="latest"${lineupLabState.sourceWeek === 'latest' ? ' selected' : ''}>Latest completed lineups</option>`,
+    ...weeks.map((week) => `<option value="${week}"${String(lineupLabState.sourceWeek) === String(week) ? ' selected' : ''}>Week ${week} lineups</option>`),
+    `<option value="blank"${lineupLabState.sourceWeek === 'blank' ? ' selected' : ''}>Blank lineup</option>`,
+  ].join('');
+}
+
+function lineupExpectedGender(gameType, slotIndex) {
+  if (gameType === 'female') return 'Female';
+  if (gameType === 'male') return 'Male';
+  if (gameType === 'mixed') return slotIndex === 0 ? 'Female' : 'Male';
+  return '';
+}
+
+function lineupRatingText(name) {
+  const rating = resolvePlayerRating(name);
+  if (!rating) return 'no rating';
+  return `${formatSignedValue(rating.rating, 1)}${rating.estimated ? ' est.' : ''}`;
+}
+
+function lineupPlayerOptions(teamName, gameType, slotIndex, selected) {
+  const expectedGender = lineupExpectedGender(gameType, slotIndex);
+  const roster = lineupRoster(teamName)
+    .filter((player) => !expectedGender || player.gender === expectedGender)
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name));
+  if (selected && !roster.some((player) => player.name === selected)) {
+    roster.push(lineupPlayer(selected) || { name: selected, gender: '' });
+  }
+  return [
+    '<option value="">TBD</option>',
+    ...roster.map((player) => (
+      `<option value="${escapeHtml(player.name)}"${player.name === selected ? ' selected' : ''}>${escapeHtml(player.name)} (${escapeHtml(lineupRatingText(player.name))})</option>`
+    )),
+  ].join('');
+}
+
+function lineupPairKey(pair) {
+  if (!pair?.[0] || !pair?.[1] || pair[0] === pair[1]) return '';
+  return pair.slice().sort((a, b) => a.localeCompare(b)).join('\u0000');
+}
+
+function lineupPairCounts(side) {
+  const counts = new Map();
+  for (const game of lineupLabState.games) {
+    const key = lineupPairKey(game[side]);
+    if (key) counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  return counts;
+}
+
+function lineupPairViolations(side, teamName, counts) {
+  return [...counts.entries()]
+    .filter(([, count]) => count > 2)
+    .map(([key, count]) => ({ teamName, pair: key.split('\u0000'), count, side }));
+}
+
+function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts) {
+  const pairCount = pairCounts.get(lineupPairKey(pair)) || 0;
+  const violatesPairLimit = pairCount > 2;
+  return `<div class="lineup-pair${violatesPairLimit ? ' lineup-pair-over-limit' : ''}">
+    ${[0, 1].map((slotIndex) => {
+      const selected = pair[slotIndex] || '';
+      const gender = lineupExpectedGender(gameType, slotIndex);
+      return `<label>
+        <span>${gender === 'Female' ? 'Woman' : gender === 'Male' ? 'Man' : `Player ${slotIndex + 1}`}</span>
+        <select class="lineup-slot" data-game="${gameIndex}" data-side="${side}" data-slot="${slotIndex}" aria-label="${escapeHtml(teamName)} game ${gameIndex + 1} ${gender || `player ${slotIndex + 1}`}">
+          ${lineupPlayerOptions(teamName, gameType, slotIndex, selected)}
+        </select>
+      </label>`;
+    }).join('')}
+    ${violatesPairLimit ? `<span class="lineup-pair-warning">Pair used ${pairCount}× — weekly maximum is 2</span>` : ''}
+  </div>`;
+}
+
+function lineupGameProjection(game) {
+  const duplicateA = game.a[0] && game.a[0] === game.a[1];
+  const duplicateB = game.b[0] && game.b[0] === game.b[1];
+  if (duplicateA || duplicateB) {
+    return { ...INCOMPLETE_PROJECTION, invalid: true };
+  }
+  return projectPendingGame(game.a, game.b);
+}
+
+function lineupTypeBadge(gameType) {
+  const [label, className] = GAME_TYPE_LABELS[gameType] || ['GAME', ''];
+  return `<span class="pill ${className}">${label}</span>`;
+}
+
+function lineupUsage(teamName, side) {
+  const counts = new Map(lineupRoster(teamName).map((player) => [player.name, 0]));
+  for (const game of lineupLabState.games) {
+    for (const name of game[side] || []) {
+      if (name && counts.has(name)) counts.set(name, counts.get(name) + 1);
+    }
+  }
+  return counts;
+}
+
+function renderLineupRoster(teamName, side) {
+  const usage = lineupUsage(teamName, side);
+  const roster = lineupRoster(teamName).slice().sort((a, b) => (
+    a.gender.localeCompare(b.gender) || a.name.localeCompare(b.name)
+  ));
+  const averageDuprValues = roster
+    .map((player) => DUPR_RATINGS[player.playerId]?.rating)
+    .filter((rating) => Number.isFinite(rating));
+  const averageDupr = averageDuprValues.length
+    ? averageDuprValues.reduce((sum, rating) => sum + rating, 0) / averageDuprValues.length
+    : null;
+  return `<section class="lineup-roster" style="--team-color:${getTeamColor(teamName)}">
+    <div class="lineup-roster-head">
+      <h3>${escapeHtml(teamName)}</h3>
+      <span>${roster.length} players${averageDupr == null ? '' : ` • Avg DUPR ${averageDupr.toFixed(3)}`}</span>
+    </div>
+    <div class="lineup-roster-list">
+      ${roster.map((player) => {
+        const rating = resolvePlayerRating(player.name);
+        const dupr = DUPR_RATINGS[player.playerId]?.rating;
+        return `<div class="lineup-roster-player">
+          <span class="lineup-roster-name">${escapeHtml(player.name)}${player.isCaptain ? ' <span class="cap">C</span>' : ''}</span>
+          <span class="lineup-roster-gender">${player.gender === 'Female' ? 'W' : 'M'}</span>
+          <span title="${rating?.estimated ? 'Estimated from DUPR' : 'Division rating'}">Rating <b>${rating ? formatSignedValue(rating.rating, 1) : EMPTY_VALUE}</b>${rating?.estimated ? ' <span class="exp-tag exp-dupr">DUPR</span>' : ''}</span>
+          <span>DUPR <b>${Number.isFinite(dupr) ? Number(dupr).toFixed(3) : EMPTY_VALUE}</b></span>
+          <span class="lineup-usage">${usage.get(player.name) || 0} games</span>
+        </div>`;
+      }).join('')}
+    </div>
+  </section>`;
+}
+
+function lineupSourceDescription() {
+  if (lineupLabState.sourceWeek === 'blank') return 'Starting from a blank lineup.';
+  const sourceA = lineupMatchForWeek(lineupLabState.teamA, lineupLabState.sourceWeek);
+  const sourceB = lineupMatchForWeek(lineupLabState.teamB, lineupLabState.sourceWeek);
+  const describe = (teamName, match) => match
+    ? `${teamName}: Week ${match.week} vs ${match.home === teamName ? match.away : match.home}`
+    : `${teamName}: no lineup found`;
+  return `${describe(lineupLabState.teamA, sourceA)} • ${describe(lineupLabState.teamB, sourceB)}`;
+}
+
+function renderLineupLab({ scroll = true } = {}) {
+  ensureLineupLabState();
+  const projections = lineupLabState.games.map(lineupGameProjection);
+  const pairCountsA = lineupPairCounts('a');
+  const pairCountsB = lineupPairCounts('b');
+  const pairViolations = [
+    ...lineupPairViolations('a', lineupLabState.teamA, pairCountsA),
+    ...lineupPairViolations('b', lineupLabState.teamB, pairCountsB),
+  ];
+  const tally = summarizeProjections(projections);
+  const wins = projections.filter((projection) => projection.outcome === 'win').length;
+  const losses = projections.filter((projection) => projection.outcome === 'loss').length;
+  const ties = projections.filter((projection) => projection.outcome === 'tie').length;
+  const invalid = projections.filter((projection) => projection.invalid).length;
+  const projected = wins + losses + ties;
+  const caveats = [...tally.caveats];
+  if (invalid) caveats.push(`${invalid} ${pluralize(invalid, 'game has', 'games have')} a duplicate player`);
+  const scoreLine = projected
+    ? `<div class="lineup-scoreline">
+        <div><span>${escapeHtml(lineupLabState.teamA)}</span><b class="res-W">${wins}</b></div>
+        <span class="lineup-score-dash">–</span>
+        <div><b class="res-L">${losses}</b><span>${escapeHtml(lineupLabState.teamB)}</span></div>
+        ${ties ? `<span class="lineup-ties">${ties} even</span>` : ''}
+      </div>`
+    : '<div class="lineup-score-empty">Choose players to see a projection</div>';
+  const pairRuleHtml = pairViolations.length
+    ? `<div class="lineup-rule-check violation" role="alert">
+        <b>Pair limit broken</b>
+        <span>A pair may play together no more than twice in a week.</span>
+        <ul>${pairViolations.map((violation) => (
+          `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.pair.join(' / '))} is used ${violation.count} times</li>`
+        )).join('')}</ul>
+      </div>`
+    : `<div class="lineup-rule-check valid"><b>Pair limit clear</b><span>No pair is used more than twice.</span></div>`;
+
+  const rows = lineupLabState.games.map((game, index) => {
+    const projection = projections[index];
+    const duplicate = projection.invalid;
+    const projectionText = duplicate
+      ? '<span class="neg-diff">Choose two different players</span>'
+      : `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;
+    return `<tr${duplicate ? ' class="lineup-invalid"' : ''}>
+      <td class="lineup-game-number">${index + 1}</td>
+      <td>${lineupTypeBadge(game.type)}</td>
+      <td>${renderLineupPair(lineupLabState.teamA, game.a, game.type, index, 'a', pairCountsA)}</td>
+      <td class="lineup-projection">${projectionText}</td>
+      <td>${renderLineupPair(lineupLabState.teamB, game.b, game.type, index, 'b', pairCountsB)}</td>
+    </tr>`;
+  }).join('');
+
+  elements.lineupView.innerHTML = `
+    <a class="backlink" href="${escapeHtml(standingsHref())}">← All standings</a>
+    <div class="lineup-lab-hero">
+      <div>
+        <span class="lineup-eyebrow">Captain's sandbox</span>
+        <h2>Lineup Lab</h2>
+        <p>Test a hypothetical matchup. Nothing here is saved or submitted.</p>
+      </div>
+      <div class="lineup-lab-status">Live projection</div>
+    </div>
+
+    <section class="lineup-setup panel">
+      <div class="lineup-team-picker">
+        <label><span>Team A</span><select id="lineup-team-a">${lineupTeamOptions(lineupLabState.teamA, lineupLabState.teamB)}</select></label>
+        <button type="button" class="lineup-swap" data-lineup-action="swap" title="Swap sides" aria-label="Swap Team A and Team B">⇄</button>
+        <label><span>Team B</span><select id="lineup-team-b">${lineupTeamOptions(lineupLabState.teamB, lineupLabState.teamA)}</select></label>
+      </div>
+      <div class="lineup-template-row">
+        <label><span>Start from</span><select id="lineup-source">${lineupSourceOptions()}</select></label>
+        <button type="button" class="lineup-action" data-lineup-action="reset">Reload these lineups</button>
+        <button type="button" class="lineup-action secondary" data-lineup-action="clear">Clear all</button>
+      </div>
+      <p class="lineup-source-note">${escapeHtml(lineupSourceDescription())}</p>
+    </section>
+
+    ${pairRuleHtml}
+
+    <section class="lineup-score-card panel">
+      <div>
+        <span class="lineup-score-label">Projected game score</span>
+        ${scoreLine}
+      </div>
+      <div class="lineup-score-notes">
+        <span>${projected} of ${lineupLabState.games.length} games projected</span>
+        ${caveats.map((note) => `<span>${note}</span>`).join('')}
+      </div>
+    </section>
+
+    <div class="lineup-rosters">
+      ${renderLineupRoster(lineupLabState.teamA, 'a')}
+      ${renderLineupRoster(lineupLabState.teamB, 'b')}
+    </div>
+
+    <section class="lineup-games-section">
+      <div class="lineup-games-heading">
+        <div><h3>Game lineup</h3><p>Change any player below; the score and every row update immediately.</p></div>
+        <div class="lineup-legend"><span class="pill t-mixed">MIX</span> Woman + man <span class="pill t-female">W</span> Women <span class="pill t-male">M</span> Men</div>
+      </div>
+      <div class="panel scroll lineup-table-wrap">
+        <table class="lineup-table">
+          <thead><tr><th>#</th><th>Type</th><th class="l">${escapeHtml(lineupLabState.teamA)}</th><th>Projection</th><th class="l">${escapeHtml(lineupLabState.teamB)}</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    </section>`;
+
+  elements.mainView.hidden = true;
+  elements.teamView.hidden = true;
+  elements.lineupView.hidden = false;
+  elements.lineupLink.classList.add('active');
+  elements.divisionFavorite.hidden = false;
+  elements.subhead.textContent = 'Lineup Lab — hypothetical matchup planner';
+  const titleSubject = divisionTitleSubject();
+  document.title = titleSubject ? `Lineup Lab - ${titleSubject}` : 'Lineup Lab';
+  refreshStickyLayout();
+  if (scroll) window.scrollTo(0, 0);
+}
+
+function handleLineupLabChange(event) {
+  if (event.target.id === 'lineup-team-a' || event.target.id === 'lineup-team-b') {
+    const side = event.target.id === 'lineup-team-a' ? 'teamA' : 'teamB';
+    const otherSide = side === 'teamA' ? 'teamB' : 'teamA';
+    lineupLabState[side] = event.target.value;
+    if (lineupLabState[side] === lineupLabState[otherSide]) {
+      lineupLabState[otherSide] = DATA.teams.find((team) => team.name !== lineupLabState[side])?.name || '';
+    }
+    lineupLabState.sourceWeek = 'latest';
+    lineupLabState.games = buildLineupLabGames();
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  if (event.target.id === 'lineup-source') {
+    lineupLabState.sourceWeek = event.target.value;
+    lineupLabState.games = buildLineupLabGames();
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  const slot = event.target.closest('.lineup-slot');
+  if (!slot) return;
+  const game = lineupLabState.games[Number(slot.dataset.game)];
+  if (!game) return;
+  game[slot.dataset.side][Number(slot.dataset.slot)] = slot.value;
+  renderLineupLab({ scroll: false });
+}
+
+function handleLineupLabClick(event) {
+  if (!isPlainClick(event)) return;
+  if (event.target.closest('.backlink')) {
+    event.preventDefault();
+    routeSetByApp = true;
+    setRouteInUrl({ team: '', player: '', lineup: false });
+    return;
+  }
+  const action = event.target.closest('[data-lineup-action]')?.dataset.lineupAction;
+  if (!action) return;
+  if (action === 'reset') lineupLabState.games = buildLineupLabGames();
+  if (action === 'clear') {
+    lineupLabState.sourceWeek = 'blank';
+    lineupLabState.games = buildLineupLabGames();
+  }
+  if (action === 'swap') {
+    [lineupLabState.teamA, lineupLabState.teamB] = [lineupLabState.teamB, lineupLabState.teamA];
+    lineupLabState.games = lineupLabState.games.map((game) => ({ ...game, a: game.b, b: game.a }));
+  }
+  renderLineupLab({ scroll: false });
+}
+
 function getProjectedPlayerGames(player) {
   const projectedGames = [];
   for (const match of DATA.matches || []) {
@@ -3289,6 +3706,12 @@ function renderTeamPage(team, { scroll = true } = {}) {
     : '';
   const roster = DATA.players
     .filter((player) => player.team === team.name);
+  const duprValues = roster
+    .map((player) => DUPR_RATINGS[player.playerId]?.rating)
+    .filter((rating) => Number.isFinite(rating));
+  const averageDupr = duprValues.length
+    ? duprValues.reduce((sum, rating) => sum + rating, 0) / duprValues.length
+    : null;
   const duos = DATA.duos.filter((duo) => duo.team === team.name);
   const history = DATA.matches
     .filter((match) => match.complete && (match.home === team.name || match.away === team.name))
@@ -3385,6 +3808,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
         ${podMeta}
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
+        ${averageDupr == null ? '' : `<span title="Average of ${duprValues.length} rostered player${pluralize(duprValues.length, '', 's')} with a numeric DUPR rating">Avg DUPR <b>${averageDupr.toFixed(3)}</b></span>`}
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · ${formatDiffSpan(team.diff)}</span>
         <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${powerRanked})</span></span>
       </div>
@@ -3407,7 +3831,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
     ${playoffMarkup ? teamSection('team-playoffs', 'Playoffs', 'knockout bracket', playoffMarkup) : ''}
   `;
   elements.mainView.hidden = true;
+  if (elements.lineupView) elements.lineupView.hidden = true;
   elements.teamView.hidden = false;
+  elements.lineupLink?.classList.remove('active');
   // The division header stays on screen behind the team page (only #mainview
   // swaps out), so its star has to be hidden explicitly here — otherwise it
   // reads as "favorite the team page you're looking at" and stars the
@@ -3457,7 +3883,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
 
 function showMainView() {
   elements.teamView.hidden = true;
+  if (elements.lineupView) elements.lineupView.hidden = true;
   elements.mainView.hidden = false;
+  elements.lineupLink?.classList.remove('active');
   // Undo renderTeamPage's team-specific <title>; a player modal opened from
   // here never sets document.title, so there's nothing else to restore.
   applyDivisionTitle();
@@ -3482,6 +3910,11 @@ function handleRoute() {
   const route = getRouteFromLocation();
 
   hideModal();
+
+  if (route.lineup && elements.lineupView) {
+    renderLineupLab();
+    return;
+  }
 
   if (route.team) {
     const teamSlug = route.team;
@@ -4053,6 +4486,14 @@ function initialize() {
   // that is replaced the next time the reader sorts the roster.
   elements.teamView.addEventListener('click', handleSectionToggleClick);
   elements.teamView.addEventListener('click', handleTocClick);
+  elements.lineupView?.addEventListener('change', handleLineupLabChange);
+  elements.lineupView?.addEventListener('click', handleLineupLabClick);
+  elements.lineupLink?.addEventListener('click', (event) => {
+    if (!isPlainClick(event)) return;
+    event.preventDefault();
+    routeSetByApp = true;
+    setRouteInUrl({ team: '', player: '', lineup: true });
+  });
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
   // One handler for every star on the page — the division header's, and any
@@ -4155,6 +4596,8 @@ function showFatalError(error) {
   );
   const teamView = document.getElementById('teamview');
   if (teamView) teamView.hidden = true;
+  const lineupView = document.getElementById('lineupview');
+  if (lineupView) lineupView.hidden = true;
 }
 
 // A rejected promise never reaches the try/catch below, and neither does a throw
