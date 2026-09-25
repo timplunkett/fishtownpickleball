@@ -4582,11 +4582,14 @@ function initialize() {
     // in and the way out, alongside the "← All standings" link inside the
     // lab itself.
     const isOpen = elements.lineupLink.classList.contains('active');
-    // Opening from a team's own page carries that team's slug into the URL as
-    // ?team=, same as a real team page would. handleRoute is what actually
-    // seeds lineupLabState.teamA from it — done there, not here, so a
-    // refresh or a shared link lands on the same team a click would.
-    const teamSlug = !isOpen ? getRouteFromLocation().team : '';
+    // ?team=, if the current URL has one, is carried through either way:
+    // opening from a team's own page takes it into the lab as Team A
+    // (handleRoute seeds lineupLabState from it — done there, not here, so a
+    // refresh or a shared link lands the same way a click does), and closing
+    // takes the same slug back out, landing on that team's page again rather
+    // than dropping to plain standings. Only genuinely blank — opened from
+    // standings, with no team in the URL to begin with — closes to standings.
+    const teamSlug = getRouteFromLocation().team;
     setRouteInUrl({ team: teamSlug, player: '', lineup: !isOpen });
   });
   document.addEventListener('click', handleFragmentLinkClick);
