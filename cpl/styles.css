@@ -2811,6 +2811,14 @@ thead th:focus-visible,
   font-weight: 750;
 }
 
+/* The specific slot holding a player who's also in another game this same
+   round — flagged on the <select> itself rather than the whole pair, since
+   the round conflict is that one player's, not the pair's. */
+.lineup-slot-round-conflict {
+  background: rgb(229 83 75 / 10%);
+  border-color: var(--loss);
+}
+
 .lineup-pair label {
   display: flex;
   flex-direction: column;

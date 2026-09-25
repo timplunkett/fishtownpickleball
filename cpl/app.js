@@ -2496,6 +2496,15 @@ function summarizeProjections(projections) {
 // sending a lineup anywhere. The model is the same one used by pending-match
 // projections above, so a hypothetical row and a posted row answer the same
 // question with the same thresholds.
+
+// Games within a match are played in rounds of 4 simultaneous courts (games
+// 1-4, then 5-8, ...) — a rule this league's scheduling already assumes, not
+// a choice made here. A player in two games of the same round would need to
+// be on two courts at once, which the weekly pair-limit check doesn't catch
+// on its own (that one's about a pair repeating across the whole week, not
+// about a single player's own schedule within one round).
+const LINEUP_ROUND_SIZE = 4;
+
 const lineupLabState = {
   teamA: '',
   teamB: '',
@@ -2636,16 +2645,50 @@ function lineupPairViolations(side, teamName, counts) {
     .map(([key, count]) => ({ teamName, pair: key.split('\u0000'), count, side }));
 }
 
-function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts) {
+// Which round (0-based) a game index falls in — see LINEUP_ROUND_SIZE.
+function lineupRoundIndex(gameIndex) {
+  return Math.floor(gameIndex / LINEUP_ROUND_SIZE);
+}
+
+// Counts each player's appearances within their own round, for one side.
+// Returns both the violation list (for the summary panel) and a lookup set
+// keyed "round\u0000name" (for flagging the exact <select>s at fault) so the
+// two stay in sync from one pass over the games instead of two.
+function lineupRoundConflicts(side, teamName) {
+  const byRound = new Map();
+  lineupLabState.games.forEach((game, index) => {
+    const round = lineupRoundIndex(index);
+    const counts = byRound.get(round) || new Map();
+    for (const name of game[side] || []) {
+      if (name) counts.set(name, (counts.get(name) || 0) + 1);
+    }
+    byRound.set(round, counts);
+  });
+  const violations = [];
+  const conflictKeys = new Set();
+  for (const [round, counts] of byRound) {
+    for (const [name, count] of counts) {
+      if (count > 1) {
+        violations.push({ teamName, side, round, name, count });
+        conflictKeys.add(`${round}\u0000${name}`);
+      }
+    }
+  }
+  return { violations, conflictKeys };
+}
+
+function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts, roundConflictKeys) {
   const pairCount = pairCounts.get(lineupPairKey(pair)) || 0;
   const violatesPairLimit = pairCount > 2;
+  const round = lineupRoundIndex(gameIndex);
   return `<div class="lineup-pair${violatesPairLimit ? ' lineup-pair-over-limit' : ''}">
     ${[0, 1].map((slotIndex) => {
       const selected = pair[slotIndex] || '';
       const gender = lineupExpectedGender(gameType, slotIndex);
+      const roundConflict = !!selected && roundConflictKeys.has(`${round}\u0000${selected}`);
       return `<label>
         <span>${gender === 'Female' ? 'Woman' : gender === 'Male' ? 'Man' : `Player ${slotIndex + 1}`}</span>
-        <select class="lineup-slot" data-game="${gameIndex}" data-side="${side}" data-slot="${slotIndex}" aria-label="${escapeHtml(teamName)} game ${gameIndex + 1} ${gender || `player ${slotIndex + 1}`}">
+        <select class="lineup-slot${roundConflict ? ' lineup-slot-round-conflict' : ''}" data-game="${gameIndex}" data-side="${side}" data-slot="${slotIndex}" aria-label="${escapeHtml(teamName)} game ${gameIndex + 1} ${gender || `player ${slotIndex + 1}`}"${roundConflict ? ' title="Also playing another game in this round"' : ''}>
           ${lineupPlayerOptions(teamName, gameType, slotIndex, selected)}
         </select>
       </label>`;
@@ -2743,6 +2786,9 @@ function renderLineupLab({ scroll = true } = {}) {
     ...lineupPairViolations('a', lineupLabState.teamA, pairCountsA),
     ...lineupPairViolations('b', lineupLabState.teamB, pairCountsB),
   ];
+  const roundConflictsA = lineupRoundConflicts('a', lineupLabState.teamA);
+  const roundConflictsB = lineupRoundConflicts('b', lineupLabState.teamB);
+  const roundViolations = [...roundConflictsA.violations, ...roundConflictsB.violations];
   const tally = summarizeProjections(projections);
   const wins = projections.filter((projection) => projection.outcome === 'win').length;
   const losses = projections.filter((projection) => projection.outcome === 'loss').length;
@@ -2768,6 +2814,15 @@ function renderLineupLab({ scroll = true } = {}) {
         )).join('')}</ul>
       </div>`
     : `<div class="lineup-rule-check valid"><b>Pair limit clear</b><span>No pair is used more than twice.</span></div>`;
+  const roundRuleHtml = roundViolations.length
+    ? `<div class="lineup-rule-check violation" role="alert">
+        <b>Round conflict</b>
+        <span>A player can't be in two games in the same round (1–4, 5–8, …) — they'd need to be on two courts at once.</span>
+        <ul>${roundViolations.map((violation) => (
+          `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.name)} is in ${violation.count} games in round ${violation.round + 1}</li>`
+        )).join('')}</ul>
+      </div>`
+    : `<div class="lineup-rule-check valid"><b>Round conflict clear</b><span>No player is in two games in the same round.</span></div>`;
 
   const rows = lineupLabState.games.map((game, index) => {
     const projection = projections[index];
@@ -2778,9 +2833,9 @@ function renderLineupLab({ scroll = true } = {}) {
     return `<tr${duplicate ? ' class="lineup-invalid"' : ''}>
       <td class="lineup-game-number">${index + 1}</td>
       <td>${lineupTypeBadge(game.type)}</td>
-      <td>${renderLineupPair(lineupLabState.teamA, game.a, game.type, index, 'a', pairCountsA)}</td>
+      <td>${renderLineupPair(lineupLabState.teamA, game.a, game.type, index, 'a', pairCountsA, roundConflictsA.conflictKeys)}</td>
       <td class="lineup-projection">${projectionText}</td>
-      <td>${renderLineupPair(lineupLabState.teamB, game.b, game.type, index, 'b', pairCountsB)}</td>
+      <td>${renderLineupPair(lineupLabState.teamB, game.b, game.type, index, 'b', pairCountsB, roundConflictsB.conflictKeys)}</td>
     </tr>`;
   }).join('');
 
@@ -2810,6 +2865,7 @@ function renderLineupLab({ scroll = true } = {}) {
     </section>
 
     ${pairRuleHtml}
+    ${roundRuleHtml}
 
     <section class="lineup-score-card panel">
       <div>
