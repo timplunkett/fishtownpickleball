@@ -2682,42 +2682,41 @@ thead th:focus-visible,
   font-size: 10.5px;
 }
 
-.lineup-roster-list {
-  display: flex;
-  flex-direction: column;
+.lineup-roster-table-wrap {
+  background: var(--panel);
 }
 
-.lineup-roster-player {
-  display: grid;
-  grid-template-columns: minmax(130px, 1fr) 22px 105px 92px 58px;
-  gap: 8px;
-  align-items: center;
+.lineup-roster-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lineup-roster-table th,
+.lineup-roster-table td {
   padding: 7px 12px;
   font-size: 11px;
   border-bottom: 1px solid rgb(42 50 61 / 65%);
 }
 
-.lineup-roster-player:last-child {
-  border-bottom: 0;
+/* Not a sortable table like the standings/roster ones — the pointer cursor
+   and hover-brightens on a bare `thead th` elsewhere would promise a click
+   this header doesn't do anything with. */
+.lineup-roster-table thead th {
+  cursor: default;
 }
 
-.lineup-roster-name {
-  overflow: hidden;
-  color: var(--txt);
-  font-size: 12px;
-  font-weight: 650;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.lineup-roster-gender,
-.lineup-usage {
+.lineup-roster-table thead th:hover {
   color: var(--mut);
 }
 
-.lineup-usage {
-  text-align: right;
-  white-space: nowrap;
+.lineup-roster-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.lineup-roster-table td.l {
+  color: var(--txt);
+  font-size: 12px;
+  font-weight: 650;
 }
 
 .lineup-games-section {
@@ -2878,13 +2877,9 @@ thead th:focus-visible,
     margin-top: -48px;
   }
 
-  .lineup-roster-player {
-    grid-template-columns: minmax(130px, 1fr) 20px 88px 56px;
-  }
-
-  .lineup-roster-player > span:nth-child(4) {
-    display: none;
-  }
+  /* The roster is a real table now (see .lineup-roster-table-wrap): a narrow
+     viewport scrolls it sideways via the same .scroll wrapper the games table
+     already uses, rather than squeezing columns. */
 }
 
 /* ─── DUPR bracket audit page ──────────────────────────────────────── */

@@ -2674,6 +2674,19 @@ function lineupUsage(teamName, side) {
   return counts;
 }
 
+// Same rating a hypothetical pairing is scored on (resolvePlayerRating, with
+// its DUPR stand-in for anyone with no games in this division yet), styled
+// the way every other table on the dashboard styles a rating: signed, color
+// by direction, and a DUPR pill when it's standing on that stand-in rather
+// than a real one.
+function renderLineupRatingCell(player) {
+  const rating = resolvePlayerRating(player.name);
+  if (!rating) return EMPTY_VALUE;
+  const className = rating.rating >= 0 ? 'pos-diff' : 'neg-diff';
+  const title = rating.estimated ? 'Estimated from DUPR' : `${player.ratingGames} games`;
+  return `<span class="rating ${className}" title="${escapeHtml(title)}">${formatSignedValue(rating.rating, 1)}</span>${renderEstimateTag(rating.estimated)}`;
+}
+
 function renderLineupRoster(teamName, side) {
   const usage = lineupUsage(teamName, side);
   const roster = lineupRoster(teamName).slice().sort((a, b) => (
@@ -2685,23 +2698,24 @@ function renderLineupRoster(teamName, side) {
   const averageDupr = averageDuprValues.length
     ? averageDuprValues.reduce((sum, rating) => sum + rating, 0) / averageDuprValues.length
     : null;
+  const rows = roster.map((player) => `
+    <tr>
+      <td class="l">${escapeHtml(player.name)}${player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : ''}${player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : ''}</td>
+      <td>${player.gender === 'Female' ? 'W' : 'M'}</td>
+      <td>${renderLineupRatingCell(player)}</td>
+      <td>${renderCell(player, 'dupr')}</td>
+      <td>${usage.get(player.name) || 0}</td>
+    </tr>`).join('');
   return `<section class="lineup-roster" style="--team-color:${getTeamColor(teamName)}">
     <div class="lineup-roster-head">
       <h3>${escapeHtml(teamName)}</h3>
       <span>${roster.length} players${averageDupr == null ? '' : ` • Avg DUPR ${averageDupr.toFixed(3)}`}</span>
     </div>
-    <div class="lineup-roster-list">
-      ${roster.map((player) => {
-        const rating = resolvePlayerRating(player.name);
-        const dupr = DUPR_RATINGS[player.playerId]?.rating;
-        return `<div class="lineup-roster-player">
-          <span class="lineup-roster-name">${escapeHtml(player.name)}${player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : ''}${player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : ''}</span>
-          <span class="lineup-roster-gender">${player.gender === 'Female' ? 'W' : 'M'}</span>
-          <span title="${rating?.estimated ? 'Estimated from DUPR' : 'Division rating'}">Rating <b>${rating ? formatSignedValue(rating.rating, 1) : EMPTY_VALUE}</b>${rating?.estimated ? ' <span class="exp-tag exp-dupr">DUPR</span>' : ''}</span>
-          <span>DUPR <b>${Number.isFinite(dupr) ? Number(dupr).toFixed(3) : EMPTY_VALUE}</b></span>
-          <span class="lineup-usage">${usage.get(player.name) || 0} games</span>
-        </div>`;
-      }).join('')}
+    <div class="scroll lineup-roster-table-wrap">
+      <table class="lineup-roster-table">
+        <thead><tr><th class="l">Player</th><th></th><th>Rating</th><th>DUPR</th><th>In lineup</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
     </div>
   </section>`;
 }
