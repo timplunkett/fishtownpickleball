@@ -2520,29 +2520,33 @@ function lineupPlayer(name) {
   return DATA.players.find((player) => player.name === name) || null;
 }
 
+// Team's own matches with posted games — completed, or still scheduled with
+// lineups already posted for them — newest week first. Every match here is
+// addressed by its own position in this exact list (see sourceWeek's
+// 'match:N' values in rebuildLineupLabGames), never by week number: a team
+// can have two matches filed under the same week (a makeup alongside the
+// regular slate), which made a by-week lookup resolve to the wrong one.
 function lineupMatchesForTeam(teamName) {
   return (DATA.matches || [])
-    .filter((match) => match.complete && (match.home === teamName || match.away === teamName) && match.games?.length)
+    .filter((match) => (match.home === teamName || match.away === teamName) && match.games?.length)
     .slice()
     .sort((a, b) => b.week - a.week);
 }
 
-function lineupMatchForWeek(teamName, week) {
-  const matches = lineupMatchesForTeam(teamName);
-  if (week === 'latest') return matches[0] || null;
-  return matches.find((match) => String(match.week) === String(week)) || null;
+// The most recent *finished* result — the specific thing "Latest completed
+// lineups" means, as distinct from lineupMatchesForTeam[0], which (now that
+// that list also holds posted-but-unplayed matches) could be a match that
+// hasn't happened yet.
+function lineupLatestCompletedMatchForTeam(teamName) {
+  return lineupMatchesForTeam(teamName).find((match) => match.complete) || null;
 }
 
 // The next match on team's own schedule that hasn't been played yet, earliest
 // week first, regardless of whether its lineups have been posted — "who do
-// we play next", as opposed to lineupMatchesForTeam's completed-only "who
-// did we just play". Used only to default Team B when the lab is opened
-// fresh from a team's own page. Deliberately not folded into
-// lineupMatchesForTeam / lineupMatchForWeek: a team can have more than one
-// match filed under the same week number (a makeup alongside the regular
-// slate), and looking a specific match back up by week number alone, the way
-// those two do, can resolve to the wrong one when that happens — this
-// returns the one exact match object instead, with no re-lookup involved.
+// we play next", as opposed to the completed-only "who did we just play"
+// above. Used only to default Team B when the lab is opened fresh from a
+// team's own page: a match with nothing posted yet still names the right
+// opponent, even though it won't appear in lineupMatchesForTeam until it does.
 function lineupNextOpponentMatch(teamName) {
   return (DATA.matches || [])
     .filter((match) => !match.complete && (match.home === teamName || match.away === teamName))
@@ -2556,64 +2560,60 @@ function lineupPairFromMatch(match, teamName, gameIndex) {
   return [pair?.[0] || '', pair?.[1] || ''];
 }
 
-function lineupHistoryWeeks(teamA, teamB) {
-  const weeks = new Set([
-    ...lineupMatchesForTeam(teamA).map((match) => match.week),
-    ...lineupMatchesForTeam(teamB).map((match) => match.week),
-  ]);
-  return [...weeks].sort((a, b) => b - a);
-}
-
-function lineupTemplateMatch(teamA, teamB, sourceA, sourceB) {
-  const direct = (DATA.matches || [])
-    .filter((match) => (
-      ((match.home === teamA && match.away === teamB) || (match.home === teamB && match.away === teamA))
-      && match.games?.length
-    ))
-    .sort((a, b) => b.week - a.week)[0];
-  return direct || sourceA || sourceB || (DATA.matches || []).find((match) => match.games?.length) || null;
-}
-
-function buildLineupLabGames() {
-  const { teamA, teamB, sourceWeek } = lineupLabState;
-  const sourceA = sourceWeek === 'blank' ? null : lineupMatchForWeek(teamA, sourceWeek);
-  const sourceB = sourceWeek === 'blank' ? null : lineupMatchForWeek(teamB, sourceWeek);
-  const template = lineupTemplateMatch(teamA, teamB, sourceA, sourceB);
+// Builds games from two independently-resolved sources, one per side — the
+// general case, for whenever Team A's and Team B's pairs aren't coming from
+// the same match (they're not currently playing each other, so each side
+// shows its own most recent or chosen lineup). The game-type/count "shape"
+// comes from whichever source exists; a game with no source for a side
+// simply has that side's pair come back blank (lineupPairFromMatch already
+// handles a null match that way).
+function lineupGamesFromSources(matchA, matchB, teamA, teamB) {
+  const template = matchA || matchB || (DATA.matches || []).find((match) => match.games?.length) || null;
   if (!template) return [];
   return template.games.map((game, index) => ({
     type: game.t,
-    a: lineupPairFromMatch(sourceA, teamA, index),
-    b: lineupPairFromMatch(sourceB, teamB, index),
+    a: lineupPairFromMatch(matchA, teamA, index),
+    b: lineupPairFromMatch(matchB, teamB, index),
   }));
 }
 
 // Builds games directly from one known match — homeTeam's own pair on side
-// 'a', the match's other side on 'b' — with no by-week re-lookup at all. This
-// is what backs sourceWeek === 'next' (see lineupNextOpponentMatch): that
-// value names a specific match this session already found, not a week
-// number buildLineupLabGames could look back up unambiguously for arbitrary
-// teams.
+// 'a', the match's other side on 'b'. The case where Team A and Team B
+// actually are that match's two teams, so both sides come from the same
+// unambiguous source instead of two independently-resolved ones.
 function lineupGamesFromMatch(match, homeTeam) {
   if (!match?.games?.length) return [];
   const opponent = match.home === homeTeam ? match.away : match.home;
-  return match.games.map((game, index) => ({
-    type: game.t,
-    a: lineupPairFromMatch(match, homeTeam, index),
-    b: lineupPairFromMatch(match, opponent, index),
-  }));
+  return lineupGamesFromSources(match, match, homeTeam, opponent);
 }
 
-// The general entry point for (re)building lineupLabState.games — everywhere
-// that used to call buildLineupLabGames directly now calls this, so
-// sourceWeek === 'next' rebuilds the same safe way the initial seed does
-// instead of falling into buildLineupLabGames's by-week lookup, which
-// doesn't know what to do with 'next' and would hand back an empty pair for
-// every game.
+// The one place lineupLabState.games gets (re)built, so every caller —
+// ensureLineupLabState, the "Start from" dropdown, "Reload these lineups",
+// switching teams — rebuilds a given sourceWeek value the same way.
+// sourceWeek is 'blank' (no source at all), 'latest' (each team's own most
+// recent completed match, independently), or 'match:<N>' — the Nth entry in
+// Team A's own lineupMatchesForTeam list (see there for why an entry is
+// addressed by position, not by week number). When that specific match's
+// opponent happens to be the current Team B, it's a real, shared matchup and
+// both sides come from it directly (lineupGamesFromMatch); otherwise Team A's
+// chosen match still supplies Team A's own side, same as 'latest' would
+// supply Team B's.
 function rebuildLineupLabGames() {
-  if (lineupLabState.sourceWeek === 'next') {
-    return lineupGamesFromMatch(lineupNextOpponentMatch(lineupLabState.teamA), lineupLabState.teamA);
+  const { teamA, teamB, sourceWeek } = lineupLabState;
+  if (sourceWeek === 'blank') return lineupGamesFromSources(null, null, teamA, teamB);
+  if (typeof sourceWeek === 'string' && sourceWeek.startsWith('match:')) {
+    const match = lineupMatchesForTeam(teamA)[Number(sourceWeek.slice(6))];
+    if (!match) return [];
+    const opponent = match.home === teamA ? match.away : match.home;
+    if (opponent === teamB) return lineupGamesFromMatch(match, teamA);
+    return lineupGamesFromSources(match, lineupLatestCompletedMatchForTeam(teamB), teamA, teamB);
   }
-  return buildLineupLabGames();
+  return lineupGamesFromSources(
+    lineupLatestCompletedMatchForTeam(teamA),
+    lineupLatestCompletedMatchForTeam(teamB),
+    teamA,
+    teamB,
+  );
 }
 
 function ensureLineupLabState() {
@@ -2631,21 +2631,19 @@ function lineupTeamOptions(selected, otherTeam) {
   )).join('');
 }
 
-// The "Upcoming Week N" option only ever names Team A's own next opponent —
-// it's meaningless once Team A/B stop being that exact pairing, so it's only
-// offered while they still are, rather than staying selectable (and silently
-// wrong) after a team's swapped out from under it.
+// One option per Team A's own match (see lineupMatchesForTeam), named by the
+// actual opponent rather than a bare week number — regenerated every render,
+// since the list is specific to whichever team is currently Team A.
 function lineupSourceOptions() {
-  const weeks = lineupHistoryWeeks(lineupLabState.teamA, lineupLabState.teamB);
-  const nextMatch = lineupNextOpponentMatch(lineupLabState.teamA);
-  const nextOpponent = nextMatch && (nextMatch.home === lineupLabState.teamA ? nextMatch.away : nextMatch.home);
-  const nextOption = nextOpponent === lineupLabState.teamB && nextMatch.games?.length
-    ? `<option value="next"${lineupLabState.sourceWeek === 'next' ? ' selected' : ''}>Upcoming Week ${nextMatch.week} lineup (posted)</option>`
-    : '';
+  const matchOptions = lineupMatchesForTeam(lineupLabState.teamA).map((match, index) => {
+    const opponent = match.home === lineupLabState.teamA ? match.away : match.home;
+    const status = match.complete ? '' : ' — posted, not yet played';
+    const value = `match:${index}`;
+    return `<option value="${value}"${lineupLabState.sourceWeek === value ? ' selected' : ''}>Week ${match.week} vs ${escapeHtml(opponent)}${status}</option>`;
+  });
   return [
-    `<option value="latest"${lineupLabState.sourceWeek === 'latest' ? ' selected' : ''}>Latest completed lineups</option>`,
-    nextOption,
-    ...weeks.map((week) => `<option value="${week}"${String(lineupLabState.sourceWeek) === String(week) ? ' selected' : ''}>Week ${week} lineups</option>`),
+    `<option value="latest"${lineupLabState.sourceWeek === 'latest' ? ' selected' : ''}>Latest completed lineups (each team's own)</option>`,
+    ...matchOptions,
     `<option value="blank"${lineupLabState.sourceWeek === 'blank' ? ' selected' : ''}>Blank lineup</option>`,
   ].join('');
 }
@@ -2823,19 +2821,25 @@ function renderLineupRoster(teamName, side) {
 }
 
 function lineupSourceDescription() {
-  if (lineupLabState.sourceWeek === 'blank') return 'Starting from a blank lineup.';
-  if (lineupLabState.sourceWeek === 'next') {
-    const nextMatch = lineupNextOpponentMatch(lineupLabState.teamA);
-    return nextMatch
-      ? `${lineupLabState.teamA}: next scheduled matchup, Week ${nextMatch.week} vs ${lineupLabState.teamB}.`
-      : `${lineupLabState.teamA}: no upcoming lineup found.`;
-  }
-  const sourceA = lineupMatchForWeek(lineupLabState.teamA, lineupLabState.sourceWeek);
-  const sourceB = lineupMatchForWeek(lineupLabState.teamB, lineupLabState.sourceWeek);
+  const { teamA, teamB, sourceWeek } = lineupLabState;
   const describe = (teamName, match) => match
     ? `${teamName}: Week ${match.week} vs ${match.home === teamName ? match.away : match.home}`
     : `${teamName}: no lineup found`;
-  return `${describe(lineupLabState.teamA, sourceA)} • ${describe(lineupLabState.teamB, sourceB)}`;
+
+  if (sourceWeek === 'blank') return 'Starting from a blank lineup.';
+
+  if (typeof sourceWeek === 'string' && sourceWeek.startsWith('match:')) {
+    const match = lineupMatchesForTeam(teamA)[Number(sourceWeek.slice(6))];
+    if (!match) return `${teamA}: lineup not found.`;
+    const opponent = match.home === teamA ? match.away : match.home;
+    const status = match.complete ? '' : ' — posted, not yet played';
+    if (opponent === teamB) return `Week ${match.week}: ${teamA} vs ${teamB}${status}.`;
+    // Team B isn't this match's opponent (a hypothetical pairing), so it's
+    // described the same way 'latest' describes it: on its own.
+    return `${describe(teamA, match)}${status} • ${describe(teamB, lineupLatestCompletedMatchForTeam(teamB))}`;
+  }
+
+  return `${describe(teamA, lineupLatestCompletedMatchForTeam(teamA))} • ${describe(teamB, lineupLatestCompletedMatchForTeam(teamB))}`;
 }
 
 function renderLineupLab({ scroll = true } = {}) {
@@ -2978,7 +2982,7 @@ function handleLineupLabChange(event) {
       lineupLabState[otherSide] = DATA.teams.find((team) => team.name !== lineupLabState[side])?.name || '';
     }
     lineupLabState.sourceWeek = 'latest';
-    lineupLabState.games = buildLineupLabGames();
+    lineupLabState.games = rebuildLineupLabGames();
     renderLineupLab({ scroll: false });
     return;
   }
@@ -3009,7 +3013,7 @@ function handleLineupLabClick(event) {
   if (action === 'reset') lineupLabState.games = rebuildLineupLabGames();
   if (action === 'clear') {
     lineupLabState.sourceWeek = 'blank';
-    lineupLabState.games = buildLineupLabGames();
+    lineupLabState.games = rebuildLineupLabGames();
   }
   if (action === 'swap') {
     [lineupLabState.teamA, lineupLabState.teamB] = [lineupLabState.teamB, lineupLabState.teamA];
@@ -4057,25 +4061,20 @@ function handleRoute() {
       // Landing here from a team's own page, the natural Team B is whoever
       // they play next — not the arbitrary first-other-team default
       // ensureLineupLabState falls back to. When that next match already has
-      // lineups posted, load those directly from it rather than through
-      // sourceWeek/buildLineupLabGames: a team can have more than one match
-      // in the same week number (a makeup alongside the regular slate), and
-      // looking that pair back up by week alone can resolve to the wrong one
-      // — nextMatch is already the exact, unambiguous match, so its own
-      // games are used as-is instead of re-finding it by a number that isn't
-      // guaranteed to be unique.
+      // posted lineups, it's also in lineupMatchesForTeam by now, so it's
+      // addressed the same 'match:N' way any other entry in the "Start from"
+      // dropdown is, rather than needing its own special sourceWeek value.
       const nextMatch = lineupNextOpponentMatch(requestedTeam.name);
       const nextOpponent = nextMatch && (nextMatch.home === requestedTeam.name ? nextMatch.away : nextMatch.home);
       if (nextOpponent) {
         lineupLabState.teamB = nextOpponent;
-        const games = lineupGamesFromMatch(nextMatch, requestedTeam.name);
-        lineupLabState.sourceWeek = games.length ? 'next' : 'latest';
-        lineupLabState.games = games;
+        const index = lineupMatchesForTeam(requestedTeam.name).indexOf(nextMatch);
+        lineupLabState.sourceWeek = index === -1 ? 'latest' : `match:${index}`;
       } else {
         if (lineupLabState.teamB === requestedTeam.name) lineupLabState.teamB = '';
         lineupLabState.sourceWeek = 'latest';
-        lineupLabState.games = [];
       }
+      lineupLabState.games = [];
     }
     renderLineupLab();
     return;
