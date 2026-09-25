@@ -390,7 +390,11 @@ function standingsHref() {
 
 function lineupLabHref() {
   const url = new URL(window.location.href);
-  url.searchParams.delete('team');
+  // ?team=, if present, is a team page's own team — left in rather than
+  // dropped, so this reads the same way the click handler behaves: opening
+  // the lab from a team's page carries it in as Team A. (This href is only
+  // set once at load, from renderHeader — the click handler re-derives it
+  // fresh, which is what makes team-switching after that still work.)
   url.searchParams.delete('player');
   url.searchParams.set('lineup', '1');
   url.hash = '';
@@ -3926,6 +3930,17 @@ function handleRoute() {
   hideModal();
 
   if (route.lineup && elements.lineupView) {
+    // ?team= alongside ?lineup=1 names Team A — set by the nav link's click
+    // handler and left in the URL, so this same seeding runs identically on
+    // a hard refresh or a shared link, not just the click that got here.
+    const requestedTeam = route.team &&
+      DATA.teams.find((candidate) => slugify(candidate.name) === route.team);
+    if (requestedTeam && requestedTeam.name !== lineupLabState.teamA) {
+      lineupLabState.teamA = requestedTeam.name;
+      if (lineupLabState.teamB === requestedTeam.name) lineupLabState.teamB = '';
+      lineupLabState.sourceWeek = 'latest';
+      lineupLabState.games = [];
+    }
     renderLineupLab();
     return;
   }
@@ -4511,21 +4526,12 @@ function initialize() {
     // in and the way out, alongside the "← All standings" link inside the
     // lab itself.
     const isOpen = elements.lineupLink.classList.contains('active');
-    if (!isOpen) {
-      // Opening from a team's own page means that team is who the captain
-      // clicked this from — seed it as Team A instead of leaving whichever
-      // two teams the lab last had (or its first-two-teams default).
-      const currentTeamSlug = getRouteFromLocation().team;
-      const currentTeam = currentTeamSlug &&
-        DATA.teams.find((candidate) => slugify(candidate.name) === currentTeamSlug);
-      if (currentTeam) {
-        lineupLabState.teamA = currentTeam.name;
-        if (lineupLabState.teamB === currentTeam.name) lineupLabState.teamB = '';
-        lineupLabState.sourceWeek = 'latest';
-        lineupLabState.games = [];
-      }
-    }
-    setRouteInUrl({ team: '', player: '', lineup: !isOpen });
+    // Opening from a team's own page carries that team's slug into the URL as
+    // ?team=, same as a real team page would. handleRoute is what actually
+    // seeds lineupLabState.teamA from it — done there, not here, so a
+    // refresh or a shared link lands on the same team a click would.
+    const teamSlug = !isOpen ? getRouteFromLocation().team : '';
+    setRouteInUrl({ team: teamSlug, player: '', lineup: !isOpen });
   });
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
