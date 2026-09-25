@@ -249,19 +249,25 @@ test('the contents strip resolves hover after its state rules', () => {
   assert.match(hoverRule[1], /background:\s*var\(--accent\)/);
 });
 
-// The heading is ordinary content again; only the strip may stick.
+// The heading is ordinary content again; only the strip, the table headers,
+// and the Lineup Lab's own score summary may stick. That last one is a
+// deliberate, named exception rather than a loosening of the rule: the lab
+// has no contents strip of its own to pin the projection under, and the
+// whole point of the summary is staying visible while the reader scrolls
+// down into the game rows below it that they're actually changing.
 test('nothing sticks to the viewport but the contents strip', () => {
   const stuck = rules().filter(([selector, body]) => {
     if (!/position:\s*sticky/.test(body)) return false;
     const trimmed = selector.trim();
     return trimmed !== '.section-toc'
+      && trimmed !== '.lineup-score-card'
       && !/thead th/.test(trimmed)
       && !/th\.row/.test(trimmed);
   });
   assert.deepEqual(
     stuck.map(([selector]) => selector.replace(/\s+/g, ' ')),
     [],
-    'something other than the strip and the table headers is sticking',
+    'something other than the strip, the table headers, and .lineup-score-card is sticking',
   );
 });
 

@@ -2584,7 +2584,15 @@ thead th:focus-visible,
   color: var(--txt);
 }
 
+/* Sticks to the top of the viewport rather than scrolling away with the
+   setup panel above it, so the projection is still on screen once the reader
+   has scrolled down into the game rows they're actually changing. Below the
+   contents strip (10) and the grid's own sticky headers (2–4) on pages that
+   have those — this view has neither — and well below the player modal (50). */
 .lineup-score-card {
+  position: sticky;
+  top: 0;
+  z-index: 6;
   display: flex;
   gap: 24px;
   align-items: center;
