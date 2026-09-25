@@ -1529,6 +1529,17 @@ thead th:focus-visible,
   border: 1px dashed var(--line);
 }
 
+/* Marks a Lineup Lab difficulty read that's estimated against a whole
+   roster's average rating rather than a real, posted opposing pair.
+   Deliberately styled the same colourless way as .exp-dupr, for the same
+   reason: it qualifies the label beside it and must not read as a result. */
+.exp-vs-avg {
+  min-width: 0;
+  color: var(--mut);
+  background: transparent;
+  border: 1px dashed var(--line);
+}
+
 /* Partner-chemistry chips in the player modal */
 .mh-partners {
   display: flex;

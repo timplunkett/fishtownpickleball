@@ -2725,6 +2725,72 @@ function lineupGameProjection(game) {
   return projectPendingGame(game.a, game.b);
 }
 
+// Every roster player's rating (own division rating, or DUPR stand-in),
+// filtered to one game-type slot's required gender — the pool a genuinely
+// unknown pair would probably be drawn from.
+function lineupRosterRatings(teamName, gender) {
+  return lineupRoster(teamName)
+    .filter((player) => !gender || player.gender === gender)
+    .map((player) => resolvePlayerRating(player.name))
+    .filter(Boolean);
+}
+
+function lineupAverageRating(ratings) {
+  return ratings.reduce((sum, r) => sum + r.rating, 0) / ratings.length;
+}
+
+// A stand-in for "what will this team's pair probably look like here" when
+// nothing at all has been picked for a game yet: the average rating of
+// every roster player eligible for each of the two slots this game type
+// needs (mixed sums an average woman + an average man; female/male sums two
+// averages of the same pool), rather than any specific pair — there's no way
+// to know who will actually be posted. Null when either slot has nobody on
+// the roster with a usable rating.
+function lineupEstimatedOpponentPairRating(teamName, gameType) {
+  const bySlot = [0, 1].map((slotIndex) => lineupRosterRatings(teamName, lineupExpectedGender(gameType, slotIndex)));
+  if (bySlot.some((ratings) => !ratings.length)) return null;
+  return {
+    rating: bySlot.reduce((total, ratings) => total + lineupAverageRating(ratings), 0),
+    estimated: bySlot.some((ratings) => ratings.some((r) => r.estimated)),
+  };
+}
+
+function describeLineupDifficulty(margin, estimated) {
+  const marginLabel = formatSignedValue(margin, 1);
+  const tag = ` <span class="exp-tag exp-vs-avg" title="Estimated against the other side's average roster rating for this slot — no lineup posted there yet, so the actual pair could be stronger or weaker than this">vs avg</span>${renderEstimateTag(estimated)}`;
+  const build = (resultClass, label) => ({ resultClass, displayLabel: `${label} (${marginLabel})${tag}` });
+  if (Math.abs(margin) < 1.0) return build(RESULT_CLASS.neutral, 'Even');
+  if (margin > 2.5) return build(RESULT_CLASS.slightWin, 'Easier');
+  if (margin > 0) return build(RESULT_CLASS.slightWin, 'Slightly easier');
+  if (margin < -2.5) return build(RESULT_CLASS.slightLoss, 'Tougher');
+  return build(RESULT_CLASS.slightLoss, 'Slightly tougher');
+}
+
+// A relative-difficulty read for a game where one side has a full pair
+// chosen and the other hasn't been touched at all — projectPendingGame
+// already declines to score that (there's no real opponent yet), but
+// leaving it blank wastes the one side's picks: this compares that pair's
+// rating sum against lineupEstimatedOpponentPairRating for the blank side,
+// so a captain scanning the column can still tell which of their own set
+// games look like tougher or easier spots. Null whenever the comparison
+// isn't meaningful — both sides blank, both set, a side only half-filled, or
+// the blank side has nobody rated for one of the slots.
+function lineupDifficultyEstimate(game, teamA, teamB) {
+  const aBlank = !game.a[0] && !game.a[1];
+  const bBlank = !game.b[0] && !game.b[1];
+  let ourPair, theirTeam;
+  if (isPairPosted(game.a) && bBlank) { ourPair = game.a; theirTeam = teamB; }
+  else if (isPairPosted(game.b) && aBlank) { ourPair = game.b; theirTeam = teamA; }
+  else return null;
+  const ours = ourPair.map(resolvePlayerRating);
+  if (ours.some((rating) => !rating)) return null;
+  const theirBaseline = lineupEstimatedOpponentPairRating(theirTeam, game.type);
+  if (!theirBaseline) return null;
+  const oursSum = ours[0].rating + ours[1].rating;
+  const margin = Math.round((oursSum - theirBaseline.rating) * 10) / 10;
+  return describeLineupDifficulty(margin, ours.some((rating) => rating.estimated) || theirBaseline.estimated);
+}
+
 function lineupTypeBadge(gameType) {
   const [label, className] = GAME_TYPE_LABELS[gameType] || ['GAME', ''];
   return `<span class="pill ${className}">${label}</span>`;
@@ -2844,9 +2910,20 @@ function renderLineupLab({ scroll = true } = {}) {
   const rows = lineupLabState.games.map((game, index) => {
     const projection = projections[index];
     const duplicate = projection.invalid;
-    const projectionText = duplicate
-      ? '<span class="neg-diff">Choose two different players</span>'
-      : `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;
+    let projectionText;
+    if (duplicate) {
+      projectionText = '<span class="neg-diff">Choose two different players</span>';
+    } else if (projection.outcome === 'incomplete') {
+      // No real opponent to project against (one or both sides aren't fully
+      // posted), but a set pair facing a still-blank side can still get a
+      // relative-difficulty read instead of a bare dash.
+      const difficulty = lineupDifficultyEstimate(game, lineupLabState.teamA, lineupLabState.teamB);
+      projectionText = difficulty
+        ? `<span class="${difficulty.resultClass}">${difficulty.displayLabel}</span>`
+        : `<span class="${projection.resultClass}">${projection.displayLabel}</span>`;
+    } else {
+      projectionText = `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;
+    }
     return `<tr${duplicate ? ' class="lineup-invalid"' : ''}>
       <td class="lineup-game-number">${index + 1}</td>
       <td>${lineupTypeBadge(game.type)}</td>
