@@ -571,7 +571,12 @@ function getRouteFromLocation() {
   return parseLegacyHashRoute(url.hash);
 }
 
-function setRouteInUrl(route, { replace = false } = {}) {
+// render:false updates the address bar without re-running handleRoute() —
+// for a caller already inside the lineup view that's about to re-render
+// itself (e.g. with { scroll: false }), where handleRoute()'s own
+// unconditional renderLineupLab() (which always scrolls to top) would be a
+// second, more disruptive render of the same change.
+function setRouteInUrl(route, { replace = false, render = true } = {}) {
   const url = new URL(window.location.href);
   if (route.team) {
     url.searchParams.set('team', route.team);
@@ -592,7 +597,7 @@ function setRouteInUrl(route, { replace = false } = {}) {
   const nextUrl = url.toString();
   const currentUrl = window.location.href;
   if (nextUrl === currentUrl) {
-    handleRoute();
+    if (render) handleRoute();
     return;
   }
   if (replace) {
@@ -600,7 +605,7 @@ function setRouteInUrl(route, { replace = false } = {}) {
   } else {
     history.pushState(null, '', nextUrl);
   }
-  handleRoute();
+  if (render) handleRoute();
 }
 
 function migrateLegacyHashRoute() {
@@ -3061,6 +3066,14 @@ function handleLineupLabChange(event) {
     // rather than keep it, same as opening the lab from a team's own page.
     lineupLabState.matchupIndex = lineupDefaultMatchupIndex(lineupLabState.teamA);
     lineupLabState.games = [];
+    // Keeps ?team= in sync with the dropdown, the same way opening the lab
+    // from a team's own page seeds it — so a refresh, or sharing the link,
+    // lands back on the team just picked instead of whichever one the lab
+    // first opened with. render:false skips handleRoute()'s own render (it
+    // would scroll to top); this function's own renderLineupLab below does
+    // the actual update, the same as every other change here.
+    routeSetByApp = true;
+    setRouteInUrl({ team: slugify(lineupLabState.teamA), player: '', lineup: true }, { render: false });
     renderLineupLab({ scroll: false });
     return;
   }
