@@ -2695,7 +2695,7 @@ function renderLineupRoster(teamName, side) {
         const rating = resolvePlayerRating(player.name);
         const dupr = DUPR_RATINGS[player.playerId]?.rating;
         return `<div class="lineup-roster-player">
-          <span class="lineup-roster-name">${escapeHtml(player.name)}${player.isCaptain ? ' <span class="cap">C</span>' : ''}</span>
+          <span class="lineup-roster-name">${escapeHtml(player.name)}${player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : ''}${player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : ''}</span>
           <span class="lineup-roster-gender">${player.gender === 'Female' ? 'W' : 'M'}</span>
           <span title="${rating?.estimated ? 'Estimated from DUPR' : 'Division rating'}">Rating <b>${rating ? formatSignedValue(rating.rating, 1) : EMPTY_VALUE}</b>${rating?.estimated ? ' <span class="exp-tag exp-dupr">DUPR</span>' : ''}</span>
           <span>DUPR <b>${Number.isFinite(dupr) ? Number(dupr).toFixed(3) : EMPTY_VALUE}</b></span>
