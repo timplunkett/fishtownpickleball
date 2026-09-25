@@ -4511,6 +4511,20 @@ function initialize() {
     // in and the way out, alongside the "← All standings" link inside the
     // lab itself.
     const isOpen = elements.lineupLink.classList.contains('active');
+    if (!isOpen) {
+      // Opening from a team's own page means that team is who the captain
+      // clicked this from — seed it as Team A instead of leaving whichever
+      // two teams the lab last had (or its first-two-teams default).
+      const currentTeamSlug = getRouteFromLocation().team;
+      const currentTeam = currentTeamSlug &&
+        DATA.teams.find((candidate) => slugify(candidate.name) === currentTeamSlug);
+      if (currentTeam) {
+        lineupLabState.teamA = currentTeam.name;
+        if (lineupLabState.teamB === currentTeam.name) lineupLabState.teamB = '';
+        lineupLabState.sourceWeek = 'latest';
+        lineupLabState.games = [];
+      }
+    }
     setRouteInUrl({ team: '', player: '', lineup: !isOpen });
   });
   document.addEventListener('click', handleFragmentLinkClick);
