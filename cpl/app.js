@@ -2725,70 +2725,40 @@ function lineupGameProjection(game) {
   return projectPendingGame(game.a, game.b);
 }
 
-// Every roster player's rating (own division rating, or DUPR stand-in),
-// filtered to one game-type slot's required gender — the pool a genuinely
-// unknown pair would probably be drawn from.
-function lineupRosterRatings(teamName, gender) {
-  return lineupRoster(teamName)
-    .filter((player) => !gender || player.gender === gender)
-    .map((player) => resolvePlayerRating(player.name))
-    .filter(Boolean);
-}
-
-function lineupAverageRating(ratings) {
-  return ratings.reduce((sum, r) => sum + r.rating, 0) / ratings.length;
-}
-
-// A stand-in for "what will this team's pair probably look like here" when
-// nothing at all has been picked for a game yet: the average rating of
-// every roster player eligible for each of the two slots this game type
-// needs (mixed sums an average woman + an average man; female/male sums two
-// averages of the same pool), rather than any specific pair — there's no way
-// to know who will actually be posted. Null when either slot has nobody on
-// the roster with a usable rating.
-function lineupEstimatedOpponentPairRating(teamName, gameType) {
-  const bySlot = [0, 1].map((slotIndex) => lineupRosterRatings(teamName, lineupExpectedGender(gameType, slotIndex)));
-  if (bySlot.some((ratings) => !ratings.length)) return null;
+// For a game where exactly one side has a full pair chosen and the other
+// hasn't been touched at all: that pair's raw combined rating. Not a
+// projection — there's no real opponent pair to project against — just the
+// one piece of real information available, meant to be read alongside every
+// other game with the same signal (see lineupKnownPairRanks) rather than on
+// its own. Null whenever that isn't the shape of this game — both sides
+// blank, both set, or a side only half-filled.
+function lineupKnownPairRating(game) {
+  const aBlank = !game.a[0] && !game.a[1];
+  const bBlank = !game.b[0] && !game.b[1];
+  let pair;
+  if (isPairPosted(game.a) && bBlank) pair = game.a;
+  else if (isPairPosted(game.b) && aBlank) pair = game.b;
+  else return null;
+  const ratings = pair.map(resolvePlayerRating);
+  if (ratings.some((rating) => !rating)) return null;
   return {
-    rating: bySlot.reduce((total, ratings) => total + lineupAverageRating(ratings), 0),
-    estimated: bySlot.some((ratings) => ratings.some((r) => r.estimated)),
+    rating: Math.round((ratings[0].rating + ratings[1].rating) * 10) / 10,
+    estimated: ratings.some((rating) => rating.estimated),
   };
 }
 
-function describeLineupDifficulty(margin, estimated) {
-  const marginLabel = formatSignedValue(margin, 1);
-  const tag = ` <span class="exp-tag exp-vs-avg" title="Estimated against the other side's average roster rating for this slot — no lineup posted there yet, so the actual pair could be stronger or weaker than this">vs avg</span>${renderEstimateTag(estimated)}`;
-  const build = (resultClass, label) => ({ resultClass, displayLabel: `${label} (${marginLabel})${tag}` });
-  if (Math.abs(margin) < 1.0) return build(RESULT_CLASS.neutral, 'Even');
-  if (margin > 2.5) return build(RESULT_CLASS.slightWin, 'Easier');
-  if (margin > 0) return build(RESULT_CLASS.slightWin, 'Slightly easier');
-  if (margin < -2.5) return build(RESULT_CLASS.slightLoss, 'Tougher');
-  return build(RESULT_CLASS.slightLoss, 'Slightly tougher');
-}
-
-// A relative-difficulty read for a game where one side has a full pair
-// chosen and the other hasn't been touched at all — projectPendingGame
-// already declines to score that (there's no real opponent yet), but
-// leaving it blank wastes the one side's picks: this compares that pair's
-// rating sum against lineupEstimatedOpponentPairRating for the blank side,
-// so a captain scanning the column can still tell which of their own set
-// games look like tougher or easier spots. Null whenever the comparison
-// isn't meaningful — both sides blank, both set, a side only half-filled, or
-// the blank side has nobody rated for one of the slots.
-function lineupDifficultyEstimate(game, teamA, teamB) {
-  const aBlank = !game.a[0] && !game.a[1];
-  const bBlank = !game.b[0] && !game.b[1];
-  let ourPair, theirTeam;
-  if (isPairPosted(game.a) && bBlank) { ourPair = game.a; theirTeam = teamB; }
-  else if (isPairPosted(game.b) && aBlank) { ourPair = game.b; theirTeam = teamA; }
-  else return null;
-  const ours = ourPair.map(resolvePlayerRating);
-  if (ours.some((rating) => !rating)) return null;
-  const theirBaseline = lineupEstimatedOpponentPairRating(theirTeam, game.type);
-  if (!theirBaseline) return null;
-  const oursSum = ours[0].rating + ours[1].rating;
-  const margin = Math.round((oursSum - theirBaseline.rating) * 10) / 10;
-  return describeLineupDifficulty(margin, ours.some((rating) => rating.estimated) || theirBaseline.estimated);
+// Ranks every game's lineupKnownPairRating against each other, strongest
+// combined rating first — the closest thing to "easier/harder" available
+// when there's no real opponent to project against: a raw number on its own
+// doesn't say much, but where it falls among this same matchup's other
+// known-but-unopposed pairs does. Returns a Map from game index to
+// { rank, total }; a game with no known-pair rating simply isn't in it.
+function lineupKnownPairRanks(games) {
+  const known = games
+    .map((game, index) => ({ index, entry: lineupKnownPairRating(game) }))
+    .filter(({ entry }) => entry)
+    .sort((x, y) => y.entry.rating - x.entry.rating);
+  return new Map(known.map(({ index }, rank) => [index, { rank: rank + 1, total: known.length }]));
 }
 
 function lineupTypeBadge(gameType) {
@@ -2863,6 +2833,7 @@ function lineupMatchupDescription() {
 function renderLineupLab({ scroll = true } = {}) {
   ensureLineupLabState();
   const projections = lineupLabState.games.map(lineupGameProjection);
+  const knownPairRanks = lineupKnownPairRanks(lineupLabState.games);
   const pairCountsA = lineupPairCounts('a');
   const pairCountsB = lineupPairCounts('b');
   const pairViolations = [
@@ -2915,11 +2886,17 @@ function renderLineupLab({ scroll = true } = {}) {
       projectionText = '<span class="neg-diff">Choose two different players</span>';
     } else if (projection.outcome === 'incomplete') {
       // No real opponent to project against (one or both sides aren't fully
-      // posted), but a set pair facing a still-blank side can still get a
-      // relative-difficulty read instead of a bare dash.
-      const difficulty = lineupDifficultyEstimate(game, lineupLabState.teamA, lineupLabState.teamB);
-      projectionText = difficulty
-        ? `<span class="${difficulty.resultClass}">${difficulty.displayLabel}</span>`
+      // posted), but a set pair facing a still-blank side is still real
+      // information: show its raw combined rating and where that ranks
+      // among this matchup's other games with the same signal, rather than
+      // a bare dash.
+      const known = lineupKnownPairRating(game);
+      const rank = known && knownPairRanks.get(index);
+      const rankTag = rank && rank.total > 1
+        ? ` <span class="exp-tag exp-rank" title="Ranked ${rank.rank} of ${rank.total} games this matchup with one side's pair fully set and the other untouched, highest combined rating first">${rank.rank} of ${rank.total}</span>`
+        : '';
+      projectionText = known
+        ? `<span class="rating ${known.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(known.rating, 1)}</span>${renderEstimateTag(known.estimated)}${rankTag}`
         : `<span class="${projection.resultClass}">${projection.displayLabel}</span>`;
     } else {
       projectionText = `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;

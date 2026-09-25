@@ -1529,11 +1529,11 @@ thead th:focus-visible,
   border: 1px dashed var(--line);
 }
 
-/* Marks a Lineup Lab difficulty read that's estimated against a whole
-   roster's average rating rather than a real, posted opposing pair.
-   Deliberately styled the same colourless way as .exp-dupr, for the same
-   reason: it qualifies the label beside it and must not read as a result. */
-.exp-vs-avg {
+/* Marks the Lineup Lab's rank-among-known-pairs qualifier (see
+   lineupKnownPairRanks) beside a raw combined rating. Deliberately styled
+   the same colourless way as .exp-dupr, for the same reason: it qualifies
+   the number beside it and must not read as a result of its own. */
+.exp-rank {
   min-width: 0;
   color: var(--mut);
   background: transparent;
