@@ -317,6 +317,27 @@ function resolvePlayerRating(name) {
   if (derived != null) return { rating: derived, estimated: true };
   return null;
 }
+
+// Real teammate-pair "chemistry" from the season so far: how much a specific
+// pair over/under-performs what their two individual ratings alone would
+// predict (see computePairSynergy in _cpl/modules/ratings.js — a shrunk
+// average of actual-minus-expected margin across their games together).
+// Keyed the same way lineupPairKey keys everything else pair-related
+// (lineupPairKey is defined further down but hoisted, so it's safe to use
+// here), so a lookup for any two names finds it the same way a pair itself
+// is tracked. Only pairs with a few games together are compiled into
+// DATA.duos, so most hypothetical Lineup Lab pairings simply have no entry
+// — correctly: there's no real signal for two people who've never played
+// together.
+const pairSynergyByKey = new Map(
+  (DATA.duos || [])
+    .map((duo) => [lineupPairKey([duo.a, duo.b]), duo])
+    .filter(([key]) => key),
+);
+
+function pairSynergyFor(nameX, nameY) {
+  return pairSynergyByKey.get(lineupPairKey([nameX, nameY])) || null;
+}
 const playersById = new Map(
   DATA.players
     .filter((player) => player.playerId)
@@ -2266,15 +2287,25 @@ function renderMatchLogRows(player) {
 // one; estimated is true when at least one slot leaned on DUPR.
 const NO_EXPECTATION = Object.freeze({ margin: null, estimated: false });
 
-function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
+// options.useSynergy opts into adjusting the margin with each side's real
+// pair chemistry (see pairSynergyFor) — off by default so every existing
+// caller (real-match projections, the player modal's expectation tags) is
+// unaffected; only the Lineup Lab currently opts in, since folding a real
+// modeling change into every projection across the site is a bigger step
+// than was asked for here.
+function computeExpectedOutcome(nameA, nameB, nameC, nameD, { useSynergy = false } = {}) {
   const ours = [nameA, nameB].map(resolvePlayerRating);
   const theirs = [nameC, nameD].map(resolvePlayerRating);
   const all = [...ours, ...theirs];
   if (all.some((entry) => entry === null)) return NO_EXPECTATION;
   const sum = (pair) => pair.reduce((total, entry) => total + entry.rating, 0);
+  const oursSynergy = useSynergy ? pairSynergyFor(nameA, nameB) : null;
+  const theirsSynergy = useSynergy ? pairSynergyFor(nameC, nameD) : null;
+  const margin = sum(ours) - sum(theirs) + (oursSynergy?.synergy || 0) - (theirsSynergy?.synergy || 0);
   return {
-    margin: Math.round((sum(ours) - sum(theirs)) * 10) / 10,
+    margin: Math.round(margin * 10) / 10,
     estimated: all.some((entry) => entry.estimated),
+    synergy: (oursSynergy || theirsSynergy) ? { ours: oursSynergy, theirs: theirsSynergy } : null,
   };
 }
 
@@ -2283,6 +2314,21 @@ function computeExpectedOutcome(nameA, nameB, nameC, nameD) {
 function renderEstimateTag(estimated) {
   if (!estimated) return '';
   return ' <span class="exp-tag exp-dupr" title="Estimated from DUPR — at least one player has no rating from this division yet">DUPR</span>';
+}
+
+// A small pill marking a projection adjusted for real partner chemistry (see
+// pairSynergyFor) — shown only when at least one side's exact pairing has
+// enough shared history for a synergy figure to exist. Unlike the DUPR tag
+// (which qualifies a rating as a stand-in), this marks a real signal being
+// folded in, so it gets its own distinct styling rather than reusing the
+// "deliberately colourless" DUPR treatment.
+function renderPairChemistryTag(pairs) {
+  const entries = pairs.filter(([, duo]) => duo);
+  if (!entries.length) return '';
+  const detail = entries
+    .map(([label, duo]) => `${label} ${formatSignedValue(duo.synergy, 1)} pts/game over ${duo.n} games together`)
+    .join('; ');
+  return ` <span class="exp-tag exp-chem" title="Adjusted for real partner chemistry — ${detail}">chem</span>`;
 }
 
 // Returns a small HTML pill showing whether the result matched the expectation.
@@ -2309,7 +2355,7 @@ function renderExpectationTag(expectedMargin, won) {
 // every row is estimated say so once above it instead, rather than repeating an
 // identical pill down the column.
 function describeProjectedOutcome(expectation) {
-  const { margin, estimated } = expectation || NO_EXPECTATION;
+  const { margin, estimated, synergy } = expectation || NO_EXPECTATION;
   if (margin === null) {
     return {
       outcome: 'unrated',
@@ -2322,6 +2368,10 @@ function describeProjectedOutcome(expectation) {
     };
   }
   const marginLabel = formatSignedValue(margin, 1);
+  // Only ever populated when the caller opted into useSynergy (see
+  // computeExpectedOutcome) and at least one side's pair has real chemistry
+  // data — '' for every non-Lineup-Lab caller, same as today.
+  const chemistryTag = synergy ? renderPairChemistryTag([['this pair', synergy.ours], ['the other pair', synergy.theirs]]) : '';
   const describe = (outcome, resultClass, label) => ({
     outcome,
     resultClass,
@@ -2329,7 +2379,7 @@ function describeProjectedOutcome(expectation) {
     estimateTag: renderEstimateTag(estimated),
     marginLabel,
     resultLabel: label,
-    displayLabel: `${label} (${marginLabel})`,
+    displayLabel: `${label} (${marginLabel})${chemistryTag}`,
   });
   if (Math.abs(margin) < 1.0) return describe('tie', RESULT_CLASS.neutral, 'Even');
   if (margin > 2.5) return describe('win', RESULT_CLASS.win, 'Proj W');
@@ -2373,10 +2423,10 @@ const INCOMPLETE_PROJECTION = Object.freeze({
   displayLabel: EMPTY_VALUE,
 });
 
-function projectPendingGame(ourPlayers, theirPlayers) {
+function projectPendingGame(ourPlayers, theirPlayers, options) {
   if (!isPairPosted(ourPlayers) || !isPairPosted(theirPlayers)) return INCOMPLETE_PROJECTION;
   return describeProjectedOutcome(
-    computeExpectedOutcome(ourPlayers[0], ourPlayers[1], theirPlayers[0], theirPlayers[1]),
+    computeExpectedOutcome(ourPlayers[0], ourPlayers[1], theirPlayers[0], theirPlayers[1], options),
   );
 }
 
@@ -2722,7 +2772,11 @@ function lineupGameProjection(game) {
   if (duplicateA || duplicateB) {
     return { ...INCOMPLETE_PROJECTION, invalid: true };
   }
-  return projectPendingGame(game.a, game.b);
+  // Real-match projections elsewhere on the site don't opt into this (see
+  // computeExpectedOutcome) — the Lineup Lab does, since factoring in real
+  // chemistry for a hypothetical pairing is exactly what a captain
+  // experimenting with lineups wants to see.
+  return projectPendingGame(game.a, game.b, { useSynergy: true });
 }
 
 // For a game where exactly one side has a full pair chosen and the other
@@ -2741,9 +2795,13 @@ function lineupKnownPairRating(game) {
   else return null;
   const ratings = pair.map(resolvePlayerRating);
   if (ratings.some((rating) => !rating)) return null;
+  // This pair's own chemistry counts here too — it's real signal about this
+  // specific pair, independent of who winds up on the other side.
+  const synergy = pairSynergyFor(pair[0], pair[1]);
   return {
-    rating: Math.round((ratings[0].rating + ratings[1].rating) * 10) / 10,
+    rating: Math.round((ratings[0].rating + ratings[1].rating + (synergy?.synergy || 0)) * 10) / 10,
     estimated: ratings.some((rating) => rating.estimated),
+    synergy,
   };
 }
 
@@ -2895,8 +2953,9 @@ function renderLineupLab({ scroll = true } = {}) {
       const rankTag = rank && rank.total > 1
         ? ` <span class="exp-tag exp-rank" title="Ranked ${rank.rank} of ${rank.total} games this matchup with one side's pair fully set and the other untouched, highest combined rating first">${rank.rank} of ${rank.total}</span>`
         : '';
+      const chemistryTag = known ? renderPairChemistryTag([['this pair', known.synergy]]) : '';
       projectionText = known
-        ? `<span class="rating ${known.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(known.rating, 1)}</span>${renderEstimateTag(known.estimated)}${rankTag}`
+        ? `<span class="rating ${known.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(known.rating, 1)}</span>${renderEstimateTag(known.estimated)}${chemistryTag}${rankTag}`
         : `<span class="${projection.resultClass}">${projection.displayLabel}</span>`;
     } else {
       projectionText = `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;

@@ -1540,6 +1540,18 @@ thead th:focus-visible,
   border: 1px dashed var(--line);
 }
 
+/* Marks a Lineup Lab number that's been adjusted for real partner-chemistry
+   data (see pairSynergyFor) — unlike the qualifiers above, this is a real
+   signal being folded in rather than a caveat about the number's
+   confidence, so it gets the site's accent color instead of the
+   deliberately colourless treatment. */
+.exp-chem {
+  min-width: 0;
+  color: var(--accent);
+  background: rgb(29 178 220 / 10%);
+  border: 1px solid rgb(29 178 220 / 40%);
+}
+
 /* Partner-chemistry chips in the player modal */
 .mh-partners {
   display: flex;
