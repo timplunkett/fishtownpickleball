@@ -2500,7 +2500,6 @@ thead th:focus-visible,
   flex: 1 1 320px;
 }
 
-.lineup-swap,
 .lineup-action {
   min-height: 36px;
   padding: 8px 13px;
@@ -2514,25 +2513,16 @@ thead th:focus-visible,
   border-radius: 9px;
 }
 
-.lineup-swap {
-  min-width: 40px;
-  padding: 8px;
-  font-size: 18px;
-  line-height: 1;
-}
-
 .lineup-action.secondary {
   color: var(--mut);
   background: transparent;
   border-color: var(--line);
 }
 
-.lineup-swap:hover,
 .lineup-action:hover {
   filter: brightness(1.1);
 }
 
-.lineup-swap:focus-visible,
 .lineup-action:focus-visible,
 .lineup-lab-cta:focus-visible {
   outline: 2px solid var(--accent);
@@ -2875,22 +2865,6 @@ thead th:focus-visible,
   .lineup-lab-hero {
     align-items: flex-start;
     flex-direction: column;
-  }
-
-  .lineup-team-picker {
-    display: grid;
-    grid-template-columns: 1fr 40px;
-  }
-
-  .lineup-team-picker label {
-    grid-column: 1 / -1;
-  }
-
-  .lineup-team-picker .lineup-swap {
-    grid-column: 2;
-    grid-row: 2;
-    justify-self: end;
-    margin-top: -48px;
   }
 
   /* The roster is a real table now (see .lineup-roster-table-wrap): a narrow
