@@ -30895,8 +30895,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Geordielyn Alviola",
+      "Shah Faisal"
      ],
      "a": [
       "Joan Glass",
@@ -30906,8 +30906,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yolanda Li",
+      "Karan Bhagat"
      ],
      "a": [
       "Rachel Shirley",
@@ -30917,8 +30917,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Craig Girvan"
      ],
      "a": [
       "Jennifer Jones",
@@ -30928,8 +30928,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Gajendra Mehta"
      ],
      "a": [
       "Julie Chiappa",
@@ -30939,8 +30939,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Geordielyn Alviola"
      ],
      "a": [
       "Joan Glass",
@@ -30950,8 +30950,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Saritha Kondra",
+      "Jenn Zhang"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -30961,8 +30961,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Aiello",
+      "Gajendra Mehta"
      ],
      "a": [
       "Robert Alexander",
@@ -30972,8 +30972,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Karan Bhagat",
+      "Jun Li"
      ],
      "a": [
       "Samuel Sickles",
@@ -30983,8 +30983,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Gajendra Mehta"
      ],
      "a": [
       "Julie Chiappa",
@@ -30994,8 +30994,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Craig Girvan"
      ],
      "a": [
       "Jennifer Jones",
@@ -31005,8 +31005,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Geordielyn Alviola",
+      "Shah Faisal"
      ],
      "a": [
       "Rachel Shirley",
@@ -31016,8 +31016,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yolanda Li",
+      "Jun Li"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -31027,8 +31027,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Geordielyn Alviola"
      ],
      "a": [
       "Joan Glass",
@@ -31038,8 +31038,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jenn Zhang",
+      "Yolanda Li"
      ],
      "a": [
       "Jennifer Jones",
@@ -31049,8 +31049,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Girvan",
+      "Shah Faisal"
      ],
      "a": [
       "Andre Goldstein",
@@ -31060,8 +31060,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Aiello",
+      "Karan Bhagat"
      ],
      "a": [
       "Robert Alexander",
@@ -31071,8 +31071,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Shah Faisal"
      ],
      "a": [
       "Julie Chiappa",
@@ -31082,8 +31082,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jenn Zhang",
+      "Jun Li"
      ],
      "a": [
       "Rachel Shirley",
@@ -31093,8 +31093,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Geordielyn Alviola",
+      "Gajendra Mehta"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -31104,8 +31104,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Saritha Kondra",
+      "Craig Girvan"
      ],
      "a": [
       "Joan Glass",
@@ -31115,8 +31115,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Yolanda Li"
      ],
      "a": [
       "Julie Chiappa",
@@ -31126,8 +31126,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Geordielyn Alviola"
      ],
      "a": [
       "Rachel Shirley",
@@ -31137,8 +31137,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Aiello",
+      "Karan Bhagat"
      ],
      "a": [
       "Robert Alexander",
@@ -31148,8 +31148,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Girvan",
+      "Jun Li"
      ],
      "a": [
       "Charles Buzad",
@@ -31159,8 +31159,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Saritha Kondra",
+      "Craig Girvan"
      ],
      "a": [
       "Joan Glass",
@@ -31170,8 +31170,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Gajendra Mehta"
      ],
      "a": [
       "Jennifer Jones",
@@ -31181,8 +31181,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Shah Faisal"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -31192,8 +31192,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jenn Zhang",
+      "Karan Bhagat"
      ],
      "a": [
       "Rachel Shirley",
@@ -31203,8 +31203,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Saritha Kondra"
      ],
      "a": [
       "Joan Glass",
@@ -31214,8 +31214,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yolanda Li",
+      "Jenn Zhang"
      ],
      "a": [
       "Jennifer Jones",
@@ -31225,8 +31225,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gajendra Mehta",
+      "Karan Bhagat"
      ],
      "a": [
       "Neil Vijayendran",
@@ -31236,8 +31236,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Aiello",
+      "Jun Li"
      ],
      "a": [
       "Andre Goldstein",
@@ -36024,7 +36024,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T02:39:06.324Z";
+  DATA.meta.asOf = "2026-09-25T10:53:56.885Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 186,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4923,7 +4923,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4952,7 +4952,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -19646,6 +19646,7 @@
   "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
   "Austin Williams": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9",
   "Omar Husain": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
+  "Matthew Korsak": "bc07a8b9-9b24-4afb-8c30-852eac7888ee",
   "Peter Nagy": "db98d397-2496-4147-943c-febe48812018",
   "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
@@ -19745,7 +19746,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T02:39:19.820Z";
+  DATA.meta.asOf = "2026-09-25T10:54:08.655Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -13684,6 +13684,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Nicki Ray",
+   "playerId": "3e927bec-47db-4d03-ac1c-81b5e9559762",
+   "team": "Picklr Manahawkin",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Nico Torres",
    "playerId": "f4e43c51-5f07-44f0-805e-ced79fea11f6",
    "team": "Picklr Newark",

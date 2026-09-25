@@ -817,8 +817,8 @@
    "name": "Nicki Ray",
    "gender": "Female",
    "team": "Picklr Manahawkin",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 13,
@@ -13652,7 +13652,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 554,
+   "leagueRank": 555,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13681,7 +13681,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 544,
+   "leagueRank": 545,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13710,7 +13710,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 543,
+   "leagueRank": 544,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13739,7 +13739,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 553,
+   "leagueRank": 554,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13768,7 +13768,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 562,
+   "leagueRank": 563,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13797,7 +13797,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 569,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13855,7 +13855,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 548,
+   "leagueRank": 549,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13913,7 +13913,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 531,
+   "leagueRank": 532,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13942,7 +13942,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 523,
+   "leagueRank": 524,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13971,7 +13971,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 556,
+   "leagueRank": 557,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14029,7 +14029,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 550,
+   "leagueRank": 551,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14058,7 +14058,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 526,
+   "leagueRank": 527,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14174,7 +14174,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 530,
+   "leagueRank": 531,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14203,7 +14203,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 522,
+   "leagueRank": 523,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14232,7 +14232,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 540,
+   "leagueRank": 541,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14261,7 +14261,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 525,
+   "leagueRank": 526,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14290,7 +14290,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 567,
+   "leagueRank": 568,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14319,7 +14319,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 521,
+   "leagueRank": 522,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14348,7 +14348,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 565,
+   "leagueRank": 566,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14377,13 +14377,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "6cdbf43a-33cf-4a69-9c4e-b8df71f208e6"
+  },
+  {
+   "name": "Robert Mcgee",
+   "gender": "Male",
+   "team": "Picklr Manahawkin",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 540,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "80eed61f-aa35-489c-bd66-1a948eaec3cd"
   },
   {
    "name": "Botamina Gemian",
@@ -14435,13 +14464,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 524,
+   "leagueRank": 525,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "9ea93639-7caf-4530-9b10-e89f11ff5050"
+  },
+  {
+   "name": "Maria Garcia",
+   "gender": "Female",
+   "team": "Picklr Manahawkin",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 516,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c6bb658b-093f-4f68-b3b5-126edd339ef5"
   },
   {
    "name": "Nico Torres",
@@ -30985,7 +31043,6 @@
     }
    ],
    "subs": [
-    "Nicki Ray",
     "Diane Fischetti"
    ]
   },
@@ -43997,9 +44054,7 @@
      ]
     }
    ],
-   "subs": [
-    "Nicki Ray"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -56103,7 +56158,409 @@
    "home": "Premiere",
    "away": "Picklr Manahawkin",
    "time": "2026-09-26T09:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Brian Kline"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Pirrello",
+      "Tom Draney"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allyssa Perez",
+      "Robert Mcgee"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clarisse Espiritu",
+      "Jonathan Bautista"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Garcia",
+      ""
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allyssa Perez",
+      "Clarisse Espiritu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Mcgee",
+      "Brian Kline"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Draney",
+      "Jonathan Bautista"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Brian Kline"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Pirrello",
+      "Tom Draney"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clarisse Espiritu",
+      "Robert Mcgee"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Garcia",
+      "Jonathan Bautista"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Garcia",
+      ""
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allyssa Perez",
+      "Jordan Pirrello"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Mcgee",
+      "Brian Kline"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Draney",
+      "Jonathan Bautista"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Robert Mcgee"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allyssa Perez",
+      "Brian Kline"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clarisse Espiritu",
+      "Tom Draney"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Pirrello",
+      "Jonathan Bautista"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Jordan Pirrello"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allyssa Perez",
+      "Clarisse Espiritu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brian Kline",
+      "Tom Draney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Bautista",
+      "Robert Mcgee"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Robert Mcgee"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allyssa Perez",
+      "Brian Kline"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Pirrello",
+      "Jonathan Bautista"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clarisse Espiritu",
+      "Tom Draney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Allyssa Perez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maria Garcia",
+      "Clarisse Espiritu"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brian Kline",
+      "Jonathan Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Draney",
+      "Robert Mcgee"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -56925,7 +57382,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Jason Kwan"
      ],
      "a": [
       "Jia Fei",
@@ -56935,8 +57392,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Anshul Sahu"
      ],
      "a": [
       "Yuqi Yin",
@@ -56946,8 +57403,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Villarama",
+      "Ryan Soto"
      ],
      "a": [
       "May Wang",
@@ -56957,8 +57414,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Man Kwok"
      ],
      "a": [
       "Cynthia Li",
@@ -56968,7 +57425,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Rachel Villarama",
       ""
      ],
      "a": [
@@ -56979,8 +57436,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Khushi Shah"
      ],
      "a": [
       "Cynthia Li",
@@ -56994,8 +57451,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Anshul Sahu"
      ],
      "a": [
       "Calvin Zheng",
@@ -57005,8 +57462,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Kwan",
+      "Ryan Soto"
      ],
      "a": [
       "Chao Ku",
@@ -57017,7 +57474,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Man Kwok"
      ],
      "a": [
       "Jia Fei",
@@ -57027,8 +57484,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Villarama",
+      "Winston Lian"
      ],
      "a": [
       "Yuqi Yin",
@@ -57038,8 +57495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Jason Kwan"
      ],
      "a": [
       "Cynthia Li",
@@ -57049,8 +57506,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Anshul Sahu"
      ],
      "a": [
       "May Wang",
@@ -57060,7 +57517,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Rachel Villarama",
       ""
      ],
      "a": [
@@ -57071,8 +57528,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Christy Zhang"
      ],
      "a": [
       "Ling Vance",
@@ -57086,8 +57543,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Man Kwok",
+      "Ryan Soto"
      ],
      "a": [
       "Chao Ku",
@@ -57097,8 +57554,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Jason Kwan"
      ],
      "a": [
       "Andy Wang",
@@ -57108,8 +57565,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Jason Kwan"
      ],
      "a": [
       "Yuqi Yin",
@@ -57119,8 +57576,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Anshul Sahu"
      ],
      "a": [
       "Cynthia Li",
@@ -57131,7 +57588,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Man Kwok"
      ],
      "a": [
       "Ling Vance",
@@ -57141,8 +57598,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Villarama",
+      "Ryan Soto"
      ],
      "a": [
       "May Wang",
@@ -57152,8 +57609,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Rachel Villarama"
      ],
      "a": [
       "Jia Fei",
@@ -57167,7 +57624,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Christy Zhang",
       ""
      ],
      "a": [
@@ -57178,8 +57635,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Kwan",
+      "Anshul Sahu"
      ],
      "a": [
       "Calvin Zheng",
@@ -57189,8 +57646,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Soto",
+      "Winston Lian"
      ],
      "a": [
       "Andy Wang",
@@ -57200,8 +57657,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Anshul Sahu"
      ],
      "a": [
       "Yuqi Yin",
@@ -57212,7 +57669,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Jason Kwan"
      ],
      "a": [
       "Jia Fei",
@@ -57222,8 +57679,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Man Kwok"
      ],
      "a": [
       "Yuqing Wan",
@@ -57237,8 +57694,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Villarama",
+      "Winston Lian"
      ],
      "a": [
       "Cynthia Li",
@@ -57248,7 +57705,7 @@
     {
      "t": "female",
      "h": [
-      "",
+      "Khushi Shah",
       ""
      ],
      "a": [
@@ -57259,8 +57716,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Rachel Villarama"
      ],
      "a": [
       "Cynthia Li",
@@ -57270,8 +57727,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Kwan",
+      "Anshul Sahu"
      ],
      "a": [
       "Calvin Zheng",
@@ -57281,8 +57738,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Man Kwok",
+      "Winston Lian"
      ],
      "a": [
       "Andy Wang",
@@ -58937,7 +59394,361 @@
    "home": "Montville",
    "away": "Flemington",
    "time": "2026-09-26T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Mary Brashier"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Stanton",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Mary Brashier"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Stanton",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Mary Brashier"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Jamie Hahn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "Lakshmikanth Chaluvadi"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -59829,7 +60640,361 @@
    "home": "Pickleball Kingdom Lehigh Valley",
    "away": "Flemington",
    "time": "2026-09-30T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Mary Brashier"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Stanton",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Mary Brashier"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Stanton",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Jamie Hahn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Hahn",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mary Brashier",
+      "Jamie Hahn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "Lakshmikanth Chaluvadi"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -60696,7 +61861,6 @@
   "Conor Malloy": "79791efb-c2d0-449d-8572-a99a1f2a5200",
   "Andrew Fagan": "7a5bce6c-3635-47d0-bff5-59c802a8ae0b",
   "Guitta Barghash": "8011677b-64c0-467d-8d54-c32da035effe",
-  "Robert Mcgee": "80eed61f-aa35-489c-bd66-1a948eaec3cd",
   "Duy Duong": "81de0241-17f5-4c13-9214-0b914709e971",
   "Utkarsh Patel": "82beb69d-fdf5-4102-a1f8-612ce0049782",
   "Claire Nguyen": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
@@ -60715,7 +61879,7 @@
   "Todd Fagan": "bf370c20-c27a-4555-8410-5073dc29d1d0",
   "Jim Fett": "c14e8948-35aa-4a6f-b8ac-a5c41c75063f",
   "Carla Owens": "c1e350d1-990b-468a-a43e-0ecd64269b2a",
-  "Maria Garcia": "c6bb658b-093f-4f68-b3b5-126edd339ef5",
+  "Perri Goldstein": "c314fe29-19de-4c08-956b-ae10493edcc8",
   "Paul Mastaj": "ce698888-9c10-4116-9e16-e4507e641722",
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
   "Cherine Mikhail": "d5e7f8d4-68c6-42e7-bb88-e7b43740ecbe",
@@ -60734,7 +61898,7 @@
   "matchesPlayed": 70,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 522,
+  "totalPlayers": 524,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -60788,7 +61952,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-25T02:38:21.949Z";
+  DATA.meta.asOf = "2026-09-25T10:53:26.127Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

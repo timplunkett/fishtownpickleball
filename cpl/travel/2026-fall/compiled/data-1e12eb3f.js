@@ -12414,6 +12414,35 @@
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
   },
   {
+   "name": "Brett Wilson",
+   "gender": "Male",
+   "team": "Flemington Green",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 539,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0442b5bc-7af7-4e95-acc1-08adc22cdb2e"
+  },
+  {
    "name": "Feng Song",
    "gender": "Male",
    "team": "Allstar Pickler",
@@ -12441,6 +12470,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "04d8793a-fa03-4789-86fe-49b33eacbbea"
+  },
+  {
+   "name": "Suzanne Bauer",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 460,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "129227bd-dad6-4c63-9d24-d3c6a34e9621"
   },
   {
    "name": "Sara Hylan",
@@ -37874,7 +37932,405 @@
    "home": "Pickleball Kingdom Hamilton Prime Time",
    "away": "Flemington Green",
    "time": "2026-09-26T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Brett Wilson"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Sam Doctor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Judith Macarthur",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Hector Lopez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Suzanne Bauer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Wilson",
+      "Hector Lopez"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Judith Macarthur",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Bauer",
+      "Brett Wilson"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Hector Lopez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Judith Macarthur"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Manuela Caiati"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Wilson",
+      "Hafeez Saheed"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Bauer",
+      "Sam Doctor"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Brett Wilson"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Hector Lopez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Grace Brennan",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Suzanne Bauer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Hafeez Saheed"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hector Lopez",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Manuela Caiati",
+      "Sam Doctor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Brett Wilson"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Bauer",
+      "Hafeez Saheed"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Judith Macarthur",
+      "Hector Lopez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Judith Macarthur",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sam Doctor",
+      "Scott Heist"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brett Wilson",
+      "Hafeez Saheed"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -42274,10 +42730,8 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Jodi De Waal": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
-  "Brett Wilson": "0442b5bc-7af7-4e95-acc1-08adc22cdb2e",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
-  "Suzanne Bauer": "129227bd-dad6-4c63-9d24-d3c6a34e9621",
   "Peter Lunarola": "12c54c90-1be8-4575-8714-11076f1a5758",
   "Linda Goss": "14e5edae-ff22-415b-8267-d46a2117ed8d",
   "Eulett Pryce": "1a3200ad-62cc-442b-b172-3686236ea552",
@@ -42331,7 +42785,7 @@
   "matchesPlayed": 42,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 482,
+  "totalPlayers": 484,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42453,7 +42907,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T02:37:10.879Z";
+  DATA.meta.asOf = "2026-09-25T10:52:27.272Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
