@@ -57,6 +57,12 @@
       <button type="button" id="division-favorite" class="fav-star" data-fav-type="division" aria-pressed="false" aria-label="Favorite this division" hidden>☆</button>
     </div>
     <p class="sub" id="sub"></p>
+    <div class="dashboard-actions">
+      <a class="lineup-lab-cta" id="lineup-lab-link" href="?lineup=1">
+        <span class="lineup-lab-cta-title">Lineup Lab</span>
+        <span>Build a matchup and test projected lineups</span>
+      </a>
+    </div>
   </header>
 
   <div id="mainview">
@@ -200,6 +206,8 @@
   </div><!-- /mainview -->
 
   <div id="teamview" hidden></div>
+
+  <div id="lineupview" hidden></div>
 
   <footer id="foot"></footer>
   <!-- Static, not part of the footer app.js writes: it has to be true whether or

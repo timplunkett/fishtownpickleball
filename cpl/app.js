@@ -236,6 +236,8 @@ const elements = {
   gridViewToggle: getRequiredElement('grid-view'),
   head: getRequiredElement('head'),
   kicker: getRequiredElement('kicker'),
+  lineupLink: document.getElementById('lineup-lab-link'),
+  lineupView: document.getElementById('lineupview'),
   mainView: getRequiredElement('mainview'),
   minGames: getRequiredElement('minq'),
   modalBody: getRequiredElement('mbody'),
@@ -368,6 +370,7 @@ function teamHref(teamName, fragment = '') {
   const url = new URL(window.location.href);
   url.searchParams.set('team', slugify(teamName));
   url.searchParams.delete('player');
+  url.searchParams.delete('lineup');
   url.hash = fragment ? `#${fragment}` : '';
   return `${url.pathname}${url.search}${url.hash}`;
 }
@@ -380,6 +383,20 @@ function standingsHref() {
   const url = new URL(window.location.href);
   url.searchParams.delete('team');
   url.searchParams.delete('player');
+  url.searchParams.delete('lineup');
+  url.hash = '';
+  return `${url.pathname}${url.search}`;
+}
+
+function lineupLabHref() {
+  const url = new URL(window.location.href);
+  // ?team=, if present, is a team page's own team — left in rather than
+  // dropped, so this reads the same way the click handler behaves: opening
+  // the lab from a team's page carries it in as Team A. (This href is only
+  // set once at load, from renderHeader — the click handler re-derives it
+  // fresh, which is what makes team-switching after that still work.)
+  url.searchParams.delete('player');
+  url.searchParams.set('lineup', '1');
   url.hash = '';
   return `${url.pathname}${url.search}`;
 }
@@ -401,6 +418,7 @@ function opponentLinkHtml(name, fragment = '') {
 function playerHref(player) {
   const url = new URL(window.location.href);
   url.searchParams.set('player', routeKeyForPlayer(player));
+  url.searchParams.delete('lineup');
   url.hash = '';
   return `${url.pathname}${url.search}`;
 }
@@ -525,8 +543,9 @@ function getRouteFromLocation() {
   const url = new URL(window.location.href);
   const team = url.searchParams.get('team') || '';
   const player = url.searchParams.get('player') || '';
-  if (team || player) {
-    return { team, player };
+  const lineup = url.searchParams.get('lineup') === '1';
+  if (lineup || team || player) {
+    return { team, player, lineup };
   }
   return parseLegacyHashRoute(url.hash);
 }
@@ -542,6 +561,11 @@ function setRouteInUrl(route, { replace = false } = {}) {
     url.searchParams.set('player', route.player);
   } else {
     url.searchParams.delete('player');
+  }
+  if (route.lineup) {
+    url.searchParams.set('lineup', '1');
+  } else {
+    url.searchParams.delete('lineup');
   }
   url.hash = route.hash ? `#${route.hash}` : '';
   const nextUrl = url.toString();
@@ -1439,6 +1463,7 @@ function renderHeader() {
     elements.kicker.textContent = typicalDay ? `${clubName} • ${typicalDay}` : clubName;
   }
   elements.title.textContent = `${titlePrefix}Standings & Player Stats`;
+  if (elements.lineupLink) elements.lineupLink.href = lineupLabHref();
   renderDivisionFavoriteButton();
 
   // One HTML file serves every division in its league, so the <title> in it can
@@ -2466,6 +2491,537 @@ function summarizeProjections(projections) {
   };
 }
 
+// ── Lineup Lab ──────────────────────────────────────────────────────────
+// This is deliberately client-only: captains can experiment without saving or
+// sending a lineup anywhere. The model is the same one used by pending-match
+// projections above, so a hypothetical row and a posted row answer the same
+// question with the same thresholds.
+
+// Games within a match are played in rounds of 4 simultaneous courts (games
+// 1-4, then 5-8, ...) — a rule this league's scheduling already assumes, not
+// a choice made here. A player in two games of the same round would need to
+// be on two courts at once, which the weekly pair-limit check doesn't catch
+// on its own (that one's about a pair repeating across the whole week, not
+// about a single player's own schedule within one round).
+const LINEUP_ROUND_SIZE = 4;
+
+const lineupLabState = {
+  teamA: '',
+  // teamB is never set independently — it's always derived from whichever
+  // matchup is selected (see ensureLineupLabState), because the league's own
+  // schedule already determines who Team A plays each week.
+  teamB: '',
+  matchupIndex: null,
+  games: [],
+};
+
+function lineupRoster(teamName) {
+  return DATA.players.filter((player) => player.team === teamName);
+}
+
+function lineupPlayer(name) {
+  return DATA.players.find((player) => player.name === name) || null;
+}
+
+// Every one of Team A's matches for the whole season, earliest week first —
+// whether it's finished, still to come, or has no lineups posted yet at all.
+// A matchup is addressed by its position in this exact list (matchupIndex),
+// never by week number: a team can have two matches filed under the same
+// week (a makeup alongside the regular slate), which made a by-week lookup
+// resolve to the wrong one.
+function lineupSeasonMatchesForTeam(teamName) {
+  return (DATA.matches || [])
+    .filter((match) => match.home === teamName || match.away === teamName)
+    .slice()
+    .sort((a, b) => a.week - b.week);
+}
+
+// The sensible matchup to land on when nothing else has been chosen yet: the
+// earliest match Team A hasn't played, so opening the lab defaults to "who do
+// we play next" regardless of whether that match's lineups are posted. If the
+// season's already finished, falls back to the last match played.
+function lineupDefaultMatchupIndex(teamName) {
+  const matches = lineupSeasonMatchesForTeam(teamName);
+  if (!matches.length) return null;
+  const nextIndex = matches.findIndex((match) => !match.complete);
+  return nextIndex === -1 ? matches.length - 1 : nextIndex;
+}
+
+function lineupPairFromMatch(match, teamName, gameIndex) {
+  if (!match || !match.games?.[gameIndex]) return ['', ''];
+  const game = match.games[gameIndex];
+  const pair = match.home === teamName ? game.h : game.a;
+  return [pair?.[0] || '', pair?.[1] || ''];
+}
+
+// Builds games for the currently selected matchup. When that match already
+// has posted lineups, they come straight from it. When it doesn't yet (a
+// future week nobody's posted for), the game-type/count "shape" is borrowed
+// from any other match that does have games, but both sides still start
+// blank — lineupPairFromMatch already returns blank for a match with no
+// games array at all, so borrowing the shape never leaks another match's
+// actual players into this one.
+function lineupGamesFromMatchup(match, teamA, teamB) {
+  const shape = match?.games?.length ? match : (DATA.matches || []).find((m) => m.games?.length) || null;
+  if (!shape) return [];
+  return shape.games.map((game, index) => ({
+    type: game.t,
+    a: lineupPairFromMatch(match, teamA, index),
+    b: lineupPairFromMatch(match, teamB, index),
+  }));
+}
+
+// The one place lineupLabState.games gets (re)built, so every caller —
+// ensureLineupLabState, the matchup dropdown, "Reload this lineup", switching
+// teams — rebuilds a given matchupIndex the same way. Team B is always this
+// matchup's actual opponent; there's no independent Team B to resolve.
+function rebuildLineupLabGames() {
+  const { teamA, teamB, matchupIndex } = lineupLabState;
+  if (matchupIndex == null) return [];
+  const match = lineupSeasonMatchesForTeam(teamA)[matchupIndex];
+  if (!match) return [];
+  return lineupGamesFromMatchup(match, teamA, teamB);
+}
+
+function ensureLineupLabState() {
+  const teamNames = DATA.teams.map((team) => team.name);
+  if (!teamNames.includes(lineupLabState.teamA)) lineupLabState.teamA = teamNames[0] || '';
+  const matches = lineupSeasonMatchesForTeam(lineupLabState.teamA);
+  if (lineupLabState.matchupIndex == null || !matches[lineupLabState.matchupIndex]) {
+    lineupLabState.matchupIndex = lineupDefaultMatchupIndex(lineupLabState.teamA);
+  }
+  const match = lineupLabState.matchupIndex == null ? null : matches[lineupLabState.matchupIndex];
+  lineupLabState.teamB = match ? (match.home === lineupLabState.teamA ? match.away : match.home) : '';
+  if (!lineupLabState.games.length) lineupLabState.games = rebuildLineupLabGames();
+}
+
+function lineupTeamOptions(selected) {
+  return DATA.teams.map((team) => (
+    `<option value="${escapeHtml(team.name)}"${team.name === selected ? ' selected' : ''}>${escapeHtml(team.name)}</option>`
+  )).join('');
+}
+
+// One option per Team A's own match, for the whole season (see
+// lineupSeasonMatchesForTeam), named by the actual opponent rather than a
+// bare week number — regenerated every render, since the list is specific to
+// whichever team is currently Team A. Choosing one of these is what picks
+// Team B; there's no separate Team B control.
+function lineupMatchupOptions() {
+  return lineupSeasonMatchesForTeam(lineupLabState.teamA).map((match, index) => {
+    const opponent = match.home === lineupLabState.teamA ? match.away : match.home;
+    const status = match.complete ? '' : match.games?.length ? ' — posted, not yet played' : ' — not yet posted';
+    return `<option value="${index}"${lineupLabState.matchupIndex === index ? ' selected' : ''}>Week ${match.week} vs ${escapeHtml(opponent)}${status}</option>`;
+  }).join('');
+}
+
+function lineupExpectedGender(gameType, slotIndex) {
+  if (gameType === 'female') return 'Female';
+  if (gameType === 'male') return 'Male';
+  if (gameType === 'mixed') return slotIndex === 0 ? 'Female' : 'Male';
+  return '';
+}
+
+function lineupRatingText(name) {
+  const rating = resolvePlayerRating(name);
+  if (!rating) return 'no rating';
+  return `${formatSignedValue(rating.rating, 1)}${rating.estimated ? ' est.' : ''}`;
+}
+
+function lineupPlayerOptions(teamName, gameType, slotIndex, selected) {
+  const expectedGender = lineupExpectedGender(gameType, slotIndex);
+  const roster = lineupRoster(teamName)
+    .filter((player) => !expectedGender || player.gender === expectedGender)
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name));
+  if (selected && !roster.some((player) => player.name === selected)) {
+    roster.push(lineupPlayer(selected) || { name: selected, gender: '' });
+  }
+  return [
+    '<option value="">TBD</option>',
+    ...roster.map((player) => (
+      `<option value="${escapeHtml(player.name)}"${player.name === selected ? ' selected' : ''}>${escapeHtml(player.name)} (${escapeHtml(lineupRatingText(player.name))})</option>`
+    )),
+  ].join('');
+}
+
+function lineupPairKey(pair) {
+  if (!pair?.[0] || !pair?.[1] || pair[0] === pair[1]) return '';
+  return pair.slice().sort((a, b) => a.localeCompare(b)).join('\u0000');
+}
+
+function lineupPairCounts(side) {
+  const counts = new Map();
+  for (const game of lineupLabState.games) {
+    const key = lineupPairKey(game[side]);
+    if (key) counts.set(key, (counts.get(key) || 0) + 1);
+  }
+  return counts;
+}
+
+function lineupPairViolations(side, teamName, counts) {
+  return [...counts.entries()]
+    .filter(([, count]) => count > 2)
+    .map(([key, count]) => ({ teamName, pair: key.split('\u0000'), count, side }));
+}
+
+// Which round (0-based) a game index falls in — see LINEUP_ROUND_SIZE.
+function lineupRoundIndex(gameIndex) {
+  return Math.floor(gameIndex / LINEUP_ROUND_SIZE);
+}
+
+// Counts each player's appearances within their own round, for one side.
+// Returns both the violation list (for the summary panel) and a lookup set
+// keyed "round\u0000name" (for flagging the exact <select>s at fault) so the
+// two stay in sync from one pass over the games instead of two.
+function lineupRoundConflicts(side, teamName) {
+  const byRound = new Map();
+  lineupLabState.games.forEach((game, index) => {
+    const round = lineupRoundIndex(index);
+    const counts = byRound.get(round) || new Map();
+    for (const name of game[side] || []) {
+      if (name) counts.set(name, (counts.get(name) || 0) + 1);
+    }
+    byRound.set(round, counts);
+  });
+  const violations = [];
+  const conflictKeys = new Set();
+  for (const [round, counts] of byRound) {
+    for (const [name, count] of counts) {
+      if (count > 1) {
+        violations.push({ teamName, side, round, name, count });
+        conflictKeys.add(`${round}\u0000${name}`);
+      }
+    }
+  }
+  return { violations, conflictKeys };
+}
+
+function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts, roundConflictKeys) {
+  const pairCount = pairCounts.get(lineupPairKey(pair)) || 0;
+  const violatesPairLimit = pairCount > 2;
+  const round = lineupRoundIndex(gameIndex);
+  return `<div class="lineup-pair${violatesPairLimit ? ' lineup-pair-over-limit' : ''}">
+    ${[0, 1].map((slotIndex) => {
+      const selected = pair[slotIndex] || '';
+      const gender = lineupExpectedGender(gameType, slotIndex);
+      const roundConflict = !!selected && roundConflictKeys.has(`${round}\u0000${selected}`);
+      return `<label>
+        <span>${gender === 'Female' ? 'Woman' : gender === 'Male' ? 'Man' : `Player ${slotIndex + 1}`}</span>
+        <select class="lineup-slot${roundConflict ? ' lineup-slot-round-conflict' : ''}" data-game="${gameIndex}" data-side="${side}" data-slot="${slotIndex}" aria-label="${escapeHtml(teamName)} game ${gameIndex + 1} ${gender || `player ${slotIndex + 1}`}"${roundConflict ? ' title="Also playing another game in this round"' : ''}>
+          ${lineupPlayerOptions(teamName, gameType, slotIndex, selected)}
+        </select>
+      </label>`;
+    }).join('')}
+    ${violatesPairLimit ? `<span class="lineup-pair-warning">Pair used ${pairCount}× — weekly maximum is 2</span>` : ''}
+  </div>`;
+}
+
+function lineupGameProjection(game) {
+  const duplicateA = game.a[0] && game.a[0] === game.a[1];
+  const duplicateB = game.b[0] && game.b[0] === game.b[1];
+  if (duplicateA || duplicateB) {
+    return { ...INCOMPLETE_PROJECTION, invalid: true };
+  }
+  return projectPendingGame(game.a, game.b);
+}
+
+// For a game where exactly one side has a full pair chosen and the other
+// hasn't been touched at all: that pair's raw combined rating. Not a
+// projection — there's no real opponent pair to project against — just the
+// one piece of real information available, meant to be read alongside every
+// other game with the same signal (see lineupKnownPairRanks) rather than on
+// its own. Null whenever that isn't the shape of this game — both sides
+// blank, both set, or a side only half-filled.
+function lineupKnownPairRating(game) {
+  const aBlank = !game.a[0] && !game.a[1];
+  const bBlank = !game.b[0] && !game.b[1];
+  let pair;
+  if (isPairPosted(game.a) && bBlank) pair = game.a;
+  else if (isPairPosted(game.b) && aBlank) pair = game.b;
+  else return null;
+  const ratings = pair.map(resolvePlayerRating);
+  if (ratings.some((rating) => !rating)) return null;
+  return {
+    rating: Math.round((ratings[0].rating + ratings[1].rating) * 10) / 10,
+    estimated: ratings.some((rating) => rating.estimated),
+  };
+}
+
+// Ranks every game's lineupKnownPairRating against each other, strongest
+// combined rating first — the closest thing to "easier/harder" available
+// when there's no real opponent to project against: a raw number on its own
+// doesn't say much, but where it falls among this same matchup's other
+// known-but-unopposed pairs does. Returns a Map from game index to
+// { rank, total }; a game with no known-pair rating simply isn't in it.
+function lineupKnownPairRanks(games) {
+  const known = games
+    .map((game, index) => ({ index, entry: lineupKnownPairRating(game) }))
+    .filter(({ entry }) => entry)
+    .sort((x, y) => y.entry.rating - x.entry.rating);
+  return new Map(known.map(({ index }, rank) => [index, { rank: rank + 1, total: known.length }]));
+}
+
+function lineupTypeBadge(gameType) {
+  const [label, className] = GAME_TYPE_LABELS[gameType] || ['GAME', ''];
+  return `<span class="pill ${className}">${label}</span>`;
+}
+
+function lineupUsage(teamName, side) {
+  const counts = new Map(lineupRoster(teamName).map((player) => [player.name, 0]));
+  for (const game of lineupLabState.games) {
+    for (const name of game[side] || []) {
+      if (name && counts.has(name)) counts.set(name, counts.get(name) + 1);
+    }
+  }
+  return counts;
+}
+
+// Same rating a hypothetical pairing is scored on (resolvePlayerRating, with
+// its DUPR stand-in for anyone with no games in this division yet), styled
+// the way every other table on the dashboard styles a rating: signed, color
+// by direction, and a DUPR pill when it's standing on that stand-in rather
+// than a real one.
+function renderLineupRatingCell(player) {
+  const rating = resolvePlayerRating(player.name);
+  if (!rating) return EMPTY_VALUE;
+  const className = rating.rating >= 0 ? 'pos-diff' : 'neg-diff';
+  const title = rating.estimated ? 'Estimated from DUPR' : `${player.ratingGames} games`;
+  return `<span class="rating ${className}" title="${escapeHtml(title)}">${formatSignedValue(rating.rating, 1)}</span>${renderEstimateTag(rating.estimated)}`;
+}
+
+function renderLineupRoster(teamName, side) {
+  const usage = lineupUsage(teamName, side);
+  const roster = lineupRoster(teamName).slice().sort((a, b) => (
+    a.gender.localeCompare(b.gender) || a.name.localeCompare(b.name)
+  ));
+  const averageDuprValues = roster
+    .map((player) => DUPR_RATINGS[player.playerId]?.rating)
+    .filter((rating) => Number.isFinite(rating));
+  const averageDupr = averageDuprValues.length
+    ? averageDuprValues.reduce((sum, rating) => sum + rating, 0) / averageDuprValues.length
+    : null;
+  const rows = roster.map((player) => `
+    <tr>
+      <td class="l">${escapeHtml(player.name)}${player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : ''}${player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : ''}</td>
+      <td>${player.gender === 'Female' ? 'W' : 'M'}</td>
+      <td>${renderLineupRatingCell(player)}</td>
+      <td>${renderCell(player, 'dupr')}</td>
+      <td>${usage.get(player.name) || 0}</td>
+    </tr>`).join('');
+  return `<section class="lineup-roster" style="--team-color:${getTeamColor(teamName)}">
+    <div class="lineup-roster-head">
+      <h3>${escapeHtml(teamName)}</h3>
+      <span>${roster.length} players${averageDupr == null ? '' : ` • Avg DUPR ${averageDupr.toFixed(3)}`}</span>
+    </div>
+    <div class="scroll lineup-roster-table-wrap">
+      <table class="lineup-roster-table">
+        <thead><tr><th class="l">Player</th><th></th><th>Rating</th><th>DUPR</th><th>In lineup</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  </section>`;
+}
+
+function lineupMatchupDescription() {
+  const { teamA, teamB, matchupIndex } = lineupLabState;
+  const match = matchupIndex == null ? null : lineupSeasonMatchesForTeam(teamA)[matchupIndex];
+  if (!match) return `${teamA}: no matchup found.`;
+  const status = match.complete ? 'final' : match.games?.length ? 'posted, not yet played' : 'not yet posted';
+  return `Week ${match.week}: ${teamA} vs ${teamB} (${status}).`;
+}
+
+function renderLineupLab({ scroll = true } = {}) {
+  ensureLineupLabState();
+  const projections = lineupLabState.games.map(lineupGameProjection);
+  const knownPairRanks = lineupKnownPairRanks(lineupLabState.games);
+  const pairCountsA = lineupPairCounts('a');
+  const pairCountsB = lineupPairCounts('b');
+  const pairViolations = [
+    ...lineupPairViolations('a', lineupLabState.teamA, pairCountsA),
+    ...lineupPairViolations('b', lineupLabState.teamB, pairCountsB),
+  ];
+  const roundConflictsA = lineupRoundConflicts('a', lineupLabState.teamA);
+  const roundConflictsB = lineupRoundConflicts('b', lineupLabState.teamB);
+  const roundViolations = [...roundConflictsA.violations, ...roundConflictsB.violations];
+  const tally = summarizeProjections(projections);
+  const wins = projections.filter((projection) => projection.outcome === 'win').length;
+  const losses = projections.filter((projection) => projection.outcome === 'loss').length;
+  const ties = projections.filter((projection) => projection.outcome === 'tie').length;
+  const invalid = projections.filter((projection) => projection.invalid).length;
+  const projected = wins + losses + ties;
+  const caveats = [...tally.caveats];
+  if (invalid) caveats.push(`${invalid} ${pluralize(invalid, 'game has', 'games have')} a duplicate player`);
+  const scoreLine = projected
+    ? `<div class="lineup-scoreline">
+        <div><span>${escapeHtml(lineupLabState.teamA)}</span><b class="res-W">${wins}</b></div>
+        <span class="lineup-score-dash">–</span>
+        <div><b class="res-L">${losses}</b><span>${escapeHtml(lineupLabState.teamB)}</span></div>
+        ${ties ? `<span class="lineup-ties">${ties} even</span>` : ''}
+      </div>`
+    : '<div class="lineup-score-empty">Choose players to see a projection</div>';
+  const pairRuleHtml = pairViolations.length
+    ? `<div class="lineup-rule-check violation" role="alert">
+        <b>Pair limit broken</b>
+        <span>A pair may play together no more than twice in a week.</span>
+        <ul>${pairViolations.map((violation) => (
+          `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.pair.join(' / '))} is used ${violation.count} times</li>`
+        )).join('')}</ul>
+      </div>`
+    : `<div class="lineup-rule-check valid"><b>Pair limit clear</b><span>No pair is used more than twice.</span></div>`;
+  const roundRuleHtml = roundViolations.length
+    ? `<div class="lineup-rule-check violation" role="alert">
+        <b>Round conflict</b>
+        <span>A player can't be in two games in the same round (1–4, 5–8, …) — they'd need to be on two courts at once.</span>
+        <ul>${roundViolations.map((violation) => (
+          `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.name)} is in ${violation.count} games in round ${violation.round + 1}</li>`
+        )).join('')}</ul>
+      </div>`
+    : `<div class="lineup-rule-check valid"><b>Round conflict clear</b><span>No player is in two games in the same round.</span></div>`;
+
+  const rows = lineupLabState.games.map((game, index) => {
+    const projection = projections[index];
+    const duplicate = projection.invalid;
+    let projectionText;
+    if (duplicate) {
+      projectionText = '<span class="neg-diff">Choose two different players</span>';
+    } else if (projection.outcome === 'incomplete') {
+      // No real opponent to project against (one or both sides aren't fully
+      // posted), but a set pair facing a still-blank side is still real
+      // information: show its raw combined rating and where that ranks
+      // among this matchup's other games with the same signal, rather than
+      // a bare dash.
+      const known = lineupKnownPairRating(game);
+      const rank = known && knownPairRanks.get(index);
+      const rankTag = rank && rank.total > 1
+        ? ` <span class="exp-tag exp-rank" title="Ranked ${rank.rank} of ${rank.total} games this matchup with one side's pair fully set and the other untouched, highest combined rating first">${rank.rank} of ${rank.total}</span>`
+        : '';
+      projectionText = known
+        ? `<span class="rating ${known.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(known.rating, 1)}</span>${renderEstimateTag(known.estimated)}${rankTag}`
+        : `<span class="${projection.resultClass}">${projection.displayLabel}</span>`;
+    } else {
+      projectionText = `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;
+    }
+    return `<tr${duplicate ? ' class="lineup-invalid"' : ''}>
+      <td class="lineup-game-number">${index + 1}</td>
+      <td>${lineupTypeBadge(game.type)}</td>
+      <td>${renderLineupPair(lineupLabState.teamA, game.a, game.type, index, 'a', pairCountsA, roundConflictsA.conflictKeys)}</td>
+      <td class="lineup-projection">${projectionText}</td>
+      <td>${renderLineupPair(lineupLabState.teamB, game.b, game.type, index, 'b', pairCountsB, roundConflictsB.conflictKeys)}</td>
+    </tr>`;
+  }).join('');
+
+  elements.lineupView.innerHTML = `
+    <a class="backlink" href="${escapeHtml(standingsHref())}">← All standings</a>
+    <div class="lineup-lab-hero">
+      <div>
+        <span class="lineup-eyebrow">Captain's sandbox</span>
+        <h2>Lineup Lab</h2>
+        <p>Test a hypothetical matchup. Nothing here is saved or submitted.</p>
+      </div>
+      <div class="lineup-lab-status">Live projection</div>
+    </div>
+
+    <section class="lineup-setup panel">
+      <div class="lineup-team-picker">
+        <label><span>Team</span><select id="lineup-team-a">${lineupTeamOptions(lineupLabState.teamA)}</select></label>
+      </div>
+      <div class="lineup-template-row">
+        <label><span>Matchup</span><select id="lineup-matchup">${lineupMatchupOptions()}</select></label>
+        <button type="button" class="lineup-action" data-lineup-action="reset">Reload this lineup</button>
+        <button type="button" class="lineup-action secondary" data-lineup-action="clear">Clear all</button>
+      </div>
+      <p class="lineup-source-note">${escapeHtml(lineupMatchupDescription())}</p>
+    </section>
+
+    ${pairRuleHtml}
+    ${roundRuleHtml}
+
+    <section class="lineup-score-card panel">
+      <div>
+        <span class="lineup-score-label">Projected game score</span>
+        ${scoreLine}
+      </div>
+      <div class="lineup-score-notes">
+        <span>${projected} of ${lineupLabState.games.length} games projected</span>
+        ${caveats.map((note) => `<span>${note}</span>`).join('')}
+      </div>
+    </section>
+
+    <div class="lineup-rosters">
+      ${renderLineupRoster(lineupLabState.teamA, 'a')}
+      ${renderLineupRoster(lineupLabState.teamB, 'b')}
+    </div>
+
+    <section class="lineup-games-section">
+      <div class="lineup-games-heading">
+        <div><h3>Game lineup</h3><p>Change any player below; the score and every row update immediately.</p></div>
+        <div class="lineup-legend"><span class="pill t-mixed">MIX</span> Woman + man <span class="pill t-female">W</span> Women <span class="pill t-male">M</span> Men</div>
+      </div>
+      <div class="panel scroll lineup-table-wrap">
+        <table class="lineup-table">
+          <thead><tr><th>#</th><th>Type</th><th class="l">${escapeHtml(lineupLabState.teamA)}</th><th>Projection</th><th class="l">${escapeHtml(lineupLabState.teamB)}</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    </section>`;
+
+  elements.mainView.hidden = true;
+  elements.teamView.hidden = true;
+  elements.lineupView.hidden = false;
+  elements.lineupLink.classList.add('active');
+  elements.divisionFavorite.hidden = false;
+  elements.subhead.textContent = 'Lineup Lab — hypothetical matchup planner';
+  const titleSubject = divisionTitleSubject();
+  document.title = titleSubject ? `Lineup Lab - ${titleSubject}` : 'Lineup Lab';
+  refreshStickyLayout();
+  if (scroll) window.scrollTo(0, 0);
+}
+
+function handleLineupLabChange(event) {
+  if (event.target.id === 'lineup-team-a') {
+    lineupLabState.teamA = event.target.value;
+    // A new Team A means a whole new season list, so the previous matchup
+    // index almost certainly points at something unrelated — default fresh
+    // rather than keep it, same as opening the lab from a team's own page.
+    lineupLabState.matchupIndex = lineupDefaultMatchupIndex(lineupLabState.teamA);
+    lineupLabState.games = [];
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  if (event.target.id === 'lineup-matchup') {
+    lineupLabState.matchupIndex = Number(event.target.value);
+    lineupLabState.games = rebuildLineupLabGames();
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  const slot = event.target.closest('.lineup-slot');
+  if (!slot) return;
+  const game = lineupLabState.games[Number(slot.dataset.game)];
+  if (!game) return;
+  game[slot.dataset.side][Number(slot.dataset.slot)] = slot.value;
+  renderLineupLab({ scroll: false });
+}
+
+function handleLineupLabClick(event) {
+  if (!isPlainClick(event)) return;
+  if (event.target.closest('.backlink')) {
+    event.preventDefault();
+    routeSetByApp = true;
+    setRouteInUrl({ team: '', player: '', lineup: false });
+    return;
+  }
+  const action = event.target.closest('[data-lineup-action]')?.dataset.lineupAction;
+  if (!action) return;
+  if (action === 'reset') lineupLabState.games = rebuildLineupLabGames();
+  // Clearing keeps the selected matchup — only the two sides' player picks
+  // reset to blank — since the matchup itself is no longer an independent,
+  // clearable choice the way a standalone Team B pairing used to be.
+  if (action === 'clear') {
+    lineupLabState.games = lineupLabState.games.map((game) => ({ ...game, a: ['', ''], b: ['', ''] }));
+  }
+  renderLineupLab({ scroll: false });
+}
+
 function getProjectedPlayerGames(player) {
   const projectedGames = [];
   for (const match of DATA.matches || []) {
@@ -3289,6 +3845,12 @@ function renderTeamPage(team, { scroll = true } = {}) {
     : '';
   const roster = DATA.players
     .filter((player) => player.team === team.name);
+  const duprValues = roster
+    .map((player) => DUPR_RATINGS[player.playerId]?.rating)
+    .filter((rating) => Number.isFinite(rating));
+  const averageDupr = duprValues.length
+    ? duprValues.reduce((sum, rating) => sum + rating, 0) / duprValues.length
+    : null;
   const duos = DATA.duos.filter((duo) => duo.team === team.name);
   const history = DATA.matches
     .filter((match) => match.complete && (match.home === team.name || match.away === team.name))
@@ -3385,6 +3947,7 @@ function renderTeamPage(team, { scroll = true } = {}) {
         ${podMeta}
         <span>Record <b>${team.w}–${team.l}</b></span>
         <span>Games <b>${formatRecordWithPct(team.gw, team.gl)}</b></span>
+        ${averageDupr == null ? '' : `<span title="Average of ${duprValues.length} rostered player${pluralize(duprValues.length, '', 's')} with a numeric DUPR rating">Avg DUPR <b>${averageDupr.toFixed(3)}</b></span>`}
         <span>PF <b>${team.pf}</b> · PA <b>${team.pa}</b> · ${formatDiffSpan(team.diff)}</span>
         <span>Power <b class="${powerClass}">${isMissing(team.power) ? EMPTY_VALUE : formatSignedValue(team.power)}</b> <span class="mut">(#${team.powerRank} of ${powerRanked})</span></span>
       </div>
@@ -3407,7 +3970,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
     ${playoffMarkup ? teamSection('team-playoffs', 'Playoffs', 'knockout bracket', playoffMarkup) : ''}
   `;
   elements.mainView.hidden = true;
+  if (elements.lineupView) elements.lineupView.hidden = true;
   elements.teamView.hidden = false;
+  elements.lineupLink?.classList.remove('active');
   // The division header stays on screen behind the team page (only #mainview
   // swaps out), so its star has to be hidden explicitly here — otherwise it
   // reads as "favorite the team page you're looking at" and stars the
@@ -3457,7 +4022,9 @@ function renderTeamPage(team, { scroll = true } = {}) {
 
 function showMainView() {
   elements.teamView.hidden = true;
+  if (elements.lineupView) elements.lineupView.hidden = true;
   elements.mainView.hidden = false;
+  elements.lineupLink?.classList.remove('active');
   // Undo renderTeamPage's team-specific <title>; a player modal opened from
   // here never sets document.title, so there's nothing else to restore.
   applyDivisionTitle();
@@ -3482,6 +4049,26 @@ function handleRoute() {
   const route = getRouteFromLocation();
 
   hideModal();
+
+  if (route.lineup && elements.lineupView) {
+    // ?team= alongside ?lineup=1 names Team A — set by the nav link's click
+    // handler and left in the URL, so this same seeding runs identically on
+    // a hard refresh or a shared link, not just the click that got here.
+    const requestedTeam = route.team &&
+      DATA.teams.find((candidate) => slugify(candidate.name) === route.team);
+    if (requestedTeam && requestedTeam.name !== lineupLabState.teamA) {
+      lineupLabState.teamA = requestedTeam.name;
+      // Landing here from a team's own page, the natural matchup is whoever
+      // they play next — exactly what lineupDefaultMatchupIndex picks, so
+      // there's nothing team-B-specific left to seed here; Team B and the
+      // games grid both follow from the matchup once ensureLineupLabState /
+      // renderLineupLab run below.
+      lineupLabState.matchupIndex = lineupDefaultMatchupIndex(requestedTeam.name);
+      lineupLabState.games = [];
+    }
+    renderLineupLab();
+    return;
+  }
 
   if (route.team) {
     const teamSlug = route.team;
@@ -4053,6 +4640,27 @@ function initialize() {
   // that is replaced the next time the reader sorts the roster.
   elements.teamView.addEventListener('click', handleSectionToggleClick);
   elements.teamView.addEventListener('click', handleTocClick);
+  elements.lineupView?.addEventListener('change', handleLineupLabChange);
+  elements.lineupView?.addEventListener('click', handleLineupLabClick);
+  elements.lineupLink?.addEventListener('click', (event) => {
+    if (!isPlainClick(event)) return;
+    event.preventDefault();
+    routeSetByApp = true;
+    // A second click on the nav link while the lab is already open is read as
+    // "leave it" rather than "reload it" — the same link doubles as the way
+    // in and the way out, alongside the "← All standings" link inside the
+    // lab itself.
+    const isOpen = elements.lineupLink.classList.contains('active');
+    // ?team=, if the current URL has one, is carried through either way:
+    // opening from a team's own page takes it into the lab as Team A
+    // (handleRoute seeds lineupLabState from it — done there, not here, so a
+    // refresh or a shared link lands the same way a click does), and closing
+    // takes the same slug back out, landing on that team's page again rather
+    // than dropping to plain standings. Only genuinely blank — opened from
+    // standings, with no team in the URL to begin with — closes to standings.
+    const teamSlug = getRouteFromLocation().team;
+    setRouteInUrl({ team: teamSlug, player: '', lineup: !isOpen });
+  });
   document.addEventListener('click', handleFragmentLinkClick);
   document.addEventListener('click', handlePlayerClick);
   // One handler for every star on the page — the division header's, and any
@@ -4155,6 +4763,8 @@ function showFatalError(error) {
   );
   const teamView = document.getElementById('teamview');
   if (teamView) teamView.hidden = true;
+  const lineupView = document.getElementById('lineupview');
+  if (lineupView) lineupView.hidden = true;
 }
 
 // A rejected promise never reaches the try/catch below, and neither does a throw
