@@ -461,9 +461,9 @@
       "weekNumber": 6,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 579,
+      "awayPoints": 586,
+      "endResult": "away",
       "scheduledTime": "2026-09-26T09:00:00",
       "homeName": "Pickleball Kingdom Watchung",
       "awayName": "Picklr Fair Lawn"

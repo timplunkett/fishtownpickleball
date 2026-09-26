@@ -5599,6 +5599,35 @@
    "playerId": "d23839c0-334b-4423-9305-0c6281523d5d"
   },
   {
+   "name": "Katie Lazaar",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 209,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0bed64f0-b72a-4d63-8d44-347635f58bae"
+  },
+  {
    "name": "Austin Gow",
    "gender": "Male",
    "team": "Bounce Malvern",
@@ -5655,6 +5684,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a"
+  },
+  {
+   "name": "Joseph Zee",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 223,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2026ccb7-bd78-4bb5-96de-9d0127fdd954"
   },
   {
    "name": "Tessa Arendt",
@@ -22445,8 +22503,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Camrin Cronheim"
      ],
      "a": [
       "Brittany Hall",
@@ -22456,8 +22514,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Jason Makarevic"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -22471,19 +22529,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Joseph Zee"
      ],
      "a": [
       "Anita Buggins",
       "Hector Irizarry"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paula Ro",
+      "Sidd Pathare"
      ],
      "a": [
       "Shelah Wallace",
@@ -22493,19 +22555,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Katie Lazaar"
      ],
      "a": [
       "Stacy Walkowitz",
       "Shelah Wallace"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Paula Ro"
      ],
      "a": [
       "Anita Buggins",
@@ -22515,8 +22581,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Jason Makarevic"
      ],
      "a": [
       "Ben Mead",
@@ -22530,12 +22596,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Zee",
+      "Sidd Pathare"
      ],
      "a": [
       "Hector Irizarry",
       "Nathan Law"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -23269,8 +23339,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Arianna Haresign",
@@ -23280,8 +23350,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Shreyas Pani"
      ],
      "a": [
       "Michaela Pierznik",
@@ -23291,8 +23361,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Maanav Shah"
      ],
      "a": [
       "Michelle Quach",
@@ -23302,8 +23372,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Eric Lin"
      ],
      "a": [
       "Rachel Berger",
@@ -23313,8 +23383,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Angela Luo"
      ],
      "a": [
       "Arianna Haresign",
@@ -23324,8 +23394,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Richa Shah"
      ],
      "a": [
       "Michelle Quach",
@@ -23335,8 +23405,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilan Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Zach Bowe",
@@ -23346,8 +23416,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Maanav Shah"
      ],
      "a": [
       "Tyler Arsenault",
@@ -23357,8 +23427,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Eric Lin"
      ],
      "a": [
       "Arianna Haresign",
@@ -23368,8 +23438,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Maanav Shah"
      ],
      "a": [
       "Michaela Pierznik",
@@ -23379,8 +23449,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Angela Luo",
+      "Ali Husain"
      ],
      "a": [
       "Lauren Mercado",
@@ -23390,8 +23460,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Michelle Quach",
@@ -23401,8 +23471,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Morgan Fishman"
      ],
      "a": [
       "Arianna Haresign",
@@ -23412,8 +23482,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Angela Luo"
      ],
      "a": [
       "Michaela Pierznik",
@@ -23423,8 +23493,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Lin",
+      "Ali Husain"
      ],
      "a": [
       "Zach Bowe",
@@ -23434,8 +23504,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Maanav Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Tyler Arsenault",
@@ -23445,8 +23515,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Ali Husain"
      ],
      "a": [
       "Michelle Quach",
@@ -23456,8 +23526,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Arianna Haresign",
@@ -23467,8 +23537,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Angela Luo",
+      "Maanav Shah"
      ],
      "a": [
       "Michaela Pierznik",
@@ -23478,8 +23548,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Dilan Shah"
      ],
      "a": [
       "Lauren Mercado",
@@ -23489,8 +23559,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Richa Shah"
      ],
      "a": [
       "Arianna Haresign",
@@ -23500,8 +23570,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Angela Luo",
+      "Amanda Ksiezopolski"
      ],
      "a": [
       "Rachel Berger",
@@ -23511,8 +23581,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Maanav Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Tyler Arsenault",
@@ -23522,8 +23592,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilan Shah",
+      "Eric Lin"
      ],
      "a": [
       "Johny Mario",
@@ -23533,8 +23603,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Shreyas Pani"
      ],
      "a": [
       "Arianna Haresign",
@@ -23544,8 +23614,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Eric Lin"
      ],
      "a": [
       "Michaela Pierznik",
@@ -23555,8 +23625,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Ali Husain"
      ],
      "a": [
       "Rachel Berger",
@@ -23566,8 +23636,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Maanav Shah"
      ],
      "a": [
       "Michelle Quach",
@@ -23577,8 +23647,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Ksiezopolski",
+      "Angela Luo"
      ],
      "a": [
       "Rachel Berger",
@@ -23588,8 +23658,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ruhi Shah",
+      "Morgan Fishman"
      ],
      "a": [
       "Michaela Pierznik",
@@ -23599,8 +23669,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Shreyas Pani"
      ],
      "a": [
       "Tyler Arsenault",
@@ -23610,8 +23680,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dilan Shah",
+      "Maanav Shah"
      ],
      "a": [
       "Johny Mario",
@@ -24731,10 +24801,8 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
-  "Katie Lazaar": "0bed64f0-b72a-4d63-8d44-347635f58bae",
   "Jaco De Waal": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
-  "Joseph Zee": "2026ccb7-bd78-4bb5-96de-9d0127fdd954",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Jenny Chen": "54c51642-8048-4dd1-9221-a4306301ff72",
@@ -24747,7 +24815,7 @@
   "matchesPlayed": 28,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 206,
+  "totalPlayers": 208,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -24834,7 +24902,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T15:26:53.912Z";
+  DATA.meta.asOf = "2026-09-26T18:40:01.180Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
