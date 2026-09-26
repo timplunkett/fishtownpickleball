@@ -109,7 +109,7 @@
    "winPct": 87.5,
    "diff": 67,
    "ppg": 20.6,
-   "leagueRank": 5,
+   "leagueRank": 6,
    "rating": 1.6,
    "ratingGames": 16,
    "confidence": 74,
@@ -225,7 +225,7 @@
    "winPct": 80,
    "diff": 63,
    "ppg": 20.2,
-   "leagueRank": 6,
+   "leagueRank": 5,
    "rating": 3.4,
    "ratingGames": 20,
    "confidence": 79,
@@ -254,7 +254,7 @@
    "winPct": 80,
    "diff": 52,
    "ppg": 20.5,
-   "leagueRank": 16,
+   "leagueRank": 18,
    "rating": 0.7,
    "ratingGames": 15,
    "confidence": 72,
@@ -283,7 +283,7 @@
    "winPct": 80,
    "diff": 45,
    "ppg": 20,
-   "leagueRank": 18,
+   "leagueRank": 16,
    "rating": 1.4,
    "ratingGames": 15,
    "confidence": 69,
@@ -312,7 +312,7 @@
    "winPct": 79.2,
    "diff": 66,
    "ppg": 20.3,
-   "leagueRank": 7,
+   "leagueRank": 8,
    "rating": 2.2,
    "ratingGames": 24,
    "confidence": 81,
@@ -341,7 +341,7 @@
    "winPct": 78.6,
    "diff": 46,
    "ppg": 20.3,
-   "leagueRank": 12,
+   "leagueRank": 11,
    "rating": 1.2,
    "ratingGames": 14,
    "confidence": 72,
@@ -399,7 +399,7 @@
    "winPct": 77.3,
    "diff": 45,
    "ppg": 19.6,
-   "leagueRank": 19,
+   "leagueRank": 17,
    "rating": 1.9,
    "ratingGames": 22,
    "confidence": 81,
@@ -428,7 +428,7 @@
    "winPct": 76.9,
    "diff": 59,
    "ppg": 20.5,
-   "leagueRank": 11,
+   "leagueRank": 12,
    "rating": 1.4,
    "ratingGames": 13,
    "confidence": 70,
@@ -457,7 +457,7 @@
    "winPct": 76.2,
    "diff": 80,
    "ppg": 20.2,
-   "leagueRank": 8,
+   "leagueRank": 7,
    "rating": 2.9,
    "ratingGames": 21,
    "confidence": 79,
@@ -486,7 +486,7 @@
    "winPct": 75,
    "diff": 69,
    "ppg": 20.5,
-   "leagueRank": 15,
+   "leagueRank": 22,
    "rating": 2.2,
    "ratingGames": 24,
    "confidence": 81,
@@ -515,7 +515,7 @@
    "winPct": 75,
    "diff": 25,
    "ppg": 20.1,
-   "leagueRank": 49,
+   "leagueRank": 48,
    "rating": 1.8,
    "ratingGames": 8,
    "confidence": 62,
@@ -544,7 +544,7 @@
    "winPct": 75,
    "diff": 16,
    "ppg": 20.5,
-   "leagueRank": 26,
+   "leagueRank": 23,
    "rating": -0.8,
    "ratingGames": 12,
    "confidence": 68,
@@ -602,7 +602,7 @@
    "winPct": 73.9,
    "diff": 68,
    "ppg": 19.7,
-   "leagueRank": 24,
+   "leagueRank": 21,
    "rating": 1.3,
    "ratingGames": 23,
    "confidence": 80,
@@ -631,7 +631,7 @@
    "winPct": 72.7,
    "diff": 78,
    "ppg": 19.9,
-   "leagueRank": 21,
+   "leagueRank": 27,
    "rating": 2.2,
    "ratingGames": 22,
    "confidence": 80,
@@ -660,7 +660,7 @@
    "winPct": 72.4,
    "diff": 98,
    "ppg": 19.9,
-   "leagueRank": 17,
+   "leagueRank": 15,
    "rating": 2.5,
    "ratingGames": 29,
    "confidence": 84,
@@ -747,7 +747,7 @@
    "winPct": 71.4,
    "diff": 37,
    "ppg": 19.3,
-   "leagueRank": 43,
+   "leagueRank": 44,
    "rating": 3.1,
    "ratingGames": 7,
    "confidence": 56,
@@ -776,7 +776,7 @@
    "winPct": 71.4,
    "diff": 33,
    "ppg": 20.1,
-   "leagueRank": 20,
+   "leagueRank": 34,
    "rating": 2.1,
    "ratingGames": 14,
    "confidence": 71,
@@ -805,7 +805,7 @@
    "winPct": 71.4,
    "diff": 30,
    "ppg": 18.9,
-   "leagueRank": 53,
+   "leagueRank": 55,
    "rating": 2.2,
    "ratingGames": 7,
    "confidence": 57,
@@ -863,7 +863,7 @@
    "winPct": 69.6,
    "diff": 79,
    "ppg": 20,
-   "leagueRank": 25,
+   "leagueRank": 32,
    "rating": 1.8,
    "ratingGames": 23,
    "confidence": 81,
@@ -892,7 +892,7 @@
    "winPct": 68.8,
    "diff": 43,
    "ppg": 19.8,
-   "leagueRank": 27,
+   "leagueRank": 25,
    "rating": 1.2,
    "ratingGames": 16,
    "confidence": 73,
@@ -921,7 +921,7 @@
    "winPct": 68.4,
    "diff": 30,
    "ppg": 19.3,
-   "leagueRank": 29,
+   "leagueRank": 26,
    "rating": 2,
    "ratingGames": 19,
    "confidence": 78,
@@ -979,7 +979,7 @@
    "winPct": 66.7,
    "diff": 77,
    "ppg": 19.3,
-   "leagueRank": 23,
+   "leagueRank": 20,
    "rating": 3,
    "ratingGames": 30,
    "confidence": 84,
@@ -1008,7 +1008,7 @@
    "winPct": 66.7,
    "diff": 64,
    "ppg": 19.6,
-   "leagueRank": 28,
+   "leagueRank": 24,
    "rating": 1.7,
    "ratingGames": 21,
    "confidence": 80,
@@ -1037,7 +1037,7 @@
    "winPct": 66.7,
    "diff": 42,
    "ppg": 20,
-   "leagueRank": 22,
+   "leagueRank": 19,
    "rating": 2.6,
    "ratingGames": 15,
    "confidence": 75,
@@ -1066,7 +1066,7 @@
    "winPct": 66.7,
    "diff": -3,
    "ppg": 19,
-   "leagueRank": 112,
+   "leagueRank": 116,
    "rating": 0.5,
    "ratingGames": 6,
    "confidence": 53,
@@ -1095,7 +1095,7 @@
    "winPct": 64.7,
    "diff": -9,
    "ppg": 18.2,
-   "leagueRank": 72,
+   "leagueRank": 71,
    "rating": -2.3,
    "ratingGames": 17,
    "confidence": 77,
@@ -1182,7 +1182,7 @@
    "winPct": 64.3,
    "diff": 33,
    "ppg": 18.7,
-   "leagueRank": 48,
+   "leagueRank": 50,
    "rating": 0.3,
    "ratingGames": 28,
    "confidence": 84,
@@ -1211,7 +1211,7 @@
    "winPct": 64,
    "diff": 19,
    "ppg": 19.2,
-   "leagueRank": 41,
+   "leagueRank": 42,
    "rating": 0.7,
    "ratingGames": 25,
    "confidence": 82,
@@ -1240,7 +1240,7 @@
    "winPct": 63.6,
    "diff": 48,
    "ppg": 19.6,
-   "leagueRank": 35,
+   "leagueRank": 41,
    "rating": 0.9,
    "ratingGames": 22,
    "confidence": 81,
@@ -1298,7 +1298,7 @@
    "winPct": 63.3,
    "diff": 22,
    "ppg": 19.5,
-   "leagueRank": 30,
+   "leagueRank": 29,
    "rating": 2.1,
    "ratingGames": 30,
    "confidence": 84,
@@ -1327,7 +1327,7 @@
    "winPct": 62.5,
    "diff": 31,
    "ppg": 19.2,
-   "leagueRank": 45,
+   "leagueRank": 47,
    "rating": 0.7,
    "ratingGames": 24,
    "confidence": 81,
@@ -1356,7 +1356,7 @@
    "winPct": 62.5,
    "diff": 8,
    "ppg": 19.8,
-   "leagueRank": 64,
+   "leagueRank": 90,
    "rating": 0.8,
    "ratingGames": 8,
    "confidence": 62,
@@ -1414,7 +1414,7 @@
    "winPct": 62.5,
    "diff": -2,
    "ppg": 19.4,
-   "leagueRank": 82,
+   "leagueRank": 80,
    "rating": -0.3,
    "ratingGames": 8,
    "confidence": 62,
@@ -1443,7 +1443,7 @@
    "winPct": 62.5,
    "diff": -8,
    "ppg": 18.3,
-   "leagueRank": 79,
+   "leagueRank": 78,
    "rating": 1.3,
    "ratingGames": 8,
    "confidence": 59,
@@ -1472,7 +1472,7 @@
    "winPct": 61.9,
    "diff": 37,
    "ppg": 18.9,
-   "leagueRank": 34,
+   "leagueRank": 35,
    "rating": 1.9,
    "ratingGames": 21,
    "confidence": 80,
@@ -1501,7 +1501,7 @@
    "winPct": 61.1,
    "diff": 59,
    "ppg": 19.9,
-   "leagueRank": 31,
+   "leagueRank": 30,
    "rating": 1.3,
    "ratingGames": 18,
    "confidence": 76,
@@ -1530,7 +1530,7 @@
    "winPct": 61.1,
    "diff": 16,
    "ppg": 18.6,
-   "leagueRank": 57,
+   "leagueRank": 58,
    "rating": -0.8,
    "ratingGames": 18,
    "confidence": 78,
@@ -1559,7 +1559,7 @@
    "winPct": 60,
    "diff": 29,
    "ppg": 18.7,
-   "leagueRank": 52,
+   "leagueRank": 54,
    "rating": 0.8,
    "ratingGames": 30,
    "confidence": 84,
@@ -1617,7 +1617,7 @@
    "winPct": 60,
    "diff": -4,
    "ppg": 18,
-   "leagueRank": 155,
+   "leagueRank": 160,
    "rating": 0.2,
    "ratingGames": 5,
    "confidence": 52,
@@ -1646,7 +1646,7 @@
    "winPct": 59.1,
    "diff": 45,
    "ppg": 19.6,
-   "leagueRank": 32,
+   "leagueRank": 31,
    "rating": 3,
    "ratingGames": 22,
    "confidence": 80,
@@ -1675,7 +1675,7 @@
    "winPct": 58.6,
    "diff": 56,
    "ppg": 19,
-   "leagueRank": 44,
+   "leagueRank": 45,
    "rating": 1.9,
    "ratingGames": 29,
    "confidence": 84,
@@ -1704,7 +1704,7 @@
    "winPct": 58.6,
    "diff": 26,
    "ppg": 19.2,
-   "leagueRank": 50,
+   "leagueRank": 52,
    "rating": 0.8,
    "ratingGames": 29,
    "confidence": 84,
@@ -1733,7 +1733,7 @@
    "winPct": 58.3,
    "diff": 53,
    "ppg": 19.3,
-   "leagueRank": 42,
+   "leagueRank": 43,
    "rating": 1,
    "ratingGames": 24,
    "confidence": 81,
@@ -1762,7 +1762,7 @@
    "winPct": 58.3,
    "diff": 36,
    "ppg": 18.8,
-   "leagueRank": 51,
+   "leagueRank": 53,
    "rating": 1.1,
    "ratingGames": 24,
    "confidence": 82,
@@ -1791,7 +1791,7 @@
    "winPct": 57.1,
    "diff": 14,
    "ppg": 19.3,
-   "leagueRank": 47,
+   "leagueRank": 49,
    "rating": 1.2,
    "ratingGames": 14,
    "confidence": 72,
@@ -1849,7 +1849,7 @@
    "winPct": 57.1,
    "diff": 6,
    "ppg": 18,
-   "leagueRank": 110,
+   "leagueRank": 112,
    "rating": 0.9,
    "ratingGames": 7,
    "confidence": 57,
@@ -1878,7 +1878,7 @@
    "winPct": 57.1,
    "diff": -3,
    "ppg": 17.4,
-   "leagueRank": 127,
+   "leagueRank": 132,
    "rating": 0,
    "ratingGames": 7,
    "confidence": 58,
@@ -1907,7 +1907,7 @@
    "winPct": 56.3,
    "diff": 22,
    "ppg": 18.7,
-   "leagueRank": 68,
+   "leagueRank": 67,
    "rating": -0.4,
    "ratingGames": 32,
    "confidence": 84,
@@ -1936,7 +1936,7 @@
    "winPct": 55.6,
    "diff": 29,
    "ppg": 18.7,
-   "leagueRank": 56,
+   "leagueRank": 57,
    "rating": 0.4,
    "ratingGames": 27,
    "confidence": 83,
@@ -1965,7 +1965,7 @@
    "winPct": 54.5,
    "diff": 47,
    "ppg": 19.9,
-   "leagueRank": 54,
+   "leagueRank": 56,
    "rating": -0.6,
    "ratingGames": 22,
    "confidence": 79,
@@ -1994,7 +1994,7 @@
    "winPct": 54.5,
    "diff": 19,
    "ppg": 19.5,
-   "leagueRank": 55,
+   "leagueRank": 76,
    "rating": 0.4,
    "ratingGames": 22,
    "confidence": 80,
@@ -2023,7 +2023,7 @@
    "winPct": 54.5,
    "diff": 5,
    "ppg": 19,
-   "leagueRank": 71,
+   "leagueRank": 70,
    "rating": -0.4,
    "ratingGames": 22,
    "confidence": 80,
@@ -2052,7 +2052,7 @@
    "winPct": 54.2,
    "diff": 4,
    "ppg": 19.1,
-   "leagueRank": 75,
+   "leagueRank": 74,
    "rating": -0.7,
    "ratingGames": 24,
    "confidence": 81,
@@ -2081,7 +2081,7 @@
    "winPct": 53.8,
    "diff": 13,
    "ppg": 19.1,
-   "leagueRank": 58,
+   "leagueRank": 59,
    "rating": 0.1,
    "ratingGames": 13,
    "confidence": 72,
@@ -2139,7 +2139,7 @@
    "winPct": 53.6,
    "diff": -8,
    "ppg": 18.5,
-   "leagueRank": 59,
+   "leagueRank": 60,
    "rating": 1.7,
    "ratingGames": 28,
    "confidence": 83,
@@ -2168,7 +2168,7 @@
    "winPct": 53.3,
    "diff": 20,
    "ppg": 18.5,
-   "leagueRank": 61,
+   "leagueRank": 62,
    "rating": 0.7,
    "ratingGames": 15,
    "confidence": 74,
@@ -2197,7 +2197,7 @@
    "winPct": 53.1,
    "diff": 35,
    "ppg": 19.2,
-   "leagueRank": 62,
+   "leagueRank": 63,
    "rating": 0.2,
    "ratingGames": 32,
    "confidence": 84,
@@ -2226,7 +2226,7 @@
    "winPct": 52.6,
    "diff": 8,
    "ppg": 18.5,
-   "leagueRank": 73,
+   "leagueRank": 72,
    "rating": 0.5,
    "ratingGames": 19,
    "confidence": 78,
@@ -2255,7 +2255,7 @@
    "winPct": 52,
    "diff": 20,
    "ppg": 18.9,
-   "leagueRank": 70,
+   "leagueRank": 68,
    "rating": 0.1,
    "ratingGames": 25,
    "confidence": 82,
@@ -2284,7 +2284,7 @@
    "winPct": 51.9,
    "diff": 1,
    "ppg": 18.6,
-   "leagueRank": 76,
+   "leagueRank": 75,
    "rating": 0.2,
    "ratingGames": 27,
    "confidence": 82,
@@ -2313,7 +2313,7 @@
    "winPct": 51.6,
    "diff": 42,
    "ppg": 19.1,
-   "leagueRank": 60,
+   "leagueRank": 61,
    "rating": 0.2,
    "ratingGames": 31,
    "confidence": 84,
@@ -2342,7 +2342,7 @@
    "winPct": 50,
    "diff": 32,
    "ppg": 19.8,
-   "leagueRank": 65,
+   "leagueRank": 51,
    "rating": -0.2,
    "ratingGames": 22,
    "confidence": 81,
@@ -2400,7 +2400,7 @@
    "winPct": 50,
    "diff": 22,
    "ppg": 19.4,
-   "leagueRank": 67,
+   "leagueRank": 65,
    "rating": 0.2,
    "ratingGames": 18,
    "confidence": 78,
@@ -2458,7 +2458,7 @@
    "winPct": 50,
    "diff": 10,
    "ppg": 18.6,
-   "leagueRank": 84,
+   "leagueRank": 85,
    "rating": 1.4,
    "ratingGames": 8,
    "confidence": 61,
@@ -2516,7 +2516,7 @@
    "winPct": 50,
    "diff": 7,
    "ppg": 19.7,
-   "leagueRank": 63,
+   "leagueRank": 64,
    "rating": 0.1,
    "ratingGames": 12,
    "confidence": 70,
@@ -2545,7 +2545,7 @@
    "winPct": 50,
    "diff": 5,
    "ppg": 19,
-   "leagueRank": 74,
+   "leagueRank": 73,
    "rating": 0,
    "ratingGames": 30,
    "confidence": 85,
@@ -2574,7 +2574,7 @@
    "winPct": 50,
    "diff": 0,
    "ppg": 18.5,
-   "leagueRank": 109,
+   "leagueRank": 111,
    "rating": -0.2,
    "ratingGames": 8,
    "confidence": 62,
@@ -2603,7 +2603,7 @@
    "winPct": 50,
    "diff": -13,
    "ppg": 18,
-   "leagueRank": 83,
+   "leagueRank": 84,
    "rating": -0.9,
    "ratingGames": 14,
    "confidence": 73,
@@ -2632,7 +2632,7 @@
    "winPct": 50,
    "diff": -19,
    "ppg": 17.7,
-   "leagueRank": 93,
+   "leagueRank": 95,
    "rating": -0.6,
    "ratingGames": 16,
    "confidence": 75,
@@ -2661,7 +2661,7 @@
    "winPct": 50,
    "diff": -26,
    "ppg": 17.5,
-   "leagueRank": 95,
+   "leagueRank": 96,
    "rating": -0.2,
    "ratingGames": 14,
    "confidence": 74,
@@ -2690,7 +2690,7 @@
    "winPct": 47.8,
    "diff": -24,
    "ppg": 18.7,
-   "leagueRank": 78,
+   "leagueRank": 79,
    "rating": -0.1,
    "ratingGames": 23,
    "confidence": 81,
@@ -2719,7 +2719,7 @@
    "winPct": 45.8,
    "diff": 5,
    "ppg": 18.8,
-   "leagueRank": 85,
+   "leagueRank": 86,
    "rating": -1,
    "ratingGames": 24,
    "confidence": 82,
@@ -2748,7 +2748,7 @@
    "winPct": 45.8,
    "diff": -17,
    "ppg": 18.2,
-   "leagueRank": 107,
+   "leagueRank": 108,
    "rating": -1.5,
    "ratingGames": 24,
    "confidence": 80,
@@ -2777,7 +2777,7 @@
    "winPct": 45.5,
    "diff": 11,
    "ppg": 19,
-   "leagueRank": 108,
+   "leagueRank": 110,
    "rating": 0.2,
    "ratingGames": 11,
    "confidence": 68,
@@ -2806,7 +2806,7 @@
    "winPct": 45.5,
    "diff": 3,
    "ppg": 18.3,
-   "leagueRank": 117,
+   "leagueRank": 118,
    "rating": -0.5,
    "ratingGames": 11,
    "confidence": 70,
@@ -2835,7 +2835,7 @@
    "winPct": 45,
    "diff": -6,
    "ppg": 18.4,
-   "leagueRank": 88,
+   "leagueRank": 89,
    "rating": -1.4,
    "ratingGames": 20,
    "confidence": 79,
@@ -2864,7 +2864,7 @@
    "winPct": 44.4,
    "diff": 3,
    "ppg": 19.7,
-   "leagueRank": 97,
+   "leagueRank": 98,
    "rating": -0.4,
    "ratingGames": 9,
    "confidence": 65,
@@ -2893,7 +2893,7 @@
    "winPct": 44.4,
    "diff": -17,
    "ppg": 18.7,
-   "leagueRank": 90,
+   "leagueRank": 91,
    "rating": -0.7,
    "ratingGames": 27,
    "confidence": 83,
@@ -2922,7 +2922,7 @@
    "winPct": 44,
    "diff": -41,
    "ppg": 17.7,
-   "leagueRank": 113,
+   "leagueRank": 115,
    "rating": -1.8,
    "ratingGames": 25,
    "confidence": 81,
@@ -2951,7 +2951,7 @@
    "winPct": 43.8,
    "diff": -2,
    "ppg": 18.5,
-   "leagueRank": 89,
+   "leagueRank": 83,
    "rating": -0.4,
    "ratingGames": 16,
    "confidence": 76,
@@ -2980,7 +2980,7 @@
    "winPct": 43.8,
    "diff": -6,
    "ppg": 18.4,
-   "leagueRank": 91,
+   "leagueRank": 93,
    "rating": 0.2,
    "ratingGames": 32,
    "confidence": 85,
@@ -3009,7 +3009,7 @@
    "winPct": 43.8,
    "diff": -9,
    "ppg": 17.4,
-   "leagueRank": 101,
+   "leagueRank": 102,
    "rating": 0.4,
    "ratingGames": 16,
    "confidence": 73,
@@ -3038,7 +3038,7 @@
    "winPct": 43.5,
    "diff": -6,
    "ppg": 18.7,
-   "leagueRank": 80,
+   "leagueRank": 82,
    "rating": 1.6,
    "ratingGames": 23,
    "confidence": 80,
@@ -3067,7 +3067,7 @@
    "winPct": 43.5,
    "diff": -30,
    "ppg": 17.7,
-   "leagueRank": 99,
+   "leagueRank": 100,
    "rating": 0.3,
    "ratingGames": 23,
    "confidence": 81,
@@ -3096,7 +3096,7 @@
    "winPct": 42.9,
    "diff": -1,
    "ppg": 19,
-   "leagueRank": 86,
+   "leagueRank": 87,
    "rating": 0,
    "ratingGames": 14,
    "confidence": 72,
@@ -3125,7 +3125,7 @@
    "winPct": 42.3,
    "diff": -40,
    "ppg": 17.8,
-   "leagueRank": 111,
+   "leagueRank": 113,
    "rating": -1.6,
    "ratingGames": 26,
    "confidence": 82,
@@ -3154,7 +3154,7 @@
    "winPct": 42.1,
    "diff": 0,
    "ppg": 18.9,
-   "leagueRank": 96,
+   "leagueRank": 97,
    "rating": -1,
    "ratingGames": 19,
    "confidence": 78,
@@ -3183,7 +3183,7 @@
    "winPct": 42.1,
    "diff": -55,
    "ppg": 16.8,
-   "leagueRank": 115,
+   "leagueRank": 117,
    "rating": -1.3,
    "ratingGames": 19,
    "confidence": 77,
@@ -3212,7 +3212,7 @@
    "winPct": 41.7,
    "diff": -7,
    "ppg": 18.3,
-   "leagueRank": 103,
+   "leagueRank": 104,
    "rating": -1,
    "ratingGames": 12,
    "confidence": 69,
@@ -3241,7 +3241,7 @@
    "winPct": 41.7,
    "diff": -12,
    "ppg": 18.2,
-   "leagueRank": 104,
+   "leagueRank": 105,
    "rating": 0,
    "ratingGames": 24,
    "confidence": 81,
@@ -3270,7 +3270,7 @@
    "winPct": 41.7,
    "diff": -32,
    "ppg": 17.3,
-   "leagueRank": 122,
+   "leagueRank": 123,
    "rating": -1.8,
    "ratingGames": 12,
    "confidence": 71,
@@ -3299,7 +3299,7 @@
    "winPct": 40.9,
    "diff": -16,
    "ppg": 18.1,
-   "leagueRank": 102,
+   "leagueRank": 103,
    "rating": -1.2,
    "ratingGames": 22,
    "confidence": 79,
@@ -3328,7 +3328,7 @@
    "winPct": 40.9,
    "diff": -33,
    "ppg": 18,
-   "leagueRank": 100,
+   "leagueRank": 101,
    "rating": 0.6,
    "ratingGames": 22,
    "confidence": 80,
@@ -3357,7 +3357,7 @@
    "winPct": 40.9,
    "diff": -34,
    "ppg": 17.9,
-   "leagueRank": 105,
+   "leagueRank": 106,
    "rating": -0.4,
    "ratingGames": 22,
    "confidence": 80,
@@ -3386,7 +3386,7 @@
    "winPct": 40,
    "diff": 1,
    "ppg": 18.4,
-   "leagueRank": 144,
+   "leagueRank": 149,
    "rating": -0.1,
    "ratingGames": 5,
    "confidence": 47,
@@ -3415,7 +3415,7 @@
    "winPct": 40,
    "diff": -9,
    "ppg": 18.8,
-   "leagueRank": 98,
+   "leagueRank": 99,
    "rating": -0.4,
    "ratingGames": 30,
    "confidence": 84,
@@ -3444,7 +3444,7 @@
    "winPct": 40,
    "diff": -17,
    "ppg": 18.6,
-   "leagueRank": 87,
+   "leagueRank": 88,
    "rating": 0.9,
    "ratingGames": 20,
    "confidence": 78,
@@ -3473,7 +3473,7 @@
    "winPct": 40,
    "diff": -47,
    "ppg": 17.1,
-   "leagueRank": 119,
+   "leagueRank": 121,
    "rating": -1.2,
    "ratingGames": 20,
    "confidence": 79,
@@ -3502,7 +3502,7 @@
    "winPct": 40,
    "diff": -49,
    "ppg": 17.8,
-   "leagueRank": 106,
+   "leagueRank": 107,
    "rating": 0.1,
    "ratingGames": 30,
    "confidence": 84,
@@ -3531,7 +3531,7 @@
    "winPct": 38.5,
    "diff": -22,
    "ppg": 18.2,
-   "leagueRank": 140,
+   "leagueRank": 145,
    "rating": 0.2,
    "ratingGames": 13,
    "confidence": 71,
@@ -3560,7 +3560,7 @@
    "winPct": 37.5,
    "diff": -5,
    "ppg": 18.6,
-   "leagueRank": 152,
+   "leagueRank": 158,
    "rating": -1.9,
    "ratingGames": 8,
    "confidence": 61,
@@ -3589,7 +3589,7 @@
    "winPct": 37.5,
    "diff": -32,
    "ppg": 18.1,
-   "leagueRank": 116,
+   "leagueRank": 119,
    "rating": -1.3,
    "ratingGames": 16,
    "confidence": 74,
@@ -3618,7 +3618,7 @@
    "winPct": 36.4,
    "diff": -18,
    "ppg": 18.4,
-   "leagueRank": 133,
+   "leagueRank": 139,
    "rating": -0.9,
    "ratingGames": 11,
    "confidence": 67,
@@ -3647,7 +3647,7 @@
    "winPct": 35.7,
    "diff": -30,
    "ppg": 17.8,
-   "leagueRank": 123,
+   "leagueRank": 127,
    "rating": -0.8,
    "ratingGames": 14,
    "confidence": 73,
@@ -3676,7 +3676,7 @@
    "winPct": 35.7,
    "diff": -36,
    "ppg": 16.6,
-   "leagueRank": 130,
+   "leagueRank": 135,
    "rating": -1.4,
    "ratingGames": 14,
    "confidence": 73,
@@ -3705,7 +3705,7 @@
    "winPct": 33.3,
    "diff": 4,
    "ppg": 19.5,
-   "leagueRank": 128,
+   "leagueRank": 133,
    "rating": -0.6,
    "ratingGames": 6,
    "confidence": 54,
@@ -3734,7 +3734,7 @@
    "winPct": 33.3,
    "diff": 0,
    "ppg": 19.5,
-   "leagueRank": 126,
+   "leagueRank": 131,
    "rating": -0.2,
    "ratingGames": 6,
    "confidence": 54,
@@ -3763,7 +3763,7 @@
    "winPct": 33.3,
    "diff": -14,
    "ppg": 17.5,
-   "leagueRank": 167,
+   "leagueRank": 170,
    "rating": -1,
    "ratingGames": 6,
    "confidence": 53,
@@ -3792,7 +3792,7 @@
    "winPct": 33.3,
    "diff": -14,
    "ppg": 19,
-   "leagueRank": 124,
+   "leagueRank": 129,
    "rating": -1.5,
    "ratingGames": 12,
    "confidence": 70,
@@ -3821,7 +3821,7 @@
    "winPct": 33.3,
    "diff": -20,
    "ppg": 18,
-   "leagueRank": 125,
+   "leagueRank": 130,
    "rating": -1.2,
    "ratingGames": 24,
    "confidence": 82,
@@ -3850,7 +3850,7 @@
    "winPct": 33.3,
    "diff": -33,
    "ppg": 17.6,
-   "leagueRank": 129,
+   "leagueRank": 134,
    "rating": -1.4,
    "ratingGames": 18,
    "confidence": 77,
@@ -3879,7 +3879,7 @@
    "winPct": 33.3,
    "diff": -38,
    "ppg": 18.1,
-   "leagueRank": 118,
+   "leagueRank": 120,
    "rating": -0.2,
    "ratingGames": 21,
    "confidence": 80,
@@ -3908,7 +3908,7 @@
    "winPct": 31.6,
    "diff": -49,
    "ppg": 17.5,
-   "leagueRank": 131,
+   "leagueRank": 136,
    "rating": -1.4,
    "ratingGames": 19,
    "confidence": 77,
@@ -3937,7 +3937,7 @@
    "winPct": 31.3,
    "diff": -28,
    "ppg": 18,
-   "leagueRank": 120,
+   "leagueRank": 122,
    "rating": -0.1,
    "ratingGames": 16,
    "confidence": 73,
@@ -3966,7 +3966,7 @@
    "winPct": 31,
    "diff": -102,
    "ppg": 16.1,
-   "leagueRank": 141,
+   "leagueRank": 146,
    "rating": -1.9,
    "ratingGames": 29,
    "confidence": 84,
@@ -3995,7 +3995,7 @@
    "winPct": 30.8,
    "diff": -12,
    "ppg": 18.5,
-   "leagueRank": 121,
+   "leagueRank": 125,
    "rating": -0.1,
    "ratingGames": 13,
    "confidence": 72,
@@ -4024,7 +4024,7 @@
    "winPct": 30.4,
    "diff": -73,
    "ppg": 17,
-   "leagueRank": 134,
+   "leagueRank": 138,
    "rating": -2.2,
    "ratingGames": 23,
    "confidence": 81,
@@ -4053,7 +4053,7 @@
    "winPct": 28.6,
    "diff": -4,
    "ppg": 17.7,
-   "leagueRank": 161,
+   "leagueRank": 166,
    "rating": -0.8,
    "ratingGames": 7,
    "confidence": 56,
@@ -4082,7 +4082,7 @@
    "winPct": 28.6,
    "diff": -8,
    "ppg": 18.6,
-   "leagueRank": 146,
+   "leagueRank": 151,
    "rating": 0.8,
    "ratingGames": 7,
    "confidence": 57,
@@ -4111,7 +4111,7 @@
    "winPct": 28.6,
    "diff": -10,
    "ppg": 18.7,
-   "leagueRank": 164,
+   "leagueRank": 109,
    "rating": -2,
    "ratingGames": 7,
    "confidence": 58,
@@ -4140,7 +4140,7 @@
    "winPct": 28.6,
    "diff": -11,
    "ppg": 18,
-   "leagueRank": 154,
+   "leagueRank": 159,
    "rating": 0,
    "ratingGames": 7,
    "confidence": 60,
@@ -4169,7 +4169,7 @@
    "winPct": 28.6,
    "diff": -28,
    "ppg": 16.4,
-   "leagueRank": 165,
+   "leagueRank": 169,
    "rating": -3.6,
    "ratingGames": 7,
    "confidence": 59,
@@ -4198,7 +4198,7 @@
    "winPct": 28.6,
    "diff": -57,
    "ppg": 16,
-   "leagueRank": 147,
+   "leagueRank": 152,
    "rating": -2.5,
    "ratingGames": 14,
    "confidence": 72,
@@ -4227,7 +4227,7 @@
    "winPct": 27.3,
    "diff": -62,
    "ppg": 17.3,
-   "leagueRank": 135,
+   "leagueRank": 140,
    "rating": -1.4,
    "ratingGames": 22,
    "confidence": 80,
@@ -4256,7 +4256,7 @@
    "winPct": 26.3,
    "diff": -57,
    "ppg": 17,
-   "leagueRank": 139,
+   "leagueRank": 144,
    "rating": -1.4,
    "ratingGames": 19,
    "confidence": 79,
@@ -4267,7 +4267,7 @@
   {
    "name": "Obege Janvier",
    "gender": "Male",
-   "team": "Flemington",
+   "team": "Dill Dinkers Freehold",
    "matches": 0,
    "outsideSub": true,
    "isCaptain": false,
@@ -4285,7 +4285,7 @@
    "winPct": 25,
    "diff": -12,
    "ppg": 17.9,
-   "leagueRank": 132,
+   "leagueRank": 28,
    "rating": 2.3,
    "ratingGames": 8,
    "confidence": 58,
@@ -4314,7 +4314,7 @@
    "winPct": 25,
    "diff": -24,
    "ppg": 17.1,
-   "leagueRank": 143,
+   "leagueRank": 148,
    "rating": -1.4,
    "ratingGames": 8,
    "confidence": 61,
@@ -4343,7 +4343,7 @@
    "winPct": 25,
    "diff": -85,
    "ppg": 17.3,
-   "leagueRank": 136,
+   "leagueRank": 141,
    "rating": -0.9,
    "ratingGames": 28,
    "confidence": 83,
@@ -4372,7 +4372,7 @@
    "winPct": 25,
    "diff": -113,
    "ppg": 15.5,
-   "leagueRank": 151,
+   "leagueRank": 156,
    "rating": -2.1,
    "ratingGames": 24,
    "confidence": 81,
@@ -4401,7 +4401,7 @@
    "winPct": 24.1,
    "diff": -84,
    "ppg": 17,
-   "leagueRank": 142,
+   "leagueRank": 147,
    "rating": -1.2,
    "ratingGames": 29,
    "confidence": 84,
@@ -4430,7 +4430,7 @@
    "winPct": 23.8,
    "diff": -82,
    "ppg": 16.4,
-   "leagueRank": 149,
+   "leagueRank": 154,
    "rating": -2.3,
    "ratingGames": 21,
    "confidence": 79,
@@ -4459,7 +4459,7 @@
    "winPct": 23.1,
    "diff": -31,
    "ppg": 17.2,
-   "leagueRank": 137,
+   "leagueRank": 142,
    "rating": -0.5,
    "ratingGames": 13,
    "confidence": 72,
@@ -4488,7 +4488,7 @@
    "winPct": 23.1,
    "diff": -49,
    "ppg": 16.2,
-   "leagueRank": 148,
+   "leagueRank": 153,
    "rating": -2,
    "ratingGames": 13,
    "confidence": 72,
@@ -4517,7 +4517,7 @@
    "winPct": 23.1,
    "diff": -66,
    "ppg": 15.5,
-   "leagueRank": 157,
+   "leagueRank": 162,
    "rating": -2.3,
    "ratingGames": 13,
    "confidence": 71,
@@ -4546,7 +4546,7 @@
    "winPct": 21.4,
    "diff": -36,
    "ppg": 17.9,
-   "leagueRank": 138,
+   "leagueRank": 143,
    "rating": -1.7,
    "ratingGames": 14,
    "confidence": 71,
@@ -4575,7 +4575,7 @@
    "winPct": 21.4,
    "diff": -61,
    "ppg": 15.3,
-   "leagueRank": 160,
+   "leagueRank": 165,
    "rating": -2.4,
    "ratingGames": 14,
    "confidence": 72,
@@ -4604,7 +4604,7 @@
    "winPct": 21.1,
    "diff": -76,
    "ppg": 15.7,
-   "leagueRank": 153,
+   "leagueRank": 157,
    "rating": -1.7,
    "ratingGames": 19,
    "confidence": 77,
@@ -4633,7 +4633,7 @@
    "winPct": 19,
    "diff": -77,
    "ppg": 16.8,
-   "leagueRank": 150,
+   "leagueRank": 155,
    "rating": -2.2,
    "ratingGames": 21,
    "confidence": 80,
@@ -4662,7 +4662,7 @@
    "winPct": 18.8,
    "diff": -49,
    "ppg": 16.8,
-   "leagueRank": 145,
+   "leagueRank": 150,
    "rating": -0.4,
    "ratingGames": 16,
    "confidence": 75,
@@ -4691,7 +4691,7 @@
    "winPct": 18.5,
    "diff": -126,
    "ppg": 15.6,
-   "leagueRank": 159,
+   "leagueRank": 164,
    "rating": -2.3,
    "ratingGames": 27,
    "confidence": 83,
@@ -4720,7 +4720,7 @@
    "winPct": 17.9,
    "diff": -142,
    "ppg": 15.4,
-   "leagueRank": 162,
+   "leagueRank": 167,
    "rating": -3,
    "ratingGames": 28,
    "confidence": 83,
@@ -4749,7 +4749,7 @@
    "winPct": 16.7,
    "diff": -53,
    "ppg": 16.1,
-   "leagueRank": 156,
+   "leagueRank": 161,
    "rating": -2.1,
    "ratingGames": 12,
    "confidence": 70,
@@ -4778,7 +4778,7 @@
    "winPct": 14.3,
    "diff": -83,
    "ppg": 16.5,
-   "leagueRank": 158,
+   "leagueRank": 163,
    "rating": -2.6,
    "ratingGames": 21,
    "confidence": 80,
@@ -4807,7 +4807,7 @@
    "winPct": 10.3,
    "diff": -178,
    "ppg": 14.5,
-   "leagueRank": 168,
+   "leagueRank": 173,
    "rating": -4.1,
    "ratingGames": 29,
    "confidence": 84,
@@ -4836,7 +4836,7 @@
    "winPct": 6.7,
    "diff": -77,
    "ppg": 15.7,
-   "leagueRank": 166,
+   "leagueRank": 171,
    "rating": -2.6,
    "ratingGames": 15,
    "confidence": 74,
@@ -4865,7 +4865,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 180,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 173,
+   "leagueRank": 178,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4981,7 +4981,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 175,
+   "leagueRank": 180,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 177,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,7 +5155,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 178,
+   "leagueRank": 183,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5184,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 182,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5213,7 +5213,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 126,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5242,7 +5242,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 128,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 172,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 187,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5358,7 +5358,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 124,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5387,7 +5387,7 @@
    "winPct": 0,
    "diff": -48,
    "ppg": 13,
-   "leagueRank": 170,
+   "leagueRank": 174,
    "rating": -3.1,
    "ratingGames": 6,
    "confidence": 53,
@@ -5416,7 +5416,7 @@
    "winPct": 0,
    "diff": -58,
    "ppg": 12.7,
-   "leagueRank": 171,
+   "leagueRank": 176,
    "rating": -3.8,
    "ratingGames": 7,
    "confidence": 57,
@@ -5445,7 +5445,7 @@
    "winPct": 0,
    "diff": -60,
    "ppg": 12.4,
-   "leagueRank": 172,
+   "leagueRank": 177,
    "rating": -4.9,
    "ratingGames": 7,
    "confidence": 58,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": -68,
    "ppg": 12.5,
-   "leagueRank": 169,
+   "leagueRank": 175,
    "rating": -3.5,
    "ratingGames": 8,
    "confidence": 60,
@@ -5524,7 +5524,7 @@
    "gl": 27,
    "diff": 234,
    "gameDiff": 42,
-   "power": 0.9,
+   "power": 1,
    "powerRank": 1,
    "pod": 2,
    "reportedPod": "North",
@@ -5794,7 +5794,7 @@
    "gl": 83,
    "diff": -258,
    "gameDiff": -38,
-   "power": -0.8,
+   "power": -0.9,
    "powerRank": 6,
    "pod": 2,
    "reportedPod": "North",
@@ -20694,7 +20694,361 @@
    "home": "Pickle House",
    "away": "Bounce Malvern",
    "time": "2026-09-28T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Shawn Ganow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Scott Bohrer",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Shawn Ganow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Shawn Ganow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dustin Rabinowitz",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Scott Bohrer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Ganow",
+      "Lou Frignito"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -20710,7 +21064,57 @@
    "home": "ACE Moorestown",
    "away": "Jersey Devil",
    "time": "2026-09-28T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      ""
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      ""
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -21184,7 +21588,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T17:21:32.789Z";
+  DATA.meta.asOf = "2026-09-26T20:27:02.959Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

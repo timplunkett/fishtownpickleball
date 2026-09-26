@@ -293,9 +293,9 @@
       "weekNumber": 5,
       "homeTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
       "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 663,
+      "awayPoints": 433,
+      "endResult": "home",
       "scheduledTime": "2026-09-26T12:00:00",
       "homeName": "Pickleball Lehigh Valley",
       "awayName": "Premiere"

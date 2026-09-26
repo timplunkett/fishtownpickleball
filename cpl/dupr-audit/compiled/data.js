@@ -11395,6 +11395,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lj Dequina",
+   "playerId": "e4cb9932-d672-4089-a643-f2d16e3bd98a",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Lolita Hagen",
    "playerId": "c4ac93eb-8c41-45e6-9ff3-026934b618b5",
    "team": "ACE Moorestown",

@@ -43708,7 +43708,7 @@
     "lastName": "Fischer",
     "dupr": "YG0PX4",
     "duprRating": "3.265",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5346569586,
     "duprProvisional": false
   },
@@ -47282,6 +47282,16 @@
     "duprRating": "NR",
     "lastSeen": "2026-09",
     "duprNumericId": 5523721484,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "3d42cfa3-1b3f-49e0-9955-6832d51e6318",
+    "firstName": "Joshua",
+    "lastName": "Reyes",
+    "dupr": "Y0GP24",
+    "duprRating": "NR",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7399066708,
     "duprProvisional": false
   }
 ]
