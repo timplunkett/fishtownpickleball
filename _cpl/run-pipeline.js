@@ -107,6 +107,12 @@ async function runPipeline(league, options) {
     // actually pulled fresh data for" — which is what the commit message (see
     // run-pipeline.js's main()) wants to report.
     matchedDivisions: fetchResult?.matchedDivisions || [],
+    // Same fetch-phase-only reasoning as matchedDivisions above: this is the
+    // subset of matchedDivisions where a fetch actually wrote new bytes
+    // somewhere, which is what the commit message (see run-pipeline.js's
+    // main()) titles itself off. Everything in matchedDivisions but not here
+    // is "fetched, no changes" — reported in the commit body instead.
+    changedDivisions: fetchResult?.changedDivisions || [],
     matchedSeasonSlugs: fetchResult?.matchedSeasonSlugs || [],
     newPlayerCount: fetchResult?.newPlayerCount || 0,
   };
@@ -118,6 +124,7 @@ async function main() {
   const failedDivisions = [];
   const matchedSlugs = [];
   const matchedDivisions = [];
+  const changedDivisions = [];
   const matchedSeasonSlugs = [];
   const asOfBySlug = new Map();
   const ratingsBySlug = new Map();
@@ -129,6 +136,7 @@ async function main() {
       failedDivisions.push(...result.failedDivisions);
       matchedSlugs.push(...result.matchedSlugs);
       matchedDivisions.push(...result.matchedDivisions);
+      changedDivisions.push(...result.changedDivisions);
       matchedSeasonSlugs.push(...result.matchedSeasonSlugs);
       newPlayerCount += result.newPlayerCount || 0;
       for (const [key, value] of result.asOfBySlug) asOfBySlug.set(key, value);
@@ -142,16 +150,32 @@ async function main() {
   buildPlayerIndex({ asOfBySlug, ratingsBySlug });
 
   // Human-readable division names this run actually fetched (across every
-  // league processed), printed as a single greppable line so the CI workflow
-  // can lift it straight into the automated commit message without having to
-  // re-derive it from the divisions.json manifests itself.
-  const divisionNames = summarizeMatchedDivisionNames(matchedDivisions);
-  if (divisionNames.length) {
-    console.log(`\nDivisions built: ${divisionNames.join(', ')}`);
+  // league processed), split into two greppable lines so the CI workflow can
+  // lift them straight into the automated commit message without having to
+  // re-derive anything from the divisions.json manifests itself:
+  //   - DIVISIONS_CHANGED_JSON: divisions where the fetch wrote new bytes
+  //     somewhere. This is the whole point of the split — a `due` run that
+  //     re-fetches a division and gets back exactly what was already cached
+  //     is not news, and titling the commit off it made every 6-hourly run
+  //     look like it moved something it didn't.
+  //   - the divisions that were fetched but produced no changes, which the
+  //     commit message reports separately (in its body) rather than dropping.
+  const changedDivisionNames = summarizeMatchedDivisionNames(changedDivisions);
+  if (changedDivisionNames.length) {
+    console.log(`\nDivisions with changes: ${changedDivisionNames.join(', ')}`);
   }
-  console.log(`DIVISIONS_BUILT_JSON=${JSON.stringify(divisionNames)}`);
+  console.log(`DIVISIONS_CHANGED_JSON=${JSON.stringify(changedDivisionNames)}`);
 
-  // Same greppable-line pattern as DIVISIONS_BUILT_JSON above, so the workflow
+  const changedSlugSet = new Set(changedDivisions.map((d) => d.slug));
+  const unchangedDivisionNames = summarizeMatchedDivisionNames(
+    matchedDivisions.filter((d) => !changedSlugSet.has(d.slug)),
+  );
+  if (unchangedDivisionNames.length) {
+    console.log(`\nDivisions fetched with no changes: ${unchangedDivisionNames.join(', ')}`);
+  }
+  console.log(`DIVISIONS_UNCHANGED_JSON=${JSON.stringify(unchangedDivisionNames)}`);
+
+  // Same greppable-line pattern as DIVISIONS_CHANGED_JSON above, so the workflow
   // can decide whether to run a DUPR fetch afterward without re-reading
   // global_players.json itself. A brand-new player always lands with
   // duprRating: null (see fetcher.js), so left alone they'd sit unrated on the

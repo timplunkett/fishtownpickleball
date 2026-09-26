@@ -641,6 +641,13 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
   const allPlayersFlat = [];
   const seenPlayerIds = new Set();
   const failedDivisions = [];
+  // Divisions where writeGuarded/writeIfChanged below actually changed a byte
+  // somewhere, as opposed to merely being fetched — see matchedDivisions'
+  // comment for why the two are worth reporting separately: the automated
+  // commit message (run-pipeline.js's main()) titles itself off this list
+  // alone, and lists everything else `matchedDivisions` covers but this
+  // doesn't as "fetched, no changes" in the body.
+  const changedDivisions = [];
   for (const div of divisionsToFetch) {
     const label = formatDivisionLabel(div);
     console.log(`\nFetching division: ${label}${div.divisionName} (${div.slug})...`);
@@ -688,6 +695,10 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
           name: `${label}${div.divisionName}`,
           error: `${detailFailures.length} matchup detail fetch(es) failed (cached details kept where available): ${detailFailures.slice(0, 3).join('; ')}${detailFailures.length > 3 ? '; …' : ''}`,
         });
+      }
+
+      if (divisionChanged) {
+        changedDivisions.push({ slug: div.slug, name: `${formatDivisionLabel(div)}${div.divisionName || div.slug}` });
       }
 
       // Accumulate unique players for the flat players.json (used by the DUPR workflow).
@@ -770,6 +781,7 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
       slug: div.slug,
       name: `${formatDivisionLabel(div)}${div.divisionName || div.slug}`,
     })),
+    changedDivisions,
     newPlayerCount,
   };
 }
@@ -826,15 +838,17 @@ function aggregateSeasonResults(results) {
   const failedDivisions = [];
   const matchedSlugs = [];
   const matchedDivisions = [];
+  const changedDivisions = [];
   let newPlayerCount = 0;
   for (const result of results || []) {
     failedDivisions.push(...(result?.failedDivisions || []));
     matchedSlugs.push(...(result?.matchedSlugs || []));
     matchedDivisions.push(...(result?.matchedDivisions || []));
+    changedDivisions.push(...(result?.changedDivisions || []));
     newPlayerCount += result?.newPlayerCount || 0;
   }
   return {
-    failedDivisions, matchedSlugs, matchedDivisions, newPlayerCount,
+    failedDivisions, matchedSlugs, matchedDivisions, changedDivisions, newPlayerCount,
   };
 }
 
@@ -875,7 +889,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
   }
 
   const {
-    failedDivisions, matchedSlugs, matchedDivisions, newPlayerCount,
+    failedDivisions, matchedSlugs, matchedDivisions, changedDivisions, newPlayerCount,
   } = aggregateSeasonResults(seasonResults);
 
   if (failedDivisions.length) {
@@ -884,7 +898,7 @@ async function downloadLatestApiData(league = 'local', { divisionSlugs = null, s
     console.log('\n✓ Phase 1 complete.');
   }
   return {
-    failedDivisions, matchedSlugs, matchedDivisions, matchedSeasonSlugs, seasons: resolved, newPlayerCount,
+    failedDivisions, matchedSlugs, matchedDivisions, changedDivisions, matchedSeasonSlugs, seasons: resolved, newPlayerCount,
   };
 }
 

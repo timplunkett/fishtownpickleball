@@ -61,11 +61,11 @@ jobs:
           # Disable errexit around the pipeline itself: it intentionally exits
           # non-zero on a partial failure (see the comment above), and this
           # step still has to run the lines below that one to surface
-          # DIVISIONS_BUILT_JSON — `set -e` would otherwise abort right on the
-          # failing line and skip them. ${PIPESTATUS[0]} (not `tee`'s own,
-          # always-zero exit code) is what the "Fail run if pipeline reported
-          # errors" step further down keys off of, via this step's own exit
-          # code restored at the bottom.
+          # DIVISIONS_CHANGED_JSON/DIVISIONS_UNCHANGED_JSON — `set -e` would
+          # otherwise abort right on the failing line and skip them.
+          # ${PIPESTATUS[0]} (not `tee`'s own, always-zero exit code) is what
+          # the "Fail run if pipeline reported errors" step further down keys
+          # off of, via this step's own exit code restored at the bottom.
           set +e
           if [ "${REFRESH_MODE}" = "due" ]; then
             node _cpl/run-pipeline.js --refresh-mode | tee pipeline.log
@@ -74,11 +74,15 @@ jobs:
           fi
           PIPELINE_EXIT=${PIPESTATUS[0]}
           set -e
-          # run-pipeline.js prints its own name list as one greppable line
-          # (see run-pipeline.js's main()) so this step doesn't have to
-          # re-derive it from the divisions.json manifests.
-          DIVISIONS_JSON=$(grep '^DIVISIONS_BUILT_JSON=' pipeline.log | tail -1 | sed 's/^DIVISIONS_BUILT_JSON=//' || true)
-          echo "divisions_json=${DIVISIONS_JSON:-[]}" >> "$GITHUB_OUTPUT"
+          # run-pipeline.js prints its own name lists as greppable lines (see
+          # run-pipeline.js's main()) so this step doesn't have to re-derive
+          # them from the divisions.json manifests. Split in two so the commit
+          # step can title itself off only the divisions that actually
+          # changed and report the rest (fetched, nothing new) in the body.
+          DIVISIONS_CHANGED_JSON=$(grep '^DIVISIONS_CHANGED_JSON=' pipeline.log | tail -1 | sed 's/^DIVISIONS_CHANGED_JSON=//' || true)
+          echo "divisions_changed_json=${DIVISIONS_CHANGED_JSON:-[]}" >> "$GITHUB_OUTPUT"
+          DIVISIONS_UNCHANGED_JSON=$(grep '^DIVISIONS_UNCHANGED_JSON=' pipeline.log | tail -1 | sed 's/^DIVISIONS_UNCHANGED_JSON=//' || true)
+          echo "divisions_unchanged_json=${DIVISIONS_UNCHANGED_JSON:-[]}" >> "$GITHUB_OUTPUT"
           # Same greppable-line pattern, used below to decide whether a new
           # player needs a DUPR rating before this run's data is committed —
           # otherwise they'd sit unrated until the next weekly update-dupr.yml
@@ -128,7 +132,8 @@ jobs:
       - name: Commit and Push changes
         env:
           REFRESH_MODE: ${{ steps.pipeline.outputs.refresh_mode }}
-          DIVISIONS_JSON: ${{ steps.pipeline.outputs.divisions_json }}
+          DIVISIONS_CHANGED_JSON: ${{ steps.pipeline.outputs.divisions_changed_json }}
+          DIVISIONS_UNCHANGED_JSON: ${{ steps.pipeline.outputs.divisions_unchanged_json }}
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
@@ -141,14 +146,24 @@ jobs:
           # first thing worth knowing when bisecting for the run that broke the
           # site. "weekly" was wrong for 6 of every 7 runs.
           COMMIT_MSG="bot(CPL): Automated data refresh (${REFRESH_MODE:-unknown})"
-          # Append the human-readable division names this run actually fetched
-          # (e.g. "[3.0, 3.5, 3.25 Womens]"), when there were any — a `due` run
-          # that found nothing due, or a step that failed before printing the
-          # marker line, leaves this empty/"[]" and the message falls back to
-          # what it always said.
-          if [ -n "${DIVISIONS_JSON}" ] && [ "${DIVISIONS_JSON}" != "[]" ]; then
-            DIVISIONS_LIST=$(node -e "console.log(JSON.parse(process.argv[1]).join(', '))" "${DIVISIONS_JSON}")
-            COMMIT_MSG="${COMMIT_MSG} [${DIVISIONS_LIST}]"
+          # Append the human-readable division names this run actually found
+          # changes for (e.g. "[3.0, 3.5, 3.25 Womens]"), when there were any.
+          # This is the title, so it should say what moved, not just what was
+          # looked at — a `due` run that only re-verified divisions with
+          # nothing new (or a step that failed before printing the marker
+          # line) leaves this empty/"[]" and the title falls back to just the
+          # mode.
+          if [ -n "${DIVISIONS_CHANGED_JSON}" ] && [ "${DIVISIONS_CHANGED_JSON}" != "[]" ]; then
+            CHANGED_LIST=$(node -e "console.log(JSON.parse(process.argv[1]).join(', '))" "${DIVISIONS_CHANGED_JSON}")
+            COMMIT_MSG="${COMMIT_MSG} [${CHANGED_LIST}]"
+          fi
+          # Divisions this run fetched but found nothing new in go in the body
+          # instead, after a blank line — worth keeping for bisecting ("was
+          # this division even looked at that run?") without diluting the
+          # title's "what changed" signal.
+          if [ -n "${DIVISIONS_UNCHANGED_JSON}" ] && [ "${DIVISIONS_UNCHANGED_JSON}" != "[]" ]; then
+            UNCHANGED_LIST=$(node -e "console.log(JSON.parse(process.argv[1]).join(', '))" "${DIVISIONS_UNCHANGED_JSON}")
+            COMMIT_MSG="${COMMIT_MSG}$(printf '\n\nFetched, no changes: %s' "${UNCHANGED_LIST}")"
           fi
           git commit -m "${COMMIT_MSG}"
           # Another run may have pushed while this one was fetching; rebase and

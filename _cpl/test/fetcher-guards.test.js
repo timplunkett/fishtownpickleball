@@ -320,8 +320,8 @@ test('mergeGlobalPlayers skips rows with no playerId on either side', () => {
 
 test('aggregateSeasonResults sums newPlayerCount across seasons instead of dropping it', () => {
   const result = aggregateSeasonResults([
-    { failedDivisions: [], matchedSlugs: ['a'], matchedDivisions: [{ slug: 'a', name: 'A' }], newPlayerCount: 3 },
-    { failedDivisions: [], matchedSlugs: ['b'], matchedDivisions: [{ slug: 'b', name: 'B' }], newPlayerCount: 4 },
+    { failedDivisions: [], matchedSlugs: ['a'], matchedDivisions: [{ slug: 'a', name: 'A' }], changedDivisions: [{ slug: 'a', name: 'A' }], newPlayerCount: 3 },
+    { failedDivisions: [], matchedSlugs: ['b'], matchedDivisions: [{ slug: 'b', name: 'B' }], changedDivisions: [], newPlayerCount: 4 },
   ]);
   assert.equal(result.newPlayerCount, 7, 'each season\'s new players must add up, not disappear');
 });
@@ -332,12 +332,14 @@ test('aggregateSeasonResults concatenates failedDivisions and matched lists acro
       failedDivisions: [{ league: 'travel', slug: 'x', name: 'X', error: 'boom' }],
       matchedSlugs: ['x'],
       matchedDivisions: [{ slug: 'x', name: 'X' }],
+      changedDivisions: [],
       newPlayerCount: 0,
     },
     {
       failedDivisions: [],
       matchedSlugs: ['y'],
       matchedDivisions: [{ slug: 'y', name: 'Y' }],
+      changedDivisions: [{ slug: 'y', name: 'Y' }],
       newPlayerCount: 1,
     },
   ]);
@@ -346,19 +348,46 @@ test('aggregateSeasonResults concatenates failedDivisions and matched lists acro
   assert.equal(result.newPlayerCount, 1);
 });
 
+// changedDivisions is a subset of matchedDivisions — the divisions a fetch
+// actually wrote new bytes for, as opposed to merely having been fetched (see
+// downloadSeason's own comment). Summed the same way as matchedDivisions so a
+// division that changed in one season isn't dropped when another season in
+// the same run contributed nothing new.
+test('aggregateSeasonResults concatenates changedDivisions separately from matchedDivisions', () => {
+  const result = aggregateSeasonResults([
+    {
+      failedDivisions: [],
+      matchedSlugs: ['x', 'y'],
+      matchedDivisions: [{ slug: 'x', name: 'X' }, { slug: 'y', name: 'Y' }],
+      changedDivisions: [{ slug: 'x', name: 'X' }],
+      newPlayerCount: 0,
+    },
+    {
+      failedDivisions: [],
+      matchedSlugs: ['z'],
+      matchedDivisions: [{ slug: 'z', name: 'Z' }],
+      changedDivisions: [],
+      newPlayerCount: 0,
+    },
+  ]);
+  assert.deepEqual(result.matchedDivisions, [{ slug: 'x', name: 'X' }, { slug: 'y', name: 'Y' }, { slug: 'z', name: 'Z' }]);
+  assert.deepEqual(result.changedDivisions, [{ slug: 'x', name: 'X' }]);
+});
+
 test('aggregateSeasonResults treats a season with no result fields as contributing nothing', () => {
   // What a caught downloadSeason() failure pushes: just a failedDivisions
-  // entry, with no matchedSlugs/matchedDivisions/newPlayerCount at all.
+  // entry, with no matchedSlugs/matchedDivisions/changedDivisions/newPlayerCount at all.
   const result = aggregateSeasonResults([
     { failedDivisions: [{ league: 'local', slug: '(2026-fall)', name: 'local 2026-fall', error: 'network down' }] },
   ]);
   assert.equal(result.newPlayerCount, 0);
   assert.deepEqual(result.matchedSlugs, []);
   assert.deepEqual(result.matchedDivisions, []);
+  assert.deepEqual(result.changedDivisions, []);
 });
 
 test('aggregateSeasonResults returns zero/empty for no seasons fetched', () => {
   assert.deepEqual(aggregateSeasonResults([]), {
-    failedDivisions: [], matchedSlugs: [], matchedDivisions: [], newPlayerCount: 0,
+    failedDivisions: [], matchedSlugs: [], matchedDivisions: [], changedDivisions: [], newPlayerCount: 0,
   });
 });

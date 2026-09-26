@@ -90,9 +90,10 @@ function sortDivisionsForLeague(league, divisions) {
 }
 
 // Human-readable, deduped, sorted division names for the automated commit
-// message (see run-pipeline.js's main()): takes the `matchedDivisions` list
-// fetcher.js returns (`{ slug, name }`, name already club-prefixed for local
-// divisions — see downloadSeason) and reduces it to unique display strings.
+// message (see run-pipeline.js's main()): takes a list of `{ slug, name }`
+// entries — either fetcher.js's `matchedDivisions` or its `changedDivisions`
+// subset (name already club-prefixed for local divisions — see downloadSeason)
+// — and reduces it to unique display strings.
 //
 // Deduped by name alone: a name colliding across leagues (both run "3.5",
 // say) collapses to one entry, which is fine for a commit-message summary.
