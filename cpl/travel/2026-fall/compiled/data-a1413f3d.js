@@ -41155,8 +41155,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Tim Dowd"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41166,8 +41166,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Kramer",
+      "Jamison Rowles"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41177,8 +41177,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Noelle Villa",
+      "Andy Ro"
      ],
      "a": [
       "Danielle Burgess",
@@ -41188,8 +41188,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Ferraez",
+      "Steven Gregov"
      ],
      "a": [
       "Mary Smith",
@@ -41199,8 +41199,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ferraez",
+      "Tara Kramer"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41210,8 +41210,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Cally Kerrigan"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41221,8 +41221,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Dowd",
+      "Jamison Rowles"
      ],
      "a": [
       "Ian Vomero",
@@ -41232,8 +41232,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Gregov",
+      "Sean O'Connell"
      ],
      "a": [
       "Eric Moore",
@@ -41243,8 +41243,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Noelle Villa",
+      "Sean O'Connell"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41254,8 +41254,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Tim Dowd"
      ],
      "a": [
       "Mary Smith",
@@ -41265,8 +41265,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Kramer",
+      "Jamison Rowles"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41276,8 +41276,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cally Kerrigan",
+      "Andy Ro"
      ],
      "a": [
       "Danielle Burgess",
@@ -41287,8 +41287,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ferraez",
+      "Cally Kerrigan"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41298,8 +41298,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tara Kramer",
+      "Noelle Villa"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41309,8 +41309,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Dowd",
+      "Steven Gregov"
      ],
      "a": [
       "Ian Vomero",
@@ -41320,8 +41320,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean O'Connell",
+      "Andy Ro"
      ],
      "a": [
       "Austin Favale",
@@ -41331,8 +41331,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Jamison Rowles"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41342,8 +41342,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cally Kerrigan",
+      "Tim Dowd"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41353,8 +41353,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Ferraez",
+      "Sean O'Connell"
      ],
      "a": [
       "Danielle Burgess",
@@ -41364,8 +41364,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Kramer",
+      "Steven Gregov"
      ],
      "a": [
       "Mary Smith",
@@ -41375,8 +41375,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ferraez",
+      "Noelle Villa"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41386,8 +41386,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Tara Kramer"
      ],
      "a": [
       "Mary Smith",
@@ -41397,8 +41397,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andy Ro",
+      "Jamison Rowles"
      ],
      "a": [
       "Ian Vomero",
@@ -41408,8 +41408,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Dowd",
+      "Steven Gregov"
      ],
      "a": [
       "Kevin Smith",
@@ -41419,8 +41419,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Andy Ro"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41430,8 +41430,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Noelle Villa",
+      "Tim Dowd"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41441,8 +41441,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cally Kerrigan",
+      "Steven Gregov"
      ],
      "a": [
       "Mary Smith",
@@ -41452,8 +41452,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Ferraez",
+      "Sean O'Connell"
      ],
      "a": [
       "Danielle Burgess",
@@ -41463,8 +41463,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Layla Darian",
+      "Christine Ferraez"
      ],
      "a": [
       "Kimberly Ercolino",
@@ -41474,8 +41474,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cally Kerrigan",
+      "Noelle Villa"
      ],
      "a": [
       "Denise Chetaitis",
@@ -41485,8 +41485,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Dowd",
+      "Sean O'Connell"
      ],
      "a": [
       "Ian Vomero",
@@ -41496,8 +41496,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andy Ro",
+      "Jamison Rowles"
      ],
      "a": [
       "Eric Moore",
@@ -44443,7 +44443,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T00:33:53.849Z";
+  DATA.meta.asOf = "2026-09-26T02:40:15.302Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

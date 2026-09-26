@@ -31931,7 +31931,7 @@
     {
      "t": "mixed",
      "h": [
-      "Raffaella Pernice",
+      "Gerilynn Calato",
       "Alfonse Calato"
      ],
      "a": [
@@ -31957,7 +31957,7 @@
     {
      "t": "female",
      "h": [
-      "Raffaella Pernice",
+      "Rosanna Neis",
       "Gerilynn Calato"
      ],
      "a": [
@@ -32027,7 +32027,7 @@
     {
      "t": "mixed",
      "h": [
-      "Raffaella Pernice",
+      "Eileen Clark",
       "Alfonse Calato"
      ],
      "a": [
@@ -32050,7 +32050,7 @@
      "t": "female",
      "h": [
       "Lisa Mctague",
-      "Raffaella Pernice"
+      "Eileen Clark"
      ],
      "a": [
       "Colleen Derose",
@@ -32134,7 +32134,7 @@
     {
      "t": "mixed",
      "h": [
-      "Raffaella Pernice",
+      "Stephanie Sozomenu",
       "Sergei Hoffman"
      ],
      "a": [
@@ -32296,7 +32296,7 @@
      "t": "mixed",
      "h": [
       "Sandy Hartman",
-      "Michael Saggese"
+      "Michael Gilbert"
      ],
      "a": [
       "Christine Ziegler",
@@ -32354,12 +32354,16 @@
     {
      "t": "female",
      "h": [
-      "Sandy Hartman",
+      "Andrea Smith",
       "Marilyn Janssen"
      ],
      "a": [
       "Elizabeth Biehl",
       "Kathleen Grennan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -37873,7 +37877,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T00:35:05.046Z";
+  DATA.meta.asOf = "2026-09-26T02:41:28.152Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
