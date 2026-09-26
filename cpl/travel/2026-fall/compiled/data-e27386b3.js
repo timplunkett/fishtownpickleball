@@ -10065,6 +10065,35 @@
    "playerId": "d59aa569-3fe7-439b-aa5a-c42424c91608"
   },
   {
+   "name": "Manuel Martorell",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 374,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "df4f8592-f2f0-4913-a881-54cf6afaf148"
+  },
+  {
    "name": "Natalia Maciejewicz",
    "gender": "Female",
    "team": "Pickle House",
@@ -37915,7 +37944,385 @@
    "home": "Pickleball Palace",
    "away": "Jersey Pickleball Club",
    "time": "2026-09-27T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Joan Harris",
+      "Maxwell Winters"
+     ],
+     "a": [
+      "Michelle Cobos",
+      "Brandon Helicher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alexis Kerven",
+      "Manuel Martorell"
+     ],
+     "a": [
+      "Jade Chin",
+      "David Burke"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Line Barlow",
+      "Brian Seligson"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Lukas Chrebet"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Annica Jin-Hendel",
+      "Alan Weissman"
+     ],
+     "a": [
+      "Michele Sagurton",
+      "Alex Lopez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jenny Winters",
+      "Annica Jin-Hendel"
+     ],
+     "a": [
+      "Jade Chin",
+      "Michele Sagurton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Line Barlow",
+      "Alexis Kerven"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Michelle Cobos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian Seligson",
+      "Jose Chariez"
+     ],
+     "a": [
+      "David Burke",
+      "Barry Lerner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maxwell Winters",
+      "Manuel Martorell"
+     ],
+     "a": [
+      "Brandon Helicher",
+      "Lukas Chrebet"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Joan Harris",
+      "Alan Weissman"
+     ],
+     "a": [
+      "Michele Sagurton",
+      "Alex Lopez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Line Barlow",
+      "Jose Chariez"
+     ],
+     "a": [
+      "Michelle Cobos",
+      "Brandon Helicher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jenny Winters",
+      "Maxwell Winters"
+     ],
+     "a": [
+      "Jade Chin",
+      "David Burke"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alexis Kerven",
+      "Brian Seligson"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Lukas Chrebet"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jenny Winters",
+      "Annica Jin-Hendel"
+     ],
+     "a": [
+      "Jade Chin",
+      "Michele Sagurton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Line Barlow",
+      "Joan Harris"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Michelle Cobos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maxwell Winters",
+      "Alan Weissman"
+     ],
+     "a": [
+      "David Burke",
+      "Barry Lerner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jose Chariez",
+      "Manuel Martorell"
+     ],
+     "a": [
+      "Brandon Helicher",
+      "Lukas Chrebet"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alexis Kerven",
+      "Jose Chariez"
+     ],
+     "a": [
+      "Michele Sagurton",
+      "David Burke"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Joan Harris",
+      "Brian Seligson"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Brandon Helicher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jenny Winters",
+      "Manuel Martorell"
+     ],
+     "a": [
+      "Jade Chin",
+      "Barry Lerner"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Annica Jin-Hendel",
+      "Alan Weissman"
+     ],
+     "a": [
+      "Michelle Cobos",
+      "Alex Lopez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Line Barlow",
+      "Alexis Kerven"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Michele Sagurton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Joan Harris",
+      "Jenny Winters"
+     ],
+     "a": [
+      "Jade Chin",
+      "Michelle Cobos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian Seligson",
+      "Jose Chariez"
+     ],
+     "a": [
+      "Lukas Chrebet",
+      "Barry Lerner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maxwell Winters",
+      "Manuel Martorell"
+     ],
+     "a": [
+      "David Burke",
+      "Alex Lopez"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Line Barlow",
+      "Brian Seligson"
+     ],
+     "a": [
+      "Michele Sagurton",
+      "David Burke"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Alexis Kerven",
+      "Maxwell Winters"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Brandon Helicher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Joan Harris",
+      "Alan Weissman"
+     ],
+     "a": [
+      "Jade Chin",
+      "Lukas Chrebet"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Annica Jin-Hendel",
+      "Jose Chariez"
+     ],
+     "a": [
+      "Michelle Cobos",
+      "Alex Lopez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Line Barlow",
+      "Annica Jin-Hendel"
+     ],
+     "a": [
+      "Nicole Melchionna",
+      "Michele Sagurton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Alexis Kerven",
+      "Jenny Winters"
+     ],
+     "a": [
+      "Jade Chin",
+      "Michelle Cobos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maxwell Winters",
+      "Brian Seligson"
+     ],
+     "a": [
+      "David Burke",
+      "Lukas Chrebet"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Alan Weissman",
+      "Manuel Martorell"
+     ],
+     "a": [
+      "Brandon Helicher",
+      "Barry Lerner"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -39395,7 +39802,6 @@
   "Jennalee Fede": "d043b0ad-d33b-4f58-b605-709246b23c11",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
   "Manny Duarte": "d41ad35d-4e13-4f91-97e7-3702dd8d05f2",
-  "Manuel Martorell": "df4f8592-f2f0-4913-a881-54cf6afaf148",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Christopher Knapp": "dfce779b-3ef8-4413-a742-9e06c08782be",
   "Niman Ahmeti": "e5c7646e-bb30-40b2-bb20-bd4c75e814ce",
@@ -39412,7 +39818,7 @@
   "matchesPlayed": 41,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 365,
+  "totalPlayers": 366,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -39529,7 +39935,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T02:39:17.731Z";
+  DATA.meta.asOf = "2026-09-26T10:32:36.067Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

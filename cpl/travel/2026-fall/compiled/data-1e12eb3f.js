@@ -11941,7 +11941,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 541,
+   "leagueRank": 542,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12057,7 +12057,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 540,
+   "leagueRank": 541,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12144,7 +12144,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 547,
+   "leagueRank": 548,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12463,7 +12463,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 544,
+   "leagueRank": 545,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12499,6 +12499,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "04d8793a-fa03-4789-86fe-49b33eacbbea"
+  },
+  {
+   "name": "Frank Rodriguez",
+   "gender": "Male",
+   "team": "Flemington Blue",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 528,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0d326b1f-4b59-4138-a03a-1adf0d465b70"
   },
   {
    "name": "Suzanne Bauer",
@@ -13101,7 +13130,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 543,
+   "leagueRank": 544,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13362,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 548,
+   "leagueRank": 549,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -45609,19 +45638,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Frank Rodriguez"
      ],
      "a": [
       "Maureen Bruno",
       "Lenn Yeger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Anthony Leone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45631,8 +45664,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Ren Mortara"
      ],
      "a": [
       "Petra Jones",
@@ -45642,8 +45675,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Jeffrey Hartford"
      ],
      "a": [
       "Karen Rosenberg",
@@ -45657,8 +45690,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Eleni Leone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45668,8 +45701,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Margo Langer"
      ],
      "a": [
       "Bobbi Rentko",
@@ -45679,19 +45712,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Frank Rodriguez"
      ],
      "a": [
       "Steven Truzzolino",
       "Elliot Fishman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Paul Phillips"
      ],
      "a": [
       "Freddy Alicea",
@@ -45705,8 +45742,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Paul Phillips"
      ],
      "a": [
       "Petra Jones",
@@ -45716,19 +45753,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Frank Rodriguez"
      ],
      "a": [
       "Karen Rosenberg",
       "Steven Truzzolino"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Ren Mortara"
      ],
      "a": [
       "Bobbi Rentko",
@@ -45738,8 +45779,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Anthony Leone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45753,8 +45794,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Eleni Leone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45764,8 +45805,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Margo Langer"
      ],
      "a": [
       "Karen Rosenberg",
@@ -45775,19 +45816,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Frank Rodriguez"
      ],
      "a": [
       "Steven Truzzolino",
       "Lenn Yeger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Ren Mortara"
      ],
      "a": [
       "Freddy Alicea",
@@ -45797,8 +45842,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Jeffrey Hartford"
      ],
      "a": [
       "Karen Rosenberg",
@@ -45808,8 +45853,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Anthony Leone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45819,8 +45864,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Paul Phillips"
      ],
      "a": [
       "Bobbi Rentko",
@@ -45830,8 +45875,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Ren Mortara"
      ],
      "a": [
       "Maureen Bruno",
@@ -45841,8 +45886,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Eleni Leone"
      ],
      "a": [
       "Bobbi Rentko",
@@ -45852,8 +45897,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Gail Hannagan"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45863,12 +45908,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Frank Rodriguez"
      ],
      "a": [
       "Steven Truzzolino",
       "Scott Rothschild"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -45878,8 +45927,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Mortara",
+      "Paul Phillips"
      ],
      "a": [
       "Lenn Yeger",
@@ -45889,8 +45938,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eleni Leone",
+      "Anthony Leone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45900,19 +45949,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Frank Rodriguez"
      ],
      "a": [
       "Petra Jones",
       "Steven Truzzolino"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Ren Mortara"
      ],
      "a": [
       "Maureen Bruno",
@@ -45922,8 +45975,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Paul Phillips"
      ],
      "a": [
       "Karen Rosenberg",
@@ -45937,8 +45990,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Margo Langer"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -45948,8 +46001,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Oddy",
+      "Eleni Leone"
      ],
      "a": [
       "Maureen Bruno",
@@ -45959,19 +46012,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Leone",
+      "Frank Rodriguez"
      ],
      "a": [
       "Steven Truzzolino",
       "Lenn Yeger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Hartford",
+      "Paul Phillips"
      ],
      "a": [
       "Elliot Fishman",
@@ -46720,7 +46777,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
-  "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
   "Peter Lunarola": "12c54c90-1be8-4575-8714-11076f1a5758",
   "Linda Goss": "14e5edae-ff22-415b-8267-d46a2117ed8d",
   "Emil De Carvalho": "22b206f2-1586-44b8-ba33-b51480e6a23e",
@@ -46757,7 +46814,7 @@
   "matchesPlayed": 42,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 505,
+  "totalPlayers": 506,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -46879,7 +46936,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T02:39:47.998Z";
+  DATA.meta.asOf = "2026-09-26T10:33:06.376Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

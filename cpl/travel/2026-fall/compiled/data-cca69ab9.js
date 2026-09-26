@@ -5309,6 +5309,35 @@
    "playerId": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9"
   },
   {
+   "name": "Omar Husain",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 179,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "bb95a47a-aa38-4194-9ccc-68107deed1e5"
+  },
+  {
    "name": "Matthew Korsak",
    "gender": "Male",
    "team": "Pickleball Kingdom Watchung",
@@ -19190,7 +19219,7 @@
     {
      "t": "male",
      "h": [
-      "Geoff Watson",
+      "Omar Husain",
       "Austin Williams"
      ],
      "a": [
@@ -19266,11 +19295,15 @@
      "t": "male",
      "h": [
       "Robbie Oddy",
-      "Jay Alquiros"
+      "Omar Husain"
      ],
      "a": [
       "Rob Pandolfi",
       "Matthew Friedman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -19329,7 +19362,7 @@
     {
      "t": "male",
      "h": [
-      "Andrew Nguyen",
+      "Omar Husain",
       "Geoff Watson"
      ],
      "a": [
@@ -19375,7 +19408,7 @@
      "t": "male",
      "h": [
       "Andrew Nguyen",
-      "Frank Clark"
+      "Omar Husain"
      ],
      "a": [
       "Jacob Yandoli",
@@ -19383,7 +19416,7 @@
      ],
      "hSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -19462,7 +19495,7 @@
      "t": "male",
      "h": [
       "Peter Nagy",
-      "Andy Ead"
+      "Omar Husain"
      ],
      "a": [
       "Gary White",
@@ -19470,7 +19503,7 @@
      ],
      "hSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -19560,7 +19593,7 @@
      "t": "male",
      "h": [
       "Jay Alquiros",
-      "Peter Nagy"
+      "Omar Husain"
      ],
      "a": [
       "Matthew Friedman",
@@ -19608,7 +19641,7 @@
     {
      "t": "male",
      "h": [
-      "Robbie Oddy",
+      "Omar Husain",
       "Geoff Watson"
      ],
      "a": [
@@ -19616,7 +19649,7 @@
       "Matthew Friedman"
      ],
      "hSub": [
-      0,
+      1,
       1
      ],
      "aSub": [
@@ -21038,7 +21071,6 @@
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
-  "Omar Husain": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
   "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
@@ -21046,7 +21078,7 @@
   "matchesPlayed": 23,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 188,
+  "totalPlayers": 189,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -21137,7 +21169,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T00:35:17.891Z";
+  DATA.meta.asOf = "2026-09-26T10:34:51.188Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
