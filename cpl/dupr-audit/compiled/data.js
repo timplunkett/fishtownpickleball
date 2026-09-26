@@ -10184,6 +10184,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Kenneth Margolin",
+   "playerId": "21277f01-5086-42c3-a156-c7b1a503e75b",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Kenneth Ocasio",
    "playerId": "1c908613-b93b-43b3-b084-b2da12b2faa2",
    "team": "Pickleball HQ",
@@ -11994,13 +12001,6 @@ window.DUPR_AUDIT = {
    "playerId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de",
    "team": "PickleRage Union County",
    "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Maritoni Agatep",
-   "playerId": "cb9b7db4-1854-4aba-93bd-2fc96f563e6c",
-   "team": "Home Court",
-   "slug": "a1413f3d",
    "gender": "Female"
   },
   {

@@ -34095,8 +34095,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Steppan Konoplev"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34110,19 +34110,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bren Calpin",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Jimmy Ramja",
       "David Wheeler"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Xan Hong"
      ],
      "a": [
       "Niman Ahmeti",
@@ -34136,8 +34140,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Diamond",
+      "Paul Chantler"
      ],
      "a": [
       "Jose Campos",
@@ -34147,8 +34151,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Steppan Konoplev"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34162,19 +34166,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bren Calpin",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Jimmy Ramja",
       "David Wheeler"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Xan Hong"
      ],
      "a": [
       "Niman Ahmeti",
@@ -34188,8 +34196,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Diamond",
+      "Paul Chantler"
      ],
      "a": [
       "Jose Campos",
@@ -34199,8 +34207,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34214,8 +34222,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Xan Hong"
      ],
      "a": [
       "Jimmy Ramja",
@@ -34229,8 +34237,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Diamond",
+      "Steppan Konoplev"
      ],
      "a": [
       "David Wheeler",
@@ -34240,19 +34248,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bren Calpin",
+      "Paul Chantler"
      ],
      "a": [
       "Niman Ahmeti",
       "Thomas Moran"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34266,8 +34278,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Xan Hong"
      ],
      "a": [
       "Jimmy Ramja",
@@ -34281,8 +34293,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Diamond",
+      "Steppan Konoplev"
      ],
      "a": [
       "David Wheeler",
@@ -34292,19 +34304,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bren Calpin",
+      "Paul Chantler"
      ],
      "a": [
       "Niman Ahmeti",
       "Thomas Moran"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Aleks Mirkovic"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34314,8 +34330,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steppan Konoplev",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Jimmy Ramja",
@@ -34329,12 +34345,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Diamond",
+      "Bren Calpin"
      ],
      "a": [
       "Andy Suphaphol",
       "Thomas Moran"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -34344,8 +34364,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xan Hong",
+      "Paul Chantler"
      ],
      "a": [
       "Niman Ahmeti",
@@ -34355,8 +34375,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Pettit",
+      "Aleks Mirkovic"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34366,8 +34386,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steppan Konoplev",
+      "Joel Steinbrunner"
      ],
      "a": [
       "Jimmy Ramja",
@@ -34381,12 +34401,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Diamond",
+      "Bren Calpin"
      ],
      "a": [
       "Andy Suphaphol",
       "Thomas Moran"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -34396,8 +34420,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xan Hong",
+      "Paul Chantler"
      ],
      "a": [
       "Niman Ahmeti",
@@ -34407,8 +34431,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Steinbrunner",
+      "Jesse Pettit"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34418,8 +34442,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Ian Diamond"
      ],
      "a": [
       "Jimmy Ramja",
@@ -34429,8 +34453,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Chantler",
+      "Steppan Konoplev"
      ],
      "a": [
       "Niman Ahmeti",
@@ -34440,12 +34464,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bren Calpin",
+      "Xan Hong"
      ],
      "a": [
       "Andy Suphaphol",
       "Matthew Rafaniello"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -34455,8 +34483,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Steinbrunner",
+      "Jesse Pettit"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -34466,8 +34494,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleks Mirkovic",
+      "Ian Diamond"
      ],
      "a": [
       "Jimmy Ramja",
@@ -34477,8 +34505,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Chantler",
+      "Steppan Konoplev"
      ],
      "a": [
       "Niman Ahmeti",
@@ -34488,12 +34516,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bren Calpin",
+      "Xan Hong"
      ],
      "a": [
       "Andy Suphaphol",
       "Matthew Rafaniello"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -35949,7 +35981,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T15:27:59.873Z";
+  DATA.meta.asOf = "2026-09-26T17:22:02.256Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
