@@ -3632,6 +3632,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Claire Nguyen",
+   "playerId": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
+   "team": "Bounce Tempest",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Clare Cruz",
    "playerId": "f54b54e0-be28-4155-a198-e63fc2ed0912",
    "team": "Pickleball Palace Blue",
@@ -8614,6 +8621,13 @@ window.DUPR_AUDIT = {
    "team": "Dill Dinkers Newport",
    "slug": "c118b8e9",
    "gender": "Male"
+  },
+  {
+   "name": "Joey Angelson",
+   "playerId": "6035850e-af27-40db-bb81-f5787f344871",
+   "team": "Jersey Pickleball Club",
+   "slug": "a1413f3d",
+   "gender": "Female"
   },
   {
    "name": "Joey Angelson",

@@ -16109,11 +16109,11 @@
       "John Ficarra"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "John Sallo"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -16135,8 +16135,12 @@
       "Hayley Yandoli"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "Margaret Weidlich"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -16217,11 +16221,11 @@
       "Erik Lombardo"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "Yang Xu"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -16248,7 +16252,11 @@
      ],
      "a": [
       "Margaret Weidlich",
-      "Kajal Sinkar"
+      "Cuc Dang"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -16322,10 +16330,14 @@
       "Jeffrey Rubin"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "Abraham Telechanski"
      ],
      "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
       1,
       0
      ]
@@ -16363,8 +16375,12 @@
       "Hayley Yandoli"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "Evelyn Du"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -16423,8 +16439,12 @@
       "Jeffrey Rubin"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "Liangjie Zhu"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -16486,12 +16506,16 @@
       "Jacklyn Beck"
      ],
      "a": [
-      "Kajal Sinkar",
+      "Cuc Dang",
       "Ronnie Yin"
      ],
      "hSub": [
       0,
       1
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -18213,8 +18237,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Steve Gerwer"
      ],
      "a": [
       "Marykristin Haskell",
@@ -18224,8 +18248,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Jeffrey Rubin"
      ],
      "a": [
       "Alicia Maguire",
@@ -18235,8 +18259,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Lin",
+      "Alfonse Calato"
      ],
      "a": [
       "Janet Garrity",
@@ -18246,8 +18270,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "Erik Lombardo"
      ],
      "a": [
       "Jane Meng",
@@ -18261,8 +18285,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Hayley Yandoli"
      ],
      "a": [
       "Alicia Maguire",
@@ -18272,8 +18296,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Nancy Lin"
      ],
      "a": [
       "Jane Meng",
@@ -18283,8 +18307,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sal Frangipane",
+      "Steve Gerwer"
      ],
      "a": [
       "Jay Rohatgi",
@@ -18294,8 +18318,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Ficarra",
+      "Jeffrey Rubin"
      ],
      "a": [
       "Ed Saxman",
@@ -18309,8 +18333,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Sal Frangipane"
      ],
      "a": [
       "Alicia Maguire",
@@ -18320,8 +18344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Lin",
+      "John Ficarra"
      ],
      "a": [
       "Jane Meng",
@@ -18331,8 +18355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "Alfonse Calato"
      ],
      "a": [
       "Cynthia Eisen",
@@ -18346,8 +18370,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Erik Lombardo"
      ],
      "a": [
       "Janet Garrity",
@@ -18361,8 +18385,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Hayley Yandoli"
      ],
      "a": [
       "Cynthia Eisen",
@@ -18372,8 +18396,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Nancy Lin"
      ],
      "a": [
       "Janet Garrity",
@@ -18383,8 +18407,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alfonse Calato",
+      "Jeffrey Rubin"
      ],
      "a": [
       "Eric Markowitz",
@@ -18394,8 +18418,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Ficarra",
+      "Steve Gerwer"
      ],
      "a": [
       "David Eisen",
@@ -18409,8 +18433,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Lin",
+      "Sal Frangipane"
      ],
      "a": [
       "Alicia Maguire",
@@ -18420,8 +18444,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Jeffrey Rubin"
      ],
      "a": [
       "Marykristin Haskell",
@@ -18431,8 +18455,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Erik Lombardo"
      ],
      "a": [
       "Nancy Blank",
@@ -18446,8 +18470,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "John Ficarra"
      ],
      "a": [
       "Janet Garrity",
@@ -18461,8 +18485,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Tara Lombardo"
      ],
      "a": [
       "Alicia Maguire",
@@ -18472,8 +18496,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Lin",
+      "Hayley Yandoli"
      ],
      "a": [
       "Cynthia Eisen",
@@ -18483,8 +18507,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Lombardo",
+      "Alfonse Calato"
      ],
      "a": [
       "Jay Rohatgi",
@@ -18494,8 +18518,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sal Frangipane",
+      "Steve Gerwer"
      ],
      "a": [
       "David Eisen",
@@ -18509,8 +18533,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "John Ficarra"
      ],
      "a": [
       "Cynthia Eisen",
@@ -18520,8 +18544,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Alfonse Calato"
      ],
      "a": [
       "Jane Meng",
@@ -18531,8 +18555,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "Jeffrey Rubin"
      ],
      "a": [
       "Nancy Blank",
@@ -18542,8 +18566,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Lin",
+      "Steve Gerwer"
      ],
      "a": [
       "Marykristin Haskell",
@@ -18557,8 +18581,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Quen Koon Ng",
+      "Nancy Lin"
      ],
      "a": [
       "Cynthia Eisen",
@@ -18568,8 +18592,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tara Lombardo",
+      "Hayley Yandoli"
      ],
      "a": [
       "Alicia Maguire",
@@ -18579,8 +18603,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alfonse Calato",
+      "Jeffrey Rubin"
      ],
      "a": [
       "Eric Markowitz",
@@ -18590,8 +18614,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Erik Lombardo",
+      "Sal Frangipane"
      ],
      "a": [
       "David Eisen",
@@ -19828,7 +19852,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T20:53:21.810Z";
+  DATA.meta.asOf = "2026-09-26T00:32:34.246Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

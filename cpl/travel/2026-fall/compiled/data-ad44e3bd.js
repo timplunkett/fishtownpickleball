@@ -4111,7 +4111,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 176,
+   "leagueRank": 177,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4227,7 +4227,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4294,6 +4294,122 @@
    "playerId": "bbb3cbbd-edc3-4fa6-adef-800076f97402"
   },
   {
+   "name": "Karen Kelly",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 167,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "07767191-9167-4314-973d-3798ae6265a9"
+  },
+  {
+   "name": "Esther Yoon",
+   "gender": "Female",
+   "team": "PKLD",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 183,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7d70ad57-c02f-47cc-bdd2-e330a7fed56e"
+  },
+  {
+   "name": "Stephanie Ho",
+   "gender": "Female",
+   "team": "PKLD",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 165,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "815aa4ab-dc28-4202-bd71-c0209705cf1a"
+  },
+  {
+   "name": "Nancy Luyando",
+   "gender": "Female",
+   "team": "PKLD",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 173,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29"
+  },
+  {
    "name": "Beverly D'Angelo",
    "gender": "Female",
    "team": "Premiere",
@@ -4321,6 +4437,64 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b3913bf1-60c7-45b5-b69b-fb7df945ce07"
+  },
+  {
+   "name": "Jenny Miller",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 175,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "d014337a-9f8c-4b82-832f-76a3b66856fa"
+  },
+  {
+   "name": "Tracey Klemick",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 168,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "ee0ab5ac-db12-47f7-bcdb-1a9d452e0ff0"
   },
   {
    "name": "Robin Aiello",
@@ -18922,8 +19096,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ghada Abraham",
+      "Jenna Haas"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -18937,8 +19111,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darlene Fusco",
+      "Christine Steigerwalt"
      ],
      "a": [
       "Stacey Cohen",
@@ -18948,8 +19122,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Stevens",
+      "Kathleen Rex"
      ],
      "a": [
       "Suzanne Leon",
@@ -18959,8 +19133,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Hughes",
+      "Lynn Hauth"
      ],
      "a": [
       "Dawn Dalessio",
@@ -18970,8 +19144,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nami Huang",
+      "Lynn Hauth"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -18985,8 +19159,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Stevens",
+      "Ghada Abraham"
      ],
      "a": [
       "Stacey Cohen",
@@ -18996,8 +19170,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jenna Haas",
+      "Susan Hughes"
      ],
      "a": [
       "Suzanne Leon",
@@ -19007,19 +19181,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tracey Klemick",
+      "Mary Marger"
      ],
      "a": [
       "Dawn Dalessio",
       "Denise Bonagura"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Hughes",
+      "Darlene Fusco"
      ],
      "a": [
       "Suzanne Leon",
@@ -19029,8 +19207,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Steigerwalt",
+      "Kathleen Rex"
      ],
      "a": [
       "Stacey Cohen",
@@ -19040,8 +19218,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Stevens",
+      "Mary Marger"
      ],
      "a": [
       "Linda Iacono",
@@ -19051,8 +19229,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jenna Haas",
+      "Nami Huang"
      ],
      "a": [
       "Beverly D'Angelo",
@@ -19066,8 +19244,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Hughes",
+      "Christine Steigerwalt"
      ],
      "a": [
       "Suzanne Leon",
@@ -19077,8 +19255,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Rex",
+      "Darlene Fusco"
      ],
      "a": [
       "Stacey Cohen",
@@ -19088,8 +19266,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nami Huang",
+      "Ghada Abraham"
      ],
      "a": [
       "Linda Iacono",
@@ -19099,12 +19277,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tracey Klemick",
+      "Mary Marger"
      ],
      "a": [
       "Dawn Dalessio",
       "Beverly D'Angelo"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -19125,8 +19307,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Rex",
+      "Susan Hughes"
      ],
      "a": [
       "Linda Iacono",
@@ -19136,12 +19318,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darlene Fusco",
+      "Tracey Klemick"
      ],
      "a": [
       "Beverly D'Angelo",
       "Sally Sitro"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -19151,8 +19337,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynn Hauth",
+      "Denise Stevens"
      ],
      "a": [
       "Suzanne Leon",
@@ -19162,8 +19348,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Stevens",
+      "Jenna Haas"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -19173,8 +19359,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nami Huang",
+      "Lynn Hauth"
      ],
      "a": [
       "Linda Iacono",
@@ -19184,8 +19370,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ghada Abraham",
+      "Mary Marger"
      ],
      "a": [
       "Beverly D'Angelo",
@@ -19199,19 +19385,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Steigerwalt",
+      "Tracey Klemick"
      ],
      "a": [
       "Suzanne Leon",
       "Dawn Dalessio"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darlene Fusco",
+      "Lynn Hauth"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -19221,8 +19411,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Stevens",
+      "Nami Huang"
      ],
      "a": [
       "Stacey Cohen",
@@ -19232,8 +19422,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ghada Abraham",
+      "Kathleen Rex"
      ],
      "a": [
       "Linda Iacono",
@@ -19247,8 +19437,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Hughes",
+      "Christine Steigerwalt"
      ],
      "a": [
       "Sally Sitro",
@@ -19258,8 +19448,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Stevens",
+      "Mary Marger"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -19269,8 +19459,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darlene Fusco",
+      "Christine Steigerwalt"
      ],
      "a": [
       "Stacey Cohen",
@@ -19284,8 +19474,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nami Huang",
+      "Kathleen Rex"
      ],
      "a": [
       "Suzanne Leon",
@@ -19295,8 +19485,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ghada Abraham",
+      "Jenna Haas"
      ],
      "a": [
       "Dawn Dalessio",
@@ -19319,7 +19509,437 @@
    "home": "Montville",
    "away": "PKLD",
    "time": "2026-09-27T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Luyando",
+      "Kayla Gipson"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Esther Yoon"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jasmine Ho",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Luyando",
+      "Marina Volpe"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Esther Yoon",
+      "Paula Cushing"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jasmine Ho",
+      "Stephanie Ho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marina Volpe",
+      "Jasmine Ho"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Esther Yoon",
+      "Marina Berger"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Stephanie Ho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Luyando",
+      "Olga Turova"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marina Volpe",
+      "Kayla Gipson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Marina Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Esther Yoon"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marina Berger",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jasmine Ho",
+      "Kayla Gipson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Esther Yoon",
+      "Nancy Luyando"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Stephanie Ho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Marina Volpe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Luyando",
+      "Kayla Gipson"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Esther Yoon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Jasmine Ho"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Nancy Luyando"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marina Volpe",
+      "Kayla Gipson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jasmine Ho",
+      "Esther Yoon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marina Berger",
+      "Stephanie Ho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Jasmine Ho"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Esther Yoon",
+      "Marina Berger"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Marina Volpe"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -19335,7 +19955,397 @@
    "home": "Flemington Green",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-09-27T16:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Virginia Kenny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Donna Finn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Jenny Miller"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Toni Demaio"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Jenny Miller"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Melissa Mcconnell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Donna Finn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Kimberley Levins"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Jenny Miller"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karyn Jarmer",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Mcconnell",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Karen Kelly"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Mcconnell",
+      "Karyn Jarmer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Lynch",
+      "Donna Finn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Susana Palumbo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Karyn Jarmer"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Jenny Miller"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Wondrack",
+      "Kathleen Lynch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susana Palumbo",
+      "Kimberley Levins"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenny Miller",
+      "Donna Finn"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Muschio",
+      "Amy Wondrack"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kimberley Levins",
+      "Karen Kelly"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susana Palumbo",
+      "Toni Demaio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginia Kenny",
+      "Donna Finn"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -19630,7 +20640,6 @@
  "extraPlayerIds": {
   "Jodi De Waal": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
   "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
-  "Karen Kelly": "07767191-9167-4314-973d-3798ae6265a9",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Laura Govan": "110b981a-77ae-42b0-8200-4e30e9ce157a",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
@@ -19638,24 +20647,20 @@
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Maria Borges": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
-  "Esther Yoon": "7d70ad57-c02f-47cc-bdd2-e330a7fed56e",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
-  "Stephanie Ho": "815aa4ab-dc28-4202-bd71-c0209705cf1a",
   "Mary Brashier": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
-  "Jenny Miller": "d014337a-9f8c-4b82-832f-76a3b66856fa",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
-  "Tracey Klemick": "ee0ab5ac-db12-47f7-bcdb-1a9d452e0ff0",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
  },
  "meta": {
   "matchesPlayed": 24,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 158,
+  "totalPlayers": 164,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -19739,7 +20744,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T20:56:14.275Z";
+  DATA.meta.asOf = "2026-09-26T00:35:38.329Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

@@ -4778,7 +4778,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4807,7 +4807,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4836,7 +4836,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4894,7 +4894,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4952,7 +4952,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4981,7 +4981,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 189,
+   "leagueRank": 190,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5097,7 +5097,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5155,13 +5155,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "5ec3a192-8b1f-43ab-a348-739a0ba15429"
+  },
+  {
+   "name": "Alain Hwang",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 180,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "74202229-7c29-44eb-9574-de687495a1a6"
   },
   {
    "name": "Turney Hall",
@@ -5213,13 +5242,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "97048a47-d6b3-4c25-84c4-2b8d85e78b7d"
+  },
+  {
+   "name": "Doug Horton",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 177,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c"
   },
   {
    "name": "Austin Williams",
@@ -5242,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5358,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -20096,23 +20154,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "Doug Horton"
      ],
      "a": [
       "Joshua Mindlin",
       "Christian Lupica"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adriene Khon",
+      "Alain Hwang"
      ],
      "a": [
       "Clayton Schmucker",
       "Ethan Henigan"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -20122,8 +20188,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Ashwin Korde"
      ],
      "a": [
       "Zach Mcgowan",
@@ -20133,8 +20199,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Josh Knupp"
      ],
      "a": [
       "William Lee",
@@ -20144,8 +20210,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Ashwin Korde"
      ],
      "a": [
       "Joshua Mindlin",
@@ -20155,8 +20221,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Alex Boory"
      ],
      "a": [
       "William Lee",
@@ -20170,12 +20236,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Alain Hwang"
      ],
      "a": [
       "Jonah Fliegelman",
       "Ethan Henigan"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -20185,8 +20255,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hiep Pham",
+      "David Brandolph"
      ],
      "a": [
       "Christian Lupica",
@@ -20196,8 +20266,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Hiep Pham"
      ],
      "a": [
       "Jonah Fliegelman",
@@ -20211,8 +20281,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Alex Boory"
      ],
      "a": [
       "Zach Mcgowan",
@@ -20226,41 +20296,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adriene Khon",
+      "Doug Horton"
      ],
      "a": [
       "Christian Lupica",
       "Jaco De Waal"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "Alain Hwang"
      ],
      "a": [
       "William Lee",
       "Timoty Cahalin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Alain Hwang"
      ],
      "a": [
       "Christian Lupica",
       "Zach Mcgowan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Adriene Khon"
      ],
      "a": [
       "Clayton Schmucker",
@@ -20274,19 +20356,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "Doug Horton"
      ],
      "a": [
       "Jaco De Waal",
       "Joshua Mindlin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Ashwin Korde"
      ],
      "a": [
       "Ethan Henigan",
@@ -20300,8 +20386,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Hiep Pham"
      ],
      "a": [
       "Christian Lupica",
@@ -20311,8 +20397,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Adriene Khon"
      ],
      "a": [
       "Timoty Cahalin",
@@ -20326,8 +20412,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Ashwin Korde"
      ],
      "a": [
       "Joshua Mindlin",
@@ -20337,13 +20423,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Doug Horton",
+      "Alain Hwang"
      ],
      "a": [
       "Jaco De Waal",
       "Ethan Henigan"
      ],
+     "hSub": [
+      1,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -20352,8 +20442,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Alex Boory"
      ],
      "a": [
       "William Lee",
@@ -20363,8 +20453,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Zachary Lessner"
      ],
      "a": [
       "Clayton Schmucker",
@@ -20378,12 +20468,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hiep Pham",
+      "Doug Horton"
      ],
      "a": [
       "Ethan Henigan",
       "Timoty Cahalin"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -20393,8 +20487,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "Ashwin Korde"
      ],
      "a": [
       "Jaco De Waal",
@@ -20404,19 +20498,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adriene Khon",
+      "Alain Hwang"
      ],
      "a": [
       "Joshua Mindlin",
       "Christian Lupica"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Josh Knupp"
      ],
      "a": [
       "Timoty Cahalin",
@@ -20430,12 +20528,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Doug Horton",
+      "Hiep Pham"
      ],
      "a": [
       "Clayton Schmucker",
       "William Lee"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -20445,8 +20547,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Brandolph",
+      "Alex Boory"
      ],
      "a": [
       "Jaco De Waal",
@@ -20456,8 +20558,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Ashwin Korde"
      ],
      "a": [
       "Zach Mcgowan",
@@ -20467,8 +20569,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Brandyn Schuchart"
      ],
      "a": [
       "Clayton Schmucker",
@@ -20482,8 +20584,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adriene Khon",
+      "Hiep Pham"
      ],
      "a": [
       "William Lee",
@@ -20497,12 +20599,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Alain Hwang"
      ],
      "a": [
       "Joshua Mindlin",
       "Timoty Cahalin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -20513,14 +20619,6 @@
    "home": "Jersey Devil",
    "away": "Pickle House",
    "time": "2026-09-26T15:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 5,
-   "home": "Jersey Devil",
-   "away": "Bounce Malvern",
-   "time": "2026-11-09T19:30:00",
    "complete": false
   },
   {
@@ -20878,6 +20976,14 @@
   {
    "result": null,
    "week": 12,
+   "home": "Jersey Devil",
+   "away": "Bounce Malvern",
+   "time": "2026-11-09T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 12,
    "home": "Pickleball Kingdom Watchung",
    "away": "Flemington",
    "time": "2026-11-09T19:30:00",
@@ -20932,7 +21038,6 @@
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
-  "Doug Horton": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
   "Omar Husain": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
   "John Gargana": "e7ead4ec-3ab0-469f-9122-0a822f068415",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
@@ -20941,7 +21046,7 @@
   "matchesPlayed": 23,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 186,
+  "totalPlayers": 188,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -21032,7 +21137,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T20:56:00.819Z";
+  DATA.meta.asOf = "2026-09-26T00:35:17.891Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

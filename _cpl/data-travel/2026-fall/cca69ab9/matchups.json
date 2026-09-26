@@ -325,18 +325,6 @@
       "awayName": "Pickle House"
     },
     {
-      "matchupId": "9326c662-62b4-4025-a096-ab81e83aeb78",
-      "weekNumber": 5,
-      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-09T19:30:00",
-      "homeName": "Jersey Devil",
-      "awayName": "Bounce Malvern"
-    },
-    {
       "matchupId": "1412c8d3-c1ce-4ca3-a622-03c2f260d5ae",
       "weekNumber": 6,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -863,6 +851,18 @@
       "scheduledTime": "2026-11-09T19:30:00",
       "homeName": "Monroe",
       "awayName": "Pickleball Kingdom Hillsborough"
+    },
+    {
+      "matchupId": "9326c662-62b4-4025-a096-ab81e83aeb78",
+      "weekNumber": 12,
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-09T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Bounce Malvern"
     },
     {
       "matchupId": "e07f622d-cd45-44c3-8f9e-f477b2702037",

@@ -5715,6 +5715,35 @@
    "playerId": "9d821d34-4af3-4e4a-999d-25308b75ca0f"
   },
   {
+   "name": "Garv Singhal",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 218,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a"
+  },
+  {
    "name": "Michael Velez",
    "gender": "Male",
    "team": "Dill Dinkers Hatboro Aces",
@@ -22411,7 +22440,389 @@
    "home": "Pickleball Kingdom Hillsborough",
    "away": "ACE Moorestown",
    "time": "2026-09-27T09:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Shelah Wallace"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Jennifer Sanchez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hector Irizarry",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Shelah Wallace"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathan Law",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hector Irizarry",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Stacy Walkowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hector Irizarry",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Shelah Wallace"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Garv Singhal",
+      "Nathan Law"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Hector Irizarry"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -23974,14 +24385,13 @@
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
-  "Kathy Behrmann": "c6c3c899-b824-4074-b683-ad755850747a",
-  "Garv Singhal": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a"
+  "Kathy Behrmann": "c6c3c899-b824-4074-b683-ad755850747a"
  },
  "meta": {
   "matchesPlayed": 28,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 205,
+  "totalPlayers": 206,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -24068,7 +24478,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-25T20:55:23.338Z";
+  DATA.meta.asOf = "2026-09-26T00:34:43.088Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
