@@ -31998,7 +31998,7 @@
     "lastName": "Markowitz",
     "dupr": "RDZ7ZM",
     "duprRating": 3.53,
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 5652628743,
     "duprProvisional": true
   },
@@ -32185,10 +32185,10 @@
   {
     "playerId": "f55bf08c-0677-40f3-b7ac-f82ff745c26c",
     "firstName": "Danielle",
-    "lastName": "Harcourt ",
+    "lastName": "Harcourt",
     "dupr": "8EMQMJ",
     "duprRating": "3.169",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 7636481970,
     "duprProvisional": false
   },
@@ -32978,7 +32978,7 @@
     "lastName": "Lazaar",
     "dupr": "0Q5OVQ",
     "duprRating": "4.589",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 5394621632,
     "duprProvisional": false
   },
@@ -37072,7 +37072,7 @@
     "lastName": "Smith",
     "dupr": "8MVMXL",
     "duprRating": "3.198",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 7652277784,
     "duprProvisional": false
   },
@@ -47213,5 +47213,45 @@
     "lastSeen": "2026-09",
     "duprNumericId": 5724943304,
     "duprProvisional": false
+  },
+  {
+    "playerId": "e2b67207-a728-4faa-a830-232df72c9abe",
+    "firstName": "Courtney",
+    "lastName": "Wu",
+    "dupr": "Y4ZY7K",
+    "duprRating": "2.662",
+    "lastSeen": "2026-09",
+    "duprNumericId": 5799620477,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "04e9aff2-d148-4ff7-8161-a42b0328aa7e",
+    "firstName": "Lisa",
+    "lastName": "Brower",
+    "dupr": "2DEQE7",
+    "duprRating": "NR",
+    "lastSeen": "2026-09",
+    "duprNumericId": 5967647011,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "2026ccb7-bd78-4bb5-96de-9d0127fdd954",
+    "firstName": "Joseph",
+    "lastName": "Zee",
+    "dupr": "L2WOP6",
+    "duprRating": "5.068",
+    "lastSeen": "2026-09",
+    "duprNumericId": 5265593861,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "e6c633da-f4e7-4781-b43f-7eaa63216c79",
+    "firstName": "Donghui",
+    "lastName": "Ni",
+    "dupr": "EPGKVE",
+    "duprRating": 3.38,
+    "lastSeen": "2026-09",
+    "duprNumericId": 7938388268,
+    "duprProvisional": true
   }
 ]

@@ -39804,6 +39804,7 @@
   "Manny Duarte": "d41ad35d-4e13-4f91-97e7-3702dd8d05f2",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Christopher Knapp": "dfce779b-3ef8-4413-a742-9e06c08782be",
+  "Courtney Wu": "e2b67207-a728-4faa-a830-232df72c9abe",
   "Niman Ahmeti": "e5c7646e-bb30-40b2-bb20-bd4c75e814ce",
   "Anthony Oliver": "e99589b9-dcaa-405f-ad41-0cda95a5f236",
   "Leon Shum": "ea61b0e2-ea10-4b1b-8dab-9086631699bf",
@@ -39935,7 +39936,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T10:32:36.067Z";
+  DATA.meta.asOf = "2026-09-26T15:25:10.894Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

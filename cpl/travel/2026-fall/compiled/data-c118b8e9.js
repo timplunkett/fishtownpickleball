@@ -34521,8 +34521,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Robert Huntley"
      ],
      "a": [
       "Samuel Kashefska",
@@ -34532,8 +34532,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Ricky Jutkiewicz"
      ],
      "a": [
       "Eric Ruiz",
@@ -34543,8 +34543,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Vincent"
      ],
      "a": [
       "David Reyes",
@@ -34554,8 +34554,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Michael Gilbert"
      ],
      "a": [
       "Carlos Rincon",
@@ -34565,8 +34565,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Jacob Yoo"
      ],
      "a": [
       "Eric Ruiz",
@@ -34576,8 +34576,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Michael Gilbert"
      ],
      "a": [
       "Dion Brown",
@@ -34591,8 +34591,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Michael Vincent"
      ],
      "a": [
       "Cullen Curley",
@@ -34602,8 +34602,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Robert Huntley"
      ],
      "a": [
       "Harlos Vizcarrondo",
@@ -34613,8 +34613,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Gilbert"
      ],
      "a": [
       "Harlos Vizcarrondo",
@@ -34624,8 +34624,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Jacob Yoo"
      ],
      "a": [
       "Carlos Rincon",
@@ -34635,8 +34635,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Robert Huntley"
      ],
      "a": [
       "David Reyes",
@@ -34646,8 +34646,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Michael Vincent"
      ],
      "a": [
       "Cullen Curley",
@@ -34661,8 +34661,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Ricky Jutkiewicz"
      ],
      "a": [
       "Ayon Codner",
@@ -34672,8 +34672,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Michael Gilbert"
      ],
      "a": [
       "Michael Barndt",
@@ -34683,8 +34683,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Robert Huntley"
      ],
      "a": [
       "Cullen Curley",
@@ -34698,8 +34698,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Vincent"
      ],
      "a": [
       "Harlos Vizcarrondo",
@@ -34709,8 +34709,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Ricky Jutkiewicz"
      ],
      "a": [
       "Eric Ruiz",
@@ -34720,8 +34720,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Robert Huntley"
      ],
      "a": [
       "Ayon Codner",
@@ -34731,8 +34731,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Gilbert"
      ],
      "a": [
       "Carlos Rincon",
@@ -34742,8 +34742,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Michael Vincent"
      ],
      "a": [
       "Michael Barndt",
@@ -34753,8 +34753,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Rohit Mankotia",
@@ -34764,8 +34764,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Michael Gilbert"
      ],
      "a": [
       "Carlos Rincon",
@@ -34779,8 +34779,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Michael Vincent"
      ],
      "a": [
       "Cullen Curley",
@@ -34790,8 +34790,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Robert Huntley"
      ],
      "a": [
       "David Reyes",
@@ -34801,8 +34801,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Michael Gilbert"
      ],
      "a": [
       "Rohit Mankotia",
@@ -34812,8 +34812,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Michael Vincent"
      ],
      "a": [
       "Ayon Codner",
@@ -34827,8 +34827,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Bryan Mccourt"
      ],
      "a": [
       "Harlos Vizcarrondo",
@@ -34838,8 +34838,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Ricky Jutkiewicz"
      ],
      "a": [
       "Eric Ruiz",
@@ -34849,8 +34849,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Michael Gilbert"
      ],
      "a": [
       "Rohit Mankotia",
@@ -34860,8 +34860,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Michael Vincent"
      ],
      "a": [
       "Ayon Codner",
@@ -34871,8 +34871,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Robert Huntley"
      ],
      "a": [
       "Carlos Rincon",
@@ -34886,8 +34886,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Cullen Curley",
@@ -35949,7 +35949,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T02:42:12.920Z";
+  DATA.meta.asOf = "2026-09-26T15:27:59.873Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
