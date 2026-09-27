@@ -47051,8 +47051,10 @@
     "firstName": "Marilyn",
     "lastName": "Manzo",
     "dupr": "RX65YN",
-    "duprRating": null,
-    "lastSeen": "2026-09"
+    "duprRating": "2.698",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6827133146,
+    "duprProvisional": false
   },
   {
     "playerId": "8471c0ed-751f-45e9-a85f-3125465ee459",
