@@ -3340,8 +3340,8 @@
    "name": "Jenn Allen",
    "gender": "Female",
    "team": "Jersey Devil",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 4,
@@ -34279,7 +34279,6 @@
     }
    ],
    "subs": [
-    "Jenn Allen",
     "Amy Condi",
     "Lisa Pinder"
    ]
@@ -48898,7 +48897,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-27T02:39:21.422Z";
+  DATA.meta.asOf = "2026-09-27T14:36:27.201Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

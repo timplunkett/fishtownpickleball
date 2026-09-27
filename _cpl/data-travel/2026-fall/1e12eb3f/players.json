@@ -1111,7 +1111,7 @@
       "gender": "Female",
       "dupr": "NY5NKW",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
       "wins": 4,

@@ -6579,6 +6579,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Hany Ibrahim",
+   "playerId": "5b439439-36f5-421f-afaa-5d8b1a547954",
+   "team": "Flemington",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Harihar Chudamani",
    "playerId": "06b13278-0d0c-40c5-b2f2-acd50b8bfc36",
    "team": "Bounce Malvern",
@@ -7913,6 +7920,13 @@ window.DUPR_AUDIT = {
    "playerId": "f9c1683f-9cc2-4b5d-aa29-f90e5102e687",
    "team": "Home Court",
    "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
+   "name": "Jenn Allen",
+   "playerId": "1741b412-8d86-480b-a9f3-88447159088a",
+   "team": "Jersey Devil",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {
@@ -16131,6 +16145,13 @@ window.DUPR_AUDIT = {
    "playerId": "6d9b173b-57b7-499c-9bde-9bdafd152968",
    "team": "Flemington Green",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Sean O'Connell",
+   "playerId": "6d9b173b-57b7-499c-9bde-9bdafd152968",
+   "team": "Flemington",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {

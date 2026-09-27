@@ -11175,11 +11175,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -27125,7 +27121,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -27158,11 +27154,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -32173,8 +32165,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -44092,8 +44083,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -44110,8 +44101,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -44126,8 +44117,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -44143,8 +44134,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -44159,8 +44150,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -44175,8 +44166,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -44195,8 +44186,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -44445,8 +44436,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -57021,11 +57011,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -57057,11 +57043,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -81025,11 +81007,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -88028,7 +88006,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -93102,11 +93079,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -117731,7 +117704,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -117764,11 +117737,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -117785,11 +117754,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -117805,11 +117770,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -121903,8 +121864,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Jersey Devil",
-    "withSub": 1
+    "subFor": "Jersey Devil"
    },
    {
     "wk": 5,
@@ -123368,8 +123328,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -123417,8 +123376,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -139396,11 +139354,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Bounce Malvern",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Bounce Malvern"
    },
    {
     "wk": 5,
