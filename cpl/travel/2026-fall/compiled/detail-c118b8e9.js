@@ -180,14 +180,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 1.1,
-    "confidence": 59,
-    "rank": 74,
+    "rating": 1,
+    "confidence": 60,
+    "rank": 85,
     "ratingGames": 7,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.3
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1.4
    }
   ],
   "partners": []
@@ -334,13 +334,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 2.5,
+    "rating": 2.4,
     "confidence": 56,
-    "rank": 22,
+    "rank": 24,
     "ratingGames": 6,
-    "strengthOfPartners": 0.5,
+    "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -791,7 +791,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 4.5,
     "confidence": 79,
@@ -806,7 +806,7 @@
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.3
    }
   ]
  },
@@ -1182,7 +1182,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 4.4,
     "confidence": 74,
@@ -1570,7 +1570,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 4.8,
     "confidence": 75,
@@ -1591,7 +1591,7 @@
     "pid": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
     "name": "Umang Pathak",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
@@ -2440,7 +2440,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 4.1,
     "confidence": 88,
@@ -2452,33 +2452,33 @@
   ],
   "partners": [
    {
-    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
-    "name": "Luca Hendrickson",
-    "n": 10,
-    "synergy": 0.8
-   },
-   {
     "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
     "name": "Anthony Simonetti",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
-    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
-    "name": "Jimmy Ramja",
-    "n": 8,
-    "synergy": -0.1
-   },
-   {
-    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
-    "name": "Kyle Korman",
-    "n": 5,
-    "synergy": -0.2
+    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
+    "name": "Luca Hendrickson",
+    "n": 10,
+    "synergy": 0.6
    },
    {
     "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
     "name": "Noah Ludwigsen",
     "n": 10,
+    "synergy": -0.1
+   },
+   {
+    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
+    "name": "Jimmy Ramja",
+    "n": 8,
+    "synergy": -0.3
+   },
+   {
+    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
+    "name": "Kyle Korman",
+    "n": 5,
     "synergy": -0.3
    }
   ]
@@ -2989,11 +2989,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 3.4,
     "confidence": 81,
-    "rank": 8,
+    "rank": 9,
     "ratingGames": 23,
     "strengthOfPartners": 1,
     "strengthOfOpponents": -0.3
@@ -3537,7 +3537,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 3.5,
     "confidence": 79,
@@ -4152,7 +4152,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2,
     "confidence": 83,
@@ -4173,7 +4173,7 @@
     "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
     "name": "Matt Enz",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "98842749-0d7d-4b20-b78a-50c79d087699",
@@ -4185,13 +4185,13 @@
     "pid": "c5fa38d0-add2-462c-b3de-5b62dd4d1386",
     "name": "Harvey Mitchell",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.6
    }
   ]
  },
@@ -4767,7 +4767,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.9,
     "confidence": 83,
@@ -4788,19 +4788,19 @@
     "pid": "8b8ebfab-9618-4bba-a52b-6aa7679d3390",
     "name": "Ryan Hathaway",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0.2
+   },
+   {
+    "pid": "3196f425-e79a-4def-b7c3-bc3205976ba3",
+    "name": "Leland Weinert",
+    "n": 4,
+    "synergy": -0.3
    },
    {
     "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
     "name": "Matt Enz",
     "n": 4,
     "synergy": -0.3
-   },
-   {
-    "pid": "3196f425-e79a-4def-b7c3-bc3205976ba3",
-    "name": "Leland Weinert",
-    "n": 4,
-    "synergy": -0.5
    }
   ]
  },
@@ -5011,11 +5011,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.3,
     "confidence": 58,
-    "rank": 28,
+    "rank": 30,
     "ratingGames": 8,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1.4
@@ -5207,11 +5207,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.6,
     "confidence": 61,
-    "rank": 51,
+    "rank": 50,
     "ratingGames": 8,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -1.3
@@ -5393,11 +5393,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.3,
     "confidence": 62,
-    "rank": 27,
+    "rank": 29,
     "ratingGames": 8,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -5616,14 +5616,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 62,
-    "rank": 83,
+    "rank": 84,
     "ratingGames": 8,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -6156,7 +6156,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 3.7,
     "confidence": 82,
@@ -6352,7 +6352,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 3.3,
     "confidence": 58,
@@ -6891,7 +6891,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.2,
     "confidence": 81,
@@ -6906,7 +6906,7 @@
     "pid": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
     "name": "Matthew Schwartz",
     "n": 6,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "75496a80-8064-40ae-ba4b-36c156d70885",
@@ -7242,7 +7242,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.4,
     "confidence": 69,
@@ -7257,7 +7257,7 @@
     "pid": "c19e964a-d126-4e9f-9ce4-83c315f2f535",
     "name": "Arnold Poblete",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    }
   ]
  },
@@ -7403,11 +7403,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.3,
     "confidence": 56,
-    "rank": 29,
+    "rank": 31,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.5
@@ -7902,13 +7902,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.5,
     "confidence": 81,
     "rank": 111,
     "ratingGames": 22,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.9
    }
   ],
@@ -7929,13 +7929,13 @@
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
     "name": "Rajeeth Nadig",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
     "name": "Sushil Rijhwani",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.9
    }
   ]
  },
@@ -8623,7 +8623,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 3.8,
     "confidence": 85,
@@ -8644,31 +8644,31 @@
     "pid": "93280d5d-b0c8-49cd-94fe-0350f3e2dac5",
     "name": "Ramam Durba",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.1
    },
    {
     "pid": "08530d21-2dc5-4f71-9d49-9191ec192860",
     "name": "Shalin Rawal",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
     "name": "John Manuzza",
     "n": 8,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "06d52e99-941a-4ced-9968-f56e6075105a",
     "name": "Jeff Laniado",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb",
     "name": "Jesse Mynahan",
     "n": 6,
-    "synergy": -0.4
+    "synergy": -0.5
    },
    {
     "pid": "30c847e2-9b5e-4ad7-851d-9d624f94a11b",
@@ -9274,7 +9274,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.2,
     "confidence": 83,
@@ -9295,13 +9295,13 @@
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "870112b1-afc3-4ff6-b784-7f872210bf37",
@@ -9313,7 +9313,7 @@
     "pid": "43d2bf2c-e732-4ce8-adae-035d989fa792",
     "name": "Russell Cripps",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    },
    {
     "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
@@ -9796,13 +9796,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.6,
     "confidence": 79,
-    "rank": 18,
+    "rank": 19,
     "ratingGames": 20,
-    "strengthOfPartners": 0.1,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -9811,19 +9811,19 @@
     "pid": "3196f425-e79a-4def-b7c3-bc3205976ba3",
     "name": "Leland Weinert",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.1
    },
    {
     "pid": "31b78615-afb3-4856-8cb1-de2b8d43a115",
     "name": "Dan Ladislaw",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0
    }
   ]
  },
@@ -10175,7 +10175,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.8,
     "confidence": 75,
@@ -10196,7 +10196,7 @@
     "pid": "d50feac2-f147-47d2-8930-99b21b2842ba",
     "name": "Brandon Dejesus",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.2
    }
   ]
  },
@@ -10716,7 +10716,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.7,
     "confidence": 81,
@@ -11571,7 +11571,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.6,
     "confidence": 88,
@@ -11586,7 +11586,7 @@
     "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
     "name": "Sree Harsha Konduru",
     "n": 8,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "44864b51-f901-4470-a6bd-891495ffd132",
@@ -11598,19 +11598,985 @@
     "pid": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
     "name": "Bennett Pereira",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
     "name": "Jitendra Arora",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
     "name": "Neil Dedhia",
     "n": 3,
     "synergy": -0.7
+   }
+  ]
+ },
+ "ade57877-7c11-4a46-88bf-789a50906901": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 115,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 139,
+    "pa": 138,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     4
+    ],
+    "cl": [
+     2,
+     4
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 100,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     4,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 140,
+    "pa": 121,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickle House",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 116,
+    "pa": 104,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 162,
+    "pa": 133,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     7,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Michael Vollmer",
+     "Pedro Delgado"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Siva Indupuru",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Wensheng Yue",
+     "Siva Indupuru"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Ben Cortes",
+     "Pedro Delgado"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Kevin Lew",
+     "Hua Lin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Wensheng Yue",
+     "Siva Indupuru"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Erik Reilly",
+     "Big G"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Kevin Lew",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Salman Saad",
+     "Nicholas Lugo"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Stephen Fredericksen"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "David Bogatyrev",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Salman Saad",
+     "Uttam Purohit"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Jason Mcmanmon",
+     "Shawn Gold"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Joseph Lynskey",
+     "Eden Ksendzovsky"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Rob Telles",
+     "Eden Ksendzovsky"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Gary White",
+     "Timothy Lynskey"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Rob Telles",
+     "Nacio Marshall"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Christopher Giasi",
+     "Nacio Marshall"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Daniel Antonelli",
+     "Eden Ksendzovsky"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Jimmy Shapiro",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Mark Waters",
+     "Matt Inzerillo"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Chris Machuzak",
+     "Andress Mims"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Matt Inzerillo",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Matt Inzerillo",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Mark Waters",
+     "Jimmy Shapiro"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Andress Mims",
+     "Matt Inzerillo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Rajeeth Nadig",
+     "Neil Dedhia"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Varun Gurram",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Rajeeth Nadig",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Varun Gurram",
+     "Neil Dedhia"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Rakshit Maddur Gopinath",
+     "Anil Kumar Jakkaladki"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Sree Harsha Konduru",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Bren Calpin",
+     "Joel Steinbrunner"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Bren Calpin",
+     "Joel Steinbrunner"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Jesse Pettit",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Jesse Pettit",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Steppan Konoplev",
+     "Joel Steinbrunner"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Steppan Konoplev",
+     "Joel Steinbrunner"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Aleks Mirkovic",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Aleks Mirkovic",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 1.7,
+    "confidence": 57,
+    "rank": 16,
+    "ratingGames": 8,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -1.4
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 0.5,
+    "confidence": 73,
+    "rank": 84,
+    "ratingGames": 15,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.2,
+    "confidence": 79,
+    "rank": 55,
+    "ratingGames": 21,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.9,
+    "confidence": 84,
+    "rank": 81,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": 1.3,
+    "confidence": 86,
+    "rank": 63,
+    "ratingGames": 34,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": 1.4,
+    "confidence": 89,
+    "rank": 53,
+    "ratingGames": 42,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "40681083-620d-4293-829f-91121323135c",
+    "name": "Niman Ahmeti",
+    "n": 3,
+    "synergy": 1.9
+   },
+   {
+    "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
+    "name": "Noah Ludwigsen",
+    "n": 4,
+    "synergy": 0.7
+   },
+   {
+    "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
+    "name": "David Wheeler",
+    "n": 9,
+    "synergy": 0.1
+   },
+   {
+    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
+    "name": "Kyle Korman",
+    "n": 3,
+    "synergy": -0.2
+   },
+   {
+    "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
+    "name": "Christopher Hendrickson",
+    "n": 8,
+    "synergy": -0.3
+   },
+   {
+    "pid": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
+    "name": "Thomas Moran",
+    "n": 5,
+    "synergy": -0.4
    }
   ]
  },
@@ -11944,7 +12910,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 3.4,
     "confidence": 74,
@@ -11959,7 +12925,7 @@
     "pid": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
     "name": "Bruce Nguyen",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "c6482905-6954-4241-a6c3-ba077c367846",
@@ -12303,14 +13269,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 1.9,
+    "rating": 1.8,
     "confidence": 74,
-    "rank": 37,
+    "rank": 40,
     "ratingGames": 14,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -12318,7 +13284,7 @@
     "pid": "9a26eab9-96be-45e1-b380-2845a0e8e668",
     "name": "Gary White",
     "n": 3,
-    "synergy": -0.1
+    "synergy": 0
    }
   ]
  },
@@ -12832,14 +13798,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 2.5,
+    "rating": 2.6,
     "confidence": 81,
-    "rank": 21,
+    "rank": 18,
     "ratingGames": 23,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -12847,31 +13813,31 @@
     "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
     "name": "Noah Ludwigsen",
     "n": 4,
-    "synergy": 1.8
+    "synergy": 1.9
    },
    {
     "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
     "name": "Christopher Hendrickson",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
     "name": "Thomas Moran",
     "n": 3,
-    "synergy": 0.5
-   },
-   {
-    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
-    "name": "Luca Hendrickson",
-    "n": 6,
-    "synergy": -0.4
+    "synergy": 0.6
    },
    {
     "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
     "name": "David Wheeler",
     "n": 5,
-    "synergy": -1
+    "synergy": -0.6
+   },
+   {
+    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
+    "name": "Luca Hendrickson",
+    "n": 6,
+    "synergy": -0.7
    }
   ]
  },
@@ -13547,7 +14513,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.8,
     "confidence": 86,
@@ -13562,13 +14528,13 @@
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
     "name": "Rajeeth Nadig",
     "n": 8,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
-    "pid": "7af65ce9-d7e3-4d00-b19b-653e6d2dc8d9",
-    "name": "Ping Peng",
-    "n": 3,
-    "synergy": 0.7
+    "pid": "44864b51-f901-4470-a6bd-891495ffd132",
+    "name": "Varun Gurram",
+    "n": 8,
+    "synergy": 0.6
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
@@ -13577,9 +14543,9 @@
     "synergy": 0.6
    },
    {
-    "pid": "44864b51-f901-4470-a6bd-891495ffd132",
-    "name": "Varun Gurram",
-    "n": 8,
+    "pid": "7af65ce9-d7e3-4d00-b19b-653e6d2dc8d9",
+    "name": "Ping Peng",
+    "n": 3,
     "synergy": 0.5
    },
    {
@@ -14193,7 +15159,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.7,
     "confidence": 84,
@@ -14220,7 +15186,7 @@
     "pid": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb",
     "name": "Jesse Mynahan",
     "n": 8,
-    "synergy": -0.4
+    "synergy": -0.5
    }
   ]
  },
@@ -15075,7 +16041,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.8,
     "confidence": 88,
@@ -15090,911 +16056,37 @@
     "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
     "name": "David Wheeler",
     "n": 4,
-    "synergy": 2.1
+    "synergy": 2.3
+   },
+   {
+    "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
+    "name": "Christopher Hendrickson",
+    "n": 10,
+    "synergy": 0.6
    },
    {
     "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
     "name": "Kyle Korman",
     "n": 5,
-    "synergy": 0.9
-   },
-   {
-    "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
-    "name": "Christopher Hendrickson",
-    "n": 10,
-    "synergy": 0.8
+    "synergy": 0.6
    },
    {
     "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
     "name": "Noah Ludwigsen",
     "n": 10,
-    "synergy": -0.2
-   },
-   {
-    "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
-    "name": "Anthony Simonetti",
-    "n": 6,
-    "synergy": -0.4
+    "synergy": -0.1
    },
    {
     "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
     "name": "Jose Campos",
     "n": 3,
-    "synergy": -1.1
-   }
-  ]
- },
- "67f9503a-202f-4982-8e97-9b3383a35aee": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Dill Dinkers Freehold",
-    "homeAway": "H",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 133,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     5,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
+    "synergy": -0.7
    },
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 158,
-    "pa": 147,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     4
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 162,
-    "pa": 132,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     3
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 125,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     8,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickle House",
-    "homeAway": "A",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 164,
-    "pa": 138,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Erik Reilly",
-     "Ben Cortes"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Erik Reilly",
-     "Kevin Lew"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Erik Reilly",
-     "Pedro Delgado"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Erik Reilly",
-     "Wensheng Yue"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Erik Reilly",
-     "Ben Cortes"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Erik Reilly",
-     "Kevin Lew"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Erik Reilly",
-     "Big G"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Kevin Lew",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "David Bogatyrev",
-     "Michael Dombrowiecki"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Shawn Gold",
-     "David Bogatyrev"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Kurt Skalamera",
-     "Salman Saad"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Jacob Rosengarten",
-     "Nicholas Lugo"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Jason Mcmanmon",
-     "Jacob Rosengarten"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Shawn Gold",
-     "Nicholas Lugo"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Nicholas Lugo",
-     "Salman Saad"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "David Bogatyrev",
-     "Kurt Skalamera"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Rob Telles",
-     "Jim Boy Baring"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Joseph Lynskey",
-     "Gary White"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Gary White",
-     "Daniel Antonelli"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Eden Ksendzovsky",
-     "Daniel Antonelli"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Joseph Lynskey",
-     "Timothy Lynskey"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Joseph Lynskey",
-     "Timothy Lynskey"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Eden Ksendzovsky",
-     "Timothy Lynskey"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Daniel Antonelli",
-     "Eden Ksendzovsky"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Bruce Nguyen",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Jimmy Shapiro",
-     "Chris Machuzak"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Uzoma Nwankwo",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Jimmy Shapiro",
-     "Bruce Nguyen"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Uzoma Nwankwo",
-     "Andress Mims"
-    ],
-    "f": 28,
-    "a": 26,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Mark Waters",
-     "Jimmy Shapiro"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Uzoma Nwankwo",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Andress Mims",
-     "Bruce Nguyen"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Aidan Fredericks",
-     "Sushil Rijhwani"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Jitendra Arora",
-     "Anil Kumar Jakkaladki"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Aidan Fredericks",
-     "Ping Peng"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Ping Peng",
-     "Anil Kumar Jakkaladki"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Varun Gurram",
-     "Sushil Rijhwani"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Varun Gurram",
-     "Rajeeth Nadig"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Varun Gurram",
-     "Rajeeth Nadig"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Varun Gurram",
-     "Jitendra Arora"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 0.6,
-    "confidence": 42,
-    "rank": 65,
-    "ratingGames": 8,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 1.1,
-    "confidence": 71,
-    "rank": 49,
-    "ratingGames": 16,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.6,
-    "confidence": 80,
-    "rank": 36,
-    "ratingGames": 24,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1.7,
-    "confidence": 85,
-    "rank": 39,
-    "ratingGames": 32,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 1.6,
-    "confidence": 88,
-    "rank": 49,
-    "ratingGames": 40,
-    "strengthOfPartners": 2.4,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
    {
     "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
     "name": "Anthony Simonetti",
-    "n": 4,
-    "synergy": 1.8
-   },
-   {
-    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
-    "name": "Jimmy Ramja",
-    "n": 4,
-    "synergy": 0.6
-   },
-   {
-    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
-    "name": "Luca Hendrickson",
-    "n": 10,
-    "synergy": -0.2
-   },
-   {
-    "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
-    "name": "David Wheeler",
-    "n": 9,
-    "synergy": -0.3
-   },
-   {
-    "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
-    "name": "Christopher Hendrickson",
-    "n": 10,
-    "synergy": -0.3
+    "n": 6,
+    "synergy": -0.7
    }
   ]
  },
@@ -16314,805 +16406,17 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.1,
+    "rating": 0,
     "confidence": 72,
-    "rank": 129,
+    "rank": 137,
     "ratingGames": 13,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.7
    }
   ],
   "partners": []
- },
- "ade57877-7c11-4a46-88bf-789a50906901": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Dill Dinkers Freehold",
-    "homeAway": "H",
-    "w": 7,
-    "l": 1,
-    "gp": 8,
-    "pf": 166,
-    "pa": 115,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     7,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 139,
-    "pa": 138,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     4
-    ],
-    "cl": [
-     2,
-     4
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 100,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     4,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 140,
-    "pa": 121,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickle House",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 116,
-    "pa": 104,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Michael Vollmer",
-     "Pedro Delgado"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Siva Indupuru",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Wensheng Yue",
-     "Siva Indupuru"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Ben Cortes",
-     "Pedro Delgado"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Kevin Lew",
-     "Hua Lin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Wensheng Yue",
-     "Siva Indupuru"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Erik Reilly",
-     "Big G"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Kevin Lew",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 10,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Jacob Rosengarten",
-     "Stephen Fredericksen"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Salman Saad",
-     "Nicholas Lugo"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Stephen Fredericksen"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "David Bogatyrev",
-     "Michael Dombrowiecki"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Salman Saad",
-     "Uttam Purohit"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Jason Mcmanmon",
-     "Shawn Gold"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Joseph Lynskey",
-     "Eden Ksendzovsky"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Rob Telles",
-     "Eden Ksendzovsky"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Gary White",
-     "Timothy Lynskey"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Rob Telles",
-     "Nacio Marshall"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Christopher Giasi",
-     "Nacio Marshall"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Daniel Antonelli",
-     "Eden Ksendzovsky"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Jimmy Shapiro",
-     "Chris Machuzak"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Mark Waters",
-     "Matt Inzerillo"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Chris Machuzak",
-     "Andress Mims"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Matt Inzerillo",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Matt Inzerillo",
-     "Chris Machuzak"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Mark Waters",
-     "Jimmy Shapiro"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Andress Mims",
-     "Matt Inzerillo"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Rajeeth Nadig",
-     "Neil Dedhia"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Varun Gurram",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Rajeeth Nadig",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Varun Gurram",
-     "Neil Dedhia"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Rakshit Maddur Gopinath",
-     "Anil Kumar Jakkaladki"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Sree Harsha Konduru",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1.7,
-    "confidence": 57,
-    "rank": 16,
-    "ratingGames": 8,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -1.4
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 0.5,
-    "confidence": 73,
-    "rank": 84,
-    "ratingGames": 15,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.2,
-    "confidence": 79,
-    "rank": 55,
-    "ratingGames": 21,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.9,
-    "confidence": 84,
-    "rank": 81,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.6
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 1.3,
-    "confidence": 86,
-    "rank": 63,
-    "ratingGames": 34,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "40681083-620d-4293-829f-91121323135c",
-    "name": "Niman Ahmeti",
-    "n": 3,
-    "synergy": 1.7
-   },
-   {
-    "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
-    "name": "Noah Ludwigsen",
-    "n": 4,
-    "synergy": 0.6
-   },
-   {
-    "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
-    "name": "David Wheeler",
-    "n": 7,
-    "synergy": 0.2
-   },
-   {
-    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
-    "name": "Kyle Korman",
-    "n": 3,
-    "synergy": 0
-   },
-   {
-    "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
-    "name": "Christopher Hendrickson",
-    "n": 8,
-    "synergy": -0.1
-   },
-   {
-    "pid": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
-    "name": "Thomas Moran",
-    "n": 4,
-    "synergy": -1.2
-   }
-  ]
  },
  "43d2bf2c-e732-4ce8-adae-035d989fa792": {
   "log": [
@@ -17536,7 +16840,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 77,
@@ -17551,7 +16855,7 @@
     "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
     "name": "Matt Enz",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -18266,7 +17570,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.7,
     "confidence": 85,
@@ -18287,7 +17591,7 @@
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "870112b1-afc3-4ff6-b784-7f872210bf37",
@@ -18311,7 +17615,7 @@
     "pid": "ebc8788f-79c2-4204-a14a-47b6bc480d5d",
     "name": "Charles Evans",
     "n": 6,
-    "synergy": -0.6
+    "synergy": -0.5
    }
   ]
  },
@@ -18765,13 +18069,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.1,
     "confidence": 80,
-    "rank": 33,
+    "rank": 35,
     "ratingGames": 20,
-    "strengthOfPartners": 1.5,
+    "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -18792,7 +18096,7 @@
     "pid": "2f7d6c14-4f06-470b-a4ba-f28199e823b0",
     "name": "Andrew Neave",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1
    }
   ]
  },
@@ -19329,7 +18633,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.3,
     "confidence": 83,
@@ -19344,7 +18648,7 @@
     "pid": "7af65ce9-d7e3-4d00-b19b-653e6d2dc8d9",
     "name": "Ping Peng",
     "n": 3,
-    "synergy": 1.8
+    "synergy": 1.6
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
@@ -20000,7 +19304,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.1,
     "confidence": 84,
@@ -20015,37 +19319,37 @@
     "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
     "name": "Jose Campos",
     "n": 3,
-    "synergy": 1
-   },
-   {
-    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
-    "name": "Luca Hendrickson",
-    "n": 5,
-    "synergy": 0.9
+    "synergy": 1.3
    },
    {
     "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
     "name": "David Wheeler",
     "n": 4,
-    "synergy": 0.3
+    "synergy": 0.6
+   },
+   {
+    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
+    "name": "Luca Hendrickson",
+    "n": 5,
+    "synergy": 0.6
    },
    {
     "pid": "ade57877-7c11-4a46-88bf-789a50906901",
     "name": "Jimmy Ramja",
     "n": 3,
-    "synergy": 0
+    "synergy": -0.2
    },
    {
     "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
     "name": "Christopher Hendrickson",
     "n": 5,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "40681083-620d-4293-829f-91121323135c",
     "name": "Niman Ahmeti",
     "n": 4,
-    "synergy": -1.7
+    "synergy": -1.4
    }
   ]
  },
@@ -20534,7 +19838,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 77,
@@ -20555,19 +19859,19 @@
     "pid": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
     "name": "Pat Wilson",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3",
     "name": "Marc Kunesch",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
     "name": "Kevin Sheehan",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -21027,14 +20331,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.7,
     "confidence": 80,
     "rank": 45,
     "ratingGames": 20,
     "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.4
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -21060,7 +20364,7 @@
     "pid": "fbde98cb-9eee-431b-b164-244249c26728",
     "name": "Cesar Santamaria-Aranda",
     "n": 3,
-    "synergy": -1.7
+    "synergy": -1.6
    }
   ]
  },
@@ -21362,11 +20666,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.6,
     "confidence": 71,
-    "rank": 105,
+    "rank": 102,
     "ratingGames": 12,
     "strengthOfPartners": 2.2,
     "strengthOfOpponents": -0.1
@@ -21377,7 +20681,7 @@
     "pid": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
     "name": "Umang Pathak",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.1
    }
   ]
  },
@@ -21665,14 +20969,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -0.7,
+    "rating": -0.5,
     "confidence": 71,
-    "rank": 175,
+    "rank": 168,
     "ratingGames": 12,
-    "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -2
+    "strengthOfPartners": -0.6,
+    "strengthOfOpponents": -1.8
    }
   ],
   "partners": [
@@ -21871,14 +21175,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.7,
     "confidence": 63,
     "rank": 47,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
-    "strengthOfOpponents": -0.6
+    "strengthOfOpponents": -0.5
    }
   ],
   "partners": []
@@ -22174,7 +21478,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.4,
     "confidence": 69,
@@ -22195,9 +21499,202 @@
     "pid": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
     "name": "Harrison Bohrer",
     "n": 4,
-    "synergy": -0.6
+    "synergy": -0.4
    }
   ]
+ },
+ "a58f9ffa-60cc-46b5-ba59-0c78a43ac986": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 163,
+    "pa": 146,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Jesse Pettit",
+     "Steppan Konoplev"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Jesse Pettit",
+     "Steppan Konoplev"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Jesse Pettit",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Jesse Pettit",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Ian Diamond",
+     "Bren Calpin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Ian Diamond",
+     "Bren Calpin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ",
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Bren Calpin",
+     "Xan Hong"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Bren Calpin",
+     "Xan Hong"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -1.5,
+    "confidence": 59,
+    "rank": 213,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.8,
+    "strengthOfOpponents": -2.6
+   }
+  ],
+  "partners": []
  },
  "c5e40aa9-efbf-4937-b44d-1b8f06693ba4": {
   "log": [
@@ -22362,7 +21859,7 @@
   "ratingHistory": [
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.1,
     "confidence": 57,
@@ -22986,7 +22483,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.5,
     "confidence": 83,
@@ -23007,7 +22504,7 @@
     "pid": "9886815c-3bf4-42b1-b650-1ec17ff2c167",
     "name": "Carlos Rincon",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb",
@@ -23779,7 +23276,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.7,
     "confidence": 85,
@@ -23800,7 +23297,7 @@
     "pid": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
     "name": "Umang Pathak",
     "n": 8,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "27009a0b-037c-4934-9f52-d21c928ef173",
@@ -24596,7 +24093,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.4,
     "confidence": 87,
@@ -24617,13 +24114,13 @@
     "pid": "d0c9ae50-0cdc-4f72-9ece-0b996f323f73",
     "name": "Vincent Rigoglioso",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "ca670ae8-0768-49d4-9984-f708cd52786c",
     "name": "Yong Kim",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "f2c53e42-1eac-48dd-9c93-682ec5c1ac98",
@@ -24786,7 +24283,7 @@
   "ratingHistory": [
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.4,
     "confidence": 60,
@@ -24797,6 +24294,1050 @@
    }
   ],
   "partners": []
+ },
+ "67f9503a-202f-4982-8e97-9b3383a35aee": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "H",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 133,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     8,
+     0
+    ],
+    "cl": [
+     5,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 158,
+    "pa": 147,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 162,
+    "pa": 132,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     3
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 125,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     8,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickle House",
+    "homeAway": "A",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 138,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 152,
+    "pa": 158,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     2,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Erik Reilly",
+     "Ben Cortes"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Erik Reilly",
+     "Kevin Lew"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Erik Reilly",
+     "Pedro Delgado"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Erik Reilly",
+     "Wensheng Yue"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Erik Reilly",
+     "Ben Cortes"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Erik Reilly",
+     "Kevin Lew"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Erik Reilly",
+     "Big G"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Kevin Lew",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "David Bogatyrev",
+     "Michael Dombrowiecki"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Shawn Gold",
+     "David Bogatyrev"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Kurt Skalamera",
+     "Salman Saad"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Jacob Rosengarten",
+     "Nicholas Lugo"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Jason Mcmanmon",
+     "Jacob Rosengarten"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Shawn Gold",
+     "Nicholas Lugo"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Nicholas Lugo",
+     "Salman Saad"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "David Bogatyrev",
+     "Kurt Skalamera"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Rob Telles",
+     "Jim Boy Baring"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Joseph Lynskey",
+     "Gary White"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Gary White",
+     "Daniel Antonelli"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Eden Ksendzovsky",
+     "Daniel Antonelli"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Joseph Lynskey",
+     "Timothy Lynskey"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Joseph Lynskey",
+     "Timothy Lynskey"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Eden Ksendzovsky",
+     "Timothy Lynskey"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Daniel Antonelli",
+     "Eden Ksendzovsky"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Bruce Nguyen",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Jimmy Shapiro",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Uzoma Nwankwo",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Jimmy Shapiro",
+     "Bruce Nguyen"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Uzoma Nwankwo",
+     "Andress Mims"
+    ],
+    "f": 28,
+    "a": 26,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Mark Waters",
+     "Jimmy Shapiro"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Uzoma Nwankwo",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 10,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Andress Mims",
+     "Bruce Nguyen"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Aidan Fredericks",
+     "Sushil Rijhwani"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Jitendra Arora",
+     "Anil Kumar Jakkaladki"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Aidan Fredericks",
+     "Ping Peng"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Ping Peng",
+     "Anil Kumar Jakkaladki"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Varun Gurram",
+     "Sushil Rijhwani"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Varun Gurram",
+     "Rajeeth Nadig"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Varun Gurram",
+     "Rajeeth Nadig"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Varun Gurram",
+     "Jitendra Arora"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Jesse Pettit",
+     "Steppan Konoplev"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Jesse Pettit",
+     "Steppan Konoplev"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Aleks Mirkovic",
+     "Joel Steinbrunner"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Aleks Mirkovic",
+     "Joel Steinbrunner"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Jesse Pettit",
+     "Aleks Mirkovic"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Jesse Pettit",
+     "Aleks Mirkovic"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Joel Steinbrunner",
+     "Jesse Pettit"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Joel Steinbrunner",
+     "Jesse Pettit"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 0.6,
+    "confidence": 42,
+    "rank": 65,
+    "ratingGames": 8,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 1.1,
+    "confidence": 71,
+    "rank": 49,
+    "ratingGames": 16,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.6,
+    "confidence": 80,
+    "rank": 36,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 1.7,
+    "confidence": 85,
+    "rank": 39,
+    "ratingGames": 32,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": 1.6,
+    "confidence": 88,
+    "rank": 49,
+    "ratingGames": 40,
+    "strengthOfPartners": 2.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": 1.2,
+    "confidence": 89,
+    "rank": 68,
+    "ratingGames": 48,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": [
+   {
+    "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
+    "name": "Anthony Simonetti",
+    "n": 4,
+    "synergy": 1.9
+   },
+   {
+    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
+    "name": "Jimmy Ramja",
+    "n": 4,
+    "synergy": 0.7
+   },
+   {
+    "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
+    "name": "David Wheeler",
+    "n": 11,
+    "synergy": 0.4
+   },
+   {
+    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
+    "name": "Luca Hendrickson",
+    "n": 10,
+    "synergy": -0.1
+   },
+   {
+    "pid": "7fc1ed1b-4763-49b4-a077-46a92c0df3d6",
+    "name": "Christopher Hendrickson",
+    "n": 10,
+    "synergy": -0.1
+   }
+  ]
  },
  "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f": {
   "log": [
@@ -25316,7 +25857,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.5,
     "confidence": 81,
@@ -25331,7 +25872,7 @@
     "pid": "5636cdc5-7a65-4202-abbb-5999eee35ab3",
     "name": "Jason Feldman",
     "n": 6,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "0e8c08b7-0e58-434b-8830-f37779f821dc",
@@ -25350,796 +25891,6 @@
     "name": "Timothy Lynskey",
     "n": 4,
     "synergy": -2.5
-   }
-  ]
- },
- "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Dill Dinkers Freehold",
-    "homeAway": "H",
-    "w": 6,
-    "l": 2,
-    "gp": 8,
-    "pf": 164,
-    "pa": 123,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 141,
-    "pa": 132,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     3
-    ],
-    "cl": [
-     1,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 130,
-    "pa": 132,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     4
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 102,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickle House",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 103,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     5,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Erik Reilly",
-     "Ben Cortes"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Erik Reilly",
-     "Kevin Lew"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Kevin Lew",
-     "Ben Cortes"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Kevin Lew",
-     "Hua Lin"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Kevin Lew",
-     "Hua Lin"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Wensheng Yue",
-     "Siva Indupuru"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Kevin Lew",
-     "Pedro Delgado"
-    ],
-    "f": 21,
-    "a": 3,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Hua Lin",
-     "Siva Indupuru"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Shawn Gold",
-     "Jason Mcmanmon"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Jacob Rosengarten",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Jason Mcmanmon",
-     "Jacob Rosengarten"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Shawn Gold",
-     "Nicholas Lugo"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "David Bogatyrev",
-     "Uttam Purohit"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Jacob Rosengarten",
-     "Nicholas Lugo"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Daniel Antonelli",
-     "Timothy Lynskey"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Timothy Lynskey",
-     "Nacio Marshall"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Gary White",
-     "Daniel Antonelli"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Eden Ksendzovsky",
-     "Daniel Antonelli"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Daniel Antonelli",
-     "Christopher Giasi"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Jim Boy Baring",
-     "Christopher Giasi"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Rob Telles",
-     "Christopher Giasi"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Jimmy Shapiro",
-     "Chris Machuzak"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Jimmy Shapiro",
-     "Matt Inzerillo"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Matt Inzerillo",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Uzoma Nwankwo",
-     "Andress Mims"
-    ],
-    "f": 28,
-    "a": 26,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Shyler Smith",
-     "Andress Mims"
-    ],
-    "f": 27,
-    "a": 25,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Shyler Smith",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Rajeeth Nadig",
-     "Neil Dedhia"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Varun Gurram",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 25,
-    "a": 23,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Varun Gurram",
-     "Sushil Rijhwani"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Varun Gurram",
-     "Rajeeth Nadig"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Jitendra Arora",
-     "Neil Dedhia"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Ping Peng",
-     "Rajeeth Nadig"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1.3,
-    "confidence": 54,
-    "rank": 30,
-    "ratingGames": 8,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 1,
-    "confidence": 72,
-    "rank": 55,
-    "ratingGames": 15,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 0.5,
-    "confidence": 80,
-    "rank": 94,
-    "ratingGames": 22,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.9,
-    "confidence": 84,
-    "rank": 80,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 1.5,
-    "confidence": 87,
-    "rank": 52,
-    "ratingGames": 34,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
-    "name": "Luca Hendrickson",
-    "n": 4,
-    "synergy": 2.1
-   },
-   {
-    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
-    "name": "Kyle Korman",
-    "n": 4,
-    "synergy": 0.3
-   },
-   {
-    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
-    "name": "Jimmy Ramja",
-    "n": 7,
-    "synergy": 0.2
-   },
-   {
-    "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
-    "name": "Noah Ludwigsen",
-    "n": 9,
-    "synergy": -0.3
-   },
-   {
-    "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
-    "name": "Anthony Simonetti",
-    "n": 5,
-    "synergy": -1
    }
   ]
  },
@@ -26598,14 +26349,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 2.7,
+    "rating": 2.9,
     "confidence": 78,
-    "rank": 16,
+    "rank": 13,
     "ratingGames": 20,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -26613,19 +26364,19 @@
     "pid": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f",
     "name": "Tim Bruno",
     "n": 6,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "81875a5e-2b65-4152-bace-b4c96517579d",
     "name": "Tom Kresky",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "e1f6c6fa-db86-4fed-9faa-dbc2fe29f373",
     "name": "Christopher Uston",
     "n": 4,
-    "synergy": -1.1
+    "synergy": -1.3
    }
   ]
  },
@@ -27185,7 +26936,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.2,
     "confidence": 82,
@@ -27206,7 +26957,7 @@
     "pid": "98842749-0d7d-4b20-b78a-50c79d087699",
     "name": "Lincoln Jensen",
     "n": 4,
-    "synergy": -0.6
+    "synergy": -0.4
    },
    {
     "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
@@ -27995,7 +27746,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2,
     "confidence": 86,
@@ -28010,19 +27761,19 @@
     "pid": "e1f6c6fa-db86-4fed-9faa-dbc2fe29f373",
     "name": "Christopher Uston",
     "n": 4,
-    "synergy": 2.2
+    "synergy": 2.4
    },
    {
     "pid": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc",
     "name": "Frederick Cox",
     "n": 4,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "084f4667-3553-4f23-b4c7-62d6c8afb42a",
     "name": "Jarred Goeckeler",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.2
    },
    {
     "pid": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f",
@@ -28031,16 +27782,986 @@
     "synergy": 0
    },
    {
-    "pid": "33fe293d-5913-41af-8f89-4a431ed92ab7",
-    "name": "Jonathan Carter",
-    "n": 5,
-    "synergy": -1.4
-   },
-   {
     "pid": "81875a5e-2b65-4152-bace-b4c96517579d",
     "name": "Tom Kresky",
     "n": 4,
     "synergy": -1.4
+   },
+   {
+    "pid": "33fe293d-5913-41af-8f89-4a431ed92ab7",
+    "name": "Jonathan Carter",
+    "n": 5,
+    "synergy": -1.5
+   }
+  ]
+ },
+ "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 164,
+    "pa": 123,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 141,
+    "pa": 132,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     3
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 130,
+    "pa": 132,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 102,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickle House",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 103,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 143,
+    "pa": 151,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     3
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Erik Reilly",
+     "Ben Cortes"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Erik Reilly",
+     "Kevin Lew"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Kevin Lew",
+     "Ben Cortes"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Kevin Lew",
+     "Hua Lin"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Kevin Lew",
+     "Hua Lin"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Wensheng Yue",
+     "Siva Indupuru"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Kevin Lew",
+     "Pedro Delgado"
+    ],
+    "f": 21,
+    "a": 3,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Hua Lin",
+     "Siva Indupuru"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Shawn Gold",
+     "Jason Mcmanmon"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Jacob Rosengarten",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Jason Mcmanmon",
+     "Jacob Rosengarten"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Shawn Gold",
+     "Nicholas Lugo"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "David Bogatyrev",
+     "Uttam Purohit"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Jacob Rosengarten",
+     "Nicholas Lugo"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Daniel Antonelli",
+     "Timothy Lynskey"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Timothy Lynskey",
+     "Nacio Marshall"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Gary White",
+     "Daniel Antonelli"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Eden Ksendzovsky",
+     "Daniel Antonelli"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Daniel Antonelli",
+     "Christopher Giasi"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Jim Boy Baring",
+     "Christopher Giasi"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Rob Telles",
+     "Christopher Giasi"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Jimmy Shapiro",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Jimmy Shapiro",
+     "Matt Inzerillo"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Matt Inzerillo",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Uzoma Nwankwo",
+     "Andress Mims"
+    ],
+    "f": 28,
+    "a": 26,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Shyler Smith",
+     "Andress Mims"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Shyler Smith",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Rajeeth Nadig",
+     "Neil Dedhia"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Varun Gurram",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Varun Gurram",
+     "Sushil Rijhwani"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Varun Gurram",
+     "Rajeeth Nadig"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Jitendra Arora",
+     "Neil Dedhia"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Ping Peng",
+     "Rajeeth Nadig"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Bren Calpin",
+     "Joel Steinbrunner"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Bren Calpin",
+     "Joel Steinbrunner"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Ian Diamond",
+     "Steppan Konoplev"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Ian Diamond",
+     "Steppan Konoplev"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Jesse Pettit",
+     "Aleks Mirkovic"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Jesse Pettit",
+     "Aleks Mirkovic"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Paul Chantler",
+     "Steppan Konoplev"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Paul Chantler",
+     "Steppan Konoplev"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 1.3,
+    "confidence": 54,
+    "rank": 30,
+    "ratingGames": 8,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 1,
+    "confidence": 72,
+    "rank": 55,
+    "ratingGames": 15,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 0.5,
+    "confidence": 80,
+    "rank": 94,
+    "ratingGames": 22,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.9,
+    "confidence": 84,
+    "rank": 80,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": 1.5,
+    "confidence": 87,
+    "rank": 52,
+    "ratingGames": 34,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": 0.5,
+    "confidence": 89,
+    "rank": 104,
+    "ratingGames": 42,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
+    "name": "Luca Hendrickson",
+    "n": 4,
+    "synergy": 2.3
+   },
+   {
+    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
+    "name": "Kyle Korman",
+    "n": 4,
+    "synergy": 0.6
+   },
+   {
+    "pid": "67f9503a-202f-4982-8e97-9b3383a35aee",
+    "name": "Noah Ludwigsen",
+    "n": 11,
+    "synergy": 0.4
+   },
+   {
+    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
+    "name": "Jimmy Ramja",
+    "n": 9,
+    "synergy": 0.1
+   },
+   {
+    "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
+    "name": "Anthony Simonetti",
+    "n": 5,
+    "synergy": -0.6
+   },
+   {
+    "pid": "40681083-620d-4293-829f-91121323135c",
+    "name": "Niman Ahmeti",
+    "n": 3,
+    "synergy": -1.9
    }
   ]
  },
@@ -28728,7 +29449,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.6,
     "confidence": 84,
@@ -29149,7 +29870,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.7,
     "confidence": 75,
@@ -29673,11 +30394,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.8,
     "confidence": 81,
-    "rank": 42,
+    "rank": 39,
     "ratingGames": 22,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.2
@@ -30216,7 +30937,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.2,
     "confidence": 82,
@@ -30231,25 +30952,25 @@
     "pid": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
     "name": "Neil Dedhia",
     "n": 3,
-    "synergy": 1.8
-   },
-   {
-    "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
-    "name": "Sree Harsha Konduru",
-    "n": 3,
-    "synergy": 0.7
+    "synergy": 1.6
    },
    {
     "pid": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
     "name": "Aidan Fredericks",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.8
+   },
+   {
+    "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
+    "name": "Sree Harsha Konduru",
+    "n": 3,
+    "synergy": 0.5
    },
    {
     "pid": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
     "name": "Sushil Rijhwani",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -30889,14 +31610,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 83,
-    "rank": 135,
+    "rank": 134,
     "ratingGames": 28,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
@@ -30910,7 +31631,7 @@
     "pid": "d411862a-491a-47dc-93a8-4a12f821afd7",
     "name": "Dan Ruble",
     "n": 6,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "d50feac2-f147-47d2-8930-99b21b2842ba",
@@ -31759,7 +32480,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.1,
     "confidence": 87,
@@ -31798,7 +32519,7 @@
     "pid": "30c847e2-9b5e-4ad7-851d-9d624f94a11b",
     "name": "Bill Olderman",
     "n": 3,
-    "synergy": -1.7
+    "synergy": -1.6
    }
   ]
  },
@@ -32455,7 +33176,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.1,
     "confidence": 85,
@@ -32467,10 +33188,16 @@
   ],
   "partners": [
    {
+    "pid": "9d9eff5c-bb8e-47b7-b1e6-7e4c7055bb8b",
+    "name": "Paul Perumaly",
+    "n": 3,
+    "synergy": 0.7
+   },
+   {
     "pid": "ca670ae8-0768-49d4-9984-f708cd52786c",
     "name": "Yong Kim",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
@@ -32479,16 +33206,10 @@
     "synergy": 0.4
    },
    {
-    "pid": "9d9eff5c-bb8e-47b7-b1e6-7e4c7055bb8b",
-    "name": "Paul Perumaly",
-    "n": 3,
-    "synergy": 0.4
-   },
-   {
     "pid": "639af9e8-08fd-496d-84d6-6e7859e8c6d3",
     "name": "Kyle Martin",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1.2
    },
    {
     "pid": "be10853a-1f2c-4b56-8fd7-902ddc686401",
@@ -33182,7 +33903,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.8,
     "confidence": 84,
@@ -33861,7 +34582,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.5,
     "confidence": 82,
@@ -34351,7 +35072,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.1,
     "confidence": 77,
@@ -34974,7 +35695,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.6,
     "confidence": 83,
@@ -35001,7 +35722,7 @@
     "pid": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
     "name": "Umang Pathak",
     "n": 4,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "30c847e2-9b5e-4ad7-851d-9d624f94a11b",
@@ -35450,7 +36171,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.6,
     "confidence": 78,
@@ -35465,13 +36186,13 @@
     "pid": "e1f41428-436c-436e-b752-af9cead487be",
     "name": "Matheus Korndoerfer",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.1
    },
    {
     "pid": "870112b1-afc3-4ff6-b784-7f872210bf37",
     "name": "Jr Burrs",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.3
    }
   ]
  },
@@ -35949,7 +36670,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 79,
@@ -35964,25 +36685,25 @@
     "pid": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
     "name": "Daniel Borgia",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "be10853a-1f2c-4b56-8fd7-902ddc686401",
     "name": "David Brandolph",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "9d9eff5c-bb8e-47b7-b1e6-7e4c7055bb8b",
     "name": "Paul Perumaly",
     "n": 4,
-    "synergy": -0.7
+    "synergy": -0.8
    },
    {
     "pid": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
     "name": "Jared Rapoport",
     "n": 6,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -36327,11 +37048,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 73,
-    "rank": 90,
+    "rank": 87,
     "ratingGames": 15,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.4
@@ -36890,14 +37611,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.5,
     "confidence": 82,
-    "rank": 55,
+    "rank": 52,
     "ratingGames": 24,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": -0.1,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -36905,18 +37626,18 @@
     "pid": "79bb5bba-c449-4cdd-948b-fb5f8efdaebb",
     "name": "Angelo Disipio",
     "n": 5,
-    "synergy": 0.5
-   },
-   {
-    "pid": "4a5131e4-a912-4913-8ff5-9281e53c6974",
-    "name": "Alessio Muscara",
-    "n": 6,
-    "synergy": -0.4
+    "synergy": 0.6
    },
    {
     "pid": "2d439cdc-347e-4beb-9975-1b31bc46f2df",
     "name": "Andrew Mclean",
     "n": 3,
+    "synergy": -0.4
+   },
+   {
+    "pid": "4a5131e4-a912-4913-8ff5-9281e53c6974",
+    "name": "Alessio Muscara",
+    "n": 6,
     "synergy": -0.5
    },
    {
@@ -37259,11 +37980,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.3,
     "confidence": 74,
-    "rank": 25,
+    "rank": 27,
     "ratingGames": 15,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.2
@@ -37426,13 +38147,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0,
+    "rating": -0.2,
     "confidence": 55,
-    "rank": 140,
+    "rank": 151,
     "ratingGames": 6,
-    "strengthOfPartners": 1.5,
+    "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -38116,7 +38837,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.8,
     "confidence": 85,
@@ -38143,7 +38864,7 @@
     "pid": "75496a80-8064-40ae-ba4b-36c156d70885",
     "name": "Eden Ksendzovsky",
     "n": 5,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
@@ -38839,7 +39560,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.3,
     "confidence": 83,
@@ -38878,7 +39599,7 @@
     "pid": "7f44421c-476c-4857-99ed-3376b32289ca",
     "name": "Michael Vincent",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -39380,7 +40101,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.1,
     "confidence": 81,
@@ -39392,16 +40113,16 @@
   ],
   "partners": [
    {
-    "pid": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
-    "name": "Jack Barry",
-    "n": 5,
-    "synergy": 0.7
-   },
-   {
     "pid": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1",
     "name": "Edward Fu",
     "n": 3,
     "synergy": 0.7
+   },
+   {
+    "pid": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
+    "name": "Jack Barry",
+    "n": 5,
+    "synergy": 0.6
    },
    {
     "pid": "e1d9f3bc-ec4e-4690-810c-a67452049768",
@@ -40103,7 +40824,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 85,
@@ -40118,19 +40839,19 @@
     "pid": "edbeb52a-85fd-48ff-acc5-a5c8415a731d",
     "name": "Jonathan Dong",
     "n": 5,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "e1d9f3bc-ec4e-4690-810c-a67452049768",
     "name": "Shreyas Suresh Hassan",
     "n": 8,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
     "name": "Dan Yang",
     "n": 8,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
@@ -40463,14 +41184,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.8,
-    "confidence": 71,
-    "rank": 92,
+    "rating": 1.3,
+    "confidence": 72,
+    "rank": 66,
     "ratingGames": 14,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.8
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
@@ -40478,13 +41199,13 @@
     "pid": "d50feac2-f147-47d2-8930-99b21b2842ba",
     "name": "Brandon Dejesus",
     "n": 4,
-    "synergy": 2.2
+    "synergy": 2.4
    },
    {
     "pid": "d411862a-491a-47dc-93a8-4a12f821afd7",
     "name": "Dan Ruble",
     "n": 4,
-    "synergy": -1.1
+    "synergy": -1.3
    }
   ]
  },
@@ -41068,7 +41789,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 82,
@@ -41083,13 +41804,13 @@
     "pid": "5a604a32-f8bf-45a8-b6b3-ef2922e0eeaf",
     "name": "Kevin Tran",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb",
     "name": "Rohit Mankotia",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "50853eee-28e0-4380-b379-35935eb2115a",
@@ -41777,7 +42498,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.3,
     "confidence": 83,
@@ -41798,13 +42519,13 @@
     "pid": "e1d9f3bc-ec4e-4690-810c-a67452049768",
     "name": "Shreyas Suresh Hassan",
     "n": 8,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
     "name": "Jack Barry",
     "n": 8,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "edbeb52a-85fd-48ff-acc5-a5c8415a731d",
@@ -42335,7 +43056,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.5,
     "confidence": 82,
@@ -42350,19 +43071,19 @@
     "pid": "718c6948-a987-43bb-a1f3-cf7aead75edb",
     "name": "Timothy Lynskey",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "cd0eb94b-4d32-4ba9-bcdc-3fba205d90f0",
     "name": "Daniel Antonelli",
     "n": 5,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "39c75937-8a66-4688-85f8-6c547400e441",
     "name": "Jim Boy Baring",
     "n": 3,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "d6ca21c0-822e-422f-9721-34120ba90184",
@@ -42942,7 +43663,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 82,
@@ -42957,19 +43678,19 @@
     "pid": "12ec758b-f05d-40ec-b082-a76f07cbe792",
     "name": "Mathew Yang",
     "n": 5,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "79bb5bba-c449-4cdd-948b-fb5f8efdaebb",
     "name": "Angelo Disipio",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0.4
    },
    {
     "pid": "5e42a5f7-22d1-4613-a829-b62121ddc704",
     "name": "Jason Wu",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    }
   ]
  },
@@ -43525,46 +44246,46 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1,
     "confidence": 82,
     "rank": 187,
     "ratingGames": 24,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.2
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
    {
-    "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
-    "name": "Matt Enz",
-    "n": 3,
-    "synergy": 0.8
-   },
-   {
     "pid": "6d1beb10-bd5c-456f-95b5-1823752e8c62",
     "name": "Jordan Demcher",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.7
+   },
+   {
+    "pid": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
+    "name": "Matt Enz",
+    "n": 3,
+    "synergy": 0.7
    },
    {
     "pid": "e1f41428-436c-436e-b752-af9cead487be",
     "name": "Matheus Korndoerfer",
     "n": 3,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
     "name": "Graham Heavenrich",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "cae7c2db-b4d5-4927-9c44-ff92176b5507",
     "name": "Jamison Rowles",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1
    }
   ]
  },
@@ -43947,7 +44668,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.4,
     "confidence": 77,
@@ -43962,9 +44683,194 @@
     "pid": "44864b51-f901-4470-a6bd-891495ffd132",
     "name": "Varun Gurram",
     "n": 4,
-    "synergy": -1.2
+    "synergy": -1.3
    }
   ]
+ },
+ "021fbd88-6b98-47eb-aa92-96ed959d8a4b": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 158,
+    "pa": 156,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     5,
+     3
+    ],
+    "cl": [
+     4,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   }
+  ],
+  "games": [
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Aleks Mirkovic",
+     "Joel Steinbrunner"
+    ],
+    "f": 25,
+    "a": 27,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Aleks Mirkovic",
+     "Joel Steinbrunner"
+    ],
+    "f": 26,
+    "a": 24,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Steppan Konoplev",
+     "Joel Steinbrunner"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Steppan Konoplev",
+     "Joel Steinbrunner"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ"
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Bren Calpin",
+     "Xan Hong"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Bren Calpin",
+     "Xan Hong"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Pickleball HQ",
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -2.7,
+    "confidence": 60,
+    "rank": 243,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": -2.3
+   }
+  ],
+  "partners": []
  },
  "642b7fc5-f304-459a-889e-e726dc9edeab": {
   "log": [
@@ -44447,7 +45353,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2,
     "confidence": 79,
@@ -44474,7 +45380,7 @@
     "pid": "51ceabf9-8258-4835-9835-c7d915220185",
     "name": "Matt Inzerillo",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    }
   ]
  },
@@ -44955,14 +45861,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 1.1,
+    "rating": 1.2,
     "confidence": 80,
-    "rank": 72,
+    "rank": 71,
     "ratingGames": 21,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 0.1
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -44976,7 +45882,7 @@
     "pid": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
     "name": "Daniel Borgia",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.7
    },
    {
     "pid": "639af9e8-08fd-496d-84d6-6e7859e8c6d3",
@@ -44988,7 +45894,7 @@
     "pid": "ca670ae8-0768-49d4-9984-f708cd52786c",
     "name": "Yong Kim",
     "n": 4,
-    "synergy": -0.7
+    "synergy": -0.8
    }
   ]
  },
@@ -45464,13 +46370,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.4,
     "confidence": 80,
-    "rank": 60,
+    "rank": 58,
     "ratingGames": 21,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -45479,7 +46385,7 @@
     "pid": "a8585e9c-872e-466c-9583-9680e557f757",
     "name": "Ethan Fu",
     "n": 3,
-    "synergy": 1.6
+    "synergy": 1.5
    },
    {
     "pid": "d0c9ae50-0cdc-4f72-9ece-0b996f323f73",
@@ -45497,7 +46403,7 @@
     "pid": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
     "name": "Daniel Borgia",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1.2
    }
   ]
  },
@@ -45973,7 +46879,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.3,
     "confidence": 79,
@@ -46296,7 +47202,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.2,
     "confidence": 73,
@@ -46641,11 +47547,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 73,
-    "rank": 151,
+    "rank": 148,
     "ratingGames": 13,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.4
@@ -47348,7 +48254,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 85,
@@ -47381,7 +48287,7 @@
     "pid": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
     "name": "Eric Ruiz",
     "n": 7,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb",
@@ -47809,7 +48715,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.5,
     "confidence": 77,
@@ -48354,7 +49260,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 82,
@@ -48382,585 +49288,6 @@
     "name": "Daniel Antonelli",
     "n": 5,
     "synergy": -0.6
-   }
-  ]
- },
- "197e3b9a-eded-4a87-8391-13a7c6d18c8f": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Dill Dinkers Freehold",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 89,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 114,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     3
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 112,
-    "pa": 101,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickle House",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 79,
-    "pa": 100,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     4
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Kevin Lew",
-     "Siva Indupuru"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Michael Vollmer",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Siva Indupuru",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Pedro Delgado",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Michael Vollmer",
-     "Siva Indupuru"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Wensheng Yue",
-     "Ben Cortes"
-    ],
-    "f": 21,
-    "a": 11,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Uttam Purohit",
-     "Salman Saad"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Jason Mcmanmon",
-     "Kurt Skalamera"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Nicholas Lugo",
-     "Uttam Purohit"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Jason Mcmanmon",
-     "Kurt Skalamera"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Jacob Rosengarten"
-    ],
-    "f": 21,
-    "a": 15,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Christopher Hendrickson",
-    "vs": [
-     "Jason Mcmanmon",
-     "Michael Dombrowiecki"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Matt Inzerillo",
-     "Andress Mims"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Andress Mims",
-     "Shyler Smith"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Chris Machuzak",
-     "Andress Mims"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Matt Inzerillo",
-     "Chris Machuzak"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Shyler Smith",
-     "Jimmy Shapiro"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Uzoma Nwankwo",
-     "Chris Machuzak"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Jitendra Arora",
-     "Anil Kumar Jakkaladki"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Anil Kumar Jakkaladki",
-     "Sushil Rijhwani"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Sushil Rijhwani",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Ping Peng",
-     "Neil Dedhia"
-    ],
-    "f": 30,
-    "a": 32,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Sushil Rijhwani",
-     "Aidan Fredericks"
-    ],
-    "f": 21,
-    "a": 16,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": 1.3,
-    "confidence": 48,
-    "rank": 34,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1.7
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 1,
-    "confidence": 67,
-    "rank": 58,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": 1.5,
-    "confidence": 68,
-    "rank": 44,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 1,
-    "confidence": 77,
-    "rank": 76,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 0.4,
-    "confidence": 81,
-    "rank": 115,
-    "ratingGames": 23,
-    "strengthOfPartners": -0.2,
-    "strengthOfOpponents": -0.6
-   }
-  ],
-  "partners": [
-   {
-    "pid": "40681083-620d-4293-829f-91121323135c",
-    "name": "Niman Ahmeti",
-    "n": 3,
-    "synergy": 1.1
-   },
-   {
-    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
-    "name": "Kyle Korman",
-    "n": 3,
-    "synergy": 1
-   },
-   {
-    "pid": "c737d3dd-dfe2-4f58-a095-fb40fc601866",
-    "name": "Nesip Cengiz",
-    "n": 4,
-    "synergy": 0
-   },
-   {
-    "pid": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
-    "name": "Thomas Moran",
-    "n": 6,
-    "synergy": -0.9
-   },
-   {
-    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
-    "name": "Luca Hendrickson",
-    "n": 3,
-    "synergy": -1.1
    }
   ]
  },
@@ -49600,7 +49927,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.5,
     "confidence": 83,
@@ -49639,7 +49966,7 @@
     "pid": "7f44421c-476c-4857-99ed-3376b32289ca",
     "name": "Michael Vincent",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "b5dec967-9e3a-49b4-b136-597711d099cc",
@@ -49991,11 +50318,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.3,
     "confidence": 72,
-    "rank": 122,
+    "rank": 120,
     "ratingGames": 15,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.9
@@ -50701,7 +51028,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 84,
@@ -50716,7 +51043,7 @@
     "pid": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
     "name": "Mike Leach",
     "n": 5,
-    "synergy": 1.4
+    "synergy": 1.7
    },
    {
     "pid": "d4126276-6b83-42be-b943-9957df46992c",
@@ -50728,13 +51055,13 @@
     "pid": "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca",
     "name": "Steven Hummel",
     "n": 6,
-    "synergy": -0.4
+    "synergy": -0.5
    },
    {
     "pid": "5c3659f9-08d3-4745-832b-f7dd3f8c5ae5",
     "name": "J-P Lautenschlager",
     "n": 6,
-    "synergy": -0.6
+    "synergy": -0.7
    }
   ]
  },
@@ -50865,7 +51192,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.7,
     "confidence": 51,
@@ -51351,7 +51678,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 79,
@@ -51773,7 +52100,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.9,
     "confidence": 74,
@@ -51788,13 +52115,13 @@
     "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
     "name": "Jose Campos",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.2
    },
    {
     "pid": "40681083-620d-4293-829f-91121323135c",
     "name": "Niman Ahmeti",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -52585,7 +52912,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.6,
     "confidence": 86,
@@ -52612,13 +52939,13 @@
     "pid": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
     "name": "Umang Pathak",
     "n": 6,
-    "synergy": -0.4
+    "synergy": -0.5
    },
    {
     "pid": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
     "name": "Brandon Tsang",
     "n": 8,
-    "synergy": -0.4
+    "synergy": -0.5
    }
   ]
  },
@@ -53315,7 +53642,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.6,
     "confidence": 86,
@@ -53336,7 +53663,7 @@
     "pid": "9a26eab9-96be-45e1-b380-2845a0e8e668",
     "name": "Gary White",
     "n": 5,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "d6ca21c0-822e-422f-9721-34120ba90184",
@@ -53348,7 +53675,7 @@
     "pid": "75496a80-8064-40ae-ba4b-36c156d70885",
     "name": "Eden Ksendzovsky",
     "n": 5,
-    "synergy": -1.1
+    "synergy": -1.2
    }
   ]
  },
@@ -53948,7 +54275,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.4,
     "confidence": 83,
@@ -54800,7 +55127,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.4,
     "confidence": 88,
@@ -54815,7 +55142,7 @@
     "pid": "ac44fd3c-0c87-47aa-bf26-4333b632f524",
     "name": "Dhruv Dobariya",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7",
@@ -54851,7 +55178,7 @@
     "pid": "57666861-23d0-4809-9556-b646579f2fd6",
     "name": "Aaron Chan",
     "n": 5,
-    "synergy": -1.1
+    "synergy": -1.2
    }
   ]
  },
@@ -55586,7 +55913,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.3,
     "confidence": 87,
@@ -55616,28 +55943,28 @@
     "synergy": 0.4
    },
    {
+    "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
+    "name": "Rajeeth Nadig",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
     "pid": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
     "name": "Neil Dedhia",
     "n": 4,
     "synergy": 0.2
    },
    {
-    "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
-    "name": "Rajeeth Nadig",
-    "n": 4,
-    "synergy": 0.1
-   },
-   {
     "pid": "176df588-c3ff-4b50-a66a-4df99647254b",
     "name": "Anil Kumar Jakkaladki",
     "n": 7,
-    "synergy": 0
+    "synergy": -0.2
    },
    {
     "pid": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
     "name": "Sushil Rijhwani",
     "n": 3,
-    "synergy": -2.2
+    "synergy": -2.1
    }
   ]
  },
@@ -56051,7 +56378,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.3,
     "confidence": 76,
@@ -56066,7 +56393,7 @@
     "pid": "6d1beb10-bd5c-456f-95b5-1823752e8c62",
     "name": "Jordan Demcher",
     "n": 6,
-    "synergy": -0.6
+    "synergy": -0.5
    }
   ]
  },
@@ -56368,11 +56695,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.5,
     "confidence": 71,
-    "rank": 167,
+    "rank": 169,
     "ratingGames": 12,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.2
@@ -56384,6 +56711,751 @@
     "name": "Cullen Curley",
     "n": 3,
     "synergy": -0.3
+   }
+  ]
+ },
+ "197e3b9a-eded-4a87-8391-13a7c6d18c8f": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 89,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 114,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     3
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 101,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickle House",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 79,
+    "pa": 100,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     4
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 147,
+    "pa": 151,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Kevin Lew",
+     "Siva Indupuru"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Michael Vollmer",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Siva Indupuru",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Pedro Delgado",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Michael Vollmer",
+     "Siva Indupuru"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Wensheng Yue",
+     "Ben Cortes"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Uttam Purohit",
+     "Salman Saad"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Jason Mcmanmon",
+     "Kurt Skalamera"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Nicholas Lugo",
+     "Uttam Purohit"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Jason Mcmanmon",
+     "Kurt Skalamera"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Jacob Rosengarten"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Christopher Hendrickson",
+    "vs": [
+     "Jason Mcmanmon",
+     "Michael Dombrowiecki"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Matt Inzerillo",
+     "Andress Mims"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Andress Mims",
+     "Shyler Smith"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Chris Machuzak",
+     "Andress Mims"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Matt Inzerillo",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Shyler Smith",
+     "Jimmy Shapiro"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Uzoma Nwankwo",
+     "Chris Machuzak"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Jitendra Arora",
+     "Anil Kumar Jakkaladki"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Anil Kumar Jakkaladki",
+     "Sushil Rijhwani"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Sushil Rijhwani",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Ping Peng",
+     "Neil Dedhia"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Sushil Rijhwani",
+     "Aidan Fredericks"
+    ],
+    "f": 21,
+    "a": 16,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Ian Diamond",
+     "Paul Chantler"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Ian Diamond",
+     "Paul Chantler"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Ian Diamond",
+     "Steppan Konoplev"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Ian Diamond",
+     "Steppan Konoplev"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Xan Hong",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Xan Hong",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Joel Steinbrunner",
+     "Jesse Pettit"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Aleks Mirkovic",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": 1.3,
+    "confidence": 48,
+    "rank": 34,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -1.7
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 1,
+    "confidence": 67,
+    "rank": 58,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": 1.5,
+    "confidence": 68,
+    "rank": 44,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 1,
+    "confidence": 77,
+    "rank": 76,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": 0.4,
+    "confidence": 81,
+    "rank": 115,
+    "ratingGames": 23,
+    "strengthOfPartners": -0.2,
+    "strengthOfOpponents": -0.6
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -0.7,
+    "confidence": 85,
+    "rank": 175,
+    "ratingGames": 31,
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": -1.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "40681083-620d-4293-829f-91121323135c",
+    "name": "Niman Ahmeti",
+    "n": 5,
+    "synergy": 1.5
+   },
+   {
+    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
+    "name": "Kyle Korman",
+    "n": 3,
+    "synergy": 1.3
+   },
+   {
+    "pid": "c737d3dd-dfe2-4f58-a095-fb40fc601866",
+    "name": "Nesip Cengiz",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
+    "pid": "bd14255e-c654-49a4-99a1-26e02c67c7c7",
+    "name": "Luca Hendrickson",
+    "n": 3,
+    "synergy": -0.7
+   },
+   {
+    "pid": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
+    "name": "Thomas Moran",
+    "n": 8,
+    "synergy": -1
    }
   ]
  },
@@ -57214,7 +58286,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.7,
     "confidence": 88,
@@ -57232,16 +58304,16 @@
     "synergy": 1
    },
    {
+    "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
+    "name": "Sree Harsha Konduru",
+    "n": 8,
+    "synergy": 0.6
+   },
+   {
     "pid": "20c15f19-5b27-4c9f-bc75-da3d516a015b",
     "name": "Rajeeth Nadig",
     "n": 10,
     "synergy": 0.6
-   },
-   {
-    "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
-    "name": "Sree Harsha Konduru",
-    "n": 8,
-    "synergy": 0.5
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
@@ -57259,7 +58331,7 @@
     "pid": "1448a485-6172-48af-96e0-f4876e9c5268",
     "name": "Rakshit Maddur Gopinath",
     "n": 4,
-    "synergy": -1.2
+    "synergy": -1.3
    }
   ]
  },
@@ -57903,7 +58975,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.5,
     "confidence": 84,
@@ -57921,16 +58993,16 @@
     "synergy": 1.4
    },
    {
+    "pid": "e4a31aff-39d6-49b3-95c4-131421e956a0",
+    "name": "Samuel Kashefska",
+    "n": 7,
+    "synergy": -0.3
+   },
+   {
     "pid": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb",
     "name": "Rohit Mankotia",
     "n": 5,
     "synergy": -0.3
-   },
-   {
-    "pid": "e4a31aff-39d6-49b3-95c4-131421e956a0",
-    "name": "Samuel Kashefska",
-    "n": 7,
-    "synergy": -0.4
    },
    {
     "pid": "8cebf901-66b9-41d0-963d-12dac7334c8f",
@@ -58126,14 +59198,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.8,
+    "rating": 1.1,
     "confidence": 60,
-    "rank": 93,
+    "rank": 76,
     "ratingGames": 7,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.2
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -58296,14 +59368,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.5,
+    "rating": 0.4,
     "confidence": 59,
-    "rank": 112,
+    "rank": 115,
     "ratingGames": 7,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": -0.2
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -58925,7 +59997,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.4,
     "confidence": 84,
@@ -58940,13 +60012,13 @@
     "pid": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
     "name": "Jason Mcmanmon",
     "n": 6,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
     "name": "Michael Dombrowiecki",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "f7c4d103-d246-456d-8fd5-6418c6a0e002",
@@ -58958,7 +60030,7 @@
     "pid": "528de93e-9cf4-480d-a9ba-5b20f6f23f87",
     "name": "Leon Li",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -59774,7 +60846,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.7,
     "confidence": 88,
@@ -60535,7 +61607,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.7,
     "confidence": 85,
@@ -61161,7 +62233,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 84,
@@ -61176,31 +62248,31 @@
     "pid": "176df588-c3ff-4b50-a66a-4df99647254b",
     "name": "Anil Kumar Jakkaladki",
     "n": 4,
-    "synergy": 3.5
+    "synergy": 3.4
    },
    {
     "pid": "7af65ce9-d7e3-4d00-b19b-653e6d2dc8d9",
     "name": "Ping Peng",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "6a2ea39b-8b67-4cdf-83f7-c16fb3224655",
     "name": "Bennett Pereira",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.9
    },
    {
     "pid": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
     "name": "Aidan Fredericks",
     "n": 3,
-    "synergy": -1.9
+    "synergy": -2
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
     "name": "Jitendra Arora",
     "n": 3,
-    "synergy": -2.2
+    "synergy": -2.1
    }
   ]
  },
@@ -61796,7 +62868,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.5,
     "confidence": 84,
@@ -61811,13 +62883,13 @@
     "pid": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
     "name": "Sushil Rijhwani",
     "n": 4,
-    "synergy": 3.5
+    "synergy": 3.4
    },
    {
     "pid": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
     "name": "Jitendra Arora",
     "n": 7,
-    "synergy": 0
+    "synergy": -0.2
    },
    {
     "pid": "439cf2c1-044c-450c-9dcc-4fdeafbb81cd",
@@ -62277,7 +63349,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.1,
     "confidence": 79,
@@ -62289,28 +63361,28 @@
   ],
   "partners": [
    {
-    "pid": "a8585e9c-872e-466c-9583-9680e557f757",
-    "name": "Ethan Fu",
-    "n": 4,
-    "synergy": 0.4
-   },
-   {
     "pid": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
     "name": "Jared Rapoport",
     "n": 4,
     "synergy": 0.3
    },
    {
+    "pid": "a8585e9c-872e-466c-9583-9680e557f757",
+    "name": "Ethan Fu",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
     "pid": "f2c53e42-1eac-48dd-9c93-682ec5c1ac98",
     "name": "Jimmy Lee",
     "n": 4,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "d07bda42-9d33-4c03-a7f3-a8a468083bdd",
     "name": "Ken Weinstein",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -0.9
    }
   ]
  },
@@ -62780,7 +63852,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.2,
     "confidence": 79,
@@ -62801,7 +63873,7 @@
     "pid": "7f44421c-476c-4857-99ed-3376b32289ca",
     "name": "Michael Vincent",
     "n": 3,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
@@ -63325,7 +64397,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 82,
@@ -63346,7 +64418,7 @@
     "pid": "9a26eab9-96be-45e1-b380-2845a0e8e668",
     "name": "Gary White",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "5636cdc5-7a65-4202-abbb-5999eee35ab3",
@@ -63958,7 +65030,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2,
     "confidence": 83,
@@ -63973,7 +65045,7 @@
     "pid": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc",
     "name": "Frederick Cox",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "084f4667-3553-4f23-b4c7-62d6c8afb42a",
@@ -63985,7 +65057,7 @@
     "pid": "d411862a-491a-47dc-93a8-4a12f821afd7",
     "name": "Dan Ruble",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f",
@@ -64319,14 +65391,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.6,
+    "rating": 0.8,
     "confidence": 73,
-    "rank": 104,
+    "rank": 92,
     "ratingGames": 13,
     "strengthOfPartners": -0.8,
-    "strengthOfOpponents": -0.4
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
@@ -64334,7 +65406,7 @@
     "pid": "51ceabf9-8258-4835-9835-c7d915220185",
     "name": "Matt Inzerillo",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    }
   ]
  },
@@ -65002,7 +66074,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 83,
@@ -65017,13 +66089,13 @@
     "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
     "name": "Dan Yang",
     "n": 8,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
     "name": "Jack Barry",
     "n": 8,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "edbeb52a-85fd-48ff-acc5-a5c8415a731d",
@@ -65507,11 +66579,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.7,
     "confidence": 78,
-    "rank": 173,
+    "rank": 178,
     "ratingGames": 21,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -0.5
@@ -66064,7 +67136,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.6,
     "confidence": 82,
@@ -66085,7 +67157,7 @@
     "pid": "4f98756a-9726-48fe-a241-2579f96eee16",
     "name": "Michael Johnson",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "2d439cdc-347e-4beb-9975-1b31bc46f2df",
@@ -66097,7 +67169,7 @@
     "pid": "06a3741d-10e5-462b-ba95-aa997d4eb8ea",
     "name": "Jimmy Duong",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.7
    },
    {
     "pid": "41f7a2a8-8fcd-4282-b501-cd5b83ec7440",
@@ -66719,7 +67791,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 84,
@@ -67408,7 +68480,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 85,
@@ -67429,7 +68501,7 @@
     "pid": "9886815c-3bf4-42b1-b650-1ec17ff2c167",
     "name": "Carlos Rincon",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
@@ -67749,28 +68821,28 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.3,
     "confidence": 71,
-    "rank": 65,
+    "rank": 67,
     "ratingGames": 12,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.8
    }
   ],
   "partners": [
+   {
+    "pid": "870112b1-afc3-4ff6-b784-7f872210bf37",
+    "name": "Jr Burrs",
+    "n": 3,
+    "synergy": 0.2
+   },
    {
     "pid": "6d1beb10-bd5c-456f-95b5-1823752e8c62",
     "name": "Jordan Demcher",
     "n": 3,
     "synergy": 0.2
-   },
-   {
-    "pid": "870112b1-afc3-4ff6-b784-7f872210bf37",
-    "name": "Jr Burrs",
-    "n": 3,
-    "synergy": 0.1
    }
   ]
  },
@@ -67938,14 +69010,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.3,
     "confidence": 55,
-    "rank": 123,
+    "rank": 121,
     "ratingGames": 6,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": []
@@ -68114,14 +69186,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -0.2,
+    "rating": -0.1,
     "confidence": 52,
-    "rank": 154,
+    "rank": 145,
     "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -68279,11 +69351,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.9,
     "confidence": 56,
-    "rank": 38,
+    "rank": 37,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.3
@@ -68760,14 +69832,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -0.9,
-    "confidence": 79,
-    "rank": 181,
+    "rating": -0.7,
+    "confidence": 80,
+    "rank": 177,
     "ratingGames": 20,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -68775,17 +69847,17 @@
     "pid": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
     "name": "Jared Rapoport",
     "n": 3,
-    "synergy": 0.5
-   },
-   {
-    "pid": "a8585e9c-872e-466c-9583-9680e557f757",
-    "name": "Ethan Fu",
-    "n": 3,
-    "synergy": -1.2
+    "synergy": 0.4
    },
    {
     "pid": "482a6a13-3cb9-438b-8494-3f70a4f1cffe",
     "name": "Joseph Luka",
+    "n": 3,
+    "synergy": -0.9
+   },
+   {
+    "pid": "a8585e9c-872e-466c-9583-9680e557f757",
+    "name": "Ethan Fu",
     "n": 3,
     "synergy": -1.2
    }
@@ -68924,14 +69996,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.3,
     "confidence": 45,
     "rank": 158,
     "ratingGames": 4,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -69132,11 +70204,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 62,
-    "rank": 82,
+    "rank": 83,
     "ratingGames": 8,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.7
@@ -69688,13 +70760,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -0.9,
+    "rating": -1,
     "confidence": 82,
-    "rank": 180,
+    "rank": 189,
     "ratingGames": 24,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.1
    }
   ],
@@ -69703,13 +70775,13 @@
     "pid": "c19e964a-d126-4e9f-9ce4-83c315f2f535",
     "name": "Arnold Poblete",
     "n": 5,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "79bb5bba-c449-4cdd-948b-fb5f8efdaebb",
     "name": "Angelo Disipio",
     "n": 7,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca",
@@ -70348,7 +71420,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.2,
     "confidence": 85,
@@ -70363,7 +71435,7 @@
     "pid": "be10853a-1f2c-4b56-8fd7-902ddc686401",
     "name": "David Brandolph",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "639af9e8-08fd-496d-84d6-6e7859e8c6d3",
@@ -70381,7 +71453,7 @@
     "pid": "a8585e9c-872e-466c-9583-9680e557f757",
     "name": "Ethan Fu",
     "n": 3,
-    "synergy": -1.9
+    "synergy": -2
    }
   ]
  },
@@ -70985,7 +72057,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.4,
     "confidence": 84,
@@ -70997,15 +72069,15 @@
   ],
   "partners": [
    {
-    "pid": "d07bda42-9d33-4c03-a7f3-a8a468083bdd",
-    "name": "Ken Weinstein",
-    "n": 3,
-    "synergy": 0.5
-   },
-   {
     "pid": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
     "name": "Daniel Borgia",
     "n": 4,
+    "synergy": 0.4
+   },
+   {
+    "pid": "d07bda42-9d33-4c03-a7f3-a8a468083bdd",
+    "name": "Ken Weinstein",
+    "n": 3,
     "synergy": 0.4
    },
    {
@@ -71018,13 +72090,13 @@
     "pid": "f2c53e42-1eac-48dd-9c93-682ec5c1ac98",
     "name": "Jimmy Lee",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.5
    },
    {
     "pid": "ca670ae8-0768-49d4-9984-f708cd52786c",
     "name": "Yong Kim",
     "n": 6,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -71644,7 +72716,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.8,
     "confidence": 83,
@@ -71659,13 +72731,13 @@
     "pid": "639af9e8-08fd-496d-84d6-6e7859e8c6d3",
     "name": "Kyle Martin",
     "n": 3,
-    "synergy": 1.6
+    "synergy": 1.5
    },
    {
     "pid": "482a6a13-3cb9-438b-8494-3f70a4f1cffe",
     "name": "Joseph Luka",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.2
    },
    {
     "pid": "f2c53e42-1eac-48dd-9c93-682ec5c1ac98",
@@ -71683,7 +72755,7 @@
     "pid": "d0c9ae50-0cdc-4f72-9ece-0b996f323f73",
     "name": "Vincent Rigoglioso",
     "n": 3,
-    "synergy": -1.9
+    "synergy": -2
    }
   ]
  },
@@ -72188,7 +73260,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.4,
     "confidence": 81,
@@ -72203,7 +73275,7 @@
     "pid": "5c3659f9-08d3-4745-832b-f7dd3f8c5ae5",
     "name": "J-P Lautenschlager",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "79bb5bba-c449-4cdd-948b-fb5f8efdaebb",
@@ -73022,7 +74094,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.2,
     "confidence": 88,
@@ -73043,7 +74115,7 @@
     "pid": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
     "name": "Chris Machuzak",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
@@ -73055,13 +74127,13 @@
     "pid": "e9878f35-8a92-4887-834e-d8a76881ae41",
     "name": "Andress Mims",
     "n": 5,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "1baee0ad-faae-4c61-894a-a347710fdfea",
     "name": "Mark Waters",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.9
    },
    {
     "pid": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
@@ -73868,7 +74940,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.7,
     "confidence": 88,
@@ -73883,7 +74955,7 @@
     "pid": "ac44fd3c-0c87-47aa-bf26-4333b632f524",
     "name": "Dhruv Dobariya",
     "n": 9,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "5df02573-21d4-40ea-8b41-f81372a474b3",
@@ -74695,7 +75767,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.4,
     "confidence": 87,
@@ -74716,13 +75788,13 @@
     "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
     "name": "Kevin Lew",
     "n": 8,
-    "synergy": 1.6
+    "synergy": 1.5
    },
    {
     "pid": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
     "name": "Ian Kohn",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
@@ -74740,7 +75812,7 @@
     "pid": "148387a8-f20a-44df-981d-0d9d2e7bf443",
     "name": "Michael Vollmer",
     "n": 5,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -75157,14 +76229,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 77,
-    "rank": 138,
+    "rank": 136,
     "ratingGames": 17,
     "strengthOfPartners": 2,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -75178,7 +76250,7 @@
     "pid": "e1f41428-436c-436e-b752-af9cead487be",
     "name": "Matheus Korndoerfer",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.5
    }
   ]
  },
@@ -75505,7 +76577,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.3,
     "confidence": 74,
@@ -75520,7 +76592,7 @@
     "pid": "23adcd68-130d-4176-b367-d3cd31260d21",
     "name": "Daniel Hadley",
     "n": 4,
-    "synergy": 1.8
+    "synergy": 1.9
    }
   ]
  },
@@ -76347,7 +77419,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 2.5,
     "confidence": 87,
@@ -76362,13 +77434,13 @@
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
     "name": "Michael Dombrowiecki",
     "n": 8,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "5bec8637-0324-4af8-8084-3779e0f43521",
     "name": "Uttam Purohit",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "54d78d2c-c0d7-42c0-aef4-567311f2e51e",
@@ -76656,7 +77728,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.7,
     "confidence": 69,
@@ -77473,7 +78545,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 88,
@@ -77488,13 +78560,13 @@
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
     "name": "Hua Lin",
     "n": 8,
-    "synergy": 1.6
+    "synergy": 1.5
    },
    {
     "pid": "d11f5bc0-8b23-488d-86fb-13eebe9e2257",
     "name": "Wensheng Yue",
     "n": 6,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
@@ -77506,7 +78578,7 @@
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
     "name": "Ben Cortes",
     "n": 6,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -77944,7 +79016,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.8,
     "confidence": 77,
@@ -77971,481 +79043,7 @@
     "pid": "5bec8637-0324-4af8-8084-3779e0f43521",
     "name": "Uttam Purohit",
     "n": 4,
-    "synergy": -0.9
-   }
-  ]
- },
- "40681083-620d-4293-829f-91121323135c": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Dill Dinkers Freehold",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 99,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     6,
-     0
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 30,
-    "teamGL": 2,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 2,
-    "l": 5,
-    "gp": 7,
-    "pf": 119,
-    "pa": 132,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     5
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickle House",
-    "homeAway": "A",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 69,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     5
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Michael Vollmer",
-     "Pedro Delgado"
-    ],
-    "f": 21,
-    "a": 12,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Michael Vollmer",
-     "Ben Cortes"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Siva Indupuru",
-     "Big G"
-    ],
-    "f": 21,
-    "a": 13,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Pedro Delgado",
-     "Big G"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Michael Vollmer",
-     "Siva Indupuru"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Dill Dinkers Freehold",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Michael Vollmer",
-     "Pedro Delgado"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Christopher Giasi",
-     "Gary White"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Jim Boy Baring",
-     "Nacio Marshall"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Nacio Marshall",
-     "Jim Boy Baring"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Luca Hendrickson",
-    "vs": [
-     "Eden Ksendzovsky",
-     "Gary White"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Christopher Giasi",
-     "Nacio Marshall"
-    ],
-    "f": 21,
-    "a": 9,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Nacio Marshall",
-     "Joseph Lynskey"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
-   },
-   {
-    "wk": 3,
-    "opp": "Premiere",
-    "t": "male",
-    "with": "David Wheeler",
-    "vs": [
-     "Rob Telles",
-     "Christopher Giasi"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Sushil Rijhwani",
-     "Ping Peng"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Rajeeth Nadig",
-     "Rakshit Maddur Gopinath"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Sree Harsha Konduru",
-     "Neil Dedhia"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Ping Peng",
-     "Neil Dedhia"
-    ],
-    "f": 30,
-    "a": 32,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Thomas Moran",
-    "vs": [
-     "Sree Harsha Konduru",
-     "Ping Peng"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.2,
-    "confidence": 46,
-    "rank": 96,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": -2
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.5,
-    "confidence": 50,
-    "rank": 145,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -2.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.2,
-    "confidence": 69,
-    "rank": 182,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -1.2
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.1,
-    "confidence": 69,
-    "rank": 192,
-    "ratingGames": 13,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": -1
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -1.7,
-    "confidence": 77,
-    "rank": 216,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
-    "name": "Jimmy Ramja",
-    "n": 3,
-    "synergy": 1.7
-   },
-   {
-    "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
-    "name": "Jose Campos",
-    "n": 3,
-    "synergy": 1.1
-   },
-   {
-    "pid": "c737d3dd-dfe2-4f58-a095-fb40fc601866",
-    "name": "Nesip Cengiz",
-    "n": 5,
-    "synergy": -0.7
-   },
-   {
-    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
-    "name": "Kyle Korman",
-    "n": 4,
-    "synergy": -1.7
+    "synergy": -1
    }
   ]
  },
@@ -79035,14 +79633,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 1.5,
+    "rating": 1.6,
     "confidence": 82,
-    "rank": 53,
+    "rank": 49,
     "ratingGames": 25,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": -0.3
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -79062,7 +79660,7 @@
     "pid": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc",
     "name": "Frederick Cox",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "a861a127-253c-4cb2-a1d6-93a37558b93a",
@@ -79586,7 +80184,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.4,
     "confidence": 81,
@@ -79601,7 +80199,7 @@
     "pid": "0e8c08b7-0e58-434b-8830-f37779f821dc",
     "name": "Joseph Lynskey",
     "n": 5,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "5636cdc5-7a65-4202-abbb-5999eee35ab3",
@@ -79619,7 +80217,7 @@
     "pid": "cd0eb94b-4d32-4ba9-bcdc-3fba205d90f0",
     "name": "Daniel Antonelli",
     "n": 5,
-    "synergy": -1.1
+    "synergy": -1.2
    }
   ]
  },
@@ -80404,7 +81002,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 88,
@@ -80419,7 +81017,7 @@
     "pid": "7b57c36d-a6eb-470e-b132-26d1f2a47b74",
     "name": "Jimmy Shapiro",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "c6482905-6954-4241-a6c3-ba077c367846",
@@ -80443,7 +81041,7 @@
     "pid": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
     "name": "Daniel Dechristopher",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "e9878f35-8a92-4887-834e-d8a76881ae41",
@@ -80611,14 +81209,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.7,
+    "rating": 0.5,
     "confidence": 59,
-    "rank": 99,
+    "rank": 112,
     "ratingGames": 7,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 0.3
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": []
@@ -81085,7 +81683,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.4,
     "confidence": 81,
@@ -81450,14 +82048,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -1.3,
+    "rating": -1.5,
     "confidence": 74,
-    "rank": 198,
+    "rank": 212,
     "ratingGames": 14,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": 1.4,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": [
@@ -81651,14 +82249,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -1.3,
+    "rating": -1.4,
     "confidence": 59,
-    "rank": 199,
+    "rank": 207,
     "ratingGames": 7,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": []
@@ -82179,7 +82777,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.8,
     "confidence": 81,
@@ -82194,25 +82792,687 @@
     "pid": "4a5131e4-a912-4913-8ff5-9281e53c6974",
     "name": "Alessio Muscara",
     "n": 5,
-    "synergy": 1.4
+    "synergy": 1.7
    },
    {
     "pid": "5c3659f9-08d3-4745-832b-f7dd3f8c5ae5",
     "name": "J-P Lautenschlager",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "41f7a2a8-8fcd-4282-b501-cd5b83ec7440",
     "name": "Larry Minsky",
     "n": 3,
-    "synergy": -1.6
+    "synergy": -1.7
    },
    {
     "pid": "06a3741d-10e5-462b-ba95-aa997d4eb8ea",
     "name": "Jimmy Duong",
     "n": 3,
-    "synergy": -1.7
+    "synergy": -1.8
+   }
+  ]
+ },
+ "40681083-620d-4293-829f-91121323135c": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Dill Dinkers Freehold",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 99,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     0
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 30,
+    "teamGL": 2,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 2,
+    "l": 5,
+    "gp": 7,
+    "pf": 119,
+    "pa": 132,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     5
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickle House",
+    "homeAway": "A",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 69,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 146,
+    "pa": 158,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Michael Vollmer",
+     "Pedro Delgado"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Michael Vollmer",
+     "Ben Cortes"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Siva Indupuru",
+     "Big G"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Pedro Delgado",
+     "Big G"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Michael Vollmer",
+     "Siva Indupuru"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Dill Dinkers Freehold",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Michael Vollmer",
+     "Pedro Delgado"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Christopher Giasi",
+     "Gary White"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Jim Boy Baring",
+     "Nacio Marshall"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Nacio Marshall",
+     "Jim Boy Baring"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Luca Hendrickson",
+    "vs": [
+     "Eden Ksendzovsky",
+     "Gary White"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Christopher Giasi",
+     "Nacio Marshall"
+    ],
+    "f": 21,
+    "a": 9,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Nacio Marshall",
+     "Joseph Lynskey"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 3,
+    "opp": "Premiere",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Rob Telles",
+     "Christopher Giasi"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Sushil Rijhwani",
+     "Ping Peng"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Rajeeth Nadig",
+     "Rakshit Maddur Gopinath"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Sree Harsha Konduru",
+     "Neil Dedhia"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Ping Peng",
+     "Neil Dedhia"
+    ],
+    "f": 30,
+    "a": 32,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Sree Harsha Konduru",
+     "Ping Peng"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Matthew Rafaniello",
+    "vs": [
+     "Aleks Mirkovic",
+     "Xan Hong"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Bren Calpin",
+     "Paul Chantler"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Thomas Moran",
+    "vs": [
+     "Bren Calpin",
+     "Paul Chantler"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Xan Hong",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Xan Hong",
+     "Paul Chantler"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Paul Chantler",
+     "Steppan Konoplev"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "David Wheeler",
+    "vs": [
+     "Paul Chantler",
+     "Steppan Konoplev"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.2,
+    "confidence": 46,
+    "rank": 96,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": -2
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.5,
+    "confidence": 50,
+    "rank": 145,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -2.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.2,
+    "confidence": 69,
+    "rank": 182,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -1.2
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -1.1,
+    "confidence": 69,
+    "rank": 192,
+    "ratingGames": 13,
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": -1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": -1.7,
+    "confidence": 77,
+    "rank": 216,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -2.7,
+    "confidence": 82,
+    "rank": 242,
+    "ratingGames": 26,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
+    "name": "Jimmy Ramja",
+    "n": 3,
+    "synergy": 1.9
+   },
+   {
+    "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
+    "name": "Jose Campos",
+    "n": 5,
+    "synergy": 1.5
+   },
+   {
+    "pid": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
+    "name": "Thomas Moran",
+    "n": 3,
+    "synergy": -0.5
+   },
+   {
+    "pid": "c737d3dd-dfe2-4f58-a095-fb40fc601866",
+    "name": "Nesip Cengiz",
+    "n": 5,
+    "synergy": -0.6
+   },
+   {
+    "pid": "d61a3828-6dfc-480a-b26a-534b0fe58268",
+    "name": "Kyle Korman",
+    "n": 4,
+    "synergy": -1.4
+   },
+   {
+    "pid": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
+    "name": "David Wheeler",
+    "n": 3,
+    "synergy": -1.9
    }
   ]
  },
@@ -82733,13 +83993,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0,
+    "rating": 0.1,
     "confidence": 83,
-    "rank": 136,
+    "rank": 128,
     "ratingGames": 24,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -82748,13 +84008,13 @@
     "pid": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
     "name": "Eric Berlinger",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
     "name": "Craig Butler",
     "n": 4,
-    "synergy": -1.3
+    "synergy": -1.4
    }
   ]
  },
@@ -83049,14 +84309,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 69,
-    "rank": 153,
+    "rank": 150,
     "ratingGames": 12,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": -0.1
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -83064,7 +84324,7 @@
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
     "name": "Siva Indupuru",
     "n": 4,
-    "synergy": -0.1
+    "synergy": 0
    }
   ]
  },
@@ -83706,7 +84966,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 84,
@@ -84151,7 +85411,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 77,
@@ -84166,13 +85426,13 @@
     "pid": "e77a59ee-8653-4d89-903c-75109d3f17c8",
     "name": "David Bogatyrev",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "f7c4d103-d246-456d-8fd5-6418c6a0e002",
     "name": "Salman Saad",
     "n": 4,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -85003,7 +86263,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1.3,
     "confidence": 87,
@@ -85024,7 +86284,7 @@
     "pid": "17caef8b-84d4-4052-9695-7c74190925a1",
     "name": "Franklin Lupianez",
     "n": 4,
-    "synergy": 0.7
+    "synergy": 0.8
    },
    {
     "pid": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
@@ -85042,7 +86302,7 @@
     "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
     "name": "Roberto Marcillo",
     "n": 4,
-    "synergy": -1.3
+    "synergy": -1.4
    },
    {
     "pid": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
@@ -85675,7 +86935,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.2,
     "confidence": 84,
@@ -85690,19 +86950,19 @@
     "pid": "06a3741d-10e5-462b-ba95-aa997d4eb8ea",
     "name": "Jimmy Duong",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "d4126276-6b83-42be-b943-9957df46992c",
     "name": "Gary Garretson",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "2d439cdc-347e-4beb-9975-1b31bc46f2df",
     "name": "Andrew Mclean",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "41f7a2a8-8fcd-4282-b501-cd5b83ec7440",
@@ -85969,7 +87229,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.9,
     "confidence": 66,
@@ -86628,7 +87888,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.4,
     "confidence": 86,
@@ -86661,7 +87921,7 @@
     "pid": "7573445f-7dbd-4c2f-867a-ae95ae7ed168",
     "name": "Dilip Patel",
     "n": 6,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "57666861-23d0-4809-9556-b646579f2fd6",
@@ -86673,7 +87933,7 @@
     "pid": "96042156-2ff1-44d0-9b96-8448964b4981",
     "name": "Jaiveer Narwal",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.7
    },
    {
     "pid": "ac44fd3c-0c87-47aa-bf26-4333b632f524",
@@ -87439,7 +88699,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.6,
     "confidence": 87,
@@ -87472,7 +88732,7 @@
     "pid": "c6482905-6954-4241-a6c3-ba077c367846",
     "name": "Uzoma Nwankwo",
     "n": 3,
-    "synergy": -0.8
+    "synergy": -0.9
    },
    {
     "pid": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
@@ -88133,7 +89393,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.3,
     "confidence": 84,
@@ -88148,19 +89408,19 @@
     "pid": "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca",
     "name": "Steven Hummel",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "c19e964a-d126-4e9f-9ce4-83c315f2f535",
     "name": "Arnold Poblete",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0.4
    },
    {
     "pid": "12ec758b-f05d-40ec-b082-a76f07cbe792",
     "name": "Mathew Yang",
     "n": 7,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "f3f6addc-ea42-4e7b-ac54-67bf69cffeeb",
@@ -88826,14 +90086,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0,
+    "rating": -0.1,
     "confidence": 85,
-    "rank": 132,
+    "rank": 141,
     "ratingGames": 28,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0.6,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -88841,25 +90101,25 @@
     "pid": "622cb64f-dd0c-4bff-8c19-81d287977c53",
     "name": "Stephen Fredericksen",
     "n": 3,
-    "synergy": 1
-   },
-   {
-    "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
-    "name": "Jacob Rosengarten",
-    "n": 4,
-    "synergy": 0.6
+    "synergy": 0.9
    },
    {
     "pid": "e77a59ee-8653-4d89-903c-75109d3f17c8",
     "name": "David Bogatyrev",
     "n": 8,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "8f9be7cc-3ddf-436f-8727-02cbdd0d453f",
     "name": "Nicholas Lugo",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
+   },
+   {
+    "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
+    "name": "Jacob Rosengarten",
+    "n": 4,
+    "synergy": 0.5
    },
    {
     "pid": "e2d70cc7-b655-43d5-a059-063bfe722001",
@@ -89406,7 +90666,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.6,
     "confidence": 82,
@@ -89433,7 +90693,7 @@
     "pid": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
     "name": "Mike Leach",
     "n": 3,
-    "synergy": -1.6
+    "synergy": -1.7
    }
   ]
  },
@@ -89942,14 +91202,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 0.4,
+    "rating": 0.2,
     "confidence": 82,
-    "rank": 114,
+    "rank": 123,
     "ratingGames": 23,
-    "strengthOfPartners": -2.3,
-    "strengthOfOpponents": 0.5
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -89957,7 +91217,7 @@
     "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
     "name": "Aleks Mirkovic",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.8
    }
   ]
  },
@@ -90360,7 +91620,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.3,
     "confidence": 79,
@@ -90375,7 +91635,7 @@
     "pid": "7af65ce9-d7e3-4d00-b19b-653e6d2dc8d9",
     "name": "Ping Peng",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.8
    },
    {
     "pid": "20f3e907-41d8-40bb-8cef-cb6fed84a2aa",
@@ -90387,452 +91647,7 @@
     "pid": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
     "name": "Sushil Rijhwani",
     "n": 3,
-    "synergy": -1.9
-   }
-  ]
- },
- "9571d7b5-fc34-4c77-a51f-c99b286e4304": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 116,
-    "pa": 117,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     4
-    ],
-    "cl": [
-     1,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "APC Garden State",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 117,
-    "pa": 113,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     4,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickle House",
-    "homeAway": "A",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 86,
-    "pa": 124,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     5
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Uttam Purohit",
-     "Salman Saad"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Jason Mcmanmon",
-     "Kurt Skalamera"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Michael Dombrowiecki",
-     "Stephen Fredericksen"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Kurt Skalamera",
-     "Salman Saad"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Kurt Skalamera",
-     "Stephen Fredericksen"
-    ],
-    "f": 21,
-    "a": 14,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Monroe",
-    "t": "male",
-    "with": "Carlos Idrovo",
-    "vs": [
-     "Shawn Gold",
-     "Stephen Fredericksen"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Matt Inzerillo",
-     "Andress Mims"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Andress Mims",
-     "Shyler Smith"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Chris Machuzak",
-     "Andress Mims"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Anthony Simonetti",
-    "vs": [
-     "Jimmy Shapiro",
-     "Mark Waters"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Andress Mims",
-     "Matt Inzerillo"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 4,
-    "opp": "APC Garden State",
-    "t": "male",
-    "with": "Kyle Korman",
-    "vs": [
-     "Jimmy Shapiro",
-     "Matt Inzerillo"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Jitendra Arora",
-     "Anil Kumar Jakkaladki"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jose Campos",
-    "vs": [
-     "Anil Kumar Jakkaladki",
-     "Sushil Rijhwani"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Jimmy Ramja",
-    "vs": [
-     "Varun Gurram",
-     "Neil Dedhia"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Nesip Cengiz",
-    "vs": [
-     "Rajeeth Nadig",
-     "Jitendra Arora"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Niman Ahmeti",
-    "vs": [
-     "Sree Harsha Konduru",
-     "Ping Peng"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Pickle House",
-    "t": "male",
-    "with": "Noah Ludwigsen",
-    "vs": [
-     "Varun Gurram",
-     "Jitendra Arora"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.8,
-    "confidence": 50,
-    "rank": 161,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.3,
-    "confidence": 51,
-    "rank": 192,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -2,
-    "confidence": 69,
-    "rank": 222,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -3,
-    "confidence": 78,
-    "rank": 243,
-    "ratingGames": 18,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": [
-   {
-    "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
-    "name": "Anthony Simonetti",
-    "n": 3,
-    "synergy": 0.5
-   },
-   {
-    "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
-    "name": "Jose Campos",
-    "n": 6,
-    "synergy": -0.9
-   },
-   {
-    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
-    "name": "Jimmy Ramja",
-    "n": 4,
-    "synergy": -1.2
+    "synergy": -2
    }
   ]
  },
@@ -91603,7 +92418,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 87,
@@ -91636,7 +92451,7 @@
     "pid": "3b9648e1-481c-4007-9932-d8df648f7bab",
     "name": "Harsh Upadhyaya",
     "n": 6,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46",
@@ -92348,7 +93163,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.8,
     "confidence": 84,
@@ -92375,7 +93190,7 @@
     "pid": "17caef8b-84d4-4052-9695-7c74190925a1",
     "name": "Franklin Lupianez",
     "n": 5,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
@@ -92388,6 +93203,641 @@
     "name": "David Tabacco",
     "n": 3,
     "synergy": -0.1
+   }
+  ]
+ },
+ "9571d7b5-fc34-4c77-a51f-c99b286e4304": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 116,
+    "pa": 117,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     4
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "APC Garden State",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 117,
+    "pa": 113,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickle House",
+    "homeAway": "A",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 86,
+    "pa": 124,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     5
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Dill Dinkers Newport",
+    "homeAway": "A",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 147,
+    "pa": 153,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Uttam Purohit",
+     "Salman Saad"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Jason Mcmanmon",
+     "Kurt Skalamera"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Michael Dombrowiecki",
+     "Stephen Fredericksen"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Kurt Skalamera",
+     "Salman Saad"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Kurt Skalamera",
+     "Stephen Fredericksen"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Monroe",
+    "t": "male",
+    "with": "Carlos Idrovo",
+    "vs": [
+     "Shawn Gold",
+     "Stephen Fredericksen"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Matt Inzerillo",
+     "Andress Mims"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Andress Mims",
+     "Shyler Smith"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Chris Machuzak",
+     "Andress Mims"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Anthony Simonetti",
+    "vs": [
+     "Jimmy Shapiro",
+     "Mark Waters"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Andress Mims",
+     "Matt Inzerillo"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 4,
+    "opp": "APC Garden State",
+    "t": "male",
+    "with": "Kyle Korman",
+    "vs": [
+     "Jimmy Shapiro",
+     "Matt Inzerillo"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Jitendra Arora",
+     "Anil Kumar Jakkaladki"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Anil Kumar Jakkaladki",
+     "Sushil Rijhwani"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Varun Gurram",
+     "Neil Dedhia"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Nesip Cengiz",
+    "vs": [
+     "Rajeeth Nadig",
+     "Jitendra Arora"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Sree Harsha Konduru",
+     "Ping Peng"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickle House",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Varun Gurram",
+     "Jitendra Arora"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Ian Diamond",
+     "Paul Chantler"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jose Campos",
+    "vs": [
+     "Ian Diamond",
+     "Paul Chantler"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Bren Calpin",
+     "Paul Chantler"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Niman Ahmeti",
+    "vs": [
+     "Bren Calpin",
+     "Paul Chantler"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Ian Diamond",
+     "Bren Calpin"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Andy Suphaphol",
+    "vs": [
+     "Ian Diamond",
+     "Bren Calpin"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Jimmy Ramja",
+    "vs": [
+     "Aleks Mirkovic",
+     "Ian Diamond"
+    ],
+    "f": 21,
+    "a": 12,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Dill Dinkers Newport",
+    "t": "male",
+    "with": "Noah Ludwigsen",
+    "vs": [
+     "Joel Steinbrunner",
+     "Jesse Pettit"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.8,
+    "confidence": 50,
+    "rank": 161,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.3,
+    "confidence": 51,
+    "rank": 192,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -2,
+    "confidence": 69,
+    "rank": 222,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": -3,
+    "confidence": 78,
+    "rank": 243,
+    "ratingGames": 18,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -3.2,
+    "confidence": 83,
+    "rank": 252,
+    "ratingGames": 26,
+    "strengthOfPartners": 0.1,
+    "strengthOfOpponents": -1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
+    "name": "Anthony Simonetti",
+    "n": 3,
+    "synergy": 0.6
+   },
+   {
+    "pid": "ade57877-7c11-4a46-88bf-789a50906901",
+    "name": "Jimmy Ramja",
+    "n": 5,
+    "synergy": -0.4
+   },
+   {
+    "pid": "40681083-620d-4293-829f-91121323135c",
+    "name": "Niman Ahmeti",
+    "n": 3,
+    "synergy": -0.5
+   },
+   {
+    "pid": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
+    "name": "Jose Campos",
+    "n": 8,
+    "synergy": -1
    }
   ]
  },
@@ -93162,7 +94612,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.5,
     "confidence": 86,
@@ -93177,19 +94627,19 @@
     "pid": "04000200-8214-42ff-9a0d-2189ffaccd42",
     "name": "Kurt Skalamera",
     "n": 5,
-    "synergy": 1.7
+    "synergy": 1.5
    },
    {
     "pid": "8f9be7cc-3ddf-436f-8727-02cbdd0d453f",
     "name": "Nicholas Lugo",
     "n": 6,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
     "name": "Jacob Rosengarten",
     "n": 7,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "e2d70cc7-b655-43d5-a059-063bfe722001",
@@ -93373,14 +94823,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 1.2,
+    "rating": 1.4,
     "confidence": 63,
-    "rank": 69,
+    "rank": 59,
     "ratingGames": 8,
-    "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": []
@@ -93559,14 +95009,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 2.3,
+    "rating": 2,
     "confidence": 62,
-    "rank": 26,
+    "rank": 36,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 2.2
+    "strengthOfOpponents": 1.9
    }
   ],
   "partners": []
@@ -93767,13 +95217,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.9,
     "confidence": 63,
     "rank": 185,
     "ratingGames": 8,
-    "strengthOfPartners": 1,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.6
    }
   ],
@@ -94488,7 +95938,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.7,
     "confidence": 85,
@@ -94509,19 +95959,19 @@
     "pid": "323d96c3-4160-410b-96a5-87263e825f62",
     "name": "Mario Contreras",
     "n": 5,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "23adcd68-130d-4176-b367-d3cd31260d21",
     "name": "Daniel Hadley",
     "n": 6,
-    "synergy": -0.4
+    "synergy": -0.5
    },
    {
     "pid": "d50feac2-f147-47d2-8930-99b21b2842ba",
     "name": "Brandon Dejesus",
     "n": 5,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -94903,13 +96353,13 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -2.4,
+    "rating": -2.5,
     "confidence": 76,
-    "rank": 235,
+    "rank": 238,
     "ratingGames": 16,
-    "strengthOfPartners": -0.2,
+    "strengthOfPartners": -0.1,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -94918,18 +96368,18 @@
     "pid": "f3f6addc-ea42-4e7b-ac54-67bf69cffeeb",
     "name": "Andy Ro",
     "n": 3,
-    "synergy": 1.3
-   },
-   {
-    "pid": "4a5131e4-a912-4913-8ff5-9281e53c6974",
-    "name": "Alessio Muscara",
-    "n": 6,
-    "synergy": -0.6
+    "synergy": 1.4
    },
    {
     "pid": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
     "name": "Mike Leach",
     "n": 3,
+    "synergy": -0.6
+   },
+   {
+    "pid": "4a5131e4-a912-4913-8ff5-9281e53c6974",
+    "name": "Alessio Muscara",
+    "n": 6,
     "synergy": -0.7
    }
   ]
@@ -95630,7 +97080,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1,
     "confidence": 85,
@@ -96432,7 +97882,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.5,
     "confidence": 87,
@@ -96453,17 +97903,17 @@
     "pid": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
     "name": "Jared Rapoport",
     "n": 3,
-    "synergy": -0.7
-   },
-   {
-    "pid": "be10853a-1f2c-4b56-8fd7-902ddc686401",
-    "name": "David Brandolph",
-    "n": 4,
-    "synergy": -0.7
+    "synergy": -0.5
    },
    {
     "pid": "482a6a13-3cb9-438b-8494-3f70a4f1cffe",
     "name": "Joseph Luka",
+    "n": 4,
+    "synergy": -0.6
+   },
+   {
+    "pid": "be10853a-1f2c-4b56-8fd7-902ddc686401",
+    "name": "David Brandolph",
     "n": 4,
     "synergy": -0.7
    },
@@ -97145,7 +98595,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.3,
     "confidence": 85,
@@ -97970,7 +99420,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.1,
     "confidence": 88,
@@ -97985,13 +99435,13 @@
     "pid": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7",
     "name": "Ziyu Huang",
     "n": 9,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "631b24ae-9bc2-4db3-964b-33f86933021e",
     "name": "Pritpal Singh",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "96042156-2ff1-44d0-9b96-8448964b4981",
@@ -98015,7 +99465,7 @@
     "pid": "57666861-23d0-4809-9556-b646579f2fd6",
     "name": "Aaron Chan",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "3b9648e1-481c-4007-9932-d8df648f7bab",
@@ -98477,7 +99927,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.5,
     "confidence": 77,
@@ -98492,17 +99942,17 @@
     "pid": "08b7041c-a90b-47ba-802a-5f71e6b98999",
     "name": "Alex Kustas",
     "n": 4,
-    "synergy": 1.8
-   },
-   {
-    "pid": "33fe293d-5913-41af-8f89-4a431ed92ab7",
-    "name": "Jonathan Carter",
-    "n": 6,
-    "synergy": -0.4
+    "synergy": 1.9
    },
    {
     "pid": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc",
     "name": "Frederick Cox",
+    "n": 6,
+    "synergy": -0.5
+   },
+   {
+    "pid": "33fe293d-5913-41af-8f89-4a431ed92ab7",
+    "name": "Jonathan Carter",
     "n": 6,
     "synergy": -0.5
    }
@@ -99089,7 +100539,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 84,
@@ -99104,7 +100554,7 @@
     "pid": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
     "name": "Bruce Nguyen",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "1baee0ad-faae-4c61-894a-a347710fdfea",
@@ -99122,7 +100572,7 @@
     "pid": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
     "name": "Chris Machuzak",
     "n": 5,
-    "synergy": -1.2
+    "synergy": -1.3
    }
   ]
  },
@@ -99281,14 +100731,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.2,
-    "confidence": 56,
-    "rank": 127,
+    "confidence": 57,
+    "rank": 125,
     "ratingGames": 6,
-    "strengthOfPartners": 0.6,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []
@@ -99630,11 +101080,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3.1,
     "confidence": 74,
-    "rank": 248,
+    "rank": 251,
     "ratingGames": 15,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.6
@@ -99820,14 +101270,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 52,
-    "rank": 141,
+    "rank": 139,
     "ratingGames": 6,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 1.8
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.9
    }
   ],
   "partners": []
@@ -100393,14 +101843,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -1.8,
+    "rating": -1.5,
     "confidence": 81,
-    "rank": 218,
+    "rank": 211,
     "ratingGames": 24,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -100408,19 +101858,523 @@
     "pid": "33fe293d-5913-41af-8f89-4a431ed92ab7",
     "name": "Jonathan Carter",
     "n": 5,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "e8aee14f-dbc4-4e5c-be4a-4f948e2e13fc",
     "name": "Frederick Cox",
     "n": 6,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "2811dd08-7b50-455b-bc23-46b064a912eb",
     "name": "Dan Carpenter",
     "n": 4,
     "synergy": -1.3
+   }
+  ]
+ },
+ "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 134,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 63,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 162,
+    "pa": 139,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Steven Hummel",
+     "Alessio Muscara"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Angelo Disipio",
+     "Mathew Yang"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jimmy Duong",
+     "Jason Wu"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Mike Leach",
+     "Alessio Muscara"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Jimmy Duong",
+     "Andrew Mclean"
+    ],
+    "f": 23,
+    "a": 21,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Jimmy Duong",
+     "Jason Wu"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Arnold Poblete",
+     "Jason Wu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "Daniel Borgia",
+     "Paul Perumaly"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Jared Rapoport",
+     "Yong Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "David Brond",
+    "vs": [
+     "Daniel Borgia",
+     "Ken Weinstein"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Ken Weinstein",
+     "Joseph Luka"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Nitin Chawke",
+    "vs": [
+     "Daniel Borgia",
+     "Yong Kim"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Jose Campos",
+     "Thomas Moran"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Jose Campos",
+     "Thomas Moran"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Niman Ahmeti",
+     "Thomas Moran"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Niman Ahmeti",
+     "Thomas Moran"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Niman Ahmeti",
+     "Jose Campos"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Niman Ahmeti",
+     "Jose Campos"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Niman Ahmeti",
+     "David Wheeler"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Niman Ahmeti",
+     "David Wheeler"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.9,
+    "confidence": 57,
+    "rank": 120,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.9,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -2.6,
+    "confidence": 70,
+    "rank": 206,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -3,
+    "confidence": 71,
+    "rank": 228,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -3.1,
+    "confidence": 72,
+    "rank": 244,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -1.4,
+    "confidence": 80,
+    "rank": 205,
+    "ratingGames": 21,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": -0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
+    "name": "Steppan Konoplev",
+    "n": 4,
+    "synergy": 1.8
+   },
+   {
+    "pid": "f5a96445-7d1c-459b-8642-12a5d11554db",
+    "name": "Ian Diamond",
+    "n": 4,
+    "synergy": 1.1
+   },
+   {
+    "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
+    "name": "Xan Hong",
+    "n": 3,
+    "synergy": -0.2
    }
   ]
  },
@@ -101093,7 +103047,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.3,
     "confidence": 84,
@@ -101120,7 +103074,7 @@
     "pid": "24db47b3-dedc-418d-9210-3b5fea1952da",
     "name": "Ren Macalalag",
     "n": 4,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
@@ -101937,7 +103891,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.9,
     "confidence": 86,
@@ -101952,19 +103906,19 @@
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
     "name": "Ben Cortes",
     "n": 10,
-    "synergy": 1.3
+    "synergy": 1.2
    },
    {
     "pid": "d11f5bc0-8b23-488d-86fb-13eebe9e2257",
     "name": "Wensheng Yue",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
     "name": "Sujoy Gayen",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
@@ -101976,7 +103930,7 @@
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
     "name": "Siva Indupuru",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -102628,14 +104582,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": 1.8,
+    "rating": 1.7,
     "confidence": 84,
-    "rank": 41,
+    "rank": 42,
     "ratingGames": 28,
-    "strengthOfPartners": -0.6,
-    "strengthOfOpponents": 1.6
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 1.5
    }
   ],
   "partners": [
@@ -102643,19 +104597,19 @@
     "pid": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
     "name": "Jason Mcmanmon",
     "n": 7,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
     "name": "Michael Dombrowiecki",
     "n": 4,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "622cb64f-dd0c-4bff-8c19-81d287977c53",
     "name": "Stephen Fredericksen",
     "n": 8,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "04000200-8214-42ff-9a0d-2189ffaccd42",
@@ -103277,26 +105231,26 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -1.5,
+    "rating": -1.4,
     "confidence": 85,
-    "rank": 204,
+    "rank": 203,
     "ratingGames": 28,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
    {
-    "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
-    "name": "Erik Reilly",
+    "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
+    "name": "Kevin Lew",
     "n": 6,
     "synergy": 0.6
    },
    {
-    "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
-    "name": "Kevin Lew",
+    "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
+    "name": "Erik Reilly",
     "n": 6,
     "synergy": 0.5
    },
@@ -104127,7 +106081,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.1,
     "confidence": 87,
@@ -104145,12 +106099,6 @@
     "synergy": 0.2
    },
    {
-    "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
-    "name": "Roberto Marcillo",
-    "n": 4,
-    "synergy": 0.1
-   },
-   {
     "pid": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d",
     "name": "Josh Rito",
     "n": 4,
@@ -104160,6 +106108,12 @@
     "pid": "717d97f0-4f08-476f-9c53-7595605bc0b0",
     "name": "David Tabacco",
     "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
+    "name": "Roberto Marcillo",
+    "n": 4,
     "synergy": 0
    },
    {
@@ -104933,7 +106887,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.4,
     "confidence": 87,
@@ -104948,7 +106902,7 @@
     "pid": "bd958367-8cce-4f24-ba5a-208bac9b42b0",
     "name": "Neale Smith",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "1baee0ad-faae-4c61-894a-a347710fdfea",
@@ -104960,7 +106914,7 @@
     "pid": "642b7fc5-f304-459a-889e-e726dc9edeab",
     "name": "Tyler Bayly",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "7b57c36d-a6eb-470e-b132-26d1f2a47b74",
@@ -105319,7 +107273,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.8,
     "confidence": 75,
@@ -105346,7 +107300,7 @@
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    }
   ]
  },
@@ -106041,7 +107995,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.6,
     "confidence": 84,
@@ -106062,13 +108016,13 @@
     "pid": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
     "name": "Michael Dombrowiecki",
     "n": 3,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
     "name": "Jacob Rosengarten",
     "n": 8,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "e77a59ee-8653-4d89-903c-75109d3f17c8",
@@ -106676,7 +108630,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.2,
     "confidence": 83,
@@ -107026,11 +108980,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.2,
     "confidence": 71,
-    "rank": 152,
+    "rank": 149,
     "ratingGames": 13,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.7
@@ -107377,7 +109331,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.7,
     "confidence": 72,
@@ -107388,6 +109342,855 @@
    }
   ],
   "partners": []
+ },
+ "8f076d51-25ba-4203-97f8-12194ba5b001": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 136,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 96,
+    "pa": 97,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     2
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Jersey Devil",
+    "homeAway": "A",
+    "w": 0,
+    "l": 8,
+    "gp": 8,
+    "pf": 118,
+    "pa": 168,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     8
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 109,
+    "pa": 145,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     6
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 6,
+    "l": 2,
+    "gp": 8,
+    "pf": 162,
+    "pa": 132,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     6,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Michael Johnson",
+     "Andrew Mclean"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Steven Hummel",
+     "Andrew Mclean"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Mike Leach",
+     "Alessio Muscara"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Gary Garretson",
+     "Michael Johnson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Angelo Disipio",
+     "Arnold Poblete"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Angelo Disipio",
+     "Steven Hummel"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Arnold Poblete",
+     "Jason Wu"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "David Brond",
+    "vs": [
+     "Ethan Fu",
+     "Ken Weinstein"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Daniel Borgia",
+     "Paul Perumaly"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "David Brandolph",
+     "Ethan Fu"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Jared Rapoport",
+     "Jimmy Lee"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Malay Kaity",
+    "vs": [
+     "Ethan Fu",
+     "Jimmy Lee"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Mario Contreras",
+     "Dan Carpenter"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Tom Kresky",
+     "Christopher Uston"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Dan Carpenter",
+     "Jonathan Carter"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Brandon Dejesus",
+     "Frederick Cox"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Dan Ruble",
+     "Tom Kresky"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Jonathan Carter",
+     "Derek Livingston"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jonathan Carter",
+     "Dan Carpenter"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Brandon Dejesus",
+     "Dan Carpenter"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "Jordan Demcher",
+     "Charles Evans"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "Graham Heavenrich",
+     "Harrison Bohrer"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Charles Evans",
+     "Matt Enz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Matt Enz",
+     "Harrison Bohrer"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Xavier Vazquez",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jordan Demcher",
+     "Charles Evans"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jordan Demcher",
+     "Harvey Mitchell"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Noah Ludwigsen",
+     "Andy Suphaphol"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Noah Ludwigsen",
+     "Andy Suphaphol"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "David Wheeler",
+     "Jose Campos"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "David Wheeler",
+     "Jose Campos"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Jimmy Ramja",
+     "Matthew Rafaniello"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Jimmy Ramja",
+     "Matthew Rafaniello"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Niman Ahmeti",
+     "David Wheeler"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Niman Ahmeti",
+     "David Wheeler"
+    ],
+    "f": 21,
+    "a": 13,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -0.4,
+    "confidence": 56,
+    "rank": 104,
+    "ratingGames": 8,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": 1.1
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.1,
+    "confidence": 70,
+    "rank": 119,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.6
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.7,
+    "confidence": 79,
+    "rank": 202,
+    "ratingGames": 21,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -1.8,
+    "confidence": 80,
+    "rank": 213,
+    "ratingGames": 21,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": -2.1,
+    "confidence": 84,
+    "rank": 226,
+    "ratingGames": 28,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -0.6,
+    "confidence": 88,
+    "rank": 170,
+    "ratingGames": 36,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.1
+   }
+  ],
+  "partners": [
+   {
+    "pid": "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2",
+    "name": "Paul Chantler",
+    "n": 4,
+    "synergy": 1.8
+   },
+   {
+    "pid": "f5a96445-7d1c-459b-8642-12a5d11554db",
+    "name": "Ian Diamond",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "fa546fa2-45f5-4ad6-91ec-b6f6044ad8b0",
+    "name": "David Fiscella",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "d6e30691-3b20-465b-8fa8-560017c20c15",
+    "name": "Jesse Pettit",
+    "n": 3,
+    "synergy": 0.3
+   },
+   {
+    "pid": "63eeb91c-2c9c-4dbe-8662-58fbb1d95092",
+    "name": "Bill Violette",
+    "n": 4,
+    "synergy": 0
+   },
+   {
+    "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
+    "name": "Xan Hong",
+    "n": 3,
+    "synergy": -0.8
+   },
+   {
+    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
+    "name": "Aleks Mirkovic",
+    "n": 5,
+    "synergy": -1.6
+   }
+  ]
  },
  "7caafc32-1aed-4fb7-b145-baf82cbbe2d2": {
   "log": [
@@ -107843,7 +110646,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.9,
     "confidence": 79,
@@ -108734,7 +111537,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.6,
     "confidence": 87,
@@ -109279,7 +112082,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.5,
     "confidence": 81,
@@ -109294,7 +112097,7 @@
     "pid": "4f98756a-9726-48fe-a241-2579f96eee16",
     "name": "Michael Johnson",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "d4126276-6b83-42be-b943-9957df46992c",
@@ -109306,7 +112109,7 @@
     "pid": "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca",
     "name": "Steven Hummel",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -109814,7 +112617,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -4.5,
     "confidence": 81,
@@ -109829,19 +112632,19 @@
     "pid": "4f98756a-9726-48fe-a241-2579f96eee16",
     "name": "Michael Johnson",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "d4126276-6b83-42be-b943-9957df46992c",
     "name": "Gary Garretson",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.7
    },
    {
     "pid": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
     "name": "Mike Leach",
     "n": 3,
-    "synergy": -1.7
+    "synergy": -1.8
    }
   ]
  },
@@ -110703,7 +113506,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.5,
     "confidence": 87,
@@ -111474,7 +114277,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -4,
     "confidence": 86,
@@ -111489,13 +114292,13 @@
     "pid": "81875a5e-2b65-4152-bace-b4c96517579d",
     "name": "Tom Kresky",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "d50feac2-f147-47d2-8930-99b21b2842ba",
     "name": "Brandon Dejesus",
     "n": 4,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "23adcd68-130d-4176-b367-d3cd31260d21",
@@ -111507,13 +114310,13 @@
     "pid": "323d96c3-4160-410b-96a5-87263e825f62",
     "name": "Mario Contreras",
     "n": 6,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "593561e7-e873-4261-85ee-25b6ab524bfa",
     "name": "Derek Livingston",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -111856,7 +114659,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 1,
     "confidence": 75,
@@ -111871,13 +114674,13 @@
     "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
     "name": "Steppan Konoplev",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1
    },
    {
     "pid": "199ae8e1-22b4-4d8d-a41d-29cb984a3b33",
     "name": "Malay Kaity",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.5
    }
   ]
  },
@@ -112550,7 +115353,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.5,
     "confidence": 86,
@@ -112583,7 +115386,7 @@
     "pid": "ac44fd3c-0c87-47aa-bf26-4333b632f524",
     "name": "Dhruv Dobariya",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "5df02573-21d4-40ea-8b41-f81372a474b3",
@@ -112601,7 +115404,7 @@
     "pid": "631b24ae-9bc2-4db3-964b-33f86933021e",
     "name": "Pritpal Singh",
     "n": 5,
-    "synergy": -1.1
+    "synergy": -1.2
    }
   ]
  },
@@ -113369,7 +116172,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.6,
     "confidence": 86,
@@ -113384,7 +116187,7 @@
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 10,
-    "synergy": 1.3
+    "synergy": 1.2
    },
    {
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
@@ -113396,13 +116199,13 @@
     "pid": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
     "name": "Ian Kohn",
     "n": 3,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "03886b04-b474-4dda-b7f3-eb4f4954399c",
     "name": "Kevin Lew",
     "n": 6,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -114219,7 +117022,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2,
     "confidence": 87,
@@ -114240,13 +117043,13 @@
     "pid": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
     "name": "Craig Butler",
     "n": 4,
-    "synergy": 0.7
+    "synergy": 0.8
    },
    {
     "pid": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
     "name": "John Fallone",
     "n": 5,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
@@ -114902,7 +117705,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.1,
     "confidence": 83,
@@ -114935,7 +117738,7 @@
     "pid": "635ba257-e1ed-4db3-8303-5f241388437e",
     "name": "Sean Diamond",
     "n": 4,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
@@ -115138,11 +117941,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3.2,
     "confidence": 60,
-    "rank": 249,
+    "rank": 253,
     "ratingGames": 8,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.6
@@ -115337,11 +118140,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0,
     "confidence": 58,
-    "rank": 139,
+    "rank": 138,
     "ratingGames": 8,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.2
@@ -115741,7 +118544,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.8,
     "confidence": 77,
@@ -115752,6 +118555,557 @@
    }
   ],
   "partners": []
+ },
+ "d6628146-5ecf-46fa-9ec2-4385171098fd": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Jersey Devil",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 116,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 125,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 159,
+    "pa": 151,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     2,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Christopher Uston",
+     "Brandon Dejesus"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Dan Ruble",
+     "Tim Bruno"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Tom Kresky",
+     "Christopher Uston"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Mario Contreras",
+     "Jonathan Carter"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Christopher Uston",
+     "Dan Carpenter"
+    ],
+    "f": 21,
+    "a": 17,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Brandon Dejesus",
+     "Tim Bruno"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Brandon Dejesus",
+     "Christopher Uston"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Frederick Cox",
+     "Mario Contreras"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Graham Heavenrich",
+     "Matt Enz"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Harvey Mitchell",
+     "Charles Evans"
+    ],
+    "f": 5,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Malay Kaity",
+    "vs": [
+     "Graham Heavenrich",
+     "Russell Cripps"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Malay Kaity",
+    "vs": [
+     "Leland Weinert",
+     "Harrison Bohrer"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "Graham Heavenrich",
+     "Lincoln Jensen"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "Leland Weinert",
+     "Charles Evans"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Harrison Bohrer",
+     "Lincoln Jensen"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Jr Burrs",
+     "Leland Weinert"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Jimmy Ramja",
+     "David Wheeler"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Jimmy Ramja",
+     "David Wheeler"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Noah Ludwigsen",
+     "Matthew Rafaniello"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Noah Ludwigsen",
+     "Matthew Rafaniello"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Jimmy Ramja",
+     "Matthew Rafaniello"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Jimmy Ramja",
+     "Matthew Rafaniello"
+    ],
+    "f": 21,
+    "a": 15,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Noah Ludwigsen",
+     "Jose Campos"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Noah Ludwigsen",
+     "Thomas Moran"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -2.7,
+    "confidence": 60,
+    "rank": 222,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -3,
+    "confidence": 61,
+    "rank": 241,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": -2.8,
+    "confidence": 75,
+    "rank": 240,
+    "ratingGames": 16,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -1,
+    "confidence": 82,
+    "rank": 188,
+    "ratingGames": 24,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "d6e30691-3b20-465b-8fa8-560017c20c15",
+    "name": "Jesse Pettit",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
+    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
+    "name": "Aleks Mirkovic",
+    "n": 6,
+    "synergy": 0.2
+   }
+  ]
  },
  "f006963a-4e8e-433d-8c9a-e278ac32ea9c": {
   "log": [
@@ -115833,6 +119187,33 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 138,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -116221,6 +119602,150 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Niman Ahmeti",
+     "Matthew Rafaniello"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Niman Ahmeti",
+     "Matthew Rafaniello"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Noah Ludwigsen",
+     "Matthew Rafaniello"
+    ],
+    "f": 27,
+    "a": 25,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Noah Ludwigsen",
+     "Matthew Rafaniello"
+    ],
+    "f": 24,
+    "a": 26,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Noah Ludwigsen",
+     "David Wheeler"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Noah Ludwigsen",
+     "David Wheeler"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Jimmy Ramja",
+     "Thomas Moran"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Jimmy Ramja",
+     "Jose Campos"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -116271,13 +119796,24 @@
    {
     "week": 5,
     "seq": 4,
-    "label": "5",
+    "label": "5a",
     "rating": -1.1,
     "confidence": 82,
     "rank": 189,
     "ratingGames": 24,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -1.6,
+    "confidence": 86,
+    "rank": 215,
+    "ratingGames": 32,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": [
@@ -116285,25 +119821,37 @@
     "pid": "cb2183c7-8c7b-4ebf-93da-66aeabe13d3b",
     "name": "Keith Richard",
     "n": 3,
-    "synergy": 1.4
+    "synergy": 1.8
    },
    {
     "pid": "d6628146-5ecf-46fa-9ec2-4385171098fd",
     "name": "Joel Steinbrunner",
-    "n": 4,
-    "synergy": 0.4
+    "n": 6,
+    "synergy": 0.2
    },
    {
     "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
     "name": "Xan Hong",
+    "n": 6,
+    "synergy": 0
+   },
+   {
+    "pid": "d6e30691-3b20-465b-8fa8-560017c20c15",
+    "name": "Jesse Pettit",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.4
+   },
+   {
+    "pid": "f5a96445-7d1c-459b-8642-12a5d11554db",
+    "name": "Ian Diamond",
+    "n": 3,
+    "synergy": -1.2
    },
    {
     "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
     "name": "Steppan Konoplev",
     "n": 5,
-    "synergy": -1.3
+    "synergy": -1.6
    }
   ]
  },
@@ -117026,7 +120574,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.2,
     "confidence": 86,
@@ -117041,13 +120589,13 @@
     "pid": "c6482905-6954-4241-a6c3-ba077c367846",
     "name": "Uzoma Nwankwo",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "e9878f35-8a92-4887-834e-d8a76881ae41",
     "name": "Andress Mims",
     "n": 9,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
@@ -117059,7 +120607,7 @@
     "pid": "7b57c36d-a6eb-470e-b132-26d1f2a47b74",
     "name": "Jimmy Shapiro",
     "n": 5,
-    "synergy": -1.2
+    "synergy": -1.3
    },
    {
     "pid": "1baee0ad-faae-4c61-894a-a347710fdfea",
@@ -117072,6 +120620,516 @@
     "name": "Matt Inzerillo",
     "n": 4,
     "synergy": -2.1
+   }
+  ]
+ },
+ "f5a96445-7d1c-459b-8642-12a5d11554db": {
+  "log": [
+   {
+    "week": 1,
+    "opp": "Picklr Newtown",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 119,
+    "pa": 164,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 81,
+    "pa": 105,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     0,
+     5
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 3,
+    "l": 5,
+    "gp": 8,
+    "pf": 142,
+    "pa": 149,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     3,
+     5
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Gary Garretson",
+     "Alessio Muscara"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Michael Johnson",
+     "Andrew Mclean"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Angelo Disipio",
+     "Mathew Yang"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Gary Garretson",
+     "Michael Johnson"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Steven Hummel",
+     "Jason Wu"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Gary Garretson",
+     "Alessio Muscara"
+    ],
+    "f": 3,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Michael Johnson",
+     "Mike Leach"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 1,
+    "opp": "Picklr Newtown",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Jimmy Duong",
+     "Andrew Mclean"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Jimmy Lee",
+     "Joseph Luka"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "David Brandolph",
+     "Jimmy Lee"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Paul Perumaly",
+     "Joseph Luka"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Ken Weinstein",
+     "Joseph Luka"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Cosme Tapia",
+    "vs": [
+     "Jared Rapoport",
+     "Joseph Luka"
+    ],
+    "f": 9,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Jose Campos",
+     "Thomas Moran"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Jose Campos",
+     "Thomas Moran"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "David Wheeler",
+     "Jose Campos"
+    ],
+    "f": 21,
+    "a": 11,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "David Wheeler",
+     "Jose Campos"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Andy Suphaphol",
+     "Thomas Moran"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Andy Suphaphol",
+     "Thomas Moran"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jimmy Ramja",
+     "Thomas Moran"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Jimmy Ramja",
+     "Jose Campos"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 1,
+    "seq": 0,
+    "label": "1",
+    "rating": -2.9,
+    "confidence": 58,
+    "rank": 158,
+    "ratingGames": 8,
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -3,
+    "confidence": 69,
+    "rank": 212,
+    "ratingGames": 13,
+    "strengthOfPartners": -0.7,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -3.6,
+    "confidence": 71,
+    "rank": 235,
+    "ratingGames": 13,
+    "strengthOfPartners": -1,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -3.8,
+    "confidence": 72,
+    "rank": 253,
+    "ratingGames": 13,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -2.9,
+    "confidence": 80,
+    "rank": 245,
+    "ratingGames": 21,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -0.6
+   }
+  ],
+  "partners": [
+   {
+    "pid": "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2",
+    "name": "Paul Chantler",
+    "n": 4,
+    "synergy": 1.1
+   },
+   {
+    "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
+    "name": "Steppan Konoplev",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
+    "name": "Aleks Mirkovic",
+    "n": 3,
+    "synergy": -1.2
    }
   ]
  },
@@ -117816,7 +121874,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.5,
     "confidence": 86,
@@ -117831,13 +121889,13 @@
     "pid": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
     "name": "Chris Machuzak",
     "n": 9,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "c6482905-6954-4241-a6c3-ba077c367846",
     "name": "Uzoma Nwankwo",
     "n": 5,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
@@ -118522,7 +122580,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.7,
     "confidence": 85,
@@ -118562,6 +122620,724 @@
     "name": "David Tabacco",
     "n": 4,
     "synergy": -1.3
+   }
+  ]
+ },
+ "d6e30691-3b20-465b-8fa8-560017c20c15": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Bounce Tempest",
+    "homeAway": "H",
+    "w": 1,
+    "l": 6,
+    "gp": 7,
+    "pf": 117,
+    "pa": 145,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     6
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 9,
+    "teamGL": 23,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 3,
+    "opp": "Jersey Devil",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 131,
+    "pa": 165,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Bounce Malvern",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 108,
+    "pa": 165,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 3,
+    "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 148,
+    "pa": 154,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     4,
+     4
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "games": [
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Jimmy Lee",
+     "Joseph Luka"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Jared Rapoport",
+     "Yong Kim"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Daniel Borgia",
+     "Jared Rapoport"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Yong Kim",
+     "Jimmy Lee"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Cosme Tapia",
+    "vs": [
+     "Daniel Borgia",
+     "Joseph Luka"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "David Fiscella",
+    "vs": [
+     "Daniel Borgia",
+     "David Brandolph"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 2,
+    "opp": "Bounce Tempest",
+    "t": "male",
+    "with": "Malay Kaity",
+    "vs": [
+     "Ethan Fu",
+     "Jimmy Lee"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Dan Ruble",
+     "Tim Bruno"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Derek Livingston",
+     "Jonathan Carter"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Tom Kresky",
+     "Christopher Uston"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Mario Contreras",
+     "Jonathan Carter"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Brandon Dejesus",
+     "Jonathan Carter"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Tom Kresky",
+     "Dan Ruble"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Dan Ruble",
+     "Mario Contreras"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Dan Ruble",
+     "Christopher Uston"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Leland Weinert",
+     "Lincoln Jensen"
+    ],
+    "f": 11,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Jr Burrs",
+     "Matt Enz"
+    ],
+    "f": 10,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Rick Olafsson",
+    "vs": [
+     "Jr Burrs",
+     "Jordan Demcher"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Charles Evans",
+     "Matt Enz"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Malay Kaity",
+    "vs": [
+     "Harvey Mitchell",
+     "Leland Weinert"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Malay Kaity",
+    "vs": [
+     "Harvey Mitchell",
+     "Russell Cripps"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Xavier Vazquez",
+    "vs": [
+     "Graham Heavenrich",
+     "Harvey Mitchell"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Bounce Malvern",
+    "t": "male",
+    "with": "Xavier Vazquez",
+    "vs": [
+     "Matt Enz",
+     "Russell Cripps"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Noah Ludwigsen",
+     "Andy Suphaphol"
+    ],
+    "f": 21,
+    "a": 19,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Noah Ludwigsen",
+     "Andy Suphaphol"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Jimmy Ramja",
+     "Andy Suphaphol"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Jimmy Ramja",
+     "Andy Suphaphol"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Noah Ludwigsen",
+     "David Wheeler"
+    ],
+    "f": 15,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Noah Ludwigsen",
+     "David Wheeler"
+    ],
+    "f": 22,
+    "a": 24,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Noah Ludwigsen",
+     "Jose Campos"
+    ],
+    "f": 24,
+    "a": 22,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Noah Ludwigsen",
+     "Thomas Moran"
+    ],
+    "f": 21,
+    "a": 14,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.8,
+    "confidence": 55,
+    "rank": 158,
+    "ratingGames": 7,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -1.2,
+    "confidence": 74,
+    "rank": 181,
+    "ratingGames": 15,
+    "strengthOfPartners": -1.2,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -1.4,
+    "confidence": 74,
+    "rank": 204,
+    "ratingGames": 15,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.4
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5a",
+    "rating": -1.6,
+    "confidence": 82,
+    "rank": 210,
+    "ratingGames": 23,
+    "strengthOfPartners": -1.8,
+    "strengthOfOpponents": 0.7
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -0.8,
+    "confidence": 85,
+    "rank": 180,
+    "ratingGames": 31,
+    "strengthOfPartners": -1.7,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": [
+   {
+    "pid": "199ae8e1-22b4-4d8d-a41d-29cb984a3b33",
+    "name": "Malay Kaity",
+    "n": 3,
+    "synergy": 0.6
+   },
+   {
+    "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
+    "name": "Steppan Konoplev",
+    "n": 3,
+    "synergy": 0.3
+   },
+   {
+    "pid": "d6628146-5ecf-46fa-9ec2-4385171098fd",
+    "name": "Joel Steinbrunner",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
+    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
+    "name": "Aleks Mirkovic",
+    "n": 4,
+    "synergy": -0.4
+   },
+   {
+    "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
+    "name": "Xan Hong",
+    "n": 5,
+    "synergy": -0.6
    }
   ]
  },
@@ -119117,14 +123893,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -1.7,
+    "rating": -1.8,
     "confidence": 82,
-    "rank": 214,
+    "rank": 221,
     "ratingGames": 23,
-    "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0.2,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -119132,7 +123908,7 @@
     "pid": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
     "name": "Jason Mcmanmon",
     "n": 5,
-    "synergy": 1.7
+    "synergy": 1.5
    },
    {
     "pid": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
@@ -119675,11 +124451,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.6,
     "confidence": 80,
-    "rank": 212,
+    "rank": 217,
     "ratingGames": 23,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.7
@@ -119696,7 +124472,7 @@
     "pid": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
     "name": "Eric Berlinger",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
@@ -120046,14 +124822,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.4,
     "confidence": 73,
-    "rank": 202,
+    "rank": 206,
     "ratingGames": 14,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -0.5,
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -120061,7 +124837,7 @@
     "pid": "8f9be7cc-3ddf-436f-8727-02cbdd0d453f",
     "name": "Nicholas Lugo",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -120514,7 +125290,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.4,
     "confidence": 79,
@@ -120670,7 +125446,7 @@
   "ratingHistory": [
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.5,
     "confidence": 44,
@@ -120797,7 +125573,7 @@
   "ratingHistory": [
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": 0.7,
     "confidence": 50,
@@ -121164,7 +125940,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.9,
     "confidence": 73,
@@ -121518,7 +126294,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3.4,
     "confidence": 75,
@@ -122008,11 +126784,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3.8,
     "confidence": 80,
-    "rank": 254,
+    "rank": 256,
     "ratingGames": 20,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.3
@@ -122508,7 +127284,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.7,
     "confidence": 81,
@@ -122538,16 +127314,391 @@
     "synergy": -0.6
    },
    {
+    "pid": "3b9648e1-481c-4007-9932-d8df648f7bab",
+    "name": "Harsh Upadhyaya",
+    "n": 3,
+    "synergy": -0.7
+   },
+   {
     "pid": "57666861-23d0-4809-9556-b646579f2fd6",
     "name": "Aaron Chan",
     "n": 4,
     "synergy": -0.8
+   }
+  ]
+ },
+ "7f4b7644-6117-4eee-b3d8-a4955507923e": {
+  "log": [
+   {
+    "week": 3,
+    "opp": "Jersey Devil",
+    "homeAway": "A",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 122,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 5,
+    "teamGL": 27,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
    },
    {
-    "pid": "3b9648e1-481c-4007-9932-d8df648f7bab",
-    "name": "Harsh Upadhyaya",
-    "n": 3,
-    "synergy": -0.8
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 2,
+    "l": 6,
+    "gp": 8,
+    "pf": 153,
+    "pa": 163,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     2,
+     6
+    ],
+    "cl": [
+     1,
+     4
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   }
+  ],
+  "games": [
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Mario Contreras",
+     "Dan Carpenter"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Steppan Konoplev",
+    "vs": [
+     "Tom Kresky",
+     "Christopher Uston"
+    ],
+    "f": 12,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Derek Livingston",
+     "Frederick Cox"
+    ],
+    "f": 21,
+    "a": 23,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Bill Violette",
+    "vs": [
+     "Tom Kresky",
+     "Tim Bruno"
+    ],
+    "f": 16,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Derek Livingston",
+     "Frederick Cox"
+    ],
+    "f": 14,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Frederick Cox",
+     "Mario Contreras"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Tim Bruno",
+     "Derek Livingston"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 3,
+    "opp": "Jersey Devil",
+    "t": "male",
+    "with": "Keith Richard",
+    "vs": [
+     "Tim Bruno",
+     "Derek Livingston"
+    ],
+    "f": 8,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Jimmy Ramja",
+     "David Wheeler"
+    ],
+    "f": 18,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Joel Steinbrunner",
+    "vs": [
+     "Jimmy Ramja",
+     "David Wheeler"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Niman Ahmeti",
+     "Thomas Moran"
+    ],
+    "f": 21,
+    "a": 18,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Niman Ahmeti",
+     "Thomas Moran"
+    ],
+    "f": 25,
+    "a": 23,
+    "w": 1,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport"
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Andy Suphaphol",
+     "Thomas Moran"
+    ],
+    "f": 20,
+    "a": 22,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Ian Diamond",
+    "vs": [
+     "Andy Suphaphol",
+     "Thomas Moran"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport",
+    "vsSub": [
+     1,
+     0
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Andy Suphaphol",
+     "Matthew Rafaniello"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport",
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Xan Hong",
+    "vs": [
+     "Andy Suphaphol",
+     "Matthew Rafaniello"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 1,
+    "subFor": "Dill Dinkers Newport",
+    "vsSub": [
+     1,
+     1
+    ]
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 3,
+    "seq": 2,
+    "label": "3",
+    "rating": -2.8,
+    "confidence": 59,
+    "rank": 223,
+    "ratingGames": 8,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -3.2,
+    "confidence": 60,
+    "rank": 245,
+    "ratingGames": 8,
+    "strengthOfPartners": -2.1,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -2.8,
+    "confidence": 75,
+    "rank": 244,
+    "ratingGames": 16,
+    "strengthOfPartners": -2.2,
+    "strengthOfOpponents": -1.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
+    "name": "Xan Hong",
+    "n": 4,
+    "synergy": 0.8
    }
   ]
  },
@@ -123155,7 +128306,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.3,
     "confidence": 83,
@@ -123176,19 +128327,19 @@
     "pid": "148387a8-f20a-44df-981d-0d9d2e7bf443",
     "name": "Michael Vollmer",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "29646b59-bcf0-4a90-a70d-2824eb639c4c",
     "name": "Uday Acham",
     "n": 4,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
     "name": "Erik Reilly",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.6
    },
    {
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
@@ -123200,656 +128351,7 @@
     "pid": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
     "name": "Ian Kohn",
     "n": 3,
-    "synergy": -1.2
-   }
-  ]
- },
- "8f076d51-25ba-4203-97f8-12194ba5b001": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Newtown",
-    "homeAway": "H",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 136,
-    "pa": 166,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Bounce Tempest",
-    "homeAway": "H",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 96,
-    "pa": 97,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     3,
-     2
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Jersey Devil",
-    "homeAway": "A",
-    "w": 0,
-    "l": 8,
-    "gp": 8,
-    "pf": 118,
-    "pa": 168,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     8
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 109,
-    "pa": 145,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     6
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Paul Chantler",
-    "vs": [
-     "Angelo Disipio",
-     "Arnold Poblete"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Ian Diamond",
-    "vs": [
-     "Michael Johnson",
-     "Andrew Mclean"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Steven Hummel",
-     "Andrew Mclean"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Mike Leach",
-     "Alessio Muscara"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Gary Garretson",
-     "Michael Johnson"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Angelo Disipio",
-     "Arnold Poblete"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Angelo Disipio",
-     "Steven Hummel"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Paul Chantler",
-    "vs": [
-     "Arnold Poblete",
-     "Jason Wu"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "David Brond",
-    "vs": [
-     "Ethan Fu",
-     "Ken Weinstein"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Daniel Borgia",
-     "Paul Perumaly"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "David Brandolph",
-     "Ethan Fu"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Jared Rapoport",
-     "Jimmy Lee"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Malay Kaity",
-    "vs": [
-     "Ethan Fu",
-     "Jimmy Lee"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bren Calpin",
-    "vs": [
-     "Mario Contreras",
-     "Dan Carpenter"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bren Calpin",
-    "vs": [
-     "Tom Kresky",
-     "Christopher Uston"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Dan Carpenter",
-     "Jonathan Carter"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Brandon Dejesus",
-     "Frederick Cox"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Dan Ruble",
-     "Tom Kresky"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Jonathan Carter",
-     "Derek Livingston"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Jonathan Carter",
-     "Dan Carpenter"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Brandon Dejesus",
-     "Dan Carpenter"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "Jordan Demcher",
-     "Charles Evans"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "Graham Heavenrich",
-     "Harrison Bohrer"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Jesse Pettit",
-    "vs": [
-     "Charles Evans",
-     "Matt Enz"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Matt Enz",
-     "Harrison Bohrer"
-    ],
-    "f": 22,
-    "a": 24,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Xavier Vazquez",
-    "vs": [
-     "Harrison Bohrer",
-     "Lincoln Jensen"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Jordan Demcher",
-     "Charles Evans"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Jordan Demcher",
-     "Harvey Mitchell"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.4,
-    "confidence": 56,
-    "rank": 104,
-    "ratingGames": 8,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 1.1
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.1,
-    "confidence": 70,
-    "rank": 119,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.1,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.7,
-    "confidence": 79,
-    "rank": 202,
-    "ratingGames": 21,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.8,
-    "confidence": 80,
-    "rank": 213,
-    "ratingGames": 21,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -2.1,
-    "confidence": 84,
-    "rank": 226,
-    "ratingGames": 28,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 0.1
-   }
-  ],
-  "partners": [
-   {
-    "pid": "fa546fa2-45f5-4ad6-91ec-b6f6044ad8b0",
-    "name": "David Fiscella",
-    "n": 3,
-    "synergy": 1.4
-   },
-   {
-    "pid": "63eeb91c-2c9c-4dbe-8662-58fbb1d95092",
-    "name": "Bill Violette",
-    "n": 4,
-    "synergy": 0.5
-   },
-   {
-    "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
-    "name": "Xan Hong",
-    "n": 3,
-    "synergy": -0.3
-   },
-   {
-    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
-    "name": "Aleks Mirkovic",
-    "n": 5,
-    "synergy": -1.3
+    "synergy": -1.1
    }
   ]
  },
@@ -124031,11 +128533,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.1,
     "confidence": 54,
-    "rank": 228,
+    "rank": 232,
     "ratingGames": 6,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1
@@ -124341,14 +128843,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -2,
+    "rating": -1.9,
     "confidence": 70,
     "rank": 225,
     "ratingGames": 12,
-    "strengthOfPartners": -0.1,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": 0,
+    "strengthOfOpponents": 1.1
    }
   ],
   "partners": [
@@ -124648,7 +129150,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.4,
     "confidence": 69,
@@ -124663,13 +129165,13 @@
     "pid": "d6e30691-3b20-465b-8fa8-560017c20c15",
     "name": "Jesse Pettit",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "fa546fa2-45f5-4ad6-91ec-b6f6044ad8b0",
     "name": "David Fiscella",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.5
    }
   ]
  },
@@ -125004,7 +129506,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -4.2,
     "confidence": 72,
@@ -125022,332 +129524,6 @@
     "synergy": -0.3
    }
   ]
- },
- "f5a96445-7d1c-459b-8642-12a5d11554db": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Newtown",
-    "homeAway": "H",
-    "w": 2,
-    "l": 6,
-    "gp": 8,
-    "pf": 119,
-    "pa": 164,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     2,
-     6
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Bounce Tempest",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 81,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     5
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Gary Garretson",
-     "Alessio Muscara"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Steppan Konoplev",
-    "vs": [
-     "Michael Johnson",
-     "Andrew Mclean"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Paul Chantler",
-    "vs": [
-     "Angelo Disipio",
-     "Mathew Yang"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Gary Garretson",
-     "Michael Johnson"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Steven Hummel",
-     "Jason Wu"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Gary Garretson",
-     "Alessio Muscara"
-    ],
-    "f": 3,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Michael Johnson",
-     "Mike Leach"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Jimmy Duong",
-     "Andrew Mclean"
-    ],
-    "f": 24,
-    "a": 22,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Jesse Pettit",
-    "vs": [
-     "Jimmy Lee",
-     "Joseph Luka"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "David Brandolph",
-     "Jimmy Lee"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Paul Perumaly",
-     "Joseph Luka"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Paul Chantler",
-    "vs": [
-     "Ken Weinstein",
-     "Joseph Luka"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Cosme Tapia",
-    "vs": [
-     "Jared Rapoport",
-     "Joseph Luka"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -2.9,
-    "confidence": 58,
-    "rank": 158,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -3,
-    "confidence": 69,
-    "rank": 212,
-    "ratingGames": 13,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -3.6,
-    "confidence": 71,
-    "rank": 235,
-    "ratingGames": 13,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -3.8,
-    "confidence": 72,
-    "rank": 253,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -3.5,
-    "confidence": 73,
-    "rank": 253,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": -0.3
-   }
-  ],
-  "partners": []
  },
  "3ea74039-550d-4a76-a514-e024aea9fd85": {
   "log": [
@@ -125529,14 +129705,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -2.1,
+    "rating": -2,
     "confidence": 60,
-    "rank": 227,
+    "rank": 228,
     "ratingGames": 7,
-    "strengthOfPartners": -0.4,
-    "strengthOfOpponents": -0.4
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": -0.3
    }
   ],
   "partners": []
@@ -125734,11 +129910,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -0.4,
     "confidence": 59,
-    "rank": 162,
+    "rank": 159,
     "ratingGames": 7,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.4
@@ -126410,11 +130586,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -4,
     "confidence": 84,
-    "rank": 256,
+    "rank": 258,
     "ratingGames": 30,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": -0.1
@@ -127113,7 +131289,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.5,
     "confidence": 84,
@@ -127662,7 +131838,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.2,
     "confidence": 81,
@@ -127684,524 +131860,6 @@
     "name": "Buyi Zhang",
     "n": 6,
     "synergy": -0.3
-   }
-  ]
- },
- "d6e30691-3b20-465b-8fa8-560017c20c15": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Bounce Tempest",
-    "homeAway": "H",
-    "w": 1,
-    "l": 6,
-    "gp": 7,
-    "pf": 117,
-    "pa": 145,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     6
-    ],
-    "cl": [
-     1,
-     3
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 3,
-    "opp": "Jersey Devil",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 131,
-    "pa": 165,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 108,
-    "pa": 165,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Ian Diamond",
-    "vs": [
-     "Jimmy Lee",
-     "Joseph Luka"
-    ],
-    "f": 23,
-    "a": 25,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Paul Chantler",
-    "vs": [
-     "Jared Rapoport",
-     "Yong Kim"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Daniel Borgia",
-     "Jared Rapoport"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Yong Kim",
-     "Jimmy Lee"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Cosme Tapia",
-    "vs": [
-     "Daniel Borgia",
-     "Joseph Luka"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "Daniel Borgia",
-     "David Brandolph"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Malay Kaity",
-    "vs": [
-     "Ethan Fu",
-     "Jimmy Lee"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Dan Ruble",
-     "Tim Bruno"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Derek Livingston",
-     "Jonathan Carter"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Joel Steinbrunner",
-    "vs": [
-     "Tom Kresky",
-     "Christopher Uston"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Joel Steinbrunner",
-    "vs": [
-     "Mario Contreras",
-     "Jonathan Carter"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Brandon Dejesus",
-     "Jonathan Carter"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Tom Kresky",
-     "Dan Ruble"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Dan Ruble",
-     "Mario Contreras"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Dan Ruble",
-     "Christopher Uston"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Leland Weinert",
-     "Lincoln Jensen"
-    ],
-    "f": 11,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Jr Burrs",
-     "Matt Enz"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Jr Burrs",
-     "Jordan Demcher"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Steppan Konoplev",
-    "vs": [
-     "Charles Evans",
-     "Matt Enz"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Malay Kaity",
-    "vs": [
-     "Harvey Mitchell",
-     "Leland Weinert"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Malay Kaity",
-    "vs": [
-     "Harvey Mitchell",
-     "Russell Cripps"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Xavier Vazquez",
-    "vs": [
-     "Graham Heavenrich",
-     "Harvey Mitchell"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Xavier Vazquez",
-    "vs": [
-     "Matt Enz",
-     "Russell Cripps"
-    ],
-    "f": 21,
-    "a": 18,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.8,
-    "confidence": 55,
-    "rank": 158,
-    "ratingGames": 7,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -1.2,
-    "confidence": 74,
-    "rank": 181,
-    "ratingGames": 15,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -1.4,
-    "confidence": 74,
-    "rank": 204,
-    "ratingGames": 15,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 0.4
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -1.6,
-    "confidence": 82,
-    "rank": 210,
-    "ratingGames": 23,
-    "strengthOfPartners": -1.8,
-    "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": [
-   {
-    "pid": "199ae8e1-22b4-4d8d-a41d-29cb984a3b33",
-    "name": "Malay Kaity",
-    "n": 3,
-    "synergy": 0.7
-   },
-   {
-    "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
-    "name": "Xan Hong",
-    "n": 3,
-    "synergy": -0.5
    }
   ]
  },
@@ -128401,211 +132059,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.1,
     "confidence": 62,
-    "rank": 190,
+    "rank": 194,
     "ratingGames": 8,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": []
- },
- "7f4b7644-6117-4eee-b3d8-a4955507923e": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Jersey Devil",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 122,
-    "pa": 166,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Steppan Konoplev",
-    "vs": [
-     "Mario Contreras",
-     "Dan Carpenter"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Steppan Konoplev",
-    "vs": [
-     "Tom Kresky",
-     "Christopher Uston"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Derek Livingston",
-     "Frederick Cox"
-    ],
-    "f": 21,
-    "a": 23,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Tom Kresky",
-     "Tim Bruno"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Derek Livingston",
-     "Frederick Cox"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Frederick Cox",
-     "Mario Contreras"
-    ],
-    "f": 22,
-    "a": 20,
-    "w": 1,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Tim Bruno",
-     "Derek Livingston"
-    ],
-    "f": 13,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Tim Bruno",
-     "Derek Livingston"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 1,
-    "subFor": "Dill Dinkers Newport"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -2.8,
-    "confidence": 59,
-    "rank": 223,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -3.2,
-    "confidence": 60,
-    "rank": 245,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.1,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -3.4,
-    "confidence": 61,
-    "rank": 251,
-    "ratingGames": 8,
-    "strengthOfPartners": -2.1,
-    "strengthOfOpponents": -0.9
    }
   ],
   "partners": []
@@ -128954,7 +132415,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.2,
     "confidence": 76,
@@ -128970,367 +132431,6 @@
     "name": "Eric Berlinger",
     "n": 4,
     "synergy": -0.3
-   }
-  ]
- },
- "d6628146-5ecf-46fa-9ec2-4385171098fd": {
-  "log": [
-   {
-    "week": 3,
-    "opp": "Jersey Devil",
-    "homeAway": "A",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 116,
-    "pa": 164,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 5,
-    "teamGL": 27,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Bounce Malvern",
-    "homeAway": "H",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 125,
-    "pa": 166,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 3,
-    "teamGL": 29,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Christopher Uston",
-     "Brandon Dejesus"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Dan Ruble",
-     "Tim Bruno"
-    ],
-    "f": 10,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Jesse Pettit",
-    "vs": [
-     "Tom Kresky",
-     "Christopher Uston"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Jesse Pettit",
-    "vs": [
-     "Mario Contreras",
-     "Jonathan Carter"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Christopher Uston",
-     "Dan Carpenter"
-    ],
-    "f": 21,
-    "a": 17,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Brandon Dejesus",
-     "Tim Bruno"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Brandon Dejesus",
-     "Christopher Uston"
-    ],
-    "f": 9,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 3,
-    "opp": "Jersey Devil",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Frederick Cox",
-     "Mario Contreras"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Graham Heavenrich",
-     "Matt Enz"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Harvey Mitchell",
-     "Charles Evans"
-    ],
-    "f": 5,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Malay Kaity",
-    "vs": [
-     "Graham Heavenrich",
-     "Russell Cripps"
-    ],
-    "f": 12,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Malay Kaity",
-    "vs": [
-     "Leland Weinert",
-     "Harrison Bohrer"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "Graham Heavenrich",
-     "Lincoln Jensen"
-    ],
-    "f": 19,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "Leland Weinert",
-     "Charles Evans"
-    ],
-    "f": 21,
-    "a": 19,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Harrison Bohrer",
-     "Lincoln Jensen"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 5,
-    "opp": "Bounce Malvern",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Jr Burrs",
-     "Leland Weinert"
-    ],
-    "f": 18,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -2.7,
-    "confidence": 60,
-    "rank": 222,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -3,
-    "confidence": 61,
-    "rank": 241,
-    "ratingGames": 8,
-    "strengthOfPartners": -1.6,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -2.8,
-    "confidence": 75,
-    "rank": 240,
-    "ratingGames": 16,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
-    "name": "Aleks Mirkovic",
-    "n": 4,
-    "synergy": 0.4
    }
   ]
  },
@@ -129441,6 +132541,33 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball HQ",
+    "homeAway": "H",
+    "w": 1,
+    "l": 7,
+    "gp": 8,
+    "pf": 142,
+    "pa": 166,
+    "mx": [
+     0,
+     0
+    ],
+    "gn": [
+     1,
+     7
+    ],
+    "cl": [
+     1,
+     3
+    ],
+    "teamRes": "L",
+    "teamGW": 14,
+    "teamGL": 18,
     "sub": 0,
     "subFor": null
    }
@@ -129831,6 +132958,160 @@
     "ff": 0,
     "sub": 0,
     "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Niman Ahmeti",
+     "Matthew Rafaniello"
+    ],
+    "f": 22,
+    "a": 20,
+    "w": 1,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Aleks Mirkovic",
+    "vs": [
+     "Niman Ahmeti",
+     "Matthew Rafaniello"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Jimmy Ramja",
+     "Andy Suphaphol"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Jesse Pettit",
+    "vs": [
+     "Jimmy Ramja",
+     "Andy Suphaphol"
+    ],
+    "f": 13,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Niman Ahmeti",
+     "Jose Campos"
+    ],
+    "f": 19,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Paul Chantler",
+    "vs": [
+     "Niman Ahmeti",
+     "Jose Campos"
+    ],
+    "f": 17,
+    "a": 21,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Andy Suphaphol",
+     "Matthew Rafaniello"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
+   },
+   {
+    "wk": 5,
+    "opp": "Pickleball HQ",
+    "t": "male",
+    "with": "Bren Calpin",
+    "vs": [
+     "Andy Suphaphol",
+     "Matthew Rafaniello"
+    ],
+    "f": 23,
+    "a": 25,
+    "w": 0,
+    "ff": 0,
+    "sub": 0,
+    "subFor": null,
+    "withSub": 1,
+    "vsSub": [
+     1,
+     1
+    ]
    }
   ],
   "ratingHistory": [
@@ -129881,39 +133162,62 @@
    {
     "week": 5,
     "seq": 4,
-    "label": "5",
+    "label": "5a",
     "rating": -5,
     "confidence": 83,
     "rank": 261,
     "ratingGames": 24,
     "strengthOfPartners": -1.7,
     "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5b",
+    "rating": -5,
+    "confidence": 86,
+    "rank": 263,
+    "ratingGames": 32,
+    "strengthOfPartners": -1.3,
+    "strengthOfOpponents": -0.4
    }
   ],
   "partners": [
    {
-    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
-    "name": "Aleks Mirkovic",
+    "pid": "7f4b7644-6117-4eee-b3d8-a4955507923e",
+    "name": "Bren Calpin",
     "n": 4,
-    "synergy": -0.3
+    "synergy": 0.8
    },
    {
-    "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
-    "name": "Steppan Konoplev",
-    "n": 3,
-    "synergy": -0.3
+    "pid": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
+    "name": "Aleks Mirkovic",
+    "n": 6,
+    "synergy": 0
    },
    {
     "pid": "63eeb91c-2c9c-4dbe-8662-58fbb1d95092",
     "name": "Bill Violette",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.1
+   },
+   {
+    "pid": "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2",
+    "name": "Paul Chantler",
+    "n": 3,
+    "synergy": -0.2
    },
    {
     "pid": "d6e30691-3b20-465b-8fa8-560017c20c15",
     "name": "Jesse Pettit",
+    "n": 5,
+    "synergy": -0.6
+   },
+   {
+    "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
+    "name": "Steppan Konoplev",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.8
    }
   ]
  },
@@ -130388,7 +133692,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -1.8,
     "confidence": 81,
@@ -130403,343 +133707,15 @@
     "pid": "8f076d51-25ba-4203-97f8-12194ba5b001",
     "name": "Steppan Konoplev",
     "n": 4,
-    "synergy": 0.5
+    "synergy": 0
    },
    {
     "pid": "e83b9a6f-83c6-4b66-a470-a0cae4f462df",
     "name": "Xan Hong",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.1
    }
   ]
- },
- "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2": {
-  "log": [
-   {
-    "week": 1,
-    "opp": "Picklr Newtown",
-    "homeAway": "H",
-    "w": 1,
-    "l": 7,
-    "gp": 8,
-    "pf": 134,
-    "pa": 166,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     1,
-     7
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 2,
-    "opp": "Bounce Tempest",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 63,
-    "pa": 105,
-    "mx": [
-     0,
-     0
-    ],
-    "gn": [
-     0,
-     5
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 9,
-    "teamGL": 23,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "games": [
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Steppan Konoplev",
-    "vs": [
-     "Angelo Disipio",
-     "Arnold Poblete"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Rick Olafsson",
-    "vs": [
-     "Steven Hummel",
-     "Alessio Muscara"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Ian Diamond",
-    "vs": [
-     "Angelo Disipio",
-     "Mathew Yang"
-    ],
-    "f": 16,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Aleks Mirkovic",
-    "vs": [
-     "Jimmy Duong",
-     "Jason Wu"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Keith Richard",
-    "vs": [
-     "Mike Leach",
-     "Alessio Muscara"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Bill Violette",
-    "vs": [
-     "Jimmy Duong",
-     "Andrew Mclean"
-    ],
-    "f": 23,
-    "a": 21,
-    "w": 1,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Xan Hong",
-    "vs": [
-     "Jimmy Duong",
-     "Jason Wu"
-    ],
-    "f": 15,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 1,
-    "opp": "Picklr Newtown",
-    "t": "male",
-    "with": "Steppan Konoplev",
-    "vs": [
-     "Arnold Poblete",
-     "Jason Wu"
-    ],
-    "f": 17,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "David Fiscella",
-    "vs": [
-     "Daniel Borgia",
-     "Paul Perumaly"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Jesse Pettit",
-    "vs": [
-     "Jared Rapoport",
-     "Yong Kim"
-    ],
-    "f": 14,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "David Brond",
-    "vs": [
-     "Daniel Borgia",
-     "Ken Weinstein"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Ian Diamond",
-    "vs": [
-     "Ken Weinstein",
-     "Joseph Luka"
-    ],
-    "f": 20,
-    "a": 22,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "wk": 2,
-    "opp": "Bounce Tempest",
-    "t": "male",
-    "with": "Nitin Chawke",
-    "vs": [
-     "Daniel Borgia",
-     "Yong Kim"
-    ],
-    "f": 8,
-    "a": 21,
-    "w": 0,
-    "ff": 0,
-    "sub": 0,
-    "subFor": null,
-    "withSub": 1
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 1,
-    "seq": 0,
-    "label": "1",
-    "rating": -0.9,
-    "confidence": 57,
-    "rank": 120,
-    "ratingGames": 8,
-    "strengthOfPartners": -0.9,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -2.6,
-    "confidence": 70,
-    "rank": 206,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.2,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 3,
-    "seq": 2,
-    "label": "3",
-    "rating": -3,
-    "confidence": 71,
-    "rank": 228,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -3.1,
-    "confidence": 72,
-    "rank": 244,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -3,
-    "confidence": 73,
-    "rank": 244,
-    "ratingGames": 13,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": -0.1
-   }
-  ],
-  "partners": []
  },
  "ef0e9803-0038-4cb9-ad16-a55c54f00339": {
   "log": [
@@ -131316,7 +134292,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3.5,
     "confidence": 84,
@@ -131331,25 +134307,25 @@
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
     "name": "Hua Lin",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
     "name": "Big G",
     "n": 8,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
     "name": "Ben Cortes",
     "n": 3,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
     "name": "Siva Indupuru",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -132100,7 +135076,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3,
     "confidence": 86,
@@ -132124,16 +135100,16 @@
     "synergy": 0.5
    },
    {
-    "pid": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
-    "name": "Ian Kohn",
-    "n": 8,
-    "synergy": 0.2
-   },
-   {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
     "name": "Ben Cortes",
     "n": 5,
     "synergy": 0.2
+   },
+   {
+    "pid": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
+    "name": "Ian Kohn",
+    "n": 8,
+    "synergy": 0.1
    },
    {
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -132592,14 +135568,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -1.9,
+    "rating": -2.1,
     "confidence": 79,
-    "rank": 222,
+    "rank": 229,
     "ratingGames": 19,
-    "strengthOfPartners": -1,
-    "strengthOfOpponents": 0.7
+    "strengthOfPartners": -1.1,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": [
@@ -132607,13 +135583,13 @@
     "pid": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
     "name": "Siva Indupuru",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "6b263caa-80f7-40d2-9248-559f91ffe71e",
     "name": "Hua Lin",
     "n": 5,
-    "synergy": -0.8
+    "synergy": -0.7
    }
   ]
  },
@@ -133075,11 +136051,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.3,
     "confidence": 79,
-    "rank": 233,
+    "rank": 235,
     "ratingGames": 19,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.2
@@ -133554,7 +136530,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3.1,
     "confidence": 78,
@@ -133721,11 +136697,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.9,
     "confidence": 55,
-    "rank": 241,
+    "rank": 246,
     "ratingGames": 6,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.6
@@ -133866,14 +136842,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3,
-    "confidence": 45,
-    "rank": 246,
+    "confidence": 46,
+    "rank": 249,
     "ratingGames": 4,
-    "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": -0.4,
+    "strengthOfOpponents": 0.5
    }
   ],
   "partners": []
@@ -134008,11 +136984,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.2,
     "confidence": 48,
-    "rank": 232,
+    "rank": 234,
     "ratingGames": 5,
     "strengthOfPartners": -2.3,
     "strengthOfOpponents": -0.1
@@ -134203,11 +137179,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.6,
     "confidence": 53,
-    "rank": 239,
+    "rank": 241,
     "ratingGames": 6,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 1.5
@@ -134378,7 +137354,7 @@
   "ratingHistory": [
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -2.2,
     "confidence": 62,
@@ -134619,7 +137595,7 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -4.7,
     "confidence": 64,
@@ -134840,11 +137816,11 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
     "rating": -3,
     "confidence": 61,
-    "rank": 245,
+    "rank": 248,
     "ratingGames": 8,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": 0.7
@@ -135154,14 +138130,14 @@
    },
    {
     "week": 5,
-    "seq": 4,
+    "seq": 5,
     "label": "5",
-    "rating": -4.1,
+    "rating": -4.4,
     "confidence": 70,
-    "rank": 257,
+    "rank": 261,
     "ratingGames": 11,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 0.6
+    "strengthOfPartners": -2,
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [

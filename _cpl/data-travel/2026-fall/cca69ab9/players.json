@@ -481,7 +481,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 198
+      "ranking": 199
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -573,7 +573,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 199
+      "ranking": 200
     },
     {
       "playerId": "1a851b17-0445-4807-b476-575fd261f774",
@@ -642,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 194
+      "ranking": 195
     },
     {
       "playerId": "1ddcd805-f965-4357-9567-35920e191f8c",
@@ -1332,7 +1332,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 193
+      "ranking": 194
     },
     {
       "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
@@ -1447,7 +1447,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 195
+      "ranking": 196
     },
     {
       "playerId": "4ce1c715-b187-47c5-b6dc-d079f802499d",
@@ -2508,6 +2508,29 @@
       "ranking": 84
     },
     {
+      "playerId": "87d526c6-72b6-4b17-bf77-9016fd049541",
+      "firstName": "Eric",
+      "lastName": "Nguyen",
+      "gender": "Male",
+      "dupr": "EGLMNV",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "teamName": "Bounce Tempest",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 193
+    },
+    {
       "playerId": "88c57c1f-436b-4280-9bd7-75eafe496b70",
       "firstName": "Kevin",
       "lastName": "Sun",
@@ -2942,7 +2965,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 196
+      "ranking": 197
     },
     {
       "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
@@ -3080,7 +3103,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 197
+      "ranking": 198
     },
     {
       "playerId": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
@@ -3402,7 +3425,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 200
+      "ranking": 201
     },
     {
       "playerId": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
@@ -4230,7 +4253,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 201
+      "ranking": 202
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",

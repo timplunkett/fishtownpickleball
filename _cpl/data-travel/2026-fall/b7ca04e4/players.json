@@ -10311,7 +10311,7 @@
       "gender": "Male",
       "dupr": "2YW5PY",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
       "teamName": "Montville",
       "wins": 11,

@@ -2305,6 +2305,13 @@ window.DUPR_AUDIT = {
    "name": "Brandon Tsang",
    "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
    "team": "Montville",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Brandon Tsang",
+   "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
+   "team": "Montville",
    "slug": "c118b8e9",
    "gender": "Male"
   },

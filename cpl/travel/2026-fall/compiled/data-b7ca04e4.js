@@ -1020,8 +1020,8 @@
    "name": "Brandon Tsang",
    "gender": "Male",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 11,
@@ -30565,8 +30565,7 @@
     }
    ],
    "subs": [
-    "Sal Cocuzza",
-    "Brandon Tsang"
+    "Sal Cocuzza"
    ]
   },
   {
@@ -54268,8 +54267,7 @@
     }
    ],
    "subs": [
-    "Lisamarie Chinchilla",
-    "Brandon Tsang"
+    "Lisamarie Chinchilla"
    ]
   },
   {
@@ -65426,7 +65424,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-27T16:05:55.311Z";
+  DATA.meta.asOf = "2026-09-27T20:40:31.675Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
