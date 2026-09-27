@@ -4256,7 +4256,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4410,6 +4410,35 @@
    "playerId": "110b981a-77ae-42b0-8200-4e30e9ce157a"
   },
   {
+   "name": "Charlene De Lara",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 163,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "16f9fddd-e9cd-4e65-9090-2764c44fc74a"
+  },
+  {
    "name": "Edie Kwasnoski",
    "gender": "Female",
    "team": "Picklr Newtown",
@@ -4488,7 +4517,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -4555,6 +4584,35 @@
    "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45"
   },
   {
+   "name": "Lynette Pil",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 182,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "92b709b8-b68c-436f-95e5-d9db2908cc3c"
+  },
+  {
    "name": "Nancy Luyando",
    "gender": "Female",
    "team": "PKLD",
@@ -4611,6 +4669,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2"
+  },
+  {
+   "name": "Sultane Cosaj",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 160,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c80624a6-0c31-4792-bc8d-c9f1d2153dca"
   },
   {
    "name": "Jenny Miller",
@@ -19853,35 +19940,47 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine Catanzaro",
+      "Eileen Clark"
      ],
      "a": [
       "Esha Gajjar",
       "Rachel Mcgowan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Beth Pardilla"
      ],
      "a": [
       "Virginie Boutin",
       "Jacqueline Ho"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene De Lara",
+      "Sultane Cosaj"
      ],
      "a": [
       "Sulyn Kulick",
       "Edie Kwasnoski"
      ],
+     "hSub": [
+      1,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -19890,46 +19989,62 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Lynette Pil"
      ],
      "a": [
       "Heather Waters",
       "Suzi French"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Josephine Catanzaro"
      ],
      "a": [
       "Virginie Boutin",
       "Sulyn Kulick"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Beth Pardilla"
      ],
      "a": [
       "Esha Gajjar",
       "Rachel Mcgowan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynette Pil",
+      "Lynne Silber"
      ],
      "a": [
       "Holli Lish",
       "Jodi De Waal"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       0,
       1
@@ -19938,30 +20053,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sultane Cosaj",
+      "Charlene De Lara"
      ],
      "a": [
       "Heather Waters",
       "Suzi French"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sultane Cosaj",
+      "Josephine Catanzaro"
      ],
      "a": [
       "Virginie Boutin",
       "Holli Lish"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Eileen Clark"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -19971,12 +20094,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene De Lara",
+      "Lynette Pil"
      ],
      "a": [
       "Sulyn Kulick",
       "Edie Kwasnoski"
+     ],
+     "hSub": [
+      1,
+      1
      ],
      "aSub": [
       0,
@@ -19986,13 +20113,17 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Pardilla",
+      "Lynne Silber"
      ],
      "a": [
       "Jodi De Waal",
       "Suzi French"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       1,
       0
@@ -20001,19 +20132,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sultane Cosaj",
+      "Josephine Catanzaro"
      ],
      "a": [
       "Virginie Boutin",
       "Sulyn Kulick"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Eileen Clark"
      ],
      "a": [
       "Esha Gajjar",
@@ -20023,13 +20158,17 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Beth Pardilla"
      ],
      "a": [
       "Rachel Mcgowan",
       "Edie Kwasnoski"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -20038,35 +20177,47 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene De Lara",
+      "Lynette Pil"
      ],
      "a": [
       "Heather Waters",
       "Holli Lish"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Pardilla",
+      "Eileen Clark"
      ],
      "a": [
       "Esha Gajjar",
       "Jacqueline Ho"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Charlene De Lara"
      ],
      "a": [
       "Virginie Boutin",
       "Jodi De Waal"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -20075,24 +20226,32 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine Catanzaro",
+      "Lynette Pil"
      ],
      "a": [
       "Heather Waters",
       "Holli Lish"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sultane Cosaj",
+      "Lynne Silber"
      ],
      "a": [
       "Suzi French",
       "Edie Kwasnoski"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       0,
       1
@@ -20101,35 +20260,47 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Charlene De Lara"
      ],
      "a": [
       "Rachel Mcgowan",
       "Sulyn Kulick"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Pardilla",
+      "Eileen Clark"
      ],
      "a": [
       "Virginie Boutin",
       "Jacqueline Ho"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Sultane Cosaj"
      ],
      "a": [
       "Heather Waters",
       "Jodi De Waal"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -20138,13 +20309,17 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine Catanzaro",
+      "Lynette Pil"
      ],
      "a": [
       "Edie Kwasnoski",
       "Suzi French"
      ],
+     "hSub": [
+      1,
+      1
+     ],
      "aSub": [
       1,
       0
@@ -20153,23 +20328,31 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene De Lara",
+      "Beth Pardilla"
      ],
      "a": [
       "Esha Gajjar",
       "Virginie Boutin"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Lynette Pil"
      ],
      "a": [
       "Rachel Mcgowan",
       "Jodi De Waal"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -20179,24 +20362,32 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Sultane Cosaj"
      ],
      "a": [
       "Holli Lish",
       "Sulyn Kulick"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Josephine Catanzaro",
+      "Lynne Silber"
      ],
      "a": [
       "Jacqueline Ho",
       "Edie Kwasnoski"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       0,
       1
@@ -20205,35 +20396,47 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Josephine Catanzaro"
      ],
      "a": [
       "Rachel Mcgowan",
       "Holli Lish"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene De Lara",
+      "Beth Pardilla"
      ],
      "a": [
       "Esha Gajjar",
       "Sulyn Kulick"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nikki Nigro",
+      "Lynette Pil"
      ],
      "a": [
       "Heather Waters",
       "Jodi De Waal"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -20242,12 +20445,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Sultane Cosaj"
      ],
      "a": [
       "Suzi French",
       "Jacqueline Ho"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -21848,13 +22055,11 @@
   "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
-  "Charlene De Lara": "16f9fddd-e9cd-4e65-9090-2764c44fc74a",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
-  "Sultane Cosaj": "c80624a6-0c31-4792-bc8d-c9f1d2153dca",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
@@ -21863,7 +22068,7 @@
   "matchesPlayed": 25,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 170,
+  "totalPlayers": 173,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -21952,7 +22157,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-27T02:41:54.041Z";
+  DATA.meta.asOf = "2026-09-27T11:06:47.055Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

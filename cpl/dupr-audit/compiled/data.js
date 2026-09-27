@@ -13572,6 +13572,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Nathan Malhotra",
+   "playerId": "98bd685a-3161-45fc-941f-3a8c9f4849cf",
+   "team": "Home Court",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
    "name": "Nathan Trimmer",
    "playerId": "9541ec05-a25a-4577-b59c-bdf04006b1b6",
    "team": "Dill Dinkers Hatboro",

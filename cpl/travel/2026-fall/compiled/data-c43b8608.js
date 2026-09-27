@@ -10288,7 +10288,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 425,
+   "leagueRank": 427,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10346,7 +10346,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 403,
+   "leagueRank": 404,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10375,7 +10375,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 421,
+   "leagueRank": 423,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10433,7 +10433,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 426,
+   "leagueRank": 428,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10462,7 +10462,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 390,
+   "leagueRank": 391,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10520,7 +10520,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 422,
+   "leagueRank": 424,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10549,7 +10549,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10578,7 +10578,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 430,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 398,
+   "leagueRank": 399,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10665,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 411,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10694,7 +10694,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 391,
+   "leagueRank": 392,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10732,6 +10732,35 @@
    "playerId": "0eea8d08-e55e-40be-b1cd-4853b2fbb11d"
   },
   {
+   "name": "Corinne Demeuse",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 390,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2a820b56-af8a-4856-8db8-fb8e7c133e08"
+  },
+  {
    "name": "Barbara Maguire",
    "gender": "Female",
    "team": "PickleRage Union County",
@@ -10752,7 +10781,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10781,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 423,
+   "leagueRank": 425,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 416,
+   "leagueRank": 418,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 408,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10906,6 +10935,35 @@
    "playerId": "6202ab1c-d9ee-46e0-8020-c19f73658e3c"
   },
   {
+   "name": "Christine Algozo",
+   "gender": "Female",
+   "team": "Montville Dragons",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 378,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "67afa47c-0543-4eb0-a949-fd28b870d20c"
+  },
+  {
    "name": "Kara Chubrik",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
@@ -10933,6 +10991,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "6848f02a-1acc-47f8-8743-3525311031a9"
+  },
+  {
+   "name": "Ayten Mayer",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 412,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "8072e25c-4788-48b5-a440-0d4403f89f4f"
   },
   {
    "name": "Lan Bin",
@@ -10984,7 +11071,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 420,
+   "leagueRank": 422,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11013,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 427,
+   "leagueRank": 429,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11042,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 433,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11071,7 +11158,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 414,
+   "leagueRank": 416,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11187,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 395,
+   "leagueRank": 396,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 397,
+   "leagueRank": 398,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -37185,353 +37272,481 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Uma Kamineni"
      ],
      "a": [
       "Kirsten Hinds",
       "Nate Brochin"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Kenneth Margolin"
      ],
      "a": [
       "Janet Bellaran",
       "John Laspina"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Robert Shea"
      ],
      "a": [
       "Sarah Flynn",
       "Glenn Gelband"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dari Mehl",
+      "Vlad Radomsky"
      ],
      "a": [
       "Doreen Arleth",
       "Mike Lasko"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Karin Schneider"
      ],
      "a": [
       "Janet Bellaran",
       "Michele Heinle"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Corinne Demeuse"
      ],
      "a": [
       "Kirsten Hinds",
       "Doreen Arleth"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Uma Kamineni",
+      "Kenneth Margolin"
      ],
      "a": [
       "Glenn Gelband",
       "Robert Toledo"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Radomsky",
+      "Robert Shea"
      ],
      "a": [
       "Stephen Arleth",
       "Mike Lasko"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Uma Kamineni"
      ],
      "a": [
       "Janet Bellaran",
       "Nate Brochin"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Corinne Demeuse",
+      "Robert Shea"
      ],
      "a": [
       "Kirsten Hinds",
       "John Laspina"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dari Mehl",
+      "Kenneth Margolin"
      ],
      "a": [
       "Michele Heinle",
       "Glenn Gelband"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Vlad Radomsky"
      ],
      "a": [
       "Doreen Arleth",
       "Stephen Arleth"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Corinne Demeuse",
+      "Karin Schneider"
      ],
      "a": [
       "Kirsten Hinds",
       "Michele Heinle"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Dari Mehl"
      ],
      "a": [
       "Doreen Arleth",
       "Sarah Flynn"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Shea",
+      "Uma Kamineni"
      ],
      "a": [
       "John Laspina",
       "Robert Toledo"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Radomsky",
+      "Kenneth Margolin"
      ],
      "a": [
       "Stephen Arleth",
       "Mike Lasko"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Kenneth Margolin"
      ],
      "a": [
       "Doreen Arleth",
       "Mike Lasko"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Vlad Radomsky"
      ],
      "a": [
       "Janet Bellaran",
       "Robert Toledo"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Corinne Demeuse",
+      "Robert Shea"
      ],
      "a": [
       "Sarah Flynn",
       "Glenn Gelband"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dari Mehl",
+      "Uma Kamineni"
      ],
      "a": [
       "Michele Heinle",
       "Stephen Arleth"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Dari Mehl"
      ],
      "a": [
       "Janet Bellaran",
       "Michele Heinle"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Corinne Demeuse",
+      "Karin Schneider"
      ],
      "a": [
       "Sarah Flynn",
       "Kirsten Hinds"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenneth Margolin",
+      "Vlad Radomsky"
      ],
      "a": [
       "Nate Brochin",
       "Glenn Gelband"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Uma Kamineni",
+      "Robert Shea"
      ],
      "a": [
       "John Laspina",
       "Mike Lasko"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Robert Shea"
      ],
      "a": [
       "Janet Bellaran",
       "John Laspina"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karin Schneider",
+      "Kenneth Margolin"
      ],
      "a": [
       "Kirsten Hinds",
       "Nate Brochin"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dari Mehl",
+      "Vlad Radomsky"
      ],
      "a": [
       "Doreen Arleth",
       "Stephen Arleth"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ayten Mayer",
+      "Uma Kamineni"
      ],
      "a": [
       "Sarah Flynn",
       "Robert Toledo"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dari Mehl",
+      "Karin Schneider"
      ],
      "a": [
       "Sarah Flynn",
       "Michele Heinle"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Corinne Demeuse",
+      "Kara Chubrik"
      ],
      "a": [
       "Kirsten Hinds",
       "Janet Bellaran"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Radomsky",
+      "Uma Kamineni"
      ],
      "a": [
       "Robert Toledo",
       "Glenn Gelband"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenneth Margolin",
+      "Robert Shea"
      ],
      "a": [
       "Nate Brochin",
       "John Laspina"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -38359,8 +38574,12 @@
       "Geordielyn Alviola"
      ],
      "a": [
-      "Karen Gallione",
+      "Christine Algozo",
       "Jess Cox"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -38458,8 +38677,12 @@
       "Geordielyn Alviola"
      ],
      "a": [
-      "Karen Gallione",
+      "Christine Algozo",
       "Janine Thompson"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -38513,8 +38736,12 @@
       "Gajendra Mehta"
      ],
      "a": [
-      "Karen Gallione",
+      "Christine Algozo",
       "Michael-John Van Rhyn"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -38590,8 +38817,12 @@
       "Jun Li"
      ],
      "a": [
-      "Karen Gallione",
+      "Christine Algozo",
       "Jonathan Basa"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -38623,8 +38854,12 @@
       "Geordielyn Alviola"
      ],
      "a": [
-      "Karen Gallione",
+      "Christine Algozo",
       "Jess Cox"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -39257,7 +39492,6 @@
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "Denise Werner": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
-  "Christine Algozo": "67afa47c-0543-4eb0-a949-fd28b870d20c",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
@@ -39277,7 +39511,7 @@
   "matchesPlayed": 42,
   "provisionalMatches": 1,
   "weeks": "1-6",
-  "totalPlayers": 406,
+  "totalPlayers": 409,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -39388,7 +39622,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-27T02:41:24.202Z";
+  DATA.meta.asOf = "2026-09-27T11:06:23.972Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

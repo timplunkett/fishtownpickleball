@@ -1948,8 +1948,8 @@
    "name": "Nathan Malhotra",
    "gender": "Male",
    "team": "Home Court",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 7,
@@ -5416,7 +5416,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 220,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 222,
+   "leagueRank": 223,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,7 +5590,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5619,7 +5619,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,13 +5677,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a"
+  },
+  {
+   "name": "Jamie Hahn",
+   "gender": "Female",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 208,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "17019012-f2ff-4e9a-958a-928369685b36"
   },
   {
    "name": "Jaco De Waal",
@@ -5735,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 228,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,42 +5996,13 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 224,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a"
-  },
-  {
-   "name": "Johanna Kreilick",
-   "gender": "Female",
-   "team": "Flemington",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 211,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
   },
   {
    "name": "Tara Kramer",
@@ -6025,7 +6025,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16666,8 +16666,7 @@
     }
    ],
    "subs": [
-    "Hany Ibrahim",
-    "Nathan Malhotra"
+    "Hany Ibrahim"
    ]
   },
   {
@@ -18528,7 +18527,6 @@
    ],
    "subs": [
     "Ashley Barros",
-    "Nathan Malhotra",
     "Gift Horn",
     "Johanna Wagner"
    ]
@@ -23197,7 +23195,7 @@
     {
      "t": "mixed",
      "h": [
-      "Johanna Kreilick",
+      "Jamie Hahn",
       "Obege Janvier"
      ],
      "a": [
@@ -23258,7 +23256,7 @@
      "t": "female",
      "h": [
       "Tara Kramer",
-      "Johanna Kreilick"
+      "Jamie Hahn"
      ],
      "a": [
       "Yuki Kim",
@@ -23370,7 +23368,7 @@
     {
      "t": "mixed",
      "h": [
-      "Johanna Kreilick",
+      "Jamie Hahn",
       "Obege Janvier"
      ],
      "a": [
@@ -23386,7 +23384,7 @@
      "t": "female",
      "h": [
       "Tara Kramer",
-      "Johanna Kreilick"
+      "Jamie Hahn"
      ],
      "a": [
       "Yuki Kim",
@@ -23502,7 +23500,7 @@
     {
      "t": "mixed",
      "h": [
-      "Johanna Kreilick",
+      "Jamie Hahn",
       "Robbie Oddy"
      ],
      "a": [
@@ -23522,7 +23520,7 @@
      "t": "female",
      "h": [
       "Kelly Arvidson",
-      "Johanna Kreilick"
+      "Jamie Hahn"
      ],
      "a": [
       "Yuki Kim",
@@ -23634,7 +23632,7 @@
     {
      "t": "mixed",
      "h": [
-      "Johanna Kreilick",
+      "Jamie Hahn",
       "Robbie Oddy"
      ],
      "a": [
@@ -23673,7 +23671,7 @@
      "t": "female",
      "h": [
       "Kelly Arvidson",
-      "Johanna Kreilick"
+      "Jamie Hahn"
      ],
      "a": [
       "Megan Harvey",
@@ -25249,7 +25247,8 @@
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
-  "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021"
+  "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
+  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
  },
  "meta": {
   "matchesPlayed": 28,
@@ -25342,7 +25341,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-27T02:40:58.371Z";
+  DATA.meta.asOf = "2026-09-27T11:06:02.608Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
