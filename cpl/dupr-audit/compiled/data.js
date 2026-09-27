@@ -17170,6 +17170,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Syed Haider",
+   "playerId": "e9d967d2-d906-43e5-9ab9-afc93f17df03",
+   "team": "Pickleball Kingdom Hamilton",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Taina Wesner",
    "playerId": "583c5e68-0868-4a21-b1f0-0e68b9559476",
    "team": "Bounce Malvern",

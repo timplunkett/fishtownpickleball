@@ -389,9 +389,9 @@
       "weekNumber": 5,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 316,
+      "awayPoints": 503,
+      "endResult": "away",
       "scheduledTime": "2026-09-27T09:00:00",
       "homeName": "Flemington",
       "awayName": "Bounce Malvern"
