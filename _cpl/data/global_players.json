@@ -32008,7 +32008,7 @@
     "lastName": "King",
     "dupr": "3XQ6D7",
     "duprRating": "3.814",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 6142522934,
     "duprProvisional": false
   },
@@ -47294,6 +47294,16 @@
     "duprRating": "NR",
     "lastSeen": "2026-09",
     "duprNumericId": 7399066708,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "2d0e1678-9ee4-4889-960c-69370ae8b999",
+    "firstName": "Alicia",
+    "lastName": "Valko",
+    "dupr": "42LJMG",
+    "duprRating": "NR",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7285207430,
     "duprProvisional": false
   }
 ]

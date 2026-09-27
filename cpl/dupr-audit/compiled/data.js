@@ -8379,7 +8379,7 @@ window.DUPR_AUDIT = {
   },
   {
    "name": "Jimmy Duong",
-   "playerId": "c19baf91-31e2-4024-881f-d5c4cdb9d311",
+   "playerId": "06a3741d-10e5-462b-ba95-aa997d4eb8ea",
    "team": "ACE Downingtown",
    "slug": "e27386b3",
    "gender": "Male"
@@ -12008,6 +12008,13 @@ window.DUPR_AUDIT = {
    "playerId": "9de9a96a-2ff8-49eb-b59f-1e898a7c07de",
    "team": "PickleRage Union County",
    "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Maritoni Agatep",
+   "playerId": "cb9b7db4-1854-4aba-93bd-2fc96f563e6c",
+   "team": "Home Court",
+   "slug": "a1413f3d",
    "gender": "Female"
   },
   {
@@ -18756,6 +18763,13 @@ window.DUPR_AUDIT = {
    "playerId": "eebadc3a-5763-4612-9232-d3a98ea188d6",
    "team": "Jersey Devil",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Zach Bowe",
+   "playerId": "eebadc3a-5763-4612-9232-d3a98ea188d6",
+   "team": "Jersey Devil",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {

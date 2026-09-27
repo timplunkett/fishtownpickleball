@@ -162,6 +162,7 @@ window.DUPR_RATINGS = {
  "d23839c0-334b-4423-9305-0c6281523d5d": {"rating":4.776,"numericId":8258912790,"provisional":false},
  "d23d47c0-4f40-4691-b81a-9ad6e36402b6": {"rating":4.511,"numericId":7352038712,"provisional":false},
  "d4c1185c-6147-4164-90e1-06ecfa162596": {"rating":4.453,"numericId":6653676373,"provisional":false},
+ "d64db065-87c9-4e7f-989b-6f0ec53240c9": {"rating":4.223,"numericId":7636054568,"provisional":false},
  "d6c15f91-4cc9-4612-8ec3-8f4ebd4e0cc1": {"rating":4.786,"numericId":4541131492,"provisional":false},
  "d99428a2-b91c-460f-b2d4-cf3ce96f0643": {"rating":4.49,"numericId":7852067162,"provisional":false},
  "db98d397-2496-4147-943c-febe48812018": {"rating":3.896,"numericId":5873368734,"provisional":false},

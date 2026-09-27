@@ -7571,6 +7571,35 @@
    "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b"
   },
   {
+   "name": "John Zhong",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 291,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6bfd212d-c7b4-4eff-ae3c-5e9424080282"
+  },
+  {
    "name": "Andy Suphaphol",
    "gender": "Male",
    "team": "Pickleball HQ",
@@ -7627,6 +7656,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b979a109-08fd-4041-8da4-e306ef13330a"
+  },
+  {
+   "name": "Jieping Wang",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 288,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c9088878-9755-4e32-abed-4a4e5a42f9a8"
   },
   {
    "name": "Luke Simon",
@@ -34543,8 +34601,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francis Thai",
+      "Ren Macalalag"
      ],
      "a": [
       "Akash Raju",
@@ -34554,8 +34612,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Suresh Hassan",
+      "Vinay Mutt"
      ],
      "a": [
       "George Vega Jr",
@@ -34569,8 +34627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Jack Barry"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34580,8 +34638,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Sean Diamond"
      ],
      "a": [
       "Corey Chen",
@@ -34591,8 +34649,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Barry",
+      "Jonathan Dong"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34602,8 +34660,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Francis Thai"
      ],
      "a": [
       "Akash Raju",
@@ -34613,8 +34671,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Suresh Hassan",
+      "Vinay Mutt"
      ],
      "a": [
       "George Vega Jr",
@@ -34628,8 +34686,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Sean Diamond"
      ],
      "a": [
       "Prashanth Koshy",
@@ -34639,8 +34697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Andy Knight"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34650,8 +34708,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Jack Barry"
      ],
      "a": [
       "Ritesh Patel",
@@ -34661,8 +34719,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vinay Mutt",
+      "Sean Diamond"
      ],
      "a": [
       "Akash Raju",
@@ -34672,8 +34730,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Suresh Hassan",
+      "Jonathan Dong"
      ],
      "a": [
       "Elliott Albanese",
@@ -34687,8 +34745,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francis Thai",
+      "Andy Knight"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34698,8 +34756,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Jack Barry"
      ],
      "a": [
       "Akash Raju",
@@ -34709,8 +34767,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Diamond",
+      "Ren Macalalag"
      ],
      "a": [
       "Elliott Albanese",
@@ -34724,8 +34782,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Shreyas Suresh Hassan"
      ],
      "a": [
       "George Vega Jr",
@@ -34735,8 +34793,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Jonathan Dong"
      ],
      "a": [
       "Corey Chen",
@@ -34746,8 +34804,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Suresh Hassan",
+      "Jack Barry"
      ],
      "a": [
       "Yashraj Kurani",
@@ -34757,8 +34815,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francis Thai",
+      "Sean Diamond"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34772,8 +34830,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Vinay Mutt"
      ],
      "a": [
       "Akash Raju",
@@ -34783,8 +34841,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Dan Yang"
      ],
      "a": [
       "Yashraj Kurani",
@@ -34794,8 +34852,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shreyas Suresh Hassan",
+      "Jack Barry"
      ],
      "a": [
       "George Vega Jr",
@@ -34805,8 +34863,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Diamond",
+      "Andy Knight"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34820,8 +34878,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Vinay Mutt"
      ],
      "a": [
       "Akash Raju",
@@ -34831,8 +34889,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Barry",
+      "Sean Diamond"
      ],
      "a": [
       "Yashraj Kurani",
@@ -34842,8 +34900,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Vinay Mutt"
      ],
      "a": [
       "Lj Dequina",
@@ -34853,8 +34911,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Shreyas Suresh Hassan"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34864,8 +34922,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francis Thai",
+      "Andy Knight"
      ],
      "a": [
       "George Vega Jr",
@@ -34875,8 +34933,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Vinay Mutt"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -34886,8 +34944,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Shreyas Suresh Hassan"
      ],
      "a": [
       "Yashraj Kurani",
@@ -34897,8 +34955,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Barry",
+      "Sean Diamond"
      ],
      "a": [
       "Ritesh Patel",
@@ -34908,8 +34966,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andy Knight",
+      "Ren Macalalag"
      ],
      "a": [
       "Akash Raju",
@@ -35319,8 +35377,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Gianni Roman"
      ],
      "a": [
       "Eric Berlinger",
@@ -35330,41 +35388,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Wen Jin"
      ],
      "a": [
       "David Shapiro",
       "Franklin Lupianez"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Sallo",
+      "Madhu Raghunathan"
      ],
      "a": [
       "Tom Hadler",
       "David Tabacco"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Zhong",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Josh Rito",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Gianni Roman"
      ],
      "a": [
       "Craig Butler",
@@ -35374,35 +35444,47 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Wen Jin"
      ],
      "a": [
       "David Shapiro",
       "Franklin Lupianez"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Sallo",
+      "Madhu Raghunathan"
      ],
      "a": [
       "David Tabacco",
       "Tom Hadler"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Zhong",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Josh Rito",
       "Julian Edgren"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       0,
       1
@@ -35411,13 +35493,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Jieping Wang"
      ],
      "a": [
       "David Shapiro",
       "Julian Edgren"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -35426,19 +35512,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wen Jin",
+      "Gianni Roman"
      ],
      "a": [
       "Eric Berlinger",
       "David Tabacco"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Madhu Raghunathan"
      ],
      "a": [
       "Tom Hadler",
@@ -35448,23 +35538,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Sallo",
+      "John Zhong"
      ],
      "a": [
       "Craig Butler",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Jieping Wang"
      ],
      "a": [
       "David Shapiro",
       "Julian Edgren"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -35474,19 +35572,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wen Jin",
+      "Gianni Roman"
      ],
      "a": [
       "Franklin Lupianez",
       "David Tabacco"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Madhu Raghunathan"
      ],
      "a": [
       "Tom Hadler",
@@ -35496,41 +35598,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Sallo",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Craig Butler",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Wen Jin"
      ],
      "a": [
       "Craig Butler",
       "David Shapiro"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Jieping Wang"
      ],
      "a": [
       "Eric Berlinger",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gianni Roman",
+      "Madhu Raghunathan"
      ],
      "a": [
       "David Tabacco",
@@ -35544,45 +35658,61 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Sallo",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Franklin Lupianez",
       "Josh Rito"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Sallo",
+      "Gianni Roman"
      ],
      "a": [
       "Craig Butler",
       "Tom Hadler"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "Jieping Wang"
      ],
      "a": [
       "Eric Berlinger",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Wen Jin"
      ],
      "a": [
       "David Tabacco",
       "Julian Edgren"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -35592,8 +35722,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Madhu Raghunathan",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Franklin Lupianez",
@@ -35603,8 +35733,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Madhu Raghunathan"
      ],
      "a": [
       "Craig Butler",
@@ -35614,34 +35744,46 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "John Sallo"
      ],
      "a": [
       "Eric Berlinger",
       "Tom Hadler"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jieping Wang",
+      "Gianni Roman"
      ],
      "a": [
       "Franklin Lupianez",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wen Jin",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "Julian Edgren",
       "Josh Rito"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -35651,8 +35793,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Madhu Raghunathan"
      ],
      "a": [
       "Craig Butler",
@@ -35662,12 +35804,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Yiu",
+      "John Sallo"
      ],
      "a": [
       "Eric Berlinger",
       "Julian Edgren"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -35677,19 +35823,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jieping Wang",
+      "Wen Jin"
      ],
      "a": [
       "Franklin Lupianez",
       "Rick Wickenheisser"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gianni Roman",
+      "Saad Talat Siddiqui"
      ],
      "a": [
       "David Shapiro",
@@ -36236,14 +36386,12 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
-  "John Zhong": "6bfd212d-c7b4-4eff-ae3c-5e9424080282",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
-  "Jieping Wang": "c9088878-9755-4e32-abed-4a4e5a42f9a8",
   "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
@@ -36253,7 +36401,7 @@
   "matchesPlayed": 44,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 271,
+  "totalPlayers": 273,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -36361,7 +36509,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-26T20:27:40.322Z";
+  DATA.meta.asOf = "2026-09-27T02:42:14.954Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
