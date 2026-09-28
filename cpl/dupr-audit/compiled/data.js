@@ -6957,6 +6957,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Imran Mazhar",
+   "playerId": "bf932162-305c-4efe-8b6d-b7316c0b4136",
+   "team": "Pickleball Kingdom Hamilton",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Inho Andrew Yuh",
    "playerId": "d642aa89-5ebe-4bcb-a5e7-fdcc3a9b916e",
    "team": "APC Garden State",
@@ -8400,7 +8407,7 @@ window.DUPR_AUDIT = {
   },
   {
    "name": "Jimmy Duong",
-   "playerId": "06a3741d-10e5-462b-ba95-aa997d4eb8ea",
+   "playerId": "c19baf91-31e2-4024-881f-d5c4cdb9d311",
    "team": "ACE Downingtown",
    "slug": "e27386b3",
    "gender": "Male"
@@ -16183,6 +16190,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Sebastian Ferrer",
+   "playerId": "5c354e5d-09ba-4d09-a8c4-76e0fb7eb78a",
+   "team": "Jersey Pickleball Club",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Serena Martz",
    "playerId": "2db0eb6d-a738-4daa-9be3-8e7a535330ba",
    "team": "Jersey Pickleball Club",
@@ -18371,6 +18385,13 @@ window.DUPR_AUDIT = {
    "playerId": "329df703-2af3-46cd-a7ae-372a1956536e",
    "team": "ACE Moorestown",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Vinoth Baburao Venkatakrishnan",
+   "playerId": "8deca1b3-e530-4424-b4e2-f220bb3beacd",
+   "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {

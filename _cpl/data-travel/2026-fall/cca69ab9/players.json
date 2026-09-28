@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 14,
-      "ranking": 58
+      "ranking": 57
     },
     {
       "playerId": "03a4e22a-6242-459c-8120-58d0650413a9",
@@ -159,7 +159,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 11,
-      "ranking": 73
+      "ranking": 74
     },
     {
       "playerId": "09d614ca-a9b2-44b6-a402-51046c6883af",
@@ -218,17 +218,17 @@
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
       "wins": 5,
-      "losses": 2,
-      "gamesPlayed": 7,
-      "pointsWon": 143,
-      "totalPointsAgainst": 123,
+      "losses": 3,
+      "gamesPlayed": 8,
+      "pointsWon": 162,
+      "totalPointsAgainst": 144,
       "clutchWins": 1,
-      "clutchLosses": 2,
+      "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 5,
-      "genderLosses": 2,
-      "ranking": 82
+      "genderLosses": 3,
+      "ranking": 77
     },
     {
       "playerId": "0c1a11c0-7f89-48fa-af2f-3f9925039239",
@@ -343,7 +343,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 9,
-      "ranking": 67
+      "ranking": 66
     },
     {
       "playerId": "0e8c08b7-0e58-434b-8830-f37779f821dc",
@@ -424,18 +424,18 @@
       "isSub": true,
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
-      "wins": 4,
-      "losses": 3,
-      "gamesPlayed": 7,
-      "pointsWon": 138,
-      "totalPointsAgainst": 131,
-      "clutchWins": 1,
-      "clutchLosses": 2,
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 4,
-      "genderLosses": 3,
-      "ranking": 129
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 130
     },
     {
       "playerId": "13918154-3673-4dae-946a-2c2d4ac8863f",
@@ -493,18 +493,18 @@
       "isSub": false,
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
-      "wins": 12,
+      "wins": 13,
       "losses": 14,
-      "gamesPlayed": 26,
-      "pointsWon": 477,
-      "totalPointsAgainst": 489,
+      "gamesPlayed": 27,
+      "pointsWon": 498,
+      "totalPointsAgainst": 505,
       "clutchWins": 4,
       "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 12,
+      "genderWins": 13,
       "genderLosses": 14,
-      "ranking": 91
+      "ranking": 83
     },
     {
       "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf",
@@ -550,7 +550,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 13,
-      "ranking": 88
+      "ranking": 89
     },
     {
       "playerId": "19d10737-b8cb-4106-9b6d-1c9aced87b19",
@@ -688,7 +688,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 6,
-      "ranking": 66
+      "ranking": 67
     },
     {
       "playerId": "20fe2f66-8825-4881-a325-b8fb78ee5ff6",
@@ -780,7 +780,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 15,
-      "ranking": 75
+      "ranking": 76
     },
     {
       "playerId": "27660961-6245-4b09-aafe-359ca3205797",
@@ -803,7 +803,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 10,
-      "ranking": 37
+      "ranking": 38
     },
     {
       "playerId": "292c729f-c522-4f41-8208-e1caf7f94498",
@@ -849,7 +849,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 12,
-      "ranking": 59
+      "ranking": 58
     },
     {
       "playerId": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
@@ -872,7 +872,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 18,
-      "ranking": 87
+      "ranking": 88
     },
     {
       "playerId": "2ee28d63-2f38-468f-b824-9b17aa938413",
@@ -1253,17 +1253,17 @@
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
       "wins": 21,
-      "losses": 16,
-      "gamesPlayed": 37,
-      "pointsWon": 705,
-      "totalPointsAgainst": 676,
+      "losses": 17,
+      "gamesPlayed": 38,
+      "pointsWon": 724,
+      "totalPointsAgainst": 697,
       "clutchWins": 8,
-      "clutchLosses": 6,
+      "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 21,
-      "genderLosses": 16,
-      "ranking": 57
+      "genderLosses": 17,
+      "ranking": 60
     },
     {
       "playerId": "445e89c8-a23c-440c-bd3c-7eab366bdd85",
@@ -1378,7 +1378,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 4,
-      "ranking": 90
+      "ranking": 91
     },
     {
       "playerId": "47054f48-f7f3-4a11-8a3c-03160ea588b6",
@@ -1414,17 +1414,17 @@
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
       "wins": 4,
-      "losses": 3,
-      "gamesPlayed": 7,
-      "pointsWon": 141,
-      "totalPointsAgainst": 134,
+      "losses": 4,
+      "gamesPlayed": 8,
+      "pointsWon": 157,
+      "totalPointsAgainst": 155,
       "clutchWins": 2,
       "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 4,
-      "genderLosses": 3,
-      "ranking": 134
+      "genderLosses": 4,
+      "ranking": 127
     },
     {
       "playerId": "4aea9e80-552f-49b8-9118-c03af246e089",
@@ -1493,7 +1493,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 16,
-      "ranking": 74
+      "ranking": 75
     },
     {
       "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
@@ -1516,7 +1516,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 2,
-      "ranking": 38
+      "ranking": 37
     },
     {
       "playerId": "50fccc8f-a4a9-490b-a7d5-eebbda35bb22",
@@ -1585,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 16,
-      "ranking": 133
+      "ranking": 134
     },
     {
       "playerId": "515009fd-ac6a-4124-a871-dff85a118781",
@@ -1608,7 +1608,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 16,
-      "ranking": 79
+      "ranking": 81
     },
     {
       "playerId": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
@@ -1769,7 +1769,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 128
+      "ranking": 129
     },
     {
       "playerId": "5b439439-36f5-421f-afaa-5d8b1a547954",
@@ -1801,7 +1801,7 @@
       "gender": "Male",
       "dupr": "YXN4DE",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "teamName": "Jersey Pickleball Club",
       "wins": 5,
@@ -1861,7 +1861,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 94
+      "ranking": 95
     },
     {
       "playerId": "5eccfff7-0902-4be1-a70e-361ff447bf6a",
@@ -2068,7 +2068,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 12,
-      "ranking": 85
+      "ranking": 86
     },
     {
       "playerId": "6c71dd2d-6f76-4630-96d4-27f58e99e557",
@@ -2264,18 +2264,18 @@
       "isSub": false,
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
-      "wins": 14,
+      "wins": 15,
       "losses": 19,
-      "gamesPlayed": 33,
-      "pointsWon": 589,
-      "totalPointsAgainst": 633,
+      "gamesPlayed": 34,
+      "pointsWon": 610,
+      "totalPointsAgainst": 651,
       "clutchWins": 7,
       "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 14,
+      "genderWins": 15,
       "genderLosses": 19,
-      "ranking": 113
+      "ranking": 110
     },
     {
       "playerId": "7c8310a8-1a97-4c04-bbc0-519fe4132685",
@@ -2321,7 +2321,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 12,
-      "ranking": 89
+      "ranking": 90
     },
     {
       "playerId": "7efd9bc6-6b2f-4e98-b785-136fea990664",
@@ -2390,7 +2390,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 13,
-      "ranking": 81
+      "ranking": 82
     },
     {
       "playerId": "8079e74f-c537-4e42-9590-e8d60f10ba3d",
@@ -2482,7 +2482,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 132
+      "ranking": 133
     },
     {
       "playerId": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac",
@@ -2505,7 +2505,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 7,
-      "ranking": 84
+      "ranking": 85
     },
     {
       "playerId": "87d526c6-72b6-4b17-bf77-9016fd049541",
@@ -2712,7 +2712,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 112
+      "ranking": 113
     },
     {
       "playerId": "97f2b250-2030-4296-be61-63cffb17043b",
@@ -2793,18 +2793,18 @@
       "isSub": false,
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
-      "wins": 22,
+      "wins": 23,
       "losses": 14,
-      "gamesPlayed": 36,
-      "pointsWon": 697,
-      "totalPointsAgainst": 649,
-      "clutchWins": 9,
+      "gamesPlayed": 37,
+      "pointsWon": 718,
+      "totalPointsAgainst": 668,
+      "clutchWins": 10,
       "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 22,
+      "genderWins": 23,
       "genderLosses": 14,
-      "ranking": 42
+      "ranking": 41
     },
     {
       "playerId": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
@@ -2873,7 +2873,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 9,
-      "ranking": 110
+      "ranking": 111
     },
     {
       "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -3080,7 +3080,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 4,
-      "ranking": 111
+      "ranking": 112
     },
     {
       "playerId": "a9df21e2-b62a-4af0-a793-80f0de708466",
@@ -3126,7 +3126,7 @@
       "mixedLosses": 0,
       "genderWins": 19,
       "genderLosses": 11,
-      "ranking": 29
+      "ranking": 30
     },
     {
       "playerId": "ac97d2bc-5ee7-4285-8eb3-e5650a0f6f6e",
@@ -3138,18 +3138,18 @@
       "isSub": false,
       "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
       "teamName": "Picklr Newtown",
-      "wins": 17,
+      "wins": 18,
       "losses": 17,
-      "gamesPlayed": 34,
-      "pointsWon": 647,
-      "totalPointsAgainst": 643,
+      "gamesPlayed": 35,
+      "pointsWon": 668,
+      "totalPointsAgainst": 658,
       "clutchWins": 10,
       "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 17,
+      "genderWins": 18,
       "genderLosses": 17,
-      "ranking": 76
+      "ranking": 73
     },
     {
       "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
@@ -3172,7 +3172,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 77
+      "ranking": 78
     },
     {
       "playerId": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
@@ -3333,7 +3333,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 12,
-      "ranking": 78
+      "ranking": 79
     },
     {
       "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
@@ -3494,7 +3494,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 11,
-      "ranking": 131
+      "ranking": 132
     },
     {
       "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3",
@@ -3747,7 +3747,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 12,
-      "ranking": 83
+      "ranking": 84
     },
     {
       "playerId": "d23839c0-334b-4423-9305-0c6281523d5d",
@@ -3816,7 +3816,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 7,
-      "ranking": 30
+      "ranking": 29
     },
     {
       "playerId": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
@@ -3862,7 +3862,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 8,
-      "ranking": 86
+      "ranking": 87
     },
     {
       "playerId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643",
@@ -3931,7 +3931,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 5,
-      "ranking": 8
+      "ranking": 7
     },
     {
       "playerId": "dd6582a2-1596-40b8-8a4c-fec00aaeb379",
@@ -4046,7 +4046,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 95
+      "ranking": 94
     },
     {
       "playerId": "e47d28f2-187f-4aa7-acb8-356787ff82e5",
@@ -4092,7 +4092,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 6,
-      "ranking": 7
+      "ranking": 8
     },
     {
       "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e",
@@ -4345,7 +4345,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 9,
-      "ranking": 127
+      "ranking": 128
     },
     {
       "playerId": "f4cd45db-8d83-423a-8936-c7d7a3b0ffad",
@@ -4529,7 +4529,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 8,
-      "ranking": 41
+      "ranking": 42
     },
     {
       "playerId": "fa2292a3-4d44-4c69-b4b8-b7c8f6d9085a",
@@ -4621,7 +4621,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 8,
-      "ranking": 130
+      "ranking": 131
     },
     {
       "playerId": "fe8af1d3-ff62-430d-90af-32794cc7b912",
@@ -4644,7 +4644,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 7,
-      "ranking": 60
+      "ranking": 59
     }
   ]
 }
