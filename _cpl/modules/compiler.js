@@ -391,6 +391,30 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   for (const [pid, p] of Object.entries(homeRowByPid)) homeTeamByPid[pid] = p.teamName;
   for (const [pid, p] of Object.entries(captainRowByPid)) captainTeamByPid[pid] = p.teamName;
 
+  // Every rostered sub (isSub: true) on a team with actual matchups, regardless
+  // of whether they've ever appeared in a lineup or matchup — unlike
+  // subRowByPid below (used to seed DATA.players), which is deliberately
+  // gated on playerIdsInMatchups to keep a division's entire sub pool out of
+  // the roster table. The Lineup Lab needs the opposite: every sub a captain
+  // could plausibly pencil in, including one who hasn't suited up yet (e.g. a
+  // new signee) — that's the "available subs" the feature exists to show.
+  // Built the same way subRowByPid is (one canonical row per playerId, via
+  // claimCanonicalRow) so a player rostered as a sub on two teams lands under
+  // the same team a roster-table sub row would pick.
+  const allSubRowByPid = {};
+  for (const p of rosterPlayers) {
+    if (!p.playerId || !p.isSub || !p.teamName || !teamNamesWithMatchups.has(p.teamName)) continue;
+    claimCanonicalRow(allSubRowByPid, p.playerId, p);
+  }
+  const availableSubs = Object.values(allSubRowByPid).map((p) => ({
+    name: norm(`${p.firstName} ${p.lastName}`),
+    playerId: p.playerId,
+    gender: p.gender,
+    team: p.teamName,
+    isCaptain: !!p.isCaptain,
+    outsideSub: !homeTeamByPid[p.playerId],
+  }));
+
   // Player ID -> display name, built from the complete player roster
   // (players.json) so it resolves upcoming matchups too, whose
   // matchupPlayerStats has been omitted. Needed before the pre-season branch
@@ -591,6 +615,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     const DATA = {
       players: playerArr, teams: teamArr, duos: [], matches, playoffs: [],
       extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
+      availableSubs,
       meta: {
         matchesPlayed: 0, provisionalMatches: 0, weeks: "", asOf,
         totalPlayers: playerArr.length, ratingHistoryWeeks: [], divisionSlug: slug,
@@ -941,6 +966,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const DATA = {
     players: playerArr, teams: teamArr, duos, matches, playoffs,
     extraPlayerIds: selectExtraPlayerIds(playerArr, playerIdsByName),
+    availableSubs,
     meta: {
       matchesPlayed: completed.length, provisionalMatches: provisionalCount, weeks: weekLabel,
       // A full timestamp, not a date. The bot refreshes every six hours, so a

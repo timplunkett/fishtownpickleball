@@ -12280,6 +12280,200 @@
   "Krystal Johnson": "a4fb87af-daed-4bc9-9027-2a4b215c060c",
   "Jen Ogorzat": "f0f8c802-b218-4a89-a9a8-cc127214c1d5"
  },
+ "availableSubs": [
+  {
+   "name": "Kevin Lew",
+   "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c",
+   "gender": "Male",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eric Goldman",
+   "playerId": "072dd3e0-43bd-4c1a-ba08-3dec77ae24a2",
+   "gender": "Male",
+   "team": "Nets Gambit",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Katie Ursino",
+   "playerId": "0ab36799-35fe-4fca-9e5f-9d3f679b0b6e",
+   "gender": "Female",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Belicia Hughes",
+   "playerId": "0eda2ee3-2997-4519-ac1a-50c0da39145e",
+   "gender": "Female",
+   "team": "Smash-holes!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Mcbride",
+   "playerId": "229789a1-39a0-4693-9fd5-f9b1ad8f3f58",
+   "gender": "Male",
+   "team": "Smash-holes!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lizz Dunn",
+   "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
+   "gender": "Female",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Emily Sowa",
+   "playerId": "42d01dab-4aca-4c74-aa73-47be4fbff788",
+   "gender": "Female",
+   "team": "Nets Gambit",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jodie Bennett",
+   "playerId": "44a54409-964b-44ae-a670-c69f7edf9600",
+   "gender": "Female",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Simon George",
+   "playerId": "4e05bfa3-9b1b-4507-af90-9085649a6028",
+   "gender": "Male",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Johnson",
+   "playerId": "4f98756a-9726-48fe-a241-2579f96eee16",
+   "gender": "Male",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ola Cauble",
+   "playerId": "5e34ba87-6778-4079-8ca1-c4ee044314cc",
+   "gender": "Female",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brooke Mcbride",
+   "playerId": "60adfa52-c615-4ad3-b165-26941f955a56",
+   "gender": "Female",
+   "team": "Smash-holes!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amanda Herrera",
+   "playerId": "65ceb6a3-c5b6-4264-a138-d4ef761e47c6",
+   "gender": "Female",
+   "team": "Smash-holes!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Robert Gemellaro",
+   "playerId": "68381165-d24c-4955-aed2-b9cf38a402d6",
+   "gender": "Male",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Coleen Walter",
+   "playerId": "7b31e2bc-0cd4-494a-adbb-efe082cfbec1",
+   "gender": "Female",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Buffolino",
+   "playerId": "89d7275a-1425-4d35-b75a-d2d5f93f99a6",
+   "gender": "Male",
+   "team": "Nets Gambit",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rebecca Ramos",
+   "playerId": "91fa0505-9e84-4deb-b11a-a42e6c55696c",
+   "gender": "Female",
+   "team": "Nets Gambit",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Deborah Brown",
+   "playerId": "9a7a589a-396f-426f-b146-9b71ccc8492e",
+   "gender": "Female",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathryn Mcgill-Armento",
+   "playerId": "9b1a8682-541b-40fa-9353-882b07a6b405",
+   "gender": "Female",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Krystal Johnson",
+   "playerId": "a4fb87af-daed-4bc9-9027-2a4b215c060c",
+   "gender": "Female",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ruth Rao",
+   "playerId": "b54eb3c6-a8b7-4a05-9f14-83d697a50dcc",
+   "gender": "Female",
+   "team": "Nets Gambit",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Padma Gopi",
+   "playerId": "b6d7b5a0-f05d-4ed5-ad11-a24c4a7e1ac4",
+   "gender": "Female",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michelle Gemellaro",
+   "playerId": "c88d4242-d33b-43dc-9b08-cbbe8664129b",
+   "gender": "Female",
+   "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jen Ogorzat",
+   "playerId": "f0f8c802-b218-4a89-a9a8-cc127214c1d5",
+   "gender": "Female",
+   "team": "The Three-Fives",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 16,
   "provisionalMatches": 0,

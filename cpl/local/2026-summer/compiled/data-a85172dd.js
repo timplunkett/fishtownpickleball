@@ -12274,6 +12274,72 @@
  "extraPlayerIds": {
   "Caitlin Hall": "6774a445-ef5d-478f-a7ca-d77c9217d1aa"
  },
+ "availableSubs": [
+  {
+   "name": "Alyssa Boyle",
+   "playerId": "22123177-1eb2-4285-bc92-f75799e175dd",
+   "gender": "Female",
+   "team": "Baggers, Sand",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lilie Sen",
+   "playerId": "3aa34138-1989-4d89-b656-3e0c44b23b6f",
+   "gender": "Female",
+   "team": "Baggers, Sand",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sue Lyle",
+   "playerId": "5b600631-57fc-476c-9bbb-6951d5ffd294",
+   "gender": "Female",
+   "team": "Paddle Taps",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Caitlin Hall",
+   "playerId": "6774a445-ef5d-478f-a7ca-d77c9217d1aa",
+   "gender": "Female",
+   "team": "Eagles Erne Empire ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lindsey Allumbaugh",
+   "playerId": "6c8e2373-9549-4f25-9cbf-4264745eda64",
+   "gender": "Female",
+   "team": "Eagles Erne Empire ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michelle Friedman",
+   "playerId": "95b1b428-2e56-4578-8cb3-574954ba8922",
+   "gender": "Female",
+   "team": "Baggers, Sand",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Charlotte Healey",
+   "playerId": "bbaf3def-a87b-4537-8701-4f5ae0108b1f",
+   "gender": "Female",
+   "team": "Eagles Erne Empire ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Noelle Ramirez",
+   "playerId": "f30428dd-bc5a-4535-94b3-b8779e958ada",
+   "gender": "Female",
+   "team": "Baggers, Sand",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 16,
   "provisionalMatches": 0,

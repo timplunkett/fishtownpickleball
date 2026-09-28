@@ -13626,6 +13626,96 @@
   }
  ],
  "extraPlayerIds": {},
+ "availableSubs": [
+  {
+   "name": "Victoria Young",
+   "playerId": "184907fa-5d07-4ab9-a1c5-f0007af00d59",
+   "gender": "Female",
+   "team": "Balls of Fury",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Christina Vuong",
+   "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
+   "gender": "Female",
+   "team": "Picholas Cage",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mira Sigal-Feldman",
+   "playerId": "26ad6baa-c97e-4fb8-974a-d8c1c6e664cc",
+   "gender": "Female",
+   "team": "Picholas Cage",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Jeremy Chen",
+   "playerId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
+   "gender": "Male",
+   "team": "Kitchen Nightmares",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carolyn Shipe",
+   "playerId": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
+   "gender": "Female",
+   "team": "Kitchen Nightmares",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Taylor Johns",
+   "playerId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
+   "gender": "Female",
+   "team": "License to Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gabby Frieder",
+   "playerId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e",
+   "gender": "Female",
+   "team": "Picholas Cage",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maggie Malloy",
+   "playerId": "c1251904-fef6-4eb5-9b49-06c8335e3546",
+   "gender": "Female",
+   "team": "Kitchen Nightmares",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Alex Pond",
+   "playerId": "ca2c7d14-de39-45a1-805a-ff1ab5be31d9",
+   "gender": "Female",
+   "team": "Picholas Cage",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Thuy Le",
+   "playerId": "f89874de-ee0c-486f-af7d-32e4aed59df8",
+   "gender": "Female",
+   "team": "Picholas Cage",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Alex Ehrenman",
+   "playerId": "fb562cfa-a6fa-40f3-9c7e-e67f9a7925d1",
+   "gender": "Female",
+   "team": "License to Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 18,
   "provisionalMatches": 0,

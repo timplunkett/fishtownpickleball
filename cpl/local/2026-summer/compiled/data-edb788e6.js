@@ -14264,6 +14264,152 @@
  "extraPlayerIds": {
   "Roger Slane": "753f08a2-4d12-4a23-9444-c626c29a7f98"
  },
+ "availableSubs": [
+  {
+   "name": "Susan St. Pierre",
+   "playerId": "001c2d38-829b-4fd0-b249-472f78337387",
+   "gender": "Female",
+   "team": "Summer of Slam",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Janice Aliberti",
+   "playerId": "078bc1a3-2897-4dc0-ae17-26b349108047",
+   "gender": "Female",
+   "team": "Power Picklers",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Dan Stanton",
+   "playerId": "08f765a3-1ebf-4b7f-afe1-e815112ee581",
+   "gender": "Male",
+   "team": "Summer of Slam",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Susan Goeckeler",
+   "playerId": "201e264e-23da-435d-a4b5-0fea908d1098",
+   "gender": "Female",
+   "team": "Power Picklers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kelly Bowers",
+   "playerId": "25c2cf33-ede0-4610-85d6-e08cddc05484",
+   "gender": "Female",
+   "team": "Dinking Around",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Beth Knoble",
+   "playerId": "2a31bf75-6b8c-4df5-8a70-daaf9a5a4265",
+   "gender": "Female",
+   "team": "Summer of Slam",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Fallone",
+   "playerId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
+   "gender": "Male",
+   "team": "Pickleball Addicts",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sherri Falsetti",
+   "playerId": "57f76666-8731-4408-9e83-fbab3d007fae",
+   "gender": "Female",
+   "team": "Pickleball Addicts",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dave Govan",
+   "playerId": "5c1e16e3-303e-48ca-8ad7-77077727394d",
+   "gender": "Male",
+   "team": "Dinking Around",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Richard Livornese",
+   "playerId": "65eebb53-e684-4819-bf57-99a241c04812",
+   "gender": "Male",
+   "team": "Dinking Around",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Roger Slane",
+   "playerId": "753f08a2-4d12-4a23-9444-c626c29a7f98",
+   "gender": "Male",
+   "team": "The Mighty Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathleen Deangelis",
+   "playerId": "9bcbd522-d5da-4f16-8179-cb6ad029563d",
+   "gender": "Female",
+   "team": "Summer of Slam",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Josh Rito",
+   "playerId": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d",
+   "gender": "Male",
+   "team": "Pickleball Addicts",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Anthony Leone",
+   "playerId": "a8715ef7-f760-4097-b642-eae44c0a5de7",
+   "gender": "Male",
+   "team": "Power Picklers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alex Lawrason",
+   "playerId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
+   "gender": "Male",
+   "team": "Power Picklers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lynda Levan",
+   "playerId": "ca92ce54-a58c-4bf2-a49b-125be4b376ba",
+   "gender": "Female",
+   "team": "The Mighty Dinks",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Andy Ro",
+   "playerId": "f3f6addc-ea42-4e7b-ac54-67bf69cffeeb",
+   "gender": "Male",
+   "team": "Summer of Slam",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Paul Matzko",
+   "playerId": "faab88e7-d3ba-4516-bdd0-e37c622ce5de",
+   "gender": "Male",
+   "team": "The Mighty Dinks",
+   "isCaptain": false,
+   "outsideSub": false
+  }
+ ],
  "meta": {
   "matchesPlayed": 20,
   "provisionalMatches": 0,

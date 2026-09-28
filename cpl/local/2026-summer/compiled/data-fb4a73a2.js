@@ -11383,6 +11383,120 @@
   "Tom Maertzig": "3149a20b-28d9-47ff-b429-2140f5e817b3",
   "Bruce Chmara": "c8377da1-9b71-4b72-95d2-7cb88f9aa1d0"
  },
+ "availableSubs": [
+  {
+   "name": "Brenda Weckerly",
+   "playerId": "02393ba1-f669-4704-87de-0d61a131ee75",
+   "gender": "Female",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sandy Lewis",
+   "playerId": "120218cc-4d95-488b-898c-dd207375ebec",
+   "gender": "Female",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lucy Emery",
+   "playerId": "1b650a10-7130-4103-aa32-060f8d48e92a",
+   "gender": "Female",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tom Maertzig",
+   "playerId": "3149a20b-28d9-47ff-b429-2140f5e817b3",
+   "gender": "Male",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kim Harris",
+   "playerId": "3ed7cfb8-4271-48cf-a8a2-6ff983619d76",
+   "gender": "Female",
+   "team": "Kiss My Ace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Charles Buzad",
+   "playerId": "5d3b9d31-abbd-49ef-b63b-fa8a30759147",
+   "gender": "Male",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matt Becker",
+   "playerId": "604007f9-8645-4f0f-9909-e3a9b2fa6dd7",
+   "gender": "Male",
+   "team": "Kiss My Ace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carolyn Mako",
+   "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
+   "gender": "Female",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michelle Cresta",
+   "playerId": "7f71eb00-0597-4783-b624-22e76ec1ad0a",
+   "gender": "Female",
+   "team": "Kiss My Ace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Romeo",
+   "playerId": "813470f2-6efd-44e2-87b0-c373c5ecacfd",
+   "gender": "Male",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Zach Derrick",
+   "playerId": "85508a87-8a46-4c27-9b86-7323c2b37379",
+   "gender": "Male",
+   "team": "Dink Responsibly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Thania Padova",
+   "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04",
+   "gender": "Female",
+   "team": "Dink Responsibly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bruce Chmara",
+   "playerId": "c8377da1-9b71-4b72-95d2-7cb88f9aa1d0",
+   "gender": "Male",
+   "team": "Kiss My Ace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sheree Ross",
+   "playerId": "e3a5083d-9c55-4482-be06-647b8e86c504",
+   "gender": "Female",
+   "team": "Court Jesters",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 16,
   "provisionalMatches": 0,

@@ -45201,6 +45201,464 @@
   "Martyn Babitz": "cf328b8f-9626-4bdf-8069-da6d0f8b17e9",
   "Fran Salm": "ee1784f6-59f1-4fd2-944e-f2683fb94262"
  },
+ "availableSubs": [
+  {
+   "name": "Reg Blaber",
+   "playerId": "03769e99-2521-4e52-bef4-cf55e57e9460",
+   "gender": "Male",
+   "team": "Players Courtyard Surge",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jana Bradley",
+   "playerId": "076a6405-8447-43b9-b8cf-1db5d857979c",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Philip Gallione",
+   "playerId": "0d88a741-db24-4c20-a7a8-5fea6e170778",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Daniello",
+   "playerId": "1149300d-3cd0-48f8-b55b-6a133898e951",
+   "gender": "Male",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Derrick Leikness",
+   "playerId": "13a75bad-6627-4401-9c4d-d3b16f9c5f4d",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Parker-Ventura",
+   "playerId": "15415c20-492e-41b5-a5e0-61c4bb88c7cc",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mariola Biekisz",
+   "playerId": "188e1231-451b-48a6-84b8-9a9b11524618",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Sutton",
+   "playerId": "20cfac78-43bd-41c7-90e1-6edcc1bdc973",
+   "gender": "Male",
+   "team": "Players Courtyard Surge",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Liane Feyas",
+   "playerId": "2266824f-5ba8-4da3-a512-94c8e14f7c90",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Terri Pflueger",
+   "playerId": "25ba9d21-49c3-4449-a120-1ba4a9621fb7",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jeff Kesner",
+   "playerId": "26116ec9-7f8d-4944-8c35-d2e0ad651a01",
+   "gender": "Male",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Anita Gutierrez",
+   "playerId": "3217faa9-af5d-4bc7-a5f0-0147b9b4fd7f",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Clare Scott",
+   "playerId": "34c43b81-a4a2-4e8e-8bd2-b3d9f083a759",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Renee Froeberg",
+   "playerId": "3804b024-a017-4fa2-90d3-5d726e764f44",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Virna Schuck",
+   "playerId": "39d80b41-0804-4cc7-b92f-b225849bb720",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Margaret Maurizi",
+   "playerId": "3f0df1b9-651c-4b4c-bca6-02fc0b49649b",
+   "gender": "Female",
+   "team": "Players Courtyard Wave",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christy Walker",
+   "playerId": "4076828c-aa6f-47c8-b495-55eed2afe29d",
+   "gender": "Female",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Aarti Aziz",
+   "playerId": "42031222-7198-45fb-a736-62aa0106be55",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Olga Khalev",
+   "playerId": "429103e6-a3b1-4cb1-853d-bb4b849df001",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "William Heurich",
+   "playerId": "4a34b0f0-c926-4a04-9492-aa38ce2dcda2",
+   "gender": "Male",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Pat Bernhard",
+   "playerId": "4b0745ef-f0ad-4cf4-9899-84a2c940609f",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joan Guadagnino",
+   "playerId": "4da06bf7-dabf-4165-96c1-27ec54831422",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathy Demola",
+   "playerId": "4fb2d558-dd30-4933-b80c-538cc63fedc0",
+   "gender": "Female",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amy Neckes",
+   "playerId": "5691a68e-0367-4af2-b318-4e927e00d4d6",
+   "gender": "Female",
+   "team": "Players Courtyard Surge",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eddie Finocchiaro",
+   "playerId": "58cf1f04-2fe4-4118-9b6f-159ace6f1b11",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cindy Taglioli",
+   "playerId": "5ce451a1-01c9-4a8e-bbb6-847360c2a45d",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elsie Garcia",
+   "playerId": "5e086f9d-8026-4ba1-8a9a-f67aa0ce78dd",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Craig Walling",
+   "playerId": "5f6dfa01-c062-4b00-a230-4aa19e54d74a",
+   "gender": "Male",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Victoria Stenroos",
+   "playerId": "6898f005-e940-4d33-83f9-0300a1b90a5a",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marilyn Janssen",
+   "playerId": "721ae7df-e56e-45a3-b814-ff040a4f5bb4",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Diane Otoole",
+   "playerId": "78b94466-c121-4530-a60e-aa415cc73ba8",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Paul Glickenhaus",
+   "playerId": "7a41c8d6-ca5f-4bc5-8299-9e63b5ce97cd",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kyle Kaczmarek",
+   "playerId": "7c0cc216-8e0c-402f-9b26-edd678a27c0d",
+   "gender": "Male",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Neal Shipon",
+   "playerId": "7d298d79-0931-4682-8a6f-305e27d992b7",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marvin Lao",
+   "playerId": "838de378-832d-4d6e-8e6a-44e1edb42719",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jill Nixon",
+   "playerId": "8c0ea31a-a5e4-49f4-b97c-703e6edfe6d2",
+   "gender": "Female",
+   "team": "Players Courtyard Wave",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tony Calderan",
+   "playerId": "9024c317-0010-4e82-a07b-ce8bb2dee31a",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Victoria Monaghan",
+   "playerId": "97226c62-c274-4898-b99a-ae94e89da4f7",
+   "gender": "Female",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joe Nuzzi",
+   "playerId": "a1ca4f2c-a5e3-4c95-b675-14a94dc5a7ea",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrea Kahn",
+   "playerId": "a270d90c-cfd5-430c-989f-bf0b18f7a07d",
+   "gender": "Female",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dean Ackerman",
+   "playerId": "b20030a4-fceb-4d68-a287-65c19b8a5e64",
+   "gender": "Male",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mark Leusner",
+   "playerId": "b6029771-28c1-4404-90d5-31cfc8bfaa29",
+   "gender": "Male",
+   "team": "Players Courtyard Wave",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sarah Kirn",
+   "playerId": "b73f9230-f485-4236-9f41-0ac9aaee98d5",
+   "gender": "Female",
+   "team": "Players Courtyard Surge",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sandy Borowsky",
+   "playerId": "c0cc236c-a442-42b0-b466-971432e9aadc",
+   "gender": "Female",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lorraine Delcampo",
+   "playerId": "c48bcd8a-9960-40d5-9c89-f19f9db11de0",
+   "gender": "Female",
+   "team": "Players Courtyard Surge",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Walter Jarrett",
+   "playerId": "ceb2aede-e2e6-47b3-ad72-17741086fa2b",
+   "gender": "Male",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "William Robertson",
+   "playerId": "cedbddef-7cba-4aa9-a5e7-27609451fe5a",
+   "gender": "Male",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Martyn Babitz",
+   "playerId": "cf328b8f-9626-4bdf-8069-da6d0f8b17e9",
+   "gender": "Male",
+   "team": "Players Courtyard Surge",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christine Aiese",
+   "playerId": "d246e3f9-0b65-4dfb-bdea-eccaa6ea8d24",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Holly Reinford",
+   "playerId": "e6480c2c-59cd-48d0-945b-6f3bc3f566b5",
+   "gender": "Female",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Janine Thompson",
+   "playerId": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ben Cheng",
+   "playerId": "edbfd9e1-8cc4-4671-a852-09cdfe04651f",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tracey Klemick",
+   "playerId": "ee0ab5ac-db12-47f7-bcdb-1a9d452e0ff0",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Fran Salm",
+   "playerId": "ee1784f6-59f1-4fd2-944e-f2683fb94262",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jemma Bucks",
+   "playerId": "f0acebf7-62fd-455a-9fa4-c5ca589fc1b5",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steven Ditizii",
+   "playerId": "f4367c50-f924-4bd9-b825-78ee61e92c43",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Clare Cruz",
+   "playerId": "f54b54e0-be28-4155-a198-e63fc2ed0912",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 60,
   "provisionalMatches": 0,

@@ -2608,12 +2608,39 @@ const lineupLabState = {
   games: [],
 };
 
+// Unlike the main team page's roster (which only ever shows DATA.players —
+// see renderTeamPage — so a sub who hasn't played yet stays invisible there),
+// the Lineup Lab needs every player a captain could plausibly pencil in,
+// including a rostered sub with zero appearances. DATA.availableSubs carries
+// exactly those (see compiler.js); DATA.players already covers everyone who
+// has played, so the two are merged and de-duped by playerId (falling back to
+// name for the rare row without one) rather than switched between wholesale,
+// since DATA.players also has the real stats (rating, games played) this
+// feature displays and availableSubs does not.
 function lineupRoster(teamName) {
-  return DATA.players.filter((player) => player.team === teamName);
+  const seen = new Set();
+  const roster = [];
+  for (const player of DATA.players) {
+    if (player.team !== teamName) continue;
+    const key = player.playerId || player.name;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    roster.push(player);
+  }
+  for (const sub of (DATA.availableSubs || [])) {
+    if (sub.team !== teamName) continue;
+    const key = sub.playerId || sub.name;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    roster.push(sub);
+  }
+  return roster;
 }
 
 function lineupPlayer(name) {
-  return DATA.players.find((player) => player.name === name) || null;
+  return DATA.players.find((player) => player.name === name)
+    || (DATA.availableSubs || []).find((sub) => sub.name === name)
+    || null;
 }
 
 // Every one of Team A's matches for the whole season, earliest week first —

@@ -10895,6 +10895,200 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {},
+ "availableSubs": [
+  {
+   "name": "Brett Wilson",
+   "playerId": "0442b5bc-7af7-4e95-acc1-08adc22cdb2e",
+   "gender": "Male",
+   "team": "Honeydrippers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bill Vit",
+   "playerId": "1993029d-4e84-416d-a8aa-48fde81e5ad9",
+   "gender": "Male",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Corinne Demeuse",
+   "playerId": "2a820b56-af8a-4856-8db8-fb8e7c133e08",
+   "gender": "Female",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eleni Leone",
+   "playerId": "2e5dc033-4c92-4dbf-b52a-5e29efc8d009",
+   "gender": "Female",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sam Doctor",
+   "playerId": "3070f4fd-b54d-4aac-81e9-72ffc24c2845",
+   "gender": "Male",
+   "team": "Honeydrippers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kerry Andrews",
+   "playerId": "3b0373be-f09e-4371-8c6a-242a8366fb3a",
+   "gender": "Female",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nancy Johnston",
+   "playerId": "41a15db4-e9ec-48ed-9ec9-f49ab12c9578",
+   "gender": "Female",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Milinda Heist",
+   "playerId": "563e3cdf-0512-46c8-8d14-a59d83cd4f88",
+   "gender": "Female",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Warren Meade",
+   "playerId": "57c42d81-72e1-4e3c-8f52-397d8030a513",
+   "gender": "Male",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Paul King",
+   "playerId": "610394c3-e392-4396-8c66-148087a639cd",
+   "gender": "Male",
+   "team": "Honeydrippers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cole Curran",
+   "playerId": "64f61bb2-93df-457a-8822-15aafeba1c25",
+   "gender": "Male",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kara Chubrik",
+   "playerId": "6848f02a-1acc-47f8-8743-3525311031a9",
+   "gender": "Female",
+   "team": "Spin Doctors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathie Vit",
+   "playerId": "8d78e179-2297-4a1d-b9b0-0f340202b367",
+   "gender": "Female",
+   "team": "Honeydrippers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Martin Clifford",
+   "playerId": "9d4a74f8-90f6-4b40-b714-9c72f7cd9dcc",
+   "gender": "Male",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Anthony Leone",
+   "playerId": "a8715ef7-f760-4097-b642-eae44c0a5de7",
+   "gender": "Male",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alfred Soliman",
+   "playerId": "bb9067e6-d693-47c2-840a-c21a08812694",
+   "gender": "Male",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sheila Curran",
+   "playerId": "bbb3cbbd-edc3-4fa6-adef-800076f97402",
+   "gender": "Female",
+   "team": "Pickle Bunch",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marianne Rosato",
+   "playerId": "c6fa0543-ddb2-46bf-83dc-f08f731c3eb3",
+   "gender": "Female",
+   "team": "Honeydrippers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Leah Greenstein",
+   "playerId": "ca06b5ce-3001-408e-bdc6-9e183022b9f3",
+   "gender": "Female",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cathy Orourke",
+   "playerId": "d0485529-ede0-4a73-b48c-a0a57803ff25",
+   "gender": "Female",
+   "team": "Honeydrippers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lynn Bresnahan",
+   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
+   "gender": "Female",
+   "team": "Ladies & Lords of Dinkingham",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Hector Lopez",
+   "playerId": "e02b2266-0586-4da7-9451-b90445d145bf",
+   "gender": "Male",
+   "team": "Spin Doctors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tao Zhu",
+   "playerId": "fce9f902-9a8a-4ee0-8faa-eee3226b7b91",
+   "gender": "Female",
+   "team": "Spin Doctors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jane Straley",
+   "playerId": "fe7c9b2d-efd7-4497-beb6-f1041afa73ec",
+   "gender": "Female",
+   "team": "Spin Doctors",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 16,
   "provisionalMatches": 0,

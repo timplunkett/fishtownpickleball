@@ -22527,6 +22527,376 @@
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
  },
+ "availableSubs": [
+  {
+   "name": "Jodi De Waal",
+   "playerId": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carmen Ford",
+   "playerId": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Karen Kelly",
+   "playerId": "07767191-9167-4314-973d-3798ae6265a9",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Janice Corpora",
+   "playerId": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Govan",
+   "playerId": "110b981a-77ae-42b0-8200-4e30e9ce157a",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Suzanne Bauer",
+   "playerId": "129227bd-dad6-4c63-9d24-d3c6a34e9621",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maggie Jiang",
+   "playerId": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Charlene De Lara",
+   "playerId": "16f9fddd-e9cd-4e65-9090-2764c44fc74a",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Josephine Catanzaro",
+   "playerId": "1bdd162f-17d6-43a3-bbbc-f7ad3337908a",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Susan Goeckeler",
+   "playerId": "201e264e-23da-435d-a4b5-0fea908d1098",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stacey Nusser",
+   "playerId": "24f324f0-f821-45ef-8278-4b65de08b7b5",
+   "gender": "Female",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jaime Luongo",
+   "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eileen Clark",
+   "playerId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
+   "gender": "Female",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Edie Kwasnoski",
+   "playerId": "2b4dc294-9f7a-40c5-978e-59adf81286d7",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Robin Aiello",
+   "playerId": "45790302-b906-4a8b-8a2d-08fbfaf6cbad",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Esther Dayon",
+   "playerId": "487f97a4-05cd-4825-a2b9-d733741a8115",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Love Roa",
+   "playerId": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amanda Gardiner",
+   "playerId": "5fe0b62e-e4be-4dc3-9f9c-46123a17f754",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Megan Curren",
+   "playerId": "6764cb03-b6a2-4b85-95c7-f6ab7d00f203",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maria Borges",
+   "playerId": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Esther Yoon",
+   "playerId": "7d70ad57-c02f-47cc-bdd2-e330a7fed56e",
+   "gender": "Female",
+   "team": "PKLD",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Heidi Lipton",
+   "playerId": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stephanie Ho",
+   "playerId": "815aa4ab-dc28-4202-bd71-c0209705cf1a",
+   "gender": "Female",
+   "team": "PKLD",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vanessa Tortorice",
+   "playerId": "818811e5-0eb6-4611-8ac3-f65c10316305",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kelly Lopinto",
+   "playerId": "8a1482a3-791c-4ec9-9fae-f9f4f9820296",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Beth Pardilla",
+   "playerId": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mary Brashier",
+   "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Barbara Mccarron",
+   "playerId": "9179cc04-34f4-48f4-b30d-69ec894d05f4",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lynette Pil",
+   "playerId": "92b709b8-b68c-436f-95e5-d9db2908cc3c",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brogann Bowden",
+   "playerId": "996f277e-53e6-42b3-b2a1-0ad51949e64b",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nancy Luyando",
+   "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29",
+   "gender": "Female",
+   "team": "PKLD",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Renee Peel",
+   "playerId": "9e346d92-597a-49ef-af58-665667c75c82",
+   "gender": "Female",
+   "team": "Life Time Red Bank",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sarah Law",
+   "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Beverly D'Angelo",
+   "playerId": "b3913bf1-60c7-45b5-b69b-fb7df945ce07",
+   "gender": "Female",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sonu Munshi",
+   "playerId": "ba9daa05-9d48-4c05-bd86-cf7314cf243e",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sara Mizrahi",
+   "playerId": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jill Collins",
+   "playerId": "c6f2f563-b1ea-41c3-bb5a-745e45f78cc6",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sultane Cosaj",
+   "playerId": "c80624a6-0c31-4792-bc8d-c9f1d2153dca",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Danielle Nitti",
+   "playerId": "c87dbf47-5507-470c-b006-71eb4e859389",
+   "gender": "Female",
+   "team": "Life Time Red Bank",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jenny Miller",
+   "playerId": "d014337a-9f8c-4b82-832f-76a3b66856fa",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicole Tarallo",
+   "playerId": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
+   "gender": "Female",
+   "team": "Life Time Red Bank",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jenny Lin",
+   "playerId": "d45c0c05-5f76-4025-a4e6-8442591e88ab",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sherry Sili",
+   "playerId": "e3874889-50a3-472f-aada-20f41ce1bc3f",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tracey Klemick",
+   "playerId": "ee0ab5ac-db12-47f7-bcdb-1a9d452e0ff0",
+   "gender": "Female",
+   "team": "Pickleball Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Irene Guile",
+   "playerId": "ee2b1370-05ac-455a-8be6-d2adf00a4f98",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cara Marcoux",
+   "playerId": "fa1b17b7-edc0-4281-b66d-587b9eb73062",
+   "gender": "Female",
+   "team": "Life Time Red Bank",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 28,
   "provisionalMatches": 0,

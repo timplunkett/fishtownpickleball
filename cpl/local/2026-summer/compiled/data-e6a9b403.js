@@ -9372,6 +9372,224 @@
  "extraPlayerIds": {
   "Marie O’Grady": "77c66e5f-4936-40f3-a1e8-254a20221b76"
  },
+ "availableSubs": [
+  {
+   "name": "Jacqueline Tirona",
+   "playerId": "043e2d6d-92af-4a9a-aac7-3f68ab990b5f",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Denise Vance Noelle",
+   "playerId": "09668b95-28f0-4f07-9630-24049f4e83cd",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tanya Sutantanon",
+   "playerId": "0a8dc698-9413-4c69-b614-1bd7e62e7dfa",
+   "gender": "Female",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Leslie Bartnik",
+   "playerId": "1a00c024-28f7-4600-8210-fb9947adddb5",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carol Trujillo",
+   "playerId": "1f7c068e-fd5e-4d51-aa5b-4bacc4f5bc18",
+   "gender": "Female",
+   "team": "Deadly Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Rabin",
+   "playerId": "21ca5af8-0553-4c66-98e1-1e805bd9209b",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Colette Johnson",
+   "playerId": "26e08c48-5ce9-413f-a09e-11ecab47d2ab",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kevin Wood",
+   "playerId": "272314ef-168e-4eaf-b2e7-0cb05e5fbb09",
+   "gender": "Male",
+   "team": "Kitchen Ninjas",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carmen Wise",
+   "playerId": "419901d0-946b-407e-9ca3-1a40773411b4",
+   "gender": "Female",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dawn Danner",
+   "playerId": "42136761-05e5-4abc-a036-f56dbb239c5e",
+   "gender": "Female",
+   "team": "Deadly Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mariah Dehaven",
+   "playerId": "44e19379-76b6-4587-9292-0c8948fa394f",
+   "gender": "Male",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mary Carlson",
+   "playerId": "4f6a0f00-ee87-4977-897c-f97c30251b80",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Carlson",
+   "playerId": "5303a58b-d9ce-493a-bd41-8549172f885a",
+   "gender": "Male",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elliot Hoang",
+   "playerId": "5518792c-e418-45de-8aab-04cf1e876f96",
+   "gender": "Male",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joanne Gryski",
+   "playerId": "6aef5673-a7b7-48ae-96d4-7f8b3522a0c2",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marie O’Grady",
+   "playerId": "77c66e5f-4936-40f3-a1e8-254a20221b76",
+   "gender": "Female",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gabriela Melideo",
+   "playerId": "7e58c9c4-3c05-4fdc-8706-157ad28655be",
+   "gender": "Female",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Seth Blackwell",
+   "playerId": "8b031c28-3698-4fce-870b-5a031f2f6437",
+   "gender": "Male",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gregory Scheyer",
+   "playerId": "8bd4a2ac-711a-412f-a8a7-89543cfadd79",
+   "gender": "Male",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andriana Solano",
+   "playerId": "8e010bbd-7dae-4dca-88cf-58f7d51b88a1",
+   "gender": "female",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ingrid Teasdale",
+   "playerId": "a68e22ff-587e-4b81-8045-cb0a6fafdaf0",
+   "gender": "Female",
+   "team": "Kitchen Ninjas",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Koren Dehaven",
+   "playerId": "c4f31e3b-88c8-441a-9d13-800c298f974d",
+   "gender": "Female",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bob Post",
+   "playerId": "cc391984-ebe1-4b10-8e1b-2e41c7fcf34e",
+   "gender": "Male",
+   "team": "Bash and Crash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mark Thompson",
+   "playerId": "cc3ce699-e807-42f7-8a10-12a2a7d54df8",
+   "gender": "Male",
+   "team": "Deadly Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joe Carpenter",
+   "playerId": "ee0550ad-ecfd-49d3-b412-923a74cc37ab",
+   "gender": "Male",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Min Cho",
+   "playerId": "ee49b339-395a-48ef-8f30-64082513578f",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bharti Smith",
+   "playerId": "effe3904-742b-4ebe-a8d6-8f7339e0cbf0",
+   "gender": "Female",
+   "team": "The Big Dill",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 12,
   "provisionalMatches": 0,

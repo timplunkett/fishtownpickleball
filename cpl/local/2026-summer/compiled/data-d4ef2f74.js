@@ -12810,6 +12810,176 @@
  "extraPlayerIds": {
   "Oanh Quach": "b4ac779e-91e0-46f1-a4c7-92e1068db57a"
  },
+ "availableSubs": [
+  {
+   "name": "Pam Boyd",
+   "playerId": "04aefa29-20e3-41b7-a680-19d13f9d4289",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Donna Arsenault",
+   "playerId": "085d76d3-6f7d-41d8-b7ee-1fbc4bb6b22a",
+   "gender": "Female",
+   "team": "Pickleball Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Srilahari Kunchapu",
+   "playerId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Bruno",
+   "playerId": "3e9413ca-f37d-43e0-8380-957933a70055",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Evan Sinclair",
+   "playerId": "44de3ff2-3b41-4c10-908c-8057a94e1d75",
+   "gender": "Male",
+   "team": "Kitchen Nightmare",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Heather Conger",
+   "playerId": "56cf07d5-e5fe-42b9-a6ab-c30b2d4fe2c5",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kendra Johnson",
+   "playerId": "5e2e33ed-390f-4f0e-96de-c1b4c2e6b587",
+   "gender": "Female",
+   "team": "Summer Smasher",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michelle Quach",
+   "playerId": "5f0dcbe9-bb0e-496d-99d2-06f01ff2c77b",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Arpita Vaidya",
+   "playerId": "76e829fc-dfa9-4d0c-86ca-eaed7dc4a11a",
+   "gender": "Female",
+   "team": "Kitchen Nightmare",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Taylor Johns",
+   "playerId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
+   "gender": "Female",
+   "team": "Pickleball Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Olivia Schaller",
+   "playerId": "84c96e34-809c-4b34-9005-8ea76ca6a233",
+   "gender": "Female",
+   "team": "Summer Smasher",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Martina Tejeda",
+   "playerId": "8d954af5-f3d4-45c9-a172-0fe2cbdc4e14",
+   "gender": "Female",
+   "team": "Pickleball Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michelle Friedman",
+   "playerId": "95b1b428-2e56-4578-8cb3-574954ba8922",
+   "gender": "Female",
+   "team": "Kitchen Nightmare",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ying Tang",
+   "playerId": "9e8b7712-857f-4f71-a3f3-ac3527f0b719",
+   "gender": "Female",
+   "team": "Pickleball Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Oanh Quach",
+   "playerId": "b4ac779e-91e0-46f1-a4c7-92e1068db57a",
+   "gender": "Female",
+   "team": "Summer Smasher",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nada Abdelkarim",
+   "playerId": "bf00658c-c290-41dd-96dd-e63f723fa6cc",
+   "gender": "Female",
+   "team": "Pickleball Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stacy Ip-Mo",
+   "playerId": "d0562c60-5e2c-4647-805c-ac3740562432",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Zarrilli",
+   "playerId": "d2a43eb3-f288-4ef4-bae9-209ab6ec0f0c",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lizzie Brofft",
+   "playerId": "d566e39d-ad62-41aa-be9c-a535f141a8ee",
+   "gender": "Female",
+   "team": "Summer Heat",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Victoria Rolon",
+   "playerId": "dad8c60e-028f-4716-a64d-8fcbaffc4a1f",
+   "gender": "Female",
+   "team": "Summer Smasher",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chris Machuzak",
+   "playerId": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7",
+   "gender": "Male",
+   "team": "Pickleball Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 18,
   "provisionalMatches": 0,
