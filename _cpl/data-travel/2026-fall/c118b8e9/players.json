@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 203
+      "ranking": 202
     },
     {
       "playerId": "03886b04-b474-4dda-b7f3-eb4f4954399c",
@@ -90,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 21,
-      "ranking": 147
+      "ranking": 146
     },
     {
       "playerId": "04000200-8214-42ff-9a0d-2189ffaccd42",
@@ -136,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 0,
-      "ranking": 49
+      "ranking": 48
     },
     {
       "playerId": "06a3741d-10e5-462b-ba95-aa997d4eb8ea",
@@ -182,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 9,
-      "ranking": 54
+      "ranking": 53
     },
     {
       "playerId": "084f4667-3553-4f23-b4c7-62d6c8afb42a",
@@ -297,7 +297,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 1,
-      "ranking": 76
+      "ranking": 75
     },
     {
       "playerId": "099e3831-88c1-4907-9869-f193db58b64b",
@@ -389,7 +389,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 11,
-      "ranking": 56
+      "ranking": 55
     },
     {
       "playerId": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
@@ -412,7 +412,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 15,
-      "ranking": 95
+      "ranking": 94
     },
     {
       "playerId": "12ec758b-f05d-40ec-b082-a76f07cbe792",
@@ -458,7 +458,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 6,
-      "ranking": 90
+      "ranking": 88
     },
     {
       "playerId": "148387a8-f20a-44df-981d-0d9d2e7bf443",
@@ -527,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 1,
-      "ranking": 45
+      "ranking": 44
     },
     {
       "playerId": "176df588-c3ff-4b50-a66a-4df99647254b",
@@ -596,7 +596,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 31,
-      "ranking": 202
+      "ranking": 201
     },
     {
       "playerId": "183983b9-993f-471e-ac3d-224dcee6d80f",
@@ -665,7 +665,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 10,
-      "ranking": 242
+      "ranking": 241
     },
     {
       "playerId": "1baee0ad-faae-4c61-894a-a347710fdfea",
@@ -757,7 +757,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 6,
-      "ranking": 32
+      "ranking": 33
     },
     {
       "playerId": "22294f41-611f-4e8f-962e-377e43209945",
@@ -780,7 +780,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 32,
-      "ranking": 245
+      "ranking": 244
     },
     {
       "playerId": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
@@ -861,18 +861,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 7,
-      "losses": 20,
-      "gamesPlayed": 27,
-      "pointsWon": 473,
-      "totalPointsAgainst": 517,
-      "clutchWins": 2,
+      "wins": 9,
+      "losses": 25,
+      "gamesPlayed": 34,
+      "pointsWon": 579,
+      "totalPointsAgainst": 660,
+      "clutchWins": 4,
       "clutchLosses": 8,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 7,
-      "genderLosses": 20,
-      "ranking": 199
+      "genderWins": 9,
+      "genderLosses": 25,
+      "ranking": 204
     },
     {
       "playerId": "27009a0b-037c-4934-9f52-d21c928ef173",
@@ -895,7 +895,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 5,
-      "ranking": 103
+      "ranking": 104
     },
     {
       "playerId": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
@@ -918,7 +918,7 @@
       "mixedLosses": 0,
       "genderWins": 23,
       "genderLosses": 3,
-      "ranking": 8
+      "ranking": 9
     },
     {
       "playerId": "2811dd08-7b50-455b-bc23-46b064a912eb",
@@ -941,7 +941,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 3,
-      "ranking": 46
+      "ranking": 45
     },
     {
       "playerId": "29646b59-bcf0-4a90-a70d-2824eb639c4c",
@@ -964,7 +964,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 7,
-      "ranking": 149
+      "ranking": 150
     },
     {
       "playerId": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
@@ -987,7 +987,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 1,
-      "ranking": 35
+      "ranking": 36
     },
     {
       "playerId": "2d439cdc-347e-4beb-9975-1b31bc46f2df",
@@ -1010,7 +1010,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 15,
-      "ranking": 201
+      "ranking": 200
     },
     {
       "playerId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
@@ -1056,7 +1056,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 9,
-      "ranking": 93
+      "ranking": 91
     },
     {
       "playerId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
@@ -1102,7 +1102,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 5,
-      "ranking": 28
+      "ranking": 31
     },
     {
       "playerId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
@@ -1125,7 +1125,7 @@
       "mixedLosses": 0,
       "genderWins": 26,
       "genderLosses": 6,
-      "ranking": 10
+      "ranking": 11
     },
     {
       "playerId": "3196f425-e79a-4def-b7c3-bc3205976ba3",
@@ -1148,7 +1148,7 @@
       "mixedLosses": 0,
       "genderWins": 12,
       "genderLosses": 6,
-      "ranking": 66
+      "ranking": 64
     },
     {
       "playerId": "31b78615-afb3-4856-8cb1-de2b8d43a115",
@@ -1194,7 +1194,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 16,
-      "ranking": 195
+      "ranking": 194
     },
     {
       "playerId": "32712f41-d770-4a6c-b536-d596bab73e13",
@@ -1240,7 +1240,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 21,
-      "ranking": 154
+      "ranking": 155
     },
     {
       "playerId": "33fe293d-5913-41af-8f89-4a431ed92ab7",
@@ -1309,7 +1309,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 7,
-      "ranking": 100
+      "ranking": 99
     },
     {
       "playerId": "39c75937-8a66-4688-85f8-6c547400e441",
@@ -1332,7 +1332,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 3,
-      "ranking": 31
+      "ranking": 32
     },
     {
       "playerId": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
@@ -1401,7 +1401,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 17,
-      "ranking": 152
+      "ranking": 153
     },
     {
       "playerId": "3b9648e1-481c-4007-9932-d8df648f7bab",
@@ -1447,7 +1447,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 2,
-      "ranking": 188
+      "ranking": 190
     },
     {
       "playerId": "3e2aac0c-7c01-4c71-a288-900b54059019",
@@ -1516,7 +1516,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 6,
-      "ranking": 244
+      "ranking": 243
     },
     {
       "playerId": "40681083-620d-4293-829f-91121323135c",
@@ -1631,7 +1631,7 @@
       "mixedLosses": 0,
       "genderWins": 23,
       "genderLosses": 17,
-      "ranking": 89
+      "ranking": 86
     },
     {
       "playerId": "4516a66f-67b3-4981-a16d-036deb8db9bc",
@@ -1700,7 +1700,7 @@
       "mixedLosses": 0,
       "genderWins": 23,
       "genderLosses": 7,
-      "ranking": 27
+      "ranking": 28
     },
     {
       "playerId": "479815f2-1e14-4b96-9423-d99c15b2fe2b",
@@ -1769,7 +1769,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 18,
-      "ranking": 101
+      "ranking": 100
     },
     {
       "playerId": "4a5131e4-a912-4913-8ff5-9281e53c6974",
@@ -1792,7 +1792,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 12,
-      "ranking": 86
+      "ranking": 83
     },
     {
       "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
@@ -1815,7 +1815,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 1,
-      "ranking": 77
+      "ranking": 74
     },
     {
       "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
@@ -1838,7 +1838,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 25,
-      "ranking": 220
+      "ranking": 221
     },
     {
       "playerId": "4f34c672-f457-467f-98d8-7d5d6c8add16",
@@ -1930,7 +1930,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 13,
-      "ranking": 72
+      "ranking": 71
     },
     {
       "playerId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
@@ -1953,7 +1953,7 @@
       "mixedLosses": 0,
       "genderWins": 12,
       "genderLosses": 19,
-      "ranking": 173
+      "ranking": 175
     },
     {
       "playerId": "51ceabf9-8258-4835-9835-c7d915220185",
@@ -2045,7 +2045,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 9,
-      "ranking": 207
+      "ranking": 206
     },
     {
       "playerId": "54d78d2c-c0d7-42c0-aef4-567311f2e51e",
@@ -2091,7 +2091,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 4,
-      "ranking": 11
+      "ranking": 12
     },
     {
       "playerId": "57666861-23d0-4809-9556-b646579f2fd6",
@@ -2160,7 +2160,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 7,
-      "ranking": 26
+      "ranking": 27
     },
     {
       "playerId": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
@@ -2183,7 +2183,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 14,
-      "ranking": 196
+      "ranking": 197
     },
     {
       "playerId": "5b619b72-b78a-49ba-872d-c64db6084a67",
@@ -2195,18 +2195,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 4,
-      "losses": 6,
-      "gamesPlayed": 10,
-      "pointsWon": 187,
-      "totalPointsAgainst": 194,
-      "clutchWins": 2,
-      "clutchLosses": 2,
+      "wins": 7,
+      "losses": 9,
+      "gamesPlayed": 16,
+      "pointsWon": 296,
+      "totalPointsAgainst": 307,
+      "clutchWins": 3,
+      "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 4,
-      "genderLosses": 6,
-      "ranking": 155
+      "genderWins": 7,
+      "genderLosses": 9,
+      "ranking": 149
     },
     {
       "playerId": "5bec8637-0324-4af8-8084-3779e0f43521",
@@ -2275,7 +2275,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 217
+      "ranking": 218
     },
     {
       "playerId": "5c88bc5a-3350-4271-8305-114385b45a3d",
@@ -2298,7 +2298,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 204
+      "ranking": 203
     },
     {
       "playerId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
@@ -2321,7 +2321,7 @@
       "mixedLosses": 0,
       "genderWins": 25,
       "genderLosses": 9,
-      "ranking": 33
+      "ranking": 34
     },
     {
       "playerId": "5df02573-21d4-40ea-8b41-f81372a474b3",
@@ -2367,7 +2367,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 2,
-      "ranking": 9
+      "ranking": 10
     },
     {
       "playerId": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
@@ -2459,7 +2459,7 @@
       "mixedLosses": 0,
       "genderWins": 23,
       "genderLosses": 16,
-      "ranking": 82
+      "ranking": 78
     },
     {
       "playerId": "635ba257-e1ed-4db3-8303-5f241388437e",
@@ -2471,18 +2471,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 10,
-      "losses": 20,
-      "gamesPlayed": 30,
-      "pointsWon": 510,
-      "totalPointsAgainst": 566,
-      "clutchWins": 1,
-      "clutchLosses": 7,
+      "wins": 13,
+      "losses": 25,
+      "gamesPlayed": 38,
+      "pointsWon": 642,
+      "totalPointsAgainst": 720,
+      "clutchWins": 2,
+      "clutchLosses": 8,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 10,
-      "genderLosses": 20,
-      "ranking": 190
+      "genderWins": 13,
+      "genderLosses": 25,
+      "ranking": 187
     },
     {
       "playerId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
@@ -2494,18 +2494,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 15,
-      "losses": 7,
-      "gamesPlayed": 22,
-      "pointsWon": 437,
-      "totalPointsAgainst": 361,
+      "wins": 19,
+      "losses": 11,
+      "gamesPlayed": 30,
+      "pointsWon": 584,
+      "totalPointsAgainst": 494,
       "clutchWins": 3,
-      "clutchLosses": 4,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 15,
-      "genderLosses": 7,
-      "ranking": 42
+      "genderWins": 19,
+      "genderLosses": 11,
+      "ranking": 67
     },
     {
       "playerId": "639af9e8-08fd-496d-84d6-6e7859e8c6d3",
@@ -2528,7 +2528,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 8,
-      "ranking": 84
+      "ranking": 81
     },
     {
       "playerId": "63eeb91c-2c9c-4dbe-8662-58fbb1d95092",
@@ -2574,7 +2574,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 8,
-      "ranking": 61
+      "ranking": 58
     },
     {
       "playerId": "665c8622-ccbc-4273-9af7-fd9d8840581a",
@@ -2609,18 +2609,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 19,
-      "losses": 11,
-      "gamesPlayed": 30,
-      "pointsWon": 570,
-      "totalPointsAgainst": 537,
-      "clutchWins": 7,
-      "clutchLosses": 2,
+      "wins": 23,
+      "losses": 15,
+      "gamesPlayed": 38,
+      "pointsWon": 720,
+      "totalPointsAgainst": 693,
+      "clutchWins": 10,
+      "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 19,
-      "genderLosses": 11,
-      "ranking": 87
+      "genderWins": 23,
+      "genderLosses": 15,
+      "ranking": 93
     },
     {
       "playerId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb",
@@ -2643,7 +2643,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 15,
-      "ranking": 91
+      "ranking": 90
     },
     {
       "playerId": "67f9503a-202f-4982-8e97-9b3383a35aee",
@@ -2666,7 +2666,7 @@
       "mixedLosses": 0,
       "genderWins": 34,
       "genderLosses": 14,
-      "ranking": 39
+      "ranking": 40
     },
     {
       "playerId": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
@@ -2712,7 +2712,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 4,
-      "ranking": 24
+      "ranking": 25
     },
     {
       "playerId": "6a2f3777-38b2-4f02-b550-ce38395914d2",
@@ -2770,18 +2770,18 @@
       "isSub": true,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 6,
-      "losses": 1,
-      "gamesPlayed": 7,
-      "pointsWon": 143,
-      "totalPointsAgainst": 92,
+      "wins": 12,
+      "losses": 2,
+      "gamesPlayed": 14,
+      "pointsWon": 286,
+      "totalPointsAgainst": 188,
       "clutchWins": 1,
       "clutchLosses": 0,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 6,
-      "genderLosses": 1,
-      "ranking": 40
+      "genderWins": 12,
+      "genderLosses": 2,
+      "ranking": 7
     },
     {
       "playerId": "6b263caa-80f7-40d2-9248-559f91ffe71e",
@@ -2850,7 +2850,7 @@
       "mixedLosses": 0,
       "genderWins": 24,
       "genderLosses": 8,
-      "ranking": 22
+      "ranking": 21
     },
     {
       "playerId": "6e92db16-8465-411e-bc3f-935badc74f47",
@@ -2873,7 +2873,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 0,
-      "ranking": 68
+      "ranking": 66
     },
     {
       "playerId": "717d97f0-4f08-476f-9c53-7595605bc0b0",
@@ -2896,7 +2896,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 19,
-      "ranking": 194
+      "ranking": 195
     },
     {
       "playerId": "718c6948-a987-43bb-a1f3-cf7aead75edb",
@@ -2942,7 +2942,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 15,
-      "ranking": 206
+      "ranking": 207
     },
     {
       "playerId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
@@ -2965,7 +2965,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 15,
-      "ranking": 99
+      "ranking": 98
     },
     {
       "playerId": "75496a80-8064-40ae-ba4b-36c156d70885",
@@ -2988,7 +2988,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 13,
-      "ranking": 148
+      "ranking": 147
     },
     {
       "playerId": "7573445f-7dbd-4c2f-867a-ae95ae7ed168",
@@ -3023,18 +3023,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 20,
-      "losses": 11,
-      "gamesPlayed": 31,
-      "pointsWon": 598,
-      "totalPointsAgainst": 559,
+      "wins": 24,
+      "losses": 15,
+      "gamesPlayed": 39,
+      "pointsWon": 746,
+      "totalPointsAgainst": 697,
       "clutchWins": 8,
-      "clutchLosses": 4,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 20,
-      "genderLosses": 11,
-      "ranking": 74
+      "genderWins": 24,
+      "genderLosses": 15,
+      "ranking": 77
     },
     {
       "playerId": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
@@ -3149,7 +3149,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 7,
-      "ranking": 48
+      "ranking": 47
     },
     {
       "playerId": "7b57c36d-a6eb-470e-b132-26d1f2a47b74",
@@ -3184,18 +3184,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 6,
-      "losses": 14,
-      "gamesPlayed": 20,
-      "pointsWon": 320,
-      "totalPointsAgainst": 387,
-      "clutchWins": 2,
+      "wins": 8,
+      "losses": 19,
+      "gamesPlayed": 27,
+      "pointsWon": 437,
+      "totalPointsAgainst": 528,
+      "clutchWins": 3,
       "clutchLosses": 2,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 6,
-      "genderLosses": 14,
-      "ranking": 221
+      "genderWins": 8,
+      "genderLosses": 19,
+      "ranking": 216
     },
     {
       "playerId": "7f44421c-476c-4857-99ed-3376b32289ca",
@@ -3218,7 +3218,7 @@
       "mixedLosses": 0,
       "genderWins": 19,
       "genderLosses": 9,
-      "ranking": 64
+      "ranking": 61
     },
     {
       "playerId": "7f4b7644-6117-4eee-b3d8-a4955507923e",
@@ -3333,7 +3333,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 3,
-      "ranking": 7
+      "ranking": 8
     },
     {
       "playerId": "8767c73e-fa5a-4e68-9ded-850b7ab50693",
@@ -3379,7 +3379,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 3,
-      "ranking": 12
+      "ranking": 13
     },
     {
       "playerId": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
@@ -3402,7 +3402,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 7,
-      "ranking": 67
+      "ranking": 65
     },
     {
       "playerId": "8b8ebfab-9618-4bba-a52b-6aa7679d3390",
@@ -3448,7 +3448,7 @@
       "mixedLosses": 0,
       "genderWins": 19,
       "genderLosses": 15,
-      "ranking": 94
+      "ranking": 92
     },
     {
       "playerId": "8db75058-7f84-48bc-9a6c-e15a8fa1a71e",
@@ -3471,7 +3471,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 192
+      "ranking": 193
     },
     {
       "playerId": "8f076d51-25ba-4203-97f8-12194ba5b001",
@@ -3540,7 +3540,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 12,
-      "ranking": 98
+      "ranking": 97
     },
     {
       "playerId": "8fea334f-ad12-4c45-b67d-a127ec551f4e",
@@ -3563,7 +3563,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 11,
-      "ranking": 121
+      "ranking": 120
     },
     {
       "playerId": "906383cd-e781-48bc-9004-0fc5427c7e62",
@@ -3586,7 +3586,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 32,
-      "ranking": 197
+      "ranking": 196
     },
     {
       "playerId": "93280d5d-b0c8-49cd-94fe-0350f3e2dac5",
@@ -3678,7 +3678,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 3,
-      "ranking": 70
+      "ranking": 69
     },
     {
       "playerId": "9886815c-3bf4-42b1-b650-1ec17ff2c167",
@@ -3701,7 +3701,7 @@
       "mixedLosses": 0,
       "genderWins": 19,
       "genderLosses": 12,
-      "ranking": 78
+      "ranking": 76
     },
     {
       "playerId": "9a26eab9-96be-45e1-b380-2845a0e8e668",
@@ -3724,7 +3724,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 9,
-      "ranking": 73
+      "ranking": 72
     },
     {
       "playerId": "9adf9c4e-91c0-4483-af44-9ad4a86a81ce",
@@ -3793,7 +3793,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 8,
-      "ranking": 75
+      "ranking": 73
     },
     {
       "playerId": "9e348e82-13d0-4911-8efa-e5a2f7afded1",
@@ -3816,7 +3816,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 1,
-      "ranking": 96
+      "ranking": 95
     },
     {
       "playerId": "a117b66b-f319-4fc0-8ee2-feb3f17767d0",
@@ -3839,7 +3839,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 14,
-      "ranking": 104
+      "ranking": 103
     },
     {
       "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -3885,7 +3885,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 8,
-      "ranking": 65
+      "ranking": 63
     },
     {
       "playerId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
@@ -3897,18 +3897,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 19,
-      "losses": 5,
-      "gamesPlayed": 24,
-      "pointsWon": 487,
-      "totalPointsAgainst": 374,
-      "clutchWins": 4,
-      "clutchLosses": 2,
+      "wins": 24,
+      "losses": 8,
+      "gamesPlayed": 32,
+      "pointsWon": 645,
+      "totalPointsAgainst": 506,
+      "clutchWins": 5,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 19,
-      "genderLosses": 5,
-      "ranking": 13
+      "genderWins": 24,
+      "genderLosses": 8,
+      "ranking": 24
     },
     {
       "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
@@ -3931,7 +3931,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 7,
-      "ranking": 43
+      "ranking": 42
     },
     {
       "playerId": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d",
@@ -4058,18 +4058,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 2,
-      "losses": 11,
-      "gamesPlayed": 13,
-      "pointsWon": 205,
-      "totalPointsAgainst": 269,
-      "clutchWins": 2,
-      "clutchLosses": 2,
+      "wins": 3,
+      "losses": 15,
+      "gamesPlayed": 18,
+      "pointsWon": 279,
+      "totalPointsAgainst": 372,
+      "clutchWins": 3,
+      "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 2,
-      "genderLosses": 11,
-      "ranking": 247
+      "genderWins": 3,
+      "genderLosses": 15,
+      "ranking": 245
     },
     {
       "playerId": "a8585e9c-872e-466c-9583-9680e557f757",
@@ -4161,7 +4161,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 5,
-      "ranking": 216
+      "ranking": 217
     },
     {
       "playerId": "abd55992-7237-4a92-817d-3d39388369c9",
@@ -4230,7 +4230,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 7,
-      "ranking": 85
+      "ranking": 82
     },
     {
       "playerId": "adc25ed0-4bc3-47da-9509-4caeb8f90185",
@@ -4253,7 +4253,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 5,
-      "ranking": 200
+      "ranking": 199
     },
     {
       "playerId": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
@@ -4345,7 +4345,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 11,
-      "ranking": 81
+      "ranking": 80
     },
     {
       "playerId": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
@@ -4368,7 +4368,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 14,
-      "ranking": 120
+      "ranking": 119
     },
     {
       "playerId": "b1f8fd31-d4ed-4824-9ae6-174e5e2f21c2",
@@ -4414,7 +4414,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 10,
-      "ranking": 193
+      "ranking": 192
     },
     {
       "playerId": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1",
@@ -4437,7 +4437,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 5,
-      "ranking": 52
+      "ranking": 50
     },
     {
       "playerId": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc",
@@ -4506,7 +4506,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 8,
-      "ranking": 153
+      "ranking": 154
     },
     {
       "playerId": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46",
@@ -4587,18 +4587,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 9,
-      "losses": 6,
-      "gamesPlayed": 15,
-      "pointsWon": 298,
-      "totalPointsAgainst": 257,
+      "wins": 12,
+      "losses": 10,
+      "gamesPlayed": 22,
+      "pointsWon": 430,
+      "totalPointsAgainst": 386,
       "clutchWins": 1,
-      "clutchLosses": 4,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 9,
-      "genderLosses": 6,
-      "ranking": 79
+      "genderWins": 12,
+      "genderLosses": 10,
+      "ranking": 101
     },
     {
       "playerId": "b5dec967-9e3a-49b4-b136-597711d099cc",
@@ -4736,7 +4736,7 @@
       "mixedLosses": 0,
       "genderWins": 26,
       "genderLosses": 10,
-      "ranking": 37
+      "ranking": 38
     },
     {
       "playerId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
@@ -4748,18 +4748,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 11,
-      "losses": 5,
-      "gamesPlayed": 16,
-      "pointsWon": 318,
-      "totalPointsAgainst": 272,
-      "clutchWins": 3,
+      "wins": 17,
+      "losses": 7,
+      "gamesPlayed": 24,
+      "pointsWon": 474,
+      "totalPointsAgainst": 413,
+      "clutchWins": 5,
       "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 11,
-      "genderLosses": 5,
-      "ranking": 44
+      "genderWins": 17,
+      "genderLosses": 7,
+      "ranking": 43
     },
     {
       "playerId": "bf789141-926d-44b1-83c9-d5e5853589cb",
@@ -4851,7 +4851,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 9,
-      "ranking": 62
+      "ranking": 60
     },
     {
       "playerId": "c24596e0-9eeb-4195-b1ff-d4ca3e418d84",
@@ -4874,7 +4874,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 12,
-      "ranking": 146
+      "ranking": 148
     },
     {
       "playerId": "c39cd158-0c19-4819-8653-18084e6ce982",
@@ -4897,7 +4897,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 21,
-      "ranking": 150
+      "ranking": 152
     },
     {
       "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
@@ -4943,7 +4943,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 8,
-      "ranking": 69
+      "ranking": 68
     },
     {
       "playerId": "c5d07eb6-d276-4503-a077-c092e89c2ae8",
@@ -5081,7 +5081,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 6,
-      "ranking": 21
+      "ranking": 22
     },
     {
       "playerId": "c8f3b265-67a8-412c-84f5-aee92a913aac",
@@ -5104,7 +5104,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 1,
-      "ranking": 97
+      "ranking": 96
     },
     {
       "playerId": "c9088878-9755-4e32-abed-4a4e5a42f9a8",
@@ -5150,7 +5150,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 7,
-      "ranking": 60
+      "ranking": 57
     },
     {
       "playerId": "cae7c2db-b4d5-4927-9c44-ff92176b5507",
@@ -5173,7 +5173,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 5,
-      "ranking": 25
+      "ranking": 26
     },
     {
       "playerId": "cb2183c7-8c7b-4ebf-93da-66aeabe13d3b",
@@ -5242,7 +5242,7 @@
       "mixedLosses": 0,
       "genderWins": 19,
       "genderLosses": 13,
-      "ranking": 92
+      "ranking": 89
     },
     {
       "playerId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",
@@ -5346,17 +5346,17 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 21,
-      "losses": 2,
-      "gamesPlayed": 23,
-      "pointsWon": 471,
-      "totalPointsAgainst": 339,
-      "clutchWins": 6,
-      "clutchLosses": 0,
+      "wins": 28,
+      "losses": 3,
+      "gamesPlayed": 31,
+      "pointsWon": 637,
+      "totalPointsAgainst": 455,
+      "clutchWins": 7,
+      "clutchLosses": 1,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 21,
-      "genderLosses": 2,
+      "genderWins": 28,
+      "genderLosses": 3,
       "ranking": 6
     },
     {
@@ -5426,7 +5426,7 @@
       "mixedLosses": 0,
       "genderWins": 29,
       "genderLosses": 13,
-      "ranking": 57
+      "ranking": 56
     },
     {
       "playerId": "d411862a-491a-47dc-93a8-4a12f821afd7",
@@ -5449,7 +5449,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 6,
-      "ranking": 38
+      "ranking": 39
     },
     {
       "playerId": "d4126276-6b83-42be-b943-9957df46992c",
@@ -5518,7 +5518,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 2,
-      "ranking": 123
+      "ranking": 125
     },
     {
       "playerId": "d61a3828-6dfc-480a-b26a-534b0fe58268",
@@ -5541,7 +5541,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 7,
-      "ranking": 36
+      "ranking": 37
     },
     {
       "playerId": "d634d992-c9d8-4e31-acb7-45b1161eee19",
@@ -5610,7 +5610,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 9,
-      "ranking": 83
+      "ranking": 79
     },
     {
       "playerId": "d6e30691-3b20-465b-8fa8-560017c20c15",
@@ -5656,7 +5656,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 187
+      "ranking": 188
     },
     {
       "playerId": "d88f1d1e-be4e-449e-b9b2-c468753e1dd3",
@@ -5702,7 +5702,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 4,
-      "ranking": 218
+      "ranking": 219
     },
     {
       "playerId": "da802117-fbc3-4b98-9653-9924387691cc",
@@ -5840,7 +5840,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 1,
-      "ranking": 34
+      "ranking": 35
     },
     {
       "playerId": "df0934fe-e584-4b4f-a549-a90499016d33",
@@ -5863,7 +5863,7 @@
       "mixedLosses": 0,
       "genderWins": 25,
       "genderLosses": 13,
-      "ranking": 55
+      "ranking": 54
     },
     {
       "playerId": "e0faca04-4875-4806-b0a3-4830f4dcd52e",
@@ -5932,7 +5932,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 5,
-      "ranking": 63
+      "ranking": 62
     },
     {
       "playerId": "e1d9f3bc-ec4e-4690-810c-a67452049768",
@@ -5944,18 +5944,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 16,
-      "losses": 14,
-      "gamesPlayed": 30,
-      "pointsWon": 558,
-      "totalPointsAgainst": 553,
-      "clutchWins": 6,
-      "clutchLosses": 3,
+      "wins": 20,
+      "losses": 18,
+      "gamesPlayed": 38,
+      "pointsWon": 702,
+      "totalPointsAgainst": 695,
+      "clutchWins": 7,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 16,
-      "genderLosses": 14,
-      "ranking": 125
+      "genderWins": 20,
+      "genderLosses": 18,
+      "ranking": 123
     },
     {
       "playerId": "e1f41428-436c-436e-b752-af9cead487be",
@@ -6001,7 +6001,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 5,
-      "ranking": 50
+      "ranking": 49
     },
     {
       "playerId": "e2d70cc7-b655-43d5-a059-063bfe722001",
@@ -6036,18 +6036,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 11,
-      "losses": 10,
-      "gamesPlayed": 21,
-      "pointsWon": 407,
-      "totalPointsAgainst": 385,
-      "clutchWins": 6,
+      "wins": 16,
+      "losses": 11,
+      "gamesPlayed": 27,
+      "pointsWon": 526,
+      "totalPointsAgainst": 488,
+      "clutchWins": 8,
       "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 11,
-      "genderLosses": 10,
-      "ranking": 117
+      "genderWins": 16,
+      "genderLosses": 11,
+      "ranking": 87
     },
     {
       "playerId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0",
@@ -6093,7 +6093,7 @@
       "mixedLosses": 0,
       "genderWins": 24,
       "genderLosses": 14,
-      "ranking": 53
+      "ranking": 52
     },
     {
       "playerId": "e4cb9932-d672-4089-a643-f2d16e3bd98a",
@@ -6105,18 +6105,18 @@
       "isSub": false,
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
-      "wins": 10,
-      "losses": 5,
-      "gamesPlayed": 15,
-      "pointsWon": 291,
-      "totalPointsAgainst": 257,
-      "clutchWins": 3,
-      "clutchLosses": 2,
+      "wins": 13,
+      "losses": 8,
+      "gamesPlayed": 21,
+      "pointsWon": 401,
+      "totalPointsAgainst": 368,
+      "clutchWins": 4,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 10,
-      "genderLosses": 5,
-      "ranking": 58
+      "genderWins": 13,
+      "genderLosses": 8,
+      "ranking": 85
     },
     {
       "playerId": "e6f1ad88-f91d-41ca-9771-833b1f38eff3",
@@ -6231,7 +6231,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 26,
-      "ranking": 219
+      "ranking": 220
     },
     {
       "playerId": "e9d967d2-d906-43e5-9ab9-afc93f17df03",
@@ -6300,7 +6300,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 7,
-      "ranking": 119
+      "ranking": 117
     },
     {
       "playerId": "ebfeb773-e8cd-4b6a-aafd-ee2772540168",
@@ -6323,7 +6323,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 26,
-      "ranking": 241
+      "ranking": 242
     },
     {
       "playerId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d",
@@ -6335,18 +6335,18 @@
       "isSub": false,
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
-      "wins": 15,
-      "losses": 8,
-      "gamesPlayed": 23,
-      "pointsWon": 441,
-      "totalPointsAgainst": 420,
-      "clutchWins": 6,
-      "clutchLosses": 3,
+      "wins": 17,
+      "losses": 14,
+      "gamesPlayed": 31,
+      "pointsWon": 576,
+      "totalPointsAgainst": 578,
+      "clutchWins": 7,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 15,
-      "genderLosses": 8,
-      "ranking": 80
+      "genderWins": 17,
+      "genderLosses": 14,
+      "ranking": 121
     },
     {
       "playerId": "ef0e9803-0038-4cb9-ad16-a55c54f00339",
@@ -6392,7 +6392,7 @@
       "mixedLosses": 0,
       "genderWins": 19,
       "genderLosses": 9,
-      "ranking": 71
+      "ranking": 70
     },
     {
       "playerId": "f006963a-4e8e-433d-8c9a-e278ac32ea9c",
@@ -6461,7 +6461,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 3,
-      "ranking": 47
+      "ranking": 46
     },
     {
       "playerId": "f2c53e42-1eac-48dd-9c93-682ec5c1ac98",
@@ -6484,7 +6484,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 22,
-      "ranking": 175
+      "ranking": 173
     },
     {
       "playerId": "f3f6addc-ea42-4e7b-ac54-67bf69cffeeb",
@@ -6622,7 +6622,7 @@
       "mixedLosses": 0,
       "genderWins": 13,
       "genderLosses": 8,
-      "ranking": 88
+      "ranking": 84
     },
     {
       "playerId": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27",
@@ -6750,17 +6750,17 @@
       "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
       "teamName": "PickleRage Union County",
       "wins": 4,
-      "losses": 16,
-      "gamesPlayed": 20,
-      "pointsWon": 306,
-      "totalPointsAgainst": 400,
+      "losses": 21,
+      "gamesPlayed": 25,
+      "pointsWon": 374,
+      "totalPointsAgainst": 505,
       "clutchWins": 0,
-      "clutchLosses": 2,
+      "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 4,
-      "genderLosses": 16,
-      "ranking": 243
+      "genderLosses": 21,
+      "ranking": 247
     },
     {
       "playerId": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec",

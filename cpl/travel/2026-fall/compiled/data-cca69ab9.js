@@ -21235,8 +21235,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Gary White"
      ],
      "a": [
       "Stanley Bonczek",
@@ -21246,13 +21246,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yandoli",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Eric Jiang",
       "Daniel Gallegos"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       1,
       0
@@ -21261,8 +21265,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Neil Ottrando"
      ],
      "a": [
       "Kevin Sun",
@@ -21272,8 +21276,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Michael Rapaglia"
      ],
      "a": [
       "Anthony Bonaventura",
@@ -21283,8 +21287,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Gary White"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21298,8 +21302,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Rob Pandolfi"
      ],
      "a": [
       "Stanley Bonczek",
@@ -21309,19 +21313,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Jacob Yandoli"
      ],
      "a": [
       "Anthony Bonaventura",
       "Marr Flores"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Michael Rapaglia"
      ],
      "a": [
       "Kevin Sun",
@@ -21331,19 +21339,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Stanley Bonczek",
       "Anthony Bonaventura"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Jacob Yandoli"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21353,8 +21365,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Michael Rapaglia"
      ],
      "a": [
       "Eric Jiang",
@@ -21368,8 +21380,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Matthew Friedman"
      ],
      "a": [
       "Kevin Sun",
@@ -21379,8 +21391,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yandoli",
+      "Gary White"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21390,19 +21402,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Boris Tserlin"
      ],
      "a": [
       "Anthony Bonaventura",
       "Stanley Bonczek"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Matthew Friedman"
      ],
      "a": [
       "Kevin Sun",
@@ -21412,8 +21428,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Michael Rapaglia"
      ],
      "a": [
       "Josiah Kim",
@@ -21427,8 +21443,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Matthew Friedman"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21438,12 +21454,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Neil Ottrando"
      ],
      "a": [
       "Eric Jiang",
       "Anthony Bonaventura"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -21453,8 +21473,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Rapaglia"
      ],
      "a": [
       "Drew Youssef",
@@ -21464,8 +21484,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yandoli",
+      "Boris Tserlin"
      ],
      "a": [
       "Kevin Sun",
@@ -21475,12 +21495,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Eric Jiang",
       "Anthony Bonaventura"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -21490,8 +21514,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Rapaglia"
      ],
      "a": [
       "Drew Youssef",
@@ -21501,8 +21525,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Matthew Friedman"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21512,8 +21536,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Jacob Yandoli"
      ],
      "a": [
       "Stanley Bonczek",
@@ -21523,8 +21547,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Boris Tserlin"
      ],
      "a": [
       "Josiah Kim",
@@ -21534,8 +21558,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yandoli",
+      "Matthew Friedman"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21545,8 +21569,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Neil Ottrando"
      ],
      "a": [
       "Drew Youssef",
@@ -21556,8 +21580,27 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Nicholas Yandoli"
+     ],
+     "a": [
+      "Marr Flores",
+      "Eric Jiang"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Neil Ottrando",
+      "Gary White"
      ],
      "a": [
       "Marr Flores",
@@ -21571,34 +21614,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marr Flores",
-      "Eric Jiang"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Michael Rapaglia"
      ],
      "a": [
       "Kevin Sun",
       "Drew Youssef"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yandoli",
+      "Matthew Friedman"
      ],
      "a": [
       "Daniel Gallegos",
@@ -21608,8 +21640,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Boris Tserlin"
      ],
      "a": [
       "Josiah Kim",
@@ -21991,7 +22023,7 @@
     {
      "t": "male",
      "h": [
-      "Gopi Narayanan",
+      "Rich Marcovecchio",
       "Matthew Eldridge"
      ],
      "a": [
@@ -22002,8 +22034,8 @@
     {
      "t": "male",
      "h": [
-      "Zach Hollmann",
-      "Michael Li"
+      "Al Mancini",
+      "Gopi Narayanan"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -22013,8 +22045,8 @@
     {
      "t": "male",
      "h": [
-      "Dipen Bhatt",
-      "Mickey Cook"
+      "Michael Li",
+      "Zach Hollmann"
      ],
      "a": [
       "Lou Frignito",
@@ -22024,8 +22056,8 @@
     {
      "t": "male",
      "h": [
-      "Chris Damato",
-      "Al Mancini"
+      "Dipen Bhatt",
+      "Chris Damato"
      ],
      "a": [
       "Mark Kilimnik",
@@ -22047,7 +22079,7 @@
      "t": "male",
      "h": [
       "Gopi Narayanan",
-      "Rich Marcovecchio"
+      "Michael Li"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -22057,7 +22089,7 @@
     {
      "t": "male",
      "h": [
-      "Michael Li",
+      "Matthew Eldridge",
       "Al Mancini"
      ],
      "a": [
@@ -22113,7 +22145,7 @@
      "t": "male",
      "h": [
       "Rich Marcovecchio",
-      "Matthew Eldridge"
+      "Mickey Cook"
      ],
      "a": [
       "Ryan Rosen",
@@ -22123,8 +22155,8 @@
     {
      "t": "male",
      "h": [
-      "Mickey Cook",
-      "Dipen Bhatt"
+      "Michael Li",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Ryan Rosen",
@@ -22134,7 +22166,7 @@
     {
      "t": "male",
      "h": [
-      "Al Mancini",
+      "Matthew Eldridge",
       "Gopi Narayanan"
      ],
      "a": [
@@ -22146,7 +22178,7 @@
      "t": "male",
      "h": [
       "Zach Hollmann",
-      "Matthew Eldridge"
+      "Al Mancini"
      ],
      "a": [
       "Shashank Kamdar",
@@ -22156,8 +22188,8 @@
     {
      "t": "male",
      "h": [
-      "Michael Li",
-      "Rich Marcovecchio"
+      "Mickey Cook",
+      "Dipen Bhatt"
      ],
      "a": [
       "Lou Frignito",
@@ -22167,8 +22199,8 @@
     {
      "t": "male",
      "h": [
-      "Michael Li",
-      "Chris Damato"
+      "Mickey Cook",
+      "Al Mancini"
      ],
      "a": [
       "Mark Kilimnik",
@@ -22178,8 +22210,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Chris Damato"
      ],
      "a": [
       "Jeff Zamorski",
@@ -22189,8 +22221,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Eldridge",
+      "Zach Hollmann"
      ],
      "a": [
       "Shashank Kamdar",
@@ -22201,7 +22233,7 @@
      "t": "male",
      "h": [
       "Tarkan Akas",
-      "Al Mancini"
+      "Dipen Bhatt"
      ],
      "a": [
       "Shawn Ganow",
@@ -22211,8 +22243,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Dipen Bhatt"
      ],
      "a": [
       "Shashank Kamdar",
@@ -22222,8 +22254,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gopi Narayanan",
+      "Zach Hollmann"
      ],
      "a": [
       "Austin Gow",
@@ -22233,8 +22265,8 @@
     {
      "t": "male",
      "h": [
-      "Tarkan Akas",
-      ""
+      "Matthew Eldridge",
+      "Tarkan Akas"
      ],
      "a": [
       "Lou Frignito",
@@ -22244,8 +22276,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Jeff Zamorski",
@@ -22255,7 +22287,7 @@
     {
      "t": "male",
      "h": [
-      "Mickey Cook",
+      "Al Mancini",
       "Rich Marcovecchio"
      ],
      "a": [
@@ -22278,7 +22310,7 @@
      "t": "male",
      "h": [
       "Zach Hollmann",
-      "Al Mancini"
+      "Mickey Cook"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -22289,7 +22321,7 @@
      "t": "male",
      "h": [
       "Michael Li",
-      "Tarkan Akas"
+      "Dipen Bhatt"
      ],
      "a": [
       "Shawn Ganow",
@@ -22299,8 +22331,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rich Marcovecchio",
+      "Zach Hollmann"
      ],
      "a": [
       "Shashank Kamdar",
@@ -22310,8 +22342,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tarkan Akas",
+      "Mickey Cook"
      ],
      "a": [
       "Mark Kilimnik",
@@ -22321,8 +22353,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gopi Narayanan",
+      "Matthew Eldridge"
      ],
      "a": [
       "Ryan Rosen",
@@ -22332,8 +22364,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Chris Damato"
      ],
      "a": [
       "Shawn Ganow",
@@ -24064,7 +24096,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T02:44:32.027Z";
+  DATA.meta.asOf = "2026-09-28T12:27:25.528Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

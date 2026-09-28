@@ -509,9 +509,9 @@
       "weekNumber": 5,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 622,
+      "awayPoints": 598,
+      "endResult": "home",
       "scheduledTime": "2026-09-27T10:00:00",
       "homeName": "Home Court",
       "awayName": "Pickleball HQ"
