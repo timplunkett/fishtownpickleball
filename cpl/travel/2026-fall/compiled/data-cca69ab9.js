@@ -138,7 +138,7 @@
    "winPct": 87.5,
    "diff": 30,
    "ppg": 20.8,
-   "leagueRank": 11,
+   "leagueRank": 24,
    "rating": 2.5,
    "ratingGames": 8,
    "confidence": 61,
@@ -225,7 +225,7 @@
    "winPct": 80,
    "diff": 52,
    "ppg": 20.5,
-   "leagueRank": 18,
+   "leagueRank": 16,
    "rating": 0.8,
    "ratingGames": 15,
    "confidence": 72,
@@ -254,7 +254,7 @@
    "winPct": 80,
    "diff": 45,
    "ppg": 20,
-   "leagueRank": 16,
+   "leagueRank": 14,
    "rating": 1.5,
    "ratingGames": 15,
    "confidence": 69,
@@ -312,7 +312,7 @@
    "winPct": 78.6,
    "diff": 46,
    "ppg": 20.3,
-   "leagueRank": 13,
+   "leagueRank": 11,
    "rating": 1.2,
    "ratingGames": 14,
    "confidence": 73,
@@ -341,7 +341,7 @@
    "winPct": 77.3,
    "diff": 74,
    "ppg": 20.4,
-   "leagueRank": 14,
+   "leagueRank": 12,
    "rating": 1.7,
    "ratingGames": 22,
    "confidence": 79,
@@ -370,7 +370,7 @@
    "winPct": 77.3,
    "diff": 45,
    "ppg": 19.6,
-   "leagueRank": 17,
+   "leagueRank": 15,
    "rating": 2.1,
    "ratingGames": 22,
    "confidence": 81,
@@ -399,7 +399,7 @@
    "winPct": 76.9,
    "diff": 59,
    "ppg": 20.5,
-   "leagueRank": 12,
+   "leagueRank": 26,
    "rating": 1.3,
    "ratingGames": 13,
    "confidence": 71,
@@ -457,7 +457,7 @@
    "winPct": 75,
    "diff": 69,
    "ppg": 20.5,
-   "leagueRank": 22,
+   "leagueRank": 20,
    "rating": 2.1,
    "ratingGames": 24,
    "confidence": 81,
@@ -486,7 +486,7 @@
    "winPct": 75,
    "diff": 25,
    "ppg": 20.1,
-   "leagueRank": 49,
+   "leagueRank": 73,
    "rating": 1.7,
    "ratingGames": 8,
    "confidence": 62,
@@ -515,42 +515,13 @@
    "winPct": 75,
    "diff": 16,
    "ppg": 20.5,
-   "leagueRank": 23,
+   "leagueRank": 21,
    "rating": -0.7,
    "ratingGames": 12,
    "confidence": 68,
    "strengthOfPartners": 0.2,
    "strengthOfOpponents": -1.1,
    "playerId": "f8687730-86a2-4769-a38b-7c0269ee88f5"
-  },
-  {
-   "name": "Matthew Chen",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 8,
-   "wins": 6,
-   "losses": 2,
-   "pointsWon": 160,
-   "totalPointsAgainst": 150,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 6,
-   "genderLosses": 2,
-   "clutchWins": 3,
-   "clutchLosses": 1,
-   "winPct": 75,
-   "diff": 10,
-   "ppg": 20,
-   "leagueRank": 35,
-   "rating": 0.4,
-   "ratingGames": 8,
-   "confidence": 61,
-   "strengthOfPartners": 0.8,
-   "strengthOfOpponents": 0.1,
-   "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183"
   },
   {
    "name": "Yoon Choi",
@@ -573,7 +544,7 @@
    "winPct": 73.9,
    "diff": 68,
    "ppg": 19.7,
-   "leagueRank": 20,
+   "leagueRank": 18,
    "rating": 1.3,
    "ratingGames": 23,
    "confidence": 80,
@@ -660,7 +631,7 @@
    "winPct": 72.4,
    "diff": 98,
    "ppg": 19.9,
-   "leagueRank": 15,
+   "leagueRank": 13,
    "rating": 2.5,
    "ratingGames": 29,
    "confidence": 84,
@@ -718,7 +689,7 @@
    "winPct": 71.4,
    "diff": 37,
    "ppg": 19.3,
-   "leagueRank": 48,
+   "leagueRank": 70,
    "rating": 3,
    "ratingGames": 7,
    "confidence": 56,
@@ -747,7 +718,7 @@
    "winPct": 71.4,
    "diff": 33,
    "ppg": 20.1,
-   "leagueRank": 34,
+   "leagueRank": 33,
    "rating": 2,
    "ratingGames": 14,
    "confidence": 71,
@@ -776,7 +747,7 @@
    "winPct": 71.4,
    "diff": 30,
    "ppg": 18.9,
-   "leagueRank": 55,
+   "leagueRank": 78,
    "rating": 2.1,
    "ratingGames": 7,
    "confidence": 57,
@@ -805,7 +776,7 @@
    "winPct": 71.4,
    "diff": 16,
    "ppg": 20.3,
-   "leagueRank": 37,
+   "leagueRank": 55,
    "rating": 0.5,
    "ratingGames": 7,
    "confidence": 57,
@@ -834,7 +805,7 @@
    "winPct": 69.6,
    "diff": 79,
    "ppg": 20,
-   "leagueRank": 32,
+   "leagueRank": 31,
    "rating": 1.8,
    "ratingGames": 23,
    "confidence": 81,
@@ -863,7 +834,7 @@
    "winPct": 68.8,
    "diff": 43,
    "ppg": 19.8,
-   "leagueRank": 24,
+   "leagueRank": 22,
    "rating": 1.3,
    "ratingGames": 16,
    "confidence": 73,
@@ -892,7 +863,7 @@
    "winPct": 68.4,
    "diff": 30,
    "ppg": 19.3,
-   "leagueRank": 26,
+   "leagueRank": 25,
    "rating": 2,
    "ratingGames": 19,
    "confidence": 78,
@@ -921,7 +892,7 @@
    "winPct": 68.2,
    "diff": 41,
    "ppg": 19.7,
-   "leagueRank": 33,
+   "leagueRank": 32,
    "rating": -0.5,
    "ratingGames": 22,
    "confidence": 80,
@@ -950,7 +921,7 @@
    "winPct": 66.7,
    "diff": 77,
    "ppg": 19.3,
-   "leagueRank": 21,
+   "leagueRank": 19,
    "rating": 2.8,
    "ratingGames": 30,
    "confidence": 84,
@@ -979,42 +950,13 @@
    "winPct": 66.7,
    "diff": 64,
    "ppg": 19.6,
-   "leagueRank": 25,
+   "leagueRank": 23,
    "rating": 1.7,
    "ratingGames": 21,
    "confidence": 80,
    "strengthOfPartners": 0.8,
    "strengthOfOpponents": -0.1,
    "playerId": "d23839c0-334b-4423-9305-0c6281523d5d"
-  },
-  {
-   "name": "Zach Bowe",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 15,
-   "wins": 10,
-   "losses": 5,
-   "pointsWon": 300,
-   "totalPointsAgainst": 258,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 10,
-   "genderLosses": 5,
-   "clutchWins": 2,
-   "clutchLosses": 3,
-   "winPct": 66.7,
-   "diff": 42,
-   "ppg": 20,
-   "leagueRank": 19,
-   "rating": 2.5,
-   "ratingGames": 15,
-   "confidence": 75,
-   "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.5,
-   "playerId": "eebadc3a-5763-4612-9232-d3a98ea188d6"
   },
   {
    "name": "Simon Rosenwasser",
@@ -1037,7 +979,7 @@
    "winPct": 66.7,
    "diff": -3,
    "ppg": 19,
-   "leagueRank": 114,
+   "leagueRank": 106,
    "rating": 0.5,
    "ratingGames": 6,
    "confidence": 53,
@@ -1066,7 +1008,7 @@
    "winPct": 64.7,
    "diff": -9,
    "ppg": 18.2,
-   "leagueRank": 71,
+   "leagueRank": 66,
    "rating": -2.1,
    "ratingGames": 17,
    "confidence": 77,
@@ -1095,7 +1037,7 @@
    "winPct": 64.3,
    "diff": 38,
    "ppg": 20,
-   "leagueRank": 39,
+   "leagueRank": 57,
    "rating": -0.5,
    "ratingGames": 14,
    "confidence": 72,
@@ -1124,7 +1066,7 @@
    "winPct": 64.3,
    "diff": 38,
    "ppg": 19.1,
-   "leagueRank": 38,
+   "leagueRank": 35,
    "rating": 1,
    "ratingGames": 28,
    "confidence": 83,
@@ -1153,7 +1095,7 @@
    "winPct": 64.3,
    "diff": 33,
    "ppg": 18.7,
-   "leagueRank": 50,
+   "leagueRank": 43,
    "rating": 0.4,
    "ratingGames": 28,
    "confidence": 84,
@@ -1182,7 +1124,7 @@
    "winPct": 63.6,
    "diff": 48,
    "ppg": 19.6,
-   "leagueRank": 42,
+   "leagueRank": 38,
    "rating": 0.8,
    "ratingGames": 22,
    "confidence": 81,
@@ -1211,7 +1153,7 @@
    "winPct": 63.6,
    "diff": 35,
    "ppg": 19.8,
-   "leagueRank": 41,
+   "leagueRank": 37,
    "rating": 0.9,
    "ratingGames": 22,
    "confidence": 79,
@@ -1240,7 +1182,7 @@
    "winPct": 63.3,
    "diff": 22,
    "ppg": 19.5,
-   "leagueRank": 30,
+   "leagueRank": 29,
    "rating": 2.1,
    "ratingGames": 30,
    "confidence": 84,
@@ -1269,7 +1211,7 @@
    "winPct": 62.5,
    "diff": 31,
    "ppg": 19.2,
-   "leagueRank": 46,
+   "leagueRank": 41,
    "rating": 0.7,
    "ratingGames": 24,
    "confidence": 81,
@@ -1298,7 +1240,7 @@
    "winPct": 62.5,
    "diff": 31,
    "ppg": 19.5,
-   "leagueRank": 43,
+   "leagueRank": 67,
    "rating": 1.8,
    "ratingGames": 8,
    "confidence": 58,
@@ -1327,7 +1269,7 @@
    "winPct": 62.5,
    "diff": 18,
    "ppg": 20.3,
-   "leagueRank": 78,
+   "leagueRank": 100,
    "rating": 0.9,
    "ratingGames": 8,
    "confidence": 60,
@@ -1356,7 +1298,7 @@
    "winPct": 62.5,
    "diff": 8,
    "ppg": 19.8,
-   "leagueRank": 93,
+   "leagueRank": 89,
    "rating": 0.8,
    "ratingGames": 8,
    "confidence": 62,
@@ -1385,7 +1327,7 @@
    "winPct": 62.5,
    "diff": -1,
    "ppg": 17.1,
-   "leagueRank": 95,
+   "leagueRank": 113,
    "rating": 0.4,
    "ratingGames": 8,
    "confidence": 56,
@@ -1414,7 +1356,7 @@
    "winPct": 62.5,
    "diff": -2,
    "ppg": 19.4,
-   "leagueRank": 81,
+   "leagueRank": 104,
    "rating": -0.3,
    "ratingGames": 8,
    "confidence": 62,
@@ -1443,7 +1385,7 @@
    "winPct": 62.5,
    "diff": -8,
    "ppg": 18.3,
-   "leagueRank": 77,
+   "leagueRank": 99,
    "rating": 1.4,
    "ratingGames": 8,
    "confidence": 59,
@@ -1472,42 +1414,13 @@
    "winPct": 62.2,
    "diff": 50,
    "ppg": 19.4,
-   "leagueRank": 40,
+   "leagueRank": 36,
    "rating": 1.4,
    "ratingGames": 37,
    "confidence": 87,
    "strengthOfPartners": 0.1,
    "strengthOfOpponents": 0.2,
    "playerId": "9e264c96-36cf-45a9-90ad-1e125a82c851"
-  },
-  {
-   "name": "Ryan Furman",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 21,
-   "wins": 13,
-   "losses": 8,
-   "pointsWon": 396,
-   "totalPointsAgainst": 359,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 13,
-   "genderLosses": 8,
-   "clutchWins": 4,
-   "clutchLosses": 3,
-   "winPct": 61.9,
-   "diff": 37,
-   "ppg": 18.9,
-   "leagueRank": 36,
-   "rating": 1.8,
-   "ratingGames": 21,
-   "confidence": 81,
-   "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 0.2,
-   "playerId": "a89121dd-192b-486d-b39d-18ee8447d641"
   },
   {
    "name": "Vaughn Lawrence",
@@ -1530,7 +1443,7 @@
    "winPct": 61.1,
    "diff": 59,
    "ppg": 19.9,
-   "leagueRank": 29,
+   "leagueRank": 28,
    "rating": 1.4,
    "ratingGames": 18,
    "confidence": 76,
@@ -1559,7 +1472,7 @@
    "winPct": 61.1,
    "diff": 16,
    "ppg": 18.6,
-   "leagueRank": 59,
+   "leagueRank": 52,
    "rating": -0.8,
    "ratingGames": 18,
    "confidence": 78,
@@ -1588,7 +1501,7 @@
    "winPct": 60,
    "diff": 29,
    "ppg": 18.7,
-   "leagueRank": 54,
+   "leagueRank": 47,
    "rating": 0.8,
    "ratingGames": 30,
    "confidence": 84,
@@ -1617,7 +1530,7 @@
    "winPct": 60,
    "diff": -4,
    "ppg": 18,
-   "leagueRank": 164,
+   "leagueRank": 157,
    "rating": 0.2,
    "ratingGames": 5,
    "confidence": 52,
@@ -1646,42 +1559,13 @@
    "winPct": 59.4,
    "diff": 26,
    "ppg": 19.2,
-   "leagueRank": 51,
+   "leagueRank": 44,
    "rating": 0.8,
    "ratingGames": 32,
    "confidence": 85,
    "strengthOfPartners": -0.2,
    "strengthOfOpponents": 0,
    "playerId": "292c729f-c522-4f41-8208-e1caf7f94498"
-  },
-  {
-   "name": "Tyler Arsenault",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 22,
-   "wins": 13,
-   "losses": 9,
-   "pointsWon": 432,
-   "totalPointsAgainst": 387,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 13,
-   "genderLosses": 9,
-   "clutchWins": 3,
-   "clutchLosses": 5,
-   "winPct": 59.1,
-   "diff": 45,
-   "ppg": 19.6,
-   "leagueRank": 31,
-   "rating": 3.2,
-   "ratingGames": 22,
-   "confidence": 80,
-   "strengthOfPartners": 0.3,
-   "strengthOfOpponents": 1,
-   "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e"
   },
   {
    "name": "Zach Hollmann",
@@ -1704,7 +1588,7 @@
    "winPct": 58.6,
    "diff": 56,
    "ppg": 19,
-   "leagueRank": 47,
+   "leagueRank": 42,
    "rating": 1.9,
    "ratingGames": 29,
    "confidence": 85,
@@ -1733,7 +1617,7 @@
    "winPct": 58.3,
    "diff": 53,
    "ppg": 19.3,
-   "leagueRank": 44,
+   "leagueRank": 39,
    "rating": 1,
    "ratingGames": 24,
    "confidence": 81,
@@ -1762,42 +1646,13 @@
    "winPct": 58.3,
    "diff": 36,
    "ppg": 18.8,
-   "leagueRank": 53,
+   "leagueRank": 46,
    "rating": 1.2,
    "ratingGames": 24,
    "confidence": 82,
    "strengthOfPartners": 0,
    "strengthOfOpponents": 0,
    "playerId": "3babc519-f395-4ef7-8f6f-b38d25c139d0"
-  },
-  {
-   "name": "Vaughn Mcclelland",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 14,
-   "wins": 8,
-   "losses": 6,
-   "pointsWon": 270,
-   "totalPointsAgainst": 256,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 8,
-   "genderLosses": 6,
-   "clutchWins": 3,
-   "clutchLosses": 2,
-   "winPct": 57.1,
-   "diff": 14,
-   "ppg": 19.3,
-   "leagueRank": 45,
-   "rating": 1.5,
-   "ratingGames": 14,
-   "confidence": 73,
-   "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.3,
-   "playerId": "c33f3ff1-2c81-4630-8980-64fa03a7b102"
   },
   {
    "name": "Sheel Motiwala",
@@ -1820,7 +1675,7 @@
    "winPct": 57.1,
    "diff": 8,
    "ppg": 19.9,
-   "leagueRank": 94,
+   "leagueRank": 112,
    "rating": 1.2,
    "ratingGames": 7,
    "confidence": 58,
@@ -1849,7 +1704,7 @@
    "winPct": 57.1,
    "diff": 6,
    "ppg": 18,
-   "leagueRank": 112,
+   "leagueRank": 127,
    "rating": 0.9,
    "ratingGames": 7,
    "confidence": 57,
@@ -1878,7 +1733,7 @@
    "winPct": 57.1,
    "diff": -3,
    "ppg": 17.4,
-   "leagueRank": 133,
+   "leagueRank": 146,
    "rating": 0.1,
    "ratingGames": 7,
    "confidence": 58,
@@ -1907,7 +1762,7 @@
    "winPct": 56.3,
    "diff": 22,
    "ppg": 18.7,
-   "leagueRank": 68,
+   "leagueRank": 63,
    "rating": -0.3,
    "ratingGames": 32,
    "confidence": 84,
@@ -1936,7 +1791,7 @@
    "winPct": 55.6,
    "diff": 29,
    "ppg": 18.7,
-   "leagueRank": 58,
+   "leagueRank": 51,
    "rating": 0.4,
    "ratingGames": 27,
    "confidence": 83,
@@ -1965,7 +1820,7 @@
    "winPct": 55.3,
    "diff": 27,
    "ppg": 19.1,
-   "leagueRank": 60,
+   "leagueRank": 53,
    "rating": 0.1,
    "ratingGames": 38,
    "confidence": 88,
@@ -1994,7 +1849,7 @@
    "winPct": 54.8,
    "diff": 11,
    "ppg": 19.4,
-   "leagueRank": 57,
+   "leagueRank": 50,
    "rating": 0.2,
    "ratingGames": 31,
    "confidence": 85,
@@ -2023,7 +1878,7 @@
    "winPct": 54.5,
    "diff": 47,
    "ppg": 19.9,
-   "leagueRank": 56,
+   "leagueRank": 49,
    "rating": -0.6,
    "ratingGames": 22,
    "confidence": 79,
@@ -2052,7 +1907,7 @@
    "winPct": 54.5,
    "diff": 19,
    "ppg": 19.5,
-   "leagueRank": 76,
+   "leagueRank": 74,
    "rating": 0.4,
    "ratingGames": 22,
    "confidence": 80,
@@ -2081,7 +1936,7 @@
    "winPct": 54.5,
    "diff": 5,
    "ppg": 19,
-   "leagueRank": 65,
+   "leagueRank": 60,
    "rating": 0,
    "ratingGames": 22,
    "confidence": 81,
@@ -2110,7 +1965,7 @@
    "winPct": 54.2,
    "diff": 4,
    "ppg": 19.1,
-   "leagueRank": 74,
+   "leagueRank": 71,
    "rating": -0.6,
    "ratingGames": 24,
    "confidence": 81,
@@ -2139,7 +1994,7 @@
    "winPct": 53.8,
    "diff": 13,
    "ppg": 19.1,
-   "leagueRank": 61,
+   "leagueRank": 83,
    "rating": 0,
    "ratingGames": 13,
    "confidence": 72,
@@ -2168,42 +2023,13 @@
    "winPct": 53.6,
    "diff": 12,
    "ppg": 19.2,
-   "leagueRank": 70,
+   "leagueRank": 65,
    "rating": -0.2,
    "ratingGames": 28,
    "confidence": 83,
    "strengthOfPartners": 1,
    "strengthOfOpponents": 0.2,
    "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8"
-  },
-  {
-   "name": "Daniel Ehala",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": true,
-   "gamesPlayed": 28,
-   "wins": 15,
-   "losses": 13,
-   "pointsWon": 518,
-   "totalPointsAgainst": 526,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 15,
-   "genderLosses": 13,
-   "clutchWins": 6,
-   "clutchLosses": 3,
-   "winPct": 53.6,
-   "diff": -8,
-   "ppg": 18.5,
-   "leagueRank": 62,
-   "rating": 1.7,
-   "ratingGames": 28,
-   "confidence": 83,
-   "strengthOfPartners": -1.5,
-   "strengthOfOpponents": 0.4,
-   "playerId": "2ee28d63-2f38-468f-b824-9b17aa938413"
   },
   {
    "name": "Marc Padre",
@@ -2226,7 +2052,7 @@
    "winPct": 53.3,
    "diff": 20,
    "ppg": 18.5,
-   "leagueRank": 64,
+   "leagueRank": 59,
    "rating": 0.7,
    "ratingGames": 15,
    "confidence": 74,
@@ -2255,7 +2081,7 @@
    "winPct": 52.6,
    "diff": 8,
    "ppg": 18.5,
-   "leagueRank": 72,
+   "leagueRank": 68,
    "rating": 0.6,
    "ratingGames": 19,
    "confidence": 78,
@@ -2284,7 +2110,7 @@
    "winPct": 51.6,
    "diff": 42,
    "ppg": 19.1,
-   "leagueRank": 63,
+   "leagueRank": 58,
    "rating": 0.2,
    "ratingGames": 31,
    "confidence": 84,
@@ -2313,7 +2139,7 @@
    "winPct": 51.4,
    "diff": 10,
    "ppg": 19.1,
-   "leagueRank": 73,
+   "leagueRank": 69,
    "rating": -0.3,
    "ratingGames": 35,
    "confidence": 87,
@@ -2342,7 +2168,7 @@
    "winPct": 50,
    "diff": 32,
    "ppg": 19.8,
-   "leagueRank": 52,
+   "leagueRank": 45,
    "rating": -0.2,
    "ratingGames": 22,
    "confidence": 81,
@@ -2371,7 +2197,7 @@
    "winPct": 50,
    "diff": 27,
    "ppg": 19,
-   "leagueRank": 75,
+   "leagueRank": 72,
    "rating": 0,
    "ratingGames": 32,
    "confidence": 84,
@@ -2400,7 +2226,7 @@
    "winPct": 50,
    "diff": 22,
    "ppg": 19.4,
-   "leagueRank": 67,
+   "leagueRank": 62,
    "rating": 0.4,
    "ratingGames": 18,
    "confidence": 78,
@@ -2429,7 +2255,7 @@
    "winPct": 50,
    "diff": 19,
    "ppg": 19.7,
-   "leagueRank": 69,
+   "leagueRank": 64,
    "rating": 0.2,
    "ratingGames": 28,
    "confidence": 84,
@@ -2458,7 +2284,7 @@
    "winPct": 50,
    "diff": 10,
    "ppg": 18.6,
-   "leagueRank": 90,
+   "leagueRank": 107,
    "rating": 1.2,
    "ratingGames": 8,
    "confidence": 62,
@@ -2487,7 +2313,7 @@
    "winPct": 50,
    "diff": 10,
    "ppg": 19.6,
-   "leagueRank": 113,
+   "leagueRank": 130,
    "rating": 0.7,
    "ratingGames": 8,
    "confidence": 61,
@@ -2516,7 +2342,7 @@
    "winPct": 50,
    "diff": 7,
    "ppg": 19.7,
-   "leagueRank": 66,
+   "leagueRank": 61,
    "rating": 0.1,
    "ratingGames": 12,
    "confidence": 71,
@@ -2545,7 +2371,7 @@
    "winPct": 50,
    "diff": 2,
    "ppg": 19.6,
-   "leagueRank": 124,
+   "leagueRank": 137,
    "rating": 0.8,
    "ratingGames": 8,
    "confidence": 59,
@@ -2574,7 +2400,7 @@
    "winPct": 50,
    "diff": 0,
    "ppg": 18.5,
-   "leagueRank": 111,
+   "leagueRank": 126,
    "rating": -0.2,
    "ratingGames": 8,
    "confidence": 62,
@@ -2603,42 +2429,13 @@
    "winPct": 50,
    "diff": -13,
    "ppg": 18.5,
-   "leagueRank": 82,
+   "leagueRank": 77,
    "rating": 0.3,
    "ratingGames": 34,
    "confidence": 85,
    "strengthOfPartners": 0.3,
    "strengthOfOpponents": 0.5,
    "playerId": "2ce5ebef-8079-4871-8d2e-b34988abbaad"
-  },
-  {
-   "name": "Kushal Thapa",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 14,
-   "wins": 7,
-   "losses": 7,
-   "pointsWon": 252,
-   "totalPointsAgainst": 265,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 7,
-   "genderLosses": 7,
-   "clutchWins": 4,
-   "clutchLosses": 2,
-   "winPct": 50,
-   "diff": -13,
-   "ppg": 18,
-   "leagueRank": 86,
-   "rating": -1,
-   "ratingGames": 14,
-   "confidence": 73,
-   "strengthOfPartners": 0.7,
-   "strengthOfOpponents": 0.2,
-   "playerId": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac"
   },
   {
    "name": "Derek Callihan",
@@ -2661,7 +2458,7 @@
    "winPct": 50,
    "diff": -19,
    "ppg": 17.7,
-   "leagueRank": 98,
+   "leagueRank": 92,
    "rating": -0.7,
    "ratingGames": 16,
    "confidence": 76,
@@ -2690,7 +2487,7 @@
    "winPct": 50,
    "diff": -26,
    "ppg": 17.5,
-   "leagueRank": 97,
+   "leagueRank": 91,
    "rating": -0.3,
    "ratingGames": 14,
    "confidence": 74,
@@ -2719,7 +2516,7 @@
    "winPct": 48.4,
    "diff": 5,
    "ppg": 18.7,
-   "leagueRank": 80,
+   "leagueRank": 76,
    "rating": -0.2,
    "ratingGames": 31,
    "confidence": 85,
@@ -2748,7 +2545,7 @@
    "winPct": 48.1,
    "diff": -7,
    "ppg": 18.4,
-   "leagueRank": 84,
+   "leagueRank": 80,
    "rating": -0.5,
    "ratingGames": 27,
    "confidence": 83,
@@ -2777,7 +2574,7 @@
    "winPct": 47.8,
    "diff": -24,
    "ppg": 18.7,
-   "leagueRank": 79,
+   "leagueRank": 75,
    "rating": -0.1,
    "ratingGames": 23,
    "confidence": 81,
@@ -2806,7 +2603,7 @@
    "winPct": 45.8,
    "diff": 5,
    "ppg": 18.8,
-   "leagueRank": 89,
+   "leagueRank": 86,
    "rating": -1,
    "ratingGames": 24,
    "confidence": 82,
@@ -2835,7 +2632,7 @@
    "winPct": 45.8,
    "diff": -17,
    "ppg": 18.2,
-   "leagueRank": 107,
+   "leagueRank": 101,
    "rating": -1.5,
    "ratingGames": 24,
    "confidence": 80,
@@ -2864,7 +2661,7 @@
    "winPct": 45.5,
    "diff": 3,
    "ppg": 18.3,
-   "leagueRank": 121,
+   "leagueRank": 135,
    "rating": -0.7,
    "ratingGames": 11,
    "confidence": 70,
@@ -2893,7 +2690,7 @@
    "winPct": 45.5,
    "diff": -8,
    "ppg": 18.3,
-   "leagueRank": 87,
+   "leagueRank": 84,
    "rating": -0.9,
    "ratingGames": 22,
    "confidence": 79,
@@ -2902,33 +2699,33 @@
    "playerId": "6c4d1df7-7f8f-432b-a8a7-8751e9aa521d"
   },
   {
-   "name": "Braden Keith",
+   "name": "Ryan Furman",
    "gender": "Male",
    "team": "Jersey Devil",
-   "matches": 3,
+   "matches": 4,
    "outsideSub": false,
    "isCaptain": false,
-   "gamesPlayed": 20,
-   "wins": 9,
-   "losses": 11,
-   "pointsWon": 368,
-   "totalPointsAgainst": 374,
+   "gamesPlayed": 29,
+   "wins": 13,
+   "losses": 8,
+   "pointsWon": 396,
+   "totalPointsAgainst": 359,
    "mixedWins": 0,
    "mixedLosses": 0,
-   "genderWins": 9,
-   "genderLosses": 11,
-   "clutchWins": 2,
+   "genderWins": 13,
+   "genderLosses": 8,
+   "clutchWins": 4,
    "clutchLosses": 3,
-   "winPct": 45,
-   "diff": -6,
-   "ppg": 18.4,
-   "leagueRank": 92,
-   "rating": -1.4,
-   "ratingGames": 20,
-   "confidence": 80,
-   "strengthOfPartners": 1.1,
-   "strengthOfOpponents": -0.2,
-   "playerId": "d23d47c0-4f40-4691-b81a-9ad6e36402b6"
+   "winPct": 44.8,
+   "diff": 37,
+   "ppg": 13.7,
+   "leagueRank": 34,
+   "rating": 1.8,
+   "ratingGames": 21,
+   "confidence": 81,
+   "strengthOfPartners": -0.1,
+   "strengthOfOpponents": 0.2,
+   "playerId": "a89121dd-192b-486d-b39d-18ee8447d641"
   },
   {
    "name": "Stephen Conger",
@@ -2951,7 +2748,7 @@
    "winPct": 44.4,
    "diff": 3,
    "ppg": 19.7,
-   "leagueRank": 101,
+   "leagueRank": 122,
    "rating": -0.6,
    "ratingGames": 9,
    "confidence": 65,
@@ -2980,7 +2777,7 @@
    "winPct": 44.1,
    "diff": -41,
    "ppg": 17.9,
-   "leagueRank": 109,
+   "leagueRank": 103,
    "rating": -1.4,
    "ratingGames": 34,
    "confidence": 86,
@@ -3009,7 +2806,7 @@
    "winPct": 43.8,
    "diff": -2,
    "ppg": 18.5,
-   "leagueRank": 85,
+   "leagueRank": 81,
    "rating": -0.4,
    "ratingGames": 16,
    "confidence": 76,
@@ -3038,13 +2835,42 @@
    "winPct": 43.8,
    "diff": -6,
    "ppg": 18.4,
-   "leagueRank": 96,
+   "leagueRank": 90,
    "rating": 0.2,
    "ratingGames": 32,
    "confidence": 85,
    "strengthOfPartners": -0.1,
    "strengthOfOpponents": 0.2,
    "playerId": "259fc7aa-7e69-4830-87d8-b9a758ec7fda"
+  },
+  {
+   "name": "Zach Bowe",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 23,
+   "wins": 10,
+   "losses": 5,
+   "pointsWon": 300,
+   "totalPointsAgainst": 258,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 10,
+   "genderLosses": 5,
+   "clutchWins": 2,
+   "clutchLosses": 3,
+   "winPct": 43.5,
+   "diff": 42,
+   "ppg": 13,
+   "leagueRank": 17,
+   "rating": 2.5,
+   "ratingGames": 15,
+   "confidence": 75,
+   "strengthOfPartners": 0.6,
+   "strengthOfOpponents": 0.5,
+   "playerId": "eebadc3a-5763-4612-9232-d3a98ea188d6"
   },
   {
    "name": "Aleksey Sergeev",
@@ -3067,7 +2893,7 @@
    "winPct": 43.5,
    "diff": -6,
    "ppg": 18.7,
-   "leagueRank": 83,
+   "leagueRank": 79,
    "rating": 1.6,
    "ratingGames": 23,
    "confidence": 80,
@@ -3096,13 +2922,42 @@
    "winPct": 43.5,
    "diff": -30,
    "ppg": 17.7,
-   "leagueRank": 102,
+   "leagueRank": 95,
    "rating": 0.3,
    "ratingGames": 23,
    "confidence": 81,
    "strengthOfPartners": -1.4,
    "strengthOfOpponents": 0.1,
    "playerId": "b4694087-759d-4570-9394-3e7c99f19099"
+  },
+  {
+   "name": "Tyler Arsenault",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 30,
+   "wins": 13,
+   "losses": 9,
+   "pointsWon": 432,
+   "totalPointsAgainst": 387,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 13,
+   "genderLosses": 9,
+   "clutchWins": 3,
+   "clutchLosses": 5,
+   "winPct": 43.3,
+   "diff": 45,
+   "ppg": 14.4,
+   "leagueRank": 30,
+   "rating": 3.2,
+   "ratingGames": 22,
+   "confidence": 80,
+   "strengthOfPartners": 0.3,
+   "strengthOfOpponents": 1,
+   "playerId": "e76d2d63-f7dc-40e7-aca2-d9b3aecf4d3e"
   },
   {
    "name": "Mark Kilimnik",
@@ -3125,7 +2980,7 @@
    "winPct": 42.9,
    "diff": -1,
    "ppg": 19,
-   "leagueRank": 88,
+   "leagueRank": 85,
    "rating": 0.2,
    "ratingGames": 14,
    "confidence": 72,
@@ -3154,13 +3009,42 @@
    "winPct": 42.9,
    "diff": -1,
    "ppg": 18.6,
-   "leagueRank": 156,
+   "leagueRank": 168,
    "rating": 0.1,
    "ratingGames": 7,
    "confidence": 59,
    "strengthOfPartners": 0.2,
    "strengthOfOpponents": 0.2,
    "playerId": "74202229-7c29-44eb-9574-de687495a1a6"
+  },
+  {
+   "name": "Daniel Ehala",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 5,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 35,
+   "wins": 15,
+   "losses": 13,
+   "pointsWon": 518,
+   "totalPointsAgainst": 526,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 15,
+   "genderLosses": 13,
+   "clutchWins": 6,
+   "clutchLosses": 3,
+   "winPct": 42.9,
+   "diff": -8,
+   "ppg": 14.8,
+   "leagueRank": 56,
+   "rating": 1.7,
+   "ratingGames": 28,
+   "confidence": 83,
+   "strengthOfPartners": -1.5,
+   "strengthOfOpponents": 0.4,
+   "playerId": "2ee28d63-2f38-468f-b824-9b17aa938413"
   },
   {
    "name": "Scott Bohrer",
@@ -3183,7 +3067,7 @@
    "winPct": 42.1,
    "diff": 0,
    "ppg": 18.9,
-   "leagueRank": 99,
+   "leagueRank": 93,
    "rating": -0.9,
    "ratingGames": 19,
    "confidence": 78,
@@ -3212,7 +3096,7 @@
    "winPct": 42.1,
    "diff": -55,
    "ppg": 16.8,
-   "leagueRank": 115,
+   "leagueRank": 108,
    "rating": -1.3,
    "ratingGames": 19,
    "confidence": 77,
@@ -3241,7 +3125,7 @@
    "winPct": 41.7,
    "diff": -7,
    "ppg": 18.3,
-   "leagueRank": 106,
+   "leagueRank": 124,
    "rating": -1.2,
    "ratingGames": 12,
    "confidence": 70,
@@ -3270,42 +3154,13 @@
    "winPct": 41.7,
    "diff": -12,
    "ppg": 18.2,
-   "leagueRank": 104,
+   "leagueRank": 97,
    "rating": 0.1,
    "ratingGames": 24,
    "confidence": 81,
    "strengthOfPartners": -0.2,
    "strengthOfOpponents": 0.2,
    "playerId": "0b84dcdf-2b96-4a9e-9eae-5523bf89c4f6"
-  },
-  {
-   "name": "Josh Sherlock",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 12,
-   "wins": 5,
-   "losses": 7,
-   "pointsWon": 207,
-   "totalPointsAgainst": 239,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 5,
-   "genderLosses": 7,
-   "clutchWins": 4,
-   "clutchLosses": 2,
-   "winPct": 41.7,
-   "diff": -32,
-   "ppg": 17.3,
-   "leagueRank": 122,
-   "rating": -1.7,
-   "ratingGames": 12,
-   "confidence": 71,
-   "strengthOfPartners": -1.3,
-   "strengthOfOpponents": -0.5,
-   "playerId": "fa2292a3-4d44-4c69-b4b8-b7c8f6d9085a"
   },
   {
    "name": "Alex Boory",
@@ -3328,7 +3183,7 @@
    "winPct": 41.7,
    "diff": -34,
    "ppg": 16.8,
-   "leagueRank": 132,
+   "leagueRank": 145,
    "rating": -1.1,
    "ratingGames": 12,
    "confidence": 69,
@@ -3357,7 +3212,7 @@
    "winPct": 40.9,
    "diff": -33,
    "ppg": 18,
-   "leagueRank": 103,
+   "leagueRank": 96,
    "rating": 0.6,
    "ratingGames": 22,
    "confidence": 80,
@@ -3386,7 +3241,7 @@
    "winPct": 40.9,
    "diff": -34,
    "ppg": 17.9,
-   "leagueRank": 105,
+   "leagueRank": 98,
    "rating": -0.4,
    "ratingGames": 22,
    "confidence": 80,
@@ -3415,7 +3270,7 @@
    "winPct": 40,
    "diff": 1,
    "ppg": 18.4,
-   "leagueRank": 152,
+   "leagueRank": 164,
    "rating": -0.1,
    "ratingGames": 5,
    "confidence": 47,
@@ -3444,7 +3299,7 @@
    "winPct": 40,
    "diff": -9,
    "ppg": 18.8,
-   "leagueRank": 100,
+   "leagueRank": 94,
    "rating": -0.4,
    "ratingGames": 30,
    "confidence": 84,
@@ -3473,42 +3328,13 @@
    "winPct": 40,
    "diff": -17,
    "ppg": 18.6,
-   "leagueRank": 91,
+   "leagueRank": 87,
    "rating": 0.9,
    "ratingGames": 20,
    "confidence": 78,
    "strengthOfPartners": -0.8,
    "strengthOfOpponents": 0.6,
    "playerId": "7ce7d3d1-b44b-431c-b3a5-20e153cc1777"
-  },
-  {
-   "name": "Matthew Mintz",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 20,
-   "wins": 8,
-   "losses": 12,
-   "pointsWon": 342,
-   "totalPointsAgainst": 389,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 8,
-   "genderLosses": 12,
-   "clutchWins": 4,
-   "clutchLosses": 2,
-   "winPct": 40,
-   "diff": -47,
-   "ppg": 17.1,
-   "leagueRank": 119,
-   "rating": -1.1,
-   "ratingGames": 20,
-   "confidence": 79,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0.1,
-   "playerId": "ad956d26-e552-40eb-97c4-38edfc1b0bc1"
   },
   {
    "name": "Kevin Wysoczynski",
@@ -3531,7 +3357,7 @@
    "winPct": 40,
    "diff": -49,
    "ppg": 17.8,
-   "leagueRank": 108,
+   "leagueRank": 102,
    "rating": 0.1,
    "ratingGames": 30,
    "confidence": 84,
@@ -3540,33 +3366,33 @@
    "playerId": "f64f0cc2-6c82-4fe4-9992-747512700971"
   },
   {
-   "name": "Jack Blumberg",
+   "name": "Matthew Chen",
    "gender": "Male",
-   "team": "ACE Moorestown",
+   "team": "Jersey Devil",
    "matches": 0,
    "outsideSub": true,
    "isCaptain": false,
-   "gamesPlayed": 13,
-   "wins": 5,
-   "losses": 8,
-   "pointsWon": 236,
-   "totalPointsAgainst": 258,
+   "gamesPlayed": 16,
+   "wins": 6,
+   "losses": 2,
+   "pointsWon": 160,
+   "totalPointsAgainst": 150,
    "mixedWins": 0,
    "mixedLosses": 0,
-   "genderWins": 5,
-   "genderLosses": 8,
+   "genderWins": 6,
+   "genderLosses": 2,
    "clutchWins": 3,
-   "clutchLosses": 3,
-   "winPct": 38.5,
-   "diff": -22,
-   "ppg": 18.2,
-   "leagueRank": 149,
-   "rating": 0.2,
-   "ratingGames": 13,
-   "confidence": 71,
-   "strengthOfPartners": -1.2,
-   "strengthOfOpponents": 0.4,
-   "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734"
+   "clutchLosses": 1,
+   "winPct": 37.5,
+   "diff": 10,
+   "ppg": 10,
+   "leagueRank": 54,
+   "rating": 0.4,
+   "ratingGames": 8,
+   "confidence": 61,
+   "strengthOfPartners": 0.8,
+   "strengthOfOpponents": 0.1,
+   "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183"
   },
   {
    "name": "Greg Mitchell",
@@ -3589,7 +3415,7 @@
    "winPct": 37.5,
    "diff": -5,
    "ppg": 18.6,
-   "leagueRank": 162,
+   "leagueRank": 171,
    "rating": -1.9,
    "ratingGames": 8,
    "confidence": 61,
@@ -3618,7 +3444,7 @@
    "winPct": 37.5,
    "diff": -17,
    "ppg": 17.2,
-   "leagueRank": 116,
+   "leagueRank": 109,
    "rating": 0.1,
    "ratingGames": 16,
    "confidence": 73,
@@ -3647,13 +3473,42 @@
    "winPct": 37.5,
    "diff": -32,
    "ppg": 18.1,
-   "leagueRank": 118,
+   "leagueRank": 111,
    "rating": -1.3,
    "ratingGames": 16,
    "confidence": 74,
    "strengthOfPartners": 1,
    "strengthOfOpponents": 0.7,
    "playerId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643"
+  },
+  {
+   "name": "Vaughn Mcclelland",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 22,
+   "wins": 8,
+   "losses": 6,
+   "pointsWon": 270,
+   "totalPointsAgainst": 256,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 8,
+   "genderLosses": 6,
+   "clutchWins": 3,
+   "clutchLosses": 2,
+   "winPct": 36.4,
+   "diff": 14,
+   "ppg": 12.3,
+   "leagueRank": 40,
+   "rating": 1.5,
+   "ratingGames": 14,
+   "confidence": 73,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": 0.3,
+   "playerId": "c33f3ff1-2c81-4630-8980-64fa03a7b102"
   },
   {
    "name": "Joseph Yi",
@@ -3676,7 +3531,7 @@
    "winPct": 36.4,
    "diff": -18,
    "ppg": 18.4,
-   "leagueRank": 145,
+   "leagueRank": 154,
    "rating": -1.2,
    "ratingGames": 11,
    "confidence": 67,
@@ -3705,7 +3560,7 @@
    "winPct": 35.7,
    "diff": -30,
    "ppg": 17.8,
-   "leagueRank": 127,
+   "leagueRank": 118,
    "rating": -0.8,
    "ratingGames": 14,
    "confidence": 73,
@@ -3734,7 +3589,7 @@
    "winPct": 35.7,
    "diff": -36,
    "ppg": 16.6,
-   "leagueRank": 138,
+   "leagueRank": 128,
    "rating": -1.4,
    "ratingGames": 14,
    "confidence": 73,
@@ -3763,7 +3618,7 @@
    "winPct": 35.5,
    "diff": -80,
    "ppg": 17.1,
-   "leagueRank": 139,
+   "leagueRank": 129,
    "rating": -2.3,
    "ratingGames": 31,
    "confidence": 84,
@@ -3792,7 +3647,7 @@
    "winPct": 35.3,
    "diff": -20,
    "ppg": 17.8,
-   "leagueRank": 131,
+   "leagueRank": 121,
    "rating": -0.8,
    "ratingGames": 17,
    "confidence": 76,
@@ -3821,7 +3676,7 @@
    "winPct": 33.3,
    "diff": 4,
    "ppg": 19.5,
-   "leagueRank": 134,
+   "leagueRank": 159,
    "rating": -0.3,
    "ratingGames": 6,
    "confidence": 55,
@@ -3850,7 +3705,7 @@
    "winPct": 33.3,
    "diff": 0,
    "ppg": 19.5,
-   "leagueRank": 136,
+   "leagueRank": 162,
    "rating": -0.3,
    "ratingGames": 6,
    "confidence": 55,
@@ -3879,7 +3734,7 @@
    "winPct": 33.3,
    "diff": -14,
    "ppg": 17.5,
-   "leagueRank": 174,
+   "leagueRank": 173,
    "rating": -0.9,
    "ratingGames": 6,
    "confidence": 53,
@@ -3908,7 +3763,7 @@
    "winPct": 33.3,
    "diff": -14,
    "ppg": 19,
-   "leagueRank": 130,
+   "leagueRank": 120,
    "rating": -1.6,
    "ratingGames": 12,
    "confidence": 70,
@@ -3937,7 +3792,7 @@
    "winPct": 33.3,
    "diff": -20,
    "ppg": 18,
-   "leagueRank": 135,
+   "leagueRank": 123,
    "rating": -1.2,
    "ratingGames": 24,
    "confidence": 82,
@@ -3966,7 +3821,7 @@
    "winPct": 33.3,
    "diff": -33,
    "ppg": 17.6,
-   "leagueRank": 137,
+   "leagueRank": 125,
    "rating": -1.2,
    "ratingGames": 18,
    "confidence": 78,
@@ -3995,13 +3850,71 @@
    "winPct": 33.3,
    "diff": -38,
    "ppg": 18.1,
-   "leagueRank": 117,
+   "leagueRank": 110,
    "rating": -0.1,
    "ratingGames": 21,
    "confidence": 80,
    "strengthOfPartners": -1.5,
    "strengthOfOpponents": 0.1,
    "playerId": "b19effeb-3b70-4f48-b8d9-781026933e86"
+  },
+  {
+   "name": "Braden Keith",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 28,
+   "wins": 9,
+   "losses": 11,
+   "pointsWon": 368,
+   "totalPointsAgainst": 374,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 9,
+   "genderLosses": 11,
+   "clutchWins": 2,
+   "clutchLosses": 3,
+   "winPct": 32.1,
+   "diff": -6,
+   "ppg": 13.1,
+   "leagueRank": 88,
+   "rating": -1.4,
+   "ratingGames": 20,
+   "confidence": 80,
+   "strengthOfPartners": 1.1,
+   "strengthOfOpponents": -0.2,
+   "playerId": "d23d47c0-4f40-4691-b81a-9ad6e36402b6"
+  },
+  {
+   "name": "Kushal Thapa",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 22,
+   "wins": 7,
+   "losses": 7,
+   "pointsWon": 252,
+   "totalPointsAgainst": 265,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 7,
+   "genderLosses": 7,
+   "clutchWins": 4,
+   "clutchLosses": 2,
+   "winPct": 31.8,
+   "diff": -13,
+   "ppg": 11.5,
+   "leagueRank": 82,
+   "rating": -1,
+   "ratingGames": 14,
+   "confidence": 73,
+   "strengthOfPartners": 0.7,
+   "strengthOfOpponents": 0.2,
+   "playerId": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac"
   },
   {
    "name": "Sebastian Ferrer",
@@ -4024,42 +3937,13 @@
    "winPct": 31.3,
    "diff": -28,
    "ppg": 18,
-   "leagueRank": 120,
+   "leagueRank": 115,
    "rating": -0.1,
    "ratingGames": 16,
    "confidence": 73,
    "strengthOfPartners": 0.2,
    "strengthOfOpponents": 0.9,
    "playerId": "5c354e5d-09ba-4d09-a8c4-76e0fb7eb78a"
-  },
-  {
-   "name": "Bryan Nardone",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 29,
-   "wins": 9,
-   "losses": 20,
-   "pointsWon": 468,
-   "totalPointsAgainst": 570,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 9,
-   "genderLosses": 20,
-   "clutchWins": 5,
-   "clutchLosses": 2,
-   "winPct": 31,
-   "diff": -102,
-   "ppg": 16.1,
-   "leagueRank": 148,
-   "rating": -1.9,
-   "ratingGames": 29,
-   "confidence": 84,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0.4,
-   "playerId": "a479d794-d9d0-4620-b322-b7f249f2ae5f"
   },
   {
    "name": "Vivek Kumar",
@@ -4082,7 +3966,7 @@
    "winPct": 30.8,
    "diff": -12,
    "ppg": 18.5,
-   "leagueRank": 125,
+   "leagueRank": 117,
    "rating": -0.1,
    "ratingGames": 13,
    "confidence": 72,
@@ -4111,7 +3995,7 @@
    "winPct": 30.4,
    "diff": -73,
    "ppg": 17,
-   "leagueRank": 141,
+   "leagueRank": 131,
    "rating": -2.2,
    "ratingGames": 23,
    "confidence": 81,
@@ -4140,7 +4024,7 @@
    "winPct": 28.6,
    "diff": -4,
    "ppg": 17.7,
-   "leagueRank": 170,
+   "leagueRank": 176,
    "rating": -0.7,
    "ratingGames": 7,
    "confidence": 56,
@@ -4169,7 +4053,7 @@
    "winPct": 28.6,
    "diff": -8,
    "ppg": 18.6,
-   "leagueRank": 154,
+   "leagueRank": 166,
    "rating": 0.8,
    "ratingGames": 7,
    "confidence": 57,
@@ -4198,7 +4082,7 @@
    "winPct": 28.6,
    "diff": -10,
    "ppg": 18.7,
-   "leagueRank": 110,
+   "leagueRank": 105,
    "rating": -2,
    "ratingGames": 7,
    "confidence": 58,
@@ -4227,7 +4111,7 @@
    "winPct": 28.6,
    "diff": -11,
    "ppg": 18,
-   "leagueRank": 163,
+   "leagueRank": 172,
    "rating": 0,
    "ratingGames": 7,
    "confidence": 60,
@@ -4256,13 +4140,42 @@
    "winPct": 28.6,
    "diff": -28,
    "ppg": 16.4,
-   "leagueRank": 173,
+   "leagueRank": 170,
    "rating": -3.6,
    "ratingGames": 7,
    "confidence": 59,
    "strengthOfPartners": -1,
    "strengthOfOpponents": -1.3,
    "playerId": "55570d6a-eb15-4ba1-8a31-b4cee56f6740"
+  },
+  {
+   "name": "Matthew Mintz",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 28,
+   "wins": 8,
+   "losses": 12,
+   "pointsWon": 342,
+   "totalPointsAgainst": 389,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 8,
+   "genderLosses": 12,
+   "clutchWins": 4,
+   "clutchLosses": 2,
+   "winPct": 28.6,
+   "diff": -47,
+   "ppg": 12.2,
+   "leagueRank": 114,
+   "rating": -1.1,
+   "ratingGames": 20,
+   "confidence": 79,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": 0.1,
+   "playerId": "ad956d26-e552-40eb-97c4-38edfc1b0bc1"
   },
   {
    "name": "Anthony Fallet",
@@ -4285,13 +4198,42 @@
    "winPct": 28.6,
    "diff": -57,
    "ppg": 16,
-   "leagueRank": 155,
+   "leagueRank": 148,
    "rating": -2.6,
    "ratingGames": 14,
    "confidence": 72,
    "strengthOfPartners": -1.6,
    "strengthOfOpponents": -0.4,
    "playerId": "1949e493-55f0-4373-8c61-6a266543ddbf"
+  },
+  {
+   "name": "Josh Sherlock",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 18,
+   "wins": 5,
+   "losses": 7,
+   "pointsWon": 207,
+   "totalPointsAgainst": 239,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 5,
+   "genderLosses": 7,
+   "clutchWins": 4,
+   "clutchLosses": 2,
+   "winPct": 27.8,
+   "diff": -32,
+   "ppg": 11.5,
+   "leagueRank": 116,
+   "rating": -1.7,
+   "ratingGames": 12,
+   "confidence": 71,
+   "strengthOfPartners": -1.3,
+   "strengthOfOpponents": -0.5,
+   "playerId": "fa2292a3-4d44-4c69-b4b8-b7c8f6d9085a"
   },
   {
    "name": "Jacob Rosengarten",
@@ -4314,7 +4256,7 @@
    "winPct": 27.3,
    "diff": -62,
    "ppg": 17.3,
-   "leagueRank": 142,
+   "leagueRank": 132,
    "rating": -1.3,
    "ratingGames": 22,
    "confidence": 80,
@@ -4343,7 +4285,7 @@
    "winPct": 26.3,
    "diff": -57,
    "ppg": 17,
-   "leagueRank": 147,
+   "leagueRank": 141,
    "rating": -1.5,
    "ratingGames": 19,
    "confidence": 79,
@@ -4372,7 +4314,7 @@
    "winPct": 25,
    "diff": -12,
    "ppg": 17.9,
-   "leagueRank": 28,
+   "leagueRank": 48,
    "rating": 2.2,
    "ratingGames": 8,
    "confidence": 58,
@@ -4401,7 +4343,7 @@
    "winPct": 25,
    "diff": -24,
    "ppg": 17.1,
-   "leagueRank": 151,
+   "leagueRank": 144,
    "rating": -1.4,
    "ratingGames": 8,
    "confidence": 61,
@@ -4430,7 +4372,7 @@
    "winPct": 25,
    "diff": -85,
    "ppg": 17.3,
-   "leagueRank": 143,
+   "leagueRank": 133,
    "rating": -0.9,
    "ratingGames": 28,
    "confidence": 83,
@@ -4439,120 +4381,62 @@
    "playerId": "dd6582a2-1596-40b8-8a4c-fec00aaeb379"
   },
   {
-   "name": "Marc Harden",
+   "name": "Bryan Nardone",
    "gender": "Male",
    "team": "ACE Moorestown",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": true,
-   "gamesPlayed": 24,
-   "wins": 6,
-   "losses": 18,
-   "pointsWon": 372,
-   "totalPointsAgainst": 485,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 6,
-   "genderLosses": 18,
-   "clutchWins": 4,
-   "clutchLosses": 2,
-   "winPct": 25,
-   "diff": -113,
-   "ppg": 15.5,
-   "leagueRank": 160,
-   "rating": -2.1,
-   "ratingGames": 24,
-   "confidence": 82,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": 0.8,
-   "playerId": "55194d2f-f537-4e19-b901-86c559f25ef2"
-  },
-  {
-   "name": "Nachiket Vaidya",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 4,
+   "matches": 5,
    "outsideSub": false,
    "isCaptain": false,
-   "gamesPlayed": 29,
-   "wins": 7,
-   "losses": 22,
-   "pointsWon": 494,
-   "totalPointsAgainst": 578,
+   "gamesPlayed": 37,
+   "wins": 9,
+   "losses": 20,
+   "pointsWon": 468,
+   "totalPointsAgainst": 570,
    "mixedWins": 0,
    "mixedLosses": 0,
-   "genderWins": 7,
-   "genderLosses": 22,
-   "clutchWins": 4,
-   "clutchLosses": 5,
-   "winPct": 24.1,
-   "diff": -84,
-   "ppg": 17,
-   "leagueRank": 150,
-   "rating": -1.3,
+   "genderWins": 9,
+   "genderLosses": 20,
+   "clutchWins": 5,
+   "clutchLosses": 2,
+   "winPct": 24.3,
+   "diff": -102,
+   "ppg": 12.6,
+   "leagueRank": 142,
+   "rating": -1.9,
    "ratingGames": 29,
    "confidence": 84,
-   "strengthOfPartners": -1.2,
-   "strengthOfOpponents": 0.1,
-   "playerId": "0e35b16c-8027-4994-b04f-fd146d6d1709"
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": 0.4,
+   "playerId": "a479d794-d9d0-4620-b322-b7f249f2ae5f"
   },
   {
-   "name": "Vince Abate",
+   "name": "Jack Blumberg",
    "gender": "Male",
-   "team": "Jersey Devil",
-   "matches": 3,
-   "outsideSub": false,
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": true,
    "isCaptain": false,
    "gamesPlayed": 21,
    "wins": 5,
-   "losses": 16,
-   "pointsWon": 344,
-   "totalPointsAgainst": 426,
+   "losses": 8,
+   "pointsWon": 236,
+   "totalPointsAgainst": 258,
    "mixedWins": 0,
    "mixedLosses": 0,
    "genderWins": 5,
-   "genderLosses": 16,
+   "genderLosses": 8,
    "clutchWins": 3,
-   "clutchLosses": 4,
+   "clutchLosses": 3,
    "winPct": 23.8,
-   "diff": -82,
-   "ppg": 16.4,
-   "leagueRank": 158,
-   "rating": -2.4,
-   "ratingGames": 21,
-   "confidence": 79,
-   "strengthOfPartners": 0.2,
-   "strengthOfOpponents": 0.7,
-   "playerId": "8257200c-7448-4527-92df-436d7bb18cac"
-  },
-  {
-   "name": "Robert Finley",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 13,
-   "wins": 3,
-   "losses": 10,
-   "pointsWon": 223,
-   "totalPointsAgainst": 254,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 3,
-   "genderLosses": 10,
-   "clutchWins": 0,
-   "clutchLosses": 4,
-   "winPct": 23.1,
-   "diff": -31,
-   "ppg": 17.2,
-   "leagueRank": 144,
-   "rating": -0.3,
+   "diff": -22,
+   "ppg": 11.2,
+   "leagueRank": 156,
+   "rating": 0.2,
    "ratingGames": 13,
-   "confidence": 72,
-   "strengthOfPartners": -1.7,
-   "strengthOfOpponents": 0.1,
-   "playerId": "0d70122a-9002-461f-8600-a9afed2e8c3f"
+   "confidence": 71,
+   "strengthOfPartners": -1.2,
+   "strengthOfOpponents": 0.4,
+   "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734"
   },
   {
    "name": "Snehit Achanta",
@@ -4575,7 +4459,7 @@
    "winPct": 23.1,
    "diff": -49,
    "ppg": 16.2,
-   "leagueRank": 157,
+   "leagueRank": 149,
    "rating": -2,
    "ratingGames": 13,
    "confidence": 72,
@@ -4604,42 +4488,13 @@
    "winPct": 23.1,
    "diff": -66,
    "ppg": 15.5,
-   "leagueRank": 166,
+   "leagueRank": 160,
    "rating": -2.3,
    "ratingGames": 13,
    "confidence": 71,
    "strengthOfPartners": -1.4,
    "strengthOfOpponents": 0.4,
    "playerId": "73090c04-48a1-48b2-b638-55b1e656f4ed"
-  },
-  {
-   "name": "Tyler Marlin",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "matches": 2,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 14,
-   "wins": 3,
-   "losses": 11,
-   "pointsWon": 250,
-   "totalPointsAgainst": 286,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 3,
-   "genderLosses": 11,
-   "clutchWins": 1,
-   "clutchLosses": 5,
-   "winPct": 21.4,
-   "diff": -36,
-   "ppg": 17.9,
-   "leagueRank": 146,
-   "rating": -1.8,
-   "ratingGames": 14,
-   "confidence": 71,
-   "strengthOfPartners": -1,
-   "strengthOfOpponents": -0.4,
-   "playerId": "bf530f1a-96e0-484c-b377-f1243f05571b"
   },
   {
    "name": "Daniel Schwab",
@@ -4662,7 +4517,7 @@
    "winPct": 21.4,
    "diff": -61,
    "ppg": 15.3,
-   "leagueRank": 169,
+   "leagueRank": 165,
    "rating": -2.2,
    "ratingGames": 14,
    "confidence": 72,
@@ -4691,13 +4546,71 @@
    "winPct": 21.1,
    "diff": -76,
    "ppg": 15.7,
-   "leagueRank": 161,
+   "leagueRank": 155,
    "rating": -1.6,
    "ratingGames": 19,
    "confidence": 77,
    "strengthOfPartners": -1.2,
    "strengthOfOpponents": 0.4,
    "playerId": "30b75fd5-95cf-4a1a-b296-10e7e381166e"
+  },
+  {
+   "name": "Marc Harden",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 5,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 29,
+   "wins": 6,
+   "losses": 18,
+   "pointsWon": 372,
+   "totalPointsAgainst": 485,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 6,
+   "genderLosses": 18,
+   "clutchWins": 4,
+   "clutchLosses": 2,
+   "winPct": 20.7,
+   "diff": -113,
+   "ppg": 12.8,
+   "leagueRank": 153,
+   "rating": -2.1,
+   "ratingGames": 24,
+   "confidence": 82,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": 0.8,
+   "playerId": "55194d2f-f537-4e19-b901-86c559f25ef2"
+  },
+  {
+   "name": "Nachiket Vaidya",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 5,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 36,
+   "wins": 7,
+   "losses": 22,
+   "pointsWon": 494,
+   "totalPointsAgainst": 578,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 7,
+   "genderLosses": 22,
+   "clutchWins": 4,
+   "clutchLosses": 5,
+   "winPct": 19.4,
+   "diff": -84,
+   "ppg": 13.7,
+   "leagueRank": 143,
+   "rating": -1.3,
+   "ratingGames": 29,
+   "confidence": 84,
+   "strengthOfPartners": -1.2,
+   "strengthOfOpponents": 0.1,
+   "playerId": "0e35b16c-8027-4994-b04f-fd146d6d1709"
   },
   {
    "name": "Jonathan Ksiezopolski",
@@ -4720,7 +4633,7 @@
    "winPct": 19,
    "diff": -77,
    "ppg": 16.8,
-   "leagueRank": 159,
+   "leagueRank": 152,
    "rating": -2.2,
    "ratingGames": 21,
    "confidence": 80,
@@ -4749,7 +4662,7 @@
    "winPct": 18.8,
    "diff": -49,
    "ppg": 16.8,
-   "leagueRank": 153,
+   "leagueRank": 147,
    "rating": -0.4,
    "ratingGames": 16,
    "confidence": 75,
@@ -4778,7 +4691,7 @@
    "winPct": 18.5,
    "diff": -126,
    "ppg": 15.6,
-   "leagueRank": 168,
+   "leagueRank": 163,
    "rating": -2.2,
    "ratingGames": 27,
    "confidence": 83,
@@ -4807,13 +4720,42 @@
    "winPct": 17.9,
    "diff": -142,
    "ppg": 15.4,
-   "leagueRank": 171,
+   "leagueRank": 167,
    "rating": -3,
    "ratingGames": 28,
    "confidence": 83,
    "strengthOfPartners": -1.2,
    "strengthOfOpponents": 0.2,
    "playerId": "fb42e711-528f-4028-80c6-e32013e3f807"
+  },
+  {
+   "name": "Vince Abate",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 29,
+   "wins": 5,
+   "losses": 16,
+   "pointsWon": 344,
+   "totalPointsAgainst": 426,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 5,
+   "genderLosses": 16,
+   "clutchWins": 3,
+   "clutchLosses": 4,
+   "winPct": 17.2,
+   "diff": -82,
+   "ppg": 11.9,
+   "leagueRank": 151,
+   "rating": -2.4,
+   "ratingGames": 21,
+   "confidence": 79,
+   "strengthOfPartners": 0.2,
+   "strengthOfOpponents": 0.7,
+   "playerId": "8257200c-7448-4527-92df-436d7bb18cac"
   },
   {
    "name": "Wasib Malik",
@@ -4836,13 +4778,42 @@
    "winPct": 16.7,
    "diff": -53,
    "ppg": 16.1,
-   "leagueRank": 165,
+   "leagueRank": 158,
    "rating": -2.1,
    "ratingGames": 12,
    "confidence": 70,
    "strengthOfPartners": -0.2,
    "strengthOfOpponents": 0.7,
    "playerId": "659c9638-b908-4ddd-88a9-2bc40c334a08"
+  },
+  {
+   "name": "Robert Finley",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 20,
+   "wins": 3,
+   "losses": 10,
+   "pointsWon": 223,
+   "totalPointsAgainst": 254,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 3,
+   "genderLosses": 10,
+   "clutchWins": 0,
+   "clutchLosses": 4,
+   "winPct": 15,
+   "diff": -31,
+   "ppg": 11.2,
+   "leagueRank": 134,
+   "rating": -0.3,
+   "ratingGames": 13,
+   "confidence": 72,
+   "strengthOfPartners": -1.7,
+   "strengthOfOpponents": 0.1,
+   "playerId": "0d70122a-9002-461f-8600-a9afed2e8c3f"
   },
   {
    "name": "Brian O'Neill",
@@ -4865,13 +4836,42 @@
    "winPct": 14.3,
    "diff": -83,
    "ppg": 16.5,
-   "leagueRank": 167,
+   "leagueRank": 161,
    "rating": -2.6,
    "ratingGames": 21,
    "confidence": 80,
    "strengthOfPartners": -1.4,
    "strengthOfOpponents": -0.2,
    "playerId": "a00f55b9-a52a-4982-8ffc-9dbe4e66469e"
+  },
+  {
+   "name": "Tyler Marlin",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 22,
+   "wins": 3,
+   "losses": 11,
+   "pointsWon": 250,
+   "totalPointsAgainst": 286,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 3,
+   "genderLosses": 11,
+   "clutchWins": 1,
+   "clutchLosses": 5,
+   "winPct": 13.6,
+   "diff": -36,
+   "ppg": 11.4,
+   "leagueRank": 139,
+   "rating": -1.8,
+   "ratingGames": 14,
+   "confidence": 71,
+   "strengthOfPartners": -1,
+   "strengthOfOpponents": -0.4,
+   "playerId": "bf530f1a-96e0-484c-b377-f1243f05571b"
   },
   {
    "name": "Jay Alquiros",
@@ -4894,7 +4894,7 @@
    "winPct": 10.3,
    "diff": -178,
    "ppg": 14.5,
-   "leagueRank": 177,
+   "leagueRank": 175,
    "rating": -4.1,
    "ratingGames": 29,
    "confidence": 84,
@@ -4923,7 +4923,7 @@
    "winPct": 6.7,
    "diff": -77,
    "ppg": 15.7,
-   "leagueRank": 175,
+   "leagueRank": 174,
    "rating": -2.6,
    "ratingGames": 15,
    "confidence": 74,
@@ -5010,7 +5010,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5039,7 +5039,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5068,7 +5068,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5126,7 +5126,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5184,7 +5184,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5222,6 +5222,35 @@
    "playerId": "00092e4b-b019-43ae-bfef-503e1fc6f657"
   },
   {
+   "name": "David Osborne",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 194,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "418e7ba5-3e06-40ec-9b83-19d3bf10c9cb"
+  },
+  {
    "name": "Michael Swell",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
@@ -5242,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 126,
+   "leagueRank": 138,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5271,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 128,
+   "leagueRank": 140,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5358,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 176,
+   "leagueRank": 177,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5358,7 +5387,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 123,
+   "leagueRank": 136,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5723,6 +5752,36 @@
    }
   },
   {
+   "name": "Jersey Devil",
+   "w": 2,
+   "l": 2,
+   "pf": 1825,
+   "pa": 1835,
+   "gw": 79,
+   "gl": 49,
+   "diff": -10,
+   "gameDiff": 30,
+   "power": 0.3,
+   "powerRank": 2,
+   "pod": 2,
+   "reportedPod": "Southeast",
+   "podName": "Southeast / Southwest",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     79,
+     49
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
    "name": "Premiere",
    "w": 2,
    "l": 2,
@@ -5775,36 +5834,6 @@
     "male": [
      85,
      75
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
-   "name": "Jersey Devil",
-   "w": 1,
-   "l": 2,
-   "pf": 1825,
-   "pa": 1835,
-   "gw": 47,
-   "gl": 49,
-   "diff": -10,
-   "gameDiff": -2,
-   "power": 0.3,
-   "powerRank": 2,
-   "pod": 2,
-   "reportedPod": "Southeast",
-   "podName": "Southeast / Southwest",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     47,
-     49
     ],
     "female": [
      0,
@@ -5873,36 +5902,6 @@
    }
   },
   {
-   "name": "ACE Moorestown",
-   "w": 0,
-   "l": 4,
-   "pf": 2185,
-   "pa": 2580,
-   "gw": 39,
-   "gl": 89,
-   "diff": -395,
-   "gameDiff": -50,
-   "power": -1.1,
-   "powerRank": 3,
-   "pod": 2,
-   "reportedPod": "Southeast",
-   "podName": "Southeast / Southwest",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     39,
-     89
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
    "name": "Monroe",
    "w": 0,
    "l": 3,
@@ -5925,6 +5924,36 @@
     "male": [
      25,
      71
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "name": "ACE Moorestown",
+   "w": 0,
+   "l": 5,
+   "pf": 2185,
+   "pa": 2580,
+   "gw": 39,
+   "gl": 121,
+   "diff": -395,
+   "gameDiff": -82,
+   "power": -1.1,
+   "powerRank": 3,
+   "pod": 2,
+   "reportedPod": "Southeast",
+   "podName": "Southeast / Southwest",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     39,
+     121
     ],
     "female": [
      0,
@@ -20846,7 +20875,7 @@
      ],
      "a": [
       "Robbie Oddy",
-      "Andy Ead"
+      "Hany Ibrahim"
      ]
     },
     {
@@ -20857,9 +20886,13 @@
      ],
      "a": [
       "Tim Dowd",
-      "Simon Perry"
+      "David Osborne"
      ],
      "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
       0,
       1
      ]
@@ -20894,7 +20927,7 @@
      ],
      "a": [
       "Robbie Oddy",
-      "Andy Ead"
+      "Hans Tang"
      ],
      "hSub": [
       0,
@@ -20909,7 +20942,11 @@
      ],
      "a": [
       "Tim Dowd",
-      "Simon Perry"
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -20952,7 +20989,7 @@
       "Ian Chin"
      ],
      "a": [
-      "Andy Ead",
+      "Frank Clark",
       "Tim Dowd"
      ]
     },
@@ -20975,11 +21012,15 @@
      ],
      "a": [
       "Anthony Fallet",
-      "Simon Perry"
+      "David Osborne"
      ],
      "hSub": [
       1,
       0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -21000,12 +21041,16 @@
       "Austin Williams"
      ],
      "a": [
-      "Andy Ead",
+      "David Osborne",
       "Tim Dowd"
      ],
      "hSub": [
       0,
       1
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -21038,9 +21083,13 @@
      ],
      "a": [
       "Robbie Oddy",
-      "Simon Perry"
+      "David Osborne"
      ],
      "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
       0,
       1
      ]
@@ -21086,7 +21135,7 @@
      ],
      "a": [
       "Robbie Oddy",
-      "Simon Perry"
+      "Sean O'Connell"
      ],
      "hSub": [
       0,
@@ -21111,8 +21160,12 @@
       "Thomas Connolly"
      ],
      "a": [
-      "Andy Ead",
+      "David Osborne",
       "Hans Tang"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -21148,7 +21201,7 @@
       "Jake Laifer"
      ],
      "a": [
-      "Andy Ead",
+      "Anthony Fallet",
       "Hans Tang"
      ]
     },
@@ -21160,7 +21213,11 @@
      ],
      "a": [
       "Hany Ibrahim",
-      "Simon Perry"
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -21204,7 +21261,7 @@
      ],
      "a": [
       "Hany Ibrahim",
-      "Andy Ead"
+      "Robbie Oddy"
      ]
     },
     {
@@ -21214,10 +21271,14 @@
       "Camrin Cronheim"
      ],
      "a": [
-      "Simon Perry",
+      "David Osborne",
       "Hans Tang"
      ],
      "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
       1,
       0
      ]
@@ -22793,15 +22854,22 @@
    ]
   },
   {
-   "result": null,
+   "result": "draw",
    "week": 6,
    "home": "ACE Moorestown",
    "away": "Jersey Devil",
    "time": "2026-09-28T19:30:00",
-   "complete": false,
+   "complete": true,
+   "homePoints": 0,
+   "awayPoints": 0,
+   "homeGW": 0,
+   "awayGW": 32,
    "games": [
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Bryan Nardone"
@@ -22813,6 +22881,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Matthew Mintz",
       "Jack Blumberg"
@@ -22820,14 +22891,13 @@
      "a": [
       "Ryan Furman",
       "Zach Bowe"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Tyler Marlin",
       "Nachiket Vaidya"
@@ -22835,25 +22905,27 @@
      "a": [
       "Tyler Arsenault",
       "Matthew Chen"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Marc Harden",
       "Robert Finley"
      ],
      "a": [
       "Braden Keith",
-      "Daniel Schwab"
+      "Kushal Thapa"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Robert Finley"
@@ -22865,6 +22937,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jack Blumberg",
       "Marc Harden"
@@ -22872,18 +22947,13 @@
      "a": [
       "Ryan Furman",
       "Matthew Chen"
-     ],
-     "hSub": [
-      1,
-      0
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Tyler Marlin",
       "Bryan Nardone"
@@ -22895,17 +22965,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Josh Sherlock",
       "Matthew Mintz"
      ],
      "a": [
       "Vaughn Mcclelland",
-      "Sheel Motiwala"
+      "Braden Keith"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jack Blumberg",
       "Bryan Nardone"
@@ -22913,18 +22989,13 @@
      "a": [
       "Zach Bowe",
       "Matthew Chen"
-     ],
-     "hSub": [
-      1,
-      0
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Josh Sherlock",
       "Tyler Marlin"
@@ -22936,17 +23007,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Matthew Mintz"
      ],
      "a": [
-      "Sheel Motiwala",
-      "Daniel Schwab"
+      "Vaughn Mcclelland",
+      "Vince Abate"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Nachiket Vaidya",
       "Marc Harden"
@@ -22958,6 +23035,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Marc Harden",
       "Jack Blumberg"
@@ -22965,40 +23045,41 @@
      "a": [
       "Matthew Chen",
       "Braden Keith"
-     ],
-     "hSub": [
-      0,
-      1
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Matthew Mintz"
      ],
      "a": [
       "Tyler Arsenault",
-      "Daniel Schwab"
+      "Ryan Furman"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Robert Finley",
       "Nachiket Vaidya"
      ],
      "a": [
       "Vince Abate",
-      "Sheel Motiwala"
+      "Zach Bowe"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Tyler Marlin",
       "Bryan Nardone"
@@ -23010,6 +23091,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Marc Harden",
       "Bryan Nardone"
@@ -23021,32 +23105,37 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jack Blumberg",
       "Nachiket Vaidya"
      ],
      "a": [
       "Ryan Furman",
-      "Daniel Schwab"
-     ],
-     "hSub": [
-      1,
-      0
+      "Matthew Chen"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Matthew Mintz",
       "Josh Sherlock"
      ],
      "a": [
-      "Sheel Motiwala",
+      "Tyler Arsenault",
       "Vince Abate"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Tyler Marlin",
       "Robert Finley"
@@ -23058,6 +23147,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Robert Finley",
       "Josh Sherlock"
@@ -23069,6 +23161,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Tyler Marlin"
@@ -23076,14 +23171,13 @@
      "a": [
       "Ryan Furman",
       "Matthew Chen"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Matthew Mintz",
       "Jack Blumberg"
@@ -23091,25 +23185,27 @@
      "a": [
       "Kushal Thapa",
       "Vince Abate"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Bryan Nardone",
       "Nachiket Vaidya"
      ],
      "a": [
       "Braden Keith",
-      "Sheel Motiwala"
+      "Vaughn Mcclelland"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Bryan Nardone"
@@ -23121,17 +23217,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Nachiket Vaidya",
       "Tyler Marlin"
      ],
      "a": [
       "Vaughn Mcclelland",
-      "Sheel Motiwala"
+      "Vince Abate"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jack Blumberg",
       "Josh Sherlock"
@@ -23139,29 +23241,27 @@
      "a": [
       "Matthew Chen",
       "Zach Bowe"
-     ],
-     "hSub": [
-      1,
-      0
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Robert Finley",
       "Matthew Mintz"
      ],
      "a": [
       "Braden Keith",
-      "Daniel Schwab"
+      "Kushal Thapa"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Daniel Ehala",
       "Tyler Marlin"
@@ -23173,17 +23273,23 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Matthew Mintz",
       "Robert Finley"
      ],
      "a": [
       "Kushal Thapa",
-      "Daniel Schwab"
+      "Braden Keith"
      ]
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Josh Sherlock",
       "Nachiket Vaidya"
@@ -23195,6 +23301,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jack Blumberg",
       "Bryan Nardone"
@@ -23202,16 +23311,12 @@
      "a": [
       "Tyler Arsenault",
       "Matthew Chen"
-     ],
-     "hSub": [
-      1,
-      0
-     ],
-     "aSub": [
-      0,
-      1
      ]
     }
+   ],
+   "subs": [
+    "Matthew Chen",
+    "Jack Blumberg"
    ]
   },
   {
@@ -24078,6 +24183,14 @@
    "outsideSub": true
   },
   {
+   "name": "David Osborne",
+   "playerId": "418e7ba5-3e06-40ec-9b83-19d3bf10c9cb",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Kevin Lin",
    "playerId": "44bbc794-d40d-4fbf-a59e-ddb785496f21",
    "gender": "Male",
@@ -24375,10 +24488,10 @@
   }
  ],
  "meta": {
-  "matchesPlayed": 25,
+  "matchesPlayed": 26,
   "provisionalMatches": 0,
-  "weeks": "1-5",
-  "totalPlayers": 191,
+  "weeks": "1-6",
+  "totalPlayers": 192,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -24404,6 +24517,11 @@
     "week": 5,
     "label": "5b",
     "seq": 4
+   },
+   {
+    "week": 6,
+    "label": "6",
+    "seq": 5
    }
   ],
   "divisionSlug": "cca69ab9",
@@ -24474,7 +24592,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T18:29:45.349Z";
+  DATA.meta.asOf = "2026-09-28T22:49:45.603Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

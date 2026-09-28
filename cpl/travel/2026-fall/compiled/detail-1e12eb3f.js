@@ -1971,7 +1971,6 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Pickleball Palace Blue",
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -3404,8 +3403,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -3431,8 +3430,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -3449,8 +3448,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3465,8 +3464,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3481,8 +3480,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -3501,8 +3500,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3517,8 +3516,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -3537,8 +3536,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3553,8 +3552,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3569,8 +3568,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -3586,8 +3585,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3602,8 +3601,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3618,8 +3617,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -3634,8 +3633,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    }
   ],
@@ -6187,7 +6186,6 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Pickleball Palace Blue",
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -12032,11 +12030,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -21858,8 +21852,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hamilton Prime Time"
    },
    {
     "wk": 6,
@@ -21875,8 +21868,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hamilton Prime Time"
    },
    {
     "wk": 6,
@@ -21928,8 +21920,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hamilton Prime Time"
    },
    {
     "wk": 6,
@@ -22010,8 +22001,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hamilton Prime Time"
    }
   ],
   "ratingHistory": [
@@ -22066,8 +22056,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -22093,8 +22083,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -22111,8 +22101,8 @@
     "a": 25,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -22127,8 +22117,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -22143,8 +22133,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -22163,8 +22153,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -22180,8 +22170,8 @@
     "a": 21,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -22200,8 +22190,8 @@
     "a": 11,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -22217,8 +22207,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -22234,8 +22224,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -22250,8 +22240,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -22267,8 +22257,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -22283,8 +22273,8 @@
     "a": 24,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -22299,8 +22289,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -22315,8 +22305,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -22700,11 +22690,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -22736,11 +22722,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -38255,11 +38237,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -42980,8 +42958,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hamilton Prime Time"
    },
    {
     "wk": 6,
@@ -42997,8 +42974,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time",
-    "withSub": 1
+    "subFor": "Pickleball Kingdom Hamilton Prime Time"
    },
    {
     "wk": 6,
@@ -48147,8 +48123,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -48180,8 +48155,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -54368,7 +54342,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -54389,7 +54362,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -54445,8 +54417,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -54543,8 +54514,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -56420,8 +56390,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 2,
@@ -58100,7 +58069,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -62694,8 +62662,8 @@
     "teamRes": "W",
     "teamGW": 31,
     "teamGL": 1,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -62721,8 +62689,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -62739,8 +62707,8 @@
     "a": 11,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1,
     "vsSub": [
      1,
@@ -62760,8 +62728,8 @@
     "a": 8,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -62780,8 +62748,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1,
     "vsSub": [
      1,
@@ -62801,8 +62769,8 @@
     "a": 10,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 2,
@@ -62817,8 +62785,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -62837,8 +62805,8 @@
     "a": 9,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -62857,8 +62825,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -62873,8 +62841,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -62889,8 +62857,8 @@
     "a": 22,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -62909,8 +62877,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -62925,8 +62893,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      0
@@ -62945,8 +62913,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 5,
@@ -62961,8 +62929,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Palace Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -65770,8 +65738,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -65807,8 +65774,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -67239,11 +67205,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -67259,11 +67221,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -67295,11 +67253,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -67315,11 +67269,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -67335,11 +67285,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -68822,11 +68768,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Picklr Fair Lawn",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Picklr Fair Lawn"
    },
    {
     "wk": 5,
@@ -84068,7 +84010,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -84109,8 +84050,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -89448,8 +89388,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -93664,7 +93603,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -93738,11 +93677,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -93758,11 +93693,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -94954,11 +94885,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -94974,11 +94901,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -95046,11 +94969,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -99009,11 +98928,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -99084,7 +98999,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    }
   ],
@@ -106053,11 +105968,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -106105,11 +106016,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -107112,8 +107019,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -107162,7 +107068,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -107214,8 +107119,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -114502,7 +114406,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -114519,11 +114423,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -114582,7 +114482,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    }
   ],
@@ -114835,11 +114735,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -114872,11 +114768,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -116313,11 +116205,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -116349,11 +116237,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -116933,11 +116817,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -116990,11 +116870,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -117026,11 +116902,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -119157,11 +119029,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Picklr Fair Lawn",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -120427,7 +120295,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -120585,7 +120452,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      0
@@ -120621,8 +120487,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -121654,11 +121519,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -121674,11 +121535,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 5,
@@ -121694,11 +121551,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -124015,8 +123868,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -124032,8 +123884,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -124050,7 +123901,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -124155,8 +124005,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -131601,7 +131450,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -131619,11 +131468,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -132041,11 +131886,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -132064,7 +131905,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -132097,11 +131938,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -132117,11 +131954,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -136958,11 +136791,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -138568,8 +138397,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -138665,8 +138493,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -138715,8 +138542,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -138732,8 +138558,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -146854,7 +146679,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -146872,11 +146697,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -147215,7 +147036,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -149647,11 +149467,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Flemington Green",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -149683,11 +149499,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Green",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Flemington Green"
    },
    {
     "wk": 6,
@@ -151766,11 +151578,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -154262,7 +154070,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -154639,11 +154447,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -156586,7 +156390,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -156624,11 +156428,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -167353,8 +167153,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -167386,8 +167185,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 5,
@@ -170864,11 +170662,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Flemington Green",
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -170900,11 +170694,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Green",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Flemington Green"
    },
    {
     "wk": 6,
@@ -170920,11 +170710,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Green",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Flemington Green"
    }
   ],
   "ratingHistory": [
@@ -173787,7 +173573,7 @@
     "withSub": 1,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -173825,7 +173611,7 @@
     "withSub": 1,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -173864,11 +173650,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -176882,11 +176664,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -177142,11 +176920,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -177179,11 +176953,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -177201,7 +176971,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -180551,11 +180321,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -180571,11 +180337,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -180608,11 +180370,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -180629,11 +180387,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -183461,11 +183215,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -186759,11 +186509,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -188242,11 +187988,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -188301,7 +188043,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -188337,7 +188079,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    },
@@ -190955,11 +190697,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 2,
@@ -191676,7 +191414,7 @@
     "withSub": 1,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -191714,7 +191452,7 @@
     "withSub": 1,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -193681,11 +193419,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     1,
-     0
-    ]
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -193718,11 +193452,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 2,
@@ -193773,11 +193503,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -198186,11 +197912,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Pickleball Kingdom Hillsborough"
    },
    {
     "wk": 2,

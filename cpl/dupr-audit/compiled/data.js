@@ -3761,6 +3761,13 @@ window.DUPR_AUDIT = {
    "name": "Corey Chen",
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d",
    "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Corey Chen",
+   "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d",
+   "team": "Pickleball Kingdom Hillsborough",
    "slug": "c118b8e9",
    "gender": "Male"
   },
@@ -4637,6 +4644,13 @@ window.DUPR_AUDIT = {
    "playerId": "cc2a9e08-b163-4553-856f-c20895cb9930",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Debra Crawford",
+   "playerId": "5c28285b-7837-4f7b-8841-c23b92fe26af",
+   "team": "Pickleball Kingdom Hamilton Prime Time",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {
@@ -8690,6 +8704,13 @@ window.DUPR_AUDIT = {
    "playerId": "54d78d2c-c0d7-42c0-aef4-567311f2e51e",
    "team": "Monroe",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "John Cusano",
+   "playerId": "809fbee0-ae20-4726-9468-9e0e23f6696a",
+   "team": "Pickleball Palace Blue",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {
@@ -13682,6 +13703,13 @@ window.DUPR_AUDIT = {
    "team": "Jersey Pickleball Club",
    "slug": "b7ca04e4",
    "gender": "Female"
+  },
+  {
+   "name": "Nicholai Ola",
+   "playerId": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
+   "team": "Pickleball Kingdom Hamilton Prime Time",
+   "slug": "1e12eb3f",
+   "gender": "Male"
   },
   {
    "name": "Nicholas Brow",

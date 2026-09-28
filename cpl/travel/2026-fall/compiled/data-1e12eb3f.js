@@ -353,8 +353,8 @@
    "name": "Nicholai Ola",
    "gender": "Male",
    "team": "Pickleball Kingdom Hamilton Prime Time",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 11,
@@ -1716,8 +1716,8 @@
    "name": "Debra Crawford",
    "gender": "Female",
    "team": "Pickleball Kingdom Hamilton Prime Time",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 10,
@@ -4268,8 +4268,8 @@
    "name": "John Cusano",
    "gender": "Male",
    "team": "Pickleball Palace Blue",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 8,
@@ -13072,7 +13072,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 548,
+   "leagueRank": 549,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13101,7 +13101,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 541,
+   "leagueRank": 542,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13188,7 +13188,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 552,
+   "leagueRank": 553,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13246,7 +13246,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 551,
+   "leagueRank": 552,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13275,7 +13275,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 539,
+   "leagueRank": 540,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13304,7 +13304,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 534,
+   "leagueRank": 535,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13391,7 +13391,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13420,7 +13420,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 546,
+   "leagueRank": 547,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13478,7 +13478,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 549,
+   "leagueRank": 550,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 543,
+   "leagueRank": 544,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13536,7 +13536,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 545,
+   "leagueRank": 546,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13565,7 +13565,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 547,
+   "leagueRank": 548,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -27628,7 +27628,6 @@
     "Robin Aiello",
     "Brian Borer",
     "Karin Schneider",
-    "John Cusano",
     "Cheryl Minerowicz",
     "Robert Shea",
     "Christine Levesque"
@@ -38361,7 +38360,6 @@
     "Dan Sweetman",
     "Wallace Eng",
     "Wai Yiu",
-    "John Cusano",
     "Joanna Zhang",
     "Jenny Winters"
    ]
@@ -41625,8 +41623,6 @@
    "subs": [
     "Brett Wilson",
     "Suzanne Bauer",
-    "Nicholai Ola",
-    "Debra Crawford",
     "Raul Real"
    ]
   },
@@ -48804,8 +48800,6 @@
     }
    ],
    "subs": [
-    "Nicholai Ola",
-    "Debra Crawford",
     "Raul Real",
     "Brian Kelly"
    ]
@@ -50501,6 +50495,7 @@
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Tom Chiaravalloti": "9d3c9f50-f9e6-4cd2-8d3f-998d783722b6",
+  "Aimee Kierney": "9fbfc247-65a9-4fb2-b5f6-82ed6ce4e2f9",
   "Nicole Casciello": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Vincent Rizzo": "ba7888da-e110-406f-b2fd-4c1166dc28ed",
@@ -51013,14 +51008,6 @@
    "outsideSub": true
   },
   {
-   "name": "Nicholai Ola",
-   "playerId": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hamilton Prime Time",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Theresa Corderi",
    "playerId": "5a35b4ac-7b94-48d4-bd8f-d9c327751821",
    "gender": "Female",
@@ -51033,14 +51020,6 @@
    "playerId": "5b296802-eaf0-4fc6-8798-38d35f37aa54",
    "gender": "Female",
    "team": "Bounce Philly",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Debra Crawford",
-   "playerId": "5c28285b-7837-4f7b-8841-c23b92fe26af",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Hamilton Prime Time",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -51253,14 +51232,6 @@
    "outsideSub": true
   },
   {
-   "name": "John Cusano",
-   "playerId": "809fbee0-ae20-4726-9468-9e0e23f6696a",
-   "gender": "Male",
-   "team": "Pickleball Palace Blue",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Julie Orts",
    "playerId": "8471c0ed-751f-45e9-a85f-3125465ee459",
    "gender": "Female",
@@ -51369,6 +51340,14 @@
    "playerId": "9fafa9fd-7012-4a7e-8b91-28c33ecc0f21",
    "gender": "Female",
    "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Aimee Kierney",
+   "playerId": "9fbfc247-65a9-4fb2-b5f6-82ed6ce4e2f9",
+   "gender": "Female",
+   "team": "Pickleball Palace Blue",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -52005,7 +51984,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T18:27:12.550Z";
+  DATA.meta.asOf = "2026-09-28T22:47:48.915Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

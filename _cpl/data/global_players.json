@@ -35176,7 +35176,7 @@
     "lastName": "Fang",
     "dupr": "X2NWM4",
     "duprRating": "2.819",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 6815574683,
     "duprProvisional": false
   },
@@ -38262,7 +38262,7 @@
     "lastName": "Castro",
     "dupr": "56W4DV",
     "duprRating": "3.465",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 7466837591,
     "duprProvisional": false
   },
@@ -38762,7 +38762,7 @@
     "lastName": "Romulo",
     "dupr": "PZJDYM",
     "duprRating": "3.678",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 6962126498,
     "duprProvisional": false
   },
@@ -47344,6 +47344,16 @@
     "duprRating": "NR",
     "lastSeen": "2026-09",
     "duprNumericId": 5180134774,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "9fbfc247-65a9-4fb2-b5f6-82ed6ce4e2f9",
+    "firstName": "aimee",
+    "lastName": "kierney",
+    "dupr": "56L6LP",
+    "duprRating": "2.865",
+    "lastSeen": "2026-09",
+    "duprNumericId": 6438540242,
     "duprProvisional": false
   }
 ]

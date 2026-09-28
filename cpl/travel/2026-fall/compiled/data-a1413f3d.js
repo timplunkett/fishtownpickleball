@@ -44668,8 +44668,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Latham",
+      "Dan Kaytes"
      ],
      "a": [
       "Jill Delpozzo",
@@ -44679,19 +44679,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Alexa Laniado",
       "Matthew Marletta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Mackenzi Furlong",
@@ -44701,8 +44705,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Stein",
+      "Todd Mitchell"
      ],
      "a": [
       "Kaleigh Tierney",
@@ -44712,8 +44716,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Martyna Dudek",
+      "Carly Pfeffer"
      ],
      "a": [
       "Alexa Laniado",
@@ -44723,8 +44727,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Danielle Stein"
      ],
      "a": [
       "Mackenzi Furlong",
@@ -44734,30 +44738,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Susskind",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Pranav Tailor",
       "Jake Maske"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Kaytes",
+      "James Scott"
      ],
      "a": [
       "Xhulio Kola",
       "Aadhar Rohila"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Latham",
+      "Todd Mitchell"
      ],
      "a": [
       "Jill Delpozzo",
@@ -44767,30 +44779,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Alexa Laniado",
       "Matthew Marletta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Martyna Dudek",
+      "James Scott"
      ],
      "a": [
       "Kaleigh Tierney",
       "Xhulio Kola"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Brittany Anghel",
@@ -44800,8 +44820,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Danielle Stein"
      ],
      "a": [
       "Alexa Laniado",
@@ -44811,8 +44831,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Martyna Dudek",
+      "Alyssa Latham"
      ],
      "a": [
       "Brittany Anghel",
@@ -44822,8 +44842,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Dan Kaytes"
      ],
      "a": [
       "Iassen Christov",
@@ -44833,19 +44853,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arnaldo Pacheco",
+      "James Scott"
      ],
      "a": [
       "Jake Maske",
       "Pranav Tailor"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Todd Mitchell"
      ],
      "a": [
       "Jill Delpozzo",
@@ -44855,8 +44879,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Martyna Dudek",
+      "Dan Kaytes"
      ],
      "a": [
       "Mackenzi Furlong",
@@ -44866,30 +44890,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Stein",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Alexa Laniado",
       "Pranav Tailor"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Latham",
+      "James Scott"
      ],
      "a": [
       "Kaleigh Tierney",
       "Xhulio Kola"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Rebecca Lederman"
      ],
      "a": [
       "Alexa Laniado",
@@ -44899,8 +44931,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Danielle Stein",
+      "Alyssa Latham"
      ],
      "a": [
       "Brittany Anghel",
@@ -44910,19 +44942,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Susskind",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Iassen Christov",
       "Matthew Marletta"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Dan Kaytes"
      ],
      "a": [
       "Xhulio Kola",
@@ -44932,30 +44968,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Stein",
+      "James Scott"
      ],
      "a": [
       "Jill Delpozzo",
       "Jake Maske"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Mackenzi Furlong",
       "Aadhar Rohila"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Arnaldo Pacheco"
      ],
      "a": [
       "Kaleigh Tierney",
@@ -44965,8 +45009,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Martyna Dudek",
+      "Dan Kaytes"
      ],
      "a": [
       "Brittany Anghel",
@@ -44976,8 +45020,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Carly Pfeffer"
      ],
      "a": [
       "Alexa Laniado",
@@ -44987,8 +45031,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Martyna Dudek",
+      "Alyssa Latham"
      ],
      "a": [
       "Brittany Anghel",
@@ -44998,23 +45042,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Arnaldo Pacheco",
+      "James Scott"
      ],
      "a": [
       "Pranav Tailor",
       "Iassen Christov"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Matthew Marletta",
       "Aadhar Rohila"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -46486,7 +46538,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T18:27:51.811Z";
+  DATA.meta.asOf = "2026-09-28T22:48:14.186Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
