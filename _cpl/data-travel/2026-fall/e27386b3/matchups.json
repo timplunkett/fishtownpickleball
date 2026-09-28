@@ -625,18 +625,6 @@
       "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
-      "matchupId": "ae065f84-c976-40bf-9636-5fccad0c8a00",
-      "weekNumber": 5,
-      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-26T19:30:00",
-      "homeName": "Pickleball Kingdom Tinton Falls",
-      "awayName": "Monroe"
-    },
-    {
       "matchupId": "6779cfe8-cdc3-4f37-8459-b100a2e252a1",
       "weekNumber": 6,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -1319,6 +1307,18 @@
       "scheduledTime": "2026-10-26T19:30:00",
       "homeName": "Picklr Newark",
       "awayName": "Pickleball Kingdom Hamilton"
+    },
+    {
+      "matchupId": "ae065f84-c976-40bf-9636-5fccad0c8a00",
+      "weekNumber": 10,
+      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-26T19:30:00",
+      "homeName": "Pickleball Kingdom Tinton Falls",
+      "awayName": "Monroe"
     },
     {
       "matchupId": "f97d7ade-538d-410f-af0b-e66ce3f1a27d",

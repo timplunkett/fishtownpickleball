@@ -3352,7 +3352,7 @@
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Mei Li",
      "Jay Zeng"
@@ -3362,13 +3362,14 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Ann Betterton",
      "Liangang Liu"
@@ -3378,7 +3379,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -6009,8 +6011,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "week": 5,
@@ -6036,8 +6038,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "week": 6,
@@ -6063,8 +6065,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    }
   ],
   "games": [
@@ -6081,8 +6083,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 2,
@@ -6097,8 +6099,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 2,
@@ -6113,8 +6115,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 2,
@@ -6129,8 +6131,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 2,
@@ -6145,8 +6147,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null,
+    "sub": 1,
+    "subFor": "Flemington Blue",
     "withSub": 1
    },
    {
@@ -6162,8 +6164,8 @@
     "a": 24,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 2,
@@ -6178,8 +6180,8 @@
     "a": 22,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null,
+    "sub": 1,
+    "subFor": "Flemington Blue",
     "withSub": 1
    },
    {
@@ -6195,8 +6197,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6211,8 +6213,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6227,8 +6229,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6243,8 +6245,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6259,8 +6261,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6275,8 +6277,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6291,8 +6293,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 5,
@@ -6307,8 +6309,8 @@
     "a": 7,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null,
+    "sub": 1,
+    "subFor": "Flemington Blue",
     "withSub": 1
    },
    {
@@ -6324,8 +6326,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 6,
@@ -6340,8 +6342,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 6,
@@ -6356,8 +6358,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 6,
@@ -6372,8 +6374,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 6,
@@ -6388,8 +6390,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null,
+    "sub": 1,
+    "subFor": "Flemington Blue",
     "withSub": 1
    },
    {
@@ -6405,8 +6407,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 6,
@@ -6421,8 +6423,8 @@
     "a": 13,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    },
    {
     "wk": 6,
@@ -6437,8 +6439,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "Flemington Blue"
    }
   ],
   "ratingHistory": [
@@ -8943,7 +8945,7 @@
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Jennifer Qian",
      "Mei Li"
@@ -8953,7 +8955,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -8975,7 +8978,7 @@
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Rui Zhang",
      "June Lee"
@@ -8985,7 +8988,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -9055,7 +9059,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Lily Liu",
      "Coby Resnick"
@@ -9065,7 +9069,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -9087,7 +9092,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Nancy Lin",
      "Quen Koon Ng"
@@ -9097,7 +9102,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -9184,7 +9190,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Laura Sweet",
      "Kelly Dalsey"
@@ -9194,7 +9200,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -9216,7 +9223,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Cynthia Covie",
      "Laura Sweet"
@@ -9226,7 +9233,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -9365,7 +9373,7 @@
    },
    {
     "pid": "7f851011-9322-43f9-aff2-754565a615c7",
-    "name": "Carol Mastroianni",
+    "name": "Ritu Chandra",
     "n": 6,
     "synergy": -0.5
    },
@@ -16469,7 +16477,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Tara Lombardo",
      "Sal Frangipane"
@@ -16479,7 +16487,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -16551,7 +16560,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Nancy Lin",
      "John Ficarra"
@@ -16561,7 +16570,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -16616,7 +16626,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Cynthia Covie",
      "Derek Livingston"
@@ -16626,7 +16636,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -16664,7 +16675,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Kelly Dalsey",
      "Steve Hong"
@@ -16674,7 +16685,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -16753,7 +16765,7 @@
   "partners": [
    {
     "pid": "7f851011-9322-43f9-aff2-754565a615c7",
-    "name": "Carol Mastroianni",
+    "name": "Ritu Chandra",
     "n": 4,
     "synergy": 1.1
    },
@@ -17716,7 +17728,7 @@
     "wk": 5,
     "opp": "Stelton Sports",
     "t": "male",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Mengchu Zhou",
      "Sam Zhou"
@@ -18006,7 +18018,7 @@
     "wk": 6,
     "opp": "Flemington Green",
     "t": "male",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "David Osborne",
      "Richard Demeuse"
@@ -18860,7 +18872,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "Liangjie Zhu",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 22,
     "a": 24,
@@ -21144,7 +21156,7 @@
     "t": "mixed",
     "with": "Mei Li",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Tom Maley"
     ],
     "f": 21,
@@ -21152,7 +21164,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -24356,7 +24372,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Jiyun Yuh",
      "John Darrah"
@@ -24366,7 +24382,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -24499,7 +24516,7 @@
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Rui Zhang",
      "Ann Betterton"
@@ -24509,7 +24526,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -24531,7 +24549,7 @@
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Jennifer Qian",
      "Rui Zhang"
@@ -24541,7 +24559,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -27334,7 +27353,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "Margaret Weidlich",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 11,
@@ -28345,7 +28364,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Coby Resnick",
      "Nancy Lin"
@@ -28355,7 +28374,8 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Flemington Blue"
+    "subFor": "Flemington Blue",
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -28501,7 +28521,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Coby Resnick",
      "Quen Koon Ng"
@@ -28511,7 +28531,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -29053,7 +29074,7 @@
     "with": "Tara Kramer",
     "vs": [
      "Margaret Weidlich",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 19,
@@ -29142,7 +29163,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "John Zhong",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 11,
@@ -29178,7 +29199,7 @@
     "with": "Richard Demeuse",
     "vs": [
      "Abraham Telechanski",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 17,
     "a": 21,
@@ -29872,7 +29893,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Tara Lombardo",
      "John Ficarra"
@@ -29882,7 +29903,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -29952,7 +29974,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Laura Sweet",
      "John Darrah"
@@ -29962,7 +29984,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -30645,7 +30668,7 @@
     "wk": 2,
     "opp": "Stelton Sports",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Mei Li",
      "Lei Dong"
@@ -30655,7 +30678,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 2,
@@ -31535,7 +31559,7 @@
     "wk": 5,
     "opp": "Stelton Sports",
     "t": "mixed",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Mei Li",
      "Sam Zhou"
@@ -31567,7 +31591,7 @@
     "wk": 5,
     "opp": "Stelton Sports",
     "t": "mixed",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Ann Betterton",
      "Liangang Liu"
@@ -32174,7 +32198,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Laura Sweet",
      "Jiyun Yuh"
@@ -32184,7 +32208,8 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -34535,7 +34560,7 @@
     "wk": 5,
     "opp": "Stelton Sports",
     "t": "male",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Mengchu Zhou",
      "Jim Peng"
@@ -34761,7 +34786,7 @@
     "wk": 6,
     "opp": "Flemington Green",
     "t": "male",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Eric Luque",
      "Richard Demeuse"
@@ -35834,7 +35859,7 @@
     "t": "mixed",
     "with": "Ann Betterton",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Simon Perry"
     ],
     "f": 24,
@@ -35842,7 +35867,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -36011,7 +36040,7 @@
     "with": "Ann Betterton",
     "vs": [
      "Savita Nandal",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 15,
     "a": 21,
@@ -36047,7 +36076,7 @@
     "with": "Ann Betterton",
     "vs": [
      "Cuc Dang",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 17,
@@ -36970,7 +36999,7 @@
     "with": "Mei Li",
     "vs": [
      "Cuc Dang",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 16,
@@ -36990,7 +37019,7 @@
     "with": "Mengchu Zhou",
     "vs": [
      "Abraham Telechanski",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 19,
@@ -37603,7 +37632,7 @@
     "wk": 6,
     "opp": "APC Garden State",
     "t": "female",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Cynthia Covie",
      "Jiyun Yuh"
@@ -37613,7 +37642,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -37812,7 +37842,7 @@
     "t": "mixed",
     "with": "Lei Dong",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Tom Maley"
     ],
     "f": 21,
@@ -37820,7 +37850,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -37829,14 +37863,18 @@
     "with": "Jennifer Qian",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -37884,7 +37922,7 @@
     "t": "mixed",
     "with": "Jay Zeng",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Simon Perry"
     ],
     "f": 13,
@@ -37892,7 +37930,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -38105,7 +38147,7 @@
     "with": "Sam Zhou",
     "vs": [
      "Cuc Dang",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 16,
@@ -38873,7 +38915,7 @@
     "with": "Eric Luque",
     "vs": [
      "Liangjie Zhu",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 22,
     "a": 24,
@@ -38889,7 +38931,7 @@
     "with": "Christine Papa",
     "vs": [
      "Margaret Weidlich",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 11,
@@ -38942,7 +38984,7 @@
     "with": "David Osborne",
     "vs": [
      "John Zhong",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 11,
@@ -38978,7 +39020,7 @@
     "with": "David Osborne",
     "vs": [
      "Abraham Telechanski",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 17,
     "a": 21,
@@ -42138,14 +42180,18 @@
     "with": "June Lee",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -42170,7 +42216,7 @@
     "with": "Ann Betterton",
     "vs": [
      "Roseann Catania",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 16,
     "a": 21,
@@ -42180,7 +42226,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     0
+     1
     ]
    },
    {
@@ -42190,7 +42236,7 @@
     "with": "Jennifer Qian",
     "vs": [
      "Roseann Catania",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 22,
     "a": 24,
@@ -42200,7 +42246,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     0
+     1
     ]
    },
    {
@@ -42757,7 +42803,7 @@
     "with": "Rui Zhang",
     "vs": [
      "Roseann Catania",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 16,
     "a": 21,
@@ -42767,7 +42813,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     0
+     1
     ]
    },
    {
@@ -42776,7 +42822,7 @@
     "t": "mixed",
     "with": "Liangang Liu",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Simon Perry"
     ],
     "f": 24,
@@ -42784,7 +42830,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 4,
@@ -42909,7 +42959,7 @@
     "with": "Liangang Liu",
     "vs": [
      "Savita Nandal",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 15,
     "a": 21,
@@ -42961,7 +43011,7 @@
     "with": "Liangang Liu",
     "vs": [
      "Cuc Dang",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 17,
@@ -45286,14 +45336,18 @@
     "with": "Mei Li",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -45334,7 +45388,7 @@
     "with": "Rui Zhang",
     "vs": [
      "Roseann Catania",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 22,
     "a": 24,
@@ -45344,7 +45398,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     0
+     1
     ]
    },
    {
@@ -47074,7 +47128,7 @@
     "with": "David Osborne",
     "vs": [
      "Margaret Weidlich",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 19,
@@ -49315,7 +49369,7 @@
     "t": "mixed",
     "with": "Mei Li",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Simon Perry"
     ],
     "f": 13,
@@ -49323,7 +49377,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 2,
@@ -50455,7 +50513,7 @@
     "t": "mixed",
     "with": "Sal Frangipane",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 20,
@@ -50463,7 +50521,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -50491,7 +50553,7 @@
     "t": "mixed",
     "with": "John Ficarra",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Scott Rubin"
     ],
     "f": 18,
@@ -50499,7 +50561,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -52336,7 +52402,7 @@
     "wk": 6,
     "opp": "Flemington Green",
     "t": "mixed",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Tara Kramer",
      "David Osborne"
@@ -52368,7 +52434,7 @@
     "wk": 6,
     "opp": "Flemington Green",
     "t": "mixed",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Christine Papa",
      "Richard Demeuse"
@@ -53397,7 +53463,7 @@
     "wk": 6,
     "opp": "Flemington Green",
     "t": "male",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "David Osborne",
      "Richard Demeuse"
@@ -53690,14 +53756,18 @@
     "with": "Coby Resnick",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -54052,7 +54122,7 @@
     "with": "Jim Peng",
     "vs": [
      "Liangjie Zhu",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 18,
     "a": 21,
@@ -54068,7 +54138,7 @@
     "with": "Sam Zhou",
     "vs": [
      "Abraham Telechanski",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 21,
     "a": 19,
@@ -54607,7 +54677,7 @@
     "wk": 5,
     "opp": "Premiere",
     "t": "mixed",
-    "with": "Carol Mastroianni",
+    "with": "Ritu Chandra",
     "vs": [
      "Quen Koon Ng",
      "Steve Gerwer"
@@ -54617,7 +54687,8 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "withSub": 1
    },
    {
     "wk": 5,
@@ -62109,7 +62180,7 @@
     "with": "Mengchu Zhou",
     "vs": [
      "Liangjie Zhu",
-     "Paul Rappport"
+     "Paul Rappoport"
     ],
     "f": 18,
     "a": 21,
@@ -63248,7 +63319,7 @@
     "t": "mixed",
     "with": "Laura Sweet",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Scott Rubin"
     ],
     "f": 21,
@@ -63256,7 +63327,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -63304,7 +63379,7 @@
     "t": "mixed",
     "with": "Jiyun Yuh",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Stephen Locker"
     ],
     "f": 16,
@@ -63314,7 +63389,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     0,
+     1,
      1
     ]
    },
@@ -65804,7 +65879,7 @@
     "t": "mixed",
     "with": "Derek Livingston",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 13,
@@ -65812,7 +65887,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -65820,7 +65899,7 @@
     "t": "female",
     "with": "Laura Sweet",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Susan Ackley"
     ],
     "f": 16,
@@ -65828,7 +65907,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -65884,7 +65967,7 @@
     "t": "female",
     "with": "Jiyun Yuh",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Amy Johnson"
     ],
     "f": 14,
@@ -65892,7 +65975,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -66065,14 +66152,18 @@
     "with": "Rui Zhang",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 19,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 2,
@@ -66447,7 +66538,7 @@
     "wk": 5,
     "opp": "Stelton Sports",
     "t": "mixed",
-    "with": "Paul Rappport",
+    "with": "Paul Rappoport",
     "vs": [
      "Ann Betterton",
      "Liangang Liu"
@@ -67071,7 +67162,7 @@
     "t": "mixed",
     "with": "Tara Lombardo",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Scott Rubin"
     ],
     "f": 18,
@@ -67079,7 +67170,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -67119,7 +67214,7 @@
     "t": "mixed",
     "with": "Nancy Lin",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 14,
@@ -67127,7 +67222,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -67912,7 +68011,7 @@
     "t": "mixed",
     "with": "John Darrah",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Scott Rubin"
     ],
     "f": 21,
@@ -67920,7 +68019,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -67928,7 +68031,7 @@
     "t": "female",
     "with": "Kelly Dalsey",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Susan Ackley"
     ],
     "f": 17,
@@ -67936,7 +68039,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -67960,7 +68067,7 @@
     "t": "female",
     "with": "Cynthia Covie",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Susan Ackley"
     ],
     "f": 16,
@@ -67968,7 +68075,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -67992,7 +68103,7 @@
     "t": "female",
     "with": "Jiyun Yuh",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Sue Johnson"
     ],
     "f": 21,
@@ -68000,7 +68111,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -69877,7 +69992,7 @@
     "t": "mixed",
     "with": "Kelly Dalsey",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 13,
@@ -69885,7 +70000,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -70694,14 +70813,18 @@
     "with": "Lily Liu",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 17,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -70745,7 +70868,7 @@
     "t": "female",
     "with": "Quen Koon Ng",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Ceil Gomez"
     ],
     "f": 19,
@@ -70753,7 +70876,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -70777,7 +70904,7 @@
     "t": "female",
     "with": "Nancy Lin",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Chanda Mccoy"
     ],
     "f": 7,
@@ -70787,7 +70914,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     0,
+     1,
      1
     ]
    }
@@ -71324,7 +71451,7 @@
     "t": "mixed",
     "with": "Cynthia Covie",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 13,
@@ -71332,7 +71459,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -71730,7 +71861,7 @@
     "t": "mixed",
     "with": "Quen Koon Ng",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Marc Friedman"
     ],
     "f": 17,
@@ -71738,7 +71869,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -72173,14 +72308,18 @@
     "with": "Quen Koon Ng",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -72208,7 +72347,7 @@
     "t": "mixed",
     "with": "John Ficarra",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 14,
@@ -72216,7 +72355,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -72224,7 +72367,7 @@
     "t": "female",
     "with": "Coby Resnick",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Chanda Mccoy"
     ],
     "f": 7,
@@ -72234,7 +72377,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     0,
+     1,
      1
     ]
    },
@@ -73809,7 +73952,7 @@
     "t": "mixed",
     "with": "John Darrah",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Stephen Locker"
     ],
     "f": 16,
@@ -73819,7 +73962,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     0,
+     1,
      1
     ]
    },
@@ -73829,7 +73972,7 @@
     "t": "female",
     "with": "Laura Sweet",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Sue Johnson"
     ],
     "f": 21,
@@ -73837,7 +73980,11 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -73861,7 +74008,7 @@
     "t": "female",
     "with": "Cynthia Covie",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Amy Johnson"
     ],
     "f": 14,
@@ -73869,7 +74016,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    }
   ],
   "ratingHistory": [
@@ -74195,14 +74346,18 @@
     "with": "Nancy Lin",
     "vs": [
      "Susan Ackley",
-     "Carol Mastroianni"
+     "Ritu Chandra"
     ],
     "f": 16,
     "a": 21,
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     0,
+     1
+    ]
    },
    {
     "wk": 5,
@@ -74210,7 +74365,7 @@
     "t": "mixed",
     "with": "Steve Gerwer",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Marc Friedman"
     ],
     "f": 17,
@@ -74218,7 +74373,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -74226,7 +74385,7 @@
     "t": "female",
     "with": "Coby Resnick",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Ceil Gomez"
     ],
     "f": 19,
@@ -74234,7 +74393,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,
@@ -75379,7 +75542,7 @@
     "t": "female",
     "with": "Laura Sweet",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Susan Ackley"
     ],
     "f": 17,
@@ -75387,7 +75550,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -75459,7 +75626,7 @@
     "t": "mixed",
     "with": "Steve Hong",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 13,
@@ -75467,7 +75634,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 6,
@@ -76749,7 +76920,7 @@
     "t": "mixed",
     "with": "Tara Lombardo",
     "vs": [
-     "Carol Mastroianni",
+     "Ritu Chandra",
      "Bill Brandt"
     ],
     "f": 20,
@@ -76757,7 +76928,11 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null
+    "subFor": null,
+    "vsSub": [
+     1,
+     0
+    ]
    },
    {
     "wk": 5,

@@ -10201,7 +10201,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 415,
+   "leagueRank": 416,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -41290,14 +41290,6 @@
   },
   {
    "result": null,
-   "week": 5,
-   "home": "Pickleball Kingdom Tinton Falls",
-   "away": "Monroe",
-   "time": "2026-10-26T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
    "week": 6,
    "home": "Flemington",
    "away": "Monroe",
@@ -43165,8 +43157,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Thomas Carretta"
      ],
      "a": [
       "Michele Sagurton",
@@ -43176,8 +43168,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alina Allakhveranova",
+      "James Cooper"
      ],
      "a": [
       "Nicole Melchionna",
@@ -43187,8 +43179,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Dente",
+      "Lionell Matthews"
      ],
      "a": [
       "Jade Chin",
@@ -43198,8 +43190,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Sobieski",
+      "Michael Alfaro"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43209,8 +43201,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zyanya Flores",
+      "Alina Allakhveranova"
      ],
      "a": [
       "Jade Chin",
@@ -43220,8 +43212,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allison Sobieski",
+      "Kimberley Levins"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43231,8 +43223,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Balta",
+      "Kevin Altieri"
      ],
      "a": [
       "Alexander Masotti",
@@ -43242,8 +43234,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Alfaro",
+      "James Cooper"
      ],
      "a": [
       "David Burke",
@@ -43253,8 +43245,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Dente",
+      "Kevin Altieri"
      ],
      "a": [
       "Nicole Melchionna",
@@ -43264,8 +43256,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Michael Alfaro"
      ],
      "a": [
       "Chantya Roberson",
@@ -43275,8 +43267,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Tortorice",
+      "James Cooper"
      ],
      "a": [
       "Jade Chin",
@@ -43286,8 +43278,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zyanya Flores",
+      "Lionell Matthews"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43297,8 +43289,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alina Allakhveranova",
+      "Allison Sobieski"
      ],
      "a": [
       "Nicole Melchionna",
@@ -43308,8 +43300,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Sarah Dente"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43319,8 +43311,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Carretta",
+      "Kevin Altieri"
      ],
      "a": [
       "Ricardo Fontanilla",
@@ -43330,8 +43322,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Cooper",
+      "Lionell Matthews"
      ],
      "a": [
       "David Burke",
@@ -43341,8 +43333,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zyanya Flores",
+      "Kevin Altieri"
      ],
      "a": [
       "Chantya Roberson",
@@ -43352,8 +43344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alina Allakhveranova",
+      "Thomas Carretta"
      ],
      "a": [
       "Nicole Melchionna",
@@ -43363,8 +43355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Tortorice",
+      "James Cooper"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43374,8 +43366,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Sobieski",
+      "Lionell Matthews"
      ],
      "a": [
       "Jade Chin",
@@ -43385,8 +43377,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Vanessa Tortorice"
      ],
      "a": [
       "Michele Sagurton",
@@ -43396,8 +43388,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allison Sobieski",
+      "Sarah Dente"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43407,8 +43399,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Carretta",
+      "Michael Alfaro"
      ],
      "a": [
       "Barry Lerner",
@@ -43418,8 +43410,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Altieri",
+      "Chris Balta"
      ],
      "a": [
       "Ricardo Fontanilla",
@@ -43429,8 +43421,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Tortorice",
+      "Lionell Matthews"
      ],
      "a": [
       "Jade Chin",
@@ -43440,8 +43432,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alina Allakhveranova",
+      "Thomas Carretta"
      ],
      "a": [
       "Chantya Roberson",
@@ -43451,8 +43443,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Sobieski",
+      "James Cooper"
      ],
      "a": [
       "Rachael Osetkowski",
@@ -43462,8 +43454,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zyanya Flores",
+      "Chris Balta"
      ],
      "a": [
       "Nicole Melchionna",
@@ -43473,8 +43465,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Tortorice",
+      "Sarah Dente"
      ],
      "a": [
       "Nicole Melchionna",
@@ -43484,8 +43476,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alina Allakhveranova",
+      "Zyanya Flores"
      ],
      "a": [
       "Jade Chin",
@@ -43495,8 +43487,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Carretta",
+      "Chris Balta"
      ],
      "a": [
       "Alexander Masotti",
@@ -43506,8 +43498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Altieri",
+      "James Cooper"
      ],
      "a": [
       "Ricardo Fontanilla",
@@ -45805,6 +45797,14 @@
   {
    "result": null,
    "week": 10,
+   "home": "Pickleball Kingdom Tinton Falls",
+   "away": "Monroe",
+   "time": "2026-10-26T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 10,
    "home": "Pickle Juice Blackwood",
    "away": "Dill Dinkers Hatboro",
    "time": "2026-10-26T19:30:00",
@@ -46080,6 +46080,7 @@
   "Mike Esfahani": "5309d94e-5f39-4cca-a25d-cba3773abe73",
   "Kendall Rodgers": "5638eefb-19f5-473a-b9fc-98731a9d458f",
   "Nicholai Ola": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
+  "Roanne Mae Vega": "5a8658ab-fe97-4c51-a0fc-4cd151fc9b2c",
   "Ken Bienkowski": "5cc85746-e4a6-432e-bfe5-8166f02867ce",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Carolyn Shipe": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
@@ -46232,7 +46233,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T12:25:19.292Z";
+  DATA.meta.asOf = "2026-09-28T18:26:31.891Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

@@ -45022,17 +45022,17 @@
   {
    "result": null,
    "week": 6,
-   "home": "Flemington Green",
-   "away": "Montville",
+   "home": "Pickleball Kingdom Hillsborough",
+   "away": "Premiere",
    "time": "2026-10-01T19:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 6,
-   "home": "Pickleball Kingdom Hillsborough",
-   "away": "Premiere",
-   "time": "2026-10-01T19:00:00",
+   "home": "Flemington Green",
+   "away": "Montville",
+   "time": "2026-10-01T19:30:00",
    "complete": false
   },
   {
@@ -45844,7 +45844,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T02:42:59.021Z";
+  DATA.meta.asOf = "2026-09-28T18:27:51.811Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

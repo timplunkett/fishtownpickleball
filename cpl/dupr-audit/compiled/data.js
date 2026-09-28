@@ -2792,13 +2792,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Carol Mastroianni",
-   "playerId": "7f851011-9322-43f9-aff2-754565a615c7",
-   "team": "Flemington Blue",
-   "slug": "2edc44e7",
-   "gender": "Female"
-  },
-  {
    "name": "Carolina Reese",
    "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
    "team": "Bounce Malvern",
@@ -14251,14 +14244,14 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Paul Rappport",
+   "name": "Paul Rappoport",
    "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
    "team": "Allstar Pickler",
    "slug": "c43b8608",
    "gender": "Male"
   },
   {
-   "name": "Paul Rappport",
+   "name": "Paul Rappoport",
    "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
    "team": "Allstar Pickler",
    "slug": "2edc44e7",

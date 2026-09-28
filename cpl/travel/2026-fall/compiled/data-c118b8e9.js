@@ -142,7 +142,7 @@
    "rating": 5.1,
    "ratingGames": 16,
    "confidence": 75,
-   "strengthOfPartners": 1,
+   "strengthOfPartners": 1.1,
    "strengthOfOpponents": 0.3,
    "playerId": "08530d21-2dc5-4f71-9d49-9191ec192860"
   },
@@ -197,7 +197,7 @@
    "diff": 182,
    "ppg": 20.5,
    "leagueRank": 6,
-   "rating": 3.5,
+   "rating": 3.4,
    "ratingGames": 31,
    "confidence": 85,
    "strengthOfPartners": 0.8,
@@ -316,7 +316,7 @@
    "rating": 2,
    "ratingGames": 8,
    "confidence": 62,
-   "strengthOfPartners": -0.2,
+   "strengthOfPartners": -0.1,
    "strengthOfOpponents": -1.1,
    "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8"
   },
@@ -342,7 +342,7 @@
    "diff": 25,
    "ppg": 20.8,
    "leagueRank": 44,
-   "rating": 1.6,
+   "rating": 1.7,
    "ratingGames": 8,
    "confidence": 63,
    "strengthOfPartners": 0.8,
@@ -429,7 +429,7 @@
    "diff": 98,
    "ppg": 20.4,
    "leagueRank": 7,
-   "rating": 3.4,
+   "rating": 3.5,
    "ratingGames": 14,
    "confidence": 73,
    "strengthOfPartners": 1.2,
@@ -519,7 +519,7 @@
    "rating": 3.2,
    "ratingGames": 6,
    "confidence": 54,
-   "strengthOfPartners": 0.6,
+   "strengthOfPartners": 0.7,
    "strengthOfOpponents": 0.2,
    "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b"
   },
@@ -605,8 +605,8 @@
    "leagueRank": 138,
    "rating": 0.7,
    "ratingGames": 6,
-   "confidence": 53,
-   "strengthOfPartners": -1.6,
+   "confidence": 52,
+   "strengthOfPartners": -1.7,
    "strengthOfOpponents": -1.1,
    "playerId": "c9088878-9755-4e32-abed-4a4e5a42f9a8"
   },
@@ -954,7 +954,7 @@
    "rating": 1.8,
    "ratingGames": 27,
    "confidence": 84,
-   "strengthOfPartners": 0.1,
+   "strengthOfPartners": 0.2,
    "strengthOfOpponents": -0.2,
    "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
   },
@@ -1066,7 +1066,7 @@
    "winPct": 76.5,
    "diff": 72,
    "ppg": 19.6,
-   "leagueRank": 30,
+   "leagueRank": 31,
    "rating": 1.1,
    "ratingGames": 17,
    "confidence": 77,
@@ -1100,7 +1100,7 @@
    "ratingGames": 32,
    "confidence": 85,
    "strengthOfPartners": 1.5,
-   "strengthOfOpponents": -0.7,
+   "strengthOfOpponents": -0.6,
    "playerId": "a2fc30f9-b494-4781-900e-1e0b7d531f02"
   },
   {
@@ -1240,7 +1240,7 @@
    "winPct": 75,
    "diff": 48,
    "ppg": 19.8,
-   "leagueRank": 31,
+   "leagueRank": 30,
    "rating": 1.8,
    "ratingGames": 20,
    "confidence": 80,
@@ -1274,7 +1274,7 @@
    "ratingGames": 12,
    "confidence": 71,
    "strengthOfPartners": 2.4,
-   "strengthOfOpponents": 0.2,
+   "strengthOfOpponents": 0.3,
    "playerId": "93280d5d-b0c8-49cd-94fe-0350f3e2dac5"
   },
   {
@@ -1447,7 +1447,7 @@
    "rating": 2.2,
    "ratingGames": 27,
    "confidence": 83,
-   "strengthOfPartners": 0.8,
+   "strengthOfPartners": 0.9,
    "strengthOfOpponents": 0.1,
    "playerId": "5a604a32-f8bf-45a8-b6b3-ef2922e0eeaf"
   },
@@ -1878,7 +1878,7 @@
    "winPct": 67.5,
    "diff": 57,
    "ppg": 19.7,
-   "leagueRank": 59,
+   "leagueRank": 58,
    "rating": 1.3,
    "ratingGames": 40,
    "confidence": 87,
@@ -2056,7 +2056,7 @@
    "rating": 2.2,
    "ratingGames": 15,
    "confidence": 75,
-   "strengthOfPartners": -1,
+   "strengthOfPartners": -0.9,
    "strengthOfOpponents": 0.2,
    "playerId": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1"
   },
@@ -2082,9 +2082,9 @@
    "diff": 10,
    "ppg": 20.3,
    "leagueRank": 180,
-   "rating": -0.2,
+   "rating": -0.3,
    "ratingGames": 6,
-   "confidence": 55,
+   "confidence": 54,
    "strengthOfPartners": -1.2,
    "strengthOfOpponents": -1.6,
    "playerId": "b979a109-08fd-4041-8da4-e306ef13330a"
@@ -2227,7 +2227,7 @@
    "diff": 90,
    "ppg": 19.5,
    "leagueRank": 67,
-   "rating": 1.2,
+   "rating": 1.3,
    "ratingGames": 30,
    "confidence": 85,
    "strengthOfPartners": 0.8,
@@ -2429,7 +2429,7 @@
    "winPct": 61.9,
    "diff": 45,
    "ppg": 19,
-   "leagueRank": 58,
+   "leagueRank": 59,
    "rating": 2.2,
    "ratingGames": 21,
    "confidence": 80,
@@ -2546,7 +2546,7 @@
    "diff": 19,
    "ppg": 18.7,
    "leagueRank": 84,
-   "rating": 1.2,
+   "rating": 1.3,
    "ratingGames": 21,
    "confidence": 79,
    "strengthOfPartners": 0.9,
@@ -2633,11 +2633,11 @@
    "diff": -7,
    "ppg": 19.2,
    "leagueRank": 104,
-   "rating": -0.1,
+   "rating": 0,
    "ratingGames": 13,
    "confidence": 73,
    "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.5,
+   "strengthOfOpponents": 0.6,
    "playerId": "27009a0b-037c-4934-9f52-d21c928ef173"
   },
   {
@@ -2666,7 +2666,7 @@
    "ratingGames": 31,
    "confidence": 85,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": 0.2,
+   "strengthOfOpponents": 0.3,
    "playerId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
   },
   {
@@ -2752,8 +2752,8 @@
    "rating": 0.3,
    "ratingGames": 28,
    "confidence": 84,
-   "strengthOfPartners": 0.1,
-   "strengthOfOpponents": -0.6,
+   "strengthOfPartners": 0.2,
+   "strengthOfOpponents": -0.5,
    "playerId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3"
   },
   {
@@ -2810,7 +2810,7 @@
    "rating": 0.1,
    "ratingGames": 38,
    "confidence": 86,
-   "strengthOfPartners": 0.6,
+   "strengthOfPartners": 0.7,
    "strengthOfOpponents": 0,
    "playerId": "667a80aa-7b06-46b5-a4ae-6989224ab5f9"
   },
@@ -2865,7 +2865,7 @@
    "diff": 10,
    "ppg": 19.2,
    "leagueRank": 190,
-   "rating": 2,
+   "rating": 2.1,
    "ratingGames": 5,
    "confidence": 52,
    "strengthOfPartners": -1.5,
@@ -2893,7 +2893,7 @@
    "winPct": 60,
    "diff": -2,
    "ppg": 17.9,
-   "leagueRank": 115,
+   "leagueRank": 116,
    "rating": -0.5,
    "ratingGames": 20,
    "confidence": 79,
@@ -3013,7 +3013,7 @@
    "rating": 0.1,
    "ratingGames": 37,
    "confidence": 87,
-   "strengthOfPartners": 0.4,
+   "strengthOfPartners": 0.5,
    "strengthOfOpponents": -0.2,
    "playerId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa"
   },
@@ -3072,7 +3072,7 @@
    "ratingGames": 27,
    "confidence": 83,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": -0.4,
+   "strengthOfOpponents": -0.3,
    "playerId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7"
   },
   {
@@ -3183,7 +3183,7 @@
    "winPct": 58.8,
    "diff": 12,
    "ppg": 18.5,
-   "leagueRank": 117,
+   "leagueRank": 118,
    "rating": -1,
    "ratingGames": 17,
    "confidence": 76,
@@ -3212,7 +3212,7 @@
    "winPct": 58.1,
    "diff": 32,
    "ppg": 18.6,
-   "leagueRank": 113,
+   "leagueRank": 114,
    "rating": -0.7,
    "ratingGames": 31,
    "confidence": 85,
@@ -3337,6 +3337,35 @@
    "playerId": "8f9be7cc-3ddf-436f-8727-02cbdd0d453f"
   },
   {
+   "name": "Jonathan Dong",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "matches": 4,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 30,
+   "wins": 17,
+   "losses": 13,
+   "pointsWon": 562,
+   "totalPointsAgainst": 557,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 17,
+   "genderLosses": 13,
+   "clutchWins": 7,
+   "clutchLosses": 4,
+   "winPct": 56.7,
+   "diff": 5,
+   "ppg": 18.7,
+   "leagueRank": 112,
+   "rating": -0.2,
+   "ratingGames": 30,
+   "confidence": 85,
+   "strengthOfPartners": 0.7,
+   "strengthOfOpponents": 0.1,
+   "playerId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
+  },
+  {
    "name": "Venu Yengala",
    "gender": "Male",
    "team": "Pickleball Kingdom Hamilton",
@@ -3357,7 +3386,7 @@
    "winPct": 56.4,
    "diff": -15,
    "ppg": 18.7,
-   "leagueRank": 114,
+   "leagueRank": 115,
    "rating": 0.7,
    "ratingGames": 39,
    "confidence": 88,
@@ -3386,7 +3415,7 @@
    "winPct": 56,
    "diff": 24,
    "ppg": 18,
-   "leagueRank": 120,
+   "leagueRank": 121,
    "rating": -0.3,
    "ratingGames": 25,
    "confidence": 84,
@@ -3419,7 +3448,7 @@
    "rating": 0.4,
    "ratingGames": 34,
    "confidence": 86,
-   "strengthOfPartners": 1.1,
+   "strengthOfPartners": 1.2,
    "strengthOfOpponents": 0.1,
    "playerId": "8cebf901-66b9-41d0-963d-12dac7334c8f"
   },
@@ -3502,42 +3531,13 @@
    "winPct": 55,
    "diff": 4,
    "ppg": 18.8,
-   "leagueRank": 118,
+   "leagueRank": 119,
    "rating": 0,
    "ratingGames": 20,
    "confidence": 80,
    "strengthOfPartners": 0.4,
    "strengthOfOpponents": 0.1,
    "playerId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6"
-  },
-  {
-   "name": "Jonathan Dong",
-   "gender": "Male",
-   "team": "PickleRage Union County",
-   "matches": 4,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 31,
-   "wins": 17,
-   "losses": 14,
-   "pointsWon": 576,
-   "totalPointsAgainst": 578,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 17,
-   "genderLosses": 14,
-   "clutchWins": 7,
-   "clutchLosses": 4,
-   "winPct": 54.8,
-   "diff": -2,
-   "ppg": 18.6,
-   "leagueRank": 121,
-   "rating": -0.3,
-   "ratingGames": 31,
-   "confidence": 85,
-   "strengthOfPartners": 0.6,
-   "strengthOfOpponents": 0.2,
-   "playerId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
   },
   {
    "name": "Corey Chen",
@@ -3561,11 +3561,11 @@
    "diff": 44,
    "ppg": 19.5,
    "leagueRank": 101,
-   "rating": 0,
+   "rating": -0.1,
    "ratingGames": 22,
    "confidence": 80,
    "strengthOfPartners": 0.7,
-   "strengthOfOpponents": -0.6,
+   "strengthOfOpponents": -0.7,
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d"
   },
   {
@@ -3622,7 +3622,7 @@
    "rating": 1.1,
    "ratingGames": 39,
    "confidence": 88,
-   "strengthOfPartners": 0.8,
+   "strengthOfPartners": 0.9,
    "strengthOfOpponents": 0.3,
    "playerId": "497b0077-b7ae-4025-ad32-94c9da47ab80"
   },
@@ -3706,10 +3706,10 @@
    "diff": 7,
    "ppg": 18.5,
    "leagueRank": 123,
-   "rating": 0.7,
+   "rating": 0.6,
    "ratingGames": 38,
    "confidence": 86,
-   "strengthOfPartners": -0.3,
+   "strengthOfPartners": -0.2,
    "strengthOfOpponents": 0.1,
    "playerId": "e1d9f3bc-ec4e-4690-810c-a67452049768"
   },
@@ -3764,11 +3764,11 @@
    "diff": 42,
    "ppg": 19.5,
    "leagueRank": 108,
-   "rating": 0.4,
+   "rating": 0.5,
    "ratingGames": 35,
    "confidence": 87,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.1,
+   "strengthOfOpponents": 0.2,
    "playerId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527"
   },
   {
@@ -3793,7 +3793,7 @@
    "diff": 4,
    "ppg": 18.4,
    "leagueRank": 129,
-   "rating": -0.8,
+   "rating": -0.7,
    "ratingGames": 35,
    "confidence": 85,
    "strengthOfPartners": 0.7,
@@ -3821,7 +3821,7 @@
    "winPct": 50,
    "diff": 45,
    "ppg": 19.4,
-   "leagueRank": 116,
+   "leagueRank": 117,
    "rating": 0,
    "ratingGames": 36,
    "confidence": 87,
@@ -4111,7 +4111,7 @@
    "winPct": 48.1,
    "diff": 32,
    "ppg": 19.3,
-   "leagueRank": 119,
+   "leagueRank": 120,
    "rating": 0.5,
    "ratingGames": 27,
    "confidence": 84,
@@ -4314,7 +4314,7 @@
    "winPct": 46.7,
    "diff": 31,
    "ppg": 19.6,
-   "leagueRank": 112,
+   "leagueRank": 113,
    "rating": 0.3,
    "ratingGames": 15,
    "confidence": 74,
@@ -4346,8 +4346,8 @@
    "leagueRank": 132,
    "rating": 1.7,
    "ratingGames": 45,
-   "confidence": 89,
-   "strengthOfPartners": -1.3,
+   "confidence": 88,
+   "strengthOfPartners": -1.2,
    "strengthOfOpponents": 0.2,
    "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17"
   },
@@ -4522,7 +4522,7 @@
    "ratingGames": 16,
    "confidence": 76,
    "strengthOfPartners": 0.3,
-   "strengthOfOpponents": -0.3,
+   "strengthOfOpponents": -0.2,
    "playerId": "5b619b72-b78a-49ba-872d-c64db6084a67"
   },
   {
@@ -4779,7 +4779,7 @@
    "diff": -13,
    "ppg": 18.5,
    "leagueRank": 122,
-   "rating": 0.2,
+   "rating": 0.3,
    "ratingGames": 24,
    "confidence": 83,
    "strengthOfPartners": 0,
@@ -4930,6 +4930,35 @@
    "strengthOfPartners": -1.4,
    "strengthOfOpponents": -0.6,
    "playerId": "4f98756a-9726-48fe-a241-2579f96eee16"
+  },
+  {
+   "name": "Paul Rappoport",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 5,
+   "wins": 2,
+   "losses": 3,
+   "pointsWon": 80,
+   "totalPointsAgainst": 101,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 2,
+   "genderLosses": 3,
+   "clutchWins": 2,
+   "clutchLosses": 0,
+   "winPct": 40,
+   "diff": -21,
+   "ppg": 16,
+   "leagueRank": 258,
+   "rating": -1.2,
+   "ratingGames": 5,
+   "confidence": 49,
+   "strengthOfPartners": -1,
+   "strengthOfOpponents": 0.6,
+   "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2"
   },
   {
    "name": "Harsh Upadhyaya",
@@ -5214,7 +5243,7 @@
    "diff": -77,
    "ppg": 16.6,
    "leagueRank": 175,
-   "rating": -0.9,
+   "rating": -0.8,
    "ratingGames": 31,
    "confidence": 85,
    "strengthOfPartners": -0.6,
@@ -5445,11 +5474,11 @@
    "winPct": 37.5,
    "diff": -83,
    "ppg": 16.8,
-   "leagueRank": 174,
+   "leagueRank": 173,
    "rating": -1,
    "ratingGames": 32,
    "confidence": 85,
-   "strengthOfPartners": -0.8,
+   "strengthOfPartners": -0.7,
    "strengthOfOpponents": 0.3,
    "playerId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0"
   },
@@ -5474,7 +5503,7 @@
    "winPct": 37.1,
    "diff": -60,
    "ppg": 17.6,
-   "leagueRank": 173,
+   "leagueRank": 174,
    "rating": -1.4,
    "ratingGames": 35,
    "confidence": 87,
@@ -5508,7 +5537,7 @@
    "ratingGames": 11,
    "confidence": 66,
    "strengthOfPartners": -1.5,
-   "strengthOfOpponents": -1.2,
+   "strengthOfOpponents": -1.1,
    "playerId": "c5d07eb6-d276-4503-a077-c092e89c2ae8"
   },
   {
@@ -5619,11 +5648,11 @@
    "winPct": 34.5,
    "diff": -80,
    "ppg": 16.8,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": -1,
    "ratingGames": 29,
    "confidence": 83,
-   "strengthOfPartners": -1.1,
+   "strengthOfPartners": -1,
    "strengthOfOpponents": 0.3,
    "playerId": "717d97f0-4f08-476f-9c53-7595605bc0b0"
   },
@@ -5735,7 +5764,7 @@
    "winPct": 33.3,
    "diff": -28,
    "ppg": 15.3,
-   "leagueRank": 258,
+   "leagueRank": 259,
    "rating": -0.2,
    "ratingGames": 6,
    "confidence": 53,
@@ -5764,7 +5793,7 @@
    "winPct": 33.3,
    "diff": -51,
    "ppg": 17.4,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": -1.5,
    "ratingGames": 24,
    "confidence": 81,
@@ -6170,42 +6199,13 @@
    "winPct": 29.6,
    "diff": -91,
    "ppg": 16.2,
-   "leagueRank": 216,
-   "rating": -1.8,
+   "leagueRank": 215,
+   "rating": -1.7,
    "ratingGames": 27,
    "confidence": 84,
-   "strengthOfPartners": -0.2,
+   "strengthOfPartners": -0.3,
    "strengthOfOpponents": 0.6,
    "playerId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2"
-  },
-  {
-   "name": "Brandon Fulford",
-   "gender": "Male",
-   "team": "Allstar Pickler",
-   "matches": 6,
-   "outsideSub": false,
-   "isCaptain": true,
-   "gamesPlayed": 45,
-   "wins": 13,
-   "losses": 32,
-   "pointsWon": 782,
-   "totalPointsAgainst": 902,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 13,
-   "genderLosses": 32,
-   "clutchWins": 10,
-   "clutchLosses": 12,
-   "winPct": 28.9,
-   "diff": -120,
-   "ppg": 17.4,
-   "leagueRank": 196,
-   "rating": -0.9,
-   "ratingGames": 45,
-   "confidence": 89,
-   "strengthOfPartners": -1,
-   "strengthOfOpponents": 0.4,
-   "playerId": "906383cd-e781-48bc-9004-0fc5427c7e62"
   },
   {
    "name": "Andrew Mclean",
@@ -6266,6 +6266,35 @@
    "playerId": "06a3741d-10e5-462b-ba95-aa997d4eb8ea"
   },
   {
+   "name": "Brandon Fulford",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 5,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 40,
+   "wins": 11,
+   "losses": 29,
+   "pointsWon": 702,
+   "totalPointsAgainst": 801,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 11,
+   "genderLosses": 29,
+   "clutchWins": 8,
+   "clutchLosses": 12,
+   "winPct": 27.5,
+   "diff": -99,
+   "ppg": 17.6,
+   "leagueRank": 194,
+   "rating": -0.7,
+   "ratingGames": 40,
+   "confidence": 87,
+   "strengthOfPartners": -1,
+   "strengthOfOpponents": 0.4,
+   "playerId": "906383cd-e781-48bc-9004-0fc5427c7e62"
+  },
+  {
    "name": "Frederick Cox",
    "gender": "Male",
    "team": "Jersey Devil",
@@ -6319,7 +6348,7 @@
    "rating": -1.7,
    "ratingGames": 48,
    "confidence": 89,
-   "strengthOfPartners": -0.9,
+   "strengthOfPartners": -0.8,
    "strengthOfOpponents": 0,
    "playerId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77"
   },
@@ -6436,7 +6465,7 @@
    "ratingGames": 34,
    "confidence": 85,
    "strengthOfPartners": -2.1,
-   "strengthOfOpponents": 0.1,
+   "strengthOfOpponents": 0.2,
    "playerId": "24db47b3-dedc-418d-9210-3b5fea1952da"
   },
   {
@@ -6551,7 +6580,7 @@
    "rating": -0.6,
    "ratingGames": 16,
    "confidence": 76,
-   "strengthOfPartners": -2.4,
+   "strengthOfPartners": -2.3,
    "strengthOfOpponents": 0,
    "playerId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0"
   },
@@ -6576,7 +6605,7 @@
    "winPct": 25,
    "diff": -52,
    "ppg": 16.6,
-   "leagueRank": 215,
+   "leagueRank": 216,
    "rating": -1,
    "ratingGames": 16,
    "confidence": 77,
@@ -6895,7 +6924,7 @@
    "winPct": 20,
    "diff": -19,
    "ppg": 16.2,
-   "leagueRank": 262,
+   "leagueRank": 263,
    "rating": -1.5,
    "ratingGames": 5,
    "confidence": 44,
@@ -6924,7 +6953,7 @@
    "winPct": 20,
    "diff": -22,
    "ppg": 16,
-   "leagueRank": 260,
+   "leagueRank": 261,
    "rating": 0.6,
    "ratingGames": 5,
    "confidence": 50,
@@ -7069,7 +7098,7 @@
    "winPct": 16.7,
    "diff": -40,
    "ppg": 14,
-   "leagueRank": 265,
+   "leagueRank": 266,
    "rating": -2.2,
    "ratingGames": 6,
    "confidence": 55,
@@ -7136,35 +7165,6 @@
    "playerId": "199ae8e1-22b4-4d8d-a41d-29cb984a3b33"
   },
   {
-   "name": "Francis Thai",
-   "gender": "Male",
-   "team": "PickleRage Union County",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 18,
-   "wins": 3,
-   "losses": 15,
-   "pointsWon": 279,
-   "totalPointsAgainst": 372,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 3,
-   "genderLosses": 15,
-   "clutchWins": 3,
-   "clutchLosses": 3,
-   "winPct": 16.7,
-   "diff": -93,
-   "ppg": 15.5,
-   "leagueRank": 245,
-   "rating": -3.1,
-   "ratingGames": 18,
-   "confidence": 78,
-   "strengthOfPartners": -0.9,
-   "strengthOfOpponents": 0.2,
-   "playerId": "a78758b7-fe50-4865-b059-83a9d177e857"
-  },
-  {
    "name": "Andy Knight",
    "gender": "Male",
    "team": "PickleRage Union County",
@@ -7194,6 +7194,35 @@
    "playerId": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0"
   },
   {
+   "name": "Francis Thai",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "matches": 3,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 19,
+   "wins": 3,
+   "losses": 16,
+   "pointsWon": 293,
+   "totalPointsAgainst": 393,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 3,
+   "genderLosses": 16,
+   "clutchWins": 3,
+   "clutchLosses": 3,
+   "winPct": 15.8,
+   "diff": -100,
+   "ppg": 15.4,
+   "leagueRank": 246,
+   "rating": -3.1,
+   "ratingGames": 19,
+   "confidence": 79,
+   "strengthOfPartners": -1,
+   "strengthOfOpponents": 0.3,
+   "playerId": "a78758b7-fe50-4865-b059-83a9d177e857"
+  },
+  {
    "name": "Gianni Roman",
    "gender": "Male",
    "team": "Allstar Pickler",
@@ -7217,7 +7246,7 @@
    "leagueRank": 244,
    "rating": -2,
    "ratingGames": 38,
-   "confidence": 88,
+   "confidence": 87,
    "strengthOfPartners": -1.6,
    "strengthOfOpponents": 0.8,
    "playerId": "22294f41-611f-4e8f-962e-377e43209945"
@@ -7243,7 +7272,7 @@
    "winPct": 14.3,
    "diff": -20,
    "ppg": 16.9,
-   "leagueRank": 259,
+   "leagueRank": 260,
    "rating": -2,
    "ratingGames": 7,
    "confidence": 60,
@@ -7305,7 +7334,7 @@
    "rating": -2.7,
    "ratingGames": 30,
    "confidence": 84,
-   "strengthOfPartners": -1.7,
+   "strengthOfPartners": -1.6,
    "strengthOfOpponents": -0.1,
    "playerId": "ebfeb773-e8cd-4b6a-aafd-ee2772540168"
   },
@@ -7335,7 +7364,7 @@
    "ratingGames": 16,
    "confidence": 76,
    "strengthOfPartners": -0.3,
-   "strengthOfOpponents": 0.2,
+   "strengthOfOpponents": 0.3,
    "playerId": "099e3831-88c1-4907-9869-f193db58b64b"
   },
   {
@@ -7504,7 +7533,7 @@
    "winPct": 5.3,
    "diff": -87,
    "ppg": 16.3,
-   "leagueRank": 246,
+   "leagueRank": 245,
    "rating": -2.1,
    "ratingGames": 19,
    "confidence": 79,
@@ -7591,7 +7620,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 282,
+   "leagueRank": 283,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7620,7 +7649,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 294,
+   "leagueRank": 295,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7649,7 +7678,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 287,
+   "leagueRank": 288,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7678,7 +7707,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7707,7 +7736,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 276,
+   "leagueRank": 277,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7736,7 +7765,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 279,
+   "leagueRank": 280,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7765,7 +7794,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 274,
+   "leagueRank": 275,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7794,7 +7823,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 283,
+   "leagueRank": 284,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7823,13 +7852,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 273,
+   "leagueRank": 274,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "665c8622-ccbc-4273-9af7-fd9d8840581a"
+  },
+  {
+   "name": "Simon Darlington",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 276,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9ae1e374-e878-450b-9552-e80472590d9e"
   },
   {
    "name": "John Zhong",
@@ -7852,7 +7910,7 @@
    "winPct": 0,
    "diff": -14,
    "ppg": 16.3,
-   "leagueRank": 269,
+   "leagueRank": 270,
    "rating": -2.7,
    "ratingGames": 3,
    "confidence": 39,
@@ -7881,7 +7939,7 @@
    "winPct": 0,
    "diff": -30,
    "ppg": 16,
-   "leagueRank": 264,
+   "leagueRank": 265,
    "rating": -3.2,
    "ratingGames": 6,
    "confidence": 56,
@@ -7910,7 +7968,7 @@
    "winPct": 0,
    "diff": -30,
    "ppg": 13.5,
-   "leagueRank": 268,
+   "leagueRank": 269,
    "rating": -3,
    "ratingGames": 4,
    "confidence": 46,
@@ -7939,7 +7997,7 @@
    "winPct": 0,
    "diff": -48,
    "ppg": 13,
-   "leagueRank": 266,
+   "leagueRank": 267,
    "rating": -2.6,
    "ratingGames": 6,
    "confidence": 53,
@@ -7968,8 +8026,8 @@
    "winPct": 0,
    "diff": -62,
    "ppg": 14.1,
-   "leagueRank": 263,
-   "rating": -5.2,
+   "leagueRank": 264,
+   "rating": -5.1,
    "ratingGames": 9,
    "confidence": 65,
    "strengthOfPartners": -0.8,
@@ -7997,11 +8055,11 @@
    "winPct": 0,
    "diff": -63,
    "ppg": 13.1,
-   "leagueRank": 267,
+   "leagueRank": 268,
    "rating": -2.4,
    "ratingGames": 8,
    "confidence": 62,
-   "strengthOfPartners": -2.2,
+   "strengthOfPartners": -2.1,
    "strengthOfOpponents": 1.1,
    "playerId": "e6f1ad88-f91d-41ca-9771-833b1f38eff3"
   },
@@ -8026,7 +8084,7 @@
    "winPct": 0,
    "diff": -96,
    "ppg": 12.3,
-   "leagueRank": 261,
+   "leagueRank": 262,
    "rating": -4.4,
    "ratingGames": 11,
    "confidence": 70,
@@ -8106,7 +8164,7 @@
    "gl": 50,
    "diff": 337,
    "gameDiff": 60,
-   "power": 1.2,
+   "power": 1.3,
    "powerRank": 1,
    "pod": 2,
    "reportedPod": "North",
@@ -8628,9 +8686,9 @@
    "n": 4,
    "w": 4,
    "l": 0,
-   "synergy": 3.3,
+   "synergy": 3.2,
    "avgActual": 11,
-   "avgExpected": 4.5,
+   "avgExpected": 4.7,
    "aId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
    "bId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17"
   },
@@ -8687,19 +8745,6 @@
    "bId": "e1f6c6fa-db86-4fed-9faa-dbc2fe29f373"
   },
   {
-   "a": "Yashraj Kurani",
-   "b": "Elliott Albanese",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 4,
-   "w": 4,
-   "l": 0,
-   "synergy": 2.4,
-   "avgActual": 9,
-   "avgExpected": 4.3,
-   "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
-   "bId": "6af88387-5e2b-4ea7-b732-22885e4931a8"
-  },
-  {
    "a": "Joseph Lynskey",
    "b": "Nacio Marshall",
    "team": "Premiere",
@@ -8739,6 +8784,19 @@
    "bId": "6b263caa-80f7-40d2-9248-559f91ffe71e"
   },
   {
+   "a": "Yashraj Kurani",
+   "b": "Elliott Albanese",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 4,
+   "w": 4,
+   "l": 0,
+   "synergy": 2.3,
+   "avgActual": 9,
+   "avgExpected": 4.4,
+   "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
+   "bId": "6af88387-5e2b-4ea7-b732-22885e4931a8"
+  },
+  {
    "a": "Umang Pathak",
    "b": "Sandeep Malhotra",
    "team": "Montville",
@@ -8760,9 +8818,22 @@
    "l": 0,
    "synergy": 2.1,
    "avgActual": 11.3,
-   "avgExpected": 6.3,
+   "avgExpected": 6.4,
    "aId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
    "bId": "a2fc30f9-b494-4781-900e-1e0b7d531f02"
+  },
+  {
+   "a": "George Vega Jr",
+   "b": "Ritesh Patel",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 2,
+   "avgActual": 6,
+   "avgExpected": 1.4,
+   "aId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
+   "bId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7"
   },
   {
    "a": "Niman Ahmeti",
@@ -8791,19 +8862,6 @@
    "bId": "67f9503a-202f-4982-8e97-9b3383a35aee"
   },
   {
-   "a": "George Vega Jr",
-   "b": "Ritesh Patel",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 1.9,
-   "avgActual": 6,
-   "avgExpected": 1.5,
-   "aId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
-   "bId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7"
-  },
-  {
    "a": "Sean Diamond",
    "b": "Edward Fu",
    "team": "PickleRage Union County",
@@ -8815,19 +8873,6 @@
    "avgExpected": 0.7,
    "aId": "635ba257-e1ed-4db3-8303-5f241388437e",
    "bId": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1"
-  },
-  {
-   "a": "Ren Macalalag",
-   "b": "Vinay Mutt",
-   "team": "PickleRage Union County",
-   "n": 5,
-   "w": 3,
-   "l": 2,
-   "synergy": 1.9,
-   "avgActual": 1.8,
-   "avgExpected": -1.5,
-   "aId": "24db47b3-dedc-418d-9210-3b5fea1952da",
-   "bId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2"
   },
   {
    "a": "Alex Kustas",
@@ -8869,17 +8914,17 @@
    "bId": "f006963a-4e8e-433d-8c9a-e278ac32ea9c"
   },
   {
-   "a": "Yashraj Kurani",
-   "b": "Akash Raju",
-   "team": "Pickleball Kingdom Hillsborough",
+   "a": "Ren Macalalag",
+   "b": "Vinay Mutt",
+   "team": "PickleRage Union County",
    "n": 5,
-   "w": 4,
-   "l": 1,
+   "w": 3,
+   "l": 2,
    "synergy": 1.8,
-   "avgActual": 8,
-   "avgExpected": 4.8,
-   "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
-   "bId": "a2fc30f9-b494-4781-900e-1e0b7d531f02"
+   "avgActual": 1.8,
+   "avgExpected": -1.5,
+   "aId": "24db47b3-dedc-418d-9210-3b5fea1952da",
+   "bId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2"
   },
   {
    "a": "Sean Diamond",
@@ -8921,6 +8966,19 @@
    "bId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b"
   },
   {
+   "a": "Yashraj Kurani",
+   "b": "Akash Raju",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 5,
+   "w": 4,
+   "l": 1,
+   "synergy": 1.7,
+   "avgActual": 8,
+   "avgExpected": 4.9,
+   "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
+   "bId": "a2fc30f9-b494-4781-900e-1e0b7d531f02"
+  },
+  {
    "a": "Bryan Mccourt",
    "b": "Robert Huntley",
    "team": "Home Court",
@@ -8929,7 +8987,7 @@
    "l": 3,
    "synergy": 1.7,
    "avgActual": 0.8,
-   "avgExpected": -2,
+   "avgExpected": -1.9,
    "aId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
    "bId": "b5dec967-9e3a-49b4-b136-597711d099cc"
   },
@@ -8945,19 +9003,6 @@
    "avgExpected": 3.7,
    "aId": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
    "bId": "cae7c2db-b4d5-4927-9c44-ff92176b5507"
-  },
-  {
-   "a": "Brandon Fulford",
-   "b": "Wen Jin",
-   "team": "Allstar Pickler",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": 1.6,
-   "avgActual": -1.7,
-   "avgExpected": -5.4,
-   "aId": "906383cd-e781-48bc-9004-0fc5427c7e62",
-   "bId": "dd2384fe-4bb2-4085-a917-6e7989beb8a7"
   },
   {
    "a": "Neil Dedhia",
@@ -9012,19 +9057,6 @@
    "bId": "717d97f0-4f08-476f-9c53-7595605bc0b0"
   },
   {
-   "a": "Ayon Codner",
-   "b": "Eric Ruiz",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 9,
-   "w": 6,
-   "l": 3,
-   "synergy": 1.5,
-   "avgActual": 2.7,
-   "avgExpected": 0.5,
-   "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
-   "bId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527"
-  },
-  {
    "a": "Kevin Lew",
    "b": "Hua Lin",
    "team": "Dill Dinkers Freehold",
@@ -9049,19 +9081,6 @@
    "avgExpected": 0.2,
    "aId": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
    "bId": "40681083-620d-4293-829f-91121323135c"
-  },
-  {
-   "a": "Corey Chen",
-   "b": "Jun Zhi Tan",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 1.5,
-   "avgActual": 8.3,
-   "avgExpected": 4.9,
-   "aId": "b549a93c-acec-4419-9e30-5d8375518d2d",
-   "bId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
   {
    "a": "Dan Ladislaw",
@@ -9101,6 +9120,32 @@
    "avgExpected": 2.4,
    "aId": "51ceabf9-8258-4835-9835-c7d915220185",
    "bId": "bd958367-8cce-4f24-ba5a-208bac9b42b0"
+  },
+  {
+   "a": "Ayon Codner",
+   "b": "Rohit Mankotia",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 6,
+   "w": 4,
+   "l": 2,
+   "synergy": 1.4,
+   "avgActual": 4,
+   "avgExpected": 1.7,
+   "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
+   "bId": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb"
+  },
+  {
+   "a": "Ayon Codner",
+   "b": "Eric Ruiz",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 9,
+   "w": 6,
+   "l": 3,
+   "synergy": 1.4,
+   "avgActual": 2.7,
+   "avgExpected": 0.6,
+   "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
+   "bId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527"
   },
   {
    "a": "J-P Lautenschlager",
@@ -9155,19 +9200,6 @@
    "bId": "96042156-2ff1-44d0-9b96-8448964b4981"
   },
   {
-   "a": "Ayon Codner",
-   "b": "Rohit Mankotia",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 6,
-   "w": 4,
-   "l": 2,
-   "synergy": 1.3,
-   "avgActual": 4,
-   "avgExpected": 1.8,
-   "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
-   "bId": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb"
-  },
-  {
    "a": "Kevin Tran",
    "b": "Samuel Kashefska",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -9205,19 +9237,6 @@
    "avgExpected": 3.1,
    "aId": "197e3b9a-eded-4a87-8391-13a7c6d18c8f",
    "bId": "d61a3828-6dfc-480a-b26a-534b0fe58268"
-  },
-  {
-   "a": "John Fallone",
-   "b": "Josh Fink",
-   "team": "Flemington",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": 1.3,
-   "avgActual": 0.3,
-   "avgExpected": -2.3,
-   "aId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
-   "bId": "6a70d918-9cd3-47d0-a40a-901a406452b6"
   },
   {
    "a": "Timothy Lynskey",
@@ -9272,6 +9291,19 @@
    "bId": "4d89659f-a86c-4416-93f2-5c868fe0e984"
   },
   {
+   "a": "John Fallone",
+   "b": "Josh Fink",
+   "team": "Flemington",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": 1.2,
+   "avgActual": 0.3,
+   "avgExpected": -2.2,
+   "aId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
+   "bId": "6a70d918-9cd3-47d0-a40a-901a406452b6"
+  },
+  {
    "a": "Ali Bhimji",
    "b": "Michael Barndt",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -9283,6 +9315,19 @@
    "avgExpected": 1.2,
    "aId": "3651f648-493a-4517-8085-a8b9cb086c07",
    "bId": "50853eee-28e0-4380-b379-35935eb2115a"
+  },
+  {
+   "a": "Corey Chen",
+   "b": "Jun Zhi Tan",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 1.2,
+   "avgActual": 8.3,
+   "avgExpected": 5.6,
+   "aId": "b549a93c-acec-4419-9e30-5d8375518d2d",
+   "bId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
   {
    "a": "Michael Gilbert",
@@ -9309,6 +9354,19 @@
    "avgExpected": 3,
    "aId": "3196f425-e79a-4def-b7c3-bc3205976ba3",
    "bId": "e1f41428-436c-436e-b752-af9cead487be"
+  },
+  {
+   "a": "Franklin Yiu",
+   "b": "Sean Majury",
+   "team": "Allstar Pickler",
+   "n": 6,
+   "w": 3,
+   "l": 3,
+   "synergy": 1.1,
+   "avgActual": -0.3,
+   "avgExpected": -2.1,
+   "aId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
+   "bId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0"
   },
   {
    "a": "Rajeeth Nadig",
@@ -9345,7 +9403,7 @@
    "l": 1,
    "synergy": 1.1,
    "avgActual": 3.3,
-   "avgExpected": 1,
+   "avgExpected": 1.1,
    "aId": "30c847e2-9b5e-4ad7-851d-9d624f94a11b",
    "bId": "f68fa078-e500-4427-9d65-338e840f318c"
   },
@@ -9376,6 +9434,19 @@
    "bId": "f5a96445-7d1c-459b-8642-12a5d11554db"
   },
   {
+   "a": "Jun Zhi Tan",
+   "b": "Ritesh Patel",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 6,
+   "w": 6,
+   "l": 0,
+   "synergy": 1.1,
+   "avgActual": 5.7,
+   "avgExpected": 3.8,
+   "aId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2",
+   "bId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7"
+  },
+  {
    "a": "Yashraj Kurani",
    "b": "George Vega Jr",
    "team": "Pickleball Kingdom Hillsborough",
@@ -9389,6 +9460,19 @@
    "bId": "be19bf10-b8a5-4626-8c10-f13ac708231d"
   },
   {
+   "a": "Ricky Jutkiewicz",
+   "b": "Jacob Yoo",
+   "team": "Home Court",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 1.1,
+   "avgActual": 2.7,
+   "avgExpected": 0.2,
+   "aId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
+   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
+  },
+  {
    "a": "Graham Heavenrich",
    "b": "Harrison Bohrer",
    "team": "Bounce Malvern",
@@ -9400,19 +9484,6 @@
    "avgExpected": 3,
    "aId": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
    "bId": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42"
-  },
-  {
-   "a": "Franklin Yiu",
-   "b": "Sean Majury",
-   "team": "Allstar Pickler",
-   "n": 6,
-   "w": 3,
-   "l": 3,
-   "synergy": 1,
-   "avgActual": -0.3,
-   "avgExpected": -2.1,
-   "aId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
-   "bId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0"
   },
   {
    "a": "Dhruv Dobariya",
@@ -9493,32 +9564,6 @@
    "bId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb"
   },
   {
-   "a": "Jun Zhi Tan",
-   "b": "Ritesh Patel",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 6,
-   "w": 6,
-   "l": 0,
-   "synergy": 1,
-   "avgActual": 5.7,
-   "avgExpected": 3.9,
-   "aId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2",
-   "bId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7"
-  },
-  {
-   "a": "Michael Gilbert",
-   "b": "Jacob Yoo",
-   "team": "Home Court",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": 1,
-   "avgActual": 0.3,
-   "avgExpected": -1.6,
-   "aId": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
-   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
-  },
-  {
    "a": "Marc Padre",
    "b": "Jun Zhi Tan",
    "team": "Pickleball Kingdom Hillsborough",
@@ -9527,7 +9572,7 @@
    "l": 0,
    "synergy": 1,
    "avgActual": 11,
-   "avgExpected": 8.7,
+   "avgExpected": 8.6,
    "aId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
    "bId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
@@ -9592,7 +9637,7 @@
    "l": 2,
    "synergy": 1,
    "avgActual": 0.8,
-   "avgExpected": -1.1,
+   "avgExpected": -1.2,
    "aId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
    "bId": "741048e8-2c91-4466-bb1c-1a624d1dabd9"
   },
@@ -9608,19 +9653,6 @@
    "avgExpected": -3.4,
    "aId": "6b263caa-80f7-40d2-9248-559f91ffe71e",
    "bId": "ef0e9803-0038-4cb9-ad16-a55c54f00339"
-  },
-  {
-   "a": "Ricky Jutkiewicz",
-   "b": "Jacob Yoo",
-   "team": "Home Court",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 1,
-   "avgActual": 2.7,
-   "avgExpected": 0.2,
-   "aId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
-   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
   },
   {
    "a": "Jason Feldman",
@@ -9662,19 +9694,6 @@
    "bId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3"
   },
   {
-   "a": "Franklin Yiu",
-   "b": "Brandon Fulford",
-   "team": "Allstar Pickler",
-   "n": 10,
-   "w": 2,
-   "l": 8,
-   "synergy": 0.9,
-   "avgActual": -2,
-   "avgExpected": -3.2,
-   "aId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
-   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
-  },
-  {
    "a": "Mark Waters",
    "b": "Matt Inzerillo",
    "team": "APC Garden State",
@@ -9714,6 +9733,19 @@
    "bId": "d4126276-6b83-42be-b943-9957df46992c"
   },
   {
+   "a": "Michael Gilbert",
+   "b": "Jacob Yoo",
+   "team": "Home Court",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": 0.9,
+   "avgActual": 0.3,
+   "avgExpected": -1.6,
+   "aId": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
+   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
+  },
+  {
    "a": "John Sallo",
    "b": "Saad Talat Siddiqui",
    "team": "Allstar Pickler",
@@ -9722,7 +9754,7 @@
    "l": 2,
    "synergy": 0.9,
    "avgActual": -0.5,
-   "avgExpected": -2.3,
+   "avgExpected": -2.4,
    "aId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
    "bId": "ebfeb773-e8cd-4b6a-aafd-ee2772540168"
   },
@@ -9738,6 +9770,19 @@
    "avgExpected": -1.4,
    "aId": "3ac34ef1-17a5-4ab6-8d17-be4bd5a0a040",
    "bId": "622cb64f-dd0c-4bff-8c19-81d287977c53"
+  },
+  {
+   "a": "Franklin Yiu",
+   "b": "Brandon Fulford",
+   "team": "Allstar Pickler",
+   "n": 10,
+   "w": 2,
+   "l": 8,
+   "synergy": 0.8,
+   "avgActual": -2,
+   "avgExpected": -3.1,
+   "aId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
+   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
   },
   {
    "a": "Derek Livingston",
@@ -9787,7 +9832,7 @@
    "l": 0,
    "synergy": 0.8,
    "avgActual": 7,
-   "avgExpected": 5.1,
+   "avgExpected": 5,
    "aId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
    "bId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
@@ -9813,7 +9858,7 @@
    "l": 0,
    "synergy": 0.8,
    "avgActual": 5.3,
-   "avgExpected": 3.6,
+   "avgExpected": 3.5,
    "aId": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1",
    "bId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
   },
@@ -10008,7 +10053,7 @@
    "l": 0,
    "synergy": 0.7,
    "avgActual": 5.7,
-   "avgExpected": 4.1,
+   "avgExpected": 4,
    "aId": "c24596e0-9eeb-4195-b1ff-d4ca3e418d84",
    "bId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
   },
@@ -10021,7 +10066,7 @@
    "l": 1,
    "synergy": 0.7,
    "avgActual": 1.3,
-   "avgExpected": -0.2,
+   "avgExpected": -0.3,
    "aId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
    "bId": "7f44421c-476c-4857-99ed-3376b32289ca"
   },
@@ -10034,7 +10079,7 @@
    "l": 0,
    "synergy": 0.7,
    "avgActual": 3.3,
-   "avgExpected": 1.8,
+   "avgExpected": 1.7,
    "aId": "6a2f3777-38b2-4f02-b550-ce38395914d2",
    "bId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3"
   },
@@ -10112,7 +10157,7 @@
    "l": 0,
    "synergy": 0.7,
    "avgActual": 4,
-   "avgExpected": 2.5,
+   "avgExpected": 2.4,
    "aId": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7",
    "bId": "e4cb9932-d672-4089-a643-f2d16e3bd98a"
   },
@@ -10221,6 +10266,19 @@
    "bId": "c39cd158-0c19-4819-8653-18084e6ce982"
   },
   {
+   "a": "John Manuzza",
+   "b": "Cesar Santamaria-Aranda",
+   "team": "Montville",
+   "n": 8,
+   "w": 7,
+   "l": 1,
+   "synergy": 0.6,
+   "avgActual": 2.8,
+   "avgExpected": 1.9,
+   "aId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
+   "bId": "fbde98cb-9eee-431b-b164-244249c26728"
+  },
+  {
    "a": "Meet Thakkar",
    "b": "Cesar Santamaria-Aranda",
    "team": "Montville",
@@ -10229,7 +10287,7 @@
    "l": 1,
    "synergy": 0.6,
    "avgActual": 1.5,
-   "avgExpected": 0.2,
+   "avgExpected": 0.3,
    "aId": "f68fa078-e500-4427-9d65-338e840f318c",
    "bId": "fbde98cb-9eee-431b-b164-244249c26728"
   },
@@ -10455,6 +10513,19 @@
    "bId": "4f34c672-f457-467f-98d8-7d5d6c8add16"
   },
   {
+   "a": "Kevin Sheehan",
+   "b": "Dennis Yap",
+   "team": "Home Court",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": 0.5,
+   "avgActual": 5.3,
+   "avgExpected": 4.6,
+   "aId": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
+   "bId": "45ea05c6-ef48-4b0a-9f71-a640be038d08"
+  },
+  {
    "a": "Sree Harsha Konduru",
    "b": "Ping Peng",
    "team": "Pickle House",
@@ -10489,22 +10560,9 @@
    "l": 2,
    "synergy": 0.5,
    "avgActual": -3.3,
-   "avgExpected": -4.5,
+   "avgExpected": -4.4,
    "aId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
    "bId": "c39cd158-0c19-4819-8653-18084e6ce982"
-  },
-  {
-   "a": "John Manuzza",
-   "b": "Cesar Santamaria-Aranda",
-   "team": "Montville",
-   "n": 8,
-   "w": 7,
-   "l": 1,
-   "synergy": 0.5,
-   "avgActual": 2.8,
-   "avgExpected": 1.9,
-   "aId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
-   "bId": "fbde98cb-9eee-431b-b164-244249c26728"
   },
   {
    "a": "Erik Reilly",
@@ -10689,19 +10747,6 @@
    "bId": "b5dec967-9e3a-49b4-b136-597711d099cc"
   },
   {
-   "a": "Kevin Sheehan",
-   "b": "Dennis Yap",
-   "team": "Home Court",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": 0.4,
-   "avgActual": 5.3,
-   "avgExpected": 4.6,
-   "aId": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
-   "bId": "45ea05c6-ef48-4b0a-9f71-a640be038d08"
-  },
-  {
    "a": "Bruce Nguyen",
    "b": "Uzoma Nwankwo",
    "team": "APC Garden State",
@@ -10749,7 +10794,7 @@
    "l": 5,
    "synergy": 0.4,
    "avgActual": 0.2,
-   "avgExpected": -0.3,
+   "avgExpected": -0.4,
    "aId": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
    "bId": "e1d9f3bc-ec4e-4690-810c-a67452049768"
   },
@@ -10777,19 +10822,6 @@
    "avgActual": 4.1,
    "avgExpected": 3.5,
    "aId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
-   "bId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b"
-  },
-  {
-   "a": "Jeff Axelrad",
-   "b": "John Manuzza",
-   "team": "Montville",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.4,
-   "avgActual": -0.3,
-   "avgExpected": -1.2,
-   "aId": "27009a0b-037c-4934-9f52-d21c928ef173",
    "bId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b"
   },
   {
@@ -10840,7 +10872,7 @@
    "l": 3,
    "synergy": 0.4,
    "avgActual": -3.5,
-   "avgExpected": -4.3,
+   "avgExpected": -4.2,
    "aId": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
    "bId": "5acb8305-77d8-4089-88b6-9fbfa9400f6a"
   },
@@ -10869,19 +10901,6 @@
    "avgExpected": 1.8,
    "aId": "44864b51-f901-4470-a6bd-891495ffd132",
    "bId": "a117b66b-f319-4fc0-8ee2-feb3f17767d0"
-  },
-  {
-   "a": "Ren Macalalag",
-   "b": "Steve Lerner",
-   "team": "PickleRage Union County",
-   "n": 4,
-   "w": 0,
-   "l": 4,
-   "synergy": 0.4,
-   "avgActual": -3.7,
-   "avgExpected": -4.4,
-   "aId": "24db47b3-dedc-418d-9210-3b5fea1952da",
-   "bId": "d634d992-c9d8-4e31-acb7-45b1161eee19"
   },
   {
    "a": "Jordan Demcher",
@@ -10962,6 +10981,19 @@
    "bId": "631b24ae-9bc2-4db3-964b-33f86933021e"
   },
   {
+   "a": "Jeff Axelrad",
+   "b": "John Manuzza",
+   "team": "Montville",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.3,
+   "avgActual": -0.3,
+   "avgExpected": -1.1,
+   "aId": "27009a0b-037c-4934-9f52-d21c928ef173",
+   "bId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b"
+  },
+  {
    "a": "Shalin Rawal",
    "b": "Umang Pathak",
    "team": "Montville",
@@ -10999,6 +11031,19 @@
    "avgExpected": -2.3,
    "aId": "ac44fd3c-0c87-47aa-bf26-4333b632f524",
    "bId": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46"
+  },
+  {
+   "a": "Ren Macalalag",
+   "b": "Steve Lerner",
+   "team": "PickleRage Union County",
+   "n": 4,
+   "w": 0,
+   "l": 4,
+   "synergy": 0.3,
+   "avgActual": -3.7,
+   "avgExpected": -4.4,
+   "aId": "24db47b3-dedc-418d-9210-3b5fea1952da",
+   "bId": "d634d992-c9d8-4e31-acb7-45b1161eee19"
   },
   {
    "a": "Steppan Konoplev",
@@ -11131,6 +11176,19 @@
    "bId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e"
   },
   {
+   "a": "Michael Barndt",
+   "b": "Carlos Rincon",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 9,
+   "w": 5,
+   "l": 4,
+   "synergy": 0.2,
+   "avgActual": 3.1,
+   "avgExpected": 2.9,
+   "aId": "50853eee-28e0-4380-b379-35935eb2115a",
+   "bId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
+  },
+  {
    "a": "Rohit Mankotia",
    "b": "Samuel Kashefska",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -11178,7 +11236,7 @@
    "l": 3,
    "synergy": 0.2,
    "avgActual": -3.2,
-   "avgExpected": -3.6,
+   "avgExpected": -3.5,
    "aId": "17caef8b-84d4-4052-9695-7c74190925a1",
    "bId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8"
   },
@@ -11347,7 +11405,7 @@
    "l": 2,
    "synergy": 0.1,
    "avgActual": 3.3,
-   "avgExpected": 3.2,
+   "avgExpected": 3.1,
    "aId": "45ea05c6-ef48-4b0a-9f71-a640be038d08",
    "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
   },
@@ -11386,9 +11444,22 @@
    "l": 1,
    "synergy": 0.1,
    "avgActual": 3.3,
-   "avgExpected": 3.1,
+   "avgExpected": 3.2,
    "aId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
    "bId": "4516a66f-67b3-4981-a16d-036deb8db9bc"
+  },
+  {
+   "a": "Jack Barry",
+   "b": "Shreyas Suresh Hassan",
+   "team": "PickleRage Union County",
+   "n": 10,
+   "w": 7,
+   "l": 3,
+   "synergy": 0.1,
+   "avgActual": 2.9,
+   "avgExpected": 2.8,
+   "aId": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
+   "bId": "e1d9f3bc-ec4e-4690-810c-a67452049768"
   },
   {
    "a": "John Fallone",
@@ -11404,17 +11475,17 @@
    "bId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17"
   },
   {
-   "a": "Michael Barndt",
-   "b": "Carlos Rincon",
+   "a": "Cullen Curley",
+   "b": "Samuel Kashefska",
    "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 9,
-   "w": 5,
-   "l": 4,
+   "n": 5,
+   "w": 4,
+   "l": 1,
    "synergy": 0.1,
-   "avgActual": 3.1,
-   "avgExpected": 2.9,
-   "aId": "50853eee-28e0-4380-b379-35935eb2115a",
-   "bId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
+   "avgActual": 2,
+   "avgExpected": 1.9,
+   "aId": "8cebf901-66b9-41d0-963d-12dac7334c8f",
+   "bId": "e4a31aff-39d6-49b3-95c4-131421e956a0"
   },
   {
    "a": "Hua Lin",
@@ -11469,6 +11540,19 @@
    "bId": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27"
   },
   {
+   "a": "Pat Wilson",
+   "b": "Ricky Jutkiewicz",
+   "team": "Home Court",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 0.1,
+   "avgActual": 2,
+   "avgExpected": 1.9,
+   "aId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
+   "bId": "a24bc2af-aca9-45dd-a827-12fb12f7b784"
+  },
+  {
    "a": "Jim Boy Baring",
    "b": "Gary White",
    "team": "Premiere",
@@ -11521,19 +11605,6 @@
    "bId": "ef5a4f7c-58d1-42fa-81c2-1f9f09a60a0f"
   },
   {
-   "a": "Jack Barry",
-   "b": "Shreyas Suresh Hassan",
-   "team": "PickleRage Union County",
-   "n": 10,
-   "w": 7,
-   "l": 3,
-   "synergy": 0,
-   "avgActual": 2.9,
-   "avgExpected": 2.9,
-   "aId": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
-   "bId": "e1d9f3bc-ec4e-4690-810c-a67452049768"
-  },
-  {
    "a": "Eric Berlinger",
    "b": "Josh Rito",
    "team": "Flemington",
@@ -11555,7 +11626,7 @@
    "l": 2,
    "synergy": 0,
    "avgActual": -3,
-   "avgExpected": -3.1,
+   "avgExpected": -3,
    "aId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8",
    "bId": "717d97f0-4f08-476f-9c53-7595605bc0b0"
   },
@@ -11584,19 +11655,6 @@
    "avgExpected": 0.3,
    "aId": "06d52e99-941a-4ced-9968-f56e6075105a",
    "bId": "f68fa078-e500-4427-9d65-338e840f318c"
-  },
-  {
-   "a": "Cullen Curley",
-   "b": "Samuel Kashefska",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 5,
-   "w": 4,
-   "l": 1,
-   "synergy": 0,
-   "avgActual": 2,
-   "avgExpected": 1.9,
-   "aId": "8cebf901-66b9-41d0-963d-12dac7334c8f",
-   "bId": "e4a31aff-39d6-49b3-95c4-131421e956a0"
   },
   {
    "a": "Xan Hong",
@@ -11703,19 +11761,6 @@
    "bId": "ef0e9803-0038-4cb9-ad16-a55c54f00339"
   },
   {
-   "a": "Pat Wilson",
-   "b": "Ricky Jutkiewicz",
-   "team": "Home Court",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 0,
-   "avgActual": 2,
-   "avgExpected": 2,
-   "aId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
-   "bId": "a24bc2af-aca9-45dd-a827-12fb12f7b784"
-  },
-  {
    "a": "Jason Mcmanmon",
    "b": "Shawn Gold",
    "team": "Monroe",
@@ -11740,6 +11785,19 @@
    "avgExpected": -0.2,
    "aId": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
    "bId": "b5dec967-9e3a-49b4-b136-597711d099cc"
+  },
+  {
+   "a": "Marc Kunesch",
+   "b": "Jacob Yoo",
+   "team": "Home Court",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": -0.1,
+   "avgActual": 5.8,
+   "avgExpected": 6,
+   "aId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3",
+   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
   },
   {
    "a": "Mario Contreras",
@@ -11820,19 +11878,6 @@
    "bId": "d6ca21c0-822e-422f-9721-34120ba90184"
   },
   {
-   "a": "Jack Barry",
-   "b": "Jonathan Dong",
-   "team": "PickleRage Union County",
-   "n": 7,
-   "w": 4,
-   "l": 3,
-   "synergy": -0.1,
-   "avgActual": 0,
-   "avgExpected": 0.2,
-   "aId": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
-   "bId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
-  },
-  {
    "a": "Neil Dedhia",
    "b": "Aidan Fredericks",
    "team": "Pickle House",
@@ -11854,7 +11899,7 @@
    "l": 2,
    "synergy": -0.1,
    "avgActual": -0.7,
-   "avgExpected": -0.5,
+   "avgExpected": -0.6,
    "aId": "6a70d918-9cd3-47d0-a40a-901a406452b6",
    "bId": "c39cd158-0c19-4819-8653-18084e6ce982"
   },
@@ -11883,19 +11928,6 @@
    "avgExpected": 1.2,
    "aId": "2d439cdc-347e-4beb-9975-1b31bc46f2df",
    "bId": "d4126276-6b83-42be-b943-9957df46992c"
-  },
-  {
-   "a": "Marc Kunesch",
-   "b": "Jacob Yoo",
-   "team": "Home Court",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": -0.2,
-   "avgActual": 5.8,
-   "avgExpected": 6.1,
-   "aId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3",
-   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
   },
   {
    "a": "Michael Vincent",
@@ -11976,6 +12008,19 @@
    "bId": "30c847e2-9b5e-4ad7-851d-9d624f94a11b"
   },
   {
+   "a": "John Manuzza",
+   "b": "Brandon Tsang",
+   "team": "Montville",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": -0.2,
+   "avgActual": 2.8,
+   "avgExpected": 3.2,
+   "aId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
+   "bId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
+  },
+  {
    "a": "Paul Chantler",
    "b": "Xan Hong",
    "team": "Dill Dinkers Newport",
@@ -12015,19 +12060,6 @@
    "bId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12"
   },
   {
-   "a": "Michael Vincent",
-   "b": "Jacob Yoo",
-   "team": "Home Court",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.2,
-   "avgActual": -1.2,
-   "avgExpected": -0.8,
-   "aId": "7f44421c-476c-4857-99ed-3376b32289ca",
-   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
-  },
-  {
    "a": "Akash Raju",
    "b": "Lj Dequina",
    "team": "Pickleball Kingdom Hillsborough",
@@ -12052,6 +12084,19 @@
    "avgExpected": -1.2,
    "aId": "3b9648e1-481c-4007-9932-d8df648f7bab",
    "bId": "57666861-23d0-4809-9556-b646579f2fd6"
+  },
+  {
+   "a": "Jack Barry",
+   "b": "Jonathan Dong",
+   "team": "PickleRage Union County",
+   "n": 7,
+   "w": 4,
+   "l": 3,
+   "synergy": -0.2,
+   "avgActual": 0,
+   "avgExpected": 0.3,
+   "aId": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
+   "bId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
   },
   {
    "a": "Dan Yang",
@@ -12127,7 +12172,7 @@
    "l": 4,
    "synergy": -0.3,
    "avgActual": -3.8,
-   "avgExpected": -3.2,
+   "avgExpected": -3.3,
    "aId": "24db47b3-dedc-418d-9210-3b5fea1952da",
    "bId": "a78758b7-fe50-4865-b059-83a9d177e857"
   },
@@ -12140,7 +12185,7 @@
    "l": 3,
    "synergy": -0.3,
    "avgActual": 1.1,
-   "avgExpected": 1.6,
+   "avgExpected": 1.5,
    "aId": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
    "bId": "763342e5-4d13-45b7-8630-9d840cb7b8b3"
   },
@@ -12166,35 +12211,9 @@
    "l": 3,
    "synergy": -0.3,
    "avgActual": 1.2,
-   "avgExpected": 1.8,
+   "avgExpected": 1.7,
    "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
    "bId": "8cebf901-66b9-41d0-963d-12dac7334c8f"
-  },
-  {
-   "a": "Eric Ruiz",
-   "b": "Rohit Mankotia",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 6,
-   "w": 3,
-   "l": 3,
-   "synergy": -0.3,
-   "avgActual": 0.7,
-   "avgExpected": 1.2,
-   "aId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
-   "bId": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb"
-  },
-  {
-   "a": "John Manuzza",
-   "b": "Brandon Tsang",
-   "team": "Montville",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": -0.3,
-   "avgActual": 2.8,
-   "avgExpected": 3.3,
-   "aId": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
-   "bId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
   },
   {
    "a": "Christopher Hendrickson",
@@ -12236,6 +12255,19 @@
    "bId": "6a70d918-9cd3-47d0-a40a-901a406452b6"
   },
   {
+   "a": "Michael Vincent",
+   "b": "Jacob Yoo",
+   "team": "Home Court",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.3,
+   "avgActual": -1.2,
+   "avgExpected": -0.7,
+   "aId": "7f44421c-476c-4857-99ed-3376b32289ca",
+   "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
+  },
+  {
    "a": "Kevin Sheehan",
    "b": "Jacob Yoo",
    "team": "Home Court",
@@ -12247,19 +12279,6 @@
    "avgExpected": 0.3,
    "aId": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
    "bId": "df0934fe-e584-4b4f-a549-a90499016d33"
-  },
-  {
-   "a": "Yashraj Kurani",
-   "b": "Marc Padre",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": -0.3,
-   "avgActual": 6.7,
-   "avgExpected": 7.4,
-   "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
-   "bId": "a131a707-f20e-4838-9dcf-7cecb40c2705"
   },
   {
    "a": "Jordan Demcher",
@@ -12288,30 +12307,30 @@
    "bId": "ca670ae8-0768-49d4-9984-f708cd52786c"
   },
   {
-   "a": "Jack Barry",
-   "b": "Vinay Mutt",
+   "a": "Shreyas Suresh Hassan",
+   "b": "Jonathan Dong",
    "team": "PickleRage Union County",
-   "n": 4,
-   "w": 1,
-   "l": 3,
+   "n": 8,
+   "w": 4,
+   "l": 4,
    "synergy": -0.3,
-   "avgActual": -1.7,
-   "avgExpected": -1.1,
-   "aId": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
-   "bId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2"
+   "avgActual": -0.7,
+   "avgExpected": -0.3,
+   "aId": "e1d9f3bc-ec4e-4690-810c-a67452049768",
+   "bId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
   },
   {
-   "a": "Eric Ruiz",
-   "b": "Carlos Rincon",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 3,
-   "w": 1,
-   "l": 2,
+   "a": "Vinay Mutt",
+   "b": "Shreyas Suresh Hassan",
+   "team": "PickleRage Union County",
+   "n": 6,
+   "w": 2,
+   "l": 4,
    "synergy": -0.3,
-   "avgActual": -1.7,
-   "avgExpected": -0.9,
-   "aId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
-   "bId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
+   "avgActual": -3.8,
+   "avgExpected": -3.3,
+   "aId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
+   "bId": "e1d9f3bc-ec4e-4690-810c-a67452049768"
   },
   {
    "a": "Gianni Roman",
@@ -12327,32 +12346,6 @@
    "bId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0"
   },
   {
-   "a": "Marc Kunesch",
-   "b": "Robert Huntley",
-   "team": "Home Court",
-   "n": 6,
-   "w": 3,
-   "l": 3,
-   "synergy": -0.4,
-   "avgActual": 0.2,
-   "avgExpected": 0.9,
-   "aId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3",
-   "bId": "b5dec967-9e3a-49b4-b136-597711d099cc"
-  },
-  {
-   "a": "Elias Eid",
-   "b": "Brandon Fulford",
-   "team": "Allstar Pickler",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.4,
-   "avgActual": -4,
-   "avgExpected": -3.1,
-   "aId": "77f18b1c-db78-4d0e-b81d-6d1efde8bb08",
-   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
-  },
-  {
    "a": "Michael Vincent",
    "b": "Marc Kunesch",
    "team": "Home Court",
@@ -12364,6 +12357,19 @@
    "avgExpected": 5.3,
    "aId": "7f44421c-476c-4857-99ed-3376b32289ca",
    "bId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3"
+  },
+  {
+   "a": "Umang Pathak",
+   "b": "Jesse Mynahan",
+   "team": "Montville",
+   "n": 6,
+   "w": 4,
+   "l": 2,
+   "synergy": -0.4,
+   "avgActual": 1.2,
+   "avgExpected": 1.9,
+   "aId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
+   "bId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb"
   },
   {
    "a": "Rohit Mankotia",
@@ -12387,7 +12393,7 @@
    "l": 1,
    "synergy": -0.4,
    "avgActual": 3.3,
-   "avgExpected": 4.3,
+   "avgExpected": 4.2,
    "aId": "30c847e2-9b5e-4ad7-851d-9d624f94a11b",
    "bId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12"
   },
@@ -12400,9 +12406,22 @@
    "l": 3,
    "synergy": -0.4,
    "avgActual": 1.3,
-   "avgExpected": 1.9,
+   "avgExpected": 1.8,
    "aId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb",
    "bId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
+  },
+  {
+   "a": "Eric Ruiz",
+   "b": "Rohit Mankotia",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 6,
+   "w": 3,
+   "l": 3,
+   "synergy": -0.4,
+   "avgActual": 0.7,
+   "avgExpected": 1.3,
+   "aId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
+   "bId": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb"
   },
   {
    "a": "Andrew Mclean",
@@ -12431,17 +12450,17 @@
    "bId": "79bb5bba-c449-4cdd-948b-fb5f8efdaebb"
   },
   {
-   "a": "Gianni Roman",
-   "b": "Brandon Fulford",
-   "team": "Allstar Pickler",
-   "n": 4,
-   "w": 1,
-   "l": 3,
+   "a": "Yashraj Kurani",
+   "b": "Marc Padre",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 3,
+   "w": 3,
+   "l": 0,
    "synergy": -0.4,
-   "avgActual": -5.5,
-   "avgExpected": -4.7,
-   "aId": "22294f41-611f-4e8f-962e-377e43209945",
-   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
+   "avgActual": 6.7,
+   "avgExpected": 7.5,
+   "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
+   "bId": "a131a707-f20e-4838-9dcf-7cecb40c2705"
   },
   {
    "a": "Ali Bhimji",
@@ -12517,7 +12536,7 @@
    "l": 2,
    "synergy": -0.4,
    "avgActual": 2,
-   "avgExpected": 2.8,
+   "avgExpected": 2.7,
    "aId": "6d1beb10-bd5c-456f-95b5-1823752e8c62",
    "bId": "ebc8788f-79c2-4204-a14a-47b6bc480d5d"
   },
@@ -12535,32 +12554,6 @@
    "bId": "98842749-0d7d-4b20-b78a-50c79d087699"
   },
   {
-   "a": "Shreyas Suresh Hassan",
-   "b": "Jonathan Dong",
-   "team": "PickleRage Union County",
-   "n": 8,
-   "w": 4,
-   "l": 4,
-   "synergy": -0.4,
-   "avgActual": -0.7,
-   "avgExpected": -0.2,
-   "aId": "e1d9f3bc-ec4e-4690-810c-a67452049768",
-   "bId": "edbeb52a-85fd-48ff-acc5-a5c8415a731d"
-  },
-  {
-   "a": "Vinay Mutt",
-   "b": "Shreyas Suresh Hassan",
-   "team": "PickleRage Union County",
-   "n": 6,
-   "w": 2,
-   "l": 4,
-   "synergy": -0.4,
-   "avgActual": -3.8,
-   "avgExpected": -3.2,
-   "aId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
-   "bId": "e1d9f3bc-ec4e-4690-810c-a67452049768"
-  },
-  {
    "a": "Jesse Pettit",
    "b": "Aleks Mirkovic",
    "team": "Dill Dinkers Newport",
@@ -12572,6 +12565,32 @@
    "avgExpected": -4,
    "aId": "d6e30691-3b20-465b-8fa8-560017c20c15",
    "bId": "f006963a-4e8e-433d-8c9a-e278ac32ea9c"
+  },
+  {
+   "a": "Jack Barry",
+   "b": "Vinay Mutt",
+   "team": "PickleRage Union County",
+   "n": 4,
+   "w": 1,
+   "l": 3,
+   "synergy": -0.4,
+   "avgActual": -1.7,
+   "avgExpected": -1,
+   "aId": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
+   "bId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2"
+  },
+  {
+   "a": "Eric Ruiz",
+   "b": "Carlos Rincon",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.4,
+   "avgActual": -1.7,
+   "avgExpected": -0.8,
+   "aId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
+   "bId": "9886815c-3bf4-42b1-b650-1ec17ff2c167"
   },
   {
    "a": "Sean Diamond",
@@ -12613,17 +12632,30 @@
    "bId": "22294f41-611f-4e8f-962e-377e43209945"
   },
   {
-   "a": "Brandon Fulford",
-   "b": "Sean Majury",
-   "team": "Allstar Pickler",
-   "n": 5,
-   "w": 2,
+   "a": "Marc Kunesch",
+   "b": "Robert Huntley",
+   "team": "Home Court",
+   "n": 6,
+   "w": 3,
    "l": 3,
    "synergy": -0.5,
-   "avgActual": -3,
-   "avgExpected": -2.2,
-   "aId": "906383cd-e781-48bc-9004-0fc5427c7e62",
-   "bId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0"
+   "avgActual": 0.2,
+   "avgExpected": 0.9,
+   "aId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3",
+   "bId": "b5dec967-9e3a-49b4-b136-597711d099cc"
+  },
+  {
+   "a": "Elias Eid",
+   "b": "Brandon Fulford",
+   "team": "Allstar Pickler",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.5,
+   "avgActual": -4,
+   "avgExpected": -2.9,
+   "aId": "77f18b1c-db78-4d0e-b81d-6d1efde8bb08",
+   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
   },
   {
    "a": "Aaron Chan",
@@ -12637,19 +12669,6 @@
    "avgExpected": -4.8,
    "aId": "57666861-23d0-4809-9556-b646579f2fd6",
    "bId": "ac44fd3c-0c87-47aa-bf26-4333b632f524"
-  },
-  {
-   "a": "Umang Pathak",
-   "b": "Jesse Mynahan",
-   "team": "Montville",
-   "n": 6,
-   "w": 4,
-   "l": 2,
-   "synergy": -0.5,
-   "avgActual": 1.2,
-   "avgExpected": 1.9,
-   "aId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
-   "bId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb"
   },
   {
    "a": "Alessio Muscara",
@@ -12686,7 +12705,7 @@
    "l": 3,
    "synergy": -0.5,
    "avgActual": -3,
-   "avgExpected": -2,
+   "avgExpected": -2.1,
    "aId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
    "bId": "e4cb9932-d672-4089-a643-f2d16e3bd98a"
   },
@@ -12756,6 +12775,19 @@
    "bId": "2f7d6c14-4f06-470b-a4ba-f28199e823b0"
   },
   {
+   "a": "Brandon Fulford",
+   "b": "Sean Majury",
+   "team": "Allstar Pickler",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": -0.6,
+   "avgActual": -3,
+   "avgExpected": -2,
+   "aId": "906383cd-e781-48bc-9004-0fc5427c7e62",
+   "bId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0"
+  },
+  {
    "a": "Gianni Roman",
    "b": "Peter Chen",
    "team": "Allstar Pickler",
@@ -12803,7 +12835,7 @@
    "l": 5,
    "synergy": -0.6,
    "avgActual": 0.6,
-   "avgExpected": 1.5,
+   "avgExpected": 1.6,
    "aId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
    "bId": "e4a31aff-39d6-49b3-95c4-131421e956a0"
   },
@@ -12972,7 +13004,7 @@
    "l": 2,
    "synergy": -0.6,
    "avgActual": 0.5,
-   "avgExpected": 1.7,
+   "avgExpected": 1.6,
    "aId": "63950363-4747-4faf-b89a-eb88f8b9e81d",
    "bId": "b549a93c-acec-4419-9e30-5d8375518d2d"
   },
@@ -13040,6 +13072,19 @@
    "avgExpected": 2,
    "aId": "8cebf901-66b9-41d0-963d-12dac7334c8f",
    "bId": "adc043ce-7b2d-4ae9-87e0-c927f28c473a"
+  },
+  {
+   "a": "Ayon Codner",
+   "b": "Kevin Tran",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -0.7,
+   "avgActual": 0.3,
+   "avgExpected": 2,
+   "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
+   "bId": "5a604a32-f8bf-45a8-b6b3-ef2922e0eeaf"
   },
   {
    "a": "Jimmy Duong",
@@ -13232,7 +13277,7 @@
    "l": 3,
    "synergy": -0.8,
    "avgActual": 1,
-   "avgExpected": 2.4,
+   "avgExpected": 2.3,
    "aId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
    "bId": "a24bc2af-aca9-45dd-a827-12fb12f7b784"
   },
@@ -13258,22 +13303,9 @@
    "l": 1,
    "synergy": -0.8,
    "avgActual": 1.7,
-   "avgExpected": 3.5,
+   "avgExpected": 3.6,
    "aId": "505e9bce-f386-4a4f-9a41-a1d7e0bb0527",
    "bId": "50853eee-28e0-4380-b379-35935eb2115a"
-  },
-  {
-   "a": "Ayon Codner",
-   "b": "Kevin Tran",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": -0.8,
-   "avgActual": 0.3,
-   "avgExpected": 2.1,
-   "aId": "497b0077-b7ae-4025-ad32-94c9da47ab80",
-   "bId": "5a604a32-f8bf-45a8-b6b3-ef2922e0eeaf"
   },
   {
    "a": "Steppan Konoplev",
@@ -13287,6 +13319,32 @@
    "avgExpected": -4.2,
    "aId": "8f076d51-25ba-4203-97f8-12194ba5b001",
    "bId": "e83b9a6f-83c6-4b66-a470-a0cae4f462df"
+  },
+  {
+   "a": "Dennis Yap",
+   "b": "Bryan Mccourt",
+   "team": "Home Court",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -0.8,
+   "avgActual": -0.7,
+   "avgExpected": 1.3,
+   "aId": "45ea05c6-ef48-4b0a-9f71-a640be038d08",
+   "bId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa"
+  },
+  {
+   "a": "Ali Bhimji",
+   "b": "Cullen Curley",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -0.8,
+   "avgActual": -4.7,
+   "avgExpected": -2.8,
+   "aId": "3651f648-493a-4517-8085-a8b9cb086c07",
+   "bId": "8cebf901-66b9-41d0-963d-12dac7334c8f"
   },
   {
    "a": "Paul Perumaly",
@@ -13315,6 +13373,19 @@
    "bId": "44864b51-f901-4470-a6bd-891495ffd132"
   },
   {
+   "a": "Akash Raju",
+   "b": "Corey Chen",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": -0.8,
+   "avgActual": 0.8,
+   "avgExpected": 2.3,
+   "aId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
+   "bId": "b549a93c-acec-4419-9e30-5d8375518d2d"
+  },
+  {
    "a": "Leon Li",
    "b": "Nicholas Lugo",
    "team": "Monroe",
@@ -13328,6 +13399,19 @@
    "bId": "8f9be7cc-3ddf-436f-8727-02cbdd0d453f"
   },
   {
+   "a": "Pat Wilson",
+   "b": "Bryan Mccourt",
+   "team": "Home Court",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.8,
+   "avgActual": -1,
+   "avgExpected": 1,
+   "aId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
+   "bId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa"
+  },
+  {
    "a": "Kurt Skalamera",
    "b": "Jacob Rosengarten",
    "team": "Monroe",
@@ -13339,19 +13423,6 @@
    "avgExpected": -3.5,
    "aId": "04000200-8214-42ff-9a0d-2189ffaccd42",
    "bId": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc"
-  },
-  {
-   "a": "Allan Orchard",
-   "b": "Brandon Fulford",
-   "team": "Allstar Pickler",
-   "n": 7,
-   "w": 1,
-   "l": 6,
-   "synergy": -0.9,
-   "avgActual": -3,
-   "avgExpected": -1.6,
-   "aId": "4f34c672-f457-467f-98d8-7d5d6c8add16",
-   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
   },
   {
    "a": "Bennett Pereira",
@@ -13380,30 +13451,17 @@
    "bId": "d06d8b3c-72d6-4ae3-ade8-d7cb7cbd70f7"
   },
   {
-   "a": "Dennis Yap",
-   "b": "Bryan Mccourt",
-   "team": "Home Court",
-   "n": 3,
-   "w": 2,
+   "a": "Akash Raju",
+   "b": "Jun Zhi Tan",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 6,
+   "w": 5,
    "l": 1,
    "synergy": -0.9,
-   "avgActual": -0.7,
-   "avgExpected": 1.4,
-   "aId": "45ea05c6-ef48-4b0a-9f71-a640be038d08",
-   "bId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa"
-  },
-  {
-   "a": "Ali Bhimji",
-   "b": "Cullen Curley",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": -0.9,
-   "avgActual": -4.7,
-   "avgExpected": -2.7,
-   "aId": "3651f648-493a-4517-8085-a8b9cb086c07",
-   "bId": "8cebf901-66b9-41d0-963d-12dac7334c8f"
+   "avgActual": 3.8,
+   "avgExpected": 5.3,
+   "aId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
+   "bId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
   {
    "a": "Matt Inzerillo",
@@ -13445,32 +13503,6 @@
    "bId": "d07bda42-9d33-4c03-a7f3-a8a468083bdd"
   },
   {
-   "a": "Akash Raju",
-   "b": "Corey Chen",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 5,
-   "w": 2,
-   "l": 3,
-   "synergy": -0.9,
-   "avgActual": 0.8,
-   "avgExpected": 2.4,
-   "aId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
-   "bId": "b549a93c-acec-4419-9e30-5d8375518d2d"
-  },
-  {
-   "a": "Pat Wilson",
-   "b": "Bryan Mccourt",
-   "team": "Home Court",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.9,
-   "avgActual": -1,
-   "avgExpected": 1,
-   "aId": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
-   "bId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa"
-  },
-  {
    "a": "John Coyle",
    "b": "Stephen Fredericksen",
    "team": "Monroe",
@@ -13482,6 +13514,19 @@
    "avgExpected": -3.6,
    "aId": "54d78d2c-c0d7-42c0-aef4-567311f2e51e",
    "bId": "622cb64f-dd0c-4bff-8c19-81d287977c53"
+  },
+  {
+   "a": "Allan Orchard",
+   "b": "Brandon Fulford",
+   "team": "Allstar Pickler",
+   "n": 7,
+   "w": 1,
+   "l": 6,
+   "synergy": -1,
+   "avgActual": -3,
+   "avgExpected": -1.4,
+   "aId": "4f34c672-f457-467f-98d8-7d5d6c8add16",
+   "bId": "906383cd-e781-48bc-9004-0fc5427c7e62"
   },
   {
    "a": "Josh Rito",
@@ -13505,7 +13550,7 @@
    "l": 5,
    "synergy": -1,
    "avgActual": -3.4,
-   "avgExpected": -1.6,
+   "avgExpected": -1.7,
    "aId": "24db47b3-dedc-418d-9210-3b5fea1952da",
    "bId": "635ba257-e1ed-4db3-8303-5f241388437e"
   },
@@ -13547,19 +13592,6 @@
    "avgExpected": -3,
    "aId": "17caef8b-84d4-4052-9695-7c74190925a1",
    "bId": "6a70d918-9cd3-47d0-a40a-901a406452b6"
-  },
-  {
-   "a": "Akash Raju",
-   "b": "Jun Zhi Tan",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": -1,
-   "avgActual": 3.8,
-   "avgExpected": 5.4,
-   "aId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
-   "bId": "d0e16b4b-7708-425d-ae9d-e3992c4e7fe2"
   },
   {
    "a": "Uttam Purohit",
@@ -13770,6 +13802,19 @@
    "bId": "717d97f0-4f08-476f-9c53-7595605bc0b0"
   },
   {
+   "a": "Akash Raju",
+   "b": "George Vega Jr",
+   "team": "Pickleball Kingdom Hillsborough",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": -1.2,
+   "avgActual": 1.8,
+   "avgExpected": 4.2,
+   "aId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
+   "bId": "be19bf10-b8a5-4626-8c10-f13ac708231d"
+  },
+  {
    "a": "Eden Ksendzovsky",
    "b": "Daniel Antonelli",
    "team": "Premiere",
@@ -13791,7 +13836,7 @@
    "l": 3,
    "synergy": -1.2,
    "avgActual": -6.2,
-   "avgExpected": -3.9,
+   "avgExpected": -3.8,
    "aId": "635ba257-e1ed-4db3-8303-5f241388437e",
    "bId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2"
   },
@@ -13861,19 +13906,6 @@
    "bId": "b4cbf5ad-5c2c-46bf-bf50-f50683964b46"
   },
   {
-   "a": "Roberto Marcillo",
-   "b": "Craig Butler",
-   "team": "Flemington",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": -1.3,
-   "avgActual": -2,
-   "avgExpected": 0.6,
-   "aId": "4516a66f-67b3-4981-a16d-036deb8db9bc",
-   "bId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17"
-  },
-  {
    "a": "Franklin Lupianez",
    "b": "Josh Rito",
    "team": "Flemington",
@@ -13898,19 +13930,6 @@
    "avgExpected": 0.5,
    "aId": "50853eee-28e0-4380-b379-35935eb2115a",
    "bId": "541e3e2d-76eb-4cd3-9bfe-9f94c0b9cdeb"
-  },
-  {
-   "a": "Akash Raju",
-   "b": "George Vega Jr",
-   "team": "Pickleball Kingdom Hillsborough",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": -1.3,
-   "avgActual": 1.8,
-   "avgExpected": 4.3,
-   "aId": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
-   "bId": "be19bf10-b8a5-4626-8c10-f13ac708231d"
   },
   {
    "a": "Larry Minsky",
@@ -13960,7 +13979,7 @@
    "l": 3,
    "synergy": -1.3,
    "avgActual": -8.7,
-   "avgExpected": -5.7,
+   "avgExpected": -5.6,
    "aId": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
    "bId": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0"
   },
@@ -14002,6 +14021,19 @@
    "avgExpected": -3.7,
    "aId": "17caef8b-84d4-4052-9695-7c74190925a1",
    "bId": "741048e8-2c91-4466-bb1c-1a624d1dabd9"
+  },
+  {
+   "a": "Roberto Marcillo",
+   "b": "Craig Butler",
+   "team": "Flemington",
+   "n": 4,
+   "w": 1,
+   "l": 3,
+   "synergy": -1.4,
+   "avgActual": -2,
+   "avgExpected": 0.7,
+   "aId": "4516a66f-67b3-4981-a16d-036deb8db9bc",
+   "bId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17"
   },
   {
    "a": "Niman Ahmeti",
@@ -35693,7 +35725,7 @@
      "hs": 14,
      "as": 21,
      "h": [
-      "Jonathan Dong",
+      "Francis Thai",
       "Vinay Mutt"
      ],
      "a": [
@@ -36231,7 +36263,7 @@
      "hs": 8,
      "as": 21,
      "h": [
-      "Brandon Fulford",
+      "Paul Rappoport",
       "Gianni Roman"
      ],
      "a": [
@@ -36287,7 +36319,7 @@
      "hs": 12,
      "as": 21,
      "h": [
-      "Brandon Fulford",
+      "Paul Rappoport",
       "Gianni Roman"
      ],
      "a": [
@@ -36343,7 +36375,7 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Brandon Fulford",
+      "Paul Rappoport",
       "Jieping Wang"
      ],
      "a": [
@@ -36399,7 +36431,7 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Brandon Fulford",
+      "Paul Rappoport",
       "Jieping Wang"
      ],
      "a": [
@@ -36455,7 +36487,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Brandon Fulford",
+      "Paul Rappoport",
       "Wen Jin"
      ],
      "a": [
@@ -36679,7 +36711,8 @@
     "John Sallo",
     "Julian Edgren",
     "Jieping Wang",
-    "Wen Jin"
+    "Wen Jin",
+    "Paul Rappoport"
    ]
   },
   {
@@ -37449,8 +37482,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Lincoln Jensen"
      ],
      "a": [
       "Arnold Poblete",
@@ -37460,8 +37493,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Russell Cripps",
+      "Ryan Hathaway"
      ],
      "a": [
       "Gary Garretson",
@@ -37471,8 +37504,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Sal Bwint"
      ],
      "a": [
       "Andy Ro",
@@ -37482,8 +37515,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Andrew Neave"
      ],
      "a": [
       "Angelo Disipio",
@@ -37493,8 +37526,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Ryan Hathaway"
      ],
      "a": [
       "Arnold Poblete",
@@ -37504,8 +37537,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Matt Enz"
      ],
      "a": [
       "Gary Garretson",
@@ -37515,8 +37548,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Russell Cripps",
+      "Lincoln Jensen"
      ],
      "a": [
       "Stephane Sabathier",
@@ -37526,8 +37559,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jamison Rowles",
+      "Sal Bwint"
      ],
      "a": [
       "Angelo Disipio",
@@ -37537,8 +37570,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Russell Cripps"
      ],
      "a": [
       "Arnold Poblete",
@@ -37548,8 +37581,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lincoln Jensen",
+      "Sal Bwint"
      ],
      "a": [
       "Andy Ro",
@@ -37559,8 +37592,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Neave",
+      "Jordan Demcher"
      ],
      "a": [
       "Angelo Disipio",
@@ -37570,8 +37603,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Jamison Rowles"
      ],
      "a": [
       "Jason Wu",
@@ -37581,8 +37614,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jamison Rowles",
+      "Ryan Hathaway"
      ],
      "a": [
       "Arnold Poblete",
@@ -37592,8 +37625,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Jordan Demcher"
      ],
      "a": [
       "Steven Hummel",
@@ -37603,8 +37636,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Andrew Neave"
      ],
      "a": [
       "Andy Ro",
@@ -37614,8 +37647,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Matt Enz"
      ],
      "a": [
       "Mathew Yang",
@@ -37625,8 +37658,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Jamison Rowles"
      ],
      "a": [
       "Steven Hummel",
@@ -37636,8 +37669,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Matheus Korndoerfer"
      ],
      "a": [
       "Jason Wu",
@@ -37647,8 +37680,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Hathaway",
+      "Sal Bwint"
      ],
      "a": [
       "Gary Garretson",
@@ -37658,8 +37691,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Russell Cripps",
+      "Lincoln Jensen"
      ],
      "a": [
       "Angelo Disipio",
@@ -37669,8 +37702,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Matheus Korndoerfer"
      ],
      "a": [
       "Steven Hummel",
@@ -37680,8 +37713,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Jamison Rowles"
      ],
      "a": [
       "Jason Wu",
@@ -37691,8 +37724,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Ryan Hathaway"
      ],
      "a": [
       "Angelo Disipio",
@@ -37702,8 +37735,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Neave",
+      "Matt Enz"
      ],
      "a": [
       "Mathew Yang",
@@ -37713,8 +37746,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Jordan Demcher"
      ],
      "a": [
       "Jason Wu",
@@ -37724,8 +37757,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lincoln Jensen",
+      "Andrew Neave"
      ],
      "a": [
       "Angelo Disipio",
@@ -37735,8 +37768,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Sal Bwint"
      ],
      "a": [
       "Arnold Poblete",
@@ -37746,8 +37779,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Russell Cripps"
      ],
      "a": [
       "Larry Minsky",
@@ -37757,8 +37790,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Graham Heavenrich"
      ],
      "a": [
       "Jason Wu",
@@ -37768,8 +37801,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Sal Bwint"
      ],
      "a": [
       "J-P Lautenschlager",
@@ -37779,8 +37812,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Jamison Rowles"
      ],
      "a": [
       "Arnold Poblete",
@@ -37790,8 +37823,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Russell Cripps",
+      "Ryan Hathaway"
      ],
      "a": [
       "Stephane Sabathier",
@@ -37806,7 +37839,393 @@
    "home": "APC Garden State",
    "away": "Dill Dinkers Newport",
    "time": "2026-09-29T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Andress Mims"
+     ],
+     "a": [
+      "David Fiscella",
+      "Aleks Mirkovic"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Bayly",
+      "Mark Waters"
+     ],
+     "a": [
+      "Jesse Pettit",
+      "Simon Darlington"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Uzoma Nwankwo",
+      "Chris Machuzak"
+     ],
+     "a": [
+      "Cosme Tapia",
+      "Xavier Vazquez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Inzerillo",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "Xan Hong",
+      "Paul Chantler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jimmy Shapiro",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "David Fiscella",
+      "Cosme Tapia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Dechristopher",
+      "Mark Waters"
+     ],
+     "a": [
+      "Jesse Pettit",
+      "Rick Olafsson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Bayly",
+      "Uzoma Nwankwo"
+     ],
+     "a": [
+      "Aleks Mirkovic",
+      "Xan Hong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Chris Machuzak"
+     ],
+     "a": [
+      "Simon Darlington",
+      "Xavier Vazquez"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andress Mims",
+      "Uzoma Nwankwo"
+     ],
+     "a": [
+      "David Fiscella",
+      "Jesse Pettit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Dechristopher",
+      "Matt Inzerillo"
+     ],
+     "a": [
+      "Aleks Mirkovic",
+      "Cosme Tapia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mark Waters",
+      "Tyler Bayly"
+     ],
+     "a": [
+      "Xavier Vazquez",
+      "Xan Hong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Jimmy Shapiro"
+     ],
+     "a": [
+      "Simon Darlington",
+      "Paul Chantler"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andress Mims",
+      "Jimmy Shapiro"
+     ],
+     "a": [
+      "David Fiscella",
+      "Rick Olafsson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Daniel Dechristopher"
+     ],
+     "a": [
+      "Aleks Mirkovic",
+      "Simon Darlington"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Inzerillo",
+      "Tyler Bayly"
+     ],
+     "a": [
+      "Jesse Pettit",
+      "Xavier Vazquez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chris Machuzak",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "Cosme Tapia",
+      "Paul Chantler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andress Mims",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "David Fiscella",
+      "Aleks Mirkovic"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Matt Inzerillo"
+     ],
+     "a": [
+      "Jesse Pettit",
+      "Simon Darlington"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Dechristopher",
+      "Mark Waters"
+     ],
+     "a": [
+      "Cosme Tapia",
+      "Xavier Vazquez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jimmy Shapiro",
+      "Uzoma Nwankwo"
+     ],
+     "a": [
+      "Xan Hong",
+      "Paul Chantler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andress Mims",
+      "Chris Machuzak"
+     ],
+     "a": [
+      "David Fiscella",
+      "Rick Olafsson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Bayly",
+      "Uzoma Nwankwo"
+     ],
+     "a": [
+      "Aleks Mirkovic",
+      "Simon Darlington"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Dechristopher",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "Jesse Pettit",
+      "Xavier Vazquez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Jimmy Shapiro"
+     ],
+     "a": [
+      "Cosme Tapia",
+      "Paul Chantler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chris Machuzak",
+      "Tyler Bayly"
+     ],
+     "a": [
+      "David Fiscella",
+      "Jesse Pettit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mark Waters",
+      "Uzoma Nwankwo"
+     ],
+     "a": [
+      "Aleks Mirkovic",
+      "Cosme Tapia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jimmy Shapiro",
+      "Matt Inzerillo"
+     ],
+     "a": [
+      "Xavier Vazquez",
+      "Xan Hong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andress Mims",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "Simon Darlington",
+      "Paul Chantler"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bruce Nguyen",
+      "Mark Waters"
+     ],
+     "a": [
+      "David Fiscella",
+      "Cosme Tapia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Bayly",
+      "Yongzhe Tian"
+     ],
+     "a": [
+      "Jesse Pettit",
+      "Rick Olafsson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Chris Machuzak",
+      "Uzoma Nwankwo"
+     ],
+     "a": [
+      "Aleks Mirkovic",
+      "Xan Hong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Dechristopher",
+      "Matt Inzerillo"
+     ],
+     "a": [
+      "Simon Darlington",
+      "Xavier Vazquez"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -39453,7 +39872,6 @@
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
-  "Simon Darlington": "9ae1e374-e878-450b-9552-e80472590d9e",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
@@ -39466,7 +39884,7 @@
   "matchesPlayed": 48,
   "provisionalMatches": 1,
   "weeks": "1-5",
-  "totalPlayers": 277,
+  "totalPlayers": 279,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -39579,7 +39997,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T12:28:00.608Z";
+  DATA.meta.asOf = "2026-09-28T18:30:30.895Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

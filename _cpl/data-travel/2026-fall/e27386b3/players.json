@@ -3175,6 +3175,29 @@
       "ranking": 282
     },
     {
+      "playerId": "5a8658ab-fe97-4c51-a0fc-4cd151fc9b2c",
+      "firstName": "Roanne Mae",
+      "lastName": "Vega",
+      "gender": "Female",
+      "dupr": "ELW4GE",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "0706bca6-9793-4140-99cd-f48c22e847ce",
+      "teamName": "PickleRage Union County Net Ninjas",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 415
+    },
+    {
       "playerId": "5ad51afd-7edc-43c3-b279-8c57c54cc38c",
       "firstName": "Halimah",
       "lastName": "Maideen",
@@ -5265,7 +5288,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 415
+      "ranking": 416
     },
     {
       "playerId": "908a8539-b3a5-437a-957f-e900db3c01b9",

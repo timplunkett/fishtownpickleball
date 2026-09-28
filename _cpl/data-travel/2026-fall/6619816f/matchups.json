@@ -413,9 +413,9 @@
       "weekNumber": 5,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 583,
+      "awayPoints": 613,
+      "endResult": "away",
       "scheduledTime": "2026-09-27T18:00:00",
       "homeName": "Home Court",
       "awayName": "Bounce Philly"

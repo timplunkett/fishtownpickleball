@@ -697,18 +697,6 @@
       "awayName": "Montville"
     },
     {
-      "matchupId": "15851943-0de6-4338-a052-4155d6a7bf5f",
-      "weekNumber": 6,
-      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-01T19:00:00",
-      "homeName": "Flemington Green",
-      "awayName": "Montville"
-    },
-    {
       "matchupId": "b76a733a-0c19-49d3-a4d8-4bb380ea2b26",
       "weekNumber": 6,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -719,6 +707,18 @@
       "scheduledTime": "2026-10-01T19:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Premiere"
+    },
+    {
+      "matchupId": "15851943-0de6-4338-a052-4155d6a7bf5f",
+      "weekNumber": 6,
+      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-01T19:30:00",
+      "homeName": "Flemington Green",
+      "awayName": "Montville"
     },
     {
       "matchupId": "35e2586f-da9a-41b2-949a-9101bfadd4c5",

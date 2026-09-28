@@ -553,12 +553,12 @@
    "playerId": "439e30a7-6097-4e20-8a7b-25c57dd5b5d0"
   },
   {
-   "name": "Carol Mastroianni",
+   "name": "Ritu Chandra",
    "gender": "Female",
    "team": "Flemington Blue",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": true,
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
    "gamesPlayed": 23,
    "wins": 20,
    "losses": 3,
@@ -3656,7 +3656,7 @@
    "playerId": "abc4de4c-a9af-4b75-8e57-5b7374af96c2"
   },
   {
-   "name": "Paul Rappport",
+   "name": "Paul Rappoport",
    "gender": "Male",
    "team": "Allstar Pickler",
    "matches": 2,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 220,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 216,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 224,
+   "leagueRank": 225,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6871,7 +6871,7 @@
    "bId": "e05f57f5-c898-404e-b86f-c2460cc23b06"
   },
   {
-   "a": "Carol Mastroianni",
+   "a": "Ritu Chandra",
    "b": "Bill Brandt",
    "team": "Flemington Blue",
    "n": 4,
@@ -8003,7 +8003,7 @@
   },
   {
    "a": "Susan Ackley",
-   "b": "Carol Mastroianni",
+   "b": "Ritu Chandra",
    "team": "Flemington Blue",
    "n": 6,
    "w": 6,
@@ -10945,7 +10945,7 @@
      "hs": 14,
      "as": 21,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Tom Maley"
      ],
      "a": [
@@ -10988,7 +10988,7 @@
      "as": 19,
      "h": [
       "Susan Ackley",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Jennifer Qian",
@@ -11100,7 +11100,7 @@
      "as": 19,
      "h": [
       "Susan Ackley",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Rui Zhang",
@@ -11169,7 +11169,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Simon Perry"
      ],
      "a": [
@@ -11226,7 +11226,7 @@
      "as": 16,
      "h": [
       "Roseann Catania",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Rui Zhang",
@@ -11267,7 +11267,7 @@
      "hs": 26,
      "as": 24,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Simon Perry"
      ],
      "a": [
@@ -11338,7 +11338,7 @@
      "as": 22,
      "h": [
       "Roseann Catania",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Jennifer Qian",
@@ -11375,7 +11375,8 @@
     }
    ],
    "subs": [
-    "Roseann Catania"
+    "Roseann Catania",
+    "Ritu Chandra"
    ]
   },
   {
@@ -14305,7 +14306,7 @@
      "as": 15,
      "h": [
       "Savita Nandal",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Ann Betterton",
@@ -14389,7 +14390,7 @@
      "as": 18,
      "h": [
       "Liangjie Zhu",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Mengchu Zhou",
@@ -14431,7 +14432,7 @@
      "as": 21,
      "h": [
       "Cuc Dang",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Mei Li",
@@ -14515,7 +14516,7 @@
      "as": 21,
      "h": [
       "Abraham Telechanski",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Mengchu Zhou",
@@ -14529,7 +14530,7 @@
      "as": 21,
      "h": [
       "Cuc Dang",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Ann Betterton",
@@ -14686,7 +14687,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Bill Brandt"
      ],
      "a": [
@@ -14715,7 +14716,7 @@
      "as": 17,
      "h": [
       "Susan Ackley",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Lily Liu",
@@ -14812,7 +14813,7 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Scott Rubin"
      ],
      "a": [
@@ -14841,7 +14842,7 @@
      "as": 16,
      "h": [
       "Susan Ackley",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Nancy Lin",
@@ -14924,7 +14925,7 @@
      "hs": 21,
      "as": 17,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Marc Friedman"
      ],
      "a": [
@@ -14952,7 +14953,7 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Ceil Gomez"
      ],
      "a": [
@@ -15036,7 +15037,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Bill Brandt"
      ],
      "a": [
@@ -15050,7 +15051,7 @@
      "hs": 21,
      "as": 7,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Chanda Mccoy"
      ],
      "a": [
@@ -15102,7 +15103,8 @@
     }
    ],
    "subs": [
-    "Chanda Mccoy"
+    "Chanda Mccoy",
+    "Ritu Chandra"
    ]
   },
   {
@@ -17496,23 +17498,31 @@
     {
      "t": "mixed",
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Scott Rubin"
      ],
      "a": [
       "Meryl Nadler",
       "Lance Brown"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
       "Susan Ackley",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Alice Napolitano",
       "Natasha De Carvalho"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -17631,11 +17641,15 @@
      "t": "female",
      "h": [
       "Susan Ackley",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Natasha De Carvalho",
       "Meryl Nadler"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -17701,12 +17715,16 @@
     {
      "t": "mixed",
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Marc Friedman"
      ],
      "a": [
       "Amy Chrebet",
       "Yi Gu"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -17734,7 +17752,7 @@
     {
      "t": "female",
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Fabienne Yu"
      ],
      "a": [
@@ -17742,7 +17760,7 @@
       "Meryl Nadler"
      ],
      "hSub": [
-      0,
+      1,
       1
      ]
     },
@@ -17832,7 +17850,7 @@
      "t": "female",
      "h": [
       "Chanda Mccoy",
-      "Carol Mastroianni"
+      "Ritu Chandra"
      ],
      "a": [
       "Alice Napolitano",
@@ -17840,7 +17858,7 @@
      ],
      "hSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -19782,7 +19800,7 @@
      "as": 21,
      "h": [
       "Margaret Weidlich",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Tara Kramer",
@@ -19852,7 +19870,7 @@
      "as": 22,
      "h": [
       "Liangjie Zhu",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Eric Luque",
@@ -19894,7 +19912,7 @@
      "as": 21,
      "h": [
       "Margaret Weidlich",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "Christine Papa",
@@ -20076,7 +20094,7 @@
      "as": 21,
      "h": [
       "John Zhong",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "David Osborne",
@@ -20202,7 +20220,7 @@
      "as": 17,
      "h": [
       "Abraham Telechanski",
-      "Paul Rappport"
+      "Paul Rappoport"
      ],
      "a": [
       "David Osborne",
@@ -20249,7 +20267,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Scott Rubin"
      ],
      "a": [
@@ -20291,7 +20309,7 @@
      "hs": 21,
      "as": 17,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Susan Ackley"
      ],
      "a": [
@@ -20361,7 +20379,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Bill Brandt"
      ],
      "a": [
@@ -20403,7 +20421,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Susan Ackley"
      ],
      "a": [
@@ -20473,7 +20491,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Stephen Locker"
      ],
      "a": [
@@ -20515,7 +20533,7 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Sue Johnson"
      ],
      "a": [
@@ -20585,7 +20603,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Bill Brandt"
      ],
      "a": [
@@ -20641,7 +20659,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Carol Mastroianni",
+      "Ritu Chandra",
       "Amy Johnson"
      ],
      "a": [
@@ -20679,7 +20697,8 @@
     }
    ],
    "subs": [
-    "Stephen Locker"
+    "Stephen Locker",
+    "Ritu Chandra"
    ]
   },
   {
@@ -21063,7 +21082,8 @@
   "Alex Miller": "d74d4a67-cb90-44d8-aeea-b48fab564427",
   "Liby Saigal": "dc2026ad-428a-4822-ae40-889727c35b10",
   "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
-  "Rick Vazquez": "e532dafb-ff0f-43fc-82be-687d34ab8c14"
+  "Rick Vazquez": "e532dafb-ff0f-43fc-82be-687d34ab8c14",
+  "Albert Pamudji": "f8c55797-409c-4cf0-a2d5-241ec95f60b2"
  },
  "meta": {
   "matchesPlayed": 25,
@@ -21166,7 +21186,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T02:41:34.155Z";
+  DATA.meta.asOf = "2026-09-28T18:26:00.281Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
