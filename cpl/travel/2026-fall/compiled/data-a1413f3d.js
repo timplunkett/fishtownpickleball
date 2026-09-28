@@ -45708,6 +45708,648 @@
   "Ryan Ly": "fdb06ae5-2465-4c24-ad6c-ea21b86e2e0c",
   "Nicholas Brow": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec"
  },
+ "availableSubs": [
+  {
+   "name": "Lawanakorn Powad",
+   "playerId": "05cc6f6a-0431-452b-910c-0006feb23399",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Austin Lloyd",
+   "playerId": "0623144e-55c6-4ec1-bdc4-7e6cbfbc4453",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lindsey Loventhal",
+   "playerId": "06c2eeea-6213-4e27-b45c-e9c0f89420cd",
+   "gender": "Female",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alexander King",
+   "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Malek Weiner",
+   "playerId": "11ef39ea-e34d-40e4-a242-9da78c3f453a",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Debbie Tovitz",
+   "playerId": "1260ba09-fd19-4cad-95d4-325744e32327",
+   "gender": "Female",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Luiza Scarlatti",
+   "playerId": "12db11ed-c342-47ec-8fed-44745a35dbdb",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Natalie Ruiz",
+   "playerId": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Slane",
+   "playerId": "17a78a69-329f-4133-8a0d-784c306a57c2",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Emil Pescatore",
+   "playerId": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maureen Landau",
+   "playerId": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
+   "gender": "Female",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Berit Fischer",
+   "playerId": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Diana Nguyen",
+   "playerId": "26337037-9e6a-4007-93ee-e2b083f30a03",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "James Scott",
+   "playerId": "27c5fb81-315a-4331-a117-8ca7e3a10813",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sherry Huang",
+   "playerId": "292136d0-3209-4434-bc4e-161b1e2d7c8c",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Quincy Zhang",
+   "playerId": "30c66392-1494-4e99-a538-b3f06dda6681",
+   "gender": "Female",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Umang Pathak",
+   "playerId": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicholas Howcumfu",
+   "playerId": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Oscar Montoya",
+   "playerId": "31d46bdc-ddd7-4a47-b2e6-1fc98e1785b2",
+   "gender": "Male",
+   "team": "PCKLRAMA",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Anh Nguyen",
+   "playerId": "3478a097-ab58-413c-b90e-aef96e00fbfa",
+   "gender": "Female",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Lin",
+   "playerId": "3bdfa83e-2025-4441-b347-fade413a4179",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Bruno",
+   "playerId": "3e9413ca-f37d-43e0-8380-957933a70055",
+   "gender": "Female",
+   "team": "APC Garden State",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sarah Park",
+   "playerId": "3ebe9412-17d4-4d0d-9765-4c0a9e0c8fc7",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Cooley",
+   "playerId": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Tano",
+   "playerId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andre Cristobal",
+   "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Heidi Hinz",
+   "playerId": "525f9d3d-1019-49bb-baec-a4dc75b7d62b",
+   "gender": "Female",
+   "team": "PCKLRAMA",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicholas Yandoli",
+   "playerId": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ryan Johnson",
+   "playerId": "62677973-769a-4bbb-a645-06442c103c58",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bryan Tsang",
+   "playerId": "63cd3df2-bdd8-4e38-b449-653b71e10ff4",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Karen Moliver",
+   "playerId": "6412a5fc-5f1f-4dcf-a1b9-c1838eeabec9",
+   "gender": "Female",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stephanie Li",
+   "playerId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
+   "gender": "Female",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Brigle",
+   "playerId": "6aa60ea2-e7b6-49d6-80b1-a933dd6c475c",
+   "gender": "Male",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ross Raddi",
+   "playerId": "6b03f79e-ad60-4602-a2ef-863438971333",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sara Wiggert",
+   "playerId": "6cf82c92-fdfb-46bc-bad1-beec6ab96691",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rick Wickenheisser",
+   "playerId": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
+   "gender": "Male",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bryan Mccourt",
+   "playerId": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chase Pac",
+   "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
+   "gender": "Male",
+   "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Arpita Vaidya",
+   "playerId": "76e829fc-dfa9-4d0c-86ca-eaed7dc4a11a",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Benjamin Chen",
+   "playerId": "7aa9641d-af0f-4a83-b662-4d43a7f6cfe2",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Zachary Feldman",
+   "playerId": "8938260f-627e-485e-a076-ef541121cd70",
+   "gender": "Male",
+   "team": "PCKLRAMA",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Neel Goyal",
+   "playerId": "8cfc8650-92ac-4ed4-9b57-2692526abd19",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lauren Mammano",
+   "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Monika Torbus",
+   "playerId": "8f56fb31-09f6-4c12-aa46-6b2f56433f3d",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Justin Chin",
+   "playerId": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Padre",
+   "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ricky Jutkiewicz",
+   "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shangjia Dong",
+   "playerId": "a6d8088e-3253-4253-a79d-e389864e2359",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Becca Naftoly",
+   "playerId": "a759ff99-72ca-49f2-9128-906d86db8788",
+   "gender": "Female",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eileen Zhang",
+   "playerId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a",
+   "gender": "Female",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matt Schall",
+   "playerId": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shyler Smith",
+   "playerId": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
+   "gender": "Male",
+   "team": "APC Garden State",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Raaj Singh",
+   "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
+   "gender": "Male",
+   "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ian Karr",
+   "playerId": "acf05b71-fa40-494b-adca-d3c411d484a6",
+   "gender": "Male",
+   "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sarah Law",
+   "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
+   "gender": "Female",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Melanie Shapsis",
+   "playerId": "b124018b-e1df-4535-b68f-6bcf67579a24",
+   "gender": "Female",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cynthia Covie",
+   "playerId": "b146d15b-2ed7-4087-a6a0-90d4538aea72",
+   "gender": "Female",
+   "team": "APC Garden State",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joe Palumbo",
+   "playerId": "b39664c3-1a6e-4493-968f-6e7f7939f694",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": true,
+   "outsideSub": true
+  },
+  {
+   "name": "Kyle Wilson",
+   "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Susan Choo",
+   "playerId": "bbee10f0-da8a-4354-98ec-9cb36ccd848a",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kierstin Gant",
+   "playerId": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
+   "gender": "Female",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Pauline Phan",
+   "playerId": "c7a57dba-0fdc-4731-b54d-4c70158561f7",
+   "gender": "Female",
+   "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brandon Tsang",
+   "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Savan Patel",
+   "playerId": "cfd1cb28-21ad-43c7-bbac-fa013f72aba4",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lucy Li",
+   "playerId": "d22f8b69-76a6-41e0-8b04-c5dae68d9f69",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jake Laifer",
+   "playerId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alex Bey",
+   "playerId": "df50b777-55ba-476a-bff9-12f1f19a539b",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brian Landau",
+   "playerId": "e036945a-5009-4ae2-96a1-623387de7100",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kerry Shannon",
+   "playerId": "e61c60c8-6141-4d98-af74-740d4d849655",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Pilar Reinoso",
+   "playerId": "e91eac06-93a8-4f8b-9739-56ca4b31a45a",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kelly Hanson Word",
+   "playerId": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
+   "gender": "Female",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Paul Ricciardi",
+   "playerId": "ee29072a-5c5e-4f43-8589-0d53ee5b5f50",
+   "gender": "Male",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gail Welkes",
+   "playerId": "ef42e106-1059-4976-98c3-daccda942f56",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maite Gonzalez",
+   "playerId": "f0701848-a30b-43f1-b68e-2c93f5301195",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Daniel Pham",
+   "playerId": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
+   "gender": "Male",
+   "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Leah Oneill",
+   "playerId": "f76a584d-94cf-4bb7-8c34-90e6c491ac10",
+   "gender": "Female",
+   "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Paige Metzler",
+   "playerId": "fbbe5ed6-1d46-48b3-9461-5922944a1016",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Jeffrey Susskind",
+   "playerId": "fd8d97f4-ff3e-46e2-aa8f-e5408a6a9e9c",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ryan Ly",
+   "playerId": "fdb06ae5-2465-4c24-ad6c-ea21b86e2e0c",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicholas Brow",
+   "playerId": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec",
+   "gender": "Male",
+   "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 56,
   "provisionalMatches": 1,

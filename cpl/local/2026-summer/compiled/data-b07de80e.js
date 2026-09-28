@@ -14848,6 +14848,184 @@
   "Ryan Rosen": "97f2b250-2030-4296-be61-63cffb17043b",
   "Harriet Levin": "aeff8297-a479-4b3b-9a49-72c410ac8e26"
  },
+ "availableSubs": [
+  {
+   "name": "Jim Darcangelo",
+   "playerId": "0530512b-466d-4ff7-9e89-7961b4a63110",
+   "gender": "Male",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Madeleine Shusterman",
+   "playerId": "357f1431-e723-4249-9c5c-c8ffa1a43a57",
+   "gender": "Female",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Keith Goldberg",
+   "playerId": "37a0fa2c-df0b-4d92-900b-a9f20f441ad8",
+   "gender": "Male",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Scott Kacelowicz",
+   "playerId": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
+   "gender": "Male",
+   "team": "Baby Got Backhands",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andre Cristobal",
+   "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
+   "gender": "Male",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jonathan Goldner",
+   "playerId": "5142be9e-adb4-4f40-8632-1f6daa6d824b",
+   "gender": "Male",
+   "team": "Kitchen Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Peilei Cao",
+   "playerId": "52c4a07c-503b-4413-b169-0ea86004eb5f",
+   "gender": "Female",
+   "team": "Drop it Like it's Hot",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brittney Lew",
+   "playerId": "57fabc8d-1a33-4757-b7f4-e3a161b65008",
+   "gender": "Female",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matt Enz",
+   "playerId": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
+   "gender": "Male",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jordan Demcher",
+   "playerId": "6d1beb10-bd5c-456f-95b5-1823752e8c62",
+   "gender": "Male",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jr Burrs",
+   "playerId": "870112b1-afc3-4ff6-b784-7f872210bf37",
+   "gender": "Male",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Evan Oneill",
+   "playerId": "8e119985-738c-4059-ad64-069c01252df3",
+   "gender": "Male",
+   "team": "Baby Got Backhands",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ryan Rosen",
+   "playerId": "97f2b250-2030-4296-be61-63cffb17043b",
+   "gender": "Male",
+   "team": "Kitchen Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jon Wheel",
+   "playerId": "980c2469-2017-4943-bc0d-5c49f0526f85",
+   "gender": "Male",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Harriet Levin",
+   "playerId": "aeff8297-a479-4b3b-9a49-72c410ac8e26",
+   "gender": "Female",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jane Meng",
+   "playerId": "c365e1dd-21cf-4f38-a802-1aaaf6d0914b",
+   "gender": "Female",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jacinth Chikkala",
+   "playerId": "c586ef6f-ad9c-4a4d-b16b-499622349707",
+   "gender": "Male",
+   "team": "Drop it Like it's Hot",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathleen Dougherty",
+   "playerId": "c929f42d-6fd4-4034-888e-ad456cda3063",
+   "gender": "Female",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Casey Jannetta",
+   "playerId": "d458764e-2d62-4817-a96e-9006fead6457",
+   "gender": "Male",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stephanie Woomer",
+   "playerId": "e05f57f5-c898-404e-b86f-c2460cc23b06",
+   "gender": "Female",
+   "team": "Shrinky Dinks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alex Fad",
+   "playerId": "ecde54a3-2395-4a5b-8ccd-ffad7b992b07",
+   "gender": "Male",
+   "team": "Kitchen Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Julia Plein",
+   "playerId": "f3d99274-413c-4720-9c8d-1a71f9b2e717",
+   "gender": "Female",
+   "team": "The Young Guns",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 20,
   "provisionalMatches": 0,

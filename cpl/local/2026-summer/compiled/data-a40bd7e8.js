@@ -13590,6 +13590,120 @@
   "Michael Scullin": "d9a06ccc-809e-47dc-911b-aa95471cdf4d",
   "Ann Dunn": "fac1e928-060e-4b80-a0e4-bcd4aca0089b"
  },
+ "availableSubs": [
+  {
+   "name": "Jennifer Etkin",
+   "playerId": "03674fae-7df5-4402-9e4c-0f36aa38d96b",
+   "gender": "Female",
+   "team": "Kitchen Renegades",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eric Le",
+   "playerId": "04d19e47-d435-4eb7-916a-9b5188bd103c",
+   "gender": "Male",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Crista Renauro",
+   "playerId": "21785bf3-2af4-4120-a15c-d7824a55b711",
+   "gender": "Female",
+   "team": "The Dilluminati",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Samantha Horning",
+   "playerId": "3e9d2be9-f191-4239-a4c4-132952585e16",
+   "gender": "Female",
+   "team": "Big Dink Energy",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Deepak Patel",
+   "playerId": "749874a9-bfd1-4ba7-9758-b0dee935ee9f",
+   "gender": "Male",
+   "team": "Big Dink Energy",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Corey Sawin",
+   "playerId": "890620b4-0178-497f-a752-a6f1eeae3a32",
+   "gender": "Male",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carolina Reese",
+   "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
+   "gender": "Female",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Richard Wining",
+   "playerId": "aefe386c-3a84-4172-9b61-00defc787bf0",
+   "gender": "Male",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Scullin",
+   "playerId": "d9a06ccc-809e-47dc-911b-aa95471cdf4d",
+   "gender": "Male",
+   "team": "Big Dink Energy",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Paul Mcdonald",
+   "playerId": "df823bbf-b2be-42e4-9f4d-b50aaabb78d7",
+   "gender": "Male",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Johnny Deng",
+   "playerId": "e105f8f9-ac3d-4720-862b-477048d740cd",
+   "gender": "Male",
+   "team": "Big Dink Energy",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Scott Bersak",
+   "playerId": "f0d706b3-1a14-4c99-b51e-c9ec5f866834",
+   "gender": "Male",
+   "team": "Big Dink Energy",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tim Phelan",
+   "playerId": "f5e62236-e4e5-4b34-865e-c92bf027d21c",
+   "gender": "Male",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ann Dunn",
+   "playerId": "fac1e928-060e-4b80-a0e4-bcd4aca0089b",
+   "gender": "Female",
+   "team": "The Bouncers",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 18,
   "provisionalMatches": 0,

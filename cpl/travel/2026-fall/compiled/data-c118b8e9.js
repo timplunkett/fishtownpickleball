@@ -39880,6 +39880,504 @@
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
  },
+ "availableSubs": [
+  {
+   "name": "Luke Simon",
+   "playerId": "0069c456-f712-435e-abd7-461018159661",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Rafaniello",
+   "playerId": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
+   "gender": "Male",
+   "team": "Pickleball HQ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chuang Li",
+   "playerId": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jarred Goeckeler",
+   "playerId": "084f4667-3553-4f23-b4c7-62d6c8afb42a",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alex Kustas",
+   "playerId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alexander King",
+   "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nathan Labarba",
+   "playerId": "09a7d6c3-7bc5-4760-97a7-71f06a1197a1",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chris Cheng",
+   "playerId": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sujoy Gayen",
+   "playerId": "159ef92f-0a83-4619-b65d-3ba60a2ba992",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Todd Mitchell",
+   "playerId": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steve Peck",
+   "playerId": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steve Roth",
+   "playerId": "183983b9-993f-471e-ac3d-224dcee6d80f",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Malay Kaity",
+   "playerId": "199ae8e1-22b4-4d8d-a41d-29cb984a3b33",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jacob Alpert",
+   "playerId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chris Shung",
+   "playerId": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Mazzola",
+   "playerId": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jim Boy Baring",
+   "playerId": "39c75937-8a66-4688-85f8-6c547400e441",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yiqun (Nina) Chen",
+   "playerId": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
+   "gender": "Female",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Lin",
+   "playerId": "3bdfa83e-2025-4441-b347-fade413a4179",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Roberto Marcillo",
+   "playerId": "4516a66f-67b3-4981-a16d-036deb8db9bc",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dion Brown",
+   "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Justin Umana",
+   "playerId": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sal Cocuzza",
+   "playerId": "665c8622-ccbc-4273-9af7-fd9d8840581a",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elliott Albanese",
+   "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Zhong",
+   "playerId": "6bfd212d-c7b4-4eff-ae3c-5e9424080282",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Abhishekh Mehra",
+   "playerId": "6e92db16-8465-411e-bc3f-935badc74f47",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Xhulio Kola",
+   "playerId": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elias Eid",
+   "playerId": "77f18b1c-db78-4d0e-b81d-6d1efde8bb08",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "David Brond",
+   "playerId": "790dc637-f23d-4942-af8a-bfd20b474282",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bren Calpin",
+   "playerId": "7f4b7644-6117-4eee-b3d8-a4955507923e",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Craig Wu",
+   "playerId": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Simon Darlington",
+   "playerId": "9ae1e374-e878-450b-9552-e80472590d9e",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Padre",
+   "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andy Suphaphol",
+   "playerId": "a58f9ffa-60cc-46b5-ba59-0c78a43ac986",
+   "gender": "Male",
+   "team": "Pickleball HQ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jake Cohen",
+   "playerId": "a6be8670-4787-48dd-83ff-b2157062cb84",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shyler Smith",
+   "playerId": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
+   "gender": "Male",
+   "team": "APC Garden State",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yash Mehta",
+   "playerId": "adc25ed0-4bc3-47da-9509-4caeb8f90185",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hamilton",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steven Santiago",
+   "playerId": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christopher Monzon",
+   "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Edward Fu",
+   "playerId": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Sallo",
+   "playerId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nacio Marshall",
+   "playerId": "b4af1ed9-5d7e-4212-a206-3c9a97b6958a",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sean Liotine",
+   "playerId": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Julian Edgren",
+   "playerId": "b979a109-08fd-4041-8da4-e306ef13330a",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Zane Pagotto",
+   "playerId": "bf789141-926d-44b1-83c9-d5e5853589cb",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Xilin Zhao",
+   "playerId": "bfecc55a-a909-44da-8292-6b59b37a6043",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Peter David",
+   "playerId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Abdullah Osman",
+   "playerId": "c8f3b265-67a8-412c-84f5-aee92a913aac",
+   "gender": "Male",
+   "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jieping Wang",
+   "playerId": "c9088878-9755-4e32-abed-4a4e5a42f9a8",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rahul Desai",
+   "playerId": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chaitanya Sharma",
+   "playerId": "d5e18b3e-0836-42c4-9774-810e048ef675",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steve Lerner",
+   "playerId": "d634d992-c9d8-4e31-acb7-45b1161eee19",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yufan Chen",
+   "playerId": "da53bfc3-c4c3-4746-b5b6-4f4af796cf0f",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jason Ilkowitz",
+   "playerId": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Wen Jin",
+   "playerId": "dd2384fe-4bb2-4085-a917-6e7989beb8a7",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mark Bernstein",
+   "playerId": "ddd8803a-e678-4f57-b6e8-68f011cd7108",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kyle Kelly",
+   "playerId": "e0faca04-4875-4806-b0a3-4830f4dcd52e",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nitin Chawke",
+   "playerId": "e1859a0e-b6a3-451b-a14e-f4d978fc520d",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bing Zhu",
+   "playerId": "e6f1ad88-f91d-41ca-9771-833b1f38eff3",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chris Gander",
+   "playerId": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Paul Rappoport",
+   "playerId": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Liou",
+   "playerId": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 48,
   "provisionalMatches": 1,

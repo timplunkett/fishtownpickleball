@@ -47031,6 +47031,544 @@
   "Talen Singer": "d4cdb8c8-9220-4aa7-b48a-41f9f30dff51",
   "Yoon Choi": "f3f6a49d-fd44-4f24-bb92-b3d04b50a3d9"
  },
+ "availableSubs": [
+  {
+   "name": "Laurie Guagenty",
+   "playerId": "013faf14-ed91-4d3f-baff-dfaf90310790",
+   "gender": "Female",
+   "team": "The Atlantic Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Stein",
+   "playerId": "034b6d42-ef50-4ac3-9068-4ca0da89151e",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Schuda",
+   "playerId": "1151a2c0-1562-43cb-afe3-c9c500358b78",
+   "gender": "Female",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jean Wang",
+   "playerId": "1188fc00-7ef5-4671-9ef9-2c7d162a2604",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Todd Mitchell",
+   "playerId": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jaco De Waal",
+   "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bin Song",
+   "playerId": "1a3fe8ae-2bb6-472b-b379-62f714bf58a9",
+   "gender": "Female",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Emil Pescatore",
+   "playerId": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Claps",
+   "playerId": "1d6ae8b9-7bf1-44e6-b8e9-ad349feb1cb2",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sang Nguyen",
+   "playerId": "1f55ceb7-f7b1-4cfe-ab53-ab6c831c604e",
+   "gender": "Male",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maria Condella",
+   "playerId": "20d9b6f9-cf2a-44cd-bcba-552dd2e62b6d",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lynda Tomaru",
+   "playerId": "2b001a36-d13c-42fa-ae50-c9cc2f1aeb4e",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Al Gonzalez",
+   "playerId": "2c73cead-4f65-4f37-abd2-920bcb876a79",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Karan Pescatore",
+   "playerId": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Edwin Saxman",
+   "playerId": "32244c70-6859-44af-a408-8294d65b592d",
+   "gender": "Male",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "William Petrie",
+   "playerId": "3476236c-7373-4436-a062-ca5547f5d834",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Picky Vorabouth",
+   "playerId": "38336cb3-6ff4-4187-abe5-3f0a819d0a0d",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Helen Liu",
+   "playerId": "53cc1790-d8b9-4b64-a8b3-6e10b2eeb131",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Swell",
+   "playerId": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
+   "gender": "Male",
+   "team": "The Atlantic Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cary Chen",
+   "playerId": "54c6a858-4c52-443c-a1b7-8e2f8589dab3",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jiang Jin",
+   "playerId": "579cead3-d960-4c14-8905-8c17c70ca003",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sue Lyle",
+   "playerId": "5b600631-57fc-476c-9bbb-6951d5ffd294",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Craig Frame",
+   "playerId": "6043b3e3-217d-4ad3-bd5d-db9667b99bbc",
+   "gender": "Male",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Allison Tittle",
+   "playerId": "61ba22bf-40ac-4f07-85df-110f445f06d4",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kristina Rhodes",
+   "playerId": "77ecd1c3-b1df-469a-83ba-d12bd56f2c6a",
+   "gender": "Female",
+   "team": "Bounce Malvern Black",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Zhi Chen",
+   "playerId": "7b8eb5f5-16c4-4b02-961e-a86eafa25ec4",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jeff Laible",
+   "playerId": "7c1378ee-d449-4c7f-be20-3926ed5d2ff8",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steve Berman",
+   "playerId": "7d186c8f-35ce-4094-87a9-664d8bc4d440",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mitchell Ciolino",
+   "playerId": "85bfa09e-1bea-42e9-8059-4c0ef5642a25",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maureen Conery",
+   "playerId": "89dd8b9e-14f8-40ac-8127-3bfac0ac7888",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mary Wu",
+   "playerId": "90223335-e0fd-43ac-b08f-089499e91e87",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christopher Palermo",
+   "playerId": "92ab40c4-2317-466b-abdf-84ad751afcab",
+   "gender": "Male",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Fabienne Yu",
+   "playerId": "943ac52a-070f-4bdc-baf8-efe14d0f40ea",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "James Lewandowski",
+   "playerId": "94f58c52-e6d3-4ebf-9dfe-8fd1a399324d",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Debbie Gray",
+   "playerId": "97133057-a52b-4407-94c6-eb11e116e83e",
+   "gender": "Female",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lan Bin",
+   "playerId": "97ed17e1-9a68-45fe-adf5-f20d33ea7239",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sacha Doyle",
+   "playerId": "98c394e7-28f4-47af-bcc2-d542b3d968c8",
+   "gender": "Female",
+   "team": "The Atlantic Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bruce Mattthew",
+   "playerId": "a01b1376-6cf7-4a18-8c5f-72fcb3b340dd",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Doug Schoenberger",
+   "playerId": "a39e7329-b470-4cbd-803a-a27e8f6fea86",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carolyn Coonan",
+   "playerId": "a6669cc7-9c23-4088-8e49-e529dc9b46a8",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yue Fei",
+   "playerId": "adf031d4-82e4-4f54-8b1c-e27c219669f1",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cynthia Covie",
+   "playerId": "b146d15b-2ed7-4087-a6a0-90d4538aea72",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nissim Fadida",
+   "playerId": "bc812947-abde-46ce-9f6a-ab6475fbbf99",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nancy Wu",
+   "playerId": "c187c25d-5d0a-4e66-9ac5-b1a05b0c151f",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Chalerm",
+   "playerId": "c94b7f57-f476-43db-8fc3-e23331d97b63",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Derek Ritchie",
+   "playerId": "cb59f49f-77fb-4034-b432-6af484e696a3",
+   "gender": "Male",
+   "team": "Bounce Malvern Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Skip Laspina",
+   "playerId": "cd075c79-d2f2-4d7b-9fbe-707829a916a1",
+   "gender": "Male",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matt Hancock",
+   "playerId": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
+   "gender": "Male",
+   "team": "Bounce Malvern Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sherlyn Harrison",
+   "playerId": "cec28a78-6f35-4c24-888d-9993ced64bf6",
+   "gender": "Female",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bridget Bruno",
+   "playerId": "d295da57-60d1-4706-8464-8b1e7b593df0",
+   "gender": "Female",
+   "team": "The Atlantic Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nina Hallard",
+   "playerId": "d30f13b3-861e-47fc-9045-7c351fd3918b",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Talen Singer",
+   "playerId": "d4cdb8c8-9220-4aa7-b48a-41f9f30dff51",
+   "gender": "Male",
+   "team": "Bounce Malvern Black",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Friedman",
+   "playerId": "d7bdde76-1007-4b20-a804-4efcd08c3598",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Catherine Spirko",
+   "playerId": "d97af8f4-53dd-4010-b599-7f6db730bdb3",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ricardo Lisojo",
+   "playerId": "dc6e9a73-87dd-478f-bcd2-a0bd39b91c86",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rick Vazquez",
+   "playerId": "e532dafb-ff0f-43fc-82be-687d34ab8c14",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Melissa Bordman",
+   "playerId": "edf270e3-c264-4bde-9730-d91d8853c9e0",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tracey Collins",
+   "playerId": "f01a9ccb-b72e-4980-bdc0-73ed5a72f92c",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jack Feinstein",
+   "playerId": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
+   "gender": "Male",
+   "team": "The Atlantic Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yoon Choi",
+   "playerId": "f3f6a49d-fd44-4f24-bb92-b3d04b50a3d9",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matt Detiger",
+   "playerId": "f6b40aae-329f-4d43-8705-9d9dcb4ef82d",
+   "gender": "Male",
+   "team": "Bounce Malvern Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Frank Ding",
+   "playerId": "f83efefa-b8dd-49c2-90a1-9baa1e03315b",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joe Antico",
+   "playerId": "f863dc2d-5729-4371-869b-cee2c4287dfd",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Albert Pamudji",
+   "playerId": "f8c55797-409c-4cf0-a2d5-241ec95f60b2",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Frank Clark",
+   "playerId": "fb42e711-528f-4028-80c6-e32013e3f807",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Barrie Arnold",
+   "playerId": "fbdb1a8e-6457-42e4-9b4c-3c6dab2e89a7",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vita Mulholland",
+   "playerId": "fe0555e5-2ec9-4dc2-a44b-4017d5afbb41",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 65,
   "provisionalMatches": 0,

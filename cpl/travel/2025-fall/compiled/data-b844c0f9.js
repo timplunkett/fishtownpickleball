@@ -85468,6 +85468,840 @@
   "Quynh Phan": "d66ff16c-0fea-4d53-a1bd-896a708147b6",
   "Brian “Bubba” Falco": "f53cbe34-439d-4183-8c32-7264fbca23fa"
  },
+ "availableSubs": [
+  {
+   "name": "Stephen King",
+   "playerId": "005cc4fd-9f16-4e83-b2bd-65e9d61522ca",
+   "gender": "Male",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carlos Colon",
+   "playerId": "03bc5e6c-8df7-4b9d-a0df-37cb4068adac",
+   "gender": "Male",
+   "team": "Monroe Flash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michelle Zhang",
+   "playerId": "04a37264-37bc-456d-9998-36b4d9abcbf6",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Riseann Palermo",
+   "playerId": "04d4270b-9735-4532-92cb-b7177beb4ce3",
+   "gender": "Female",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joe Nicdao",
+   "playerId": "084c4f62-55cc-4d1d-b814-5c7779fff06f",
+   "gender": "Male",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "George Rudderow",
+   "playerId": "08766e1c-3587-4eac-9088-95bd7dffaf03",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Richard Ricciardi",
+   "playerId": "0b2b4688-da7c-468b-8f1a-45db49436066",
+   "gender": "Male",
+   "team": "Monroe Flash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ellen Schumacher",
+   "playerId": "0f745753-1611-45e4-b8c8-bccd6de5e8b9",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Daniello",
+   "playerId": "1149300d-3cd0-48f8-b55b-6a133898e951",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dan Perkins",
+   "playerId": "1684c22c-38ed-4f23-83bf-7dbd39607280",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jeff Silvernale",
+   "playerId": "17afa620-83cb-4c10-9647-30000ac13c52",
+   "gender": "Male",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shaihan Nadeem",
+   "playerId": "1adca4f2-fcdf-4060-ac8f-fc7adc8dfd7f",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Pradeep Tanwar",
+   "playerId": "21496f6c-3fb2-48bd-b297-8218f27fb207",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Diana Nguyen",
+   "playerId": "26337037-9e6a-4007-93ee-e2b083f30a03",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Jason Mengel",
+   "playerId": "271212b2-ead5-4f39-95f4-13bd5d9c61f5",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Thuy Heng",
+   "playerId": "276b5c47-aaf3-43e4-b59e-009bc65f355b",
+   "gender": "Female",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jeff Teator",
+   "playerId": "27d54464-8c43-4adc-a011-d27cea3bfb2d",
+   "gender": "Male",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Denise Rempson",
+   "playerId": "2e13698d-f902-43c1-b5b1-226d40d7af3d",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Srilahari Kunchapu",
+   "playerId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+   "gender": "Female",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Clare Scott",
+   "playerId": "34c43b81-a4a2-4e8e-8bd2-b3d9f083a759",
+   "gender": "Female",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vanitha Vengatasalapathy",
+   "playerId": "361f0938-fa35-4a11-a623-f9df1bf360b7",
+   "gender": "Female",
+   "team": "Stelton Strikers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nan Feng",
+   "playerId": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
+   "gender": "Female",
+   "team": "Stelton Strikers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Evanne Acquaviva",
+   "playerId": "38363388-efc2-4414-a8f2-6ebad7d71457",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cori Donaghy",
+   "playerId": "3bedb43c-6106-402c-b9c8-162a14830fd1",
+   "gender": "Female",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gianni Mamani",
+   "playerId": "3e7985e6-6256-489e-8f60-52b20bff6c66",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Fahad Ahmed",
+   "playerId": "475f1f16-cf77-4e78-9180-5517c09f86cf",
+   "gender": "Male",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dwayne Martin",
+   "playerId": "47b78835-7297-404f-91e6-68252227b8dc",
+   "gender": "Male",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Felix Martinez",
+   "playerId": "47e454c8-4a1a-4dd4-b77d-9f429aad14ef",
+   "gender": "Male",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Connie Tom",
+   "playerId": "493b9730-cc53-4634-9561-49c6f1ddcb08",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Denise Thomas",
+   "playerId": "4a98e9a4-a6a4-4f15-b654-339842b724ee",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dion Brown",
+   "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Melissa Engel",
+   "playerId": "4f4a4924-f4d1-462f-a1f2-6a896503ba4a",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christopher Sachs",
+   "playerId": "52e5dfee-42f1-4c8f-b3ee-ca7c6e49a7fb",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Pamela Toy",
+   "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
+   "gender": "Female",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Justin Gump",
+   "playerId": "53b4dd2f-656f-49aa-8d01-c70f8c61ba00",
+   "gender": "Male",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Alex Sanchez",
+   "playerId": "5509090f-bf75-4166-a5ab-c7688cf54353",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "David Nguyen",
+   "playerId": "556d556b-ef6b-4535-b702-64028b5c522c",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Debra Crawford",
+   "playerId": "5c28285b-7837-4f7b-8841-c23b92fe26af",
+   "gender": "Female",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elsie Garcia",
+   "playerId": "5e086f9d-8026-4ba1-8a9a-f67aa0ce78dd",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kelly Aylward",
+   "playerId": "6068d706-4a9a-4475-8d31-d5a900172f27",
+   "gender": "Female",
+   "team": "Monroe Flash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Garrett Blitz",
+   "playerId": "62aa7087-c57b-4642-84e2-dad3030ea944",
+   "gender": "Male",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lori Murray",
+   "playerId": "660a0715-94ab-4c2c-b935-ba79676e82c4",
+   "gender": "Female",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shawn Brown",
+   "playerId": "699a1310-0d3a-4140-9f7f-9627db6fc151",
+   "gender": "Male",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Grace Chung",
+   "playerId": "6e476240-4e0c-46ca-94b1-f2ec4e214835",
+   "gender": "Female",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dominique Colanero",
+   "playerId": "6f480cdd-df40-4a9e-ae7e-1aa5db7fcc73",
+   "gender": "Female",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Scott Rothschild",
+   "playerId": "6f4df2db-2114-4c90-b889-b969317403c7",
+   "gender": "Male",
+   "team": "Monroe Flash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dave Sarmir",
+   "playerId": "72f52b9c-0500-49de-99e6-1f6dadaa5c32",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Anthony Pasquarello",
+   "playerId": "75101807-1b63-4880-a384-0e7d2024fe8c",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Julianna Rodrigues",
+   "playerId": "77c32d66-d466-4308-9c45-1639e1925b70",
+   "gender": "Female",
+   "team": "Pickleball HQ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Matalon",
+   "playerId": "7891b1eb-476e-4105-b7d3-36853c9e3b28",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dileep Kumar Konduru",
+   "playerId": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rayyan Nadeem",
+   "playerId": "7f361651-a91e-4d88-abb1-1873df7d05f3",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Greg Grohotolski",
+   "playerId": "8373390f-812f-44fa-8995-b8a40bc323e5",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jason Chuqui",
+   "playerId": "861a9337-cb40-4a24-9bc0-d64bf9f9dbe9",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ingrid Silvernale",
+   "playerId": "8690b977-5531-4b7d-96c6-6857b2ee27c5",
+   "gender": "Female",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Juan Dungca",
+   "playerId": "86fe4ec2-f478-49b6-b6c1-ee8c2a0809f7",
+   "gender": "Male",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eva Rodriguez",
+   "playerId": "899c49f1-1839-4eb3-b87e-26a2dba51764",
+   "gender": "Female",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rick Janus",
+   "playerId": "8a7dacb2-93b8-49c2-bee9-80ae2ba8639d",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Wendy Benjamin",
+   "playerId": "8a9cb365-b959-4d13-8608-14120cbce536",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tom Phayre",
+   "playerId": "8bbf300f-998c-4dfe-bb85-30a4c5cdefe7",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Poo Lin",
+   "playerId": "8cb65d71-32c7-4195-b605-49653fa57a86",
+   "gender": "Male",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "John Plantier",
+   "playerId": "8ce39f7e-2df8-4d44-97f0-d27cac6c9ff8",
+   "gender": "Male",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kenneth Lau",
+   "playerId": "8e8aecb5-6657-4cbe-9bd1-67c2f1089e7c",
+   "gender": "Male",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rebecca Ramos",
+   "playerId": "91fa0505-9e84-4deb-b11a-a42e6c55696c",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Bozzo",
+   "playerId": "94c45058-cae5-4085-ad9e-684309568903",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Patricia Majowicz",
+   "playerId": "95bb08f8-b0f7-4849-852e-6bebeb9e3e53",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gabrielle Gallo",
+   "playerId": "97fc269d-54ae-4b2b-a668-66cd9412d9b6",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "George Mcgann",
+   "playerId": "9837b7e4-19f9-4f19-bf30-66b43741fdfe",
+   "gender": "Male",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Maureen Glynn",
+   "playerId": "991c242a-22e7-4a19-bbd1-4eaeb27c98e4",
+   "gender": "Female",
+   "team": "Monroe Flash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Teresa Lynch",
+   "playerId": "9d2f93c4-6d90-43c6-b2f8-a955a1683f68",
+   "gender": "Female",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sarah Sockolof",
+   "playerId": "a531e0e4-9205-4a14-9ab6-b794aa4fbc07",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Holly Siu",
+   "playerId": "a791b8f6-0e4e-4f6c-afdf-48fa30ef9069",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rowina Paguio",
+   "playerId": "a7b8f486-f33c-401b-bb29-312b49368e28",
+   "gender": "Female",
+   "team": "Pickleball HQ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sofia Paredes",
+   "playerId": "a7efae06-6be5-415d-b8ed-6d9dbdcd57fe",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amanda Ferreira",
+   "playerId": "a81d9e2c-a1da-4a54-8165-3916b706b4c5",
+   "gender": "Female",
+   "team": "Stelton Strikers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Deleted Account",
+   "playerId": "abb75425-b8dd-4260-81bf-506ba38e4bde",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jean Knab",
+   "playerId": "abce612c-0edd-4b72-ab5a-f1983c38f545",
+   "gender": "Female",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jim Freas",
+   "playerId": "b6195f21-86a7-4e4c-95ec-4febd4682f37",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Johnna Graves",
+   "playerId": "b6787810-04cf-475e-b6c1-ba41d6c295c6",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dennis Higman",
+   "playerId": "b8fabebb-fd0f-49a8-929a-defbac098e43",
+   "gender": "Male",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jonathan Camp",
+   "playerId": "bc577444-5376-4de1-8f9d-7ed752e52687",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joshua Berk",
+   "playerId": "c63c616c-a4b1-4444-b3d4-7ad58d55d9c2",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Raj Radhakrishnan",
+   "playerId": "c6b1b638-04aa-4140-8788-f5fe4d038bec",
+   "gender": "Male",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marina Volpe",
+   "playerId": "cb063892-906f-4769-8815-2a87da5bf426",
+   "gender": "Female",
+   "team": "Monroe Rally",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Teresa Carr",
+   "playerId": "cd25dfa5-980a-48bf-8cf0-eb455fd1804b",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lyle Guillen",
+   "playerId": "cf56f362-b2d5-45cd-96fc-fee5c91718eb",
+   "gender": "Male",
+   "team": "Pickleball HQ",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cathy Matko",
+   "playerId": "d4b1538b-bc04-4208-b52e-5a2bd5a452a4",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Bryan Timer",
+   "playerId": "d54995df-40b9-4043-a18c-17f1c8ba9a4a",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dandan Yang",
+   "playerId": "d5c81331-0c27-4a53-9483-97d56b7327e6",
+   "gender": "Female",
+   "team": "Stelton Strikers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Quynh Phan",
+   "playerId": "d66ff16c-0fea-4d53-a1bd-896a708147b6",
+   "gender": "Female",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathleen Firth",
+   "playerId": "da97d338-bc14-4cbb-b807-c56e161d0a30",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bob Debarge",
+   "playerId": "e0d98c57-92dd-4719-ab14-3635205f3328",
+   "gender": "Male",
+   "team": "Monroe Flash",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Mcdonald",
+   "playerId": "e2c939c0-3caa-4c92-a30b-5602c6565c17",
+   "gender": "Female",
+   "team": "Lehigh Valley Spartans",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ali Faruqi",
+   "playerId": "e3928e35-f2a8-4e94-8f8c-2c30b6a25d08",
+   "gender": "Male",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Samuel Kashefska",
+   "playerId": "e4a31aff-39d6-49b3-95c4-131421e956a0",
+   "gender": "Male",
+   "team": "Lehigh Valley Plex",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lj Dequina",
+   "playerId": "e4cb9932-d672-4089-a643-f2d16e3bd98a",
+   "gender": "Male",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sushma Rayapudi",
+   "playerId": "ea658d89-a540-405d-9819-9c98a0484f60",
+   "gender": "Female",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Christina Sheehan",
+   "playerId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870",
+   "gender": "Female",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joyce Magpantay",
+   "playerId": "ed5c9138-a179-4afd-8a67-60f27fc2822a",
+   "gender": "Female",
+   "team": "Pickle Juice",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Craig Confoy",
+   "playerId": "eee718f7-4735-4a90-b2f6-cc8c413ff2f4",
+   "gender": "Male",
+   "team": "Mercer Bucks",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Daniel Manansala",
+   "playerId": "f43c75d6-542d-41a1-ac93-2dccc7c04c44",
+   "gender": "Male",
+   "team": "Stelton Warriors",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brian “Bubba” Falco",
+   "playerId": "f53cbe34-439d-4183-8c32-7264fbca23fa",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Renette Stahl",
+   "playerId": "f8c31285-c61e-4eab-bb36-79db7b3fea5d",
+   "gender": "Female",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kellie Roshak",
+   "playerId": "fd9c829a-50de-40a1-8342-7a6afe0fc7b4",
+   "gender": "Female",
+   "team": "Pickle Jar",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 117,
   "provisionalMatches": 0,

@@ -14428,6 +14428,152 @@
   "Scott Auty": "53024744-72eb-4d56-b0c9-93a6201bdc33",
   "Amy Moore": "c037ad35-3550-447f-af7f-f62674d0c1ac"
  },
+ "availableSubs": [
+  {
+   "name": "Reg Blaber",
+   "playerId": "03769e99-2521-4e52-bef4-cf55e57e9460",
+   "gender": "Male",
+   "team": "Ace & Eights",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Allison Taylor",
+   "playerId": "12648cf6-0364-460c-a275-66131bd39657",
+   "gender": "Female",
+   "team": "ACE ACE Baby",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Anthony Viola",
+   "playerId": "2e35e9c0-513c-4f32-bd0d-d4f79dc29345",
+   "gender": "Male",
+   "team": "Ace & Eights",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steven Heller",
+   "playerId": "344856f5-8559-411b-8fe7-2b5405bb9db6",
+   "gender": "Male",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Leslie Phelps",
+   "playerId": "3fb49be1-06b9-4911-a022-83c360f3416e",
+   "gender": "Female",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Whitaker",
+   "playerId": "4a4fc6f7-3250-4b0a-b50a-a8393a8ac2c7",
+   "gender": "Female",
+   "team": "Ace Rebels",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carissa Nicdao",
+   "playerId": "4cbc053d-b239-4124-91e4-936e1f145907",
+   "gender": "Female",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Scott Auty",
+   "playerId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
+   "gender": "Male",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amy Long",
+   "playerId": "690d021b-c77d-4627-b2aa-e8e3ee8e86e8",
+   "gender": "Female",
+   "team": "ACE ACE Baby",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Grace Chung",
+   "playerId": "6e476240-4e0c-46ca-94b1-f2ec4e214835",
+   "gender": "Female",
+   "team": "ACE ACE Baby",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Hanna Cutler",
+   "playerId": "af5e2e89-3606-4d7e-8c5a-b397ff786303",
+   "gender": "Female",
+   "team": "Ace Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Luke Beri",
+   "playerId": "b6ec7bf9-b6ca-4b6e-81cf-f6e11d49eaf6",
+   "gender": "Male",
+   "team": "Ace Bandits",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amy Clayman",
+   "playerId": "b827322d-e01b-4ca5-b8ae-680982fa8cd1",
+   "gender": "Female",
+   "team": "Ace & Eights",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dennis Higman",
+   "playerId": "b8fabebb-fd0f-49a8-929a-defbac098e43",
+   "gender": "Male",
+   "team": "Ace & Eights",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Amy Moore",
+   "playerId": "c037ad35-3550-447f-af7f-f62674d0c1ac",
+   "gender": "Female",
+   "team": "ACE ACE Baby",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jason Fingerman",
+   "playerId": "c0b3d7fb-5792-4ff4-a83e-47db88ea0592",
+   "gender": "Male",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Angeli Dungca",
+   "playerId": "d2e70e9d-9791-40f9-bde4-2866dacc9ac0",
+   "gender": "Female",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lynn Bresnahan",
+   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
+   "gender": "Female",
+   "team": "Kitchen Commanders",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 20,
   "provisionalMatches": 0,

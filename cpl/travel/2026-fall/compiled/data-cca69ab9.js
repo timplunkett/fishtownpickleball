@@ -23996,6 +23996,384 @@
   "Jordan Clever": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
+ "availableSubs": [
+  {
+   "name": "Darren Johnson",
+   "playerId": "00092e4b-b019-43ae-bfef-503e1fc6f657",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vincent Tran",
+   "playerId": "03a4e22a-6242-459c-8120-58d0650413a9",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jim Darcangelo",
+   "playerId": "0530512b-466d-4ff7-9e89-7961b4a63110",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Clayton Schmucker",
+   "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joseph Lynskey",
+   "playerId": "0e8c08b7-0e58-434b-8830-f37779f821dc",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jonah Fliegelman",
+   "playerId": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicholas Howcumfu",
+   "playerId": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shreyas Pani",
+   "playerId": "3cebd01c-ff32-4544-b6a6-2a68152b2ee5",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steven Gregov",
+   "playerId": "3efad314-83fb-4441-a7bf-510228cea1f8",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Geoff Watson",
+   "playerId": "41191982-ca10-4665-8eb2-6d5231b4a0c4",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kevin Lin",
+   "playerId": "44bbc794-d40d-4fbf-a59e-ddb785496f21",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Meet Patel",
+   "playerId": "455edf3d-7568-49ab-b20b-4b66591ed544",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Damien Stahl",
+   "playerId": "45d2cd6f-4816-46b2-8e17-fab766cdb87e",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ethan Henigan",
+   "playerId": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eric Lin",
+   "playerId": "4ce1c715-b187-47c5-b6dc-d079f802499d",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andre Cristobal",
+   "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Obege Janvier",
+   "playerId": "50fccc8f-a4a9-490b-a7d5-eebbda35bb22",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Swell",
+   "playerId": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Claudio Lampone",
+   "playerId": "55570d6a-eb15-4ba1-8a31-b4cee56f6740",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eric Jiang",
+   "playerId": "5a604f85-b8f8-4084-8636-d403530fd480",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicholas Yandoli",
+   "playerId": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Royce Chan",
+   "playerId": "68274c39-0102-4554-978e-1aa50a0b3fba",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Chen",
+   "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alain Hwang",
+   "playerId": "74202229-7c29-44eb-9574-de687495a1a6",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Johny Mario",
+   "playerId": "831c9fae-38c6-4961-8664-634087f5f2f9",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eric Nguyen",
+   "playerId": "87d526c6-72b6-4b17-bf77-9016fd049541",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Turney Hall",
+   "playerId": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Nguyen",
+   "playerId": "97048a47-d6b3-4c25-84c4-2b8d85e78b7d",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Padre",
+   "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nicholas Como",
+   "playerId": "a286a593-65d0-4119-a211-3cd57bba652a",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Schwartz",
+   "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
+   "gender": "Male",
+   "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vivek Kumar",
+   "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Raaj Singh",
+   "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Doug Horton",
+   "playerId": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Austin Williams",
+   "playerId": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Omar Husain",
+   "playerId": "bb95a47a-aa38-4194-9ccc-68107deed1e5",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Matthew Korsak",
+   "playerId": "bc07a8b9-9b24-4afb-8c30-852eac7888ee",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Greg Mitchell",
+   "playerId": "cd7372fd-27db-46bd-8a46-dc0406393341",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jordan Clever",
+   "playerId": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Peter Nagy",
+   "playerId": "db98d397-2496-4147-943c-febe48812018",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Zachary Lisojo",
+   "playerId": "e2086778-379f-4d43-8ce7-6447129d8812",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Gargana",
+   "playerId": "e7ead4ec-3ab0-469f-9122-0a822f068415",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Fabricio Gaona",
+   "playerId": "ee88d140-1a78-4776-85e0-3f982891576d",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christopher Yang",
+   "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jack Blumberg",
+   "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Salman Saad",
+   "playerId": "f7c4d103-d246-456d-8fd5-6418c6a0e002",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jeffrey Lena",
+   "playerId": "f8183a0c-23a1-4b0f-99aa-fc50e5f58744",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 25,
   "provisionalMatches": 0,

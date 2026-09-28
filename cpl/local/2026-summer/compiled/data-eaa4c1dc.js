@@ -10808,6 +10808,152 @@
  "extraPlayerIds": {
   "Patrick Ryan": "8344fbda-35c2-4ce0-94ad-158090d2d5ba"
  },
+ "availableSubs": [
+  {
+   "name": "Susan St. Pierre",
+   "playerId": "001c2d38-829b-4fd0-b249-472f78337387",
+   "gender": "Female",
+   "team": "Ackley's Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Chaoxia Cheng",
+   "playerId": "0b80a91d-626d-40b7-9cd9-e9ea96ec7e59",
+   "gender": "Female",
+   "team": "Ackley's Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Bob Drinane",
+   "playerId": "1611fcd8-0e53-4b13-b061-d588d0bde0fd",
+   "gender": "Male",
+   "team": "The Dill Inquents",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "David Osborne",
+   "playerId": "418e7ba5-3e06-40ec-9b83-19d3bf10c9cb",
+   "gender": "Male",
+   "team": "Ackley's Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Cally Kerrigan",
+   "playerId": "4c9897dc-1d71-46b0-bf05-e21d2f3efcb0",
+   "gender": "Female",
+   "team": "Color Coordinated Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Thomas Connolly",
+   "playerId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3",
+   "gender": "Male",
+   "team": "Draft Day Disasters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kristy Detore",
+   "playerId": "74a2b723-b60c-4ffb-b60e-0913baf60b3c",
+   "gender": "Female",
+   "team": "Ackley's Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Layla Darian",
+   "playerId": "77234c18-83ca-4180-8a45-181f7d347542",
+   "gender": "Female",
+   "team": "Ackley's Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Patrick Ryan",
+   "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
+   "gender": "Male",
+   "team": "Color Coordinated Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kristen Soucie",
+   "playerId": "8ebf2370-8a82-495e-97ea-5168dd2b14c4",
+   "gender": "Female",
+   "team": "Color Coordinated Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jay Alquiros",
+   "playerId": "a3dbb909-29a5-4aa0-a40f-42bed311f9cd",
+   "gender": "Male",
+   "team": "Draft Day Disasters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tim Dowd",
+   "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
+   "gender": "Male",
+   "team": "Color Coordinated Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kelly Arvidson",
+   "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
+   "gender": "Female",
+   "team": "Draft Day Disasters",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Jamison Rowles",
+   "playerId": "cae7c2db-b4d5-4927-9c44-ff92176b5507",
+   "gender": "Male",
+   "team": "Color Coordinated Chaos",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Johanna Kreilick",
+   "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+   "gender": "Female",
+   "team": "Draft Day Disasters",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tara Kramer",
+   "playerId": "dae62b8e-5f8e-4721-8f41-3218518d1e30",
+   "gender": "Female",
+   "team": "Ackley's Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Ross Switkes",
+   "playerId": "eb9d0f6d-f22b-4928-9f8e-1641ed6a946b",
+   "gender": "Male",
+   "team": "Draft Day Disasters",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Melissa Dardani",
+   "playerId": "ef423f8a-5c2c-4a12-9f37-b41ff6d6c530",
+   "gender": "Female",
+   "team": "Draft Day Disasters",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 16,
   "provisionalMatches": 0,

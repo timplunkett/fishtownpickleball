@@ -25920,6 +25920,448 @@
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
  },
+ "availableSubs": [
+  {
+   "name": "Darren Johnson",
+   "playerId": "00092e4b-b019-43ae-bfef-503e1fc6f657",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Katie Lazaar",
+   "playerId": "0bed64f0-b72a-4d63-8d44-347635f58bae",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Austin Gow",
+   "playerId": "0e577096-0b13-441d-b087-cc49cb55cfe2",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gavin Malave",
+   "playerId": "0eb33201-72fc-4c64-897a-85c3d9d64373",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Emily Ocasio",
+   "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
+   "gender": "Female",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jamie Hahn",
+   "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jaco De Waal",
+   "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shawn Ganow",
+   "playerId": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joseph Zee",
+   "playerId": "2026ccb7-bd78-4bb5-96de-9d0127fdd954",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tin Wai Kwan",
+   "playerId": "22fe1980-7ef9-4026-8c76-a39534431c6b",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Justin Bautista",
+   "playerId": "27660961-6245-4b09-aafe-359ca3205797",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Katalina Wang",
+   "playerId": "2d602f38-7eda-4a7b-a3a2-98b40e443b79",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chanda Mccoy",
+   "playerId": "30cb78cb-f962-40f9-bd02-78d336920431",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lilie Sen",
+   "playerId": "3aa34138-1989-4d89-b656-3e0c44b23b6f",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gage Cvijic",
+   "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Natasha De Carvalho",
+   "playerId": "462f3a15-22ed-4fa3-b698-78678a5d6966",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ethan Henigan",
+   "playerId": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Cooley",
+   "playerId": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Cally Kerrigan",
+   "playerId": "4c9897dc-1d71-46b0-bf05-e21d2f3efcb0",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Obege Janvier",
+   "playerId": "50fccc8f-a4a9-490b-a7d5-eebbda35bb22",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Swell",
+   "playerId": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jenny Chen",
+   "playerId": "54c51642-8048-4dd1-9221-a4306301ff72",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Harden",
+   "playerId": "55194d2f-f537-4e19-b901-86c559f25ef2",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Hany Ibrahim",
+   "playerId": "5b439439-36f5-421f-afaa-5d8b1a547954",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andrew Wakefield",
+   "playerId": "5f429a7f-18c6-49e3-a804-6aa2a930f09c",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Stephanie Moniz",
+   "playerId": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stefanie Sohosky",
+   "playerId": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ashley Barros",
+   "playerId": "6656b9a3-3c47-4711-8609-e35c07c64771",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jase Volz",
+   "playerId": "66f782cc-bcee-4ebf-849a-649a37bf8a8d",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elliott Albanese",
+   "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Michael Velez",
+   "playerId": "772b8bd9-ee55-463b-8e7d-f5e571a2f047",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tessa Arendt",
+   "playerId": "78d27fdd-25fb-4fe7-8f3e-9ff1f67fb2bc",
+   "gender": "Female",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kevin Riordan",
+   "playerId": "7c3dc06e-3448-4274-aab2-521cb3f13b75",
+   "gender": "Male",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vince Abate",
+   "playerId": "8257200c-7448-4527-92df-436d7bb18cac",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Hannah Nussbaum",
+   "playerId": "84b7c449-501c-438d-a3eb-ee67cc92fa0e",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
+   "name": "Lauren Mammano",
+   "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Eugene Zaslavsky",
+   "playerId": "9638b474-ad68-4eff-a5a5-6c40db6ed4bb",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brandyn Schuchart",
+   "playerId": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Gift Horn",
+   "playerId": "9eba6702-22e5-4b53-b6f0-acc44ac2034d",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marc Padre",
+   "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vivek Kumar",
+   "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Ryan Furman",
+   "playerId": "a89121dd-192b-486d-b39d-18ee8447d641",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christine Sandella",
+   "playerId": "bd30e236-1c20-4fa1-b9ad-f56c8613d22b",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vaughn Mcclelland",
+   "playerId": "c33f3ff1-2c81-4630-8980-64fa03a7b102",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kathy Behrmann",
+   "playerId": "c6c3c899-b824-4074-b683-ad755850747a",
+   "gender": "Female",
+   "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Garv Singhal",
+   "playerId": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Johanna Kreilick",
+   "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Deepak Sunku",
+   "playerId": "ce590106-6f19-43b7-8a91-4dc31d28eb31",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sarah Nazario",
+   "playerId": "d457bcf7-383d-4b25-a7a9-a456e5803087",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alice Napolitano",
+   "playerId": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tara Kramer",
+   "playerId": "dae62b8e-5f8e-4721-8f41-3218518d1e30",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Johanna Wagner",
+   "playerId": "e447eb0f-dc19-4616-a7f4-b53de776db3b",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Noelle Ramirez",
+   "playerId": "f30428dd-bc5a-4535-94b3-b8779e958ada",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christine Ferraez",
+   "playerId": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
+   "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joshua Ahn",
+   "playerId": "fff3fe71-d4a6-4103-9290-0ef57035471c",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  }
+ ],
  "meta": {
   "matchesPlayed": 32,
   "provisionalMatches": 0,
