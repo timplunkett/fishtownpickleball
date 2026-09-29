@@ -46,6 +46,7 @@ npm run compile:travel
 
 npm run dupr:fetch       # refresh DUPR ratings (needs DUPR_ACCESS_TOKEN)
 npm run dupr:update      # same, bypassing the local cache
+npm run dupr:due         # same, but only players seen in a match in the last 7 days
 ```
 
 `npm run build` is `node _cpl/run-pipeline.js`: it fetches the league API into
@@ -204,6 +205,28 @@ the token's `exp` itself and warns a week out, then errors once it's expired —
 if a DUPR run reports no changes, check the token before assuming the ratings
 really are unchanged.
 
+`fetch-dupr.js` can also be scoped down, the same way `run-pipeline.js` can be
+scoped to `due` divisions or a `--season=`:
+
+- `--refresh-mode` (`npm run dupr:due`) restricts the run to players credited
+  with a game in a completed match in the last 7 days. This is a rolling
+  window, not a literal "since the last run": there's no persisted last-run
+  marker to read (and CI's checkout has no git history to derive one from
+  either), but a week matches `update-dupr.yml`'s own weekly cron closely
+  enough for that scheduled run, and is a reasonable default for a manual one
+  too. Scoped to each league's *current* season only, same restriction as
+  `due` division selection.
+- `--season=<slug>` restricts the run to players on a roster — active or sub —
+  for one season, in either league. Repeatable, and checked the same way
+  `--season=` is checked on `run-pipeline.js`/`compile.js`: an unmatched slug
+  exits non-zero rather than quietly running against zero players.
+
+Both read only the already-cached division JSON (whatever `run-pipeline.js`
+last fetched); neither one fetches league data itself. They combine (a
+`due` run can also be `--season=`-scoped), and both are independent of
+`--bypass-cache`/`--bypass-cache-nr`, which decide *whether* an in-scope
+player is re-fetched, not which players are in scope.
+
 ## Generated paths — never hand-edit
 
 A `compiled/` directory sits beside every page that reads generated output —
@@ -271,8 +294,13 @@ concurrency group so they can never race each other's push.
   errored — so partial data still ships but a broken division can't rot
   unnoticed. Also runnable via **Run workflow** with a `refresh_mode` of `due`
   or `full`.
-- **`.github/workflows/update-dupr.yml` — Update DUPR Ratings.** Manual
-  (`workflow_dispatch`) only, no cron. Needs the `DUPR_ACCESS_TOKEN` secret.
+- **`.github/workflows/update-dupr.yml` — Update DUPR Ratings.** Monday 07:00
+  UTC cron (off-cycle from the data workflow's crons on purpose, so the two
+  never queue behind each other for nothing), plus `workflow_dispatch`. Needs
+  the `DUPR_ACCESS_TOKEN` secret. The cron always runs `full` against every
+  player; **Run workflow** can instead set `refresh_mode` to `due` (players
+  seen in a match in the last 7 days) and/or a `season` slug to restrict to
+  one season's rosters — see "DUPR ratings" above.
 - **`.github/workflows/ci.yml` — CI.** Runs on pushes to `main` and on every
   PR: lint, unit tests, and `npm run compile -- --full` as a smoke test.
 

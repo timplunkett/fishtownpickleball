@@ -6,6 +6,11 @@ const { sameDuprId, createWarningLog, formatWarningReport } = require('./modules
 const { NR_RATING, isNrRating, isMissingRating, isUnratedDuprValue } = require('./modules/dupr-rating-values');
 const { createProgressLine } = require('./modules/progress-line');
 const { guardAgainstReentry } = require('./modules/reentry-guard');
+const {
+  DEFAULT_RECENT_DAYS,
+  selectRecentPlayerIds,
+  selectSeasonRosterPlayerIds,
+} = require('./modules/dupr-player-selector');
 
 // --- Configuration ---
 const DATA_DIR = path.join(__dirname, 'data');
@@ -364,12 +369,54 @@ function shouldFetchPlayer(player, { bypassCache = false, bypassNrCache = false 
 async function run() {
   const bypassCache = process.argv.includes('--bypass-cache');
   const bypassNrCache = process.argv.includes('--bypass-cache-nr');
+  // Mirrors run-pipeline.js's own `--refresh-mode` flag (see
+  // refresh-selector.js), but scoped to players instead of divisions: rather
+  // than "did this division's schedule just become due", the question here is
+  // "did this player actually play a match recently" — see
+  // dupr-player-selector.js.
+  const dueMode = process.argv.includes('--refresh-mode');
+  // Repeatable, same as run-pipeline.js's --season=; realistically only ever
+  // given once, but there's no reason to forbid a multi-season run.
+  const seasonSlugs = process.argv
+    .filter((arg) => arg.startsWith('--season='))
+    .map((arg) => arg.slice('--season='.length))
+    .filter(Boolean);
 
   console.log('Building global player list from all division files...');
   const globalPlayers = buildGlobalPlayers();
   console.log(`Found ${globalPlayers.length} unique players across all divisions.`);
 
-  const validPlayers = globalPlayers.filter((p) => p.dupr && p.dupr.trim() !== '');
+  // The full valid-DUPR-id population, unaffected by --refresh-mode/--season
+  // below: the cache-priming loop right after this needs every already-known
+  // rating to resolve a duplicate dupr id, even one belonging to a player this
+  // run's scope excludes, or a scoped duplicate would re-fetch from the API
+  // for no reason.
+  const allValidPlayers = globalPlayers.filter((p) => p.dupr && p.dupr.trim() !== '');
+  let scopedPlayers = allValidPlayers;
+
+  if (dueMode) {
+    const recentIds = selectRecentPlayerIds({ withinDays: DEFAULT_RECENT_DAYS });
+    const before = scopedPlayers.length;
+    scopedPlayers = scopedPlayers.filter((p) => recentIds.has(p.playerId));
+    console.log(`Refresh mode "due": ${scopedPlayers.length} of ${before} players were credited with a game in a completed match in the last ${DEFAULT_RECENT_DAYS} day(s) (current season only).`);
+  }
+
+  if (seasonSlugs.length) {
+    const seasonIds = new Set();
+    for (const slug of seasonSlugs) {
+      const { playerIds, matched } = selectSeasonRosterPlayerIds(slug);
+      if (!matched) {
+        console.error(`[ERROR] --season slug "${slug}" was not found among either league's cached divisions.`);
+        process.exitCode = 1;
+        return;
+      }
+      for (const id of playerIds) seasonIds.add(id);
+    }
+    const before = scopedPlayers.length;
+    scopedPlayers = scopedPlayers.filter((p) => seasonIds.has(p.playerId));
+    console.log(`--season=${seasonSlugs.join(',')}: ${scopedPlayers.length} of ${before} players are on a roster (active or sub) for that season.`);
+  }
+
   const duprCache = new Map();
 
   if (bypassCache) {
@@ -377,7 +424,7 @@ async function run() {
   } else if (bypassNrCache) {
     console.log('NR cache bypass enabled — players with current "NR" or "missing" ratings will be re-fetched from the DUPR API.');
   } else {
-    for (const player of validPlayers) {
+    for (const player of allValidPlayers) {
       if (player.duprRating != null) {
         if (!player.duprNumericId && !isUnratedDuprValue(player.duprRating)) {
           // Legacy migration: has rating but no numeric ID — do NOT cache so the loop forces a re-fetch
@@ -388,9 +435,9 @@ async function run() {
     }
   }
 
-  const playersToFetch = validPlayers.filter((p) => shouldFetchPlayer(p, { bypassCache, bypassNrCache }));
+  const playersToFetch = scopedPlayers.filter((p) => shouldFetchPlayer(p, { bypassCache, bypassNrCache }));
 
-  console.log(`Skipping ${validPlayers.length - playersToFetch.length} cached player lookups.`);
+  console.log(`Skipping ${scopedPlayers.length - playersToFetch.length} cached player lookups.`);
   console.log(`Processing ${playersToFetch.length} new/changed DUPR IDs with ${REQUEST_DELAY_MS}ms pacing...\n`);
 
   const summary = [];

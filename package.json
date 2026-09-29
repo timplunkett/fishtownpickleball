@@ -16,6 +16,7 @@
     "compile:travel": "node _cpl/compile.js travel",
     "dupr:fetch": "node --env-file=.env _cpl/fetch-dupr.js",
     "dupr:update": "node --env-file=.env _cpl/fetch-dupr.js --bypass-cache",
+    "dupr:due": "node --env-file=.env _cpl/fetch-dupr.js --bypass-cache --refresh-mode",
     "dupr:missing-numeric": "node _cpl/find-missing-dupr-numeric-ids.js"
   },
   "repository": {

@@ -8,6 +8,15 @@ on:
     # Without a cron, ratings refreshed only when someone remembered to.
     - cron: '0 7 * * 1'
   workflow_dispatch:
+    inputs:
+      refresh_mode:
+        description: "Refresh mode: full (every player with a DUPR ID) or due (only players credited with a game in a completed match in the last 7 days)"
+        required: false
+        default: "full"
+      season:
+        description: "Optional: restrict to players on a roster (active or sub) for one season slug, e.g. 2026-fall. Leave blank for no restriction."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -31,9 +40,28 @@ jobs:
           node-version: 24
 
       - name: Fetch DUPR Ratings
-        run: node _cpl/fetch-dupr.js --bypass-cache
         env:
           DUPR_ACCESS_TOKEN: ${{ secrets.DUPR_ACCESS_TOKEN }}
+          MANUAL_REFRESH_MODE: ${{ github.event.inputs.refresh_mode }}
+          MANUAL_SEASON: ${{ github.event.inputs.season }}
+        run: |
+          # --bypass-cache always runs: this is the one workflow whose whole
+          # job is re-checking ratings, so a cached "already have a rating"
+          # would defeat the point even when refresh_mode/season have also
+          # narrowed which players are in scope. github.event.inputs.* are
+          # unset (empty string) on the scheduled cron trigger, same as
+          # update-data.yml's own refresh_mode handling.
+          ARGS=(--bypass-cache)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${MANUAL_REFRESH_MODE:-full}" = "due" ]; then
+              ARGS+=(--refresh-mode)
+            fi
+            if [ -n "${MANUAL_SEASON}" ]; then
+              ARGS+=("--season=${MANUAL_SEASON}")
+            fi
+          fi
+          echo "Running: node _cpl/fetch-dupr.js ${ARGS[*]}"
+          node _cpl/fetch-dupr.js "${ARGS[@]}"
 
       - name: Commit and Push changes
         run: |
