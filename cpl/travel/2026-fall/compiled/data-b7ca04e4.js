@@ -67530,8 +67530,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Matt Demarco"
      ],
      "a": [
       "Gianna Medeiros",
@@ -67541,8 +67541,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Mandry",
+      "Scott Strong"
      ],
      "a": [
       "Maggie Malloy",
@@ -67552,19 +67552,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittni Veyna",
+      "Dan Perkins"
      ],
      "a": [
       "Christina Sheehan",
       "Anthony Prusich"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Deirdre Zohlman",
+      "Aaron Chan"
      ],
      "a": [
       "Sarina Manetta",
@@ -67574,8 +67578,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Brittni Veyna"
      ],
      "a": [
       "Maggie Malloy",
@@ -67585,8 +67589,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Mandry",
+      "Deirdre Zohlman"
      ],
      "a": [
       "Mira Sigal-Feldman",
@@ -67596,8 +67600,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Scott Strong"
      ],
      "a": [
       "Andrew Martin",
@@ -67607,8 +67611,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Demarco",
+      "Aaron Chan"
      ],
      "a": [
       "Anthony Prusich",
@@ -67618,8 +67622,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Matt Demarco"
      ],
      "a": [
       "Gianna Medeiros",
@@ -67629,8 +67633,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Mandry",
+      "Brad Mandry"
      ],
      "a": [
       "Mira Sigal-Feldman",
@@ -67640,19 +67644,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittni Veyna",
+      "Dan Perkins"
      ],
      "a": [
       "Sarina Manetta",
       "Anthony Prusich"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Scott Strong"
      ],
      "a": [
       "Carolyn Shipe",
@@ -67662,8 +67670,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittni Veyna",
+      "Ricki Cohen"
      ],
      "a": [
       "Christina Sheehan",
@@ -67673,8 +67681,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Mandry",
+      "Deirdre Zohlman"
      ],
      "a": [
       "Maggie Malloy",
@@ -67684,8 +67692,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Scott Strong"
      ],
      "a": [
       "Jeremy Chen",
@@ -67695,8 +67703,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Demarco",
+      "Aaron Chan"
      ],
      "a": [
       "Andrew Martin",
@@ -67706,19 +67714,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Deirdre Zohlman",
+      "Dan Perkins"
      ],
      "a": [
       "Gianna Medeiros",
       "Jeremy Chen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Mandry",
+      "Scott Strong"
      ],
      "a": [
       "Sarina Manetta",
@@ -67728,8 +67740,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Matt Demarco"
      ],
      "a": [
       "Christina Sheehan",
@@ -67739,8 +67751,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Brad Mandry"
      ],
      "a": [
       "Mira Sigal-Feldman",
@@ -67750,8 +67762,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Mary Fair"
      ],
      "a": [
       "Maggie Malloy",
@@ -67761,8 +67773,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittni Veyna",
+      "Deirdre Zohlman"
      ],
      "a": [
       "Carolyn Shipe",
@@ -67772,19 +67784,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Dan Perkins"
      ],
      "a": [
       "Andrew Martin",
       "Kyle Kelly"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Demarco",
+      "Scott Strong"
      ],
      "a": [
       "Anthony Prusich",
@@ -67794,8 +67810,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Matt Demarco"
      ],
      "a": [
       "Maggie Malloy",
@@ -67805,8 +67821,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Brad Mandry"
      ],
      "a": [
       "Gianna Medeiros",
@@ -67816,19 +67832,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Deirdre Zohlman",
+      "Dan Perkins"
      ],
      "a": [
       "Sarina Manetta",
       "Jonathan Macqueen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittni Veyna",
+      "Aaron Chan"
      ],
      "a": [
       "Carolyn Shipe",
@@ -67838,8 +67858,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittni Veyna",
+      "Nicole Mandry"
      ],
      "a": [
       "Maggie Malloy",
@@ -67849,8 +67869,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Mary Fair"
      ],
      "a": [
       "Christina Sheehan",
@@ -67860,8 +67880,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Demarco",
+      "Scott Strong"
      ],
      "a": [
       "Andrew Martin",
@@ -67871,8 +67891,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Aaron Chan"
      ],
      "a": [
       "Zach Strickland",
@@ -70923,7 +70943,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-29T03:26:22.837Z";
+  DATA.meta.asOf = "2026-09-29T11:52:36.295Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
