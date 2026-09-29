@@ -24864,7 +24864,361 @@
    "home": "Monroe",
    "away": "ACE Moorestown",
    "time": "2026-09-30T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Synn",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Anita Buggins",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Morgan Fishman",
+      "Eric Lin"
+     ],
+     "a": [
+      "Krysti Maronski-Neufeldt",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Sara Synn"
+     ],
+     "a": [
+      "Anita Buggins",
+      "Annemarie Mccartney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Angela Luo",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Stacy Walkowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maanav Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Manny Lai",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Ursino",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Hector Irizarry",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angela Luo",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Krysti Maronski-Neufeldt",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Anita Buggins",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Matthew Russell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Synn",
+      "Eric Lin"
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Angela Luo",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Richa Shah"
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Shelah Wallace"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eric Lin",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Nathan Law",
+      "Matthew Russell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Hector Irizarry",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Angela Luo",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Matthew Russell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Synn",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Morgan Fishman",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Krysti Maronski-Neufeldt",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Sara Synn"
+     ],
+     "a": [
+      "Anita Buggins",
+      "Stacy Walkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Angela Luo",
+      "Richa Shah"
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eric Lin",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Damien Stahl",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Manny Lai",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Morgan Fishman",
+      "Anthony Ursino"
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Manny Lai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Synn",
+      "Eric Lin"
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Matthew Russell"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Ruhi Shah",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Anita Buggins",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Richa Shah",
+      "Maanav Shah"
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Ruhi Shah",
+      "Morgan Fishman"
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Angela Luo",
+      "Richa Shah"
+     ],
+     "a": [
+      "Anita Buggins",
+      "Shelah Wallace"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Eric Lin",
+      "Shreyas Pani"
+     ],
+     "a": [
+      "Ben Mead",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Ursino",
+      "Dilan Shah"
+     ],
+     "a": [
+      "Manny Lai",
+      "Nathan Law"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -26812,7 +27166,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T22:49:09.109Z";
+  DATA.meta.asOf = "2026-09-29T03:26:39.769Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

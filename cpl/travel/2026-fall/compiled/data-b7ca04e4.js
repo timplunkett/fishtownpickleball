@@ -11605,8 +11605,8 @@
    "name": "Ashok Rao",
    "gender": "Male",
    "team": "LBF Pickleball",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 2,
@@ -14908,6 +14908,35 @@
    "playerId": "e89d6c72-5911-4458-b9b8-3d670a1364a8"
   },
   {
+   "name": "Shalin Rawal",
+   "gender": "Male",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 573,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "08530d21-2dc5-4f71-9d49-9191ec192860"
+  },
+  {
    "name": "Berit Fischer",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
@@ -14935,6 +14964,64 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "24dfee95-a64b-4f79-9f62-eaacf8c85204"
+  },
+  {
+   "name": "Claire Fabito",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 542,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "722418a6-3c61-4a17-bf08-d84c1d12948c"
+  },
+  {
+   "name": "Tyler Raboy",
+   "gender": "Male",
+   "team": "PKLD",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 572,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "aba00534-f2c3-4f27-a9ce-6d9b8a440258"
   },
   {
    "name": "Nico Torres",
@@ -46855,7 +46942,6 @@
    ],
    "subs": [
     "Guihua Zhang",
-    "Ashok Rao",
     "Zhihong Ge"
    ]
   },
@@ -64857,7 +64943,385 @@
    "home": "Premiere",
    "away": "PKLD",
    "time": "2026-09-30T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brianna Burns",
+      "Ahmed Aziz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Jadiel Rodriguez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracey Collins",
+      "Kyle Korman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Beth Osipowitz",
+      "Tyler Raboy"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brianna Burns",
+      "Tracy Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracey Collins",
+      "Stephanie Ho"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Burke",
+      "Ahmed Aziz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jadiel Rodriguez",
+      "Tyler Raboy"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Beth Osipowitz",
+      "Kyle Korman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brianna Burns",
+      "Ahmed Aziz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Wong",
+      "Tyler Raboy"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Jadiel Rodriguez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Beth Osipowitz",
+      "Tracy Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracey Collins",
+      "Brianna Burns"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ahmed Aziz",
+      "Kyle Korman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jadiel Rodriguez",
+      "Jeff Burke"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracey Collins",
+      "Jeff Burke"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Wong",
+      "Ahmed Aziz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Tyler Raboy"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Beth Osipowitz",
+      "Kyle Korman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Tracey Collins"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Wong",
+      "Brianna Burns"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jadiel Rodriguez",
+      "Tyler Raboy"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Burke",
+      "Kyle Korman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracey Collins",
+      "Kyle Korman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Beth Osipowitz",
+      "Jadiel Rodriguez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Ahmed Aziz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brianna Burns",
+      "Jeff Burke"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brianna Burns",
+      "Beth Osipowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Ho",
+      "Tracy Wong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ahmed Aziz",
+      "Tyler Raboy"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jadiel Rodriguez",
+      "Jeff Burke"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -64865,7 +65329,385 @@
    "home": "Picklr Fair Lawn",
    "away": "Montville",
    "time": "2026-09-30T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Law",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addy Aquino",
+      "Shalin Rawal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Sierer",
+      "Todd Green"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Sarah Law"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addy Aquino",
+      "Alexandra Sierer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Tsang",
+      "Shalin Rawal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Todd Green",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Shalin Rawal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Law",
+      "Todd Green"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Sierer",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Carmina Lasam"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Law",
+      "Addy Aquino"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Colucci",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "Keith Parker"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Sierer",
+      "Todd Green"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Cox",
+      "Keith Parker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addy Aquino",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Jess Cox"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Addy Aquino"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Todd Green",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Abdullah Osman",
+      "Keith Parker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Abdullah Osman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Law",
+      "Chris Colucci"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandra Sierer",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Cox",
+      "Shalin Rawal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexa Laniado",
+      "Sarah Law"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carmina Lasam",
+      "Alexandra Sierer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Abdullah Osman",
+      "Todd Green"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Tsang",
+      "Shalin Rawal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -66683,7 +67525,361 @@
    "home": "Players Courtyard",
    "away": "Bounce Philly",
    "time": "2026-09-30T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianna Medeiros",
+      "Andrew Martin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maggie Malloy",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Sheehan",
+      "Anthony Prusich"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarina Manetta",
+      "Jonathan Macqueen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maggie Malloy",
+      "Christina Sheehan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mira Sigal-Feldman",
+      "Carolyn Shipe"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Martin",
+      "Zach Strickland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Prusich",
+      "Jonathan Macqueen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianna Medeiros",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mira Sigal-Feldman",
+      "Jonathan Macqueen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarina Manetta",
+      "Anthony Prusich"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Shipe",
+      "Jeremy Chen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Sheehan",
+      "Gianna Medeiros"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maggie Malloy",
+      "Sarina Manetta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeremy Chen",
+      "Zach Strickland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Martin",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianna Medeiros",
+      "Jeremy Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarina Manetta",
+      "Zach Strickland"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Sheehan",
+      "Andrew Martin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mira Sigal-Feldman",
+      "Anthony Prusich"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maggie Malloy",
+      "Christina Sheehan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Shipe",
+      "Mira Sigal-Feldman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Martin",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Prusich",
+      "Jonathan Macqueen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maggie Malloy",
+      "Jeremy Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianna Medeiros",
+      "Zach Strickland"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarina Manetta",
+      "Jonathan Macqueen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Shipe",
+      "Kyle Kelly"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maggie Malloy",
+      "Gianna Medeiros"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Sheehan",
+      "Sarina Manetta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Martin",
+      "Anthony Prusich"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Strickland",
+      "Jeremy Chen"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -66843,8 +68039,12 @@
       ""
      ],
      "a": [
-      "Dede Dolkar",
+      "Claire Fabito",
       "Emily Su"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -66887,8 +68087,12 @@
       ""
      ],
      "a": [
-      "Khushi Shah",
+      "Claire Fabito",
       "Jason Kwan"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -66920,8 +68124,12 @@
       ""
      ],
      "a": [
-      "Khushi Shah",
+      "Claire Fabito",
       "Dede Dolkar"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -66975,8 +68183,12 @@
       ""
      ],
      "a": [
-      "Christy Zhang",
+      "Claire Fabito",
       "Winston Lian"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -67008,8 +68220,12 @@
       ""
      ],
      "a": [
-      "Christy Zhang",
+      "Claire Fabito",
       "Emily Su"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -68567,14 +69783,12 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
-  "Shalin Rawal": "08530d21-2dc5-4f71-9d49-9191ec192860",
   "Patrick Reece": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
   "Saaketh Koundinya Gundavarapu": "67730cd7-1040-4a80-a665-53e124b526cd",
-  "Claire Fabito": "722418a6-3c61-4a17-bf08-d84c1d12948c",
   "Conor Malloy": "79791efb-c2d0-449d-8572-a99a1f2a5200",
   "Andrew Fagan": "7a5bce6c-3635-47d0-bff5-59c802a8ae0b",
   "Guitta Barghash": "8011677b-64c0-467d-8d54-c32da035effe",
@@ -68587,7 +69801,6 @@
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "George Mandl": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
   "Jeremy Forin": "a13b01c6-1423-458c-89af-482b3082ae59",
-  "Tyler Raboy": "aba00534-f2c3-4f27-a9ce-6d9b8a440258",
   "Lucy Shao": "adeb473c-c162-4d73-bbc1-96ffbd94f53f",
   "Andrew Spencer": "b1af592e-2dc0-4273-9b6e-13b8a6eff673",
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
@@ -69423,14 +70636,6 @@
    "outsideSub": true
   },
   {
-   "name": "Ashok Rao",
-   "playerId": "c590cb70-93c6-439d-8ae4-2ecff6b57c4e",
-   "gender": "Male",
-   "team": "LBF Pickleball",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "David Martinez",
    "playerId": "c617d3cc-64e2-490e-a0f9-90eb87662965",
    "gender": "Male",
@@ -69659,7 +70864,7 @@
   "matchesPlayed": 83,
   "provisionalMatches": 1,
   "weeks": "1-5",
-  "totalPlayers": 541,
+  "totalPlayers": 544,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -69718,7 +70923,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-28T22:48:53.781Z";
+  DATA.meta.asOf = "2026-09-29T03:26:22.837Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

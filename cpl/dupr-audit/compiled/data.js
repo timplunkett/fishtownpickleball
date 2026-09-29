@@ -1749,6 +1749,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Ashok Rao",
+   "playerId": "c590cb70-93c6-439d-8ae4-2ecff6b57c4e",
+   "team": "LBF Pickleball",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Ashwin Korde",
    "playerId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee",
    "team": "Bounce Philly",

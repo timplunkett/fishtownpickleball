@@ -10127,7 +10127,7 @@
       "gender": "Male",
       "dupr": "0X4K0G",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "13cf2b33-c643-4783-a330-da8e16e9cc59",
       "teamName": "LBF Pickleball",
       "wins": 2,
