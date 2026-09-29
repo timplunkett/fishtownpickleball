@@ -16434,10 +16434,6 @@
     }
   },
   {
-    "matchupId": "10d66ec1-e0f0-4fc9-a4aa-77b3e604a3ff",
-    "details": {}
-  },
-  {
     "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
     "details": {}
   },
@@ -16591,6 +16587,10 @@
   },
   {
     "matchupId": "e265cf28-b654-4c96-9f2a-4b191fb1ba5d",
+    "details": {}
+  },
+  {
+    "matchupId": "10d66ec1-e0f0-4fc9-a4aa-77b3e604a3ff",
     "details": {}
   },
   {

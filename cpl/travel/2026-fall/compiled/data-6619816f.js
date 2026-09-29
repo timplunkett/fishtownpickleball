@@ -25260,8 +25260,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Aurora Lewis",
@@ -25271,12 +25271,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Justin Bautista"
      ],
      "a": [
       "Amanda Kiszonak",
       "Elliot Stevens"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -25286,8 +25290,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Lou Frignito"
      ],
      "a": [
       "Ariana Rizvani",
@@ -25297,8 +25301,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Chris Tabeling"
      ],
      "a": [
       "Jenny Chen",
@@ -25312,8 +25316,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Harriet Levin"
      ],
      "a": [
       "Ariana Rizvani",
@@ -25327,8 +25331,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Nam Barsh"
      ],
      "a": [
       "Aurora Lewis",
@@ -25342,8 +25346,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "Nathan Malhotra",
@@ -25353,8 +25357,128 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Aidan Jackson",
+      "Andrew Cooley"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Yuki Kim",
+      "Lou Frignito"
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Nathan Malhotra"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Harriet Levin",
+      "Nick Meale"
+     ],
+     "a": [
+      "Jenny Chen",
+      "Elliot Stevens"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Megan Harvey",
+      "Chris Tabeling"
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Aidan Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Nam Barsh",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Amanda Kiszonak",
+      "Andrew Cooley"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Nam Barsh",
+      "Megan Harvey"
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Amanda Kiszonak"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Yuki Kim",
+      "Harriet Levin"
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Jenny Chen"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lou Frignito",
+      "Justin Bautista"
+     ],
+     "a": [
+      "Nathan Malhotra",
+      "Elliot Stevens"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "Aidan Jackson",
@@ -25368,23 +25492,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Chris Tabeling"
      ],
      "a": [
-      "Aurora Lewis",
+      "Ariana Rizvani",
       "Nathan Malhotra"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Lou Frignito"
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Elliot Stevens"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Megan Harvey",
+      "Justin Bautista"
      ],
      "a": [
       "Jenny Chen",
-      "Elliot Stevens"
+      "Aidan Jackson"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -25394,19 +25533,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ariana Rizvani",
-      "Aidan Jackson"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Nick Meale"
      ],
      "a": [
       "Amanda Kiszonak",
@@ -25420,116 +25548,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ariana Rizvani",
-      "Amanda Kiszonak"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Aurora Lewis",
-      "Jenny Chen"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nathan Malhotra",
-      "Elliot Stevens"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Aidan Jackson",
-      "Andrew Cooley"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ariana Rizvani",
-      "Nathan Malhotra"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Aurora Lewis",
-      "Elliot Stevens"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jenny Chen",
-      "Aidan Jackson"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Amanda Kiszonak",
-      "Andrew Cooley"
-     ],
-     "aSub": [
-      1,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Megan Harvey"
      ],
      "a": [
       "Ariana Rizvani",
@@ -25543,8 +25563,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Nam Barsh"
      ],
      "a": [
       "Aurora Lewis",
@@ -25558,8 +25578,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Lou Frignito"
      ],
      "a": [
       "Nathan Malhotra",
@@ -25569,13 +25589,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Tabeling",
+      "Justin Bautista"
      ],
      "a": [
       "Elliot Stevens",
       "Andrew Cooley"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -25584,19 +25608,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Justin Bautista"
      ],
      "a": [
       "Ariana Rizvani",
       "Nathan Malhotra"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Chris Tabeling"
      ],
      "a": [
       "Aurora Lewis",
@@ -25606,8 +25634,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Lou Frignito"
      ],
      "a": [
       "Amanda Kiszonak",
@@ -25621,8 +25649,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Nick Meale"
      ],
      "a": [
       "Jenny Chen",
@@ -25636,8 +25664,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nam Barsh"
      ],
      "a": [
       "Ariana Rizvani",
@@ -25651,8 +25679,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Harriet Levin",
+      "Megan Harvey"
      ],
      "a": [
       "Aurora Lewis",
@@ -25666,19 +25694,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Justin Bautista"
      ],
      "a": [
       "Nathan Malhotra",
       "Aidan Jackson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Chris Tabeling"
      ],
      "a": [
       "Elliot Stevens",
@@ -27637,7 +27669,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T11:52:52.709Z";
+  DATA.meta.asOf = "2026-09-29T17:21:42.460Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11136,6 +11136,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "e8434ae3-5d11-4d76-9e67-82f56d4f3db8"
+  },
+  {
+   "name": "Dana Sun",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 430,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c"
   },
   {
    "name": "David Biskowitz",
@@ -41925,7 +41954,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 3,
   "weeks": "1-6",
-  "totalPlayers": 409,
+  "totalPlayers": 410,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42041,7 +42070,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T11:53:20.158Z";
+  DATA.meta.asOf = "2026-09-29T17:22:10.890Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -7649,7 +7649,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 297,
+   "leagueRank": 298,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7678,7 +7678,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 289,
+   "leagueRank": 290,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7852,7 +7852,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 292,
+   "leagueRank": 293,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7888,6 +7888,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4"
+  },
+  {
+   "name": "Vyas Maddukuri",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 289,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4c208ee3-c374-413b-8941-b1ad278acfb5"
   },
   {
    "name": "Sal Cocuzza",
@@ -38307,12 +38336,16 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Saad Talat Siddiqui"
      ],
      "a": [
       "Samuel Kashefska",
       "Cullen Curley"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -38367,12 +38400,16 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Saad Talat Siddiqui"
      ],
      "a": [
       "Samuel Kashefska",
       "David Reyes"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -38449,12 +38486,16 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Jonathan Lugtu"
      ],
      "a": [
       "David Reyes",
       "Michael Barndt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -38482,12 +38523,16 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Jonathan Lugtu"
      ],
      "a": [
       "Cullen Curley",
       "David Reyes"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -38553,7 +38598,7 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Chaitanya Sharma"
      ],
      "a": [
@@ -38561,7 +38606,7 @@
       "Michael Barndt"
      ],
      "hSub": [
-      0,
+      1,
       1
      ]
     },
@@ -38580,11 +38625,15 @@
      "t": "male",
      "h": [
       "Sean Majury",
-      "Gianni Roman"
+      "Vyas Maddukuri"
      ],
      "a": [
       "Samuel Kashefska",
       "Eric Ruiz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -38669,12 +38718,16 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Madhu Raghunathan"
      ],
      "a": [
       "Cullen Curley",
       "Michael Barndt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -38725,12 +38778,16 @@
     {
      "t": "male",
      "h": [
-      "Gianni Roman",
+      "Vyas Maddukuri",
       "Madhu Raghunathan"
      ],
      "a": [
       "Eric Ruiz",
       "Michael Barndt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -40972,6 +41029,14 @@
    "outsideSub": true
   },
   {
+   "name": "Vyas Maddukuri",
+   "playerId": "4c208ee3-c374-413b-8941-b1ad278acfb5",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Dion Brown",
    "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
    "gender": "Male",
@@ -41312,7 +41377,7 @@
   "matchesPlayed": 48,
   "provisionalMatches": 1,
   "weeks": "1-5",
-  "totalPlayers": 281,
+  "totalPlayers": 282,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -41425,7 +41490,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T03:28:01.580Z";
+  DATA.meta.asOf = "2026-09-29T17:22:58.544Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -20704,14 +20704,6 @@
   {
    "result": null,
    "week": 6,
-   "home": "Jersey Pickleball Club",
-   "away": "Bounce Malvern Black",
-   "time": "2026-09-27T18:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 6,
    "home": "Stelton Sports",
    "away": "Pickleball Palace",
    "time": "2026-10-04T14:00:00",
@@ -21019,6 +21011,14 @@
    "home": "Pickleball Palace",
    "away": "ACE Moorestown",
    "time": "2026-11-01T09:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 11,
+   "home": "Jersey Pickleball Club",
+   "away": "Bounce Malvern Black",
+   "time": "2026-11-01T12:00:00",
    "complete": false
   },
   {
@@ -21644,7 +21644,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-28T18:26:00.281Z";
+  DATA.meta.asOf = "2026-09-29T17:19:16.112Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

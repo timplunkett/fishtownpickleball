@@ -313,18 +313,6 @@
       "awayName": "APC Garden State"
     },
     {
-      "matchupId": "10d66ec1-e0f0-4fc9-a4aa-77b3e604a3ff",
-      "weekNumber": 6,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-27T18:00:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Bounce Malvern Black"
-    },
-    {
       "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
       "weekNumber": 6,
       "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
@@ -791,6 +779,18 @@
       "scheduledTime": "2026-11-01T09:00:00",
       "homeName": "Pickleball Palace",
       "awayName": "ACE Moorestown"
+    },
+    {
+      "matchupId": "10d66ec1-e0f0-4fc9-a4aa-77b3e604a3ff",
+      "weekNumber": 11,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-01T12:00:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Bounce Malvern Black"
     },
     {
       "matchupId": "2a7ca877-76b8-41b6-9176-c69ff7b0f26c",

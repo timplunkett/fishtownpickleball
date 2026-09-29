@@ -4075,6 +4075,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Dana Sun",
    "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Dana Sun",
+   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
    "team": "Flemington Blue",
    "slug": "2edc44e7",
    "gender": "Female"
@@ -13758,6 +13765,13 @@ window.DUPR_AUDIT = {
    "playerId": "4d33c53f-a066-4543-b2cf-313c11165227",
    "team": "Pickle House",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Nicholas Yandoli",
+   "playerId": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
+   "team": "Premiere",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {
