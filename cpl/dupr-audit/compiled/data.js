@@ -17709,6 +17709,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Tim Cahalin",
+   "playerId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
+   "team": "Picklr Newtown",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Tim Dowd",
    "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
    "team": "Flemington Green",
@@ -17776,13 +17783,6 @@ window.DUPR_AUDIT = {
    "playerId": "52f57694-f12c-40e2-b176-cfa9c9f77607",
    "team": "Pickle Place",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Timoty Cahalin",
-   "playerId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
-   "team": "Picklr Newtown",
-   "slug": "cca69ab9",
    "gender": "Male"
   },
   {

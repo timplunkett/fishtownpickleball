@@ -473,9 +473,9 @@
       "weekNumber": 6,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 607,
+      "awayPoints": 634,
+      "endResult": "away",
       "scheduledTime": "2026-09-26T09:00:00",
       "homeName": "Premiere",
       "awayName": "ACE Moorestown"
@@ -503,18 +503,6 @@
       "scheduledTime": "2026-09-26T12:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "Allstar Pickler"
-    },
-    {
-      "matchupId": "5d0e986a-58b7-4e49-bb2b-f65932cf4ed4",
-      "weekNumber": 6,
-      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "awayTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T15:00:00",
-      "homeName": "Pickleball Palace",
-      "awayName": "Montville Rocks"
     },
     {
       "matchupId": "6b0dbd70-b9ae-4f76-85de-1288a517180d",
@@ -1295,6 +1283,18 @@
       "scheduledTime": "2026-11-01T14:00:00",
       "homeName": "Dill Dinkers Lansdale",
       "awayName": "Flemington"
+    },
+    {
+      "matchupId": "5d0e986a-58b7-4e49-bb2b-f65932cf4ed4",
+      "weekNumber": 12,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-07T17:00:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "Montville Rocks"
     },
     {
       "matchupId": "a122bc48-d703-46a1-ba28-12b3c5d2b62c",

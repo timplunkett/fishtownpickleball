@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,7 +5677,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5706,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -21073,6 +21073,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Brooke Obrien": "06b66cca-2292-4bbe-962e-1217c4418e18",
+  "Jaco De Waal": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
   "Andrea Dellechiaie": "84e4d40d-3b98-4822-b073-e9dc71c0d4d7",
@@ -21139,6 +21140,14 @@
    "playerId": "188607ba-a609-4881-87bb-7c997a032cc2",
    "gender": "Male",
    "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jaco De Waal",
+   "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
+   "gender": "Male",
+   "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -21644,7 +21653,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T17:19:16.112Z";
+  DATA.meta.asOf = "2026-09-29T21:40:45.073Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

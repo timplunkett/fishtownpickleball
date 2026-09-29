@@ -4613,6 +4613,35 @@
    "playerId": "bbb3cbbd-edc3-4fa6-adef-800076f97402"
   },
   {
+   "name": "Sharon Fang",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 175,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b2e9ed41-91f2-4443-b7b9-d10e5716e63e"
+  },
+  {
    "name": "Jenny Miller",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -22266,7 +22295,361 @@
    "home": "Life Time Red Bank",
    "away": "Flemington Green",
    "time": "2026-10-01T11:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Janice Aliberti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Levin",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Janice Aliberti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Janice Aliberti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Janice Aliberti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Levin",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Curran",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Curran",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janice Aliberti",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Marianne Rosato"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -22274,7 +22657,417 @@
    "home": "Pickleball Kingdom Tinton Falls",
    "away": "Picklr Newtown",
    "time": "2026-10-01T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Sulyn Kulick"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginie Boutin",
+      "Lori Wild"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pam Mcdannell",
+      "Sharon Fang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacqueline Hillgrube",
+      "Jodi De Waal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginie Boutin",
+      "Lori Wild"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Sulyn Kulick"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Holli Lish",
+      "Jodi De Waal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pam Mcdannell",
+      "Sharon Fang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Wild",
+      "Rachel Mcgowan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sulyn Kulick",
+      "Virginie Boutin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pam Mcdannell",
+      "Jodi De Waal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacqueline Hillgrube",
+      "Holli Lish"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginie Boutin",
+      "Sulyn Kulick"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Lori Wild"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Holli Lish",
+      "Jacqueline Hillgrube"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jodi De Waal",
+      "Pam Mcdannell"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Wild",
+      "Pam Mcdannell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Holli Lish"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginie Boutin",
+      "Jodi De Waal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacqueline Hillgrube",
+      "Sharon Fang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Virginie Boutin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pam Mcdannell",
+      "Lori Wild"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacqueline Hillgrube",
+      "Jodi De Waal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Fang",
+      "Holli Lish"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jodi De Waal",
+      "Lori Wild"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginie Boutin",
+      "Pam Mcdannell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Holli Lish"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Fang",
+      "Jacqueline Hillgrube"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virginie Boutin",
+      "Pam Mcdannell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Wild",
+      "Jacqueline Hillgrube"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Mcgowan",
+      "Jodi De Waal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Holli Lish",
+      "Sharon Fang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -22542,7 +23335,6 @@
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
-  "Sharon Fang": "b2e9ed41-91f2-4443-b7b9-d10e5716e63e",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
@@ -22930,7 +23722,7 @@
   "matchesPlayed": 29,
   "provisionalMatches": 1,
   "weeks": "1-5",
-  "totalPlayers": 173,
+  "totalPlayers": 174,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -23024,7 +23816,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T03:27:41.427Z";
+  DATA.meta.asOf = "2026-09-29T21:43:30.852Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

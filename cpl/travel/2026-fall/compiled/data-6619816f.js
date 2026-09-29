@@ -26096,8 +26096,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Suzi Battison",
@@ -26107,8 +26107,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Conor Landrigan"
      ],
      "a": [
       "Elisangela Harrington",
@@ -26118,8 +26118,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Varun Prakash"
      ],
      "a": [
       "Susan Ackley",
@@ -26129,8 +26129,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Steven Fernandez"
      ],
      "a": [
       "Aimee Castellano",
@@ -26140,8 +26140,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
      ],
      "a": [
       "Suzi Battison",
@@ -26151,8 +26151,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Cristi Landrigan"
      ],
      "a": [
       "Elisangela Harrington",
@@ -26162,8 +26162,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Prakash",
+      "Clayton Schmucker"
      ],
      "a": [
       "Patrick Ryan",
@@ -26173,8 +26173,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Fernandez",
+      "Dylan Ashbach"
      ],
      "a": [
       "Thomas Connolly",
@@ -26184,8 +26184,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Suzi Battison",
@@ -26195,8 +26195,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Conor Landrigan"
      ],
      "a": [
       "Elisangela Harrington",
@@ -26206,8 +26206,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Varun Prakash"
      ],
      "a": [
       "Susan Ackley",
@@ -26217,8 +26217,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Steven Fernandez"
      ],
      "a": [
       "Aimee Castellano",
@@ -26228,8 +26228,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
      ],
      "a": [
       "Suzi Battison",
@@ -26239,8 +26239,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Allison Tarnoff"
      ],
      "a": [
       "Elisangela Harrington",
@@ -26250,8 +26250,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Fernandez",
+      "Clayton Schmucker"
      ],
      "a": [
       "Robbie Oddy",
@@ -26261,8 +26261,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Conor Landrigan"
      ],
      "a": [
       "Patrick Ryan",
@@ -26272,8 +26272,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Varun Prakash"
      ],
      "a": [
       "Suzi Battison",
@@ -26283,8 +26283,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Dylan Ashbach"
      ],
      "a": [
       "Elisangela Harrington",
@@ -26294,8 +26294,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Clayton Schmucker"
      ],
      "a": [
       "Susan Ackley",
@@ -26305,8 +26305,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Conor Landrigan"
      ],
      "a": [
       "Aimee Castellano",
@@ -26316,8 +26316,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Allison Tarnoff"
      ],
      "a": [
       "Suzi Battison",
@@ -26327,8 +26327,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Cristi Landrigan"
      ],
      "a": [
       "Susan Ackley",
@@ -26338,8 +26338,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Conor Landrigan",
+      "Varun Prakash"
      ],
      "a": [
       "Patrick Ryan",
@@ -26349,8 +26349,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Steven Fernandez",
+      "Clayton Schmucker"
      ],
      "a": [
       "Ross Switkes",
@@ -26360,8 +26360,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Steven Fernandez"
      ],
      "a": [
       "Suzi Battison",
@@ -26371,8 +26371,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Dylan Ashbach"
      ],
      "a": [
       "Elisangela Harrington",
@@ -26382,8 +26382,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Clayton Schmucker"
      ],
      "a": [
       "Susan Ackley",
@@ -26393,8 +26393,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Varun Prakash"
      ],
      "a": [
       "Aimee Castellano",
@@ -26404,8 +26404,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Allison Tarnoff"
      ],
      "a": [
       "Susan Ackley",
@@ -26415,8 +26415,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Cristi Landrigan"
      ],
      "a": [
       "Suzi Battison",
@@ -26426,8 +26426,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Varun Prakash"
      ],
      "a": [
       "Patrick Ryan",
@@ -26437,8 +26437,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Conor Landrigan",
+      "Clayton Schmucker"
      ],
      "a": [
       "Thomas Connolly",
@@ -27669,7 +27669,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T17:21:42.460Z";
+  DATA.meta.asOf = "2026-09-29T21:42:41.567Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
