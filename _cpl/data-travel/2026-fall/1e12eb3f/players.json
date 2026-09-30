@@ -619,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 556
+      "ranking": 557
     },
     {
       "playerId": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
@@ -1815,7 +1815,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 561
+      "ranking": 562
     },
     {
       "playerId": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
@@ -2896,7 +2896,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 554
+      "ranking": 555
     },
     {
       "playerId": "38af77d4-eaa3-4189-8eb9-b137ea3cbecd",
@@ -3241,7 +3241,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 558
+      "ranking": 559
     },
     {
       "playerId": "408eed1b-b867-4f9a-b796-7dc23c6d2311",
@@ -6185,7 +6185,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 553
+      "ranking": 554
     },
     {
       "playerId": "80d3657c-1570-4969-8584-dcebedb261b4",
@@ -6231,7 +6231,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 557
+      "ranking": 558
     },
     {
       "playerId": "80fbbb8f-8f4d-4a6f-bc08-925f29df32ea",
@@ -8186,7 +8186,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 560
+      "ranking": 561
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",
@@ -10403,7 +10403,7 @@
       "gender": "Male",
       "dupr": "K56XRQ",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
       "teamName": "Forward",
       "wins": 5,
@@ -11018,6 +11018,29 @@
       "ranking": 381
     },
     {
+      "playerId": "e01c608d-ae63-44cc-86df-12974213e100",
+      "firstName": "Bob",
+      "lastName": "Tarallo",
+      "gender": "Male",
+      "dupr": "4PLKNV",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
+      "teamName": "Life Time Red Bank",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 553
+    },
+    {
       "playerId": "e02b2266-0586-4da7-9451-b90445d145bf",
       "firstName": "Hector",
       "lastName": "Lopez",
@@ -11268,7 +11291,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 559
+      "ranking": 560
     },
     {
       "playerId": "e5bf1611-3d03-4600-9e72-301e91a9db18",
@@ -12234,7 +12257,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 555
+      "ranking": 556
     },
     {
       "playerId": "f6eef486-8999-4247-a7d8-20251377021c",

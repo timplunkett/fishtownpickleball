@@ -9952,8 +9952,8 @@
    "name": "Ricky Jutkiewicz",
    "gender": "Male",
    "team": "Home Court",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 3,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 20,
    "wins": 4,
@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11071,7 +11071,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 443,
+   "leagueRank": 444,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 448,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11187,7 +11187,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 438,
+   "leagueRank": 439,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11245,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 446,
+   "leagueRank": 447,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11399,6 +11399,35 @@
    "playerId": "ecb01f29-37c9-4caa-a023-dc5d2591f375"
   },
   {
+   "name": "Austin Lloyd",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 419,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0623144e-55c6-4ec1-bdc4-7e6cbfbc4453"
+  },
+  {
    "name": "Tim Cahalin",
    "gender": "Male",
    "team": "Pickle Place",
@@ -11426,6 +11455,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a"
+  },
+  {
+   "name": "Ryan Rosen",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 433,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "97f2b250-2030-4296-be61-63cffb17043b"
   },
   {
    "name": "Timothy Vorhauer",
@@ -19728,8 +19786,7 @@
     }
    ],
    "subs": [
-    "Malek Weiner",
-    "Ricky Jutkiewicz"
+    "Malek Weiner"
    ]
   },
   {
@@ -26700,9 +26757,7 @@
      ]
     }
    ],
-   "subs": [
-    "Ricky Jutkiewicz"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -41101,8 +41156,7 @@
     }
    ],
    "subs": [
-    "Natalie Ruiz",
-    "Ricky Jutkiewicz"
+    "Natalie Ruiz"
    ]
   },
   {
@@ -47498,8 +47552,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Anuj Mehta"
      ],
      "a": [
       "Erika Richards",
@@ -47509,30 +47563,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cait Kearney",
+      "Austin Lloyd"
      ],
      "a": [
       "Paige Metzler",
       "Anushk Gupta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Nicolas Ha"
      ],
      "a": [
       "Claudya Elefante",
-      ""
+      "Ryan Rosen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Jesse Martinez"
      ],
      "a": [
       "Daisy Zhang",
@@ -47542,8 +47604,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cait Kearney",
+      "Lindsay Henzes"
      ],
      "a": [
       "Paige Metzler",
@@ -47553,8 +47615,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Friedman",
+      "Tessa Arendt"
      ],
      "a": [
       "Claudya Elefante",
@@ -47564,8 +47626,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Price",
+      "Daniel Borgia"
      ],
      "a": [
       "Mike Ceron",
@@ -47575,30 +47637,42 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Lloyd",
+      "Anuj Mehta"
      ],
      "a": [
       "Adam Beck",
-      ""
+      "Ryan Rosen"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cait Kearney",
+      "Nicolas Ha"
      ],
      "a": [
       "Claudya Elefante",
-      ""
+      "Ryan Rosen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Anuj Mehta"
      ],
      "a": [
       "Paige Metzler",
@@ -47608,19 +47682,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Austin Lloyd"
      ],
      "a": [
       "Stephanie George",
       "Adam Beck"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Friedman",
+      "Jesse Martinez"
      ],
      "a": [
       "Daisy Zhang",
@@ -47630,8 +47708,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Michelle Friedman"
      ],
      "a": [
       "Erika Richards",
@@ -47641,8 +47719,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cait Kearney",
+      "Lindsay Henzes"
      ],
      "a": [
       "Stephanie George",
@@ -47652,19 +47730,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Martinez",
+      "Anuj Mehta"
      ],
      "a": [
       "Anushk Gupta",
-      ""
+      "Ryan Rosen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Borgia",
+      "John Price"
      ],
      "a": [
       "Adam Beck",
@@ -47674,19 +47756,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cait Kearney",
+      "Austin Lloyd"
      ],
      "a": [
       "Claudya Elefante",
       "Adam Beck"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Nicolas Ha"
      ],
      "a": [
       "Stephanie George",
@@ -47696,8 +47782,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Daniel Borgia"
      ],
      "a": [
       "Paige Metzler",
@@ -47707,19 +47793,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jesse Martinez"
      ],
      "a": [
       "Erika Richards",
-      ""
+      "Ryan Rosen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Tessa Arendt"
      ],
      "a": [
       "Paige Metzler",
@@ -47729,8 +47819,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mickey Ma",
+      "Lindsay Henzes"
      ],
      "a": [
       "Stephanie George",
@@ -47740,8 +47830,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Martinez",
+      "Anuj Mehta"
      ],
      "a": [
       "Michael Velez",
@@ -47751,19 +47841,27 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Lloyd",
+      "John Price"
      ],
      "a": [
       "Anushk Gupta",
-      ""
+      "Ryan Rosen"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Anuj Mehta"
      ],
      "a": [
       "Stephanie George",
@@ -47773,8 +47871,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jesse Martinez"
      ],
      "a": [
       "Claudya Elefante",
@@ -47784,30 +47882,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jingru Du",
+      "Austin Lloyd"
      ],
      "a": [
       "Erika Richards",
       "Mike Ceron"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Friedman",
+      "Nicolas Ha"
      ],
      "a": [
       "Daisy Zhang",
-      ""
+      "Ryan Rosen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tessa Arendt",
+      "Jingru Du"
      ],
      "a": [
       "Claudya Elefante",
@@ -47817,8 +47923,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Henzes",
+      "Mickey Ma"
      ],
      "a": [
       "Stephanie George",
@@ -47828,19 +47934,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Martinez",
+      "Austin Lloyd"
      ],
      "a": [
       "Adam Beck",
       "Mike Ceron"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anuj Mehta",
+      "Nicolas Ha"
      ],
      "a": [
       "Michael Velez",
@@ -49139,7 +49249,7 @@
       ""
      ],
      "a": [
-      "Michael Vincent",
+      "Austin Favale",
       "Eric Moore"
      ]
     },
@@ -49194,8 +49304,8 @@
       ""
      ],
      "a": [
-      "Denise Chetaitis",
-      "Mary Smith"
+      "Mary Smith",
+      "Denise Chetaitis"
      ]
     },
     {
@@ -49227,8 +49337,8 @@
       ""
      ],
      "a": [
-      "Kevin Smith",
-      "Michael Vincent"
+      "Alexander Morales",
+      "Austin Favale"
      ]
     },
     {
@@ -49239,7 +49349,7 @@
      ],
      "a": [
       "Kimberly Ercolino",
-      "Eric Moore"
+      "Alexander Morales"
      ]
     },
     {
@@ -49260,8 +49370,8 @@
       ""
      ],
      "a": [
-      "Laura Capuano",
-      "Alexander Morales"
+      "Danielle Burgess",
+      "Ian Vomero"
      ]
     },
     {
@@ -49304,8 +49414,8 @@
       ""
      ],
      "a": [
-      "Alexander Morales",
-      "Austin Favale"
+      "Michael Vincent",
+      "Kevin Smith"
      ]
     },
     {
@@ -49315,8 +49425,8 @@
       ""
      ],
      "a": [
-      "Ian Vomero",
-      "Eric Moore"
+      "Eric Moore",
+      "Austin Favale"
      ]
     }
    ]
@@ -49892,7 +50002,6 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
-  "Austin Lloyd": "0623144e-55c6-4ec1-bdc4-7e6cbfbc4453",
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
@@ -49908,7 +50017,6 @@
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
   "Chase Pac": "76874590-6501-40f8-ab24-7df0fb631c71",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
-  "Ryan Rosen": "97f2b250-2030-4296-be61-63cffb17043b",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
   "Ian Karr": "acf05b71-fa40-494b-adca-d3c411d484a6",
@@ -49920,6 +50028,7 @@
   "Kierstin Gant": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
   "Pauline Phan": "c7a57dba-0fdc-4731-b54d-4c70158561f7",
   "Brandon Tsang": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
+  "Jason Quach": "d7a91739-044a-4d8a-8079-640206c67db0",
   "Brian Landau": "e036945a-5009-4ae2-96a1-623387de7100",
   "Daniel Pham": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
   "Ryan Ly": "fdb06ae5-2465-4c24-ad6c-ea21b86e2e0c",
@@ -50327,14 +50436,6 @@
    "outsideSub": true
   },
   {
-   "name": "Ricky Jutkiewicz",
-   "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
-   "gender": "Male",
-   "team": "Home Court",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Shangjia Dong",
    "playerId": "a6d8088e-3253-4253-a79d-e389864e2359",
    "gender": "Male",
@@ -50479,6 +50580,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jason Quach",
+   "playerId": "d7a91739-044a-4d8a-8079-640206c67db0",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Jake Laifer",
    "playerId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643",
    "gender": "Male",
@@ -50603,7 +50712,7 @@
   "matchesPlayed": 57,
   "provisionalMatches": 1,
   "weeks": "1-6",
-  "totalPlayers": 411,
+  "totalPlayers": 413,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -50740,7 +50849,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T11:38:22.993Z";
+  DATA.meta.asOf = "2026-09-30T17:18:12.467Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

@@ -6878,8 +6878,8 @@
    "name": "Haiying Hu",
    "gender": "Female",
    "team": "Allstar Pickler",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 5,
@@ -33389,7 +33389,6 @@
     }
    ],
    "subs": [
-    "Haiying Hu",
     "John Zhong",
     "Dan Lorenz"
    ]
@@ -35720,7 +35719,6 @@
     "Allison Xiao",
     "Kara Chubrik",
     "Glenn Markowitz",
-    "Haiying Hu",
     "Danielle Harcourt",
     "Bill Smith",
     "Irene Guile",
@@ -40491,14 +40489,6 @@
   {
    "result": null,
    "week": 8,
-   "home": "Home Court",
-   "away": "Pickleball Palace",
-   "time": "2026-10-11T13:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
    "home": "PickleRage Union County",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-10-11T13:00:00",
@@ -40923,6 +40913,14 @@
   {
    "result": null,
    "week": 13,
+   "home": "Home Court",
+   "away": "Pickleball Palace",
+   "time": "2026-11-14T12:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 13,
    "home": "Picklr Newark",
    "away": "Dill Dinkers Lansdale",
    "time": "2026-11-15T12:00:00",
@@ -41201,14 +41199,6 @@
    "playerId": "2f7ab054-2612-40b7-802c-fb07c80b409a",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Haiying Hu",
-   "playerId": "30568077-6244-48c9-b1cb-66d788ed8a4a",
-   "gender": "Female",
-   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -42069,7 +42059,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T21:43:07.615Z";
+  DATA.meta.asOf = "2026-09-30T17:20:11.688Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

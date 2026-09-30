@@ -17914,11 +17914,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -17935,11 +17931,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -17972,11 +17964,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -18008,11 +17996,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -18390,8 +18374,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -18948,7 +18931,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -18989,7 +18971,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -22191,7 +22172,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      1,
      1
@@ -29098,7 +29078,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -34812,11 +34791,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -34865,11 +34840,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -34886,11 +34857,7 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    }
   ],
   "ratingHistory": [
@@ -38955,7 +38922,6 @@
     "ff": 0,
     "sub": 0,
     "subFor": null,
-    "withSub": 1,
     "vsSub": [
      0,
      1
@@ -47171,8 +47137,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -47224,8 +47189,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -48663,11 +48627,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 6,
@@ -48683,11 +48643,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 6,
@@ -48719,11 +48675,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    },
    {
     "wk": 6,
@@ -52035,8 +51987,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -52053,8 +52005,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -52069,8 +52021,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -52089,8 +52041,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -52105,8 +52057,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -52125,8 +52077,8 @@
     "a": 21,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      1,
      1
@@ -52145,8 +52097,8 @@
     "a": 19,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -52165,8 +52117,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -52181,8 +52133,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Flemington Green",
+    "sub": 0,
+    "subFor": null,
     "vsSub": [
      0,
      1
@@ -52509,11 +52461,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -60173,11 +60121,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -61093,11 +61037,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -73227,11 +73167,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Allstar Pickler",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,
@@ -73263,11 +73199,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Allstar Pickler",
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": "Allstar Pickler"
    }
   ],
   "ratingHistory": [
@@ -78318,11 +78250,7 @@
     "ff": 0,
     "sub": 1,
     "subFor": "Allstar Pickler",
-    "withSub": 1,
-    "vsSub": [
-     0,
-     1
-    ]
+    "withSub": 1
    },
    {
     "wk": 6,

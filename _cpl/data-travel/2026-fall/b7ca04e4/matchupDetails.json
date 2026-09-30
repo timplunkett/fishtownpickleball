@@ -55737,10 +55737,6 @@
     }
   },
   {
-    "matchupId": "814f429d-1498-4549-ab9e-b67bafb820d0",
-    "details": {}
-  },
-  {
     "matchupId": "369fff68-2be5-42f7-96ea-f213905a051d",
     "details": {
       "lineups": {
@@ -60044,10 +60040,6 @@
     }
   },
   {
-    "matchupId": "bda6eb35-5c1c-4cfd-a15d-a4c71b913cd4",
-    "details": {}
-  },
-  {
     "matchupId": "7aad9dab-6265-4ab9-8873-5373e8e8f900",
     "details": {}
   },
@@ -60101,6 +60093,10 @@
   },
   {
     "matchupId": "ff35f2df-401c-4879-8dd4-2e7d3749f482",
+    "details": {}
+  },
+  {
+    "matchupId": "bda6eb35-5c1c-4cfd-a15d-a4c71b913cd4",
     "details": {}
   },
   {
@@ -60269,6 +60265,10 @@
   },
   {
     "matchupId": "960fdc59-48ed-4f3d-9935-2b8f3ca21f28",
+    "details": {}
+  },
+  {
+    "matchupId": "814f429d-1498-4549-ab9e-b67bafb820d0",
     "details": {}
   },
   {

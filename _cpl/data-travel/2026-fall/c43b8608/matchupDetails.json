@@ -23441,7 +23441,7 @@
           {
             "playerId": "30568077-6244-48c9-b1cb-66d788ed8a4a",
             "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 5,
             "wins": 1,
             "losses": 4,
@@ -33678,10 +33678,6 @@
     "details": {}
   },
   {
-    "matchupId": "b7b6a6c6-c7ac-46cd-b655-b72ae27ee89a",
-    "details": {}
-  },
-  {
     "matchupId": "f087b3f3-cb72-4311-ad9c-fa22596f6ccb",
     "details": {}
   },
@@ -33891,6 +33887,10 @@
   },
   {
     "matchupId": "f1cb3e35-4326-4ba5-b717-6c244f532a0d",
+    "details": {}
+  },
+  {
+    "matchupId": "b7b6a6c6-c7ac-46cd-b655-b72ae27ee89a",
     "details": {}
   },
   {

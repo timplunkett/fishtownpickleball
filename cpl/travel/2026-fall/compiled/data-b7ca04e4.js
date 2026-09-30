@@ -64291,14 +64291,6 @@
   },
   {
    "result": null,
-   "week": 5,
-   "home": "Bounce Tempest",
-   "away": "Players Courtyard",
-   "time": "2026-10-25T13:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
    "week": 6,
    "home": "LBF Pickleball",
    "away": "Pickleball Kingdom Hillsborough",
@@ -69353,14 +69345,6 @@
   },
   {
    "result": null,
-   "week": 6,
-   "home": "Picklr Newark",
-   "away": "Delco Turf & Pickle",
-   "time": "2026-10-09T19:30:00",
-   "complete": false
-  },
-  {
-   "result": null,
    "week": 7,
    "home": "Forward",
    "away": "Picklr Exton",
@@ -69469,6 +69453,14 @@
    "home": "Bounce Malvern",
    "away": "ACE Downingtown",
    "time": "2026-10-07T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 7,
+   "home": "Picklr Newark",
+   "away": "Delco Turf & Pickle",
+   "time": "2026-10-09T19:30:00",
    "complete": false
   },
   {
@@ -69805,6 +69797,14 @@
    "home": "PKLD",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-24T18:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 9,
+   "home": "Bounce Tempest",
+   "away": "Players Courtyard",
+   "time": "2026-10-25T13:00:00",
    "complete": false
   },
   {
@@ -70150,6 +70150,7 @@
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Patrick Reece": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
+  "Rebecca Woofter": "4032408a-b5eb-41c5-a865-fca764d688a5",
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
@@ -70417,6 +70418,14 @@
    "playerId": "4002e339-8807-4847-8590-ade6c826e1e6",
    "gender": "Female",
    "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rebecca Woofter",
+   "playerId": "4032408a-b5eb-41c5-a865-fca764d688a5",
+   "gender": "Female",
+   "team": "Players Courtyard",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -71292,7 +71301,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-09-30T03:08:25.536Z";
+  DATA.meta.asOf = "2026-09-30T17:19:18.760Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

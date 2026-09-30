@@ -15227,7 +15227,7 @@
           {
             "playerId": "60e2facd-7ab0-4dee-9e9e-919be67cf30c",
             "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 8,
             "wins": 3,
             "losses": 5,

@@ -6904,8 +6904,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -8418,8 +8417,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -11849,8 +11847,8 @@
     "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
-    "sub": 1,
-    "subFor": "Forward"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -11867,8 +11865,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Forward"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -11883,8 +11881,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Forward",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -11900,8 +11898,8 @@
     "a": 11,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Forward"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -11916,8 +11914,8 @@
     "a": 11,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Forward"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -11932,8 +11930,8 @@
     "a": 12,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Forward"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -11948,8 +11946,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Forward",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    }
   ],
@@ -16367,7 +16365,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -41333,8 +41331,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -41350,8 +41347,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -46594,7 +46590,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -46648,11 +46644,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -79648,11 +79640,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -79717,11 +79705,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -107877,8 +107861,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "withSub": 1
+    "subFor": "Forward"
    }
   ],
   "ratingHistory": [
@@ -146859,8 +146842,7 @@
     "w": 0,
     "ff": 0,
     "sub": 1,
-    "subFor": "Forward",
-    "withSub": 1
+    "subFor": "Forward"
    },
    {
     "wk": 6,
@@ -171280,7 +171262,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    }
@@ -185461,11 +185443,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -185481,11 +185459,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -185523,7 +185497,7 @@
     "sub": 0,
     "subFor": null,
     "vsSub": [
-     1,
+     0,
      1
     ]
    }
@@ -189447,11 +189421,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -189503,11 +189473,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -199658,11 +199624,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,

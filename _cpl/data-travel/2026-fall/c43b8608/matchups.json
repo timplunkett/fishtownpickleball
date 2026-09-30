@@ -757,18 +757,6 @@
       "awayName": "Picklr Newtown"
     },
     {
-      "matchupId": "b7b6a6c6-c7ac-46cd-b655-b72ae27ee89a",
-      "weekNumber": 8,
-      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-11T13:00:00",
-      "homeName": "Home Court",
-      "awayName": "Pickleball Palace"
-    },
-    {
       "matchupId": "f087b3f3-cb72-4311-ad9c-fa22596f6ccb",
       "weekNumber": 8,
       "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
@@ -1403,6 +1391,18 @@
       "scheduledTime": "2026-11-08T14:00:00",
       "homeName": "One Love",
       "awayName": "Stelton Sports"
+    },
+    {
+      "matchupId": "b7b6a6c6-c7ac-46cd-b655-b72ae27ee89a",
+      "weekNumber": 13,
+      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-14T12:00:00",
+      "homeName": "Home Court",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "b2f6cd16-dbac-43cd-8279-429e8937f966",

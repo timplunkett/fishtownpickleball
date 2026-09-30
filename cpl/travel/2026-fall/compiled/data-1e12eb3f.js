@@ -904,8 +904,8 @@
    "name": "David Ward",
    "gender": "Male",
    "team": "Forward",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 5,
@@ -13275,7 +13275,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 558,
+   "leagueRank": 559,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 557,
+   "leagueRank": 558,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13565,7 +13565,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 555,
+   "leagueRank": 556,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13601,6 +13601,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
+  },
+  {
+   "name": "Nicole Casciello",
+   "gender": "Female",
+   "team": "Mercer Bucks",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 510,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a"
   },
   {
    "name": "Guy Ercol",
@@ -44549,8 +44578,7 @@
    "subs": [
     "Ed Palek",
     "Jonathan Capeci",
-    "Elisa Riesenbach",
-    "David Ward"
+    "Elisa Riesenbach"
    ]
   },
   {
@@ -50016,7 +50044,389 @@
    "home": "Pickleball Kingdom Hamilton Strikers",
    "away": "Mercer Bucks",
    "time": "2026-10-03T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Casciello",
+      "Ken Gross"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Tami Mohney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Nicole Casciello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Belmont",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Casciello",
+      "Gregg Downs"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jason Belmont"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Jean Knab"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Nicole Casciello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Belmont",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Howard Eng",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Casciello",
+      "Jason Belmont"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Cheryl Tarby"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Jean Knab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Belmont",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Gross",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Casciello",
+      "Jason Belmont"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Gregg Downs"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Tarby",
+      "Tami Mohney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Nicole Casciello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Belmont",
+      "Howard Eng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Gross",
+      "Gregg Downs"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -50726,7 +51136,6 @@
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Tom Chiaravalloti": "9d3c9f50-f9e6-4cd2-8d3f-998d783722b6",
   "Aimee Kierney": "9fbfc247-65a9-4fb2-b5f6-82ed6ce4e2f9",
-  "Nicole Casciello": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Vincent Rizzo": "ba7888da-e110-406f-b2fd-4c1166dc28ed",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
@@ -50736,6 +51145,7 @@
   "Sharon Pastore": "cdd6b427-286b-4fe5-941c-7bdaf9de2843",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
+  "Bob Tarallo": "e01c608d-ae63-44cc-86df-12974213e100",
   "Norm Jones": "e25b79a2-a054-4642-a926-1499e0768832",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
   "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea"
@@ -51854,14 +52264,6 @@
    "outsideSub": true
   },
   {
-   "name": "David Ward",
-   "playerId": "d52e39b2-80ba-4c68-b6ce-7945feefd838",
-   "gender": "Male",
-   "team": "Forward",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Virgo Marjamaa",
    "playerId": "d8d92449-f754-45b9-acf1-821822b1abb5",
    "gender": "Male",
@@ -51922,6 +52324,14 @@
    "playerId": "e014dcb5-a4a2-4cf6-8773-14fb13bf2c7b",
    "gender": "Male",
    "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Bob Tarallo",
+   "playerId": "e01c608d-ae63-44cc-86df-12974213e100",
+   "gender": "Male",
+   "team": "Life Time Red Bank",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -52122,7 +52532,7 @@
   "matchesPlayed": 61,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 511,
+  "totalPlayers": 512,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -52254,7 +52664,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T21:41:21.735Z";
+  DATA.meta.asOf = "2026-09-30T17:17:40.877Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

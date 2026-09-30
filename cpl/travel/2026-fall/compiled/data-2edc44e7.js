@@ -3833,8 +3833,8 @@
    "name": "John Hauth",
    "gender": "Male",
    "team": "Flemington Green",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 3,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 211,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,7 +5677,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5706,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 225,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 224,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 228,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -20229,7 +20229,6 @@
     }
    ],
    "subs": [
-    "John Hauth",
     "Ping Peng",
     "Lan Bin",
     "Jieping Wang"
@@ -21073,11 +21072,13 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Brooke Obrien": "06b66cca-2292-4bbe-962e-1217c4418e18",
+  "Laura Govan": "110b981a-77ae-42b0-8200-4e30e9ce157a",
   "Laura Altieri": "16aee8ed-3398-46f5-bd76-ec71473a2db4",
   "Jaco De Waal": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
   "Cheryl Isbirian": "23c87311-dae9-47a5-be80-30aab8231ce2",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
   "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
+  "Dave Govan": "5c1e16e3-303e-48ca-8ad7-77077727394d",
   "Andrea Dellechiaie": "84e4d40d-3b98-4822-b073-e9dc71c0d4d7",
   "Virasack Vorabouth": "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
@@ -21110,6 +21111,14 @@
    "playerId": "096a6a65-5d60-461f-91ed-d2eafbd7dd76",
    "gender": "Female",
    "team": "APC Garden State",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Govan",
+   "playerId": "110b981a-77ae-42b0-8200-4e30e9ce157a",
+   "gender": "Female",
+   "team": "Flemington Blue",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -21306,18 +21315,18 @@
    "outsideSub": true
   },
   {
-   "name": "Danny Mellul",
-   "playerId": "5dccd915-178e-4316-8e9b-e0a3db8edfa9",
+   "name": "Dave Govan",
+   "playerId": "5c1e16e3-303e-48ca-8ad7-77077727394d",
    "gender": "Male",
-   "team": "APC Garden State",
+   "team": "Flemington Blue",
    "isCaptain": false,
    "outsideSub": true
   },
   {
-   "name": "John Hauth",
-   "playerId": "60e2facd-7ab0-4dee-9e9e-919be67cf30c",
+   "name": "Danny Mellul",
+   "playerId": "5dccd915-178e-4316-8e9b-e0a3db8edfa9",
    "gender": "Male",
-   "team": "Flemington Green",
+   "team": "APC Garden State",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -21671,7 +21680,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T03:06:14.798Z";
+  DATA.meta.asOf = "2026-09-30T17:16:53.625Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

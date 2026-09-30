@@ -4570,6 +4570,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "David Ward",
+   "playerId": "d52e39b2-80ba-4c68-b6ce-7945feefd838",
+   "team": "Forward",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "David Wheeler",
    "playerId": "d335be77-6a7a-4f96-91c6-0a5cbcc8ea9f",
    "team": "Pickleball HQ",
@@ -6562,6 +6569,13 @@ window.DUPR_AUDIT = {
    "playerId": "04504eed-6831-4a3d-9854-8a6ba147e1a8",
    "team": "Pickleball Kingdom Hamilton",
    "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Haiying Hu",
+   "playerId": "30568077-6244-48c9-b1cb-66d788ed8a4a",
+   "team": "Allstar Pickler",
+   "slug": "c43b8608",
    "gender": "Female"
   },
   {
@@ -8816,6 +8830,13 @@ window.DUPR_AUDIT = {
    "playerId": "ffde9017-6c1a-4fb4-947d-6a46338593ce",
    "team": "Premiere Aces",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "John Hauth",
+   "playerId": "60e2facd-7ab0-4dee-9e9e-919be67cf30c",
+   "team": "Flemington Green",
+   "slug": "2edc44e7",
    "gender": "Male"
   },
   {
@@ -15130,6 +15151,13 @@ window.DUPR_AUDIT = {
    "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
    "team": "Home Court",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Ricky Jutkiewicz",
+   "playerId": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
+   "team": "Home Court",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {

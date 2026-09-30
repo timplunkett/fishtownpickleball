@@ -22646,8 +22646,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Kelly Bowers"
      ],
      "a": [
       "Jess Cox",
@@ -22657,8 +22657,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Karen Waldon"
      ],
      "a": [
       "Rachel Baluyot",
@@ -22668,19 +22668,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Nancy Cook"
      ],
      "a": [
       "Debi Mcdonald",
       "Joanne Rim"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Jessica Wormeck"
      ],
      "a": [
       "Hope Lo",
@@ -22690,19 +22694,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Holly Ferguson"
      ],
      "a": [
       "Vilayvanh Sysounthone",
       "Jess Cox"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Karen Waldon"
      ],
      "a": [
       "Janine Thompson",
@@ -22712,8 +22720,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Jessica Wormeck"
      ],
      "a": [
       "Joanne Rim",
@@ -22723,8 +22731,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Christine Ziegler"
      ],
      "a": [
       "Hope Lo",
@@ -22734,19 +22742,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Meghan Klein"
      ],
      "a": [
       "Janine Thompson",
       "Vilayvanh Sysounthone"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Kelly Bowers"
      ],
      "a": [
       "Jess Cox",
@@ -22756,8 +22768,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Holly Ferguson"
      ],
      "a": [
       "Angie Ratkowitz",
@@ -22767,8 +22779,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Nancy Cook"
      ],
      "a": [
       "Ly Kim",
@@ -22778,8 +22790,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Meghan Klein"
      ],
      "a": [
       "Joanne Rim",
@@ -22789,19 +22801,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Christine Ziegler"
      ],
      "a": [
       "Rachel Baluyot",
       "Jess Cox"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Nancy Cook"
      ],
      "a": [
       "Ly Kim",
@@ -22811,8 +22827,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Kelly Bowers"
      ],
      "a": [
       "Kumi Dalton",
@@ -22822,19 +22838,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Jessica Wormeck"
      ],
      "a": [
       "Joanne Rim",
       "Kumi Dalton"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Karen Waldon"
      ],
      "a": [
       "Hope Lo",
@@ -22844,8 +22864,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Nancy Cook"
      ],
      "a": [
       "Janine Thompson",
@@ -22855,8 +22875,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Monika Torbus"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -22866,19 +22886,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Mary Brashier"
      ],
      "a": [
       "Joanne Rim",
       "Jess Cox"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Nancy Cook"
      ],
      "a": [
       "Hope Lo",
@@ -22888,8 +22912,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Karen Waldon"
      ],
      "a": [
       "Angie Ratkowitz",
@@ -22899,8 +22923,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Christine Ziegler"
      ],
      "a": [
       "Cheryl Brodsky",
@@ -22910,19 +22934,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Monika Torbus"
      ],
      "a": [
       "Jess Cox",
       "Kumi Dalton"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Nancy Cook"
      ],
      "a": [
       "Janine Thompson",
@@ -22932,8 +22960,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Christine Ziegler"
      ],
      "a": [
       "Ly Kim",
@@ -22943,8 +22971,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Meghan Klein"
      ],
      "a": [
       "Cheryl Brodsky",
@@ -22954,19 +22982,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Karen Waldon"
      ],
      "a": [
       "Joanne Rim",
       "Jess Cox"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Kelly Bowers"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -22976,8 +23008,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Christine Ziegler"
      ],
      "a": [
       "Angie Ratkowitz",
@@ -22987,8 +23019,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Nancy Cook"
      ],
      "a": [
       "Ly Kim",
@@ -24524,7 +24556,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T03:09:33.231Z";
+  DATA.meta.asOf = "2026-09-30T17:20:44.252Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

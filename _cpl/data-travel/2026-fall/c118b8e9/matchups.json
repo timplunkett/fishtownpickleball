@@ -629,9 +629,9 @@
       "weekNumber": 6,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
       "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 536,
+      "awayPoints": 635,
+      "endResult": "away",
       "scheduledTime": "2026-09-29T19:30:00",
       "homeName": "Allstar Pickler",
       "awayName": "Pickleball Kingdom Lehigh Valley"
