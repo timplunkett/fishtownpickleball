@@ -2697,7 +2697,6 @@ thead th:focus-visible,
 .lineup-roster-table th,
 .lineup-roster-table td {
   padding: 7px 12px;
-  font-size: 11px;
   border-bottom: 1px solid rgb(42 50 61 / 65%);
 }
 
@@ -2714,12 +2713,6 @@ thead th:focus-visible,
 
 .lineup-roster-table tbody tr:last-child td {
   border-bottom: 0;
-}
-
-.lineup-roster-table td.l {
-  color: var(--txt);
-  font-size: 12px;
-  font-weight: 650;
 }
 
 /* Top Duos, narrowed to the matchup's two teams. Closed by default — see
