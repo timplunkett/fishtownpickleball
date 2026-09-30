@@ -43,6 +43,12 @@ are easy to break without noticing.
 
   Re-read the trailer immediately before committing. A bare `Claude`, a missing
   trailer, or a stale model name have each slipped through before.
+  `.githooks/commit-msg` rejects a malformed title when committing on `main`
+  (branch commits that land via a merge commit can be titled freely; the
+  merge commit's title must conform), and on any branch a trailer without a
+  model name or, inside Claude Code, a missing trailer. It can't tell a
+  *stale* model name from the right one, so checking that is still on you.
+  If it rejects a commit, fix the message; don't `--no-verify` past it.
 - Body explains *why*. Data churn cleanup from a fix goes in its own
   `chore(CPL): …` commit, not mixed into the code change.
 

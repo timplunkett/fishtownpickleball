@@ -1,0 +1,86 @@
+#!/usr/bin/env sh
+# Checks a commit message against the repo's conventions (see AGENTS.md
+# "Commits") before the commit is created:
+#
+#   1. On main only: the title is a conventional commit — `type(Scope): Title`
+#      or `type: Title` — with a known type and a capitalized first word.
+#      Branch commits can be titled freely.
+#   2. Any `Co-authored-by: Claude …` trailer names a model, e.g.
+#      `Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>`. A bare
+#      `Claude <…>` has slipped through before.
+#   3. When the commit comes from inside Claude Code (which sets CLAUDECODE=1
+#      in every shell it spawns), that trailer is required, not optional.
+#
+# Merge, revert, fixup!/squash!/amend! commits are let through untouched.
+#
+# Enabled via `git config core.hooksPath .githooks` (done automatically by
+# the "prepare" npm script on `npm install`), alongside pre-push. Skip once
+# with `git commit --no-verify` if you really mean it.
+
+set -e
+
+msg_file="$1"
+comment_char=$(git config --get core.commentChar 2>/dev/null || echo '#')
+[ "$comment_char" = "auto" ] && comment_char='#'
+
+# The message as git will record it: stop at the `git commit -v` scissors
+# line, drop comment lines.
+msg=$(sed -e "/^$comment_char -\{8,\} >8 -\{8,\}\$/,\$d" "$msg_file" |
+  grep -v "^$comment_char" || true)
+
+title=$(printf '%s\n' "$msg" | sed -n '/[^[:space:]]/{p;q;}')
+
+fail() {
+  echo "commit-msg: $1" >&2
+  shift
+  for line in "$@"; do echo "  $line" >&2; done
+  echo "  (Conventions: AGENTS.md \"Commits\". Bypass once: git commit --no-verify)" >&2
+  exit 1
+}
+
+case "$title" in
+  "Merge "* | "Revert "* | "fixup! "* | "squash! "* | "amend! "*) exit 0 ;;
+  "") exit 0 ;; # empty message: git aborts the commit itself
+esac
+
+# Title rules only apply on main. Commits on other branches are free-form
+# detail that lands via a merge commit, and that merge's title is what
+# carries the convention.
+branch=$(git symbolic-ref --short -q HEAD 2>/dev/null || true)
+if [ "$branch" = "main" ]; then
+  types='bot|build|chore|ci|docs|feat|fix|perf|refactor|revert|style|task|test'
+
+  if ! printf '%s\n' "$title" | grep -Eq "^($types)(\([^()]+\))?!?: "; then
+    fail "title isn't a conventional commit:" \
+      "$title" \
+      "Expected e.g. 'feat(CPL): Add the thing'. Types: $(echo "$types" | tr '|' ' ')"
+  fi
+
+  subject=$(printf '%s\n' "$title" | sed -E 's/^[^:]+: //')
+  if ! printf '%s\n' "$subject" | grep -Eq '^[A-Z0-9#"`'"'"']'; then
+    fail "capitalize the first word after the colon:" "$title"
+  fi
+
+  second_line=$(printf '%s\n' "$msg" | sed -n '2p')
+  if [ -n "$second_line" ]; then
+    fail "leave a blank line between the title and the body."
+  fi
+fi
+
+# Every Claude co-author line, however it's capitalized.
+claude_trailers=$(printf '%s\n' "$msg" | grep -iE '^co-authored-by:[[:space:]]*claude([^[:alnum:]]|$)' || true)
+valid='^Co-authored-by: Claude [A-Z][a-z]+ [0-9]+(\.[0-9]+)* <noreply@anthropic\.com>$'
+
+if [ -n "$claude_trailers" ]; then
+  bad=$(printf '%s\n' "$claude_trailers" | grep -viE "$valid" || true)
+  if [ -n "$bad" ]; then
+    fail "Claude co-author trailer must name the model actually running:" \
+      "$bad" \
+      "Expected e.g. 'Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>'"
+  fi
+elif [ "${CLAUDECODE:-}" = "1" ]; then
+  fail "commits made from Claude Code need a co-author trailer as the last line:" \
+    "Co-authored-by: Claude <Model Name> <noreply@anthropic.com>"
+fi
+
+exit 0

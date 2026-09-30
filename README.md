@@ -343,6 +343,16 @@ pages (`cpl/app.js`, `cpl/home.js`, `cpl/styles.css`, `cpl/home.css`,
 `cpl/dupr-audit/index.html`). A push that only touches those, or nothing
 under `_cpl/`/`cpl/` at all, is left alone.
 
+A commit-msg hook (`.githooks/commit-msg`, enabled the same way) checks each
+commit message before it's recorded. On `main` only, the title must be a
+conventional commit with a known type and a capitalized first word
+(`feat(CPL): Add the thing`), followed by a blank line before any body; commits
+on other branches can be titled freely, since the merge commit that lands them
+carries the convention. On every branch, any `Co-authored-by: Claude …` trailer
+must name a real model. Inside Claude Code, which sets `CLAUDECODE=1` in the shells it spawns,
+that trailer is required. Merge, revert and `fixup!`/`squash!` commits are
+skipped. `git commit --no-verify` bypasses it for one commit.
+
 ## Runbook
 
 **Re-run a single division.** Get the slug from `cpl/compiled/catalog.js` or from
