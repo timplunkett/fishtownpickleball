@@ -5889,6 +5889,35 @@
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
   },
   {
+   "name": "Dylan Unkert",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 230,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "35415e5c-19db-4389-9839-b63d7e09851f"
+  },
+  {
    "name": "Amanda Kiszonak",
    "gender": "Female",
    "team": "Home Court",
@@ -25734,8 +25763,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Dipen Bhatt"
      ],
      "a": [
       "Charlotte Healey",
@@ -25745,19 +25774,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Gage Cvijic"
      ],
      "a": [
       "Rachel Alfano",
       "Dustin Rabinowitz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Zach Hollmann"
      ],
      "a": [
       "Alyssa Boyle",
@@ -25767,8 +25800,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Mickey Cook"
      ],
      "a": [
       "Julia Sternberg",
@@ -25778,8 +25811,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Yoyo Shen"
      ],
      "a": [
       "Rachel Alfano",
@@ -25789,8 +25822,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Lissa Eagles"
      ],
      "a": [
       "Alyssa Boyle",
@@ -25800,8 +25833,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hollmann",
+      "Dipen Bhatt"
      ],
      "a": [
       "Mark Kilimnik",
@@ -25811,19 +25844,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Unkert",
+      "Mickey Cook"
      ],
      "a": [
       "William Hayes",
       "Dustin Rabinowitz"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Mickey Cook"
      ],
      "a": [
       "Julia Sternberg",
@@ -25833,19 +25870,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Gage Cvijic"
      ],
      "a": [
       "Alyssa Boyle",
       "Zachary Lessner"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Zach Hollmann"
      ],
      "a": [
       "Rachel Alfano",
@@ -25855,19 +25896,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Dylan Unkert"
      ],
      "a": [
       "Charlotte Healey",
       "William Hayes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Yoyo Shen"
      ],
      "a": [
       "Rachel Alfano",
@@ -25877,8 +25922,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Lissa Eagles"
      ],
      "a": [
       "Alyssa Boyle",
@@ -25888,8 +25933,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Dipen Bhatt"
      ],
      "a": [
       "Mark Kilimnik",
@@ -25899,30 +25944,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Unkert",
+      "Zach Hollmann"
      ],
      "a": [
       "William Hayes",
       "Zachary Lessner"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Dylan Unkert"
      ],
      "a": [
       "Charlotte Healey",
       "Alex Boory"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Mickey Cook"
      ],
      "a": [
       "Rachel Alfano",
@@ -25932,8 +25985,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Zach Hollmann"
      ],
      "a": [
       "Alyssa Boyle",
@@ -25943,19 +25996,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Gage Cvijic"
      ],
      "a": [
       "Julia Sternberg",
       "Mark Kilimnik"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Emily Babinsky"
      ],
      "a": [
       "Charlotte Healey",
@@ -25965,8 +26022,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Lissa Eagles"
      ],
      "a": [
       "Alyssa Boyle",
@@ -25976,52 +26033,68 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dipen Bhatt",
+      "Dylan Unkert"
      ],
      "a": [
       "William Hayes",
       "Alex Boory"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hollmann",
+      "Gage Cvijic"
      ],
      "a": [
       "Mark Kilimnik",
       "Zachary Lessner"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Dylan Unkert"
      ],
      "a": [
       "Charlotte Healey",
       "William Hayes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Gage Cvijic"
      ],
      "a": [
       "Julia Sternberg",
       "Dustin Rabinowitz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Zach Hollmann"
      ],
      "a": [
       "Alyssa Boyle",
@@ -26031,8 +26104,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Dipen Bhatt"
      ],
      "a": [
       "Rachel Alfano",
@@ -26042,8 +26115,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Lissa Eagles"
      ],
      "a": [
       "Alyssa Boyle",
@@ -26053,8 +26126,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Emily Babinsky"
      ],
      "a": [
       "Charlotte Healey",
@@ -26064,23 +26137,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gage Cvijic",
+      "Mickey Cook"
      ],
      "a": [
       "Mark Kilimnik",
       "Alex Boory"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hollmann",
+      "Dylan Unkert"
      ],
      "a": [
       "Dustin Rabinowitz",
       "Zachary Lessner"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -27117,7 +27198,6 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
-  "Dylan Unkert": "35415e5c-19db-4389-9839-b63d7e09851f",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -27586,7 +27666,7 @@
   "matchesPlayed": 32,
   "provisionalMatches": 0,
   "weeks": "1-5",
-  "totalPlayers": 218,
+  "totalPlayers": 219,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -27678,7 +27758,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T03:08:42.583Z";
+  DATA.meta.asOf = "2026-09-30T11:39:17.224Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
