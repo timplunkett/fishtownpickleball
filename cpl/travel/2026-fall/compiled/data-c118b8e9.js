@@ -4036,8 +4036,8 @@
    "name": "Luke Simon",
    "gender": "Male",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 6,
@@ -30993,7 +30993,6 @@
     }
    ],
    "subs": [
-    "Luke Simon",
     "Todd Mitchell",
     "Abdullah Osman"
    ]
@@ -41221,7 +41220,6 @@
     }
    ],
    "subs": [
-    "Luke Simon",
     "Nathan Labarba",
     "Sal Cocuzza"
    ]
@@ -42632,14 +42630,6 @@
  },
  "availableSubs": [
   {
-   "name": "Luke Simon",
-   "playerId": "0069c456-f712-435e-abd7-461018159661",
-   "gender": "Male",
-   "team": "Montville",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Matthew Rafaniello",
    "playerId": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
    "gender": "Male",
@@ -43274,7 +43264,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T17:21:09.822Z";
+  DATA.meta.asOf = "2026-09-30T21:44:28.596Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -14087,11 +14087,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -65421,11 +65417,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -65474,11 +65466,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -65510,11 +65498,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -66580,8 +66564,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -66598,8 +66582,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -66614,8 +66598,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -66630,8 +66614,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -66646,8 +66630,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -66663,8 +66647,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -66679,8 +66663,8 @@
     "a": 15,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces",
+    "sub": 0,
+    "subFor": null,
     "withSub": 1
    },
    {
@@ -66696,8 +66680,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 6,
@@ -66712,8 +66696,8 @@
     "a": 16,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Premiere Aces"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -101282,11 +101266,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -101339,11 +101319,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -101359,11 +101335,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -106533,8 +106505,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces",
-    "withSub": 1
+    "subFor": "Premiere Aces"
    },
    {
     "wk": 6,
@@ -106571,8 +106542,7 @@
     "w": 1,
     "ff": 0,
     "sub": 1,
-    "subFor": "Premiere Aces",
-    "withSub": 1
+    "subFor": "Premiere Aces"
    },
    {
     "wk": 6,
@@ -119179,11 +119149,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -119236,11 +119202,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -125650,11 +125612,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -125673,7 +125631,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -125723,11 +125681,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -153090,8 +153044,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -153188,8 +153141,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -163106,11 +163058,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 6,
@@ -163149,7 +163097,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -163185,7 +163133,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    }
   ],
@@ -167080,8 +167028,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -167163,8 +167110,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -170036,8 +169982,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,
@@ -174796,7 +174741,7 @@
     "subFor": null,
     "vsSub": [
      1,
-     1
+     0
     ]
    },
    {
@@ -197851,8 +197796,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 6,

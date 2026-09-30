@@ -11071,7 +11071,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 444,
+   "leagueRank": 445,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11129,7 +11129,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 449,
+   "leagueRank": 450,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 447,
+   "leagueRank": 448,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 441,
+   "leagueRank": 442,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11513,6 +11513,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "97f2b250-2030-4296-be61-63cffb17043b"
+  },
+  {
+   "name": "Dana Sun",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 440,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c"
   },
   {
    "name": "Timothy Vorhauer",
@@ -46507,8 +46536,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Abhishekh Mehra"
      ],
      "a": [
       "Jamie Hahn",
@@ -46518,8 +46547,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Craig Brown"
      ],
      "a": [
       "Mary Brashier",
@@ -46529,19 +46558,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Lance Brown"
      ],
      "a": [
-      "",
+      "Dana Sun",
       "Eric Berlinger"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Serena Martz",
+      "Ivan Rios"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46551,8 +46584,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Eva Danieli"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46562,19 +46595,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Natasha De Carvalho"
      ],
      "a": [
       "Mary Brashier",
-      ""
+      "Dana Sun"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Ivan Rios"
      ],
      "a": [
       "Jorge Diaz",
@@ -46584,8 +46621,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Lance Brown"
      ],
      "a": [
       "John Fallone",
@@ -46595,19 +46632,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Abhishekh Mehra"
      ],
      "a": [
-      "",
+      "Dana Sun",
       "John Fallone"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Craig Brown"
      ],
      "a": [
       "Mary Brashier",
@@ -46617,8 +46658,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Ivan Rios"
      ],
      "a": [
       "Jamie Hahn",
@@ -46628,8 +46669,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Serena Martz",
+      "Sree Harsha Konduru"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46639,8 +46680,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Eva Danieli"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46650,19 +46691,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Natasha De Carvalho"
      ],
      "a": [
       "Mary Brashier",
-      ""
+      "Dana Sun"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Sree Harsha Konduru"
      ],
      "a": [
       "Eric Berlinger",
@@ -46672,8 +46717,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lance Brown",
+      "Craig Brown"
      ],
      "a": [
       "John Fallone",
@@ -46683,8 +46728,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Sree Harsha Konduru"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46694,8 +46739,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Ivan Rios"
      ],
      "a": [
       "Mary Brashier",
@@ -46705,8 +46750,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Abhishekh Mehra"
      ],
      "a": [
       "Jamie Hahn",
@@ -46716,19 +46761,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Serena Martz",
+      "Craig Brown"
      ],
      "a": [
-      "",
+      "Dana Sun",
       "Tom Hadler"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Serena Martz"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46738,19 +46787,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Natasha De Carvalho"
      ],
      "a": [
       "Jamie Hahn",
-      ""
+      "Dana Sun"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Craig Brown"
      ],
      "a": [
       "John Fallone",
@@ -46760,8 +46813,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sree Harsha Konduru",
+      "Lance Brown"
      ],
      "a": [
       "Tom Hadler",
@@ -46771,8 +46824,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Craig Brown"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46782,8 +46835,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alice Napolitano",
+      "Lance Brown"
      ],
      "a": [
       "Mary Brashier",
@@ -46793,8 +46846,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Ivan Rios"
      ],
      "a": [
       "Jamie Hahn",
@@ -46804,19 +46857,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Serena Martz",
+      "Sree Harsha Konduru"
      ],
      "a": [
-      "",
+      "Dana Sun",
       "John Lottier"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Alice Napolitano"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -46826,19 +46883,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Natasha De Carvalho",
+      "Serena Martz"
      ],
      "a": [
       "Jamie Hahn",
-      ""
+      "Dana Sun"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Sree Harsha Konduru"
      ],
      "a": [
       "Tom Hadler",
@@ -46848,8 +46909,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Lance Brown"
      ],
      "a": [
       "John Fallone",
@@ -50744,6 +50805,14 @@
    "outsideSub": true
   },
   {
+   "name": "Dana Sun",
+   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Daniel Pham",
    "playerId": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
    "gender": "Male",
@@ -50796,7 +50865,7 @@
   "matchesPlayed": 57,
   "provisionalMatches": 1,
   "weeks": "1-6",
-  "totalPlayers": 414,
+  "totalPlayers": 415,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -50933,7 +51002,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T18:59:30.021Z";
+  DATA.meta.asOf = "2026-09-30T21:42:19.915Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

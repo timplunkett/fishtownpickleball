@@ -4442,8 +4442,8 @@
    "name": "April Danks",
    "gender": "Female",
    "team": "Premiere Aces",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 5,
@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 552,
+   "leagueRank": 554,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13188,7 +13188,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 547,
+   "leagueRank": 548,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13275,7 +13275,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 559,
+   "leagueRank": 561,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 558,
+   "leagueRank": 560,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13362,7 +13362,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 545,
+   "leagueRank": 546,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 551,
+   "leagueRank": 552,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13565,7 +13565,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 556,
+   "leagueRank": 558,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13594,7 +13594,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 549,
+   "leagueRank": 550,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13630,6 +13630,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a"
+  },
+  {
+   "name": "Bob Tarallo",
+   "gender": "Male",
+   "team": "Life Time Red Bank",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 555,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "e01c608d-ae63-44cc-86df-12974213e100"
   },
   {
    "name": "Guy Ercol",
@@ -45507,7 +45536,6 @@
    ],
    "subs": [
     "Feng Song",
-    "April Danks",
     "Alan Fang",
     "Joe Amendolara",
     "Enza Cristino"
@@ -50442,7 +50470,413 @@
    "home": "Premiere Dinkers",
    "away": "Life Time Red Bank",
    "time": "2026-10-03T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Mark Zamkoff"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Blair Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Virgo Marjamaa"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Elaine Aquilone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "Bob Tarallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virgo Marjamaa",
+      "Mark Zamkoff"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Blair Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Bob Tarallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Virgo Marjamaa"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Elaine Aquilone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bob Tarallo",
+      "Blair Lane"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virgo Marjamaa",
+      "Mark Zamkoff"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Virgo Marjamaa"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Bob Tarallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Blair Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Elaine Aquilone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "Bob Tarallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Zamkoff",
+      "Blair Lane"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Virgo Marjamaa"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Bob Tarallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Mark Zamkoff"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Elaine Aquilone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Zamkoff",
+      "Blair Lane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Virgo Marjamaa",
+      "Leo Decker"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -51145,10 +51579,10 @@
   "Sharon Pastore": "cdd6b427-286b-4fe5-941c-7bdaf9de2843",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
-  "Bob Tarallo": "e01c608d-ae63-44cc-86df-12974213e100",
   "Norm Jones": "e25b79a2-a054-4642-a926-1499e0768832",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
-  "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea"
+  "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea",
+  "Heather Russo": "f12d7d68-2a79-4956-9445-755e91408271"
  },
  "availableSubs": [
   {
@@ -51468,14 +51902,6 @@
    "playerId": "368129c9-202c-459c-bdfd-da8ca04597f7",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "April Danks",
-   "playerId": "37721720-7c72-44d7-bc7c-c73f62e2fb4b",
-   "gender": "Female",
-   "team": "Premiere Aces",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -52440,6 +52866,14 @@
    "outsideSub": true
   },
   {
+   "name": "Heather Russo",
+   "playerId": "f12d7d68-2a79-4956-9445-755e91408271",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Matt Stone",
    "playerId": "f32137a7-e7f0-4891-8691-81732f3db7f5",
    "gender": "Male",
@@ -52532,7 +52966,7 @@
   "matchesPlayed": 61,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 512,
+  "totalPlayers": 513,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -52664,7 +53098,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T17:17:40.877Z";
+  DATA.meta.asOf = "2026-09-30T21:41:56.372Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

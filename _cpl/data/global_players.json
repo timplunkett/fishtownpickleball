@@ -33846,7 +33846,7 @@
     "lastName": "Reckenbeil",
     "dupr": "EGW7RJ",
     "duprRating": "4.031",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 5702848913,
     "duprProvisional": false
   },
@@ -47414,6 +47414,16 @@
     "duprRating": "3.238",
     "lastSeen": "2026-09",
     "duprNumericId": 6248578077,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "f12d7d68-2a79-4956-9445-755e91408271",
+    "firstName": "HEATHER",
+    "lastName": "RUSSO",
+    "dupr": "0YME7X",
+    "duprRating": "2.196",
+    "lastSeen": "2026-09",
+    "duprNumericId": 7826574583,
     "duprProvisional": false
   }
 ]

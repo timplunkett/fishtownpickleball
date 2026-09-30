@@ -40660,6 +40660,14 @@
   {
    "result": null,
    "week": 10,
+   "home": "Flemington",
+   "away": "APC Garden State",
+   "time": "2026-10-25T09:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 10,
    "home": "Picklr Newtown",
    "away": "Dill Dinkers Lansdale",
    "time": "2026-10-25T12:00:00",
@@ -40678,14 +40686,6 @@
    "week": 10,
    "home": "Pickleball Kingdom Watchung",
    "away": "PickleRage Union County",
-   "time": "2026-10-25T12:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 10,
-   "home": "Flemington",
-   "away": "APC Garden State",
    "time": "2026-10-25T12:00:00",
    "complete": false
   },
@@ -42039,7 +42039,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T19:01:06.638Z";
+  DATA.meta.asOf = "2026-09-30T21:43:40.378Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

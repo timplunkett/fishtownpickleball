@@ -1057,6 +1057,18 @@
       "awayName": "Pickleball Kingdom Hillsborough"
     },
     {
+      "matchupId": "ef1cc08d-9ab6-47f3-bddb-331f326b3d1c",
+      "weekNumber": 10,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T09:00:00",
+      "homeName": "Flemington",
+      "awayName": "APC Garden State"
+    },
+    {
       "matchupId": "0c0b4ae7-1a2c-404f-be19-189584474b05",
       "weekNumber": 10,
       "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
@@ -1091,18 +1103,6 @@
       "scheduledTime": "2026-10-25T12:00:00",
       "homeName": "Pickleball Kingdom Watchung",
       "awayName": "PickleRage Union County"
-    },
-    {
-      "matchupId": "ef1cc08d-9ab6-47f3-bddb-331f326b3d1c",
-      "weekNumber": 10,
-      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-25T12:00:00",
-      "homeName": "Flemington",
-      "awayName": "APC Garden State"
     },
     {
       "matchupId": "1f6f3c54-6cd0-44ae-9f62-f8f0398294ea",

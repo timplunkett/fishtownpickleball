@@ -1602,6 +1602,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "April Danks",
+   "playerId": "37721720-7c72-44d7-bc7c-c73f62e2fb4b",
+   "team": "Premiere Aces",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Aradhna Saxena",
    "playerId": "68e4e990-d8cf-4d28-8491-54d7ce2c4e87",
    "team": "Dill Dinkers Hatboro The Factory",
@@ -11602,6 +11609,13 @@ window.DUPR_AUDIT = {
    "playerId": "42795346-b8aa-4e5d-80a5-8a1768c094e8",
    "team": "Jersey Pickleball Club",
    "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Luke Simon",
+   "playerId": "0069c456-f712-435e-abd7-461018159661",
+   "team": "Montville",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
