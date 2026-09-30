@@ -9299,7 +9299,7 @@
       "gender": "Female",
       "dupr": "ZNMRMW",
       "isCaptain": false,
-      "isSub": false,
+      "isSub": true,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
       "wins": 0,

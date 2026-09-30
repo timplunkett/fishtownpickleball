@@ -11138,35 +11138,6 @@
    "playerId": "e8434ae3-5d11-4d76-9e67-82f56d4f3db8"
   },
   {
-   "name": "Dana Sun",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Watchung",
-   "matches": 0,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 430,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c"
-  },
-  {
    "name": "David Biskowitz",
    "gender": "Male",
    "team": "Montville Rocks",
@@ -41013,6 +40984,7 @@
   "Joy Frederick": "e97daa4f-0d54-4e83-87a3-3762d363be43",
   "Yaoye Li": "eaa86091-5879-48bf-8bd1-b0689f887818",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
+  "Dana Sun": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
   "Chris Heimerle": "fc870151-9569-4e09-883d-c81e9cfaf6d8",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
@@ -41867,6 +41839,14 @@
    "outsideSub": true
   },
   {
+   "name": "Dana Sun",
+   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Jack Feinstein",
    "playerId": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
    "gender": "Male",
@@ -41943,7 +41923,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 2,
   "weeks": "1-6",
-  "totalPlayers": 410,
+  "totalPlayers": 409,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42059,7 +42039,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T17:20:11.688Z";
+  DATA.meta.asOf = "2026-09-30T19:01:06.638Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

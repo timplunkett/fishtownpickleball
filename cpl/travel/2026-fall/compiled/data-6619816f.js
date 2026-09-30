@@ -5706,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 228,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 224,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 224,
+   "leagueRank": 225,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 232,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -27198,6 +27198,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
+  "Andre Cristobal": "50d796da-0ac2-4f94-af29-212d7865f473",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -27369,6 +27370,14 @@
    "name": "Cally Kerrigan",
    "playerId": "4c9897dc-1d71-46b0-bf05-e21d2f3efcb0",
    "gender": "Female",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Andre Cristobal",
+   "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
+   "gender": "Male",
    "team": "Flemington",
    "isCaptain": false,
    "outsideSub": true
@@ -27758,7 +27767,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T11:39:17.224Z";
+  DATA.meta.asOf = "2026-09-30T19:00:40.686Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -9053,8 +9053,8 @@
    "name": "Melissa Mackey",
    "gender": "Female",
    "team": "Players Courtyard",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 3,
@@ -36363,9 +36363,7 @@
      ]
     }
    ],
-   "subs": [
-    "Melissa Mackey"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -47987,9 +47985,7 @@
      ]
     }
    ],
-   "subs": [
-    "Melissa Mackey"
-   ]
+   "subs": []
   },
   {
    "result": null,
@@ -49274,14 +49270,6 @@
    "outsideSub": true
   },
   {
-   "name": "Melissa Mackey",
-   "playerId": "eb92331b-662d-4f91-bf8a-aa8b93c0c02b",
-   "gender": "Female",
-   "team": "Players Courtyard",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Jaerene Medeiros",
    "playerId": "ee6add19-54b8-42db-b4ea-81ea6c1ec00a",
    "gender": "Female",
@@ -49501,7 +49489,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T17:19:44.267Z";
+  DATA.meta.asOf = "2026-09-30T18:58:17.645Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
