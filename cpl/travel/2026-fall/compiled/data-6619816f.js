@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -27117,6 +27117,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
+  "Dylan Unkert": "35415e5c-19db-4389-9839-b63d7e09851f",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -27225,6 +27226,14 @@
    "playerId": "30cb78cb-f962-40f9-bd02-78d336920431",
    "gender": "Female",
    "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dylan Unkert",
+   "playerId": "35415e5c-19db-4389-9839-b63d7e09851f",
+   "gender": "Male",
+   "team": "Pickle House",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -27669,7 +27678,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T21:42:41.567Z";
+  DATA.meta.asOf = "2026-09-30T03:08:42.583Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

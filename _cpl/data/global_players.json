@@ -31958,7 +31958,7 @@
     "lastName": "Isbirian",
     "dupr": "1R9NZZ",
     "duprRating": "3.969",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-09",
     "duprNumericId": 4650644628,
     "duprProvisional": false
   },
@@ -32808,7 +32808,7 @@
     "lastName": "Unkert",
     "dupr": "XJOR4X",
     "duprRating": "5.104",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-09",
     "duprNumericId": 7418236482,
     "duprProvisional": false
   },
@@ -47394,6 +47394,16 @@
     "duprRating": "3.760",
     "lastSeen": "2026-09",
     "duprNumericId": 4727934419,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "16aee8ed-3398-46f5-bd76-ec71473a2db4",
+    "firstName": "Laura",
+    "lastName": "Altieri",
+    "dupr": "4LV56V",
+    "duprRating": "3.418",
+    "lastSeen": "2026-09",
+    "duprNumericId": 8091027435,
     "duprProvisional": false
   }
 ]

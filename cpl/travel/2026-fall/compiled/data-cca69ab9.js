@@ -24786,8 +24786,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aleksey Sergeev",
+      "Christopher Venuto"
      ],
      "a": [
       "Matt Schall",
@@ -24797,8 +24797,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Purwah",
+      "Ivan Rios"
      ],
      "a": [
       "Zach Hizer",
@@ -24808,8 +24808,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Steve Susskind"
      ],
      "a": [
       "John Gargana",
@@ -24823,8 +24823,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Brian O'Neill"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -24834,8 +24834,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Christopher Venuto"
      ],
      "a": [
       "Zach Hizer",
@@ -24845,8 +24845,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Purwah",
+      "Aleksey Sergeev"
      ],
      "a": [
       "Kevin Lin",
@@ -24860,8 +24860,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Julius Degen"
      ],
      "a": [
       "Matt Schall",
@@ -24871,8 +24871,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Steve Susskind"
      ],
      "a": [
       "Gary Sidhu",
@@ -24882,8 +24882,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Ivan Rios"
      ],
      "a": [
       "Andrew Bernard",
@@ -24893,8 +24893,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Julius Degen",
+      "Aleksey Sergeev"
      ],
      "a": [
       "Zach Hizer",
@@ -24908,8 +24908,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Purwah",
+      "Abhishekh Mehra"
      ],
      "a": [
       "Gary Sidhu",
@@ -24919,8 +24919,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Brian O'Neill"
      ],
      "a": [
       "Kevin Lin",
@@ -24934,8 +24934,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Rahul Purwah"
      ],
      "a": [
       "John Gargana",
@@ -24949,8 +24949,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Aleksey Sergeev"
      ],
      "a": [
       "Andrew Bernard",
@@ -24964,8 +24964,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Christopher Venuto"
      ],
      "a": [
       "Gary Sidhu",
@@ -24975,8 +24975,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Julius Degen",
+      "Steve Susskind"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -24986,8 +24986,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Ivan Rios"
      ],
      "a": [
       "Zach Hizer",
@@ -25001,8 +25001,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian O'Neill",
+      "Christopher Venuto"
      ],
      "a": [
       "Matt Schall",
@@ -25016,8 +25016,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Julius Degen",
+      "Abhishekh Mehra"
      ],
      "a": [
       "Andrew Bernard",
@@ -25027,8 +25027,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Purwah",
+      "Aleksey Sergeev"
      ],
      "a": [
       "Gary Sidhu",
@@ -25038,8 +25038,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Aleksey Sergeev"
      ],
      "a": [
       "Andrew Bernard",
@@ -25049,8 +25049,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Purwah",
+      "Abhishekh Mehra"
      ],
      "a": [
       "Kevin Lin",
@@ -25064,8 +25064,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Brian O'Neill"
      ],
      "a": [
       "Matt Schall",
@@ -25079,8 +25079,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Julius Degen",
+      "Steve Susskind"
      ],
      "a": [
       "Kevin Wysoczynski",
@@ -25090,8 +25090,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Purwah",
+      "Christopher Venuto"
      ],
      "a": [
       "Matt Schall",
@@ -25101,8 +25101,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Aleksey Sergeev"
      ],
      "a": [
       "John Gargana",
@@ -25116,8 +25116,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Julius Degen"
      ],
      "a": [
       "Gary Sidhu",
@@ -25127,8 +25127,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Steve Susskind"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -25142,8 +25142,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abhishekh Mehra",
+      "Christopher Venuto"
      ],
      "a": [
       "Andrew Bernard",
@@ -25157,8 +25157,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Aleksey Sergeev"
      ],
      "a": [
       "Matt Schall",
@@ -25168,8 +25168,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Rahul Purwah"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -25179,8 +25179,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Brian O'Neill"
      ],
      "a": [
       "Gary Sidhu",
@@ -26040,7 +26040,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-29T21:43:19.745Z";
+  DATA.meta.asOf = "2026-09-30T03:09:21.338Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

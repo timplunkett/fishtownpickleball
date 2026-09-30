@@ -689,9 +689,9 @@
       "weekNumber": 6,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 470,
+      "awayPoints": 671,
+      "endResult": "away",
       "scheduledTime": "2026-09-29T19:30:00",
       "homeName": "Pickleball Palace",
       "awayName": "Montville"
