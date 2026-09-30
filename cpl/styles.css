@@ -1786,24 +1786,6 @@ thead th:focus-visible,
   color: var(--mut);
 }
 
-.duolist {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  max-width: 640px;
-}
-
-.duolist .d {
-  display: flex;
-  gap: 12px;
-  justify-content: space-between;
-  padding: 8px 12px;
-  font-size: 13px;
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-}
-
 @media (max-width: 920px) {
   .teams {
     grid-template-columns: repeat(2, 1fr);
@@ -2740,6 +2722,60 @@ thead th:focus-visible,
   font-weight: 650;
 }
 
+/* Top Duos, narrowed to the matchup's two teams. Closed by default — see
+   renderLineupDuos in app.js. */
+.lineup-duos {
+  margin-top: 14px;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.lineup-duos summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  align-items: baseline;
+  padding: 11px 13px;
+  background: var(--panel2);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.lineup-duos summary::-webkit-details-marker {
+  display: none;
+}
+
+.lineup-duos-title {
+  color: var(--txt);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.lineup-duos-title::before {
+  content: '▸ ';
+  color: var(--mut);
+}
+
+.lineup-duos[open] .lineup-duos-title::before {
+  content: '▾ ';
+}
+
+.lineup-duos-tag {
+  color: var(--mut);
+  font-size: 10.5px;
+}
+
+.lineup-duos-wrap {
+  margin: 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .lineup-games-section {
   margin-top: 28px;
 }
@@ -2972,7 +3008,7 @@ thead th:focus-visible,
   .stable tbody td,
   #tbl thead th,
   #tbl tbody td,
-  #duotbl tbody td {
+  .duo-table tbody td {
     height: 44px;
   }
 

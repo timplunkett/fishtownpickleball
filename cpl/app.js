@@ -229,7 +229,7 @@ const elements = {
   captain: getRequiredElement('captain'),
   divisionFavorite: getRequiredElement('division-favorite'),
   divisionSelect: getRequiredElement('division-select'),
-  duoBody: getRequiredElement('duobody'),
+  duoHost: getRequiredElement('duohost'),
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
   gridHost: getRequiredElement('grid-host'),
@@ -484,6 +484,36 @@ let sortKey = DEFAULT_SORT.key;
 let sortDirection = DEFAULT_SORT.direction;
 let rosterSortKey = 'rating';
 let rosterSortDirection = -1;
+// Columns shared by every Top Duos table: the division page's, the team page's
+// (which drops Team), and the Lineup Lab's.
+const DUO_COLUMNS = [
+  { key: 'rank', label: '#', align: 'left' },
+  { key: 'pair', label: 'Pair', align: 'left' },
+  { key: 'team', label: 'Team', align: 'left' },
+  { key: 'n', label: 'Together' },
+  { key: 'wl', label: 'W–L' },
+  { key: 'synergy', label: 'Synergy' },
+  { key: 'avgActual', label: 'Actual/g' },
+  { key: 'avgExpected', label: 'Expected/g' },
+];
+const DUO_ASCENDING = new Set(['rank', 'pair', 'team']);
+const DUO_SORT_VALUES = {
+  rank: (duo, rankOf) => rankOf.get(duo),
+  pair: (duo) => `${duo.a ?? ''} & ${duo.b ?? ''}`,
+  team: (duo) => duo.team ?? '',
+  n: (duo) => duo.n,
+  // Win share, so 3–0 outranks 4–3; more wins breaks a tie between equal shares.
+  wl: (duo) => (duo.w + duo.l ? duo.w / (duo.w + duo.l) : 0) + duo.w * 1e-6,
+  synergy: (duo) => duo.synergy,
+  avgActual: (duo) => duo.avgActual,
+  avgExpected: (duo) => duo.avgExpected,
+};
+// Each duo table's sort, keyed by its data-duo-table name. Not persisted, same
+// as the roster table's.
+const duoTableSorts = {};
+// What each duo table last rendered, so a header click can re-sort that table
+// in place rather than re-render the page around it.
+const duoTableInputs = {};
 let routeSetByApp = false;
 // 'table' (one division-wide ranking) or 'cards' (pod-grouped). The table is the
 // default: it answers "where does everyone stand" in one glance and one screen,
@@ -2956,6 +2986,38 @@ function renderLineupRoster(teamName, side) {
   </section>`;
 }
 
+// The dashboard's Top Duos table, narrowed to the two teams in this matchup.
+// A <details> rather than a collapsible .msec: the lab has no contents strip,
+// and this starts closed, the opposite of the dashboard's sections, so it gets
+// its own remembered flag instead of a slot in prefs.collapsed. Every change in
+// the lab re-renders the whole view, so the open state has to live somewhere
+// other than the element — see handleLineupDuosToggle.
+function renderLineupDuos(teamA, teamB) {
+  const teams = new Set([teamA, teamB].filter(Boolean));
+  const duos = (DATA.duos || []).filter((duo) => teams.has(duo.team));
+  const table = renderDuoTable('lineup', duos, {
+    emptyMessage: 'Neither team has a pair with 3+ games together yet.',
+  });
+  return `<details class="lineup-duos"${prefs.lineupDuosOpen ? ' open' : ''}>
+    <summary>
+      <span class="lineup-duos-title">Top duos</span>
+      <span class="lineup-duos-tag">${duos.length} ${pluralize(duos.length, 'pair', 'pairs')} • chemistry — how much a pair beats the result their four ratings predict, per game (min 3 games together)</span>
+    </summary>
+    <div class="panel scroll lineup-duos-wrap">
+      ${table}
+    </div>
+  </details>`;
+}
+
+// <details> toggles don't bubble, so this is registered in the capture phase.
+// Re-rendering with `open` fires a toggle too; writing the same value back is
+// harmless.
+function handleLineupDuosToggle(event) {
+  if (!event.target.classList?.contains('lineup-duos')) return;
+  if (Boolean(prefs.lineupDuosOpen) === event.target.open) return;
+  writePrefs({ lineupDuosOpen: event.target.open });
+}
+
 function lineupMatchupDescription() {
   const { teamA, teamB, matchupIndex } = lineupLabState;
   const match = matchupIndex == null ? null : lineupSeasonMatchesForTeam(teamA)[matchupIndex];
@@ -3086,6 +3148,8 @@ function renderLineupLab({ scroll = true } = {}) {
       ${renderLineupRoster(lineupLabState.teamA, 'a')}
       ${renderLineupRoster(lineupLabState.teamB, 'b')}
     </div>
+
+    ${renderLineupDuos(lineupLabState.teamA, lineupLabState.teamB)}
 
     <section class="lineup-games-section">
       <div class="lineup-games-heading">
@@ -3592,17 +3656,44 @@ function getFilteredDuos() {
   );
 }
 
-function renderDuos() {
-  const duos = getFilteredDuos();
-  const rows = duos
-    .map((duo, index) => {
+// Every Top Duos table — the division page's, the team page's, and the Lineup
+// Lab's — so all three rank, color, sort, and link a pair the same way. # is
+// each pair's position in the list as passed in (synergy order, after any
+// filter), not a league-wide rank, and it stays with the pair when another
+// column is sorted, so clicking # puts the table back the way it started.
+function renderDuoTable(name, duos, { showTeam = true, emptyMessage }) {
+  duoTableInputs[name] = { duos, showTeam, emptyMessage };
+  const { key: duoSortKey, direction } = duoTableSorts[name] || { key: 'rank', direction: 1 };
+  const columns = showTeam ? DUO_COLUMNS : DUO_COLUMNS.filter(({ key }) => key !== 'team');
+  const rankOf = new Map(duos.map((duo, index) => [duo, index + 1]));
+  const getValue = DUO_SORT_VALUES[duoSortKey];
+  const sorted = duos.slice().sort((a, b) => {
+    const valueA = getValue(a, rankOf);
+    const valueB = getValue(b, rankOf);
+    const diff = typeof valueA === 'string' ? valueA.localeCompare(valueB) : valueA - valueB;
+    return (diff * direction) || (rankOf.get(a) - rankOf.get(b));
+  });
+
+  const headerCells = columns.map(({ key, label, align }) => {
+    const classes = [align === 'left' ? 'l' : '', key === duoSortKey ? 'sorted' : ''].filter(Boolean);
+    const classAttr = classes.length ? ` class="${classes.join(' ')}"` : '';
+    const ariaSort = key === duoSortKey ? (direction === -1 ? 'descending' : 'ascending') : 'none';
+    return `<th scope="col" data-dk="${key}" tabindex="0" aria-sort="${ariaSort}"${classAttr}>${label}</th>`;
+  }).join('');
+
+  const rows = sorted
+    .map((duo) => {
+      const rank = rankOf.get(duo);
       const synergyClass = duo.synergy >= 0 ? 'pos-diff' : 'neg-diff';
-      const rankClass = index < 3 ? ` g${index + 1}` : '';
+      const rankClass = rank <= 3 ? ` g${rank}` : '';
+      const teamCell = showTeam
+        ? `<td class="l"><span class="teamdot" style="background:${getTeamColor(duo.team)}"></span>${escapeHtml(duo.team ?? '')}</td>`
+        : '';
       return `
         <tr class="duorow" data-player="${escapeHtml(duo.aId || duo.a)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(duo.a)}'s player detail">
-          <td class="l"><span class="pos${rankClass}">${index + 1}</span></td>
+          <td class="l"><span class="pos${rankClass}">${rank}</span></td>
           <td class="l">${escapeHtml(duo.a)} <span class="amp">&amp;</span> ${escapeHtml(duo.b)}</td>
-          <td class="l"><span class="teamdot" style="background:${getTeamColor(duo.team)}"></span>${escapeHtml(duo.team ?? '')}</td>
+          ${teamCell}
           <td>${duo.n}</td>
           <td><b>${duo.w}</b>–${duo.l}</td>
           <td><span class="rating ${synergyClass}">${formatSignedValue(duo.synergy, 1)}</span></td>
@@ -3611,15 +3702,39 @@ function renderDuos() {
         </tr>
       `;
     })
-    .join('');
+    .join('')
+    || `<tr><td colspan="${columns.length}" class="l mut" style="padding:16px">${emptyMessage}</td></tr>`;
 
+  return `<table class="duo-table" data-duo-table="${name}"><thead><tr>${headerCells}</tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+// Clicking the current column flips it; a new column starts at its natural
+// direction — ascending for # and text, descending for numbers. Only the one
+// table is replaced, then focus goes back to the header that was used.
+function handleDuoSort(event) {
+  const th = event.target.closest('.duo-table th[data-dk]');
+  if (!th) return;
+  const table = th.closest('.duo-table');
+  const name = table.dataset.duoTable;
+  const key = th.dataset.dk;
+  const current = duoTableSorts[name];
+  duoTableSorts[name] = key === current?.key
+    ? { key, direction: -current.direction }
+    : { key, direction: DUO_ASCENDING.has(key) ? 1 : -1 };
+  const host = table.parentElement;
+  const { duos, ...options } = duoTableInputs[name];
+  table.outerHTML = renderDuoTable(name, duos, options);
+  host.querySelector(`.duo-table th[data-dk="${key}"]`)?.focus({ preventScroll: true });
+  refreshStickyLayout();
+}
+
+function renderDuos() {
   const emptyMessage =
     elements.team.value || elements.search.value.trim()
       ? 'No duos with 3+ games together match the current filter.'
       : 'Not enough shared games yet — duos appear once a pair has played 3+ games together.';
 
-  elements.duoBody.innerHTML =
-    rows || `<tr><td colspan="8" class="l mut" style="padding:16px">${emptyMessage}</td></tr>`;
+  elements.duoHost.innerHTML = renderDuoTable('division', getFilteredDuos(), { emptyMessage });
   refreshStickyLayout();
 }
 
@@ -4071,16 +4186,10 @@ function renderTeamPage(team, { scroll = true } = {}) {
     return `<div class="fmt-card"><div class="l">${label}</div><div class="v">${formatRecordWithPct(wins, losses)}</div><div class="p">${formatWinPct(wins, losses)}% game wins</div></div>`;
   };
 
-  const duosMarkup = duos.length
-    ? `<div class="duolist">${duos
-        .map((duo) => `
-          <div class="d">
-            <span><b>${escapeHtml(duo.a)}</b> &amp; <b>${escapeHtml(duo.b)}</b> <span class="mut">(${duo.w}–${duo.l}, ${duo.n}g)</span></span>
-            <span class="${duo.synergy >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(duo.synergy, 1)}</span>
-          </div>
-        `)
-        .join('')}</div>`
-    : '<div class="mut" style="font-size:13px">No duos with 3+ games together yet.</div>';
+  const duosMarkup = `<div class="panel scroll">${renderDuoTable('team', duos, {
+    showTeam: false,
+    emptyMessage: 'No duos with 3+ games together yet.',
+  })}</div>`;
 
   const upcomingMarkup = upcoming.length
     ? upcoming.map((match) => renderPendingTeamMatchBlock(match, team.name)).join('')
@@ -4803,6 +4912,9 @@ function initialize() {
   elements.teamView.addEventListener('click', handleTocClick);
   elements.lineupView?.addEventListener('change', handleLineupLabChange);
   elements.lineupView?.addEventListener('click', handleLineupLabClick);
+  elements.lineupView?.addEventListener('click', handleDuoClick);
+  elements.lineupView?.addEventListener('click', handleDuoSort);
+  elements.lineupView?.addEventListener('toggle', handleLineupDuosToggle, true);
   elements.lineupLink?.addEventListener('click', (event) => {
     if (!isPlainClick(event)) return;
     event.preventDefault();
@@ -4843,7 +4955,10 @@ function initialize() {
   });
   elements.gridHost.addEventListener('click', handleGridClick);
   elements.gridViewToggle.addEventListener('click', handleGridViewClick);
-  elements.duoBody.addEventListener('click', handleDuoClick);
+  elements.duoHost.addEventListener('click', handleDuoClick);
+  elements.duoHost.addEventListener('click', handleDuoSort);
+  elements.teamView.addEventListener('click', handleDuoClick);
+  elements.teamView.addEventListener('click', handleDuoSort);
   elements.swarmHost.addEventListener('click', handleSwarmClick);
   elements.swarmHost.addEventListener('click', handleSwarmLegendClick);
   elements.swarmHost.addEventListener('mouseover', handleSwarmOver);
@@ -4867,7 +4982,12 @@ function initialize() {
 
   elements.head.addEventListener('keydown', activateOnKeydown(handleColumnSort));
   elements.gridHost.addEventListener('keydown', activateOnKeydown(handleGridClick));
-  elements.duoBody.addEventListener('keydown', activateOnKeydown(handleDuoClick));
+  elements.duoHost.addEventListener('keydown', activateOnKeydown(handleDuoClick));
+  elements.duoHost.addEventListener('keydown', activateOnKeydown(handleDuoSort));
+  elements.teamView.addEventListener('keydown', activateOnKeydown(handleDuoClick));
+  elements.teamView.addEventListener('keydown', activateOnKeydown(handleDuoSort));
+  elements.lineupView?.addEventListener('keydown', activateOnKeydown(handleDuoClick));
+  elements.lineupView?.addEventListener('keydown', activateOnKeydown(handleDuoSort));
   elements.swarmHost.addEventListener('keydown', activateOnKeydown(handleSwarmClick));
   elements.modalHead.addEventListener('keydown', activateOnKeydown(handlePartnerChipClick));
   window.addEventListener('popstate', () => {
