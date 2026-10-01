@@ -30,6 +30,11 @@
 <meta name="twitter:description" content="Team standings, head-to-head results and adjusted player ratings for a local club league division.">
 <meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
 <link rel="stylesheet" href="../../styles.css">
+<!-- app.js is requested by bootstrap.js only once the division's data file has
+     loaded, because it reads that data as it starts. Downloading it is another
+     matter: preloaded, it arrives alongside the data instead of after it, which
+     takes a whole round trip and its own transfer off every dashboard load. -->
+<link rel="preload" href="../../app.js" as="script">
 </head>
 <body>
 <noscript>
@@ -177,6 +182,8 @@
   <div class="panel scroll">
     <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
   </div>
+  <!-- Filled by renderShowAll when the table holds more rows than it draws. -->
+  <div class="show-all-host" id="body-more" hidden></div>
   </div>
   </section>
 
@@ -199,6 +206,7 @@
   </h2>
   <div class="msec-body" id="top-duos-body">
     <div class="panel scroll" id="duohost"></div>
+    <div class="show-all-host" id="duohost-more" hidden></div>
   </div>
   </section>
   </div><!-- /mainview -->
