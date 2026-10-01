@@ -3,7 +3,16 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | where_exp: "page", "page.title != nil" | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <img class="site-logo" src="{{site.logo | relative_url}}" />
+    {%- comment -%}
+      Drawn at 4em, so a 128px copy covers a 2x screen. site.logo (512px,
+      ~210 KB) stays the og:image and touch icon; on every page load it was
+      most of the bytes the site sent. The dimensions reserve its box so the
+      header doesn't jump when it arrives.
+    {%- endcomment %}
+    <picture>
+      <source srcset="{{ '/assets/logo-128.webp' | relative_url }}" type="image/webp">
+      <img class="site-logo" src="{{ '/assets/logo-128.png' | relative_url }}" width="128" height="128" alt="">
+    </picture>
     <h1><a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>
 
     {%- if page_paths and page_paths.size != 0 -%}
