@@ -2869,6 +2869,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Carolyn Ward",
+   "playerId": "132ce7b0-abfa-4888-bb2f-a0d95019863c",
+   "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Cassie Lou",
    "playerId": "27f83d5a-2e86-4e5b-af70-9394a8765ac6",
    "team": "PickleRage Union County Net Ninjas",
@@ -11444,6 +11451,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lisamarie Chinchilla",
+   "playerId": "6013eba7-eb0e-493a-8c22-0f1127150a01",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Lissa Eagles",
    "playerId": "9ec39678-a120-45de-b8a5-897b8cf900cd",
    "team": "Pickle House",
@@ -14244,6 +14258,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Patrick Reece",
+   "playerId": "2e3bc500-89e4-4c0d-ab88-9f34662c448e",
+   "team": "Pickle Juice Blackwood",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Patrick Ryan",
    "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
    "team": "Flemington",
@@ -14886,6 +14907,13 @@ window.DUPR_AUDIT = {
    "team": "Open Play",
    "slug": "e27386b3",
    "gender": "Female"
+  },
+  {
+   "name": "Raul Real",
+   "playerId": "5e605c22-faea-41b7-82ac-60046caa7b43",
+   "team": "Pickleball Kingdom Hamilton Prime Time",
+   "slug": "1e12eb3f",
+   "gender": "Male"
   },
   {
    "name": "Ray Hooley",

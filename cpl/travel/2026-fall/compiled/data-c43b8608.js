@@ -38508,7 +38508,6 @@
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-09-27T13:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 496,
    "awayPoints": 674,
    "homeGW": 5,
@@ -38964,14 +38963,14 @@
     }
    ],
    "subs": [
-    "Kara Chubrik",
     "Uma Kamineni",
-    "Ayten Mayer",
+    "Corinne Demeuse",
+    "Kara Chubrik",
     "Karin Schneider",
-    "Robert Shea",
+    "Ayten Mayer",
     "Dari Mehl",
-    "Vlad Radomsky",
-    "Corinne Demeuse"
+    "Robert Shea",
+    "Vlad Radomsky"
    ]
   },
   {
@@ -41921,7 +41920,7 @@
  ],
  "meta": {
   "matchesPlayed": 51,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-6",
   "totalPlayers": 409,
   "ratingHistoryWeeks": [
@@ -42039,7 +42038,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T21:43:40.378Z";
+  DATA.meta.asOf = "2026-10-01T22:11:35.726Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

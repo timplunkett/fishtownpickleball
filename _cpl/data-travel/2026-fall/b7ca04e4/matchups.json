@@ -1025,9 +1025,9 @@
       "weekNumber": 6,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "awayTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 582,
+      "awayPoints": 656,
+      "endResult": "away",
       "scheduledTime": "2026-09-30T19:00:00",
       "homeName": "Premiere",
       "awayName": "PKLD"

@@ -6934,8 +6934,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -6961,8 +6961,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton Prime Time"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

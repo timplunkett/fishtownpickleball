@@ -7852,7 +7852,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 289,
+   "leagueRank": 290,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7881,7 +7881,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 298,
+   "leagueRank": 301,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7910,7 +7910,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 290,
+   "leagueRank": 291,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7939,7 +7939,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7968,7 +7968,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 283,
+   "leagueRank": 284,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42612,6 +42612,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Anthony Solares": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
@@ -42620,10 +42621,12 @@
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
+  "Nate Brochin": "90204557-bb5d-4892-abfe-d2530aa1ac3a",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
   "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
+  "Danny Ruiz": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
@@ -42674,6 +42677,14 @@
    "playerId": "09a7d6c3-7bc5-4760-97a7-71f06a1197a1",
    "gender": "Male",
    "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Anthony Solares",
+   "playerId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -42894,6 +42905,14 @@
    "outsideSub": true
   },
   {
+   "name": "Nate Brochin",
+   "playerId": "90204557-bb5d-4892-abfe-d2530aa1ac3a",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Simon Darlington",
    "playerId": "9ae1e374-e878-450b-9552-e80472590d9e",
    "gender": "Male",
@@ -43042,6 +43061,14 @@
    "playerId": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
    "gender": "Male",
    "team": "Pickleball Kingdom Lehigh Valley",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Danny Ruiz",
+   "playerId": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -43264,7 +43291,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-09-30T21:44:28.596Z";
+  DATA.meta.asOf = "2026-10-01T22:12:18.477Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
