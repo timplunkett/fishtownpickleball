@@ -226,10 +226,14 @@ const TEAM_ABBR_OVERRIDES = Object.freeze({});
 
 const elements = {
   body: getRequiredElement('body'),
+  // Optional, like lineupView: a cached index.html from before the hosts
+  // existed still renders, just with every row drawn.
+  bodyMore: document.getElementById('body-more'),
   captain: getRequiredElement('captain'),
   divisionFavorite: getRequiredElement('division-favorite'),
   divisionSelect: getRequiredElement('division-select'),
   duoHost: getRequiredElement('duohost'),
+  duoHostMore: document.getElementById('duohost-more'),
   footer: getRequiredElement('foot'),
   gender: getRequiredElement('gender'),
   gridHost: getRequiredElement('grid-host'),
@@ -514,6 +518,33 @@ const duoTableSorts = {};
 // What each duo table last rendered, so a header click can re-sort that table
 // in place rather than re-render the page around it.
 const duoTableInputs = {};
+
+// The two division-wide tables run to hundreds of rows — on the largest
+// division 586 players and 1,552 duos, four-fifths of the page's fifty thousand
+// elements, every one of them laid out before anything was drawn. Each now
+// draws its first TABLE_PREVIEW_ROWS rows in the current sort and filter, with
+// a button for the rest. Within TABLE_PREVIEW_SLACK rows of that, the table is
+// drawn whole: a button that hides a dozen rows costs a click to save nothing.
+//
+// Once shown in full a table stays that way through re-sorts and filter
+// changes until the page is reloaded — not persisted, same as the sorts.
+const TABLE_PREVIEW_ROWS = 100;
+const TABLE_PREVIEW_SLACK = 25;
+const expandedTables = new Set();
+
+function previewRowCount(name, total) {
+  if (expandedTables.has(name) || total <= TABLE_PREVIEW_ROWS + TABLE_PREVIEW_SLACK) return total;
+  return TABLE_PREVIEW_ROWS;
+}
+
+function renderShowAll(host, name, shown, total, noun) {
+  if (!host) return;
+  const more = shown < total;
+  host.hidden = !more;
+  host.innerHTML = more
+    ? `<button type="button" class="show-all" data-show-all="${name}">Show all ${total} ${noun}</button>`
+    : '';
+}
 let routeSetByApp = false;
 // 'table' (one division-wide ranking) or 'cards' (pod-grouped). The table is the
 // default: it answers "where does everyone stand" in one glance and one screen,
@@ -2036,7 +2067,9 @@ function comparePlayers(playerA, playerB, key = sortKey, direction = sortDirecti
 
 
 function renderRows(rows) {
+  const shown = elements.bodyMore ? previewRowCount('players', rows.length) : rows.length;
   elements.body.innerHTML = rows
+    .slice(0, shown)
     .map((player, index) => {
       const rankClass =
         sortKey === 'winPct' && sortDirection === -1 && index < 3 ? ` g${index + 1}` : '';
@@ -2052,7 +2085,10 @@ function renderRows(rows) {
     })
     .join('');
 
-  elements.playerCount.textContent = `${rows.length} shown`;
+  elements.playerCount.textContent = shown < rows.length
+    ? `${shown} of ${rows.length} shown`
+    : `${rows.length} shown`;
+  renderShowAll(elements.bodyMore, 'players', shown, rows.length, 'players');
 }
 
 function updateSortedHeader() {
@@ -3705,8 +3741,10 @@ function getFilteredDuos() {
 // each pair's position in the list as passed in (synergy order, after any
 // filter), not a league-wide rank, and it stays with the pair when another
 // column is sorted, so clicking # puts the table back the way it started.
-function renderDuoTable(name, duos, { showTeam = true, emptyMessage }) {
-  duoTableInputs[name] = { duos, showTeam, emptyMessage };
+// `limit` caps how many rows are drawn, after sorting — so a re-sort shows the
+// top of the new order, not a reshuffle of the same rows.
+function renderDuoTable(name, duos, { showTeam = true, emptyMessage, limit = Infinity }) {
+  duoTableInputs[name] = { duos, showTeam, emptyMessage, limit };
   const { key: duoSortKey, direction } = duoTableSorts[name] || { key: 'rank', direction: 1 };
   const columns = showTeam ? DUO_COLUMNS : DUO_COLUMNS.filter(({ key }) => key !== 'team');
   const rankOf = new Map(duos.map((duo, index) => [duo, index + 1]));
@@ -3726,6 +3764,7 @@ function renderDuoTable(name, duos, { showTeam = true, emptyMessage }) {
   }).join('');
 
   const rows = sorted
+    .slice(0, limit)
     .map((duo) => {
       const rank = rankOf.get(duo);
       const synergyClass = duo.synergy >= 0 ? 'pos-diff' : 'neg-diff';
@@ -3755,6 +3794,26 @@ function renderDuoTable(name, duos, { showTeam = true, emptyMessage }) {
 // Clicking the current column flips it; a new column starts at its natural
 // direction — ascending for # and text, descending for numbers. Only the one
 // table is replaced, then focus goes back to the header that was used.
+// The button removes itself, so focus would otherwise drop to the document and
+// leave a keyboard user back at the top of the page. It goes to the first row
+// the button was hiding instead — where the reader was about to be anyway.
+function handleShowAllClick(event) {
+  const button = event.target.closest('button[data-show-all]');
+  if (!button) return;
+  const name = button.dataset.showAll;
+  const shownBefore = name === 'players'
+    ? elements.body.rows.length
+    : elements.duoHost.querySelectorAll('.duorow').length;
+  expandedTables.add(name);
+  if (name === 'players') {
+    render();
+    elements.body.rows[shownBefore]?.querySelector('a, [tabindex]')?.focus();
+  } else {
+    renderDuos();
+    elements.duoHost.querySelectorAll('.duorow')[shownBefore]?.focus();
+  }
+}
+
 function handleDuoSort(event) {
   const th = event.target.closest('.duo-table th[data-dk]');
   if (!th) return;
@@ -3778,7 +3837,10 @@ function renderDuos() {
       ? 'No duos with 3+ games together match the current filter.'
       : 'Not enough shared games yet — duos appear once a pair has played 3+ games together.';
 
-  elements.duoHost.innerHTML = renderDuoTable('division', getFilteredDuos(), { emptyMessage });
+  const duos = getFilteredDuos();
+  const shown = elements.duoHostMore ? previewRowCount('duos', duos.length) : duos.length;
+  elements.duoHost.innerHTML = renderDuoTable('division', duos, { emptyMessage, limit: shown });
+  renderShowAll(elements.duoHostMore, 'duos', shown, duos.length, 'duos');
   refreshStickyLayout();
 }
 
@@ -4959,6 +5021,7 @@ function initialize() {
 
   elements.head.addEventListener('click', handleColumnSort);
   elements.mainView.addEventListener('click', handleSectionToggleClick);
+  elements.mainView.addEventListener('click', handleShowAllClick);
   elements.sectionToc.addEventListener('click', handleTocClick);
   // The team page's sections and strip are rebuilt on every render, so their
   // handlers are delegated from the view itself rather than attached to markup

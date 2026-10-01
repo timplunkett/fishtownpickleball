@@ -179,6 +179,8 @@
   <div class="panel scroll">
     <table id="tbl"><thead><tr id="head"></tr></thead><tbody id="body"></tbody></table>
   </div>
+  <!-- Filled by renderShowAll when the table holds more rows than it draws. -->
+  <div class="show-all-host" id="body-more" hidden></div>
   </div>
   </section>
 
@@ -201,6 +203,7 @@
   </h2>
   <div class="msec-body" id="top-duos-body">
     <div class="panel scroll" id="duohost"></div>
+    <div class="show-all-host" id="duohost-more" hidden></div>
   </div>
   </section>
   </div><!-- /mainview -->

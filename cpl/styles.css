@@ -721,6 +721,42 @@ select:focus {
   outline-offset: 2px;
 }
 
+/* "Show all N players" under a table drawn in part — see TABLE_PREVIEW_ROWS in
+   app.js. Outside the table's scroll panel, so it stays in reach when the table
+   is scrolled sideways. */
+.show-all-host {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.show-all-host[hidden] {
+  display: none;
+}
+
+.show-all {
+  padding: 6px 16px;
+  color: var(--txt);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.show-all:hover {
+  border-color: var(--accent);
+}
+
+.show-all:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 /* Standings rows are ranked, not sortable — the header shouldn't invite a click. */
 .stable thead th {
   cursor: default;
