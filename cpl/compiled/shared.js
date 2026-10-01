@@ -542,6 +542,95 @@
     }]));
   }
 
+  // Rebuilds each player's per-game log from DATA.matches — the same rows the
+  // compiler reads to produce the `P.games` the detail shard ships for a
+  // player it can't reconstruct this way (see the fallback note in
+  // modules/compiler.js). The browser calls this once per division (in
+  // mergePlayerDetails) so the detail shard doesn't have to carry a `games`
+  // array for every player who logged a game; the compiler calls it too, to
+  // know which players it still has to.
+  //
+  // Identity rule: a match's games name players by their display name, but
+  // detail is keyed by playerId. `players` (DATA.players) has exactly one row
+  // per playerId, so a name→playerId map built from it can only be ambiguous
+  // between two different people who happen to share a name — never between
+  // two rows for the same person. Names that are empty or shared by more than
+  // one row are left out of the map entirely, rather than guessed at; players
+  // on either side of such a name get no derived games here, which is exactly
+  // what the compiler's fallback is for.
+  //
+  // Only `m.complete` matches contribute: `m.games` on an incomplete match is
+  // a posted-but-unplayed lineup (see buildPendingGames), not a played game,
+  // and playoffs are excluded because the compiler never builds `P.games` from
+  // them either.
+  function derivePlayerGames(matches, players) {
+    const pidByName = {};
+    const seen = new Set();
+    const ambiguous = new Set();
+    for (const player of (players || [])) {
+      const name = player && player.name;
+      if (!name) continue;
+      if (seen.has(name)) {
+        ambiguous.add(name);
+        continue;
+      }
+      seen.add(name);
+      pidByName[name] = player.playerId;
+    }
+    ambiguous.forEach((name) => delete pidByName[name]);
+
+    const gamesByPid = {};
+    for (const m of (matches || [])) {
+      if (!m.complete) continue;
+      const subs = m.subs || [];
+      for (const g of (m.games || [])) {
+        // Two passes over the same game, one per side: `mine` names the two
+        // players on this side, `theirs` the two on the other. `f`/`a` are
+        // this side's score and the opponent's, matching the compiler's
+        // `my`/`their`.
+        const sides = [
+          { mine: g.h, theirs: g.a, myTeam: m.home, oppTeam: m.away, f: g.hs, a: g.as },
+          { mine: g.a, theirs: g.h, myTeam: m.away, oppTeam: m.home, f: g.as, a: g.hs },
+        ];
+        for (const side of sides) {
+          for (let i = 0; i < 2; i += 1) {
+            const me = side.mine[i];
+            if (!me) continue;
+            const pid = pidByName[me];
+            if (!pid) continue;
+            const partner = side.mine[1 - i];
+            const [o1, o2] = side.theirs;
+            const isSub = subs.includes(me);
+            const withSub = subs.includes(partner);
+            const vsSub = [subs.includes(o1) ? 1 : 0, subs.includes(o2) ? 1 : 0];
+            (gamesByPid[pid] = gamesByPid[pid] || []).push({
+              wk: m.week,
+              opp: side.oppTeam,
+              t: g.t,
+              with: partner,
+              vs: [o1, o2],
+              f: side.f,
+              a: side.a,
+              w: side.f > side.a ? 1 : 0,
+              ff: g.ff,
+              sub: isSub ? 1 : 0,
+              subFor: isSub ? side.myTeam : null,
+              ...(withSub ? { withSub: 1 } : {}),
+              ...(vsSub[0] || vsSub[1] ? { vsSub } : {}),
+            });
+          }
+        }
+      }
+    }
+
+    // Stable, matching the compiler's own `P.games.sort((a, b) => a.wk -
+    // b.wk)`: both walk `resolvedMatchups` (here, DATA.matches) in the same
+    // order, so a stable sort by week alone reproduces the compiler's order
+    // exactly.
+    Object.values(gamesByPid).forEach((games) => games.sort((a, b) => a.wk - b.wk));
+    return gamesByPid;
+  }
+
   // The groups the dashboard presents a division in: the league's own pods when it
   // publishes one for every team, otherwise the schedule sections. A section is
   // whatever the schedule connects, so a handful of cross-pod matchups fuse several
@@ -888,6 +977,7 @@
     seasonsInPlay,
     getCatalog,
     decodeHtmlEntities,
+    derivePlayerGames,
     displayPodGroups,
     loadErrorHtml,
     formatDataAge,
