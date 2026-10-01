@@ -174,8 +174,9 @@ test('labels that differ only by the separator or case count as a collision', ()
   // Unbranded "Ballers Philly" condensed to "BPhilly" and branded "Bounce Philly"
   // to "B·Philly": unique strings that read identically in a header.
   const labels = labelsOf(['Ballers Philly', 'Bounce Philly', 'Bounce Tempest']);
-  assert.equal(labels['Ballers Philly'], 'BallersPhilly');
-  assert.equal(labels['Bounce Philly'], 'B·Philly');
+  // Both step to a second letter on the initial; Tempest never collided.
+  assert.equal(labels['Ballers Philly'], 'BaPhilly');
+  assert.equal(labels['Bounce Philly'], 'Bo·Philly');
   assert.equal(labels['Bounce Tempest'], 'B·Tempest');
 });
 

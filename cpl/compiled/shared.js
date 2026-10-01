@@ -418,8 +418,26 @@
     // at 10 "ACE Moorestown" degrades past "AMoorestown" all the way to "AM".
     const budgets = brand.length ? [8, 10, 12, 16] : [12, 14, 16, 20];
     const ladder = budgets.map((budget) => prefix + condenseWords(tail, budget));
+    const secondLetter = secondLetterRung(brand, tail, budgets[0]);
+    if (secondLetter) ladder.splice(1, 0, secondLetter);
     ladder.push(fullName);
     return ladder;
+  }
+
+  // The first rung again with a second letter on the leading initial: when
+  // "Bounce Philly" and "Ballers Philly" both open on B + Philly, "Bo·Philly"
+  // and "BaPhilly" part them by the one letter that differs, where spelling out
+  // "BallersPhilly" widens the column for the sake of one team. Null when the
+  // first rung has no initial to extend.
+  function secondLetterRung(brand, tail, budget) {
+    if (brand.length) {
+      if (brand[0].length < 2) return null;
+      return brand[0].slice(0, 2) + initials(brand.slice(1)) + ABBR_SEPARATOR
+        + condenseWords(tail, budget);
+    }
+    if (tail.length < 2 || tail[0].length < 2) return null;
+    const label = tail[0].slice(0, 2) + initials(tail.slice(1, -1)) + tail[tail.length - 1];
+    return label.length <= budget ? label : null;
   }
 
   // Ordered fallbacks for a cell chip. A chip is too short for condenseWords'
@@ -465,7 +483,8 @@
   // separator and letter case are ignored. "Ballers Philly" condenses to
   // "BPhilly" and "Bounce Philly" to "B·Philly" — distinct strings, but the
   // same label to anyone scanning a header, which left the cell codes (BALL and
-  // PHIL) with no way to be matched back to their rows.
+  // PHIL) with no way to be matched back to their rows. Now both advance, to
+  // "BaPhilly" and "Bo·Philly".
   function abbrReading(value) {
     return value.split(ABBR_SEPARATOR).join('').toLowerCase();
   }
