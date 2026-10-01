@@ -315,8 +315,8 @@
   // name still identifies them when only one of the pair is in a division, and
   // clustering strips it when both are.
   //
-  // A brand never consumes a whole name, so a team called exactly "Bounce
-  // Malvern" keeps it.
+  // A brand never consumes a whole name, so a team called exactly "Pickleball
+  // Palace" keeps it.
   //
   // Ballers is the exception to the several-locations bar: a dedicated brand
   // with one team in the region so far, listed so that "Ballers Philly" reads
@@ -326,7 +326,6 @@
     ['pickleball', 'palace'],
     ['picklerage', 'union', 'county'],
     ['dill', 'dinkers'],
-    ['bounce', 'malvern'],
     ['jersey', 'devil'],
     ['life', 'time'],
     ['picklr'],
@@ -475,9 +474,9 @@
       ladder.push(initials(brand) + joined.slice(0, 4));
       // Two brands sharing an initial and a location ("Ballers Philly", "Bounce
       // Philly") agree on every rung above; a second brand letter matches the
-      // header's "Ba·Philly" / "Bo·Philly".
+      // header's "Ba·Philly" / "Bo·Philly", still in a four-character chip.
       if (brand[0].length > 1) {
-        ladder.push(brand[0].slice(0, 2).toUpperCase() + initials(brand.slice(1)) + joined.slice(0, 4));
+        ladder.push((brand[0].slice(0, 2).toUpperCase() + initials(brand.slice(1)) + joined).slice(0, 4));
       }
     }
     return ladder;

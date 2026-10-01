@@ -121,7 +121,8 @@ test('a known franchise brand is stripped even when it appears once', () => {
   assert.equal(elsewhere['Pickleball Kingdom Tinton Falls'], 'TINT');
 
   // Longest match wins, and a brand never consumes the whole name.
-  assert.equal(codesOf(['Bounce Malvern Boom'])['Bounce Malvern Boom'], 'BOOM');
+  assert.equal(codesOf(['Pickleball Kingdom Hamilton'])['Pickleball Kingdom Hamilton'], 'HAMI');
+  assert.equal(codesOf(['Pickleball Palace'])['Pickleball Palace'], 'PICK');
   assert.equal(codesOf(['Bounce Malvern'])['Bounce Malvern'], 'MALV');
   assert.equal(codesOf(['Picklr Newtown'])['Picklr Newtown'], 'NEWT');
 });
@@ -188,8 +189,8 @@ test('two brands sharing an initial and a location part on a second letter', () 
     'Bounce Tempest': 'B·Tempest',
   });
   assert.deepEqual(codesOf(names), {
-    'Ballers Philly': 'BAPHIL',
-    'Bounce Philly': 'BOPHIL',
+    'Ballers Philly': 'BAPH',
+    'Bounce Philly': 'BOPH',
     'Bounce Tempest': 'TEMP',
   });
 });
