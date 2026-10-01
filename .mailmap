@@ -1,0 +1,6 @@
+# Commits GitHub made on Tim's behalf (PR merges, rebase-merges, web edits)
+# used his account's primary email at the time, junk@plnktt.com, rather than
+# git@plnktt.com, the address every local commit uses. git log, shortlog and
+# blame read this file and show those commits under the one address. GitHub's
+# web UI doesn't read it.
+Tim Plunkett <git@plnktt.com> <junk@plnktt.com>
