@@ -993,7 +993,10 @@ function syncScrollWrappers() {
   // Only the view on screen: a hidden one measures zero and would be filed as
   // fitting, so both views get re-measured as they are shown.
   const host = elements.mainView.hidden ? elements.teamView : elements.mainView;
-  host.querySelectorAll('.scroll, .grid-wrap').forEach((wrapper) => {
+  // Every wrapper measured before any class is written, for the same reason as
+  // in measureMirroredHeaders: a write between two reads makes the second read
+  // lay the page out again.
+  const readings = [...host.querySelectorAll('.scroll, .grid-wrap')].map((wrapper) => {
     // Measured as it stands. scrollWidth reports overflowing content whether or
     // not the wrapper is currently clipping, so the class never has to come off
     // to take a reading — and it must not, because dropping a wrapper's overflow
@@ -1001,9 +1004,9 @@ function syncScrollWrappers() {
     // is scrolling keeps the class it already has, so a resize, a sort, a
     // collapse or a keystroke in the search box leaves the reader's column
     // alone. The extra pixel absorbs sub-pixel table widths.
-    const fits = wrapper.scrollWidth <= wrapper.clientWidth + 1;
-    wrapper.classList.toggle('scroll-fits', fits);
+    return { wrapper, fits: wrapper.scrollWidth <= wrapper.clientWidth + 1 };
   });
+  readings.forEach(({ wrapper, fits }) => wrapper.classList.toggle('scroll-fits', fits));
 }
 
 // --- Mirrored column headers ------------------------------------------------
@@ -1158,30 +1161,40 @@ function rebuildMirroredHeaders() {
 // not with a scroll. Kept apart from placement so a scroll frame does no more
 // layout reading than it has to.
 function measureMirroredHeaders() {
-  mirroredHeaders.forEach((mirror) => {
-    const { wrapper, sourceRow, box, mirrorTable, row } = mirror;
-    const wrapperRect = wrapper.getBoundingClientRect();
+  // Every mirror's source read before any mirror is written — across mirrors,
+  // not just within one. The mirrors are copies, so writing one changes nothing
+  // the next one reads, but the browser cannot know that: interleaving them made
+  // each read flush the layout the previous write invalidated, a layout of the
+  // whole page per table where one would do.
+  const readings = mirroredHeaders.map(({ wrapper, sourceRow, table }) => ({
+    wrapperRect: wrapper.getBoundingClientRect(),
+    clientLeft: wrapper.clientLeft,
+    clientWidth: wrapper.clientWidth,
     // ceil, not round: the header's bottom border lives inside the row's height,
     // and the box clips, so half a pixel short of it shaves the border off.
-    const headHeight = Math.ceil(sourceRow.getBoundingClientRect().height);
+    headHeight: Math.ceil(sourceRow.getBoundingClientRect().height),
+    widths: [...sourceRow.children].map((cell) => cell.getBoundingClientRect().width),
+    tableWidth: table.getBoundingClientRect().width,
+  }));
+  mirroredHeaders.forEach((mirror, mirrorIndex) => {
+    const { box, mirrorTable, row } = mirror;
+    const { wrapperRect, clientLeft, clientWidth, headHeight, widths, tableWidth } = readings[mirrorIndex];
     mirror.headHeight = headHeight;
     // The wrapper's content box, not its border box. The wrapper is a .panel with
     // a 1px border, so the table starts a pixel inside the rect — mirroring the
     // border box puts every column a pixel left of the real one and lets the
     // mirror overhang the panel edge.
-    box.style.left = `${Math.round(wrapperRect.left + wrapper.clientLeft)}px`;
-    box.style.width = `${wrapper.clientWidth}px`;
+    box.style.left = `${Math.round(wrapperRect.left + clientLeft)}px`;
+    box.style.width = `${clientWidth}px`;
     // No height: the box wraps the mirror table, which reproduces the real
     // table's top edge — including the border-spacing above and below the header
     // row that the grid has and the other tables don't. Pinning the box to the
     // header row's own height instead clipped the grid's cells against that
     // spacing and let a strip of the rows beneath show through above them.
 
-    // Every source width read before any mirror width is written. Interleaving
-    // them makes each read flush the layout the previous write invalidated —
-    // sixteen forced layouts on the leaderboard rather than one.
-    const widths = [...sourceRow.children].map((cell) => cell.getBoundingClientRect().width);
-    const tableWidth = mirror.table.getBoundingClientRect().width;
+    // Every source width was read above, before any mirror width is written.
+    // Interleaving them makes each read flush the layout the previous write
+    // invalidated — sixteen forced layouts on the leaderboard rather than one.
     [...row.children].forEach((cell, index) => {
       if (index >= widths.length) return;
       const width = `${widths[index]}px`;
@@ -1204,11 +1217,19 @@ function measureMirroredHeaders() {
 // Shown only while the real header has passed above the ceiling and the table
 // has not yet scrolled clear of it — outside that window there is nothing to
 // mirror and a floating bar would be a lie.
+//
+// Runs on every scroll frame, so every table is read before any box is written:
+// showing or moving one box between two reads would make the second read lay
+// the page out again, once per table per frame.
 function placeMirroredHeaders() {
-  mirroredHeaders.forEach((mirror) => {
-    const { wrapper, table, box } = mirror;
-    const rect = table.getBoundingClientRect();
-    const ceiling = stickyCeiling();
+  const ceiling = stickyCeiling();
+  const readings = mirroredHeaders.map(({ wrapper, table }) => ({
+    rect: table.getBoundingClientRect(),
+    scrollLeft: wrapper.scrollLeft,
+  }));
+  mirroredHeaders.forEach((mirror, index) => {
+    const { box } = mirror;
+    const { rect, scrollLeft } = readings[index];
     const headHeight = mirror.headHeight || 0;
     const show = rect.top < ceiling && rect.bottom > ceiling + headHeight;
     box.hidden = !show;
@@ -1216,7 +1237,7 @@ function placeMirroredHeaders() {
     box.style.top = `${ceiling}px`;
     // Not while the mirror is the one being dragged — it is already where the
     // reader put it, and writing back mid-gesture fights them for it.
-    if (!mirror.syncing) box.scrollLeft = wrapper.scrollLeft;
+    if (!mirror.syncing) box.scrollLeft = scrollLeft;
   });
 }
 
@@ -1232,10 +1253,23 @@ function onScrollFrame() {
   });
 }
 
+// Set while initialize renders the dashboard section by section. Each of those
+// renders calls refreshStickyLayout, and each call forces a layout of the whole
+// page so far — on a large division that was half a dozen layouts of a page
+// growing towards fifty thousand nodes, for measurements only the last one kept.
+// Held, a call just notes that one is owed, and initialize pays it once.
+let stickyLayoutHeld = false;
+let stickyLayoutOwed = false;
+
 // Everything the sticky layers measure, in one call. Cheap, and called after
 // anything that changes what is on the page or how wide it is — the two view
 // toggles, a filter, a collapse, a route change, a window resize.
 function refreshStickyLayout() {
+  if (stickyLayoutHeld) {
+    stickyLayoutOwed = true;
+    return;
+  }
+  stickyLayoutOwed = false;
   syncStickyOffset();
   syncScrollWrappers();
   rebuildMirroredHeaders();
@@ -1252,7 +1286,17 @@ function observeToc() {
   if (typeof window.ResizeObserver !== 'function') return;
   const toc = activeToc();
   if (!toc) return;
-  if (!tocObserver) tocObserver = new window.ResizeObserver(refreshStickyLayout);
+  // An observer reports every element once as soon as it starts watching it,
+  // and that first report is of the height the view that just re-pointed it has
+  // already measured. Only a height the page has not seen yet is worth the
+  // re-measure, which on a large division is a layout of the whole page.
+  if (!tocObserver) {
+    tocObserver = new window.ResizeObserver((entries) => {
+      const box = entries[entries.length - 1].borderBoxSize?.[0];
+      if (box && Math.round(box.blockSize) === stickyOffsets.toc) return;
+      refreshStickyLayout();
+    });
+  }
   tocObserver.disconnect();
   tocObserver.observe(toc);
 }
@@ -4752,11 +4796,21 @@ function computeSwarmLayout(players, geometry) {
     .sort((a, b) => a.rating - b.rating)
     .map((player) => ({ player, x: xScale(player.rating), y: cy }));
   const placed = [];
-  const overlaps = (x, y) => placed.some((other) => {
-    const dx = other.x - x;
-    const dy = other.y - y;
-    return dx * dx + dy * dy < minDist * minDist;
-  });
+  // Nodes are placed in rating order, so `placed` is sorted by x and only its
+  // tail can be within minDist of the node being placed. Walking back from the
+  // end and stopping at the first dot out of horizontal reach gives the same
+  // answer as checking every dot, without the quadratic scan — which, run once
+  // per candidate slot, was the slowest part of rendering a large division.
+  const overlaps = (x, y) => {
+    for (let index = placed.length - 1; index >= 0; index -= 1) {
+      const other = placed[index];
+      const dx = other.x - x;
+      if (dx <= -minDist) return false;
+      const dy = other.y - y;
+      if (dx * dx + dy * dy < minDist * minDist) return true;
+    }
+    return false;
+  };
   nodes.forEach((node) => {
     // Scan outward from the centre line in 1px steps for the closest free slot.
     let best = cy;
@@ -4882,6 +4936,7 @@ function handleSwarmOut(event) {
 }
 
 function initialize() {
+  stickyLayoutHeld = true;
   migrateLegacyHashRoute();
   renderHeader();
   renderDivisionSelector();
@@ -5013,9 +5068,14 @@ function initialize() {
   });
 
   render();
+  stickyLayoutHeld = false;
   // Applies any fragment the page was opened with: handleRoute lands in either
   // showMainView or renderTeamPage, and both re-apply it once they have content.
+  // Every view handleRoute can land in measures the sticky layers itself, which
+  // is the one layout the held calls above were waiting for. A bare ?player=
+  // opens its modal without passing through a view, so that one is paid here.
   handleRoute();
+  if (stickyLayoutOwed) refreshStickyLayout();
 }
 
 // Nothing here used to have an error state at all: a throw anywhere in
