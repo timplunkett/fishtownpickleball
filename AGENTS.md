@@ -48,7 +48,22 @@ are easy to break without noticing.
 ## Commits
 
 - Conventional commits: `feat(CPL): Capitalize the first word after the colon`.
-  Types: `feat fix chore style refactor build test perf docs ci`.
+  Types (`.githooks/commit-msg` accepts exactly these plus `bot`, and a test
+  keeps the two lists in step):
+  - `feat`: A new feature
+  - `fix`: A bug fix
+  - `docs`: Documentation only changes
+  - `style`: Changes that do not affect the meaning of the code (white-space,
+    formatting, missing semi-colons, etc)
+  - `refactor`: A code change that neither fixes a bug nor adds a feature
+  - `perf`: A code change that improves performance
+  - `test`: Adding missing tests or correcting existing tests
+  - `build`: Changes that affect the build system or external dependencies
+  - `ci`: Changes to our CI configuration files and scripts
+  - `chore`: Other changes that don't modify src or test files
+  - `revert`: Reverts a previous commit
+  - `task`: A planned operational or maintenance change to the codebase
+
   `bot(…)` is reserved for the automated data/DUPR workflows.
 - The scope names what the change touches, so pick it from the files, not
   from habit:
