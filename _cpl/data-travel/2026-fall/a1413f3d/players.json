@@ -10012,7 +10012,7 @@
       "gender": "Female",
       "dupr": "LVRN5K",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "teamName": "Picklr Newark",
       "wins": 4,

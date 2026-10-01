@@ -10982,6 +10982,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Leah Oneill",
+   "playerId": "f76a584d-94cf-4bb7-8c34-90e6c491ac10",
+   "team": "Picklr Newark",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Leah Stup",
    "playerId": "f7f8bedd-22d4-48dc-92cc-de4f17eed580",
    "team": "Pickleball Kingdom Hillsborough",
