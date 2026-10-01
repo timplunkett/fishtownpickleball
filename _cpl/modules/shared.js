@@ -317,6 +317,10 @@
   //
   // A brand never consumes a whole name, so a team called exactly "Bounce
   // Malvern" keeps it.
+  //
+  // Ballers is the exception to the several-locations bar: a dedicated brand
+  // with one team in the region so far, listed so that "Ballers Philly" reads
+  // as brand + location the same way "Bounce Philly" does.
   const KNOWN_BRANDS = [
     ['pickleball', 'kingdom'],
     ['pickleball', 'palace'],
@@ -327,6 +331,7 @@
     ['life', 'time'],
     ['picklr'],
     ['bounce'],
+    ['ballers'],
     ['ace'],
   ];
 
@@ -468,6 +473,12 @@
     if (brand.length) {
       ladder.push(initials(brand) + tailInitials);
       ladder.push(initials(brand) + joined.slice(0, 4));
+      // Two brands sharing an initial and a location ("Ballers Philly", "Bounce
+      // Philly") agree on every rung above; a second brand letter matches the
+      // header's "Ba·Philly" / "Bo·Philly".
+      if (brand[0].length > 1) {
+        ladder.push(brand[0].slice(0, 2).toUpperCase() + initials(brand.slice(1)) + joined.slice(0, 4));
+      }
     }
     return ladder;
   }
@@ -480,11 +491,11 @@
   // the readability floor rather than the strategy.
   //
   // Values collide on how they read, not on their exact characters: the
-  // separator and letter case are ignored. "Ballers Philly" condenses to
-  // "BPhilly" and "Bounce Philly" to "B·Philly" — distinct strings, but the
-  // same label to anyone scanning a header, which left the cell codes (BALL and
-  // PHIL) with no way to be matched back to their rows. Now both advance, to
-  // "BaPhilly" and "Bo·Philly".
+  // separator and letter case are ignored. Before Ballers was a known brand,
+  // "Ballers Philly" condensed to "BPhilly" beside "Bounce Philly"'s "B·Philly"
+  // — distinct strings, but the same label to anyone scanning a header, which
+  // left the cell codes (BALL and PHIL) with no way to be matched back to their
+  // rows.
   function abbrReading(value) {
     return value.split(ABBR_SEPARATOR).join('').toLowerCase();
   }

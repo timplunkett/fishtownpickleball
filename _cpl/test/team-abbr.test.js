@@ -171,13 +171,27 @@ test('scope is the set passed in, so unrelated pods do not steal abbreviations',
 });
 
 test('labels that differ only by the separator or case count as a collision', () => {
-  // Unbranded "Ballers Philly" condensed to "BPhilly" and branded "Bounce Philly"
-  // to "B·Philly": unique strings that read identically in a header.
-  const labels = labelsOf(['Ballers Philly', 'Bounce Philly', 'Bounce Tempest']);
-  // Both step to a second letter on the initial; Tempest never collided.
-  assert.equal(labels['Ballers Philly'], 'BaPhilly');
+  // Unbranded "Brewerytown Philly" is too long to spell out, so it condenses to
+  // "BPhilly" — a unique string beside branded "Bounce Philly"'s "B·Philly",
+  // but the same label to anyone reading the header.
+  const labels = labelsOf(['Brewerytown Philly', 'Bounce Philly']);
+  assert.equal(labels['Brewerytown Philly'], 'BrPhilly');
   assert.equal(labels['Bounce Philly'], 'Bo·Philly');
-  assert.equal(labels['Bounce Tempest'], 'B·Tempest');
+});
+
+test('two brands sharing an initial and a location part on a second letter', () => {
+  const names = ['Ballers Philly', 'Bounce Philly', 'Bounce Tempest'];
+  // Tempest never collided, so it keeps the first rung.
+  assert.deepEqual(labelsOf(names), {
+    'Ballers Philly': 'Ba·Philly',
+    'Bounce Philly': 'Bo·Philly',
+    'Bounce Tempest': 'B·Tempest',
+  });
+  assert.deepEqual(codesOf(names), {
+    'Ballers Philly': 'BAPHIL',
+    'Bounce Philly': 'BOPHIL',
+    'Bounce Tempest': 'TEMP',
+  });
 });
 
 test('overrides win and push the rest around them', () => {
