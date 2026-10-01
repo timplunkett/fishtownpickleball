@@ -16,6 +16,5 @@ node_modules/
 # machine.
 _cpl/.compile-cache.json
 
-# Claude Code: per-machine settings and scratch plans from the planner agent.
-.claude/settings.local.json
-.claude/plans/
+# Claude Code
+.claude/
