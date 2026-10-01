@@ -30,6 +30,11 @@
 <meta name="twitter:description" content="Team standings, head-to-head results and adjusted player ratings for a local club league division.">
 <meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
 <link rel="stylesheet" href="../../styles.css">
+<!-- app.js is requested by bootstrap.js only once the division's data file has
+     loaded, because it reads that data as it starts. Downloading it is another
+     matter: preloaded, it arrives alongside the data instead of after it, which
+     takes a whole round trip and its own transfer off every dashboard load. -->
+<link rel="preload" href="../../app.js" as="script">
 </head>
 <body>
 <noscript>
