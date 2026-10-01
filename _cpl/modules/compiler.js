@@ -20,6 +20,7 @@ const {
   isGenderApiBase,
   travelDivisionGender,
   displayPodGroups,
+  derivePlayerGames,
 } = require('./shared');
 const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
@@ -163,6 +164,13 @@ function writeDataScript(outPath, data) {
 // Per-player detail (match log, game log, rating history, partner chemistry)
 // is only needed when a player modal opens, so it ships as a separate script
 // the dashboard lazy-loads. Keyed by playerId under the division slug.
+//
+// `games` is the odd one out: the browser can rebuild almost every player's
+// game log itself, from DATA.matches, via CPLShared.derivePlayerGames — see
+// the fallback this feeds in compileDivision. By the time splitPlayerDetails
+// runs, a player whose derived games matched has already had `games` deleted
+// off it, so this only ever ships the array for the handful it couldn't
+// rebuild, and never ships an empty one.
 const PLAYER_DETAIL_KEYS = ['log', 'games', 'ratingHistory', 'partners'];
 
 function splitPlayerDetails(playerArr) {
@@ -171,6 +179,16 @@ function splitPlayerDetails(playerArr) {
     const detail = {};
     let hasContent = false;
     for (const key of PLAYER_DETAIL_KEYS) {
+      if (key === 'games') {
+        // Only ever present here for the fallback players compileDivision
+        // kept `games` on; everyone else had it deleted already.
+        if (Array.isArray(player.games) && player.games.length) {
+          detail.games = player.games;
+          hasContent = true;
+        }
+        delete player.games;
+        continue;
+      }
       detail[key] = player[key] || [];
       if (detail[key].length) hasContent = true;
       delete player[key];
@@ -240,8 +258,10 @@ function shouldPreferRosterPlayer(candidate, current, duprByPid, divisionBracket
 
 // Every playerId the compiler ever looks up in nameById while rendering a
 // game: lineup slots (buildPendingGames, the in-season `games` builder,
-// subNamesByMatchupId) and stat rows (id2name). A playerId that shows up here
-// has, by definition, actually played or been posted to play — the roster
+// subNamesByMatchupId) and stat rows (the same in-season `games` builder,
+// which reads nameById directly rather than a per-matchup copy of it). A
+// playerId that shows up here has, by definition, actually played or been
+// posted to play — the roster
 // dedupe below uses this to tell a real second person (who must keep their
 // own row) from a stale pre-season duplicate (safe to merge away, same as
 // before). Scanned off the raw JSON rather than any already-resolved
@@ -890,11 +910,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     (homeWon ? teams.get(home.name) : teams.get(away.name)).w++;
     (homeWon ? teams.get(away.name) : teams.get(home.name)).l++;
 
-    const id2name = {};
-    for (const p of ps) {
-      id2name[p.playerId] = nameById[p.playerId] || "";
-    }
-
     // Build per-match lookups for intra-league subs: set of IDs and map to guest team name.
     const subPids = new Set();
     const subForByPid = {};
@@ -959,7 +974,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         const vsSub = [subPids.has(o1), subPids.has(o2)];
         P.games.push({
           wk: mu.weekNumber, opp: oppTeam, t: g.matchType,
-          with: id2name[partner] || "", vs: [id2name[o1] || "", id2name[o2] || ""],
+          with: nameById[partner] || "", vs: [nameById[o1] || "", nameById[o2] || ""],
           f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
           sub: subForByPid[me] ? 1 : 0, subFor: subForByPid[me] || null,
           ...(withSub ? { withSub: 1 } : {}),
@@ -1182,6 +1197,39 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     playoffs.push(rec);
   }
 
+  // The ground truth every player's `games` was just built from, kept here
+  // (by reference, before splitPlayerDetails strips the live array off each
+  // player) so compileDivision can hand it back to callers that need the full
+  // picture — today, only the parity test. `P.games` itself stays computed in
+  // full regardless of what gets emitted below: nothing else in this function
+  // reads it (ratings, partners, duos, the player index and dupr-audit all
+  // work from resolvedDetailById or playerInfoById), so this is the only use
+  // left for it once the fallback decision is made.
+  const gamesByPid = new Map(
+    playerArr.filter((p) => p.playerId).map((p) => [p.playerId, p.games]),
+  );
+
+  // The browser rebuilds a player's game log from DATA.matches via the same
+  // derivePlayerGames this calls, so shipping it again here would duplicate
+  // data every refresh adds a line to. Only a player the browser's derivation
+  // can't reproduce — because a name it would need to key off is empty or
+  // shared by more than one roster row (derivePlayerGames' own identity rule)
+  // — keeps `games` in the detail shard, as a fallback. See PLAYER_DETAIL_KEYS.
+  const derivedGamesByPid = derivePlayerGames(matches, playerArr);
+  let fallbackGamesCount = 0;
+  for (const player of playerArr) {
+    if (!player.playerId) continue;
+    const derived = derivedGamesByPid[player.playerId] || [];
+    if (JSON.stringify(derived) === JSON.stringify(player.games)) {
+      delete player.games;
+    } else {
+      fallbackGamesCount += 1;
+    }
+  }
+  if (fallbackGamesCount) {
+    console.log(`  ℹ ${fallbackGamesCount} player(s) keep a compiled game log — the browser's own derivation can't reproduce it (see derivePlayerGames).`);
+  }
+
   const detailByPid = splitPlayerDetails(playerArr);
 
   const DATA = {
@@ -1219,7 +1267,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       .filter((p) => p.playerId && Number.isFinite(p.rating))
       .map((p) => [p.playerId, p.rating]),
   );
-  return { asOf: DATA.meta.asOf, ratingByPid };
+  // gamesByPid is only for the parity test (player-games-parity.test.js),
+  // which needs the ground truth `games` built above regardless of whether it
+  // was emitted; compileSeason ignores it.
+  return { asOf: DATA.meta.asOf, ratingByPid, gamesByPid };
 }
 
 // One season of one league, into cpl/<league>/<season>/.

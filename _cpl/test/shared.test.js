@@ -371,6 +371,121 @@ test('a packed index missing one of its tables degrades instead of throwing', ()
   delete globalThis.PLAYER_INDEX_TABLES;
 });
 
+// --- derivePlayerGames -------------------------------------------------------
+//
+// matches/players below are the shapes DATA.matches / DATA.players actually
+// carry: a match's games name players by their display name (resolved by the
+// compiler via nameById), and a player row is { name, playerId, ... } with
+// one row per playerId.
+
+function dpgPlayer(name, playerId) {
+  return { name, playerId };
+}
+
+function dpgGame(overrides) {
+  return {
+    t: 'male', hs: 11, as: 5, ff: 0, h: ['', ''], a: ['', ''], ...overrides,
+  };
+}
+
+function dpgMatch(overrides) {
+  return {
+    complete: true, week: 1, home: 'Aces', away: 'Bandits', subs: [], games: [], ...overrides,
+  };
+}
+
+test('derivePlayerGames ignores incomplete matches', () => {
+  // An incomplete match's `games` is a posted-but-unplayed lineup
+  // (buildPendingGames in the compiler), not a played game.
+  const players = [dpgPlayer('Ann Alpha', 'a1'), dpgPlayer('Bea Bravo', 'b1')];
+  const matches = [dpgMatch({
+    complete: false,
+    games: [dpgGame({ h: ['Ann Alpha', ''], a: ['Bea Bravo', ''] })],
+  })];
+  assert.deepEqual(shared.derivePlayerGames(matches, players), {});
+});
+
+test('derivePlayerGames builds each side\'s game from the match and game record', () => {
+  const players = [
+    dpgPlayer('Ann Alpha', 'a1'), dpgPlayer('Abe Anders', 'a2'),
+    dpgPlayer('Bea Bravo', 'b1'), dpgPlayer('Ben Boone', 'b2'),
+  ];
+  const matches = [dpgMatch({
+    week: 3,
+    games: [dpgGame({ hs: 11, as: 8, h: ['Ann Alpha', 'Abe Anders'], a: ['Bea Bravo', 'Ben Boone'] })],
+  })];
+  const derived = shared.derivePlayerGames(matches, players);
+  assert.deepEqual(derived.a1, [{
+    wk: 3, opp: 'Bandits', t: 'male', with: 'Abe Anders', vs: ['Bea Bravo', 'Ben Boone'],
+    f: 11, a: 8, w: 1, ff: 0, sub: 0, subFor: null,
+  }]);
+  // The losing, away side: opp/with/vs/f/a all flip relative to the home row.
+  assert.deepEqual(derived.b1, [{
+    wk: 3, opp: 'Aces', t: 'male', with: 'Ben Boone', vs: ['Ann Alpha', 'Abe Anders'],
+    f: 8, a: 11, w: 0, ff: 0, sub: 0, subFor: null,
+  }]);
+});
+
+test('derivePlayerGames sets sub/subFor/withSub/vsSub, and omits the sparse ones when false', () => {
+  const players = [
+    dpgPlayer('Ann Alpha', 'a1'), dpgPlayer('Sam Sub', 's1'),
+    dpgPlayer('Bea Bravo', 'b1'), dpgPlayer('Ben Boone', 'b2'),
+  ];
+  const matches = [dpgMatch({
+    week: 2, subs: ['Sam Sub'],
+    games: [dpgGame({ hs: 11, as: 9, h: ['Ann Alpha', 'Sam Sub'], a: ['Bea Bravo', 'Ben Boone'] })],
+  })];
+  const derived = shared.derivePlayerGames(matches, players);
+  // Ann partnered the sub: withSub is set; she is not herself a sub.
+  assert.deepEqual(derived.a1[0], {
+    wk: 2, opp: 'Bandits', t: 'male', with: 'Sam Sub', vs: ['Bea Bravo', 'Ben Boone'],
+    f: 11, a: 9, w: 1, ff: 0, sub: 0, subFor: null, withSub: 1,
+  });
+  // Sam is the sub: sub/subFor name his own side; withSub is omitted because
+  // his partner isn't a sub.
+  assert.deepEqual(derived.s1[0], {
+    wk: 2, opp: 'Bandits', t: 'male', with: 'Ann Alpha', vs: ['Bea Bravo', 'Ben Boone'],
+    f: 11, a: 9, w: 1, ff: 0, sub: 1, subFor: 'Aces',
+  });
+  // Bea and Ben faced the sub: vsSub names which opposing slot it was.
+  assert.deepEqual(derived.b1[0], {
+    wk: 2, opp: 'Aces', t: 'male', with: 'Ben Boone', vs: ['Ann Alpha', 'Sam Sub'],
+    f: 9, a: 11, w: 0, ff: 0, sub: 0, subFor: null, vsSub: [0, 1],
+  });
+});
+
+test('derivePlayerGames excludes names that are empty or shared by more than one player, rather than guessing', () => {
+  const players = [
+    dpgPlayer('', 'blank1'),
+    dpgPlayer('Pat Twin', 'pt1'),
+    dpgPlayer('Pat Twin', 'pt2'),
+    dpgPlayer('Ann Alpha', 'a1'),
+  ];
+  const matches = [dpgMatch({
+    away: 'Twins',
+    games: [dpgGame({ h: ['Ann Alpha', ''], a: ['Pat Twin', 'Pat Twin'] })],
+  })];
+  const derived = shared.derivePlayerGames(matches, players);
+  assert.equal(derived.pt1, undefined, 'a name two different rows share gets no derived games');
+  assert.equal(derived.pt2, undefined);
+  assert.equal(derived.blank1, undefined, 'an empty name gets no derived games');
+  // A player whose own name is unambiguous still derives, even though one of
+  // their opponents' slots names an excluded player — the raw match data is
+  // trusted for with/vs/opp, only a player's *own* game list depends on
+  // resolving their own name.
+  assert.deepEqual(derived.a1[0].vs, ['Pat Twin', 'Pat Twin']);
+});
+
+test('derivePlayerGames keeps games in the match order they appear, within a week', () => {
+  const players = [dpgPlayer('Ann Alpha', 'a1'), dpgPlayer('Bea Bravo', 'b1')];
+  const matches = [
+    dpgMatch({ games: [dpgGame({ t: 'male', h: ['Ann Alpha', ''], a: ['Bea Bravo', ''] })] }),
+    dpgMatch({ games: [dpgGame({ t: 'female', h: ['Ann Alpha', ''], a: ['Bea Bravo', ''] })] }),
+  ];
+  const derived = shared.derivePlayerGames(matches, players);
+  assert.deepEqual(derived.a1.map((g) => g.t), ['male', 'female']);
+});
+
 // --- Favorites --------------------------------------------------------------
 //
 // Node has no localStorage of its own, so a tiny in-memory stand-in plays the

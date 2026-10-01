@@ -76,7 +76,7 @@ const RESULT_CLASS = Object.freeze({
 // Shared client utilities (cpl/compiled/shared.js loads before this file).
 const {
   escapeHtml, slugify, formatDuprRating, formatSignedValue, getPlayerIndex, buildDuprRatingIndex,
-  buildTeamAbbreviations, displayPodGroups, loadErrorHtml, formatDataAge,
+  buildTeamAbbreviations, displayPodGroups, loadErrorHtml, formatDataAge, derivePlayerGames,
 } = window.CPLShared;
 
 // Remembered view preferences: which sections you left collapsed, and which of
@@ -720,10 +720,14 @@ function pluralize(count, singular, plural = `${singular}s`) {
   return count === 1 ? singular : plural;
 }
 
-// Per-player detail (match log, game log, rating history, partners) ships in a
-// separate detail-*.js the compiler writes next to the data file, and is only
-// loaded once a player modal opens. A data file without meta.detailFile (a
-// stale copy cached mid-deploy) resolves instantly to a summary-only modal.
+// Per-player detail (match log, rating history, partners) ships in a separate
+// detail-*.js the compiler writes next to the data file, and is only loaded
+// once a player modal opens. A data file without meta.detailFile (a stale copy
+// cached mid-deploy) resolves instantly to a summary-only modal. The game log
+// is the exception: it's rebuilt from DATA.matches by derivePlayerGames
+// instead of shipped, for every player whose name is unambiguous — see
+// mergePlayerDetails — so it's available even without detail-*.js loading
+// (or ever having been written) at all.
 let playerDetailsPromise = null;
 
 function loadScriptOnce(src) {
@@ -767,15 +771,23 @@ function loadPlayerIndexScript() {
 }
 
 function mergePlayerDetails() {
-  const details = (window.CPL_DETAILS || {})[DATA.meta.divisionSlug];
-  if (!details) {
-    return;
-  }
+  const details = (window.CPL_DETAILS || {})[DATA.meta.divisionSlug] || {};
+  // Rebuilt here rather than memoized per player: this runs once, the first
+  // time any modal opens in the division (ensurePlayerDetails already
+  // memoizes the call into this function), and every player's game log comes
+  // out of the same pass over DATA.matches.
+  const derivedGames = derivePlayerGames(DATA.matches, DATA.players);
   for (const player of DATA.players) {
     const detail = player.playerId ? details[player.playerId] : null;
+    // detail.games is the compiler's fallback for the players the derivation
+    // above can't name unambiguously (see derivePlayerGames), and also covers
+    // a stale cached detail-*.js from before this split that still has games
+    // on every player. Prefer it when present; derive for everyone else —
+    // including when detail-*.js itself failed to load, since DATA.matches is
+    // already on the page regardless.
+    player.games = (detail && detail.games) || derivedGames[player.playerId] || [];
     if (!detail) continue;
     player.log = detail.log || [];
-    player.games = detail.games || [];
     player.ratingHistory = detail.ratingHistory || [];
     player.partners = detail.partners || [];
   }

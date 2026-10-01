@@ -127,6 +127,7 @@ function compileToObjects(t, opts = {}) {
     data: JSON.parse(JSON.stringify(sandbox.window.DATA)),
     details: JSON.parse(JSON.stringify(sandbox.window.CPL_DETAILS.testslug)),
     ratingByPid: result.ratingByPid,
+    gamesByPid: result.gamesByPid,
   };
 }
 
@@ -271,10 +272,15 @@ test('rostered subs appear on the roster; placeholder teams are still excluded',
 });
 
 test('detail entries exist for players with history and are omitted otherwise', (t) => {
-  const { data, details } = compileToObjects(t);
+  const { data, details, gamesByPid } = compileToObjects(t);
   assert.ok(details.a1, 'a player who played has a detail entry');
   assert.equal(details.a1.log.length, 1);
-  assert.equal(details.a1.games.length, 2);
+  // Ann Alpha's name is unambiguous, so the browser can rebuild her game log
+  // from DATA.matches itself (CPLShared.derivePlayerGames) — the compiled
+  // detail no longer has to carry it. gamesByPid is the ground truth this was
+  // checked against: it is returned regardless of what got emitted.
+  assert.equal(details.a1.games, undefined);
+  assert.equal(gamesByPid.get('a1').length, 2);
   assert.equal(details.c1, undefined, 'an unplayed player has no detail entry');
   // Summary records never carry the detail arrays.
   for (const player of data.players) {
@@ -607,6 +613,68 @@ test('two active players sharing a name and team both keep a row (Edwin Garcia c
       }
     }
   }
+});
+
+// An outside sub the league never rosters at all gets no players.json row, so
+// nameById has nothing for their pid and they read as "" wherever a lineup
+// names them (m.games) — and, because subNamesByMatchupId falls back to the
+// bare pid when the name is blank, m.subs carries that pid instead of a name
+// for them too. CPLShared.derivePlayerGames only ever matches `m.subs` by
+// name, so it can't recognize this sub as a sub at all: their own game log
+// can't be derived (their name is empty, so derivePlayerGames' identity rule
+// excludes it outright), and everyone who played with or against them gets a
+// wrong withSub/vsSub if their log were derived instead of compiled. All of
+// them keep a compiled `games` as a fallback. This is the
+// local/2026-summer blank-name-sub case (see the plan this implements).
+function addOutsideSubMatchup(opts) {
+  const matchup = {
+    matchupId: 'm-os', weekNumber: 8, homeTeamId: 'team-hawks', awayTeamId: 'team-owls',
+    homeName: 'Hawks', awayName: 'Owls', homePoints: 11, awayPoints: 5,
+    endResult: 'home', scheduledTime: '2026-09-22T19:00:00',
+  };
+  const detail = {
+    matchupId: 'm-os',
+    details: {
+      matchup: { endResult: 'home' },
+      matchupPlayerStats: { $values: [
+        matchupPlayer('hk1', 'team-hawks', { gamesPlayed: 1, wins: 1, losses: 0, pointsWon: 11, totalPointsAgainst: 5 }),
+        matchupPlayer('osub1', 'team-hawks', { gamesPlayed: 1, wins: 1, losses: 0, pointsWon: 11, totalPointsAgainst: 5, isSub: true }),
+        matchupPlayer('ow1', 'team-owls', { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 5, totalPointsAgainst: 11 }),
+        matchupPlayer('ow2', 'team-owls', { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 5, totalPointsAgainst: 11 }),
+      ] },
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'hk1', homePlayerId2: 'osub1', awayPlayerId1: 'ow1', awayPlayerId2: 'ow2', homeScore: 11, awayScore: 5, matchType: 'male', matchupId: 'm-os' },
+      ] } },
+    },
+  };
+  return {
+    ...opts,
+    extraPlayers: [
+      ...(opts.extraPlayers || []),
+      rosterPlayer('hk1', 'Hank', 'Hawk', 'team-hawks', 'Hawks'),
+      rosterPlayer('ow1', 'Olive', 'Owl', 'team-owls', 'Owls'),
+      rosterPlayer('ow2', 'Otto', 'Owl', 'team-owls', 'Owls'),
+      // osub1 is deliberately absent: an outside sub the league never
+      // rostered gets no players.json row at all.
+    ],
+    extraMatchups: [...(opts.extraMatchups || []), matchup],
+    extraMatchupDetails: [...(opts.extraMatchupDetails || []), detail],
+  };
+}
+
+test('a blank-named outside sub, and everyone who played with or against them, keep a compiled game log', (t) => {
+  const { details, gamesByPid } = compileToObjects(t, addOutsideSubMatchup({}));
+
+  for (const pid of ['hk1', 'osub1', 'ow1', 'ow2']) {
+    assert.ok(details[pid], `${pid} has a detail entry`);
+    assert.ok(Array.isArray(details[pid].games) && details[pid].games.length > 0,
+      `${pid} keeps a compiled game log because derivePlayerGames can't reproduce it`);
+    assert.deepEqual(details[pid].games, gamesByPid.get(pid),
+      `the kept games match the ground truth compileDivision returns for ${pid}`);
+  }
+  // The blank name itself never leaks into the kept detail.
+  assert.equal(details.hk1.games[0].with, '');
+  assert.equal(details.osub1.games[0].with, 'Hank Hawk');
 });
 
 // An active player and an inactive same-name-and-team duplicate: this is the
