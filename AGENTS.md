@@ -21,6 +21,13 @@ are easy to break without noticing.
   branch's upstream, which is how an agent once landed a feature branch on
   `main`. `.githooks/pre-push` refuses any update to `main` from inside
   Claude Code; if it fires, the push was wrong — don't work around it.
+- **Force pushes: `--force-with-lease` only, and only when asked.** Keep a
+  branch current by merging `main` into it, which needs no force push. Rebase
+  only when Tim asks for it, and then push the feature branch with
+  `git push --force-with-lease=refs/heads/<branch>:<sha you last pushed> origin HEAD:refs/heads/<branch>`.
+  Pinning the lease to the commit you last pushed makes git refuse if
+  anyone else has moved the branch since. Never `--force`, `-f` or a
+  `+refspec`, and never on `main`.
 - **Stay inside the checkout.** Don't create files, worktrees or symlinks
   outside this repository's directory, temp files included.
 - Don't switch branches in a checkout someone is actively serving with Jekyll.
