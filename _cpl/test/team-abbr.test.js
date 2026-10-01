@@ -170,6 +170,15 @@ test('scope is the set passed in, so unrelated pods do not steal abbreviations',
   assert.ok(!/\d/.test(together['Bounce Philly']), 'no numeric suffix when letters can tell them apart');
 });
 
+test('labels that differ only by the separator or case count as a collision', () => {
+  // Unbranded "Ballers Philly" condensed to "BPhilly" and branded "Bounce Philly"
+  // to "B·Philly": unique strings that read identically in a header.
+  const labels = labelsOf(['Ballers Philly', 'Bounce Philly', 'Bounce Tempest']);
+  assert.equal(labels['Ballers Philly'], 'BallersPhilly');
+  assert.equal(labels['Bounce Philly'], 'B·Philly');
+  assert.equal(labels['Bounce Tempest'], 'B·Tempest');
+});
+
 test('overrides win and push the rest around them', () => {
   const built = buildTeamAbbreviations(
     ['Pickleball Kingdom Hillsborough', 'Hillside Crew'],
@@ -226,7 +235,8 @@ DIVISIONS.forEach(({ file, data }) => {
 
       ['label', 'code'].forEach((kind) => {
         const values = names.map((name) => built[name][kind]);
-        assert.equal(new Set(values).size, values.length, `${where}: duplicate ${kind}`);
+        const readings = values.map((value) => value.replace(/·/g, '').toLowerCase());
+        assert.equal(new Set(readings).size, values.length, `${where}: duplicate ${kind}`);
         values.forEach((value, position) => {
           assert.ok(value.length > 0, `${where}: empty ${kind} for ${names[position]}`);
           assert.ok(

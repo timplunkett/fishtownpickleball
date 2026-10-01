@@ -460,6 +460,16 @@
   // two Hamilton teams should both end up on initials, not one on "HAMI" and the
   // other on "HPT". Keys whose ladders run out take a numeric suffix, which is
   // the readability floor rather than the strategy.
+  //
+  // Values collide on how they read, not on their exact characters: the
+  // separator and letter case are ignored. "Ballers Philly" condenses to
+  // "BPhilly" and "Bounce Philly" to "B·Philly" — distinct strings, but the
+  // same label to anyone scanning a header, which left the cell codes (BALL and
+  // PHIL) with no way to be matched back to their rows.
+  function abbrReading(value) {
+    return value.split(ABBR_SEPARATOR).join('').toLowerCase();
+  }
+
   function resolveUniqueLabels(keys, ladders) {
     const rungs = new Map(keys.map((key) => [key, 0]));
     const valueAt = (key) => {
@@ -473,7 +483,7 @@
     for (let pass = 0; pass < maxPasses; pass += 1) {
       const byValue = new Map();
       keys.forEach((key) => {
-        const value = valueAt(key);
+        const value = abbrReading(valueAt(key));
         if (!byValue.has(value)) byValue.set(value, []);
         byValue.get(value).push(key);
       });
@@ -495,12 +505,12 @@
     const used = new Set();
     keys.forEach((key) => {
       let value = valueAt(key);
-      if (used.has(value)) {
+      if (used.has(abbrReading(value))) {
         let attempt = 2;
-        while (used.has(`${value}${attempt}`)) attempt += 1;
+        while (used.has(abbrReading(`${value}${attempt}`))) attempt += 1;
         value = `${value}${attempt}`;
       }
-      used.add(value);
+      used.add(abbrReading(value));
       resolved[key] = value;
     });
     return resolved;
