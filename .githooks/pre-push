@@ -40,6 +40,20 @@ set -- _cpl/ 'cpl/*compiled/*' \
   'cpl/local/*/index.html' 'cpl/travel/*/index.html'
 
 while read -r local_ref local_sha remote_ref remote_sha; do
+  # Coding agents never push to main: their work reaches it through a PR.
+  # Claude Code sets CLAUDECODE=1 in every shell it spawns. This checks the
+  # ref git is actually about to update — not what the command line said —
+  # because the one time an agent did push to main, the command named a
+  # feature branch: its upstream was origin/main, and push.default=tracking
+  # sent `git push origin <branch>` there. Deleting main is refused too.
+  # A person pushing, and the bot workflows, are unaffected.
+  if [ "$remote_ref" = "refs/heads/main" ] && [ -n "${CLAUDECODE:-}" ]; then
+    echo "pre-push: refusing to update main from a coding agent ($local_ref -> $remote_ref)." >&2
+    echo "pre-push: push a feature branch by explicit refspec and open a PR:" >&2
+    echo "pre-push:   git push origin HEAD:refs/heads/<branch>" >&2
+    exit 1
+  fi
+
   [ "$local_sha" = "$z40" ] && continue # deleting a ref — nothing to check
 
   if [ "$remote_sha" = "$z40" ]; then

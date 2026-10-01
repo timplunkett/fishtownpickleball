@@ -13,8 +13,20 @@ are easy to break without noticing.
   committed there without being asked. Never leave edits uncommitted on `main`.
 - **Don't push or open PRs unless asked.** When asked, write the PR title and
   body; the PR is the handoff.
+- **Never push to `main`.** Not directly, not by force, not by deleting it —
+  everything reaches `main` through a PR that Tim merges. Create branches with
+  `--no-track` (a branch made from `origin/main` otherwise tracks it), and push
+  by explicit refspec, `git push origin HEAD:refs/heads/<branch>`: with
+  `push.default=tracking`, a bare `git push origin <branch>` goes to the
+  branch's upstream, which is how an agent once landed a feature branch on
+  `main`. `.githooks/pre-push` refuses any update to `main` from inside
+  Claude Code; if it fires, the push was wrong — don't work around it.
+- **Stay inside the checkout.** Don't create files, worktrees or symlinks
+  outside this repository's directory, temp files included.
 - Don't switch branches in a checkout someone is actively serving with Jekyll.
-  For parallel work, use a worktree: `git worktree add ../fpb-<slug> -b <branch>`.
+  For parallel work, use a worktree inside the checkout (`.claude/` is
+  gitignored):
+  `git worktree add --no-track .claude/worktrees/<slug> -b <branch> origin/main`.
 - Verify before calling anything done (see "Verifying a change" in the README):
 
   ```sh
