@@ -63,6 +63,20 @@ test('accepts scoped and unscoped conventional titles', () => {
   accepts('feat(CPL): #88 Show Mixed and Gender win%\n');
 });
 
+// AGENTS.md lists the commit types and the hook enforces them, and the two had
+// drifted: AGENTS.md was missing `revert` and `task`, which the hook accepted.
+// The hook adds `bot`, which only the automated workflows use, so AGENTS.md
+// lists it separately rather than among the types an agent picks from.
+test('AGENTS.md lists exactly the types the hook accepts, plus bot', () => {
+  const hookTypes = fs.readFileSync(HOOK, 'utf8').match(/types='([^']+)'/)[1].split('|');
+  const agents = fs.readFileSync(path.join(__dirname, '..', '..', 'AGENTS.md'), 'utf8');
+  const commits = agents.slice(agents.indexOf('## Commits'), agents.indexOf('\n## ', agents.indexOf('## Commits') + 1));
+  const documented = [...commits.matchAll(/^ {2}- `([a-z]+)`: /gm)].map((match) => match[1]);
+  assert.ok(documented.length > 0, 'no type bullets found under ## Commits');
+  assert.deepEqual([...documented, 'bot'].sort(), [...hookTypes].sort());
+  documented.forEach((type) => accepts(`${type}: Capitalized subject\n`));
+});
+
 test('accepts the automated workflow titles', () => {
   accepts('bot(CPL): Automated data refresh (due) [3.5, 4.0]\n\nFetched, no changes: 3.0\n');
   accepts('bot(DUPR): Update player DUPR ratings\n');
