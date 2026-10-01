@@ -512,3 +512,163 @@ test('a team with more match wins outranks one with fewer, even if its game reco
   assert.ok(rank('Aces') < rank('Foxes'),
     `Aces (2-0) should outrank Foxes (1-0) in standings order, got ranks ${rank('Aces')} and ${rank('Foxes')}`);
 });
+
+// --- Same-name-and-team roster collisions -----------------------------------
+// b0155ca (PR #46) rostered two "Steven Fernandez" rows on one team before the
+// season started, each 0 GP with a different DUPR code — two placeholder rows
+// for what turned out to be one bracket slot. Neither ever appears in a game,
+// so this still collapses to a single row via the existing precedence, same
+// as every version of the dedupe before this fix.
+test('two pre-season rostered rows sharing a name collapse to one, by the existing precedence (b0155ca)', (t) => {
+  const extraPlayers = [
+    rosterPlayer('sf1', 'Steven', 'Fernandez', TEAMS.A, 'Aces', { dupr: '03101043', ranking: 50 }),
+    rosterPlayer('sf2', 'Steven', 'Fernandez', TEAMS.A, 'Aces', { dupr: '125ae44c', ranking: 5 }),
+  ];
+  for (const data of bothOrders(t, { preSeason: true, extraPlayers })) {
+    assert.equal(data.matches.every((m) => !m.complete), true, 'no match has been played');
+    const rows = data.players.filter((p) => p.name === 'Steven Fernandez');
+    assert.equal(rows.length, 1, 'two inactive duplicates still collapse to one row');
+    assert.equal(rows[0].playerId, 'sf2', 'the existing precedence (here: the better league rank) decides the tie-break');
+  }
+});
+
+// The bug this plan fixes: two different playerIds share a name and a team,
+// and *both* have actually played. Dropping either one would erase a real
+// person's games, so both keep a row — the second with a disambiguating
+// suffix so every name-keyed join downstream (the match card, m.subs,
+// Lineup Lab) still resolves to exactly one person.
+function addEdwinGarciaMatchup(opts) {
+  const matchup = {
+    matchupId: 'm-eg', weekNumber: 5, homeTeamId: TEAMS.A, awayTeamId: 'team-opp',
+    homeName: 'Aces', awayName: 'Opponents', homePoints: 11, awayPoints: 5,
+    endResult: 'home', scheduledTime: '2026-09-01T19:00:00',
+  };
+  const detail = {
+    matchupId: 'm-eg',
+    details: {
+      matchup: { endResult: 'home' },
+      matchupPlayerStats: { $values: [
+        matchupPlayer('eg1', TEAMS.A, { gamesPlayed: 1, wins: 1, losses: 0, pointsWon: 11, totalPointsAgainst: 5 }),
+        matchupPlayer('eg2', TEAMS.A, { gamesPlayed: 1, wins: 1, losses: 0, pointsWon: 11, totalPointsAgainst: 5, isSub: true }),
+        matchupPlayer('op1', 'team-opp', { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 5, totalPointsAgainst: 11 }),
+        matchupPlayer('op2', 'team-opp', { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 5, totalPointsAgainst: 11 }),
+      ] },
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'eg1', homePlayerId2: 'eg2', awayPlayerId1: 'op1', awayPlayerId2: 'op2', homeScore: 11, awayScore: 5, matchType: 'male', matchupId: 'm-eg' },
+      ] } },
+    },
+  };
+  return {
+    ...opts,
+    extraPlayers: [
+      ...(opts.extraPlayers || []),
+      rosterPlayer('eg1', 'Edwin', 'Garcia', TEAMS.A, 'Aces', { ranking: 9 }),
+      rosterPlayer('eg2', 'Edwin', 'Garcia', TEAMS.A, 'Aces', { isSub: true, ranking: 27 }),
+      rosterPlayer('op1', 'Oscar', 'Pike', 'team-opp', 'Opponents'),
+      rosterPlayer('op2', 'Opal', 'Pike', 'team-opp', 'Opponents'),
+    ],
+    extraMatchups: [...(opts.extraMatchups || []), matchup],
+    extraMatchupDetails: [...(opts.extraMatchupDetails || []), detail],
+  };
+}
+
+const UUID_LIKE = /^[0-9a-f]{8}-[0-9a-f]{4}-/i;
+
+test('two active players sharing a name and team both keep a row (Edwin Garcia case)', (t) => {
+  for (const data of bothOrders(t, addEdwinGarciaMatchup({}))) {
+    const rostered = data.players.find((p) => p.playerId === 'eg1');
+    const sub = data.players.find((p) => p.playerId === 'eg2');
+    assert.ok(rostered && sub, 'both playerIds keep their own row');
+    assert.equal(rostered.name, 'Edwin Garcia');
+    assert.equal(sub.name, 'Edwin Garcia (2)');
+    assert.equal(data.players.filter((p) => p.name === 'Edwin Garcia').length, 1);
+    assert.equal(data.players.filter((p) => p.name === 'Edwin Garcia (2)').length, 1);
+
+    const card = data.matches.find((m) => m.week === 5);
+    assert.deepEqual(card.games[0].h, ['Edwin Garcia', 'Edwin Garcia (2)']);
+    assert.deepEqual(card.subs, ['Edwin Garcia (2)']);
+
+    assert.ok(data.availableSubs.some((s) => s.playerId === 'eg2'), 'the sub shows up for Lineup Lab');
+
+    // No join for a *completed* match fell back to an empty string or a bare
+    // UUID. (A pending match's "" is the deliberate TBD marker for a lineup
+    // slot nobody has posted yet — see assertPostedLineups above — so this
+    // only checks matches the league has actually scored.)
+    for (const m of data.matches.filter((match) => match.complete)) {
+      for (const g of (m.games || [])) {
+        for (const slot of [...g.h, ...g.a]) {
+          assert.notEqual(slot, '', `empty name in week ${m.week} vs ${m.away}`);
+          assert.equal(UUID_LIKE.test(slot), false, `UUID-shaped name "${slot}" in week ${m.week}`);
+        }
+      }
+      for (const sub of (m.subs || [])) {
+        assert.notEqual(sub, '');
+        assert.equal(UUID_LIKE.test(sub), false, `UUID-shaped sub name "${sub}"`);
+      }
+    }
+  }
+});
+
+// An active player and an inactive same-name-and-team duplicate: this is the
+// pre-fix behavior b0155ca relied on, and it must still hold — only the
+// playerId that actually appears in a game gets a row, and every other join
+// keyed off that name (extraPlayerIds here) is unaffected by the duplicate
+// ever having existed.
+test('an active player and an inactive same-name duplicate: only the active one survives (Scott Nissenbaum case)', (t) => {
+  const activeMatchup = {
+    matchupId: 'm-nn', weekNumber: 6, homeTeamId: TEAMS.A, awayTeamId: 'team-opp2',
+    homeName: 'Aces', awayName: 'Rivals', homePoints: 11, awayPoints: 5,
+    endResult: 'home', scheduledTime: '2026-09-08T19:00:00',
+  };
+  const activeDetail = {
+    matchupId: 'm-nn',
+    details: {
+      matchup: { endResult: 'home' },
+      matchupPlayerStats: { $values: [
+        matchupPlayer('nn1', TEAMS.A, { gamesPlayed: 1, wins: 1, losses: 0, pointsWon: 11, totalPointsAgainst: 5 }),
+        matchupPlayer('a2', TEAMS.A, { gamesPlayed: 1, wins: 1, losses: 0, pointsWon: 11, totalPointsAgainst: 5 }),
+        matchupPlayer('r1', 'team-opp2', { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 5, totalPointsAgainst: 11 }),
+        matchupPlayer('r2', 'team-opp2', { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 5, totalPointsAgainst: 11 }),
+      ] },
+      lineups: { lineups: { $values: [
+        { homePlayerId1: 'nn1', homePlayerId2: 'a2', awayPlayerId1: 'r1', awayPlayerId2: 'r2', homeScore: 11, awayScore: 5, matchType: 'male', matchupId: 'm-nn' },
+      ] } },
+    },
+  };
+  const base = {
+    extraPlayers: [
+      rosterPlayer('nn1', 'Nora', 'Nissenbaum', TEAMS.A, 'Aces', { ranking: 15 }),
+      rosterPlayer('r1', 'Rae', 'Rival', 'team-opp2', 'Rivals'),
+      rosterPlayer('r2', 'Remy', 'Rival', 'team-opp2', 'Rivals'),
+    ],
+    extraMatchups: [activeMatchup],
+    extraMatchupDetails: [activeDetail],
+  };
+  const withDuplicate = {
+    ...base,
+    extraPlayers: [
+      ...base.extraPlayers,
+      rosterPlayer('nn2', 'Nora', 'Nissenbaum', TEAMS.A, 'Aces', { ranking: 2, gamesPlayed: 0 }),
+    ],
+  };
+
+  const baseline = compileToObjects(t, base).data;
+  for (const data of bothOrders(t, withDuplicate)) {
+    const noras = data.players.filter((p) => p.name === 'Nora Nissenbaum');
+    assert.equal(noras.length, 1, 'the inactive duplicate does not get its own row');
+    assert.equal(noras[0].playerId, 'nn1', 'the active pid is the one kept');
+    assert.deepEqual(data.extraPlayerIds, baseline.extraPlayerIds,
+      'extraPlayerIds (and so playerIdsByName underneath it) is unaffected by the inactive duplicate');
+  }
+});
+
+test('a same-name-and-team collision prints exactly one warning line, naming both pids', (t) => {
+  const warn = t.mock.method(console, 'warn', () => {});
+  compileToObjects(t, addEdwinGarciaMatchup({}));
+  const lines = warn.mock.calls.map((c) => c.arguments[0]).filter((msg) => typeof msg === 'string' && msg.includes('Edwin Garcia'));
+  assert.equal(lines.length, 1, 'exactly one warning for this collision');
+  assert.match(lines[0], /^⚠️ /);
+  assert.match(lines[0], /eg1/);
+  assert.match(lines[0], /eg2/);
+  assert.match(lines[0], /kept both/);
+});

@@ -279,10 +279,10 @@ test('computePairSynergy surfaces pairs only at 3+ shared games', () => {
   ]);
   const ratings = computeRatings([mu], details);
   const { duos, partnersByPid } = computePairSynergy([mu], details, ratings, {}, {
-    a: { firstName: 'Al', lastName: 'One' },
-    b: { firstName: 'Bo', lastName: 'Two' },
-    c: { firstName: 'Cy', lastName: 'Three' },
-    d: { firstName: 'Dee', lastName: 'Four' },
+    a: 'Al One',
+    b: 'Bo Two',
+    c: 'Cy Three',
+    d: 'Dee Four',
   });
   assert.equal(duos.length, 2); // both pairs played 3 games together
   assert.equal(duos[0].n, 3);

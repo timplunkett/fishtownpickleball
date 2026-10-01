@@ -1,5 +1,3 @@
-const { normalizeName: norm } = require('./shared');
-
 // --- Ridge-regularized Adjusted Plus-Minus (APM) player ratings -------------
 // Each doubles game becomes one equation: (myPair) - (theirPair) ~= pointMargin.
 // We solve for a per-player rating = net points/game contributed vs. an average
@@ -515,7 +513,7 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
 // expected margin (from ratings). Synergy is the shrunk average residual,
 // Σresidual / (n + PAIR_K), which pulls thin-sample pairs toward 0.
 // Returns { duos: [...n>=PAIR_MIN, sorted...], partnersByPid: { pid: [{...}] } }.
-function computePairSynergy(completed, detailByMatchupId, ratings, homeTeamByPid = {}, playerInfoById = {}) {
+function computePairSynergy(completed, detailByMatchupId, ratings, homeTeamByPid = {}, nameById = {}) {
   const rOf = pid => (ratings[pid] ? ratings[pid].rating : 0);
   const nameOf = {}, teamOf = {};
   const acc = {}; // "idA|idB" -> { a, b, n, sumRes, sumAct, sumExp, w }
@@ -525,8 +523,7 @@ function computePairSynergy(completed, detailByMatchupId, ratings, homeTeamByPid
     if (!d) continue;
     const teamNameById = { [mu.homeTeamId]: mu.homeName, [mu.awayTeamId]: mu.awayName };
     for (const p of (d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) {
-      const info = playerInfoById[p.playerId] || {};
-      nameOf[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
+      nameOf[p.playerId] = nameById[p.playerId] || '';
       teamOf[p.playerId] = teamNameById[p.teamId] || null;
     }
     for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {

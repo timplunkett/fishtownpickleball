@@ -2,7 +2,8 @@
   const DATA = {
  "players": [
   {
-   "name": "",
+   "name": "Edwin Garcia (2)",
+   "gender": "Male",
    "team": "Smash-holes!",
    "matches": 0,
    "outsideSub": true,
@@ -18,16 +19,16 @@
    "genderLosses": 0,
    "clutchWins": 3,
    "clutchLosses": 0,
-   "playerId": "5b496dbc-7f42-44ca-9dd2-67347090b6c5",
    "winPct": 100,
    "diff": 35,
    "ppg": 21,
-   "leagueRank": null,
+   "leagueRank": 27,
    "rating": 1.3,
    "ratingGames": 6,
    "confidence": 57,
    "strengthOfPartners": 1.6,
-   "strengthOfOpponents": -1
+   "strengthOfOpponents": -1,
+   "playerId": "5b496dbc-7f42-44ca-9dd2-67347090b6c5"
   },
   {
    "name": "Lizz Dunn",
@@ -10903,7 +10904,7 @@
      "as": 10,
      "h": [
       "Taryn Seidner",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Zoe Zapf",
@@ -10972,7 +10973,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "",
+      "Edwin Garcia (2)",
       "Ross Bienstock"
      ],
      "a": [
@@ -11071,7 +11072,7 @@
      "as": 19,
      "h": [
       "William Covino",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Morgan Valencia King",
@@ -11099,7 +11100,7 @@
      "as": 20,
      "h": [
       "Christine Cardinal",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Natalia Maciejewicz",
@@ -11197,7 +11198,7 @@
      "as": 19,
      "h": [
       "Edwin Garcia",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Morgan Valencia King",
@@ -11239,7 +11240,7 @@
      "as": 8,
      "h": [
       "Sarika Nadig",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Supriya Kothakonda",
@@ -11318,7 +11319,7 @@
     }
    ],
    "subs": [
-    "5b496dbc-7f42-44ca-9dd2-67347090b6c5"
+    "Edwin Garcia (2)"
    ]
   }
  ],
@@ -11844,7 +11845,7 @@
      "t": "mixed",
      "h": [
       "Terri Pflueger",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Danielle Kuti",
@@ -11921,7 +11922,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Edwin Garcia (2)",
       "Ross Bienstock"
      ],
      "a": [
@@ -11941,7 +11942,7 @@
      "t": "mixed",
      "h": [
       "Christine Cardinal",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Brianna Zenna",
@@ -12023,7 +12024,7 @@
      "t": "male",
      "h": [
       "Edwin Garcia",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Alan Liang",
@@ -12064,7 +12065,7 @@
      "t": "mixed",
      "h": [
       "Terri Pflueger",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Jen Ogorzat",
@@ -12135,7 +12136,7 @@
      "t": "male",
      "h": [
       "Edwin Garcia",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Alan Liang",
@@ -12187,7 +12188,7 @@
      "t": "mixed",
      "h": [
       "Taryn Seidner",
-      ""
+      "Edwin Garcia (2)"
      ],
      "a": [
       "Danielle Kuti",
@@ -12253,7 +12254,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Edwin Garcia (2)",
       "Ross Bienstock"
      ],
      "a": [
@@ -12358,6 +12359,14 @@
    "playerId": "4f98756a-9726-48fe-a241-2579f96eee16",
    "gender": "Male",
    "team": "Hot Ballers!",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Edwin Garcia (2)",
+   "playerId": "5b496dbc-7f42-44ca-9dd2-67347090b6c5",
+   "gender": "Male",
+   "team": "Smash-holes!",
    "isCaptain": false,
    "outsideSub": true
   },
