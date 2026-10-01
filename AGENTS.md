@@ -47,10 +47,18 @@ are easy to break without noticing.
 
 ## Commits
 
-- Conventional commits, scoped: `feat(CPL): Capitalize the first word after the colon`.
-  `(CPL)` is almost always right; `(Lineup Lab)` and `(CPL Data Refresh)` also
-  appear. Types: `feat fix chore style refactor build test perf docs ci`.
+- Conventional commits: `feat(CPL): Capitalize the first word after the colon`.
+  Types: `feat fix chore style refactor build test perf docs ci`.
   `bot(…)` is reserved for the automated data/DUPR workflows.
+- The scope names what the change touches, so pick it from the files, not
+  from habit:
+  - `(CPL)` only for the CPL dashboard and its pipeline (`cpl/`, `_cpl/`).
+    `(Lineup Lab)` and `(CPL Data Refresh)` are narrower CPL scopes.
+  - `(Site)` for the club site (`_includes/`, `_sass/`, `assets/`, the
+    Jekyll pages).
+  - Unscoped for repo-wide changes such as `.mailmap`, `.gitignore`, git
+    hooks, `AGENTS.md` and CI config (`chore: …`, `docs: …`). A commit that
+    has nothing to do with CPL shouldn't say `(CPL)`.
 - Author is `Tim Plunkett <git@plnktt.com>` — not a work address. Check
   `git config user.email` if in doubt.
 - End every agent-written commit with a trailer naming **the model actually
