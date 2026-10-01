@@ -238,7 +238,91 @@ function shouldPreferRosterPlayer(candidate, current, duprByPid, divisionBracket
   return false;
 }
 
-function selectCanonicalRosterPlayers(players, duprByPid = {}, divisionMeta = null) {
+// Every playerId the compiler ever looks up in nameById while rendering a
+// game: lineup slots (buildPendingGames, the in-season `games` builder,
+// subNamesByMatchupId) and stat rows (id2name). A playerId that shows up here
+// has, by definition, actually played or been posted to play — the roster
+// dedupe below uses this to tell a real second person (who must keep their
+// own row) from a stale pre-season duplicate (safe to merge away, same as
+// before). Scanned off the raw JSON rather than any already-resolved
+// structure so it covers matchupDetails and playoffMatchupDetails in every
+// state the matchup can be in: completed, provisional (scored but not yet
+// confirmed by the league) and pending (posted lineup, no score yet) — a
+// lineup slot doesn't change when a result is later resolved or synthesized.
+function collectLineupPlayerIds(detailsArrays) {
+  const ids = new Set();
+  for (const detailsArray of (detailsArrays || [])) {
+    for (const entry of (detailsArray || [])) {
+      const detail = entry && entry.details;
+      if (!detail) continue;
+      const games = (detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
+      for (const g of games) {
+        for (const pid of [g.homePlayerId1, g.homePlayerId2, g.awayPlayerId1, g.awayPlayerId2]) {
+          if (pid) ids.add(pid);
+        }
+      }
+      const stats = (detail.matchupPlayerStats && detail.matchupPlayerStats.$values) || [];
+      for (const p of stats) {
+        if (p && p.playerId) ids.add(p.playerId);
+      }
+    }
+  }
+  return ids;
+}
+
+// A zero-arg, memoized activePids for selectCanonicalRosterPlayers, reading a
+// division's own detail files the first (and only) time a collision actually
+// asks for them. buildPlayerIndex calls this for every division on every
+// compile, including the ones compileDivision didn't touch this run, so
+// almost all of them must stay free: reading matchupDetails.json a second
+// time for a division with no same-name-and-team collision at all would be
+// pure waste multiplied across every division, every compile.
+function makeActivePidsThunk(divDataDir) {
+  let cached = null;
+  return () => {
+    if (cached) return cached;
+    const readJson = (name, fallback) => {
+      const filePath = path.join(divDataDir, name);
+      return fs.existsSync(filePath) ? JSON.parse(fs.readFileSync(filePath, 'utf8')) : fallback;
+    };
+    cached = collectLineupPlayerIds([
+      readJson('matchupDetails.json', []),
+      readJson('playoffMatchupDetails.json', []),
+    ]);
+    return cached;
+  };
+}
+
+// Picks the one roster row that represents each (name, team) pairing —
+// almost always because the same person holds both a sub row and a rostered
+// row there, never because two different people happen to share a name and a
+// team. When the API does hand us two different playerIds under one name and
+// team, the question this function answers is narrow on purpose: it never
+// decides whether they're the same person, only whether dropping a row would
+// throw away a player's actual games. `activePids` (a Set, or a zero-arg
+// function returning one — see the call sites, which only invoke it once a
+// group actually needs it, so most divisions never pay to read their detail
+// files twice) is collectLineupPlayerIds' output: every id that has ever been
+// posted in a lineup slot or carried a stat row.
+//   - One distinct playerId in the group (the common case, and the only kind
+//     before this function learned about several): one row, by
+//     shouldPreferRosterPlayer. Covers the same pid rostered on one team and
+//     subbing on another that also somehow shares its own name — vanishingly
+//     rare, but no different from today.
+//   - Several distinct playerIds, and at least one of them is active: keep
+//     the best row (by shouldPreferRosterPlayer) for *every* active id, and
+//     drop the inactive ones. This is the Edwin Garcia fix — two real people,
+//     one of whom would otherwise lose their name the moment the other's row
+//     won the tie-break.
+//   - Several distinct playerIds, none of them active: keep a single best
+//     row across the whole group, exactly as every version of this function
+//     before it did. This is what b0155ca needed — two pre-season rows,
+//     0 games each, that turned out to describe one bracket slot.
+// `onCollision` fires once per multi-playerId group (regardless of which
+// branch it takes) so the caller can warn: this function only ever asks "did
+// anyone actually play", never "are these the same person", and that
+// question is worth raising for a human to look into separately.
+function selectCanonicalRosterPlayers(players, duprByPid = {}, divisionMeta = null, { activePids, onCollision } = {}) {
   const byNameAndTeam = new Map();
   const list = Array.isArray(players) ? players : [];
   const divisionBracket = getDivisionBracket(divisionMeta);
@@ -247,12 +331,76 @@ function selectCanonicalRosterPlayers(players, duprByPid = {}, divisionMeta = nu
     const teamName = String(p.teamName || '').trim();
     if (!name || !teamName) continue;
     const key = `${name.toLowerCase()}|${teamName.toLowerCase()}`;
-    const existing = byNameAndTeam.get(key);
-    if (!existing || shouldPreferRosterPlayer(p, existing, duprByPid, divisionBracket)) {
-      byNameAndTeam.set(key, p);
+    if (!byNameAndTeam.has(key)) byNameAndTeam.set(key, []);
+    byNameAndTeam.get(key).push(p);
+  }
+
+  let resolvedActivePids = null;
+  const getActivePids = () => {
+    if (resolvedActivePids) return resolvedActivePids;
+    resolvedActivePids = activePids
+      ? (typeof activePids === 'function' ? activePids() : activePids)
+      : new Set();
+    return resolvedActivePids;
+  };
+
+  const pickBest = (rows) => {
+    let best = null;
+    for (const p of rows) {
+      if (!best || shouldPreferRosterPlayer(p, best, duprByPid, divisionBracket)) best = p;
+    }
+    return best;
+  };
+
+  const result = [];
+  for (const rows of byNameAndTeam.values()) {
+    const distinctPids = new Set(rows.map((p) => p.playerId).filter(Boolean));
+    if (distinctPids.size <= 1) {
+      const best = pickBest(rows);
+      if (best) result.push(best);
+      continue;
+    }
+
+    // One best row per distinct playerId, same precedence as the single-id
+    // case, so a pid that itself holds both a sub and a rostered row under
+    // this name/team still collapses to one.
+    const rowsByPid = new Map();
+    for (const p of rows) {
+      if (!p.playerId) continue;
+      const held = rowsByPid.get(p.playerId);
+      if (!held || shouldPreferRosterPlayer(p, held, duprByPid, divisionBracket)) rowsByPid.set(p.playerId, p);
+    }
+
+    const active = getActivePids();
+    const activeRows = [...rowsByPid.values()].filter((p) => active.has(p.playerId));
+    // players.json is sorted by playerId (comparePlayers), and that order is
+    // the only thing here that doesn't depend on which rows an upstream
+    // refresh happens to hand us in what order — not rank, not games played.
+    const kept = (activeRows.length ? activeRows : [pickBest(rows)])
+      .slice()
+      .sort((a, b) => String(a.playerId).localeCompare(String(b.playerId)));
+    result.push(...kept);
+
+    if (onCollision) {
+      const [sample] = rows;
+      onCollision({
+        name: norm(`${sample.firstName || ''} ${sample.lastName || ''}`),
+        team: String(sample.teamName || '').trim(),
+        rows: [...rowsByPid.values()]
+          .slice()
+          .sort((a, b) => String(a.playerId).localeCompare(String(b.playerId)))
+          .map((p) => ({
+            playerId: p.playerId,
+            isSub: !!p.isSub,
+            gamesPlayed: Number(p.gamesPlayed) || 0,
+            dupr: p.dupr || null,
+            active: active.has(p.playerId),
+          })),
+        kept: kept.map((p) => p.playerId),
+      });
     }
   }
-  return [...byNameAndTeam.values()];
+  return result;
 }
 
 // Memoized per process: compileSeason calls this once per division (up to 35
@@ -306,8 +454,47 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const feed = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchups.json"), "utf8"));
   const playerListJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "players.json"), "utf8"));
   const matchupDetailsJson = JSON.parse(fs.readFileSync(path.join(divDataDir, "matchupDetails.json"), "utf8"));
+  const playoffMatchupsPath = path.join(divDataDir, "playoffMatchups.json");
+  const playoffMatchupDetailsPath = path.join(divDataDir, "playoffMatchupDetails.json");
+  const playoffFeed = fs.existsSync(playoffMatchupsPath)
+    ? JSON.parse(fs.readFileSync(playoffMatchupsPath, "utf8"))
+    : null;
+  const playoffMatchupDetailsJson = fs.existsSync(playoffMatchupDetailsPath)
+    ? JSON.parse(fs.readFileSync(playoffMatchupDetailsPath, "utf8"))
+    : [];
   const duprByPid = loadDuprByPid();
-  const rosterPlayers = selectCanonicalRosterPlayers(firstValues(playerListJson) || [], duprByPid, divisionMeta);
+  const rawPlayers = firstValues(playerListJson) || [];
+  // Every id ever posted in a lineup slot or carrying a stat row, in either
+  // the regular season or the playoffs — see collectLineupPlayerIds. Read
+  // once up front so the roster dedupe below can tell a real second person
+  // apart from a stale pre-season duplicate.
+  const activePids = collectLineupPlayerIds([matchupDetailsJson, playoffMatchupDetailsJson]);
+  // One line per same-name-and-team collision selectCanonicalRosterPlayers
+  // finds, logged immediately (so it survives even if compilation later
+  // fails) and also kept here for the display-name suffixing below, which
+  // only needs to touch the groups that actually collided.
+  const rosterCollisions = [];
+  const logRosterCollision = ({
+    name, team, rows, kept,
+  }) => {
+    const describeRow = (r) => `${r.playerId} (${r.isSub ? 'sub' : 'rostered'}, ${r.gamesPlayed} GP, ${r.dupr || 'no DUPR'})`;
+    let verb;
+    if (kept.length > 1) {
+      verb = kept.length === rows.length
+        ? (kept.length === 2 ? 'kept both (each appears in games)' : `kept all ${kept.length} (each appears in games)`)
+        : `kept ${kept.length} of ${rows.length} (the rest never appear in a game)`;
+    } else {
+      verb = `merged into ${kept[0]} (the others never appear in a game)`;
+    }
+    console.warn(`⚠️ ${divisionMeta.leagueType} ${slug} (${divisionMeta.divisionName}): ${rows.length} roster rows named "${name}" on ${team} with different playerIds — ${rows.map(describeRow).join(', ')}; ${verb}`);
+  };
+  const rosterPlayers = selectCanonicalRosterPlayers(rawPlayers, duprByPid, divisionMeta, {
+    activePids,
+    onCollision: (collision) => {
+      rosterCollisions.push(collision);
+      logRosterCollision(collision);
+    },
+  });
 
   // A player can hold several roster rows in one division — rostered on one team
   // and subbing on others, occasionally rostered on two — each row carrying its
@@ -338,15 +525,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     }
   }
 
-  const playoffMatchupsPath = path.join(divDataDir, "playoffMatchups.json");
-  const playoffMatchupDetailsPath = path.join(divDataDir, "playoffMatchupDetails.json");
-  const playoffFeed = fs.existsSync(playoffMatchupsPath)
-    ? JSON.parse(fs.readFileSync(playoffMatchupsPath, "utf8"))
-    : null;
-  const playoffMatchupDetailsJson = fs.existsSync(playoffMatchupDetailsPath)
-    ? JSON.parse(fs.readFileSync(playoffMatchupDetailsPath, "utf8"))
-    : [];
-
   const matchups = (feed.$values || firstValues(feed) || []);
 
   // Teams that appear in at least one scheduled or completed matchup — used to
@@ -373,9 +551,20 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // player's team, including for players rostered on more than one.
   const homeTeamByPid = {};
   const captainTeamByPid = {};
-  // Player ID -> static profile info (firstName, lastName, gender) so
-  // matchupPlayerStats entries don't need to repeat those fields.
+  // Player ID -> static profile info (firstName, lastName, gender), so
+  // matchupPlayerStats entries don't need to repeat those fields. Built from
+  // every raw roster row, not just the ones the dedupe above kept — a pid's
+  // rows all carry the same profile, and players.json is sorted by playerId,
+  // so the first row seen per pid is as good as any. This is the safety net
+  // for the roster dedupe: even if a future lookup reaches a playerId that
+  // collectLineupPlayerIds doesn't cover, it still resolves to a real name
+  // instead of "" or a bare UUID.
   const playerInfoById = {};
+  for (const p of rawPlayers) {
+    if (p.playerId && !playerInfoById[p.playerId]) {
+      playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
+    }
+  }
   // A handful of players hold a rostered row on two teams at once. Pick the one
   // where the league ranks them highest rather than whichever row happens to
   // arrive last, so the attribution does not move when the roster file's order
@@ -383,7 +572,6 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const homeRowByPid = {};
   const captainRowByPid = {};
   for (const p of rosterPlayers) {
-    if (p.playerId) playerInfoById[p.playerId] = { firstName: p.firstName, lastName: p.lastName, gender: p.gender };
     if (p.isSub || !p.playerId || !p.teamName || !teamNamesWithMatchups.has(p.teamName)) continue;
     claimCanonicalRow(homeRowByPid, p.playerId, p);
     if (p.isCaptain) claimCanonicalRow(captainRowByPid, p.playerId, p);
@@ -406,23 +594,50 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     if (!p.playerId || !p.isSub || !p.teamName || !teamNamesWithMatchups.has(p.teamName)) continue;
     claimCanonicalRow(allSubRowByPid, p.playerId, p);
   }
+
+  // Player ID -> display name, built from the complete player roster
+  // (players.json, via playerInfoById above) so it resolves upcoming
+  // matchups too, whose matchupPlayerStats has been omitted. Needed before
+  // the pre-season branch below, which also renders posted lineups.
+  //
+  // Starts as each pid's bare name. A playerId the roster dedupe merged away
+  // (today's rule: two inactive same-name-and-team rows, kept as one) shares
+  // its survivor's name here and is never looked up on its own — it holds no
+  // roster row, so nothing joins to it by name either. A playerId the dedupe
+  // kept alongside another of the same name needs more: two players named
+  // "Edwin Garcia" can't both read as "Edwin Garcia" everywhere a lineup slot,
+  // a duo card or `m.subs` names them, or every name-keyed join in app.js
+  // (ratings, Lineup Lab, the sub tag) would silently pick one of them at
+  // random. So within each such collision, the kept pids get a stable order —
+  // a non-sub row on a team with matchups first, then playerId ascending,
+  // never rank or games played, so the label doesn't move between refreshes —
+  // and every pid after the first gets "(2)", "(3)", and so on appended.
+  const nameById = {};
+  for (const [pid, info] of Object.entries(playerInfoById)) {
+    nameById[pid] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
+  }
+  for (const { team, kept } of rosterCollisions) {
+    if (kept.length < 2) continue;
+    const rankOf = (pid) => {
+      const row = rosterPlayers.find((p) => p.playerId === pid && p.teamName === team);
+      const hasNonSubRow = !!row && !row.isSub && teamNamesWithMatchups.has(team);
+      return hasNonSubRow ? 0 : 1;
+    };
+    const ordered = [...kept].sort((a, b) => (rankOf(a) - rankOf(b)) || String(a).localeCompare(String(b)));
+    const bareName = nameById[ordered[0]];
+    ordered.forEach((pid, i) => {
+      nameById[pid] = i === 0 ? bareName : `${bareName} (${i + 1})`;
+    });
+  }
+
   const availableSubs = Object.values(allSubRowByPid).map((p) => ({
-    name: norm(`${p.firstName} ${p.lastName}`),
+    name: nameById[p.playerId] || '',
     playerId: p.playerId,
     gender: p.gender,
     team: p.teamName,
     isCaptain: !!p.isCaptain,
     outsideSub: !homeTeamByPid[p.playerId],
   }));
-
-  // Player ID -> display name, built from the complete player roster
-  // (players.json) so it resolves upcoming matchups too, whose
-  // matchupPlayerStats has been omitted. Needed before the pre-season branch
-  // below, which also renders posted lineups.
-  const nameById = {};
-  for (const [pid, info] of Object.entries(playerInfoById)) {
-    nameById[pid] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
-  }
 
   // The reverse lookup, over the whole division roster — subs included, who are
   // absent from DATA.players but do appear in lineups. Lineups identify players
@@ -432,11 +647,18 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // dropped rather than guessed at: a wrong join would silently rate the wrong
   // person.
   //
+  // Only iterates the pids the dedupe actually kept (rosterPlayers): a merged-
+  // away pid shares its survivor's bare name in nameById above, and including
+  // it here would make that name look ambiguous when it isn't anymore — the
+  // very DUPR join this is meant to protect.
+  //
   // Only the part of this the dashboard can't already derive gets emitted — see
   // selectExtraPlayerIds.
   const playerIdsByName = {};
   const ambiguousNames = new Set();
-  for (const [pid, name] of Object.entries(nameById)) {
+  for (const p of rosterPlayers) {
+    const pid = p.playerId;
+    const name = pid ? nameById[pid] : null;
     if (!name) continue;
     if (playerIdsByName[name] && playerIdsByName[name] !== pid) ambiguousNames.add(name);
     playerIdsByName[name] = pid;
@@ -502,7 +724,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // stats, no rating. Used pre-season and for teams whose first match hasn't
   // been played while the rest of the division is under way.
   const blankRosterPlayer = (p) => ({
-    name: norm(`${p.firstName} ${p.lastName}`), gender: p.gender,
+    name: nameById[p.playerId] || '', gender: p.gender,
     team: homeTeamByPid[p.playerId], matches: 0, outsideSub: false, isCaptain: !!p.isCaptain,
     gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
     mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
@@ -670,8 +892,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 
     const id2name = {};
     for (const p of ps) {
-      const info = playerInfoById[p.playerId] || {};
-      id2name[p.playerId] = norm(`${info.firstName || ''} ${info.lastName || ''}`);
+      id2name[p.playerId] = nameById[p.playerId] || "";
     }
 
     // Build per-match lookups for intra-league subs: set of IDs and map to guest team name.
@@ -687,7 +908,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       if (!players.has(pid)) {
         const info = playerInfoById[pid] || {};
         players.set(pid, {
-          name: norm(`${info.firstName || ''} ${info.lastName || ''}`), gender: info.gender,
+          name: nameById[pid] || "", gender: info.gender,
           team: homeTeamByPid[pid] || TEAMNAME[p.teamId], matches: 0,
           outsideSub: !homeTeamByPid[pid],
           isCaptain: false,
@@ -789,7 +1010,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const ratings = computeRatings(completed, resolvedDetailById);
   const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, resolvedDetailById, players);
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
-  const { duos, partnersByPid } = computePairSynergy(completed, resolvedDetailById, ratings, homeTeamByPid, playerInfoById);
+  const { duos, partnersByPid } = computePairSynergy(completed, resolvedDetailById, ratings, homeTeamByPid, nameById);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
@@ -1343,6 +1564,13 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
         (raw && raw.$values) ? raw.$values : (Array.isArray(raw) ? raw : []),
         Object.fromEntries(duprByPlayerId.entries()),
         { divisionName: div.divisionName, leagueType: league },
+        // compileDivision already warned about this division's collisions
+        // (every division passes through there first — see compileSeason).
+        // The finder just needs the same kept-vs-merged answer, without
+        // re-reading the detail files for the overwhelming majority of
+        // divisions that have no collision at all — makeActivePidsThunk only
+        // touches disk the moment a multi-playerId group actually needs it.
+        { activePids: makeActivePidsThunk(path.join(dataDir, div.slug)) },
       );
       for (const p of players) {
         if (!p.firstName && !p.lastName) continue;
@@ -1458,6 +1686,7 @@ module.exports = {
   compileDashboardHtml,
   buildPlayerIndex,
   compileDivision,
+  collectLineupPlayerIds,
   selectCanonicalRosterPlayers,
   writeDataScript,
 };
