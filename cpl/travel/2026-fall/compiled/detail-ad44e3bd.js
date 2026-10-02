@@ -4815,7 +4815,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -5415,7 +5415,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 6,
     "l": 0,
     "gp": 6,
@@ -5714,7 +5714,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 2,
     "gp": 6,
@@ -6296,7 +6296,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 5,
     "l": 1,
     "gp": 6,
@@ -7129,7 +7129,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -7362,7 +7362,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 3,
     "gp": 6,
@@ -7678,7 +7678,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 2,
     "gp": 6,
@@ -9832,7 +9832,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 4,
     "l": 2,
     "gp": 6,
@@ -10369,7 +10369,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 2,
     "l": 3,
     "gp": 5,
@@ -11427,7 +11427,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -11666,7 +11666,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 3,
     "gp": 5,
@@ -12532,7 +12532,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 1,
     "gp": 5,
@@ -12738,7 +12738,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 1,
     "gp": 5,
@@ -12939,7 +12939,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 4,
     "gp": 6,
@@ -16740,7 +16740,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 4,
     "gp": 6,
@@ -17851,7 +17851,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 0,
     "l": 6,
     "gp": 6,
@@ -18909,7 +18909,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 1,
     "l": 4,
     "gp": 5,
@@ -21042,7 +21042,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 3,
     "gp": 5,
@@ -21768,7 +21768,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -22395,7 +22395,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 2,
     "l": 3,
     "gp": 5,
@@ -23359,7 +23359,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 0,
     "l": 5,
     "gp": 5,
@@ -23814,7 +23814,7 @@
    {
     "week": 4,
     "opp": "Life Time Red Bank",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -26475,7 +26475,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 1,
     "l": 4,
     "gp": 5,
@@ -28036,7 +28036,7 @@
    {
     "week": 4,
     "opp": "Montville",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 1,
     "l": 3,
     "gp": 4,

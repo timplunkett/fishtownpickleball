@@ -16739,113 +16739,99 @@
    "subs": []
   },
   {
-   "result": "away",
+   "result": "home",
    "week": 4,
-   "home": "Life Time Red Bank",
-   "away": "Montville",
+   "home": "Montville",
+   "away": "Life Time Red Bank",
    "time": "2026-09-17T11:30:00",
    "complete": true,
-   "homePoints": 543,
-   "awayPoints": 628,
-   "homeGW": 12,
-   "awayGW": 20,
+   "homePoints": 628,
+   "awayPoints": 543,
+   "homeGW": 20,
+   "awayGW": 12,
    "games": [
     {
      "t": "female",
      "ff": 0,
-     "hs": 13,
-     "as": 21,
+     "hs": 21,
+     "as": 13,
      "h": [
-      "Marian Kingston",
-      "Sara Hylan"
-     ],
-     "a": [
       "Jess Cox",
       "Janine Thompson"
+     ],
+     "a": [
+      "Marian Kingston",
+      "Sara Hylan"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 22,
-     "as": 20,
+     "hs": 20,
+     "as": 22,
      "h": [
-      "Kathleen Nitti",
-      "Rachel Levkov"
-     ],
-     "a": [
       "Joanne Rim",
       "Vilayvanh Sysounthone"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Debi Mcdonald",
+      "Cheryl Brodsky"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Marie Walsh Mccarty"
      ]
     },
     {
      "t": "female",
      "ff": 0,
      "hs": 21,
-     "as": 23,
+     "as": 12,
      "h": [
-      "Kathy Baker",
-      "Marie Walsh Mccarty"
-     ],
-     "a": [
-      "Debi Mcdonald",
-      "Cheryl Brodsky"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Brittany Messing",
-      "Gina Faccone"
-     ],
-     "a": [
       "Ani Stone",
       "Hope Lo"
+     ],
+     "a": [
+      "Brittany Messing",
+      "Gina Faccone"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 12,
-     "as": 21,
+     "hs": 21,
+     "as": 12,
      "h": [
-      "Marie Walsh Mccarty",
-      "Caroline Kinlin"
-     ],
-     "a": [
       "Joanne Rim",
       "Jess Cox"
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Caroline Kinlin"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 16,
-     "as": 21,
+     "hs": 21,
+     "as": 16,
      "h": [
-      "Kathleen Nitti",
-      "Brittany Messing"
-     ],
-     "a": [
       "Vilayvanh Sysounthone",
       "Rachel Baluyot"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Jackie Coneeny",
-      "Sara Hylan"
      ],
      "a": [
-      "Ly Kim",
-      "Angie Ratkowitz"
+      "Kathleen Nitti",
+      "Brittany Messing"
      ]
     },
     {
@@ -16854,68 +16840,278 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Marian Kingston",
-      "Rachel Levkov"
+      "Ly Kim",
+      "Angie Ratkowitz"
      ],
      "a": [
+      "Jackie Coneeny",
+      "Sara Hylan"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
       "Ani Stone",
       "Hope Lo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Jackie Coneeny",
-      "Donna Facconerusin"
      ],
      "a": [
-      "Joanne Rim",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 12,
-     "as": 21,
-     "h": [
-      "Brittany Messing",
-      "Gina Faccone"
-     ],
-     "a": [
-      "Debi Mcdonald",
-      "Angie Ratkowitz"
+      "Marian Kingston",
+      "Rachel Levkov"
      ]
     },
     {
      "t": "female",
      "ff": 0,
      "hs": 21,
-     "as": 9,
+     "as": 10,
      "h": [
-      "Kathy Baker",
-      "Rachel Levkov"
+      "Joanne Rim",
+      "Kumi Dalton"
      ],
      "a": [
-      "Janine Thompson",
-      "Cheryl Brodsky"
+      "Jackie Coneeny",
+      "Donna Facconerusin"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 22,
-     "as": 20,
+     "hs": 21,
+     "as": 12,
      "h": [
-      "Caroline Kinlin",
-      "Jerzie-Ann Coppola"
+      "Debi Mcdonald",
+      "Angie Ratkowitz"
      ],
      "a": [
+      "Brittany Messing",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
+     "h": [
+      "Janine Thompson",
+      "Cheryl Brodsky"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
       "Vilayvanh Sysounthone",
       "Hope Lo"
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Jerzie-Ann Coppola"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Ani Stone",
+      "Kumi Dalton"
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
+     "h": [
+      "Debi Mcdonald",
+      "Rachel Baluyot"
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Jackie Coneeny"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Jess Cox",
+      "Hope Lo"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Kathy Baker"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
+     "h": [
+      "Ly Kim",
+      "Cheryl Brodsky"
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Vilayvanh Sysounthone",
+      "Kumi Dalton"
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Jerzie-Ann Coppola"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Ly Kim",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Brittany Messing",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Rachel Baluyot",
+      "Janine Thompson"
+     ],
+     "a": [
+      "Sara Hylan",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Ani Stone",
+      "Jess Cox"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Janine Thompson",
+      "Joanne Rim"
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Rachel Baluyot",
+      "Hope Lo"
+     ],
+     "a": [
+      "Jerzie-Ann Coppola",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Debi Mcdonald",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Ani Stone",
+      "Jess Cox"
+     ],
+     "a": [
+      "Brittany Messing",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Joanne Rim",
+      "Angie Ratkowitz"
+     ],
+     "a": [
+      "Sara Hylan",
+      "Jerzie-Ann Coppola"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
+     "h": [
+      "Ly Kim",
+      "Kumi Dalton"
+     ],
+     "a": [
+      "Kathy Baker",
+      "Marian Kingston"
      ]
     },
     {
@@ -16924,278 +17120,82 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Rachel Levkov",
-      "Gina Faccone"
+      "Vilayvanh Sysounthone",
+      "Janine Thompson"
      ],
      "a": [
-      "Ani Stone",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Caroline Kinlin",
-      "Jackie Coneeny"
-     ],
-     "a": [
-      "Debi Mcdonald",
-      "Rachel Baluyot"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
       "Kathleen Nitti",
-      "Kathy Baker"
-     ],
-     "a": [
-      "Jess Cox",
-      "Hope Lo"
+      "Gina Faccone"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 8,
-     "as": 21,
+     "hs": 23,
+     "as": 25,
      "h": [
-      "Marie Walsh Mccarty",
-      "Donna Facconerusin"
-     ],
-     "a": [
-      "Ly Kim",
+      "Debi Mcdonald",
       "Cheryl Brodsky"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 11,
-     "as": 21,
-     "h": [
-      "Jackie Coneeny",
-      "Jerzie-Ann Coppola"
      ],
      "a": [
-      "Vilayvanh Sysounthone",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 23,
-     "h": [
-      "Brittany Messing",
-      "Marian Kingston"
-     ],
-     "a": [
-      "Ly Kim",
-      "Angie Ratkowitz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Sara Hylan",
-      "Donna Facconerusin"
-     ],
-     "a": [
-      "Rachel Baluyot",
-      "Janine Thompson"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Kathy Baker",
-      "Kathleen Nitti"
-     ],
-     "a": [
-      "Ani Stone",
-      "Jess Cox"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Rachel Levkov",
-      "Caroline Kinlin"
-     ],
-     "a": [
-      "Janine Thompson",
-      "Joanne Rim"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Jerzie-Ann Coppola",
-      "Donna Facconerusin"
-     ],
-     "a": [
-      "Rachel Baluyot",
-      "Hope Lo"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Kathy Baker",
-      "Gina Faccone"
-     ],
-     "a": [
-      "Debi Mcdonald",
-      "Angie Ratkowitz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Brittany Messing",
-      "Marian Kingston"
-     ],
-     "a": [
-      "Ani Stone",
-      "Jess Cox"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
-      "Sara Hylan",
-      "Jerzie-Ann Coppola"
-     ],
-     "a": [
-      "Joanne Rim",
-      "Angie Ratkowitz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 14,
-     "h": [
-      "Kathy Baker",
-      "Marian Kingston"
-     ],
-     "a": [
-      "Ly Kim",
-      "Kumi Dalton"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Kathleen Nitti",
-      "Gina Faccone"
-     ],
-     "a": [
-      "Vilayvanh Sysounthone",
-      "Janine Thompson"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 25,
-     "as": 23,
-     "h": [
       "Rachel Levkov",
       "Marie Walsh Mccarty"
-     ],
-     "a": [
-      "Debi Mcdonald",
-      "Cheryl Brodsky"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 22,
-     "as": 20,
+     "hs": 20,
+     "as": 22,
      "h": [
-      "Caroline Kinlin",
-      "Jackie Coneeny"
-     ],
-     "a": [
       "Ly Kim",
       "Cheryl Brodsky"
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Jackie Coneeny"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 15,
-     "as": 21,
+     "hs": 21,
+     "as": 15,
      "h": [
-      "Kathleen Nitti",
-      "Brittany Messing"
-     ],
-     "a": [
       "Vilayvanh Sysounthone",
       "Joanne Rim"
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Brittany Messing"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 18,
-     "as": 21,
+     "hs": 21,
+     "as": 18,
      "h": [
-      "Marie Walsh Mccarty",
-      "Jerzie-Ann Coppola"
-     ],
-     "a": [
       "Jess Cox",
       "Rachel Baluyot"
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Jerzie-Ann Coppola"
      ]
     },
     {
      "t": "female",
      "ff": 0,
-     "hs": 17,
-     "as": 21,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "Marian Kingston",
-      "Sara Hylan"
-     ],
-     "a": [
       "Ani Stone",
       "Kumi Dalton"
+     ],
+     "a": [
+      "Marian Kingston",
+      "Sara Hylan"
      ]
     }
    ],
@@ -25789,7 +25789,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-01T22:11:59.180Z";
+  DATA.meta.asOf = "2026-10-02T21:39:58.380Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

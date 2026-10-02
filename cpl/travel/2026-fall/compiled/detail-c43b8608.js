@@ -21391,7 +21391,7 @@
    },
    {
     "pid": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-    "name": "Linda Goss",
+    "name": "Matt Mcgrath",
     "n": 3,
     "synergy": 0.1
    },
@@ -24466,7 +24466,7 @@
    },
    {
     "pid": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-    "name": "Linda Goss",
+    "name": "Matt Mcgrath",
     "n": 3,
     "synergy": -0.8
    }

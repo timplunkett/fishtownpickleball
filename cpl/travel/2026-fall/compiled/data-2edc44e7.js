@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,7 +5677,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 216,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5706,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 232,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5918,6 +5918,64 @@
    "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3"
   },
   {
+   "name": "Ritu Chandra",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 204,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "37ce598e-d60f-4af8-b043-106d2ea1cdf1"
+  },
+  {
+   "name": "Kenny Nguyen",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 220,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4af425bc-76cc-44a4-a366-503ab5d0995a"
+  },
+  {
    "name": "Dave Govan",
    "gender": "Male",
    "team": "Flemington Blue",
@@ -5967,7 +6025,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5996,13 +6054,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "943ac52a-070f-4bdc-baf8-efe14d0f40ea"
+  },
+  {
+   "name": "David Dietzel",
+   "gender": "Male",
+   "team": "Flemington Blue",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 210,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a792f1c9-2858-416c-a98b-a1b60b785864"
   },
   {
    "name": "Peilin Zhang",
@@ -6025,13 +6112,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "af7b661e-bc26-4b53-8e7c-e5657bdba32a"
+  },
+  {
+   "name": "Liby Saigal",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 229,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "dc2026ad-428a-4822-ae40-889727c35b10"
   },
   {
    "name": "Kevin Jackson",
@@ -6083,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6112,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 224,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -20943,8 +21059,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Abraham Telechanski"
      ],
      "a": [
       "Alice Napolitano",
@@ -20954,8 +21070,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Savita Nandal",
+      "Paul Rappoport"
      ],
      "a": [
       "Sarah Nazario",
@@ -20965,19 +21081,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liby Saigal",
+      "Kenny Nguyen"
      ],
      "a": [
       "Eva Danieli",
       "Todd Gasparre"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Liangjie Zhu"
      ],
      "a": [
       "Natasha De Carvalho",
@@ -20987,41 +21107,53 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Wendy Zukerberg"
      ],
      "a": [
       "Alice Napolitano",
       "Eva Danieli"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Liby Saigal"
      ],
      "a": [
       "Sarah Nazario",
       "Meryl Nadler"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "Kenny Nguyen"
      ],
      "a": [
       "Gary Sidhu",
       "Todd Gasparre"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Paul Rappoport"
      ],
      "a": [
       "Yi Gu",
@@ -21031,19 +21163,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liby Saigal",
+      "Abraham Telechanski"
      ],
      "a": [
       "Alice Napolitano",
       "Todd Gasparre"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Savita Nandal",
+      "Paul Rappoport"
      ],
      "a": [
       "Sarah Nazario",
@@ -21053,8 +21189,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Liangjie Zhu"
      ],
      "a": [
       "Meryl Nadler",
@@ -21064,41 +21200,53 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Kenny Nguyen"
      ],
      "a": [
       "Natasha De Carvalho",
       "Lance Brown"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Liby Saigal",
+      "Ronnie Yin"
      ],
      "a": [
       "Alice Napolitano",
       "Meryl Nadler"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Wendy Zukerberg"
      ],
      "a": [
       "Sarah Nazario",
       "Natasha De Carvalho"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Paul Rappoport"
      ],
      "a": [
       "Gary Sidhu",
@@ -21108,41 +21256,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "Kenny Nguyen"
      ],
      "a": [
       "Todd Gasparre",
       "Lance Brown"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liby Saigal",
+      "Abraham Telechanski"
      ],
      "a": [
       "Sarah Nazario",
       "Todd Gasparre"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Wendy Zukerberg",
+      "Paul Rappoport"
      ],
      "a": [
       "Eva Danieli",
       "Gary Sidhu"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Liangjie Zhu"
      ],
      "a": [
       "Natasha De Carvalho",
@@ -21152,30 +21312,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Kenny Nguyen"
      ],
      "a": [
       "Meryl Nadler",
       "Lance Brown"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Liby Saigal",
+      "Wendy Zukerberg"
      ],
      "a": [
       "Alice Napolitano",
       "Meryl Nadler"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Savita Nandal"
      ],
      "a": [
       "Sarah Nazario",
@@ -21185,19 +21353,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Kenny Nguyen"
      ],
      "a": [
       "Gary Sidhu",
       "Todd Gasparre"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "Paul Rappoport"
      ],
      "a": [
       "Yi Gu",
@@ -21207,30 +21379,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Wendy Zukerberg",
+      "Paul Rappoport"
      ],
      "a": [
       "Alice Napolitano",
       "Todd Gasparre"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liby Saigal",
+      "Liangjie Zhu"
      ],
      "a": [
       "Eva Danieli",
       "Gary Sidhu"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Abraham Telechanski"
      ],
      "a": [
       "Natasha De Carvalho",
@@ -21240,41 +21420,53 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Kenny Nguyen"
      ],
      "a": [
       "Meryl Nadler",
       "Lance Brown"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Evelyn Du",
+      "Liby Saigal"
      ],
      "a": [
       "Alice Napolitano",
       "Natasha De Carvalho"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ronnie Yin",
+      "Wendy Zukerberg"
      ],
      "a": [
       "Sarah Nazario",
       "Eva Danieli"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Abraham Telechanski",
+      "Paul Rappoport"
      ],
      "a": [
       "Gary Sidhu",
@@ -21284,12 +21476,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Liangjie Zhu",
+      "Kenny Nguyen"
      ],
      "a": [
       "Todd Gasparre",
       "Yi Gu"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -21456,15 +21652,11 @@
      "t": "mixed",
      "h": [
       "Aimee Castellano",
-      "Kevin Jackson"
+      "Craig Batten"
      ],
      "a": [
       "Pam Boyd",
       "Jaco De Waal"
-     ],
-     "hSub": [
-      0,
-      1
      ],
      "aSub": [
       0,
@@ -21475,7 +21667,7 @@
      "t": "mixed",
      "h": [
       "Barbara Hess",
-      "Peilin Zhang"
+      "Kevin Jackson"
      ],
      "a": [
       "Patricia Boyle",
@@ -21681,8 +21873,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Papa",
+      "Craig Batten"
      ],
      "a": [
       "Patricia Boyle",
@@ -21692,8 +21884,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Richard Demeuse"
      ],
      "a": [
       "Kate Siedell",
@@ -21707,23 +21899,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Garretson",
+      "Kevin Jackson"
      ],
      "a": [
       "Stacey Frank",
       "Robert Finley"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristen Soucie",
+      "Peilin Zhang"
      ],
      "a": [
       "Kim Hamilton",
       "Yang Wang"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -21733,8 +21933,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Christine Papa"
      ],
      "a": [
       "Kim Hamilton",
@@ -21748,8 +21948,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Hess",
+      "Stacy Garretson"
      ],
      "a": [
       "Kate Siedell",
@@ -21759,12 +21959,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Richard Demeuse",
+      "Peilin Zhang"
      ],
      "a": [
       "Jeff Lorman",
       "Yang Wang"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -21774,12 +21978,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Jackson",
+      "Craig Batten"
      ],
      "a": [
       "Jaco De Waal",
       "Robert Finley"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -21799,8 +22007,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Brian Gonzalez"
      ],
      "a": [
       "Susan Ackley",
@@ -21810,8 +22018,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Daniel Chernin"
+     ],
+     "a": [
+      "Ritu Chandra",
+      "David Dietzel"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Karan Pescatore",
+      "Bud Heller"
      ],
      "a": [
       "Fabienne Yu",
@@ -21825,8 +22048,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Emil Pescatore"
      ],
      "a": [
       "Laura Govan",
@@ -21845,7 +22068,11 @@
      ],
      "a": [
       "Susan Ackley",
-      ""
+      "Ritu Chandra"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -21871,7 +22098,11 @@
      ],
      "a": [
       "Marc Friedman",
-      ""
+      "David Dietzel"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -21892,30 +22123,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Daniel Chernin"
      ],
      "a": [
       "Susan Ackley",
-      ""
+      "David Dietzel"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Jeffrey Susskind"
      ],
      "a": [
-      "",
+      "Ritu Chandra",
       "Marc Friedman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Bud Heller"
      ],
      "a": [
       "Laura Govan",
@@ -21929,8 +22168,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Emil Pescatore"
      ],
      "a": [
       "Sue Johnson",
@@ -21964,7 +22203,11 @@
      ],
      "a": [
       "Susan Ackley",
-      ""
+      "Ritu Chandra"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -21975,7 +22218,11 @@
      ],
      "a": [
       "John Pineda",
-      ""
+      "David Dietzel"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -21996,8 +22243,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Jeffrey Susskind"
+     ],
+     "a": [
+      "Ritu Chandra",
+      "David Dietzel"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kate Curren",
+      "Emil Pescatore"
      ],
      "a": [
       "Susan Ackley",
@@ -22007,8 +22269,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Brian Gonzalez"
      ],
      "a": [
       "Fabienne Yu",
@@ -22022,12 +22284,27 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Bud Heller"
      ],
      "a": [
       "Sue Johnson",
       "Albert Pamudji"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kate Curren",
+      "Karan Pescatore"
+     ],
+     "a": [
+      "Susan Ackley",
+      "Fabienne Yu"
      ],
      "aSub": [
       0,
@@ -22041,21 +22318,6 @@
       "Kelly Hanson Word"
      ],
      "a": [
-      "Susan Ackley",
-      "Fabienne Yu"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "Karan Pescatore",
-      "Kate Curren"
-     ],
-     "a": [
       "Laura Govan",
       "Sue Johnson"
      ],
@@ -22067,19 +22329,23 @@
     {
      "t": "male",
      "h": [
-      "Bud Heller",
-      "Emil Pescatore"
+      "Jeffrey Susskind",
+      "Daniel Chernin"
      ],
      "a": [
       "Marc Friedman",
-      ""
+      "David Dietzel"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Brian Gonzalez",
-      "Daniel Chernin"
+      "Bud Heller"
      ],
      "a": [
       "John Pineda",
@@ -22093,30 +22359,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Susan Ackley",
-      ""
+      "David Dietzel"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Brian Gonzalez"
      ],
      "a": [
-      "",
+      "Ritu Chandra",
       "Marc Friedman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Daniel Chernin"
      ],
      "a": [
       "Sue Johnson",
@@ -22130,8 +22404,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karan Pescatore",
+      "Emil Pescatore"
      ],
      "a": [
       "Laura Govan",
@@ -22145,8 +22419,8 @@
     {
      "t": "female",
      "h": [
-      "Rebecca Lederman",
-      "Carly Pfeffer"
+      "Kelly Hanson Word",
+      "Kate Curren"
      ],
      "a": [
       "Susan Ackley",
@@ -22160,33 +22434,37 @@
     {
      "t": "female",
      "h": [
-      "Kelly Hanson Word",
-      "Kate Curren"
+      "Carly Pfeffer",
+      "Rebecca Lederman"
      ],
      "a": [
       "Sue Johnson",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Bud Heller",
-      "Brian Gonzalez"
-     ],
-     "a": [
-      "Albert Pamudji",
-      ""
+      "Ritu Chandra"
      ],
      "aSub": [
-      1,
-      0
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Daniel Chernin",
+      "Brian Gonzalez"
+     ],
+     "a": [
+      "Albert Pamudji",
+      "David Dietzel"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bud Heller",
       "Jeffrey Susskind"
      ],
      "a": [
@@ -23009,8 +23287,12 @@
       "Jingwei Wu"
      ],
      "a": [
-      "Marykristin Haskell",
+      "Gina Pultorak",
       "Guy Judkowski"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -23047,7 +23329,11 @@
      ],
      "a": [
       "Janine Forrest",
-      "Marykristin Haskell"
+      "Gina Pultorak"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -23079,8 +23365,12 @@
       "Keith Goldberg"
      ],
      "a": [
-      "Marykristin Haskell",
+      "Gina Pultorak",
       "Jay Rohatgi"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -23143,7 +23433,11 @@
      ],
      "a": [
       "Cynthia Eisen",
-      "Marykristin Haskell"
+      "Gina Pultorak"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -23175,8 +23469,12 @@
       "Keith Goldberg"
      ],
      "a": [
-      "Marykristin Haskell",
+      "Gina Pultorak",
       "Tom Zentmeyer"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -23239,7 +23537,11 @@
      ],
      "a": [
       "Janine Forrest",
-      "Marykristin Haskell"
+      "Gina Pultorak"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -23308,8 +23610,12 @@
       "Jingwei Wu"
      ],
      "a": [
-      "Marykristin Haskell",
+      "Gina Pultorak",
       "Robert Block"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -23320,11 +23626,11 @@
      ],
      "a": [
       "Dottie Kelly",
-      "Marykristin Haskell"
+      "Gina Pultorak"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -23686,18 +23992,15 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Brooke Obrien": "06b66cca-2292-4bbe-962e-1217c4418e18",
+  "Charlie Johnston": "1bad49ab-f2b8-439b-9e4b-3ff3cb8ca325",
   "Cheryl Isbirian": "23c87311-dae9-47a5-be80-30aab8231ce2",
   "Yang Ruan": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
-  "Ritu Chandra": "37ce598e-d60f-4af8-b043-106d2ea1cdf1",
-  "Kenny Nguyen": "4af425bc-76cc-44a4-a366-503ab5d0995a",
   "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
   "Andrea Dellechiaie": "84e4d40d-3b98-4822-b073-e9dc71c0d4d7",
   "Virasack Vorabouth": "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc",
-  "David Dietzel": "a792f1c9-2858-416c-a98b-a1b60b785864",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Xilin Zhao": "bfecc55a-a909-44da-8292-6b59b37a6043",
   "Alex Miller": "d74d4a67-cb90-44d8-aeea-b48fab564427",
-  "Liby Saigal": "dc2026ad-428a-4822-ae40-889727c35b10",
   "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
   "Rick Vazquez": "e532dafb-ff0f-43fc-82be-687d34ab8c14"
  },
@@ -23779,6 +24082,14 @@
    "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
    "gender": "Male",
    "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Charlie Johnston",
+   "playerId": "1bad49ab-f2b8-439b-9e4b-3ff3cb8ca325",
+   "gender": "Male",
+   "team": "Pickleball Palace",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -24243,7 +24554,7 @@
   "matchesPlayed": 25,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 222,
+  "totalPlayers": 226,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -24340,7 +24651,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-02T17:04:55.745Z";
+  DATA.meta.asOf = "2026-10-02T21:36:43.838Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

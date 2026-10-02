@@ -11241,20 +11241,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Linda Goss",
-   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "team": "ACE Moorestown",
-   "slug": "1e12eb3f",
-   "gender": "Female"
-  },
-  {
-   "name": "Linda Goss",
-   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "team": "ACE Moorestown",
-   "slug": "c43b8608",
-   "gender": "Female"
-  },
-  {
    "name": "Linda Iacono",
    "playerId": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
    "team": "Premiere",
@@ -12442,6 +12428,13 @@ window.DUPR_AUDIT = {
    "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Matt Mcgrath",
+   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
+   "team": "ACE Moorestown",
+   "slug": "c43b8608",
    "gender": "Male"
   },
   {

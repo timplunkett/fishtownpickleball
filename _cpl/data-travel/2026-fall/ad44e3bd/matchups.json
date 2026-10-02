@@ -195,14 +195,14 @@
     {
       "matchupId": "0c7be997-0a35-482e-8667-68a5e1094cc3",
       "weekNumber": 4,
-      "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-      "awayTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "homePoints": 543,
-      "awayPoints": 628,
-      "endResult": "away",
+      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
+      "homePoints": 628,
+      "awayPoints": 543,
+      "endResult": "home",
       "scheduledTime": "2026-09-17T11:30:00",
-      "homeName": "Life Time Red Bank",
-      "awayName": "Montville"
+      "homeName": "Montville",
+      "awayName": "Life Time Red Bank"
     },
     {
       "matchupId": "b41f8572-263c-48ae-8201-d6735cfec33a",
