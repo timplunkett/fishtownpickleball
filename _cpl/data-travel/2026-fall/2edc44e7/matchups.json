@@ -313,18 +313,6 @@
       "awayName": "APC Garden State"
     },
     {
-      "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
-      "weekNumber": 6,
-      "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-04T14:00:00",
-      "homeName": "Stelton Sports",
-      "awayName": "Pickleball Palace"
-    },
-    {
       "matchupId": "254cad7f-223e-4475-b081-88c86459b979",
       "weekNumber": 7,
       "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
@@ -395,6 +383,18 @@
       "scheduledTime": "2026-10-03T14:00:00",
       "homeName": "Bounce Malvern Black",
       "awayName": "Pickle Place"
+    },
+    {
+      "matchupId": "3637cf1b-dc15-4162-b4c6-9bdcc8ed884d",
+      "weekNumber": 7,
+      "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-04T14:00:00",
+      "homeName": "Stelton Sports",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "63c1b780-b3b5-4af1-8792-d429cce39735",

@@ -398,7 +398,7 @@
       "gender": "Female",
       "dupr": "RXKYQM",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
       "teamName": "One Love",
       "wins": 9,

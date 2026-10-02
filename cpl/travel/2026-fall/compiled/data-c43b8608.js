@@ -1107,8 +1107,8 @@
    "name": "Jenn Guerrini",
    "gender": "Female",
    "team": "One Love",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 9,
@@ -20301,7 +20301,6 @@
     }
    ],
    "subs": [
-    "Jenn Guerrini",
     "Tara Lombardo",
     "Erik Lombardo"
    ]
@@ -26826,9 +26825,7 @@
      ]
     }
    ],
-   "subs": [
-    "Jenn Guerrini"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -40438,7 +40435,361 @@
    "home": "Monroe",
    "away": "One Love",
    "time": "2026-10-04T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Hal Greenspan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Randi Yezer",
+      "Michael Mastando"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Heidi Lipton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Randi Yezer",
+      "Karen Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hal Greenspan",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Cisar",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Randi Yezer",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Michael Mastando"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Randi Yezer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Heidi Lipton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hal Greenspan",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Mastando",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Michael Mastando"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Randi Yezer",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Hal Greenspan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Katy Taylor"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Randi Yezer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jim Sintic",
+      "Hal Greenspan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Mendez",
+      "Michael Mastando"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Hal Greenspan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Randi Yezer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Guerrini",
+      "Katy Taylor"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hal Greenspan",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenneth Pickett",
+      "Michael Cisar"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -41018,14 +41369,6 @@
    "playerId": "09ff18df-a4f9-4af7-808b-d8ceca5d1c57",
    "gender": "Female",
    "team": "Allstar Pickler",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Jenn Guerrini",
-   "playerId": "0a61962c-a23d-4651-8153-201d107f4477",
-   "gender": "Female",
-   "team": "One Love",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -42038,7 +42381,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-01T22:11:35.726Z";
+  DATA.meta.asOf = "2026-10-02T03:17:39.193Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

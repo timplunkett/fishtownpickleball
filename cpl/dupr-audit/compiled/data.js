@@ -7986,6 +7986,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Jenn Guerrini",
+   "playerId": "0a61962c-a23d-4651-8153-201d107f4477",
+   "team": "One Love",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Jenn Smith",
    "playerId": "32a22b16-1052-4c22-bdf9-9b48a1d73c84",
    "team": "Picklr Exton",
@@ -11966,6 +11973,13 @@ window.DUPR_AUDIT = {
    "playerId": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
    "team": "Picklr Fair Lawn",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Maria Valencia",
+   "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {

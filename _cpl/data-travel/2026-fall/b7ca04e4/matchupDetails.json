@@ -934,7 +934,7 @@
           {
             "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
             "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 8,
             "wins": 5,
             "losses": 3,
@@ -11079,7 +11079,7 @@
           {
             "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
             "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 8,
             "wins": 2,
             "losses": 6,
@@ -28813,7 +28813,7 @@
           {
             "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
             "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 6,
             "wins": 4,
             "losses": 2,

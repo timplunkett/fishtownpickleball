@@ -7226,8 +7226,8 @@
    "name": "Maria Valencia",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 3,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 22,
    "wins": 11,
@@ -28561,8 +28561,7 @@
    "subs": [
     "Ivona Reszka",
     "James Ouyang",
-    "Lucy Li",
-    "Maria Valencia"
+    "Lucy Li"
    ]
   },
   {
@@ -35523,8 +35522,7 @@
    ],
    "subs": [
     "Lay Wassana",
-    "Kim Allaga",
-    "Maria Valencia"
+    "Kim Allaga"
    ]
   },
   {
@@ -47601,9 +47599,7 @@
      ]
     }
    ],
-   "subs": [
-    "Maria Valencia"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -74045,14 +74041,6 @@
    "outsideSub": true
   },
   {
-   "name": "Maria Valencia",
-   "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Joy Frederick",
    "playerId": "e97daa4f-0d54-4e83-87a3-3762d363be43",
    "gender": "Female",
@@ -74201,7 +74189,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-01T22:10:53.597Z";
+  DATA.meta.asOf = "2026-10-02T03:16:46.981Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

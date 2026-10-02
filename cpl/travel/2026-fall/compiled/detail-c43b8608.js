@@ -5000,8 +5000,8 @@
     "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "One Love"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 4,
@@ -5027,8 +5027,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "One Love"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
