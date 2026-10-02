@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 299
+      "ranking": 300
     },
     {
       "playerId": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
@@ -619,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 295
+      "ranking": 296
     },
     {
       "playerId": "17caef8b-84d4-4052-9695-7c74190925a1",
@@ -849,7 +849,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 298
+      "ranking": 299
     },
     {
       "playerId": "23adcd68-130d-4176-b367-d3cd31260d21",
@@ -2482,7 +2482,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 300
+      "ranking": 301
     },
     {
       "playerId": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -3402,7 +3402,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 302
+      "ranking": 303
     },
     {
       "playerId": "870112b1-afc3-4ff6-b784-7f872210bf37",
@@ -4391,7 +4391,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 297
+      "ranking": 298
     },
     {
       "playerId": "ade57877-7c11-4a46-88bf-789a50906901",
@@ -4667,7 +4667,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 301
+      "ranking": 302
     },
     {
       "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
@@ -4760,6 +4760,29 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 292
+    },
+    {
+      "playerId": "b8b05708-e9f0-4f12-aa4a-f4993f2551fb",
+      "firstName": "Guanqin",
+      "lastName": "Ma",
+      "gender": "Male",
+      "dupr": "MPGLDG",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
+      "teamName": "PickleRage Union County",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 294
     },
     {
       "playerId": "b979a109-08fd-4041-8da4-e306ef13330a",
@@ -4897,7 +4920,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 294
+      "ranking": 295
     },
     {
       "playerId": "bf932162-305c-4efe-8b6d-b7316c0b4136",
@@ -5380,7 +5403,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 296
+      "ranking": 297
     },
     {
       "playerId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",

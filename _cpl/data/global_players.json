@@ -5611,9 +5611,9 @@
   },
   {
     "playerId": "7f851011-9322-43f9-aff2-754565a615c7",
-    "firstName": "Ritu",
-    "lastName": "Chandra",
-    "dupr": "9PMPWE",
+    "firstName": "Carol",
+    "lastName": "Mastroianni",
+    "dupr": "GGWQRX",
     "duprRating": "4.054",
     "duprNumericId": 8099110510,
     "duprProvisional": false,
@@ -30574,11 +30574,11 @@
   },
   {
     "playerId": "c6bfaf46-bfa1-40eb-8774-04151364f747",
-    "firstName": "Raymond ",
+    "firstName": "Raymond",
     "lastName": "Lormel",
     "dupr": "KO47EQ",
     "duprRating": "3.083",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 7083221071,
     "duprProvisional": false
   },
@@ -38222,7 +38222,7 @@
     "lastName": "Ma",
     "dupr": "MPGLDG",
     "duprRating": "3.813",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 4584543211,
     "duprProvisional": false
   },
@@ -47484,6 +47484,46 @@
     "duprRating": "3.217",
     "lastSeen": "2026-10",
     "duprNumericId": 5614623710,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "37ce598e-d60f-4af8-b043-106d2ea1cdf1",
+    "firstName": "Ritu",
+    "lastName": "Chandra",
+    "dupr": "9PMPWE",
+    "duprRating": "3.751",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8254806587,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "a792f1c9-2858-416c-a98b-a1b60b785864",
+    "firstName": "David",
+    "lastName": "Dietzel",
+    "dupr": "DWD70L",
+    "duprRating": "4.129",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6175016364,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "4af425bc-76cc-44a4-a366-503ab5d0995a",
+    "firstName": "Kenny",
+    "lastName": "Nguyen",
+    "dupr": "8KWYJK",
+    "duprRating": "4.375",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8585857982,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "956d08f6-100b-450f-9421-a26e99c0162a",
+    "firstName": "Lisa",
+    "lastName": "Kain",
+    "dupr": "3PXJ5Q",
+    "duprRating": "3.067",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7469853199,
     "duprProvisional": false
   }
 ]

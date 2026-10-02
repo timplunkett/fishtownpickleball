@@ -773,9 +773,9 @@
       "weekNumber": 6,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 526,
+      "awayPoints": 646,
+      "endResult": "away",
       "scheduledTime": "2026-10-01T19:30:00",
       "homeName": "Bounce Philly",
       "awayName": "Dill Dinkers Hatboro Aces"

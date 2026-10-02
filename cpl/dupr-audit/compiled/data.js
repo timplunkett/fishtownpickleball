@@ -6523,6 +6523,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Guanqin Ma",
+   "playerId": "b8b05708-e9f0-4f12-aa4a-f4993f2551fb",
+   "team": "PickleRage Union County",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Guillermo Wong",
    "playerId": "85be9d97-bc90-4108-8d5d-dea6a31ef6f3",
    "team": "Pickleball Kingdom Hamilton Strikers",

@@ -2999,7 +2999,7 @@
    },
    {
     "pid": "7f851011-9322-43f9-aff2-754565a615c7",
-    "name": "Ritu Chandra",
+    "name": "Carol Mastroianni",
     "n": 6,
     "synergy": -0.5
    },
@@ -5210,7 +5210,7 @@
   "partners": [
    {
     "pid": "7f851011-9322-43f9-aff2-754565a615c7",
-    "name": "Ritu Chandra",
+    "name": "Carol Mastroianni",
     "n": 4,
     "synergy": 1.1
    },

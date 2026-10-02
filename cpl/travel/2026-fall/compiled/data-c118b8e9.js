@@ -7881,13 +7881,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 301,
+   "leagueRank": 302,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de"
+  },
+  {
+   "name": "Guanqin Ma",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 294,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b8b05708-e9f0-4f12-aa4a-f4993f2551fb"
   },
   {
    "name": "Ryan Lehrfeld",
@@ -43173,7 +43202,7 @@
   "matchesPlayed": 57,
   "provisionalMatches": 1,
   "weeks": "1-6",
-  "totalPlayers": 282,
+  "totalPlayers": 283,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -43291,7 +43320,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-01T22:12:18.477Z";
+  DATA.meta.asOf = "2026-10-02T17:08:50.677Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
