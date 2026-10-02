@@ -5445,6 +5445,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Emily Simpson",
+   "playerId": "49f894dc-a1b9-48cc-abeb-9c184a97057f",
+   "team": "ACE Downingtown",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Emily Sowa",
    "playerId": "42d01dab-4aca-4c74-aa73-47be4fbff788",
    "team": "Pickle House",

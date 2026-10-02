@@ -2600,6 +2600,29 @@
       "ranking": 197
     },
     {
+      "playerId": "49f894dc-a1b9-48cc-abeb-9c184a97057f",
+      "firstName": "EMILY",
+      "lastName": "SIMPSON",
+      "gender": "Female",
+      "dupr": "LVKRZ6",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "teamName": "ACE Downingtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 414
+    },
+    {
       "playerId": "4b57327b-cf8c-41d3-8b29-6884a8d927f1",
       "firstName": "Quynh",
       "lastName": "Nguyen",
@@ -3195,7 +3218,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 415
+      "ranking": 416
     },
     {
       "playerId": "5ad51afd-7edc-43c3-b279-8c57c54cc38c",
@@ -3908,7 +3931,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 414
+      "ranking": 415
     },
     {
       "playerId": "6d4e3d3a-9162-4ee5-a04f-f82a10552bd5",
@@ -5288,7 +5311,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 416
+      "ranking": 417
     },
     {
       "playerId": "908a8539-b3a5-437a-957f-e900db3c01b9",

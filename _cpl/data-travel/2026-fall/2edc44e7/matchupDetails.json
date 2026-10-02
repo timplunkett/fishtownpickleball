@@ -16443,6 +16443,16 @@
               "matchupId": "254cad7f-223e-4475-b081-88c86459b979",
               "homePlayerId1": null,
               "homePlayerId2": null,
+              "awayPlayerId1": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
+              "awayPlayerId2": "5d13288d-69fe-4d0b-bf69-51c1d24e3409",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "mixed"
+            },
+            {
+              "matchupId": "254cad7f-223e-4475-b081-88c86459b979",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
               "awayPlayerId1": "fa28fec9-9eff-4831-912d-4180f8760eeb",
               "awayPlayerId2": "9f205d60-6056-482a-bcca-3dfdbacf1e8d",
               "homeScore": null,

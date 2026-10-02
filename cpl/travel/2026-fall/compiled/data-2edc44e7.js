@@ -20825,6 +20825,17 @@
    "complete": false,
    "games": [
     {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alice Napolitano",
+      "Lance Brown"
+     ]
+    },
+    {
      "t": "male",
      "h": [
       "",
@@ -23861,7 +23872,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-02T03:14:33.911Z";
+  DATA.meta.asOf = "2026-10-02T08:58:55.640Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

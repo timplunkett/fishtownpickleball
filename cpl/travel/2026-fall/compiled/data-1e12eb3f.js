@@ -13159,7 +13159,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 557,
+   "leagueRank": 558,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13188,7 +13188,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 551,
+   "leagueRank": 552,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13275,7 +13275,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 564,
+   "leagueRank": 565,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 563,
+   "leagueRank": 564,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13362,7 +13362,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 549,
+   "leagueRank": 550,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13391,7 +13391,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 542,
+   "leagueRank": 543,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13449,7 +13449,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 535,
+   "leagueRank": 536,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13478,7 +13478,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 546,
+   "leagueRank": 547,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13507,7 +13507,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 555,
+   "leagueRank": 556,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13565,7 +13565,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 561,
+   "leagueRank": 562,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13594,13 +13594,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 553,
+   "leagueRank": 554,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
+  },
+  {
+   "name": "Peter Lunarola",
+   "gender": "Male",
+   "team": "Premiere Dinkers",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 546,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "12c54c90-1be8-4575-8714-11076f1a5758"
   },
   {
    "name": "Frank Ciavardone",
@@ -13768,7 +13797,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 558,
+   "leagueRank": 559,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13797,7 +13826,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13826,7 +13855,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 556,
+   "leagueRank": 557,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -53009,7 +53038,7 @@
      "t": "male",
      "h": [
       "David Cardinale",
-      "Michael Keane"
+      "Peter Lunarola"
      ],
      "a": [
       "Leo Decker",
@@ -53043,7 +53072,7 @@
      "t": "mixed",
      "h": [
       "Carleen Thompson",
-      "Michael Keane"
+      "Peter Lunarola"
      ],
      "a": [
       "Caroline Kinlin",
@@ -53133,7 +53162,7 @@
      "t": "male",
      "h": [
       "Jay Parisi",
-      "Michael Keane"
+      "Peter Lunarola"
      ],
      "a": [
       "Bob Tarallo",
@@ -53167,7 +53196,7 @@
      "t": "mixed",
      "h": [
       "Denise Caracciolo",
-      "Michael Keane"
+      "Peter Lunarola"
      ],
      "a": [
       "Donna Facconerusin",
@@ -53272,7 +53301,7 @@
      "t": "male",
      "h": [
       "Joseph Romagnolo",
-      "Michael Keane"
+      "Peter Lunarola"
      ],
      "a": [
       "Mark Zamkoff",
@@ -53306,7 +53335,7 @@
      "t": "mixed",
      "h": [
       "Carleen Thompson",
-      "Michael Keane"
+      "Peter Lunarola"
      ],
      "a": [
       "Nicole Tarallo",
@@ -55158,7 +55187,6 @@
   "Jack Cappello": "0af54bea-0457-4869-a92b-5cd95f184477",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
-  "Peter Lunarola": "12c54c90-1be8-4575-8714-11076f1a5758",
   "Linda Goss": "14e5edae-ff22-415b-8267-d46a2117ed8d",
   "Emil De Carvalho": "22b206f2-1586-44b8-ba33-b51480e6a23e",
   "Cynthia Wojtkowski": "26b8531a-1f4c-4ffd-86ac-3ffb92eeee55",
@@ -55179,6 +55207,7 @@
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Aimee Kierney": "9fbfc247-65a9-4fb2-b5f6-82ed6ce4e2f9",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
+  "Joan Harris": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Vincent Rizzo": "ba7888da-e110-406f-b2fd-4c1166dc28ed",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
@@ -56120,6 +56149,14 @@
    "outsideSub": true
   },
   {
+   "name": "Joan Harris",
+   "playerId": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Joanna Zhang",
    "playerId": "b0c386a2-b875-4432-b5ef-e248a87d85dc",
    "gender": "Female",
@@ -56588,7 +56625,7 @@
   "matchesPlayed": 61,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 519,
+  "totalPlayers": 520,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -56720,7 +56757,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-02T03:15:25.355Z";
+  DATA.meta.asOf = "2026-10-02T08:59:51.380Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
