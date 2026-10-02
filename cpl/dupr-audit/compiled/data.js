@@ -11237,6 +11237,13 @@ window.DUPR_AUDIT = {
    "name": "Linda Goss",
    "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
    "team": "ACE Moorestown",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Linda Goss",
+   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
+   "team": "ACE Moorestown",
    "slug": "c43b8608",
    "gender": "Female"
   },

@@ -13139,6 +13139,35 @@
    "playerId": "069b6990-9fae-4294-bf0a-2e428a9f763e"
   },
   {
+   "name": "Linda Goss",
+   "gender": "Female",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 534,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d"
+  },
+  {
    "name": "Christina Samtmann",
    "gender": "Female",
    "team": "Forward",
@@ -13603,6 +13632,35 @@
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
   },
   {
+   "name": "Jack Cappello",
+   "gender": "Male",
+   "team": "Pickleball Palace Black",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 510,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0af54bea-0457-4869-a92b-5cd95f184477"
+  },
+  {
    "name": "Peter Lunarola",
    "gender": "Male",
    "team": "Premiere Dinkers",
@@ -13746,6 +13804,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a"
+  },
+  {
+   "name": "Joan Harris",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 535,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b0132c9e-2a21-45c8-b04d-b84aec626e68"
   },
   {
    "name": "Kayla Gipson",
@@ -51350,7 +51437,409 @@
    "home": "Allstar Pickler",
    "away": "Pickleball Palace Black",
    "time": "2026-10-03T14:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Matt Mcnulty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Marxen",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene Fletcher",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Joan Harris"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene Fletcher",
+      "Cheryl Minerowicz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "James Azarowicz",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Cappello",
+      "Rafael Moreano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joan Harris",
+      "Rafael Moreano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Marxen",
+      "Matt Mcnulty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene Fletcher",
+      "Theresa Corderi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Marxen",
+      "Joan Harris"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rafael Moreano",
+      "Matt Mcnulty"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "James Azarowicz",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Marxen",
+      "Rafael Moreano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene Fletcher",
+      "Matt Mcnulty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Terri Marxen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joan Harris",
+      "Charlene Fletcher"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Denooyer",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rafael Moreano",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene Fletcher",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joan Harris",
+      "Matt Mcnulty"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Rafael Moreano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Marxen",
+      "Joan Harris"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Theresa Corderi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Mcnulty",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "James Azarowicz",
+      "Jake Denooyer"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -55184,10 +55673,8 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Lisa Brower": "04e9aff2-d148-4ff7-8161-a42b0328aa7e",
-  "Jack Cappello": "0af54bea-0457-4869-a92b-5cd95f184477",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
-  "Linda Goss": "14e5edae-ff22-415b-8267-d46a2117ed8d",
   "Emil De Carvalho": "22b206f2-1586-44b8-ba33-b51480e6a23e",
   "Cynthia Wojtkowski": "26b8531a-1f4c-4ffd-86ac-3ffb92eeee55",
   "Danielle Klein": "2c4b8118-7e04-4fbc-8928-6957d708b338",
@@ -55207,7 +55694,6 @@
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Aimee Kierney": "9fbfc247-65a9-4fb2-b5f6-82ed6ce4e2f9",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
-  "Joan Harris": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Vincent Rizzo": "ba7888da-e110-406f-b2fd-4c1166dc28ed",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
@@ -55337,14 +55823,6 @@
    "playerId": "12c54c90-1be8-4575-8714-11076f1a5758",
    "gender": "Male",
    "team": "Premiere Dinkers",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Linda Goss",
-   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "gender": "Female",
-   "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -56625,7 +57103,7 @@
   "matchesPlayed": 61,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 520,
+  "totalPlayers": 523,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -56757,7 +57235,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-02T08:59:51.380Z";
+  DATA.meta.asOf = "2026-10-02T11:37:35.080Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

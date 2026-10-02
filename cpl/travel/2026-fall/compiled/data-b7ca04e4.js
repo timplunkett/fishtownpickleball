@@ -70390,7 +70390,6 @@
    "away": "Bounce Philly",
    "time": "2026-09-30T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 496,
    "awayPoints": 642,
    "homeGW": 8,
@@ -74123,7 +74122,7 @@
  ],
  "meta": {
   "matchesPlayed": 95,
-  "provisionalMatches": 3,
+  "provisionalMatches": 2,
   "weeks": "1-6",
   "totalPlayers": 550,
   "ratingHistoryWeeks": [
@@ -74189,7 +74188,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-02T03:16:46.981Z";
+  DATA.meta.asOf = "2026-10-02T11:38:45.682Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
