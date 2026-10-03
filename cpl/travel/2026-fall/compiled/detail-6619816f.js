@@ -4517,7 +4517,7 @@
   "partners": [
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Kristen Clemmer",
+    "name": "Manny Lai",
     "n": 3,
     "synergy": 1.3
    },
@@ -4819,7 +4819,7 @@
    },
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Kristen Clemmer",
+    "name": "Manny Lai",
     "n": 4,
     "synergy": 0.3
    },
@@ -10676,7 +10676,7 @@
   "partners": [
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Kristen Clemmer",
+    "name": "Manny Lai",
     "n": 5,
     "synergy": 0.4
    },
@@ -11800,7 +11800,7 @@
    },
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Kristen Clemmer",
+    "name": "Manny Lai",
     "n": 5,
     "synergy": 0.4
    },
@@ -12548,7 +12548,7 @@
   "partners": [
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Kristen Clemmer",
+    "name": "Manny Lai",
     "n": 3,
     "synergy": 0.5
    },
@@ -21540,7 +21540,7 @@
    },
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Kristen Clemmer",
+    "name": "Manny Lai",
     "n": 3,
     "synergy": 0.8
    },

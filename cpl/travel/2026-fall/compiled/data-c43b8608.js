@@ -3627,8 +3627,8 @@
    "playerId": "5d3b9d31-abbd-49ef-b63b-fa8a30759147"
   },
   {
-   "name": "Matt Mcgrath",
-   "gender": "Male",
+   "name": "Linda Goss",
+   "gender": "Female",
    "team": "ACE Moorestown",
    "matches": 4,
    "outsideSub": false,
@@ -15009,7 +15009,7 @@
    "bId": "8137da09-2781-4112-972a-dfd1c8102ba3"
   },
   {
-   "a": "Matt Mcgrath",
+   "a": "Linda Goss",
    "b": "Howard Cetel",
    "team": "ACE Moorestown",
    "n": 3,
@@ -16348,7 +16348,7 @@
    "bId": "c0b3d7fb-5792-4ff4-a83e-47db88ea0592"
   },
   {
-   "a": "Matt Mcgrath",
+   "a": "Linda Goss",
    "b": "Kelley Batejan",
    "team": "ACE Moorestown",
    "n": 3,
@@ -26916,7 +26916,7 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Lawrence Padersky"
      ],
      "a": [
@@ -27000,7 +27000,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Lawrence Padersky"
      ],
      "a": [
@@ -27056,7 +27056,7 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Kelley Batejan"
      ],
      "a": [
@@ -27112,7 +27112,7 @@
      "hs": 21,
      "as": 10,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Howard Cetel"
      ],
      "a": [
@@ -27154,7 +27154,7 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Kelley Batejan"
      ],
      "a": [
@@ -27281,7 +27281,7 @@
      "as": 21,
      "h": [
       "Barb Mulckhuyse",
-      "Matt Mcgrath"
+      "Linda Goss"
      ],
      "a": [
       "Nancy Culley",
@@ -31585,7 +31585,7 @@
       "Neil Vijayendran"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Dennis Higman"
      ]
     },
@@ -31697,7 +31697,7 @@
       "Neil Vijayendran"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Dennis Higman"
      ]
     },
@@ -31725,7 +31725,7 @@
       "Julie Chiappa"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Cathy Fiebs"
      ]
     },
@@ -31795,7 +31795,7 @@
       "Marvin Gordon"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Pete Certo"
      ]
     },
@@ -31921,7 +31921,7 @@
       "Marvin Gordon"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Ira Krassan"
      ]
     },
@@ -34384,7 +34384,7 @@
       "Joe Carrano"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Laurence Emerson"
      ]
     },
@@ -34454,7 +34454,7 @@
       "Joe Carrano"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Laurence Emerson"
      ]
     },
@@ -34594,7 +34594,7 @@
       "Idris Nejumi"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Pete Dunn"
      ]
     },
@@ -34622,7 +34622,7 @@
       "Lisa Mctague"
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Barb Mulckhuyse"
      ]
     },
@@ -39523,7 +39523,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Howard Cetel"
      ],
      "a": [
@@ -39664,7 +39664,7 @@
      "as": 21,
      "h": [
       "Andrea Schwab",
-      "Matt Mcgrath"
+      "Linda Goss"
      ],
      "a": [
       "Kimberly Brooks",
@@ -39705,7 +39705,7 @@
      "hs": 11,
      "as": 21,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Howard Cetel"
      ],
      "a": [
@@ -39775,7 +39775,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Kelley Batejan"
      ],
      "a": [
@@ -41182,7 +41182,7 @@
       ""
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Dennis Higman"
      ],
      "aSub": [
@@ -41223,7 +41223,7 @@
       ""
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Barb Mulckhuyse"
      ]
     },
@@ -41282,7 +41282,7 @@
       ""
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Dennis Higman"
      ],
      "aSub": [
@@ -41397,7 +41397,7 @@
       ""
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Lawrence Padersky"
      ]
     },
@@ -41482,7 +41482,7 @@
       ""
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Lawrence Padersky"
      ]
     },
@@ -41519,7 +41519,7 @@
       ""
      ],
      "a": [
-      "Matt Mcgrath",
+      "Linda Goss",
       "Kelley Batejan"
      ]
     },
@@ -45394,7 +45394,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T03:02:49.305Z";
+  DATA.meta.asOf = "2026-10-03T10:52:33.609Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

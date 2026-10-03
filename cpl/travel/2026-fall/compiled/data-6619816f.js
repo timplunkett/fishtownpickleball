@@ -988,8 +988,8 @@
    "playerId": "63221cc8-e303-4675-8dde-4fc77e871627"
   },
   {
-   "name": "Kristen Clemmer",
-   "gender": "Female",
+   "name": "Manny Lai",
+   "gender": "Male",
    "team": "ACE Moorestown",
    "matches": 0,
    "outsideSub": true,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 228,
+   "leagueRank": 229,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 233,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7166,7 +7166,7 @@
   },
   {
    "a": "Ben Mead",
-   "b": "Kristen Clemmer",
+   "b": "Manny Lai",
    "team": "ACE Moorestown",
    "n": 3,
    "w": 3,
@@ -7595,7 +7595,7 @@
   },
   {
    "a": "Brittany Hall",
-   "b": "Kristen Clemmer",
+   "b": "Manny Lai",
    "team": "ACE Moorestown",
    "n": 3,
    "w": 2,
@@ -8024,7 +8024,7 @@
   },
   {
    "a": "Krysti Maronski-Neufeldt",
-   "b": "Kristen Clemmer",
+   "b": "Manny Lai",
    "team": "ACE Moorestown",
    "n": 3,
    "w": 2,
@@ -8193,7 +8193,7 @@
   },
   {
    "a": "Nathan Law",
-   "b": "Kristen Clemmer",
+   "b": "Manny Lai",
    "team": "ACE Moorestown",
    "n": 5,
    "w": 4,
@@ -8206,7 +8206,7 @@
   },
   {
    "a": "Jack Blumberg",
-   "b": "Kristen Clemmer",
+   "b": "Manny Lai",
    "team": "ACE Moorestown",
    "n": 5,
    "w": 3,
@@ -8388,7 +8388,7 @@
   },
   {
    "a": "Annemarie Mccartney",
-   "b": "Kristen Clemmer",
+   "b": "Manny Lai",
    "team": "ACE Moorestown",
    "n": 4,
    "w": 3,
@@ -17617,7 +17617,7 @@
      ],
      "a": [
       "Brittany Hall",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -17700,7 +17700,7 @@
       "Zach Bowe"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Nathan Law"
      ]
     },
@@ -17743,7 +17743,7 @@
      ],
      "a": [
       "Annemarie Mccartney",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -17826,7 +17826,7 @@
       "Tyler Arsenault"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Jack Blumberg"
      ]
     },
@@ -17869,7 +17869,7 @@
      ],
      "a": [
       "Anita Buggins",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -17924,7 +17924,7 @@
       "Tyler Arsenault"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Jack Blumberg"
      ]
     },
@@ -17995,7 +17995,7 @@
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -18036,7 +18036,7 @@
       "Matthew Matro"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Nathan Law"
      ]
     },
@@ -18057,7 +18057,7 @@
    ],
    "subs": [
     "Ryan Furman",
-    "Kristen Clemmer"
+    "Manny Lai"
    ]
   },
   {
@@ -20505,7 +20505,7 @@
      "as": 21,
      "h": [
       "Nathan Law",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Anushk Gupta",
@@ -20519,7 +20519,7 @@
      "as": 11,
      "h": [
       "Annemarie Mccartney",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Helen Liu",
@@ -20616,7 +20616,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Jase Volz"
      ],
      "a": [
@@ -20645,7 +20645,7 @@
      "as": 17,
      "h": [
       "Jennifer Sanchez",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -20714,7 +20714,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Jack Blumberg"
      ],
      "a": [
@@ -20743,7 +20743,7 @@
      "as": 14,
      "h": [
       "Stacy Walkowitz",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -20840,7 +20840,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Jase Volz"
      ],
      "a": [
@@ -20851,7 +20851,7 @@
    ],
    "subs": [
     "Jase Volz",
-    "Kristen Clemmer"
+    "Manny Lai"
    ]
   },
   {
@@ -23219,7 +23219,7 @@
      "as": 16,
      "h": [
       "Krysti Maronski-Neufeldt",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Maeve Mcgowan",
@@ -23288,7 +23288,7 @@
      "hs": 21,
      "as": 17,
      "h": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Ben Mead"
      ],
      "a": [
@@ -23317,7 +23317,7 @@
      "as": 13,
      "h": [
       "Annemarie Mccartney",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Michelle Quach",
@@ -23401,7 +23401,7 @@
      "as": 12,
      "h": [
       "Nathan Law",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Zach Bowe",
@@ -23429,7 +23429,7 @@
      "as": 12,
      "h": [
       "Brittany Hall",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Rachel Berger",
@@ -23512,7 +23512,7 @@
      "hs": 14,
      "as": 21,
      "h": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Jack Blumberg"
      ],
      "a": [
@@ -23583,7 +23583,7 @@
      "as": 21,
      "h": [
       "Brittany Hall",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Arianna Haresign",
@@ -23625,7 +23625,7 @@
      "as": 20,
      "h": [
       "Jack Blumberg",
-      "Kristen Clemmer"
+      "Manny Lai"
      ],
      "a": [
       "Caleb Perry-Abner",
@@ -23648,7 +23648,7 @@
     }
    ],
    "subs": [
-    "Kristen Clemmer"
+    "Manny Lai"
    ]
   },
   {
@@ -25560,7 +25560,7 @@
      ],
      "a": [
       "Annemarie Mccartney",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -25643,7 +25643,7 @@
       "Shreyas Pani"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Ben Mead"
      ]
     },
@@ -25672,7 +25672,7 @@
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -25812,7 +25812,7 @@
      ],
      "a": [
       "Shelah Wallace",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -25881,7 +25881,7 @@
       "Dilan Shah"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Ben Mead"
      ]
     },
@@ -25896,7 +25896,7 @@
      ],
      "a": [
       "Stacy Walkowitz",
-      "Kristen Clemmer"
+      "Manny Lai"
      ]
     },
     {
@@ -25993,13 +25993,13 @@
       "Dilan Shah"
      ],
      "a": [
-      "Kristen Clemmer",
+      "Manny Lai",
       "Nathan Law"
      ]
     }
    ],
    "subs": [
-    "Kristen Clemmer"
+    "Manny Lai"
    ]
   },
   {
@@ -28074,6 +28074,7 @@
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
+  "Kristen Clemmer": "7f2ca847-7635-4bda-9073-7625e6812f32",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
@@ -28376,6 +28377,14 @@
    "outsideSub": true
   },
   {
+   "name": "Kristen Clemmer",
+   "playerId": "7f2ca847-7635-4bda-9073-7625e6812f32",
+   "gender": "Female",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Vince Abate",
    "playerId": "8257200c-7448-4527-92df-436d7bb18cac",
    "gender": "Male",
@@ -28528,9 +28537,9 @@
    "outsideSub": true
   },
   {
-   "name": "Kristen Clemmer",
+   "name": "Manny Lai",
    "playerId": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-   "gender": "Female",
+   "gender": "Male",
    "team": "ACE Moorestown",
    "isCaptain": true,
    "outsideSub": true
@@ -28661,7 +28670,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T03:02:23.554Z";
+  DATA.meta.asOf = "2026-10-03T10:52:10.149Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -25518,8 +25518,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -25545,8 +25545,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

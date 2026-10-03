@@ -4442,8 +4442,8 @@
    "name": "Vivek Kumar",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 4,
@@ -15998,8 +15998,7 @@
     }
    ],
    "subs": [
-    "Eric Lin",
-    "Vivek Kumar"
+    "Eric Lin"
    ]
   },
   {
@@ -19252,9 +19251,7 @@
      ]
     }
    ],
-   "subs": [
-    "Vivek Kumar"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -26277,14 +26274,6 @@
    "outsideSub": true
   },
   {
-   "name": "Vivek Kumar",
-   "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Raaj Singh",
    "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
    "gender": "Male",
@@ -26515,7 +26504,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T03:03:01.760Z";
+  DATA.meta.asOf = "2026-10-03T10:52:44.179Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -780,7 +780,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 223
+      "ranking": 224
     },
     {
       "playerId": "2026ccb7-bd78-4bb5-96de-9d0127fdd954",
@@ -2068,7 +2068,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 232
+      "ranking": 233
     },
     {
       "playerId": "54c51642-8048-4dd1-9221-a4306301ff72",
@@ -2436,7 +2436,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 231
+      "ranking": 232
     },
     {
       "playerId": "661f7bd0-74d3-432b-acc7-da0e3b3e36ea",
@@ -2643,7 +2643,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 226
+      "ranking": 227
     },
     {
       "playerId": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
@@ -2874,6 +2874,29 @@
       "genderWins": 2,
       "genderLosses": 5,
       "ranking": 156
+    },
+    {
+      "playerId": "7f2ca847-7635-4bda-9073-7625e6812f32",
+      "firstName": "Kristen",
+      "lastName": "Clemmer",
+      "gender": "Female",
+      "dupr": "84Q922",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 223
     },
     {
       "playerId": "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae",
@@ -3241,7 +3264,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 230
+      "ranking": 231
     },
     {
       "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
@@ -3471,7 +3494,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 228
+      "ranking": 229
     },
     {
       "playerId": "9c41a810-1be6-4e08-8a29-51558c29cb86",
@@ -3563,7 +3586,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 229
+      "ranking": 230
     },
     {
       "playerId": "9dae8c17-6878-473a-83e9-a43b434f876b",
@@ -3701,7 +3724,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 227
+      "ranking": 228
     },
     {
       "playerId": "a19b179a-6a16-43a7-b2af-8d6e8d1a1205",
@@ -3793,7 +3816,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 225
+      "ranking": 226
     },
     {
       "playerId": "a50a69d0-0a8c-4241-b768-846b1591d180",
@@ -4230,7 +4253,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 233
+      "ranking": 234
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
@@ -4529,7 +4552,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 224
+      "ranking": 225
     },
     {
       "playerId": "ccd8a76f-df3a-4ab9-97b6-bae0f860a431",
@@ -5039,10 +5062,10 @@
     },
     {
       "playerId": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-      "firstName": "Kristen",
-      "lastName": "Clemmer",
-      "gender": "Female",
-      "dupr": "84Q922",
+      "firstName": "Manny",
+      "lastName": "Lai",
+      "gender": "Male",
+      "dupr": "8KD2JK",
       "isCaptain": true,
       "isSub": true,
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",

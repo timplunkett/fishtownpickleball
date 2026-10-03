@@ -11241,6 +11241,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Linda Goss",
+   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
+   "team": "ACE Moorestown",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Linda Iacono",
    "playerId": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
    "team": "Premiere",
@@ -12421,13 +12428,6 @@ window.DUPR_AUDIT = {
    "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Matt Mcgrath",
-   "playerId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "team": "ACE Moorestown",
-   "slug": "c43b8608",
    "gender": "Male"
   },
   {
@@ -18581,6 +18581,13 @@ window.DUPR_AUDIT = {
    "playerId": "29143d36-b76c-4eb5-9aa4-605dbb30a37e",
    "team": "Pickle Juice Blackwood",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Vivek Kumar",
+   "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {
