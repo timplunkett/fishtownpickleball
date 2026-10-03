@@ -1884,7 +1884,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 16,
-      "ranking": 62
+      "ranking": 63
     },
     {
       "playerId": "7d70ad57-c02f-47cc-bdd2-e330a7fed56e",
@@ -2011,17 +2011,17 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 20,
-      "losses": 6,
-      "gamesPlayed": 26,
-      "pointsWon": 529,
-      "totalPointsAgainst": 419,
-      "clutchWins": 1,
+      "wins": 27,
+      "losses": 7,
+      "gamesPlayed": 34,
+      "pointsWon": 691,
+      "totalPointsAgainst": 549,
+      "clutchWins": 3,
       "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 20,
-      "genderLosses": 6,
+      "genderWins": 27,
+      "genderLosses": 7,
       "ranking": 7
     },
     {
@@ -3184,17 +3184,17 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 28,
-      "losses": 7,
-      "gamesPlayed": 35,
-      "pointsWon": 708,
-      "totalPointsAgainst": 582,
-      "clutchWins": 4,
+      "wins": 21,
+      "losses": 6,
+      "gamesPlayed": 27,
+      "pointsWon": 546,
+      "totalPointsAgainst": 452,
+      "clutchWins": 2,
       "clutchLosses": 1,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 28,
-      "genderLosses": 7,
+      "genderWins": 21,
+      "genderLosses": 6,
       "ranking": 8
     },
     {
@@ -4000,7 +4000,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 0,
-      "ranking": 63
+      "ranking": 62
     },
     {
       "playerId": "ee2b1370-05ac-455a-8be6-d2adf00a4f98",

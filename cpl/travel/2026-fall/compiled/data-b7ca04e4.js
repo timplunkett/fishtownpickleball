@@ -14070,8 +14070,8 @@
    "name": "Yuqing Wan",
    "gender": "Female",
    "team": "LBF Pickleball",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 9,
    "wins": 1,
@@ -62161,9 +62161,7 @@
      ]
     }
    ],
-   "subs": [
-    "Yuqing Wan"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -66830,7 +66828,6 @@
     }
    ],
    "subs": [
-    "Yuqing Wan",
     "Lay Wassana"
    ]
   },
@@ -73441,14 +73438,6 @@
    "outsideSub": true
   },
   {
-   "name": "Yuqing Wan",
-   "playerId": "3570ab02-ec74-47bd-8b7b-be2056846300",
-   "gender": "Female",
-   "team": "LBF Pickleball",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Ali Bhimji",
    "playerId": "3651f648-493a-4517-8085-a8b9cb086c07",
    "gender": "Male",
@@ -74365,7 +74354,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-02T17:06:59.919Z";
+  DATA.meta.asOf = "2026-10-03T03:02:06.889Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

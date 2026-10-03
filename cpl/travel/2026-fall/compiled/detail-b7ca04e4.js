@@ -94231,8 +94231,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -94258,8 +94258,8 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
-    "sub": 1,
-    "subFor": "LBF Pickleball"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

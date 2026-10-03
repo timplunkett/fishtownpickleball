@@ -146,6 +146,29 @@
       "dupr": "2YDYDY",
       "isCaptain": false,
       "isSub": true,
+      "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "teamName": "Flemington Blue",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 568
+    },
+    {
+      "playerId": "0442b5bc-7af7-4e95-acc1-08adc22cdb2e",
+      "firstName": "Brett",
+      "lastName": "Wilson",
+      "gender": "Male",
+      "dupr": "2YDYDY",
+      "isCaptain": false,
+      "isSub": true,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
       "wins": 4,
@@ -1838,7 +1861,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 569
+      "ranking": 570
     },
     {
       "playerId": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
@@ -8255,7 +8278,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 568
+      "ranking": 569
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",

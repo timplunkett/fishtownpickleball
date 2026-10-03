@@ -11815,13 +11815,6 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Manny Lai",
-   "playerId": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-   "team": "ACE Moorestown",
-   "slug": "6619816f",
-   "gender": "Male"
-  },
-  {
    "name": "Manop Sutipayakul",
    "playerId": "fc240672-f23c-40d4-9601-d019937cd3bf",
    "team": "PickleRage Union County",
@@ -16603,6 +16596,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Shreyas Pani",
+   "playerId": "3cebd01c-ff32-4544-b6a6-2a68152b2ee5",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Shreyas Suresh Hassan",
    "playerId": "e1d9f3bc-ec4e-4690-810c-a67452049768",
    "team": "PickleRage Union County",
@@ -18943,6 +18943,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Yuqi Yin",
    "playerId": "4740fdbe-adb4-4857-8b81-2ea8766ca68e",
+   "team": "LBF Pickleball",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Yuqing Wan",
+   "playerId": "3570ab02-ec74-47bd-8b7b-be2056846300",
    "team": "LBF Pickleball",
    "slug": "b7ca04e4",
    "gender": "Female"

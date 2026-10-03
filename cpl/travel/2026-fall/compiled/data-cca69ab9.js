@@ -34,8 +34,8 @@
    "name": "Shreyas Pani",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 13,
@@ -13669,7 +13669,6 @@
     }
    ],
    "subs": [
-    "Shreyas Pani",
     "Marc Padre"
    ]
   },
@@ -19254,7 +19253,6 @@
     }
    ],
    "subs": [
-    "Shreyas Pani",
     "Vivek Kumar"
    ]
   },
@@ -25349,7 +25347,361 @@
    "home": "Pickleball Kingdom Watchung",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-05T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Keith Shedlock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neel Goyal",
+      "Jake Laifer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Ian Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neel Goyal",
+      "Camrin Cronheim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Keith Shedlock",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Chin",
+      "Keith Shedlock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Jake Laifer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neel Goyal",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Chin",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Neel Goyal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Keith Shedlock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Jake Laifer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Jake Laifer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Chin",
+      "Keith Shedlock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Sidd Pathare"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neel Goyal",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Keith Shedlock",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Laifer",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sidd Pathare",
+      "Ian Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Chin",
+      "Jake Laifer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neel Goyal",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sidd Pathare",
+      "Keith Shedlock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neel Goyal",
+      "Ian Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Laifer",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Camrin Cronheim",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sidd Pathare",
+      "Elliott Albanese"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25737,14 +26089,6 @@
    "playerId": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
    "gender": "Male",
    "team": "Bounce Tempest",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Shreyas Pani",
-   "playerId": "3cebd01c-ff32-4544-b6a6-2a68152b2ee5",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -26171,7 +26515,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-01T22:11:48.934Z";
+  DATA.meta.asOf = "2026-10-03T03:03:01.760Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

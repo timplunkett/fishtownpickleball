@@ -4517,7 +4517,7 @@
   "partners": [
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Manny Lai",
+    "name": "Kristen Clemmer",
     "n": 3,
     "synergy": 1.3
    },
@@ -4819,7 +4819,7 @@
    },
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Manny Lai",
+    "name": "Kristen Clemmer",
     "n": 4,
     "synergy": 0.3
    },
@@ -5572,8 +5572,8 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "ACE Moorestown"
    },
    {
     "week": 4,
@@ -5599,8 +5599,8 @@
     "teamRes": "W",
     "teamGW": 28,
     "teamGL": 4,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "ACE Moorestown"
    },
    {
     "week": 5,
@@ -5626,8 +5626,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "ACE Moorestown"
    },
    {
     "week": 6,
@@ -5653,8 +5653,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 0,
-    "subFor": null
+    "sub": 1,
+    "subFor": "ACE Moorestown"
    }
   ],
   "ratingHistory": [
@@ -10676,7 +10676,7 @@
   "partners": [
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Manny Lai",
+    "name": "Kristen Clemmer",
     "n": 5,
     "synergy": 0.4
    },
@@ -11800,7 +11800,7 @@
    },
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Manny Lai",
+    "name": "Kristen Clemmer",
     "n": 5,
     "synergy": 0.4
    },
@@ -12548,7 +12548,7 @@
   "partners": [
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Manny Lai",
+    "name": "Kristen Clemmer",
     "n": 3,
     "synergy": 0.5
    },
@@ -21540,7 +21540,7 @@
    },
    {
     "pid": "f2a53ee2-a602-4e58-8326-6d0624af34af",
-    "name": "Manny Lai",
+    "name": "Kristen Clemmer",
     "n": 3,
     "synergy": 0.8
    },
