@@ -23250,7 +23250,6 @@
    "away": "Montville",
    "time": "2026-10-01T11:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 642,
    "awayPoints": 581,
    "homeGW": 20,
@@ -25675,7 +25674,7 @@
  ],
  "meta": {
   "matchesPlayed": 33,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-6",
   "totalPlayers": 174,
   "ratingHistoryWeeks": [
@@ -25776,7 +25775,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T10:52:53.802Z";
+  DATA.meta.asOf = "2026-10-03T15:29:15.999Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

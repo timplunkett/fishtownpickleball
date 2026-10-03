@@ -51624,7 +51624,6 @@
    "away": "PCKLRAMA",
    "time": "2026-10-01T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 616,
    "awayPoints": 649,
    "homeGW": 11,
@@ -53358,7 +53357,7 @@
  ],
  "meta": {
   "matchesPlayed": 68,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-6",
   "totalPlayers": 418,
   "ratingHistoryWeeks": [
@@ -53502,7 +53501,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-02T21:37:55.338Z";
+  DATA.meta.asOf = "2026-10-03T15:27:36.614Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

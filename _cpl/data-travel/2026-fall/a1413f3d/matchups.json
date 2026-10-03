@@ -821,9 +821,9 @@
       "weekNumber": 6,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 616,
+      "awayPoints": 649,
+      "endResult": "away",
       "scheduledTime": "2026-10-01T19:30:00",
       "homeName": "Home Court",
       "awayName": "PCKLRAMA"

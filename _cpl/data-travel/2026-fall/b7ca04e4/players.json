@@ -849,7 +849,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 583
+      "ranking": 584
     },
     {
       "playerId": "13c4d5cf-50d3-4156-95a0-aa4c45c19e20",
@@ -3149,7 +3149,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 584
+      "ranking": 585
     },
     {
       "playerId": "4139644b-5400-4b24-b9c8-25cb0b7d9039",
@@ -5013,6 +5013,29 @@
       "genderWins": 2,
       "genderLosses": 2,
       "ranking": 320
+    },
+    {
+      "playerId": "631b19a7-f176-4a1d-a7be-2fdf764b2dd6",
+      "firstName": "suzane",
+      "lastName": "sullivan",
+      "gender": "Female",
+      "dupr": "0QDPON",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "teamName": "Pickleball Kingdom Lehigh Valley",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 583
     },
     {
       "playerId": "63950363-4747-4faf-b89a-eb88f8b9e81d",

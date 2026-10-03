@@ -14812,7 +14812,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 583,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -70091,7 +70091,6 @@
    "away": "Ballers Philly",
    "time": "2026-09-30T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 654,
    "awayPoints": 576,
    "homeGW": 24,
@@ -73217,6 +73216,7 @@
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
+  "Suzane Sullivan": "631b19a7-f176-4a1d-a7be-2fdf764b2dd6",
   "Saaketh Koundinya Gundavarapu": "67730cd7-1040-4a80-a665-53e124b526cd",
   "Conor Malloy": "79791efb-c2d0-449d-8572-a99a1f2a5200",
   "Guitta Barghash": "8011677b-64c0-467d-8d54-c32da035effe",
@@ -73594,6 +73594,14 @@
    "playerId": "5fa834df-5bb9-4aac-9980-66962cb6f0a1",
    "gender": "Male",
    "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Suzane Sullivan",
+   "playerId": "631b19a7-f176-4a1d-a7be-2fdf764b2dd6",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Lehigh Valley",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -74288,7 +74296,7 @@
  ],
  "meta": {
   "matchesPlayed": 96,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-6",
   "totalPlayers": 550,
   "ratingHistoryWeeks": [
@@ -74354,7 +74362,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-03T03:02:06.889Z";
+  DATA.meta.asOf = "2026-10-03T15:28:14.799Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
