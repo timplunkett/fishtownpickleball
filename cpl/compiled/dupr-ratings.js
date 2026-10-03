@@ -1998,6 +1998,7 @@ window.DUPR_RATINGS = {
  "6be7e486-9396-4542-a6dd-b99cc57b95b7": {"rating":3.418,"numericId":4665097117,"provisional":false},
  "6be7fecc-58ce-4a10-b2f9-bf98567f3427": {"rating":3.486,"numericId":7006362158,"provisional":false},
  "6bf05f56-b25f-4e40-9bb9-986d4aebda92": {"rating":2.976,"numericId":7166167699,"provisional":false},
+ "6bf475b8-0f4c-4e4b-a1ba-279f5f8aa008": {"rating":4.61,"numericId":8392235733,"provisional":false},
  "6bfc3a49-53cb-4c03-b8cb-94552158ccbe": {"rating":3.885,"numericId":6949035928,"provisional":false},
  "6bfd212d-c7b4-4eff-ae3c-5e9424080282": {"rating":3.365,"numericId":6713583827,"provisional":false},
  "6c038507-c217-4774-9549-0f1374916111": {"rating":4.826,"numericId":8382507260,"provisional":false},

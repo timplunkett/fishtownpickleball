@@ -41229,8 +41229,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marguerite Greener",
+      "Andrew Mclean"
      ],
      "a": [
       "Cathy Fiebs",
@@ -41240,8 +41240,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Qiuwei Feng",
+      "Michael Johnson"
      ],
      "a": [
       "Kelley Batejan",
@@ -41251,12 +41251,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherri Falsetti",
+      "Stephane Sabathier"
      ],
      "a": [
       "Linda Goss",
       "Dennis Higman"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -41266,8 +41270,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krystal Johnson",
+      "Mike Leach"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -41277,8 +41281,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Krystal Johnson",
+      "Jill Mundenar"
      ],
      "a": [
       "Tinglan Zhao",
@@ -41292,8 +41296,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marguerite Greener",
+      "Dan He"
      ],
      "a": [
       "Linda Goss",
@@ -41303,8 +41307,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Johnson",
+      "Andrew Mclean"
      ],
      "a": [
       "Jason Fingerman",
@@ -41314,8 +41318,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gennadiy Sterin",
+      "Leonard Procaccino"
      ],
      "a": [
       "Dennis Higman",
@@ -41329,8 +41333,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marguerite Greener",
+      "Andrew Mclean"
      ],
      "a": [
       "Kelley Batejan",
@@ -41340,19 +41344,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherri Falsetti",
+      "Stephane Sabathier"
      ],
      "a": [
       "Cathy Fiebs",
       "Jason Fingerman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krystal Johnson",
+      "Michael Johnson"
      ],
      "a": [
       "Linda Goss",
@@ -41366,8 +41374,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Mundenar",
+      "Mike Leach"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -41377,8 +41385,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherri Falsetti",
+      "Jill Mundenar"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -41388,8 +41396,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Qiuwei Feng",
+      "Krystal Johnson"
      ],
      "a": [
       "Kelley Batejan",
@@ -41403,12 +41411,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stephane Sabathier",
+      "Leonard Procaccino"
      ],
      "a": [
       "Dennis Higman",
       "Pete Dunn"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -41418,8 +41430,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gennadiy Sterin",
+      "Mike Leach"
      ],
      "a": [
       "Jason Fingerman",
@@ -41429,8 +41441,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dan He",
+      "Andrew Mclean"
      ],
      "a": [
       "Cathy Fiebs",
@@ -41440,8 +41452,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Mundenar",
+      "Leonard Procaccino"
      ],
      "a": [
       "Tinglan Zhao",
@@ -41455,8 +41467,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Qiuwei Feng",
+      "Michael Johnson"
      ],
      "a": [
       "Kelley Batejan",
@@ -41466,8 +41478,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krystal Johnson",
+      "Mike Leach"
      ],
      "a": [
       "Linda Goss",
@@ -41477,8 +41489,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Qiuwei Feng",
+      "Marguerite Greener"
      ],
      "a": [
       "Cathy Fiebs",
@@ -41488,8 +41500,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherri Falsetti",
+      "Dan He"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -41503,8 +41515,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Johnson",
+      "Leonard Procaccino"
      ],
      "a": [
       "Dennis Higman",
@@ -41518,30 +41530,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gennadiy Sterin",
+      "Stephane Sabathier"
      ],
      "a": [
       "Lawrence Padersky",
       "Pete Dunn"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Mundenar",
+      "Stephane Sabathier"
      ],
      "a": [
       "Cathy Fiebs",
       "David Corwin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marguerite Greener",
+      "Michael Johnson"
      ],
      "a": [
       "Kelley Batejan",
@@ -41551,8 +41571,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dan He",
+      "Andrew Mclean"
      ],
      "a": [
       "Linda Goss",
@@ -41562,8 +41582,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherri Falsetti",
+      "Gennadiy Sterin"
      ],
      "a": [
       "Tinglan Zhao",
@@ -41577,8 +41597,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marguerite Greener",
+      "Krystal Johnson"
      ],
      "a": [
       "Cathy Fiebs",
@@ -41588,8 +41608,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Qiuwei Feng",
+      "Dan He"
      ],
      "a": [
       "Linda Goss",
@@ -41599,12 +41619,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stephane Sabathier",
+      "Leonard Procaccino"
      ],
      "a": [
       "Dennis Higman",
       "David Corwin"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -41614,8 +41638,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gennadiy Sterin",
+      "Mike Leach"
      ],
      "a": [
       "Jason Fingerman",
@@ -45475,7 +45499,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T15:28:52.851Z";
+  DATA.meta.asOf = "2026-10-03T20:24:13.053Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

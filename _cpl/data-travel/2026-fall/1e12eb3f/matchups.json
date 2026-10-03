@@ -797,9 +797,9 @@
       "weekNumber": 7,
       "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 571,
+      "awayPoints": 641,
+      "endResult": "away",
       "scheduledTime": "2026-10-03T13:00:00",
       "homeName": "PKLD",
       "awayName": "One Love"
