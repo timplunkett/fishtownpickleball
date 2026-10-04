@@ -5271,7 +5271,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5358,7 +5358,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5387,7 +5387,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5416,13 +5416,100 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Nicholas Howcumfu",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 199,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3"
+  },
+  {
+   "name": "Patrick Cadieu",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 191,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6bf475b8-0f4c-4e4b-a1ba-279f5f8aa008"
+  },
+  {
+   "name": "Jordan Clever",
+   "gender": "Male",
+   "team": "Bounce Tempest",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 193,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "d64db065-87c9-4e7f-989b-6f0ec53240c9"
   },
   {
    "name": "Doug Horton",
@@ -25320,7 +25407,393 @@
    "home": "Premiere",
    "away": "Jersey Pickleball Club",
    "time": "2026-10-05T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patrick Cadieu",
+      "Wasib Malik"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary Sidhu",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Phillips",
+      "Patrick Cadieu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Gary Sidhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patrick Cadieu",
+      "Wasib Malik"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary Sidhu",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Phillips",
+      "Patrick Cadieu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Gary Sidhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Patrick Cadieu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Gary Sidhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Gary Sidhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Daniel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Patrick Cadieu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Patrick Cadieu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Phillips",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Wysoczynski",
+      "Gary Sidhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Gary Sidhu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Phillips",
+      "Kevin Wysoczynski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Simon Rosenwasser",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Patrick Cadieu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25328,7 +25801,361 @@
    "home": "Jersey Devil",
    "away": "Picklr Newtown",
    "time": "2026-10-05T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Alex Pecora"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thomas Fenton",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Tim Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Yi",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Pecora",
+      "Thomas Fenton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Tim Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Joseph Yi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaco De Waal",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Tim Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Yi",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thomas Fenton",
+      "Alex Pecora"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Yi",
+      "Thomas Fenton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Cahalin",
+      "Alex Pecora"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Thomas Fenton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Joseph Yi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaco De Waal",
+      "Alex Pecora"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Cahalin",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Joseph Yi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Cahalin",
+      "Thomas Fenton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Pecora",
+      "Zach Mcgowan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thomas Fenton",
+      "Tim Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Yi",
+      "Joshua Mindlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Pecora",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Pecora",
+      "Tim Cahalin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Jaco De Waal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Mcgowan",
+      "Joseph Yi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joshua Mindlin",
+      "Thomas Fenton"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25336,7 +26163,417 @@
    "home": "Monroe",
    "away": "Flemington",
    "time": "2026-10-05T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Fallet",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Sean O'Connell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Osborne",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Fallet",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Sean O'Connell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Osborne",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Sean O'Connell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Clark",
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Fallet",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Sean O'Connell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Clark",
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Fallet",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Shahar Gelber"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ead",
+      "Anthony Fallet"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean O'Connell",
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Gregov",
+      "Frank Clark"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Shahar Gelber"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ead",
+      "Anthony Fallet"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean O'Connell",
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Clark",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ead",
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Fallet",
+      "Sean O'Connell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Steven Gregov"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ead",
+      "David Osborne"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Fallet",
+      "Sean O'Connell"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25706,7 +26943,433 @@
    "home": "Pickle House",
    "away": "Bounce Tempest",
    "time": "2026-10-05T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Nicholas Howcumfu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Jordan Clever"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Boory",
+      "Andre Cristobal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Jordan Clever"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Nicholas Howcumfu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Andre Cristobal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Zyril Carilo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Howcumfu",
+      "Andre Cristobal"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Jordan Clever"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Ashwin Korde"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Nicholas Howcumfu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Clever",
+      "Ashwin Korde"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andre Cristobal",
+      "Nicholas Howcumfu"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Jordan Clever"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Nicholas Howcumfu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Jordan Clever"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Andre Cristobal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "David Brandolph"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Howcumfu",
+      "Alex Boory"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Zyril Carilo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Clever",
+      "Andre Cristobal"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Boory",
+      "David Brandolph"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25801,7 +27464,7 @@
      ],
      "a": [
       "Vaughn Lawrence",
-      "Yash Shah"
+      "Shawn Ganow"
      ]
     },
     {
@@ -25822,7 +27485,7 @@
       ""
      ],
      "a": [
-      "Yash Shah",
+      "Shawn Ganow",
       "Jeff Zamorski"
      ]
     },
@@ -25856,7 +27519,7 @@
      ],
      "a": [
       "Anushk Gupta",
-      "Yash Shah"
+      "Shawn Ganow"
      ]
     },
     {
@@ -25900,7 +27563,7 @@
      ],
      "a": [
       "Jeff Zamorski",
-      "Yash Shah"
+      "Shawn Ganow"
      ]
     },
     {
@@ -25977,7 +27640,7 @@
      ],
      "a": [
       "Scott Bohrer",
-      "Yash Shah"
+      "Shawn Ganow"
      ]
     },
     {
@@ -26009,7 +27672,7 @@
       ""
      ],
      "a": [
-      "Yash Shah",
+      "Shawn Ganow",
       "Anushk Gupta"
      ]
     },
@@ -26379,12 +28042,9 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
-  "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
-  "Patrick Cadieu": "6bf475b8-0f4c-4e4b-a1ba-279f5f8aa008",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
-  "Jordan Clever": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
  "availableSubs": [
@@ -26761,7 +28421,7 @@
   "matchesPlayed": 33,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 192,
+  "totalPlayers": 195,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -26867,7 +28527,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T20:24:25.371Z";
+  DATA.meta.asOf = "2026-10-04T03:32:24.447Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

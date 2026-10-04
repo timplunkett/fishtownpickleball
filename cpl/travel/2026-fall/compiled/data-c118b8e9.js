@@ -7881,7 +7881,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 302,
+   "leagueRank": 303,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42652,6 +42652,7 @@
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Nate Brochin": "90204557-bb5d-4892-abfe-d2530aa1ac3a",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
+  "Adnan Ul Haq": "ae0af132-29b2-4670-81fb-25b39e0daf5c",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Zane Pagotto": "bf789141-926d-44b1-83c9-d5e5853589cb",
   "Rahul Desai": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
@@ -42998,6 +42999,14 @@
    "outsideSub": true
   },
   {
+   "name": "Adnan Ul Haq",
+   "playerId": "ae0af132-29b2-4670-81fb-25b39e0daf5c",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Christopher Monzon",
    "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
    "gender": "Male",
@@ -43320,7 +43329,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-02T17:08:50.677Z";
+  DATA.meta.asOf = "2026-10-04T03:32:55.495Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
