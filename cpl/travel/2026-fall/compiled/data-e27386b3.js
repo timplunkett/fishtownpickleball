@@ -4558,8 +4558,8 @@
    "name": "Mark Wenstrom",
    "gender": "Male",
    "team": "Flemington",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 7,
@@ -33751,7 +33751,6 @@
     }
    ],
    "subs": [
-    "Mark Wenstrom",
     "Gene Stahl",
     "Agnieszka Procner",
     "Tom Dominczyk"
@@ -41658,7 +41657,6 @@
     }
    ],
    "subs": [
-    "Mark Wenstrom",
     "Sharon Oddy",
     "Sheila Curran"
    ]
@@ -53218,14 +53216,6 @@
    "outsideSub": true
   },
   {
-   "name": "Mark Wenstrom",
-   "playerId": "12159177-8eb2-4e6f-bb4f-22575eeed130",
-   "gender": "Male",
-   "team": "Flemington",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Dan Perkins",
    "playerId": "1684c22c-38ed-4f23-83bf-7dbd39607280",
    "gender": "Male",
@@ -54037,7 +54027,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T14:39:54.853Z";
+  DATA.meta.asOf = "2026-10-04T16:11:53.080Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

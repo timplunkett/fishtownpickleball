@@ -29460,8 +29460,8 @@
     "teamRes": "W",
     "teamGW": 19,
     "teamGL": 13,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -29487,8 +29487,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

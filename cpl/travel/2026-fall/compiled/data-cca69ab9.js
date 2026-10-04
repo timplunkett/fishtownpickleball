@@ -730,8 +730,8 @@
    "name": "Nicholas Como",
    "gender": "Male",
    "team": "Premiere",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 11,
@@ -5300,7 +5300,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5329,7 +5329,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5387,7 +5387,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14687,7 +14687,6 @@
    ],
    "subs": [
     "Joseph Lynskey",
-    "Nicholas Como",
     "Zachary Lisojo",
     "Fabricio Gaona"
    ]
@@ -16550,7 +16549,6 @@
     }
    ],
    "subs": [
-    "Nicholas Como",
     "Salman Saad"
    ]
   },
@@ -26952,8 +26950,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Zach Hollmann"
      ],
      "a": [
       "Brandyn Schuchart",
@@ -26993,8 +26991,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Michael Li"
      ],
      "a": [
       "Alex Boory",
@@ -27023,8 +27021,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dipen Bhatt",
+      "Craig Frame"
      ],
      "a": [
       "Zyril Carilo",
@@ -27038,8 +27036,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gopi Narayanan",
+      "Al Mancini"
      ],
      "a": [
       "Ashwin Korde",
@@ -27049,8 +27047,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tarkan Akas",
+      "Mickey Cook"
      ],
      "a": [
       "David Brandolph",
@@ -28049,6 +28047,7 @@
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
+  "Caleb Perry-Abner": "c25e04ae-a9bf-4943-858d-5b7a94261e43",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
  "availableSubs": [
@@ -28285,14 +28284,6 @@
    "outsideSub": true
   },
   {
-   "name": "Nicholas Como",
-   "playerId": "a286a593-65d0-4119-a211-3cd57bba652a",
-   "gender": "Male",
-   "team": "Premiere",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Matthew Schwartz",
    "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
    "gender": "Male",
@@ -28337,6 +28328,14 @@
    "playerId": "bc07a8b9-9b24-4afb-8c30-852eac7888ee",
    "gender": "Male",
    "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Caleb Perry-Abner",
+   "playerId": "c25e04ae-a9bf-4943-858d-5b7a94261e43",
+   "gender": "Male",
+   "team": "Jersey Devil",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -28531,7 +28530,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T14:42:19.860Z";
+  DATA.meta.asOf = "2026-10-04T16:14:17.708Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

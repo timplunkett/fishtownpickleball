@@ -12214,6 +12214,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Mark Wenstrom",
+   "playerId": "12159177-8eb2-4e6f-bb4f-22575eeed130",
+   "team": "Flemington",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Mark Zamkoff",
    "playerId": "4e4deaa6-3de9-450b-bfb2-1d86752d92ab",
    "team": "Life Time Red Bank",
@@ -13807,6 +13814,13 @@ window.DUPR_AUDIT = {
    "playerId": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec",
    "team": "Bounce Tempest",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Nicholas Como",
+   "playerId": "a286a593-65d0-4119-a211-3cd57bba652a",
+   "team": "Premiere",
+   "slug": "cca69ab9",
    "gender": "Male"
   },
   {
