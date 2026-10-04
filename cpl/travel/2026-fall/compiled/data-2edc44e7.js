@@ -22934,7 +22934,6 @@
    "away": "Flemington Blue",
    "time": "2026-10-03T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 661,
    "awayPoints": 493,
    "homeGW": 26,
@@ -23390,12 +23389,12 @@
     }
    ],
    "subs": [
-    "Ritu Chandra",
-    "David Dietzel",
-    "Fabienne Yu",
-    "Albert Pamudji",
     "Laura Govan",
-    "Dave Govan"
+    "Ritu Chandra",
+    "Dave Govan",
+    "Fabienne Yu",
+    "David Dietzel",
+    "Albert Pamudji"
    ]
   },
   {
@@ -26073,7 +26072,7 @@
  ],
  "meta": {
   "matchesPlayed": 31,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-7",
   "totalPlayers": 228,
   "ratingHistoryWeeks": [
@@ -26177,7 +26176,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T03:29:25.830Z";
+  DATA.meta.asOf = "2026-10-04T14:39:30.752Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

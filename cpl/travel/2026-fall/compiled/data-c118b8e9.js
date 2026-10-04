@@ -7852,7 +7852,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 290,
+   "leagueRank": 291,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7881,7 +7881,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 303,
+   "leagueRank": 304,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7910,7 +7910,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 294,
+   "leagueRank": 295,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7939,7 +7939,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 291,
+   "leagueRank": 292,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42647,6 +42647,7 @@
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
+  "Kapil Khanna": "3c3bad12-ae4f-4bbc-8b16-31468717f50a",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
@@ -42819,6 +42820,14 @@
    "playerId": "3bdfa83e-2025-4441-b347-fade413a4179",
    "gender": "Male",
    "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kapil Khanna",
+   "playerId": "3c3bad12-ae4f-4bbc-8b16-31468717f50a",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hamilton",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -43329,7 +43338,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T03:32:55.495Z";
+  DATA.meta.asOf = "2026-10-04T14:42:50.375Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

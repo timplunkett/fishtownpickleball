@@ -341,9 +341,9 @@
       "weekNumber": 7,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 661,
+      "awayPoints": 493,
+      "endResult": "home",
       "scheduledTime": "2026-10-03T12:00:00",
       "homeName": "Pickleball Palace",
       "awayName": "Flemington Blue"

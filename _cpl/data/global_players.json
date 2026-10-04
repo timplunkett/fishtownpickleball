@@ -39370,7 +39370,7 @@
     "lastName": "Dos Anjos",
     "dupr": "7JOYV9",
     "duprRating": "3.397",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 7204474882,
     "duprProvisional": false
   },
@@ -47592,6 +47592,16 @@
     "duprRating": "4.081",
     "lastSeen": "2026-10",
     "duprNumericId": 7253588886,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "3c3bad12-ae4f-4bbc-8b16-31468717f50a",
+    "firstName": "kapil",
+    "lastName": "khanna",
+    "dupr": "V2VGL5",
+    "duprRating": "4.234",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7250330809,
     "duprProvisional": false
   }
 ]
