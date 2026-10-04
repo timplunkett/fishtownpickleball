@@ -2347,6 +2347,29 @@
       "ranking": 137
     },
     {
+      "playerId": "772b8bd9-ee55-463b-8e7d-f5e571a2f047",
+      "firstName": "Michael",
+      "lastName": "Velez",
+      "gender": "Male",
+      "dupr": "5E6RP5",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 206
+    },
+    {
       "playerId": "7c8310a8-1a97-4c04-bbc0-519fe4132685",
       "firstName": "Scott",
       "lastName": "Bohrer",
@@ -4345,7 +4368,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 206
+      "ranking": 207
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",

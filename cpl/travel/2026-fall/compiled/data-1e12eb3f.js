@@ -58046,6 +58046,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Carolyn Weber": "03750bf3-09e9-453d-8c3a-19f1822e7433",
   "Lisa Brower": "04e9aff2-d148-4ff7-8161-a42b0328aa7e",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
@@ -58081,6 +58082,14 @@
    "playerId": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
    "gender": "Female",
    "team": "Dill Dinkers Hatboro",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carolyn Weber",
+   "playerId": "03750bf3-09e9-453d-8c3a-19f1822e7433",
+   "gender": "Female",
+   "team": "Bounce Malvern",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59634,7 +59643,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T14:40:26.871Z";
+  DATA.meta.asOf = "2026-10-04T20:41:06.928Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

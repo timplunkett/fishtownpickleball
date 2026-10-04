@@ -7852,7 +7852,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 291,
+   "leagueRank": 292,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7881,7 +7881,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 304,
+   "leagueRank": 305,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7910,7 +7910,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 295,
+   "leagueRank": 296,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7939,7 +7939,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 292,
+   "leagueRank": 293,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8026,7 +8026,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 296,
+   "leagueRank": 297,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42308,11 +42308,7 @@
      ],
      "a": [
       "Ayon Codner",
-      "Dion Brown"
-     ],
-     "aSub": [
-      0,
-      1
+      "David Reyes"
      ]
     },
     {
@@ -42360,7 +42356,7 @@
      ],
      "a": [
       "Ayon Codner",
-      "David Reyes"
+      "Harlos Vizcarrondo"
      ]
     },
     {
@@ -42396,7 +42392,7 @@
       ""
      ],
      "a": [
-      "Harlos Vizcarrondo",
+      "David Reyes",
       "Carlos Rincon"
      ]
     },
@@ -42434,7 +42430,7 @@
      ],
      "a": [
       "Rahul Desai",
-      "Harlos Vizcarrondo"
+      "David Reyes"
      ],
      "aSub": [
       1,
@@ -42449,7 +42445,215 @@
      ],
      "a": [
       "Carlos Rincon",
+      "Harlos Vizcarrondo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ayon Codner",
+      "Eric Ruiz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samuel Kashefska",
+      "Rahul Desai"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zane Pagotto",
+      "Carlos Rincon"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harlos Vizcarrondo",
       "David Reyes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samuel Kashefska",
+      "David Reyes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ayon Codner",
+      "Rahul Desai"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Ruiz",
+      "Carlos Rincon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zane Pagotto",
+      "Harlos Vizcarrondo"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samuel Kashefska",
+      "Carlos Rincon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ayon Codner",
+      "Zane Pagotto"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rahul Desai",
+      "Eric Ruiz"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harlos Vizcarrondo",
+      "David Reyes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Samuel Kashefska",
+      "Harlos Vizcarrondo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ayon Codner",
+      "Carlos Rincon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zane Pagotto",
+      "Eric Ruiz"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Reyes",
+      "Rahul Desai"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     }
    ]
@@ -42914,7 +43118,361 @@
    "home": "Jersey Devil",
    "away": "Bounce Tempest",
    "time": "2026-10-06T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kyle Martin",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vincent Rigoglioso",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kyle Martin",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kyle Martin",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Joseph Luka"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Perumaly",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Kyle Martin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Ken Weinstein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yong Kim",
+      "Vincent Rigoglioso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Luka",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Brandolph",
+      "Yong Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Paul Perumaly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kyle Martin",
+      "Jimmy Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jared Rapoport",
+      "Joseph Luka"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -43321,6 +43879,7 @@
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
+  "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Nate Brochin": "90204557-bb5d-4892-abfe-d2530aa1ac3a",
   "Steven Santiago": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
   "Adnan Ul Haq": "ae0af132-29b2-4670-81fb-25b39e0daf5c",
@@ -43608,6 +44167,14 @@
    "playerId": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
    "gender": "Male",
    "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "David King",
+   "playerId": "86d26f19-6cb9-442b-b089-994609b4fd77",
+   "gender": "Male",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -44006,7 +44573,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T16:14:50.715Z";
+  DATA.meta.asOf = "2026-10-04T20:43:48.486Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -116,6 +116,29 @@
       "ranking": 120
     },
     {
+      "playerId": "03750bf3-09e9-453d-8c3a-19f1822e7433",
+      "firstName": "Carolyn",
+      "lastName": "weber",
+      "gender": "Female",
+      "dupr": "94NEJE",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 571
+    },
+    {
       "playerId": "03769e99-2521-4e52-bef4-cf55e57e9460",
       "firstName": "Reg",
       "lastName": "Blaber",
@@ -8301,7 +8324,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 571
+      "ranking": 572
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",
