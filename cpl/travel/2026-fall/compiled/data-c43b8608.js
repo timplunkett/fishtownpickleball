@@ -44338,7 +44338,79 @@
    "home": "PickleRage Union County",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-10-11T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Chris Shung"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ting Chen",
+      "Herald Barber"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Margaret Bayse"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary Grzankowski",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -45986,7 +46058,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T03:32:08.329Z";
+  DATA.meta.asOf = "2026-10-04T11:36:14.445Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
