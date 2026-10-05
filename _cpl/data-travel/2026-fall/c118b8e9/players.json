@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 302
+      "ranking": 303
     },
     {
       "playerId": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
@@ -619,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 298
+      "ranking": 299
     },
     {
       "playerId": "17caef8b-84d4-4052-9695-7c74190925a1",
@@ -849,7 +849,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 301
+      "ranking": 302
     },
     {
       "playerId": "23adcd68-130d-4176-b367-d3cd31260d21",
@@ -2505,7 +2505,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 304
+      "ranking": 305
     },
     {
       "playerId": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -3425,7 +3425,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 306
+      "ranking": 307
     },
     {
       "playerId": "86d26f19-6cb9-442b-b089-994609b4fd77",
@@ -4437,7 +4437,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 300
+      "ranking": 301
     },
     {
       "playerId": "ade57877-7c11-4a46-88bf-789a50906901",
@@ -4483,7 +4483,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 303
+      "ranking": 304
     },
     {
       "playerId": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
@@ -4736,7 +4736,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 305
+      "ranking": 306
     },
     {
       "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
@@ -5406,6 +5406,29 @@
       "ranking": 184
     },
     {
+      "playerId": "cb93ea73-1422-4b53-9665-41182caba8c8",
+      "firstName": "Sachin",
+      "lastName": "Pathare",
+      "gender": "Male",
+      "dupr": "8K5RNY",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 298
+    },
+    {
       "playerId": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
       "firstName": "Rahul",
       "lastName": "Desai",
@@ -5472,7 +5495,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 299
+      "ranking": 300
     },
     {
       "playerId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",

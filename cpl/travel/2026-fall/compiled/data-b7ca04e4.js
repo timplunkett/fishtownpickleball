@@ -14783,7 +14783,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 575,
+   "leagueRank": 576,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14812,7 +14812,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14841,7 +14841,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 566,
+   "leagueRank": 567,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 574,
+   "leagueRank": 575,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 578,
+   "leagueRank": 579,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14928,7 +14928,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 582,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 570,
+   "leagueRank": 571,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 558,
+   "leagueRank": 559,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15044,7 +15044,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 554,
+   "leagueRank": 555,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15073,7 +15073,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 577,
+   "leagueRank": 578,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 571,
+   "leagueRank": 572,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73640,6 +73640,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
+  "Jessica Godish": "24a88fa9-03f6-44b7-b10d-321e2a46bb2f",
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
   "Megan Quigley": "37d69abc-9610-4c03-a618-f905bd0e2fb1",
@@ -73800,6 +73801,14 @@
    "playerId": "1de66bc7-3467-4788-b08a-46941b19f05b",
    "gender": "Male",
    "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jessica Godish",
+   "playerId": "24a88fa9-03f6-44b7-b10d-321e2a46bb2f",
+   "gender": "Female",
+   "team": "Bounce Tempest",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -74792,7 +74801,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-05T03:10:22.612Z";
+  DATA.meta.asOf = "2026-10-05T13:07:02.453Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

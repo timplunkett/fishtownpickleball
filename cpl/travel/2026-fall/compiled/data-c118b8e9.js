@@ -7881,7 +7881,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 305,
+   "leagueRank": 306,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8026,7 +8026,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 302,
+   "leagueRank": 303,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8084,7 +8084,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 300,
+   "leagueRank": 301,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8113,7 +8113,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 303,
+   "leagueRank": 304,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8200,7 +8200,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 299,
+   "leagueRank": 300,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -43188,8 +43188,8 @@
       "Jesse Pettit"
      ],
      "a": [
-      "",
-      ""
+      "Uzoma Nwankwo",
+      "Andress Mims"
      ]
     },
     {
@@ -43199,8 +43199,8 @@
       "Rick Olafsson"
      ],
      "a": [
-      "",
-      ""
+      "Mark Waters",
+      "Matt Inzerillo"
      ]
     },
     {
@@ -43210,8 +43210,8 @@
       "Xan Hong"
      ],
      "a": [
-      "",
-      ""
+      "Andrew Ferraro",
+      "Neale Smith"
      ]
     },
     {
@@ -43221,8 +43221,8 @@
       "Bill Violette"
      ],
      "a": [
-      "",
-      ""
+      "Jimmy Shapiro",
+      "Bruce Nguyen"
      ]
     },
     {
@@ -43232,8 +43232,8 @@
       "Rick Olafsson"
      ],
      "a": [
-      "",
-      ""
+      "Uzoma Nwankwo",
+      "Bruce Nguyen"
      ]
     },
     {
@@ -43243,8 +43243,8 @@
       "Jesse Pettit"
      ],
      "a": [
-      "",
-      ""
+      "Ryan Lehrfeld",
+      "Andress Mims"
      ]
     },
     {
@@ -43254,8 +43254,8 @@
       "Cosme Tapia"
      ],
      "a": [
-      "",
-      ""
+      "Neale Smith",
+      "Matt Inzerillo"
      ]
     },
     {
@@ -43265,8 +43265,8 @@
       "Xan Hong"
      ],
      "a": [
-      "",
-      ""
+      "Andrew Ferraro",
+      "Jimmy Shapiro"
      ]
     },
     {
@@ -43276,8 +43276,8 @@
       "Joel Steinbrunner"
      ],
      "a": [
-      "",
-      ""
+      "Mark Waters",
+      "Uzoma Nwankwo"
      ]
     },
     {
@@ -43287,8 +43287,8 @@
       "Cosme Tapia"
      ],
      "a": [
-      "",
-      ""
+      "Ryan Lehrfeld",
+      "Jimmy Shapiro"
      ]
     },
     {
@@ -43298,8 +43298,8 @@
       "Xavier Vazquez"
      ],
      "a": [
-      "",
-      ""
+      "Neale Smith",
+      "Andress Mims"
      ]
     },
     {
@@ -43309,8 +43309,8 @@
       "Bill Violette"
      ],
      "a": [
-      "",
-      ""
+      "Andrew Ferraro",
+      "Bruce Nguyen"
      ]
     },
     {
@@ -43320,8 +43320,8 @@
       "Jesse Pettit"
      ],
      "a": [
-      "",
-      ""
+      "Bruce Nguyen",
+      "Mark Waters"
      ]
     },
     {
@@ -43331,8 +43331,8 @@
       "Rick Olafsson"
      ],
      "a": [
-      "",
-      ""
+      "Neale Smith",
+      "Jimmy Shapiro"
      ]
     },
     {
@@ -43342,8 +43342,8 @@
       "Cosme Tapia"
      ],
      "a": [
-      "",
-      ""
+      "Ryan Lehrfeld",
+      "Matt Inzerillo"
      ]
     },
     {
@@ -43353,8 +43353,8 @@
       "Bill Violette"
      ],
      "a": [
-      "",
-      ""
+      "Andrew Ferraro",
+      "Andress Mims"
      ]
     },
     {
@@ -43364,8 +43364,8 @@
       "Keith Richard"
      ],
      "a": [
-      "",
-      ""
+      "Uzoma Nwankwo",
+      "Andrew Ferraro"
      ]
     },
     {
@@ -43375,8 +43375,8 @@
       "Cosme Tapia"
      ],
      "a": [
-      "",
-      ""
+      "Ryan Lehrfeld",
+      "Mark Waters"
      ]
     },
     {
@@ -43386,8 +43386,8 @@
       "Xavier Vazquez"
      ],
      "a": [
-      "",
-      ""
+      "Matt Inzerillo",
+      "Jimmy Shapiro"
      ]
     },
     {
@@ -43397,8 +43397,8 @@
       "Xan Hong"
      ],
      "a": [
-      "",
-      ""
+      "Bruce Nguyen",
+      "Neale Smith"
      ]
     },
     {
@@ -43408,8 +43408,8 @@
       "Rick Olafsson"
      ],
      "a": [
-      "",
-      ""
+      "Mark Waters",
+      "Uzoma Nwankwo"
      ]
     },
     {
@@ -43419,8 +43419,8 @@
       "Cosme Tapia"
      ],
      "a": [
-      "",
-      ""
+      "Neale Smith",
+      "Ryan Lehrfeld"
      ]
     },
     {
@@ -43430,8 +43430,8 @@
       "Jesse Pettit"
      ],
      "a": [
-      "",
-      ""
+      "Andress Mims",
+      "Matt Inzerillo"
      ]
     },
     {
@@ -43441,8 +43441,8 @@
       "Bill Violette"
      ],
      "a": [
-      "",
-      ""
+      "Bruce Nguyen",
+      "Andrew Ferraro"
      ]
     },
     {
@@ -43452,8 +43452,8 @@
       "Joel Steinbrunner"
      ],
      "a": [
-      "",
-      ""
+      "Uzoma Nwankwo",
+      "Neale Smith"
      ]
     },
     {
@@ -43463,8 +43463,8 @@
       "Jesse Pettit"
      ],
      "a": [
-      "",
-      ""
+      "Mark Waters",
+      "Matt Inzerillo"
      ]
     },
     {
@@ -43474,8 +43474,8 @@
       "Cosme Tapia"
      ],
      "a": [
-      "",
-      ""
+      "Bruce Nguyen",
+      "Ryan Lehrfeld"
      ]
     },
     {
@@ -43485,8 +43485,8 @@
       "Bill Violette"
      ],
      "a": [
-      "",
-      ""
+      "Andress Mims",
+      "Jimmy Shapiro"
      ]
     },
     {
@@ -43496,8 +43496,8 @@
       "Keith Richard"
      ],
      "a": [
-      "",
-      ""
+      "Bruce Nguyen",
+      "Uzoma Nwankwo"
      ]
     },
     {
@@ -43507,8 +43507,8 @@
       "Jesse Pettit"
      ],
      "a": [
-      "",
-      ""
+      "Jimmy Shapiro",
+      "Mark Waters"
      ]
     },
     {
@@ -43518,8 +43518,8 @@
       "Bill Violette"
      ],
      "a": [
-      "",
-      ""
+      "Andrew Ferraro",
+      "Ryan Lehrfeld"
      ]
     },
     {
@@ -43529,8 +43529,8 @@
       "Xan Hong"
      ],
      "a": [
-      "",
-      ""
+      "Matt Inzerillo",
+      "Andress Mims"
      ]
     }
    ]
@@ -45899,6 +45899,7 @@
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
+  "Sachin Pathare": "cb93ea73-1422-4b53-9665-41182caba8c8",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
@@ -46353,6 +46354,14 @@
    "outsideSub": true
   },
   {
+   "name": "Sachin Pathare",
+   "playerId": "cb93ea73-1422-4b53-9665-41182caba8c8",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Rahul Desai",
    "playerId": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
    "gender": "Male",
@@ -46587,7 +46596,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-05T03:11:43.524Z";
+  DATA.meta.asOf = "2026-10-05T13:08:23.269Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

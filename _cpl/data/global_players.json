@@ -38342,7 +38342,7 @@
     "lastName": "Godish",
     "dupr": "P5MQEE",
     "duprRating": "3.391",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 7138435937,
     "duprProvisional": false
   },
@@ -47632,6 +47632,16 @@
     "duprRating": "3.211",
     "lastSeen": "2026-10",
     "duprNumericId": 6991005933,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "db4a522e-d5e2-4244-b527-8ecafa929bc0",
+    "firstName": "Dev",
+    "lastName": "Patel",
+    "dupr": "9JVE0J",
+    "duprRating": "4.202",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5871858609,
     "duprProvisional": false
   }
 ]
