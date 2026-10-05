@@ -48277,7 +48277,7 @@
      "t": "male",
      "h": [
       "Jonathan Wong",
-      "Tomas Ruiz"
+      "Matthew Ferrante"
      ],
      "a": [
       "Brandon Helicher",
@@ -48321,7 +48321,7 @@
      "t": "mixed",
      "h": [
       "Taylor Leuck",
-      "Tomas Ruiz"
+      "Matthew Ferrante"
      ],
      "a": [
       "Michele Sagurton",
@@ -48354,7 +48354,7 @@
      "t": "male",
      "h": [
       "Kenneth Ocasio",
-      "Tomas Ruiz"
+      "Matthew Ferrante"
      ],
      "a": [
       "David Burke",
@@ -48398,7 +48398,7 @@
      "t": "mixed",
      "h": [
       "Jillian Sorrentino",
-      "Tomas Ruiz"
+      "Matthew Ferrante"
      ],
      "a": [
       "Jade Chin",
@@ -48452,7 +48452,7 @@
     {
      "t": "male",
      "h": [
-      "Tomas Ruiz",
+      "Matthew Ferrante",
       "David Abiog"
      ],
      "a": [
@@ -48475,7 +48475,7 @@
      "t": "mixed",
      "h": [
       "Julianna Rodrigues",
-      "Tomas Ruiz"
+      "Matthew Ferrante"
      ],
      "a": [
       "Jade Chin",
@@ -49370,7 +49370,7 @@
       "Ryan Benetz"
      ],
      "a": [
-      "Claire Nguyen",
+      "Megan Quigley",
       "Thang Nguyen"
      ]
     },
@@ -49382,13 +49382,13 @@
      ],
      "a": [
       "Megan Quigley",
-      "Claire Nguyen"
+      "Quynh Nguyen"
      ]
     },
     {
      "t": "female",
      "h": [
-      "Jamie Walsh",
+      "Kim Kronberger",
       "Sophie O’Driscoll"
      ],
      "a": [
@@ -49429,14 +49429,14 @@
       "Colin Mackey"
      ],
      "a": [
-      "Claire Nguyen",
+      "Thuy Nguyen",
       "Thomas Nguyen"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Jamie Walsh",
+      "Sophie O’Driscoll",
       "Ryan Benetz"
      ],
      "a": [
@@ -49528,11 +49528,11 @@
     {
      "t": "mixed",
      "h": [
-      "Jamie Walsh",
+      "Kim Kronberger",
       "Colin Mackey"
      ],
      "a": [
-      "Claire Nguyen",
+      "Megan Quigley",
       "Frank Kong"
      ],
      "aSub": [
@@ -49565,7 +49565,7 @@
     {
      "t": "female",
      "h": [
-      "Jamie Walsh",
+      "Sophie O’Driscoll",
       "Melissa Mackey"
      ],
      "a": [
@@ -49580,7 +49580,7 @@
       "Elisabeth Marshall"
      ],
      "a": [
-      "Claire Nguyen",
+      "Thuy Nguyen",
       "Juliana Berg"
      ]
     },
@@ -49669,7 +49669,7 @@
      "t": "female",
      "h": [
       "Sophie O’Driscoll",
-      "Jamie Walsh"
+      "Elisabeth Marshall"
      ],
      "a": [
       "Megan Quigley",
@@ -50510,7 +50510,11 @@
      ],
      "a": [
       "Lisa Dinh",
-      "Joseph Gronczewski"
+      "Christopher Moscony"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50564,8 +50568,12 @@
       "Tyler Kellner"
      ],
      "a": [
-      "Joseph Gronczewski",
+      "Christopher Moscony",
       "Derek Lombardi"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -50587,7 +50595,11 @@
      ],
      "a": [
       "Thuy Le",
-      "Joseph Gronczewski"
+      "Christopher Moscony"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50697,7 +50709,11 @@
      ],
      "a": [
       "Minjel Shah",
-      "Joseph Gronczewski"
+      "Christopher Moscony"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50730,7 +50746,11 @@
      ],
      "a": [
       "Grady Craig",
-      "Joseph Gronczewski"
+      "Christopher Moscony"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50828,8 +50848,12 @@
       "Matthew Cohen"
      ],
      "a": [
-      "Joseph Gronczewski",
+      "Christopher Moscony",
       "Matt Soliman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     }
    ]
@@ -51280,7 +51304,7 @@
      ],
      "a": [
       "Oanh Quach",
-      "Abby Sprinkel"
+      "Andrea Galanti"
      ],
      "hSub": [
       0,
@@ -51371,7 +51395,7 @@
       "Karen Marshall"
      ],
      "a": [
-      "Abby Sprinkel",
+      "Andrea Galanti",
       "Megan Torres"
      ]
     },
@@ -51419,7 +51443,7 @@
       "Adolfo Nicdao"
      ],
      "a": [
-      "Abby Sprinkel",
+      "Andrea Galanti",
       "Jonathan Jamison"
      ]
     },
@@ -51515,7 +51539,7 @@
       "John Dechristopher"
      ],
      "a": [
-      "Abby Sprinkel",
+      "Andrea Galanti",
       "Craig Batzar"
      ]
     },
@@ -51559,7 +51583,7 @@
       "Karen Marshall"
      ],
      "a": [
-      "Abby Sprinkel",
+      "Andrea Galanti",
       "Brandi Horowitz"
      ]
     },
@@ -54147,7 +54171,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-05T03:08:49.865Z";
+  DATA.meta.asOf = "2026-10-05T22:51:05.159Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

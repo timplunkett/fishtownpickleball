@@ -1343,6 +1343,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Anh Nguyen",
+   "playerId": "3478a097-ab58-413c-b90e-aef96e00fbfa",
+   "team": "Bounce Tempest",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Ani Stone",
    "playerId": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56",
    "team": "Montville",
@@ -3996,6 +4003,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Damien Stahl",
+   "playerId": "45d2cd6f-4816-46b2-8e17-fab766cdb87e",
+   "team": "ACE Moorestown",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Dan Amabile",
    "playerId": "3d3123f8-a4db-460f-8df3-70e6271cacfa",
    "team": "Flemington Green",
@@ -6401,6 +6415,13 @@ window.DUPR_AUDIT = {
    "playerId": "a8f8cba7-d3be-4df0-8d9c-9608f102859a",
    "team": "Colts Neck Racquet Club",
    "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Gina Pultorak",
+   "playerId": "43326f18-7e59-4bc6-8008-7ec14cbcb18a",
+   "team": "Pickle Place",
+   "slug": "2edc44e7",
    "gender": "Female"
   },
   {
@@ -12960,6 +12981,13 @@ window.DUPR_AUDIT = {
    "playerId": "861c3f68-2c96-4a96-a75e-645020f73a5c",
    "team": "Bounce Malvern Black",
    "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
+   "name": "Michael Gao",
+   "playerId": "3914971f-999c-4032-b6e7-3d6e91c01dd2",
+   "team": "Picklr Newark",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {

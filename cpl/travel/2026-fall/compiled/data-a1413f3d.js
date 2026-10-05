@@ -2934,8 +2934,8 @@
    "name": "Anh Nguyen",
    "gender": "Female",
    "team": "Bounce Tempest",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 7,
@@ -3313,7 +3313,7 @@
    "team": "Pickleball Kingdom Hillsborough",
    "matches": 6,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 45,
    "wins": 28,
    "losses": 17,
@@ -43707,9 +43707,7 @@
      ]
     }
    ],
-   "subs": [
-    "Anh Nguyen"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -51150,9 +51148,7 @@
      ]
     }
    ],
-   "subs": [
-    "Anh Nguyen"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -52846,14 +52842,6 @@
    "outsideSub": true
   },
   {
-   "name": "Anh Nguyen",
-   "playerId": "3478a097-ab58-413c-b90e-aef96e00fbfa",
-   "gender": "Female",
-   "team": "Bounce Tempest",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Scott Kacelowicz",
    "playerId": "388605d8-e76a-43a2-bcd8-e48a6215d38b",
    "gender": "Male",
@@ -53528,7 +53516,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-05T13:06:24.098Z";
+  DATA.meta.asOf = "2026-10-05T22:52:06.850Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

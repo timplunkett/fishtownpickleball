@@ -229,18 +229,6 @@
       "awayName": "Allstar Pickler"
     },
     {
-      "matchupId": "9e3ebea0-85e1-4595-9547-f22c97698644",
-      "weekNumber": 6,
-      "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-26T12:00:00",
-      "homeName": "Flemington Blue",
-      "awayName": "Jersey Pickleball Club"
-    },
-    {
       "matchupId": "9903f834-b244-46a3-b492-68e9bcc4c4df",
       "weekNumber": 6,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
@@ -389,9 +377,9 @@
       "weekNumber": 7,
       "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
       "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 537,
+      "awayPoints": 641,
+      "endResult": "away",
       "scheduledTime": "2026-10-04T14:00:00",
       "homeName": "Stelton Sports",
       "awayName": "Pickleball Palace"
@@ -538,6 +526,18 @@
       "endResult": null,
       "scheduledTime": "2026-10-17T14:00:00",
       "homeName": "Stelton Sports",
+      "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "9e3ebea0-85e1-4595-9547-f22c97698644",
+      "weekNumber": 9,
+      "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-18T11:00:00",
+      "homeName": "Flemington Blue",
       "awayName": "Jersey Pickleball Club"
     },
     {

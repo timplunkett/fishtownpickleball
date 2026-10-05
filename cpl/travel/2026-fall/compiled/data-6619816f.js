@@ -22,7 +22,7 @@
    "winPct": 100,
    "diff": 50,
    "ppg": 21,
-   "leagueRank": 49,
+   "leagueRank": 50,
    "rating": 1.5,
    "ratingGames": 8,
    "confidence": 58,
@@ -167,7 +167,7 @@
    "winPct": 87.5,
    "diff": 36,
    "ppg": 20.8,
-   "leagueRank": 85,
+   "leagueRank": 86,
    "rating": -0.3,
    "ratingGames": 8,
    "confidence": 57,
@@ -196,7 +196,7 @@
    "winPct": 87.5,
    "diff": 26,
    "ppg": 20.4,
-   "leagueRank": 58,
+   "leagueRank": 59,
    "rating": 0.2,
    "ratingGames": 8,
    "confidence": 59,
@@ -254,7 +254,7 @@
    "winPct": 85.7,
    "diff": 11,
    "ppg": 20.7,
-   "leagueRank": 86,
+   "leagueRank": 87,
    "rating": 1.6,
    "ratingGames": 7,
    "confidence": 56,
@@ -341,7 +341,7 @@
    "winPct": 83.3,
    "diff": 27,
    "ppg": 20.5,
-   "leagueRank": 87,
+   "leagueRank": 88,
    "rating": 1.2,
    "ratingGames": 6,
    "confidence": 54,
@@ -747,7 +747,7 @@
    "winPct": 75,
    "diff": 34,
    "ppg": 20.5,
-   "leagueRank": 75,
+   "leagueRank": 76,
    "rating": 1,
    "ratingGames": 8,
    "confidence": 59,
@@ -776,7 +776,7 @@
    "winPct": 75,
    "diff": 19,
    "ppg": 19.4,
-   "leagueRank": 120,
+   "leagueRank": 121,
    "rating": 0.6,
    "ratingGames": 8,
    "confidence": 54,
@@ -834,7 +834,7 @@
    "winPct": 72.7,
    "diff": 13,
    "ppg": 20,
-   "leagueRank": 92,
+   "leagueRank": 65,
    "rating": 1.8,
    "ratingGames": 11,
    "confidence": 67,
@@ -1124,7 +1124,7 @@
    "winPct": 69,
    "diff": 53,
    "ppg": 19.3,
-   "leagueRank": 38,
+   "leagueRank": 39,
    "rating": -0.9,
    "ratingGames": 29,
    "confidence": 84,
@@ -1298,7 +1298,7 @@
    "winPct": 66.7,
    "diff": 20,
    "ppg": 19.6,
-   "leagueRank": 66,
+   "leagueRank": 67,
    "rating": 0.1,
    "ratingGames": 12,
    "confidence": 70,
@@ -1472,7 +1472,7 @@
    "winPct": 65,
    "diff": 12,
    "ppg": 19.1,
-   "leagueRank": 45,
+   "leagueRank": 46,
    "rating": 0.8,
    "ratingGames": 20,
    "confidence": 80,
@@ -1501,7 +1501,7 @@
    "winPct": 64.9,
    "diff": 46,
    "ppg": 19.4,
-   "leagueRank": 41,
+   "leagueRank": 42,
    "rating": 0.9,
    "ratingGames": 37,
    "confidence": 87,
@@ -1530,7 +1530,7 @@
    "winPct": 64.3,
    "diff": 47,
    "ppg": 19.6,
-   "leagueRank": 73,
+   "leagueRank": 74,
    "rating": 2,
    "ratingGames": 14,
    "confidence": 74,
@@ -1559,7 +1559,7 @@
    "winPct": 64.3,
    "diff": 38,
    "ppg": 19.6,
-   "leagueRank": 56,
+   "leagueRank": 57,
    "rating": 1.5,
    "ratingGames": 14,
    "confidence": 74,
@@ -1617,7 +1617,7 @@
    "winPct": 63.6,
    "diff": 8,
    "ppg": 19,
-   "leagueRank": 47,
+   "leagueRank": 48,
    "rating": 0.2,
    "ratingGames": 22,
    "confidence": 81,
@@ -1646,7 +1646,7 @@
    "winPct": 63,
    "diff": 42,
    "ppg": 19.6,
-   "leagueRank": 39,
+   "leagueRank": 40,
    "rating": 1.8,
    "ratingGames": 27,
    "confidence": 83,
@@ -1675,7 +1675,7 @@
    "winPct": 62.5,
    "diff": 41,
    "ppg": 19.1,
-   "leagueRank": 43,
+   "leagueRank": 44,
    "rating": 1.4,
    "ratingGames": 48,
    "confidence": 89,
@@ -1704,7 +1704,7 @@
    "winPct": 62.5,
    "diff": 35,
    "ppg": 19.3,
-   "leagueRank": 62,
+   "leagueRank": 38,
    "rating": 1.1,
    "ratingGames": 16,
    "confidence": 75,
@@ -1733,7 +1733,7 @@
    "winPct": 62.5,
    "diff": 27,
    "ppg": 19.3,
-   "leagueRank": 111,
+   "leagueRank": 112,
    "rating": 1.4,
    "ratingGames": 8,
    "confidence": 61,
@@ -1820,7 +1820,7 @@
    "winPct": 62.5,
    "diff": 8,
    "ppg": 19.2,
-   "leagueRank": 70,
+   "leagueRank": 71,
    "rating": 1.2,
    "ratingGames": 16,
    "confidence": 74,
@@ -1849,7 +1849,7 @@
    "winPct": 61.5,
    "diff": 18,
    "ppg": 19.3,
-   "leagueRank": 50,
+   "leagueRank": 51,
    "rating": -0.1,
    "ratingGames": 26,
    "confidence": 82,
@@ -1878,7 +1878,7 @@
    "winPct": 61.1,
    "diff": 26,
    "ppg": 19.8,
-   "leagueRank": 40,
+   "leagueRank": 41,
    "rating": 1,
    "ratingGames": 18,
    "confidence": 79,
@@ -1907,7 +1907,7 @@
    "winPct": 60.5,
    "diff": 38,
    "ppg": 19.1,
-   "leagueRank": 52,
+   "leagueRank": 53,
    "rating": 0.4,
    "ratingGames": 38,
    "confidence": 87,
@@ -1994,7 +1994,7 @@
    "winPct": 59.1,
    "diff": 20,
    "ppg": 19.1,
-   "leagueRank": 48,
+   "leagueRank": 49,
    "rating": 2.4,
    "ratingGames": 22,
    "confidence": 81,
@@ -2023,7 +2023,7 @@
    "winPct": 59.1,
    "diff": 18,
    "ppg": 19.3,
-   "leagueRank": 61,
+   "leagueRank": 62,
    "rating": -0.9,
    "ratingGames": 22,
    "confidence": 80,
@@ -2081,7 +2081,7 @@
    "winPct": 58.6,
    "diff": 33,
    "ppg": 19.3,
-   "leagueRank": 42,
+   "leagueRank": 43,
    "rating": 1.9,
    "ratingGames": 29,
    "confidence": 84,
@@ -2110,7 +2110,7 @@
    "winPct": 58.3,
    "diff": 41,
    "ppg": 19.2,
-   "leagueRank": 55,
+   "leagueRank": 56,
    "rating": -0.4,
    "ratingGames": 36,
    "confidence": 86,
@@ -2168,7 +2168,7 @@
    "winPct": 57.7,
    "diff": 43,
    "ppg": 19.5,
-   "leagueRank": 51,
+   "leagueRank": 52,
    "rating": 0.5,
    "ratingGames": 26,
    "confidence": 83,
@@ -2197,7 +2197,7 @@
    "winPct": 57.6,
    "diff": 57,
    "ppg": 19.5,
-   "leagueRank": 44,
+   "leagueRank": 45,
    "rating": 0.8,
    "ratingGames": 33,
    "confidence": 85,
@@ -2226,7 +2226,7 @@
    "winPct": 57.5,
    "diff": 19,
    "ppg": 18.7,
-   "leagueRank": 65,
+   "leagueRank": 66,
    "rating": 0.3,
    "ratingGames": 40,
    "confidence": 87,
@@ -2313,7 +2313,7 @@
    "winPct": 56.3,
    "diff": 28,
    "ppg": 19,
-   "leagueRank": 57,
+   "leagueRank": 58,
    "rating": 1.4,
    "ratingGames": 48,
    "confidence": 89,
@@ -2342,7 +2342,7 @@
    "winPct": 55.4,
    "diff": 47,
    "ppg": 19.2,
-   "leagueRank": 53,
+   "leagueRank": 54,
    "rating": 2.8,
    "ratingGames": 56,
    "confidence": 90,
@@ -2371,7 +2371,7 @@
    "winPct": 55,
    "diff": 39,
    "ppg": 19.8,
-   "leagueRank": 46,
+   "leagueRank": 47,
    "rating": 1.1,
    "ratingGames": 20,
    "confidence": 78,
@@ -2400,7 +2400,7 @@
    "winPct": 55,
    "diff": 12,
    "ppg": 18.7,
-   "leagueRank": 60,
+   "leagueRank": 61,
    "rating": 1.6,
    "ratingGames": 20,
    "confidence": 79,
@@ -2429,7 +2429,7 @@
    "winPct": 54.3,
    "diff": 55,
    "ppg": 19.4,
-   "leagueRank": 54,
+   "leagueRank": 55,
    "rating": 1.6,
    "ratingGames": 35,
    "confidence": 86,
@@ -2458,7 +2458,7 @@
    "winPct": 53.8,
    "diff": 7,
    "ppg": 17.8,
-   "leagueRank": 71,
+   "leagueRank": 72,
    "rating": 0.9,
    "ratingGames": 26,
    "confidence": 83,
@@ -2487,7 +2487,7 @@
    "winPct": 52.5,
    "diff": 28,
    "ppg": 18.5,
-   "leagueRank": 78,
+   "leagueRank": 79,
    "rating": -0.6,
    "ratingGames": 40,
    "confidence": 88,
@@ -2516,7 +2516,7 @@
    "winPct": 51.9,
    "diff": 39,
    "ppg": 18.8,
-   "leagueRank": 67,
+   "leagueRank": 68,
    "rating": 0.8,
    "ratingGames": 27,
    "confidence": 83,
@@ -2545,7 +2545,7 @@
    "winPct": 51.9,
    "diff": 0,
    "ppg": 18.7,
-   "leagueRank": 81,
+   "leagueRank": 82,
    "rating": -0.7,
    "ratingGames": 27,
    "confidence": 83,
@@ -2574,7 +2574,7 @@
    "winPct": 51.7,
    "diff": 30,
    "ppg": 19,
-   "leagueRank": 59,
+   "leagueRank": 60,
    "rating": 1.4,
    "ratingGames": 29,
    "confidence": 84,
@@ -2603,7 +2603,7 @@
    "winPct": 51.3,
    "diff": -24,
    "ppg": 18,
-   "leagueRank": 91,
+   "leagueRank": 92,
    "rating": -0.5,
    "ratingGames": 39,
    "confidence": 87,
@@ -2632,7 +2632,7 @@
    "winPct": 50,
    "diff": 58,
    "ppg": 19.2,
-   "leagueRank": 69,
+   "leagueRank": 70,
    "rating": 0.9,
    "ratingGames": 38,
    "confidence": 87,
@@ -2690,7 +2690,7 @@
    "winPct": 50,
    "diff": 15,
    "ppg": 18.2,
-   "leagueRank": 83,
+   "leagueRank": 84,
    "rating": -0.3,
    "ratingGames": 26,
    "confidence": 83,
@@ -2719,7 +2719,7 @@
    "winPct": 50,
    "diff": 9,
    "ppg": 18.8,
-   "leagueRank": 74,
+   "leagueRank": 75,
    "rating": 0,
    "ratingGames": 18,
    "confidence": 78,
@@ -2748,7 +2748,7 @@
    "winPct": 50,
    "diff": 9,
    "ppg": 19,
-   "leagueRank": 68,
+   "leagueRank": 69,
    "rating": 1.1,
    "ratingGames": 28,
    "confidence": 84,
@@ -2777,7 +2777,7 @@
    "winPct": 50,
    "diff": 8,
    "ppg": 19.9,
-   "leagueRank": 128,
+   "leagueRank": 110,
    "rating": 2.7,
    "ratingGames": 10,
    "confidence": 66,
@@ -2806,7 +2806,7 @@
    "winPct": 50,
    "diff": 4,
    "ppg": 18.9,
-   "leagueRank": 80,
+   "leagueRank": 81,
    "rating": -0.5,
    "ratingGames": 36,
    "confidence": 86,
@@ -2893,7 +2893,7 @@
    "winPct": 50,
    "diff": -1,
    "ppg": 19,
-   "leagueRank": 118,
+   "leagueRank": 119,
    "rating": -1.7,
    "ratingGames": 12,
    "confidence": 70,
@@ -2980,7 +2980,7 @@
    "winPct": 50,
    "diff": -6,
    "ppg": 18.9,
-   "leagueRank": 79,
+   "leagueRank": 80,
    "rating": 0.4,
    "ratingGames": 28,
    "confidence": 83,
@@ -3125,7 +3125,7 @@
    "winPct": 48.5,
    "diff": -17,
    "ppg": 18.4,
-   "leagueRank": 88,
+   "leagueRank": 89,
    "rating": -0.3,
    "ratingGames": 33,
    "confidence": 85,
@@ -3154,7 +3154,7 @@
    "winPct": 48.1,
    "diff": 7,
    "ppg": 18.3,
-   "leagueRank": 72,
+   "leagueRank": 73,
    "rating": 1.9,
    "ratingGames": 27,
    "confidence": 84,
@@ -3241,7 +3241,7 @@
    "winPct": 47.6,
    "diff": -3,
    "ppg": 18.4,
-   "leagueRank": 84,
+   "leagueRank": 85,
    "rating": 0.5,
    "ratingGames": 21,
    "confidence": 80,
@@ -3270,7 +3270,7 @@
    "winPct": 47.4,
    "diff": 12,
    "ppg": 18.8,
-   "leagueRank": 76,
+   "leagueRank": 77,
    "rating": 0.8,
    "ratingGames": 38,
    "confidence": 87,
@@ -3299,7 +3299,7 @@
    "winPct": 45.9,
    "diff": 29,
    "ppg": 19.2,
-   "leagueRank": 77,
+   "leagueRank": 78,
    "rating": 0.4,
    "ratingGames": 37,
    "confidence": 87,
@@ -3328,7 +3328,7 @@
    "winPct": 45.8,
    "diff": -9,
    "ppg": 18.5,
-   "leagueRank": 89,
+   "leagueRank": 90,
    "rating": 0.5,
    "ratingGames": 24,
    "confidence": 82,
@@ -3357,7 +3357,7 @@
    "winPct": 45.5,
    "diff": -8,
    "ppg": 19,
-   "leagueRank": 90,
+   "leagueRank": 91,
    "rating": -0.5,
    "ratingGames": 22,
    "confidence": 81,
@@ -3444,7 +3444,7 @@
    "winPct": 44,
    "diff": 4,
    "ppg": 19,
-   "leagueRank": 82,
+   "leagueRank": 83,
    "rating": 1,
    "ratingGames": 25,
    "confidence": 83,
@@ -3502,7 +3502,7 @@
    "winPct": 43.8,
    "diff": -36,
    "ppg": 17.7,
-   "leagueRank": 110,
+   "leagueRank": 111,
    "rating": 0,
    "ratingGames": 32,
    "confidence": 86,
@@ -3705,7 +3705,7 @@
    "winPct": 41.7,
    "diff": -40,
    "ppg": 17.6,
-   "leagueRank": 119,
+   "leagueRank": 120,
    "rating": -1.3,
    "ratingGames": 24,
    "confidence": 81,
@@ -3734,7 +3734,7 @@
    "winPct": 41.7,
    "diff": -50,
    "ppg": 17.8,
-   "leagueRank": 114,
+   "leagueRank": 115,
    "rating": -0.1,
    "ratingGames": 24,
    "confidence": 82,
@@ -3821,7 +3821,7 @@
    "winPct": 40,
    "diff": 3,
    "ppg": 18.4,
-   "leagueRank": 186,
+   "leagueRank": 187,
    "rating": -0.3,
    "ratingGames": 5,
    "confidence": 49,
@@ -3850,7 +3850,7 @@
    "winPct": 40,
    "diff": -10,
    "ppg": 18.3,
-   "leagueRank": 127,
+   "leagueRank": 128,
    "rating": -1.2,
    "ratingGames": 15,
    "confidence": 74,
@@ -3879,7 +3879,7 @@
    "winPct": 40,
    "diff": -30,
    "ppg": 18.1,
-   "leagueRank": 112,
+   "leagueRank": 113,
    "rating": -0.8,
    "ratingGames": 25,
    "confidence": 82,
@@ -3908,7 +3908,7 @@
    "winPct": 39.5,
    "diff": -87,
    "ppg": 17.4,
-   "leagueRank": 122,
+   "leagueRank": 123,
    "rating": -0.3,
    "ratingGames": 38,
    "confidence": 86,
@@ -3937,7 +3937,7 @@
    "winPct": 39.1,
    "diff": -39,
    "ppg": 17.6,
-   "leagueRank": 121,
+   "leagueRank": 122,
    "rating": -1.1,
    "ratingGames": 23,
    "confidence": 81,
@@ -3966,7 +3966,7 @@
    "winPct": 39,
    "diff": -48,
    "ppg": 18.1,
-   "leagueRank": 115,
+   "leagueRank": 116,
    "rating": -2.1,
    "ratingGames": 41,
    "confidence": 88,
@@ -3995,7 +3995,7 @@
    "winPct": 37.5,
    "diff": -6,
    "ppg": 18.3,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": 0.4,
    "ratingGames": 8,
    "confidence": 62,
@@ -4053,7 +4053,7 @@
    "winPct": 37.5,
    "diff": -13,
    "ppg": 17.5,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": -0.4,
    "ratingGames": 8,
    "confidence": 38,
@@ -4082,7 +4082,7 @@
    "winPct": 37.5,
    "diff": -14,
    "ppg": 18.4,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": -0.7,
    "ratingGames": 8,
    "confidence": 60,
@@ -4111,7 +4111,7 @@
    "winPct": 36.8,
    "diff": -34,
    "ppg": 17.3,
-   "leagueRank": 123,
+   "leagueRank": 124,
    "rating": -0.8,
    "ratingGames": 19,
    "confidence": 77,
@@ -4140,7 +4140,7 @@
    "winPct": 36.7,
    "diff": -57,
    "ppg": 17.6,
-   "leagueRank": 117,
+   "leagueRank": 118,
    "rating": 0.4,
    "ratingGames": 30,
    "confidence": 84,
@@ -4169,7 +4169,7 @@
    "winPct": 36.7,
    "diff": -58,
    "ppg": 17.6,
-   "leagueRank": 125,
+   "leagueRank": 126,
    "rating": -1.2,
    "ratingGames": 30,
    "confidence": 85,
@@ -4227,7 +4227,7 @@
    "winPct": 35.4,
    "diff": -46,
    "ppg": 18.2,
-   "leagueRank": 113,
+   "leagueRank": 114,
    "rating": 0.6,
    "ratingGames": 48,
    "confidence": 89,
@@ -4256,7 +4256,7 @@
    "winPct": 33.3,
    "diff": -8,
    "ppg": 17.8,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": -1.4,
    "ratingGames": 6,
    "confidence": 51,
@@ -4285,7 +4285,7 @@
    "winPct": 33.3,
    "diff": -19,
    "ppg": 16.7,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": -1.3,
    "ratingGames": 6,
    "confidence": 55,
@@ -4314,7 +4314,7 @@
    "winPct": 33.3,
    "diff": -22,
    "ppg": 18.3,
-   "leagueRank": 116,
+   "leagueRank": 117,
    "rating": 0,
    "ratingGames": 36,
    "confidence": 86,
@@ -4372,7 +4372,7 @@
    "winPct": 33.3,
    "diff": -33,
    "ppg": 17.5,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": 0.2,
    "ratingGames": 12,
    "confidence": 71,
@@ -4546,7 +4546,7 @@
    "winPct": 31,
    "diff": -35,
    "ppg": 18,
-   "leagueRank": 124,
+   "leagueRank": 125,
    "rating": -0.7,
    "ratingGames": 29,
    "confidence": 83,
@@ -4691,7 +4691,7 @@
    "winPct": 29.4,
    "diff": -48,
    "ppg": 17.9,
-   "leagueRank": 126,
+   "leagueRank": 127,
    "rating": -0.3,
    "ratingGames": 34,
    "confidence": 86,
@@ -4865,7 +4865,7 @@
    "winPct": 27.3,
    "diff": -31,
    "ppg": 16.5,
-   "leagueRank": 189,
+   "leagueRank": 191,
    "rating": -2.4,
    "ratingGames": 11,
    "confidence": 66,
@@ -4981,7 +4981,7 @@
    "winPct": 25,
    "diff": -17,
    "ppg": 15.8,
-   "leagueRank": 203,
+   "leagueRank": 205,
    "rating": -1.1,
    "ratingGames": 4,
    "confidence": 46,
@@ -5010,7 +5010,7 @@
    "winPct": 25,
    "diff": -18,
    "ppg": 18,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": -1.9,
    "ratingGames": 8,
    "confidence": 56,
@@ -5097,7 +5097,7 @@
    "winPct": 25,
    "diff": -56,
    "ppg": 13.5,
-   "leagueRank": 201,
+   "leagueRank": 203,
    "rating": -2.2,
    "ratingGames": 8,
    "confidence": 59,
@@ -5358,7 +5358,7 @@
    "winPct": 18.2,
    "diff": -45,
    "ppg": 16.4,
-   "leagueRank": 195,
+   "leagueRank": 190,
    "rating": -1.2,
    "ratingGames": 11,
    "confidence": 69,
@@ -5532,7 +5532,7 @@
    "winPct": 12.5,
    "diff": -41,
    "ppg": 15.6,
-   "leagueRank": 202,
+   "leagueRank": 204,
    "rating": -1.2,
    "ratingGames": 8,
    "confidence": 61,
@@ -5561,7 +5561,7 @@
    "winPct": 12.5,
    "diff": -52,
    "ppg": 13.9,
-   "leagueRank": 206,
+   "leagueRank": 201,
    "rating": -0.9,
    "ratingGames": 8,
    "confidence": 61,
@@ -5590,7 +5590,7 @@
    "winPct": 12.5,
    "diff": -54,
    "ppg": 14,
-   "leagueRank": 204,
+   "leagueRank": 206,
    "rating": -1.9,
    "ratingGames": 8,
    "confidence": 57,
@@ -5619,7 +5619,7 @@
    "winPct": 12.5,
    "diff": -55,
    "ppg": 13.9,
-   "leagueRank": 207,
+   "leagueRank": 202,
    "rating": -2.1,
    "ratingGames": 8,
    "confidence": 62,
@@ -5648,7 +5648,7 @@
    "winPct": 12.5,
    "diff": -80,
    "ppg": 15.4,
-   "leagueRank": 190,
+   "leagueRank": 181,
    "rating": -3.6,
    "ratingGames": 16,
    "confidence": 76,
@@ -5793,7 +5793,7 @@
    "winPct": 7.1,
    "diff": -55,
    "ppg": 16.9,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": -2.4,
    "ratingGames": 14,
    "confidence": 73,
@@ -5822,7 +5822,7 @@
    "winPct": 4,
    "diff": -152,
    "ppg": 14.7,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": -2.5,
    "ratingGames": 25,
    "confidence": 83,
@@ -12005,14 +12005,6 @@
     "Vince Abate",
     "Ryan Furman"
    ]
-  },
-  {
-   "result": null,
-   "week": 1,
-   "home": "ACE Moorestown",
-   "away": "Bounce Philly",
-   "time": "2026-08-26T19:30:00",
-   "complete": false
   },
   {
    "result": "away",
@@ -27416,7 +27408,361 @@
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Monroe",
    "time": "2026-10-07T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sara Synn",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Sara Synn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Morgan Fishman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shreyas Pani",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Morgan Fishman",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Morgan Fishman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Sara Synn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilan Shah",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maanav Shah",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sara Synn",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Richa Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Morgan Fishman",
+      "Sophia Kaufmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilan Shah",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richa Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ruhi Shah",
+      "Shreyas Pani"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sara Synn",
+      "Maanav Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Morgan Fishman",
+      "Ali Husain"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sara Synn",
+      "Ruhi Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophia Kaufmann",
+      "Morgan Fishman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maanav Shah",
+      "Dilan Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ali Husain",
+      "Shreyas Pani"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -27432,7 +27778,361 @@
    "home": "Jersey Devil",
    "away": "Dill Dinkers Hatboro Aces",
    "time": "2026-10-07T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Erika Richards"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Schimony",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Helen Liu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anushk Gupta",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Erika Richards"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Helen Liu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Schimony",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Claudya Elefante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Schimony",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anushk Gupta",
+      "Ryan Rosen"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -27448,6 +28148,368 @@
    "home": "Pickle House",
    "away": "Flemington",
    "time": "2026-10-07T19:30:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Melissa Dardani"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Aimee Castellano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thomas Connolly",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Melissa Dardani"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Aimee Castellano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patrick Ryan",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Susan Ackley"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Aimee Castellano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patrick Ryan",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Thomas Connolly"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Dardani",
+      "Robbie Oddy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aimee Castellano",
+      "Ross Switkes"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzi Battison",
+      "Aimee Castellano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Ackley",
+      "Melissa Dardani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ross Switkes",
+      "Patrick Ryan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thomas Connolly",
+      "Robbie Oddy"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
+   "week": 7,
+   "home": "ACE Moorestown",
+   "away": "Bounce Philly",
+   "time": "2026-10-08T19:30:00",
    "complete": false
   },
   {
@@ -28670,7 +29732,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-03T10:52:10.149Z";
+  DATA.meta.asOf = "2026-10-05T22:53:03.687Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
