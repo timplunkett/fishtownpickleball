@@ -47613,5 +47613,25 @@
     "lastSeen": "2026-10",
     "duprNumericId": 7211780035,
     "duprProvisional": false
+  },
+  {
+    "playerId": "ab357b8a-99d5-4fe3-aae6-25eb07662d7c",
+    "firstName": "Terry",
+    "lastName": "Gabel",
+    "dupr": "8W20QG",
+    "duprRating": "4.298",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6737869199,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
+    "firstName": "Pablo",
+    "lastName": "Martin",
+    "dupr": "0RZNXX",
+    "duprRating": "3.211",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6991005933,
+    "duprProvisional": false
   }
 ]

@@ -10529,6 +10529,35 @@
    "playerId": "429103e6-a3b1-4cb1-853d-bb4b849df001"
   },
   {
+   "name": "Roanne Mae Vega",
+   "gender": "Female",
+   "team": "PickleRage Union County Net Ninjas",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 419,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5a8658ab-fe97-4c51-a0fc-4cd151fc9b2c"
+  },
+  {
    "name": "Kristin Roberts",
    "gender": "Female",
    "team": "Pickle Juice Blackwood",
@@ -48532,19 +48561,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Gene Stahl"
      ],
      "a": [
       "Kimberley Levins",
       "Michael Alfaro"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Vanessa Tortorice",
@@ -48554,8 +48587,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Mark Wenstrom"
      ],
      "a": [
       "Allison Sobieski",
@@ -48565,8 +48598,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Eric Brezina"
      ],
      "a": [
       "Sarah Dente",
@@ -48576,8 +48609,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Sarah Stangota"
      ],
      "a": [
       "Sarah Dente",
@@ -48587,8 +48620,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Margo Langer"
      ],
      "a": [
       "Alina Allakhveranova",
@@ -48598,8 +48631,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Brezina",
+      "Mark Wenstrom"
      ],
      "a": [
       "Chris Balta",
@@ -48609,19 +48642,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Matzko",
+      "Gene Stahl"
      ],
      "a": [
       "Michael Alfaro",
       "Lionell Matthews"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Eric Brezina"
      ],
      "a": [
       "Allison Sobieski",
@@ -48631,8 +48668,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Alina Allakhveranova",
@@ -48642,19 +48679,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Gene Stahl"
      ],
      "a": [
       "Vanessa Tortorice",
       "Lionell Matthews"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Paul Matzko"
      ],
      "a": [
       "Zyanya Flores",
@@ -48664,8 +48705,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Sarah Stangota"
      ],
      "a": [
       "Alina Allakhveranova",
@@ -48675,8 +48716,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Jeannine Calhoun"
      ],
      "a": [
       "Sarah Dente",
@@ -48686,8 +48727,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Matzko",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Kevin Altieri",
@@ -48697,8 +48738,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Brezina",
+      "Mark Wenstrom"
      ],
      "a": [
       "Chris Balta",
@@ -48708,8 +48749,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Mark Wenstrom"
      ],
      "a": [
       "Zyanya Flores",
@@ -48719,19 +48760,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Gene Stahl"
      ],
      "a": [
       "Alina Allakhveranova",
       "Kevin Altieri"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Eric Brezina"
      ],
      "a": [
       "Kimberley Levins",
@@ -48741,8 +48786,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Sarah Dente",
@@ -48752,8 +48797,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Gail Hannagan"
      ],
      "a": [
       "Allison Sobieski",
@@ -48763,8 +48808,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Margo Langer"
      ],
      "a": [
       "Vanessa Tortorice",
@@ -48774,8 +48819,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lakshmikanth Chaluvadi",
+      "Eric Brezina"
      ],
      "a": [
       "Chris Balta",
@@ -48785,8 +48830,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Wenstrom",
+      "Paul Matzko"
      ],
      "a": [
       "Kevin Altieri",
@@ -48796,8 +48841,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Allison Sobieski",
@@ -48807,8 +48852,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Eric Brezina"
      ],
      "a": [
       "Sarah Dente",
@@ -48818,8 +48863,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margo Langer",
+      "Paul Matzko"
      ],
      "a": [
       "Vanessa Tortorice",
@@ -48829,19 +48874,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Gene Stahl"
      ],
      "a": [
       "Zyanya Flores",
       "Thomas Carretta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Meghan Klein"
      ],
      "a": [
       "Sarah Dente",
@@ -48851,8 +48900,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Sarah Stangota"
      ],
      "a": [
       "Vanessa Tortorice",
@@ -48862,8 +48911,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Wenstrom",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Chris Balta",
@@ -48873,12 +48922,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Matzko",
+      "Gene Stahl"
      ],
      "a": [
       "Thomas Carretta",
       "Michael Alfaro"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -49280,8 +49333,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jackie Bowes",
+      "Josh Ruble"
      ],
      "a": [
       "Quynh Nguyen",
@@ -49291,8 +49344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kim Kronberger",
+      "John Waggoner"
      ],
      "a": [
       "Mai Chan",
@@ -49302,8 +49355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisabeth Marshall",
+      "James Conroy"
      ],
      "a": [
       "Thuy Nguyen",
@@ -49313,8 +49366,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Ryan Benetz"
      ],
      "a": [
       "Claire Nguyen",
@@ -49324,8 +49377,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Bowes",
+      "Melissa Mackey"
      ],
      "a": [
       "Megan Quigley",
@@ -49335,8 +49388,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamie Walsh",
+      "Sophie O’Driscoll"
      ],
      "a": [
       "Thuy Nguyen",
@@ -49346,8 +49399,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Colin Mackey",
+      "Josh Ruble"
      ],
      "a": [
       "Tuan Nguyen",
@@ -49357,8 +49410,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Courchain",
+      "John Waggoner"
      ],
      "a": [
       "Thang Nguyen",
@@ -49372,8 +49425,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisabeth Marshall",
+      "Colin Mackey"
      ],
      "a": [
       "Claire Nguyen",
@@ -49383,8 +49436,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamie Walsh",
+      "Ryan Benetz"
      ],
      "a": [
       "Quynh Nguyen",
@@ -49394,8 +49447,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Melissa Mackey",
+      "Robert Courchain"
      ],
      "a": [
       "Megan Quigley",
@@ -49405,8 +49458,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kim Kronberger",
+      "James Conroy"
      ],
      "a": [
       "Juliana Berg",
@@ -49416,8 +49469,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kim Kronberger",
+      "Elisabeth Marshall"
      ],
      "a": [
       "Megan Quigley",
@@ -49427,8 +49480,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Bowes",
+      "Sophie O’Driscoll"
      ],
      "a": [
       "Mai Chan",
@@ -49438,8 +49491,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Conroy",
+      "Ryan Benetz"
      ],
      "a": [
       "Frank Kong",
@@ -49453,8 +49506,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Ruble",
+      "John Waggoner"
      ],
      "a": [
       "Thang Nguyen",
@@ -49464,8 +49517,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Melissa Mackey",
+      "Robert Courchain"
      ],
      "a": [
       "Mai Chan",
@@ -49475,8 +49528,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamie Walsh",
+      "Colin Mackey"
      ],
      "a": [
       "Claire Nguyen",
@@ -49490,8 +49543,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "John Waggoner"
      ],
      "a": [
       "Thuy Nguyen",
@@ -49501,8 +49554,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jackie Bowes",
+      "Josh Ruble"
      ],
      "a": [
       "Quynh Nguyen",
@@ -49512,8 +49565,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamie Walsh",
+      "Melissa Mackey"
      ],
      "a": [
       "Mai Chan",
@@ -49523,8 +49576,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kim Kronberger",
+      "Elisabeth Marshall"
      ],
      "a": [
       "Claire Nguyen",
@@ -49534,8 +49587,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Courchain",
+      "Ryan Benetz"
      ],
      "a": [
       "Jason Nguyen",
@@ -49545,8 +49598,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Conroy",
+      "Colin Mackey"
      ],
      "a": [
       "Thang Nguyen",
@@ -49556,8 +49609,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kim Kronberger",
+      "James Conroy"
      ],
      "a": [
       "Thuy Nguyen",
@@ -49567,8 +49620,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisabeth Marshall",
+      "Josh Ruble"
      ],
      "a": [
       "Quynh Nguyen",
@@ -49578,8 +49631,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Ryan Benetz"
      ],
      "a": [
       "Megan Quigley",
@@ -49589,8 +49642,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jackie Bowes",
+      "John Waggoner"
      ],
      "a": [
       "Juliana Berg",
@@ -49604,8 +49657,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Bowes",
+      "Melissa Mackey"
      ],
      "a": [
       "Mai Chan",
@@ -49615,8 +49668,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Jamie Walsh"
      ],
      "a": [
       "Megan Quigley",
@@ -49626,8 +49679,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Courchain",
+      "John Waggoner"
      ],
      "a": [
       "Timothy Lowry",
@@ -49637,8 +49690,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Colin Mackey",
+      "Josh Ruble"
      ],
      "a": [
       "Jason Nguyen",
@@ -49662,8 +49715,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Yash Mehta"
      ],
      "a": [
       "Adele Hackney",
@@ -49673,8 +49726,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -49684,8 +49737,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Papa Aggrey"
      ],
      "a": [
       "Jennifer Guldin",
@@ -49695,19 +49748,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lydia Madrilejos",
+      "Karthik Duraiyappan"
      ],
      "a": [
       "Susan Li",
       "Michael Guldin"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Radhika Sud"
      ],
      "a": [
       "Adele Hackney",
@@ -49717,19 +49774,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lydia Madrilejos",
+      "Rachel Searby"
      ],
      "a": [
       "Haidee Midgley",
       "Jennifer Guldin"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Papa Aggrey",
+      "Robert Hudson"
      ],
      "a": [
       "Elpidio Arias",
@@ -49739,8 +49800,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Nathan Trimmer",
@@ -49750,8 +49811,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Yash Mehta"
      ],
      "a": [
       "Kristin Granath",
@@ -49761,8 +49822,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Papa Aggrey"
      ],
      "a": [
       "Susan Li",
@@ -49772,8 +49833,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Haidee Midgley",
@@ -49783,8 +49844,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Karthik Duraiyappan"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -49794,8 +49855,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Radhika Sud"
      ],
      "a": [
       "Adele Hackney",
@@ -49805,19 +49866,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Lydia Madrilejos"
      ],
      "a": [
       "Haidee Midgley",
       "Kristin Granath"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Hudson",
+      "Karthik Duraiyappan"
      ],
      "a": [
       "Elpidio Arias",
@@ -49827,8 +49892,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Papa Aggrey"
      ],
      "a": [
       "Peter Hackney",
@@ -49838,8 +49903,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Yash Mehta"
      ],
      "a": [
       "Adele Hackney",
@@ -49849,8 +49914,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Papa Aggrey"
      ],
      "a": [
       "Susan Li",
@@ -49860,8 +49925,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Karthik Duraiyappan"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -49871,8 +49936,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Jennifer Guldin",
@@ -49882,19 +49947,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lydia Madrilejos",
+      "Brittany Riccitiello"
      ],
      "a": [
       "Adele Hackney",
       "Haidee Midgley"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Rachel Searby"
      ],
      "a": [
       "Susan Li",
@@ -49904,8 +49973,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Mehta",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Andrew Frey",
@@ -49915,8 +49984,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Papa Aggrey",
+      "Robert Hudson"
      ],
      "a": [
       "Elpidio Arias",
@@ -49926,19 +49995,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lydia Madrilejos",
+      "Karthik Duraiyappan"
      ],
      "a": [
       "Susan Li",
       "Michael Guldin"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Robert Hudson"
      ],
      "a": [
       "Haidee Midgley",
@@ -49948,8 +50021,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Yash Mehta"
      ],
      "a": [
       "Elizabeth Dailey",
@@ -49959,8 +50032,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Jennifer Guldin",
@@ -49970,19 +50043,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lydia Madrilejos",
+      "Radhika Sud"
      ],
      "a": [
       "Adele Hackney",
       "Kristin Granath"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Hailee Kurlander"
      ],
      "a": [
       "Jennifer Guldin",
@@ -49992,8 +50069,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Papa Aggrey",
+      "Yash Mehta"
      ],
      "a": [
       "Steven Fernandez",
@@ -50003,8 +50080,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Hudson",
+      "Karthik Duraiyappan"
      ],
      "a": [
       "Nathan Trimmer",
@@ -50024,8 +50101,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Freddy Li"
      ],
      "a": [
       "Charlene De Lara",
@@ -50035,8 +50112,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Cesar Alvarez"
      ],
      "a": [
       "Suki Wong",
@@ -50046,8 +50123,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cassie Lou",
+      "Brandon Agudelo"
      ],
      "a": [
       "Hee Kim",
@@ -50057,8 +50134,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Carlos Echenique"
      ],
      "a": [
       "Nikki Nigro",
@@ -50068,8 +50145,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Kellie Roshak"
      ],
      "a": [
       "Charlene De Lara",
@@ -50079,19 +50156,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Roanne Mae Vega"
      ],
      "a": [
       "Hee Kim",
       "Sultane Cosaj"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Echenique",
+      "Freddy Li"
      ],
      "a": [
       "Rob Stever",
@@ -50101,8 +50182,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Alvarez",
+      "Brandon Agudelo"
      ],
      "a": [
       "Ryan Peixoto",
@@ -50112,8 +50193,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cassie Lou",
+      "Brandon Agudelo"
      ],
      "a": [
       "Nikki Nigro",
@@ -50123,8 +50204,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Freddy Li"
      ],
      "a": [
       "Sultane Cosaj",
@@ -50134,19 +50215,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Jayson Lee"
      ],
      "a": [
       "Suki Wong",
       "Ryan Peixoto"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Jimmy Tom"
      ],
      "a": [
       "Charlene De Lara",
@@ -50156,8 +50241,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Cassie Lou"
      ],
      "a": [
       "Charlene De Lara",
@@ -50167,19 +50252,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Roanne Mae Vega"
      ],
      "a": [
       "Hee Kim",
       "Sultane Cosaj"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Tom",
+      "Carlos Echenique"
      ],
      "a": [
       "Reuben Zilber",
@@ -50189,8 +50278,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Agudelo",
+      "Jayson Lee"
      ],
      "a": [
       "Srinath Katari",
@@ -50200,8 +50289,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Jimmy Tom"
      ],
      "a": [
       "Suki Wong",
@@ -50211,8 +50300,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Freddy Li"
      ],
      "a": [
       "Sultane Cosaj",
@@ -50222,8 +50311,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cassie Lou",
+      "Carlos Echenique"
      ],
      "a": [
       "Nikki Nigro",
@@ -50233,8 +50322,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Cesar Alvarez"
      ],
      "a": [
       "Hee Kim",
@@ -50244,8 +50333,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Kerry Eskay"
      ],
      "a": [
       "Hee Kim",
@@ -50255,8 +50344,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Cassie Lou"
      ],
      "a": [
       "Suki Wong",
@@ -50266,8 +50355,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Echenique",
+      "Cesar Alvarez"
      ],
      "a": [
       "Rob Stever",
@@ -50277,8 +50366,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jayson Lee",
+      "Freddy Li"
      ],
      "a": [
       "Srinath Katari",
@@ -50288,8 +50377,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Jayson Lee"
      ],
      "a": [
       "Nikki Nigro",
@@ -50299,8 +50388,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Cesar Alvarez"
      ],
      "a": [
       "Charlene De Lara",
@@ -50310,19 +50399,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Brandon Agudelo"
      ],
      "a": [
       "Sultane Cosaj",
       "Christopher Sachs"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cassie Lou",
+      "Jimmy Tom"
      ],
      "a": [
       "Suki Wong",
@@ -50332,19 +50425,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Roanne Mae Vega"
      ],
      "a": [
       "Hee Kim",
       "Charlene De Lara"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Kellie Roshak"
      ],
      "a": [
       "Suki Wong",
@@ -50354,8 +50451,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Alvarez",
+      "Brandon Agudelo"
      ],
      "a": [
       "Rob Stever",
@@ -50365,8 +50462,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Tom",
+      "Jayson Lee"
      ],
      "a": [
       "Christopher Sachs",
@@ -51516,8 +51613,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ogorzat",
+      "Rakesh Roy"
      ],
      "a": [
       "Catherine Malabanan",
@@ -51527,8 +51624,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Gabe Nacion"
      ],
      "a": [
       "Kelly Aylward",
@@ -51538,8 +51635,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie O'Mara",
+      "Ross Bienstock"
      ],
      "a": [
       "Liane Feyas",
@@ -51549,8 +51646,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Zapf",
+      "James Yu"
      ],
      "a": [
       "Filomena Rega",
@@ -51560,8 +51657,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Jen Ogorzat"
      ],
      "a": [
       "Linda Seemann",
@@ -51571,8 +51668,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zoe Zapf",
+      "Katie O'Mara"
      ],
      "a": [
       "Liane Feyas",
@@ -51582,8 +51679,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Leming",
+      "Alexander Babatunde"
      ],
      "a": [
       "Aidan Fredericks",
@@ -51593,8 +51690,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakesh Roy",
+      "James Yu"
      ],
      "a": [
       "Jason Paderon",
@@ -51604,8 +51701,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Ross Bienstock"
      ],
      "a": [
       "Liane Feyas",
@@ -51615,8 +51712,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Gabe Nacion"
      ],
      "a": [
       "Linda Seemann",
@@ -51626,8 +51723,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Zapf",
+      "James Yu"
      ],
      "a": [
       "Filomena Rega",
@@ -51637,8 +51734,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ogorzat",
+      "Rakesh Roy"
      ],
      "a": [
       "Catherine Malabanan",
@@ -51648,8 +51745,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Katie O'Mara",
+      "Emily Sowa"
      ],
      "a": [
       "Kelly Aylward",
@@ -51659,8 +51756,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Zoe Zapf"
      ],
      "a": [
       "Linda Seemann",
@@ -51670,8 +51767,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gabe Nacion",
+      "Robert Leming"
      ],
      "a": [
       "Aidan Fredericks",
@@ -51681,8 +51778,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Yu",
+      "Rakesh Roy"
      ],
      "a": [
       "Jason Paderon",
@@ -51692,8 +51789,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Robert Leming"
      ],
      "a": [
       "Catherine Malabanan",
@@ -51703,8 +51800,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ogorzat",
+      "James Yu"
      ],
      "a": [
       "Liane Feyas",
@@ -51714,8 +51811,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Gabe Nacion"
      ],
      "a": [
       "Kelly Aylward",
@@ -51725,8 +51822,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie O'Mara",
+      "Rakesh Roy"
      ],
      "a": [
       "Filomena Rega",
@@ -51736,8 +51833,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Ogorzat",
+      "Iqra Hasan-Calmo"
      ],
      "a": [
       "Liane Feyas",
@@ -51747,8 +51844,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zoe Zapf",
+      "Katie O'Mara"
      ],
      "a": [
       "Filomena Rega",
@@ -51758,8 +51855,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ross Bienstock",
+      "Alexander Babatunde"
      ],
      "a": [
       "Aidan Fredericks",
@@ -51769,8 +51866,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gabe Nacion",
+      "Rakesh Roy"
      ],
      "a": [
       "Sean Greener",
@@ -51780,8 +51877,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Ogorzat",
+      "James Yu"
      ],
      "a": [
       "Kelly Aylward",
@@ -51791,8 +51888,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Rakesh Roy"
      ],
      "a": [
       "Linda Seemann",
@@ -51802,8 +51899,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie O'Mara",
+      "Alexander Babatunde"
      ],
      "a": [
       "Filomena Rega",
@@ -51813,8 +51910,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Gabe Nacion"
      ],
      "a": [
       "Liane Feyas",
@@ -51824,8 +51921,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Zoe Zapf"
      ],
      "a": [
       "Filomena Rega",
@@ -51835,8 +51932,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Ogorzat",
+      "Emily Sowa"
      ],
      "a": [
       "Liane Feyas",
@@ -51846,8 +51943,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander Babatunde",
+      "Robert Leming"
      ],
      "a": [
       "Aidan Fredericks",
@@ -51857,8 +51954,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gabe Nacion",
+      "Ross Bienstock"
      ],
      "a": [
       "Jason Paderon",
@@ -51878,8 +51975,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Joseph Korom"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -51889,8 +51986,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Giang Nguyen"
      ],
      "a": [
       "Kristin Larosa",
@@ -51900,8 +51997,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Pace",
+      "Todd Woodard"
      ],
      "a": [
       "Virna Schuck",
@@ -51915,8 +52012,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charishma Serrano",
+      "Anbu Cheeralan"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -51926,8 +52023,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Lily Hahn"
      ],
      "a": [
       "Olga Khalev",
@@ -51941,8 +52038,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Pace",
+      "Rashmi Patade"
      ],
      "a": [
       "Kristin Larosa",
@@ -51952,8 +52049,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Korom",
+      "Todd Woodard"
      ],
      "a": [
       "Andy Pineda",
@@ -51963,8 +52060,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Giang Nguyen",
+      "Luan Vo"
      ],
      "a": [
       "David Schwartz",
@@ -51974,8 +52071,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charishma Serrano",
+      "Luan Vo"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -51985,8 +52082,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Joseph Korom"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -51996,8 +52093,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Giang Nguyen"
      ],
      "a": [
       "Kristin Larosa",
@@ -52007,8 +52104,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rashmi Patade",
+      "Anbu Cheeralan"
      ],
      "a": [
       "Olga Khalev",
@@ -52022,8 +52119,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Katie Li"
      ],
      "a": [
       "Kristin Larosa",
@@ -52037,8 +52134,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Pace",
+      "Rashmi Patade"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -52048,8 +52145,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Korom",
+      "Anbu Cheeralan"
      ],
      "a": [
       "Andy Pineda",
@@ -52059,8 +52156,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Giang Nguyen",
+      "Todd Woodard"
      ],
      "a": [
       "Brian Perlowitz",
@@ -52070,8 +52167,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charishma Serrano",
+      "Todd Woodard"
      ],
      "a": [
       "Olga Khalev",
@@ -52085,8 +52182,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Joseph Korom"
      ],
      "a": [
       "Virna Schuck",
@@ -52100,8 +52197,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Giang Nguyen"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -52111,8 +52208,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rashmi Patade",
+      "Anbu Cheeralan"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -52122,8 +52219,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Charishma Serrano"
      ],
      "a": [
       "Olga Khalev",
@@ -52137,8 +52234,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Rashmi Patade"
      ],
      "a": [
       "Kristin Larosa",
@@ -52148,8 +52245,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luan Vo",
+      "Todd Woodard"
      ],
      "a": [
       "Andy Pineda",
@@ -52159,8 +52256,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Korom",
+      "Anbu Cheeralan"
      ],
      "a": [
       "David Schwartz",
@@ -52170,8 +52267,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charishma Serrano",
+      "Giang Nguyen"
      ],
      "a": [
       "Virna Schuck",
@@ -52185,8 +52282,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Pace",
+      "Todd Woodard"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -52196,8 +52293,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Joseph Korom"
      ],
      "a": [
       "Olga Khalev",
@@ -52211,8 +52308,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Anbu Cheeralan"
      ],
      "a": [
       "Kristin Larosa",
@@ -52222,8 +52319,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lily Hahn",
+      "Charishma Serrano"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -52233,8 +52330,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Katie Li",
+      "Nancy Pace"
      ],
      "a": [
       "Kristin Larosa",
@@ -52248,8 +52345,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Giang Nguyen",
+      "Luan Vo"
      ],
      "a": [
       "Robert Paniti",
@@ -52259,8 +52356,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Korom",
+      "Todd Woodard"
      ],
      "a": [
       "Brian Perlowitz",
@@ -53188,7 +53285,6 @@
   "Mike Esfahani": "5309d94e-5f39-4cca-a25d-cba3773abe73",
   "Kendall Rodgers": "5638eefb-19f5-473a-b9fc-98731a9d458f",
   "Nicholai Ola": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
-  "Roanne Mae Vega": "5a8658ab-fe97-4c51-a0fc-4cd151fc9b2c",
   "Ken Bienkowski": "5cc85746-e4a6-432e-bfe5-8166f02867ce",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Carolyn Shipe": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
@@ -53924,7 +54020,7 @@
   "matchesPlayed": 63,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 383,
+  "totalPlayers": 384,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -54051,7 +54147,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T20:40:34.049Z";
+  DATA.meta.asOf = "2026-10-05T03:08:49.865Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

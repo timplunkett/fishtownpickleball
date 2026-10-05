@@ -13797,7 +13797,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 565,
+   "leagueRank": 567,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13826,7 +13826,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 561,
+   "leagueRank": 563,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13884,7 +13884,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 569,
+   "leagueRank": 571,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13942,7 +13942,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 568,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13971,7 +13971,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 560,
+   "leagueRank": 562,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14087,7 +14087,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 557,
+   "leagueRank": 559,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14116,7 +14116,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 564,
+   "leagueRank": 566,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14174,7 +14174,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 566,
+   "leagueRank": 568,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14203,7 +14203,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 563,
+   "leagueRank": 565,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -58065,6 +58065,7 @@
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Matt Mcgrath": "99c26d8d-4ea2-4ca0-90ca-59f78aca4552",
+  "Pablo Martin": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
@@ -58542,6 +58543,14 @@
    "outsideSub": true
   },
   {
+   "name": "Barbara Markoglu",
+   "playerId": "4ca325bd-f0d7-4b18-b570-c6ef241d2ff5",
+   "gender": "Female",
+   "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
    "name": "Jill Honicker",
    "playerId": "4d244e17-5296-404e-b826-a70de60cfb14",
    "gender": "Female",
@@ -58930,6 +58939,14 @@
    "playerId": "99c26d8d-4ea2-4ca0-90ca-59f78aca4552",
    "gender": "Male",
    "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Pablo Martin",
+   "playerId": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
+   "gender": "Male",
+   "team": "Bounce Malvern",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59643,7 +59660,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-04T20:41:06.928Z";
+  DATA.meta.asOf = "2026-10-05T03:09:21.991Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

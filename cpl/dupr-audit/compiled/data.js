@@ -5536,6 +5536,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Eric Jiang",
+   "playerId": "5a604f85-b8f8-4084-8636-d403530fd480",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Eric Lin",
    "playerId": "4ce1c715-b187-47c5-b6dc-d079f802499d",
    "team": "Monroe",
