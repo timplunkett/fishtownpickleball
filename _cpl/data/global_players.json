@@ -33656,7 +33656,7 @@
     "lastName": "Piranian",
     "dupr": "5E9ZYP",
     "duprRating": "4.079",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 6689662885,
     "duprProvisional": false
   },
@@ -43006,11 +43006,11 @@
   },
   {
     "playerId": "d2076d9d-aa9e-4904-b971-8da1be95013f",
-    "firstName": "Valerie",
-    "lastName": "Interrante",
+    "firstName": "VALERIE",
+    "lastName": "INTERRANTE",
     "dupr": "3VNPE7",
     "duprRating": "3.545",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 8068304537,
     "duprProvisional": false
   },
@@ -43130,7 +43130,7 @@
     "lastName": "Workman",
     "dupr": "V762OP",
     "duprRating": "4.166",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 5464434200,
     "duprProvisional": false
   },
@@ -47724,6 +47724,46 @@
     "duprRating": "NR",
     "lastSeen": "2026-10",
     "duprNumericId": 7613906683,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "c25ace7a-9f60-4226-9e99-068e81f1bad0",
+    "firstName": "David",
+    "lastName": "Arvan",
+    "dupr": "3XYE0R",
+    "duprRating": "3.211",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7830815223,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "94fe642c-a54b-48ab-8e5f-ab2e1e709778",
+    "firstName": "Daniel",
+    "lastName": "DePolo",
+    "dupr": "K57OPY",
+    "duprRating": "3.311",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7193727857,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "848556a6-59a2-4641-b012-869e1ef7e5ef",
+    "firstName": "Maged",
+    "lastName": "Aziz",
+    "dupr": "5Q5GO0",
+    "duprRating": "2.767",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7253429775,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "c43824db-1a52-45b7-8a62-7ad2d1afb63e",
+    "firstName": "Jason",
+    "lastName": "Smith",
+    "dupr": "JMGK6D",
+    "duprRating": "3.741",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5883217603,
     "duprProvisional": false
   }
 ]

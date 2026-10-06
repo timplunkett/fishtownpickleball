@@ -5090,7 +5090,7 @@
       "gender": "Male",
       "dupr": "8KD2JK",
       "isCaptain": true,
-      "isSub": true,
+      "isSub": false,
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "teamName": "ACE Moorestown",
       "wins": 21,

@@ -5572,8 +5572,8 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 4,
@@ -5599,8 +5599,8 @@
     "teamRes": "W",
     "teamGW": 28,
     "teamGL": 4,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -5626,8 +5626,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -5653,8 +5653,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

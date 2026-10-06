@@ -1945,6 +1945,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Bart Allgeier",
+   "playerId": "236ac99f-3ad9-42b7-bb97-a2c238fbbf98",
+   "team": "Dill Dinkers Lansdale",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Bart Van Der Gaag",
    "playerId": "24b5e97e-55d9-4d59-82ca-3b616f25d3a1",
    "team": "PKLD",
@@ -3524,6 +3531,13 @@ window.DUPR_AUDIT = {
    "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Christopher Monzon",
+   "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
@@ -5365,6 +5379,13 @@ window.DUPR_AUDIT = {
    "playerId": "3c27afe7-2382-44c1-a50d-cf7326aa325a",
    "team": "Home Court",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Elliott Albanese",
+   "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
@@ -11864,6 +11885,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Manny Lai",
+   "playerId": "f2a53ee2-a602-4e58-8326-6d0624af34af",
+   "team": "ACE Moorestown",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
    "name": "Manop Sutipayakul",
    "playerId": "fc240672-f23c-40d4-9601-d019937cd3bf",
    "team": "PickleRage Union County",
@@ -14528,6 +14556,13 @@ window.DUPR_AUDIT = {
    "playerId": "d64631c2-5086-4d28-b93e-26c8661af87b",
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Perri Goldstein",
+   "playerId": "c314fe29-19de-4c08-956b-ae10493edcc8",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {

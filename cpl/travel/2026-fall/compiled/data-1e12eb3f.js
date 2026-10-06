@@ -13739,7 +13739,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 528,
+   "leagueRank": 529,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13768,7 +13768,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 540,
+   "leagueRank": 542,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13797,7 +13797,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 568,
+   "leagueRank": 571,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13826,7 +13826,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 563,
+   "leagueRank": 566,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13855,7 +13855,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 547,
+   "leagueRank": 550,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13884,7 +13884,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 573,
+   "leagueRank": 576,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13913,7 +13913,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 541,
+   "leagueRank": 543,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13942,7 +13942,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 572,
+   "leagueRank": 575,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13971,7 +13971,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 562,
+   "leagueRank": 565,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14000,7 +14000,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 554,
+   "leagueRank": 557,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14029,7 +14029,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 527,
+   "leagueRank": 528,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14058,7 +14058,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 550,
+   "leagueRank": 553,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14087,7 +14087,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 559,
+   "leagueRank": 562,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14116,7 +14116,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 567,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14145,7 +14145,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 534,
+   "leagueRank": 536,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14174,7 +14174,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 570,
+   "leagueRank": 573,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14203,7 +14203,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 565,
+   "leagueRank": 568,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14232,7 +14232,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 556,
+   "leagueRank": 559,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -57853,7 +57853,381 @@
    "home": "Dill Dinkers Hatboro",
    "away": "Players Courtyard",
    "time": "2026-10-10T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "Suzanne Garcia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Jill Nixon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mcdonough",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Edward Verish",
+      "Jim Nixon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Jim Nixon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Nixon",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Christine Fletcher"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Nixon",
+      "Danya George"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mcdonough",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Giunta",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Jim Nixon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Nixon",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Suzanne Garcia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "Danya George"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Mehnert",
+      "Jim Nixon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Giunta",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Danya George",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Fletcher",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Nixon",
+      "Edward Verish"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Christine Fletcher"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Jill Nixon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mcdonough",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "Jim Nixon"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -58468,14 +58842,17 @@
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
+  "Daniel Depolo": "94fe642c-a54b-48ab-8e5f-ab2e1e709778",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Matt Mcgrath": "99c26d8d-4ea2-4ca0-90ca-59f78aca4552",
   "Pablo Martin": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
+  "David Arvan": "c25ace7a-9f60-4226-9e99-068e81f1bad0",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
+  "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Maggie Regan": "de1fadcc-cb0b-4bef-b6d2-326f46aaede9",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
@@ -59324,6 +59701,14 @@
    "outsideSub": true
   },
   {
+   "name": "Daniel Depolo",
+   "playerId": "94fe642c-a54b-48ab-8e5f-ab2e1e709778",
+   "gender": "Male",
+   "team": "One Love",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Patrick Neary",
    "playerId": "977152d9-389c-4ac9-8b39-59308f2194ec",
    "gender": "Male",
@@ -59532,6 +59917,14 @@
    "outsideSub": true
   },
   {
+   "name": "David Arvan",
+   "playerId": "c25ace7a-9f60-4226-9e99-068e81f1bad0",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Scott Moore",
    "playerId": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
    "gender": "Male",
@@ -59648,6 +60041,14 @@
    "playerId": "d8d92449-f754-45b9-acf1-821822b1abb5",
    "gender": "Male",
    "team": "Life Time Red Bank",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Stacey Cohen",
+   "playerId": "da4d615a-2d9f-4939-be52-1760fb37eb60",
+   "gender": "Female",
+   "team": "Premiere Aces",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -60065,7 +60466,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T12:28:32.395Z";
+  DATA.meta.asOf = "2026-10-06T22:02:59.685Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

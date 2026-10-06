@@ -22006,8 +22006,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -22033,8 +22033,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "Dill Dinkers Lansdale"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

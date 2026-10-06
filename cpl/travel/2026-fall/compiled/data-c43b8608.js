@@ -3833,8 +3833,8 @@
    "name": "Bart Allgeier",
    "gender": "Male",
    "team": "Dill Dinkers Lansdale",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 8,
@@ -30730,7 +30730,6 @@
     }
    ],
    "subs": [
-    "Bart Allgeier",
     "Larry Minsky"
    ]
   },
@@ -42869,7 +42868,6 @@
     }
    ],
    "subs": [
-    "Bart Allgeier",
     "Tao Zhu"
    ]
   },
@@ -47208,14 +47206,6 @@
    "outsideSub": true
   },
   {
-   "name": "Bart Allgeier",
-   "playerId": "236ac99f-3ad9-42b7-bb97-a2c238fbbf98",
-   "gender": "Male",
-   "team": "Dill Dinkers Lansdale",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Lance Sears",
    "playerId": "274d4694-2177-4143-9fb3-86f2253ed29c",
    "gender": "Male",
@@ -48197,7 +48187,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T04:00:04.054Z";
+  DATA.meta.asOf = "2026-10-06T22:04:45.121Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

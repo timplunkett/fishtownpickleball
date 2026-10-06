@@ -29751,8 +29751,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
