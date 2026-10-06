@@ -136,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 574
+      "ranking": 575
     },
     {
       "playerId": "03769e99-2521-4e52-bef4-cf55e57e9460",
@@ -665,7 +665,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 570
+      "ranking": 571
     },
     {
       "playerId": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
@@ -3310,7 +3310,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 572
+      "ranking": 573
     },
     {
       "playerId": "408eed1b-b867-4f9a-b796-7dc23c6d2311",
@@ -4714,6 +4714,29 @@
       "genderWins": 5,
       "genderLosses": 1,
       "ranking": 77
+    },
+    {
+      "playerId": "5e78e59d-d2fb-4325-8a01-54a4e9b310eb",
+      "firstName": "Sheila",
+      "lastName": "Tiegs",
+      "gender": "Female",
+      "dupr": "WZJ76Y",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
+      "teamName": "Dill Dinkers Newport",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 569
     },
     {
       "playerId": "5f2e3f29-7b61-4d23-ba5a-23bfe5eac362",
@@ -6346,7 +6369,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 571
+      "ranking": 572
     },
     {
       "playerId": "80fbbb8f-8f4d-4a6f-bc08-925f29df32ea",
@@ -8370,7 +8393,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 575
+      "ranking": 576
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",
@@ -11567,7 +11590,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 573
+      "ranking": 574
     },
     {
       "playerId": "e5bf1611-3d03-4600-9e72-301e91a9db18",
@@ -12556,7 +12579,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 569
+      "ranking": 570
     },
     {
       "playerId": "f6eef486-8999-4247-a7d8-20251377021c",

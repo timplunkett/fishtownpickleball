@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 228,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 232,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 235,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -27775,8 +27775,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Andrew Wakefield"
      ],
      "a": [
       "Nam Barsh",
@@ -27786,8 +27786,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Kenoa Tio"
      ],
      "a": [
       "Sarah Kline",
@@ -27797,8 +27797,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Yuki Kim",
@@ -27808,8 +27808,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Varun Prakash"
      ],
      "a": [
       "Harriet Levin",
@@ -27819,8 +27819,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Marina Cozac"
      ],
      "a": [
       "Yuki Kim",
@@ -27830,8 +27830,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Kaylyn Swankoski"
      ],
      "a": [
       "Harriet Levin",
@@ -27841,8 +27841,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Andrew Wakefield"
      ],
      "a": [
       "Lou Frignito",
@@ -27852,8 +27852,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenoa Tio",
+      "Varun Prakash"
      ],
      "a": [
       "Nick Meale",
@@ -27863,8 +27863,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Kenoa Tio"
      ],
      "a": [
       "Harriet Levin",
@@ -27874,8 +27874,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Varun Prakash"
      ],
      "a": [
       "Sarah Kline",
@@ -27885,8 +27885,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Yuki Kim",
@@ -27896,8 +27896,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Andrew Wakefield"
      ],
      "a": [
       "Megan Harvey",
@@ -27907,8 +27907,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Allison Tarnoff"
      ],
      "a": [
       "Nam Barsh",
@@ -27918,8 +27918,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Marina Cozac"
      ],
      "a": [
       "Sarah Kline",
@@ -27929,8 +27929,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenoa Tio",
+      "Andrew Wakefield"
      ],
      "a": [
       "Nick Meale",
@@ -27940,8 +27940,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Varun Prakash"
      ],
      "a": [
       "Lou Frignito",
@@ -27951,8 +27951,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Andrew Wakefield"
      ],
      "a": [
       "Harriet Levin",
@@ -27962,8 +27962,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Varun Prakash"
      ],
      "a": [
       "Yuki Kim",
@@ -27973,8 +27973,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Sarah Kline",
@@ -27984,8 +27984,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Kenoa Tio"
      ],
      "a": [
       "Nam Barsh",
@@ -27995,8 +27995,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Kaylyn Swankoski"
      ],
      "a": [
       "Sarah Kline",
@@ -28006,8 +28006,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Cristi Landrigan"
      ],
      "a": [
       "Nam Barsh",
@@ -28017,8 +28017,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Prakash",
+      "Dylan Ashbach"
      ],
      "a": [
       "Lou Frignito",
@@ -28028,8 +28028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenoa Tio",
+      "Andrew Wakefield"
      ],
      "a": [
       "Shashank Kamdar",
@@ -28039,8 +28039,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Kenoa Tio"
      ],
      "a": [
       "Megan Harvey",
@@ -28050,8 +28050,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Harriet Levin",
@@ -28061,8 +28061,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Varun Prakash"
      ],
      "a": [
       "Yuki Kim",
@@ -28072,8 +28072,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Andrew Wakefield"
      ],
      "a": [
       "Nam Barsh",
@@ -28083,8 +28083,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Nam Barsh",
@@ -28094,8 +28094,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Cristi Landrigan"
      ],
      "a": [
       "Megan Harvey",
@@ -28105,8 +28105,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenoa Tio",
+      "Varun Prakash"
      ],
      "a": [
       "Shashank Kamdar",
@@ -28116,8 +28116,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Andrew Wakefield"
      ],
      "a": [
       "Lou Frignito",
@@ -29862,6 +29862,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
+  "Alex Mihalca": "47054f48-f7f3-4a11-8a3c-03160ea588b6",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Kristen Clemmer": "7f2ca847-7635-4bda-9073-7625e6812f32",
@@ -30003,6 +30004,14 @@
    "playerId": "462f3a15-22ed-4fa3-b698-78678a5d6966",
    "gender": "Female",
    "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alex Mihalca",
+   "playerId": "47054f48-f7f3-4a11-8a3c-03160ea588b6",
+   "gender": "Male",
+   "team": "Bounce Philly",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -30460,7 +30469,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T03:59:37.962Z";
+  DATA.meta.asOf = "2026-10-06T12:29:51.190Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

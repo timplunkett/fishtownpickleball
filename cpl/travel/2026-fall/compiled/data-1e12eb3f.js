@@ -13884,7 +13884,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 572,
+   "leagueRank": 573,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13942,7 +13942,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 571,
+   "leagueRank": 572,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14174,7 +14174,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 569,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14210,6 +14210,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
+  },
+  {
+   "name": "Raymond Lormel",
+   "gender": "Male",
+   "team": "Mercer Bucks",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 556,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c6bfaf46-bfa1-40eb-8774-04151364f747"
   },
   {
    "name": "Guy Ercol",
@@ -57430,7 +57459,385 @@
    "home": "Pickleball Kingdom Hamilton Prime Time",
    "away": "Mercer Bucks",
    "time": "2026-10-10T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Farzad Shadzik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Lisa Angelini"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Farzad Shadzik",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Gross",
+      "Raymond Lormel"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Farzad Shadzik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Raymond Lormel"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Tami Mohney"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Tracy Leahy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Farzad Shadzik",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Pang",
+      "Raymond Lormel"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Raymond Lormel"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Lisa Angelini"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tami Mohney",
+      "Cindy Suter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Farzad Shadzik",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jerry Margulies",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Farzad Shadzik"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Ken Gross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Suter",
+      "Jerry Margulies"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Leahy",
+      "Raymond Lormel"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jean Knab",
+      "Tracy Leahy"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Angelini",
+      "Tami Mohney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Farzad Shadzik",
+      "Jonathan Pang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Gross",
+      "Raymond Lormel"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -58053,6 +58460,7 @@
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
+  "Sheila Tiegs": "5e78e59d-d2fb-4325-8a01-54a4e9b310eb",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
@@ -58068,7 +58476,6 @@
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
-  "Raymond Lormel": "c6bfaf46-bfa1-40eb-8774-04151364f747",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Maggie Regan": "de1fadcc-cb0b-4bef-b6d2-326f46aaede9",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
@@ -58649,6 +59056,14 @@
    "playerId": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
    "gender": "Male",
    "team": "PKLD",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sheila Tiegs",
+   "playerId": "5e78e59d-d2fb-4325-8a01-54a4e9b310eb",
+   "gender": "Female",
+   "team": "Dill Dinkers Newport",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59513,7 +59928,7 @@
   "matchesPlayed": 73,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 529,
+  "totalPlayers": 530,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -59650,7 +60065,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T03:58:12.635Z";
+  DATA.meta.asOf = "2026-10-06T12:28:32.395Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

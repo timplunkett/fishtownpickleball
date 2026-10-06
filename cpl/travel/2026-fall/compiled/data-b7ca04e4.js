@@ -14783,7 +14783,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 582,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14812,7 +14812,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 591,
+   "leagueRank": 592,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 580,
+   "leagueRank": 581,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 585,
+   "leagueRank": 586,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 588,
+   "leagueRank": 589,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 575,
+   "leagueRank": 576,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 577,
+   "leagueRank": 578,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,13 +15218,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 583,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "37d69abc-9610-4c03-a618-f905bd0e2fb1"
+  },
+  {
+   "name": "Sophie O’Driscoll",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 575,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "40f98b81-c10a-4e0b-9154-3a8ffa3d784c"
   },
   {
    "name": "Suzane Sullivan",
@@ -15247,7 +15276,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 590,
+   "leagueRank": 591,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -74604,8 +74633,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Aaron Chan"
      ],
      "a": [
       "Taylor Johns",
@@ -74615,8 +74644,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Brad Mandry"
      ],
      "a": [
       "Rebecca Mcginnis",
@@ -74626,8 +74655,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynn Bresnahan",
+      "Scott Strong"
      ],
      "a": [
       "Martina Tejeda",
@@ -74637,19 +74666,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Matt Demarco"
      ],
      "a": [
       "Hanna Cutler",
       "Jacob Alpert"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Lynn Bresnahan"
      ],
      "a": [
       "Taylor Johns",
@@ -74659,19 +74692,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Sophie O’Driscoll"
      ],
      "a": [
       "Lisa Pinder",
       "Dana Sheply"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Matt Demarco"
      ],
      "a": [
       "Chris Machuzak",
@@ -74681,8 +74718,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Scott Strong",
+      "Aaron Chan"
      ],
      "a": [
       "Daniel Hadley",
@@ -74692,8 +74729,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Aaron Chan"
      ],
      "a": [
       "Taylor Johns",
@@ -74703,8 +74740,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynn Bresnahan",
+      "Scott Strong"
      ],
      "a": [
       "Martina Tejeda",
@@ -74714,19 +74751,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Matt Demarco"
      ],
      "a": [
       "Dana Sheply",
       "Daniel Hadley"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Brad Mandry"
      ],
      "a": [
       "Hanna Cutler",
@@ -74736,19 +74777,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Sophie O’Driscoll"
      ],
      "a": [
       "Taylor Johns",
       "Rebecca Mcginnis"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Lynn Bresnahan"
      ],
      "a": [
       "Hanna Cutler",
@@ -74758,8 +74803,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Scott Strong",
+      "Aaron Chan"
      ],
      "a": [
       "Alex Kustas",
@@ -74769,8 +74814,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Matt Demarco"
      ],
      "a": [
       "Jacob Alpert",
@@ -74780,8 +74825,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Matt Demarco"
      ],
      "a": [
       "Taylor Johns",
@@ -74791,8 +74836,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Scott Strong"
      ],
      "a": [
       "Rebecca Mcginnis",
@@ -74802,8 +74847,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynn Bresnahan",
+      "Brad Mandry"
      ],
      "a": [
       "Martina Tejeda",
@@ -74813,19 +74858,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Aaron Chan"
      ],
      "a": [
       "Dana Sheply",
       "Kyle Woerner"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Mary Fair"
      ],
      "a": [
       "Rebecca Mcginnis",
@@ -74835,19 +74884,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynn Bresnahan",
+      "Sophie O’Driscoll"
      ],
      "a": [
       "Hanna Cutler",
       "Lisa Pinder"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Scott Strong"
      ],
      "a": [
       "Alex Kustas",
@@ -74857,8 +74910,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Demarco",
+      "Aaron Chan"
      ],
      "a": [
       "Jacob Alpert",
@@ -74868,8 +74921,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Scott Strong"
      ],
      "a": [
       "Taylor Johns",
@@ -74879,8 +74932,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Fair",
+      "Matt Demarco"
      ],
      "a": [
       "Rebecca Mcginnis",
@@ -74890,19 +74943,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophie O’Driscoll",
+      "Aaron Chan"
      ],
      "a": [
       "Martina Tejeda",
       "Daniel Hadley"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynn Bresnahan",
+      "Brad Mandry"
      ],
      "a": [
       "Lisa Pinder",
@@ -74912,8 +74969,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ricki Cohen",
+      "Mary Fair"
      ],
      "a": [
       "Martina Tejeda",
@@ -74923,19 +74980,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynn Bresnahan",
+      "Sophie O’Driscoll"
      ],
      "a": [
       "Dana Sheply",
       "Lisa Pinder"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Demarco",
+      "Aaron Chan"
      ],
      "a": [
       "Alex Kustas",
@@ -74945,8 +75006,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brad Mandry",
+      "Scott Strong"
      ],
      "a": [
       "Daniel Hadley",
@@ -79099,6 +79160,14 @@
    "outsideSub": true
   },
   {
+   "name": "Sophie O’Driscoll",
+   "playerId": "40f98b81-c10a-4e0b-9154-3a8ffa3d784c",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Joe Carson",
    "playerId": "447b08ee-f4b1-4b43-b2ff-bdc780b908b5",
    "gender": "Male",
@@ -79935,7 +80004,7 @@
   "matchesPlayed": 96,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 561,
+  "totalPlayers": 562,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -79999,7 +80068,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-06T03:59:23.919Z";
+  DATA.meta.asOf = "2026-10-06T12:29:37.048Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
