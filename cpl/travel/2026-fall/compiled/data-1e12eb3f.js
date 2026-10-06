@@ -3427,8 +3427,8 @@
    "name": "Carl Nath",
    "gender": "Male",
    "team": "Life Time Red Bank",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 8,
@@ -14302,8 +14302,8 @@
    "name": "Amy Clayman",
    "gender": "Female",
    "team": "ACE Moorestown",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 0,
@@ -33437,7 +33437,6 @@
    "subs": [
     "Guy Ercol",
     "Pete Dunn",
-    "Amy Clayman",
     "Eric Clayman",
     "Cathy Orourke"
    ]
@@ -39034,8 +39033,7 @@
     }
    ],
    "subs": [
-    "Christopher Brett",
-    "Carl Nath"
+    "Christopher Brett"
    ]
   },
   {
@@ -45928,7 +45926,6 @@
    "subs": [
     "Sara Hylan",
     "Michael Altilio",
-    "Carl Nath",
     "Virgo Marjamaa"
    ]
   },
@@ -59088,14 +59085,6 @@
    "outsideSub": true
   },
   {
-   "name": "Amy Clayman",
-   "playerId": "b827322d-e01b-4ca5-b8ae-680982fa8cd1",
-   "gender": "Female",
-   "team": "ACE Moorestown",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Teresa Carr",
    "playerId": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
    "gender": "Female",
@@ -59220,14 +59209,6 @@
    "playerId": "cdd6b427-286b-4fe5-941c-7bdaf9de2843",
    "gender": "Female",
    "team": "Bounce Malvern",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Carl Nath",
-   "playerId": "cef5e952-96d9-473e-8059-ccb6705e31fe",
-   "gender": "Male",
-   "team": "Life Time Red Bank",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59669,7 +59650,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-05T22:51:38.641Z";
+  DATA.meta.asOf = "2026-10-06T03:58:12.635Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

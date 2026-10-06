@@ -930,6 +930,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Amy Clayman",
+   "playerId": "b827322d-e01b-4ca5-b8ae-680982fa8cd1",
+   "team": "ACE Moorestown",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Amy Farrell",
    "playerId": "73509e7b-7c99-4b1e-998c-a9de94daa2a2",
    "team": "Monroe",
@@ -2713,6 +2720,13 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Watchung",
    "slug": "b7ca04e4",
    "gender": "Female"
+  },
+  {
+   "name": "Carl Nath",
+   "playerId": "cef5e952-96d9-473e-8059-ccb6705e31fe",
+   "team": "Life Time Red Bank",
+   "slug": "1e12eb3f",
+   "gender": "Male"
   },
   {
    "name": "Carla Fonseca",

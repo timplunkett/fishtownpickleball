@@ -19835,8 +19835,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Life Time Red Bank"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -19862,8 +19862,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Life Time Red Bank"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -76356,8 +76356,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

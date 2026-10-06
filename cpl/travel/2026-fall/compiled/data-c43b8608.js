@@ -11216,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11245,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 414,
+   "leagueRank": 415,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11274,7 +11274,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 417,
+   "leagueRank": 418,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 443,
+   "leagueRank": 444,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11332,7 +11332,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 418,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 413,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11390,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11419,7 +11419,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11448,7 +11448,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 430,
+   "leagueRank": 431,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -47041,6 +47041,7 @@
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
   "Bin Song": "1a3fe8ae-2bb6-472b-b379-62f714bf58a9",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
+  "Jennifer Alvarez": "4b3f4a35-e94a-402c-869d-77650914bdcb",
   "C Gwon": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
@@ -47347,6 +47348,14 @@
    "playerId": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
    "gender": "Female",
    "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jennifer Alvarez",
+   "playerId": "4b3f4a35-e94a-402c-869d-77650914bdcb",
+   "gender": "Female",
+   "team": "Dill Dinkers Lansdale",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -48188,7 +48197,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-05T22:53:27.794Z";
+  DATA.meta.asOf = "2026-10-06T04:00:04.054Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

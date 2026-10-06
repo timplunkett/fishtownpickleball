@@ -27473,7 +27473,7 @@
      ],
      "a": [
       "Richa Shah",
-      "Morgan Fishman"
+      "Sophia Kaufmann"
      ]
     },
     {
@@ -27538,7 +27538,7 @@
       ""
      ],
      "a": [
-      "Morgan Fishman",
+      "Sara Synn",
       "Ali Husain"
      ]
     },
@@ -27550,7 +27550,7 @@
      ],
      "a": [
       "Ruhi Shah",
-      "Morgan Fishman"
+      "Richa Shah"
      ]
     },
     {
@@ -27648,7 +27648,7 @@
       ""
      ],
      "a": [
-      "Morgan Fishman",
+      "Sara Synn",
       "Sophia Kaufmann"
      ]
     },
@@ -27714,7 +27714,7 @@
       ""
      ],
      "a": [
-      "Morgan Fishman",
+      "Sophia Kaufmann",
       "Ali Husain"
      ]
     },
@@ -27737,7 +27737,7 @@
      ],
      "a": [
       "Sophia Kaufmann",
-      "Morgan Fishman"
+      "Richa Shah"
      ]
     },
     {
@@ -27770,7 +27770,361 @@
    "home": "Dill Dinkers Hatboro The Factory",
    "away": "Bounce Malvern",
    "time": "2026-10-07T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nam Barsh",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harriet Levin",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Nam Barsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harriet Levin",
+      "Sarah Kline"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Meale",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harriet Levin",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nam Barsh",
+      "Megan Harvey"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Yuki Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nick Meale",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harriet Levin",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nam Barsh",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Kline",
+      "Yuki Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nam Barsh",
+      "Megan Harvey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harriet Levin",
+      "Nick Meale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuki Kim",
+      "Lou Frignito"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nam Barsh",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nam Barsh",
+      "Yuki Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Megan Harvey",
+      "Harriet Levin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Chris Tabeling"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Frignito",
+      "Nick Meale"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -28140,7 +28494,381 @@
    "home": "Bounce Philly",
    "away": "ACE Moorestown",
    "time": "2026-10-07T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Jennifer Sanchez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hector Irizarry",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Krysti Maronski-Neufeldt",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Stacy Walkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annemarie Mccartney",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Hector Irizarry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Krysti Maronski-Neufeldt",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Annemarie Mccartney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Nathan Law"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Krysti Maronski-Neufeldt",
+      "Ben Mead"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anita Buggins",
+      "Stacy Walkowitz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Jack Blumberg"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Garv Singhal"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -29732,7 +30460,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-05T22:53:03.687Z";
+  DATA.meta.asOf = "2026-10-06T03:59:37.962Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

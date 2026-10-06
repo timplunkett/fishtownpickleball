@@ -574,7 +574,7 @@
    "diff": 154,
    "ppg": 20.3,
    "leagueRank": 11,
-   "rating": 2.7,
+   "rating": 2.6,
    "ratingGames": 33,
    "confidence": 86,
    "strengthOfPartners": 1.1,
@@ -805,7 +805,7 @@
    "winPct": 80,
    "diff": 10,
    "ppg": 19.6,
-   "leagueRank": 342,
+   "leagueRank": 343,
    "rating": 0.4,
    "ratingGames": 5,
    "confidence": 52,
@@ -922,7 +922,7 @@
    "diff": 204,
    "ppg": 20.3,
    "leagueRank": 18,
-   "rating": 3.3,
+   "rating": 3.4,
    "ratingGames": 47,
    "confidence": 88,
    "strengthOfPartners": 1.8,
@@ -1096,11 +1096,11 @@
    "diff": 55,
    "ppg": 19.7,
    "leagueRank": 42,
-   "rating": 1.4,
+   "rating": 1.5,
    "ratingGames": 26,
    "confidence": 83,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 0,
+   "strengthOfOpponents": 0.1,
    "playerId": "4cfe6084-c26a-46dd-8be0-c1abc2518176"
   },
   {
@@ -1183,7 +1183,7 @@
    "diff": 145,
    "ppg": 19.6,
    "leagueRank": 26,
-   "rating": 1.5,
+   "rating": 1.6,
    "ratingGames": 33,
    "confidence": 85,
    "strengthOfPartners": 1.9,
@@ -1298,10 +1298,10 @@
    "winPct": 75,
    "diff": 63,
    "ppg": 19.3,
-   "leagueRank": 43,
+   "leagueRank": 44,
    "rating": 1.2,
    "ratingGames": 20,
-   "confidence": 80,
+   "confidence": 79,
    "strengthOfPartners": 0.6,
    "strengthOfOpponents": -0.6,
    "playerId": "af8325ab-680e-414c-8522-2335ec1e7f50"
@@ -1531,11 +1531,11 @@
    "diff": 110,
    "ppg": 19.9,
    "leagueRank": 35,
-   "rating": 2.7,
+   "rating": 2.8,
    "ratingGames": 30,
    "confidence": 85,
-   "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.2,
+   "strengthOfPartners": 1.1,
+   "strengthOfOpponents": 0.3,
    "playerId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1"
   },
   {
@@ -1676,11 +1676,11 @@
    "diff": 196,
    "ppg": 20.2,
    "leagueRank": 22,
-   "rating": 4.7,
+   "rating": 4.8,
    "ratingGames": 45,
    "confidence": 88,
-   "strengthOfPartners": 1.2,
-   "strengthOfOpponents": 0.8,
+   "strengthOfPartners": 1.3,
+   "strengthOfOpponents": 0.9,
    "playerId": "936fd285-0e07-4c08-94b0-57b3c19ac59e"
   },
   {
@@ -1704,7 +1704,7 @@
    "winPct": 72.7,
    "diff": 70,
    "ppg": 19.7,
-   "leagueRank": 44,
+   "leagueRank": 43,
    "rating": 2,
    "ratingGames": 22,
    "confidence": 81,
@@ -1940,8 +1940,8 @@
    "rating": 2.9,
    "ratingGames": 35,
    "confidence": 85,
-   "strengthOfPartners": 1.2,
-   "strengthOfOpponents": 0.5,
+   "strengthOfPartners": 1.3,
+   "strengthOfOpponents": 0.6,
    "playerId": "dad8c60e-028f-4716-a64d-8fcbaffc4a1f"
   },
   {
@@ -2666,7 +2666,7 @@
    "ratingGames": 35,
    "confidence": 86,
    "strengthOfPartners": 1.4,
-   "strengthOfOpponents": 0.7,
+   "strengthOfOpponents": 0.8,
    "playerId": "41cd934f-66b0-4f22-b2e1-74955db922ce"
   },
   {
@@ -2897,7 +2897,7 @@
    "rating": 0.7,
    "ratingGames": 34,
    "confidence": 87,
-   "strengthOfPartners": 1.5,
+   "strengthOfPartners": 1.6,
    "strengthOfOpponents": 0.1,
    "playerId": "e0faca04-4875-4806-b0a3-4830f4dcd52e"
   },
@@ -2952,7 +2952,7 @@
    "diff": 99,
    "ppg": 19.9,
    "leagueRank": 58,
-   "rating": 1.9,
+   "rating": 2,
    "ratingGames": 27,
    "confidence": 84,
    "strengthOfPartners": 1.2,
@@ -2981,11 +2981,11 @@
    "diff": 90,
    "ppg": 19.6,
    "leagueRank": 83,
-   "rating": 1.9,
+   "rating": 2,
    "ratingGames": 39,
    "confidence": 87,
-   "strengthOfPartners": -0.3,
-   "strengthOfOpponents": -0.3,
+   "strengthOfPartners": -0.2,
+   "strengthOfOpponents": -0.1,
    "playerId": "bf00658c-c290-41dd-96dd-e63f723fa6cc"
   },
   {
@@ -3126,7 +3126,7 @@
    "diff": 56,
    "ppg": 19.4,
    "leagueRank": 97,
-   "rating": 0.1,
+   "rating": 0.2,
    "ratingGames": 27,
    "confidence": 84,
    "strengthOfPartners": 2.1,
@@ -3217,7 +3217,7 @@
    "ratingGames": 15,
    "confidence": 75,
    "strengthOfPartners": 0.9,
-   "strengthOfOpponents": 0.3,
+   "strengthOfOpponents": 0.4,
    "playerId": "e99589b9-dcaa-405f-ad41-0cda95a5f236"
   },
   {
@@ -3826,7 +3826,7 @@
    "ratingGames": 20,
    "confidence": 79,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 0.1,
+   "strengthOfOpponents": 0.2,
    "playerId": "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba"
   },
   {
@@ -4087,7 +4087,7 @@
    "ratingGames": 33,
    "confidence": 86,
    "strengthOfPartners": 1.1,
-   "strengthOfOpponents": 0.8,
+   "strengthOfOpponents": 0.9,
    "playerId": "c1251904-fef6-4eb5-9b49-06c8335e3546"
   },
   {
@@ -4231,7 +4231,7 @@
    "rating": 2,
    "ratingGames": 35,
    "confidence": 86,
-   "strengthOfPartners": 0.2,
+   "strengthOfPartners": 0.3,
    "strengthOfOpponents": 0.4,
    "playerId": "1d44d478-17dd-41c5-95e2-7010889b33ba"
   },
@@ -4376,8 +4376,8 @@
    "rating": 2.2,
    "ratingGames": 29,
    "confidence": 84,
-   "strengthOfPartners": 0.8,
-   "strengthOfOpponents": 0.7,
+   "strengthOfPartners": 0.9,
+   "strengthOfOpponents": 0.8,
    "playerId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a"
   },
   {
@@ -4464,7 +4464,7 @@
    "ratingGames": 21,
    "confidence": 81,
    "strengthOfPartners": 0.8,
-   "strengthOfOpponents": -0.3,
+   "strengthOfOpponents": -0.2,
    "playerId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05"
   },
   {
@@ -4666,7 +4666,7 @@
    "rating": 1.7,
    "ratingGames": 18,
    "confidence": 78,
-   "strengthOfPartners": -0.5,
+   "strengthOfPartners": -0.4,
    "strengthOfOpponents": -0.6,
    "playerId": "184907fa-5d07-4ab9-a1c5-f0007af00d59"
   },
@@ -4986,7 +4986,7 @@
    "ratingGames": 46,
    "confidence": 88,
    "strengthOfPartners": 1.6,
-   "strengthOfOpponents": 0.9,
+   "strengthOfOpponents": 1,
    "playerId": "b07b7480-a964-459c-b47e-5c0f4a8774e9"
   },
   {
@@ -5276,7 +5276,7 @@
    "ratingGames": 5,
    "confidence": 49,
    "strengthOfPartners": -0.1,
-   "strengthOfOpponents": 0.2,
+   "strengthOfOpponents": 0.3,
    "playerId": "aa811676-fda4-47ba-81a9-3a0feb35cc6a"
   },
   {
@@ -5478,7 +5478,7 @@
    "rating": -0.4,
    "ratingGames": 34,
    "confidence": 86,
-   "strengthOfPartners": 1.8,
+   "strengthOfPartners": 1.9,
    "strengthOfOpponents": 0.3,
    "playerId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3"
   },
@@ -6204,7 +6204,7 @@
    "ratingGames": 34,
    "confidence": 85,
    "strengthOfPartners": 1,
-   "strengthOfOpponents": 0.4,
+   "strengthOfOpponents": 0.5,
    "playerId": "97897afe-f9e2-42be-926f-d6ebe7025591"
   },
   {
@@ -6374,11 +6374,11 @@
    "diff": 18,
    "ppg": 18.3,
    "leagueRank": 195,
-   "rating": 0.2,
+   "rating": 0.4,
    "ratingGames": 29,
    "confidence": 84,
    "strengthOfPartners": -0.6,
-   "strengthOfOpponents": -0.5,
+   "strengthOfOpponents": -0.4,
    "playerId": "fda078f4-e367-425d-9f16-501fdb5088e8"
   },
   {
@@ -7131,7 +7131,7 @@
    "rating": -1.1,
    "ratingGames": 44,
    "confidence": 87,
-   "strengthOfPartners": -0.6,
+   "strengthOfPartners": -0.5,
    "strengthOfOpponents": -0.5,
    "playerId": "16a5ef9a-49fe-4341-9626-8f566552010e"
   },
@@ -7157,7 +7157,7 @@
    "diff": -37,
    "ppg": 17.5,
    "leagueRank": 245,
-   "rating": -0.2,
+   "rating": -0.1,
    "ratingGames": 45,
    "confidence": 88,
    "strengthOfPartners": -1,
@@ -7247,7 +7247,7 @@
    "rating": -0.2,
    "ratingGames": 31,
    "confidence": 85,
-   "strengthOfPartners": 0,
+   "strengthOfPartners": 0.1,
    "strengthOfOpponents": 0.4,
    "playerId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68"
   },
@@ -7679,11 +7679,11 @@
    "diff": -1,
    "ppg": 17.8,
    "leagueRank": 427,
-   "rating": -0.5,
+   "rating": -0.4,
    "ratingGames": 6,
    "confidence": 56,
-   "strengthOfPartners": -1.7,
-   "strengthOfOpponents": -1.2,
+   "strengthOfPartners": -1.6,
+   "strengthOfOpponents": -1,
    "playerId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3"
   },
   {
@@ -7795,11 +7795,11 @@
    "diff": -6,
    "ppg": 18.1,
    "leagueRank": 243,
-   "rating": -1.3,
+   "rating": -1.4,
    "ratingGames": 24,
    "confidence": 82,
    "strengthOfPartners": 0.8,
-   "strengthOfOpponents": -0.2,
+   "strengthOfOpponents": -0.3,
    "playerId": "f3323e2c-7c42-4f7c-9fe3-a463478eaa80"
   },
   {
@@ -8143,7 +8143,7 @@
    "diff": 2,
    "ppg": 18.3,
    "leagueRank": 289,
-   "rating": 0.1,
+   "rating": 0,
    "ratingGames": 15,
    "confidence": 75,
    "strengthOfPartners": 0.7,
@@ -8200,7 +8200,7 @@
    "winPct": 46.7,
    "diff": -35,
    "ppg": 16.2,
-   "leagueRank": 310,
+   "leagueRank": 311,
    "rating": -1.4,
    "ratingGames": 15,
    "confidence": 73,
@@ -8262,8 +8262,8 @@
    "rating": -0.3,
    "ratingGames": 28,
    "confidence": 84,
-   "strengthOfPartners": -0.8,
-   "strengthOfOpponents": 0.1,
+   "strengthOfPartners": -0.7,
+   "strengthOfOpponents": 0.2,
    "playerId": "57ad882f-2a78-4756-adcf-3839833ddcd3"
   },
   {
@@ -8321,7 +8321,7 @@
    "ratingGames": 26,
    "confidence": 83,
    "strengthOfPartners": 1.2,
-   "strengthOfOpponents": 1.2,
+   "strengthOfOpponents": 1.3,
    "playerId": "a874ce54-5e12-49d7-a69a-cb9457b64ddb"
   },
   {
@@ -8346,11 +8346,11 @@
    "diff": 4,
    "ppg": 17.5,
    "leagueRank": 359,
-   "rating": -0.6,
+   "rating": -0.5,
    "ratingGames": 13,
    "confidence": 72,
    "strengthOfPartners": 0.7,
-   "strengthOfOpponents": -0.2,
+   "strengthOfOpponents": -0.1,
    "playerId": "6775ab12-38b5-4f41-a6c1-df35276b63c2"
   },
   {
@@ -8461,7 +8461,7 @@
    "winPct": 45.5,
    "diff": -21,
    "ppg": 18.1,
-   "leagueRank": 259,
+   "leagueRank": 258,
    "rating": -0.1,
    "ratingGames": 33,
    "confidence": 84,
@@ -8548,7 +8548,7 @@
    "winPct": 45.5,
    "diff": -42,
    "ppg": 18.5,
-   "leagueRank": 258,
+   "leagueRank": 259,
    "rating": 0.1,
    "ratingGames": 45,
    "confidence": 89,
@@ -8578,7 +8578,7 @@
    "diff": -20,
    "ppg": 17.9,
    "leagueRank": 255,
-   "rating": 0.6,
+   "rating": 0.7,
    "ratingGames": 31,
    "confidence": 85,
    "strengthOfPartners": -0.7,
@@ -8697,7 +8697,7 @@
    "rating": 0.6,
    "ratingGames": 18,
    "confidence": 78,
-   "strengthOfPartners": -1.2,
+   "strengthOfPartners": -1.1,
    "strengthOfOpponents": 0.2,
    "playerId": "3f06f7a5-cf95-4a74-bdc0-38a080fd0a6c"
   },
@@ -8843,7 +8843,7 @@
    "ratingGames": 30,
    "confidence": 83,
    "strengthOfPartners": 0.5,
-   "strengthOfOpponents": 0.7,
+   "strengthOfOpponents": 0.8,
    "playerId": "08b7041c-a90b-47ba-802a-5f71e6b98999"
   },
   {
@@ -8896,12 +8896,12 @@
    "winPct": 43.2,
    "diff": -48,
    "ppg": 17.4,
-   "leagueRank": 285,
+   "leagueRank": 284,
    "rating": -0.9,
    "ratingGames": 37,
    "confidence": 87,
-   "strengthOfPartners": -0.4,
-   "strengthOfOpponents": -0.1,
+   "strengthOfPartners": -0.3,
+   "strengthOfOpponents": 0,
    "playerId": "2ca1f9df-4501-489e-8992-32da61c98792"
   },
   {
@@ -9129,11 +9129,11 @@
    "diff": -31,
    "ppg": 17.9,
    "leagueRank": 280,
-   "rating": -1.2,
+   "rating": -1.1,
    "ratingGames": 26,
    "confidence": 83,
    "strengthOfPartners": 1.6,
-   "strengthOfOpponents": 0.7,
+   "strengthOfOpponents": 0.8,
    "playerId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870"
   },
   {
@@ -9331,12 +9331,12 @@
    "winPct": 41.2,
    "diff": -70,
    "ppg": 17.2,
-   "leagueRank": 311,
-   "rating": -1.6,
+   "leagueRank": 310,
+   "rating": -1.5,
    "ratingGames": 34,
    "confidence": 86,
-   "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -0.2,
+   "strengthOfPartners": -0.6,
+   "strengthOfOpponents": -0.1,
    "playerId": "92f3c12c-3291-4176-acd2-2bbd5b83136c"
   },
   {
@@ -9365,7 +9365,7 @@
    "ratingGames": 39,
    "confidence": 88,
    "strengthOfPartners": -1,
-   "strengthOfOpponents": -0.3,
+   "strengthOfOpponents": -0.2,
    "playerId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1"
   },
   {
@@ -9389,12 +9389,12 @@
    "winPct": 40.9,
    "diff": -67,
    "ppg": 17.7,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": 0,
    "ratingGames": 44,
    "confidence": 88,
    "strengthOfPartners": 0.4,
-   "strengthOfOpponents": 0.9,
+   "strengthOfOpponents": 1,
    "playerId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac"
   },
   {
@@ -9476,7 +9476,7 @@
    "winPct": 40,
    "diff": -1,
    "ppg": 18.2,
-   "leagueRank": 464,
+   "leagueRank": 463,
    "rating": 0.6,
    "ratingGames": 5,
    "confidence": 51,
@@ -9534,7 +9534,7 @@
    "winPct": 40,
    "diff": -2,
    "ppg": 19.2,
-   "leagueRank": 458,
+   "leagueRank": 457,
    "rating": -0.1,
    "ratingGames": 5,
    "confidence": 52,
@@ -9622,11 +9622,11 @@
    "diff": -10,
    "ppg": 17.7,
    "leagueRank": 275,
-   "rating": 0.3,
+   "rating": 0.4,
    "ratingGames": 20,
-   "confidence": 79,
+   "confidence": 80,
    "strengthOfPartners": -1.4,
-   "strengthOfOpponents": -0.3,
+   "strengthOfOpponents": -0.2,
    "playerId": "bf60680b-003f-4083-b6ce-25bf3a7cd964"
   },
   {
@@ -9713,7 +9713,7 @@
    "ratingGames": 5,
    "confidence": 52,
    "strengthOfPartners": 0,
-   "strengthOfOpponents": -0.6,
+   "strengthOfOpponents": -0.5,
    "playerId": "5309d94e-5f39-4cca-a25d-cba3773abe73"
   },
   {
@@ -9857,7 +9857,7 @@
    "rating": -1.5,
    "ratingGames": 33,
    "confidence": 86,
-   "strengthOfPartners": -1,
+   "strengthOfPartners": -0.9,
    "strengthOfOpponents": -0.9,
    "playerId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6"
   },
@@ -9883,7 +9883,7 @@
    "diff": -75,
    "ppg": 17.1,
    "leagueRank": 322,
-   "rating": -1.4,
+   "rating": -1.3,
    "ratingGames": 36,
    "confidence": 87,
    "strengthOfPartners": -0.4,
@@ -9944,8 +9944,8 @@
    "rating": 0.6,
    "ratingGames": 13,
    "confidence": 73,
-   "strengthOfPartners": 0.1,
-   "strengthOfOpponents": 0.9,
+   "strengthOfPartners": 0.2,
+   "strengthOfOpponents": 1,
    "playerId": "8d954af5-f3d4-45c9-a172-0fe2cbdc4e14"
   },
   {
@@ -9974,7 +9974,7 @@
    "ratingGames": 39,
    "confidence": 87,
    "strengthOfPartners": -1.2,
-   "strengthOfOpponents": -0.3,
+   "strengthOfOpponents": -0.2,
    "playerId": "0c8768d9-03b0-42ca-9a88-b2c8538fa54d"
   },
   {
@@ -10027,7 +10027,7 @@
    "winPct": 38.1,
    "diff": -38,
    "ppg": 17.6,
-   "leagueRank": 325,
+   "leagueRank": 326,
    "rating": -3.3,
    "ratingGames": 21,
    "confidence": 80,
@@ -10060,7 +10060,7 @@
    "rating": -0.4,
    "ratingGames": 37,
    "confidence": 87,
-   "strengthOfPartners": -0.9,
+   "strengthOfPartners": -0.8,
    "strengthOfOpponents": 0,
    "playerId": "85520ff7-80c8-4a80-8af0-93889a7a61e6"
   },
@@ -10177,7 +10177,7 @@
    "ratingGames": 24,
    "confidence": 82,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 0.1,
+   "strengthOfOpponents": 0.2,
    "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028"
   },
   {
@@ -10202,11 +10202,11 @@
    "diff": -41,
    "ppg": 18,
    "leagueRank": 303,
-   "rating": -0.5,
+   "rating": -0.4,
    "ratingGames": 27,
    "confidence": 83,
-   "strengthOfPartners": 0.7,
-   "strengthOfOpponents": 0.8,
+   "strengthOfPartners": 0.8,
+   "strengthOfOpponents": 0.9,
    "playerId": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e"
   },
   {
@@ -10409,7 +10409,7 @@
    "ratingGames": 25,
    "confidence": 83,
    "strengthOfPartners": -0.7,
-   "strengthOfOpponents": -0.1,
+   "strengthOfOpponents": 0,
    "playerId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b"
   },
   {
@@ -10434,7 +10434,7 @@
    "diff": 4,
    "ppg": 19.2,
    "leagueRank": 319,
-   "rating": -1,
+   "rating": -1.1,
    "ratingGames": 14,
    "confidence": 74,
    "strengthOfPartners": -1.3,
@@ -10611,7 +10611,7 @@
    "rating": -2.2,
    "ratingGames": 34,
    "confidence": 87,
-   "strengthOfPartners": -0.7,
+   "strengthOfPartners": -0.6,
    "strengthOfOpponents": -0.5,
    "playerId": "bcf39825-fd7a-4949-9b85-9b77f5c1abc6"
   },
@@ -10637,11 +10637,11 @@
    "diff": -64,
    "ppg": 17.1,
    "leagueRank": 336,
-   "rating": -1.9,
+   "rating": -1.7,
    "ratingGames": 37,
    "confidence": 87,
    "strengthOfPartners": -0.5,
-   "strengthOfOpponents": -0.4,
+   "strengthOfOpponents": -0.3,
    "playerId": "d0562c60-5e2c-4647-805c-ac3740562432"
   },
   {
@@ -11043,10 +11043,10 @@
    "diff": -30,
    "ppg": 15.3,
    "leagueRank": 495,
-   "rating": -2.3,
+   "rating": -2.5,
    "ratingGames": 6,
    "confidence": 56,
-   "strengthOfPartners": -1.5,
+   "strengthOfPartners": -1.2,
    "strengthOfOpponents": -0.2,
    "playerId": "2367463f-18a3-4ac8-8ab2-ab7bebb2ba84"
   },
@@ -11071,7 +11071,7 @@
    "winPct": 33.3,
    "diff": -32,
    "ppg": 16.1,
-   "leagueRank": 469,
+   "leagueRank": 468,
    "rating": -2.5,
    "ratingGames": 9,
    "confidence": 64,
@@ -11217,10 +11217,10 @@
    "diff": -70,
    "ppg": 16.9,
    "leagueRank": 355,
-   "rating": -1,
+   "rating": -1.1,
    "ratingGames": 27,
    "confidence": 84,
-   "strengthOfPartners": -1.3,
+   "strengthOfPartners": -1.2,
    "strengthOfOpponents": 0,
    "playerId": "83a9e58a-b1de-4bda-a020-8cafc2fc47aa"
   },
@@ -11245,7 +11245,7 @@
    "winPct": 33.3,
    "diff": -80,
    "ppg": 17.5,
-   "leagueRank": 343,
+   "leagueRank": 342,
    "rating": -1.1,
    "ratingGames": 36,
    "confidence": 86,
@@ -11304,10 +11304,10 @@
    "diff": -57,
    "ppg": 17.2,
    "leagueRank": 349,
-   "rating": -0.9,
+   "rating": -0.8,
    "ratingGames": 25,
    "confidence": 82,
-   "strengthOfPartners": -1.6,
+   "strengthOfPartners": -1.5,
    "strengthOfOpponents": -0.1,
    "playerId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
   },
@@ -11535,11 +11535,11 @@
    "winPct": 30,
    "diff": -27,
    "ppg": 18.1,
-   "leagueRank": 326,
-   "rating": 0.3,
+   "leagueRank": 325,
+   "rating": 0.2,
    "ratingGames": 20,
    "confidence": 80,
-   "strengthOfPartners": -1.3,
+   "strengthOfPartners": -1.2,
    "strengthOfOpponents": 0.2,
    "playerId": "323d96c3-4160-410b-96a5-87263e825f62"
   },
@@ -11681,7 +11681,7 @@
    "diff": -108,
    "ppg": 16.4,
    "leagueRank": 382,
-   "rating": -2.8,
+   "rating": -2.7,
    "ratingGames": 34,
    "confidence": 86,
    "strengthOfPartners": -0.7,
@@ -11743,7 +11743,7 @@
    "ratingGames": 24,
    "confidence": 82,
    "strengthOfPartners": 0.1,
-   "strengthOfOpponents": 0.5,
+   "strengthOfOpponents": 0.6,
    "playerId": "eada38ef-6a83-46be-bd30-0293173fe5ed"
   },
   {
@@ -11768,10 +11768,10 @@
    "diff": -102,
    "ppg": 16.5,
    "leagueRank": 377,
-   "rating": -1.2,
+   "rating": -1.1,
    "ratingGames": 31,
    "confidence": 85,
-   "strengthOfPartners": -0.7,
+   "strengthOfPartners": -0.6,
    "strengthOfOpponents": 0.7,
    "playerId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3"
   },
@@ -12029,11 +12029,11 @@
    "diff": -162,
    "ppg": 16,
    "leagueRank": 400,
-   "rating": -2.1,
+   "rating": -2,
    "ratingGames": 40,
    "confidence": 88,
    "strengthOfPartners": -1.7,
-   "strengthOfOpponents": 0,
+   "strengthOfOpponents": 0.1,
    "playerId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
   },
   {
@@ -12061,7 +12061,7 @@
    "rating": -1.6,
    "ratingGames": 11,
    "confidence": 71,
-   "strengthOfPartners": -0.7,
+   "strengthOfPartners": -0.6,
    "strengthOfOpponents": -0.5,
    "playerId": "2d392f03-9016-4fe2-92d7-db5d24d43a35"
   },
@@ -12086,12 +12086,12 @@
    "winPct": 27.3,
    "diff": -26,
    "ppg": 16.5,
-   "leagueRank": 465,
+   "leagueRank": 464,
    "rating": -1.2,
    "ratingGames": 11,
    "confidence": 70,
    "strengthOfPartners": 0,
-   "strengthOfOpponents": 0.3,
+   "strengthOfOpponents": 0.4,
    "playerId": "c94ae231-9f0c-4212-b769-7bd708d8fc38"
   },
   {
@@ -12115,7 +12115,7 @@
    "winPct": 27.3,
    "diff": -39,
    "ppg": 16.9,
-   "leagueRank": 473,
+   "leagueRank": 472,
    "rating": -1.5,
    "ratingGames": 11,
    "confidence": 70,
@@ -12174,10 +12174,10 @@
    "diff": -156,
    "ppg": 16.5,
    "leagueRank": 395,
-   "rating": -3.2,
+   "rating": -3.3,
    "ratingGames": 41,
    "confidence": 88,
-   "strengthOfPartners": -1.3,
+   "strengthOfPartners": -1.1,
    "strengthOfOpponents": -0.5,
    "playerId": "57666861-23d0-4809-9556-b646579f2fd6"
   },
@@ -12203,11 +12203,11 @@
    "diff": -41,
    "ppg": 16.9,
    "leagueRank": 379,
-   "rating": -2.6,
+   "rating": -2.5,
    "ratingGames": 15,
    "confidence": 75,
-   "strengthOfPartners": 0.7,
-   "strengthOfOpponents": 0.1,
+   "strengthOfPartners": 0.8,
+   "strengthOfOpponents": 0.2,
    "playerId": "79cea24b-da29-4070-8d30-e820330b4c41"
   },
   {
@@ -12638,7 +12638,7 @@
    "diff": -43,
    "ppg": 16,
    "leagueRank": 449,
-   "rating": -0.3,
+   "rating": -0.2,
    "ratingGames": 12,
    "confidence": 70,
    "strengthOfPartners": -1.3,
@@ -12956,7 +12956,7 @@
    "winPct": 23.1,
    "diff": -56,
    "ppg": 16.1,
-   "leagueRank": 461,
+   "leagueRank": 460,
    "rating": -1.7,
    "ratingGames": 13,
    "confidence": 71,
@@ -13192,7 +13192,7 @@
    "rating": -2.4,
    "ratingGames": 5,
    "confidence": 48,
-   "strengthOfPartners": -0.3,
+   "strengthOfPartners": -0.2,
    "strengthOfOpponents": -0.7,
    "playerId": "ef0a27b4-d6b4-4141-a8f1-448c710934ac"
   },
@@ -13255,6 +13255,35 @@
    "playerId": "f0c60706-496f-44eb-ac66-6587907b0688"
   },
   {
+   "name": "Lynn Bresnahan",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "matches": 2,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 10,
+   "wins": 2,
+   "losses": 8,
+   "pointsWon": 156,
+   "totalPointsAgainst": 203,
+   "mixedWins": 1,
+   "mixedLosses": 5,
+   "genderWins": 1,
+   "genderLosses": 3,
+   "clutchWins": 1,
+   "clutchLosses": 1,
+   "winPct": 20,
+   "diff": -47,
+   "ppg": 15.6,
+   "leagueRank": 475,
+   "rating": -2.3,
+   "ratingGames": 10,
+   "confidence": 68,
+   "strengthOfPartners": -2.2,
+   "strengthOfOpponents": -0.3,
+   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
+  },
+  {
    "name": "Jacob Alpert",
    "gender": "Male",
    "team": "Jersey Devil Navy",
@@ -13304,7 +13333,7 @@
    "winPct": 20,
    "diff": -119,
    "ppg": 16.5,
-   "leagueRank": 412,
+   "leagueRank": 411,
    "rating": -2.6,
    "ratingGames": 30,
    "confidence": 84,
@@ -13391,7 +13420,7 @@
    "winPct": 18.2,
    "diff": -72,
    "ppg": 14.1,
-   "leagueRank": 470,
+   "leagueRank": 469,
    "rating": -3.4,
    "ratingGames": 11,
    "confidence": 69,
@@ -13420,7 +13449,7 @@
    "winPct": 18.2,
    "diff": -78,
    "ppg": 13.2,
-   "leagueRank": 475,
+   "leagueRank": 474,
    "rating": -1.7,
    "ratingGames": 11,
    "confidence": 69,
@@ -13478,12 +13507,12 @@
    "winPct": 18.2,
    "diff": -124,
    "ppg": 16.8,
-   "leagueRank": 411,
+   "leagueRank": 412,
    "rating": -3.1,
    "ratingGames": 33,
    "confidence": 86,
-   "strengthOfPartners": -1.1,
-   "strengthOfOpponents": -0.4,
+   "strengthOfPartners": -1,
+   "strengthOfOpponents": -0.3,
    "playerId": "66acdf95-131a-4d7d-89d7-2fe93406d61b"
   },
   {
@@ -13942,7 +13971,7 @@
    "winPct": 13.3,
    "diff": -90,
    "ppg": 14.3,
-   "leagueRank": 474,
+   "leagueRank": 473,
    "rating": -3.4,
    "ratingGames": 15,
    "confidence": 75,
@@ -14000,8 +14029,8 @@
    "winPct": 12.5,
    "diff": -74,
    "ppg": 11.5,
-   "leagueRank": 530,
-   "rating": -2.3,
+   "leagueRank": 531,
+   "rating": -2.2,
    "ratingGames": 8,
    "confidence": 62,
    "strengthOfPartners": -0.7,
@@ -14058,7 +14087,7 @@
    "winPct": 11.5,
    "diff": -181,
    "ppg": 13.7,
-   "leagueRank": 456,
+   "leagueRank": 455,
    "rating": -3.7,
    "ratingGames": 26,
    "confidence": 83,
@@ -14094,35 +14123,6 @@
    "strengthOfPartners": -2.7,
    "strengthOfOpponents": 0.6,
    "playerId": "3570ab02-ec74-47bd-8b7b-be2056846300"
-  },
-  {
-   "name": "Lynn Bresnahan",
-   "gender": "Female",
-   "team": "Players Courtyard",
-   "matches": 3,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 18,
-   "wins": 2,
-   "losses": 16,
-   "pointsWon": 256,
-   "totalPointsAgainst": 371,
-   "mixedWins": 1,
-   "mixedLosses": 9,
-   "genderWins": 1,
-   "genderLosses": 7,
-   "clutchWins": 1,
-   "clutchLosses": 2,
-   "winPct": 11.1,
-   "diff": -115,
-   "ppg": 14.2,
-   "leagueRank": 455,
-   "rating": -4.1,
-   "ratingGames": 18,
-   "confidence": 78,
-   "strengthOfPartners": -1.8,
-   "strengthOfOpponents": -0.2,
-   "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
   },
   {
    "name": "Joe Ying",
@@ -14174,7 +14174,7 @@
    "winPct": 11.1,
    "diff": -212,
    "ppg": 12.8,
-   "leagueRank": 467,
+   "leagueRank": 466,
    "rating": -3.7,
    "ratingGames": 27,
    "confidence": 83,
@@ -14203,7 +14203,7 @@
    "winPct": 10.5,
    "diff": -139,
    "ppg": 13.2,
-   "leagueRank": 460,
+   "leagueRank": 459,
    "rating": -2.4,
    "ratingGames": 19,
    "confidence": 79,
@@ -14232,7 +14232,7 @@
    "winPct": 10.5,
    "diff": -157,
    "ppg": 12.5,
-   "leagueRank": 468,
+   "leagueRank": 467,
    "rating": -3.7,
    "ratingGames": 19,
    "confidence": 76,
@@ -14406,7 +14406,7 @@
    "winPct": 8.8,
    "diff": -242,
    "ppg": 13.4,
-   "leagueRank": 463,
+   "leagueRank": 462,
    "rating": -3.4,
    "ratingGames": 34,
    "confidence": 86,
@@ -14435,7 +14435,7 @@
    "winPct": 8.3,
    "diff": -55,
    "ppg": 16.3,
-   "leagueRank": 462,
+   "leagueRank": 461,
    "rating": -1.4,
    "ratingGames": 12,
    "confidence": 70,
@@ -14552,7 +14552,7 @@
    "diff": -148,
    "ppg": 15,
    "leagueRank": 453,
-   "rating": -4.3,
+   "rating": -4.2,
    "ratingGames": 27,
    "confidence": 84,
    "strengthOfPartners": -0.4,
@@ -14609,11 +14609,11 @@
    "winPct": 5.9,
    "diff": -101,
    "ppg": 14.8,
-   "leagueRank": 459,
-   "rating": -3.1,
+   "leagueRank": 458,
+   "rating": -3.2,
    "ratingGames": 17,
    "confidence": 78,
-   "strengthOfPartners": -0.8,
+   "strengthOfPartners": -0.7,
    "strengthOfOpponents": 0.6,
    "playerId": "cda5a763-48f3-4303-8579-42ff05230f45"
   },
@@ -14696,7 +14696,7 @@
    "winPct": 4.2,
    "diff": -153,
    "ppg": 14.5,
-   "leagueRank": 466,
+   "leagueRank": 465,
    "rating": -3.4,
    "ratingGames": 24,
    "confidence": 82,
@@ -14783,7 +14783,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 580,
+   "leagueRank": 581,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14812,7 +14812,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 589,
+   "leagueRank": 591,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14841,7 +14841,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 570,
+   "leagueRank": 571,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 579,
+   "leagueRank": 580,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 583,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14928,7 +14928,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 554,
+   "leagueRank": 555,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 586,
+   "leagueRank": 588,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 574,
+   "leagueRank": 575,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 541,
+   "leagueRank": 542,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15044,7 +15044,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 562,
+   "leagueRank": 563,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15073,7 +15073,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 558,
+   "leagueRank": 559,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 576,
+   "leagueRank": 577,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15160,7 +15160,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 549,
+   "leagueRank": 550,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 556,
+   "leagueRank": 557,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 582,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15247,7 +15247,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 588,
+   "leagueRank": 590,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15276,7 +15276,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 546,
+   "leagueRank": 547,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15305,7 +15305,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 572,
+   "leagueRank": 573,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15334,13 +15334,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 551,
+   "leagueRank": 552,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "bf370c20-c27a-4555-8410-5073dc29d1d0"
+  },
+  {
+   "name": "Sara Mizrahi",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 570,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0"
+  },
+  {
+   "name": "Jonathan Lugtu",
+   "gender": "Male",
+   "team": "Picklr Fair Lawn",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 562,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f46a315a-aae5-44b5-ab45-6949706396fd"
   },
   {
    "name": "Nico Torres",
@@ -15363,7 +15421,7 @@
    "winPct": 0,
    "diff": -23,
    "ppg": 15.3,
-   "leagueRank": 534,
+   "leagueRank": 535,
    "rating": -2,
    "ratingGames": 4,
    "confidence": 44,
@@ -15421,7 +15479,7 @@
    "winPct": 0,
    "diff": -28,
    "ppg": 14,
-   "leagueRank": 536,
+   "leagueRank": 537,
    "rating": -2.2,
    "ratingGames": 4,
    "confidence": 46,
@@ -15450,7 +15508,7 @@
    "winPct": 0,
    "diff": -28,
    "ppg": 15.4,
-   "leagueRank": 526,
+   "leagueRank": 527,
    "rating": -2.2,
    "ratingGames": 5,
    "confidence": 51,
@@ -15484,7 +15542,7 @@
    "ratingGames": 6,
    "confidence": 55,
    "strengthOfPartners": -0.9,
-   "strengthOfOpponents": 0,
+   "strengthOfOpponents": 0.1,
    "playerId": "15dcc305-70cf-4eb1-bde4-a50a30130f3a"
   },
   {
@@ -15537,7 +15595,7 @@
    "winPct": 0,
    "diff": -39,
    "ppg": 13.2,
-   "leagueRank": 538,
+   "leagueRank": 539,
    "rating": -4.1,
    "ratingGames": 5,
    "confidence": 51,
@@ -15566,7 +15624,7 @@
    "winPct": 0,
    "diff": -40,
    "ppg": 13,
-   "leagueRank": 537,
+   "leagueRank": 538,
    "rating": -2.8,
    "ratingGames": 5,
    "confidence": 51,
@@ -15653,7 +15711,7 @@
    "winPct": 0,
    "diff": -43,
    "ppg": 12.4,
-   "leagueRank": 539,
+   "leagueRank": 540,
    "rating": -2.8,
    "ratingGames": 5,
    "confidence": 50,
@@ -15711,7 +15769,7 @@
    "winPct": 0,
    "diff": -45,
    "ppg": 12,
-   "leagueRank": 535,
+   "leagueRank": 536,
    "rating": -2.6,
    "ratingGames": 5,
    "confidence": 51,
@@ -15740,7 +15798,7 @@
    "winPct": 0,
    "diff": -52,
    "ppg": 14.5,
-   "leagueRank": 529,
+   "leagueRank": 530,
    "rating": -3.4,
    "ratingGames": 8,
    "confidence": 63,
@@ -15798,7 +15856,7 @@
    "winPct": 0,
    "diff": -56,
    "ppg": 14,
-   "leagueRank": 528,
+   "leagueRank": 529,
    "rating": -0.9,
    "ratingGames": 8,
    "confidence": 63,
@@ -15827,13 +15885,42 @@
    "winPct": 0,
    "diff": -63,
    "ppg": 10.5,
-   "leagueRank": 527,
+   "leagueRank": 528,
    "rating": -1.3,
    "ratingGames": 6,
    "confidence": 56,
    "strengthOfPartners": -2.6,
    "strengthOfOpponents": 2.9,
    "playerId": "17c24f29-5513-4fef-ac2c-8452a3fe4fab"
+  },
+  {
+   "name": "Rebecca Woofter",
+   "gender": "Female",
+   "team": "Players Courtyard",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 8,
+   "wins": 0,
+   "losses": 8,
+   "pointsWon": 100,
+   "totalPointsAgainst": 168,
+   "mixedWins": 0,
+   "mixedLosses": 4,
+   "genderWins": 0,
+   "genderLosses": 4,
+   "clutchWins": 0,
+   "clutchLosses": 1,
+   "winPct": 0,
+   "diff": -68,
+   "ppg": 12.5,
+   "leagueRank": 526,
+   "rating": -4.7,
+   "ratingGames": 8,
+   "confidence": 62,
+   "strengthOfPartners": -1.3,
+   "strengthOfOpponents": 0.1,
+   "playerId": "4032408a-b5eb-41c5-a865-fca764d688a5"
   },
   {
    "name": "Steven Koo",
@@ -15856,7 +15943,7 @@
    "winPct": 0,
    "diff": -70,
    "ppg": 9.3,
-   "leagueRank": 533,
+   "leagueRank": 534,
    "rating": -3.5,
    "ratingGames": 6,
    "confidence": 56,
@@ -15885,7 +15972,7 @@
    "winPct": 0,
    "diff": -70,
    "ppg": 9.3,
-   "leagueRank": 532,
+   "leagueRank": 533,
    "rating": -3.9,
    "ratingGames": 6,
    "confidence": 54,
@@ -15918,7 +16005,7 @@
    "rating": -2.6,
    "ratingGames": 10,
    "confidence": 68,
-   "strengthOfPartners": -1.4,
+   "strengthOfPartners": -1.5,
    "strengthOfOpponents": 0.9,
    "playerId": "1684c22c-38ed-4f23-83bf-7dbd39607280"
   },
@@ -15943,7 +16030,7 @@
    "winPct": 0,
    "diff": -71,
    "ppg": 9.2,
-   "leagueRank": 531,
+   "leagueRank": 532,
    "rating": -2.4,
    "ratingGames": 6,
    "confidence": 55,
@@ -16001,7 +16088,7 @@
    "winPct": 0,
    "diff": -77,
    "ppg": 14.6,
-   "leagueRank": 471,
+   "leagueRank": 470,
    "rating": -2.4,
    "ratingGames": 12,
    "confidence": 71,
@@ -16030,7 +16117,7 @@
    "winPct": 0,
    "diff": -78,
    "ppg": 14.5,
-   "leagueRank": 472,
+   "leagueRank": 471,
    "rating": -2,
    "ratingGames": 12,
    "confidence": 69,
@@ -16117,7 +16204,7 @@
    "winPct": 0,
    "diff": -89,
    "ppg": 15.4,
-   "leagueRank": 457,
+   "leagueRank": 456,
    "rating": -1.2,
    "ratingGames": 16,
    "confidence": 75,
@@ -16885,7 +16972,7 @@
    "gl": 122,
    "diff": -455,
    "gameDiff": -52,
-   "power": -1.3,
+   "power": -1.2,
    "powerRank": 8,
    "pod": 2,
    "reportedPod": "Southeast",
@@ -17096,7 +17183,7 @@
    "l": 0,
    "synergy": 3.6,
    "avgActual": 7.5,
-   "avgExpected": 1.4,
+   "avgExpected": 1.5,
    "aId": "a9094665-d5af-440c-b9b1-05403739512c",
    "bId": "bf60680b-003f-4083-b6ce-25bf3a7cd964"
   },
@@ -17153,19 +17240,6 @@
    "bId": "b7447736-d5f5-4863-b1a2-76895a257577"
   },
   {
-   "a": "Michael Kresloff",
-   "b": "Ryan Lehrfeld",
-   "team": "APC Garden State",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 2.5,
-   "avgActual": 2.5,
-   "avgExpected": -2.4,
-   "aId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5",
-   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
-  },
-  {
    "a": "Evan Sinclair",
    "b": "Albert Lin",
    "team": "Jersey Devil Green",
@@ -17192,17 +17266,17 @@
    "bId": "44dcab2c-2140-4a79-890a-9b289312c58e"
   },
   {
-   "a": "Linda Liu",
-   "b": "Katrina Maranan",
-   "team": "Jersey Devil Green",
-   "n": 3,
+   "a": "Michael Kresloff",
+   "b": "Ryan Lehrfeld",
+   "team": "APC Garden State",
+   "n": 4,
    "w": 3,
-   "l": 0,
+   "l": 1,
    "synergy": 2.4,
-   "avgActual": 8.7,
-   "avgExpected": 3.1,
-   "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
-   "bId": "4031f243-e80c-492b-b30b-5bf058824762"
+   "avgActual": 2.5,
+   "avgExpected": -2.3,
+   "aId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5",
+   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
   },
   {
    "a": "Jeremy Chen",
@@ -17213,7 +17287,7 @@
    "l": 0,
    "synergy": 2.4,
    "avgActual": 9,
-   "avgExpected": 3.4,
+   "avgExpected": 3.3,
    "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
    "bId": "6775ab12-38b5-4f41-a6c1-df35276b63c2"
   },
@@ -17270,6 +17344,19 @@
    "bId": "2ce6aa6c-0900-43f9-9595-78170be6d514"
   },
   {
+   "a": "Linda Liu",
+   "b": "Katrina Maranan",
+   "team": "Jersey Devil Green",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 2.3,
+   "avgActual": 8.7,
+   "avgExpected": 3.3,
+   "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
+   "bId": "4031f243-e80c-492b-b30b-5bf058824762"
+  },
+  {
    "a": "Mary Brashier",
    "b": "Addison Stewart",
    "team": "Flemington",
@@ -17291,7 +17378,7 @@
    "l": 3,
    "synergy": 2.2,
    "avgActual": 3.6,
-   "avgExpected": 0.3,
+   "avgExpected": 0.4,
    "aId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
    "bId": "dba4c9d8-6ffb-49ae-99d1-79c341a68de7"
   },
@@ -17577,7 +17664,7 @@
    "l": 1,
    "synergy": 1.9,
    "avgActual": 7,
-   "avgExpected": 3.2,
+   "avgExpected": 3.1,
    "aId": "afe34a52-058c-4d46-a46f-6bad7211195f",
    "bId": "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba"
   },
@@ -17655,7 +17742,7 @@
    "l": 1,
    "synergy": 1.8,
    "avgActual": 3.8,
-   "avgExpected": 0.1,
+   "avgExpected": 0.2,
    "aId": "44de3ff2-3b41-4c10-908c-8057a94e1d75",
    "bId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3"
   },
@@ -17790,30 +17877,17 @@
    "bId": "bb72e9bd-3d29-4f40-911c-2c5f07c73da6"
   },
   {
-   "a": "John Dechristopher",
-   "b": "Ryan Lehrfeld",
+   "a": "Ryan Lehrfeld",
+   "b": "Michele Costigan",
    "team": "APC Garden State",
-   "n": 4,
+   "n": 3,
    "w": 3,
-   "l": 1,
-   "synergy": 1.7,
-   "avgActual": 1.3,
-   "avgExpected": -2.1,
-   "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
-   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
-  },
-  {
-   "a": "Srilahari Kunchapu",
-   "b": "Olivia Schaller",
-   "team": "Jersey Devil Green",
-   "n": 13,
-   "w": 13,
    "l": 0,
    "synergy": 1.7,
-   "avgActual": 7.3,
-   "avgExpected": 5.1,
-   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
-   "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
+   "avgActual": 6.7,
+   "avgExpected": 2.7,
+   "aId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",
+   "bId": "fda078f4-e367-425d-9f16-501fdb5088e8"
   },
   {
    "a": "Bennett Matthew’S",
@@ -17902,7 +17976,7 @@
    "l": 1,
    "synergy": 1.6,
    "avgActual": 4.3,
-   "avgExpected": 0.5,
+   "avgExpected": 0.6,
    "aId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1",
    "bId": "85520ff7-80c8-4a80-8af0-93889a7a61e6"
   },
@@ -17933,6 +18007,19 @@
    "bId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9"
   },
   {
+   "a": "John Dechristopher",
+   "b": "Ryan Lehrfeld",
+   "team": "APC Garden State",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 1.6,
+   "avgActual": 1.3,
+   "avgExpected": -1.9,
+   "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
+   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
+  },
+  {
    "a": "Carlos Lichty",
    "b": "Dylan Mich",
    "team": "Bounce Tempest",
@@ -17941,7 +18028,7 @@
    "l": 0,
    "synergy": 1.6,
    "avgActual": 11,
-   "avgExpected": 7.2,
+   "avgExpected": 7.3,
    "aId": "5c5c0d00-e20c-456e-b53e-890845310916",
    "bId": "b80d7617-6e67-4e13-b2ab-fb48922f4064"
   },
@@ -17959,6 +18046,19 @@
    "bId": "ac88a429-961b-4ab5-9dc0-469b8c72f228"
   },
   {
+   "a": "Srilahari Kunchapu",
+   "b": "Olivia Schaller",
+   "team": "Jersey Devil Green",
+   "n": 13,
+   "w": 13,
+   "l": 0,
+   "synergy": 1.6,
+   "avgActual": 7.3,
+   "avgExpected": 5.2,
+   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+   "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
+  },
+  {
    "a": "Khushi Shah",
    "b": "Anshul Sahu",
    "team": "Pickleball Kingdom Watchung",
@@ -17970,19 +18070,6 @@
    "avgExpected": 0.4,
    "aId": "98a6fa2e-b59e-4f40-bc5c-8899d299da49",
    "bId": "d656c46a-7cee-458b-9bc7-0ae1c4becc20"
-  },
-  {
-   "a": "Ryan Lehrfeld",
-   "b": "Michele Costigan",
-   "team": "APC Garden State",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 1.6,
-   "avgActual": 6.7,
-   "avgExpected": 3,
-   "aId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",
-   "bId": "fda078f4-e367-425d-9f16-501fdb5088e8"
   },
   {
    "a": "Carlos Lichty",
@@ -18006,7 +18093,7 @@
    "l": 0,
    "synergy": 1.6,
    "avgActual": 5,
-   "avgExpected": 1.2,
+   "avgExpected": 1.3,
    "aId": "1d44d478-17dd-41c5-95e2-7010889b33ba",
    "bId": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e"
   },
@@ -18019,7 +18106,7 @@
    "l": 1,
    "synergy": 1.6,
    "avgActual": 1.8,
-   "avgExpected": -1.4,
+   "avgExpected": -1.5,
    "aId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
    "bId": "e292105e-2554-4a80-accc-6b28514a8ec1"
   },
@@ -18102,6 +18189,19 @@
    "bId": "3a1b8dea-5723-4b6b-b73c-d951a1e442b3"
   },
   {
+   "a": "John Tano",
+   "b": "Stephanie Li",
+   "team": "Bounce Tempest",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 1.5,
+   "avgActual": 6.3,
+   "avgExpected": 2.9,
+   "aId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
+   "bId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68"
+  },
+  {
    "a": "Cynthia Li",
    "b": "Calvin Zheng",
    "team": "LBF Pickleball",
@@ -18128,19 +18228,6 @@
    "bId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161"
   },
   {
-   "a": "Linda Liu",
-   "b": "Jaspher Cosico",
-   "team": "Jersey Devil Green",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 1.5,
-   "avgActual": 9.7,
-   "avgExpected": 6.2,
-   "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
-   "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
-  },
-  {
    "a": "Cullen Curley",
    "b": "David Reyes",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -18154,17 +18241,17 @@
    "bId": "adc043ce-7b2d-4ae9-87e0-c927f28c473a"
   },
   {
-   "a": "Dave Brucker",
-   "b": "Jacquie Verish",
-   "team": "Jersey Devil Navy",
+   "a": "Pamela Toy",
+   "b": "Ben Van Handel",
+   "team": "Ballers Philly",
    "n": 4,
-   "w": 2,
-   "l": 2,
+   "w": 3,
+   "l": 1,
    "synergy": 1.4,
-   "avgActual": -0.2,
-   "avgExpected": -2.9,
-   "aId": "22e07ace-661a-4942-b923-d48f446b0bba",
-   "bId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3"
+   "avgActual": 3.5,
+   "avgExpected": 0.8,
+   "aId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
+   "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
   },
   {
    "a": "Jason Kwan",
@@ -18245,19 +18332,6 @@
    "bId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4"
   },
   {
-   "a": "John Tano",
-   "b": "Stephanie Li",
-   "team": "Bounce Tempest",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 1.4,
-   "avgActual": 6.3,
-   "avgExpected": 3,
-   "aId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
-   "bId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68"
-  },
-  {
    "a": "Reggie Tiglao",
    "b": "Leah Oneill",
    "team": "Picklr Newark",
@@ -18269,6 +18343,19 @@
    "avgExpected": -0.3,
    "aId": "32dcadef-5ceb-4826-8e96-fc36508fba54",
    "bId": "f76a584d-94cf-4bb7-8c34-90e6c491ac10"
+  },
+  {
+   "a": "Linda Liu",
+   "b": "Jaspher Cosico",
+   "team": "Jersey Devil Green",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 1.4,
+   "avgActual": 9.7,
+   "avgExpected": 6.3,
+   "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
+   "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
   },
   {
    "a": "Edwin Garcia",
@@ -18362,6 +18449,19 @@
    "bId": "fc3dfbe0-497b-4dc7-baa3-d7cd3abf6f55"
   },
   {
+   "a": "Dave Brucker",
+   "b": "Jacquie Verish",
+   "team": "Jersey Devil Navy",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": 1.3,
+   "avgActual": -0.2,
+   "avgExpected": -2.9,
+   "aId": "22e07ace-661a-4942-b923-d48f446b0bba",
+   "bId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3"
+  },
+  {
    "a": "Kelly Feng",
    "b": "Isobel Harvey",
    "team": "Ballers Philly",
@@ -18373,19 +18473,6 @@
    "avgExpected": 4.1,
    "aId": "936fd285-0e07-4c08-94b0-57b3c19ac59e",
    "bId": "a874ce54-5e12-49d7-a69a-cb9457b64ddb"
-  },
-  {
-   "a": "Pamela Toy",
-   "b": "Ben Van Handel",
-   "team": "Ballers Philly",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 1.3,
-   "avgActual": 3.5,
-   "avgExpected": 0.9,
-   "aId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
-   "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
   },
   {
    "a": "Lara Gedeon",
@@ -18401,6 +18488,19 @@
    "bId": "83237821-4e2a-4f60-8fea-4be6655d52da"
   },
   {
+   "a": "Peter David",
+   "b": "Victoria Rolon",
+   "team": "Jersey Devil Green",
+   "n": 9,
+   "w": 7,
+   "l": 2,
+   "synergy": 1.3,
+   "avgActual": 3.2,
+   "avgExpected": 1.4,
+   "aId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
+   "bId": "dad8c60e-028f-4716-a64d-8fcbaffc4a1f"
+  },
+  {
    "a": "Anthony Solares",
    "b": "Srilahari Kunchapu",
    "team": "Jersey Devil Green",
@@ -18409,9 +18509,22 @@
    "l": 0,
    "synergy": 1.3,
    "avgActual": 5.8,
-   "avgExpected": 3.3,
+   "avgExpected": 3.2,
    "aId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
    "bId": "33e099cc-4164-43df-8b34-32fd7a5d9a46"
+  },
+  {
+   "a": "Julia Manetta",
+   "b": "Gianna Medeiros",
+   "team": "Bounce Philly",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 1.3,
+   "avgActual": 5,
+   "avgExpected": 2.1,
+   "aId": "4977544e-0c7f-4151-815c-51f68473862f",
+   "bId": "b63ec8b5-b659-4404-92b0-8e577c87534a"
   },
   {
    "a": "Jason Kwan",
@@ -18617,7 +18730,7 @@
    "l": 0,
    "synergy": 1.3,
    "avgActual": 7.7,
-   "avgExpected": 4.6,
+   "avgExpected": 4.7,
    "aId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7",
    "bId": "af8325ab-680e-414c-8522-2335ec1e7f50"
   },
@@ -18630,7 +18743,7 @@
    "l": 0,
    "synergy": 1.3,
    "avgActual": 12.3,
-   "avgExpected": 9.3,
+   "avgExpected": 9.4,
    "aId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1",
    "bId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3"
   },
@@ -18687,30 +18800,17 @@
    "bId": "fc139d5b-7881-4bdf-bf06-91354a4deab7"
   },
   {
-   "a": "Peter David",
-   "b": "Victoria Rolon",
-   "team": "Jersey Devil Green",
-   "n": 9,
-   "w": 7,
+   "a": "Gianna Medeiros",
+   "b": "Maggie Malloy",
+   "team": "Bounce Philly",
+   "n": 8,
+   "w": 6,
    "l": 2,
    "synergy": 1.2,
-   "avgActual": 3.2,
-   "avgExpected": 1.4,
-   "aId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4",
-   "bId": "dad8c60e-028f-4716-a64d-8fcbaffc4a1f"
-  },
-  {
-   "a": "Julia Manetta",
-   "b": "Gianna Medeiros",
-   "team": "Bounce Philly",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 1.2,
-   "avgActual": 5,
-   "avgExpected": 2.2,
-   "aId": "4977544e-0c7f-4151-815c-51f68473862f",
-   "bId": "b63ec8b5-b659-4404-92b0-8e577c87534a"
+   "avgActual": 3.8,
+   "avgExpected": 2,
+   "aId": "b63ec8b5-b659-4404-92b0-8e577c87534a",
+   "bId": "c1251904-fef6-4eb5-9b49-06c8335e3546"
   },
   {
    "a": "Abby Zhang",
@@ -18778,6 +18878,19 @@
    "bId": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3"
   },
   {
+   "a": "Caity Rietzen",
+   "b": "Gianna Medeiros",
+   "team": "Bounce Philly",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 1.2,
+   "avgActual": 6.3,
+   "avgExpected": 4,
+   "aId": "417f3210-fcc8-4e63-a512-9eb872adb4e5",
+   "bId": "b63ec8b5-b659-4404-92b0-8e577c87534a"
+  },
+  {
    "a": "Albert Lin",
    "b": "Benji Berry",
    "team": "Jersey Devil Green",
@@ -18786,7 +18899,7 @@
    "l": 1,
    "synergy": 1.2,
    "avgActual": 3,
-   "avgExpected": 0.2,
+   "avgExpected": 0.3,
    "aId": "562e74b8-dab7-46fa-a773-152747a03796",
    "bId": "ba2074e2-3e52-477b-a44e-54ce33392484"
   },
@@ -18883,6 +18996,19 @@
   },
   {
    "a": "Magnolia Lau",
+   "b": "Simon Darlington",
+   "team": "Pickle Juice Blackwood",
+   "n": 10,
+   "w": 3,
+   "l": 7,
+   "synergy": 1.1,
+   "avgActual": -0.9,
+   "avgExpected": -2.4,
+   "aId": "0c8768d9-03b0-42ca-9a88-b2c8538fa54d",
+   "bId": "9ae1e374-e878-450b-9552-e80472590d9e"
+  },
+  {
+   "a": "Magnolia Lau",
    "b": "Eileen Potter",
    "team": "Pickle Juice Blackwood",
    "n": 3,
@@ -18890,7 +19016,7 @@
    "l": 2,
    "synergy": 1.1,
    "avgActual": 2.3,
-   "avgExpected": -0.2,
+   "avgExpected": -0.3,
    "aId": "0c8768d9-03b0-42ca-9a88-b2c8538fa54d",
    "bId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6"
   },
@@ -18934,6 +19060,19 @@
    "bId": "b07b7480-a964-459c-b47e-5c0f4a8774e9"
   },
   {
+   "a": "Tesa Pribitkin",
+   "b": "Karen Rodriguez",
+   "team": "Ballers Philly",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 1.1,
+   "avgActual": 4.7,
+   "avgExpected": 2.2,
+   "aId": "af8325ab-680e-414c-8522-2335ec1e7f50",
+   "bId": "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba"
+  },
+  {
    "a": "Vinoth Baburao Venkatakrishnan",
    "b": "Justin Lin",
    "team": "ACE Downingtown",
@@ -18947,17 +19086,30 @@
    "bId": "b084b51a-054c-4a7f-b1a5-0cb26e4f669c"
   },
   {
-   "a": "Gianna Medeiros",
-   "b": "Maggie Malloy",
-   "team": "Bounce Philly",
-   "n": 8,
+   "a": "Nada Abdelkarim",
+   "b": "Stacy Ip-Mo",
+   "team": "APC Garden State",
+   "n": 9,
    "w": 6,
-   "l": 2,
+   "l": 3,
    "synergy": 1.1,
-   "avgActual": 3.8,
-   "avgExpected": 2.1,
-   "aId": "b63ec8b5-b659-4404-92b0-8e577c87534a",
-   "bId": "c1251904-fef6-4eb5-9b49-06c8335e3546"
+   "avgActual": 4.1,
+   "avgExpected": 2.5,
+   "aId": "bf00658c-c290-41dd-96dd-e63f723fa6cc",
+   "bId": "d0562c60-5e2c-4647-805c-ac3740562432"
+  },
+  {
+   "a": "Shania Bui",
+   "b": "Eileen Zhang",
+   "team": "Bounce Tempest",
+   "n": 9,
+   "w": 8,
+   "l": 1,
+   "synergy": 1.1,
+   "avgActual": 3,
+   "avgExpected": 1.4,
+   "aId": "714331ee-d124-483d-a89e-11d1431a7fca",
+   "bId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a"
   },
   {
    "a": "Dan Stanton",
@@ -19020,7 +19172,7 @@
    "l": 3,
    "synergy": 1.1,
    "avgActual": -0.3,
-   "avgExpected": -2.2,
+   "avgExpected": -2.1,
    "aId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
    "bId": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e"
   },
@@ -19036,19 +19188,6 @@
    "avgExpected": 2.3,
    "aId": "5bf1c3f0-d4cd-4904-aa20-410c03e530f1",
    "bId": "815aa4ab-dc28-4202-bd71-c0209705cf1a"
-  },
-  {
-   "a": "Caity Rietzen",
-   "b": "Gianna Medeiros",
-   "team": "Bounce Philly",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 1.1,
-   "avgActual": 6.3,
-   "avgExpected": 4.1,
-   "aId": "417f3210-fcc8-4e63-a512-9eb872adb4e5",
-   "bId": "b63ec8b5-b659-4404-92b0-8e577c87534a"
   },
   {
    "a": "Addy Aquino",
@@ -19085,7 +19224,7 @@
    "l": 0,
    "synergy": 1.1,
    "avgActual": 4.3,
-   "avgExpected": 1.8,
+   "avgExpected": 1.9,
    "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
    "bId": "463e1402-cc46-4152-9012-c4308a6dd9b4"
   },
@@ -19111,7 +19250,7 @@
    "l": 0,
    "synergy": 1.1,
    "avgActual": 7.4,
-   "avgExpected": 5.5,
+   "avgExpected": 5.4,
    "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
    "bId": "e6deea54-c0bb-40c7-83d0-b65c6eb1fcb2"
   },
@@ -19168,19 +19307,6 @@
    "bId": "e7f278dd-8790-4223-9d89-074a9da7b0a1"
   },
   {
-   "a": "Magnolia Lau",
-   "b": "Simon Darlington",
-   "team": "Pickle Juice Blackwood",
-   "n": 10,
-   "w": 3,
-   "l": 7,
-   "synergy": 1,
-   "avgActual": -0.9,
-   "avgExpected": -2.4,
-   "aId": "0c8768d9-03b0-42ca-9a88-b2c8538fa54d",
-   "bId": "9ae1e374-e878-450b-9552-e80472590d9e"
-  },
-  {
    "a": "Taryn Seidner",
    "b": "Jen Ogorzat",
    "team": "Pickle House",
@@ -19205,19 +19331,6 @@
    "avgExpected": -1.7,
    "aId": "abab39fe-af60-4956-9f97-460189ab90dc",
    "bId": "c3902bc0-35a6-490d-9909-6f19b1224b99"
-  },
-  {
-   "a": "Tesa Pribitkin",
-   "b": "Karen Rodriguez",
-   "team": "Ballers Philly",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 1,
-   "avgActual": 4.7,
-   "avgExpected": 2.2,
-   "aId": "af8325ab-680e-414c-8522-2335ec1e7f50",
-   "bId": "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba"
   },
   {
    "a": "Karen Anthony",
@@ -19246,32 +19359,6 @@
    "bId": "8632a302-90a3-4332-b4d1-fccc0f692e8e"
   },
   {
-   "a": "Nada Abdelkarim",
-   "b": "Stacy Ip-Mo",
-   "team": "APC Garden State",
-   "n": 9,
-   "w": 6,
-   "l": 3,
-   "synergy": 1,
-   "avgActual": 4.1,
-   "avgExpected": 2.7,
-   "aId": "bf00658c-c290-41dd-96dd-e63f723fa6cc",
-   "bId": "d0562c60-5e2c-4647-805c-ac3740562432"
-  },
-  {
-   "a": "Shania Bui",
-   "b": "Eileen Zhang",
-   "team": "Bounce Tempest",
-   "n": 9,
-   "w": 8,
-   "l": 1,
-   "synergy": 1,
-   "avgActual": 3,
-   "avgExpected": 1.6,
-   "aId": "714331ee-d124-483d-a89e-11d1431a7fca",
-   "bId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a"
-  },
-  {
    "a": "Eric Padernilla",
    "b": "John Dechristopher",
    "team": "APC Garden State",
@@ -19280,7 +19367,7 @@
    "l": 1,
    "synergy": 1,
    "avgActual": 3.7,
-   "avgExpected": 1.2,
+   "avgExpected": 1.4,
    "aId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
    "bId": "57ad882f-2a78-4756-adcf-3839833ddcd3"
   },
@@ -19322,19 +19409,6 @@
    "avgExpected": 1.2,
    "aId": "5c6366e8-1fad-44ee-bf38-4ba5d838769d",
    "bId": "ddfed357-6d2d-42ea-b48f-540cacd2409a"
-  },
-  {
-   "a": "Joshua Kim",
-   "b": "Jonathan Macqueen",
-   "team": "Bounce Philly",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": 1,
-   "avgActual": 5.3,
-   "avgExpected": 3.7,
-   "aId": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
-   "bId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3"
   },
   {
    "a": "Kyle Kelly",
@@ -19423,7 +19497,7 @@
    "l": 2,
    "synergy": 1,
    "avgActual": -1,
-   "avgExpected": -3.4,
+   "avgExpected": -3.3,
    "aId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
    "bId": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e"
   },
@@ -19475,7 +19549,7 @@
    "l": 1,
    "synergy": 1,
    "avgActual": -1.3,
-   "avgExpected": -3.7,
+   "avgExpected": -3.8,
    "aId": "49766802-f2c8-46aa-8ca1-e917160a60f0",
    "bId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b"
   },
@@ -19488,22 +19562,22 @@
    "l": 2,
    "synergy": 1,
    "avgActual": 0,
-   "avgExpected": -2.4,
+   "avgExpected": -2.3,
    "aId": "85520ff7-80c8-4a80-8af0-93889a7a61e6",
    "bId": "9e585ba7-f38c-4948-89bc-2947c22df08b"
   },
   {
-   "a": "Lianhong Li",
-   "b": "Pallavi Deshpande",
-   "team": "APC Garden State",
-   "n": 4,
+   "a": "Jeremy Chen",
+   "b": "Gianna Medeiros",
+   "team": "Bounce Philly",
+   "n": 3,
    "w": 3,
-   "l": 1,
+   "l": 0,
    "synergy": 1,
-   "avgActual": 1,
-   "avgExpected": -1,
-   "aId": "2ca1f9df-4501-489e-8992-32da61c98792",
-   "bId": "92f3c12c-3291-4176-acd2-2bbd5b83136c"
+   "avgActual": 8.3,
+   "avgExpected": 6,
+   "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
+   "bId": "b63ec8b5-b659-4404-92b0-8e577c87534a"
   },
   {
    "a": "Colleen Van Ee",
@@ -19584,6 +19658,19 @@
    "bId": "cd1d7ac2-5447-4c21-9b25-3cd13e3457b3"
   },
   {
+   "a": "Joshua Kim",
+   "b": "Jonathan Macqueen",
+   "team": "Bounce Philly",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": 0.9,
+   "avgActual": 5.3,
+   "avgExpected": 3.8,
+   "aId": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
+   "bId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3"
+  },
+  {
    "a": "Ashley Held",
    "b": "Benji Berry",
    "team": "Jersey Devil Green",
@@ -19605,9 +19692,22 @@
    "l": 2,
    "synergy": 0.9,
    "avgActual": 6.7,
-   "avgExpected": 5.3,
+   "avgExpected": 5.4,
    "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
    "bId": "dad8c60e-028f-4716-a64d-8fcbaffc4a1f"
+  },
+  {
+   "a": "Srilahari Kunchapu",
+   "b": "Xin Liu",
+   "team": "Jersey Devil Green",
+   "n": 8,
+   "w": 7,
+   "l": 1,
+   "synergy": 0.9,
+   "avgActual": 5.1,
+   "avgExpected": 3.8,
+   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+   "bId": "463e1402-cc46-4152-9012-c4308a6dd9b4"
   },
   {
    "a": "Beth Osipowitz",
@@ -19673,19 +19773,6 @@
    "avgExpected": 1.6,
    "aId": "91857142-d537-4b98-bbc2-481129371949",
    "bId": "f173be84-93c7-46b8-b828-d44ddc52d63c"
-  },
-  {
-   "a": "Anthony Solares",
-   "b": "Olivia Schaller",
-   "team": "Jersey Devil Green",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": 0.9,
-   "avgActual": 4.3,
-   "avgExpected": 2.9,
-   "aId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
-   "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
   },
   {
    "a": "Tracy Wong",
@@ -19766,30 +19853,17 @@
    "bId": "fab42e0a-4ee3-49c8-b759-2a62d3153014"
   },
   {
-   "a": "Dana Sheply",
-   "b": "Adam Lowther",
-   "team": "Jersey Devil Navy",
-   "n": 6,
+   "a": "Lianhong Li",
+   "b": "Pallavi Deshpande",
+   "team": "APC Garden State",
+   "n": 4,
    "w": 3,
-   "l": 3,
+   "l": 1,
    "synergy": 0.9,
-   "avgActual": 0.8,
-   "avgExpected": -0.7,
-   "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
-   "bId": "fc25c569-51b2-46a9-9dde-88cf56493e62"
-  },
-  {
-   "a": "Jeremy Chen",
-   "b": "Gianna Medeiros",
-   "team": "Bounce Philly",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 0.9,
-   "avgActual": 8.3,
-   "avgExpected": 6.2,
-   "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
-   "bId": "b63ec8b5-b659-4404-92b0-8e577c87534a"
+   "avgActual": 1,
+   "avgExpected": -0.9,
+   "aId": "2ca1f9df-4501-489e-8992-32da61c98792",
+   "bId": "92f3c12c-3291-4176-acd2-2bbd5b83136c"
   },
   {
    "a": "Jonathan Fossum",
@@ -19883,17 +19957,30 @@
    "bId": "d324675d-d202-498e-a936-c612ce344456"
   },
   {
-   "a": "Srilahari Kunchapu",
-   "b": "Xin Liu",
-   "team": "Jersey Devil Green",
-   "n": 8,
-   "w": 7,
-   "l": 1,
+   "a": "Christina Vuong",
+   "b": "Vy Conghuyen",
+   "team": "Bounce Tempest",
+   "n": 5,
+   "w": 2,
+   "l": 3,
    "synergy": 0.8,
-   "avgActual": 5.1,
-   "avgExpected": 3.9,
-   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
-   "bId": "463e1402-cc46-4152-9012-c4308a6dd9b4"
+   "avgActual": -2,
+   "avgExpected": -3.5,
+   "aId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
+   "bId": "eada38ef-6a83-46be-bd30-0293173fe5ed"
+  },
+  {
+   "a": "Eric Padernilla",
+   "b": "Nada Abdelkarim",
+   "team": "APC Garden State",
+   "n": 6,
+   "w": 6,
+   "l": 0,
+   "synergy": 0.8,
+   "avgActual": 4.5,
+   "avgExpected": 3.1,
+   "aId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
+   "bId": "bf00658c-c290-41dd-96dd-e63f723fa6cc"
   },
   {
    "a": "Colleen Van Ee",
@@ -19909,6 +19996,19 @@
    "bId": "adc043ce-7b2d-4ae9-87e0-c927f28c473a"
   },
   {
+   "a": "Aaron Chan",
+   "b": "Scott Strong",
+   "team": "Players Courtyard",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": 0.8,
+   "avgActual": -0.7,
+   "avgExpected": -2.4,
+   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
+   "bId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d"
+  },
+  {
    "a": "Ben Van Handel",
    "b": "Ted Asavamongkolkul",
    "team": "Ballers Philly",
@@ -19917,7 +20017,7 @@
    "l": 2,
    "synergy": 0.8,
    "avgActual": -1.3,
-   "avgExpected": -3.2,
+   "avgExpected": -3.3,
    "aId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0",
    "bId": "ee07033c-b5a8-4d28-8920-7873dc8ffac0"
   },
@@ -19974,6 +20074,19 @@
    "bId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e"
   },
   {
+   "a": "Anthony Solares",
+   "b": "Olivia Schaller",
+   "team": "Jersey Devil Green",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": 0.8,
+   "avgActual": 4.3,
+   "avgExpected": 3,
+   "aId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
+   "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
+  },
+  {
    "a": "Shania Bui",
    "b": "Dylan Mich",
    "team": "Bounce Tempest",
@@ -19982,7 +20095,7 @@
    "l": 2,
    "synergy": 0.8,
    "avgActual": 2.3,
-   "avgExpected": 0.7,
+   "avgExpected": 0.6,
    "aId": "714331ee-d124-483d-a89e-11d1431a7fca",
    "bId": "b80d7617-6e67-4e13-b2ab-fb48922f4064"
   },
@@ -20021,7 +20134,7 @@
    "l": 1,
    "synergy": 0.8,
    "avgActual": 3.2,
-   "avgExpected": 1.7,
+   "avgExpected": 1.8,
    "aId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1",
    "bId": "e6deea54-c0bb-40c7-83d0-b65c6eb1fcb2"
   },
@@ -20076,6 +20189,19 @@
    "avgExpected": 2.1,
    "aId": "0b70d578-a00e-4d79-bbd3-a07ec89ef8b6",
    "bId": "665b1aba-6370-4c2b-93b0-5f57f1a33e5a"
+  },
+  {
+   "a": "Dana Sheply",
+   "b": "Adam Lowther",
+   "team": "Jersey Devil Navy",
+   "n": 6,
+   "w": 3,
+   "l": 3,
+   "synergy": 0.8,
+   "avgActual": 0.8,
+   "avgExpected": -0.6,
+   "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
+   "bId": "fc25c569-51b2-46a9-9dde-88cf56493e62"
   },
   {
    "a": "Andrew Taylor",
@@ -20195,30 +20321,17 @@
    "bId": "8632a302-90a3-4332-b4d1-fccc0f692e8e"
   },
   {
-   "a": "Christina Vuong",
-   "b": "Vy Conghuyen",
+   "a": "Khanh Vu",
+   "b": "Eileen Zhang",
    "team": "Bounce Tempest",
-   "n": 5,
-   "w": 2,
+   "n": 8,
+   "w": 5,
    "l": 3,
    "synergy": 0.7,
-   "avgActual": -2,
-   "avgExpected": -3.3,
-   "aId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
-   "bId": "eada38ef-6a83-46be-bd30-0293173fe5ed"
-  },
-  {
-   "a": "Eric Padernilla",
-   "b": "Nada Abdelkarim",
-   "team": "APC Garden State",
-   "n": 6,
-   "w": 6,
-   "l": 0,
-   "synergy": 0.7,
-   "avgActual": 4.5,
-   "avgExpected": 3.3,
-   "aId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
-   "bId": "bf00658c-c290-41dd-96dd-e63f723fa6cc"
+   "avgActual": 3.9,
+   "avgExpected": 2.8,
+   "aId": "97897afe-f9e2-42be-926f-d6ebe7025591",
+   "bId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a"
   },
   {
    "a": "Carly Cebek",
@@ -20247,6 +20360,19 @@
    "bId": "6b6274a7-77d0-420a-8883-5cac081fdf4d"
   },
   {
+   "a": "Maggie Malloy",
+   "b": "Kyle Kelly",
+   "team": "Bounce Philly",
+   "n": 5,
+   "w": 3,
+   "l": 2,
+   "synergy": 0.7,
+   "avgActual": 3.8,
+   "avgExpected": 2.6,
+   "aId": "c1251904-fef6-4eb5-9b49-06c8335e3546",
+   "bId": "e0faca04-4875-4806-b0a3-4830f4dcd52e"
+  },
+  {
    "a": "Joshua Kim",
    "b": "Andrew Martin",
    "team": "Bounce Philly",
@@ -20258,19 +20384,6 @@
    "avgExpected": 4.8,
    "aId": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
    "bId": "e8b51e9c-3814-42e1-8413-2c1734514ea1"
-  },
-  {
-   "a": "Aaron Chan",
-   "b": "Scott Strong",
-   "team": "Players Courtyard",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": 0.7,
-   "avgActual": -0.7,
-   "avgExpected": -2.3,
-   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
-   "bId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d"
   },
   {
    "a": "Vanessa Rhoades",
@@ -20299,19 +20412,6 @@
    "bId": "888f163c-8f8d-4d13-a35a-f3db373db80c"
   },
   {
-   "a": "Jacob Alpert",
-   "b": "Daniel Hadley",
-   "team": "Jersey Devil Navy",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": 0.7,
-   "avgActual": -2.3,
-   "avgExpected": -3.9,
-   "aId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
-   "bId": "23adcd68-130d-4176-b367-d3cd31260d21"
-  },
-  {
    "a": "Brian Cook",
    "b": "Tiffany Weis",
    "team": "Pickle Juice Blackwood",
@@ -20320,7 +20420,7 @@
    "l": 2,
    "synergy": 0.7,
    "avgActual": -1,
-   "avgExpected": -2.5,
+   "avgExpected": -2.6,
    "aId": "85520ff7-80c8-4a80-8af0-93889a7a61e6",
    "bId": "bcf39825-fd7a-4949-9b85-9b77f5c1abc6"
   },
@@ -20429,19 +20529,6 @@
    "bId": "49766802-f2c8-46aa-8ca1-e917160a60f0"
   },
   {
-   "a": "Alexandria Mlkvy",
-   "b": "Sebastian Fas",
-   "team": "Ballers Philly",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.7,
-   "avgActual": -0.7,
-   "avgExpected": -2.2,
-   "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
-   "bId": "afe34a52-058c-4d46-a46f-6bad7211195f"
-  },
-  {
    "a": "Dina Perrella",
    "b": "Ellen Edson",
    "team": "Home Court",
@@ -20489,7 +20576,7 @@
    "l": 5,
    "synergy": 0.6,
    "avgActual": -0.4,
-   "avgExpected": -1.3,
+   "avgExpected": -1.4,
    "aId": "11112eb4-26f3-458d-954e-5718dd3b9332",
    "bId": "16a5ef9a-49fe-4341-9626-8f566552010e"
   },
@@ -20505,19 +20592,6 @@
    "avgExpected": -3.3,
    "aId": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
    "bId": "f0f8c802-b218-4a89-a9a8-cc127214c1d5"
-  },
-  {
-   "a": "Kyle Woerner",
-   "b": "Hanna Cutler",
-   "team": "Jersey Devil Navy",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": 0.6,
-   "avgActual": 1.7,
-   "avgExpected": 0.4,
-   "aId": "49766802-f2c8-46aa-8ca1-e917160a60f0",
-   "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
   },
   {
    "a": "Nicholas Jackson",
@@ -20572,19 +20646,6 @@
    "bId": "cd1d7ac2-5447-4c21-9b25-3cd13e3457b3"
   },
   {
-   "a": "Khanh Vu",
-   "b": "Eileen Zhang",
-   "team": "Bounce Tempest",
-   "n": 8,
-   "w": 5,
-   "l": 3,
-   "synergy": 0.6,
-   "avgActual": 3.9,
-   "avgExpected": 2.9,
-   "aId": "97897afe-f9e2-42be-926f-d6ebe7025591",
-   "bId": "a97005b1-7cac-40b0-b0c0-c4e1a359418a"
-  },
-  {
    "a": "Dede Dolkar",
    "b": "Winston Lian",
    "team": "Pickleball Kingdom Watchung",
@@ -20596,19 +20657,6 @@
    "avgExpected": 2.6,
    "aId": "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4",
    "bId": "77e71d86-1be3-4df7-8c52-d0802eed8e08"
-  },
-  {
-   "a": "Maggie Malloy",
-   "b": "Kyle Kelly",
-   "team": "Bounce Philly",
-   "n": 5,
-   "w": 3,
-   "l": 2,
-   "synergy": 0.6,
-   "avgActual": 3.8,
-   "avgExpected": 2.6,
-   "aId": "c1251904-fef6-4eb5-9b49-06c8335e3546",
-   "bId": "e0faca04-4875-4806-b0a3-4830f4dcd52e"
   },
   {
    "a": "Jamie Hahn",
@@ -20658,7 +20706,7 @@
    "l": 2,
    "synergy": 0.6,
    "avgActual": 1,
-   "avgExpected": -0.4,
+   "avgExpected": -0.5,
    "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
    "bId": "ee07033c-b5a8-4d28-8920-7873dc8ffac0"
   },
@@ -20702,6 +20750,19 @@
    "bId": "df1c0521-e5fb-4883-83a2-cee7120f8d97"
   },
   {
+   "a": "Jacob Alpert",
+   "b": "Daniel Hadley",
+   "team": "Jersey Devil Navy",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": 0.6,
+   "avgActual": -2.3,
+   "avgExpected": -3.8,
+   "aId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
+   "bId": "23adcd68-130d-4176-b367-d3cd31260d21"
+  },
+  {
    "a": "Ahmed Aziz",
    "b": "Brianna Burns",
    "team": "PKLD",
@@ -20739,6 +20800,32 @@
    "avgExpected": 1.2,
    "aId": "00f31bfd-e3ff-4a78-8f87-33a51ce4dde4",
    "bId": "116a8ef1-357a-4eda-a100-84896842bdb9"
+  },
+  {
+   "a": "Taylor Johns",
+   "b": "Martina Tejeda",
+   "team": "Jersey Devil Navy",
+   "n": 5,
+   "w": 3,
+   "l": 2,
+   "synergy": 0.6,
+   "avgActual": 0.4,
+   "avgExpected": -0.6,
+   "aId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
+   "bId": "8d954af5-f3d4-45c9-a172-0fe2cbdc4e14"
+  },
+  {
+   "a": "Alexandria Mlkvy",
+   "b": "Sebastian Fas",
+   "team": "Ballers Philly",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.6,
+   "avgActual": -0.7,
+   "avgExpected": -2.2,
+   "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
+   "bId": "afe34a52-058c-4d46-a46f-6bad7211195f"
   },
   {
    "a": "Allison Hartman",
@@ -20884,6 +20971,19 @@
    "bId": "fc3dfbe0-497b-4dc7-baa3-d7cd3abf6f55"
   },
   {
+   "a": "Kyle Woerner",
+   "b": "Hanna Cutler",
+   "team": "Jersey Devil Navy",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": 0.5,
+   "avgActual": 1.7,
+   "avgExpected": 0.4,
+   "aId": "49766802-f2c8-46aa-8ca1-e917160a60f0",
+   "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
+  },
+  {
    "a": "Brian Kline",
    "b": "Kristina Salomia",
    "team": "Picklr Manahawkin",
@@ -20897,19 +20997,6 @@
    "bId": "9ea48ad1-b5f4-4a2c-a687-400dae5fe86b"
   },
   {
-   "a": "Taylor Runyen",
-   "b": "Stacy Ip-Mo",
-   "team": "APC Garden State",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": 0.5,
-   "avgActual": -4.5,
-   "avgExpected": -5.4,
-   "aId": "cda5a763-48f3-4303-8579-42ff05230f45",
-   "bId": "d0562c60-5e2c-4647-805c-ac3740562432"
-  },
-  {
    "a": "Taylor Lambe",
    "b": "Ryan Lehrfeld",
    "team": "APC Garden State",
@@ -20918,7 +21005,7 @@
    "l": 1,
    "synergy": 0.5,
    "avgActual": -0.3,
-   "avgExpected": -1.5,
+   "avgExpected": -1.4,
    "aId": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
    "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
   },
@@ -20983,7 +21070,7 @@
    "l": 3,
    "synergy": 0.5,
    "avgActual": 1.1,
-   "avgExpected": 0.4,
+   "avgExpected": 0.3,
    "aId": "41cd934f-66b0-4f22-b2e1-74955db922ce",
    "bId": "4977544e-0c7f-4151-815c-51f68473862f"
   },
@@ -21048,7 +21135,7 @@
    "l": 3,
    "synergy": 0.5,
    "avgActual": 0,
-   "avgExpected": -1,
+   "avgExpected": -0.9,
    "aId": "323d96c3-4160-410b-96a5-87263e825f62",
    "bId": "d0562c60-5e2c-4647-805c-ac3740562432"
   },
@@ -21079,19 +21166,6 @@
    "bId": "ae015f4e-a359-406a-a394-b04d1ec288b7"
   },
   {
-   "a": "Jacquie Verish",
-   "b": "Lisa Pinder",
-   "team": "Jersey Devil Navy",
-   "n": 5,
-   "w": 2,
-   "l": 3,
-   "synergy": 0.5,
-   "avgActual": -3.6,
-   "avgExpected": -4.5,
-   "aId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
-   "bId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b"
-  },
-  {
    "a": "Brandon Dejesus",
    "b": "Jaspher Cosico",
    "team": "Jersey Devil Green",
@@ -21103,6 +21177,19 @@
    "avgExpected": -2.5,
    "aId": "d50feac2-f147-47d2-8930-99b21b2842ba",
    "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
+  },
+  {
+   "a": "Srilahari Kunchapu",
+   "b": "Peter David",
+   "team": "Jersey Devil Green",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.5,
+   "avgActual": 4,
+   "avgExpected": 2.9,
+   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+   "bId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4"
   },
   {
    "a": "Caitlyn Suchanic",
@@ -21168,19 +21255,6 @@
    "avgExpected": 6.3,
    "aId": "2a302d21-a60a-4e90-b1e2-c2d1d9036eda",
    "bId": "4a188481-bbb3-4d7b-b507-89f74d58af12"
-  },
-  {
-   "a": "Taylor Johns",
-   "b": "Martina Tejeda",
-   "team": "Jersey Devil Navy",
-   "n": 5,
-   "w": 3,
-   "l": 2,
-   "synergy": 0.5,
-   "avgActual": 0.4,
-   "avgExpected": -0.6,
-   "aId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
-   "bId": "8d954af5-f3d4-45c9-a172-0fe2cbdc4e14"
   },
   {
    "a": "Danny Ruiz",
@@ -21300,6 +21374,19 @@
    "bId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
   },
   {
+   "a": "Mary Fair",
+   "b": "Deirdre Zohlman",
+   "team": "Players Courtyard",
+   "n": 7,
+   "w": 1,
+   "l": 6,
+   "synergy": 0.4,
+   "avgActual": -4,
+   "avgExpected": -4.6,
+   "aId": "66acdf95-131a-4d7d-89d7-2fe93406d61b",
+   "bId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
+  },
+  {
    "a": "Alan Liang",
    "b": "Taryn Seidner",
    "team": "Pickle House",
@@ -21326,19 +21413,6 @@
    "bId": "fc25c569-51b2-46a9-9dde-88cf56493e62"
   },
   {
-   "a": "Dana Sheply",
-   "b": "Rebecca Mcginnis",
-   "team": "Jersey Devil Navy",
-   "n": 5,
-   "w": 2,
-   "l": 3,
-   "synergy": 0.4,
-   "avgActual": 0.6,
-   "avgExpected": -0.1,
-   "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
-   "bId": "e292105e-2554-4a80-accc-6b28514a8ec1"
-  },
-  {
    "a": "Heather Triozzi",
    "b": "Nicholas Jackson",
    "team": "Picklr Exton",
@@ -21363,6 +21437,19 @@
    "avgExpected": 8.6,
    "aId": "9e7f633d-5cea-4462-b486-61612f133de4",
    "bId": "cd1d7ac2-5447-4c21-9b25-3cd13e3457b3"
+  },
+  {
+   "a": "Taylor Runyen",
+   "b": "Stacy Ip-Mo",
+   "team": "APC Garden State",
+   "n": 4,
+   "w": 1,
+   "l": 3,
+   "synergy": 0.4,
+   "avgActual": -4.5,
+   "avgExpected": -5.4,
+   "aId": "cda5a763-48f3-4303-8579-42ff05230f45",
+   "bId": "d0562c60-5e2c-4647-805c-ac3740562432"
   },
   {
    "a": "Kong Vu",
@@ -21534,17 +21621,17 @@
    "bId": "85520ff7-80c8-4a80-8af0-93889a7a61e6"
   },
   {
-   "a": "Srilahari Kunchapu",
-   "b": "Peter David",
-   "team": "Jersey Devil Green",
-   "n": 3,
+   "a": "Jacquie Verish",
+   "b": "Lisa Pinder",
+   "team": "Jersey Devil Navy",
+   "n": 5,
    "w": 2,
-   "l": 1,
+   "l": 3,
    "synergy": 0.4,
-   "avgActual": 4,
-   "avgExpected": 3,
-   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
-   "bId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4"
+   "avgActual": -3.6,
+   "avgExpected": -4.4,
+   "aId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
+   "bId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b"
   },
   {
    "a": "Abeer Massoud",
@@ -21607,7 +21694,7 @@
    "l": 1,
    "synergy": 0.4,
    "avgActual": 2.7,
-   "avgExpected": 1.6,
+   "avgExpected": 1.7,
    "aId": "41cd934f-66b0-4f22-b2e1-74955db922ce",
    "bId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1"
   },
@@ -21672,7 +21759,7 @@
    "l": 2,
    "synergy": 0.4,
    "avgActual": -4.7,
-   "avgExpected": -5.6,
+   "avgExpected": -5.5,
    "aId": "0dace2fb-e133-4556-9d90-288c0f41805a",
    "bId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1"
   },
@@ -21768,19 +21855,6 @@
    "bId": "be0c8a78-f94f-44a0-8c73-d922ccebca74"
   },
   {
-   "a": "Mary Fair",
-   "b": "Deirdre Zohlman",
-   "team": "Players Courtyard",
-   "n": 7,
-   "w": 1,
-   "l": 6,
-   "synergy": 0.3,
-   "avgActual": -4,
-   "avgExpected": -4.5,
-   "aId": "66acdf95-131a-4d7d-89d7-2fe93406d61b",
-   "bId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
-  },
-  {
    "a": "Anthony Simonetti",
    "b": "Gerianne Mcmahon",
    "team": "Jersey Pickleball Club",
@@ -21820,17 +21894,30 @@
    "bId": "7ca5a039-420c-4a5b-8721-c87b378b9a5f"
   },
   {
-   "a": "Lisa Pinder",
-   "b": "Hanna Cutler",
-   "team": "Jersey Devil Navy",
-   "n": 6,
-   "w": 2,
-   "l": 4,
+   "a": "Alexandria Mlkvy",
+   "b": "Ben Van Handel",
+   "team": "Ballers Philly",
+   "n": 9,
+   "w": 4,
+   "l": 5,
    "synergy": 0.3,
-   "avgActual": -4,
-   "avgExpected": -4.4,
-   "aId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
-   "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
+   "avgActual": -0.6,
+   "avgExpected": -0.9,
+   "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
+   "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
+  },
+  {
+   "a": "Dana Sheply",
+   "b": "Rebecca Mcginnis",
+   "team": "Jersey Devil Navy",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": 0.3,
+   "avgActual": 0.6,
+   "avgExpected": 0,
+   "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
+   "bId": "e292105e-2554-4a80-accc-6b28514a8ec1"
   },
   {
    "a": "Nicholas Jackson",
@@ -21859,6 +21946,19 @@
    "bId": "b084b51a-054c-4a7f-b1a5-0cb26e4f669c"
   },
   {
+   "a": "Stephanie Li",
+   "b": "Shania Bui",
+   "team": "Bounce Tempest",
+   "n": 5,
+   "w": 4,
+   "l": 1,
+   "synergy": 0.3,
+   "avgActual": 0.4,
+   "avgExpected": -0.1,
+   "aId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
+   "bId": "714331ee-d124-483d-a89e-11d1431a7fca"
+  },
+  {
    "a": "Dede Dolkar",
    "b": "Khushi Shah",
    "team": "Pickleball Kingdom Watchung",
@@ -21872,19 +21972,6 @@
    "bId": "98a6fa2e-b59e-4f40-bc5c-8899d299da49"
   },
   {
-   "a": "Julia Manetta",
-   "b": "Jonathan Macqueen",
-   "team": "Bounce Philly",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.3,
-   "avgActual": 3.3,
-   "avgExpected": 2.7,
-   "aId": "4977544e-0c7f-4151-815c-51f68473862f",
-   "bId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3"
-  },
-  {
    "a": "Caity Rietzen",
    "b": "Christina Sheehan",
    "team": "Bounce Philly",
@@ -21893,7 +21980,7 @@
    "l": 2,
    "synergy": 0.3,
    "avgActual": -2,
-   "avgExpected": -2.7,
+   "avgExpected": -2.6,
    "aId": "417f3210-fcc8-4e63-a512-9eb872adb4e5",
    "bId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870"
   },
@@ -21987,6 +22074,19 @@
    "avgExpected": 6.3,
    "aId": "02ee33bb-1cb7-4890-8af1-1ef99a62ddcd",
    "bId": "086a95e6-d7ca-4ac7-8fec-b35b1110fbd1"
+  },
+  {
+   "a": "Kevin Wilson",
+   "b": "Ted Asavamongkolkul",
+   "team": "Ballers Philly",
+   "n": 3,
+   "w": 3,
+   "l": 0,
+   "synergy": 0.3,
+   "avgActual": 3.3,
+   "avgExpected": 2.7,
+   "aId": "6f2cf88a-e37c-401a-8c37-84d2aed94dd9",
+   "bId": "ee07033c-b5a8-4d28-8920-7873dc8ffac0"
   },
   {
    "a": "Piero Accinelli",
@@ -22158,30 +22258,30 @@
    "bId": "7d70ad57-c02f-47cc-bdd2-e330a7fed56e"
   },
   {
-   "a": "Nicole Mandry",
-   "b": "Ricki Cohen",
+   "a": "Aaron Chan",
+   "b": "Matt Demarco",
    "team": "Players Courtyard",
-   "n": 4,
-   "w": 1,
-   "l": 3,
+   "n": 10,
+   "w": 4,
+   "l": 6,
    "synergy": 0.2,
-   "avgActual": -1.2,
-   "avgExpected": -1.5,
-   "aId": "11112eb4-26f3-458d-954e-5718dd3b9332",
-   "bId": "a9094665-d5af-440c-b9b1-05403739512c"
+   "avgActual": -2,
+   "avgExpected": -2.3,
+   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
+   "bId": "6c182803-54c7-439a-b269-17b063a0b3a7"
   },
   {
-   "a": "Alexandria Mlkvy",
-   "b": "Ben Van Handel",
-   "team": "Ballers Philly",
-   "n": 9,
-   "w": 4,
-   "l": 5,
+   "a": "Lisa Pinder",
+   "b": "Hanna Cutler",
+   "team": "Jersey Devil Navy",
+   "n": 6,
+   "w": 2,
+   "l": 4,
    "synergy": 0.2,
-   "avgActual": -0.6,
-   "avgExpected": -0.9,
-   "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
-   "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
+   "avgActual": -4,
+   "avgExpected": -4.4,
+   "aId": "7c49b9f3-7f46-4e68-8786-4fe39fdd8f2b",
+   "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
   },
   {
    "a": "Karen Anthony",
@@ -22205,22 +22305,9 @@
    "l": 1,
    "synergy": 0.2,
    "avgActual": 2.5,
-   "avgExpected": 2,
+   "avgExpected": 2.1,
    "aId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
    "bId": "bbfe7f09-94bd-4942-82a2-0590410c4d9e"
-  },
-  {
-   "a": "Stephanie Li",
-   "b": "Shania Bui",
-   "team": "Bounce Tempest",
-   "n": 5,
-   "w": 4,
-   "l": 1,
-   "synergy": 0.2,
-   "avgActual": 0.4,
-   "avgExpected": 0,
-   "aId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
-   "bId": "714331ee-d124-483d-a89e-11d1431a7fca"
   },
   {
    "a": "Nada Abdelkarim",
@@ -22231,7 +22318,7 @@
    "l": 2,
    "synergy": 0.2,
    "avgActual": -2,
-   "avgExpected": -2.5,
+   "avgExpected": -2.4,
    "aId": "bf00658c-c290-41dd-96dd-e63f723fa6cc",
    "bId": "c94ae231-9f0c-4212-b769-7bd708d8fc38"
   },
@@ -22314,17 +22401,17 @@
    "bId": "cfde52cc-d4a3-4d57-bf17-121d9c5eb4ea"
   },
   {
-   "a": "Jonathan Macqueen",
-   "b": "Christina Sheehan",
+   "a": "Julia Manetta",
+   "b": "Jonathan Macqueen",
    "team": "Bounce Philly",
    "n": 3,
-   "w": 1,
-   "l": 2,
+   "w": 2,
+   "l": 1,
    "synergy": 0.2,
-   "avgActual": -0.3,
-   "avgExpected": -0.7,
-   "aId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3",
-   "bId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870"
+   "avgActual": 3.3,
+   "avgExpected": 2.8,
+   "aId": "4977544e-0c7f-4151-815c-51f68473862f",
+   "bId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3"
   },
   {
    "a": "Christy Zhang",
@@ -22351,6 +22438,19 @@
    "avgExpected": 6.1,
    "aId": "98abb8c4-ac0b-4c10-b711-3c4a188429a2",
    "bId": "e5286531-2721-41b9-b79b-c5476d7fb1cb"
+  },
+  {
+   "a": "Stacy Ip-Mo",
+   "b": "Andress Mims",
+   "team": "APC Garden State",
+   "n": 4,
+   "w": 0,
+   "l": 4,
+   "synergy": 0.2,
+   "avgActual": -2.7,
+   "avgExpected": -3.1,
+   "aId": "d0562c60-5e2c-4647-805c-ac3740562432",
+   "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
   },
   {
    "a": "Courtney Skolka",
@@ -22400,22 +22500,9 @@
    "l": 0,
    "synergy": 0.2,
    "avgActual": 6,
-   "avgExpected": 5.7,
+   "avgExpected": 5.6,
    "aId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7",
    "bId": "936fd285-0e07-4c08-94b0-57b3c19ac59e"
-  },
-  {
-   "a": "Kevin Wilson",
-   "b": "Ted Asavamongkolkul",
-   "team": "Ballers Philly",
-   "n": 3,
-   "w": 3,
-   "l": 0,
-   "synergy": 0.2,
-   "avgActual": 3.3,
-   "avgExpected": 2.8,
-   "aId": "6f2cf88a-e37c-401a-8c37-84d2aed94dd9",
-   "bId": "ee07033c-b5a8-4d28-8920-7873dc8ffac0"
   },
   {
    "a": "Dave Brucker",
@@ -22535,17 +22622,17 @@
    "bId": "f01a9ccb-b72e-4980-bdc0-73ed5a72f92c"
   },
   {
-   "a": "Aaron Chan",
-   "b": "Matt Demarco",
+   "a": "Nicole Mandry",
+   "b": "Ricki Cohen",
    "team": "Players Courtyard",
-   "n": 10,
-   "w": 4,
-   "l": 6,
+   "n": 4,
+   "w": 1,
+   "l": 3,
    "synergy": 0.1,
-   "avgActual": -2,
-   "avgExpected": -2.1,
-   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
-   "bId": "6c182803-54c7-439a-b269-17b063a0b3a7"
+   "avgActual": -1.2,
+   "avgExpected": -1.5,
+   "aId": "11112eb4-26f3-458d-954e-5718dd3b9332",
+   "bId": "a9094665-d5af-440c-b9b1-05403739512c"
   },
   {
    "a": "Simon Darlington",
@@ -22574,6 +22661,19 @@
    "bId": "abab39fe-af60-4956-9f97-460189ab90dc"
   },
   {
+   "a": "Pamela Toy",
+   "b": "Karen Rodriguez",
+   "team": "Ballers Philly",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.1,
+   "avgActual": -1,
+   "avgExpected": -1.2,
+   "aId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
+   "bId": "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba"
+  },
+  {
    "a": "Jacob Alpert",
    "b": "Dana Sheply",
    "team": "Jersey Devil Navy",
@@ -22582,7 +22682,7 @@
    "l": 3,
    "synergy": 0.1,
    "avgActual": -1.2,
-   "avgExpected": -1.5,
+   "avgExpected": -1.4,
    "aId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
    "bId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009"
   },
@@ -22634,9 +22734,22 @@
    "l": 1,
    "synergy": 0.1,
    "avgActual": 2.3,
-   "avgExpected": 2.2,
+   "avgExpected": 2,
    "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
    "bId": "417f3210-fcc8-4e63-a512-9eb872adb4e5"
+  },
+  {
+   "a": "Jonathan Macqueen",
+   "b": "Christina Sheehan",
+   "team": "Bounce Philly",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": 0.1,
+   "avgActual": -0.3,
+   "avgExpected": -0.5,
+   "aId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3",
+   "bId": "ed037154-d16e-4bb2-a2d2-d485c6f5d870"
   },
   {
    "a": "Jason Kwan",
@@ -22665,32 +22778,6 @@
    "bId": "dd2384fe-4bb2-4085-a917-6e7989beb8a7"
   },
   {
-   "a": "Stacy Ip-Mo",
-   "b": "Andress Mims",
-   "team": "APC Garden State",
-   "n": 4,
-   "w": 0,
-   "l": 4,
-   "synergy": 0.1,
-   "avgActual": -2.7,
-   "avgExpected": -2.9,
-   "aId": "d0562c60-5e2c-4647-805c-ac3740562432",
-   "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
-  },
-  {
-   "a": "Lianhong Li",
-   "b": "Michele Costigan",
-   "team": "APC Garden State",
-   "n": 8,
-   "w": 5,
-   "l": 3,
-   "synergy": 0.1,
-   "avgActual": 0.5,
-   "avgExpected": 0.4,
-   "aId": "2ca1f9df-4501-489e-8992-32da61c98792",
-   "bId": "fda078f4-e367-425d-9f16-501fdb5088e8"
-  },
-  {
    "a": "John Dechristopher",
    "b": "Stacy Ip-Mo",
    "team": "APC Garden State",
@@ -22699,7 +22786,7 @@
    "l": 2,
    "synergy": 0.1,
    "avgActual": -0.7,
-   "avgExpected": -0.9,
+   "avgExpected": -0.8,
    "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
    "bId": "d0562c60-5e2c-4647-805c-ac3740562432"
   },
@@ -22938,19 +23025,6 @@
    "bId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d"
   },
   {
-   "a": "Pamela Toy",
-   "b": "Karen Rodriguez",
-   "team": "Ballers Philly",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0,
-   "avgActual": -1,
-   "avgExpected": -1,
-   "aId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
-   "bId": "c9dcda58-8b67-418c-8aa5-6eb3c1fa50ba"
-  },
-  {
    "a": "Alexandria Mlkvy",
    "b": "Samuel Lee",
    "team": "Ballers Philly",
@@ -23001,6 +23075,19 @@
    "avgExpected": 3.2,
    "aId": "9e7f633d-5cea-4462-b486-61612f133de4",
    "bId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9"
+  },
+  {
+   "a": "Kong Vu",
+   "b": "Khanh Vu",
+   "team": "Bounce Tempest",
+   "n": 9,
+   "w": 6,
+   "l": 3,
+   "synergy": 0,
+   "avgActual": 3.6,
+   "avgExpected": 3.6,
+   "aId": "1d44d478-17dd-41c5-95e2-7010889b33ba",
+   "bId": "97897afe-f9e2-42be-926f-d6ebe7025591"
   },
   {
    "a": "Leanna Coello",
@@ -23102,35 +23189,35 @@
    "l": 0,
    "synergy": 0,
    "avgActual": 4.5,
-   "avgExpected": 4.4,
+   "avgExpected": 4.5,
    "aId": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
    "bId": "bf00658c-c290-41dd-96dd-e63f723fa6cc"
   },
   {
-   "a": "John Dechristopher",
-   "b": "Andress Mims",
-   "team": "APC Garden State",
+   "a": "Aaron Chan",
+   "b": "Lynn Bresnahan",
+   "team": "Players Courtyard",
    "n": 3,
-   "w": 0,
-   "l": 3,
+   "w": 1,
+   "l": 2,
    "synergy": 0,
-   "avgActual": -4.7,
-   "avgExpected": -4.6,
-   "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
-   "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
+   "avgActual": -3,
+   "avgExpected": -3,
+   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
+   "bId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
   },
   {
-   "a": "Michael Kresloff",
-   "b": "Nada Abdelkarim",
+   "a": "Lianhong Li",
+   "b": "Michele Costigan",
    "team": "APC Garden State",
-   "n": 3,
-   "w": 2,
-   "l": 1,
+   "n": 8,
+   "w": 5,
+   "l": 3,
    "synergy": 0,
-   "avgActual": 3,
-   "avgExpected": 3,
-   "aId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5",
-   "bId": "bf00658c-c290-41dd-96dd-e63f723fa6cc"
+   "avgActual": 0.5,
+   "avgExpected": 0.5,
+   "aId": "2ca1f9df-4501-489e-8992-32da61c98792",
+   "bId": "fda078f4-e367-425d-9f16-501fdb5088e8"
   },
   {
    "a": "Matt Demarco",
@@ -23146,6 +23233,19 @@
    "bId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
   },
   {
+   "a": "Isobel Harvey",
+   "b": "Sebastian Fas",
+   "team": "Ballers Philly",
+   "n": 5,
+   "w": 2,
+   "l": 3,
+   "synergy": 0,
+   "avgActual": -2.4,
+   "avgExpected": -2.3,
+   "aId": "a874ce54-5e12-49d7-a69a-cb9457b64ddb",
+   "bId": "afe34a52-058c-4d46-a46f-6bad7211195f"
+  },
+  {
    "a": "Taylor Johns",
    "b": "Adam Lowther",
    "team": "Jersey Devil Navy",
@@ -23154,22 +23254,9 @@
    "l": 3,
    "synergy": 0,
    "avgActual": -0.5,
-   "avgExpected": -0.5,
+   "avgExpected": -0.6,
    "aId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac",
    "bId": "fc25c569-51b2-46a9-9dde-88cf56493e62"
-  },
-  {
-   "a": "Ashley Held",
-   "b": "Jaspher Cosico",
-   "team": "Jersey Devil Green",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": 0,
-   "avgActual": -1.2,
-   "avgExpected": -1.2,
-   "aId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3",
-   "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
   },
   {
    "a": "Luis Guzman",
@@ -23349,7 +23436,7 @@
    "l": 2,
    "synergy": -0.1,
    "avgActual": 1.4,
-   "avgExpected": 1.5,
+   "avgExpected": 1.6,
    "aId": "6c182803-54c7-439a-b269-17b063a0b3a7",
    "bId": "a9094665-d5af-440c-b9b1-05403739512c"
   },
@@ -23391,19 +23478,6 @@
    "avgExpected": 0,
    "aId": "3a1b8dea-5723-4b6b-b73c-d951a1e442b3",
    "bId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9"
-  },
-  {
-   "a": "Kong Vu",
-   "b": "Khanh Vu",
-   "team": "Bounce Tempest",
-   "n": 9,
-   "w": 6,
-   "l": 3,
-   "synergy": -0.1,
-   "avgActual": 3.6,
-   "avgExpected": 3.7,
-   "aId": "1d44d478-17dd-41c5-95e2-7010889b33ba",
-   "bId": "97897afe-f9e2-42be-926f-d6ebe7025591"
   },
   {
    "a": "Yosuke Kawai",
@@ -23497,6 +23571,32 @@
    "bId": "fffb21b3-56be-473d-91d7-8f750b599343"
   },
   {
+   "a": "John Dechristopher",
+   "b": "Andress Mims",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -0.1,
+   "avgActual": -4.7,
+   "avgExpected": -4.5,
+   "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
+   "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
+  },
+  {
+   "a": "Michael Kresloff",
+   "b": "Nada Abdelkarim",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -0.1,
+   "avgActual": 3,
+   "avgExpected": 3.1,
+   "aId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5",
+   "bId": "bf00658c-c290-41dd-96dd-e63f723fa6cc"
+  },
+  {
    "a": "Ricki Cohen",
    "b": "Scott Strong",
    "team": "Players Courtyard",
@@ -23508,19 +23608,6 @@
    "avgExpected": -3.6,
    "aId": "a9094665-d5af-440c-b9b1-05403739512c",
    "bId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d"
-  },
-  {
-   "a": "Isobel Harvey",
-   "b": "Sebastian Fas",
-   "team": "Ballers Philly",
-   "n": 5,
-   "w": 2,
-   "l": 3,
-   "synergy": -0.1,
-   "avgActual": -2.4,
-   "avgExpected": -2.3,
-   "aId": "a874ce54-5e12-49d7-a69a-cb9457b64ddb",
-   "bId": "afe34a52-058c-4d46-a46f-6bad7211195f"
   },
   {
    "a": "Vanessa Rhoades",
@@ -23549,6 +23636,19 @@
    "bId": "e292105e-2554-4a80-accc-6b28514a8ec1"
   },
   {
+   "a": "Brian Cook",
+   "b": "Christina Juliano",
+   "team": "Pickle Juice Blackwood",
+   "n": 7,
+   "w": 3,
+   "l": 4,
+   "synergy": -0.1,
+   "avgActual": -1,
+   "avgExpected": -0.8,
+   "aId": "85520ff7-80c8-4a80-8af0-93889a7a61e6",
+   "bId": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1"
+  },
+  {
    "a": "Kong Vu",
    "b": "Shania Bui",
    "team": "Bounce Tempest",
@@ -23557,9 +23657,35 @@
    "l": 4,
    "synergy": -0.1,
    "avgActual": -1.3,
-   "avgExpected": -1.1,
+   "avgExpected": -1.2,
    "aId": "1d44d478-17dd-41c5-95e2-7010889b33ba",
    "bId": "714331ee-d124-483d-a89e-11d1431a7fca"
+  },
+  {
+   "a": "Srilahari Kunchapu",
+   "b": "Jaspher Cosico",
+   "team": "Jersey Devil Green",
+   "n": 5,
+   "w": 4,
+   "l": 1,
+   "synergy": -0.1,
+   "avgActual": 3,
+   "avgExpected": 3.3,
+   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
+   "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
+  },
+  {
+   "a": "Ashley Held",
+   "b": "Jaspher Cosico",
+   "team": "Jersey Devil Green",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.1,
+   "avgActual": -1.2,
+   "avgExpected": -1.1,
+   "aId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3",
+   "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
   },
   {
    "a": "Jamie Damirgian",
@@ -23622,7 +23748,7 @@
    "l": 2,
    "synergy": -0.1,
    "avgActual": 1.8,
-   "avgExpected": 1.9,
+   "avgExpected": 2,
    "aId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7",
    "bId": "afe34a52-058c-4d46-a46f-6bad7211195f"
   },
@@ -23687,7 +23813,7 @@
    "l": 1,
    "synergy": -0.1,
    "avgActual": 4.7,
-   "avgExpected": 4.8,
+   "avgExpected": 5,
    "aId": "41cd934f-66b0-4f22-b2e1-74955db922ce",
    "bId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3"
   },
@@ -23765,7 +23891,7 @@
    "l": 4,
    "synergy": -0.2,
    "avgActual": -0.4,
-   "avgExpected": -0.2,
+   "avgExpected": -0.1,
    "aId": "16a5ef9a-49fe-4341-9626-8f566552010e",
    "bId": "a9094665-d5af-440c-b9b1-05403739512c"
   },
@@ -23859,19 +23985,6 @@
    "avgExpected": -3.3,
    "aId": "87bb696f-03f4-44cd-bd89-72107aef36c1",
    "bId": "8f93a05d-c51e-48c4-901c-4ddbe881b309"
-  },
-  {
-   "a": "Katrina Maranan",
-   "b": "Olivia Schaller",
-   "team": "Jersey Devil Green",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.2,
-   "avgActual": 1.3,
-   "avgExpected": 1.7,
-   "aId": "4031f243-e80c-492b-b30b-5bf058824762",
-   "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
   },
   {
    "a": "Caity Rietzen",
@@ -23978,19 +24091,6 @@
    "bId": "de47e045-80e3-4209-a32e-d1c8a6de083b"
   },
   {
-   "a": "Brian Cook",
-   "b": "Christina Juliano",
-   "team": "Pickle Juice Blackwood",
-   "n": 7,
-   "w": 3,
-   "l": 4,
-   "synergy": -0.2,
-   "avgActual": -1,
-   "avgExpected": -0.8,
-   "aId": "85520ff7-80c8-4a80-8af0-93889a7a61e6",
-   "bId": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1"
-  },
-  {
    "a": "Magnolia Lau",
    "b": "Christina Juliano",
    "team": "Pickle Juice Blackwood",
@@ -23999,22 +24099,9 @@
    "l": 3,
    "synergy": -0.2,
    "avgActual": -2.7,
-   "avgExpected": -2.2,
+   "avgExpected": -2.3,
    "aId": "0c8768d9-03b0-42ca-9a88-b2c8538fa54d",
    "bId": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1"
-  },
-  {
-   "a": "Srilahari Kunchapu",
-   "b": "Jaspher Cosico",
-   "team": "Jersey Devil Green",
-   "n": 5,
-   "w": 4,
-   "l": 1,
-   "synergy": -0.2,
-   "avgActual": 3,
-   "avgExpected": 3.3,
-   "aId": "33e099cc-4164-43df-8b34-32fd7a5d9a46",
-   "bId": "e7b2dec3-db28-4c84-9216-2176bfbbcb01"
   },
   {
    "a": "Keith Brittingham",
@@ -24041,19 +24128,6 @@
    "avgExpected": 7.5,
    "aId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
    "bId": "f7f8bedd-22d4-48dc-92cc-de4f17eed580"
-  },
-  {
-   "a": "Alexandria Mlkvy",
-   "b": "Pamela Toy",
-   "team": "Ballers Philly",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.2,
-   "avgActual": -1.3,
-   "avgExpected": -0.8,
-   "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
-   "bId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003"
   },
   {
    "a": "Anthony Prusich",
@@ -24212,6 +24286,19 @@
    "bId": "e379e47b-dcde-4adb-8cc6-76e5660c457e"
   },
   {
+   "a": "Katrina Maranan",
+   "b": "Olivia Schaller",
+   "team": "Jersey Devil Green",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.3,
+   "avgActual": 1.3,
+   "avgExpected": 1.8,
+   "aId": "4031f243-e80c-492b-b30b-5bf058824762",
+   "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
+  },
+  {
    "a": "May Wang",
    "b": "Calvin Zheng",
    "team": "LBF Pickleball",
@@ -24259,7 +24346,7 @@
    "l": 3,
    "synergy": -0.3,
    "avgActual": -3.5,
-   "avgExpected": -2.9,
+   "avgExpected": -3,
    "aId": "295e2865-4328-4aac-b46c-3c1a41b26e08",
    "bId": "9ae1e374-e878-450b-9552-e80472590d9e"
   },
@@ -24272,7 +24359,7 @@
    "l": 2,
    "synergy": -0.3,
    "avgActual": -1.2,
-   "avgExpected": -0.6,
+   "avgExpected": -0.7,
    "aId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1",
    "bId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6"
   },
@@ -24285,7 +24372,7 @@
    "l": 1,
    "synergy": -0.3,
    "avgActual": 3.3,
-   "avgExpected": 3.8,
+   "avgExpected": 3.9,
    "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
    "bId": "562e74b8-dab7-46fa-a773-152747a03796"
   },
@@ -24376,7 +24463,7 @@
    "l": 2,
    "synergy": -0.3,
    "avgActual": -0.2,
-   "avgExpected": 0.5,
+   "avgExpected": 0.4,
    "aId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3",
    "bId": "dad8c60e-028f-4716-a64d-8fcbaffc4a1f"
   },
@@ -24418,6 +24505,19 @@
    "avgExpected": 3.7,
    "aId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
    "bId": "44de3ff2-3b41-4c10-908c-8057a94e1d75"
+  },
+  {
+   "a": "Alexandria Mlkvy",
+   "b": "Pamela Toy",
+   "team": "Ballers Philly",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.3,
+   "avgActual": -1.3,
+   "avgExpected": -0.7,
+   "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
+   "bId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003"
   },
   {
    "a": "Patricia Kavanaugh",
@@ -24472,17 +24572,30 @@
    "bId": "980c2469-2017-4943-bc0d-5c49f0526f85"
   },
   {
-   "a": "Alex Kustas",
-   "b": "Adam Lowther",
-   "team": "Jersey Devil Navy",
-   "n": 10,
-   "w": 6,
-   "l": 4,
+   "a": "Brad Mandry",
+   "b": "Matt Demarco",
+   "team": "Players Courtyard",
+   "n": 6,
+   "w": 3,
+   "l": 3,
    "synergy": -0.4,
-   "avgActual": -0.5,
-   "avgExpected": 0.1,
-   "aId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
-   "bId": "fc25c569-51b2-46a9-9dde-88cf56493e62"
+   "avgActual": 0.8,
+   "avgExpected": 1.6,
+   "aId": "16a5ef9a-49fe-4341-9626-8f566552010e",
+   "bId": "6c182803-54c7-439a-b269-17b063a0b3a7"
+  },
+  {
+   "a": "Tiffany Weis",
+   "b": "Christina Juliano",
+   "team": "Pickle Juice Blackwood",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.4,
+   "avgActual": -1.7,
+   "avgExpected": -0.7,
+   "aId": "bcf39825-fd7a-4949-9b85-9b77f5c1abc6",
+   "bId": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1"
   },
   {
    "a": "Lewis Torres",
@@ -24537,19 +24650,6 @@
    "bId": "c59d5e7c-f361-4e53-a58f-66a0f59fa600"
   },
   {
-   "a": "Katrina Maranan",
-   "b": "Peter David",
-   "team": "Jersey Devil Green",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.4,
-   "avgActual": -2.3,
-   "avgExpected": -1.4,
-   "aId": "4031f243-e80c-492b-b30b-5bf058824762",
-   "bId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4"
-  },
-  {
    "a": "Winston Lian",
    "b": "Carissa Baptista",
    "team": "Pickleball Kingdom Watchung",
@@ -24602,17 +24702,17 @@
    "bId": "80ff325f-8dc5-4306-98c3-a6e3025229ee"
   },
   {
-   "a": "Aaron Chan",
-   "b": "Lynn Bresnahan",
+   "a": "Mary Fair",
+   "b": "Matt Demarco",
    "team": "Players Courtyard",
-   "n": 5,
+   "n": 4,
    "w": 1,
-   "l": 4,
+   "l": 3,
    "synergy": -0.4,
-   "avgActual": -6.8,
-   "avgExpected": -6.1,
-   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
-   "bId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
+   "avgActual": -5.2,
+   "avgExpected": -4.4,
+   "aId": "66acdf95-131a-4d7d-89d7-2fe93406d61b",
+   "bId": "6c182803-54c7-439a-b269-17b063a0b3a7"
   },
   {
    "a": "Courtney Skolka",
@@ -24639,6 +24739,19 @@
    "avgExpected": -1.8,
    "aId": "33fe293d-5913-41af-8f89-4a431ed92ab7",
    "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
+  },
+  {
+   "a": "Khanh Vu",
+   "b": "Vy Conghuyen",
+   "team": "Bounce Tempest",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.4,
+   "avgActual": -4.3,
+   "avgExpected": -3.3,
+   "aId": "97897afe-f9e2-42be-926f-d6ebe7025591",
+   "bId": "eada38ef-6a83-46be-bd30-0293173fe5ed"
   },
   {
    "a": "Nicholas Jackson",
@@ -24701,7 +24814,7 @@
    "l": 2,
    "synergy": -0.4,
    "avgActual": -4.7,
-   "avgExpected": -3.8,
+   "avgExpected": -3.7,
    "aId": "0dace2fb-e133-4556-9d90-288c0f41805a",
    "bId": "3f06f7a5-cf95-4a74-bdc0-38a080fd0a6c"
   },
@@ -24888,32 +25001,6 @@
    "bId": "6c513ea5-3938-4f01-9071-f149cc1da268"
   },
   {
-   "a": "Brad Mandry",
-   "b": "Matt Demarco",
-   "team": "Players Courtyard",
-   "n": 6,
-   "w": 3,
-   "l": 3,
-   "synergy": -0.5,
-   "avgActual": 0.8,
-   "avgExpected": 1.6,
-   "aId": "16a5ef9a-49fe-4341-9626-8f566552010e",
-   "bId": "6c182803-54c7-439a-b269-17b063a0b3a7"
-  },
-  {
-   "a": "Tiffany Weis",
-   "b": "Christina Juliano",
-   "team": "Pickle Juice Blackwood",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.5,
-   "avgActual": -1.7,
-   "avgExpected": -0.6,
-   "aId": "bcf39825-fd7a-4949-9b85-9b77f5c1abc6",
-   "bId": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1"
-  },
-  {
    "a": "Michael Marinello",
    "b": "Matthew Peletier",
    "team": "Pickle House",
@@ -24951,6 +25038,19 @@
    "avgExpected": 0.3,
    "aId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0",
    "bId": "f3323e2c-7c42-4f7c-9fe3-a463478eaa80"
+  },
+  {
+   "a": "Alex Kustas",
+   "b": "Adam Lowther",
+   "team": "Jersey Devil Navy",
+   "n": 10,
+   "w": 6,
+   "l": 4,
+   "synergy": -0.5,
+   "avgActual": -0.5,
+   "avgExpected": 0.2,
+   "aId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
+   "bId": "fc25c569-51b2-46a9-9dde-88cf56493e62"
   },
   {
    "a": "Peter Siv",
@@ -25018,6 +25118,19 @@
    "bId": "d50feac2-f147-47d2-8930-99b21b2842ba"
   },
   {
+   "a": "Katrina Maranan",
+   "b": "Peter David",
+   "team": "Jersey Devil Green",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.5,
+   "avgActual": -2.3,
+   "avgExpected": -1.3,
+   "aId": "4031f243-e80c-492b-b30b-5bf058824762",
+   "bId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4"
+  },
+  {
    "a": "Xavier Yandoli",
    "b": "Jadiel Rodriguez",
    "team": "PKLD",
@@ -25029,19 +25142,6 @@
    "avgExpected": 7.8,
    "aId": "51dd0df2-d833-4037-a26d-5da2eb3d570e",
    "bId": "5bf1c3f0-d4cd-4904-aa20-410c03e530f1"
-  },
-  {
-   "a": "Mary Fair",
-   "b": "Matt Demarco",
-   "team": "Players Courtyard",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": -0.5,
-   "avgActual": -5.2,
-   "avgExpected": -4.3,
-   "aId": "66acdf95-131a-4d7d-89d7-2fe93406d61b",
-   "bId": "6c182803-54c7-439a-b269-17b063a0b3a7"
   },
   {
    "a": "Nancy Wu",
@@ -25096,32 +25196,6 @@
    "bId": "2e82399e-1fad-4343-81cd-5202f2fd17bf"
   },
   {
-   "a": "Dana Sheply",
-   "b": "Hanna Cutler",
-   "team": "Jersey Devil Navy",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.5,
-   "avgActual": -2,
-   "avgExpected": -0.9,
-   "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
-   "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
-  },
-  {
-   "a": "Khanh Vu",
-   "b": "Vy Conghuyen",
-   "team": "Bounce Tempest",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.5,
-   "avgActual": -4.3,
-   "avgExpected": -3.2,
-   "aId": "97897afe-f9e2-42be-926f-d6ebe7025591",
-   "bId": "eada38ef-6a83-46be-bd30-0293173fe5ed"
-  },
-  {
    "a": "Issac Gao",
    "b": "Crystal Mark",
    "team": "Picklr Exton",
@@ -25143,7 +25217,7 @@
    "l": 2,
    "synergy": -0.5,
    "avgActual": 0.3,
-   "avgExpected": 1.4,
+   "avgExpected": 1.5,
    "aId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
    "bId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7"
   },
@@ -25265,6 +25339,19 @@
    "bId": "8fd0c63a-29f9-463e-baf6-fd48281231dc"
   },
   {
+   "a": "Spencer Day",
+   "b": "Scott Strong",
+   "team": "Players Courtyard",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": -0.6,
+   "avgActual": -3,
+   "avgExpected": -1.5,
+   "aId": "2367463f-18a3-4ac8-8ab2-ab7bebb2ba84",
+   "bId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d"
+  },
+  {
    "a": "Jon Palabay",
    "b": "Christina Juliano",
    "team": "Pickle Juice Blackwood",
@@ -25273,7 +25360,7 @@
    "l": 2,
    "synergy": -0.6,
    "avgActual": -0.8,
-   "avgExpected": 0.3,
+   "avgExpected": 0.2,
    "aId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1",
    "bId": "e876b411-bfee-4ab8-ac66-8bbce87eaeb1"
   },
@@ -25286,7 +25373,7 @@
    "l": 3,
    "synergy": -0.6,
    "avgActual": -4.7,
-   "avgExpected": -3.4,
+   "avgExpected": -3.5,
    "aId": "16a5ef9a-49fe-4341-9626-8f566552010e",
    "bId": "57666861-23d0-4809-9556-b646579f2fd6"
   },
@@ -25304,6 +25391,19 @@
    "bId": "c8f3b265-67a8-412c-84f5-aee92a913aac"
   },
   {
+   "a": "Jeremy Chen",
+   "b": "Anthony Prusich",
+   "team": "Bounce Philly",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": -0.6,
+   "avgActual": 2.2,
+   "avgExpected": 3.2,
+   "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
+   "bId": "41cd934f-66b0-4f22-b2e1-74955db922ce"
+  },
+  {
    "a": "Evan Sinclair",
    "b": "Olivia Schaller",
    "team": "Jersey Devil Green",
@@ -25312,7 +25412,7 @@
    "l": 2,
    "synergy": -0.6,
    "avgActual": 2.8,
-   "avgExpected": 3.6,
+   "avgExpected": 3.7,
    "aId": "44de3ff2-3b41-4c10-908c-8057a94e1d75",
    "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
   },
@@ -25406,6 +25506,19 @@
    "avgExpected": 4.1,
    "aId": "ae015f4e-a359-406a-a394-b04d1ec288b7",
    "bId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e"
+  },
+  {
+   "a": "Dana Sheply",
+   "b": "Hanna Cutler",
+   "team": "Jersey Devil Navy",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.6,
+   "avgActual": -2,
+   "avgExpected": -0.8,
+   "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
+   "bId": "af5e2e89-3606-4d7e-8c5a-b397ff786303"
   },
   {
    "a": "Bennett Matthew’S",
@@ -25512,19 +25625,6 @@
    "bId": "9a7a5245-ece8-4e0e-879b-cb0618a285e2"
   },
   {
-   "a": "Dave Brucker",
-   "b": "Daniel Hadley",
-   "team": "Jersey Devil Navy",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.6,
-   "avgActual": 0.3,
-   "avgExpected": 1.5,
-   "aId": "22e07ace-661a-4942-b923-d48f446b0bba",
-   "bId": "23adcd68-130d-4176-b367-d3cd31260d21"
-  },
-  {
    "a": "Allyssa Perez",
    "b": "Kenneth Kline",
    "team": "Picklr Manahawkin",
@@ -25624,7 +25724,7 @@
    "l": 4,
    "synergy": -0.6,
    "avgActual": -2.2,
-   "avgExpected": -1.1,
+   "avgExpected": -1.2,
    "aId": "23adcd68-130d-4176-b367-d3cd31260d21",
    "bId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac"
   },
@@ -25668,17 +25768,17 @@
    "bId": "d31b9b93-03db-444e-85b8-75895b8469ea"
   },
   {
-   "a": "Spencer Day",
-   "b": "Scott Strong",
+   "a": "Aaron Chan",
+   "b": "Mary Fair",
    "team": "Players Courtyard",
-   "n": 3,
-   "w": 2,
-   "l": 1,
+   "n": 4,
+   "w": 0,
+   "l": 4,
    "synergy": -0.7,
-   "avgActual": -3,
-   "avgExpected": -1.3,
-   "aId": "2367463f-18a3-4ac8-8ab2-ab7bebb2ba84",
-   "bId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d"
+   "avgActual": -5.2,
+   "avgExpected": -3.9,
+   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
+   "bId": "66acdf95-131a-4d7d-89d7-2fe93406d61b"
   },
   {
    "a": "Skylar Bobadilla",
@@ -25694,17 +25794,17 @@
    "bId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1"
   },
   {
-   "a": "Eric Padernilla",
-   "b": "Michael Kresloff",
-   "team": "APC Garden State",
+   "a": "Samuel Lee",
+   "b": "Stephen Macpherson",
+   "team": "Ballers Philly",
    "n": 6,
-   "w": 4,
-   "l": 2,
+   "w": 2,
+   "l": 4,
    "synergy": -0.7,
-   "avgActual": 1.2,
-   "avgExpected": 2.3,
-   "aId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
-   "bId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5"
+   "avgActual": -1.2,
+   "avgExpected": 0,
+   "aId": "b07b7480-a964-459c-b47e-5c0f4a8774e9",
+   "bId": "f3323e2c-7c42-4f7c-9fe3-a463478eaa80"
   },
   {
    "a": "Emily Su",
@@ -25744,19 +25844,6 @@
    "avgExpected": -2.1,
    "aId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
    "bId": "ba6182a3-0d5e-4800-9306-db8757170c80"
-  },
-  {
-   "a": "Jeremy Chen",
-   "b": "Anthony Prusich",
-   "team": "Bounce Philly",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": -0.7,
-   "avgActual": 2.2,
-   "avgExpected": 3.3,
-   "aId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
-   "bId": "41cd934f-66b0-4f22-b2e1-74955db922ce"
   },
   {
    "a": "Xin Liu",
@@ -25806,7 +25893,7 @@
    "l": 1,
    "synergy": -0.7,
    "avgActual": 2,
-   "avgExpected": 3.5,
+   "avgExpected": 3.6,
    "aId": "9aa0ff6c-0210-4a91-885f-ae3d4813f1c3",
    "bId": "e6deea54-c0bb-40c7-83d0-b65c6eb1fcb2"
   },
@@ -25819,9 +25906,22 @@
    "l": 3,
    "synergy": -0.7,
    "avgActual": -4,
-   "avgExpected": -2.6,
+   "avgExpected": -2.5,
    "aId": "23adcd68-130d-4176-b367-d3cd31260d21",
    "bId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3"
+  },
+  {
+   "a": "Jennifer Kinkel",
+   "b": "Eileen Potter",
+   "team": "Pickle Juice Blackwood",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.7,
+   "avgActual": -4.3,
+   "avgExpected": -2.7,
+   "aId": "0dace2fb-e133-4556-9d90-288c0f41805a",
+   "bId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6"
   },
   {
    "a": "Eileen Zhang",
@@ -25848,6 +25948,19 @@
    "avgExpected": 2.3,
    "aId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7",
    "bId": "6f2cf88a-e37c-401a-8c37-84d2aed94dd9"
+  },
+  {
+   "a": "Dave Brucker",
+   "b": "Daniel Hadley",
+   "team": "Jersey Devil Navy",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.7,
+   "avgActual": 0.3,
+   "avgExpected": 1.6,
+   "aId": "22e07ace-661a-4942-b923-d48f446b0bba",
+   "bId": "23adcd68-130d-4176-b367-d3cd31260d21"
   },
   {
    "a": "Srilahari Kunchapu",
@@ -25980,19 +26093,6 @@
    "bId": "75ab4072-b50f-4593-8f1c-817d572394f7"
   },
   {
-   "a": "Aaron Chan",
-   "b": "Mary Fair",
-   "team": "Players Courtyard",
-   "n": 4,
-   "w": 0,
-   "l": 4,
-   "synergy": -0.8,
-   "avgActual": -5.2,
-   "avgExpected": -3.7,
-   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
-   "bId": "66acdf95-131a-4d7d-89d7-2fe93406d61b"
-  },
-  {
    "a": "Christina Grosso",
    "b": "Gerianne Mcmahon",
    "team": "Jersey Pickleball Club",
@@ -26006,19 +26106,6 @@
    "bId": "a1336798-c89a-423e-b753-f7d34a842e8e"
   },
   {
-   "a": "Samuel Lee",
-   "b": "Stephen Macpherson",
-   "team": "Ballers Philly",
-   "n": 6,
-   "w": 2,
-   "l": 4,
-   "synergy": -0.8,
-   "avgActual": -1.2,
-   "avgExpected": 0.2,
-   "aId": "b07b7480-a964-459c-b47e-5c0f4a8774e9",
-   "bId": "f3323e2c-7c42-4f7c-9fe3-a463478eaa80"
-  },
-  {
    "a": "Kevin Wilson",
    "b": "Stephen Macpherson",
    "team": "Ballers Philly",
@@ -26027,9 +26114,22 @@
    "l": 3,
    "synergy": -0.8,
    "avgActual": -1.8,
-   "avgExpected": -0.5,
+   "avgExpected": -0.6,
    "aId": "6f2cf88a-e37c-401a-8c37-84d2aed94dd9",
    "bId": "f3323e2c-7c42-4f7c-9fe3-a463478eaa80"
+  },
+  {
+   "a": "Eric Padernilla",
+   "b": "Michael Kresloff",
+   "team": "APC Garden State",
+   "n": 6,
+   "w": 4,
+   "l": 2,
+   "synergy": -0.8,
+   "avgActual": 1.2,
+   "avgExpected": 2.4,
+   "aId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
+   "bId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5"
   },
   {
    "a": "Joseph Roque",
@@ -26110,19 +26210,6 @@
    "bId": "6ae15153-88e8-48c0-93b6-8be97adbadce"
   },
   {
-   "a": "Jennifer Kinkel",
-   "b": "Eileen Potter",
-   "team": "Pickle Juice Blackwood",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.8,
-   "avgActual": -4.3,
-   "avgExpected": -2.6,
-   "aId": "0dace2fb-e133-4556-9d90-288c0f41805a",
-   "bId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6"
-  },
-  {
    "a": "Rebecca Edelstein",
    "b": "Angie Habib",
    "team": "Dill Dinkers Freehold",
@@ -26157,7 +26244,7 @@
    "l": 2,
    "synergy": -0.8,
    "avgActual": 0.3,
-   "avgExpected": 2.2,
+   "avgExpected": 2.1,
    "aId": "85ee3181-a3ea-4022-8475-6d1c6b80211f",
    "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
   },
@@ -26261,7 +26348,7 @@
    "l": 2,
    "synergy": -0.9,
    "avgActual": 0,
-   "avgExpected": 2.1,
+   "avgExpected": 2.2,
    "aId": "3ab0ff4a-df0d-41fa-8602-059d287882ef",
    "bId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3"
   },
@@ -26352,7 +26439,7 @@
    "l": 2,
    "synergy": -0.9,
    "avgActual": -3.7,
-   "avgExpected": -1.6,
+   "avgExpected": -1.5,
    "aId": "6f126e55-bb02-4c7d-a69d-db30473ad0b3",
    "bId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac"
   },
@@ -26443,7 +26530,7 @@
    "l": 4,
    "synergy": -0.9,
    "avgActual": -9.2,
-   "avgExpected": -7.5,
+   "avgExpected": -7.4,
    "aId": "83a9e58a-b1de-4bda-a020-8cafc2fc47aa",
    "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
   },
@@ -26482,7 +26569,7 @@
    "l": 2,
    "synergy": -1,
    "avgActual": -4,
-   "avgExpected": -1.7,
+   "avgExpected": -1.6,
    "aId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
    "bId": "7e92032d-7d47-485c-8641-ae8a7af4e3ac"
   },
@@ -26721,6 +26808,19 @@
    "bId": "af3ce205-4f9a-4382-8128-4a20fe26737b"
   },
   {
+   "a": "Eileen Potter",
+   "b": "Tiffany Weis",
+   "team": "Pickle Juice Blackwood",
+   "n": 7,
+   "w": 1,
+   "l": 6,
+   "synergy": -1.1,
+   "avgActual": -4.4,
+   "avgExpected": -2.7,
+   "aId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6",
+   "bId": "bcf39825-fd7a-4949-9b85-9b77f5c1abc6"
+  },
+  {
    "a": "Leanna Coello",
    "b": "Ulyana Kitcmanuk",
    "team": "Picklr Fair Lawn",
@@ -26747,6 +26847,19 @@
    "bId": "8f93a05d-c51e-48c4-901c-4ddbe881b309"
   },
   {
+   "a": "Julia Manetta",
+   "b": "Kyle Kelly",
+   "team": "Bounce Philly",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": -1.1,
+   "avgActual": 0.5,
+   "avgExpected": 2.4,
+   "aId": "4977544e-0c7f-4151-815c-51f68473862f",
+   "bId": "e0faca04-4875-4806-b0a3-4830f4dcd52e"
+  },
+  {
    "a": "Katrina Maranan",
    "b": "Brandon Dejesus",
    "team": "Jersey Devil Green",
@@ -26755,7 +26868,7 @@
    "l": 1,
    "synergy": -1.1,
    "avgActual": -0.2,
-   "avgExpected": 1.9,
+   "avgExpected": 2,
    "aId": "4031f243-e80c-492b-b30b-5bf058824762",
    "bId": "d50feac2-f147-47d2-8930-99b21b2842ba"
   },
@@ -26812,6 +26925,19 @@
    "bId": "a4310f70-ee30-4e55-b189-2efd837b7189"
   },
   {
+   "a": "Aaron Chan",
+   "b": "Brittni Veyna",
+   "team": "Players Courtyard",
+   "n": 4,
+   "w": 1,
+   "l": 3,
+   "synergy": -1.1,
+   "avgActual": -3.7,
+   "avgExpected": -1.5,
+   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
+   "bId": "bf60680b-003f-4083-b6ce-25bf3a7cd964"
+  },
+  {
    "a": "Dave Brucker",
    "b": "Michele Chai",
    "team": "Jersey Devil Navy",
@@ -26833,7 +26959,7 @@
    "l": 4,
    "synergy": -1.1,
    "avgActual": -6,
-   "avgExpected": -3.7,
+   "avgExpected": -3.8,
    "aId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7",
    "bId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003"
   },
@@ -26903,19 +27029,6 @@
    "bId": "caecaf69-b1c0-4093-b374-64b76698e68f"
   },
   {
-   "a": "Eileen Potter",
-   "b": "Tiffany Weis",
-   "team": "Pickle Juice Blackwood",
-   "n": 7,
-   "w": 1,
-   "l": 6,
-   "synergy": -1.2,
-   "avgActual": -4.4,
-   "avgExpected": -2.5,
-   "aId": "9c942e88-f77a-4b16-bf03-5d83455ed7c6",
-   "bId": "bcf39825-fd7a-4949-9b85-9b77f5c1abc6"
-  },
-  {
    "a": "Jonathan Bautista",
    "b": "Kristina Salomia",
    "team": "Picklr Manahawkin",
@@ -26968,19 +27081,6 @@
    "bId": "c5e40aa9-efbf-4937-b44d-1b8f06693ba4"
   },
   {
-   "a": "Julia Manetta",
-   "b": "Kyle Kelly",
-   "team": "Bounce Philly",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": -1.2,
-   "avgActual": 0.5,
-   "avgExpected": 2.4,
-   "aId": "4977544e-0c7f-4151-815c-51f68473862f",
-   "bId": "e0faca04-4875-4806-b0a3-4830f4dcd52e"
-  },
-  {
    "a": "Ashley Held",
    "b": "Olivia Schaller",
    "team": "Jersey Devil Green",
@@ -26989,7 +27089,7 @@
    "l": 0,
    "synergy": -1.2,
    "avgActual": 2.6,
-   "avgExpected": 4.7,
+   "avgExpected": 4.8,
    "aId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3",
    "bId": "84c96e34-809c-4b34-9005-8ea76ca6a233"
   },
@@ -27020,19 +27120,6 @@
    "bId": "be764ab0-026a-470d-a137-09b0d3caf629"
   },
   {
-   "a": "Aaron Chan",
-   "b": "Brittni Veyna",
-   "team": "Players Courtyard",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": -1.2,
-   "avgActual": -3.7,
-   "avgExpected": -1.4,
-   "aId": "57666861-23d0-4809-9556-b646579f2fd6",
-   "bId": "bf60680b-003f-4083-b6ce-25bf3a7cd964"
-  },
-  {
    "a": "Monika Torbus",
    "b": "Patricia Kavanaugh",
    "team": "Flemington",
@@ -27054,7 +27141,7 @@
    "l": 1,
    "synergy": -1.2,
    "avgActual": 0.3,
-   "avgExpected": 3.2,
+   "avgExpected": 3.1,
    "aId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
    "bId": "5c5c0d00-e20c-456e-b53e-890845310916"
   },
@@ -27132,7 +27219,7 @@
    "l": 2,
    "synergy": -1.3,
    "avgActual": -5.3,
-   "avgExpected": -2.3,
+   "avgExpected": -2.2,
    "aId": "83a9e58a-b1de-4bda-a020-8cafc2fc47aa",
    "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
   },
@@ -27254,19 +27341,6 @@
    "bId": "cf86f914-08ca-4df6-9cdb-74a23afc2478"
   },
   {
-   "a": "Kelly Feng",
-   "b": "Ben Van Handel",
-   "team": "Ballers Philly",
-   "n": 8,
-   "w": 4,
-   "l": 4,
-   "synergy": -1.4,
-   "avgActual": 0.5,
-   "avgExpected": 2.6,
-   "aId": "936fd285-0e07-4c08-94b0-57b3c19ac59e",
-   "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
-  },
-  {
    "a": "Cullen Curley",
    "b": "Arzu Alimjan",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -27330,6 +27404,19 @@
    "avgExpected": 1.3,
    "aId": "086a95e6-d7ca-4ac7-8fec-b35b1110fbd1",
    "bId": "d61a3828-6dfc-480a-b26a-534b0fe58268"
+  },
+  {
+   "a": "Kelly Feng",
+   "b": "Ben Van Handel",
+   "team": "Ballers Philly",
+   "n": 8,
+   "w": 4,
+   "l": 4,
+   "synergy": -1.5,
+   "avgActual": 0.5,
+   "avgExpected": 2.7,
+   "aId": "936fd285-0e07-4c08-94b0-57b3c19ac59e",
+   "bId": "abb4e0e1-709f-425f-ac7d-b6209b29ddd0"
   },
   {
    "a": "Peter Liang",
@@ -27423,19 +27510,6 @@
    "bId": "ec3a5b94-4b3c-4467-a3fa-f23141cb8f69"
   },
   {
-   "a": "Ricki Cohen",
-   "b": "Lynn Bresnahan",
-   "team": "Players Courtyard",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": -1.5,
-   "avgActual": -9,
-   "avgExpected": -5.4,
-   "aId": "a9094665-d5af-440c-b9b1-05403739512c",
-   "bId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8"
-  },
-  {
    "a": "John Dechristopher",
    "b": "Michael Kresloff",
    "team": "APC Garden State",
@@ -27444,7 +27518,7 @@
    "l": 2,
    "synergy": -1.5,
    "avgActual": -7,
-   "avgExpected": -3.5,
+   "avgExpected": -3.6,
    "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
    "bId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5"
   },
@@ -27457,7 +27531,7 @@
    "l": 3,
    "synergy": -1.6,
    "avgActual": -3.7,
-   "avgExpected": 0.1,
+   "avgExpected": 0,
    "aId": "0c8768d9-03b0-42ca-9a88-b2c8538fa54d",
    "bId": "34f3ac90-3b92-469c-8ae9-b88fea16ffa1"
   },
@@ -27475,17 +27549,17 @@
    "bId": "c187c25d-5d0a-4e66-9ac5-b1a05b0c151f"
   },
   {
-   "a": "Pallavi Deshpande",
-   "b": "Ryan Lehrfeld",
+   "a": "Michael Kresloff",
+   "b": "Pallavi Deshpande",
    "team": "APC Garden State",
-   "n": 3,
-   "w": 0,
+   "n": 4,
+   "w": 1,
    "l": 3,
    "synergy": -1.6,
-   "avgActual": -5.7,
-   "avgExpected": -1.9,
-   "aId": "92f3c12c-3291-4176-acd2-2bbd5b83136c",
-   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
+   "avgActual": -5.2,
+   "avgExpected": -2,
+   "aId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5",
+   "bId": "92f3c12c-3291-4176-acd2-2bbd5b83136c"
   },
   {
    "a": "Yosuke Kawai",
@@ -27525,19 +27599,6 @@
    "avgExpected": -6.4,
    "aId": "60049f31-bf6f-4392-9b18-f73a6d156bd2",
    "bId": "c51fb84c-4210-4884-84e0-a6854852c31a"
-  },
-  {
-   "a": "Ryan Lehrfeld",
-   "b": "Andress Mims",
-   "team": "APC Garden State",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": -1.6,
-   "avgActual": -9,
-   "avgExpected": -5.2,
-   "aId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",
-   "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
   },
   {
    "a": "Gwyneth Geressy",
@@ -27587,9 +27648,22 @@
    "l": 3,
    "synergy": -1.7,
    "avgActual": -4.7,
-   "avgExpected": -0.7,
+   "avgExpected": -0.6,
    "aId": "f4f395df-7e5a-4867-bcbc-30f8dbcfe77d",
    "bId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
+  },
+  {
+   "a": "Pallavi Deshpande",
+   "b": "Ryan Lehrfeld",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -1.7,
+   "avgActual": -5.7,
+   "avgExpected": -1.7,
+   "aId": "92f3c12c-3291-4176-acd2-2bbd5b83136c",
+   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
   },
   {
    "a": "Kim Mchugh",
@@ -27605,6 +27679,19 @@
    "bId": "ec3a5b94-4b3c-4467-a3fa-f23141cb8f69"
   },
   {
+   "a": "Joshua Kim",
+   "b": "Jeremy Chen",
+   "team": "Bounce Philly",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -1.7,
+   "avgActual": -0.3,
+   "avgExpected": 3.7,
+   "aId": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
+   "bId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8"
+  },
+  {
    "a": "Jia Fei",
    "b": "May Wang",
    "team": "LBF Pickleball",
@@ -27618,6 +27705,19 @@
    "bId": "d31b9b93-03db-444e-85b8-75895b8469ea"
   },
   {
+   "a": "Ryan Lehrfeld",
+   "b": "Andress Mims",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -1.7,
+   "avgActual": -9,
+   "avgExpected": -5,
+   "aId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca",
+   "bId": "e9878f35-8a92-4887-834e-d8a76881ae41"
+  },
+  {
    "a": "Melissa Dipierro",
    "b": "Nicholas Jackson",
    "team": "Picklr Exton",
@@ -27629,19 +27729,6 @@
    "avgExpected": -5.4,
    "aId": "2ed4e87b-b9f6-4df8-b733-8aaf89ddc285",
    "bId": "bb72e9bd-3d29-4f40-911c-2c5f07c73da6"
-  },
-  {
-   "a": "Lianhong Li",
-   "b": "Ryan Lehrfeld",
-   "team": "APC Garden State",
-   "n": 4,
-   "w": 0,
-   "l": 4,
-   "synergy": -1.7,
-   "avgActual": -7.2,
-   "avgExpected": -3.8,
-   "aId": "2ca1f9df-4501-489e-8992-32da61c98792",
-   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
   },
   {
    "a": "Ayako Caravella",
@@ -27696,32 +27783,6 @@
    "bId": "f0d706b3-1a14-4c99-b51e-c9ec5f866834"
   },
   {
-   "a": "Michael Kresloff",
-   "b": "Pallavi Deshpande",
-   "team": "APC Garden State",
-   "n": 4,
-   "w": 1,
-   "l": 3,
-   "synergy": -1.8,
-   "avgActual": -5.2,
-   "avgExpected": -1.7,
-   "aId": "60e48498-ce01-4f21-99d0-3d9ec17b7fc5",
-   "bId": "92f3c12c-3291-4176-acd2-2bbd5b83136c"
-  },
-  {
-   "a": "Joshua Kim",
-   "b": "Jeremy Chen",
-   "team": "Bounce Philly",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -1.8,
-   "avgActual": -0.3,
-   "avgExpected": 3.8,
-   "aId": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
-   "bId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8"
-  },
-  {
    "a": "Dan Stanton",
    "b": "Laura Slane",
    "team": "Flemington",
@@ -27746,6 +27807,19 @@
    "avgExpected": -9.8,
    "aId": "d97f0830-c24e-48e9-a8e9-a32edc67530e",
    "bId": "e3605ba3-63c4-42da-b1b3-d067ef23548c"
+  },
+  {
+   "a": "Lianhong Li",
+   "b": "Ryan Lehrfeld",
+   "team": "APC Garden State",
+   "n": 4,
+   "w": 0,
+   "l": 4,
+   "synergy": -1.8,
+   "avgActual": -7.2,
+   "avgExpected": -3.7,
+   "aId": "2ca1f9df-4501-489e-8992-32da61c98792",
+   "bId": "cfc63dad-7d45-4fa6-810d-5d3bbc7619ca"
   },
   {
    "a": "Laura Slane",
@@ -27873,7 +27947,7 @@
    "l": 3,
    "synergy": -2.1,
    "avgActual": -7.3,
-   "avgExpected": -2.4,
+   "avgExpected": -2.5,
    "aId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
    "bId": "79cea24b-da29-4070-8d30-e820330b4c41"
   },
@@ -27964,7 +28038,7 @@
    "l": 4,
    "synergy": -2.8,
    "avgActual": -11,
-   "avgExpected": -5.4,
+   "avgExpected": -5.5,
    "aId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
    "bId": "eada38ef-6a83-46be-bd30-0293173fe5ed"
   },
@@ -27977,7 +28051,7 @@
    "l": 4,
    "synergy": -3.2,
    "avgActual": -11.5,
-   "avgExpected": -5.2,
+   "avgExpected": -5,
    "aId": "a9094665-d5af-440c-b9b1-05403739512c",
    "bId": "f9fffb3c-b254-4953-b53c-55bcc43c583b"
   },
@@ -57319,7 +57393,7 @@
      "hs": 10,
      "as": 21,
      "h": [
-      "Lynn Bresnahan",
+      "Rebecca Woofter",
       "Aaron Chan"
      ],
      "a": [
@@ -57362,7 +57436,7 @@
      "as": 22,
      "h": [
       "Nicole Mandry",
-      "Lynn Bresnahan"
+      "Rebecca Woofter"
      ],
      "a": [
       "Tesa Pribitkin",
@@ -57431,7 +57505,7 @@
      "hs": 7,
      "as": 21,
      "h": [
-      "Lynn Bresnahan",
+      "Rebecca Woofter",
       "Aaron Chan"
      ],
      "a": [
@@ -57474,7 +57548,7 @@
      "as": 21,
      "h": [
       "Nicole Mandry",
-      "Lynn Bresnahan"
+      "Rebecca Woofter"
      ],
      "a": [
       "Pamela Toy",
@@ -57543,7 +57617,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Lynn Bresnahan",
+      "Rebecca Woofter",
       "Matt Demarco"
      ],
      "a": [
@@ -57586,7 +57660,7 @@
      "as": 21,
      "h": [
       "Ricki Cohen",
-      "Lynn Bresnahan"
+      "Rebecca Woofter"
      ],
      "a": [
       "Alexandria Mlkvy",
@@ -57627,7 +57701,7 @@
      "hs": 8,
      "as": 21,
      "h": [
-      "Lynn Bresnahan",
+      "Rebecca Woofter",
       "Dan Perkins"
      ],
      "a": [
@@ -57698,7 +57772,7 @@
      "as": 21,
      "h": [
       "Ricki Cohen",
-      "Lynn Bresnahan"
+      "Rebecca Woofter"
      ],
      "a": [
       "Tesa Pribitkin",
@@ -57735,7 +57809,8 @@
     }
    ],
    "subs": [
-    "Dan Perkins"
+    "Dan Perkins",
+    "Rebecca Woofter"
    ]
   },
   {
@@ -72642,7 +72717,361 @@
    "home": "Forward",
    "away": "Picklr Exton",
    "time": "2026-10-07T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Smith",
+      "Nicholas Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Koons",
+      "Issac Gao"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Crystal Mark",
+      "Johnny Deng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Miller",
+      "Matthew Carroll"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Smith",
+      "Nikki Koons"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Dunn",
+      "Caroline Miller"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Jackson",
+      "Issac Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johnny Deng",
+      "Michael Meraglia"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Koons",
+      "Nicholas Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Crystal Mark",
+      "Johnny Deng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Smith",
+      "Matthew Carroll"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Dunn",
+      "Michael Meraglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Koons",
+      "Ann Dunn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Miller",
+      "Crystal Mark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Jackson",
+      "Matthew Carroll"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Meraglia",
+      "Issac Gao"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Miller",
+      "Johnny Deng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Crystal Mark",
+      "Matthew Carroll"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ann Dunn",
+      "Michael Meraglia"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Smith",
+      "Issac Gao"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Koons",
+      "Ann Dunn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Smith",
+      "Crystal Mark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Jackson",
+      "Johnny Deng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Issac Gao",
+      "Matthew Carroll"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Koons",
+      "Johnny Deng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenn Smith",
+      "Nicholas Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Crystal Mark",
+      "Issac Gao"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Miller",
+      "Michael Meraglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Koons",
+      "Crystal Mark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Miller",
+      "Ann Dunn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Carroll",
+      "Johnny Deng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Jackson",
+      "Michael Meraglia"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -72650,7 +73079,361 @@
    "home": "LBF Pickleball",
    "away": "Flemington",
    "time": "2026-10-07T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patricia Kavanaugh",
+      "David Tabacco"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Govan",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Patricia Kavanaugh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "David Tabacco"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patricia Kavanaugh",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "David Tabacco"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Govan",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patricia Kavanaugh",
+      "Johanna Kreilick"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lakshmikanth Chaluvadi",
+      "David Tabacco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Stanton",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Govan",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Slane",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patricia Kavanaugh",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Laura Govan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rick Wickenheisser",
+      "Lakshmikanth Chaluvadi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patricia Kavanaugh",
+      "Rick Wickenheisser"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Addison Stewart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monika Torbus",
+      "David Tabacco"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Govan",
+      "Dan Stanton"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Johanna Kreilick",
+      "Laura Slane"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Laura Govan",
+      "Monika Torbus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Addison Stewart",
+      "David Tabacco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Stanton",
+      "Lakshmikanth Chaluvadi"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -72658,7 +73441,381 @@
    "home": "Home Court",
    "away": "Picklr Fair Lawn",
    "time": "2026-10-07T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Jonathan Lugtu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Mychal Villanueva"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monique Panajon",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Ulyana Kitcmanuk"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Lara Gedeon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Piero Accinelli",
+      "Joseph Gozon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frederick Lloyd Sabino",
+      "Jonathan Lugtu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ulyana Kitcmanuk",
+      "Frederick Lloyd Sabino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monique Panajon",
+      "Mychal Villanueva"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Ulyana Kitcmanuk"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Leanna Coello"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mychal Villanueva",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Gozon",
+      "Jonathan Lugtu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Joseph Gozon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ulyana Kitcmanuk",
+      "Frederick Lloyd Sabino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monique Panajon",
+      "Mychal Villanueva"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Monique Panajon",
+      "Leanna Coello"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Binxin Cai"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frederick Lloyd Sabino",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Lugtu",
+      "Andrew Chester"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Frederick Lloyd Sabino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ulyana Kitcmanuk",
+      "Joseph Gozon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Mychal Villanueva"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Monique Panajon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Ulyana Kitcmanuk"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Lugtu",
+      "Andrew Chester"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mychal Villanueva",
+      "Joseph Gozon"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -73037,7 +74194,7 @@
       ""
      ],
      "a": [
-      "Shukling Parker",
+      "Suki Wong",
       "Yashraj Kurani"
      ],
      "aSub": [
@@ -73137,7 +74294,7 @@
       ""
      ],
      "a": [
-      "Shukling Parker",
+      "Suki Wong",
       "Yashraj Kurani"
      ],
      "aSub": [
@@ -73189,7 +74346,7 @@
       ""
      ],
      "a": [
-      "Shukling Parker",
+      "Suki Wong",
       "Ayako Caravella"
      ],
      "aSub": [
@@ -73241,7 +74398,7 @@
       ""
      ],
      "a": [
-      "Shukling Parker",
+      "Suki Wong",
       "Prashanth Koshy"
      ],
      "aSub": [
@@ -73337,7 +74494,7 @@
       ""
      ],
      "a": [
-      "Shukling Parker",
+      "Suki Wong",
       "Prashanth Koshy"
      ],
      "aSub": [
@@ -73390,7 +74547,7 @@
      ],
      "a": [
       "Ayako Caravella",
-      "Shukling Parker"
+      "Suki Wong"
      ],
      "aSub": [
       0,
@@ -73804,7 +74961,445 @@
    "home": "Pickleball Kingdom Tinton Falls",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-07T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Rachel Levkov",
+      "Shawn Mayer"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Brandon Pfeffer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Weinthal",
+      "Jim Nelson"
+     ],
+     "a": [
+      "Angie Habib",
+      "Joe Ying"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carolyn Antuna",
+      "John Kulesza"
+     ],
+     "a": [
+      "Cherine Mikhail",
+      "Peter Liang"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Mizrahi",
+      "Sammy Cohen"
+     ],
+     "a": [
+      "Sandra Girgis",
+      "Ilya Shats"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachel Levkov",
+      "Sara Mizrahi"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Angie Habib"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lisa Weinthal",
+      "Danielle Collins"
+     ],
+     "a": [
+      "Cherine Mikhail",
+      "Sandra Girgis"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "John Kulesza",
+      "Shawn Mayer"
+     ],
+     "a": [
+      "Brandon Pfeffer",
+      "Joe Ying"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Sammy Cohen",
+      "Leo Wong"
+     ],
+     "a": [
+      "Peter Liang",
+      "Ilya Shats"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rachel Levkov",
+      "John Kulesza"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Ilya Shats"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Mizrahi",
+      "Sammy Cohen"
+     ],
+     "a": [
+      "Angie Habib",
+      "Peter Liang"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Weinthal",
+      "Jim Nelson"
+     ],
+     "a": [
+      "Cherine Mikhail",
+      "Joe Ying"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carolyn Antuna",
+      "Leo Wong"
+     ],
+     "a": [
+      "Sandra Girgis",
+      "Brandon Pfeffer"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachel Levkov",
+      "Danielle Collins"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Sandra Girgis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Carolyn Antuna",
+      "Sara Mizrahi"
+     ],
+     "a": [
+      "Angie Habib",
+      "Cherine Mikhail"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jim Nelson",
+      "Leo Wong"
+     ],
+     "a": [
+      "Brandon Pfeffer",
+      "Peter Liang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Sammy Cohen",
+      "Shawn Mayer"
+     ],
+     "a": [
+      "Joe Ying",
+      "Ilya Shats"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Carolyn Antuna",
+      "John Kulesza"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Brandon Pfeffer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Weinthal",
+      "Shawn Mayer"
+     ],
+     "a": [
+      "Angie Habib",
+      "Ilya Shats"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Mizrahi",
+      "Leo Wong"
+     ],
+     "a": [
+      "Cherine Mikhail",
+      "Joe Ying"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Danielle Collins",
+      "Jim Nelson"
+     ],
+     "a": [
+      "Sandra Girgis",
+      "Peter Liang"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachel Levkov",
+      "Carolyn Antuna"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Angie Habib"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Lisa Weinthal",
+      "Danielle Collins"
+     ],
+     "a": [
+      "Cherine Mikhail",
+      "Sandra Girgis"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "John Kulesza",
+      "Jim Nelson"
+     ],
+     "a": [
+      "Brandon Pfeffer",
+      "Peter Liang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Mayer",
+      "Sammy Cohen"
+     ],
+     "a": [
+      "Joe Ying",
+      "Ilya Shats"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sara Mizrahi",
+      "John Kulesza"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Brandon Pfeffer"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rachel Levkov",
+      "Leo Wong"
+     ],
+     "a": [
+      "Angie Habib",
+      "Peter Liang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Weinthal",
+      "Shawn Mayer"
+     ],
+     "a": [
+      "Cherine Mikhail",
+      "Ilya Shats"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Danielle Collins",
+      "Jim Nelson"
+     ],
+     "a": [
+      "Sandra Girgis",
+      "Joe Ying"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Carolyn Antuna",
+      "Sara Mizrahi"
+     ],
+     "a": [
+      "Allyson Fry",
+      "Cherine Mikhail"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Rachel Levkov",
+      "Danielle Collins"
+     ],
+     "a": [
+      "Angie Habib",
+      "Sandra Girgis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Sammy Cohen",
+      "John Kulesza"
+     ],
+     "a": [
+      "Brandon Pfeffer",
+      "Peter Liang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Mayer",
+      "Leo Wong"
+     ],
+     "a": [
+      "Joe Ying",
+      "Ilya Shats"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -77218,12 +78813,12 @@
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
-  "Rebecca Woofter": "4032408a-b5eb-41c5-a865-fca764d688a5",
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
   "James Ong": "5ee2897a-ee86-498d-86dc-2638d9ece8ae",
   "Saaketh Koundinya Gundavarapu": "67730cd7-1040-4a80-a665-53e124b526cd",
+  "Grace Ramirez": "7082a4e4-613e-4ca0-b9fe-a5b195887830",
   "Conor Malloy": "79791efb-c2d0-449d-8572-a99a1f2a5200",
   "Guitta Barghash": "8011677b-64c0-467d-8d54-c32da035effe",
   "Duy Duong": "81de0241-17f5-4c13-9214-0b914709e971",
@@ -77237,7 +78832,6 @@
   "Lucy Shao": "adeb473c-c162-4d73-bbc1-96ffbd94f53f",
   "Andrew Spencer": "b1af592e-2dc0-4273-9b6e-13b8a6eff673",
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
-  "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Paul Mastaj": "ce698888-9c10-4116-9e16-e4507e641722",
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
   "Jason Garcia": "e5187be0-c18f-40d6-9648-431f60a78862",
@@ -77245,7 +78839,6 @@
   "Chau Reyes": "e7c5198c-f8c6-40b4-bc7e-4662ead21924",
   "Rosellen Perlowitz": "f1f4f950-e704-48f2-bd4f-b9c6ccf797bf",
   "Mike Lanza": "f43cc85e-b2cd-4258-95d6-73db263c51f2",
-  "Jonathan Lugtu": "f46a315a-aae5-44b5-ab45-6949706396fd",
   "Hannah Boles": "fa7927b0-c775-4e45-a682-ce91d51d7817"
  },
  "availableSubs": [
@@ -77686,6 +79279,14 @@
    "playerId": "6cdbf43a-33cf-4a69-9c4e-b8df71f208e6",
    "gender": "Female",
    "team": "Pickle Juice Blackwood",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Grace Ramirez",
+   "playerId": "7082a4e4-613e-4ca0-b9fe-a5b195887830",
+   "gender": "Female",
+   "team": "Picklr Newark",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -78334,7 +79935,7 @@
   "matchesPlayed": 96,
   "provisionalMatches": 0,
   "weeks": "1-6",
-  "totalPlayers": 558,
+  "totalPlayers": 561,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -78398,7 +79999,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-05T22:52:47.640Z";
+  DATA.meta.asOf = "2026-10-06T03:59:23.919Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
