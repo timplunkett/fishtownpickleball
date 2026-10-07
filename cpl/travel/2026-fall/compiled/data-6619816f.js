@@ -28584,7 +28584,7 @@
       "William Hayes"
      ],
      "a": [
-      "Ben Mead",
+      "Manny Lai",
       "Garv Singhal"
      ],
      "aSub": [
@@ -28680,8 +28680,12 @@
       "Mark Kilimnik"
      ],
      "a": [
-      "Ben Mead",
+      "Garv Singhal",
       "Hector Irizarry"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -28783,8 +28787,12 @@
       "Dustin Rabinowitz"
      ],
      "a": [
-      "Ben Mead",
+      "Garv Singhal",
       "Nathan Law"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -28821,7 +28829,7 @@
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
-      "Ben Mead"
+      "Jack Blumberg"
      ]
     },
     {
@@ -28875,7 +28883,7 @@
       "Bruno Casino"
      ],
      "a": [
-      "Ben Mead",
+      "Nathan Law",
       "Garv Singhal"
      ],
      "aSub": [
@@ -30893,7 +30901,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T03:27:24.910Z";
+  DATA.meta.asOf = "2026-10-07T12:22:40.859Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
