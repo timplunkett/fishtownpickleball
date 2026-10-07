@@ -737,9 +737,9 @@
       "weekNumber": 7,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 612,
+      "awayPoints": 597,
+      "endResult": "away",
       "scheduledTime": "2026-10-06T19:30:00",
       "homeName": "Pickle House",
       "awayName": "Premiere"

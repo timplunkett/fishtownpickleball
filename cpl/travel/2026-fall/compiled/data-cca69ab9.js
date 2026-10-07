@@ -28066,7 +28066,6 @@
    "away": "Bounce Tempest",
    "time": "2026-10-05T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 671,
    "awayPoints": 581,
    "homeGW": 25,
@@ -28523,8 +28522,8 @@
    ],
    "subs": [
     "Nicholas Howcumfu",
-    "Jordan Clever",
-    "Andre Cristobal"
+    "Andre Cristobal",
+    "Jordan Clever"
    ]
   },
   {
@@ -28534,7 +28533,6 @@
    "away": "Bounce Malvern",
    "time": "2026-10-05T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 510,
    "awayPoints": 666,
    "homeGW": 6,
@@ -29677,7 +29675,7 @@
  ],
  "meta": {
   "matchesPlayed": 39,
-  "provisionalMatches": 2,
+  "provisionalMatches": 0,
   "weeks": "1-7",
   "totalPlayers": 197,
   "ratingHistoryWeeks": [
@@ -29790,7 +29788,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T22:05:02.904Z";
+  DATA.meta.asOf = "2026-10-07T22:29:47.475Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

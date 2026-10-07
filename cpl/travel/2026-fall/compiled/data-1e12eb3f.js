@@ -13797,7 +13797,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 572,
+   "leagueRank": 575,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13826,7 +13826,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 567,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13855,7 +13855,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 551,
+   "leagueRank": 552,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13884,7 +13884,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 577,
+   "leagueRank": 580,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13942,7 +13942,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 576,
+   "leagueRank": 579,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13971,7 +13971,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 566,
+   "leagueRank": 569,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14000,7 +14000,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 558,
+   "leagueRank": 561,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14058,7 +14058,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 554,
+   "leagueRank": 555,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14087,7 +14087,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 563,
+   "leagueRank": 566,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14116,7 +14116,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 571,
+   "leagueRank": 574,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14174,7 +14174,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 574,
+   "leagueRank": 577,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14203,13 +14203,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 569,
+   "leagueRank": 572,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fbb519b9-fe15-4ecf-a916-8557761ca54b"
+  },
+  {
+   "name": "John Desantis",
+   "gender": "Male",
+   "team": "Life Time Red Bank",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 548,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "05b6435e-b293-4a54-98e0-b2549d9e26eb"
+  },
+  {
+   "name": "Emil De Carvalho",
+   "gender": "Male",
+   "team": "Life Time Red Bank",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 542,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "22b206f2-1586-44b8-ba33-b51480e6a23e"
   },
   {
    "name": "Raymond Lormel",
@@ -14232,7 +14290,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 560,
+   "leagueRank": 563,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -57451,7 +57509,381 @@
    "home": "Colts Neck Racquet Club",
    "away": "Life Time Red Bank",
    "time": "2026-10-10T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Emil De Carvalho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Carl Nath"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Nicole Tarallo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mccarthy",
+      "Mark Zamkoff"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Emil De Carvalho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Mark Zamkoff"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Elaine Aquilone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Nicole Tarallo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "David Mccarthy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carl Nath",
+      "Emil De Carvalho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Carl Nath"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Mark Zamkoff"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "David Mccarthy"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Nicole Tarallo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carl Nath",
+      "Emil De Carvalho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "David Mccarthy"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Mark Zamkoff"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Carl Nath"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Emil De Carvalho"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Jackie Coneeny"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Zamkoff",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carl Nath",
+      "David Mccarthy"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -58283,7 +58715,197 @@
    "home": "Pickleball Kingdom Hamilton Strikers",
    "away": "Life Time Red Bank",
    "time": "2026-10-11T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "John Desantis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Carl Nath"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Jackie Coneeny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Zamkoff",
+      "Carl Nath"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "John Desantis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elaine Aquilone",
+      "Leo Decker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Carl Nath"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicole Tarallo",
+      "Daniel Ryan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Elaine Aquilone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Decker",
+      "John Desantis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Zamkoff",
+      "Daniel Ryan"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -58829,7 +59451,6 @@
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
   "Linda Goss": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-  "Emil De Carvalho": "22b206f2-1586-44b8-ba33-b51480e6a23e",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Jolly Benitez": "500dfa79-7d57-4028-9545-dbac13b44db6",
@@ -58849,6 +59470,7 @@
   "Pablo Martin": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Cheng Wong": "abef2494-95ed-490f-a661-16939fa02a23",
+  "Kathy Herrin": "b3690879-02e8-483e-ab98-4d9d5f9f29c7",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
   "David Arvan": "c25ace7a-9f60-4226-9e99-068e81f1bad0",
@@ -58857,6 +59479,7 @@
   "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Maggie Regan": "de1fadcc-cb0b-4bef-b6d2-326f46aaede9",
+  "Linda Iacono": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
   "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea"
@@ -58899,6 +59522,14 @@
    "playerId": "04e9aff2-d148-4ff7-8161-a42b0328aa7e",
    "gender": "Female",
    "team": "Colts Neck Racquet Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Desantis",
+   "playerId": "05b6435e-b293-4a54-98e0-b2549d9e26eb",
+   "gender": "Male",
+   "team": "Life Time Red Bank",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59887,6 +60518,14 @@
    "outsideSub": true
   },
   {
+   "name": "Kathy Herrin",
+   "playerId": "b3690879-02e8-483e-ab98-4d9d5f9f29c7",
+   "gender": "Female",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Marilyn Geneveo",
    "playerId": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
    "gender": "Female",
@@ -60107,6 +60746,14 @@
    "playerId": "de1fadcc-cb0b-4bef-b6d2-326f46aaede9",
    "gender": "Female",
    "team": "Dill Dinkers Hatboro",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Linda Iacono",
+   "playerId": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
+   "gender": "Female",
+   "team": "Premiere Aces",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -60347,7 +60994,7 @@
   "matchesPlayed": 73,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 530,
+  "totalPlayers": 532,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -60484,7 +61131,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T12:21:15.754Z";
+  DATA.meta.asOf = "2026-10-07T22:27:39.412Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

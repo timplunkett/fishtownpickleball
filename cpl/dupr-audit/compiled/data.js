@@ -7408,6 +7408,13 @@ window.DUPR_AUDIT = {
    "name": "Jake Laifer",
    "playerId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643",
    "team": "Pickleball Kingdom Hillsborough",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Jake Laifer",
+   "playerId": "d99428a2-b91c-460f-b2d4-cf3ce96f0643",
+   "team": "Pickleball Kingdom Hillsborough",
    "slug": "cca69ab9",
    "gender": "Male"
   },
