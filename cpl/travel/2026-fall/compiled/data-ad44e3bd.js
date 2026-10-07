@@ -3195,8 +3195,8 @@
    "name": "Megan Curren",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 7,
@@ -17651,8 +17651,7 @@
    ],
    "subs": [
     "Josephine Catanzaro",
-    "Jaime Luongo",
-    "Megan Curren"
+    "Jaime Luongo"
    ]
   },
   {
@@ -18580,7 +18579,6 @@
     }
    ],
    "subs": [
-    "Megan Curren",
     "Kelly Lopinto"
    ]
   },
@@ -25037,7 +25035,361 @@
    "home": "Flemington Blue",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-08T11:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Rani Borusu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Allaga",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Kara Chubrik"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynne Silber",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Rani Borusu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Allaga",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Kara Chubrik"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynne Silber",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Kim Allaga"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rani Borusu",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Chubrik",
+      "Lynne Silber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Kim Allaga"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rani Borusu",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Chubrik",
+      "Lynne Silber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rani Borusu",
+      "Kim Allaga"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Chubrik",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynne Silber",
+      "Eileen Clark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rani Borusu",
+      "Kim Allaga"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Chubrik",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynne Silber",
+      "Eileen Clark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Nigro",
+      "Eileen Clark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Allaga",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Lynne Silber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rani Borusu",
+      "Kara Chubrik"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Nigro",
+      "Eileen Clark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Allaga",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushma Rayapudi",
+      "Lynne Silber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rani Borusu",
+      "Kara Chubrik"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25045,7 +25397,361 @@
    "home": "Pickleball Lehigh Valley",
    "away": "Flemington Green",
    "time": "2026-10-08T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Levin",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Curran",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Julia Hollman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Levin",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annette Marsh",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Lynda Levan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tammy Dragon",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Marianne Rosato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Curran",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elizabeth Biehl",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Jamie Levin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheila Curran",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Annette Marsh",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jamie Levin",
+      "Diane Bracco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Sheila Curran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Grace Brennan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynda Levan",
+      "Annette Marsh"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Hollman",
+      "Tammy Dragon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marianne Rosato",
+      "Elizabeth Biehl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Diane Bracco",
+      "Sheila Curran"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25415,7 +26121,361 @@
    "home": "Picklr Newtown",
    "away": "Life Time Red Bank",
    "time": "2026-10-08T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Sara Hylan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marian Kingston",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marian Kingston",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Faccone",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Sara Hylan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Jackie Coneeny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Donna Facconerusin",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Sara Hylan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Faccone",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sara Hylan",
+      "Rachel Levkov"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Jackie Coneeny"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Faccone",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caroline Kinlin",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Baker",
+      "Marie Walsh Mccarty"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Faccone",
+      "Kathleen Nitti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sara Hylan",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marian Kingston",
+      "Kathy Baker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Gina Faccone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Nitti",
+      "Sara Hylan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Donna Facconerusin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jackie Coneeny",
+      "Kathy Baker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Levkov",
+      "Caroline Kinlin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marie Walsh Mccarty",
+      "Marian Kingston"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Faccone",
+      "Kathleen Nitti"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -25794,14 +26854,6 @@
    "outsideSub": true
   },
   {
-   "name": "Megan Curren",
-   "playerId": "6764cb03-b6a2-4b85-95c7-f6ab7d00f203",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Maria Borges",
    "playerId": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
    "gender": "Female",
@@ -26129,7 +27181,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T22:05:15.044Z";
+  DATA.meta.asOf = "2026-10-07T03:28:34.542Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

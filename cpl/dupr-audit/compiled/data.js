@@ -1056,6 +1056,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Andres Garibay",
+   "playerId": "87cdf9ec-df31-4a2f-97b7-e66d39120a8d",
+   "team": "Picklr Newark",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Andress Mims",
    "playerId": "e9878f35-8a92-4887-834e-d8a76881ae41",
    "team": "APC Garden State",
@@ -12799,6 +12806,13 @@ window.DUPR_AUDIT = {
    "playerId": "bf9f2dd4-3b39-4c8c-b768-04a47d1b23f9",
    "team": "Bounce Philly",
    "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Megan Curren",
+   "playerId": "6764cb03-b6a2-4b85-95c7-f6ab7d00f203",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {

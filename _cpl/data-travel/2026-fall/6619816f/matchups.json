@@ -457,18 +457,6 @@
       "awayName": "Flemington"
     },
     {
-      "matchupId": "85901a66-30c1-4df5-8d08-13e79b8bc048",
-      "weekNumber": 6,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-30T19:30:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Jersey Devil"
-    },
-    {
       "matchupId": "d5a4b600-8577-4c06-a500-ac88f7186cd8",
       "weekNumber": 7,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -886,6 +874,18 @@
       "endResult": null,
       "scheduledTime": "2026-11-04T19:30:00",
       "homeName": "Bounce Philly",
+      "awayName": "Jersey Devil"
+    },
+    {
+      "matchupId": "85901a66-30c1-4df5-8d08-13e79b8bc048",
+      "weekNumber": 11,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-08T12:00:00",
+      "homeName": "Jersey Pickleball Club",
       "awayName": "Jersey Devil"
     },
     {

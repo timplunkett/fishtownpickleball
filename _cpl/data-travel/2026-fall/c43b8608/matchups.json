@@ -817,18 +817,6 @@
       "awayName": "Montville Dragons"
     },
     {
-      "matchupId": "e83c96f9-c446-45b0-8b93-df48258bd857",
-      "weekNumber": 8,
-      "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-11T14:00:00",
-      "homeName": "Picklr Fair Lawn",
-      "awayName": "Allstar Pickler"
-    },
-    {
       "matchupId": "fa9ad865-84a9-4cd0-9aa3-6dd83c20bd52",
       "weekNumber": 8,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
@@ -851,6 +839,18 @@
       "scheduledTime": "2026-10-16T19:00:00",
       "homeName": "Monroe",
       "awayName": "Premiere"
+    },
+    {
+      "matchupId": "e83c96f9-c446-45b0-8b93-df48258bd857",
+      "weekNumber": 9,
+      "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-17T11:00:00",
+      "homeName": "Picklr Fair Lawn",
+      "awayName": "Allstar Pickler"
     },
     {
       "matchupId": "a7c1b041-c1c8-4b1e-838c-61b7c83996ed",

@@ -58847,6 +58847,7 @@
   "Matt Mcgrath": "99c26d8d-4ea2-4ca0-90ca-59f78aca4552",
   "Pablo Martin": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
+  "Cheng Wong": "abef2494-95ed-490f-a661-16939fa02a23",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
   "David Arvan": "c25ace7a-9f60-4226-9e99-068e81f1bad0",
@@ -59837,6 +59838,14 @@
    "outsideSub": true
   },
   {
+   "name": "Cheng Wong",
+   "playerId": "abef2494-95ed-490f-a661-16939fa02a23",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Joan Harris",
    "playerId": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
    "gender": "Female",
@@ -60466,7 +60475,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T22:02:59.685Z";
+  DATA.meta.asOf = "2026-10-07T03:25:32.869Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

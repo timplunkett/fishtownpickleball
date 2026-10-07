@@ -11216,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 441,
+   "leagueRank": 442,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 444,
+   "leagueRank": 445,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11390,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 438,
+   "leagueRank": 439,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -46570,14 +46570,6 @@
   {
    "result": null,
    "week": 8,
-   "home": "Picklr Fair Lawn",
-   "away": "Allstar Pickler",
-   "time": "2026-10-11T14:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 8,
    "home": "ACE Moorestown",
    "away": "Flemington",
    "time": "2026-10-11T14:00:00",
@@ -46589,6 +46581,14 @@
    "home": "Monroe",
    "away": "Premiere",
    "time": "2026-10-16T19:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 9,
+   "home": "Picklr Fair Lawn",
+   "away": "Allstar Pickler",
+   "time": "2026-10-17T11:00:00",
    "complete": false
   },
   {
@@ -47058,6 +47058,7 @@
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
   "Dana Sun": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
+  "Erica Pitt": "f7579e8f-8f33-4504-9cdc-80f7ae5242fd",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
  "availableSubs": [
@@ -48030,6 +48031,14 @@
    "outsideSub": true
   },
   {
+   "name": "Erica Pitt",
+   "playerId": "f7579e8f-8f33-4504-9cdc-80f7ae5242fd",
+   "gender": "Female",
+   "team": "PCKLRAMA",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Bin Li",
    "playerId": "f8a98c47-54e1-4f90-a368-e9260d994a8b",
    "gender": "Male",
@@ -48187,7 +48196,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-06T22:04:45.121Z";
+  DATA.meta.asOf = "2026-10-07T03:28:08.544Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
