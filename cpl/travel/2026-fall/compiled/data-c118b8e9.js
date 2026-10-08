@@ -5747,8 +5747,8 @@
    "name": "Yash Mehta",
    "gender": "Male",
    "team": "Pickleball Kingdom Hamilton",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 3,
@@ -32986,8 +32986,7 @@
     }
    ],
    "subs": [
-    "Roberto Marcillo",
-    "Yash Mehta"
+    "Roberto Marcillo"
    ]
   },
   {
@@ -48599,14 +48598,6 @@
    "outsideSub": true
   },
   {
-   "name": "Yash Mehta",
-   "playerId": "adc25ed0-4bc3-47da-9509-4caeb8f90185",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hamilton",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Steven Santiago",
    "playerId": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
    "gender": "Male",
@@ -48958,7 +48949,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T22:30:20.986Z";
+  DATA.meta.asOf = "2026-10-08T22:43:29.796Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -43722,8 +43722,8 @@
     "teamRes": "L",
     "teamGW": 10,
     "teamGL": 22,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

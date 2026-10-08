@@ -4400,7 +4400,7 @@
       "gender": "Male",
       "dupr": "VLR0W5",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "18572eac-af06-4d02-bcce-d41735f743dd",
       "teamName": "Pickleball Kingdom Hamilton",
       "wins": 3,

@@ -18955,6 +18955,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Yash Mehta",
+   "playerId": "adc25ed0-4bc3-47da-9509-4caeb8f90185",
+   "team": "Pickleball Kingdom Hamilton",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Yash Shah",
    "playerId": "fbf8a0f9-a289-4d98-a5e3-478c8dce672a",
    "team": "Bounce Malvern",

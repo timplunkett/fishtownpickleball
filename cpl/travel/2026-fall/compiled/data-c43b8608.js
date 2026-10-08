@@ -11216,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 443,
+   "leagueRank": 444,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11245,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 415,
+   "leagueRank": 416,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11274,7 +11274,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 418,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 446,
+   "leagueRank": 447,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11332,7 +11332,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 419,
+   "leagueRank": 420,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11361,7 +11361,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 414,
+   "leagueRank": 415,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11390,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11419,7 +11419,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 432,
+   "leagueRank": 433,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11448,7 +11448,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -46175,7 +46175,7 @@
       ""
      ],
      "a": [
-      "Lisa Braumann",
+      "Shobana Ravishankar",
       "Pedro Oliveira"
      ]
     },
@@ -46197,12 +46197,8 @@
       ""
      ],
      "a": [
-      "Shobana Ravishankar",
-      "Mark Szeman"
-     ],
-     "aSub": [
-      0,
-      1
+      "Lisa Braumann",
+      "Herald Barber"
      ]
     },
     {
@@ -46235,7 +46231,11 @@
      ],
      "a": [
       "Chris Shung",
-      "Stephen Stasiulewicz"
+      "Mark Szeman"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -46246,11 +46246,7 @@
      ],
      "a": [
       "Herald Barber",
-      "Mark Szeman"
-     ],
-     "aSub": [
-      0,
-      1
+      "Pedro Oliveira"
      ]
     },
     {
@@ -46260,7 +46256,7 @@
       ""
      ],
      "a": [
-      "Shobana Ravishankar",
+      "Izabel Illipronti",
       "Herald Barber"
      ]
     },
@@ -46272,6 +46268,17 @@
      ],
      "a": [
       "Nan Feng",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
       "Gary Grzankowski"
      ]
     },
@@ -46282,19 +46289,12 @@
       ""
      ],
      "a": [
-      "Izabel Illipronti",
-      "Stephen Stasiulewicz"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
       "Ting Chen",
-      "Pedro Oliveira"
+      "Mark Szeman"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -46327,11 +46327,7 @@
      ],
      "a": [
       "Chris Shung",
-      "Mark Szeman"
-     ],
-     "aSub": [
-      0,
-      1
+      "Pedro Oliveira"
      ]
     },
     {
@@ -46342,7 +46338,7 @@
      ],
      "a": [
       "Gary Grzankowski",
-      "Pedro Oliveira"
+      "Herald Barber"
      ]
     },
     {
@@ -46353,7 +46349,7 @@
      ],
      "a": [
       "Margaret Bayse",
-      "Stephen Stasiulewicz"
+      "Gary Grzankowski"
      ]
     },
     {
@@ -46364,11 +46360,7 @@
      ],
      "a": [
       "Nan Feng",
-      "Mark Szeman"
-     ],
-     "aSub": [
-      0,
-      1
+      "Herald Barber"
      ]
     },
     {
@@ -46390,7 +46382,11 @@
      ],
      "a": [
       "Ting Chen",
-      "Herald Barber"
+      "Mark Szeman"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -46433,8 +46429,12 @@
       ""
      ],
      "a": [
-      "Stephen Stasiulewicz",
+      "Mark Szeman",
       "Gary Grzankowski"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -46470,7 +46470,7 @@
       ""
      ],
      "a": [
-      "Lisa Braumann",
+      "Nan Feng",
       "Chris Shung"
      ]
     },
@@ -46492,7 +46492,7 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Shobana Ravishankar",
       "Ting Chen"
      ]
     },
@@ -46515,11 +46515,7 @@
      ],
      "a": [
       "Chris Shung",
-      "Mark Szeman"
-     ],
-     "aSub": [
-      0,
-      1
+      "Pedro Oliveira"
      ]
     },
     {
@@ -46529,8 +46525,12 @@
       ""
      ],
      "a": [
-      "Stephen Stasiulewicz",
-      "Herald Barber"
+      "Herald Barber",
+      "Mark Szeman"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     }
    ]
@@ -46549,7 +46549,361 @@
    "home": "Dill Dinkers Lansdale",
    "away": "APC Garden State",
    "time": "2026-10-11T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Greg Schipske"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patty Andrzejewski",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lizzie Brofft",
+      "Andrew Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liz Mooney",
+      "Yuri Paritsky"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patty Andrzejewski",
+      "Linda Zarrilli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Kim Rodano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Greg Schipske",
+      "Hugh Pinder"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richard Ross",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zarrilli",
+      "Hugh Pinder"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lizzie Brofft",
+      "Andrew Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Rodano",
+      "Richard Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liz Mooney",
+      "Yuri Paritsky"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Lizzie Brofft"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patty Andrzejewski",
+      "Liz Mooney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yuri Paritsky",
+      "Greg Schipske"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Fang",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Zarrilli",
+      "Hugh Pinder"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Greg Schipske"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Rodano",
+      "Andrew Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liz Mooney",
+      "Richard Ross"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patty Andrzejewski",
+      "Linda Zarrilli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Lizzie Brofft"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Greg Schipske",
+      "Yuri Paritsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Fang",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Loeber",
+      "Hugh Pinder"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patty Andrzejewski",
+      "Andrew Fang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Rodano",
+      "John Dechristopher"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liz Mooney",
+      "Richard Ross"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lizzie Brofft",
+      "Linda Zarrilli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Patty Andrzejewski",
+      "Kim Rodano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hugh Pinder",
+      "Greg Schipske"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richard Ross",
+      "Yuri Paritsky"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -47037,6 +47391,7 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Laura Altieri": "16aee8ed-3398-46f5-bd76-ec71473a2db4",
   "Bin Song": "1a3fe8ae-2bb6-472b-b379-62f714bf58a9",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jennifer Alvarez": "4b3f4a35-e94a-402c-869d-77650914bdcb",
@@ -47180,6 +47535,14 @@
    "playerId": "164f58e8-9cc1-4246-97c1-dacef41e07ab",
    "gender": "Female",
    "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Laura Altieri",
+   "playerId": "16aee8ed-3398-46f5-bd76-ec71473a2db4",
+   "gender": "Female",
+   "team": "Premiere",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -48205,7 +48568,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-08T12:32:28.110Z";
+  DATA.meta.asOf = "2026-10-08T22:42:38.271Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
