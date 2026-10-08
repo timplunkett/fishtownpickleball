@@ -11216,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 442,
+   "leagueRank": 443,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11303,7 +11303,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 445,
+   "leagueRank": 446,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11390,7 +11390,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 439,
+   "leagueRank": 440,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -47045,6 +47045,7 @@
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "Denise Werner": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
   "Lisa Viola": "643d57f1-e4de-431d-b486-01fcc266501f",
+  "Erickson Palomares": "7fe56519-e2cf-48d1-8b86-02a58b3acad5",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
@@ -47555,6 +47556,14 @@
    "playerId": "77f18b1c-db78-4d0e-b81d-6d1efde8bb08",
    "gender": "Male",
    "team": "PCKLRAMA",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Erickson Palomares",
+   "playerId": "7fe56519-e2cf-48d1-8b86-02a58b3acad5",
+   "gender": "Male",
+   "team": "Montville Dragons",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -48196,7 +48205,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T03:28:08.544Z";
+  DATA.meta.asOf = "2026-10-08T12:32:28.110Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
