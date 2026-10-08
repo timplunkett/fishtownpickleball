@@ -913,18 +913,6 @@
       "awayName": "Premiere Aces"
     },
     {
-      "matchupId": "58acc5b6-6e47-4ed9-9a53-0ea551828852",
-      "weekNumber": 8,
-      "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-      "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-10T10:00:00",
-      "homeName": "One Love",
-      "awayName": "Premiere Dinkers"
-    },
-    {
       "matchupId": "08771fcf-f4c1-4ab3-be2b-c8b4a9a84dfc",
       "weekNumber": 8,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
@@ -1067,6 +1055,18 @@
       "scheduledTime": "2026-10-11T12:00:00",
       "homeName": "Pickleball Kingdom Hamilton Strikers",
       "awayName": "Life Time Red Bank"
+    },
+    {
+      "matchupId": "58acc5b6-6e47-4ed9-9a53-0ea551828852",
+      "weekNumber": 8,
+      "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+      "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-18T10:00:00",
+      "homeName": "One Love",
+      "awayName": "Premiere Dinkers"
     },
     {
       "matchupId": "2011ca3a-afda-4a08-8b4e-a0daba0796e7",

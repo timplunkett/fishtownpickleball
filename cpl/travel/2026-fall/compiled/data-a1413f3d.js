@@ -52831,7 +52831,7 @@
     {
      "t": "mixed",
      "h": [
-      "Patricia Kavanaugh",
+      "Jillian Hart",
       "Jorge Diaz"
      ],
      "a": [
@@ -52853,7 +52853,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jillian Hart",
+      "Patricia Kavanaugh",
       "John Fallone"
      ],
      "a": [
@@ -52897,8 +52897,8 @@
     {
      "t": "male",
      "h": [
-      "John Fallone",
-      "Stephen Villani"
+      "Tom Hadler",
+      "Jorge Diaz"
      ],
      "a": [
       "Ethan Rosen",
@@ -52942,7 +52942,7 @@
      "t": "mixed",
      "h": [
       "Jillian Hart",
-      "Stephen Villani"
+      "Tom Hadler"
      ],
      "a": [
       "Alexis Milak",
@@ -52952,8 +52952,8 @@
     {
      "t": "female",
      "h": [
-      "Patricia Kavanaugh",
-      "Johanna Kreilick"
+      "Mary Brashier",
+      "Jillian Hart"
      ],
      "a": [
       "Alexis Milak",
@@ -52963,8 +52963,8 @@
     {
      "t": "female",
      "h": [
-      "Mary Brashier",
-      "Jillian Hart"
+      "Johanna Kreilick",
+      "Patricia Kavanaugh"
      ],
      "a": [
       "Sara Mizrahi",
@@ -52975,7 +52975,7 @@
      "t": "male",
      "h": [
       "Eric Berlinger",
-      "Stephen Villani"
+      "Barry Friedman"
      ],
      "a": [
       "Joseph Mizrahi",
@@ -52986,7 +52986,7 @@
      "t": "male",
      "h": [
       "John Fallone",
-      "Jorge Diaz"
+      "Tom Hadler"
      ],
      "a": [
       "Ethan Rosen",
@@ -52996,8 +52996,8 @@
     {
      "t": "mixed",
      "h": [
-      "Johanna Kreilick",
-      "Jorge Diaz"
+      "Jillian Hart",
+      "John Fallone"
      ],
      "a": [
       "Chelsea Convissar",
@@ -53029,8 +53029,8 @@
     {
      "t": "mixed",
      "h": [
-      "Jillian Hart",
-      "John Fallone"
+      "Johanna Kreilick",
+      "Jorge Diaz"
      ],
      "a": [
       "Perri Goldstein",
@@ -53063,7 +53063,7 @@
      "t": "male",
      "h": [
       "John Fallone",
-      "Jorge Diaz"
+      "Tom Hadler"
      ],
      "a": [
       "Ethan Rosen",
@@ -53074,7 +53074,7 @@
      "t": "male",
      "h": [
       "Barry Friedman",
-      "Stephen Villani"
+      "Jorge Diaz"
      ],
      "a": [
       "Jordan Brochin",
@@ -53118,7 +53118,7 @@
      "t": "mixed",
      "h": [
       "Jillian Hart",
-      "Stephen Villani"
+      "Tom Hadler"
      ],
      "a": [
       "Alexis Milak",
@@ -53151,7 +53151,7 @@
      "t": "male",
      "h": [
       "John Fallone",
-      "Stephen Villani"
+      "Jorge Diaz"
      ],
      "a": [
       "Jordan Brochin",
@@ -53162,7 +53162,7 @@
      "t": "male",
      "h": [
       "Eric Berlinger",
-      "Jorge Diaz"
+      "Tom Hadler"
      ],
      "a": [
       "Joseph Mizrahi",
@@ -56003,7 +56003,7 @@
      ],
      "a": [
       "Caitlin Hall",
-      "Nicholas Vanderveer"
+      "Christopher Venuto"
      ]
     },
     {
@@ -56047,7 +56047,7 @@
      ],
      "a": [
       "Gage Cvijic",
-      "Nicholas Vanderveer"
+      "Felipe Cruz"
      ]
     },
     {
@@ -56080,7 +56080,7 @@
      ],
      "a": [
       "Caitlin Hall",
-      "Nicholas Vanderveer"
+      "Christopher Venuto"
      ]
     },
     {
@@ -56146,7 +56146,7 @@
      ],
      "a": [
       "Christopher Venuto",
-      "Nicholas Vanderveer"
+      "Rohan Sabharwal"
      ]
     },
     {
@@ -56156,7 +56156,7 @@
       "Adriene Khon"
      ],
      "a": [
-      "Joyce Yu",
+      "Caitlin Hall",
       "Gage Cvijic"
      ]
     },
@@ -56167,7 +56167,7 @@
       "Danny Vazquez"
      ],
      "a": [
-      "Caitlin Hall",
+      "Joyce Yu",
       "Christopher Venuto"
      ]
     },
@@ -56223,7 +56223,7 @@
      ],
      "a": [
       "Gage Cvijic",
-      "Nicholas Vanderveer"
+      "Rohan Sabharwal"
      ]
     },
     {
@@ -56234,7 +56234,7 @@
      ],
      "a": [
       "Christopher Venuto",
-      "Rohan Sabharwal"
+      "Felipe Cruz"
      ]
     },
     {
@@ -56267,7 +56267,7 @@
      ],
      "a": [
       "Lizz Dunn",
-      "Nicholas Vanderveer"
+      "Christopher Venuto"
      ]
     },
     {
@@ -56321,7 +56321,7 @@
       "David Rigas"
      ],
      "a": [
-      "Nicholas Vanderveer",
+      "Felipe Cruz",
       "Christopher Venuto"
      ]
     }
@@ -58098,7 +58098,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T22:28:09.707Z";
+  DATA.meta.asOf = "2026-10-08T03:41:05.052Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

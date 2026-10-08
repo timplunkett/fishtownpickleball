@@ -4642,6 +4642,35 @@
    "playerId": "38944e1a-d33f-4b2f-8d9c-41a0fdd273cd"
   },
   {
+   "name": "Sara Mizrahi",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 182,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0"
+  },
+  {
    "name": "Jenny Miller",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -25040,8 +25069,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Meghan Klein"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25051,8 +25080,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jo Marie Holzhammer",
+      "Holly Ferguson"
      ],
      "a": [
       "Kim Allaga",
@@ -25062,8 +25091,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Monika Torbus"
      ],
      "a": [
       "Eileen Clark",
@@ -25073,8 +25102,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Peggy Matzen"
      ],
      "a": [
       "Lynne Silber",
@@ -25084,8 +25113,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Christine Ziegler"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25095,8 +25124,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Meghan Klein"
      ],
      "a": [
       "Kim Allaga",
@@ -25106,8 +25135,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Jo Marie Holzhammer"
      ],
      "a": [
       "Eileen Clark",
@@ -25117,8 +25146,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Maureen Dazzo"
      ],
      "a": [
       "Lynne Silber",
@@ -25128,8 +25157,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jo Marie Holzhammer",
+      "Karen Waldon"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25139,8 +25168,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Christine Ziegler"
      ],
      "a": [
       "Rani Borusu",
@@ -25150,8 +25179,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Maureen Dazzo"
      ],
      "a": [
       "Kara Chubrik",
@@ -25161,8 +25190,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Peggy Matzen"
      ],
      "a": [
       "Eileen Clark",
@@ -25172,8 +25201,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Meghan Klein"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25183,8 +25212,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jo Marie Holzhammer",
+      "Karen Waldon"
      ],
      "a": [
       "Rani Borusu",
@@ -25194,8 +25223,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Holly Ferguson"
      ],
      "a": [
       "Kara Chubrik",
@@ -25205,8 +25234,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Peggy Matzen"
      ],
      "a": [
       "Eileen Clark",
@@ -25216,8 +25245,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Jo Marie Holzhammer"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25227,8 +25256,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Meghan Klein"
      ],
      "a": [
       "Rani Borusu",
@@ -25238,8 +25267,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Maureen Dazzo"
      ],
      "a": [
       "Kara Chubrik",
@@ -25249,8 +25278,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Jessica Wormeck"
      ],
      "a": [
       "Lynne Silber",
@@ -25260,8 +25289,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meghan Klein",
+      "Karen Waldon"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25271,8 +25300,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Jessica Wormeck"
      ],
      "a": [
       "Rani Borusu",
@@ -25282,8 +25311,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Peggy Matzen"
      ],
      "a": [
       "Kara Chubrik",
@@ -25293,8 +25322,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jo Marie Holzhammer",
+      "Christine Ziegler"
      ],
      "a": [
       "Lynne Silber",
@@ -25304,8 +25333,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Christine Ziegler"
      ],
      "a": [
       "Nikki Nigro",
@@ -25315,8 +25344,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Peggy Matzen"
      ],
      "a": [
       "Kim Allaga",
@@ -25326,8 +25355,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Jo Marie Holzhammer"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25337,8 +25366,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Karen Waldon"
      ],
      "a": [
       "Rani Borusu",
@@ -25348,8 +25377,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Jessica Wormeck"
      ],
      "a": [
       "Nikki Nigro",
@@ -25359,8 +25388,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Karen Waldon"
      ],
      "a": [
       "Kim Allaga",
@@ -25370,8 +25399,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Meghan Klein"
      ],
      "a": [
       "Sushma Rayapudi",
@@ -25381,8 +25410,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Christine Ziegler"
      ],
      "a": [
       "Rani Borusu",
@@ -25764,8 +25793,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Donna Finn"
      ],
      "a": [
       "Kayla Gipson",
@@ -25775,19 +25804,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Sara Mizrahi"
      ],
      "a": [
       "Marina Berger",
       "Paula Cushing"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeanmarie Farkouh",
+      "Corinne Palma"
      ],
      "a": [
       "Marina Volpe",
@@ -25797,8 +25830,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Kimberley Levins"
      ],
      "a": [
       "Linda Seemann",
@@ -25808,8 +25841,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Jeanmarie Farkouh"
      ],
      "a": [
       "Jasmine Ho",
@@ -25819,8 +25852,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Wendi Wolanske"
      ],
      "a": [
       "Linda Johns",
@@ -25830,8 +25863,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Kathleen Lynch"
      ],
      "a": [
       "Marina Volpe",
@@ -25841,19 +25874,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Sara Mizrahi"
      ],
      "a": [
       "Olga Kim",
       "Paula Cushing"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Kimberley Levins"
      ],
      "a": [
       "Paula Cushing",
@@ -25863,8 +25900,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Corinne Palma"
      ],
      "a": [
       "Maureen Bruno",
@@ -25874,8 +25911,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Kathleen Lynch"
      ],
      "a": [
       "Linda Seemann",
@@ -25885,30 +25922,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Donna Finn"
      ],
      "a": [
       "Olga Kim",
       "Kayla Gipson"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Kimberley Levins"
      ],
      "a": [
       "Olga Kim",
       "Maureen Bruno"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Wendi Wolanske"
      ],
      "a": [
       "Marina Volpe",
@@ -25918,8 +25963,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeanmarie Farkouh",
+      "Donna Finn"
      ],
      "a": [
       "Linda Johns",
@@ -25929,8 +25974,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Tina Cros"
      ],
      "a": [
       "Paula Cushing",
@@ -25940,8 +25985,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Corinne Palma"
      ],
      "a": [
       "Maureen Bruno",
@@ -25951,8 +25996,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Kathleen Lynch"
      ],
      "a": [
       "Linda Seemann",
@@ -25962,19 +26007,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Sara Mizrahi"
      ],
      "a": [
       "Marina Berger",
       "Paula Cushing"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Virginia Kenny"
      ],
      "a": [
       "Marina Volpe",
@@ -25984,8 +26033,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Lynch",
+      "Donna Finn"
      ],
      "a": [
       "Kayla Gipson",
@@ -25995,8 +26044,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeanmarie Farkouh",
+      "Wendi Wolanske"
      ],
      "a": [
       "Jasmine Ho",
@@ -26006,8 +26055,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Tina Cros"
      ],
      "a": [
       "Linda Seemann",
@@ -26017,19 +26066,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Kimberley Levins"
      ],
      "a": [
       "Marina Volpe",
       "Olga Kim"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeanmarie Farkouh",
+      "Virginia Kenny"
      ],
      "a": [
       "Olga Kim",
@@ -26039,8 +26092,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Wendi Wolanske"
      ],
      "a": [
       "Marina Volpe",
@@ -26050,8 +26103,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Corinne Palma"
      ],
      "a": [
       "Linda Seemann",
@@ -26061,8 +26114,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Amy Wondrack"
      ],
      "a": [
       "Paula Cushing",
@@ -26072,8 +26125,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Wendi Wolanske"
      ],
      "a": [
       "Olga Kim",
@@ -26083,8 +26136,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Lynch",
+      "Donna Finn"
      ],
      "a": [
       "Kayla Gipson",
@@ -26094,8 +26147,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Amy Wondrack"
      ],
      "a": [
       "Marina Volpe",
@@ -26105,8 +26158,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Corinne Palma"
      ],
      "a": [
       "Maureen Bruno",
@@ -26703,7 +26756,6 @@
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
-  "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
@@ -27082,7 +27134,7 @@
   "matchesPlayed": 33,
   "provisionalMatches": 1,
   "weeks": "1-6",
-  "totalPlayers": 174,
+  "totalPlayers": 175,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -27181,7 +27233,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T22:29:58.369Z";
+  DATA.meta.asOf = "2026-10-08T03:42:54.559Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

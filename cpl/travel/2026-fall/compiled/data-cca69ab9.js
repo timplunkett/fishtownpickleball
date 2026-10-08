@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -29299,8 +29299,10 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
+  "Nicholas Vanderveer": "4d33c53f-a066-4543-b2cf-313c11165227",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
+  "Rohan Sabharwal": "a7de14f0-a8da-402c-9340-c57389b6736a",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
  "availableSubs": [
@@ -29425,6 +29427,14 @@
    "outsideSub": true
   },
   {
+   "name": "Nicholas Vanderveer",
+   "playerId": "4d33c53f-a066-4543-b2cf-313c11165227",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Andre Cristobal",
    "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
    "gender": "Male",
@@ -29541,6 +29551,14 @@
    "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
    "gender": "Male",
    "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rohan Sabharwal",
+   "playerId": "a7de14f0-a8da-402c-9340-c57389b6736a",
+   "gender": "Male",
+   "team": "Monroe",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -29788,7 +29806,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-07T22:29:47.475Z";
+  DATA.meta.asOf = "2026-10-08T03:42:43.123Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
