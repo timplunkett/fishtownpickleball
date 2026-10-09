@@ -6353,6 +6353,35 @@
    "playerId": "cdd3c5e6-7a40-4b65-a175-7910ba8e9ef9"
   },
   {
+   "name": "Matt Hancock",
+   "gender": "Male",
+   "team": "Bounce Malvern Boom",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 227,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "ce58f563-e12a-466e-b741-cafc1bbbd0ad"
+  },
+  {
    "name": "Rick Vazquez",
    "gender": "Male",
    "team": "Pickleball Palace",
@@ -26578,8 +26607,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Chris Norton"
      ],
      "a": [
       "Laura Sweet",
@@ -26589,8 +26618,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Brett Kleger"
      ],
      "a": [
       "Jiyun Yuh",
@@ -26600,8 +26629,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Ed Gieske"
      ],
      "a": [
       "Cynthia Covie",
@@ -26611,12 +26640,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Matt Hancock"
      ],
      "a": [
       "Lisa Loeber",
       "Greg Schipske"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -26626,8 +26659,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Cindy Hu"
      ],
      "a": [
       "Laura Sweet",
@@ -26637,8 +26670,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Kristina Rhodes"
      ],
      "a": [
       "Cynthia Covie",
@@ -26648,8 +26681,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Brett Kleger"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26663,19 +26696,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ed Gieske",
+      "Matt Hancock"
      ],
      "a": [
       "Andrew Fleischer",
       "Tim Bruno"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Ed Gieske"
      ],
      "a": [
       "Jiyun Yuh",
@@ -26685,8 +26722,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Kerry Gray-Style",
@@ -26696,12 +26733,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Matt Hancock"
      ],
      "a": [
       "Lisa Loeber",
       "John Dechristopher"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -26711,8 +26752,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Brett Kleger"
      ],
      "a": [
       "Laura Sweet",
@@ -26726,8 +26767,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Linda Zhu"
      ],
      "a": [
       "Laura Sweet",
@@ -26737,8 +26778,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Kristina Rhodes"
      ],
      "a": [
       "Lisa Loeber",
@@ -26748,12 +26789,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Hancock",
+      "Ed Gieske"
      ],
      "a": [
       "Greg Schipske",
       "John Dechristopher"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -26763,8 +26808,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26774,8 +26819,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Chris Norton"
      ],
      "a": [
       "Cynthia Covie",
@@ -26789,8 +26834,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Ed Gieske"
      ],
      "a": [
       "Kerry Gray-Style",
@@ -26800,8 +26845,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Laura Sweet",
@@ -26811,8 +26856,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Brett Kleger"
      ],
      "a": [
       "Jiyun Yuh",
@@ -26822,8 +26867,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Lindsay Duphily"
      ],
      "a": [
       "Laura Sweet",
@@ -26833,8 +26878,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Cindy Hu"
      ],
      "a": [
       "Cynthia Covie",
@@ -26844,12 +26889,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Matt Hancock"
      ],
      "a": [
       "Tim Bruno",
       "John Dechristopher"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -26859,8 +26908,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sandro Stefanelli",
+      "Chris Norton"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26870,8 +26919,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Brett Kleger"
      ],
      "a": [
       "Lisa Loeber",
@@ -26881,12 +26930,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Zhu",
+      "Matt Hancock"
      ],
      "a": [
       "Jiyun Yuh",
       "Greg Schipske"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -26896,8 +26949,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Ed Gieske"
      ],
      "a": [
       "Cynthia Covie",
@@ -26907,8 +26960,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Chris Norton"
      ],
      "a": [
       "Kerry Gray-Style",
@@ -26922,8 +26975,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Jamila Sefiane"
      ],
      "a": [
       "Lisa Loeber",
@@ -26933,8 +26986,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Linda Zhu"
      ],
      "a": [
       "Jiyun Yuh",
@@ -26944,8 +26997,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Chris Norton"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26959,12 +27012,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sandro Stefanelli",
+      "Matt Hancock"
      ],
      "a": [
       "Andrew Fleischer",
       "Tim Bruno"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -27670,7 +27727,6 @@
   "Terry Gabel": "ab357b8a-99d5-4fe3-aae6-25eb07662d7c",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Xilin Zhao": "bfecc55a-a909-44da-8292-6b59b37a6043",
-  "Matt Hancock": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
   "Alex Miller": "d74d4a67-cb90-44d8-aeea-b48fab564427",
   "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2"
  },
@@ -28232,7 +28288,7 @@
   "matchesPlayed": 32,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 233,
+  "totalPlayers": 234,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -28339,7 +28395,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T03:45:21.936Z";
+  DATA.meta.asOf = "2026-10-09T12:19:01.670Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
