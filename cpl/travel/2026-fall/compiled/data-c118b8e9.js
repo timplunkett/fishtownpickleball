@@ -8171,7 +8171,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 307,
+   "leagueRank": 308,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8200,7 +8200,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 303,
+   "leagueRank": 304,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -48256,6 +48256,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
+  "Charley Ma": "14c024ce-7dc7-4c38-8c17-3467871220b6",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
@@ -48328,6 +48329,14 @@
   {
    "name": "Chris Cheng",
    "playerId": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Charley Ma",
+   "playerId": "14c024ce-7dc7-4c38-8c17-3467871220b6",
    "gender": "Male",
    "team": "Allstar Pickler",
    "isCaptain": false,
@@ -48949,7 +48958,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-08T22:43:29.796Z";
+  DATA.meta.asOf = "2026-10-09T22:05:20.825Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

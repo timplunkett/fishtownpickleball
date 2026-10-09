@@ -49983,6 +49983,330 @@
   {
     "matchupId": "466f0292-ed45-4981-beac-8e8ae6c88fb7",
     "details": {
+      "matchupPlayerStats": {
+        "$values": [
+          {
+            "playerId": "2781e45d-77e0-4ec8-9796-1f54400fe031",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": false,
+            "gamesPlayed": 5,
+            "wins": 3,
+            "losses": 2,
+            "pointsWon": 97,
+            "totalPointsAgainst": 85,
+            "clutchWins": 1,
+            "clutchLosses": 0,
+            "mixedWins": 3,
+            "mixedLosses": 1,
+            "genderWins": 0,
+            "genderLosses": 1
+          },
+          {
+            "playerId": "3207fd7d-1bc1-44df-a915-8eb4019821db",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": true,
+            "gamesPlayed": 8,
+            "wins": 2,
+            "losses": 6,
+            "pointsWon": 153,
+            "totalPointsAgainst": 158,
+            "clutchWins": 0,
+            "clutchLosses": 4,
+            "mixedWins": 0,
+            "mixedLosses": 4,
+            "genderWins": 2,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": true,
+            "gamesPlayed": 6,
+            "wins": 3,
+            "losses": 3,
+            "pointsWon": 96,
+            "totalPointsAgainst": 115,
+            "clutchWins": 1,
+            "clutchLosses": 0,
+            "mixedWins": 1,
+            "mixedLosses": 1,
+            "genderWins": 2,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "548c8320-7e09-4649-bd1f-78fb770ead6f",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": true,
+            "gamesPlayed": 8,
+            "wins": 5,
+            "losses": 3,
+            "pointsWon": 159,
+            "totalPointsAgainst": 138,
+            "clutchWins": 1,
+            "clutchLosses": 2,
+            "mixedWins": 1,
+            "mixedLosses": 3,
+            "genderWins": 4,
+            "genderLosses": 0
+          },
+          {
+            "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": true,
+            "gamesPlayed": 6,
+            "wins": 3,
+            "losses": 3,
+            "pointsWon": 113,
+            "totalPointsAgainst": 103,
+            "clutchWins": 0,
+            "clutchLosses": 1,
+            "mixedWins": 1,
+            "mixedLosses": 2,
+            "genderWins": 2,
+            "genderLosses": 1
+          },
+          {
+            "playerId": "7a9facfb-13f6-4253-ba5b-0693eaba09e4",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": true,
+            "gamesPlayed": 5,
+            "wins": 3,
+            "losses": 2,
+            "pointsWon": 94,
+            "totalPointsAgainst": 91,
+            "clutchWins": 0,
+            "clutchLosses": 0,
+            "mixedWins": 1,
+            "mixedLosses": 1,
+            "genderWins": 2,
+            "genderLosses": 1
+          },
+          {
+            "playerId": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 6,
+            "wins": 0,
+            "losses": 6,
+            "pointsWon": 92,
+            "totalPointsAgainst": 126,
+            "clutchWins": 0,
+            "clutchLosses": 1,
+            "mixedWins": 0,
+            "mixedLosses": 2,
+            "genderWins": 0,
+            "genderLosses": 4
+          },
+          {
+            "playerId": "85ee3181-a3ea-4022-8475-6d1c6b80211f",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": false,
+            "gamesPlayed": 8,
+            "wins": 5,
+            "losses": 3,
+            "pointsWon": 157,
+            "totalPointsAgainst": 117,
+            "clutchWins": 0,
+            "clutchLosses": 2,
+            "mixedWins": 3,
+            "mixedLosses": 1,
+            "genderWins": 2,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 7,
+            "wins": 4,
+            "losses": 3,
+            "pointsWon": 131,
+            "totalPointsAgainst": 128,
+            "clutchWins": 1,
+            "clutchLosses": 0,
+            "mixedWins": 2,
+            "mixedLosses": 2,
+            "genderWins": 2,
+            "genderLosses": 1
+          },
+          {
+            "playerId": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 7,
+            "wins": 2,
+            "losses": 5,
+            "pointsWon": 113,
+            "totalPointsAgainst": 143,
+            "clutchWins": 2,
+            "clutchLosses": 0,
+            "mixedWins": 2,
+            "mixedLosses": 2,
+            "genderWins": 0,
+            "genderLosses": 3
+          },
+          {
+            "playerId": "acf05b71-fa40-494b-adca-d3c411d484a6",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": true,
+            "gamesPlayed": 6,
+            "wins": 3,
+            "losses": 3,
+            "pointsWon": 114,
+            "totalPointsAgainst": 105,
+            "clutchWins": 0,
+            "clutchLosses": 1,
+            "mixedWins": 2,
+            "mixedLosses": 1,
+            "genderWins": 1,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "ad5025f0-478c-47b3-a437-85e53a87daa2",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": false,
+            "gamesPlayed": 8,
+            "wins": 8,
+            "losses": 0,
+            "pointsWon": 168,
+            "totalPointsAgainst": 113,
+            "clutchWins": 0,
+            "clutchLosses": 0,
+            "mixedWins": 4,
+            "mixedLosses": 0,
+            "genderWins": 4,
+            "genderLosses": 0
+          },
+          {
+            "playerId": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": false,
+            "gamesPlayed": 7,
+            "wins": 4,
+            "losses": 3,
+            "pointsWon": 138,
+            "totalPointsAgainst": 114,
+            "clutchWins": 0,
+            "clutchLosses": 2,
+            "mixedWins": 2,
+            "mixedLosses": 2,
+            "genderWins": 2,
+            "genderLosses": 1
+          },
+          {
+            "playerId": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 7,
+            "wins": 5,
+            "losses": 2,
+            "pointsWon": 139,
+            "totalPointsAgainst": 125,
+            "clutchWins": 0,
+            "clutchLosses": 1,
+            "mixedWins": 2,
+            "mixedLosses": 2,
+            "genderWins": 3,
+            "genderLosses": 0
+          },
+          {
+            "playerId": "b5613775-f07c-408f-8130-b53d7f58438f",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 6,
+            "wins": 1,
+            "losses": 5,
+            "pointsWon": 81,
+            "totalPointsAgainst": 124,
+            "clutchWins": 1,
+            "clutchLosses": 0,
+            "mixedWins": 0,
+            "mixedLosses": 3,
+            "genderWins": 1,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "b933475f-e6a9-4716-a60a-acfbd36ec14c",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": false,
+            "gamesPlayed": 4,
+            "wins": 0,
+            "losses": 4,
+            "pointsWon": 66,
+            "totalPointsAgainst": 84,
+            "clutchWins": 0,
+            "clutchLosses": 0,
+            "mixedWins": 0,
+            "mixedLosses": 1,
+            "genderWins": 0,
+            "genderLosses": 3
+          },
+          {
+            "playerId": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 7,
+            "wins": 6,
+            "losses": 1,
+            "pointsWon": 136,
+            "totalPointsAgainst": 130,
+            "clutchWins": 4,
+            "clutchLosses": 0,
+            "mixedWins": 4,
+            "mixedLosses": 0,
+            "genderWins": 2,
+            "genderLosses": 1
+          },
+          {
+            "playerId": "c6482905-6954-4241-a6c3-ba077c367846",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 7,
+            "wins": 3,
+            "losses": 4,
+            "pointsWon": 108,
+            "totalPointsAgainst": 138,
+            "clutchWins": 2,
+            "clutchLosses": 0,
+            "mixedWins": 2,
+            "mixedLosses": 2,
+            "genderWins": 1,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
+            "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+            "isSub": false,
+            "gamesPlayed": 6,
+            "wins": 3,
+            "losses": 3,
+            "pointsWon": 104,
+            "totalPointsAgainst": 114,
+            "clutchWins": 1,
+            "clutchLosses": 0,
+            "mixedWins": 2,
+            "mixedLosses": 1,
+            "genderWins": 1,
+            "genderLosses": 2
+          },
+          {
+            "playerId": "ca670ae8-0768-49d4-9984-f708cd52786c",
+            "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+            "isSub": false,
+            "gamesPlayed": 4,
+            "wins": 1,
+            "losses": 3,
+            "pointsWon": 69,
+            "totalPointsAgainst": 77,
+            "clutchWins": 0,
+            "clutchLosses": 0,
+            "mixedWins": 0,
+            "mixedLosses": 1,
+            "genderWins": 1,
+            "genderLosses": 2
+          }
+        ]
+      },
       "lineups": {
         "lineups": {
           "$values": [
@@ -49992,8 +50316,8 @@
               "homePlayerId2": "2781e45d-77e0-4ec8-9796-1f54400fe031",
               "awayPlayerId1": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
               "awayPlayerId2": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 22,
+              "awayScore": 20,
               "matchType": "mixed"
             },
             {
@@ -50002,8 +50326,8 @@
               "homePlayerId2": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 15,
               "matchType": "mixed"
             },
             {
@@ -50012,8 +50336,8 @@
               "homePlayerId2": "acf05b71-fa40-494b-adca-d3c411d484a6",
               "awayPlayerId1": "b5613775-f07c-408f-8130-b53d7f58438f",
               "awayPlayerId2": "7a9facfb-13f6-4253-ba5b-0693eaba09e4",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 17,
               "matchType": "mixed"
             },
             {
@@ -50022,8 +50346,8 @@
               "homePlayerId2": "76874590-6501-40f8-ab24-7df0fb631c71",
               "awayPlayerId1": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
               "awayPlayerId2": "c6482905-6954-4241-a6c3-ba077c367846",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 20,
+              "awayScore": 22,
               "matchType": "mixed"
             },
             {
@@ -50032,8 +50356,8 @@
               "homePlayerId2": "3207fd7d-1bc1-44df-a915-8eb4019821db",
               "awayPlayerId1": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
               "awayPlayerId2": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 20,
+              "awayScore": 22,
               "matchType": "female"
             },
             {
@@ -50042,8 +50366,8 @@
               "homePlayerId2": "548c8320-7e09-4649-bd1f-78fb770ead6f",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 14,
               "matchType": "female"
             },
             {
@@ -50052,8 +50376,8 @@
               "homePlayerId2": "acf05b71-fa40-494b-adca-d3c411d484a6",
               "awayPlayerId1": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
               "awayPlayerId2": "c6482905-6954-4241-a6c3-ba077c367846",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 15,
               "matchType": "male"
             },
             {
@@ -50062,8 +50386,8 @@
               "homePlayerId2": "76874590-6501-40f8-ab24-7df0fb631c71",
               "awayPlayerId1": "7a9facfb-13f6-4253-ba5b-0693eaba09e4",
               "awayPlayerId2": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 17,
+              "awayScore": 21,
               "matchType": "male"
             },
             {
@@ -50072,8 +50396,8 @@
               "homePlayerId2": "acf05b71-fa40-494b-adca-d3c411d484a6",
               "awayPlayerId1": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
               "awayPlayerId2": "c6482905-6954-4241-a6c3-ba077c367846",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 19,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {
@@ -50082,8 +50406,8 @@
               "homePlayerId2": "2781e45d-77e0-4ec8-9796-1f54400fe031",
               "awayPlayerId1": "b5613775-f07c-408f-8130-b53d7f58438f",
               "awayPlayerId2": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 15,
               "matchType": "mixed"
             },
             {
@@ -50092,8 +50416,8 @@
               "homePlayerId2": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 19,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {
@@ -50102,8 +50426,8 @@
               "homePlayerId2": "76874590-6501-40f8-ab24-7df0fb631c71",
               "awayPlayerId1": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
               "awayPlayerId2": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 14,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {
@@ -50112,8 +50436,8 @@
               "homePlayerId2": "548c8320-7e09-4649-bd1f-78fb770ead6f",
               "awayPlayerId1": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
               "awayPlayerId2": "b5613775-f07c-408f-8130-b53d7f58438f",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 8,
               "matchType": "female"
             },
             {
@@ -50122,8 +50446,8 @@
               "homePlayerId2": "3207fd7d-1bc1-44df-a915-8eb4019821db",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 14,
               "matchType": "female"
             },
             {
@@ -50132,8 +50456,8 @@
               "homePlayerId2": "76874590-6501-40f8-ab24-7df0fb631c71",
               "awayPlayerId1": "c6482905-6954-4241-a6c3-ba077c367846",
               "awayPlayerId2": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 9,
               "matchType": "male"
             },
             {
@@ -50142,8 +50466,8 @@
               "homePlayerId2": "ca670ae8-0768-49d4-9984-f708cd52786c",
               "awayPlayerId1": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
               "awayPlayerId2": "7a9facfb-13f6-4253-ba5b-0693eaba09e4",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 16,
+              "awayScore": 21,
               "matchType": "male"
             },
             {
@@ -50152,8 +50476,8 @@
               "homePlayerId2": "2781e45d-77e0-4ec8-9796-1f54400fe031",
               "awayPlayerId1": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
               "awayPlayerId2": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 18,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {
@@ -50162,8 +50486,8 @@
               "homePlayerId2": "76874590-6501-40f8-ab24-7df0fb631c71",
               "awayPlayerId1": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
               "awayPlayerId2": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 17,
               "matchType": "mixed"
             },
             {
@@ -50172,8 +50496,8 @@
               "homePlayerId2": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "c6482905-6954-4241-a6c3-ba077c367846",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 12,
               "matchType": "mixed"
             },
             {
@@ -50182,8 +50506,8 @@
               "homePlayerId2": "ca670ae8-0768-49d4-9984-f708cd52786c",
               "awayPlayerId1": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
               "awayPlayerId2": "7a9facfb-13f6-4253-ba5b-0693eaba09e4",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 16,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {
@@ -50192,8 +50516,8 @@
               "homePlayerId2": "548c8320-7e09-4649-bd1f-78fb770ead6f",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 16,
               "matchType": "female"
             },
             {
@@ -50202,8 +50526,8 @@
               "homePlayerId2": "3207fd7d-1bc1-44df-a915-8eb4019821db",
               "awayPlayerId1": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
               "awayPlayerId2": "b5613775-f07c-408f-8130-b53d7f58438f",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 23,
               "matchType": "female"
             },
             {
@@ -50212,8 +50536,8 @@
               "homePlayerId2": "76874590-6501-40f8-ab24-7df0fb631c71",
               "awayPlayerId1": "7a9facfb-13f6-4253-ba5b-0693eaba09e4",
               "awayPlayerId2": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 14,
               "matchType": "male"
             },
             {
@@ -50222,8 +50546,8 @@
               "homePlayerId2": "acf05b71-fa40-494b-adca-d3c411d484a6",
               "awayPlayerId1": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
               "awayPlayerId2": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 16,
+              "awayScore": 21,
               "matchType": "male"
             },
             {
@@ -50232,8 +50556,8 @@
               "homePlayerId2": "acf05b71-fa40-494b-adca-d3c411d484a6",
               "awayPlayerId1": "b5613775-f07c-408f-8130-b53d7f58438f",
               "awayPlayerId2": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 10,
               "matchType": "mixed"
             },
             {
@@ -50242,8 +50566,8 @@
               "homePlayerId2": "b933475f-e6a9-4716-a60a-acfbd36ec14c",
               "awayPlayerId1": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
               "awayPlayerId2": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 17,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {
@@ -50252,8 +50576,8 @@
               "homePlayerId2": "ad956d26-e552-40eb-97c4-38edfc1b0bc1",
               "awayPlayerId1": "ab1e8f20-ca9b-42fe-9c6a-3785c86ffe65",
               "awayPlayerId2": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 20,
+              "awayScore": 22,
               "matchType": "mixed"
             },
             {
@@ -50262,8 +50586,8 @@
               "homePlayerId2": "2781e45d-77e0-4ec8-9796-1f54400fe031",
               "awayPlayerId1": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
               "awayPlayerId2": "c6482905-6954-4241-a6c3-ba077c367846",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 9,
               "matchType": "mixed"
             },
             {
@@ -50272,8 +50596,8 @@
               "homePlayerId2": "3207fd7d-1bc1-44df-a915-8eb4019821db",
               "awayPlayerId1": "7b7b29be-c4b7-4ca9-8fd9-77ec362e761b",
               "awayPlayerId2": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 18,
               "matchType": "female"
             },
             {
@@ -50282,8 +50606,8 @@
               "homePlayerId2": "85ee3181-a3ea-4022-8475-6d1c6b80211f",
               "awayPlayerId1": "bbfe7f09-94bd-4942-82a2-0590410c4d9e",
               "awayPlayerId2": "b5613775-f07c-408f-8130-b53d7f58438f",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 21,
+              "awayScore": 10,
               "matchType": "female"
             },
             {
@@ -50292,8 +50616,8 @@
               "homePlayerId2": "2781e45d-77e0-4ec8-9796-1f54400fe031",
               "awayPlayerId1": "899ba1d1-37e5-4ad6-8daa-f726376776e5",
               "awayPlayerId2": "c6482905-6954-4241-a6c3-ba077c367846",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 16,
+              "awayScore": 21,
               "matchType": "male"
             },
             {
@@ -50302,8 +50626,8 @@
               "homePlayerId2": "acf05b71-fa40-494b-adca-d3c411d484a6",
               "awayPlayerId1": "33233dc6-b78e-4deb-88d4-2742aacf5eb9",
               "awayPlayerId2": "ade1fbef-0cf7-45b1-b490-8f6b308bda17",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 16,
+              "awayScore": 21,
               "matchType": "male"
             }
           ]

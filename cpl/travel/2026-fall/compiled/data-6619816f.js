@@ -28168,7 +28168,6 @@
    "away": "Monroe",
    "time": "2026-10-07T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 642,
    "awayPoints": 564,
    "homeGW": 18,
@@ -30025,7 +30024,6 @@
    "away": "Flemington",
    "time": "2026-10-07T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 639,
    "awayPoints": 604,
    "homeGW": 20,
@@ -30489,7 +30487,6 @@
    "away": "Bounce Philly",
    "time": "2026-10-08T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 599,
    "awayPoints": 622,
    "homeGW": 15,
@@ -30946,8 +30943,8 @@
    ],
    "subs": [
     "Alex Mihalca",
-    "Kristen Clemmer",
     "Jase Volz",
+    "Kristen Clemmer",
     "Brandyn Schuchart"
    ]
   },
@@ -32087,7 +32084,7 @@
  ],
  "meta": {
   "matchesPlayed": 42,
-  "provisionalMatches": 3,
+  "provisionalMatches": 0,
   "weeks": "1-7",
   "totalPlayers": 223,
   "ratingHistoryWeeks": [
@@ -32196,7 +32193,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T03:47:41.859Z";
+  DATA.meta.asOf = "2026-10-09T22:04:07.255Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

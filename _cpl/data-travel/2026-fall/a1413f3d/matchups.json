@@ -929,9 +929,9 @@
       "weekNumber": 7,
       "homeTeamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
       "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 623,
+      "awayPoints": 553,
+      "endResult": "home",
       "scheduledTime": "2026-10-08T19:30:00",
       "homeName": "Ballers Philly",
       "awayName": "APC Garden State"

@@ -6324,6 +6324,35 @@
    "playerId": "57ad882f-2a78-4756-adcf-3839833ddcd3"
   },
   {
+   "name": "Terry Gabel",
+   "gender": "Female",
+   "team": "Pickle Place",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 226,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "ab357b8a-99d5-4fe3-aae6-25eb07662d7c"
+  },
+  {
    "name": "Greg Schipske",
    "gender": "Male",
    "team": "APC Garden State",
@@ -25851,8 +25880,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Robert Block"
      ],
      "a": [
       "Stephanie Woomer",
@@ -25862,8 +25891,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Pultorak",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Tera Baccile",
@@ -25873,8 +25902,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Abbott",
+      "Eric Markowitz"
      ],
      "a": [
       "Vicki Main",
@@ -25884,8 +25913,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janine Forrest",
+      "Jonathan Goldner"
      ],
      "a": [
       "Jill Scully",
@@ -25895,19 +25924,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janine Forrest",
+      "Terry Gabel"
      ],
      "a": [
       "Stephanie Woomer",
       "Jill Scully"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Gina Pultorak"
      ],
      "a": [
       "Vicki Main",
@@ -25917,8 +25950,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Block",
+      "Todd Law"
      ],
      "a": [
       "Keith Goldberg",
@@ -25928,8 +25961,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Markowitz",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Michael Dieterle",
@@ -25939,19 +25972,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terry Gabel",
+      "Eric Markowitz"
      ],
      "a": [
       "Stephanie Woomer",
       "Jim Darcangelo"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Todd Law"
      ],
      "a": [
       "Tera Baccile",
@@ -25961,8 +25998,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Pultorak",
+      "Jonathan Goldner"
      ],
      "a": [
       "Vicki Main",
@@ -25972,8 +26009,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Abbott",
+      "Robert Block"
      ],
      "a": [
       "Erika Simone",
@@ -25983,19 +26020,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Abbott",
+      "Terry Gabel"
      ],
      "a": [
       "Tera Baccile",
       "Erika Simone"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Pultorak",
+      "Janine Forrest"
      ],
      "a": [
       "Vicki Main",
@@ -26005,8 +26046,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Markowitz",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Jim Darcangelo",
@@ -26016,8 +26057,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Goldner",
+      "Robert Block"
      ],
      "a": [
       "Keith Goldberg",
@@ -26027,8 +26068,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Stephanie Woomer",
@@ -26038,8 +26079,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Pultorak",
+      "Robert Block"
      ],
      "a": [
       "Tera Baccile",
@@ -26049,8 +26090,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Abbott",
+      "Todd Law"
      ],
      "a": [
       "Erika Simone",
@@ -26060,8 +26101,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janine Forrest",
+      "Eric Markowitz"
      ],
      "a": [
       "Jill Scully",
@@ -26071,8 +26112,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Pultorak",
+      "Janine Forrest"
      ],
      "a": [
       "Tera Baccile",
@@ -26082,19 +26123,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Terry Gabel"
      ],
      "a": [
       "Stephanie Woomer",
       "Vicki Main"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Goldner",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Jim Darcangelo",
@@ -26104,8 +26149,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Block",
+      "Todd Law"
      ],
      "a": [
       "Keith Goldberg",
@@ -26115,19 +26160,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terry Gabel",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Stephanie Woomer",
       "Michael Finkelstein"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Abbott",
+      "Jonathan Goldner"
      ],
      "a": [
       "Tera Baccile",
@@ -26137,8 +26186,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gina Pultorak",
+      "Todd Law"
      ],
      "a": [
       "Vicki Main",
@@ -26148,8 +26197,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Eric Markowitz"
      ],
      "a": [
       "Erika Simone",
@@ -26159,8 +26208,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alicia Maguire",
+      "Emily Abbott"
      ],
      "a": [
       "Erika Simone",
@@ -26170,19 +26219,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janine Forrest",
+      "Terry Gabel"
      ],
      "a": [
       "Stephanie Woomer",
       "Tera Baccile"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Markowitz",
+      "Todd Law"
      ],
      "a": [
       "Jim Darcangelo",
@@ -26192,8 +26245,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Goldner",
+      "Tom Zentmeyer"
      ],
      "a": [
       "Jingwei Wu",
@@ -26213,8 +26266,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Jonathan Brand"
      ],
      "a": [
       "Christine Papa",
@@ -26224,8 +26277,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
       "Katrina Mcintyre",
@@ -26239,8 +26292,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Debbs",
+      "Jeff Lorman"
      ],
      "a": [
       "Tara Kramer",
@@ -26250,8 +26303,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
       "Denise Richmond",
@@ -26261,8 +26314,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Kate Siedell"
      ],
      "a": [
       "Denise Richmond",
@@ -26272,8 +26325,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Patricia Boyle"
      ],
      "a": [
       "Christine Papa",
@@ -26283,12 +26336,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Christopher Boyle"
      ],
      "a": [
       "Eric Luque",
       "Joseph Yi"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -26298,8 +26355,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Robert Finley"
      ],
      "a": [
       "Craig Batten",
@@ -26309,8 +26366,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Jonathan Brand"
      ],
      "a": [
       "Katrina Mcintyre",
@@ -26320,8 +26377,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Jeff Lorman"
      ],
      "a": [
       "Christine Papa",
@@ -26335,8 +26392,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Debbs",
+      "Marc Harden"
      ],
      "a": [
       "Tara Kramer",
@@ -26346,19 +26403,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Christopher Boyle"
      ],
      "a": [
       "Denise Richmond",
       "Craig Batten"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Stacey Frank"
      ],
      "a": [
       "Christine Papa",
@@ -26368,8 +26429,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Susan Debbs"
      ],
      "a": [
       "Denise Richmond",
@@ -26379,19 +26440,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Lorman",
+      "Christopher Boyle"
      ],
      "a": [
       "Eric Luque",
       "Craig Batten"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Robert Finley"
      ],
      "a": [
       "Richard Demeuse",
@@ -26405,19 +26470,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Christopher Boyle"
      ],
      "a": [
       "Katrina Mcintyre",
       "Craig Batten"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
       "Christine Papa",
@@ -26427,8 +26496,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Debbs",
+      "Jeff Lorman"
      ],
      "a": [
       "Tara Kramer",
@@ -26442,8 +26511,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Marc Harden"
      ],
      "a": [
       "Denise Richmond",
@@ -26453,8 +26522,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Susan Debbs"
      ],
      "a": [
       "Christine Papa",
@@ -26464,8 +26533,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Kate Siedell"
      ],
      "a": [
       "Katrina Mcintyre",
@@ -26475,12 +26544,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Christopher Boyle"
      ],
      "a": [
       "Richard Demeuse",
       "Joseph Yi"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -26490,8 +26563,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Robert Finley"
      ],
      "a": [
       "Eric Luque",
@@ -26501,8 +26574,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Debbs",
+      "Robert Finley"
      ],
      "a": [
       "Christine Papa",
@@ -26512,8 +26585,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Marc Harden"
      ],
      "a": [
       "Tara Kramer",
@@ -26523,8 +26596,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Jonathan Brand"
      ],
      "a": [
       "Katrina Mcintyre",
@@ -26534,8 +26607,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Jeff Lorman"
      ],
      "a": [
       "Denise Richmond",
@@ -26549,8 +26622,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Patricia Boyle"
      ],
      "a": [
       "Denise Richmond",
@@ -26560,8 +26633,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Stacey Frank"
      ],
      "a": [
       "Christine Papa",
@@ -26571,19 +26644,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Lorman",
+      "Christopher Boyle"
      ],
      "a": [
       "Craig Batten",
       "Richard Demeuse"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Robert Finley"
      ],
      "a": [
       "Eric Luque",
@@ -26640,7 +26717,7 @@
     {
      "t": "mixed",
      "h": [
-      "Linda Zhu",
+      "Lindsay Duphily",
       "Matt Hancock"
      ],
      "a": [
@@ -26681,8 +26758,8 @@
     {
      "t": "male",
      "h": [
-      "Chris Norton",
-      "Brett Kleger"
+      "Brett Kleger",
+      "Chris Norton"
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26711,12 +26788,16 @@
     {
      "t": "mixed",
      "h": [
-      "Linda Zhu",
-      "Ed Gieske"
+      "Jamila Sefiane",
+      "Matt Hancock"
      ],
      "a": [
       "Jiyun Yuh",
       "Jimmy Shapiro"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -26733,16 +26814,12 @@
     {
      "t": "mixed",
      "h": [
-      "Jamila Sefiane",
-      "Matt Hancock"
+      "Christine Dugan",
+      "Ed Gieske"
      ],
      "a": [
       "Lisa Loeber",
       "John Dechristopher"
-     ],
-     "hSub": [
-      0,
-      1
      ],
      "aSub": [
       0,
@@ -26767,8 +26844,8 @@
     {
      "t": "female",
      "h": [
-      "Lindsay Duphily",
-      "Linda Zhu"
+      "Jamila Sefiane",
+      "Lindsay Duphily"
      ],
      "a": [
       "Laura Sweet",
@@ -26778,8 +26855,8 @@
     {
      "t": "female",
      "h": [
-      "Cindy Hu",
-      "Kristina Rhodes"
+      "Kristina Rhodes",
+      "Cindy Hu"
      ],
      "a": [
       "Lisa Loeber",
@@ -26789,16 +26866,12 @@
     {
      "t": "male",
      "h": [
-      "Matt Hancock",
-      "Ed Gieske"
+      "Sandro Stefanelli",
+      "Chris Norton"
      ],
      "a": [
       "Greg Schipske",
       "John Dechristopher"
-     ],
-     "hSub": [
-      1,
-      0
      ],
      "aSub": [
       1,
@@ -26808,19 +26881,23 @@
     {
      "t": "male",
      "h": [
-      "Chris Norton",
-      "Sandro Stefanelli"
+      "Matt Hancock",
+      "Ed Gieske"
      ],
      "a": [
       "Jimmy Shapiro",
       "Tim Bruno"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "Lindsay Duphily",
-      "Chris Norton"
+      "",
+      ""
      ],
      "a": [
       "Cynthia Covie",
@@ -26834,8 +26911,8 @@
     {
      "t": "mixed",
      "h": [
-      "Jamila Sefiane",
-      "Ed Gieske"
+      "",
+      ""
      ],
      "a": [
       "Kerry Gray-Style",
@@ -26845,8 +26922,8 @@
     {
      "t": "mixed",
      "h": [
-      "Cindy Hu",
-      "Sandro Stefanelli"
+      "",
+      ""
      ],
      "a": [
       "Laura Sweet",
@@ -26856,8 +26933,8 @@
     {
      "t": "mixed",
      "h": [
-      "Kristina Rhodes",
-      "Brett Kleger"
+      "",
+      ""
      ],
      "a": [
       "Jiyun Yuh",
@@ -26867,8 +26944,8 @@
     {
      "t": "female",
      "h": [
-      "Kristina Rhodes",
-      "Lindsay Duphily"
+      "",
+      ""
      ],
      "a": [
       "Laura Sweet",
@@ -26878,8 +26955,8 @@
     {
      "t": "female",
      "h": [
-      "Jamila Sefiane",
-      "Cindy Hu"
+      "",
+      ""
      ],
      "a": [
       "Cynthia Covie",
@@ -26889,16 +26966,12 @@
     {
      "t": "male",
      "h": [
-      "Brett Kleger",
-      "Matt Hancock"
+      "",
+      ""
      ],
      "a": [
       "Tim Bruno",
       "John Dechristopher"
-     ],
-     "hSub": [
-      0,
-      1
      ],
      "aSub": [
       0,
@@ -26908,8 +26981,8 @@
     {
      "t": "male",
      "h": [
-      "Sandro Stefanelli",
-      "Chris Norton"
+      "",
+      ""
      ],
      "a": [
       "Jimmy Shapiro",
@@ -26919,8 +26992,8 @@
     {
      "t": "mixed",
      "h": [
-      "Jamila Sefiane",
-      "Brett Kleger"
+      "",
+      ""
      ],
      "a": [
       "Lisa Loeber",
@@ -26930,16 +27003,12 @@
     {
      "t": "mixed",
      "h": [
-      "Linda Zhu",
-      "Matt Hancock"
+      "",
+      ""
      ],
      "a": [
       "Jiyun Yuh",
       "Greg Schipske"
-     ],
-     "hSub": [
-      0,
-      1
      ],
      "aSub": [
       0,
@@ -26949,8 +27018,8 @@
     {
      "t": "mixed",
      "h": [
-      "Lindsay Duphily",
-      "Ed Gieske"
+      "",
+      ""
      ],
      "a": [
       "Cynthia Covie",
@@ -26960,8 +27029,8 @@
     {
      "t": "mixed",
      "h": [
-      "Cindy Hu",
-      "Chris Norton"
+      "",
+      ""
      ],
      "a": [
       "Kerry Gray-Style",
@@ -26975,8 +27044,8 @@
     {
      "t": "female",
      "h": [
-      "Lindsay Duphily",
-      "Jamila Sefiane"
+      "",
+      ""
      ],
      "a": [
       "Lisa Loeber",
@@ -26986,8 +27055,8 @@
     {
      "t": "female",
      "h": [
-      "Cindy Hu",
-      "Linda Zhu"
+      "",
+      ""
      ],
      "a": [
       "Jiyun Yuh",
@@ -26997,8 +27066,8 @@
     {
      "t": "male",
      "h": [
-      "Brett Kleger",
-      "Chris Norton"
+      "",
+      ""
      ],
      "a": [
       "Jimmy Shapiro",
@@ -27012,16 +27081,12 @@
     {
      "t": "male",
      "h": [
-      "Sandro Stefanelli",
-      "Matt Hancock"
+      "",
+      ""
      ],
      "a": [
       "Andrew Fleischer",
       "Tim Bruno"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     }
    ]
@@ -27724,7 +27789,6 @@
   "Judy Qiu": "524b4051-2245-4d13-a9ec-2c2aac3ec980",
   "Andrea Dellechiaie": "84e4d40d-3b98-4822-b073-e9dc71c0d4d7",
   "Virasack Vorabouth": "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc",
-  "Terry Gabel": "ab357b8a-99d5-4fe3-aae6-25eb07662d7c",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Xilin Zhao": "bfecc55a-a909-44da-8292-6b59b37a6043",
   "Alex Miller": "d74d4a67-cb90-44d8-aeea-b48fab564427",
@@ -28288,7 +28352,7 @@
   "matchesPlayed": 32,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 234,
+  "totalPlayers": 235,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -28395,7 +28459,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T12:19:01.670Z";
+  DATA.meta.asOf = "2026-10-09T22:02:05.775Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
