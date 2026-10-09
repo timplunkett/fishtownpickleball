@@ -182,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 230
+      "ranking": 232
     },
     {
       "playerId": "07a0e948-6308-4920-a6a8-1d5945552ecb",
@@ -320,7 +320,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 227
+      "ranking": 229
     },
     {
       "playerId": "0b80a91d-626d-40b7-9cd9-e9ea96ec7e59",
@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 228
+      "ranking": 230
     },
     {
       "playerId": "0d70122a-9002-461f-8600-a9afed2e8c3f",
@@ -1042,7 +1042,7 @@
       "gender": "Female",
       "dupr": "1QZKON",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
       "wins": 5,
@@ -1079,7 +1079,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 235
+      "ranking": 237
     },
     {
       "playerId": "314486b1-6723-4b33-9dba-fa5756065707",
@@ -1088,7 +1088,7 @@
       "gender": "Male",
       "dupr": "EW2POO",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
       "teamName": "Bounce Malvern Boom",
       "wins": 5,
@@ -1838,7 +1838,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 233
+      "ranking": 235
     },
     {
       "playerId": "528de93e-9cf4-480d-a9ba-5b20f6f23f87",
@@ -2000,6 +2000,29 @@
       "genderWins": 2,
       "genderLosses": 5,
       "ranking": 106
+    },
+    {
+      "playerId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
+      "firstName": "JOHN",
+      "lastName": "DECHRISTOPHER",
+      "gender": "Male",
+      "dupr": "67JLXE",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 224
     },
     {
       "playerId": "58e052c4-6ab5-46a7-8e6c-6c7a465262e5",
@@ -2436,7 +2459,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 240
+      "ranking": 244
     },
     {
       "playerId": "6f511e98-567a-4b33-8831-ed123f01f952",
@@ -2652,7 +2675,7 @@
       "gender": "Female",
       "dupr": "3L74ZQ",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
       "teamName": "Bounce Malvern Boom",
       "wins": 3,
@@ -2813,7 +2836,7 @@
       "gender": "Female",
       "dupr": "GGWQRX",
       "isCaptain": true,
-      "isSub": true,
+      "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
       "wins": 20,
@@ -2942,7 +2965,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 224
+      "ranking": 225
     },
     {
       "playerId": "84f2d830-3dbf-4dfd-bd4b-f9eb3fb04091",
@@ -3379,7 +3402,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 226
+      "ranking": 228
     },
     {
       "playerId": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
@@ -3632,7 +3655,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 239
+      "ranking": 242
     },
     {
       "playerId": "a5a6470f-9dee-468c-85fe-4286ee0b4ecd",
@@ -3770,7 +3793,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 231
+      "ranking": 233
     },
     {
       "playerId": "aa802904-9a39-4b0e-ad2b-d1a1ea2fcc5b",
@@ -3839,7 +3862,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 225
+      "ranking": 226
     },
     {
       "playerId": "abc4de4c-a9af-4b75-8e57-5b7374af96c2",
@@ -4023,7 +4046,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 232
+      "ranking": 234
     },
     {
       "playerId": "b3c28078-ab31-4002-9e09-5fa3f627d8c1",
@@ -4115,7 +4138,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 241
+      "ranking": 245
     },
     {
       "playerId": "c0851114-0611-4b02-9589-fd249179eabc",
@@ -4394,6 +4417,52 @@
       "ranking": 144
     },
     {
+      "playerId": "cdd3c5e6-7a40-4b65-a175-7910ba8e9ef9",
+      "firstName": "Greg",
+      "lastName": "Schipske",
+      "gender": "Male",
+      "dupr": "0YQ0RX",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "teamName": "APC Garden State",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 238
+    },
+    {
+      "playerId": "ce58f563-e12a-466e-b741-cafc1bbbd0ad",
+      "firstName": "Matt",
+      "lastName": "Hancock",
+      "gender": "Male",
+      "dupr": "59K060",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+      "teamName": "Bounce Malvern Boom",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 227
+    },
+    {
       "playerId": "ce787b4f-30b9-4fd0-a12a-caba1f27ca68",
       "firstName": "Savita",
       "lastName": "Nandal",
@@ -4667,7 +4736,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 229
+      "ranking": 231
     },
     {
       "playerId": "d7bdde76-1007-4b20-a804-4efcd08c3598",
@@ -4966,7 +5035,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 237
+      "ranking": 240
     },
     {
       "playerId": "e1cb1b3c-8e14-423b-bf0f-5ad2dabd6a4c",
@@ -5035,7 +5104,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 238
+      "ranking": 241
     },
     {
       "playerId": "e687e44a-22a6-4f8e-a3ac-b328fae537c3",
@@ -5084,6 +5153,29 @@
       "ranking": 58
     },
     {
+      "playerId": "e882fe51-042a-4368-b34f-fbabad19d7c1",
+      "firstName": "Joseph",
+      "lastName": "Yi",
+      "gender": "Male",
+      "dupr": "L5KGPJ",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
+      "teamName": "Flemington Green",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 243
+    },
+    {
       "playerId": "ea556dfe-e3ee-4ad0-ba0f-62e1e9f6bf89",
       "firstName": "John",
       "lastName": "Rogers",
@@ -5104,7 +5196,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 234
+      "ranking": 236
     },
     {
       "playerId": "eab86a29-43ef-4b31-ba94-928f57f56c9c",
@@ -5288,7 +5380,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 236
+      "ranking": 239
     },
     {
       "playerId": "f1248cc3-96c3-4671-9b08-533d22eb710f",

@@ -481,18 +481,6 @@
       "awayName": "Bounce Malvern Boom"
     },
     {
-      "matchupId": "a61300c3-c12c-4fd9-ab36-69390bee4ace",
-      "weekNumber": 9,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-17T12:00:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "Flemington Blue"
-    },
-    {
       "matchupId": "0b492a2e-0bd3-4877-9a9a-7b67b16357c1",
       "weekNumber": 9,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
@@ -791,6 +779,18 @@
       "scheduledTime": "2026-11-01T12:00:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Bounce Malvern Black"
+    },
+    {
+      "matchupId": "a61300c3-c12c-4fd9-ab36-69390bee4ace",
+      "weekNumber": 11,
+      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-01T14:00:00",
+      "homeName": "Allstar Pickler",
+      "awayName": "Flemington Blue"
     },
     {
       "matchupId": "2a7ca877-76b8-41b6-9176-c69ff7b0f26c",

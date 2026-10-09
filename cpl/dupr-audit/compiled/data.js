@@ -2841,6 +2841,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Carol Mastroianni",
+   "playerId": "7f851011-9322-43f9-aff2-754565a615c7",
+   "team": "Flemington Blue",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Carolina Reese",
    "playerId": "8f93a05d-c51e-48c4-901c-4ddbe881b309",
    "team": "Bounce Malvern",
@@ -3007,6 +3014,13 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "6619816f",
    "gender": "Male"
+  },
+  {
+   "name": "Chanda Mccoy",
+   "playerId": "30cb78cb-f962-40f9-bd02-78d336920431",
+   "team": "Flemington Blue",
+   "slug": "2edc44e7",
+   "gender": "Female"
   },
   {
    "name": "Chantal Reme",
@@ -5169,6 +5183,13 @@ window.DUPR_AUDIT = {
    "playerId": "ce893b2d-f5ea-40aa-98c0-d67402405b64",
    "team": "PickleRage Union County",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Ed Gieske",
+   "playerId": "314486b1-6723-4b33-9dba-fa5756065707",
+   "team": "Bounce Malvern Boom",
+   "slug": "2edc44e7",
    "gender": "Male"
   },
   {
@@ -10762,6 +10783,13 @@ window.DUPR_AUDIT = {
    "playerId": "81aa351b-a41c-4bed-9678-59a55c35b0a4",
    "team": "Pickleball Palace",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Kristina Rhodes",
+   "playerId": "77ecd1c3-b1df-469a-83ba-d12bd56f2c6a",
+   "team": "Bounce Malvern Boom",
+   "slug": "2edc44e7",
    "gender": "Female"
   },
   {

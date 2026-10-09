@@ -1799,8 +1799,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -1826,8 +1826,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -1853,8 +1853,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -10206,8 +10206,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -20448,8 +20448,8 @@
     "teamRes": "L",
     "teamGW": 4,
     "teamGL": 28,
-    "sub": 1,
-    "subFor": "Bounce Malvern Boom"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -20475,8 +20475,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Bounce Malvern Boom"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -27131,8 +27131,8 @@
     "teamRes": "L",
     "teamGW": 4,
     "teamGL": 28,
-    "sub": 1,
-    "subFor": "Bounce Malvern Boom"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -27158,8 +27158,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "Bounce Malvern Boom"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

@@ -15160,7 +15160,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 590,
+   "leagueRank": 591,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 582,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 589,
+   "leagueRank": 590,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15276,7 +15276,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 595,
+   "leagueRank": 596,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15305,7 +15305,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15363,7 +15363,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 572,
+   "leagueRank": 573,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15392,7 +15392,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 567,
+   "leagueRank": 568,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15421,7 +15421,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 569,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15450,7 +15450,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 592,
+   "leagueRank": 593,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15479,7 +15479,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 586,
+   "leagueRank": 587,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -82195,6 +82195,7 @@
   "Rylee Boles": "8dc5085d-c5f5-4346-86df-bf213a86f974",
   "Terri Briggs": "8dc50a96-2971-422c-aba4-b519ae2f2748",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+  "Phil Gao": "9b47e98f-3dcf-4a3a-8d79-154e161b8595",
   "George Mandl": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
   "Jeremy Forin": "a13b01c6-1423-458c-89af-482b3082ae59",
   "Lucy Shao": "adeb473c-c162-4d73-bbc1-96ffbd94f53f",
@@ -82901,6 +82902,14 @@
    "outsideSub": true
   },
   {
+   "name": "Phil Gao",
+   "playerId": "9b47e98f-3dcf-4a3a-8d79-154e161b8595",
+   "gender": "Male",
+   "team": "LBF Pickleball",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Nancy Luyando",
    "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29",
    "gender": "Female",
@@ -83406,7 +83415,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-08T22:41:54.594Z";
+  DATA.meta.asOf = "2026-10-09T03:47:22.896Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
