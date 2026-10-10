@@ -5445,7 +5445,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,7 +5590,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -29023,7 +29023,7 @@
       ""
      ],
      "a": [
-      "Gopi Narayanan",
+      "",
       "Al Mancini"
      ]
     },
@@ -29078,6 +29078,17 @@
       ""
      ],
      "a": [
+      "Chris Damato",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
       "Ali Husain",
       "Zach Hollmann"
      ]
@@ -29112,6 +29123,50 @@
      ],
      "a": [
       "Craig Frame",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
       ""
      ]
     }
@@ -30272,7 +30327,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T22:04:49.260Z";
+  DATA.meta.asOf = "2026-10-10T16:40:04.244Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
