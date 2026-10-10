@@ -1325,9 +1325,9 @@
       "weekNumber": 7,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "awayTeamId": "e578760d-cd8d-4adc-8868-8d6966182322",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 555,
+      "awayPoints": 625,
+      "endResult": "away",
       "scheduledTime": "2026-10-09T19:30:00",
       "homeName": "Picklr Newark",
       "awayName": "Delco Turf & Pickle"
