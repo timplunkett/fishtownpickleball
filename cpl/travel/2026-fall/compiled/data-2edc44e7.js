@@ -26896,8 +26896,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Ed Gieske"
      ],
      "a": [
       "Cynthia Covie",
@@ -26911,8 +26911,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Brett Kleger"
      ],
      "a": [
       "Kerry Gray-Style",
@@ -26922,8 +26922,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Laura Sweet",
@@ -26933,8 +26933,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Chris Norton"
      ],
      "a": [
       "Jiyun Yuh",
@@ -26944,8 +26944,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Cindy Hu"
      ],
      "a": [
       "Laura Sweet",
@@ -26955,8 +26955,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Kristina Rhodes"
      ],
      "a": [
       "Cynthia Covie",
@@ -26966,8 +26966,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Tim Bruno",
@@ -26981,19 +26981,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Hancock",
+      "Brett Kleger"
      ],
      "a": [
       "Jimmy Shapiro",
       "Andrew Fleischer"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Ed Gieske"
      ],
      "a": [
       "Lisa Loeber",
@@ -27003,8 +27007,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Brett Kleger"
      ],
      "a": [
       "Jiyun Yuh",
@@ -27018,19 +27022,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Matt Hancock"
      ],
      "a": [
       "Cynthia Covie",
       "Andrew Fleischer"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Chris Norton"
      ],
      "a": [
       "Kerry Gray-Style",
@@ -27044,8 +27052,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lindsay Duphily",
+      "Jamila Sefiane"
      ],
      "a": [
       "Lisa Loeber",
@@ -27055,8 +27063,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Christine Dugan"
      ],
      "a": [
       "Jiyun Yuh",
@@ -27066,12 +27074,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Hancock",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Jimmy Shapiro",
       "Greg Schipske"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -27081,8 +27093,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Chris Norton"
      ],
      "a": [
       "Andrew Fleischer",
@@ -27090,14 +27102,6 @@
      ]
     }
    ]
-  },
-  {
-   "result": null,
-   "week": 8,
-   "home": "Jersey Pickleball Club",
-   "away": "Allstar Pickler",
-   "time": "2026-10-10T14:00:00",
-   "complete": false
   },
   {
    "result": null,
@@ -27780,6 +27784,14 @@
    "away": "Pickle Place",
    "time": "2026-11-07T14:00:00",
    "complete": false
+  },
+  {
+   "result": null,
+   "week": 12,
+   "home": "Jersey Pickleball Club",
+   "away": "Allstar Pickler",
+   "time": "2026-11-08T15:00:00",
+   "complete": false
   }
  ],
  "playoffs": [],
@@ -28459,7 +28471,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T22:02:05.775Z";
+  DATA.meta.asOf = "2026-10-10T01:17:12.345Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

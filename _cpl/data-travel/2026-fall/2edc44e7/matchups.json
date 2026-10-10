@@ -445,18 +445,6 @@
       "awayName": "APC Garden State"
     },
     {
-      "matchupId": "ad8fcb00-62f4-477e-bd05-219a35da80cf",
-      "weekNumber": 8,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-10T14:00:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Allstar Pickler"
-    },
-    {
       "matchupId": "2ce1d9c4-0e6a-4268-8907-dbcde724e487",
       "weekNumber": 9,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
@@ -863,6 +851,18 @@
       "scheduledTime": "2026-11-07T14:00:00",
       "homeName": "Bounce Malvern Boom",
       "awayName": "Pickle Place"
+    },
+    {
+      "matchupId": "ad8fcb00-62f4-477e-bd05-219a35da80cf",
+      "weekNumber": 12,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-08T15:00:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Allstar Pickler"
     }
   ]
 }

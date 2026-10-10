@@ -14444,6 +14444,35 @@
    "playerId": "99c26d8d-4ea2-4ca0-90ca-59f78aca4552"
   },
   {
+   "name": "Pablo Martin",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 568,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce"
+  },
+  {
    "name": "Cheng Wong",
    "gender": "Male",
    "team": "Allstar Pickler",
@@ -14500,6 +14529,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b3690879-02e8-483e-ab98-4d9d5f9f29c7"
+  },
+  {
+   "name": "David Arvan",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 525,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c25ace7a-9f60-4226-9e99-068e81f1bad0"
   },
   {
    "name": "Raymond Lormel",
@@ -49109,280 +49167,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 6,
-   "home": "Dill Dinkers Newport",
-   "away": "Players Courtyard",
-   "time": "2026-09-27T15:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "David Mcdonough"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "Michael Ross"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "Craig Mehnert"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "Xiaojun Yuan"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frank Choi",
-      "David Mcdonough"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tom Giunta",
-      "Joseph Koerner"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "Joseph Koerner"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "Frank Choi"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "Tom Giunta"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "Suzanne Garcia"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "David Mcdonough",
-      "Craig Mehnert"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Michael Ross",
-      "Tom Giunta"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "Joseph Koerner"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "Tom Giunta"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "Michael Ross"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "Tracy Giunta"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Joseph Koerner",
-      "Craig Mehnert"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frank Choi",
-      "Tom Giunta"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "Craig Mehnert"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Giunta",
-      "David Mcdonough"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xiaojun Yuan",
-      "Frank Choi"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzanne Garcia",
-      "Xiaojun Yuan"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Craig Mehnert",
-      "Frank Choi"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "David Mcdonough",
-      "Michael Ross"
-     ]
-    }
-   ]
-  },
-  {
    "result": "away",
    "week": 6,
    "home": "Dill Dinkers Hatboro",
@@ -60230,8 +60014,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "Anuraag Verma"
      ],
      "a": [
       "Mary Hain",
@@ -60241,52 +60025,68 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heather King",
+      "Pablo Martin"
      ],
      "a": [
       "Crista Renauro",
       "Chris Allander"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zalene Corey",
+      "David Arvan"
      ],
      "a": [
       "Jennifer Laroque",
       "Dan Callaghan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Pastore",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Lori Wild",
       "Scott Gardo"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Pastore",
+      "Heather King"
      ],
      "a": [
       "Kim Slomeana",
       "Crista Renauro"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zalene Corey",
+      "Eden Paredes"
      ],
      "a": [
       "Jennifer Laroque",
@@ -60296,41 +60096,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pablo Martin",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Scott Gardo",
       "Ken Wager"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Arvan",
+      "Anuraag Verma"
      ],
      "a": [
       "Bill Venella",
       "Chris Allander"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Pastore",
+      "Pablo Martin"
      ],
      "a": [
       "Carolyn Laverdiere",
       "Dan Callaghan"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynn Snyder",
+      "Jeff Pillar"
      ],
      "a": [
       "Lori Wild",
@@ -60340,8 +60152,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zalene Corey",
+      "Anuraag Verma"
      ],
      "a": [
       "Mary Hain",
@@ -60351,19 +60163,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "David Arvan"
      ],
      "a": [
       "Jennifer Laroque",
       "Bill Venella"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zalene Corey",
+      "Heather King"
      ],
      "a": [
       "Kim Slomeana",
@@ -60373,19 +60189,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "Sharon Pastore"
      ],
      "a": [
       "Crista Renauro",
       "Mary Hain"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anuraag Verma",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Bill Venella",
@@ -60395,41 +60215,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Arvan",
+      "Pablo Martin"
      ],
      "a": [
       "Dan Callaghan",
       "Scott Gardo"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heather King",
+      "Pablo Martin"
      ],
      "a": [
       "Carolyn Laverdiere",
       "Ken Wager"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Pastore",
+      "David Arvan"
      ],
      "a": [
       "Mary Hain",
       "Dan Callaghan"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zalene Corey",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Crista Renauro",
@@ -60439,8 +60271,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "Anuraag Verma"
      ],
      "a": [
       "Kim Slomeana",
@@ -60450,8 +60282,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "Zalene Corey"
      ],
      "a": [
       "Jennifer Laroque",
@@ -60461,41 +60293,53 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynn Snyder",
+      "Sharon Pastore"
      ],
      "a": [
       "Lori Wild",
       "Carolyn Laverdiere"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pablo Martin",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Dan Callaghan",
       "Ken Wager"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anuraag Verma",
+      "David Arvan"
      ],
      "a": [
       "Bill Venella",
       "Chris Allander"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Lori Wild",
@@ -60505,19 +60349,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sharon Pastore",
+      "Anuraag Verma"
      ],
      "a": [
       "Mary Hain",
       "Bill Venella"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynn Snyder",
+      "Jeff Pillar"
      ],
      "a": [
       "Jennifer Laroque",
@@ -60527,19 +60375,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zalene Corey",
+      "Pablo Martin"
      ],
      "a": [
       "Crista Renauro",
       "Dan Callaghan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynn Snyder",
+      "Zalene Corey"
      ],
      "a": [
       "Jennifer Laroque",
@@ -60549,30 +60401,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eden Paredes",
+      "Sharon Pastore"
      ],
      "a": [
       "Crista Renauro",
       "Mary Hain"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Pillar",
+      "David Arvan"
      ],
      "a": [
       "Dan Callaghan",
       "Chris Allander"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anuraag Verma",
+      "Jeffrey Lindstrom"
      ],
      "a": [
       "Bill Venella",
@@ -61416,8 +61276,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tao Zhu",
+      "Sam Doctor"
      ],
      "a": [
       "Lynette Pil",
@@ -61427,8 +61287,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judith Macarthur",
+      "Bill Vit"
      ],
      "a": [
       "Theresa Dumbrique",
@@ -61438,8 +61298,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Manuela Caiati",
+      "Dan Amabile"
      ],
      "a": [
       "Jennifer Taddeo",
@@ -61449,8 +61309,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Apparao Avancha"
      ],
      "a": [
       "Krishma Patel",
@@ -61460,8 +61320,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tao Zhu",
+      "Diane Bracco"
      ],
      "a": [
       "Lynette Pil",
@@ -61471,19 +61331,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Manuela Caiati",
+      "Robin Aiello"
      ],
      "a": [
       "Theresa Dumbrique",
       "Rosa Tenan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Doctor",
+      "Hector Lopez"
      ],
      "a": [
       "Scott Perrone",
@@ -61493,8 +61357,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Vit",
+      "Dan Amabile"
      ],
      "a": [
       "Dean Lim",
@@ -61504,8 +61368,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judith Macarthur",
+      "Scott Heist"
      ],
      "a": [
       "Marleen Tuquero",
@@ -61515,8 +61379,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Manuela Caiati",
+      "Sam Doctor"
      ],
      "a": [
       "Rosa Tenan",
@@ -61526,8 +61390,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Bill Vit"
      ],
      "a": [
       "Krishma Patel",
@@ -61537,8 +61401,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tao Zhu",
+      "Apparao Avancha"
      ],
      "a": [
       "Jennifer Taddeo",
@@ -61548,19 +61412,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Manuela Caiati",
+      "Robin Aiello"
      ],
      "a": [
       "Lynette Pil",
       "Marleen Tuquero"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Judith Macarthur"
      ],
      "a": [
       "Rosa Tenan",
@@ -61570,8 +61438,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hector Lopez",
+      "Dan Amabile"
      ],
      "a": [
       "Dean Lim",
@@ -61581,8 +61449,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Apparao Avancha",
+      "Scott Heist"
      ],
      "a": [
       "Tony Sethi",
@@ -61592,8 +61460,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tao Zhu",
+      "Sam Doctor"
      ],
      "a": [
       "Theresa Dumbrique",
@@ -61603,8 +61471,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Bill Vit"
      ],
      "a": [
       "Marleen Tuquero",
@@ -61614,8 +61482,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judith Macarthur",
+      "Scott Heist"
      ],
      "a": [
       "Rosa Tenan",
@@ -61625,8 +61493,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Manuela Caiati",
+      "Hector Lopez"
      ],
      "a": [
       "Lynette Pil",
@@ -61636,8 +61504,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Manuela Caiati",
+      "Tao Zhu"
      ],
      "a": [
       "Lynette Pil",
@@ -61647,19 +61515,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Judith Macarthur"
      ],
      "a": [
       "Krishma Patel",
       "Jennifer Taddeo"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Amabile",
+      "Apparao Avancha"
      ],
      "a": [
       "Scott Perrone",
@@ -61669,8 +61541,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Scott Heist",
+      "Hector Lopez"
      ],
      "a": [
       "Artemio Tuquero",
@@ -61680,8 +61552,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tao Zhu",
+      "Dan Amabile"
      ],
      "a": [
       "Theresa Dumbrique",
@@ -61691,19 +61563,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Apparao Avancha"
      ],
      "a": [
       "Jennifer Taddeo",
       "Artemio Tuquero"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Sam Doctor"
      ],
      "a": [
       "Rosa Tenan",
@@ -61713,8 +61589,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judith Macarthur",
+      "Bill Vit"
      ],
      "a": [
       "Marleen Tuquero",
@@ -61724,8 +61600,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Tao Zhu"
      ],
      "a": [
       "Krishma Patel",
@@ -61735,19 +61611,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Judith Macarthur"
      ],
      "a": [
       "Theresa Dumbrique",
       "Marleen Tuquero"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sam Doctor",
+      "Apparao Avancha"
      ],
      "a": [
       "Tony Sethi",
@@ -61757,8 +61637,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Vit",
+      "Dan Amabile"
      ],
      "a": [
       "Dean Lim",
@@ -63085,6 +62965,280 @@
   },
   {
    "result": null,
+   "week": 12,
+   "home": "Dill Dinkers Newport",
+   "away": "Players Courtyard",
+   "time": "2026-11-08T12:00:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Michael Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Xiaojun Yuan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Giunta",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Suzanne Garcia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mcdonough",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Ross",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Joseph Koerner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Michael Ross"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Tracy Giunta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Koerner",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frank Choi",
+      "Tom Giunta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Craig Mehnert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Giunta",
+      "David Mcdonough"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xiaojun Yuan",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suzanne Garcia",
+      "Xiaojun Yuan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Mehnert",
+      "Frank Choi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Mcdonough",
+      "Michael Ross"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
    "week": 13,
    "home": "Players Courtyard",
    "away": "Dill Dinkers Hatboro",
@@ -63161,11 +63315,9 @@
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Daniel Depolo": "94fe642c-a54b-48ab-8e5f-ab2e1e709778",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
-  "Pablo Martin": "9a5ff1ce-db6f-4257-95bb-3a0dfb1ed2ce",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
-  "David Arvan": "c25ace7a-9f60-4226-9e99-068e81f1bad0",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
   "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
@@ -64716,7 +64868,7 @@
   "matchesPlayed": 74,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 542,
+  "totalPlayers": 544,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -64853,7 +65005,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T22:02:37.461Z";
+  DATA.meta.asOf = "2026-10-10T01:18:14.867Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

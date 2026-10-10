@@ -47891,7 +47891,29 @@
     "firstName": "Sagar",
     "lastName": "Punjabi",
     "dupr": "1RP00M",
-    "duprRating": null,
-    "lastSeen": "2026-10"
+    "duprRating": "4.332",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5693805711,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "ae1e1eae-e731-4094-834e-733b190da2bc",
+    "firstName": "Jenny",
+    "lastName": "Huynh",
+    "dupr": "PG56YG",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6925645348,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "4013952e-b72e-4647-a22c-8ce9cf862a9a",
+    "firstName": "Anabel",
+    "lastName": "Mesa",
+    "dupr": "NN0NZ6",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8329082097,
+    "duprProvisional": false
   }
 ]

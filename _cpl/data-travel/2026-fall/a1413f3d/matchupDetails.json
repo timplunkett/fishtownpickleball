@@ -48667,10 +48667,6 @@
     }
   },
   {
-    "matchupId": "03dda4c2-e252-466b-b2de-dc6567b400f5",
-    "details": {}
-  },
-  {
     "matchupId": "30bfc77b-b0da-49a3-9d56-918f9530c9aa",
     "details": {
       "matchupPlayerStats": {
@@ -52726,6 +52722,10 @@
   },
   {
     "matchupId": "0d20fd6b-635f-418a-9619-5aaaef0a5928",
+    "details": {}
+  },
+  {
+    "matchupId": "03dda4c2-e252-466b-b2de-dc6567b400f5",
     "details": {}
   },
   {

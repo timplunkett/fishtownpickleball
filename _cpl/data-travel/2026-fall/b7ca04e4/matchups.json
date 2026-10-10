@@ -1705,18 +1705,6 @@
       "awayName": "Ballers Philly"
     },
     {
-      "matchupId": "50bb6e49-155c-4b54-940d-7243f5826552",
-      "weekNumber": 9,
-      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T12:00:00",
-      "homeName": "Pickle House",
-      "awayName": "Pickleball Kingdom Tinton Falls"
-    },
-    {
       "matchupId": "88a14190-818c-46ec-b3b0-2e9801455f35",
       "weekNumber": 9,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
@@ -2183,6 +2171,18 @@
       "scheduledTime": "2026-11-04T19:30:00",
       "homeName": "Bounce Tempest",
       "awayName": "Ballers Philly"
+    },
+    {
+      "matchupId": "50bb6e49-155c-4b54-940d-7243f5826552",
+      "weekNumber": 12,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-09T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Pickleball Kingdom Tinton Falls"
     },
     {
       "matchupId": "04d6dc0f-9fd1-485e-ba2d-596e9dc81cb2",

@@ -889,18 +889,6 @@
       "awayName": "Picklr Newark"
     },
     {
-      "matchupId": "03dda4c2-e252-466b-b2de-dc6567b400f5",
-      "weekNumber": 7,
-      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-08T19:30:00",
-      "homeName": "Montville",
-      "awayName": "Pickleball Palace"
-    },
-    {
       "matchupId": "30bfc77b-b0da-49a3-9d56-918f9530c9aa",
       "weekNumber": 7,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
@@ -1115,6 +1103,18 @@
       "scheduledTime": "2026-10-18T12:00:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Pickle Place"
+    },
+    {
+      "matchupId": "03dda4c2-e252-466b-b2de-dc6567b400f5",
+      "weekNumber": 9,
+      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-20T20:00:00",
+      "homeName": "Montville",
+      "awayName": "Pickleball Palace"
     },
     {
       "matchupId": "6259567e-583a-4a90-909a-0c2655ffdf05",

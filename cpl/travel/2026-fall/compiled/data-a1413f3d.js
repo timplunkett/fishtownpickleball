@@ -56202,14 +56202,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 7,
-   "home": "Montville",
-   "away": "Pickleball Palace",
-   "time": "2026-10-08T19:30:00",
-   "complete": false
-  },
-  {
    "result": "away",
    "week": 7,
    "home": "Home Court",
@@ -59099,6 +59091,14 @@
   {
    "result": null,
    "week": 9,
+   "home": "Montville",
+   "away": "Pickleball Palace",
+   "time": "2026-10-20T20:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 9,
    "home": "Flemington Green",
    "away": "Pickleball Palace",
    "time": "2026-10-22T19:00:00",
@@ -60399,7 +60399,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T22:03:08.871Z";
+  DATA.meta.asOf = "2026-10-10T01:18:41.136Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

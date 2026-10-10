@@ -8142,7 +8142,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 299,
+   "leagueRank": 300,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8171,7 +8171,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 308,
+   "leagueRank": 309,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8200,7 +8200,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 304,
+   "leagueRank": 305,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8229,7 +8229,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 300,
+   "leagueRank": 301,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8258,7 +8258,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 295,
+   "leagueRank": 296,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -48262,6 +48262,7 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
+  "John Darrah": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
@@ -48499,6 +48500,14 @@
    "playerId": "6bfd212d-c7b4-4eff-ae3c-5e9424080282",
    "gender": "Male",
    "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Darrah",
+   "playerId": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
+   "gender": "Male",
+   "team": "Jersey Devil",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -48958,7 +48967,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T22:05:20.825Z";
+  DATA.meta.asOf = "2026-10-10T01:20:52.677Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
