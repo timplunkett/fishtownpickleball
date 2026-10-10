@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -29819,6 +29819,7 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
+  "Christopher Ullo": "40abb6aa-9678-431b-8b5c-6f140f00c5bc",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Nicholas Vanderveer": "4d33c53f-a066-4543-b2cf-313c11165227",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
@@ -29888,6 +29889,14 @@
    "playerId": "3efad314-83fb-4441-a7bf-510228cea1f8",
    "gender": "Male",
    "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christopher Ullo",
+   "playerId": "40abb6aa-9678-431b-8b5c-6f140f00c5bc",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -30327,7 +30336,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-10T16:40:04.244Z";
+  DATA.meta.asOf = "2026-10-10T18:04:14.417Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

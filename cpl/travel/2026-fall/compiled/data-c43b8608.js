@@ -11457,6 +11457,35 @@
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
   },
   {
+   "name": "Laura Altieri",
+   "gender": "Female",
+   "team": "Premiere",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 412,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "16aee8ed-3398-46f5-bd76-ec71473a2db4"
+  },
+  {
    "name": "Lisa Viola",
    "gender": "Female",
    "team": "Stelton Sports",
@@ -11542,6 +11571,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "7fe56519-e2cf-48d1-8b86-02a58b3acad5"
+  },
+  {
+   "name": "John Oconnor",
+   "gender": "Male",
+   "team": "Premiere",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 436,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "acc08ec0-5bcd-4df3-b334-f75c4a5e0bb5"
   },
   {
    "name": "Mike Hardy",
@@ -46231,8 +46289,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "Alfonse Calato"
      ],
      "a": [
       "Xiaohong Fang",
@@ -46242,8 +46300,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gerilynn Calato",
+      "Thomas Licciardello"
      ],
      "a": [
       "Shuming Zhu",
@@ -46253,19 +46311,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Raffaella Pernice",
+      "John Oconnor"
      ],
      "a": [
       "Joanne Rim",
       "Yan Wang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Sozomenu",
+      "Idris Nejumi"
      ],
      "a": [
       "Ani Stone",
@@ -46275,8 +46337,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "Raffaella Pernice"
      ],
      "a": [
       "Shuming Zhu",
@@ -46286,19 +46348,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Laura Altieri",
+      "Eileen Clark"
      ],
      "a": [
       "Xiaohong Fang",
       "Ani Stone"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alfonse Calato",
+      "Thomas Licciardello"
      ],
      "a": [
       "Wallace Lee",
@@ -46308,19 +46374,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Oconnor",
+      "Christian Aberin"
      ],
      "a": [
       "Jhon Cifuentes",
       "Yan Wang"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "Thomas Licciardello"
      ],
      "a": [
       "Shuming Zhu",
@@ -46330,30 +46400,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Altieri",
+      "Idris Nejumi"
      ],
      "a": [
       "Joanne Rim",
       "Wallace Lee"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gerilynn Calato",
+      "John Oconnor"
      ],
      "a": [
       "Xiaohong Fang",
       "Jhon Cifuentes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Raffaella Pernice",
+      "Alfonse Calato"
      ],
      "a": [
       "Ronnie Kostak",
@@ -46363,19 +46441,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gerilynn Calato",
+      "Laura Altieri"
      ],
      "a": [
       "Shuming Zhu",
       "Ronnie Kostak"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "Raffaella Pernice"
      ],
      "a": [
       "Joanne Rim",
@@ -46385,8 +46467,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Aberin",
+      "Idris Nejumi"
      ],
      "a": [
       "Wallace Lee",
@@ -46396,8 +46478,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alfonse Calato",
+      "Thomas Licciardello"
      ],
      "a": [
       "Jhon Cifuentes",
@@ -46407,8 +46489,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Idris Nejumi"
      ],
      "a": [
       "Ani Stone",
@@ -46418,8 +46500,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Sozomenu",
+      "Christian Aberin"
      ],
      "a": [
       "Xiaohong Fang",
@@ -46429,41 +46511,53 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "John Oconnor"
      ],
      "a": [
       "Ronnie Kostak",
       "Jhon Cifuentes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Altieri",
+      "Alfonse Calato"
      ],
      "a": [
       "Shuming Zhu",
       "Jianfeng Wang"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Laura Altieri",
+      "Eileen Clark"
      ],
      "a": [
       "Shuming Zhu",
       "Ani Stone"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "Gerilynn Calato"
      ],
      "a": [
       "Xiaohong Fang",
@@ -46473,19 +46567,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Oconnor",
+      "Thomas Licciardello"
      ],
      "a": [
       "Jhon Cifuentes",
       "Jack Tran"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alfonse Calato",
+      "Christian Aberin"
      ],
      "a": [
       "Jianfeng Wang",
@@ -46495,8 +46593,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Idris Nejumi"
      ],
      "a": [
       "Joanne Rim",
@@ -46506,8 +46604,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie Sozomenu",
+      "Thomas Licciardello"
      ],
      "a": [
       "Ronnie Kostak",
@@ -46517,19 +46615,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Mctague",
+      "John Oconnor"
      ],
      "a": [
       "Xiaohong Fang",
       "Yan Wang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Raffaella Pernice",
+      "Alfonse Calato"
      ],
      "a": [
       "Ani Stone",
@@ -46539,19 +46641,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Sozomenu",
+      "Laura Altieri"
      ],
      "a": [
       "Shuming Zhu",
       "Joanne Rim"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Gerilynn Calato"
      ],
      "a": [
       "Xiaohong Fang",
@@ -46561,19 +46667,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Oconnor",
+      "Thomas Licciardello"
      ],
      "a": [
       "Wallace Lee",
       "Yan Wang"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alfonse Calato",
+      "Christian Aberin"
      ],
      "a": [
       "Jack Tran",
@@ -49682,7 +49792,6 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
-  "Laura Altieri": "16aee8ed-3398-46f5-bd76-ec71473a2db4",
   "Bin Song": "1a3fe8ae-2bb6-472b-b379-62f714bf58a9",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jennifer Alvarez": "4b3f4a35-e94a-402c-869d-77650914bdcb",
@@ -49694,7 +49803,6 @@
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
-  "John Oconnor": "acc08ec0-5bcd-4df3-b334-f75c4a5e0bb5",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
@@ -50753,7 +50861,7 @@
   "matchesPlayed": 60,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 422,
+  "totalPlayers": 424,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -50874,7 +50982,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-10T16:39:52.495Z";
+  DATA.meta.asOf = "2026-10-10T18:04:00.921Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

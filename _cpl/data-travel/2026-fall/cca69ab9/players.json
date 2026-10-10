@@ -481,7 +481,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 210
+      "ranking": 211
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -1220,6 +1220,29 @@
       "ranking": 178
     },
     {
+      "playerId": "40abb6aa-9678-431b-8b5c-6f140f00c5bc",
+      "firstName": "Christopher",
+      "lastName": "Ullo",
+      "gender": "Male",
+      "dupr": "59Y4YV",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "teamName": "Dill Dinkers Freehold",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 209
+    },
+    {
       "playerId": "41191982-ca10-4665-8eb2-6d5231b4a0c4",
       "firstName": "Geoff",
       "lastName": "Watson",
@@ -1539,7 +1562,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 209
+      "ranking": 210
     },
     {
       "playerId": "4de9fd52-8910-4c2f-9aad-e2e55a0e33a1",
@@ -4460,7 +4483,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 211
+      "ranking": 212
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",
