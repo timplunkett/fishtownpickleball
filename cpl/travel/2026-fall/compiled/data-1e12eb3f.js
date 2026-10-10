@@ -57578,133 +57578,181 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Peng",
+      "Adam Chu"
      ],
      "a": [
       "Qiuyan Kong",
       "Peter O'Farrill"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Levesque",
+      "James Carter"
      ],
      "a": [
       "Patricia Cordts",
       "Dennis Tenorio"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Alan Carr"
      ],
      "a": [
       "Maria Fanfa",
       "Eldon Carandan"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Zuojun Zhang"
      ],
      "a": [
       "Olga Sedycias",
       "Craig Rathjen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Levesque",
+      "Laura Peng"
      ],
      "a": [
       "Patty Direzze",
       "Marcia Rathjen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Robin Aiello"
      ],
      "a": [
       "Qiuyan Kong",
       "Olga Sedycias"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Chu",
+      "Zuojun Zhang"
      ],
      "a": [
       "Dennis Tenorio",
       "Chuck Silvester"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Carter",
+      "Alan Carr"
      ],
      "a": [
       "Craig Rathjen",
       "Eldon Carandan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Zuojun Zhang"
      ],
      "a": [
       "Qiuyan Kong",
       "Peter O'Farrill"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Levesque",
+      "Adam Chu"
      ],
      "a": [
       "Patricia Cordts",
       "Chuck Silvester"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Peng",
+      "James Carter"
      ],
      "a": [
       "Maria Fanfa",
       "Dennis Tenorio"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Alan Carr"
      ],
      "a": [
       "Olga Sedycias",
       "Wai Yiu"
+     ],
+     "hSub": [
+      1,
+      1
      ],
      "aSub": [
       0,
@@ -57714,34 +57762,46 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Levesque",
+      "Laura Peng"
      ],
      "a": [
       "Patty Direzze",
       "Marcia Rathjen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Robin Aiello"
      ],
      "a": [
       "Maria Fanfa",
       "Patricia Cordts"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Chu",
+      "James Carter"
      ],
      "a": [
       "Wai Yiu",
       "Eldon Carandan"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -57751,101 +57811,137 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Carr",
+      "Zuojun Zhang"
      ],
      "a": [
       "Chuck Silvester",
       "Craig Rathjen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Alan Carr"
      ],
      "a": [
       "Maria Fanfa",
       "Dennis Tenorio"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Zuojun Zhang"
      ],
      "a": [
       "Marcia Rathjen",
       "Chuck Silvester"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Levesque",
+      "Adam Chu"
      ],
      "a": [
       "Patty Direzze",
       "Peter O'Farrill"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Peng",
+      "James Carter"
      ],
      "a": [
       "Qiuyan Kong",
       "Eldon Carandan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Laura Peng"
      ],
      "a": [
       "Patty Direzze",
       "Patricia Cordts"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Christine Levesque"
      ],
      "a": [
       "Qiuyan Kong",
       "Olga Sedycias"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Chu",
+      "Alan Carr"
      ],
      "a": [
       "Peter O'Farrill",
       "Craig Rathjen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Carter",
+      "Zuojun Zhang"
      ],
      "a": [
       "Eldon Carandan",
       "Wai Yiu"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -57854,35 +57950,47 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Levesque",
+      "James Carter"
      ],
      "a": [
       "Patricia Cordts",
       "Dennis Tenorio"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Alan Carr"
      ],
      "a": [
       "Marcia Rathjen",
       "Chuck Silvester"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Laura Peng",
+      "Zuojun Zhang"
      ],
      "a": [
       "Patty Direzze",
       "Wai Yiu"
      ],
+     "hSub": [
+      1,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -57891,56 +57999,76 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Adam Chu"
      ],
      "a": [
       "Qiuyan Kong",
       "Craig Rathjen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Robin Aiello",
+      "Christine Levesque"
      ],
      "a": [
       "Marcia Rathjen",
       "Olga Sedycias"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sherry Sili",
+      "Laura Peng"
      ],
      "a": [
       "Patricia Cordts",
       "Maria Fanfa"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Chu",
+      "Zuojun Zhang"
      ],
      "a": [
       "Chuck Silvester",
       "Peter O'Farrill"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Carr",
+      "James Carter"
      ],
      "a": [
       "Craig Rathjen",
       "Dennis Tenorio"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -62139,8 +62267,8 @@
     {
      "t": "mixed",
      "h": [
-      "Krishma Patel",
-      "Brian Kelly"
+      "Donna Stone",
+      "Guillermo Wong"
      ],
      "a": [
       "Caroline Kinlin",
@@ -62150,8 +62278,8 @@
     {
      "t": "mixed",
      "h": [
-      "Donna Stone",
-      "Guillermo Wong"
+      "Krishma Patel",
+      "Brian Kelly"
      ],
      "a": [
       "Nicole Tarallo",
@@ -62172,8 +62300,8 @@
     {
      "t": "female",
      "h": [
-      "Theresa Dumbrique",
-      "Krishma Patel"
+      "Donna Stone",
+      "Lynette Pil"
      ],
      "a": [
       "Kathy Baker",
@@ -62183,8 +62311,8 @@
     {
      "t": "female",
      "h": [
-      "Donna Stone",
-      "Lynette Pil"
+      "Theresa Dumbrique",
+      "Krishma Patel"
      ],
      "a": [
       "Nicole Tarallo",
@@ -62205,8 +62333,8 @@
     {
      "t": "male",
      "h": [
-      "Brian Kelly",
-      "Scott Perrone"
+      "Scott Perrone",
+      "Brian Kelly"
      ],
      "a": [
       "Mark Zamkoff",
@@ -62216,8 +62344,8 @@
     {
      "t": "mixed",
      "h": [
-      "Jennifer Taddeo",
-      "Brian Kelly"
+      "Marleen Tuquero",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Caroline Kinlin",
@@ -62228,7 +62356,7 @@
      "t": "mixed",
      "h": [
       "Krishma Patel",
-      "Tony Sethi"
+      "Brian Kelly"
      ],
      "a": [
       "Elaine Aquilone",
@@ -62238,8 +62366,8 @@
     {
      "t": "mixed",
      "h": [
-      "Lynette Pil",
-      "Dean Lim"
+      "Jennifer Taddeo",
+      "Tony Sethi"
      ],
      "a": [
       "Jackie Coneeny",
@@ -62249,8 +62377,8 @@
     {
      "t": "mixed",
      "h": [
-      "Marleen Tuquero",
-      "Scott Perrone"
+      "Lynette Pil",
+      "Dean Lim"
      ],
      "a": [
       "Nicole Tarallo",
@@ -62260,8 +62388,8 @@
     {
      "t": "female",
      "h": [
-      "Theresa Dumbrique",
-      "Marleen Tuquero"
+      "Lynette Pil",
+      "Donna Stone"
      ],
      "a": [
       "Donna Facconerusin",
@@ -62271,8 +62399,8 @@
     {
      "t": "female",
      "h": [
-      "Krishma Patel",
-      "Donna Stone"
+      "Jennifer Taddeo",
+      "Theresa Dumbrique"
      ],
      "a": [
       "Kathy Baker",
@@ -62282,8 +62410,8 @@
     {
      "t": "male",
      "h": [
-      "Guillermo Wong",
-      "Brian Kelly"
+      "Brian Kelly",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Leo Decker",
@@ -62298,7 +62426,7 @@
      "t": "male",
      "h": [
       "Scott Perrone",
-      "Srinatha Nanjundaiah"
+      "Guillermo Wong"
      ],
      "a": [
       "Mark Zamkoff",
@@ -62319,8 +62447,8 @@
     {
      "t": "mixed",
      "h": [
-      "Theresa Dumbrique",
-      "Guillermo Wong"
+      "Donna Stone",
+      "Tony Sethi"
      ],
      "a": [
       "Caroline Kinlin",
@@ -62330,8 +62458,8 @@
     {
      "t": "mixed",
      "h": [
-      "Donna Stone",
-      "Tony Sethi"
+      "Theresa Dumbrique",
+      "Scott Perrone"
      ],
      "a": [
       "Kathy Baker",
@@ -62345,8 +62473,8 @@
     {
      "t": "mixed",
      "h": [
-      "Jennifer Taddeo",
-      "Srinatha Nanjundaiah"
+      "Krishma Patel",
+      "Guillermo Wong"
      ],
      "a": [
       "Elaine Aquilone",
@@ -62356,8 +62484,8 @@
     {
      "t": "female",
      "h": [
-      "Donna Stone",
-      "Krishma Patel"
+      "Krishma Patel",
+      "Donna Stone"
      ],
      "a": [
       "Kathy Baker",
@@ -62367,8 +62495,8 @@
     {
      "t": "female",
      "h": [
-      "Theresa Dumbrique",
-      "Lynette Pil"
+      "Marleen Tuquero",
+      "Theresa Dumbrique"
      ],
      "a": [
       "Jackie Coneeny",
@@ -62379,7 +62507,7 @@
      "t": "male",
      "h": [
       "Dean Lim",
-      "Srinatha Nanjundaiah"
+      "Tony Sethi"
      ],
      "a": [
       "Mark Zamkoff",
@@ -62394,7 +62522,7 @@
      "t": "male",
      "h": [
       "Guillermo Wong",
-      "Tony Sethi"
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Leo Decker",
@@ -62415,7 +62543,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jennifer Taddeo",
+      "Donna Stone",
       "Tony Sethi"
      ],
      "a": [
@@ -62441,7 +62569,7 @@
     {
      "t": "mixed",
      "h": [
-      "Krishma Patel",
+      "Jennifer Taddeo",
       "Scott Perrone"
      ],
      "a": [
@@ -62452,7 +62580,7 @@
     {
      "t": "female",
      "h": [
-      "Donna Stone",
+      "Theresa Dumbrique",
       "Jennifer Taddeo"
      ],
      "a": [
@@ -62463,8 +62591,8 @@
     {
      "t": "female",
      "h": [
-      "Lynette Pil",
-      "Theresa Dumbrique"
+      "Krishma Patel",
+      "Lynette Pil"
      ],
      "a": [
       "Nicole Tarallo",
@@ -65029,7 +65157,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-10T03:28:46.399Z";
+  DATA.meta.asOf = "2026-10-10T11:37:39.967Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
