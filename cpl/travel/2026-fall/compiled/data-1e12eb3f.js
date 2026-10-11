@@ -14348,7 +14348,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 583,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14377,7 +14377,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 579,
+   "leagueRank": 580,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14435,7 +14435,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 587,
+   "leagueRank": 588,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14464,7 +14464,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 586,
+   "leagueRank": 587,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14493,7 +14493,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 578,
+   "leagueRank": 579,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14609,7 +14609,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 576,
+   "leagueRank": 577,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14638,7 +14638,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 583,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14696,7 +14696,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14725,7 +14725,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 582,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -65393,6 +65393,7 @@
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
+  "Shirley Lim": "bdc3fa9a-c860-4629-a4c5-e7ec577239b2",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
@@ -66532,6 +66533,14 @@
    "outsideSub": true
   },
   {
+   "name": "Shirley Lim",
+   "playerId": "bdc3fa9a-c860-4629-a4c5-e7ec577239b2",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hamilton Prime Time",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Edward Goodman",
    "playerId": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
    "gender": "Male",
@@ -67102,7 +67111,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T15:23:14.222Z";
+  DATA.meta.asOf = "2026-10-11T17:04:54.001Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

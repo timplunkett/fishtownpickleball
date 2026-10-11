@@ -4604,7 +4604,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -27560,6 +27560,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Ryann Lambert": "00004afc-69bc-481b-a160-d80ae2f56746",
   "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
@@ -27572,6 +27573,14 @@
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
  },
  "availableSubs": [
+  {
+   "name": "Ryann Lambert",
+   "playerId": "00004afc-69bc-481b-a160-d80ae2f56746",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
   {
    "name": "Jodi De Waal",
    "playerId": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
@@ -28049,7 +28058,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-09T22:05:00.191Z";
+  DATA.meta.asOf = "2026-10-11T17:06:32.301Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

@@ -443,7 +443,7 @@
       "lastName": "Laiso",
       "gender": "Male",
       "dupr": "2LX6ZR",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
       "teamName": "Dill Dinkers Freehold",
