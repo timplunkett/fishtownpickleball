@@ -909,6 +909,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Amanda Zhou",
+   "playerId": "70422d8a-2761-48c4-ac68-ae5bfe532394",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Amita Gupta",
    "playerId": "e27ad64a-8a8e-472b-967b-22c2667a1084",
    "team": "Pickleball Kingdom Watchung",
@@ -16783,6 +16790,13 @@ window.DUPR_AUDIT = {
    "team": "Montville Rocks",
    "slug": "c43b8608",
    "gender": "Female"
+  },
+  {
+   "name": "Shyler Smith",
+   "playerId": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
+   "team": "Pickle House",
+   "slug": "c118b8e9",
+   "gender": "Male"
   },
   {
    "name": "Sidd Pathare",

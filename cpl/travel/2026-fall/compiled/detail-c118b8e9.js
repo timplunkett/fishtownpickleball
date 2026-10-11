@@ -14626,8 +14626,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -14653,8 +14653,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Pickle House"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

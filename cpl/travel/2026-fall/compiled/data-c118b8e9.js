@@ -2093,8 +2093,8 @@
    "name": "Shyler Smith",
    "gender": "Male",
    "team": "Pickle House",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 24,
    "wins": 16,
@@ -40419,9 +40419,7 @@
      ]
     }
    ],
-   "subs": [
-    "Shyler Smith"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -45997,7 +45995,6 @@
    ],
    "subs": [
     "Michael Mazzola",
-    "Shyler Smith",
     "Steven Santiago"
    ]
   },
@@ -47879,7 +47876,389 @@
    "home": "Picklr Newtown",
    "away": "Pickleball Kingdom Hamilton",
    "time": "2026-10-13T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Imran Mazhar"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Syed Haider",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Kapil Khanna"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aaron Chan",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Jaiveer Narwal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Kapil Khanna"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jaiveer Narwal",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Kapil Khanna"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aaron Chan",
+      "Imran Mazhar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilip Patel",
+      "Aaron Chan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yash Mehta",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Syed Haider",
+      "Jaiveer Narwal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Yash Mehta"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilip Patel",
+      "Jaiveer Narwal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Kapil Khanna"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilip Patel",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Aaron Chan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Kapil Khanna"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aaron Chan",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Jaiveer Narwal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Imran Mazhar"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -48618,9 +48997,9 @@
    "name": "Shyler Smith",
    "playerId": "aabb2c71-bc56-468e-91b9-d431d6f2d26b",
    "gender": "Male",
-   "team": "Pickle House",
+   "team": "APC Garden State",
    "isCaptain": false,
-   "outsideSub": true
+   "outsideSub": false
   },
   {
    "name": "Steven Santiago",
@@ -48974,7 +49353,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T03:04:17.748Z";
+  DATA.meta.asOf = "2026-10-11T15:25:47.620Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

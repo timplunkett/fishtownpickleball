@@ -5657,6 +5657,35 @@
    "playerId": "4d33c53f-a066-4543-b2cf-313c11165227"
   },
   {
+   "name": "Noah Goding",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 205,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "80138d68-a74a-4f8c-aea1-7d31e682efa8"
+  },
+  {
    "name": "Rohan Sabharwal",
    "gender": "Male",
    "team": "Monroe",
@@ -29869,8 +29898,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Elliott Albanese"
      ],
      "a": [
       "Michael Ksiezopolski",
@@ -29880,7 +29909,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Ian Chin",
       ""
      ],
      "a": [
@@ -29891,8 +29920,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neel Goyal",
+      "Jason Makarevic"
      ],
      "a": [
       "Salman Saad",
@@ -29906,8 +29935,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Jake Laifer"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -29921,8 +29950,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Jake Laifer"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -29936,7 +29965,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Ian Chin",
       ""
      ],
      "a": [
@@ -29947,8 +29976,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Elliott Albanese"
      ],
      "a": [
       "Rahul Purwah",
@@ -29958,8 +29987,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neel Goyal",
+      "Jason Makarevic"
      ],
      "a": [
       "Salman Saad",
@@ -29973,8 +30002,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Elliott Albanese"
      ],
      "a": [
       "Salman Saad",
@@ -29988,7 +30017,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Camrin Cronheim",
       ""
      ],
      "a": [
@@ -29999,8 +30028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Ian Chin"
      ],
      "a": [
       "Aleksey Sergeev",
@@ -30010,8 +30039,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neel Goyal",
+      "Jake Laifer"
      ],
      "a": [
       "Julius Degen",
@@ -30025,8 +30054,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Ian Chin"
      ],
      "a": [
       "Julius Degen",
@@ -30036,8 +30065,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neel Goyal",
+      "Jake Laifer"
      ],
      "a": [
       "Rahul Purwah",
@@ -30051,7 +30080,7 @@
     {
      "t": "male",
      "h": [
-      "",
+      "Camrin Cronheim",
       ""
      ],
      "a": [
@@ -30062,8 +30091,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Elliott Albanese"
      ],
      "a": [
       "Aleksey Sergeev",
@@ -30077,8 +30106,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Jake Laifer"
      ],
      "a": [
       "Rahul Purwah",
@@ -30170,8 +30199,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Jake Laifer"
      ],
      "a": [
       "Rahul Purwah",
@@ -30299,8 +30328,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robbie Oddy",
+      "Andy Ead"
      ],
      "a": [
       "Eric Jiang",
@@ -30310,338 +30339,386 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Noah Goding"
      ],
      "a": [
       "Drew Youssef",
+      "Daniel Gallegos"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Dowd",
+      "Frank Clark"
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Emil Pescatore"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shahar Gelber",
+      "Simon Perry"
+     ],
+     "a": [
+      "Kevin Sun",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shahar Gelber",
+      "Frank Clark"
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Drew Youssef"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Hany Ibrahim",
+      "Jay Alquiros"
+     ],
+     "a": [
+      "Eric Jiang",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Austin Williams",
+      "Noah Goding"
+     ],
+     "a": [
+      "Ken Velarde",
+      "Kevin Sun"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robbie Oddy",
+      "Andy Ead"
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Emil Pescatore"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Austin Williams",
+      "Hany Ibrahim"
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Kevin Sun"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robbie Oddy",
+      "Simon Perry"
+     ],
+     "a": [
+      "Drew Youssef",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Noah Goding",
+      "Tim Dowd"
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Eric Jiang"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Alquiros",
+      "Frank Clark"
+     ],
+     "a": [
+      "Emil Pescatore",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Austin Williams",
+      "Hany Ibrahim"
+     ],
+     "a": [
+      "Drew Youssef",
+      "Ken Velarde"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robbie Oddy",
+      "Simon Perry"
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Eric Jiang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Dowd",
+      "Andy Ead"
+     ],
+     "a": [
+      "Josiah Kim",
+      "Emil Pescatore"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shahar Gelber",
+      "Jay Alquiros"
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Austin Williams",
+      "Andy Ead"
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Eric Jiang"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Noah Goding",
+      "Simon Perry"
+     ],
+     "a": [
+      "Ken Velarde",
+      "Anthony Bonaventura"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robbie Oddy",
+      "Hany Ibrahim"
+     ],
+     "a": [
+      "Kevin Sun",
+      "Emil Pescatore"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shahar Gelber",
+      "Tim Dowd"
+     ],
+     "a": [
+      "Josiah Kim",
+      "Drew Youssef"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Perry",
+      "Noah Goding"
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Eric Jiang"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Frank Clark",
+      "Jay Alquiros"
+     ],
+     "a": [
+      "Ken Velarde",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Austin Williams",
+      "Andy Ead"
+     ],
+     "a": [
+      "Emil Pescatore",
+      "Kevin Sun"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robbie Oddy",
+      "Tim Dowd"
+     ],
+     "a": [
+      "Drew Youssef",
+      "Josiah Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Hany Ibrahim",
+      "Noah Goding"
+     ],
+     "a": [
+      "Eric Jiang",
+      "Ken Velarde"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Dowd",
+      "Frank Clark"
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Anthony Bonaventura"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robbie Oddy",
+      "Austin Williams"
+     ],
+     "a": [
+      "Kevin Sun",
+      "Josiah Kim"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jay Alquiros",
+      "Shahar Gelber"
+     ],
+     "a": [
+      "Emil Pescatore",
+      "Drew Youssef"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Austin Williams",
+      "Jay Alquiros"
+     ],
+     "a": [
+      "Eric Jiang",
+      "Ken Velarde"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shahar Gelber",
+      "Hany Ibrahim"
+     ],
+     "a": [
+      "Josiah Kim",
+      "Kevin Sun"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tim Dowd",
+      "Andy Ead"
+     ],
+     "a": [
+      "Anthony Bonaventura",
       "Daniel Gallegos"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Anthony Bonaventura",
-      "Emil Pescatore"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kevin Sun",
-      "Ken Velarde"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Daniel Gallegos",
-      "Drew Youssef"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Eric Jiang",
-      "Josiah Kim"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ken Velarde",
-      "Kevin Sun"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Anthony Bonaventura",
-      "Emil Pescatore"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Daniel Gallegos",
-      "Kevin Sun"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Drew Youssef",
-      "Ken Velarde"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Anthony Bonaventura",
-      "Eric Jiang"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Emil Pescatore",
-      "Josiah Kim"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Drew Youssef",
-      "Ken Velarde"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Anthony Bonaventura",
-      "Eric Jiang"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Josiah Kim",
-      "Emil Pescatore"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Daniel Gallegos",
-      "Kevin Sun"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Daniel Gallegos",
-      "Eric Jiang"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ken Velarde",
-      "Anthony Bonaventura"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kevin Sun",
-      "Emil Pescatore"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Josiah Kim",
-      "Drew Youssef"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Daniel Gallegos",
-      "Eric Jiang"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ken Velarde",
-      "Anthony Bonaventura"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Emil Pescatore",
-      "Kevin Sun"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Drew Youssef",
-      "Josiah Kim"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Eric Jiang",
-      "Ken Velarde"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Daniel Gallegos",
-      "Anthony Bonaventura"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kevin Sun",
-      "Josiah Kim"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Emil Pescatore",
-      "Drew Youssef"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Eric Jiang",
-      "Ken Velarde"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Josiah Kim",
-      "Kevin Sun"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Anthony Bonaventura",
-      "Daniel Gallegos"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Frank Clark",
+      "Simon Perry"
      ],
      "a": [
       "Drew Youssef",
@@ -31666,7 +31743,6 @@
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Andrew Cooley": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
-  "Noah Goding": "80138d68-a74a-4f8c-aea1-7d31e682efa8",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Christopher Yang": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc"
  },
@@ -32076,7 +32152,7 @@
   "matchesPlayed": 39,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 200,
+  "totalPlayers": 201,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -32187,7 +32263,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T03:03:43.337Z";
+  DATA.meta.asOf = "2026-10-11T15:25:14.022Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
