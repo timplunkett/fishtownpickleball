@@ -12,8 +12,8 @@ window.CPL_CATALOG = {
      "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [
-      {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-10-11T03:01:46.429Z"},
-      {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-10-11T03:02:19.399Z"},
+      {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-10-11T11:50:43.323Z"},
+      {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-10-11T11:51:17.987Z"},
       {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-10-10T03:30:02.257Z"},
       {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-10-10T20:56:29.425Z"},
       {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-10-10T01:18:41.136Z"},

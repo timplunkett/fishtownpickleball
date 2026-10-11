@@ -929,9 +929,9 @@
       "weekNumber": 8,
       "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
       "awayTeamId": "b50741d8-b03d-48f0-bba4-26690e863e12",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 616,
+      "awayPoints": 595,
+      "endResult": "home",
       "scheduledTime": "2026-10-10T13:00:00",
       "homeName": "Pickleball Kingdom Hamilton Prime Time",
       "awayName": "Mercer Bucks"

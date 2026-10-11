@@ -10761,6 +10761,35 @@
    "playerId": "c88d4242-d33b-43dc-9b08-cbbe8664129b"
   },
   {
+   "name": "Manny Duarte",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 387,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "d41ad35d-4e13-4f91-97e7-3702dd8d05f2"
+  },
+  {
    "name": "Christopher Knapp",
    "gender": "Male",
    "team": "Players Courtyard",
@@ -56009,8 +56038,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Altman",
+      "Mike Fede"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -56020,8 +56049,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patti Calhoon",
+      "Thomas Lum"
      ],
      "a": [
       "Rebecca Woofter",
@@ -56031,8 +56060,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Isha Rahalkar",
+      "Matthew Cohen"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -56042,19 +56071,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Duarte",
+      "Manny Duarte"
      ],
      "a": [
       "Jackie Bowes",
       "Colin Mackey"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashley Altman",
+      "Tiffany Weinert"
      ],
      "a": [
       "Jackie Bowes",
@@ -56064,8 +56097,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kris Miller",
+      "Patti Calhoon"
      ],
      "a": [
       "Kim Kronberger",
@@ -56075,8 +56108,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Briones",
+      "Thomas Lum"
      ],
      "a": [
       "Ryan Benetz",
@@ -56086,19 +56119,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Simon Burns",
+      "Manny Duarte"
      ],
      "a": [
       "Colin Mackey",
       "James Conroy"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Altman",
+      "Jonathan Briones"
      ],
      "a": [
       "Jackie Bowes",
@@ -56108,8 +56145,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Duarte",
+      "Simon Burns"
      ],
      "a": [
       "Rebecca Woofter",
@@ -56119,8 +56156,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Isha Rahalkar",
+      "Matthew Cohen"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -56130,8 +56167,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tiffany Weinert",
+      "Mike Fede"
      ],
      "a": [
       "Melissa Mackey",
@@ -56141,8 +56178,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashley Altman",
+      "Sandy Duarte"
      ],
      "a": [
       "Rebecca Woofter",
@@ -56152,8 +56189,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patti Calhoon",
+      "Kris Miller"
      ],
      "a": [
       "Kim Kronberger",
@@ -56163,19 +56200,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Manny Duarte",
+      "Thomas Lum"
      ],
      "a": [
       "Robert Courchain",
       "John Waggoner"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Briones",
+      "Mike Fede"
      ],
      "a": [
       "Colin Mackey",
@@ -56185,19 +56226,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Duarte",
+      "Manny Duarte"
      ],
      "a": [
       "Melissa Mackey",
       "Josh Ruble"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Isha Rahalkar",
+      "Simon Burns"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -56207,8 +56252,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kris Miller",
+      "Matthew Cohen"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -56218,8 +56263,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tiffany Weinert",
+      "Jonathan Briones"
      ],
      "a": [
       "Kim Kronberger",
@@ -56229,8 +56274,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Isha Rahalkar",
+      "Tiffany Weinert"
      ],
      "a": [
       "Jackie Bowes",
@@ -56240,8 +56285,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashley Altman",
+      "Patti Calhoon"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -56251,8 +56296,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Briones",
+      "Mike Fede"
      ],
      "a": [
       "Colin Mackey",
@@ -56262,8 +56307,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Lum",
+      "Simon Burns"
      ],
      "a": [
       "Robert Courchain",
@@ -56273,19 +56318,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kris Miller",
+      "Manny Duarte"
      ],
      "a": [
       "Jackie Bowes",
       "Josh Ruble"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patti Calhoon",
+      "Thomas Lum"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -56295,8 +56344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Duarte",
+      "Matthew Cohen"
      ],
      "a": [
       "Rebecca Woofter",
@@ -56306,8 +56355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Isha Rahalkar",
+      "Simon Burns"
      ],
      "a": [
       "Kim Kronberger",
@@ -56317,8 +56366,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Isha Rahalkar",
+      "Kris Miller"
      ],
      "a": [
       "Jackie Bowes",
@@ -56328,8 +56377,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashley Altman",
+      "Tiffany Weinert"
      ],
      "a": [
       "Melissa Mackey",
@@ -56339,8 +56388,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Cohen",
+      "Mike Fede"
      ],
      "a": [
       "Colin Mackey",
@@ -56350,12 +56399,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Briones",
+      "Manny Duarte"
      ],
      "a": [
       "Robert Courchain",
       "Ryan Benetz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -59469,7 +59522,6 @@
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
   "Jennalee Fede": "d043b0ad-d33b-4f58-b605-709246b23c11",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
-  "Manny Duarte": "d41ad35d-4e13-4f91-97e7-3702dd8d05f2",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Niman Ahmeti": "e5c7646e-bb30-40b2-bb20-bd4c75e814ce",
   "Anthony Oliver": "e99589b9-dcaa-405f-ad41-0cda95a5f236",
@@ -60214,7 +60266,7 @@
   "matchesPlayed": 74,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 388,
+  "totalPlayers": 389,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -60346,7 +60398,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T03:01:46.429Z";
+  DATA.meta.asOf = "2026-10-11T11:50:43.323Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
