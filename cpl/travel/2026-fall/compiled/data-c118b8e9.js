@@ -759,8 +759,8 @@
    "name": "Varun Kabaria",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 13,
@@ -8142,7 +8142,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 300,
+   "leagueRank": 301,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8171,7 +8171,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 309,
+   "leagueRank": 311,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8200,7 +8200,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 305,
+   "leagueRank": 306,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8229,7 +8229,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 301,
+   "leagueRank": 302,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -43672,9 +43672,7 @@
      ]
     }
    ],
-   "subs": [
-    "Varun Kabaria"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -44604,7 +44602,6 @@
     }
    ],
    "subs": [
-    "Varun Kabaria",
     "David King",
     "Sachin Pathare",
     "Ravi Shetty",
@@ -48261,9 +48258,11 @@
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
+  "Karan N": "4c3b5a3a-2cbe-4287-a060-5b73d9fbf12b",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "John Darrah": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
+  "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Jason Ilkowitz": "dcd4414c-5981-4a70-a4dc-fd943d6d5e17",
@@ -48456,18 +48455,18 @@
    "outsideSub": true
   },
   {
-   "name": "Varun Kabaria",
-   "playerId": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Vyas Maddukuri",
    "playerId": "4c208ee3-c374-413b-8941-b1ad278acfb5",
    "gender": "Male",
    "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Karan N",
+   "playerId": "4c3b5a3a-2cbe-4287-a060-5b73d9fbf12b",
+   "gender": "Male",
+   "team": "Pickle House",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -48540,6 +48539,14 @@
    "playerId": "790dc637-f23d-4942-af8a-bfd20b474282",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dileep Kumar Konduru",
+   "playerId": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
+   "gender": "Male",
+   "team": "Pickle House",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -48967,7 +48974,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-10T01:20:52.677Z";
+  DATA.meta.asOf = "2026-10-11T03:04:17.748Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

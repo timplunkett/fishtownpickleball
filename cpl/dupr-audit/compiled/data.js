@@ -12613,6 +12613,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Matthew Chen",
+   "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183",
+   "team": "Jersey Devil",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Matthew Cohen",
    "playerId": "d068c594-50ee-495b-8997-766c9f6c68d5",
    "team": "Picklr Newark",
@@ -16316,6 +16323,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Scotland Reynolds",
+   "playerId": "f73639c7-39ff-4cb8-b5a1-09c073c5c7b3",
+   "team": "Bounce Malvern",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Scott Auty",
    "playerId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
    "team": "ACE Moorestown",
@@ -18518,6 +18532,13 @@ window.DUPR_AUDIT = {
    "playerId": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Varun Kabaria",
+   "playerId": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {

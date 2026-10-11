@@ -40374,7 +40374,7 @@
     "lastName": "Konduru",
     "dupr": "6N6ZNG",
     "duprRating": "3.267",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 6538506926,
     "duprProvisional": false
   },
@@ -47934,6 +47934,26 @@
     "duprRating": "4.533",
     "lastSeen": "2026-10",
     "duprNumericId": 6685700892,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "f73639c7-39ff-4cb8-b5a1-09c073c5c7b3",
+    "firstName": "Scotland",
+    "lastName": "Reynolds",
+    "dupr": "8D62NM",
+    "duprRating": "4.720",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6289803478,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "4c3b5a3a-2cbe-4287-a060-5b73d9fbf12b",
+    "firstName": "Karan",
+    "lastName": "N",
+    "dupr": "2YYJ94",
+    "duprRating": "3.581",
+    "lastSeen": "2026-10",
+    "duprNumericId": 4684608640,
     "duprProvisional": false
   }
 ]
