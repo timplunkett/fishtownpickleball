@@ -55305,7 +55305,7 @@
      "t": "mixed",
      "h": [
       "Taylor Leuck",
-      "Tomas Ruiz"
+      "David Abiog"
      ],
      "a": [
       "Linda Seemann",
@@ -55437,7 +55437,7 @@
      "t": "male",
      "h": [
       "Kenneth Ocasio",
-      "Tomas Ruiz"
+      "David Abiog"
      ],
      "a": [
       "Cory Mintz",
@@ -55470,7 +55470,7 @@
      "t": "mixed",
      "h": [
       "Julianna Rodrigues",
-      "Tomas Ruiz"
+      "David Abiog"
      ],
      "a": [
       "Linda Seemann",
@@ -55525,7 +55525,7 @@
      "t": "male",
      "h": [
       "Jonathan Wong",
-      "Tomas Ruiz"
+      "David Abiog"
      ],
      "a": [
       "Mike Hardy",
@@ -55612,7 +55612,7 @@
     {
      "t": "male",
      "h": [
-      "Tomas Ruiz",
+      "David Abiog",
       "Kenneth Ocasio"
      ],
      "a": [
@@ -56421,8 +56421,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Tuquero",
+      "Jebril Guevarra"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56432,8 +56432,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Appleton",
+      "Juri Solano"
      ],
      "a": [
       "Alyssa Beattie",
@@ -56443,8 +56443,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thao Tran",
+      "John Danks"
      ],
      "a": [
       "Kristin Larosa",
@@ -56454,8 +56454,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Kopec",
+      "Kenneth Bautista"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -56465,8 +56465,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Kopec",
+      "Meredith Janeiro"
      ],
      "a": [
       "Kristin Larosa",
@@ -56476,8 +56476,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Thao Tran"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56487,8 +56487,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Juri Solano",
+      "Marvin Steller"
      ],
      "a": [
       "Andy Pineda",
@@ -56498,8 +56498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Ed Amato"
      ],
      "a": [
       "Brian Perlowitz",
@@ -56509,8 +56509,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Appleton",
+      "Kenneth Bautista"
      ],
      "a": [
       "Andrea Popovich",
@@ -56520,8 +56520,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Ed Amato"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56531,8 +56531,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meredith Janeiro",
+      "Marvin Steller"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -56542,8 +56542,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thao Tran",
+      "John Danks"
      ],
      "a": [
       "Kristin Larosa",
@@ -56553,8 +56553,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meredith Janeiro",
+      "Jessica Kopec"
      ],
      "a": [
       "Kristin Larosa",
@@ -56564,8 +56564,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Thao Tran",
+      "Patricia Tuquero"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -56575,8 +56575,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Marvin Steller"
      ],
      "a": [
       "Marvin Lao",
@@ -56586,8 +56586,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Juri Solano",
+      "Kenneth Bautista"
      ],
      "a": [
       "Andy Pineda",
@@ -56597,8 +56597,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "John Danks"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56608,8 +56608,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Kopec",
+      "Kenneth Bautista"
      ],
      "a": [
       "Alyssa Beattie",
@@ -56619,8 +56619,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Tuquero",
+      "Jebril Guevarra"
      ],
      "a": [
       "Kristin Larosa",
@@ -56630,8 +56630,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thao Tran",
+      "Ed Amato"
      ],
      "a": [
       "Andrea Popovich",
@@ -56641,8 +56641,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Thao Tran",
+      "Amanda Nguyen"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56652,8 +56652,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meredith Janeiro",
+      "Patricia Tuquero"
      ],
      "a": [
       "Kristin Larosa",
@@ -56663,8 +56663,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Ed Amato"
      ],
      "a": [
       "Andy Pineda",
@@ -56674,8 +56674,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marvin Steller",
+      "Juri Solano"
      ],
      "a": [
       "Robert Paniti",
@@ -56685,8 +56685,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Kopec",
+      "Jebril Guevarra"
      ],
      "a": [
       "Alyssa Beattie",
@@ -56696,8 +56696,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meredith Janeiro",
+      "Ed Amato"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56707,8 +56707,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Tuquero",
+      "Kenneth Bautista"
      ],
      "a": [
       "Andrea Popovich",
@@ -56718,8 +56718,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Appleton",
+      "Juri Solano"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -56729,8 +56729,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Appleton",
+      "Patricia Tuquero"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -56740,8 +56740,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Meredith Janeiro"
      ],
      "a": [
       "Kristin Larosa",
@@ -56751,8 +56751,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Juri Solano",
+      "Jebril Guevarra"
      ],
      "a": [
       "Brian Perlowitz",
@@ -56762,8 +56762,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marvin Steller",
+      "Kenneth Bautista"
      ],
      "a": [
       "David Cartwright",
@@ -60396,7 +60396,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T15:22:41.390Z";
+  DATA.meta.asOf = "2026-10-11T21:16:22.052Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
