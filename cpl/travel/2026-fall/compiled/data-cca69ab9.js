@@ -5445,7 +5445,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5503,7 +5503,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5532,7 +5532,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5561,7 +5561,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 208,
+   "leagueRank": 209,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5590,7 +5590,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5619,7 +5619,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 211,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,7 +5677,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5706,13 +5706,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "a7de14f0-a8da-402c-9340-c57389b6736a"
+  },
+  {
+   "name": "Joseph Albanese",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 198,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "ef0d1425-3573-439e-a197-69a837d1b27d"
   },
   {
    "name": "Doug Horton",
@@ -29536,8 +29565,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Michael Li",
@@ -29547,19 +29576,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Yi",
+      "Michael Velez"
      ],
      "a": [
       "Zach Hollmann",
       "Al Mancini"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Jaco De Waal"
      ],
      "a": [
       "Dipen Bhatt",
@@ -29569,8 +29602,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Chris Damato",
@@ -29580,19 +29613,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Cahalin",
+      "Michael Velez"
      ],
      "a": [
       "Al Mancini",
       "Dipen Bhatt"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "William Lee"
      ],
      "a": [
       "Mickey Cook",
@@ -29602,8 +29639,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Zach Mcgowan"
      ],
      "a": [
       "Michael Li",
@@ -29613,8 +29650,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Joseph Yi"
      ],
      "a": [
       "Chris Damato",
@@ -29624,8 +29661,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Jaco De Waal"
      ],
      "a": [
       "Ali Husain",
@@ -29635,19 +29672,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Michael Velez"
      ],
      "a": [
       "Mickey Cook",
       "Michael Li"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Chris Damato",
@@ -29657,8 +29698,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Alex Pecora"
      ],
      "a": [
       "Craig Frame",
@@ -29668,8 +29709,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Tim Cahalin"
      ],
      "a": [
       "Tarkan Akas",
@@ -29679,8 +29720,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jaco De Waal",
+      "Joseph Yi"
      ],
      "a": [
       "Zach Hollmann",
@@ -29690,8 +29731,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Alex Pecora"
      ],
      "a": [
       "Mickey Cook",
@@ -29701,8 +29742,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "William Lee"
      ],
      "a": [
       "Michael Li",
@@ -29712,8 +29753,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Zach Mcgowan"
      ],
      "a": [
       "Chris Damato",
@@ -29723,8 +29764,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Jaco De Waal"
      ],
      "a": [
       "Michael Li",
@@ -29734,8 +29775,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Yi",
+      "Joshua Mindlin"
      ],
      "a": [
       "Ali Husain",
@@ -29745,30 +29786,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Cahalin",
+      "Michael Velez"
      ],
      "a": [
       "Tarkan Akas",
       "Al Mancini"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Velez",
+      "Jaco De Waal"
      ],
      "a": [
       "Ali Husain",
       "Zach Hollmann"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Chris Damato",
@@ -29778,8 +29827,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Christian Lupica"
      ],
      "a": [
       "Mickey Cook",
@@ -29789,8 +29838,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Joseph Yi"
      ],
      "a": [
       "Craig Frame",
@@ -29800,8 +29849,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Michael Li",
@@ -29811,8 +29860,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Christian Lupica"
      ],
      "a": [
       "Zach Hollmann",
@@ -29822,8 +29871,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Jaco De Waal"
      ],
      "a": [
       "Chris Damato",
@@ -29833,19 +29882,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Yi",
+      "Michael Velez"
      ],
      "a": [
       "Ali Husain",
       "Tarkan Akas"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Zach Mcgowan"
      ],
      "a": [
       "Zach Hollmann",
@@ -29855,8 +29908,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Craig Frame",
@@ -29866,19 +29919,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jaco De Waal",
+      "Michael Velez"
      ],
      "a": [
       "Mickey Cook",
       "Tarkan Akas"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Yi",
+      "Joshua Mindlin"
      ],
      "a": [
       "Chris Damato",
@@ -29910,11 +29967,15 @@
      "t": "male",
      "h": [
       "Jake Laifer",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Rahul Purwah",
       "Snehit Achanta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -29966,11 +30027,15 @@
      "t": "male",
      "h": [
       "Jake Laifer",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Aleksey Sergeev",
       "Julius Degen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -30018,11 +30083,15 @@
      "t": "male",
      "h": [
       "Camrin Cronheim",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Snehit Achanta",
       "Michael Ksiezopolski"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -30081,11 +30150,15 @@
      "t": "male",
      "h": [
       "Camrin Cronheim",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Snehit Achanta",
       "Salman Saad"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -30122,11 +30195,15 @@
      "t": "male",
      "h": [
       "Thomas Connolly",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Salman Saad",
       "Nicholas Vanderveer"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -30189,11 +30266,15 @@
      "t": "male",
      "h": [
       "Thomas Connolly",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Salman Saad",
       "Nicholas Vanderveer"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -30214,12 +30295,16 @@
     {
      "t": "male",
      "h": [
-      "Vivek Kumar",
+      "Joseph Albanese",
       "Elliott Albanese"
      ],
      "a": [
       "Snehit Achanta",
       "Nicholas Vanderveer"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -30282,11 +30367,15 @@
      "t": "male",
      "h": [
       "Elliott Albanese",
-      "Vivek Kumar"
+      "Joseph Albanese"
      ],
      "a": [
       "Nicholas Vanderveer",
       "Michael Ksiezopolski"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -30751,7 +30840,7 @@
      ],
      "a": [
       "Tyler Arsenault",
-      "Matthew Chen"
+      "Zach Bowe"
      ]
     },
     {
@@ -30762,7 +30851,7 @@
      ],
      "a": [
       "Ryan Furman",
-      "Kushal Thapa"
+      "Matthew Chen"
      ]
     },
     {
@@ -30772,8 +30861,8 @@
       "Yash Shah"
      ],
      "a": [
-      "Brian Barenbaum",
-      "Daniel Schwab"
+      "Vince Abate",
+      "Vaughn Mcclelland"
      ]
     },
     {
@@ -30783,7 +30872,7 @@
       "Ryan Rosen"
      ],
      "a": [
-      "Vaughn Mcclelland",
+      "Kushal Thapa",
       "Sheel Motiwala"
      ]
     },
@@ -30794,8 +30883,129 @@
       "Shashank Kamdar"
      ],
      "a": [
+      "Zach Bowe",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ryan Rosen",
+      "Shawn Ganow"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yash Shah",
+      "Jonah Karczmer"
+     ],
+     "a": [
       "Tyler Arsenault",
       "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lou Frignito",
+      "Austin Gow"
+     ],
+     "a": [
+      "Vince Abate",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anushk Gupta",
+      "Austin Gow"
+     ],
+     "a": [
+      "Zach Bowe",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shashank Kamdar",
+      "Jonah Karczmer"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Ganow",
+      "Dustin Rabinowitz"
+     ],
+     "a": [
+      "Ryan Furman",
+      "Kushal Thapa"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ryan Rosen",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anushk Gupta",
+      "Yash Shah"
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ryan Rosen",
+      "Shashank Kamdar"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonah Karczmer",
+      "Austin Gow"
+     ],
+     "a": [
+      "Kushal Thapa",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lou Frignito",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Vince Abate",
+      "Sheel Motiwala"
      ]
     },
     {
@@ -30807,127 +31017,6 @@
      "a": [
       "Ryan Furman",
       "Kushal Thapa"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Yash Shah",
-      "Jonah Karczmer"
-     ],
-     "a": [
-      "Brian Barenbaum",
-      "Vince Abate"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Lou Frignito",
-      "Austin Gow"
-     ],
-     "a": [
-      "Vaughn Mcclelland",
-      "Sheel Motiwala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Anushk Gupta",
-      "Austin Gow"
-     ],
-     "a": [
-      "Vince Abate",
-      "Vaughn Mcclelland"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Shashank Kamdar",
-      "Jonah Karczmer"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Ryan Furman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Shawn Ganow",
-      "Dustin Rabinowitz"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Kushal Thapa"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Ryan Rosen",
-      "Vaughn Lawrence"
-     ],
-     "a": [
-      "Daniel Schwab",
-      "Sheel Motiwala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Anushk Gupta",
-      "Yash Shah"
-     ],
-     "a": [
-      "Vince Abate",
-      "Brian Barenbaum"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Ryan Rosen",
-      "Shashank Kamdar"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Ryan Furman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Jonah Karczmer",
-      "Austin Gow"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Kushal Thapa"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Lou Frignito",
-      "Vaughn Lawrence"
-     ],
-     "a": [
-      "Daniel Schwab",
-      "Sheel Motiwala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Ryan Rosen",
-      "Shawn Ganow"
-     ],
-     "a": [
-      "Vince Abate",
-      "Vaughn Mcclelland"
      ]
     },
     {
@@ -30937,8 +31026,8 @@
       "Lou Frignito"
      ],
      "a": [
-      "Kushal Thapa",
-      "Brian Barenbaum"
+      "Brian Barenbaum",
+      "Daniel Schwab"
      ]
     },
     {
@@ -30948,7 +31037,7 @@
       "Vaughn Lawrence"
      ],
      "a": [
-      "Sheel Motiwala",
+      "Zach Bowe",
       "Matthew Chen"
      ]
     },
@@ -30959,8 +31048,8 @@
       "Anushk Gupta"
      ],
      "a": [
-      "Ryan Furman",
-      "Daniel Schwab"
+      "Tyler Arsenault",
+      "Vince Abate"
      ]
     },
     {
@@ -30970,8 +31059,8 @@
       "Yash Shah"
      ],
      "a": [
-      "Vince Abate",
-      "Sheel Motiwala"
+      "Zach Bowe",
+      "Ryan Furman"
      ]
     },
     {
@@ -30982,7 +31071,7 @@
      ],
      "a": [
       "Vaughn Mcclelland",
-      "Brian Barenbaum"
+      "Sheel Motiwala"
      ]
     },
     {
@@ -30992,7 +31081,7 @@
       "Austin Gow"
      ],
      "a": [
-      "Ryan Furman",
+      "Brian Barenbaum",
       "Daniel Schwab"
      ]
     },
@@ -31004,7 +31093,7 @@
      ],
      "a": [
       "Tyler Arsenault",
-      "Kushal Thapa"
+      "Matthew Chen"
      ]
     },
     {
@@ -31014,8 +31103,8 @@
       "Anushk Gupta"
      ],
      "a": [
-      "Matthew Chen",
-      "Ryan Furman"
+      "Tyler Arsenault",
+      "Vince Abate"
      ]
     },
     {
@@ -31025,8 +31114,8 @@
       "Jonah Karczmer"
      ],
      "a": [
-      "Vince Abate",
-      "Sheel Motiwala"
+      "Matthew Chen",
+      "Zach Bowe"
      ]
     },
     {
@@ -31036,8 +31125,8 @@
       "Vaughn Lawrence"
      ],
      "a": [
-      "Tyler Arsenault",
-      "Kushal Thapa"
+      "Ryan Furman",
+      "Daniel Schwab"
      ]
     },
     {
@@ -31047,7 +31136,7 @@
       "Austin Gow"
      ],
      "a": [
-      "Vaughn Mcclelland",
+      "Kushal Thapa",
       "Brian Barenbaum"
      ]
     },
@@ -31070,7 +31159,7 @@
      ],
      "a": [
       "Tyler Arsenault",
-      "Vince Abate"
+      "Zach Bowe"
      ]
     },
     {
@@ -31080,8 +31169,8 @@
       "Vaughn Lawrence"
      ],
      "a": [
-      "Sheel Motiwala",
-      "Brian Barenbaum"
+      "Kushal Thapa",
+      "Sheel Motiwala"
      ]
     },
     {
@@ -31092,7 +31181,7 @@
      ],
      "a": [
       "Vaughn Mcclelland",
-      "Daniel Schwab"
+      "Vince Abate"
      ]
     }
    ]
@@ -32124,6 +32213,14 @@
    "outsideSub": true
   },
   {
+   "name": "Joseph Albanese",
+   "playerId": "ef0d1425-3573-439e-a197-69a837d1b27d",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Christopher Yang",
    "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
    "gender": "Male",
@@ -32160,7 +32257,7 @@
   "matchesPlayed": 39,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 201,
+  "totalPlayers": 202,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -32271,7 +32368,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T21:18:18.322Z";
+  DATA.meta.asOf = "2026-10-12T03:26:34.126Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

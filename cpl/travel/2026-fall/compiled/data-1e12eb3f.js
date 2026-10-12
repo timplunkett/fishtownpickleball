@@ -3021,8 +3021,8 @@
    "name": "Joan Harris",
    "gender": "Female",
    "team": "Pickleball Palace Black",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 8,
@@ -14348,7 +14348,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14377,7 +14377,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 580,
+   "leagueRank": 581,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14435,7 +14435,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 588,
+   "leagueRank": 589,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14464,7 +14464,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 587,
+   "leagueRank": 588,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14493,7 +14493,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 579,
+   "leagueRank": 580,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14609,7 +14609,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 577,
+   "leagueRank": 578,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14638,7 +14638,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 583,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14696,7 +14696,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 585,
+   "leagueRank": 586,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14725,7 +14725,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 583,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -55310,7 +55310,6 @@
    "subs": [
     "Feng Song",
     "Jack Cappello",
-    "Joan Harris",
     "Richard Tang"
    ]
   },
@@ -61840,7 +61839,6 @@
    ],
    "subs": [
     "Barbara Markoglu",
-    "Joan Harris",
     "Linda Iacono",
     "Enza Cristino"
    ]
@@ -65391,6 +65389,7 @@
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
+  "Lydia Madrilejos": "39aae561-e09c-4f74-873b-2b5a36c15d05",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
@@ -65776,6 +65775,14 @@
    "team": "Pickleball Kingdom Hamilton Prime Time",
    "isCaptain": false,
    "outsideSub": false
+  },
+  {
+   "name": "Lydia Madrilejos",
+   "playerId": "39aae561-e09c-4f74-873b-2b5a36c15d05",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hamilton Prime Time",
+   "isCaptain": false,
+   "outsideSub": true
   },
   {
    "name": "Claudia Forte",
@@ -66466,14 +66473,6 @@
    "outsideSub": true
   },
   {
-   "name": "Joan Harris",
-   "playerId": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
-   "gender": "Female",
-   "team": "Pickleball Palace Black",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Joanna Zhang",
    "playerId": "b0c386a2-b875-4432-b5ef-e248a87d85dc",
    "gender": "Female",
@@ -67124,7 +67123,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T21:16:56.330Z";
+  DATA.meta.asOf = "2026-10-12T03:25:14.547Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

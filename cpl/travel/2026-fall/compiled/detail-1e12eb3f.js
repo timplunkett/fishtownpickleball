@@ -19776,8 +19776,8 @@
     "teamRes": "W",
     "teamGW": 19,
     "teamGL": 13,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -19803,8 +19803,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Pickleball Palace Black"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

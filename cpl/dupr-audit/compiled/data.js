@@ -8721,6 +8721,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Joan Harris",
+   "playerId": "b0132c9e-2a21-45c8-b04d-b84aec626e68",
+   "team": "Pickleball Palace Black",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Joan Rudderow",
    "playerId": "dca2ce61-749b-421c-9205-0a16fc656a36",
    "team": "ACE Moorestown",
