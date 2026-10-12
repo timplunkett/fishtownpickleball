@@ -730,8 +730,8 @@
    "name": "Alexander King",
    "gender": "Male",
    "team": "Allstar Pickler",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 13,
@@ -8294,6 +8294,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "f59307d0-0495-421c-8cee-28c2e2b56bcf"
+  },
+  {
+   "name": "Charley Ma",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 306,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "14c024ce-7dc7-4c38-8c17-3467871220b6"
   },
   {
    "name": "Karan N",
@@ -32109,7 +32138,6 @@
     }
    ],
    "subs": [
-    "Alexander King",
     "Andrew Lin",
     "Edward Fu",
     "Chaitanya Sharma",
@@ -41869,7 +41897,6 @@
     }
    ],
    "subs": [
-    "Alexander King",
     "Raymond Romulo",
     "Vyas Maddukuri",
     "Chaitanya Sharma"
@@ -49857,8 +49884,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Saad Talat Siddiqui",
+      "Jonathan Lugtu"
      ],
      "a": [
       "Shalin Rawal",
@@ -49868,19 +49895,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Andrew Lin"
      ],
      "a": [
       "Meet Thakkar",
       "Brandon Tsang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Gianni Roman"
      ],
      "a": [
       "Cesar Santamaria-Aranda",
@@ -49890,30 +49921,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "John Zhong"
      ],
      "a": [
       "Luke Simon",
       "Sandeep Malhotra"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "John Zhong"
      ],
      "a": [
       "Shalin Rawal",
       "Jesse Mynahan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Lugtu",
+      "Gianni Roman"
      ],
      "a": [
       "Umang Pathak",
@@ -49923,30 +49962,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charley Ma",
+      "Sean Majury"
      ],
      "a": [
       "Brandon Tsang",
       "Jeff Laniado"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Andrew Lin"
      ],
      "a": [
       "Meet Thakkar",
       "Bill Olderman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Lugtu",
+      "Brandon Fulford"
      ],
      "a": [
       "Shalin Rawal",
@@ -49956,63 +50003,83 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Charley Ma"
      ],
      "a": [
       "Sandeep Malhotra",
       "Umang Pathak"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Andrew Lin"
      ],
      "a": [
       "Brandon Tsang",
       "Jesse Mynahan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gianni Roman",
+      "John Zhong"
      ],
      "a": [
       "Luke Simon",
       "Cesar Santamaria-Aranda"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Zhong",
+      "Gianni Roman"
      ],
      "a": [
       "Shalin Rawal",
       "Meet Thakkar"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charley Ma",
+      "Andrew Lin"
      ],
      "a": [
       "Umang Pathak",
       "John Manuzza"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Sean Majury"
      ],
      "a": [
       "Cesar Santamaria-Aranda",
@@ -50022,8 +50089,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Jonathan Lugtu"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -50033,8 +50100,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Fulford",
+      "Gianni Roman"
      ],
      "a": [
       "Shalin Rawal",
@@ -50044,19 +50111,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Lin",
+      "Charley Ma"
      ],
      "a": [
       "Brandon Tsang",
       "Sandeep Malhotra"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Sean Majury"
      ],
      "a": [
       "Meet Thakkar",
@@ -50066,8 +50137,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Saad Talat Siddiqui",
+      "Jonathan Lugtu"
      ],
      "a": [
       "Luke Simon",
@@ -50077,19 +50148,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charley Ma",
+      "John Zhong"
      ],
      "a": [
       "Shalin Rawal",
       "John Manuzza"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Saad Talat Siddiqui",
+      "Gianni Roman"
      ],
      "a": [
       "Umang Pathak",
@@ -50099,8 +50174,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Jonathan Lugtu"
      ],
      "a": [
       "Jesse Mynahan",
@@ -50110,41 +50185,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Lin",
+      "Sean Majury"
      ],
      "a": [
       "Cesar Santamaria-Aranda",
       "Meet Thakkar"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Lugtu",
+      "Andrew Lin"
      ],
      "a": [
       "Bill Olderman",
       "Shalin Rawal"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Zhong",
+      "Charley Ma"
      ],
      "a": [
       "Jeff Laniado",
       "Umang Pathak"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sean Majury",
+      "Gianni Roman"
      ],
      "a": [
       "Cesar Santamaria-Aranda",
@@ -50154,8 +50241,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "Brandon Fulford"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -50165,19 +50252,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gianni Roman",
+      "Andrew Lin"
      ],
      "a": [
       "Shalin Rawal",
       "Luke Simon"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Saad Talat Siddiqui",
+      "Brandon Fulford"
      ],
      "a": [
       "Umang Pathak",
@@ -50187,23 +50278,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alexander King",
+      "John Zhong"
      ],
      "a": [
       "Bill Olderman",
       "Meet Thakkar"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charley Ma",
+      "Sean Majury"
      ],
      "a": [
       "Cesar Santamaria-Aranda",
       "Sandeep Malhotra"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -50938,7 +51037,6 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
-  "Charley Ma": "14c024ce-7dc7-4c38-8c17-3467871220b6",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Jacob Alpert": "1cd5949a-4196-4e3a-a611-7188d34f4708",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
@@ -50983,14 +51081,6 @@
    "playerId": "08b7041c-a90b-47ba-802a-5f71e6b98999",
    "gender": "Male",
    "team": "Jersey Devil",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Alexander King",
-   "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
-   "gender": "Male",
-   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -51543,7 +51633,7 @@
   "matchesPlayed": 66,
   "provisionalMatches": 1,
   "weeks": "1-7",
-  "totalPlayers": 296,
+  "totalPlayers": 297,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -51666,7 +51756,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-12T03:27:08.627Z";
+  DATA.meta.asOf = "2026-10-12T13:59:38.640Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

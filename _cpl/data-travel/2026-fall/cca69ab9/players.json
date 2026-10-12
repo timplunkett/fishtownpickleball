@@ -481,7 +481,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 214
+      "ranking": 215
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -1240,7 +1240,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 212
+      "ranking": 213
     },
     {
       "playerId": "41191982-ca10-4665-8eb2-6d5231b4a0c4",
@@ -1585,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 213
+      "ranking": 214
     },
     {
       "playerId": "4de9fd52-8910-4c2f-9aad-e2e55a0e33a1",
@@ -2715,6 +2715,29 @@
       "ranking": 171
     },
     {
+      "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
+      "firstName": "Patrick",
+      "lastName": "Ryan",
+      "gender": "Male",
+      "dupr": "NY2OQ7",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 210
+    },
+    {
       "playerId": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac",
       "firstName": "Kushal",
       "lastName": "Thapa",
@@ -3195,7 +3218,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 211
+      "ranking": 212
     },
     {
       "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
@@ -3287,7 +3310,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 210
+      "ranking": 211
     },
     {
       "playerId": "a89121dd-192b-486d-b39d-18ee8447d641",
@@ -4552,7 +4575,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 215
+      "ranking": 216
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",

@@ -568,6 +568,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Alexander King",
    "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
+   "team": "Allstar Pickler",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Alexander King",
+   "playerId": "08f3645c-2c99-4ed0-9b8b-62b9be1a97a8",
    "team": "Pickleball Palace",
    "slug": "a1413f3d",
    "gender": "Male"

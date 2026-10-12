@@ -5474,7 +5474,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5619,7 +5619,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5686,6 +5686,35 @@
    "playerId": "80138d68-a74a-4f8c-aea1-7d31e682efa8"
   },
   {
+   "name": "Patrick Ryan",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 210,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba"
+  },
+  {
    "name": "Rohan Sabharwal",
    "gender": "Male",
    "team": "Monroe",
@@ -5706,7 +5735,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -30485,11 +30514,15 @@
      "t": "male",
      "h": [
       "Hany Ibrahim",
-      "Jay Alquiros"
+      "Patrick Ryan"
      ],
      "a": [
       "Eric Jiang",
       "Josiah Kim"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -30562,12 +30595,16 @@
     {
      "t": "male",
      "h": [
-      "Jay Alquiros",
+      "Patrick Ryan",
       "Frank Clark"
      ],
      "a": [
       "Emil Pescatore",
       "Josiah Kim"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -30611,11 +30648,15 @@
      "t": "male",
      "h": [
       "Shahar Gelber",
-      "Jay Alquiros"
+      "Patrick Ryan"
      ],
      "a": [
       "Daniel Gallegos",
       "Kevin Sun"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -30689,11 +30730,15 @@
      "t": "male",
      "h": [
       "Frank Clark",
-      "Jay Alquiros"
+      "Patrick Ryan"
      ],
      "a": [
       "Ken Velarde",
       "Anthony Bonaventura"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -30766,19 +30811,23 @@
     {
      "t": "male",
      "h": [
-      "Jay Alquiros",
+      "Patrick Ryan",
       "Shahar Gelber"
      ],
      "a": [
       "Emil Pescatore",
       "Drew Youssef"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
       "Austin Williams",
-      "Jay Alquiros"
+      "Patrick Ryan"
      ],
      "a": [
       "Eric Jiang",
@@ -30786,7 +30835,7 @@
      ],
      "hSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -32069,6 +32118,14 @@
    "outsideSub": true
   },
   {
+   "name": "Patrick Ryan",
+   "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Eric Nguyen",
    "playerId": "87d526c6-72b6-4b17-bf77-9016fd049541",
    "gender": "Male",
@@ -32257,7 +32314,7 @@
   "matchesPlayed": 39,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 202,
+  "totalPlayers": 203,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -32368,7 +32425,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-12T03:26:34.126Z";
+  DATA.meta.asOf = "2026-10-12T13:59:03.739Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
