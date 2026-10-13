@@ -100436,8 +100436,8 @@
     "teamRes": "L",
     "teamGW": 11,
     "teamGL": 21,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -100463,8 +100463,8 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
-    "sub": 1,
-    "subFor": "Pickle Juice Blackwood"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -115925,6 +115925,100 @@
   ],
   "partners": []
  },
+ "1684c22c-38ed-4f23-83bf-7dbd39607280": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Ballers Philly",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 78,
+    "pa": 105,
+    "mx": [
+     0,
+     1
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Bounce Philly",
+    "homeAway": "H",
+    "w": 0,
+    "l": 5,
+    "gp": 5,
+    "pf": 62,
+    "pa": 105,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 8,
+    "teamGL": 24,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 5,
+    "label": "5",
+    "rating": -1.6,
+    "confidence": 49,
+    "rank": 395,
+    "ratingGames": 5,
+    "strengthOfPartners": -1.9,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 6,
+    "seq": 6,
+    "label": "6",
+    "rating": -2.6,
+    "confidence": 68,
+    "rank": 489,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.5,
+    "strengthOfOpponents": 0.9
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7",
+    "rating": -2.7,
+    "confidence": 68,
+    "rank": 504,
+    "ratingGames": 10,
+    "strengthOfPartners": -1.4,
+    "strengthOfOpponents": 0.9
+   }
+  ],
+  "partners": []
+ },
  "1ae6c582-2fb0-42ae-9f7b-2448c6c5e1da": {
   "log": [
    {
@@ -116110,100 +116204,6 @@
     "ratingGames": 6,
     "strengthOfPartners": -2,
     "strengthOfOpponents": 1.6
-   }
-  ],
-  "partners": []
- },
- "1684c22c-38ed-4f23-83bf-7dbd39607280": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Ballers Philly",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 78,
-    "pa": 105,
-    "mx": [
-     0,
-     1
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 1,
-    "subFor": "Players Courtyard"
-   },
-   {
-    "week": 6,
-    "opp": "Bounce Philly",
-    "homeAway": "H",
-    "w": 0,
-    "l": 5,
-    "gp": 5,
-    "pf": 62,
-    "pa": 105,
-    "mx": [
-     0,
-     4
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 1,
-    "subFor": "Players Courtyard"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 5,
-    "label": "5",
-    "rating": -1.6,
-    "confidence": 49,
-    "rank": 395,
-    "ratingGames": 5,
-    "strengthOfPartners": -1.9,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 6,
-    "seq": 6,
-    "label": "6",
-    "rating": -2.6,
-    "confidence": 68,
-    "rank": 489,
-    "ratingGames": 10,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7",
-    "rating": -2.7,
-    "confidence": 68,
-    "rank": 504,
-    "ratingGames": 10,
-    "strengthOfPartners": -1.4,
-    "strengthOfOpponents": 0.9
    }
   ],
   "partners": []

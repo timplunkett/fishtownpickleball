@@ -8653,8 +8653,8 @@
     "teamRes": "W",
     "teamGW": 24,
     "teamGL": 8,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -8680,8 +8680,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "ACE Moorestown"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

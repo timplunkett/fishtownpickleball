@@ -1049,6 +1049,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Andrea Bramante",
+   "playerId": "9e585ba7-f38c-4948-89bc-2947c22df08b",
+   "team": "Pickle Juice Blackwood",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Andrea Galanti",
    "playerId": "cd5e243a-d109-4637-8372-9330696a943d",
    "team": "APC Garden State",
@@ -1816,6 +1823,13 @@ window.DUPR_AUDIT = {
    "playerId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee",
    "team": "Bounce Tempest",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Asif Bokhari",
+   "playerId": "c7761acc-9886-4eb6-98c3-4e29269f9b99",
+   "team": "Dill Dinkers Freehold",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -4133,6 +4147,13 @@ window.DUPR_AUDIT = {
    "playerId": "31b78615-afb3-4856-8cb1-de2b8d43a115",
    "team": "Bounce Malvern",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Dan Perkins",
+   "playerId": "1684c22c-38ed-4f23-83bf-7dbd39607280",
+   "team": "Players Courtyard",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -11027,6 +11048,13 @@ window.DUPR_AUDIT = {
    "name": "Larry Minsky",
    "playerId": "41f7a2a8-8fcd-4282-b501-cd5b83ec7440",
    "team": "Picklr Newtown",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Larry Minsky",
+   "playerId": "41f7a2a8-8fcd-4282-b501-cd5b83ec7440",
+   "team": "Picklr Newtown",
    "slug": "c118b8e9",
    "gender": "Male"
   },
@@ -16370,6 +16398,13 @@ window.DUPR_AUDIT = {
    "team": "Bounce Malvern",
    "slug": "6619816f",
    "gender": "Female"
+  },
+  {
+   "name": "Scott Auty",
+   "playerId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
+   "team": "ACE Moorestown",
+   "slug": "1e12eb3f",
+   "gender": "Male"
   },
   {
    "name": "Scott Auty",

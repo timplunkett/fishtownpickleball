@@ -32588,7 +32588,7 @@
      ],
      "a": [
       "Gissel Escalante",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32643,7 +32643,7 @@
      ],
      "a": [
       "Camrin Cronheim",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32676,7 +32676,7 @@
      ],
      "a": [
       "Gissel Escalante",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32731,7 +32731,7 @@
      ],
      "a": [
       "Camrin Cronheim",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32753,7 +32753,7 @@
      ],
      "a": [
       "Meghan Mediratta",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32808,7 +32808,7 @@
      ],
      "a": [
       "Chris Long",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32830,7 +32830,7 @@
      ],
      "a": [
       "Meghan Mediratta",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -32896,7 +32896,7 @@
      ],
      "a": [
       "Chris Long",
-      "Jason Makarevic"
+      "James Cannizzaro"
      ]
     },
     {
@@ -34109,7 +34109,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-12T23:59:18.156Z";
+  DATA.meta.asOf = "2026-10-13T03:46:10.096Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

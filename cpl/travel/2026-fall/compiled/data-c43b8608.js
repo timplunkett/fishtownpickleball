@@ -4906,8 +4906,8 @@
    "name": "Larry Minsky",
    "gender": "Male",
    "team": "Picklr Newtown",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 7,
@@ -32079,9 +32079,7 @@
      ]
     }
    ],
-   "subs": [
-    "Larry Minsky"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -39548,7 +39546,6 @@
    ],
    "subs": [
     "Denise D'Esposito",
-    "Larry Minsky",
     "Stephane Sabathier",
     "Janette Crowe"
    ]
@@ -52030,14 +52027,6 @@
    "outsideSub": true
   },
   {
-   "name": "Larry Minsky",
-   "playerId": "41f7a2a8-8fcd-4282-b501-cd5b83ec7440",
-   "gender": "Male",
-   "team": "Picklr Newtown",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Isabella Chernin",
    "playerId": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
    "gender": "Female",
@@ -52928,7 +52917,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-12T23:59:44.347Z";
+  DATA.meta.asOf = "2026-10-13T03:46:36.054Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

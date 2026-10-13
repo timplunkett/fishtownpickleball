@@ -1542,8 +1542,8 @@
    "name": "Scott Auty",
    "gender": "Male",
    "team": "ACE Moorestown",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 10,
@@ -30358,9 +30358,7 @@
      ]
     }
    ],
-   "subs": [
-    "Scott Auty"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -63381,8 +63379,7 @@
     }
    ],
    "subs": [
-    "Linda Goss",
-    "Scott Auty"
+    "Linda Goss"
    ]
   },
   {
@@ -66215,14 +66212,6 @@
    "outsideSub": true
   },
   {
-   "name": "Scott Auty",
-   "playerId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Pamela Toy",
    "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
    "gender": "Female",
@@ -67350,7 +67339,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-12T23:58:34.588Z";
+  DATA.meta.asOf = "2026-10-13T03:44:25.500Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
