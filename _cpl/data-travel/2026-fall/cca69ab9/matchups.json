@@ -485,9 +485,9 @@
       "weekNumber": 8,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "awayTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 623,
+      "awayPoints": 565,
+      "endResult": "home",
       "scheduledTime": "2026-10-12T19:00:00",
       "homeName": "Premiere",
       "awayName": "Dill Dinkers Freehold"

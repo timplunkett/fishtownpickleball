@@ -29863,7 +29863,6 @@
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-12T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 623,
    "awayPoints": 565,
    "homeGW": 20,
@@ -33340,7 +33339,7 @@
  ],
  "meta": {
   "matchesPlayed": 45,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-8",
   "totalPlayers": 205,
   "ratingHistoryWeeks": [
@@ -33458,7 +33457,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T05:37:55.180Z";
+  DATA.meta.asOf = "2026-10-13T22:09:22.662Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

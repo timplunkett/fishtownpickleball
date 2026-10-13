@@ -14377,7 +14377,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 586,
+   "leagueRank": 589,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14406,7 +14406,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14435,7 +14435,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 568,
+   "leagueRank": 569,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14464,7 +14464,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 590,
+   "leagueRank": 593,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14493,7 +14493,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 589,
+   "leagueRank": 592,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14522,7 +14522,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14551,7 +14551,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 574,
+   "leagueRank": 575,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14609,7 +14609,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 570,
+   "leagueRank": 571,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14638,7 +14638,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 579,
+   "leagueRank": 582,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14667,7 +14667,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 585,
+   "leagueRank": 588,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14725,7 +14725,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 587,
+   "leagueRank": 590,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14754,7 +14754,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 587,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -65622,8 +65622,10 @@
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Daniel Depolo": "94fe642c-a54b-48ab-8e5f-ab2e1e709778",
   "Maryann Colella": "9855697f-b3f5-4fc4-a2b1-53e650a89d1c",
+  "Mary Macallister": "a0fc495f-5e04-4054-b9ed-3df6658cc2ba",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
+  "Susan Dente": "b7915e66-3b19-4197-8258-8fa2bd226780",
   "Shirley Lim": "bdc3fa9a-c860-4629-a4c5-e7ec577239b2",
   "Edward Goodman": "c227d83e-6edf-44f6-8517-dd057c42bfc7",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
@@ -65632,7 +65634,8 @@
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
-  "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea"
+  "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea",
+  "Carl Lin": "fb06dc71-1ae5-4e9a-adef-7fa246c08bfd"
  },
  "availableSubs": [
   {
@@ -66636,6 +66639,14 @@
    "outsideSub": true
   },
   {
+   "name": "Mary Macallister",
+   "playerId": "a0fc495f-5e04-4054-b9ed-3df6658cc2ba",
+   "gender": "Female",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Jake Denooyer",
    "playerId": "a314079a-16b7-42f5-be34-41e1672f7377",
    "gender": "Male",
@@ -66728,6 +66739,14 @@
    "playerId": "b76b0425-e8ac-48b3-aa4e-cbb462179fbe",
    "gender": "Female",
    "team": "Pickleball Palace Black",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Susan Dente",
+   "playerId": "b7915e66-3b19-4197-8258-8fa2bd226780",
+   "gender": "Female",
+   "team": "Flemington Green",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -67156,6 +67175,14 @@
    "outsideSub": true
   },
   {
+   "name": "Carl Lin",
+   "playerId": "fb06dc71-1ae5-4e9a-adef-7fa246c08bfd",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Mary Harmon",
    "playerId": "fc528b4b-0dfe-4334-9619-0abce2d33972",
    "gender": "Female",
@@ -67339,7 +67366,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T03:44:25.500Z";
+  DATA.meta.asOf = "2026-10-13T22:06:54.506Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -36342,7 +36342,7 @@
     "lastName": "Chisholm",
     "dupr": "K5Q45O",
     "duprRating": "3.707",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 5735360998,
     "duprProvisional": false
   },
@@ -42122,7 +42122,7 @@
     "lastName": "Ciccarelli",
     "dupr": "JZ6ORJ",
     "duprRating": "3.882",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 6272655301,
     "duprProvisional": false
   },
@@ -48034,6 +48034,66 @@
     "duprRating": "2.537",
     "lastSeen": "2026-10",
     "duprNumericId": 7906617764,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "fb06dc71-1ae5-4e9a-adef-7fa246c08bfd",
+    "firstName": "Carl",
+    "lastName": "Lin",
+    "dupr": "WMMXNL",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5509041770,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "a0fc495f-5e04-4054-b9ed-3df6658cc2ba",
+    "firstName": "Mary",
+    "lastName": "MacAllister",
+    "dupr": "M66EPO",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6847823216,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "46a0bb90-abb0-49b5-a84d-bf0e5e1ee11c",
+    "firstName": "Mike",
+    "lastName": "Hanson",
+    "dupr": "G5RZ9Q",
+    "duprRating": "3.562",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5312304112,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "3c38f00f-0e85-4c62-96c8-656bf7352f55",
+    "firstName": "Charles",
+    "lastName": "Neufeldt",
+    "dupr": "1NRVW6",
+    "duprRating": "5.379",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6908150427,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "c5ed98db-36e2-4106-8f1e-67ec97fead81",
+    "firstName": "Deborah",
+    "lastName": "Agugliaro",
+    "dupr": "8DRLLM",
+    "duprRating": "2.528",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5688771945,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "b2bcfdb7-8887-4edd-b2a8-4a64d1bf1b86",
+    "firstName": "Lori",
+    "lastName": "Lewis",
+    "dupr": "VXKOOJ",
+    "duprRating": "2.919",
+    "lastSeen": "2026-10",
+    "duprNumericId": 4343098629,
     "duprProvisional": false
   }
 ]
