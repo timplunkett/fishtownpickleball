@@ -5428,8 +5428,8 @@
    "name": "Chase Pac",
    "gender": "Male",
    "team": "Ballers Philly",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 6,
@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 452,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 424,
+   "leagueRank": 425,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11651,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 458,
+   "leagueRank": 460,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11680,7 +11680,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 449,
+   "leagueRank": 451,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 462,
+   "leagueRank": 464,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 423,
+   "leagueRank": 424,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11796,7 +11796,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 447,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11825,7 +11825,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 442,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11854,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 439,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11883,7 +11883,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 455,
+   "leagueRank": 457,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11912,7 +11912,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 431,
+   "leagueRank": 432,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -50161,7 +50161,6 @@
     }
    ],
    "subs": [
-    "Chase Pac",
     "Pauline Phan"
    ]
   },
@@ -57596,7 +57595,6 @@
     "Alexandria Mlkvy",
     "Bruce Nguyen",
     "Alin Piranian",
-    "Chase Pac",
     "Gabriel Dos Anjos",
     "Ian Karr"
    ]
@@ -59484,6 +59482,7 @@
   "Maria Franco": "4c0a6c7a-30fa-4f4b-9494-a54534b88be8",
   "John Tano": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
   "Heidi Hinz": "525f9d3d-1019-49bb-baec-a4dc75b7d62b",
+  "David Barth": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
   "Bryan Tsang": "63cd3df2-bdd8-4e38-b449-653b71e10ff4",
   "Sagar Punjabi": "68c18c2b-7123-40f4-bf13-e795d12a7583",
@@ -59491,6 +59490,7 @@
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
+  "Harriet Levin": "aeff8297-a479-4b3b-9a49-72c410ac8e26",
   "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
   "Melanie Shapsis": "b124018b-e1df-4535-b68f-6bcf67579a24",
   "Cynthia Covie": "b146d15b-2ed7-4087-a6a0-90d4538aea72",
@@ -59752,6 +59752,14 @@
    "outsideSub": true
   },
   {
+   "name": "David Barth",
+   "playerId": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Alin Piranian",
    "playerId": "548c8320-7e09-4649-bd1f-78fb770ead6f",
    "gender": "Female",
@@ -59860,14 +59868,6 @@
    "playerId": "7610b0d0-07a5-4408-ade6-d5ea5d80fe0a",
    "gender": "Male",
    "team": "Pickle Place",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Chase Pac",
-   "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
-   "gender": "Male",
-   "team": "Ballers Philly",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -60020,6 +60020,14 @@
    "playerId": "acf05b71-fa40-494b-adca-d3c411d484a6",
    "gender": "Male",
    "team": "Ballers Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Harriet Levin",
+   "playerId": "aeff8297-a479-4b3b-9a49-72c410ac8e26",
+   "gender": "Female",
+   "team": "Bounce Malvern",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -60399,7 +60407,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-10T01:18:41.136Z";
+  DATA.meta.asOf = "2026-10-12T23:59:05.362Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

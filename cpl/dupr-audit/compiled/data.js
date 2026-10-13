@@ -3156,6 +3156,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Chase Pac",
+   "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
+   "team": "Ballers Philly",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Chelsea Convissar",
    "playerId": "981135da-5a2e-412e-8027-db5a4fdf09c0",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -7472,6 +7479,13 @@ window.DUPR_AUDIT = {
    "playerId": "c22c2b8e-2758-4b56-b8e4-6758dc47a61d",
    "team": "Pickleball Palace Black",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "James Cannizzaro",
+   "playerId": "9f2987f3-a389-4d47-9dcd-e619d94cbc18",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
@@ -12575,6 +12589,13 @@ window.DUPR_AUDIT = {
    "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Matt Mcgrath",
+   "playerId": "99c26d8d-4ea2-4ca0-90ca-59f78aca4552",
+   "team": "ACE Moorestown",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {

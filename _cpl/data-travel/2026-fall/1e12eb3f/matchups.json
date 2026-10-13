@@ -343,7 +343,7 @@
       "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
       "homePoints": 577,
       "awayPoints": 579,
-      "endResult": "away",
+      "endResult": "home",
       "scheduledTime": "2026-09-12T14:30:00",
       "homeName": "Picklr Fair Lawn",
       "awayName": "Allstar Pickler"
@@ -1037,9 +1037,9 @@
       "weekNumber": 8,
       "homeTeamId": "be3c00ec-2498-4778-8464-871b377f3095",
       "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 617,
+      "awayPoints": 603,
+      "endResult": "home",
       "scheduledTime": "2026-10-11T12:00:00",
       "homeName": "Pickleball Kingdom Hamilton Strikers",
       "awayName": "Life Time Red Bank"

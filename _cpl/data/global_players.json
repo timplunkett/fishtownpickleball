@@ -32558,7 +32558,7 @@
     "lastName": "Cannizzaro",
     "dupr": "7D6E65",
     "duprRating": "5.306",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 8335096187,
     "duprProvisional": false
   },
@@ -45502,7 +45502,7 @@
     "lastName": "Printz",
     "dupr": "2LRGVR",
     "duprRating": "3.600",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 4596307287,
     "duprProvisional": false
   },
@@ -47994,6 +47994,16 @@
     "duprRating": "4.004",
     "lastSeen": "2026-10",
     "duprNumericId": 5442717000,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "4fb3622b-f66a-4788-bed9-a9dfc0814b5e",
+    "firstName": "Kathy",
+    "lastName": "Hemphill",
+    "dupr": "ONL6K7",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7460235989,
     "duprProvisional": false
   }
 ]

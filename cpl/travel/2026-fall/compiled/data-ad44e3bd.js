@@ -4604,7 +4604,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -27565,8 +27565,10 @@
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
+  "Kathy Hemphill": "4fb3622b-f66a-4788-bed9-a9dfc0814b5e",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
+  "Rebecca Printz": "870b1163-513e-4625-af47-e154f02dacbc",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
@@ -27710,6 +27712,14 @@
    "outsideSub": true
   },
   {
+   "name": "Kathy Hemphill",
+   "playerId": "4fb3622b-f66a-4788-bed9-a9dfc0814b5e",
+   "gender": "Female",
+   "team": "PKLD",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Love Roa",
    "playerId": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
    "gender": "Female",
@@ -27762,6 +27772,14 @@
    "playerId": "818811e5-0eb6-4611-8ac3-f65c10316305",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rebecca Printz",
+   "playerId": "870b1163-513e-4625-af47-e154f02dacbc",
+   "gender": "Female",
+   "team": "Flemington Green",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -28058,7 +28076,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-11T17:06:32.301Z";
+  DATA.meta.asOf = "2026-10-13T00:00:08.723Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
