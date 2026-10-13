@@ -31012,7 +31012,405 @@
    "home": "Monroe",
    "away": "Home Court",
    "time": "2026-10-14T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Austin Williams"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Aidan Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Hany Ibrahim"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Ariana Rizvani"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Kathy Behrmann"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Elliot Stevens"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aidan Jackson",
+      "Hany Ibrahim"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Austin Williams"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Aidan Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Hany Ibrahim"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Ariana Rizvani"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Kathy Behrmann"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aidan Jackson",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliot Stevens",
+      "Hany Ibrahim"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Austin Williams"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Elliot Stevens"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Hany Ibrahim"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Aurora Lewis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Kathy Behrmann"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aidan Jackson",
+      "Elliot Stevens"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Austin Williams"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aurora Lewis",
+      "Aidan Jackson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathy Behrmann",
+      "Elliot Stevens"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kara Infante",
+      "Aurora Lewis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ariana Rizvani",
+      "Kathy Behrmann"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Williams",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aidan Jackson",
+      "Elliot Stevens"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -32199,8 +32597,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Arianna Haresign",
@@ -32210,8 +32608,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Varun Prakash"
      ],
      "a": [
       "Michaela Pierznik",
@@ -32221,8 +32619,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Maeve Mcgowan",
@@ -32232,7 +32630,7 @@
     {
      "t": "mixed",
      "h": [
-      "",
+      "Allison Tarnoff",
       ""
      ],
      "a": [
@@ -32243,8 +32641,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Rayna Baizman"
      ],
      "a": [
       "Arianna Haresign",
@@ -32254,8 +32652,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Michaela Pierznik",
@@ -32265,8 +32663,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonah Fliegelman",
+      "Clayton Schmucker"
      ],
      "a": [
       "Zach Bowe",
@@ -32276,8 +32674,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Varun Prakash"
      ],
      "a": [
       "Tyler Arsenault",
@@ -32287,8 +32685,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Arianna Haresign",
@@ -34109,7 +34507,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T03:46:10.096Z";
+  DATA.meta.asOf = "2026-10-13T13:16:06.931Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

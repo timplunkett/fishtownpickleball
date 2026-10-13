@@ -15488,6 +15488,35 @@
    "playerId": "c7761acc-9886-4eb6-98c3-4e29269f9b99"
   },
   {
+   "name": "Patricia Belous",
+   "gender": "Female",
+   "team": "Dill Dinkers Freehold",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 558,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "1dcf6a0f-d3d1-4c6d-acd0-ddf25ee24dec"
+  },
+  {
    "name": "Michael Barndt",
    "gender": "Male",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -15544,6 +15573,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "9b47e98f-3dcf-4a3a-8d79-154e161b8595"
+  },
+  {
+   "name": "Elina Kazakevich",
+   "gender": "Female",
+   "team": "Dill Dinkers Freehold",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 575,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c6ef1a01-a679-42cd-a132-3d6c2253a599"
   },
   {
    "name": "Jason Garcia",
@@ -81860,8 +81918,12 @@
       "Paul Iacullo"
      ],
      "a": [
-      "Abeer Massoud",
+      "Elina Kazakevich",
       "Asif Bokhari"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -81882,7 +81944,7 @@
       "Jason Feldman"
      ],
      "a": [
-      "Robin Bennett",
+      "Patricia Belous",
       "Eugene Botvinnik"
      ],
      "aSub": [
@@ -81898,7 +81960,11 @@
      ],
      "a": [
       "Allyson Fry",
-      "Abeer Massoud"
+      "Elina Kazakevich"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -81909,7 +81975,7 @@
      ],
      "a": [
       "Angie Habib",
-      "Robin Bennett"
+      "Patricia Belous"
      ],
      "aSub": [
       0,
@@ -81949,7 +82015,7 @@
       "Tyler Kaleikini"
      ],
      "a": [
-      "Robin Bennett",
+      "Patricia Belous",
       "Ilya Shats"
      ],
      "aSub": [
@@ -81979,8 +82045,12 @@
       "Jason Ilkowitz"
      ],
      "a": [
-      "Abeer Massoud",
+      "Elina Kazakevich",
       "Amr Shaheed"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -82012,11 +82082,11 @@
       "Juliet Deguida"
      ],
      "a": [
-      "Abeer Massoud",
-      "Robin Bennett"
+      "Elina Kazakevich",
+      "Patricia Belous"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -82064,7 +82134,7 @@
       "Eden Ksendzovsky"
      ],
      "a": [
-      "Robin Bennett",
+      "Patricia Belous",
       "Asif Bokhari"
      ],
      "aSub": [
@@ -82090,11 +82160,11 @@
       "Jason Feldman"
      ],
      "a": [
-      "Abeer Massoud",
+      "Elina Kazakevich",
       "Eugene Botvinnik"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -82106,7 +82176,7 @@
      ],
      "a": [
       "Allyson Fry",
-      "Robin Bennett"
+      "Patricia Belous"
      ],
      "aSub": [
       0,
@@ -82120,8 +82190,12 @@
       "Genifer Lefkowitz"
      ],
      "a": [
-      "Abeer Massoud",
+      "Elina Kazakevich",
       "Angie Habib"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -82157,7 +82231,7 @@
       "Tyler Kaleikini"
      ],
      "a": [
-      "Robin Bennett",
+      "Patricia Belous",
       "Amr Shaheed"
      ],
      "aSub": [
@@ -82183,8 +82257,12 @@
       "Paul Iacullo"
      ],
      "a": [
-      "Abeer Massoud",
+      "Elina Kazakevich",
       "Ilya Shats"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -82220,11 +82298,11 @@
       "Juliet Deguida"
      ],
      "a": [
-      "Abeer Massoud",
-      "Robin Bennett"
+      "Elina Kazakevich",
+      "Patricia Belous"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -85202,7 +85280,393 @@
    "home": "Jersey Devil Green",
    "away": "Players Courtyard",
    "time": "2026-10-14T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Brad Mandry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittni Veyna",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophie O’Driscoll",
+      "Matt Demarco"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Zohlman",
+      "Aaron Chan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Brittni Veyna"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophie O’Driscoll",
+      "Deirdre Zohlman"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brad Mandry",
+      "Matt Demarco"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aaron Chan",
+      "Dan Perkins"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophie O’Driscoll",
+      "Matt Demarco"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittni Veyna",
+      "Brad Mandry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Zohlman",
+      "Aaron Chan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Brittni Veyna"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophie O’Driscoll",
+      "Deirdre Zohlman"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Demarco",
+      "Dan Perkins"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aaron Chan",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophie O’Driscoll",
+      "Aaron Chan"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Matt Demarco"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittni Veyna",
+      "Brad Mandry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Zohlman",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Sophie O’Driscoll"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittni Veyna",
+      "Deirdre Zohlman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brad Mandry",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Demarco",
+      "Dan Perkins"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Dan Perkins"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittni Veyna",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sophie O’Driscoll",
+      "Brad Mandry"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Zohlman",
+      "Matt Demarco"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ricki Cohen",
+      "Deirdre Zohlman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittni Veyna",
+      "Sophie O’Driscoll"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brad Mandry",
+      "Scott Strong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Aaron Chan",
+      "Dan Perkins"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -87268,7 +87732,6 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
-  "Patricia Belous": "1dcf6a0f-d3d1-4c6d-acd0-ddf25ee24dec",
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
   "Brittany Murphy": "44750333-fafc-4d31-ab6f-c8610dd4efa3",
@@ -87293,7 +87756,6 @@
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Jason Smith": "c43824db-1a52-45b7-8a62-7ad2d1afb63e",
-  "Elina Kazakevich": "c6ef1a01-a679-42cd-a132-3d6c2253a599",
   "Paul Mastaj": "ce698888-9c10-4116-9e16-e4507e641722",
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
   "Paul ColóN": "e5c9f37a-5382-4f86-97c4-07e798fe66ca",
@@ -88452,7 +88914,7 @@
   "matchesPlayed": 111,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 569,
+  "totalPlayers": 571,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -88526,7 +88988,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-13T05:36:57.284Z";
+  DATA.meta.asOf = "2026-10-13T13:15:51.306Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

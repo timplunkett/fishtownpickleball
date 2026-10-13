@@ -929,9 +929,9 @@
       "weekNumber": 8,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 585,
+      "awayPoints": 651,
+      "endResult": "away",
       "scheduledTime": "2026-10-12T19:30:00",
       "homeName": "Picklr Newark",
       "awayName": "Players Courtyard"
