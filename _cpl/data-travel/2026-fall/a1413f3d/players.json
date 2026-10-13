@@ -9230,7 +9230,7 @@
       "gender": "Male",
       "dupr": "7NYZJ9",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
       "wins": 4,

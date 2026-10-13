@@ -7860,6 +7860,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jason Quach",
+   "playerId": "d7a91739-044a-4d8a-8079-640206c67db0",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Jason Rosenberg",
    "playerId": "ce12bbc9-1bf3-48fa-8c54-15afb33e1dcb",
    "team": "Dill Dinkers Hatboro",

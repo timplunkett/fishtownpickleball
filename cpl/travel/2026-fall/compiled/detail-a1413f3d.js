@@ -67817,8 +67817,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro The Factory"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -67844,8 +67844,8 @@
     "teamRes": "L",
     "teamGW": 10,
     "teamGL": 22,
-    "sub": 1,
-    "subFor": "Dill Dinkers Hatboro The Factory"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

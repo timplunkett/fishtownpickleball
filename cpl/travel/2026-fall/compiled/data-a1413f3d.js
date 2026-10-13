@@ -9227,8 +9227,8 @@
    "name": "Jason Quach",
    "gender": "Male",
    "team": "Dill Dinkers Hatboro The Factory",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 4,
@@ -51554,8 +51554,7 @@
     }
    ],
    "subs": [
-    "Tim Cahalin",
-    "Jason Quach"
+    "Tim Cahalin"
    ]
   },
   {
@@ -58986,9 +58985,7 @@
      ]
     }
    ],
-   "subs": [
-    "Jason Quach"
-   ]
+   "subs": []
   },
   {
    "result": null,
@@ -60128,14 +60125,6 @@
    "outsideSub": true
   },
   {
-   "name": "Jason Quach",
-   "playerId": "d7a91739-044a-4d8a-8079-640206c67db0",
-   "gender": "Male",
-   "team": "Dill Dinkers Hatboro The Factory",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Dev Patel",
    "playerId": "db4a522e-d5e2-4244-b527-8ecafa929bc0",
    "gender": "Male",
@@ -60407,7 +60396,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-12T23:59:05.362Z";
+  DATA.meta.asOf = "2026-10-13T05:36:10.568Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

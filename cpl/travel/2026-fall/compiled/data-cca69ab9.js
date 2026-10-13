@@ -30330,7 +30330,6 @@
    "away": "Pickle House",
    "time": "2026-10-12T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 623,
    "awayPoints": 625,
    "homeGW": 15,
@@ -33341,7 +33340,7 @@
  ],
  "meta": {
   "matchesPlayed": 45,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-8",
   "totalPlayers": 205,
   "ratingHistoryWeeks": [
@@ -33459,7 +33458,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T03:46:52.001Z";
+  DATA.meta.asOf = "2026-10-13T05:37:55.180Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
