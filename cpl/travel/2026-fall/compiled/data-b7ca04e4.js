@@ -15546,6 +15546,35 @@
    "playerId": "24dfee95-a64b-4f79-9f62-eaacf8c85204"
   },
   {
+   "name": "Brittany Murphy",
+   "gender": "Female",
+   "team": "Jersey Devil Green",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 588,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "44750333-fafc-4d31-ab6f-c8610dd4efa3"
+  },
+  {
    "name": "Mike Hanson",
    "gender": "Male",
    "team": "Players Courtyard",
@@ -83730,7 +83759,7 @@
     {
      "t": "mixed",
      "h": [
-      "Rachael Nissim",
+      "Lisa Weinthal",
       "Sammy Cohen"
      ],
      "a": [
@@ -83752,7 +83781,7 @@
     {
      "t": "female",
      "h": [
-      "Rachael Nissim",
+      "Rachel Levkov",
       "Carolyn Antuna"
      ],
      "a": [
@@ -83841,7 +83870,7 @@
      "t": "female",
      "h": [
       "Perri Goldstein",
-      "Rachael Nissim"
+      "Lisa Weinthal"
      ],
      "a": [
       "Allyssa Perez",
@@ -83884,7 +83913,7 @@
     {
      "t": "mixed",
      "h": [
-      "Rachael Nissim",
+      "Rachel Levkov",
       "Sammy Cohen"
      ],
      "a": [
@@ -83994,7 +84023,7 @@
     {
      "t": "mixed",
      "h": [
-      "Rachael Nissim",
+      "Carolyn Antuna",
       "Jim Nelson"
      ],
      "a": [
@@ -84016,7 +84045,7 @@
     {
      "t": "female",
      "h": [
-      "Rachael Nissim",
+      "Perri Goldstein",
       "Carolyn Antuna"
      ],
      "a": [
@@ -85222,7 +85251,7 @@
     {
      "t": "mixed",
      "h": [
-      "Alison Mento",
+      "Kristen Venditti",
       "Joseph Walton"
      ],
      "a": [
@@ -85256,7 +85285,7 @@
      "t": "female",
      "h": [
       "Jennifer Minehan",
-      "Alison Mento"
+      "Kristen Venditti"
      ],
      "a": [
       "Courtney Skolka",
@@ -85343,7 +85372,7 @@
     {
      "t": "female",
      "h": [
-      "Alison Mento",
+      "Kristen Venditti",
       "Kristie Frazier"
      ],
      "a": [
@@ -85398,7 +85427,7 @@
     {
      "t": "mixed",
      "h": [
-      "Alison Mento",
+      "Kristen Venditti",
       "Matthew Landis"
      ],
      "a": [
@@ -85432,7 +85461,7 @@
      "t": "female",
      "h": [
       "Kristie Frazier",
-      "Alison Mento"
+      "Kristen Venditti"
      ],
      "a": [
       "Gabby Frieder",
@@ -85497,7 +85526,7 @@
     {
      "t": "mixed",
      "h": [
-      "Alison Mento",
+      "Kristen Venditti",
       "Tim Phelan"
      ],
      "a": [
@@ -85562,8 +85591,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Held",
+      "Brandon Dejesus"
      ],
      "a": [
       "Ricki Cohen",
@@ -85573,8 +85602,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Victoria Rolon",
+      "Peter David"
      ],
      "a": [
       "Brittni Veyna",
@@ -85588,8 +85617,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Liu",
+      "Jaspher Cosico"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -85603,19 +85632,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Murphy",
+      "Albert Lin"
      ],
      "a": [
       "Deirdre Zohlman",
       "Aaron Chan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Srilahari Kunchapu",
+      "Olivia Schaller"
      ],
      "a": [
       "Ricki Cohen",
@@ -85625,12 +85658,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Liu",
+      "Brittany Murphy"
      ],
      "a": [
       "Sophie O’Driscoll",
       "Deirdre Zohlman"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -85640,8 +85677,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Dejesus",
+      "Albert Lin"
      ],
      "a": [
       "Scott Strong",
@@ -85651,8 +85688,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xin Liu",
+      "Anthony Solares"
      ],
      "a": [
       "Dan Perkins",
@@ -85666,8 +85703,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Liu",
+      "Jaspher Cosico"
      ],
      "a": [
       "Ricki Cohen",
@@ -85677,8 +85714,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Schaller",
+      "Xin Liu"
      ],
      "a": [
       "Brittni Veyna",
@@ -85688,8 +85725,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Held",
+      "Peter David"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -85703,8 +85740,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Victoria Rolon",
+      "Brandon Dejesus"
      ],
      "a": [
       "Deirdre Zohlman",
@@ -85714,8 +85751,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Schaller",
+      "Ashley Held"
      ],
      "a": [
       "Ricki Cohen",
@@ -85725,12 +85762,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Srilahari Kunchapu",
+      "Brittany Murphy"
      ],
      "a": [
       "Sophie O’Driscoll",
       "Deirdre Zohlman"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -85740,8 +85781,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xin Liu",
+      "Albert Lin"
      ],
      "a": [
       "Brad Mandry",
@@ -85755,8 +85796,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jaspher Cosico",
+      "Anthony Solares"
      ],
      "a": [
       "Scott Strong",
@@ -85766,8 +85807,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Victoria Rolon",
+      "Peter David"
      ],
      "a": [
       "Ricki Cohen",
@@ -85781,8 +85822,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Liu",
+      "Albert Lin"
      ],
      "a": [
       "Brittni Veyna",
@@ -85792,8 +85833,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Srilahari Kunchapu",
+      "Anthony Solares"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -85807,8 +85848,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Held",
+      "Brandon Dejesus"
      ],
      "a": [
       "Deirdre Zohlman",
@@ -85818,8 +85859,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Victoria Rolon",
+      "Linda Liu"
      ],
      "a": [
       "Ricki Cohen",
@@ -85833,19 +85874,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Murphy",
+      "Olivia Schaller"
      ],
      "a": [
       "Brittni Veyna",
       "Deirdre Zohlman"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xin Liu",
+      "Anthony Solares"
      ],
      "a": [
       "Brad Mandry",
@@ -85859,8 +85904,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jaspher Cosico",
+      "Brandon Dejesus"
      ],
      "a": [
       "Scott Strong",
@@ -85870,8 +85915,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Liu",
+      "Albert Lin"
      ],
      "a": [
       "Ricki Cohen",
@@ -85881,8 +85926,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Srilahari Kunchapu",
+      "Xin Liu"
      ],
      "a": [
       "Brittni Veyna",
@@ -85896,8 +85941,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ashley Held",
+      "Peter David"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -85911,8 +85956,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Victoria Rolon",
+      "Jaspher Cosico"
      ],
      "a": [
       "Deirdre Zohlman",
@@ -85922,8 +85967,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashley Held",
+      "Olivia Schaller"
      ],
      "a": [
       "Ricki Cohen",
@@ -85937,19 +85982,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Murphy",
+      "Srilahari Kunchapu"
      ],
      "a": [
       "Brittni Veyna",
       "Deirdre Zohlman"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Solares",
+      "Peter David"
      ],
      "a": [
       "Aaron Chan",
@@ -85963,8 +86012,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Dejesus",
+      "Xin Liu"
      ],
      "a": [
       "Brad Mandry",
@@ -88086,7 +88135,6 @@
  "extraPlayerIds": {
   "Chuang Li": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
-  "Brittany Murphy": "44750333-fafc-4d31-ab6f-c8610dd4efa3",
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
@@ -89280,7 +89328,7 @@
   "matchesPlayed": 111,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 576,
+  "totalPlayers": 577,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -89354,7 +89402,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-14T02:50:22.576Z";
+  DATA.meta.asOf = "2026-10-14T16:14:55.857Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
