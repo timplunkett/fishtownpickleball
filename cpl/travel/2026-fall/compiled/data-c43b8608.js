@@ -11631,6 +11631,35 @@
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
   },
   {
+   "name": "Dana Sun",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 449,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c"
+  },
+  {
    "name": "Mike Hardy",
    "gender": "Male",
    "team": "Monroe",
@@ -51278,8 +51307,12 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Dana Sun",
       "Chris Shung"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -51300,8 +51333,12 @@
       ""
      ],
      "a": [
-      "Ting Chen",
-      "Herald Barber"
+      "Margaret Bayse",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -51324,6 +51361,328 @@
      "a": [
       "Lisa Braumann",
       "Margaret Bayse"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ting Chen",
+      "Izabel Illipronti"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary Grzankowski",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Shung",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ting Chen",
+      "Chris Shung"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Dana Sun"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Margaret Bayse"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Shung",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pedro Oliveira",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Chris Shung"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ting Chen",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Ting Chen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Dana Sun"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Shung",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pedro Oliveira",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dana Sun",
+      "Chris Shung"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Lisa Braumann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ting Chen",
+      "Margaret Bayse"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Shung",
+      "Pedro Oliveira"
      ]
     },
     {
@@ -51749,7 +52108,6 @@
   "Mark Kot": "e652b254-402f-46be-90e9-ed5fcd575154",
   "Joy Frederick": "e97daa4f-0d54-4e83-87a3-3762d363be43",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
-  "Dana Sun": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
@@ -52791,7 +53149,7 @@
   "matchesPlayed": 68,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 427,
+  "totalPlayers": 428,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -52917,7 +53275,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T03:46:36.054Z";
+  DATA.meta.asOf = "2026-10-14T10:55:06.154Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

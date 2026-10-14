@@ -19354,6 +19354,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Zane Pagotto",
+   "playerId": "bf789141-926d-44b1-83c9-d5e5853589cb",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Zemin Zeng",
    "playerId": "6f2553e1-299a-407f-b919-41d4b3a84bae",
    "team": "Stelton Sports",
