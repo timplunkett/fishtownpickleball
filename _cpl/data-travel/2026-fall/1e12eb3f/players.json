@@ -6027,6 +6027,29 @@
       "ranking": 85
     },
     {
+      "playerId": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
+      "firstName": "Marti",
+      "lastName": "Williams",
+      "gender": "Female",
+      "dupr": "3VVWQ5",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
+      "teamName": "Dill Dinkers Newport",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 596
+    },
+    {
       "playerId": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
       "firstName": "Steve",
       "lastName": "Nuguid",
@@ -8669,7 +8692,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 596
+      "ranking": 597
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",

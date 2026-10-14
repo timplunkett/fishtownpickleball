@@ -65616,6 +65616,7 @@
   "Julie Marley": "6a2e3166-fec1-4aa3-b26d-7cfb54d9d717",
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
+  "Marti Williams": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
@@ -66403,6 +66404,14 @@
    "playerId": "730e7308-823f-4571-a7da-52806054582c",
    "gender": "Male",
    "team": "Premiere Dinkers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marti Williams",
+   "playerId": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
+   "gender": "Female",
+   "team": "Dill Dinkers Newport",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -67366,7 +67375,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T22:06:54.506Z";
+  DATA.meta.asOf = "2026-10-14T02:48:49.822Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

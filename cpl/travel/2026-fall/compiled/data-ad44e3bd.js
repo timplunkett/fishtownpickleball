@@ -4729,6 +4729,64 @@
    "playerId": "4fb3622b-f66a-4788-bed9-a9dfc0814b5e"
   },
   {
+   "name": "Lori Lewis",
+   "gender": "Female",
+   "team": "Premiere",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 186,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b2bcfdb7-8887-4edd-b2a8-4a64d1bf1b86"
+  },
+  {
+   "name": "Deborah Agugliaro",
+   "gender": "Female",
+   "team": "Premiere",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 175,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c5ed98db-36e2-4106-8f1e-67ec97fead81"
+  },
+  {
    "name": "Jenny Miller",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -27813,8 +27871,8 @@
       ""
      ],
      "a": [
-      "Paula Cushing",
-      "Marina Berger"
+      "Marina Berger",
+      "Paula Cushing"
      ]
     },
     {
@@ -27876,58 +27934,6 @@
       ""
      ],
      "a": [
-      "Jasmine Ho",
-      "Paula Cushing"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nancy Luyando",
-      "Marina Berger"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kathy Hemphill",
-      "Linda Johns"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Olga Kim",
-      "Kayla Gipson"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
       "Olga Kim",
       "Nancy Luyando"
      ],
@@ -27965,8 +27971,8 @@
       ""
      ],
      "a": [
-      "Kayla Gipson",
-      "Paula Cushing"
+      "Paula Cushing",
+      "Kayla Gipson"
      ]
     },
     {
@@ -28117,8 +28123,56 @@
       ""
      ],
      "a": [
+      "Paula Cushing",
+      "Olga Kim"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula Cushing",
+      "Jasmine Ho"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Luyando",
+      "Marina Berger"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kayla Gipson",
+      "Linda Johns"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
       "Olga Kim",
-      "Paula Cushing"
+      "Marina Volpe"
      ]
     },
     {
@@ -28181,7 +28235,417 @@
    "home": "Flemington Green",
    "away": "Premiere",
    "time": "2026-10-15T11:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacey Cohen",
+      "Sabrina Trunzo Dinkle"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Lori Lewis"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Sally Sitro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lenore David",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sabrina Trunzo Dinkle",
+      "Stacey Cohen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Sitro",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Lori Lewis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Paula De Nisc"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Sabrina Trunzo Dinkle"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Lewis",
+      "Stacey Cohen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Sitro",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Lenore David"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sabrina Trunzo Dinkle",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Lewis",
+      "Stacey Cohen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Sally Sitro"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Paula De Nisc"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Lewis",
+      "Sabrina Trunzo Dinkle"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Stacey Cohen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lenore David",
+      "Sally Sitro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Lewis",
+      "Sabrina Trunzo Dinkle"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Stacey Cohen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula De Nisc",
+      "Sally Sitro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lenore David",
+      "Sabrina Trunzo Dinkle"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacey Cohen",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lori Lewis",
+      "Sally Sitro"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Deborah Agugliaro"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paula De Nisc",
+      "Sabrina Trunzo Dinkle"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacey Cohen",
+      "Suzanne Leon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deborah Agugliaro",
+      "Lori Lewis"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dawn Dalessio",
+      "Sally Sitro"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -29190,8 +29654,6 @@
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Rebecca Printz": "870b1163-513e-4625-af47-e154f02dacbc",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
-  "Lori Lewis": "b2bcfdb7-8887-4edd-b2a8-4a64d1bf1b86",
-  "Deborah Agugliaro": "c5ed98db-36e2-4106-8f1e-67ec97fead81",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
   "Kathy Chisholm": "cb9d90de-b0eb-41d0-a16c-241d3ffe53a0",
   "Nicole Tarallo": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
@@ -29619,7 +30081,7 @@
   "matchesPlayed": 37,
   "provisionalMatches": 1,
   "weeks": "1-7",
-  "totalPlayers": 177,
+  "totalPlayers": 179,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -29723,7 +30185,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T22:09:37.108Z";
+  DATA.meta.asOf = "2026-10-14T02:51:49.499Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
