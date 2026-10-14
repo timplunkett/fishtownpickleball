@@ -11979,6 +11979,35 @@
    "playerId": "4bc5dc80-f744-41e1-ab6e-a02c600abed8"
   },
   {
+   "name": "Sagar Punjabi",
+   "gender": "Male",
+   "team": "Pickle Place",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 454,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "68c18c2b-7123-40f4-bf13-e795d12a7583"
+  },
+  {
    "name": "Amy Chrebet",
    "gender": "Female",
    "team": "Jersey Pickleball Club",
@@ -59594,8 +59623,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Matthew Friedman"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -59609,8 +59638,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "Michael Rapaglia"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -59624,8 +59653,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Daniel Antonelli"
      ],
      "a": [
       "Richa Shah",
@@ -59635,8 +59664,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Michael Mazzola"
      ],
      "a": [
       "Sara Synn",
@@ -59646,8 +59675,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Hayley Yandoli"
      ],
      "a": [
       "Morgan Fishman",
@@ -59657,8 +59686,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Olivia Iacono"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -59668,8 +59697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Michael Rapaglia"
      ],
      "a": [
       "Anthony Ursino",
@@ -59683,8 +59712,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Mazzola"
      ],
      "a": [
       "Jared Ciccarelli",
@@ -59698,8 +59727,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Michael Rapaglia"
      ],
      "a": [
       "Richa Shah",
@@ -59713,8 +59742,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Matthew Friedman"
      ],
      "a": [
       "Sara Synn",
@@ -59724,8 +59753,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Daniel Antonelli"
      ],
      "a": [
       "Morgan Fishman",
@@ -59735,8 +59764,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Gary White"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -59750,8 +59779,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Gabrielle Padilla"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -59761,8 +59790,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "Kaylee Ritchie"
      ],
      "a": [
       "Morgan Fishman",
@@ -59772,8 +59801,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Mazzola"
      ],
      "a": [
       "Anthony Ursino",
@@ -59783,8 +59812,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Michael Rapaglia"
      ],
      "a": [
       "Jared Ciccarelli",
@@ -59798,8 +59827,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Daniel Antonelli"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -59809,8 +59838,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Michael Mazzola"
      ],
      "a": [
       "Richa Shah",
@@ -59824,8 +59853,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hayley Yandoli",
+      "Matthew Friedman"
      ],
      "a": [
       "Morgan Fishman",
@@ -59839,8 +59868,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Michael Rapaglia"
      ],
      "a": [
       "Sara Synn",
@@ -59854,8 +59883,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Taylor Regenwether"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -59865,8 +59894,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Kaylee Ritchie"
      ],
      "a": [
       "Richa Shah",
@@ -59876,8 +59905,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Daniel Antonelli"
      ],
      "a": [
       "Anthony Ursino",
@@ -59887,8 +59916,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Rapaglia"
      ],
      "a": [
       "Jared Ciccarelli",
@@ -59902,8 +59931,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Michael Rapaglia"
      ],
      "a": [
       "Morgan Fishman",
@@ -59917,8 +59946,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Michael Mazzola"
      ],
      "a": [
       "Sara Synn",
@@ -59928,8 +59957,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Olivia Iacono",
+      "Gary White"
      ],
      "a": [
       "Richa Shah",
@@ -59939,8 +59968,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabrielle Padilla",
+      "Daniel Antonelli"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -59954,8 +59983,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Regenwether",
+      "Gabrielle Padilla"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -59965,8 +59994,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylee Ritchie",
+      "Hayley Yandoli"
      ],
      "a": [
       "Morgan Fishman",
@@ -59976,8 +60005,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Daniel Antonelli"
      ],
      "a": [
       "Anthony Ursino",
@@ -59991,8 +60020,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Gary White"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -60053,8 +60082,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Kevin Sun"
      ],
      "a": [
       "Jillian Hart",
@@ -60064,8 +60093,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sharon Mathison",
+      "Joreen Sun"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -60075,8 +60104,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Maria Valencia"
      ],
      "a": [
       "Kelly Bowers",
@@ -60134,8 +60163,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Kevin Sun"
      ],
      "a": [
       "Jillian Hart",
@@ -60160,8 +60189,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Valencia",
+      "Sharon Mathison"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -60171,8 +60200,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Ashley Hyde"
      ],
      "a": [
       "Jillian Hart",
@@ -60209,7 +60238,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Kevin Sun"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -60245,8 +60274,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Elliott Albanese"
      ],
      "a": [
       "Jillian Hart",
@@ -60256,8 +60285,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ashley Hyde",
+      "Sharon Mathison"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -60271,8 +60300,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Maria Valencia"
      ],
      "a": [
       "Mary Brashier",
@@ -60282,8 +60311,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Joseph Albanese"
      ],
      "a": [
       "Eric Berlinger",
@@ -60293,8 +60322,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Barry Friedman",
@@ -60305,7 +60334,7 @@
      "t": "mixed",
      "h": [
       "",
-      ""
+      "Kevin Sun"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -60315,8 +60344,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Corey Chen"
      ],
      "a": [
       "Mary Brashier",
@@ -60352,8 +60381,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Valencia",
+      "Ashley Hyde"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -60367,8 +60396,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leah Stup",
+      "Sharon Mathison"
      ],
      "a": [
       "Mary Brashier",
@@ -60389,8 +60418,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Albanese",
+      "Corey Chen"
      ],
      "a": [
       "Barry Friedman",
@@ -61902,30 +61931,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Sagar Punjabi"
      ],
      "a": [
       "Taina Wesner",
       "Chris Fratinardo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Jeremy Workman"
      ],
      "a": [
       "Priya Narahari",
       "Harvey Mitchell"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Joshua Mindlin"
      ],
      "a": [
       "Megan Harvey",
@@ -61935,8 +61972,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "Kyle Kerr"
      ],
      "a": [
       "Nam Barsh",
@@ -61946,8 +61983,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Madeleine Shusterman"
      ],
      "a": [
       "Nam Barsh",
@@ -61961,8 +61998,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Elisia Clark"
      ],
      "a": [
       "Priya Narahari",
@@ -61972,8 +62009,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Kerr",
+      "William Ye"
      ],
      "a": [
       "Chris Fratinardo",
@@ -61983,19 +62020,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vic Nguyen",
+      "Jeremy Workman"
      ],
      "a": [
       "Andrew Mavraganis",
       "Michael Taylor"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Joshua Mindlin"
      ],
      "a": [
       "Megan Harvey",
@@ -62005,8 +62046,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Vic Nguyen"
      ],
      "a": [
       "Priya Narahari",
@@ -62016,8 +62057,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "William Ye"
      ],
      "a": [
       "Taina Wesner",
@@ -62027,12 +62068,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Jeremy Workman"
      ],
      "a": [
       "Harriet Levin",
       "Michael Taylor"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -62042,8 +62087,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Madeleine Shusterman"
      ],
      "a": [
       "Nam Barsh",
@@ -62053,8 +62098,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Elisia Clark"
      ],
      "a": [
       "Harriet Levin",
@@ -62068,19 +62113,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sagar Punjabi",
+      "Vic Nguyen"
      ],
      "a": [
       "Harvey Mitchell",
       "Michael Taylor"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Kyle Kerr"
      ],
      "a": [
       "Andrew Mavraganis",
@@ -62090,19 +62139,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Jeremy Workman"
      ],
      "a": [
       "Nam Barsh",
       "Andrew Mavraganis"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Vic Nguyen"
      ],
      "a": [
       "Megan Harvey",
@@ -62112,8 +62165,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "Kyle Kerr"
      ],
      "a": [
       "Taina Wesner",
@@ -62123,8 +62176,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "William Ye"
      ],
      "a": [
       "Harriet Levin",
@@ -62138,8 +62191,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Elisia Clark"
      ],
      "a": [
       "Harriet Levin",
@@ -62153,8 +62206,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vanessa Zommi Kungne",
+      "Madeleine Shusterman"
      ],
      "a": [
       "Priya Narahari",
@@ -62164,19 +62217,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sagar Punjabi",
+      "Kyle Kerr"
      ],
      "a": [
       "Matthew Kraft",
       "Michael Taylor"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "William Ye"
      ],
      "a": [
       "Chris Fratinardo",
@@ -62186,8 +62243,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Priya Narahari",
@@ -62197,8 +62254,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hada Solorzano",
+      "William Ye"
      ],
      "a": [
       "Nam Barsh",
@@ -62208,30 +62265,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Madeleine Shusterman",
+      "Jeremy Workman"
      ],
      "a": [
       "Megan Harvey",
       "Chris Fratinardo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Sagar Punjabi"
      ],
      "a": [
       "Taina Wesner",
       "Andrew Mavraganis"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elisia Clark",
+      "Madeleine Shusterman"
      ],
      "a": [
       "Taina Wesner",
@@ -62241,8 +62306,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Callaghan",
+      "Vanessa Zommi Kungne"
      ],
      "a": [
       "Harriet Levin",
@@ -62256,19 +62321,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeremy Workman",
+      "Vic Nguyen"
      ],
      "a": [
       "Chris Fratinardo",
       "Michael Taylor"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Kerr",
+      "William Ye"
      ],
      "a": [
       "Matthew Kraft",
@@ -63793,7 +63862,6 @@
   "David Barth": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
   "Bryan Tsang": "63cd3df2-bdd8-4e38-b449-653b71e10ff4",
-  "Sagar Punjabi": "68c18c2b-7123-40f4-bf13-e795d12a7583",
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shukling Parker": "8b9a1a95-0599-42bc-b233-e24609d11e07",
@@ -64609,7 +64677,7 @@
   "matchesPlayed": 79,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 436,
+  "totalPlayers": 437,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -64756,7 +64824,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-14T16:13:51.636Z";
+  DATA.meta.asOf = "2026-10-14T21:09:02.912Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

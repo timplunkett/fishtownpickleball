@@ -183,14 +183,14 @@
     {
       "matchupId": "d2f01bba-9440-4c6e-a17f-8f5f7f578ab1",
       "weekNumber": 2,
-      "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-      "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-      "homePoints": 607,
-      "awayPoints": 631,
-      "endResult": "away",
+      "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+      "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
+      "homePoints": 631,
+      "awayPoints": 607,
+      "endResult": "home",
       "scheduledTime": "2026-08-29T13:00:00",
-      "homeName": "Premiere Dinkers",
-      "awayName": "One Love"
+      "homeName": "One Love",
+      "awayName": "Premiere Dinkers"
     },
     {
       "matchupId": "2880b02a-d1f9-4877-8a7b-65944aa8eb56",
@@ -1047,14 +1047,14 @@
     {
       "matchupId": "58acc5b6-6e47-4ed9-9a53-0ea551828852",
       "weekNumber": 8,
-      "homeTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
-      "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
+      "homeTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
+      "awayTeamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-10-18T10:00:00",
-      "homeName": "One Love",
-      "awayName": "Premiere Dinkers"
+      "homeName": "Premiere Dinkers",
+      "awayName": "One Love"
     },
     {
       "matchupId": "2011ca3a-afda-4a08-8b4e-a0daba0796e7",

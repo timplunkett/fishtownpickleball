@@ -21154,7 +21154,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 5,
     "l": 3,
     "gp": 8,
@@ -21930,7 +21930,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 2,
     "gp": 6,
@@ -26536,7 +26536,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 1,
     "gp": 5,
@@ -33590,7 +33590,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 4,
     "l": 4,
     "gp": 8,
@@ -34479,7 +34479,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 2,
     "l": 4,
     "gp": 6,
@@ -48585,7 +48585,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 5,
     "l": 3,
     "gp": 8,
@@ -49462,7 +49462,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 4,
     "gp": 6,
@@ -50111,7 +50111,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 2,
     "l": 4,
     "gp": 6,
@@ -50457,7 +50457,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 3,
     "gp": 6,
@@ -51068,7 +51068,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 4,
     "l": 1,
     "gp": 5,
@@ -58542,7 +58542,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 3,
     "gp": 5,
@@ -62285,7 +62285,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 4,
     "l": 3,
     "gp": 7,
@@ -68647,7 +68647,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 1,
     "gp": 4,
@@ -69264,7 +69264,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -71405,7 +71405,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 3,
     "l": 2,
     "gp": 5,
@@ -72653,7 +72653,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 1,
     "l": 4,
     "gp": 5,
@@ -74368,7 +74368,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 2,
     "l": 3,
     "gp": 5,
@@ -79509,7 +79509,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 5,
     "l": 1,
     "gp": 6,
@@ -81076,7 +81076,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 0,
     "l": 5,
     "gp": 5,
@@ -85572,7 +85572,7 @@
    {
     "week": 2,
     "opp": "Premiere Dinkers",
-    "homeAway": "A",
+    "homeAway": "H",
     "w": 1,
     "l": 4,
     "gp": 5,
@@ -86044,7 +86044,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 2,
     "l": 2,
     "gp": 4,
@@ -88849,7 +88849,7 @@
    {
     "week": 2,
     "opp": "One Love",
-    "homeAway": "H",
+    "homeAway": "A",
     "w": 3,
     "l": 5,
     "gp": 8,

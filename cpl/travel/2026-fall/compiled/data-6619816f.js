@@ -6150,6 +6150,35 @@
    "playerId": "3c38f00f-0e85-4c62-96c8-656bf7352f55"
   },
   {
+   "name": "Andrew Nguyen",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 231,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "97048a47-d6b3-4c25-84c4-2b8d85e78b7d"
+  },
+  {
    "name": "Michael Velez",
    "gender": "Male",
    "team": "Dill Dinkers Hatboro Aces",
@@ -33025,7 +33054,11 @@
      ],
      "a": [
       "Meghan Mediratta",
-      "Chris Long"
+      "Andrew Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -33090,8 +33123,12 @@
       "Michael Li"
      ],
      "a": [
-      "Chris Long",
+      "Andrew Nguyen",
       "Sidd Pathare"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -33113,7 +33150,11 @@
      ],
      "a": [
       "Meghan Mediratta",
-      "Chris Long"
+      "Andrew Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -33178,8 +33219,12 @@
       "Michael Li"
      ],
      "a": [
-      "Chris Long",
+      "Andrew Nguyen",
       "Sidd Pathare"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -33201,7 +33246,11 @@
      ],
      "a": [
       "Anisha Malhotra",
-      "Chris Long"
+      "Andrew Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -33266,8 +33315,12 @@
       "Mickey Cook"
      ],
      "a": [
-      "Chris Long",
+      "Andrew Nguyen",
       "James Cannizzaro"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -33300,7 +33353,11 @@
      ],
      "a": [
       "Anisha Malhotra",
-      "Chris Long"
+      "Andrew Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -33354,8 +33411,12 @@
       "Zach Hollmann"
      ],
      "a": [
-      "Chris Long",
+      "Andrew Nguyen",
       "James Cannizzaro"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -33955,7 +34016,6 @@
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
-  "Andrew Nguyen": "97048a47-d6b3-4c25-84c4-2b8d85e78b7d",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
@@ -34478,7 +34538,7 @@
   "matchesPlayed": 42,
   "provisionalMatches": 0,
   "weeks": "1-7",
-  "totalPlayers": 226,
+  "totalPlayers": 227,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -34585,7 +34645,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-14T02:50:43.727Z";
+  DATA.meta.asOf = "2026-10-14T21:10:08.973Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

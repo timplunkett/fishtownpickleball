@@ -31760,407 +31760,71 @@
    ]
   },
   {
-   "result": "away",
+   "result": "home",
    "week": 2,
-   "home": "Premiere Dinkers",
-   "away": "One Love",
+   "home": "One Love",
+   "away": "Premiere Dinkers",
    "time": "2026-08-29T13:00:00",
    "complete": true,
-   "homePoints": 607,
-   "awayPoints": 631,
-   "homeGW": 15,
-   "awayGW": 17,
+   "homePoints": 631,
+   "awayPoints": 607,
+   "homeGW": 17,
+   "awayGW": 15,
    "games": [
     {
      "t": "mixed",
      "ff": 0,
-     "hs": 20,
-     "as": 22,
+     "hs": 22,
+     "as": 20,
      "h": [
-      "Barbara Markoglu",
-      "Joseph Romagnolo"
-     ],
-     "a": [
       "Amy Santopietro",
       "Dan Carrion"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Karen Chin",
-      "John Rogers"
      ],
      "a": [
-      "Janet Bodner",
-      "David Katz"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 14,
-     "as": 21,
-     "h": [
-      "Alexandra Romagnolo",
-      "David Cardinale"
-     ],
-     "a": [
-      "Ericka Lyn Mayer",
-      "Eric Brody"
+      "Barbara Markoglu",
+      "Joseph Romagnolo"
      ]
     },
     {
      "t": "mixed",
      "ff": 0,
      "hs": 21,
-     "as": 23,
+     "as": 14,
      "h": [
-      "Denise Caracciolo",
-      "Felix Soto"
+      "Janet Bodner",
+      "David Katz"
      ],
      "a": [
-      "Michele Collins",
-      "Phillip Perry"
+      "Karen Chin",
+      "John Rogers"
      ]
     },
     {
-     "t": "female",
+     "t": "mixed",
      "ff": 0,
-     "hs": 18,
-     "as": 21,
+     "hs": 21,
+     "as": 14,
      "h": [
-      "Barbara Markoglu",
-      "Karen Chin"
-     ],
-     "a": [
       "Ericka Lyn Mayer",
-      "Michele Collins"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Marie Granberg",
-      "Denise Caracciolo"
+      "Eric Brody"
      ],
      "a": [
-      "Tracy Kaban",
-      "Brenda Mee"
+      "Alexandra Romagnolo",
+      "David Cardinale"
      ]
     },
     {
-     "t": "male",
+     "t": "mixed",
      "ff": 0,
      "hs": 23,
-     "as": 25,
-     "h": [
-      "Joseph Romagnolo",
-      "John Rogers"
-     ],
-     "a": [
-      "Phillip Perry",
-      "Timothy Cassidy"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Felix Soto",
-      "David Cardinale"
-     ],
-     "a": [
-      "Eric Brody",
-      "Erik Harrison"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Barbara Markoglu",
-      "Joseph Romagnolo"
-     ],
-     "a": [
-      "Amy Santopietro",
-      "Dan Carrion"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Karen Chin",
-      "John Rogers"
-     ],
-     "a": [
-      "Janet Bodner",
-      "David Katz"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 13,
-     "h": [
-      "Marie Granberg",
-      "David Cardinale"
-     ],
-     "a": [
-      "Ericka Lyn Mayer",
-      "Eric Brody"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 16,
      "as": 21,
      "h": [
-      "Risa Korzekwinski",
-      "Felix Soto"
-     ],
-     "a": [
       "Michele Collins",
       "Phillip Perry"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Barbara Markoglu",
-      "Alexandra Romagnolo"
      ],
      "a": [
-      "Ericka Lyn Mayer",
-      "Janet Bodner"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 19,
-     "as": 21,
-     "h": [
-      "Risa Korzekwinski",
-      "Denise Caracciolo"
-     ],
-     "a": [
-      "Tracy Kaban",
-      "Brenda Mee"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "John Rogers",
-      "Joseph Romagnolo"
-     ],
-     "a": [
-      "Timothy Cassidy",
-      "Phillip Perry"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 18,
-     "as": 21,
-     "h": [
-      "Felix Soto",
-      "David Cardinale"
-     ],
-     "a": [
-      "Eric Brody",
-      "Erik Harrison"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Barbara Markoglu",
-      "John Rogers"
-     ],
-     "a": [
-      "Brenda Mee",
-      "Timothy Cassidy"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 16,
-     "as": 21,
-     "h": [
-      "Karen Chin",
-      "Joseph Romagnolo"
-     ],
-     "a": [
-      "Michele Collins",
-      "Erik Harrison"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 17,
-     "h": [
-      "Risa Korzekwinski",
-      "David Cardinale"
-     ],
-     "a": [
-      "Tracy Kaban",
-      "Dan Carrion"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 15,
-     "as": 21,
-     "h": [
-      "Alexandra Romagnolo",
-      "Felix Soto"
-     ],
-     "a": [
-      "Amy Santopietro",
-      "David Katz"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 10,
-     "as": 21,
-     "h": [
       "Denise Caracciolo",
-      "Marie Granberg"
-     ],
-     "a": [
-      "Tracy Kaban",
-      "Amy Santopietro"
-     ]
-    },
-    {
-     "t": "female",
-     "ff": 0,
-     "hs": 22,
-     "as": 20,
-     "h": [
-      "Karen Chin",
-      "Risa Korzekwinski"
-     ],
-     "a": [
-      "Brenda Mee",
-      "Ericka Lyn Mayer"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 28,
-     "as": 26,
-     "h": [
-      "John Rogers",
       "Felix Soto"
-     ],
-     "a": [
-      "Eric Brody",
-      "Timothy Cassidy"
-     ]
-    },
-    {
-     "t": "male",
-     "ff": 0,
-     "hs": 21,
-     "as": 12,
-     "h": [
-      "Joseph Romagnolo",
-      "David Cardinale"
-     ],
-     "a": [
-      "Dan Carrion",
-      "Erik Harrison"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 15,
-     "h": [
-      "Barbara Markoglu",
-      "John Rogers"
-     ],
-     "a": [
-      "Brenda Mee",
-      "Phillip Perry"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 17,
-     "as": 21,
-     "h": [
-      "Karen Chin",
-      "Joseph Romagnolo"
-     ],
-     "a": [
-      "Amy Santopietro",
-      "Timothy Cassidy"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 21,
-     "as": 19,
-     "h": [
-      "Alexandra Romagnolo",
-      "Felix Soto"
-     ],
-     "a": [
-      "Janet Bodner",
-      "Dan Carrion"
-     ]
-    },
-    {
-     "t": "mixed",
-     "ff": 0,
-     "hs": 13,
-     "as": 21,
-     "h": [
-      "Marie Granberg",
-      "David Cardinale"
-     ],
-     "a": [
-      "Tracy Kaban",
-      "David Katz"
      ]
     },
     {
@@ -32169,12 +31833,334 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Marie Granberg",
-      "Risa Korzekwinski"
+      "Ericka Lyn Mayer",
+      "Michele Collins"
      ],
      "a": [
+      "Barbara Markoglu",
+      "Karen Chin"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Tracy Kaban",
+      "Brenda Mee"
+     ],
+     "a": [
+      "Marie Granberg",
+      "Denise Caracciolo"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
+     "h": [
+      "Phillip Perry",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Joseph Romagnolo",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Eric Brody",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Felix Soto",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Amy Santopietro",
+      "Dan Carrion"
+     ],
+     "a": [
+      "Barbara Markoglu",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
       "Janet Bodner",
-      "Michele Collins"
+      "David Katz"
+     ],
+     "a": [
+      "Karen Chin",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
+     "h": [
+      "Ericka Lyn Mayer",
+      "Eric Brody"
+     ],
+     "a": [
+      "Marie Granberg",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Michele Collins",
+      "Phillip Perry"
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Felix Soto"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Ericka Lyn Mayer",
+      "Janet Bodner"
+     ],
+     "a": [
+      "Barbara Markoglu",
+      "Alexandra Romagnolo"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
+     "h": [
+      "Tracy Kaban",
+      "Brenda Mee"
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "Denise Caracciolo"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Timothy Cassidy",
+      "Phillip Perry"
+     ],
+     "a": [
+      "John Rogers",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Eric Brody",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Felix Soto",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Brenda Mee",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Barbara Markoglu",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Michele Collins",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Karen Chin",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
+     "h": [
+      "Tracy Kaban",
+      "Dan Carrion"
+     ],
+     "a": [
+      "Risa Korzekwinski",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
+     "h": [
+      "Amy Santopietro",
+      "David Katz"
+     ],
+     "a": [
+      "Alexandra Romagnolo",
+      "Felix Soto"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
+     "h": [
+      "Tracy Kaban",
+      "Amy Santopietro"
+     ],
+     "a": [
+      "Denise Caracciolo",
+      "Marie Granberg"
+     ]
+    },
+    {
+     "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
+     "h": [
+      "Brenda Mee",
+      "Ericka Lyn Mayer"
+     ],
+     "a": [
+      "Karen Chin",
+      "Risa Korzekwinski"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 26,
+     "as": 28,
+     "h": [
+      "Eric Brody",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "John Rogers",
+      "Felix Soto"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Dan Carrion",
+      "Erik Harrison"
+     ],
+     "a": [
+      "Joseph Romagnolo",
+      "David Cardinale"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Brenda Mee",
+      "Phillip Perry"
+     ],
+     "a": [
+      "Barbara Markoglu",
+      "John Rogers"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
+     "h": [
+      "Amy Santopietro",
+      "Timothy Cassidy"
+     ],
+     "a": [
+      "Karen Chin",
+      "Joseph Romagnolo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
+     "h": [
+      "Janet Bodner",
+      "Dan Carrion"
+     ],
+     "a": [
+      "Alexandra Romagnolo",
+      "Felix Soto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Tracy Kaban",
+      "David Katz"
+     ],
+     "a": [
+      "Marie Granberg",
+      "David Cardinale"
      ]
     },
     {
@@ -32183,40 +32169,54 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Barbara Markoglu",
-      "Denise Caracciolo"
+      "Janet Bodner",
+      "Michele Collins"
      ],
      "a": [
-      "Amy Santopietro",
-      "Ericka Lyn Mayer"
+      "Marie Granberg",
+      "Risa Korzekwinski"
      ]
     },
     {
-     "t": "male",
+     "t": "female",
      "ff": 0,
-     "hs": 14,
-     "as": 21,
+     "hs": 21,
+     "as": 18,
      "h": [
-      "John Rogers",
-      "Felix Soto"
+      "Amy Santopietro",
+      "Ericka Lyn Mayer"
      ],
      "a": [
-      "Phillip Perry",
-      "Erik Harrison"
+      "Barbara Markoglu",
+      "Denise Caracciolo"
      ]
     },
     {
      "t": "male",
      "ff": 0,
      "hs": 21,
-     "as": 16,
+     "as": 14,
      "h": [
-      "Joseph Romagnolo",
-      "David Cardinale"
+      "Phillip Perry",
+      "Erik Harrison"
      ],
      "a": [
+      "John Rogers",
+      "Felix Soto"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
+     "h": [
       "Timothy Cassidy",
       "Eric Brody"
+     ],
+     "a": [
+      "Joseph Romagnolo",
+      "David Cardinale"
      ]
     }
    ],
@@ -64783,8 +64783,8 @@
   {
    "result": null,
    "week": 8,
-   "home": "One Love",
-   "away": "Premiere Dinkers",
+   "home": "Premiere Dinkers",
+   "away": "One Love",
    "time": "2026-10-18T10:00:00",
    "complete": false
   },
@@ -67762,7 +67762,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-14T16:13:11.359Z";
+  DATA.meta.asOf = "2026-10-14T21:08:23.864Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
