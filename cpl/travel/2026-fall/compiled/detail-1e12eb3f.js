@@ -17656,8 +17656,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Life Time Red Bank"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -17683,8 +17683,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Life Time Red Bank"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

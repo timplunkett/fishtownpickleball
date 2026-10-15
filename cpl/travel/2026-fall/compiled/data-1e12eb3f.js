@@ -2731,8 +2731,8 @@
    "name": "Virgo Marjamaa",
    "gender": "Male",
    "team": "Life Time Red Bank",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 9,
@@ -14348,7 +14348,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 560,
+   "leagueRank": 561,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14377,7 +14377,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 590,
+   "leagueRank": 591,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14406,7 +14406,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 586,
+   "leagueRank": 587,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14435,7 +14435,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 569,
+   "leagueRank": 570,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14464,7 +14464,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 594,
+   "leagueRank": 595,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14493,7 +14493,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 593,
+   "leagueRank": 594,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14522,7 +14522,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 585,
+   "leagueRank": 586,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14551,7 +14551,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 575,
+   "leagueRank": 576,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14609,7 +14609,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 571,
+   "leagueRank": 572,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14638,7 +14638,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 583,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14667,7 +14667,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 589,
+   "leagueRank": 590,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14696,7 +14696,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 555,
+   "leagueRank": 556,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14725,7 +14725,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 591,
+   "leagueRank": 592,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14754,7 +14754,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 588,
+   "leagueRank": 589,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -47976,8 +47976,7 @@
    ],
    "subs": [
     "Sara Hylan",
-    "Michael Altilio",
-    "Virgo Marjamaa"
+    "Michael Altilio"
    ]
   },
   {
@@ -57784,7 +57783,6 @@
     "Stacey Nusser",
     "Carleen Thompson",
     "Felix Soto",
-    "Virgo Marjamaa",
     "Bob Tarallo"
    ]
   },
@@ -64802,7 +64800,196 @@
    "home": "Dill Dinkers Newport",
    "away": "Bounce Philly",
    "time": "2026-10-17T13:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Hand",
+      "Michael Burns"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Wen Chang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andria Lochtenbergh",
+      "Derik Lochtenbergh"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Paul Mcalary"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Burns",
+      "Derik Lochtenbergh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wen Chang",
+      "Paul Mcalary"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Hand",
+      "Wen Chang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andria Lochtenbergh",
+      "Derik Lochtenbergh"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Michael Burns"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "",
+      "Paul Mcalary"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Burns",
+      "Wen Chang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derik Lochtenbergh",
+      "Paul Mcalary"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Hand",
+      "Michael Burns"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Burns",
+      "Derik Lochtenbergh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wen Chang",
+      "Paul Mcalary"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Burns",
+      "Wen Chang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derik Lochtenbergh",
+      "Paul Mcalary"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -64826,7 +65013,381 @@
    "home": "Picklr Fair Lawn",
    "away": "Pickleball Palace Black",
    "time": "2026-10-17T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristin Duva",
+      "Alan Weissman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anne Buckley",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Ward Greer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Kristin Duva"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Debbie Spurr",
+      "Joan Harris"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Denooyer",
+      "Ward Greer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jack Cappello",
+      "Rafael Moreano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anne Buckley",
+      "Ward Greer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Debbie Spurr",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joan Harris",
+      "Alan Weissman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Theresa Corderi"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristin Duva",
+      "Joan Harris"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rafael Moreano",
+      "Alan Weissman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Denooyer",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anne Buckley",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Minerowicz",
+      "Ward Greer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Debbie Spurr",
+      "Rafael Moreano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristin Duva",
+      "Debbie Spurr"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joan Harris",
+      "Cheryl Minerowicz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alan Weissman",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ward Greer",
+      "James Azarowicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Debbie Spurr",
+      "Alan Weissman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Rafael Moreano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anne Buckley",
+      "Jake Denooyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joan Harris",
+      "Jack Cappello"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristin Duva",
+      "Cheryl Minerowicz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Theresa Corderi",
+      "Anne Buckley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ward Greer",
+      "Rafael Moreano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jake Denooyer",
+      "James Azarowicz"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -65983,6 +66544,7 @@
   "Lisa Brower": "04e9aff2-d148-4ff7-8161-a42b0328aa7e",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
+  "Barbara Calabria": "11251dc4-eebb-4a78-b22c-15e6bfc94d14",
   "Eileen Clark": "2abe95e2-0e73-49b6-aca8-689041f98b94",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
@@ -66135,6 +66697,14 @@
    "playerId": "0f95f23f-ac68-44b0-81c2-7009fbcee055",
    "gender": "Male",
    "team": "Dill Dinkers Hatboro",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Barbara Calabria",
+   "playerId": "11251dc4-eebb-4a78-b22c-15e6bfc94d14",
+   "gender": "Female",
+   "team": "One Love",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -67299,14 +67869,6 @@
    "outsideSub": true
   },
   {
-   "name": "Virgo Marjamaa",
-   "playerId": "d8d92449-f754-45b9-acf1-821822b1abb5",
-   "gender": "Male",
-   "team": "Life Time Red Bank",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Stacey Cohen",
    "playerId": "da4d615a-2d9f-4939-be52-1760fb37eb60",
    "gender": "Female",
@@ -67762,7 +68324,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-14T21:08:23.864Z";
+  DATA.meta.asOf = "2026-10-15T02:27:52.747Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

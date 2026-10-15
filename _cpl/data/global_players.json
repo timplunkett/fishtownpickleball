@@ -48115,5 +48115,25 @@
     "lastSeen": "2026-10",
     "duprNumericId": 7293933008,
     "duprProvisional": false
+  },
+  {
+    "playerId": "11251dc4-eebb-4a78-b22c-15e6bfc94d14",
+    "firstName": "Barbara",
+    "lastName": "Calabria",
+    "dupr": "P5697Z",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8450737454,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "1a802777-6241-4a14-8370-126b8bf5d3f9",
+    "firstName": "Sean",
+    "lastName": "Hynson",
+    "dupr": "VL005J",
+    "duprRating": "3.219",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8399063243,
+    "duprProvisional": false
   }
 ]

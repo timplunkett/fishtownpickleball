@@ -8345,7 +8345,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 305,
+   "leagueRank": 306,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8374,7 +8374,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 312,
+   "leagueRank": 313,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8403,7 +8403,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 306,
+   "leagueRank": 307,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -52821,6 +52821,7 @@
  "extraPlayerIds": {
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
+  "Sean Hynson": "1a802777-6241-4a14-8370-126b8bf5d3f9",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
@@ -52940,6 +52941,14 @@
   {
    "name": "Malay Kaity",
    "playerId": "199ae8e1-22b4-4d8d-a41d-29cb984a3b33",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sean Hynson",
+   "playerId": "1a802777-6241-4a14-8370-126b8bf5d3f9",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
    "isCaptain": false,
@@ -53534,7 +53543,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-14T21:11:33.142Z";
+  DATA.meta.asOf = "2026-10-15T02:31:06.274Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
