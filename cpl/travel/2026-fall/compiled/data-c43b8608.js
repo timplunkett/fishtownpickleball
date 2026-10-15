@@ -51268,8 +51268,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Jeffrey Kowalski"
      ],
      "a": [
       "Lisa Mctague",
@@ -51279,8 +51279,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Malabanan",
+      "Vilmantas Latvys"
      ],
      "a": [
       "Stephanie Sozomenu",
@@ -51290,8 +51290,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liane Feyas",
+      "Nirav Solanki"
      ],
      "a": [
       "Raffaella Pernice",
@@ -51301,8 +51301,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terri Pflueger",
+      "Michael Neyrus"
      ],
      "a": [
       "Gerilynn Calato",
@@ -51312,8 +51312,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Atkinson",
+      "Catherine Malabanan"
      ],
      "a": [
       "Eileen Clark",
@@ -51323,8 +51323,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Liane Feyas"
      ],
      "a": [
       "Lisa Mctague",
@@ -51334,8 +51334,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vilmantas Latvys",
+      "Nirav Solanki"
      ],
      "a": [
       "Sal Frangipane",
@@ -51349,8 +51349,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mauricio Ramirez",
+      "Jeffrey Kowalski"
      ],
      "a": [
       "Thomas Licciardello",
@@ -51360,8 +51360,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terri Pflueger",
+      "Michael Neyrus"
      ],
      "a": [
       "Gerilynn Calato",
@@ -51375,8 +51375,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Jeffrey Kowalski"
      ],
      "a": [
       "Lisa Mctague",
@@ -51386,8 +51386,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liane Feyas",
+      "Nirav Solanki"
      ],
      "a": [
       "Raffaella Pernice",
@@ -51397,8 +51397,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Malabanan",
+      "Vilmantas Latvys"
      ],
      "a": [
       "Stephanie Sozomenu",
@@ -51408,8 +51408,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Atkinson",
+      "Catherine Malabanan"
      ],
      "a": [
       "Stephanie Sozomenu",
@@ -51419,8 +51419,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Liane Feyas"
      ],
      "a": [
       "Raffaella Pernice",
@@ -51430,8 +51430,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Kowalski",
+      "Nirav Solanki"
      ],
      "a": [
       "Alfonse Calato",
@@ -51445,8 +51445,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Neyrus",
+      "Mauricio Ramirez"
      ],
      "a": [
       "Joe Carrano",
@@ -51456,8 +51456,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Malabanan",
+      "Michael Neyrus"
      ],
      "a": [
       "Eileen Clark",
@@ -51467,8 +51467,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Mauricio Ramirez"
      ],
      "a": [
       "Rosanna Neis",
@@ -51478,8 +51478,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liane Feyas",
+      "Vilmantas Latvys"
      ],
      "a": [
       "Raffaella Pernice",
@@ -51493,8 +51493,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terri Pflueger",
+      "Jeffrey Kowalski"
      ],
      "a": [
       "Stephanie Sozomenu",
@@ -51504,8 +51504,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Terri Pflueger"
      ],
      "a": [
       "Lisa Mctague",
@@ -51515,8 +51515,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Liane Feyas",
+      "Nancy Atkinson"
      ],
      "a": [
       "Eileen Clark",
@@ -51526,8 +51526,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Kowalski",
+      "Nirav Solanki"
      ],
      "a": [
       "Joe Carrano",
@@ -51537,8 +51537,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Neyrus",
+      "Mauricio Ramirez"
      ],
      "a": [
       "Carlos Colon",
@@ -51552,8 +51552,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Malabanan",
+      "Michael Neyrus"
      ],
      "a": [
       "Rosanna Neis",
@@ -51563,8 +51563,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Atkinson",
+      "Nirav Solanki"
      ],
      "a": [
       "Eileen Clark",
@@ -51578,8 +51578,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Mauricio Ramirez"
      ],
      "a": [
       "Lisa Mctague",
@@ -51589,8 +51589,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Liane Feyas",
+      "Vilmantas Latvys"
      ],
      "a": [
       "Gerilynn Calato",
@@ -51600,8 +51600,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Terri Pflueger",
+      "Nancy Atkinson"
      ],
      "a": [
       "Gerilynn Calato",
@@ -51611,8 +51611,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jen Carara",
+      "Catherine Malabanan"
      ],
      "a": [
       "Lisa Mctague",
@@ -51622,8 +51622,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeffrey Kowalski",
+      "Mauricio Ramirez"
      ],
      "a": [
       "Alfonse Calato",
@@ -51633,8 +51633,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vilmantas Latvys",
+      "Nirav Solanki"
      ],
      "a": [
       "Thomas Licciardello",
@@ -54068,7 +54068,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T02:30:15.169Z";
+  DATA.meta.asOf = "2026-10-15T10:37:54.952Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

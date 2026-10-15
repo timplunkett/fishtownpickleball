@@ -56,18 +56,18 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 19,
+      "wins": 22,
       "losses": 12,
-      "gamesPlayed": 31,
-      "pointsWon": 605,
-      "totalPointsAgainst": 565,
+      "gamesPlayed": 34,
+      "pointsWon": 668,
+      "totalPointsAgainst": 597,
       "clutchWins": 5,
       "clutchLosses": 4,
-      "mixedWins": 10,
+      "mixedWins": 11,
       "mixedLosses": 8,
-      "genderWins": 9,
+      "genderWins": 11,
       "genderLosses": 4,
-      "ranking": 43
+      "ranking": 32
     },
     {
       "playerId": "061121d0-5d0a-4c01-9d8e-dced99d6d82d",
@@ -90,7 +90,7 @@
       "mixedLosses": 8,
       "genderWins": 8,
       "genderLosses": 9,
-      "ranking": 98
+      "ranking": 100
     },
     {
       "playerId": "065e606f-3722-4434-8848-28e4d10ccabd",
@@ -113,7 +113,7 @@
       "mixedLosses": 15,
       "genderWins": 1,
       "genderLosses": 20,
-      "ranking": 168
+      "ranking": 169
     },
     {
       "playerId": "06edda3d-3a1f-4010-86fa-8ac767cd7079",
@@ -136,7 +136,7 @@
       "mixedLosses": 15,
       "genderWins": 7,
       "genderLosses": 12,
-      "ranking": 145
+      "ranking": 144
     },
     {
       "playerId": "07a0e948-6308-4920-a6a8-1d5945552ecb",
@@ -241,17 +241,17 @@
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
       "wins": 10,
-      "losses": 15,
-      "gamesPlayed": 25,
-      "pointsWon": 422,
-      "totalPointsAgainst": 489,
+      "losses": 17,
+      "gamesPlayed": 27,
+      "pointsWon": 450,
+      "totalPointsAgainst": 531,
       "clutchWins": 5,
       "clutchLosses": 2,
       "mixedWins": 1,
-      "mixedLosses": 8,
+      "mixedLosses": 9,
       "genderWins": 9,
-      "genderLosses": 7,
-      "ranking": 142
+      "genderLosses": 8,
+      "ranking": 148
     },
     {
       "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3",
@@ -263,18 +263,18 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 4,
-      "losses": 6,
-      "gamesPlayed": 10,
-      "pointsWon": 189,
-      "totalPointsAgainst": 194,
+      "wins": 5,
+      "losses": 7,
+      "gamesPlayed": 12,
+      "pointsWon": 229,
+      "totalPointsAgainst": 231,
       "clutchWins": 1,
-      "clutchLosses": 3,
-      "mixedWins": 3,
+      "clutchLosses": 4,
+      "mixedWins": 4,
       "mixedLosses": 1,
       "genderWins": 1,
-      "genderLosses": 5,
-      "ranking": 173
+      "genderLosses": 6,
+      "ranking": 168
     },
     {
       "playerId": "0bed64f0-b72a-4d63-8d44-347635f58bae",
@@ -320,7 +320,7 @@
       "mixedLosses": 3,
       "genderWins": 5,
       "genderLosses": 10,
-      "ranking": 84
+      "ranking": 83
     },
     {
       "playerId": "0e577096-0b13-441d-b087-cc49cb55cfe2",
@@ -424,17 +424,17 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 21,
-      "losses": 12,
-      "gamesPlayed": 33,
-      "pointsWon": 638,
-      "totalPointsAgainst": 587,
+      "wins": 22,
+      "losses": 13,
+      "gamesPlayed": 35,
+      "pointsWon": 678,
+      "totalPointsAgainst": 624,
       "clutchWins": 5,
-      "clutchLosses": 6,
-      "mixedWins": 8,
+      "clutchLosses": 7,
+      "mixedWins": 9,
       "mixedLosses": 8,
       "genderWins": 13,
-      "genderLosses": 4,
+      "genderLosses": 5,
       "ranking": 44
     },
     {
@@ -448,17 +448,17 @@
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
       "wins": 25,
-      "losses": 13,
-      "gamesPlayed": 38,
-      "pointsWon": 762,
-      "totalPointsAgainst": 686,
+      "losses": 15,
+      "gamesPlayed": 40,
+      "pointsWon": 797,
+      "totalPointsAgainst": 728,
       "clutchWins": 12,
-      "clutchLosses": 7,
+      "clutchLosses": 8,
       "mixedWins": 12,
       "mixedLosses": 6,
       "genderWins": 13,
-      "genderLosses": 7,
-      "ranking": 31
+      "genderLosses": 9,
+      "ranking": 37
     },
     {
       "playerId": "112622af-3d12-4dba-ad36-7601c8e6021c",
@@ -481,7 +481,7 @@
       "mixedLosses": 7,
       "genderWins": 4,
       "genderLosses": 8,
-      "ranking": 97
+      "ranking": 98
     },
     {
       "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
@@ -573,7 +573,7 @@
       "mixedLosses": 15,
       "genderWins": 9,
       "genderLosses": 9,
-      "ranking": 105
+      "ranking": 106
     },
     {
       "playerId": "17019012-f2ff-4e9a-958a-928369685b36",
@@ -619,7 +619,7 @@
       "mixedLosses": 11,
       "genderWins": 7,
       "genderLosses": 9,
-      "ranking": 103
+      "ranking": 105
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -700,16 +700,16 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 28,
+      "wins": 29,
       "losses": 10,
-      "gamesPlayed": 38,
-      "pointsWon": 762,
-      "totalPointsAgainst": 643,
+      "gamesPlayed": 39,
+      "pointsWon": 783,
+      "totalPointsAgainst": 655,
       "clutchWins": 5,
       "clutchLosses": 5,
       "mixedWins": 16,
       "mixedLosses": 4,
-      "genderWins": 12,
+      "genderWins": 13,
       "genderLosses": 6,
       "ranking": 20
     },
@@ -826,7 +826,7 @@
       "mixedLosses": 7,
       "genderWins": 6,
       "genderLosses": 11,
-      "ranking": 126
+      "ranking": 127
     },
     {
       "playerId": "22123177-1eb2-4285-bc92-f75799e175dd",
@@ -872,7 +872,7 @@
       "mixedLosses": 3,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 64
+      "ranking": 65
     },
     {
       "playerId": "24325b7a-50bd-42dc-84c2-e3ac54360f9c",
@@ -884,18 +884,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 11,
-      "losses": 11,
-      "gamesPlayed": 22,
-      "pointsWon": 413,
-      "totalPointsAgainst": 415,
-      "clutchWins": 4,
+      "wins": 12,
+      "losses": 13,
+      "gamesPlayed": 25,
+      "pointsWon": 457,
+      "totalPointsAgainst": 476,
+      "clutchWins": 5,
       "clutchLosses": 2,
       "mixedWins": 6,
-      "mixedLosses": 9,
-      "genderWins": 5,
-      "genderLosses": 2,
-      "ranking": 69
+      "mixedLosses": 10,
+      "genderWins": 6,
+      "genderLosses": 3,
+      "ranking": 89
     },
     {
       "playerId": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
@@ -1056,7 +1056,7 @@
       "mixedLosses": 5,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 124
+      "ranking": 126
     },
     {
       "playerId": "279df046-e022-4adf-a5ea-4072a29d9622",
@@ -1102,7 +1102,7 @@
       "mixedLosses": 12,
       "genderWins": 12,
       "genderLosses": 10,
-      "ranking": 65
+      "ranking": 67
     },
     {
       "playerId": "2aa8b268-8c06-4453-9706-048009bf6af3",
@@ -1148,7 +1148,7 @@
       "mixedLosses": 7,
       "genderWins": 6,
       "genderLosses": 2,
-      "ranking": 154
+      "ranking": 153
     },
     {
       "playerId": "2ce5ebef-8079-4871-8d2e-b34988abbaad",
@@ -1171,7 +1171,7 @@
       "mixedLosses": 11,
       "genderWins": 11,
       "genderLosses": 8,
-      "ranking": 94
+      "ranking": 95
     },
     {
       "playerId": "2d602f38-7eda-4a7b-a3a2-98b40e443b79",
@@ -1263,7 +1263,7 @@
       "mixedLosses": 5,
       "genderWins": 6,
       "genderLosses": 9,
-      "ranking": 119
+      "ranking": 120
     },
     {
       "playerId": "32ac3308-4ddd-496b-8942-ca2422322c06",
@@ -1286,7 +1286,7 @@
       "mixedLosses": 5,
       "genderWins": 6,
       "genderLosses": 7,
-      "ranking": 68
+      "ranking": 70
     },
     {
       "playerId": "35415e5c-19db-4389-9839-b63d7e09851f",
@@ -1424,7 +1424,7 @@
       "mixedLosses": 5,
       "genderWins": 15,
       "genderLosses": 13,
-      "ranking": 39
+      "ranking": 40
     },
     {
       "playerId": "3c27afe7-2382-44c1-a50d-cf7326aa325a",
@@ -1631,7 +1631,7 @@
       "mixedLosses": 7,
       "genderWins": 10,
       "genderLosses": 11,
-      "ranking": 67
+      "ranking": 69
     },
     {
       "playerId": "44f258b0-52df-4c16-8d1e-a9f2d65b439e",
@@ -1654,7 +1654,7 @@
       "mixedLosses": 10,
       "genderWins": 4,
       "genderLosses": 11,
-      "ranking": 143
+      "ranking": 142
     },
     {
       "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
@@ -1838,7 +1838,7 @@
       "mixedLosses": 3,
       "genderWins": 2,
       "genderLosses": 1,
-      "ranking": 170
+      "ranking": 172
     },
     {
       "playerId": "4a1d4e3a-07b2-4575-b80d-6d160b0c7a23",
@@ -1976,7 +1976,7 @@
       "mixedLosses": 10,
       "genderWins": 12,
       "genderLosses": 13,
-      "ranking": 86
+      "ranking": 84
     },
     {
       "playerId": "4df44e08-a35c-4c4c-a311-861ef4d0897a",
@@ -2022,7 +2022,7 @@
       "mixedLosses": 8,
       "genderWins": 12,
       "genderLosses": 7,
-      "ranking": 29
+      "ranking": 27
     },
     {
       "playerId": "50d796da-0ac2-4f94-af29-212d7865f473",
@@ -2160,7 +2160,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 2,
-      "ranking": 32
+      "ranking": 31
     },
     {
       "playerId": "55194d2f-f537-4e19-b901-86c559f25ef2",
@@ -2195,18 +2195,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 29,
+      "wins": 31,
       "losses": 12,
-      "gamesPlayed": 41,
-      "pointsWon": 825,
-      "totalPointsAgainst": 706,
-      "clutchWins": 11,
+      "gamesPlayed": 43,
+      "pointsWon": 867,
+      "totalPointsAgainst": 742,
+      "clutchWins": 12,
       "clutchLosses": 7,
-      "mixedWins": 18,
+      "mixedWins": 19,
       "mixedLosses": 5,
-      "genderWins": 11,
+      "genderWins": 12,
       "genderLosses": 7,
-      "ranking": 17
+      "ranking": 16
     },
     {
       "playerId": "55bbe71c-1181-4875-b16d-f121f3a133e0",
@@ -2229,7 +2229,7 @@
       "mixedLosses": 5,
       "genderWins": 3,
       "genderLosses": 9,
-      "ranking": 106
+      "ranking": 107
     },
     {
       "playerId": "56db4b56-6166-437f-8ece-26576b7042e5",
@@ -2436,7 +2436,7 @@
       "mixedLosses": 15,
       "genderWins": 10,
       "genderLosses": 13,
-      "ranking": 118
+      "ranking": 119
     },
     {
       "playerId": "63221cc8-e303-4675-8dde-4fc77e871627",
@@ -2551,7 +2551,7 @@
       "mixedLosses": 4,
       "genderWins": 4,
       "genderLosses": 2,
-      "ranking": 144
+      "ranking": 143
     },
     {
       "playerId": "67dbfc4f-20f7-4299-bc2f-6cc70cf747ab",
@@ -2564,17 +2564,17 @@
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
       "wins": 32,
-      "losses": 13,
-      "gamesPlayed": 45,
-      "pointsWon": 894,
-      "totalPointsAgainst": 776,
+      "losses": 16,
+      "gamesPlayed": 48,
+      "pointsWon": 948,
+      "totalPointsAgainst": 839,
       "clutchWins": 9,
-      "clutchLosses": 7,
+      "clutchLosses": 9,
       "mixedWins": 17,
-      "mixedLosses": 5,
+      "mixedLosses": 6,
       "genderWins": 15,
-      "genderLosses": 8,
-      "ranking": 24
+      "genderLosses": 10,
+      "ranking": 30
     },
     {
       "playerId": "68e9ac74-5119-4dbb-8503-72bcdbade183",
@@ -2586,18 +2586,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 12,
-      "losses": 17,
-      "gamesPlayed": 29,
-      "pointsWon": 494,
-      "totalPointsAgainst": 553,
-      "clutchWins": 3,
+      "wins": 14,
+      "losses": 18,
+      "gamesPlayed": 32,
+      "pointsWon": 552,
+      "totalPointsAgainst": 609,
+      "clutchWins": 4,
       "clutchLosses": 3,
       "mixedWins": 4,
-      "mixedLosses": 8,
-      "genderWins": 8,
+      "mixedLosses": 9,
+      "genderWins": 10,
       "genderLosses": 9,
-      "ranking": 128
+      "ranking": 116
     },
     {
       "playerId": "6af88387-5e2b-4ea7-b732-22885e4931a8",
@@ -2643,7 +2643,7 @@
       "mixedLosses": 18,
       "genderWins": 6,
       "genderLosses": 13,
-      "ranking": 120
+      "ranking": 121
     },
     {
       "playerId": "6c1ed6bb-aa5e-4947-9656-f43e51a791c3",
@@ -2666,7 +2666,7 @@
       "mixedLosses": 17,
       "genderWins": 16,
       "genderLosses": 16,
-      "ranking": 100
+      "ranking": 102
     },
     {
       "playerId": "6d9b173b-57b7-499c-9bde-9bdafd152968",
@@ -2725,16 +2725,16 @@
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
       "wins": 43,
-      "losses": 6,
-      "gamesPlayed": 49,
-      "pointsWon": 1010,
-      "totalPointsAgainst": 761,
+      "losses": 9,
+      "gamesPlayed": 52,
+      "pointsWon": 1067,
+      "totalPointsAgainst": 824,
       "clutchWins": 10,
-      "clutchLosses": 4,
+      "clutchLosses": 7,
       "mixedWins": 20,
-      "mixedLosses": 3,
+      "mixedLosses": 4,
       "genderWins": 23,
-      "genderLosses": 3,
+      "genderLosses": 5,
       "ranking": 2
     },
     {
@@ -2839,18 +2839,18 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 9,
-      "losses": 6,
-      "gamesPlayed": 15,
-      "pointsWon": 294,
-      "totalPointsAgainst": 273,
+      "wins": 11,
+      "losses": 7,
+      "gamesPlayed": 18,
+      "pointsWon": 355,
+      "totalPointsAgainst": 316,
       "clutchWins": 4,
-      "clutchLosses": 4,
-      "mixedWins": 6,
+      "clutchLosses": 5,
+      "mixedWins": 7,
       "mixedLosses": 2,
-      "genderWins": 3,
-      "genderLosses": 4,
-      "ranking": 108
+      "genderWins": 4,
+      "genderLosses": 5,
+      "ranking": 62
     },
     {
       "playerId": "7b2e1bed-f387-48de-a028-bdde357bb3af",
@@ -2862,18 +2862,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 12,
+      "wins": 13,
       "losses": 12,
-      "gamesPlayed": 24,
-      "pointsWon": 447,
-      "totalPointsAgainst": 442,
-      "clutchWins": 3,
+      "gamesPlayed": 25,
+      "pointsWon": 468,
+      "totalPointsAgainst": 461,
+      "clutchWins": 4,
       "clutchLosses": 2,
-      "mixedWins": 8,
+      "mixedWins": 9,
       "mixedLosses": 7,
       "genderWins": 4,
       "genderLosses": 5,
-      "ranking": 70
+      "ranking": 66
     },
     {
       "playerId": "7c3dc06e-3448-4274-aab2-521cb3f13b75",
@@ -2942,7 +2942,7 @@
       "mixedLosses": 1,
       "genderWins": 3,
       "genderLosses": 1,
-      "ranking": 107
+      "ranking": 108
     },
     {
       "playerId": "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae",
@@ -2965,7 +2965,7 @@
       "mixedLosses": 15,
       "genderWins": 5,
       "genderLosses": 13,
-      "ranking": 157
+      "ranking": 156
     },
     {
       "playerId": "80138d68-a74a-4f8c-aea1-7d31e682efa8",
@@ -3011,7 +3011,7 @@
       "mixedLosses": 9,
       "genderWins": 1,
       "genderLosses": 7,
-      "ranking": 172
+      "ranking": 173
     },
     {
       "playerId": "8143def5-d564-4010-8258-ccb71cd481f1",
@@ -3069,18 +3069,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 14,
-      "losses": 17,
-      "gamesPlayed": 31,
-      "pointsWon": 559,
-      "totalPointsAgainst": 581,
-      "clutchWins": 4,
+      "wins": 16,
+      "losses": 18,
+      "gamesPlayed": 34,
+      "pointsWon": 612,
+      "totalPointsAgainst": 637,
+      "clutchWins": 5,
       "clutchLosses": 4,
       "mixedWins": 8,
-      "mixedLosses": 8,
-      "genderWins": 6,
+      "mixedLosses": 9,
+      "genderWins": 8,
       "genderLosses": 9,
-      "ranking": 102
+      "ranking": 99
     },
     {
       "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
@@ -3149,7 +3149,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 2,
-      "ranking": 163
+      "ranking": 164
     },
     {
       "playerId": "84b7c449-501c-438d-a3eb-ee67cc92fa0e",
@@ -3161,18 +3161,18 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 20,
-      "losses": 8,
-      "gamesPlayed": 28,
-      "pointsWon": 558,
-      "totalPointsAgainst": 508,
+      "wins": 21,
+      "losses": 10,
+      "gamesPlayed": 31,
+      "pointsWon": 615,
+      "totalPointsAgainst": 559,
       "clutchWins": 9,
-      "clutchLosses": 2,
+      "clutchLosses": 3,
       "mixedWins": 7,
-      "mixedLosses": 5,
-      "genderWins": 13,
-      "genderLosses": 3,
-      "ranking": 25
+      "mixedLosses": 6,
+      "genderWins": 14,
+      "genderLosses": 4,
+      "ranking": 28
     },
     {
       "playerId": "85e52e3b-5238-4583-8d1a-cc57f8218ef6",
@@ -3264,7 +3264,7 @@
       "mixedLosses": 1,
       "genderWins": 6,
       "genderLosses": 2,
-      "ranking": 89
+      "ranking": 90
     },
     {
       "playerId": "8aef2d8a-0bd4-45df-b5d1-1a120a81ef0f",
@@ -3287,7 +3287,7 @@
       "mixedLosses": 4,
       "genderWins": 15,
       "genderLosses": 15,
-      "ranking": 28
+      "ranking": 26
     },
     {
       "playerId": "8ca1f741-6a67-4332-9ca7-082671211098",
@@ -3356,7 +3356,7 @@
       "mixedLosses": 5,
       "genderWins": 3,
       "genderLosses": 7,
-      "ranking": 147
+      "ranking": 146
     },
     {
       "playerId": "8f292eb8-a014-4618-9c0e-114c26463233",
@@ -3402,7 +3402,7 @@
       "mixedLosses": 1,
       "genderWins": 3,
       "genderLosses": 1,
-      "ranking": 169
+      "ranking": 170
     },
     {
       "playerId": "91d23f87-e0fc-4448-890e-c3abd96c70b4",
@@ -3448,7 +3448,7 @@
       "mixedLosses": 3,
       "genderWins": 8,
       "genderLosses": 1,
-      "ranking": 30
+      "ranking": 29
     },
     {
       "playerId": "9638b474-ad68-4eff-a5a5-6c40db6ed4bb",
@@ -3540,7 +3540,7 @@
       "mixedLosses": 8,
       "genderWins": 6,
       "genderLosses": 6,
-      "ranking": 66
+      "ranking": 68
     },
     {
       "playerId": "9b7488c5-bc66-41e4-8fa5-873e70c190e3",
@@ -3552,18 +3552,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 21,
-      "losses": 20,
-      "gamesPlayed": 41,
-      "pointsWon": 756,
-      "totalPointsAgainst": 782,
-      "clutchWins": 11,
+      "wins": 22,
+      "losses": 21,
+      "gamesPlayed": 43,
+      "pointsWon": 786,
+      "totalPointsAgainst": 822,
+      "clutchWins": 12,
       "clutchLosses": 5,
       "mixedWins": 7,
       "mixedLosses": 12,
-      "genderWins": 14,
-      "genderLosses": 8,
-      "ranking": 83
+      "genderWins": 15,
+      "genderLosses": 9,
+      "ranking": 86
     },
     {
       "playerId": "9bd69558-b2d9-4f5a-9cc1-177713707ab7",
@@ -3598,18 +3598,18 @@
       "isSub": false,
       "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
       "teamName": "Dill Dinkers Hatboro The Factory",
-      "wins": 25,
-      "losses": 9,
-      "gamesPlayed": 34,
-      "pointsWon": 678,
-      "totalPointsAgainst": 565,
+      "wins": 26,
+      "losses": 10,
+      "gamesPlayed": 36,
+      "pointsWon": 716,
+      "totalPointsAgainst": 597,
       "clutchWins": 6,
       "clutchLosses": 4,
       "mixedWins": 15,
-      "mixedLosses": 4,
-      "genderWins": 10,
+      "mixedLosses": 5,
+      "genderWins": 11,
       "genderLosses": 5,
-      "ranking": 16
+      "ranking": 17
     },
     {
       "playerId": "9d47a1aa-c44c-4ddd-8953-dc40f79b1016",
@@ -3701,7 +3701,7 @@
       "mixedLosses": 3,
       "genderWins": 2,
       "genderLosses": 3,
-      "ranking": 164
+      "ranking": 163
     },
     {
       "playerId": "9e264c96-36cf-45a9-90ad-1e125a82c851",
@@ -3747,7 +3747,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 2,
-      "ranking": 101
+      "ranking": 103
     },
     {
       "playerId": "9ec39678-a120-45de-b8a5-897b8cf900cd",
@@ -3816,7 +3816,7 @@
       "mixedLosses": 9,
       "genderWins": 15,
       "genderLosses": 10,
-      "ranking": 42
+      "ranking": 43
     },
     {
       "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -4000,7 +4000,7 @@
       "mixedLosses": 12,
       "genderWins": 10,
       "genderLosses": 17,
-      "ranking": 96
+      "ranking": 97
     },
     {
       "playerId": "a89121dd-192b-486d-b39d-18ee8447d641",
@@ -4046,7 +4046,7 @@
       "mixedLosses": 10,
       "genderWins": 11,
       "genderLosses": 9,
-      "ranking": 95
+      "ranking": 96
     },
     {
       "playerId": "abc80b43-6769-4254-ae9a-b4b63b06de1d",
@@ -4138,7 +4138,7 @@
       "mixedLosses": 8,
       "genderWins": 8,
       "genderLosses": 9,
-      "ranking": 90
+      "ranking": 91
     },
     {
       "playerId": "b4efc48a-f302-4d27-8c35-0dac1e68eec8",
@@ -4161,7 +4161,7 @@
       "mixedLosses": 9,
       "genderWins": 4,
       "genderLosses": 8,
-      "ranking": 156
+      "ranking": 157
     },
     {
       "playerId": "b5e576e1-d16d-4c9d-ab28-2e1b1e66487b",
@@ -4184,7 +4184,7 @@
       "mixedLosses": 5,
       "genderWins": 3,
       "genderLosses": 9,
-      "ranking": 122
+      "ranking": 123
     },
     {
       "playerId": "b7555b30-f1b5-4d44-9eff-dffd3e1b1b28",
@@ -4207,7 +4207,7 @@
       "mixedLosses": 1,
       "genderWins": 3,
       "genderLosses": 1,
-      "ranking": 123
+      "ranking": 124
     },
     {
       "playerId": "b85c2074-a149-4382-8563-e1ff5b5d70bc",
@@ -4253,7 +4253,7 @@
       "mixedLosses": 14,
       "genderWins": 11,
       "genderLosses": 11,
-      "ranking": 91
+      "ranking": 92
     },
     {
       "playerId": "bbaf3def-a87b-4537-8701-4f5ae0108b1f",
@@ -4276,7 +4276,7 @@
       "mixedLosses": 12,
       "genderWins": 9,
       "genderLosses": 7,
-      "ranking": 63
+      "ranking": 64
     },
     {
       "playerId": "bc3db6dc-48f5-46f3-aec3-638d15ca7285",
@@ -4299,7 +4299,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 3,
-      "ranking": 53
+      "ranking": 51
     },
     {
       "playerId": "bc881ebc-7a42-43be-b1b2-9c29c59a4132",
@@ -4322,7 +4322,7 @@
       "mixedLosses": 10,
       "genderWins": 15,
       "genderLosses": 9,
-      "ranking": 62
+      "ranking": 63
     },
     {
       "playerId": "bd30e236-1c20-4fa1-b9ad-f56c8613d22b",
@@ -4391,7 +4391,7 @@
       "mixedLosses": 13,
       "genderWins": 8,
       "genderLosses": 18,
-      "ranking": 127
+      "ranking": 128
     },
     {
       "playerId": "c25e04ae-a9bf-4943-858d-5b7a94261e43",
@@ -4414,7 +4414,7 @@
       "mixedLosses": 9,
       "genderWins": 7,
       "genderLosses": 8,
-      "ranking": 99
+      "ranking": 101
     },
     {
       "playerId": "c33e6ff8-38a1-45ca-9abb-d05a7ae27079",
@@ -4437,7 +4437,7 @@
       "mixedLosses": 2,
       "genderWins": 3,
       "genderLosses": 1,
-      "ranking": 146
+      "ranking": 145
     },
     {
       "playerId": "c33f3ff1-2c81-4630-8980-64fa03a7b102",
@@ -4506,7 +4506,7 @@
       "mixedLosses": 12,
       "genderWins": 2,
       "genderLosses": 15,
-      "ranking": 153
+      "ranking": 154
     },
     {
       "playerId": "c6c3c899-b824-4074-b683-ad755850747a",
@@ -4564,17 +4564,17 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 21,
-      "losses": 10,
-      "gamesPlayed": 31,
-      "pointsWon": 600,
-      "totalPointsAgainst": 550,
-      "clutchWins": 9,
+      "wins": 23,
+      "losses": 11,
+      "gamesPlayed": 34,
+      "pointsWon": 651,
+      "totalPointsAgainst": 609,
+      "clutchWins": 11,
       "clutchLosses": 3,
-      "mixedWins": 12,
+      "mixedWins": 13,
       "mixedLosses": 7,
-      "genderWins": 9,
-      "genderLosses": 3,
+      "genderWins": 10,
+      "genderLosses": 4,
       "ranking": 33
     },
     {
@@ -4736,7 +4736,7 @@
       "mixedLosses": 7,
       "genderWins": 17,
       "genderLosses": 10,
-      "ranking": 26
+      "ranking": 24
     },
     {
       "playerId": "d08d78db-7d20-4dc2-a37b-41841c4624fd",
@@ -4782,7 +4782,7 @@
       "mixedLosses": 10,
       "genderWins": 22,
       "genderLosses": 5,
-      "ranking": 27
+      "ranking": 25
     },
     {
       "playerId": "d195dff9-7f38-402c-8164-44640f89c3fa",
@@ -4897,7 +4897,7 @@
       "mixedLosses": 10,
       "genderWins": 12,
       "genderLosses": 5,
-      "ranking": 55
+      "ranking": 54
     },
     {
       "playerId": "d8d64dde-4ffb-4c49-aaa6-537b09c9c8d5",
@@ -4920,7 +4920,7 @@
       "mixedLosses": 5,
       "genderWins": 8,
       "genderLosses": 5,
-      "ranking": 37
+      "ranking": 38
     },
     {
       "playerId": "dae62b8e-5f8e-4721-8f41-3218518d1e30",
@@ -5047,18 +5047,18 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 19,
-      "losses": 15,
-      "gamesPlayed": 34,
-      "pointsWon": 650,
-      "totalPointsAgainst": 627,
-      "clutchWins": 9,
+      "wins": 20,
+      "losses": 16,
+      "gamesPlayed": 36,
+      "pointsWon": 682,
+      "totalPointsAgainst": 667,
+      "clutchWins": 10,
       "clutchLosses": 6,
       "mixedWins": 9,
       "mixedLosses": 7,
-      "genderWins": 10,
-      "genderLosses": 8,
-      "ranking": 50
+      "genderWins": 11,
+      "genderLosses": 9,
+      "ranking": 55
     },
     {
       "playerId": "eb9d0f6d-f22b-4928-9f8e-1641ed6a946b",
@@ -5081,7 +5081,7 @@
       "mixedLosses": 15,
       "genderWins": 23,
       "genderLosses": 9,
-      "ranking": 40
+      "ranking": 41
     },
     {
       "playerId": "ec0bad09-8256-49b3-ae86-3add22dd995f",
@@ -5116,17 +5116,17 @@
       "isSub": false,
       "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
       "teamName": "Jersey Devil",
-      "wins": 22,
-      "losses": 17,
-      "gamesPlayed": 39,
-      "pointsWon": 750,
-      "totalPointsAgainst": 715,
-      "clutchWins": 8,
+      "wins": 24,
+      "losses": 18,
+      "gamesPlayed": 42,
+      "pointsWon": 803,
+      "totalPointsAgainst": 772,
+      "clutchWins": 9,
       "clutchLosses": 4,
-      "mixedWins": 14,
+      "mixedWins": 15,
       "mixedLosses": 7,
-      "genderWins": 8,
-      "genderLosses": 10,
+      "genderWins": 9,
+      "genderLosses": 11,
       "ranking": 52
     },
     {
@@ -5150,7 +5150,7 @@
       "mixedLosses": 13,
       "genderWins": 12,
       "genderLosses": 15,
-      "ranking": 93
+      "ranking": 94
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",
@@ -5196,7 +5196,7 @@
       "mixedLosses": 9,
       "genderWins": 17,
       "genderLosses": 10,
-      "ranking": 41
+      "ranking": 42
     },
     {
       "playerId": "f30428dd-bc5a-4535-94b3-b8779e958ada",
@@ -5288,7 +5288,7 @@
       "mixedLosses": 12,
       "genderWins": 7,
       "genderLosses": 13,
-      "ranking": 148
+      "ranking": 147
     },
     {
       "playerId": "f73639c7-39ff-4cb8-b5a1-09c073c5c7b3",
@@ -5334,7 +5334,7 @@
       "mixedLosses": 5,
       "genderWins": 8,
       "genderLosses": 6,
-      "ranking": 38
+      "ranking": 39
     },
     {
       "playerId": "f8835822-da21-4593-8b99-5665d2c2f3af",
@@ -5380,7 +5380,7 @@
       "mixedLosses": 5,
       "genderWins": 3,
       "genderLosses": 7,
-      "ranking": 92
+      "ranking": 93
     },
     {
       "playerId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee",
@@ -5426,7 +5426,7 @@
       "mixedLosses": 12,
       "genderWins": 7,
       "genderLosses": 13,
-      "ranking": 116
+      "ranking": 118
     },
     {
       "playerId": "fa519fb1-87ca-4a7b-9265-4aba9807929f",
@@ -5449,7 +5449,7 @@
       "mixedLosses": 8,
       "genderWins": 12,
       "genderLosses": 7,
-      "ranking": 51
+      "ranking": 50
     },
     {
       "playerId": "fe8af1d3-ff62-430d-90af-32794cc7b912",
@@ -5495,7 +5495,7 @@
       "mixedLosses": 3,
       "genderWins": 5,
       "genderLosses": 2,
-      "ranking": 121
+      "ranking": 122
     },
     {
       "playerId": "fff3fe71-d4a6-4103-9290-0ef57035471c",
@@ -5518,7 +5518,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 0,
-      "ranking": 54
+      "ranking": 53
     }
   ]
 }
