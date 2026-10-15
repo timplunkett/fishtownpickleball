@@ -8374,7 +8374,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 313,
+   "leagueRank": 314,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8915,6 +8915,36 @@
    }
   },
   {
+   "name": "APC Garden State",
+   "w": 5,
+   "l": 3,
+   "pf": 4295,
+   "pa": 4089,
+   "gw": 119,
+   "gl": 105,
+   "diff": 206,
+   "gameDiff": 14,
+   "power": 0.2,
+   "powerRank": 3,
+   "pod": 1,
+   "reportedPod": "South",
+   "podName": "East / South",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     119,
+     105
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
    "name": "Home Court",
    "w": 4,
    "l": 3,
@@ -8937,36 +8967,6 @@
     "male": [
      136,
      88
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
-   "name": "APC Garden State",
-   "w": 4,
-   "l": 3,
-   "pf": 4263,
-   "pa": 4089,
-   "gw": 119,
-   "gl": 105,
-   "diff": 174,
-   "gameDiff": 14,
-   "power": 0.2,
-   "powerRank": 3,
-   "pod": 1,
-   "reportedPod": "South",
-   "podName": "East / South",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     119,
-     105
     ],
     "female": [
      0,
@@ -9187,12 +9187,12 @@
   {
    "name": "Dill Dinkers Freehold",
    "w": 0,
-   "l": 7,
+   "l": 8,
    "pf": 3911,
-   "pa": 4544,
+   "pa": 4576,
    "gw": 64,
    "gl": 160,
-   "diff": -633,
+   "diff": -665,
    "gameDiff": -96,
    "power": -0.9,
    "powerRank": 6,
@@ -50739,366 +50739,18 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "week": 8,
    "home": "APC Garden State",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-13T19:30:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Andress Mims"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Daniel Dechristopher",
-      "Bruce Nguyen"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Yongzhe Tian",
-      "Neale Smith"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Mark Waters",
-      "Andrew Ferraro"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Daniel Dechristopher"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Bruce Nguyen",
-      "Matt Inzerillo"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Neale Smith",
-      "Chris Machuzak"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Mark Waters",
-      "Andrew Ferraro"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Yongzhe Tian"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matt Inzerillo",
-      "Chris Machuzak"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Andrew Ferraro",
-      "Daniel Dechristopher"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Bruce Nguyen",
-      "Andress Mims"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Andrew Ferraro"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Neale Smith",
-      "Andress Mims"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Bruce Nguyen",
-      "Chris Machuzak"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Mark Waters",
-      "Daniel Dechristopher"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Bruce Nguyen"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matt Inzerillo",
-      "Daniel Dechristopher"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Chris Machuzak",
-      "Andrew Ferraro"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Yongzhe Tian",
-      "Andress Mims"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Neale Smith"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Bruce Nguyen",
-      "Mark Waters"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Andrew Ferraro",
-      "Yongzhe Tian"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matt Inzerillo",
-      "Chris Machuzak"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Mark Waters",
-      "Matt Inzerillo"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Neale Smith",
-      "Daniel Dechristopher"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Bruce Nguyen",
-      "Andrew Ferraro"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Yongzhe Tian",
-      "Andress Mims"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Uzoma Nwankwo",
-      "Chris Machuzak"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Neale Smith",
-      "Mark Waters"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Yongzhe Tian",
-      "Daniel Dechristopher"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matt Inzerillo",
-      "Andress Mims"
-     ],
-     "a": [
-      "",
-      ""
-     ]
-    }
-   ]
+   "complete": true,
+   "homePoints": 32,
+   "awayPoints": 0,
+   "homeGW": 0,
+   "awayGW": 0,
+   "games": [],
+   "subs": []
   },
   {
    "result": "away",
@@ -52829,6 +52481,7 @@
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
+  "Shawn Mayer": "af3ce205-4f9a-4382-8128-4a20fe26737b",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
@@ -53211,6 +52864,14 @@
    "outsideSub": true
   },
   {
+   "name": "Shawn Mayer",
+   "playerId": "af3ce205-4f9a-4382-8128-4a20fe26737b",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Edward Fu",
    "playerId": "b243c9db-ff2c-4db7-bcfd-27f3b0e7b6f1",
    "gender": "Male",
@@ -53412,7 +53073,7 @@
   }
  ],
  "meta": {
-  "matchesPlayed": 73,
+  "matchesPlayed": 74,
   "provisionalMatches": 2,
   "weeks": "1-8",
   "totalPlayers": 299,
@@ -53543,7 +53204,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T02:31:06.274Z";
+  DATA.meta.asOf = "2026-10-15T16:03:45.976Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

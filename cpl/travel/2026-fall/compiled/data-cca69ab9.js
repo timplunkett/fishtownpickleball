@@ -1484,8 +1484,8 @@
    "name": "Zachary Lisojo",
    "gender": "Male",
    "team": "Pickleball Kingdom Watchung",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 8,
@@ -16355,7 +16355,6 @@
    ],
    "subs": [
     "Joseph Lynskey",
-    "Zachary Lisojo",
     "Fabricio Gaona"
    ]
   },
@@ -28922,7 +28921,6 @@
     }
    ],
    "subs": [
-    "Zachary Lisojo",
     "Fabricio Gaona"
    ]
   },
@@ -33273,14 +33271,6 @@
    "outsideSub": true
   },
   {
-   "name": "Zachary Lisojo",
-   "playerId": "e2086778-379f-4d43-8ce7-6447129d8812",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Watchung",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "John Gargana",
    "playerId": "e7ead4ec-3ab0-469f-9122-0a822f068415",
    "gender": "Male",
@@ -33457,7 +33447,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-13T22:09:22.662Z";
+  DATA.meta.asOf = "2026-10-15T16:03:09.218Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -19340,6 +19340,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Zachary Lisojo",
+   "playerId": "e2086778-379f-4d43-8ce7-6447129d8812",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Zachary Puccia",
    "playerId": "dd6582a2-1596-40b8-8a4c-fec00aaeb379",
    "team": "Jersey Pickleball Club",

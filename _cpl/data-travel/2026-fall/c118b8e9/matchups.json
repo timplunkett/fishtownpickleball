@@ -845,9 +845,9 @@
       "weekNumber": 8,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "awayTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-10-13T19:30:00",
       "homeName": "APC Garden State",
       "awayName": "Dill Dinkers Freehold"

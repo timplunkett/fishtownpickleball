@@ -642,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 310
+      "ranking": 311
     },
     {
       "playerId": "17caef8b-84d4-4052-9695-7c74190925a1",
@@ -895,7 +895,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 311
+      "ranking": 312
     },
     {
       "playerId": "23adcd68-130d-4176-b367-d3cd31260d21",
@@ -2597,7 +2597,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 312
+      "ranking": 313
     },
     {
       "playerId": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -3563,7 +3563,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 314
+      "ranking": 315
     },
     {
       "playerId": "86d26f19-6cb9-442b-b089-994609b4fd77",
@@ -4670,6 +4670,29 @@
       "ranking": 83
     },
     {
+      "playerId": "af3ce205-4f9a-4382-8128-4a20fe26737b",
+      "firstName": "Shawn",
+      "lastName": "Mayer",
+      "gender": "Male",
+      "dupr": "5EE6JR",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 310
+    },
+    {
       "playerId": "b19f3a31-ce60-4c40-b903-1fd60c95f649",
       "firstName": "Jared",
       "lastName": "Rapoport",
@@ -4874,7 +4897,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 313
+      "ranking": 314
     },
     {
       "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",

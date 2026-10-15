@@ -11564,7 +11564,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 448,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11660,6 +11660,35 @@
    "playerId": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f"
   },
   {
+   "name": "Yamil Sacin",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 448,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "ae9c6c99-6ab2-491c-8b96-c3bd512b20a5"
+  },
+  {
    "name": "Dana Sun",
    "gender": "Female",
    "team": "Pickleball Kingdom Watchung",
@@ -11680,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 450,
+   "leagueRank": 451,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -51467,7 +51496,7 @@
     {
      "t": "mixed",
      "h": [
-      "Jen Carara",
+      "Liane Feyas",
       "Mauricio Ramirez"
      ],
      "a": [
@@ -51478,7 +51507,7 @@
     {
      "t": "mixed",
      "h": [
-      "Liane Feyas",
+      "Jen Carara",
       "Vilmantas Latvys"
      ],
      "a": [
@@ -52093,11 +52122,11 @@
      ],
      "a": [
       "Dana Sun",
-      "Chris Shung"
+      "Madan P"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -52108,7 +52137,11 @@
      ],
      "a": [
       "Izabel Illipronti",
-      "Pedro Oliveira"
+      "Yamil Sacin"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52181,8 +52214,12 @@
       ""
      ],
      "a": [
-      "Chris Shung",
-      "Pedro Oliveira"
+      "Yamil Sacin",
+      "Madan P"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -52204,7 +52241,11 @@
      ],
      "a": [
       "Ting Chen",
-      "Chris Shung"
+      "Yamil Sacin"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52230,7 +52271,11 @@
      ],
      "a": [
       "Margaret Bayse",
-      "Pedro Oliveira"
+      "Madan P"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52266,8 +52311,12 @@
       ""
      ],
      "a": [
-      "Chris Shung",
+      "Yamil Sacin",
       "Gary Grzankowski"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -52277,8 +52326,23 @@
       ""
      ],
      "a": [
-      "Pedro Oliveira",
+      "Madan P",
       "Todd Baron"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Madan P"
      ],
      "aSub": [
       0,
@@ -52292,19 +52356,12 @@
       ""
      ],
      "a": [
-      "Margaret Bayse",
-      "Chris Shung"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
       "Izabel Illipronti",
-      "Pedro Oliveira"
+      "Yamil Sacin"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52366,11 +52423,11 @@
       ""
      ],
      "a": [
-      "Chris Shung",
+      "Yamil Sacin",
       "Todd Baron"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -52381,8 +52438,12 @@
       ""
      ],
      "a": [
-      "Pedro Oliveira",
+      "Madan P",
       "Gary Grzankowski"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -52393,7 +52454,11 @@
      ],
      "a": [
       "Lisa Braumann",
-      "Pedro Oliveira"
+      "Yamil Sacin"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52430,11 +52495,11 @@
      ],
      "a": [
       "Dana Sun",
-      "Chris Shung"
+      "Madan P"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -52466,8 +52531,12 @@
       ""
      ],
      "a": [
-      "Chris Shung",
-      "Pedro Oliveira"
+      "Madan P",
+      "Yamil Sacin"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -53602,6 +53671,14 @@
    "outsideSub": true
   },
   {
+   "name": "Yamil Sacin",
+   "playerId": "ae9c6c99-6ab2-491c-8b96-c3bd512b20a5",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Gioia Pisano",
    "playerId": "b09b11f8-dd86-4252-88d0-f33fb4496237",
    "gender": "Female",
@@ -53942,7 +54019,7 @@
   "matchesPlayed": 68,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 429,
+  "totalPlayers": 430,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -54068,7 +54145,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T10:37:54.952Z";
+  DATA.meta.asOf = "2026-10-15T16:02:51.023Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
