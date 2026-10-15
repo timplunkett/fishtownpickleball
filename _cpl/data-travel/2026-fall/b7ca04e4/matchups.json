@@ -1385,9 +1385,9 @@
       "weekNumber": 8,
       "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "awayTeamId": "4633cae0-e8f5-43d8-9dfe-792944157dc4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 593,
+      "awayPoints": 620,
+      "endResult": "away",
       "scheduledTime": "2026-10-14T19:30:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Picklr Manahawkin"

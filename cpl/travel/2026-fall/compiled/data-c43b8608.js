@@ -11564,7 +11564,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 449,
+   "leagueRank": 451,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 442,
+   "leagueRank": 443,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 441,
+   "leagueRank": 442,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11651,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 433,
+   "leagueRank": 434,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11680,13 +11680,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 448,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "ae9c6c99-6ab2-491c-8b96-c3bd512b20a5"
+  },
+  {
+   "name": "John Sallo",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 450,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0"
   },
   {
    "name": "Dana Sun",
@@ -11709,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 451,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -51678,7 +51707,425 @@
    "home": "Picklr Fair Lawn",
    "away": "Allstar Pickler",
    "time": "2026-10-17T11:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "Paul Rappoport"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rita Hung",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jinghua Shi",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Haiying Hu",
+      "Scott Richeal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "Rita Hung"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Valerie Ablaza",
+      "Haiying Hu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Rappoport",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "George Zhou",
+      "Scott Richeal"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "Paul Rappoport"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rita Hung",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Valerie Ablaza",
+      "Scott Richeal"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jinghua Shi",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Valerie Ablaza",
+      "Haiying Hu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "Jinghua Shi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Rappoport",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Scott Richeal",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Valerie Ablaza",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rita Hung",
+      "Paul Rappoport"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jinghua Shi",
+      "Scott Richeal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Valerie Ablaza",
+      "Rita Hung"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jinghua Shi",
+      "Savita Nandal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Rappoport",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Scott Richeal",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "Scott Richeal"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rita Hung",
+      "Paul Rappoport"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Valerie Ablaza",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Haiying Hu",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Savita Nandal",
+      "Valerie Ablaza"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rita Hung",
+      "Haiying Hu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Paul Rappoport",
+      "George Zhou"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Scott Richeal",
+      "John Sallo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -52946,6 +53393,8 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Tom Fazio": "2b529e8f-88dc-46dc-9c51-87d16ef1eb94",
+  "Efrat Sharon": "3ddd6d9e-59a0-4f51-8cf1-89dcc46701b7",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "C Gwon": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
@@ -53143,6 +53592,14 @@
    "outsideSub": true
   },
   {
+   "name": "Tom Fazio",
+   "playerId": "2b529e8f-88dc-46dc-9c51-87d16ef1eb94",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Barbara Maguire",
    "playerId": "2cf30d46-d3f2-4024-b28a-dcfe763bb2b9",
    "gender": "Female",
@@ -53211,6 +53668,14 @@
    "playerId": "3da0e40e-3b18-4375-8426-0dbe4b3d8c17",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Efrat Sharon",
+   "playerId": "3ddd6d9e-59a0-4f51-8cf1-89dcc46701b7",
+   "gender": "Female",
+   "team": "PCKLRAMA",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -53703,6 +54168,14 @@
    "outsideSub": true
   },
   {
+   "name": "John Sallo",
+   "playerId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Andrew Koshefsky",
    "playerId": "b41df00c-281f-46dc-bf9f-129f29524744",
    "gender": "Male",
@@ -54019,7 +54492,7 @@
   "matchesPlayed": 68,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 430,
+  "totalPlayers": 431,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -54145,7 +54618,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T16:02:51.023Z";
+  DATA.meta.asOf = "2026-10-15T20:47:21.564Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -85560,7 +85560,6 @@
    "away": "Picklr Manahawkin",
    "time": "2026-10-14T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 593,
    "awayPoints": 620,
    "homeGW": 14,
@@ -91972,7 +91971,7 @@
  ],
  "meta": {
   "matchesPlayed": 125,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-8",
   "totalPlayers": 576,
   "ratingHistoryWeeks": [
@@ -92053,7 +92052,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-15T16:01:56.997Z";
+  DATA.meta.asOf = "2026-10-15T20:46:34.780Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

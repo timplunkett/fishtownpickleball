@@ -9680,6 +9680,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Judi London",
+   "playerId": "f5a9ad03-1ba0-4048-b558-a5813164d067",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Judith Macarthur",
    "playerId": "ea5676f2-c36c-4c54-b9df-c6fb5926b61e",
    "team": "Flemington Green",
@@ -9768,6 +9775,13 @@ window.DUPR_AUDIT = {
    "playerId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47",
    "team": "Dill Dinkers Lansdale",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Julie Orts",
+   "playerId": "8471c0ed-751f-45e9-a85f-3125465ee459",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {

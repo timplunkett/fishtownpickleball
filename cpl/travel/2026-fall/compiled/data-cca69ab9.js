@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -32915,6 +32915,7 @@
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
+  "Darren Saks": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f"
  },
  "availableSubs": [
@@ -33171,6 +33172,14 @@
    "playerId": "97048a47-d6b3-4c25-84c4-2b8d85e78b7d",
    "gender": "Male",
    "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Darren Saks",
+   "playerId": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -33447,7 +33456,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T16:03:09.218Z";
+  DATA.meta.asOf = "2026-10-15T20:47:39.642Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

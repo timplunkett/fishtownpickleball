@@ -49347,7 +49347,6 @@
    "away": "Pickleball Kingdom Hamilton",
    "time": "2026-10-13T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 511,
    "awayPoints": 673,
    "homeGW": 4,
@@ -53074,7 +53073,7 @@
  ],
  "meta": {
   "matchesPlayed": 74,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-8",
   "totalPlayers": 299,
   "ratingHistoryWeeks": [
@@ -53204,7 +53203,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T16:03:45.976Z";
+  DATA.meta.asOf = "2026-10-15T20:48:19.570Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
