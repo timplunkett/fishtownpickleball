@@ -6141,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 233,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6199,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 240,
+   "leagueRank": 241,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -32914,7 +32914,6 @@
    "away": "Bounce Malvern",
    "time": "2026-10-14T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 623,
    "awayPoints": 625,
    "homeGW": 15,
@@ -34307,7 +34306,6 @@
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-10-14T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 620,
    "awayPoints": 559,
    "homeGW": 23,
@@ -35352,7 +35350,8 @@
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
-  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
+  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+  "Vince Ha": "e8ff72be-37a6-464e-8e88-bfb034ffcd9d"
  },
  "availableSubs": [
   {
@@ -35844,6 +35843,14 @@
    "outsideSub": true
   },
   {
+   "name": "Vince Ha",
+   "playerId": "e8ff72be-37a6-464e-8e88-bfb034ffcd9d",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Noelle Ramirez",
    "playerId": "f30428dd-bc5a-4535-94b3-b8779e958ada",
    "gender": "Female",
@@ -35870,7 +35877,7 @@
  ],
  "meta": {
   "matchesPlayed": 48,
-  "provisionalMatches": 2,
+  "provisionalMatches": 0,
   "weeks": "1-8",
   "totalPlayers": 227,
   "ratingHistoryWeeks": [
@@ -35984,7 +35991,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T10:37:28.813Z";
+  DATA.meta.asOf = "2026-10-16T15:49:52.031Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -1136,8 +1136,8 @@
    "name": "Rahul Desai",
    "gender": "Male",
    "team": "Pickleball Kingdom Lehigh Valley",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 6,
@@ -45146,9 +45146,7 @@
      ]
     }
    ],
-   "subs": [
-    "Rahul Desai"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -52950,14 +52948,6 @@
    "outsideSub": true
   },
   {
-   "name": "Rahul Desai",
-   "playerId": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Danny Ruiz",
    "playerId": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
    "gender": "Male",
@@ -53202,7 +53192,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T10:24:52.264Z";
+  DATA.meta.asOf = "2026-10-16T15:51:16.485Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

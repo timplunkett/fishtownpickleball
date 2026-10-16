@@ -2673,6 +2673,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "C Gwon",
+   "playerId": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
+   "team": "Pickleball Palace",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Cade Chrebet",
    "playerId": "9a5426e8-02ac-4424-89b1-8df0960f912a",
    "team": "Jersey Pickleball Club",
@@ -15096,6 +15103,13 @@ window.DUPR_AUDIT = {
    "team": "Premiere",
    "slug": "c43b8608",
    "gender": "Female"
+  },
+  {
+   "name": "Rahul Desai",
+   "playerId": "ccf688a3-76c8-4dfe-8fd0-19dfb8f0ccd9",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "c118b8e9",
+   "gender": "Male"
   },
   {
    "name": "Rahul Purwah",

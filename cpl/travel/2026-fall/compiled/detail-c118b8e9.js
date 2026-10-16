@@ -8263,8 +8263,8 @@
     "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Lehigh Valley"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

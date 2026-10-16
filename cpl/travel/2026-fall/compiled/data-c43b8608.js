@@ -11457,6 +11457,35 @@
    "playerId": "8acca4cc-875c-4594-8f46-3d31b0912227"
   },
   {
+   "name": "C Gwon",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 433,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4d2fbd50-033d-48d4-99ca-e6941d6ee533"
+  },
+  {
    "name": "Bill Del Pizzo",
    "gender": "Male",
    "team": "Dill Dinkers Lansdale",
@@ -51712,19 +51741,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Liss",
+      "Derek Manwaring"
      ],
      "a": [
       "Savita Nandal",
       "Paul Rappoport"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Renee Froeberg",
+      "Robert Bernstein"
      ],
      "a": [
       "Rita Hung",
@@ -51738,8 +51771,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Sergio Fasciano"
      ],
      "a": [
       "Jinghua Shi",
@@ -51753,8 +51786,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennie Diamond",
+      "Joe Chin"
      ],
      "a": [
       "Haiying Hu",
@@ -51764,19 +51797,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Jennifer Liss"
      ],
      "a": [
       "Savita Nandal",
       "Rita Hung"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Renee Froeberg"
      ],
      "a": [
       "Valerie Ablaza",
@@ -51786,8 +51823,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Bernstein",
+      "Garry Wright"
      ],
      "a": [
       "Paul Rappoport",
@@ -51801,8 +51838,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zhaohui Li",
+      "Sergio Fasciano"
      ],
      "a": [
       "George Zhou",
@@ -51816,8 +51853,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Derek Manwaring"
      ],
      "a": [
       "Savita Nandal",
@@ -51827,8 +51864,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Nelson",
+      "Garry Wright"
      ],
      "a": [
       "Rita Hung",
@@ -51842,8 +51879,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennie Diamond",
+      "Zhaohui Li"
      ],
      "a": [
       "Valerie Ablaza",
@@ -51853,8 +51890,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Renee Froeberg",
+      "Sergio Fasciano"
      ],
      "a": [
       "Jinghua Shi",
@@ -51868,19 +51905,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Liss",
+      "Jennie Diamond"
      ],
      "a": [
       "Valerie Ablaza",
       "Haiying Hu"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Renee Froeberg",
+      "Nicole Nelson"
      ],
      "a": [
       "Savita Nandal",
@@ -51890,8 +51931,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Bernstein",
+      "Garry Wright"
      ],
      "a": [
       "Paul Rappoport",
@@ -51905,8 +51946,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joe Chin",
+      "Derek Manwaring"
      ],
      "a": [
       "Scott Richeal",
@@ -51920,8 +51961,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Nelson",
+      "Derek Manwaring"
      ],
      "a": [
       "Savita Nandal",
@@ -51935,8 +51976,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Sergio Fasciano"
      ],
      "a": [
       "Valerie Ablaza",
@@ -51950,8 +51991,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Renee Froeberg",
+      "Robert Bernstein"
      ],
      "a": [
       "Rita Hung",
@@ -51961,8 +52002,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennie Diamond",
+      "Garry Wright"
      ],
      "a": [
       "Jinghua Shi",
@@ -51972,8 +52013,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Nicole Nelson"
      ],
      "a": [
       "Valerie Ablaza",
@@ -51983,8 +52024,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Renee Froeberg"
      ],
      "a": [
       "Jinghua Shi",
@@ -51994,8 +52035,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joe Chin",
+      "Zhaohui Li"
      ],
      "a": [
       "Paul Rappoport",
@@ -52009,8 +52050,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Garry Wright",
+      "Derek Manwaring"
      ],
      "a": [
       "Scott Richeal",
@@ -52024,19 +52065,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Liss",
+      "Derek Manwaring"
      ],
      "a": [
       "Savita Nandal",
       "Scott Richeal"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennie Diamond",
+      "Joe Chin"
      ],
      "a": [
       "Rita Hung",
@@ -52046,8 +52091,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Robert Bernstein"
      ],
      "a": [
       "Valerie Ablaza",
@@ -52061,8 +52106,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Zhaohui Li"
      ],
      "a": [
       "Haiying Hu",
@@ -52076,19 +52121,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Fanfa",
+      "Jennifer Liss"
      ],
      "a": [
       "Savita Nandal",
       "Valerie Ablaza"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Klein",
+      "Nicole Nelson"
      ],
      "a": [
       "Rita Hung",
@@ -52098,8 +52147,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Bernstein",
+      "Zhaohui Li"
      ],
      "a": [
       "Paul Rappoport",
@@ -52113,8 +52162,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sergio Fasciano",
+      "Joe Chin"
      ],
      "a": [
       "Scott Richeal",
@@ -53389,9 +53438,9 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Jim Shih": "33e2962e-1f89-4317-9859-9191b4376a2c",
   "Efrat Sharon": "3ddd6d9e-59a0-4f51-8cf1-89dcc46701b7",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
-  "C Gwon": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "Denise Werner": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
@@ -53628,6 +53677,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jim Shih",
+   "playerId": "33e2962e-1f89-4317-9859-9191b4376a2c",
+   "gender": "Male",
+   "team": "Picklr Fair Lawn",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Madan P",
    "playerId": "34a8449f-208d-484e-967e-604247a5ba33",
    "gender": "Male",
@@ -53712,14 +53769,6 @@
    "playerId": "4b3f4a35-e94a-402c-869d-77650914bdcb",
    "gender": "Female",
    "team": "Dill Dinkers Lansdale",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "C Gwon",
-   "playerId": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
-   "gender": "Male",
-   "team": "Pickleball Palace",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -54488,7 +54537,7 @@
   "matchesPlayed": 68,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 431,
+  "totalPlayers": 432,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -54614,7 +54663,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T02:23:42.193Z";
+  DATA.meta.asOf = "2026-10-16T15:50:22.126Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
