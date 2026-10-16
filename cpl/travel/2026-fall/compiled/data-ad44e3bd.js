@@ -846,8 +846,8 @@
    "name": "Maria Borges",
    "gender": "Female",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 4,
    "wins": 3,
@@ -23081,7 +23081,6 @@
     }
    ],
    "subs": [
-    "Maria Borges",
     "Esther Yoon",
     "Stephanie Ho",
     "Nancy Luyando",
@@ -29537,10 +29536,6 @@
      "a": [
       "Debi Mcdonald",
       "Maria Borges"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -29563,10 +29558,6 @@
      "a": [
       "Vera Wong",
       "Maria Borges"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -29619,10 +29610,6 @@
      "a": [
       "San Yang",
       "Maria Borges"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -29664,10 +29651,6 @@
      "a": [
       "Vilayvanh Sysounthone",
       "Maria Borges"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
@@ -29757,10 +29740,6 @@
      "a": [
       "Maria Borges",
       "Ly Kim"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -30732,14 +30711,6 @@
    "outsideSub": true
   },
   {
-   "name": "Maria Borges",
-   "playerId": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
-   "gender": "Female",
-   "team": "Montville",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Carolyn Mako",
    "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
    "gender": "Female",
@@ -31109,7 +31080,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T20:47:53.674Z";
+  DATA.meta.asOf = "2026-10-16T02:24:08.467Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

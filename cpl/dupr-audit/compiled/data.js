@@ -5697,6 +5697,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Eric Nguyen",
+   "playerId": "87d526c6-72b6-4b17-bf77-9016fd049541",
+   "team": "Bounce Tempest",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Eric Padernilla",
    "playerId": "4cfe6084-c26a-46dd-8be0-c1abc2518176",
    "team": "APC Garden State",
@@ -12162,6 +12169,13 @@ window.DUPR_AUDIT = {
    "playerId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d",
    "team": "Picklr Newtown",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Maria Borges",
+   "playerId": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
+   "team": "Montville",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {

@@ -2767,7 +2767,7 @@
       "gender": "Male",
       "dupr": "EGLMNV",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
       "teamName": "Bounce Tempest",
       "wins": 13,

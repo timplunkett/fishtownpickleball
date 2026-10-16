@@ -8374,7 +8374,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 314,
+   "leagueRank": 315,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -52475,6 +52475,7 @@
   "Sean Hynson": "1a802777-6241-4a14-8370-126b8bf5d3f9",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
+  "Lionell Matthews": "331d44ad-9004-4801-9978-45938dc3272d",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
@@ -52635,6 +52636,14 @@
    "playerId": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
    "gender": "Male",
    "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Lionell Matthews",
+   "playerId": "331d44ad-9004-4801-9978-45938dc3272d",
+   "gender": "Male",
+   "team": "Monroe",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -53203,7 +53212,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T20:48:19.570Z";
+  DATA.meta.asOf = "2026-10-16T02:24:30.889Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

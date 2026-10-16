@@ -11631,6 +11631,35 @@
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
   },
   {
+   "name": "Tom Fazio",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 430,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2b529e8f-88dc-46dc-9c51-87d16ef1eb94"
+  },
+  {
    "name": "Julia Hollman",
    "gender": "Female",
    "team": "Flemington",
@@ -11716,35 +11745,6 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0"
-  },
-  {
-   "name": "Dana Sun",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Watchung",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 454,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c"
   },
   {
    "name": "Mike Hardy",
@@ -52568,11 +52568,11 @@
       ""
      ],
      "a": [
-      "Dana Sun",
+      "Ting Chen",
       "Madan P"
      ],
      "aSub": [
-      1,
+      0,
       1
      ]
     },
@@ -52598,7 +52598,7 @@
       ""
      ],
      "a": [
-      "Margaret Bayse",
+      "Lisa Braumann",
       "Todd Baron"
      ],
      "aSub": [
@@ -52614,7 +52614,11 @@
      ],
      "a": [
       "Shobana Ravishankar",
-      "Gary Grzankowski"
+      "Tom Fazio"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52636,7 +52640,7 @@
      ],
      "a": [
       "Ting Chen",
-      "Izabel Illipronti"
+      "Shobana Ravishankar"
      ]
     },
     {
@@ -52677,7 +52681,11 @@
      ],
      "a": [
       "Izabel Illipronti",
-      "Gary Grzankowski"
+      "Tom Fazio"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52688,11 +52696,7 @@
      ],
      "a": [
       "Ting Chen",
-      "Yamil Sacin"
-     ],
-     "aSub": [
-      0,
-      1
+      "Gary Grzankowski"
      ]
     },
     {
@@ -52718,92 +52722,6 @@
      ],
      "a": [
       "Margaret Bayse",
-      "Madan P"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lisa Braumann",
-      "Dana Sun"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Shobana Ravishankar",
-      "Margaret Bayse"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Yamil Sacin",
-      "Gary Grzankowski"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Madan P",
-      "Todd Baron"
-     ],
-     "aSub": [
-      1,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Margaret Bayse",
-      "Madan P"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Izabel Illipronti",
       "Yamil Sacin"
      ],
      "aSub": [
@@ -52812,29 +52730,14 @@
      ]
     },
     {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ting Chen",
-      "Gary Grzankowski"
-     ]
-    },
-    {
-     "t": "mixed",
+     "t": "female",
      "h": [
       "",
       ""
      ],
      "a": [
       "Lisa Braumann",
-      "Todd Baron"
-     ],
-     "aSub": [
-      0,
-      1
+      "Izabel Illipronti"
      ]
     },
     {
@@ -52849,17 +52752,17 @@
      ]
     },
     {
-     "t": "female",
+     "t": "male",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Izabel Illipronti",
-      "Dana Sun"
+      "Tom Fazio",
+      "Yamil Sacin"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -52870,8 +52773,101 @@
       ""
      ],
      "a": [
-      "Yamil Sacin",
+      "Madan P",
       "Todd Baron"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Madan P"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Tom Fazio"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Todd Baron"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Ting Chen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Margaret Bayse"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Fazio",
+      "Yamil Sacin"
      ],
      "aSub": [
       1,
@@ -52900,12 +52896,8 @@
       ""
      ],
      "a": [
-      "Lisa Braumann",
-      "Yamil Sacin"
-     ],
-     "aSub": [
-      0,
-      1
+      "Izabel Illipronti",
+      "Gary Grzankowski"
      ]
     },
     {
@@ -52931,7 +52923,11 @@
      ],
      "a": [
       "Margaret Bayse",
-      "Gary Grzankowski"
+      "Madan P"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -52941,11 +52937,11 @@
       ""
      ],
      "a": [
-      "Dana Sun",
-      "Madan P"
+      "Ting Chen",
+      "Yamil Sacin"
      ],
      "aSub": [
-      1,
+      0,
       1
      ]
     },
@@ -52956,7 +52952,7 @@
       ""
      ],
      "a": [
-      "Izabel Illipronti",
+      "Shobana Ravishankar",
       "Lisa Braumann"
      ]
     },
@@ -52978,12 +52974,12 @@
       ""
      ],
      "a": [
-      "Madan P",
-      "Yamil Sacin"
+      "Tom Fazio",
+      "Gary Grzankowski"
      ],
      "aSub": [
       1,
-      1
+      0
      ]
     },
     {
@@ -52993,11 +52989,11 @@
       ""
      ],
      "a": [
-      "Gary Grzankowski",
-      "Todd Baron"
+      "Todd Baron",
+      "Yamil Sacin"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     }
@@ -53393,7 +53389,6 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
-  "Tom Fazio": "2b529e8f-88dc-46dc-9c51-87d16ef1eb94",
   "Efrat Sharon": "3ddd6d9e-59a0-4f51-8cf1-89dcc46701b7",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "C Gwon": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
@@ -53411,6 +53406,7 @@
   "Mark Kot": "e652b254-402f-46be-90e9-ed5fcd575154",
   "Joy Frederick": "e97daa4f-0d54-4e83-87a3-3762d363be43",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
+  "Dana Sun": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
@@ -54618,7 +54614,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T20:47:21.564Z";
+  DATA.meta.asOf = "2026-10-16T02:23:42.193Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

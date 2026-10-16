@@ -5,8 +5,8 @@
    "name": "Eric Nguyen",
    "gender": "Male",
    "team": "Bounce Tempest",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 13,
@@ -26126,8 +26126,7 @@
     }
    ],
    "subs": [
-    "Darren Johnson",
-    "Eric Nguyen"
+    "Darren Johnson"
    ]
   },
   {
@@ -32648,7 +32647,6 @@
     }
    ],
    "subs": [
-    "Eric Nguyen",
     "Christopher Yang"
    ]
   },
@@ -33152,14 +33150,6 @@
    "outsideSub": true
   },
   {
-   "name": "Eric Nguyen",
-   "playerId": "87d526c6-72b6-4b17-bf77-9016fd049541",
-   "gender": "Male",
-   "team": "Bounce Tempest",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Turney Hall",
    "playerId": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
    "gender": "Male",
@@ -33456,7 +33446,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-15T20:47:39.642Z";
+  DATA.meta.asOf = "2026-10-16T02:23:55.589Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
