@@ -11912,7 +11912,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 462,
+   "leagueRank": 463,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11941,7 +11941,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11970,7 +11970,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 469,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11999,7 +11999,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 459,
+   "leagueRank": 460,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12028,7 +12028,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 472,
+   "leagueRank": 473,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12057,7 +12057,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 463,
+   "leagueRank": 464,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12086,7 +12086,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 451,
+   "leagueRank": 452,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12115,7 +12115,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 466,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12144,7 +12144,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 443,
+   "leagueRank": 444,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -65877,6 +65877,7 @@
   "John Tano": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
   "Heidi Hinz": "525f9d3d-1019-49bb-baec-a4dc75b7d62b",
   "David Barth": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
+  "Alessandra Andrei": "5a39ae7c-6737-47a7-b13a-a314c117d3a6",
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
   "Bryan Tsang": "63cd3df2-bdd8-4e38-b449-653b71e10ff4",
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
@@ -66172,6 +66173,14 @@
    "name": "Jeremy Workman",
    "playerId": "5a15e437-7769-4d60-bd0c-b6c48176289c",
    "gender": "Male",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alessandra Andrei",
+   "playerId": "5a39ae7c-6737-47a7-b13a-a314c117d3a6",
+   "gender": "Female",
    "team": "Pickle Place",
    "isCaptain": false,
    "outsideSub": true
@@ -66853,7 +66862,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T15:49:36.412Z";
+  DATA.meta.asOf = "2026-10-16T20:18:17.776Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

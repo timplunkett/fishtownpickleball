@@ -2807,7 +2807,7 @@
     "duprRating": "3.884",
     "duprNumericId": 6977096031,
     "duprProvisional": false,
-    "lastSeen": "2026-08-31"
+    "lastSeen": "2026-10"
   },
   {
     "playerId": "f5d084ba-6230-41b2-99f9-f014c072276a",
@@ -42002,7 +42002,7 @@
     "lastName": "Andrei",
     "dupr": "JPZ2RM",
     "duprRating": "4.198",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 4620138031,
     "duprProvisional": false
   },
@@ -48214,6 +48214,16 @@
     "duprRating": "5.327",
     "lastSeen": "2026-10",
     "duprNumericId": 7231308608,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "70a271cf-643d-45a1-bb2e-c13be2cd168b",
+    "firstName": "Joel",
+    "lastName": "Rubins",
+    "dupr": "3YZ26E",
+    "duprRating": "3.778",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6816689523,
     "duprProvisional": false
   }
 ]

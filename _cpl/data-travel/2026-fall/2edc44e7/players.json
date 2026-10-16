@@ -990,6 +990,29 @@
       "ranking": 232
     },
     {
+      "playerId": "2b4a12ef-68c9-4ca5-a8f7-d1d58503bf1c",
+      "firstName": "Jean",
+      "lastName": "Rosenbaum",
+      "gender": "Female",
+      "dupr": "3Y20NE",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+      "teamName": "Bounce Malvern Boom",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 244
+    },
+    {
       "playerId": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
       "firstName": "Karan",
       "lastName": "Pescatore",
@@ -1079,7 +1102,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 244
+      "ranking": 245
     },
     {
       "playerId": "314486b1-6723-4b33-9dba-fa5756065707",
@@ -2551,7 +2574,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 249
+      "ranking": 250
     },
     {
       "playerId": "6f511e98-567a-4b33-8831-ed123f01f952",
@@ -3747,7 +3770,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 247
+      "ranking": 248
     },
     {
       "playerId": "a5a6470f-9dee-468c-85fe-4286ee0b4ecd",
@@ -4230,7 +4253,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 250
+      "ranking": 251
     },
     {
       "playerId": "c0851114-0611-4b02-9589-fd249179eabc",
@@ -5127,7 +5150,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 246
+      "ranking": 247
     },
     {
       "playerId": "e1cb1b3c-8e14-423b-bf0f-5ad2dabd6a4c",
@@ -5403,7 +5426,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 248
+      "ranking": 249
     },
     {
       "playerId": "eddc4924-517f-46ac-9827-935983daa9db",
@@ -5495,7 +5518,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 245
+      "ranking": 246
     },
     {
       "playerId": "f1248cc3-96c3-4671-9b08-533d22eb710f",

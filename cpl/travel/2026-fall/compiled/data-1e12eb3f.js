@@ -64983,7 +64983,389 @@
    "home": "Premiere Dinkers",
    "away": "One Love",
    "time": "2026-10-18T10:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Monahan",
+      "Henry Dornemann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bodner",
+      "Christopher Chierchia"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erica Marcus",
+      "Dan Carrion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brenda Mee",
+      "David Katz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erica Marcus",
+      "Michele Collins"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brenda Mee",
+      "Amy Santopietro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Keith Seager",
+      "David Katz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Henry Dornemann",
+      "Dan Carrion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Monahan",
+      "Henry Dornemann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bodner",
+      "Christopher Chierchia"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erica Marcus",
+      "Dan Carrion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brenda Mee",
+      "Keith Seager"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Collins",
+      "Janet Bodner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Santopietro",
+      "Brenda Mee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Keith Seager",
+      "David Katz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Chierchia",
+      "Dan Carrion"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erica Marcus",
+      "Henry Dornemann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Monahan",
+      "Keith Seager"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Collins",
+      "Christopher Chierchia"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Santopietro",
+      "David Katz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bodner",
+      "Deirdre Monahan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Collins",
+      "Amy Santopietro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Chierchia",
+      "David Katz"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Keith Seager",
+      "Dan Carrion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erica Marcus",
+      "Henry Dornemann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Deirdre Monahan",
+      "Keith Seager"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Collins",
+      "Christopher Chierchia"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Santopietro",
+      "David Katz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brenda Mee",
+      "Michele Collins"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bodner",
+      "Deirdre Monahan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Henry Dornemann",
+      "Christopher Chierchia"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carrion",
+      "Keith Seager"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -66902,15 +67284,11 @@
      "t": "mixed",
      "h": [
       "Elaine Aquilone",
-      "Emil De Carvalho"
+      "Mark Zamkoff"
      ],
      "a": [
       "Christine Strasser",
       "Freddy Alicea"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
@@ -66942,7 +67320,7 @@
     {
      "t": "female",
      "h": [
-      "Kathy Baker",
+      "Elaine Aquilone",
       "Jackie Coneeny"
      ],
      "a": [
@@ -66954,7 +67332,7 @@
      "t": "female",
      "h": [
       "Caroline Kinlin",
-      "Elaine Aquilone"
+      "Kathy Baker"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -66980,22 +67358,18 @@
      "t": "male",
      "h": [
       "Mark Zamkoff",
-      "Emil De Carvalho"
+      "Daniel Ryan"
      ],
      "a": [
       "Elliot Fishman",
       "Freddy Alicea"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
      "t": "mixed",
      "h": [
       "Nicole Tarallo",
-      "Carl Nath"
+      "Daniel Ryan"
      ],
      "a": [
       "Karen Rosenberg",
@@ -67028,15 +67402,11 @@
      "t": "mixed",
      "h": [
       "Elaine Aquilone",
-      "Emil De Carvalho"
+      "Carl Nath"
      ],
      "a": [
       "Maryann Colella",
       "Freddy Alicea"
-     ],
-     "hSub": [
-      0,
-      1
      ],
      "aSub": [
       1,
@@ -67047,7 +67417,7 @@
      "t": "female",
      "h": [
       "Caroline Kinlin",
-      "Nicole Tarallo"
+      "Elaine Aquilone"
      ],
      "a": [
       "Jennifer Makfinsky",
@@ -67057,8 +67427,8 @@
     {
      "t": "female",
      "h": [
-      "Jackie Coneeny",
-      "Elaine Aquilone"
+      "Nicole Tarallo",
+      "Jackie Coneeny"
      ],
      "a": [
       "Karen Rosenberg",
@@ -67090,8 +67460,8 @@
     {
      "t": "mixed",
      "h": [
-      "Kathy Baker",
-      "Daniel Ryan"
+      "Nicole Tarallo",
+      "Carl Nath"
      ],
      "a": [
       "Christine Strasser",
@@ -67161,15 +67531,11 @@
      "t": "male",
      "h": [
       "Daniel Ryan",
-      "Emil De Carvalho"
+      "Virgo Marjamaa"
      ],
      "a": [
       "Richard Madonna",
       "Lenn Yeger"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
@@ -67187,7 +67553,7 @@
      "t": "mixed",
      "h": [
       "Nicole Tarallo",
-      "Mark Zamkoff"
+      "Leo Decker"
      ],
      "a": [
       "Karen Rosenberg",
@@ -67209,7 +67575,7 @@
      "t": "mixed",
      "h": [
       "Caroline Kinlin",
-      "Daniel Ryan"
+      "Carl Nath"
      ],
      "a": [
       "Maryann Colella",
@@ -67224,7 +67590,7 @@
      "t": "mixed",
      "h": [
       "Jackie Coneeny",
-      "Carl Nath"
+      "Mark Zamkoff"
      ],
      "a": [
       "Petra Jones",
@@ -67271,16 +67637,12 @@
     {
      "t": "male",
      "h": [
-      "Emil De Carvalho",
+      "Daniel Ryan",
       "Carl Nath"
      ],
      "a": [
       "Bart Van Der Gaag",
       "Freddy Alicea"
-     ],
-     "hSub": [
-      1,
-      0
      ]
     }
    ]
@@ -68100,8 +68462,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "Thomas Musso"
      ],
      "a": [
       "Gina Lavignera",
@@ -68111,8 +68473,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Christina Zumbo-Zerega",
@@ -68122,8 +68484,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "David Cardinale"
      ],
      "a": [
       "Melissa Freedman",
@@ -68133,8 +68495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "John Rogers"
      ],
      "a": [
       "Cindy Rossine",
@@ -68144,8 +68506,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "Alexandra Romagnolo"
      ],
      "a": [
       "Christina Zumbo-Zerega",
@@ -68155,8 +68517,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Granberg",
+      "Risa Korzekwinski"
      ],
      "a": [
       "Cindy Rossine",
@@ -68166,8 +68528,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Cardinale",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Michael Salerno",
@@ -68177,8 +68539,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "John Rogers"
      ],
      "a": [
       "Frank Messina",
@@ -68188,8 +68550,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Lucille Licciardello",
@@ -68199,8 +68561,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "John Rogers"
      ],
      "a": [
       "Gina Lavignera",
@@ -68210,8 +68572,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "David Cardinale"
      ],
      "a": [
       "Christina Zumbo-Zerega",
@@ -68221,8 +68583,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marie Granberg",
+      "Thomas Musso"
      ],
      "a": [
       "Cindy Rossine",
@@ -68232,8 +68594,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Marie Granberg"
      ],
      "a": [
       "Christina Zumbo-Zerega",
@@ -68243,8 +68605,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Barbara Markoglu"
      ],
      "a": [
       "Lucille Licciardello",
@@ -68254,8 +68616,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Frank Iacono",
@@ -68265,8 +68627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Cardinale",
+      "John Rogers"
      ],
      "a": [
       "Frank Leccese",
@@ -68276,8 +68638,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marie Granberg",
+      "David Cardinale"
      ],
      "a": [
       "Cindy Rossine",
@@ -68287,8 +68649,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Thomas Musso"
      ],
      "a": [
       "Melissa Freedman",
@@ -68298,8 +68660,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "John Rogers"
      ],
      "a": [
       "Gina Lavignera",
@@ -68309,8 +68671,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Lucille Licciardello",
@@ -68320,8 +68682,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Barbara Markoglu"
      ],
      "a": [
       "Christina Zumbo-Zerega",
@@ -68331,8 +68693,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Denise Caracciolo"
      ],
      "a": [
       "Melissa Freedman",
@@ -68342,8 +68704,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Cardinale",
+      "Thomas Musso"
      ],
      "a": [
       "Arthur Gary Dellostritto",
@@ -68353,8 +68715,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Romagnolo",
+      "John Rogers"
      ],
      "a": [
       "Frank Iacono",
@@ -68364,8 +68726,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Melissa Freedman",
@@ -68375,8 +68737,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "David Cardinale"
      ],
      "a": [
       "Christina Zumbo-Zerega",
@@ -68386,8 +68748,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "John Rogers"
      ],
      "a": [
       "Gina Lavignera",
@@ -68397,8 +68759,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "Thomas Musso"
      ],
      "a": [
       "Lucille Licciardello",
@@ -68408,8 +68770,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "Alexandra Romagnolo"
      ],
      "a": [
       "Melissa Freedman",
@@ -68419,8 +68781,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Granberg",
+      "Risa Korzekwinski"
      ],
      "a": [
       "Cindy Rossine",
@@ -68430,8 +68792,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "David Cardinale"
      ],
      "a": [
       "Arthur Gary Dellostritto",
@@ -68441,8 +68803,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Romagnolo",
+      "John Rogers"
      ],
      "a": [
       "Frank Messina",
@@ -72072,7 +72434,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T15:49:05.322Z";
+  DATA.meta.asOf = "2026-10-16T20:17:49.583Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
