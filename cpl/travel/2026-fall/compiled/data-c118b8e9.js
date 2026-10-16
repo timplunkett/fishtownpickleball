@@ -1339,8 +1339,8 @@
    "name": "Michael Mazzola",
    "gender": "Male",
    "team": "Premiere",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 11,
@@ -18667,7 +18667,6 @@
     }
    ],
    "subs": [
-    "Michael Mazzola",
     "Jim Boy Baring",
     "Nacio Marshall"
    ]
@@ -47007,7 +47006,6 @@
     }
    ],
    "subs": [
-    "Michael Mazzola",
     "Steven Santiago"
    ]
   },
@@ -52632,14 +52630,6 @@
    "outsideSub": true
   },
   {
-   "name": "Michael Mazzola",
-   "playerId": "2d37c246-0ab5-45ca-bb7b-c869e24452b5",
-   "gender": "Male",
-   "team": "Premiere",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Lionell Matthews",
    "playerId": "331d44ad-9004-4801-9978-45938dc3272d",
    "gender": "Male",
@@ -53212,7 +53202,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T02:24:30.889Z";
+  DATA.meta.asOf = "2026-10-16T10:24:52.264Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

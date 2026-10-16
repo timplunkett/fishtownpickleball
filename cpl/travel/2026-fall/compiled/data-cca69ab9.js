@@ -5619,7 +5619,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5677,7 +5677,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5706,7 +5706,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5735,7 +5735,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 211,
+   "leagueRank": 212,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -32911,6 +32911,7 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
+  "Craig Brown": "38d82d4c-1321-4c6b-8b93-bfbd8439fcac",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Darren Saks": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
@@ -32970,6 +32971,14 @@
    "playerId": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
    "gender": "Male",
    "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Craig Brown",
+   "playerId": "38d82d4c-1321-4c6b-8b93-bfbd8439fcac",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -33446,7 +33455,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T02:23:55.589Z";
+  DATA.meta.asOf = "2026-10-16T10:24:21.302Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

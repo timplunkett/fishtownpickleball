@@ -1088,7 +1088,7 @@
       "gender": "Male",
       "dupr": "WXEDZQ",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 11,
