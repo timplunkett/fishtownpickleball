@@ -136,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 598
+      "ranking": 599
     },
     {
       "playerId": "03769e99-2521-4e52-bef4-cf55e57e9460",
@@ -6070,7 +6070,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 599
+      "ranking": 600
     },
     {
       "playerId": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
@@ -8715,7 +8715,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 600
+      "ranking": 601
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",
@@ -11110,6 +11110,29 @@
       "ranking": 346
     },
     {
+      "playerId": "d50d8512-f462-48e4-9025-0135117cabae",
+      "firstName": "Allison",
+      "lastName": "Xiao",
+      "gender": "Female",
+      "dupr": "905MJV",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 602
+    },
+    {
       "playerId": "d52e39b2-80ba-4c68-b6ce-7945feefd838",
       "firstName": "David",
       "lastName": "Ward",
@@ -11223,6 +11246,29 @@
       "genderWins": 12,
       "genderLosses": 2,
       "ranking": 71
+    },
+    {
+      "playerId": "d61fec4f-3d91-4d15-9e73-53215808bd3d",
+      "firstName": "Yawei",
+      "lastName": "wang",
+      "gender": "Male",
+      "dupr": "ZWY4EP",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 598
     },
     {
       "playerId": "d6387c1c-d4a1-437d-86c1-da6c66811b1d",
