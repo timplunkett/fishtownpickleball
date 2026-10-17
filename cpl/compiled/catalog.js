@@ -13,7 +13,7 @@ window.CPL_CATALOG = {
      "landingSlug": "b7ca04e4",
      "divisions": [
       {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-10-13T13:13:37.833Z"},
-      {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-10-17T02:14:21.238Z"},
+      {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-10-17T09:55:38.452Z"},
       {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-10-15T20:46:34.780Z"},
       {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-10-17T02:15:31.787Z"},
       {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-10-17T02:14:50.097Z"},
