@@ -8374,7 +8374,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 315,
+   "leagueRank": 316,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -52477,6 +52477,7 @@
   "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
+  "Nirav Solanki": "938658e5-f3f0-4597-8d1b-8d65a9378673",
   "Shawn Mayer": "af3ce205-4f9a-4382-8128-4a20fe26737b",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
@@ -52798,6 +52799,14 @@
   {
    "name": "Nate Brochin",
    "playerId": "90204557-bb5d-4892-abfe-d2530aa1ac3a",
+   "gender": "Male",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nirav Solanki",
+   "playerId": "938658e5-f3f0-4597-8d1b-8d65a9378673",
    "gender": "Male",
    "team": "Monroe",
    "isCaptain": false,
@@ -53192,7 +53201,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T15:51:16.485Z";
+  DATA.meta.asOf = "2026-10-17T14:43:48.350Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

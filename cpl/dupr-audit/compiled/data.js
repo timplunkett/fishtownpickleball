@@ -7202,6 +7202,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Irene Guile",
+   "playerId": "ee2b1370-05ac-455a-8be6-d2adf00a4f98",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Irish Lee",
    "playerId": "1b93f56f-c9be-4d20-b0a4-e155b558a11c",
    "team": "Allstar Pickler",
@@ -10048,6 +10055,13 @@ window.DUPR_AUDIT = {
    "playerId": "c9f10502-3413-4189-87c9-d05ec7accae3",
    "team": "Flemington Blue",
    "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Karin Schneider",
+   "playerId": "6b3df055-e504-46b4-8072-5ebded92a310",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {

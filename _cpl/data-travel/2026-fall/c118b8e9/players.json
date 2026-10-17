@@ -2620,7 +2620,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 314
+      "ranking": 315
     },
     {
       "playerId": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -3586,7 +3586,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 316
+      "ranking": 317
     },
     {
       "playerId": "86d26f19-6cb9-442b-b089-994609b4fd77",
@@ -3932,6 +3932,29 @@
       "genderWins": 9,
       "genderLosses": 3,
       "ranking": 135
+    },
+    {
+      "playerId": "938658e5-f3f0-4597-8d1b-8d65a9378673",
+      "firstName": "Nirav",
+      "lastName": "Solanki",
+      "gender": "Male",
+      "dupr": "2LDX5E",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "teamName": "Monroe",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 314
     },
     {
       "playerId": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
@@ -4920,7 +4943,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 315
+      "ranking": 316
     },
     {
       "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",

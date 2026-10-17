@@ -5648,7 +5648,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -33268,6 +33268,7 @@
   "Craig Brown": "38d82d4c-1321-4c6b-8b93-bfbd8439fcac",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
+  "Nirav Solanki": "938658e5-f3f0-4597-8d1b-8d65a9378673",
   "Darren Saks": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f"
  },
@@ -33517,6 +33518,14 @@
    "playerId": "9271aef6-af3d-4717-af33-91fb40f6ffaa",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nirav Solanki",
+   "playerId": "938658e5-f3f0-4597-8d1b-8d65a9378673",
+   "gender": "Male",
+   "team": "Monroe",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -33809,7 +33818,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-17T02:15:46.649Z";
+  DATA.meta.asOf = "2026-10-17T14:43:28.522Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
