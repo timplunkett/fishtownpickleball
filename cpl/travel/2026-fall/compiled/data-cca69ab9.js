@@ -33088,8 +33088,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Sidd Pathare"
      ],
      "a": [
       "Kevin Wysoczynski",
@@ -33099,12 +33099,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Austin Williams"
      ],
      "a": [
       "Gary Sidhu",
       "Craig Brown"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -33114,8 +33118,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Vivek Kumar"
      ],
      "a": [
       "Patrick Cadieu",
@@ -33129,8 +33133,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Laifer",
+      "Ian Chin"
      ],
      "a": [
       "Darren Saks",
@@ -33144,8 +33148,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Vivek Kumar"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -33155,8 +33159,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Sidd Pathare"
      ],
      "a": [
       "Anthony Bradford Bisignano",
@@ -33170,12 +33174,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Austin Williams"
      ],
      "a": [
       "Zachary Puccia",
       "Patrick Cadieu"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -33185,8 +33193,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Laifer",
+      "Ian Chin"
      ],
      "a": [
       "Daniel Phillips",
@@ -35856,7 +35864,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T13:04:50.785Z";
+  DATA.meta.asOf = "2026-10-18T15:10:29.872Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
