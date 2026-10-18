@@ -12060,6 +12060,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Manuel Martorell",
+   "playerId": "df4f8592-f2f0-4913-a881-54cf6afaf148",
+   "team": "Pickleball Palace",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Manuela Caiati",
    "playerId": "055f3bbb-3d19-4709-b29e-0e4ad54ba0cb",
    "team": "Flemington Green",

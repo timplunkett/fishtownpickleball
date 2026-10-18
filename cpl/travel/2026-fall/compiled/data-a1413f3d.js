@@ -11970,7 +11970,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 469,
+   "leagueRank": 470,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12028,7 +12028,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 473,
+   "leagueRank": 474,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -65542,8 +65542,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabby Gonzalez",
+      "Jordan Brochin"
      ],
      "a": [
       "Mary Callaghan",
@@ -65553,8 +65553,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chelsea Convissar",
+      "Ethan Rosen"
      ],
      "a": [
       "Alessandra Andrei",
@@ -65568,8 +65568,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Yishay Schacher"
      ],
      "a": [
       "Elisia Clark",
@@ -65579,8 +65579,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Perri Goldstein",
+      "Rich Pacailler"
      ],
      "a": [
       "Madeleine Shusterman",
@@ -65594,8 +65594,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Chelsea Convissar"
      ],
      "a": [
       "Alessandra Andrei",
@@ -65609,8 +65609,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Perri Goldstein"
      ],
      "a": [
       "Madeleine Shusterman",
@@ -65620,8 +65620,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ethan Rosen",
+      "Jordan Brochin"
      ],
      "a": [
       "Sagar Punjabi",
@@ -65635,8 +65635,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Mizrahi",
+      "Rich Pacailler"
      ],
      "a": [
       "Scott Kacelowicz",
@@ -65650,8 +65650,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Rich Pacailler"
      ],
      "a": [
       "Mary Callaghan",
@@ -65665,8 +65665,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chelsea Convissar",
+      "Joseph Mizrahi"
      ],
      "a": [
       "Alessandra Andrei",
@@ -65680,8 +65680,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cj Pineda",
+      "Ethan Rosen"
      ],
      "a": [
       "Vanessa Zommi Kungne",
@@ -65695,8 +65695,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Yishay Schacher"
      ],
      "a": [
       "Elisia Clark",
@@ -65706,8 +65706,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Chelsea Convissar"
      ],
      "a": [
       "Mary Callaghan",
@@ -65717,8 +65717,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Perri Goldstein"
      ],
      "a": [
       "Elisia Clark",
@@ -65728,8 +65728,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Mizrahi",
+      "Ethan Rosen"
      ],
      "a": [
       "Kyle Kerr",
@@ -65743,8 +65743,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Brochin",
+      "Rich Pacailler"
      ],
      "a": [
       "Vic Nguyen",
@@ -65758,8 +65758,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Ethan Rosen"
      ],
      "a": [
       "Alessandra Andrei",
@@ -65773,8 +65773,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Chelsea Convissar",
+      "Jordan Brochin"
      ],
      "a": [
       "Mary Callaghan",
@@ -65788,8 +65788,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Perri Goldstein",
+      "Joseph Mizrahi"
      ],
      "a": [
       "Madeleine Shusterman",
@@ -65799,8 +65799,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabby Gonzalez",
+      "Rich Pacailler"
      ],
      "a": [
       "Elisia Clark",
@@ -65814,8 +65814,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Cj Pineda"
      ],
      "a": [
       "Vanessa Zommi Kungne",
@@ -65829,8 +65829,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Chelsea Convissar",
+      "Gabby Gonzalez"
      ],
      "a": [
       "Elisia Clark",
@@ -65840,8 +65840,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ethan Rosen",
+      "Jordan Brochin"
      ],
      "a": [
       "Kyle Kerr",
@@ -65855,8 +65855,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Mizrahi",
+      "Rich Pacailler"
      ],
      "a": [
       "Sagar Punjabi",
@@ -65870,8 +65870,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gabby Gonzalez",
+      "Joseph Mizrahi"
      ],
      "a": [
       "Alessandra Andrei",
@@ -65885,8 +65885,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Perri Goldstein",
+      "Rich Pacailler"
      ],
      "a": [
       "Madeleine Shusterman",
@@ -65900,8 +65900,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Jordan Brochin"
      ],
      "a": [
       "Elisia Clark",
@@ -65911,8 +65911,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cj Pineda",
+      "Ethan Rosen"
      ],
      "a": [
       "Mary Callaghan",
@@ -65922,8 +65922,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Chelsea Convissar",
+      "Gabby Gonzalez"
      ],
      "a": [
       "Mary Callaghan",
@@ -65933,8 +65933,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexis Milak",
+      "Cj Pineda"
      ],
      "a": [
       "Elisia Clark",
@@ -65948,8 +65948,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Brochin",
+      "Rich Pacailler"
      ],
      "a": [
       "Sagar Punjabi",
@@ -65963,8 +65963,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Mizrahi",
+      "Ethan Rosen"
      ],
      "a": [
       "Kyle Kerr",
@@ -66365,6 +66365,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
+  "Kelly Walker": "13c6962e-5a72-4d69-a262-5010f8390ddd",
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
@@ -66444,6 +66445,14 @@
    "playerId": "12db11ed-c342-47ec-8fed-44745a35dbdb",
    "gender": "Female",
    "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kelly Walker",
+   "playerId": "13c6962e-5a72-4d69-a262-5010f8390ddd",
+   "gender": "Female",
+   "team": "APC Garden State",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -67356,7 +67365,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-17T02:14:50.097Z";
+  DATA.meta.asOf = "2026-10-18T02:15:35.154Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
