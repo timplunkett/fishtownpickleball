@@ -32748,8 +32748,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Vivek Kumar"
      ],
      "a": [
       "Anthony Bradford Bisignano",
@@ -32763,8 +32763,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Jake Laifer"
      ],
      "a": [
       "Patrick Cadieu",
@@ -32778,8 +32778,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Ian Chin"
      ],
      "a": [
       "Craig Brown",
@@ -32793,19 +32793,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Sidd Pathare"
      ],
      "a": [
       "Zachary Puccia",
       "Kevin Wysoczynski"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Jake Laifer"
      ],
      "a": [
       "Kevin Wysoczynski",
@@ -32815,12 +32819,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Sidd Pathare"
      ],
      "a": [
       "Patrick Cadieu",
       "Gary Sidhu"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -32830,8 +32838,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Vivek Kumar"
      ],
      "a": [
       "Darren Saks",
@@ -32845,8 +32853,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Ian Chin"
      ],
      "a": [
       "Anthony Bradford Bisignano",
@@ -32856,8 +32864,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Elliott Albanese"
      ],
      "a": [
       "Patrick Cadieu",
@@ -32871,8 +32879,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sidd Pathare",
+      "Jake Laifer"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -32882,12 +32890,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vivek Kumar",
+      "Austin Williams"
      ],
      "a": [
       "Craig Brown",
       "Darren Saks"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -32897,8 +32909,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Ian Chin"
      ],
      "a": [
       "Gary Sidhu",
@@ -32908,19 +32920,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Vivek Kumar"
      ],
      "a": [
       "Anthony Bradford Bisignano",
       "Gary Sidhu"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Ian Chin"
      ],
      "a": [
       "Darren Saks",
@@ -32934,8 +32950,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Camrin Cronheim"
      ],
      "a": [
       "Simon Rosenwasser",
@@ -32949,8 +32965,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sidd Pathare",
+      "Jake Laifer"
      ],
      "a": [
       "Zachary Puccia",
@@ -32960,8 +32976,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Jake Laifer"
      ],
      "a": [
       "Zachary Puccia",
@@ -32971,8 +32987,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vivek Kumar",
+      "Ian Chin"
      ],
      "a": [
       "Craig Brown",
@@ -32986,12 +33002,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Austin Williams"
      ],
      "a": [
       "Patrick Cadieu",
       "Anthony Bradford Bisignano"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -33001,8 +33021,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Sidd Pathare"
      ],
      "a": [
       "Kevin Wysoczynski",
@@ -33012,8 +33032,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Connolly",
+      "Sidd Pathare"
      ],
      "a": [
       "Patrick Cadieu",
@@ -33027,8 +33047,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Jake Laifer"
      ],
      "a": [
       "Gary Sidhu",
@@ -33038,19 +33058,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Camrin Cronheim"
      ],
      "a": [
       "Simon Rosenwasser",
       "Zachary Puccia"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ian Chin",
+      "Vivek Kumar"
      ],
      "a": [
       "Daniel Phillips",
@@ -33922,7 +33946,29 @@
      ],
      "a": [
       "Matthew Chen",
-      "Stephen Conger"
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brian Barenbaum",
+      "Daniel Schwab"
      ]
     },
     {
@@ -33943,8 +33989,294 @@
       ""
      ],
      "a": [
+      "Zach Bowe",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
       "Vaughn Mcclelland",
       "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brian Barenbaum",
+      "Daniel Schwab"
      ]
     }
    ]
@@ -35524,7 +35856,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T02:16:32.137Z";
+  DATA.meta.asOf = "2026-10-18T13:04:50.785Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
