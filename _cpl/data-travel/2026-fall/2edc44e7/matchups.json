@@ -497,9 +497,9 @@
       "weekNumber": 9,
       "homeTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 581,
+      "awayPoints": 626,
+      "endResult": "away",
       "scheduledTime": "2026-10-17T14:00:00",
       "homeName": "Stelton Sports",
       "awayName": "Jersey Pickleball Club"

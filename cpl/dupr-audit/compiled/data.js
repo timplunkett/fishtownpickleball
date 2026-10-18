@@ -1812,6 +1812,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Ashus Mahmood",
+   "playerId": "7ba6d2e2-7031-475c-a6aa-5a9bc12576d3",
+   "team": "Monroe",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Ashwin Korde",
    "playerId": "f9f521ee-5f27-4f61-b4e0-4e0b9ad09aee",
    "team": "Bounce Philly",

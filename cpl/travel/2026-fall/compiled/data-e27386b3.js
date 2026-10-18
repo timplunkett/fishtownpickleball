@@ -10694,7 +10694,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 426,
+   "leagueRank": 427,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 425,
+   "leagueRank": 426,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10897,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 427,
+   "leagueRank": 428,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -62516,8 +62516,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meggie Hodgson",
+      "William Waggenspack"
      ],
      "a": [
       "Halimah Maideen",
@@ -62527,8 +62527,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thuy Le",
+      "Joseph Gronczewski"
      ],
      "a": [
       "Sabiha Kermalli",
@@ -62538,8 +62538,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Evelyn Geating",
+      "Grady Craig"
      ],
      "a": [
       "Suzane Sullivan",
@@ -62549,8 +62549,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meg Kelly",
+      "Brad De Jesus"
      ],
      "a": [
       "Robin Pagotto",
@@ -62560,8 +62560,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Thuy Le",
+      "Lisa Dinh"
      ],
      "a": [
       "Halimah Maideen",
@@ -62571,8 +62571,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meggie Hodgson",
+      "Meg Kelly"
      ],
      "a": [
       "Suzane Sullivan",
@@ -62582,8 +62582,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derek Lombardi",
+      "Brad De Jesus"
      ],
      "a": [
       "Marcus Burritt",
@@ -62593,8 +62593,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Grady Craig",
+      "William Waggenspack"
      ],
      "a": [
       "Adam Werwie",
@@ -62604,129 +62604,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Robin Pagotto",
-      "Marcus Burritt"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Halimah Maideen",
-      "Adam Werwie"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Sabiha Kermalli",
-      "Victor Salicetti"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzane Sullivan",
-      "Howie Knudson"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Halimah Maideen",
-      "Sabiha Kermalli"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzane Sullivan",
-      "Diahann Ouly"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Marcus Burritt",
-      "Peter Cao"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Adam Werwie",
-      "Victor Salicetti"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Halimah Maideen",
-      "Howie Knudson"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Sabiha Kermalli",
-      "Adam Werwie"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Suzane Sullivan",
-      "Peter Cao"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
+      "Thuy Le",
+      "Derek Lombardi"
      ],
      "a": [
       "Robin Pagotto",
@@ -62734,10 +62613,131 @@
      ]
     },
     {
+     "t": "mixed",
+     "h": [
+      "Meggie Hodgson",
+      "Grady Craig"
+     ],
+     "a": [
+      "Halimah Maideen",
+      "Adam Werwie"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Evelyn Geating",
+      "William Waggenspack"
+     ],
+     "a": [
+      "Sabiha Kermalli",
+      "Victor Salicetti"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Meg Kelly",
+      "Joseph Gronczewski"
+     ],
+     "a": [
+      "Suzane Sullivan",
+      "Howie Knudson"
+     ]
+    },
+    {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meggie Hodgson",
+      "Evelyn Geating"
+     ],
+     "a": [
+      "Halimah Maideen",
+      "Sabiha Kermalli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Meg Kelly",
+      "Lisa Dinh"
+     ],
+     "a": [
+      "Suzane Sullivan",
+      "Diahann Ouly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Derek Lombardi",
+      "Joseph Gronczewski"
+     ],
+     "a": [
+      "Marcus Burritt",
+      "Peter Cao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Grady Craig",
+      "William Waggenspack"
+     ],
+     "a": [
+      "Adam Werwie",
+      "Victor Salicetti"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Evelyn Geating",
+      "Grady Craig"
+     ],
+     "a": [
+      "Halimah Maideen",
+      "Howie Knudson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Thuy Le",
+      "William Waggenspack"
+     ],
+     "a": [
+      "Sabiha Kermalli",
+      "Adam Werwie"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Meg Kelly",
+      "Derek Lombardi"
+     ],
+     "a": [
+      "Suzane Sullivan",
+      "Peter Cao"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Lisa Dinh",
+      "Brad De Jesus"
+     ],
+     "a": [
+      "Robin Pagotto",
+      "Marcus Burritt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Thuy Le",
+      "Lisa Dinh"
      ],
      "a": [
       "Halimah Maideen",
@@ -62747,8 +62747,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meggie Hodgson",
+      "Evelyn Geating"
      ],
      "a": [
       "Suzane Sullivan",
@@ -62758,8 +62758,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Waggenspack",
+      "Joseph Gronczewski"
      ],
      "a": [
       "Marcus Burritt",
@@ -62769,8 +62769,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derek Lombardi",
+      "Brad De Jesus"
      ],
      "a": [
       "Adam Werwie",
@@ -62780,8 +62780,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Thuy Le",
+      "Joseph Gronczewski"
      ],
      "a": [
       "Diahann Ouly",
@@ -62791,8 +62791,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Meggie Hodgson",
+      "Grady Craig"
      ],
      "a": [
       "Halimah Maideen",
@@ -62802,8 +62802,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Dinh",
+      "Brad De Jesus"
      ],
      "a": [
       "Suzane Sullivan",
@@ -62813,8 +62813,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Evelyn Geating",
+      "Derek Lombardi"
      ],
      "a": [
       "Sabiha Kermalli",
@@ -62824,8 +62824,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Meggie Hodgson",
+      "Meg Kelly"
      ],
      "a": [
       "Halimah Maideen",
@@ -62835,8 +62835,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Thuy Le",
+      "Evelyn Geating"
      ],
      "a": [
       "Suzane Sullivan",
@@ -62846,8 +62846,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Waggenspack",
+      "Joseph Gronczewski"
      ],
      "a": [
       "Marcus Burritt",
@@ -62857,8 +62857,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Grady Craig",
+      "Brad De Jesus"
      ],
      "a": [
       "Adam Werwie",
@@ -65178,6 +65178,7 @@
   "Steve Nuguid": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
   "Azka Rahman": "7c56ac03-eed6-45ec-af77-f1cf413ada9a",
   "John Dick": "a16c6053-9417-4888-ab5d-7c08b327c117",
+  "Nikhil Sachdeva": "aa811676-fda4-47ba-81a9-3a0feb35cc6a",
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
   "Jennalee Fede": "d043b0ad-d33b-4f58-b605-709246b23c11",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
@@ -65588,6 +65589,14 @@
    "playerId": "a791b8f6-0e4e-4f6c-afdf-48fa30ef9069",
    "gender": "Female",
    "team": "PickleRage Union County Net Ninjas",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nikhil Sachdeva",
+   "playerId": "aa811676-fda4-47ba-81a9-3a0feb35cc6a",
+   "gender": "Male",
+   "team": "Bounce Philly",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -66069,7 +66078,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T02:14:27.846Z";
+  DATA.meta.asOf = "2026-10-18T10:07:49.097Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
