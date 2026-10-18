@@ -6141,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 235,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 239,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6199,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -35348,6 +35348,7 @@
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
+  "Danielle Mironova": "87358255-41e8-42ed-a7bd-97cf151f43c8",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
@@ -35691,6 +35692,14 @@
    "outsideSub": false
   },
   {
+   "name": "Danielle Mironova",
+   "playerId": "87358255-41e8-42ed-a7bd-97cf151f43c8",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Lauren Mammano",
    "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
    "gender": "Female",
@@ -35991,7 +36000,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T15:49:52.031Z";
+  DATA.meta.asOf = "2026-10-18T19:55:24.256Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

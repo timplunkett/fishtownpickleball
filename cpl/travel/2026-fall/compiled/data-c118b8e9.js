@@ -8470,6 +8470,93 @@
    "playerId": "f59307d0-0495-421c-8cee-28c2e2b56bcf"
   },
   {
+   "name": "Lionell Matthews",
+   "gender": "Male",
+   "team": "Monroe",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 310,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "331d44ad-9004-4801-9978-45938dc3272d"
+  },
+  {
+   "name": "Xhulio Kola",
+   "gender": "Male",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 305,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "765b48a2-1800-4796-9b6e-39f78b3dfe8c"
+  },
+  {
+   "name": "Shawn Mayer",
+   "gender": "Male",
+   "team": "Monroe",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 311,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "af3ce205-4f9a-4382-8128-4a20fe26737b"
+  },
+  {
    "name": "Nitin Chawke",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
@@ -52181,7 +52268,409 @@
    "home": "Pickleball HQ",
    "away": "Monroe",
    "time": "2026-10-20T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Stephen Fredericksen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uttam Purohit",
+      "Shawn Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lionell Matthews",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Stephen Fredericksen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uttam Purohit",
+      "Shawn Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lionell Matthews",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Cory Mintz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Shawn Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Lionell Matthews"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Fredericksen",
+      "Uttam Purohit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Cory Mintz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Shawn Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Lionell Matthews"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Fredericksen",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Uttam Purohit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Gold",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Fredericksen",
+      "Cory Mintz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uttam Purohit",
+      "Cory Mintz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Michael Dombrowiecki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Fredericksen",
+      "Lionell Matthews"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Uttam Purohit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Shawn Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Lionell Matthews"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cory Mintz",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Dombrowiecki",
+      "Uttam Purohit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Shawn Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Rosengarten",
+      "Lionell Matthews"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cory Mintz",
+      "Shawn Mayer"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -52213,7 +52702,393 @@
    "home": "Home Court",
    "away": "Montville",
    "time": "2026-10-20T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "Umang Pathak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xhulio Kola",
+      "Jesse Mynahan"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Meet Thakkar",
+      "Bill Olderman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandeep Malhotra",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "Jesse Mynahan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bill Olderman",
+      "Xhulio Kola"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Manuzza",
+      "Cesar Santamaria-Aranda"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandeep Malhotra",
+      "Umang Pathak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xhulio Kola",
+      "Shalin Rawal"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Manuzza",
+      "Umang Pathak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cesar Santamaria-Aranda",
+      "Meet Thakkar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandeep Malhotra",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "John Manuzza"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xhulio Kola",
+      "Umang Pathak"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bill Olderman",
+      "Cesar Santamaria-Aranda"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Tsang",
+      "Meet Thakkar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Umang Pathak",
+      "Shalin Rawal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xhulio Kola",
+      "Sandeep Malhotra"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jesse Mynahan",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Meet Thakkar",
+      "Bill Olderman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "John Manuzza"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Umang Pathak",
+      "Bill Olderman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Xhulio Kola",
+      "Cesar Santamaria-Aranda"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandeep Malhotra",
+      "Meet Thakkar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "Cesar Santamaria-Aranda"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Manuzza",
+      "Umang Pathak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jesse Mynahan",
+      "Xhulio Kola"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Meet Thakkar",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shalin Rawal",
+      "Xhulio Kola"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandeep Malhotra",
+      "Umang Pathak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jesse Mynahan",
+      "Brandon Tsang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Manuzza",
+      "Cesar Santamaria-Aranda"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -52471,14 +53346,11 @@
   "Sean Hynson": "1a802777-6241-4a14-8370-126b8bf5d3f9",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
-  "Lionell Matthews": "331d44ad-9004-4801-9978-45938dc3272d",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
-  "Xhulio Kola": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Nirav Solanki": "938658e5-f3f0-4597-8d1b-8d65a9378673",
-  "Shawn Mayer": "af3ce205-4f9a-4382-8128-4a20fe26737b",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
   "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
@@ -53073,7 +53945,7 @@
   "matchesPlayed": 74,
   "provisionalMatches": 1,
   "weeks": "1-8",
-  "totalPlayers": 299,
+  "totalPlayers": 302,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -53201,7 +54073,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-17T14:43:48.350Z";
+  DATA.meta.asOf = "2026-10-18T19:56:27.860Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

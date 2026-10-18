@@ -9917,8 +9917,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Ballers Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -9944,8 +9944,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Ballers Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

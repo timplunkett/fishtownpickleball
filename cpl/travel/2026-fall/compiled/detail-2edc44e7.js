@@ -110,7 +110,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.3,
     "confidence": 59,
@@ -232,7 +232,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.3,
     "confidence": 52,
@@ -277,7 +277,7 @@
   "ratingHistory": [
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.5,
     "confidence": 53,
@@ -322,7 +322,7 @@
   "ratingHistory": [
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 5.3,
     "confidence": 52,
@@ -552,7 +552,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 4.7,
     "confidence": 87,
@@ -780,7 +780,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.9,
     "confidence": 84,
@@ -914,7 +914,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.6,
     "confidence": 78,
@@ -1151,7 +1151,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.3,
     "confidence": 86,
@@ -1314,7 +1314,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 4.1,
     "confidence": 74,
@@ -1486,7 +1486,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.8,
     "confidence": 80,
@@ -1697,7 +1697,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.4,
     "confidence": 84,
@@ -1920,7 +1920,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.6,
     "confidence": 84,
@@ -2012,7 +2012,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.2,
     "confidence": 61,
@@ -2101,7 +2101,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.8,
     "confidence": 62,
@@ -2168,7 +2168,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.3,
     "confidence": 62,
@@ -2425,7 +2425,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.2,
     "confidence": 88,
@@ -2562,7 +2562,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.6,
     "confidence": 70,
@@ -2656,7 +2656,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.4,
     "confidence": 71,
@@ -2701,7 +2701,7 @@
   "ratingHistory": [
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.9,
     "confidence": 55,
@@ -2768,7 +2768,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.8,
     "confidence": 56,
@@ -2879,7 +2879,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.5,
     "confidence": 55,
@@ -3136,7 +3136,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.7,
     "confidence": 88,
@@ -3415,7 +3415,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.8,
     "confidence": 85,
@@ -3626,7 +3626,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.3,
     "confidence": 85,
@@ -3762,7 +3762,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.3,
     "confidence": 74,
@@ -3847,7 +3847,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.3,
     "confidence": 52,
@@ -4093,7 +4093,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.5,
     "confidence": 87,
@@ -4306,7 +4306,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.6,
     "confidence": 82,
@@ -4463,7 +4463,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.3,
     "confidence": 75,
@@ -4601,7 +4601,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.4,
     "confidence": 73,
@@ -4806,7 +4806,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.9,
     "confidence": 82,
@@ -4947,7 +4947,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3,
     "confidence": 72,
@@ -5157,7 +5157,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.6,
     "confidence": 84,
@@ -5439,7 +5439,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.2,
     "confidence": 87,
@@ -5652,7 +5652,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.3,
     "confidence": 78,
@@ -5869,7 +5869,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.1,
     "confidence": 83,
@@ -6076,7 +6076,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.3,
     "confidence": 79,
@@ -6205,7 +6205,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.6,
     "confidence": 71,
@@ -6431,7 +6431,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.4,
     "confidence": 85,
@@ -6621,7 +6621,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 3.8,
     "confidence": 81,
@@ -6924,7 +6924,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.7,
     "confidence": 90,
@@ -7215,7 +7215,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.4,
     "confidence": 88,
@@ -7509,7 +7509,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.5,
     "confidence": 89,
@@ -7602,7 +7602,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 58,
@@ -7805,7 +7805,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.2,
     "confidence": 82,
@@ -7983,7 +7983,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.2,
     "confidence": 79,
@@ -8238,7 +8238,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.9,
     "confidence": 86,
@@ -8526,7 +8526,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.3,
     "confidence": 89,
@@ -8847,7 +8847,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.3,
     "confidence": 90,
@@ -9136,7 +9136,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.9,
     "confidence": 88,
@@ -9349,7 +9349,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 83,
@@ -9598,7 +9598,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.5,
     "confidence": 85,
@@ -9841,7 +9841,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.4,
     "confidence": 85,
@@ -10123,7 +10123,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.3,
     "confidence": 88,
@@ -10411,7 +10411,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.9,
     "confidence": 89,
@@ -10689,7 +10689,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.3,
     "confidence": 87,
@@ -10935,7 +10935,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.7,
     "confidence": 84,
@@ -11098,7 +11098,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 75,
@@ -11286,7 +11286,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.1,
     "confidence": 84,
@@ -11350,7 +11350,7 @@
   "ratingHistory": [
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.8,
     "confidence": 57,
@@ -11428,7 +11428,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1,
     "confidence": 54,
@@ -11506,7 +11506,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 53,
@@ -11584,7 +11584,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.9,
     "confidence": 51,
@@ -11662,7 +11662,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.2,
     "confidence": 55,
@@ -11773,7 +11773,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.3,
     "confidence": 56,
@@ -12003,7 +12003,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 85,
@@ -12242,7 +12242,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.8,
     "confidence": 83,
@@ -12551,7 +12551,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0,
     "confidence": 90,
@@ -12759,7 +12759,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 84,
@@ -13025,7 +13025,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 87,
@@ -13209,7 +13209,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.8,
     "confidence": 82,
@@ -13392,7 +13392,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.7,
     "confidence": 76,
@@ -13533,7 +13533,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.2,
     "confidence": 60,
@@ -13589,7 +13589,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2,
     "confidence": 62,
@@ -13754,7 +13754,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.8,
     "confidence": 80,
@@ -14036,7 +14036,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.3,
     "confidence": 88,
@@ -14243,7 +14243,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.9,
     "confidence": 84,
@@ -14411,7 +14411,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.2,
     "confidence": 71,
@@ -14719,7 +14719,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.6,
     "confidence": 90,
@@ -15048,7 +15048,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.5,
     "confidence": 88,
@@ -15380,7 +15380,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.3,
     "confidence": 90,
@@ -15604,7 +15604,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1,
     "confidence": 83,
@@ -15831,7 +15831,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0,
     "confidence": 83,
@@ -15966,7 +15966,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.4,
     "confidence": 75,
@@ -16089,7 +16089,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.9,
     "confidence": 74,
@@ -16191,7 +16191,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.9,
     "confidence": 50,
@@ -16502,7 +16502,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 89,
@@ -16746,7 +16746,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.5,
     "confidence": 86,
@@ -16964,7 +16964,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.2,
     "confidence": 83,
@@ -17148,7 +17148,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.2,
     "confidence": 81,
@@ -17261,7 +17261,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.8,
     "confidence": 70,
@@ -17579,7 +17579,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 89,
@@ -17915,7 +17915,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.7,
     "confidence": 89,
@@ -18078,7 +18078,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.3,
     "confidence": 81,
@@ -18163,7 +18163,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 60,
@@ -18285,7 +18285,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.9,
     "confidence": 55,
@@ -18515,7 +18515,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.3,
     "confidence": 86,
@@ -18657,7 +18657,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.1,
     "confidence": 73,
@@ -18927,7 +18927,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.3,
     "confidence": 85,
@@ -19149,7 +19149,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.1,
     "confidence": 84,
@@ -19366,7 +19366,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1,
     "confidence": 84,
@@ -19529,7 +19529,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.4,
     "confidence": 80,
@@ -19757,7 +19757,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.8,
     "confidence": 85,
@@ -19984,7 +19984,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.6,
     "confidence": 85,
@@ -20271,7 +20271,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.8,
     "confidence": 88,
@@ -20587,7 +20587,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.2,
     "confidence": 88,
@@ -20897,7 +20897,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.5,
     "confidence": 88,
@@ -21104,7 +21104,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.3,
     "confidence": 77,
@@ -21314,7 +21314,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2,
     "confidence": 85,
@@ -21548,7 +21548,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0,
     "confidence": 83,
@@ -21662,7 +21662,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.7,
     "confidence": 55,
@@ -21751,7 +21751,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.5,
     "confidence": 56,
@@ -21818,7 +21818,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 57,
@@ -21874,7 +21874,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.3,
     "confidence": 55,
@@ -22131,7 +22131,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.2,
     "confidence": 86,
@@ -22300,7 +22300,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 2.4,
     "confidence": 76,
@@ -22483,7 +22483,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.1,
     "confidence": 79,
@@ -22599,7 +22599,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 73,
@@ -22901,7 +22901,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.8,
     "confidence": 89,
@@ -23185,7 +23185,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.4,
     "confidence": 88,
@@ -23414,7 +23414,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 84,
@@ -23674,7 +23674,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.2,
     "confidence": 85,
@@ -23842,7 +23842,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.4,
     "confidence": 79,
@@ -24004,7 +24004,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.3,
     "confidence": 79,
@@ -24133,7 +24133,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 75,
@@ -24343,7 +24343,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 84,
@@ -24512,7 +24512,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.4,
     "confidence": 73,
@@ -24776,7 +24776,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.5,
     "confidence": 86,
@@ -24949,7 +24949,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.3,
     "confidence": 78,
@@ -25150,7 +25150,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 79,
@@ -25399,7 +25399,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.7,
     "confidence": 87,
@@ -25634,7 +25634,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.8,
     "confidence": 83,
@@ -25817,7 +25817,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 76,
@@ -26043,7 +26043,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 81,
@@ -26378,7 +26378,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 90,
@@ -26657,7 +26657,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 87,
@@ -26863,7 +26863,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 82,
@@ -27074,7 +27074,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0,
     "confidence": 84,
@@ -27361,7 +27361,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 89,
@@ -27525,7 +27525,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1,
     "confidence": 71,
@@ -27615,7 +27615,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.3,
     "confidence": 71,
@@ -27917,7 +27917,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.2,
     "confidence": 89,
@@ -28050,7 +28050,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 49,
@@ -28253,7 +28253,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.8,
     "confidence": 83,
@@ -28442,7 +28442,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.1,
     "confidence": 83,
@@ -28641,7 +28641,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.6,
     "confidence": 84,
@@ -28869,7 +28869,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 84,
@@ -29112,7 +29112,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.3,
     "confidence": 81,
@@ -29274,7 +29274,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.3,
     "confidence": 78,
@@ -29430,7 +29430,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 77,
@@ -29598,7 +29598,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 73,
@@ -29862,7 +29862,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 89,
@@ -29972,7 +29972,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.5,
     "confidence": 57,
@@ -30050,7 +30050,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1,
     "confidence": 59,
@@ -30117,7 +30117,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1,
     "confidence": 61,
@@ -30233,7 +30233,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.4,
     "confidence": 77,
@@ -30410,7 +30410,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.9,
     "confidence": 83,
@@ -30605,7 +30605,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.7,
     "confidence": 69,
@@ -30880,7 +30880,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.9,
     "confidence": 89,
@@ -31097,7 +31097,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.8,
     "confidence": 79,
@@ -31340,7 +31340,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.4,
     "confidence": 86,
@@ -31464,7 +31464,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.1,
     "confidence": 74,
@@ -31531,7 +31531,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 52,
@@ -31614,7 +31614,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.1,
     "confidence": 71,
@@ -31840,7 +31840,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.2,
     "confidence": 84,
@@ -31981,7 +31981,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 70,
@@ -32224,7 +32224,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.2,
     "confidence": 84,
@@ -32538,7 +32538,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.6,
     "confidence": 89,
@@ -32822,7 +32822,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.9,
     "confidence": 87,
@@ -33029,7 +33029,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.5,
     "confidence": 75,
@@ -33310,7 +33310,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.1,
     "confidence": 87,
@@ -33532,7 +33532,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.7,
     "confidence": 81,
@@ -33711,7 +33711,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.5,
     "confidence": 77,
@@ -33922,7 +33922,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.6,
     "confidence": 83,
@@ -34150,7 +34150,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.9,
     "confidence": 83,
@@ -34437,7 +34437,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 87,
@@ -34742,7 +34742,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1,
     "confidence": 89,
@@ -34940,7 +34940,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.9,
     "confidence": 79,
@@ -35129,7 +35129,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.8,
     "confidence": 78,
@@ -35366,7 +35366,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -3.3,
     "confidence": 86,
@@ -35649,7 +35649,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.3,
     "confidence": 86,
@@ -35899,7 +35899,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.5,
     "confidence": 86,
@@ -36052,7 +36052,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 44,
@@ -36108,7 +36108,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.7,
     "confidence": 62,
@@ -36197,7 +36197,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0,
     "confidence": 62,
@@ -36308,7 +36308,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 1.3,
     "confidence": 60,
@@ -36402,7 +36402,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.5,
     "confidence": 71,
@@ -36563,7 +36563,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.1,
     "confidence": 76,
@@ -36811,7 +36811,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.4,
     "confidence": 85,
@@ -37006,7 +37006,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 72,
@@ -37297,7 +37297,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.6,
     "confidence": 90,
@@ -37609,7 +37609,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.6,
     "confidence": 87,
@@ -37865,7 +37865,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.8,
     "confidence": 82,
@@ -38119,7 +38119,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.1,
     "confidence": 87,
@@ -38207,7 +38207,7 @@
   "ratingHistory": [
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.1,
     "confidence": 52,
@@ -38274,7 +38274,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0,
     "confidence": 52,
@@ -38390,7 +38390,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.2,
     "confidence": 67,
@@ -38446,7 +38446,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.9,
     "confidence": 53,
@@ -38676,7 +38676,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.7,
     "confidence": 87,
@@ -38943,7 +38943,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.8,
     "confidence": 83,
@@ -39057,7 +39057,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.5,
     "confidence": 69,
@@ -39256,7 +39256,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 82,
@@ -39511,7 +39511,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.5,
     "confidence": 85,
@@ -39587,7 +39587,7 @@
   "ratingHistory": [
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.4,
     "confidence": 53,
@@ -39698,7 +39698,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.1,
     "confidence": 57,
@@ -39765,7 +39765,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.9,
     "confidence": 55,
@@ -40022,7 +40022,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2,
     "confidence": 85,
@@ -40304,7 +40304,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -3.3,
     "confidence": 87,
@@ -40506,7 +40506,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.4,
     "confidence": 79,
@@ -40676,7 +40676,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.3,
     "confidence": 83,
@@ -40893,7 +40893,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.5,
     "confidence": 84,
@@ -41152,7 +41152,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.9,
     "confidence": 87,
@@ -41256,7 +41256,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.1,
     "confidence": 58,
@@ -41405,7 +41405,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 74,
@@ -41556,7 +41556,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.7,
     "confidence": 73,
@@ -41820,7 +41820,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -3,
     "confidence": 87,
@@ -41995,7 +41995,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": 0.4,
     "confidence": 61,
@@ -42263,7 +42263,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -3.5,
     "confidence": 88,
@@ -42525,7 +42525,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.7,
     "confidence": 87,
@@ -42786,7 +42786,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -4.3,
     "confidence": 81,
@@ -43014,7 +43014,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2,
     "confidence": 84,
@@ -43296,7 +43296,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -4.2,
     "confidence": 89,
@@ -43412,7 +43412,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.8,
     "confidence": 52,
@@ -43468,7 +43468,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 56,
@@ -43557,7 +43557,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.9,
     "confidence": 52,
@@ -43646,7 +43646,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -0.5,
     "confidence": 55,
@@ -43713,7 +43713,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.2,
     "confidence": 50,
@@ -43824,7 +43824,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1.8,
     "confidence": 55,
@@ -43913,7 +43913,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.7,
     "confidence": 50,
@@ -44024,7 +44024,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -1,
     "confidence": 54,
@@ -44091,7 +44091,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -3.3,
     "confidence": 46,
@@ -44169,7 +44169,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -3.1,
     "confidence": 62,
@@ -44236,7 +44236,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.7,
     "confidence": 56,
@@ -44347,7 +44347,7 @@
    },
    {
     "week": 9,
-    "seq": 11,
+    "seq": 12,
     "label": "9",
     "rating": -2.3,
     "confidence": 55,

@@ -34300,8 +34300,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Ken Velarde"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34315,8 +34315,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Eric Jiang"
      ],
      "a": [
       "Jonathan Ksiezopolski",
@@ -34330,8 +34330,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Natividad",
+      "Drew Youssef"
      ],
      "a": [
       "Ivan Rios",
@@ -34341,8 +34341,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Emil Pescatore",
+      "Zachary Lisojo"
      ],
      "a": [
       "Abhishekh Mehra",
@@ -34352,8 +34352,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Anthony Bonaventura"
      ],
      "a": [
       "Julius Degen",
@@ -34363,8 +34363,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Drew Youssef",
+      "Ken Velarde"
      ],
      "a": [
       "Jonathan Ksiezopolski",
@@ -34374,8 +34374,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Natividad",
+      "Kevin Sun"
      ],
      "a": [
       "Ivan Rios",
@@ -34385,8 +34385,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lisojo",
+      "Emil Pescatore"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34400,8 +34400,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Zachary Lisojo"
      ],
      "a": [
       "Nirav Solanki",
@@ -34415,8 +34415,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Natividad",
+      "Ken Velarde"
      ],
      "a": [
       "Julius Degen",
@@ -34426,8 +34426,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Daniel Gallegos"
      ],
      "a": [
       "Jonathan Ksiezopolski",
@@ -34437,8 +34437,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Drew Youssef"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34452,8 +34452,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Ken Velarde"
      ],
      "a": [
       "Julius Degen",
@@ -34463,8 +34463,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lisojo",
+      "Anthony Bonaventura"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34478,8 +34478,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Emil Pescatore",
+      "Drew Youssef"
      ],
      "a": [
       "Christopher Venuto",
@@ -34489,8 +34489,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Kevin Sun"
      ],
      "a": [
       "Nirav Solanki",
@@ -34504,8 +34504,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Anthony Bonaventura"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34519,8 +34519,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lisojo",
+      "Ken Velarde"
      ],
      "a": [
       "Rahul Purwah",
@@ -34530,8 +34530,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Emil Pescatore",
+      "Drew Youssef"
      ],
      "a": [
       "Christopher Venuto",
@@ -34541,8 +34541,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Christopher Natividad"
      ],
      "a": [
       "Julius Degen",
@@ -34556,8 +34556,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Jiang",
+      "Kevin Sun"
      ],
      "a": [
       "Abhishekh Mehra",
@@ -34567,8 +34567,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Natividad",
+      "Emil Pescatore"
      ],
      "a": [
       "Rahul Purwah",
@@ -34578,8 +34578,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Daniel Gallegos"
      ],
      "a": [
       "Christopher Venuto",
@@ -34593,8 +34593,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Drew Youssef",
+      "Zachary Lisojo"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34608,8 +34608,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Emil Pescatore",
+      "Christopher Natividad"
      ],
      "a": [
       "Ivan Rios",
@@ -34619,8 +34619,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Bonaventura",
+      "Ken Velarde"
      ],
      "a": [
       "Abhishekh Mehra",
@@ -34634,8 +34634,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lisojo",
+      "Daniel Gallegos"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34649,8 +34649,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Eric Jiang"
      ],
      "a": [
       "Rahul Purwah",
@@ -34660,8 +34660,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Velarde",
+      "Christopher Natividad"
      ],
      "a": [
       "Rahul Purwah",
@@ -34671,8 +34671,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Gallegos",
+      "Emil Pescatore"
      ],
      "a": [
       "Jonathan Ksiezopolski",
@@ -34682,8 +34682,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lisojo",
+      "Eric Jiang"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -34697,8 +34697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sun",
+      "Drew Youssef"
      ],
      "a": [
       "Ivan Rios",
@@ -35864,7 +35864,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T15:10:29.872Z";
+  DATA.meta.asOf = "2026-10-18T19:56:05.244Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

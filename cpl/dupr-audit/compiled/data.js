@@ -4185,6 +4185,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Dan Sweetman",
+   "playerId": "2f212831-0629-494e-90b0-d16fc59fc666",
+   "team": "Picklr Fair Lawn",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Dan Yang",
    "playerId": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
    "team": "PickleRage Union County",
@@ -7318,6 +7325,13 @@ window.DUPR_AUDIT = {
    "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",
    "team": "ACE Moorestown",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Jack Cappello",
+   "playerId": "0af54bea-0457-4869-a92b-5cd95f184477",
+   "team": "Pickleball Palace Black",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {
@@ -15012,6 +15026,13 @@ window.DUPR_AUDIT = {
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
    "gender": "Female"
+  },
+  {
+   "name": "Raaj Singh",
+   "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
+   "team": "Ballers Philly",
+   "slug": "a1413f3d",
+   "gender": "Male"
   },
   {
    "name": "Rachael Nissim",

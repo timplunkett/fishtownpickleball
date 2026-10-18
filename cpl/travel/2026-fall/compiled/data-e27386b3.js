@@ -61382,8 +61382,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Froilan Sunga"
      ],
      "a": [
       "Emily Simpson",
@@ -61393,8 +61393,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Paul Mattessich"
      ],
      "a": [
       "Esterlina Wiest",
@@ -61404,8 +61404,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robynn Reeder",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Jane Pascua",
@@ -61415,8 +61415,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Papa Aggrey"
      ],
      "a": [
       "Maridel Ablaza",
@@ -61426,8 +61426,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Robynn Reeder",
+      "Brittany Riccitiello"
      ],
      "a": [
       "Esterlina Wiest",
@@ -61437,8 +61437,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Radhika Sud"
      ],
      "a": [
       "Lanz Santos",
@@ -61448,8 +61448,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Miles Townsend",
+      "Froilan Sunga"
      ],
      "a": [
       "Raymond Duong",
@@ -61459,8 +61459,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Prasad Mittapalli",
+      "Papa Aggrey"
      ],
      "a": [
       "Ismael Hernandez",
@@ -61470,8 +61470,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robynn Reeder",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Esterlina Wiest",
@@ -61481,8 +61481,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Papa Aggrey"
      ],
      "a": [
       "Katelyn Carretas",
@@ -61492,8 +61492,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Paul Mattessich"
      ],
      "a": [
       "Emily Simpson",
@@ -61503,8 +61503,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Miles Townsend"
      ],
      "a": [
       "Maridel Ablaza",
@@ -61514,8 +61514,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Robynn Reeder"
      ],
      "a": [
       "Jane Pascua",
@@ -61525,8 +61525,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Hailee Kurlander"
      ],
      "a": [
       "Maridel Ablaza",
@@ -61536,8 +61536,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Prasad Mittapalli",
+      "Froilan Sunga"
      ],
      "a": [
       "Raymond Duong",
@@ -61547,8 +61547,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Papa Aggrey",
+      "Miles Townsend"
      ],
      "a": [
       "Jimmy Duong",
@@ -61558,8 +61558,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Froilan Sunga"
      ],
      "a": [
       "Katelyn Carretas",
@@ -61569,8 +61569,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Jane Pascua",
@@ -61580,8 +61580,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Papa Aggrey"
      ],
      "a": [
       "Esterlina Wiest",
@@ -61591,8 +61591,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robynn Reeder",
+      "Paul Mattessich"
      ],
      "a": [
       "Lanz Santos",
@@ -61602,8 +61602,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Brittany Riccitiello"
      ],
      "a": [
       "Esterlina Wiest",
@@ -61613,8 +61613,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Radhika Sud"
      ],
      "a": [
       "Lanz Santos",
@@ -61624,8 +61624,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Mattessich",
+      "Froilan Sunga"
      ],
      "a": [
       "Raymond Duong",
@@ -61635,8 +61635,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Miles Townsend",
+      "Papa Aggrey"
      ],
      "a": [
       "Jimmy Duong",
@@ -61646,8 +61646,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Robynn Reeder",
+      "Paul Mattessich"
      ],
      "a": [
       "Jane Pascua",
@@ -61657,8 +61657,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Radhika Sud",
+      "Miles Townsend"
      ],
      "a": [
       "Katelyn Carretas",
@@ -61668,8 +61668,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hailee Kurlander",
+      "Froilan Sunga"
      ],
      "a": [
       "Emily Simpson",
@@ -61679,8 +61679,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Riccitiello",
+      "Prasad Mittapalli"
      ],
      "a": [
       "Esterlina Wiest",
@@ -61690,8 +61690,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Robynn Reeder",
+      "Radhika Sud"
      ],
      "a": [
       "Jane Pascua",
@@ -61701,8 +61701,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Searby",
+      "Hailee Kurlander"
      ],
      "a": [
       "Maridel Ablaza",
@@ -61712,8 +61712,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Prasad Mittapalli",
+      "Paul Mattessich"
      ],
      "a": [
       "Raymond Duong",
@@ -61723,8 +61723,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Froilan Sunga",
+      "Miles Townsend"
      ],
      "a": [
       "Taylor Newell",
@@ -66078,7 +66078,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T10:07:49.097Z";
+  DATA.meta.asOf = "2026-10-18T19:53:59.379Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

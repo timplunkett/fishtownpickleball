@@ -509,9 +509,9 @@
       "weekNumber": 9,
       "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-10-18T11:00:00",
       "homeName": "Flemington Blue",
       "awayName": "Jersey Pickleball Club"

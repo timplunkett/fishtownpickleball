@@ -1339,8 +1339,8 @@
    "name": "Raaj Singh",
    "gender": "Male",
    "team": "Ballers Philly",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 11,
@@ -36739,9 +36739,7 @@
      ]
     }
    ],
-   "subs": [
-    "Raaj Singh"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -44639,9 +44637,7 @@
      ]
     }
    ],
-   "subs": [
-    "Raaj Singh"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -66982,14 +66978,6 @@
    "outsideSub": true
   },
   {
-   "name": "Raaj Singh",
-   "playerId": "accc50ff-13a1-4349-9c6f-b725f2486931",
-   "gender": "Male",
-   "team": "Ballers Philly",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Ian Karr",
    "playerId": "acf05b71-fa40-494b-adca-d3c411d484a6",
    "gender": "Male",
@@ -67394,7 +67382,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T10:08:59.241Z";
+  DATA.meta.asOf = "2026-10-18T19:55:09.333Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
