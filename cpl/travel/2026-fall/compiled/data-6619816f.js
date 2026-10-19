@@ -6141,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 239,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6199,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 242,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -35348,7 +35348,10 @@
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
+  "Charles Wood": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
   "Danielle Mironova": "87358255-41e8-42ed-a7bd-97cf151f43c8",
+  "Molly Mae Almora": "8be66311-db78-4041-ae94-42ca6f53d77d",
+  "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Vivek Kumar": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
@@ -35676,6 +35679,14 @@
    "outsideSub": true
   },
   {
+   "name": "Charles Wood",
+   "playerId": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Vince Abate",
    "playerId": "8257200c-7448-4527-92df-436d7bb18cac",
    "gender": "Male",
@@ -35700,6 +35711,14 @@
    "outsideSub": true
   },
   {
+   "name": "Molly Mae Almora",
+   "playerId": "8be66311-db78-4041-ae94-42ca6f53d77d",
+   "gender": "Female",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Lauren Mammano",
    "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
    "gender": "Female",
@@ -35714,6 +35733,14 @@
    "team": "Dill Dinkers Hatboro Aces",
    "isCaptain": false,
    "outsideSub": false
+  },
+  {
+   "name": "Alex Wong",
+   "playerId": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
   },
   {
    "name": "Eugene Zaslavsky",
@@ -36000,7 +36027,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-18T19:55:24.256Z";
+  DATA.meta.asOf = "2026-10-19T02:31:42.128Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

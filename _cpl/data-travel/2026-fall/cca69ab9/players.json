@@ -481,7 +481,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 220
+      "ranking": 222
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -1263,7 +1263,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 219
+      "ranking": 221
     },
     {
       "playerId": "40abb6aa-9678-431b-8b5c-6f140f00c5bc",
@@ -1381,6 +1381,29 @@
       "ranking": 38
     },
     {
+      "playerId": "44a0a4da-e7cb-4037-9018-97544dfce248",
+      "firstName": "Grant",
+      "lastName": "Hanak",
+      "gender": "Male",
+      "dupr": "JJLD44",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 215
+    },
+    {
       "playerId": "44bbc794-d40d-4fbf-a59e-ddb785496f21",
       "firstName": "Kevin",
       "lastName": "Lin",
@@ -1424,7 +1447,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 214
+      "ranking": 216
     },
     {
       "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
@@ -1562,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 215
+      "ranking": 217
     },
     {
       "playerId": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
@@ -2988,7 +3011,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 218
+      "ranking": 220
     },
     {
       "playerId": "9638b474-ad68-4eff-a5a5-6c40db6ed4bb",
@@ -3083,6 +3106,29 @@
       "ranking": 63
     },
     {
+      "playerId": "9a5cd6d0-9be5-4d6f-a815-b1eb5844042b",
+      "firstName": "Brock",
+      "lastName": "Hanak",
+      "gender": "Male",
+      "dupr": "KXG59Y",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 214
+    },
+    {
       "playerId": "9bf7b8ab-4dfa-442b-be12-77580a5ea1dc",
       "firstName": "Darren",
       "lastName": "Saks",
@@ -3103,7 +3149,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 216
+      "ranking": 218
     },
     {
       "playerId": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
@@ -3310,7 +3356,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 217
+      "ranking": 219
     },
     {
       "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
@@ -4667,7 +4713,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 221
+      "ranking": 223
     },
     {
       "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",

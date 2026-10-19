@@ -965,6 +965,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Amy Kienzle",
+   "playerId": "626ddb03-dc2f-4bf5-ba36-0119e6e2b557",
+   "team": "Bounce Malvern",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Amy Ly",
    "playerId": "4713d707-405c-4342-be20-dc4e2b47b544",
    "team": "Bounce Tempest",
@@ -9957,6 +9964,13 @@ window.DUPR_AUDIT = {
    "playerId": "c7f445ec-7b49-499b-a617-fcd7431ce02d",
    "team": "Montville",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Kapil Khanna",
+   "playerId": "3c3bad12-ae4f-4bbc-8b16-31468717f50a",
+   "team": "Pickleball Kingdom Hamilton",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {

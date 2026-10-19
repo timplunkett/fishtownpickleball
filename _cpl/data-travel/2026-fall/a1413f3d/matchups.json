@@ -1097,9 +1097,9 @@
       "weekNumber": 8,
       "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "awayTeamId": "23c4328c-8c32-4bd9-90bc-8b490b0acdf2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 629,
+      "awayPoints": 586,
+      "endResult": "home",
       "scheduledTime": "2026-10-18T12:00:00",
       "homeName": "Pickleball Kingdom Tinton Falls",
       "awayName": "Pickle Place"

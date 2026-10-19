@@ -711,8 +711,8 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -738,8 +738,8 @@
     "teamRes": "W",
     "teamGW": 28,
     "teamGL": 4,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hamilton"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
