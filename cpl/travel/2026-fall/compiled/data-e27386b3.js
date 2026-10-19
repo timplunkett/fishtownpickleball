@@ -10607,7 +10607,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 410,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10636,7 +10636,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 402,
+   "leagueRank": 403,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10665,7 +10665,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 407,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10694,7 +10694,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 427,
+   "leagueRank": 429,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10752,7 +10752,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 405,
+   "leagueRank": 406,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10781,7 +10781,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 416,
+   "leagueRank": 418,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 403,
+   "leagueRank": 404,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 409,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10897,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 426,
+   "leagueRank": 428,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10926,13 +10926,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 428,
+   "leagueRank": 430,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "9d4be34a-de39-4590-991b-65f92f947482"
+  },
+  {
+   "name": "Nikhil Sachdeva",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 423,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "aa811676-fda4-47ba-81a9-3a0feb35cc6a"
   },
   {
    "name": "Roy Dragon",
@@ -10955,7 +10984,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 396,
+   "leagueRank": 397,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10984,7 +11013,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 417,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -62620,11 +62649,15 @@
      "t": "mixed",
      "h": [
       "Evelyn Geating",
-      "Grady Craig"
+      "Nikhil Sachdeva"
      ],
      "a": [
       "Suzane Sullivan",
       "Howie Knudson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -62674,12 +62707,16 @@
     {
      "t": "male",
      "h": [
-      "Grady Craig",
+      "Nikhil Sachdeva",
       "William Waggenspack"
      ],
      "a": [
       "Adam Werwie",
       "Victor Salicetti"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -62697,11 +62734,15 @@
      "t": "mixed",
      "h": [
       "Meggie Hodgson",
-      "Grady Craig"
+      "Nikhil Sachdeva"
      ],
      "a": [
       "Halimah Maideen",
       "Adam Werwie"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -62762,23 +62803,31 @@
     {
      "t": "male",
      "h": [
-      "Grady Craig",
+      "Nikhil Sachdeva",
       "William Waggenspack"
      ],
      "a": [
       "Adam Werwie",
       "Victor Salicetti"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
       "Evelyn Geating",
-      "Grady Craig"
+      "Nikhil Sachdeva"
      ],
      "a": [
       "Halimah Maideen",
       "Howie Knudson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -62873,11 +62922,15 @@
      "t": "mixed",
      "h": [
       "Meggie Hodgson",
-      "Grady Craig"
+      "Nikhil Sachdeva"
      ],
      "a": [
       "Halimah Maideen",
       "Adam Werwie"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -62938,12 +62991,16 @@
     {
      "t": "male",
      "h": [
-      "Grady Craig",
+      "Nikhil Sachdeva",
       "Brad De Jesus"
      ],
      "a": [
       "Adam Werwie",
       "Peter Cao"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -65269,6 +65326,7 @@
   "Kathi Sheehan": "074e66af-6079-4c8e-aa69-e01f488ba5b0",
   "Jana Bradley": "076a6405-8447-43b9-b8cf-1db5d857979c",
   "Judy Brougham": "076baef0-3766-4902-a737-578d6262a38a",
+  "Jeremy Bustos": "134eacc1-b2d8-4ac1-815b-4e7ba970b019",
   "Emily Fowler": "42dcd48a-d88f-422d-8a1e-8ea74ba52440",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Mike Esfahani": "5309d94e-5f39-4cca-a25d-cba3773abe73",
@@ -65282,7 +65340,7 @@
   "Steve Nuguid": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
   "Azka Rahman": "7c56ac03-eed6-45ec-af77-f1cf413ada9a",
   "John Dick": "a16c6053-9417-4888-ab5d-7c08b327c117",
-  "Nikhil Sachdeva": "aa811676-fda4-47ba-81a9-3a0feb35cc6a",
+  "Karen Kung": "a885b861-0250-467f-a687-91b10977e7b5",
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
   "Jennalee Fede": "d043b0ad-d33b-4f58-b605-709246b23c11",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
@@ -65325,6 +65383,14 @@
    "playerId": "0a136cf6-2a64-4d8a-8acc-6d0890d72c42",
    "gender": "Female",
    "team": "Open Play",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jeremy Bustos",
+   "playerId": "134eacc1-b2d8-4ac1-815b-4e7ba970b019",
+   "gender": "Male",
+   "team": "PickleRage Union County Pandas",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -65697,6 +65763,14 @@
    "outsideSub": true
   },
   {
+   "name": "Karen Kung",
+   "playerId": "a885b861-0250-467f-a687-91b10977e7b5",
+   "gender": "Female",
+   "team": "PickleRage Union County Pandas",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Nikhil Sachdeva",
    "playerId": "aa811676-fda4-47ba-81a9-3a0feb35cc6a",
    "gender": "Male",
@@ -66045,7 +66119,7 @@
   "matchesPlayed": 84,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 397,
+  "totalPlayers": 398,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -66182,7 +66256,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T02:30:10.809Z";
+  DATA.meta.asOf = "2026-10-19T17:59:50.208Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

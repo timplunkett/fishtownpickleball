@@ -33661,11 +33661,15 @@
      "t": "male",
      "h": [
       "Lou Frignito",
-      "Mark Kilimnik"
+      "Brock Hanak"
      ],
      "a": [
       "Zach Mcgowan",
       "Derek Callihan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -33746,7 +33750,7 @@
      "t": "male",
      "h": [
       "Austin Gow",
-      "Mark Kilimnik"
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Jaco De Waal",
@@ -33826,7 +33830,7 @@
     {
      "t": "male",
      "h": [
-      "Mark Kilimnik",
+      "Vaughn Lawrence",
       "Austin Gow"
      ],
      "a": [
@@ -33882,7 +33886,7 @@
      "t": "male",
      "h": [
       "Dustin Rabinowitz",
-      "Mark Kilimnik"
+      "Ryan Rosen"
      ],
      "a": [
       "Tim Cahalin",
@@ -33967,11 +33971,15 @@
      "t": "male",
      "h": [
       "Lou Frignito",
-      "Mark Kilimnik"
+      "Grant Hanak"
      ],
      "a": [
       "Christian Lupica",
       "Jaco De Waal"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -34028,8 +34036,12 @@
       "Josh Knupp"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Tyler Arsenault"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34083,8 +34095,12 @@
       "Adriene Khon"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Matthew Chen"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34149,8 +34165,12 @@
       "Zyril Carilo"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Tyler Arsenault"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34160,8 +34180,12 @@
       "Alex Boory"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Daniel Schwab"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34237,8 +34261,12 @@
       "Alex Boory"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Sheel Motiwala"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34259,8 +34287,12 @@
       "Justin Chin"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Vaughn Mcclelland"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34292,8 +34324,12 @@
       "Alex Boory"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Vaughn Mcclelland"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34336,8 +34372,12 @@
       "Brandyn Schuchart"
      ],
      "a": [
-      "Zach Bowe",
+      "Caleb Perry-Abner",
       "Matthew Chen"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34402,14 +34442,14 @@
      "t": "male",
      "h": [
       "Anthony Bonaventura",
-      "Eric Jiang"
+      "Kevin Sun"
      ],
      "a": [
-      "Jonathan Ksiezopolski",
+      "Rohan Sabharwal",
       "Nirav Solanki"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -34438,7 +34478,7 @@
     {
      "t": "male",
      "h": [
-      "Eric Jiang",
+      "Kevin Sun",
       "Anthony Bonaventura"
      ],
      "a": [
@@ -34453,15 +34493,19 @@
       "Ken Velarde"
      ],
      "a": [
-      "Jonathan Ksiezopolski",
+      "Rohan Sabharwal",
       "Rahul Purwah"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
       "Christopher Natividad",
-      "Kevin Sun"
+      "Daniel Gallegos"
      ],
      "a": [
       "Ivan Rios",
@@ -34512,12 +34556,16 @@
     {
      "t": "male",
      "h": [
-      "Eric Jiang",
+      "Emil Pescatore",
       "Daniel Gallegos"
      ],
      "a": [
-      "Jonathan Ksiezopolski",
+      "Rohan Sabharwal",
       "Ivan Rios"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -34538,12 +34586,16 @@
     {
      "t": "male",
      "h": [
-      "Eric Jiang",
+      "Christopher Natividad",
       "Ken Velarde"
      ],
      "a": [
       "Julius Degen",
-      "Jonathan Ksiezopolski"
+      "Rohan Sabharwal"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -34621,7 +34673,11 @@
      ],
      "a": [
       "Christopher Venuto",
-      "Jonathan Ksiezopolski"
+      "Rohan Sabharwal"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -34642,12 +34698,16 @@
     {
      "t": "male",
      "h": [
-      "Eric Jiang",
+      "Ken Velarde",
       "Kevin Sun"
      ],
      "a": [
       "Abhishekh Mehra",
-      "Jonathan Ksiezopolski"
+      "Rohan Sabharwal"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -34725,18 +34785,18 @@
      ],
      "a": [
       "Nicholas Vanderveer",
-      "Jonathan Ksiezopolski"
+      "Rohan Sabharwal"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Kevin Sun",
-      "Eric Jiang"
+      "Drew Youssef"
      ],
      "a": [
       "Rahul Purwah",
@@ -34758,18 +34818,22 @@
      "t": "male",
      "h": [
       "Daniel Gallegos",
-      "Emil Pescatore"
+      "Zachary Lisojo"
      ],
      "a": [
-      "Jonathan Ksiezopolski",
+      "Rohan Sabharwal",
       "Christopher Venuto"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "Zachary Lisojo",
-      "Eric Jiang"
+      "Anthony Bonaventura",
+      "Emil Pescatore"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -35975,7 +36039,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T11:39:45.882Z";
+  DATA.meta.asOf = "2026-10-19T18:02:31.057Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -1084,6 +1084,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Andrea Smith",
+   "playerId": "1318bc01-f23f-47da-94cb-ac71b8f3e694",
+   "team": "Home Court",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Andres Cardona",
    "playerId": "3bd44a9f-5b56-4f17-bf82-071ea5041a66",
    "team": "Picklr Newark",
@@ -16040,6 +16047,13 @@ window.DUPR_AUDIT = {
    "playerId": "a89121dd-192b-486d-b39d-18ee8447d641",
    "team": "Jersey Devil",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Ryan Furman",
+   "playerId": "a89121dd-192b-486d-b39d-18ee8447d641",
+   "team": "Jersey Devil",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {

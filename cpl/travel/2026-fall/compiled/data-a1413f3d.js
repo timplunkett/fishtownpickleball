@@ -11999,7 +11999,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 464,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12057,7 +12057,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 471,
+   "leagueRank": 472,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12086,7 +12086,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 475,
+   "leagueRank": 476,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12144,7 +12144,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 466,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12202,7 +12202,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 467,
+   "leagueRank": 468,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -66848,6 +66848,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Shalin Rawal": "08530d21-2dc5-4f71-9d49-9191ec192860",
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Kelly Walker": "13c6962e-5a72-4d69-a262-5010f8390ddd",
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
@@ -66897,6 +66898,14 @@
    "playerId": "06c2eeea-6213-4e27-b45c-e9c0f89420cd",
    "gender": "Female",
    "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shalin Rawal",
+   "playerId": "08530d21-2dc5-4f71-9d49-9191ec192860",
+   "gender": "Male",
+   "team": "Montville",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -67846,7 +67855,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T02:31:23.920Z";
+  DATA.meta.asOf = "2026-10-19T18:01:16.664Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
