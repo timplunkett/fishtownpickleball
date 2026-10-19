@@ -8470,6 +8470,35 @@
    "playerId": "f59307d0-0495-421c-8cee-28c2e2b56bcf"
   },
   {
+   "name": "Sean Hynson",
+   "gender": "Male",
+   "team": "Dill Dinkers Newport",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 305,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "1a802777-6241-4a14-8370-126b8bf5d3f9"
+  },
+  {
    "name": "Lionell Matthews",
    "gender": "Male",
    "team": "Monroe",
@@ -54215,7 +54244,11 @@
      ],
      "a": [
       "Jesse Pettit",
-      "Cosme Tapia"
+      "Sean Hynson"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -54225,8 +54258,12 @@
       "Vincent Rigoglioso"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Bill Violette"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54247,8 +54284,12 @@
       "Nicholas Brow"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Jesse Pettit"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54280,8 +54321,12 @@
       "Ethan Fu"
      ],
      "a": [
-      "Cosme Tapia",
+      "Sean Hynson",
       "Bill Violette"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54292,7 +54337,11 @@
      ],
      "a": [
       "Keith Richard",
-      "Cosme Tapia"
+      "Sean Hynson"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -54313,8 +54362,12 @@
       "Vincent Rigoglioso"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Xan Hong"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54347,7 +54400,11 @@
      ],
      "a": [
       "Jesse Pettit",
-      "Cosme Tapia"
+      "Sean Hynson"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -54357,8 +54414,12 @@
       "Nicholas Brow"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Bill Violette"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54379,8 +54440,12 @@
       "Yong Kim"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Keith Richard"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54412,8 +54477,12 @@
       "Jared Rapoport"
      ],
      "a": [
-      "Cosme Tapia",
+      "Sean Hynson",
       "Bill Violette"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54423,8 +54492,12 @@
       "Jimmy Lee"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Jesse Pettit"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54446,7 +54519,11 @@
      ],
      "a": [
       "Aleks Mirkovic",
-      "Cosme Tapia"
+      "Sean Hynson"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -54468,7 +54545,11 @@
      ],
      "a": [
       "Keith Richard",
-      "Cosme Tapia"
+      "Sean Hynson"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -54489,8 +54570,12 @@
       "Jimmy Lee"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Xan Hong"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54511,8 +54596,12 @@
       "Daniel Borgia"
      ],
      "a": [
-      "David Fiscella",
+      "Simon Darlington",
       "Keith Richard"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -54523,7 +54612,11 @@
      ],
      "a": [
       "Aleks Mirkovic",
-      "Cosme Tapia"
+      "Sean Hynson"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -54923,8 +55016,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Michael Gilbert"
      ],
      "a": [
       "Shalin Rawal",
@@ -54934,8 +55027,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Robert Huntley"
      ],
      "a": [
       "John Manuzza",
@@ -54949,8 +55042,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Jacob Yoo"
      ],
      "a": [
       "Meet Thakkar",
@@ -54960,8 +55053,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Bryan Mccourt"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -54971,8 +55064,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Robert Huntley"
      ],
      "a": [
       "Shalin Rawal",
@@ -54982,8 +55075,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -54993,8 +55086,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Kevin Sheehan"
      ],
      "a": [
       "Xhulio Kola",
@@ -55008,8 +55101,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Michael Gilbert"
      ],
      "a": [
       "Jesse Mynahan",
@@ -55019,8 +55112,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Robert Huntley"
      ],
      "a": [
       "Shalin Rawal",
@@ -55030,8 +55123,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Kevin Sheehan"
      ],
      "a": [
       "Umang Pathak",
@@ -55041,8 +55134,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Marc Kunesch"
      ],
      "a": [
       "Xhulio Kola",
@@ -55056,8 +55149,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Michael Vincent"
      ],
      "a": [
       "Meet Thakkar",
@@ -55067,8 +55160,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Robert Huntley"
      ],
      "a": [
       "Shalin Rawal",
@@ -55078,8 +55171,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Michael Gilbert"
      ],
      "a": [
       "Xhulio Kola",
@@ -55093,8 +55186,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Pat Wilson"
      ],
      "a": [
       "John Manuzza",
@@ -55104,8 +55197,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Vincent"
      ],
      "a": [
       "Bill Olderman",
@@ -55115,8 +55208,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Robert Huntley"
      ],
      "a": [
       "Xhulio Kola",
@@ -55130,8 +55223,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Kevin Sheehan"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -55141,8 +55234,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Michael Gilbert"
      ],
      "a": [
       "Jesse Mynahan",
@@ -55152,8 +55245,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Vincent"
      ],
      "a": [
       "Meet Thakkar",
@@ -55163,8 +55256,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Bryan Mccourt"
      ],
      "a": [
       "Shalin Rawal",
@@ -55174,8 +55267,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Michael Vincent"
      ],
      "a": [
       "John Manuzza",
@@ -55185,8 +55278,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Kevin Sheehan"
      ],
      "a": [
       "Xhulio Kola",
@@ -55200,8 +55293,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Ricky Jutkiewicz"
      ],
      "a": [
       "Meet Thakkar",
@@ -55211,8 +55304,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Michael Gilbert"
      ],
      "a": [
       "Shalin Rawal",
@@ -55222,8 +55315,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Michael Vincent"
      ],
      "a": [
       "Xhulio Kola",
@@ -55237,8 +55330,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Ricky Jutkiewicz"
      ],
      "a": [
       "John Manuzza",
@@ -55248,8 +55341,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Marc Kunesch"
      ],
      "a": [
       "Sandeep Malhotra",
@@ -55259,8 +55352,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Jacob Yoo"
      ],
      "a": [
       "Meet Thakkar",
@@ -55270,8 +55363,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Pat Wilson"
      ],
      "a": [
       "Umang Pathak",
@@ -55281,8 +55374,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Kevin Sheehan"
      ],
      "a": [
       "Xhulio Kola",
@@ -55296,8 +55389,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Marc Kunesch"
      ],
      "a": [
       "Jesse Mynahan",
@@ -55560,7 +55653,6 @@
   "Jason Kwan": "00810f93-8951-43da-8134-bf956b7afb73",
   "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
-  "Sean Hynson": "1a802777-6241-4a14-8370-126b8bf5d3f9",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
@@ -56189,7 +56281,7 @@
   "matchesPlayed": 74,
   "provisionalMatches": 1,
   "weeks": "1-8",
-  "totalPlayers": 302,
+  "totalPlayers": 303,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -56317,7 +56409,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T18:02:54.218Z";
+  DATA.meta.asOf = "2026-10-19T22:09:14.212Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

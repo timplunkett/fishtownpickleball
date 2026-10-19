@@ -6348,6 +6348,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Garv Singhal",
+   "playerId": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a",
+   "team": "ACE Moorestown",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
    "name": "Gary Garretson",
    "playerId": "d4126276-6b83-42be-b943-9957df46992c",
    "team": "Picklr Newtown",
@@ -14249,6 +14256,13 @@ window.DUPR_AUDIT = {
    "team": "Bounce Philly",
    "slug": "a1413f3d",
    "gender": "Male"
+  },
+  {
+   "name": "Nicole Casciello",
+   "playerId": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a",
+   "team": "Mercer Bucks",
+   "slug": "1e12eb3f",
+   "gender": "Female"
   },
   {
    "name": "Nicole Demaise",

@@ -66340,8 +66340,8 @@
     "teamRes": "L",
     "teamGW": 6,
     "teamGL": 26,
-    "sub": 1,
-    "subFor": "Mercer Bucks"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -66367,8 +66367,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Mercer Bucks"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

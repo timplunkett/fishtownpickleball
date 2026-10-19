@@ -8618,8 +8618,8 @@
    "name": "Nicole Casciello",
    "gender": "Female",
    "team": "Mercer Bucks",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 6,
@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 599,
+   "leagueRank": 600,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 595,
+   "leagueRank": 596,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 603,
+   "leagueRank": 604,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 594,
+   "leagueRank": 595,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 592,
+   "leagueRank": 593,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 598,
+   "leagueRank": 599,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 601,
+   "leagueRank": 602,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 597,
+   "leagueRank": 598,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -58724,9 +58724,7 @@
      ]
     }
    ],
-   "subs": [
-    "Nicole Casciello"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -71771,7 +71769,6 @@
    ],
    "subs": [
     "Suzanne Bauer",
-    "Nicole Casciello",
     "Susan Dente",
     "Anita Oconnor"
    ]
@@ -73426,6 +73423,7 @@
   "Lisa Brower": "04e9aff2-d148-4ff7-8161-a42b0328aa7e",
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
+  "Heidi Vaughn": "1be623f3-8d34-4ed4-adc3-0632d11bfa0b",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Lydia Madrilejos": "39aae561-e09c-4f74-873b-2b5a36c15d05",
@@ -73449,6 +73447,7 @@
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
   "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
+  "Dan Matthews": "db35c570-ffa9-423e-9a3b-8e218fb3f2ec",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
@@ -73644,6 +73643,14 @@
    "playerId": "1b62307b-ca04-485d-8788-bc54f446a638",
    "gender": "Female",
    "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Heidi Vaughn",
+   "playerId": "1be623f3-8d34-4ed4-adc3-0632d11bfa0b",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -74456,14 +74463,6 @@
    "outsideSub": true
   },
   {
-   "name": "Nicole Casciello",
-   "playerId": "a0ca7cee-b4f6-4368-864f-9e6285f1c35a",
-   "gender": "Female",
-   "team": "Mercer Bucks",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Mary Macallister",
    "playerId": "a0fc495f-5e04-4054-b9ed-3df6658cc2ba",
    "gender": "Female",
@@ -74788,6 +74787,14 @@
    "playerId": "db1f546b-0a24-442a-a390-1c6a17137dc9",
    "gender": "Female",
    "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dan Matthews",
+   "playerId": "db35c570-ffa9-423e-9a3b-8e218fb3f2ec",
+   "gender": "Male",
+   "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -75217,7 +75224,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T18:00:43.781Z";
+  DATA.meta.asOf = "2026-10-19T22:07:06.212Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

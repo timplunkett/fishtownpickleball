@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 433,
+   "leagueRank": 434,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11651,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11680,7 +11680,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 430,
+   "leagueRank": 431,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 456,
+   "leagueRank": 457,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 449,
+   "leagueRank": 450,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 448,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -56900,6 +56900,7 @@
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+  "Srinivas Balla": "aca3ac6f-2b68-41ab-bf57-f5ef287de0c4",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
@@ -57641,6 +57642,14 @@
    "outsideSub": true
   },
   {
+   "name": "Srinivas Balla",
+   "playerId": "aca3ac6f-2b68-41ab-bf57-f5ef287de0c4",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "John Oconnor",
    "playerId": "acc08ec0-5bcd-4df3-b334-f75c4a5e0bb5",
    "gender": "Male",
@@ -58146,7 +58155,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T18:02:12.851Z";
+  DATA.meta.asOf = "2026-10-19T22:08:25.293Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

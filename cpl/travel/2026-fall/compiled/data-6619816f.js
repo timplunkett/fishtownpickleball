@@ -4413,8 +4413,8 @@
    "name": "Garv Singhal",
    "gender": "Male",
    "team": "ACE Moorestown",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 5,
@@ -25927,8 +25927,7 @@
    ],
    "subs": [
     "Katie Lazaar",
-    "Joseph Zee",
-    "Garv Singhal"
+    "Joseph Zee"
    ]
   },
   {
@@ -31065,9 +31064,7 @@
      ]
     }
    ],
-   "subs": [
-    "Garv Singhal"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -35206,7 +35203,185 @@
    "home": "Dill Dinkers Hatboro The Factory",
    "away": "ACE Moorestown",
    "time": "2026-10-21T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Shelah Wallace"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Sanchez",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathan Law",
+      "Garv Singhal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Jennifer Sanchez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathan Law",
+      "Garv Singhal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Jennifer Sanchez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittany Hall",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Garv Singhal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathan Law",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stacy Walkowitz",
+      "Brittany Hall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shelah Wallace",
+      "Krysti Maronski-Neufeldt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathan Law",
+      "Damien Stahl"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Mead",
+      "Garv Singhal"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -35298,7 +35473,7 @@
      ],
      "a": [
       "Mark Kilimnik",
-      "Alexander Tong"
+      "Jordan Denish"
      ]
     },
     {
@@ -35397,7 +35572,7 @@
      ],
      "a": [
       "Mark Kilimnik",
-      "Jordan Denish"
+      "Bruno Casino"
      ]
     },
     {
@@ -35507,7 +35682,7 @@
      ],
      "a": [
       "Charlotte Healey",
-      "Alexander Tong"
+      "Jordan Denish"
      ]
     },
     {
@@ -35562,7 +35737,7 @@
      ],
      "a": [
       "Jordan Denish",
-      "Alexander Tong"
+      "Mark Kilimnik"
      ]
     },
     {
@@ -35573,7 +35748,7 @@
      ],
      "a": [
       "Dustin Rabinowitz",
-      "Bruno Casino"
+      "Alexander Tong"
      ]
     }
    ]
@@ -36580,14 +36755,6 @@
    "outsideSub": true
   },
   {
-   "name": "Garv Singhal",
-   "playerId": "c89e87b8-33ef-49fe-81fb-59fa5b49e93a",
-   "gender": "Male",
-   "team": "ACE Moorestown",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Johanna Kreilick",
    "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
    "gender": "Female",
@@ -36784,7 +36951,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T18:01:36.689Z";
+  DATA.meta.asOf = "2026-10-19T22:07:51.681Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
