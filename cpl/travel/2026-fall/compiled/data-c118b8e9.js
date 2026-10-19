@@ -52232,7 +52232,361 @@
    "home": "Premiere",
    "away": "Pickleball Kingdom Hamilton",
    "time": "2026-10-20T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Dhruv Dobariya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yash Mehta",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Imran Mazhar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Kapil Khanna"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dhruv Dobariya",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Kapil Khanna"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Syed Haider",
+      "Kapil Khanna"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Dhruv Dobariya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilip Patel",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dhruv Dobariya",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Syed Haider",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Kapil Khanna"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yash Mehta",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dhruv Dobariya",
+      "Imran Mazhar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Kapil Khanna"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Imran Mazhar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yash Mehta",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dilip Patel",
+      "Syed Haider"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -54288,7 +54642,7 @@
       ""
      ],
      "a": [
-      "Andrew Mclean",
+      "Stephane Sabathier",
       "Mike Leach"
      ]
     },
@@ -54377,7 +54731,7 @@
      ],
      "a": [
       "Jason Wu",
-      "Andrew Mclean"
+      "Stephane Sabathier"
      ]
     },
     {
@@ -54410,7 +54764,7 @@
      ],
      "a": [
       "Jason Wu",
-      "Andrew Mclean"
+      "Stephane Sabathier"
      ]
     },
     {
@@ -54465,7 +54819,7 @@
      ],
      "a": [
       "Gary Garretson",
-      "Andrew Mclean"
+      "Stephane Sabathier"
      ]
     },
     {
@@ -54498,7 +54852,7 @@
      ],
      "a": [
       "Steven Hummel",
-      "Andrew Mclean"
+      "Stephane Sabathier"
      ]
     },
     {
@@ -54553,7 +54907,7 @@
      ],
      "a": [
       "Mike Leach",
-      "Andrew Mclean"
+      "Stephane Sabathier"
      ]
     }
    ]
@@ -55963,7 +56317,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T02:32:51.114Z";
+  DATA.meta.asOf = "2026-10-19T11:40:06.060Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
