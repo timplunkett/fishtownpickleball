@@ -411,8 +411,8 @@
    "name": "Sarah Law",
    "gender": "Female",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 6,
    "wins": 5,
@@ -23200,8 +23200,7 @@
    "subs": [
     "Esther Yoon",
     "Stephanie Ho",
-    "Nancy Luyando",
-    "Sarah Law"
+    "Nancy Luyando"
    ]
   },
   {
@@ -30995,14 +30994,6 @@
    "outsideSub": true
   },
   {
-   "name": "Sarah Law",
-   "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
-   "gender": "Female",
-   "team": "Montville",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Lori Lewis",
    "playerId": "b2bcfdb7-8887-4edd-b2a8-4a64d1bf1b86",
    "gender": "Female",
@@ -31252,7 +31243,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-16T15:50:53.282Z";
+  DATA.meta.asOf = "2026-10-20T14:36:29.836Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

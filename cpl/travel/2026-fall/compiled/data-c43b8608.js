@@ -8792,8 +8792,8 @@
    "name": "Madan P",
    "gender": "Male",
    "team": "Pickleball Kingdom Watchung",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 10,
    "wins": 3,
@@ -42191,7 +42191,6 @@
     }
    ],
    "subs": [
-    "Madan P",
     "Zhihong Ge",
     "Andre Illipronti"
    ]
@@ -56524,7 +56523,6 @@
    "subs": [
     "Tom Fazio",
     "Todd Baron",
-    "Madan P",
     "Yamil Sacin"
    ]
   },
@@ -57228,14 +57226,6 @@
    "playerId": "33e2962e-1f89-4317-9859-9191b4376a2c",
    "gender": "Male",
    "team": "Picklr Fair Lawn",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Madan P",
-   "playerId": "34a8449f-208d-484e-967e-604247a5ba33",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Watchung",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58257,7 +58247,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T02:46:09.576Z";
+  DATA.meta.asOf = "2026-10-20T14:35:51.807Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

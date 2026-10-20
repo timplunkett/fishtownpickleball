@@ -82648,8 +82648,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -82675,8 +82675,8 @@
     "teamRes": "L",
     "teamGW": 2,
     "teamGL": 30,
-    "sub": 1,
-    "subFor": "Pickleball Palace"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

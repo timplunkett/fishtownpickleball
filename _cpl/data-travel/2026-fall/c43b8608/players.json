@@ -2169,7 +2169,7 @@
       "gender": "Male",
       "dupr": "6NMXZE",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
       "wins": 3,

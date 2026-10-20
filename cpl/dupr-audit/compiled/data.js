@@ -7629,6 +7629,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "James Scott",
+   "playerId": "27c5fb81-315a-4331-a117-8ca7e3a10813",
+   "team": "Pickleball Palace",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "James Xiong",
    "playerId": "53b9424e-9645-4e0e-a582-5023f17b9ebd",
    "team": "Allstar Pickler",
@@ -11360,6 +11367,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Leila Zsebenyi",
+   "playerId": "0a136cf6-2a64-4d8a-8acc-6d0890d72c42",
+   "team": "Open Play",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
    "name": "Leland Weinert",
    "playerId": "3196f425-e79a-4def-b7c3-bc3205976ba3",
    "team": "Bounce Malvern",
@@ -11724,6 +11738,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lisa Mctague",
+   "playerId": "0d68c1e4-633a-4b56-bb73-06365cf5bdcb",
+   "team": "Premiere",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Lisa Miller",
    "playerId": "dfb719fa-b0aa-436f-868b-0130018d36c6",
    "team": "Bounce Philly",
@@ -12058,6 +12079,13 @@ window.DUPR_AUDIT = {
    "team": "Montville",
    "slug": "a1413f3d",
    "gender": "Female"
+  },
+  {
+   "name": "Madan P",
+   "playerId": "34a8449f-208d-484e-967e-604247a5ba33",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "c43b8608",
+   "gender": "Male"
   },
   {
    "name": "Madeleine Shusterman",
@@ -13247,6 +13275,13 @@ window.DUPR_AUDIT = {
    "playerId": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
    "team": "PickleRage Union County",
    "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Michael Boyle",
+   "playerId": "84729bcd-2c46-4a3b-b0a3-13a7e7d46dfb",
+   "team": "ACE Moorestown",
+   "slug": "2edc44e7",
    "gender": "Male"
   },
   {
@@ -16474,6 +16509,13 @@ window.DUPR_AUDIT = {
    "playerId": "5da3638e-c042-456f-9150-310bfcf0c6db",
    "team": "Picklr Newark",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Sarah Law",
+   "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
+   "team": "Montville",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {

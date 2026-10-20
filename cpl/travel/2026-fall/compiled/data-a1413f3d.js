@@ -10126,8 +10126,8 @@
    "name": "James Scott",
    "gender": "Male",
    "team": "Pickleball Palace",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 3,
@@ -11999,7 +11999,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 466,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12057,7 +12057,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 472,
+   "leagueRank": 473,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12086,7 +12086,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 476,
+   "leagueRank": 477,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12115,7 +12115,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12144,7 +12144,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 466,
+   "leagueRank": 467,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12173,7 +12173,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 454,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12202,7 +12202,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 469,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -42396,7 +42396,6 @@
     }
    ],
    "subs": [
-    "James Scott",
     "Andrew Lin",
     "Jeffrey Susskind"
    ]
@@ -50299,7 +50298,6 @@
     }
    ],
    "subs": [
-    "James Scott",
     "Jeffrey Susskind"
    ]
   },
@@ -67188,6 +67186,7 @@
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
   "John Tano": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
+  "Kaia Hoak": "50257f40-66f5-44f8-a3c7-21ffdf6d510a",
   "Heidi Hinz": "525f9d3d-1019-49bb-baec-a4dc75b7d62b",
   "David Barth": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
@@ -67338,14 +67337,6 @@
    "outsideSub": true
   },
   {
-   "name": "James Scott",
-   "playerId": "27c5fb81-315a-4331-a117-8ca7e3a10813",
-   "gender": "Male",
-   "team": "Pickleball Palace",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Sherry Huang",
    "playerId": "292136d0-3209-4434-bc4e-161b1e2d7c8c",
    "gender": "Female",
@@ -67453,6 +67444,14 @@
    "name": "John Tano",
    "playerId": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
    "gender": "Male",
+   "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kaia Hoak",
+   "playerId": "50257f40-66f5-44f8-a3c7-21ffdf6d510a",
+   "gender": "Female",
    "team": "Bounce Tempest",
    "isCaptain": false,
    "outsideSub": true
@@ -68179,7 +68178,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T10:42:49.267Z";
+  DATA.meta.asOf = "2026-10-20T14:34:07.808Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

@@ -35965,8 +35965,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -35976,8 +35976,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Shelah Wallace",
@@ -35987,8 +35987,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Brittany Hall",
@@ -35998,8 +35998,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Conor Landrigan"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -36009,8 +36009,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Cristi Landrigan"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36020,8 +36020,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -36031,8 +36031,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Ben Mead",
@@ -36042,8 +36042,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Joel Phillips"
      ],
      "a": [
       "Nathan Law",
@@ -36053,8 +36053,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
@@ -36064,8 +36064,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36075,8 +36075,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Shelah Wallace",
@@ -36086,8 +36086,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Conor Landrigan"
      ],
      "a": [
       "Brittany Hall",
@@ -36097,8 +36097,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36108,8 +36108,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
      ],
      "a": [
       "Shelah Wallace",
@@ -36119,8 +36119,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Joel Phillips"
      ],
      "a": [
       "Nathan Law",
@@ -36130,8 +36130,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Conor Landrigan"
      ],
      "a": [
       "Ben Mead",
@@ -36141,8 +36141,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
@@ -36152,8 +36152,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36163,8 +36163,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Joel Phillips"
      ],
      "a": [
       "Shelah Wallace",
@@ -36174,8 +36174,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Conor Landrigan"
      ],
      "a": [
       "Brittany Hall",
@@ -36185,8 +36185,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Rayna Baizman"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36196,8 +36196,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Kaylyn Swankoski"
      ],
      "a": [
       "Shelah Wallace",
@@ -36207,8 +36207,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Joel Phillips"
      ],
      "a": [
       "Ben Mead",
@@ -36218,8 +36218,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Conor Landrigan",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Nathan Law",
@@ -36229,8 +36229,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36240,8 +36240,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
@@ -36251,8 +36251,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Conor Landrigan"
      ],
      "a": [
       "Jennifer Sanchez",
@@ -36262,8 +36262,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Joel Phillips"
      ],
      "a": [
       "Shelah Wallace",
@@ -36273,8 +36273,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Kaylyn Swankoski"
      ],
      "a": [
       "Stacy Walkowitz",
@@ -36284,8 +36284,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Rayna Baizman"
      ],
      "a": [
       "Shelah Wallace",
@@ -36295,8 +36295,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joel Phillips",
+      "Andrew Wakefield"
      ],
      "a": [
       "Nathan Law",
@@ -36306,8 +36306,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Conor Landrigan"
      ],
      "a": [
       "Ben Mead",
@@ -38237,7 +38237,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T02:45:40.155Z";
+  DATA.meta.asOf = "2026-10-20T14:35:22.396Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

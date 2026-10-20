@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 601,
+   "leagueRank": 602,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 606,
+   "leagueRank": 607,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 600,
+   "leagueRank": 601,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 604,
+   "leagueRank": 605,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73430,6 +73430,7 @@
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
   "Jeremy Soifer": "4dae6d67-32ee-47af-b281-286ad9fd1b76",
+  "Kathleen Regan": "51c297fb-7791-4dc3-8d9f-de402d9caf76",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
@@ -73437,7 +73438,7 @@
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
   "Marti Williams": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
-  "Jessicae Weinberg": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
+  "Jessica Weinberg": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
@@ -74058,6 +74059,14 @@
    "outsideSub": true
   },
   {
+   "name": "Kathleen Regan",
+   "playerId": "51c297fb-7791-4dc3-8d9f-de402d9caf76",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Pamela Toy",
    "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
    "gender": "Female",
@@ -74266,7 +74275,7 @@
    "outsideSub": true
   },
   {
-   "name": "Jessicae Weinberg",
+   "name": "Jessica Weinberg",
    "playerId": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
    "gender": "Female",
    "team": "PickleRage Union County",
@@ -75251,7 +75260,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T02:43:39.443Z";
+  DATA.meta.asOf = "2026-10-20T14:33:34.077Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

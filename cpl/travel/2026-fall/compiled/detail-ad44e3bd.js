@@ -2171,8 +2171,8 @@
     "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
