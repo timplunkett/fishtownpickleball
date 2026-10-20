@@ -713,6 +713,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Alin Piranian",
+   "playerId": "548c8320-7e09-4649-bd1f-78fb770ead6f",
+   "team": "Ballers Philly",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Alina Allakhveranova",
    "playerId": "bbf13d1a-5393-4549-9d15-c5d2975f3e55",
    "team": "Pickleball Kingdom Tinton Falls",

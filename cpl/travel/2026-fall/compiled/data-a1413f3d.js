@@ -5022,8 +5022,8 @@
    "name": "Alin Piranian",
    "gender": "Female",
    "team": "Ballers Philly",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 8,
@@ -59123,7 +59123,6 @@
    "subs": [
     "Alexandria Mlkvy",
     "Bruce Nguyen",
-    "Alin Piranian",
     "Gabriel Dos Anjos",
     "Ian Karr"
    ]
@@ -62844,7 +62843,6 @@
    ],
    "subs": [
     "Alexandria Mlkvy",
-    "Alin Piranian",
     "Lauren Mammano",
     "Dipen Bhatt"
    ]
@@ -67492,14 +67490,6 @@
    "outsideSub": true
   },
   {
-   "name": "Alin Piranian",
-   "playerId": "548c8320-7e09-4649-bd1f-78fb770ead6f",
-   "gender": "Female",
-   "team": "Ballers Philly",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Jeremy Workman",
    "playerId": "5a15e437-7769-4d60-bd0c-b6c48176289c",
    "gender": "Male",
@@ -68189,7 +68179,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T02:44:12.973Z";
+  DATA.meta.asOf = "2026-10-20T10:42:49.267Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

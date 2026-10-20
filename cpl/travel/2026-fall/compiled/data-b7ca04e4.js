@@ -94543,8 +94543,8 @@
     {
      "t": "mixed",
      "h": [
-      "Christy Zhang",
-      "Man Kwok"
+      "Rachel Villarama",
+      "Ryan Soto"
      ],
      "a": [
       "Laura Slane",
@@ -94554,8 +94554,8 @@
     {
      "t": "mixed",
      "h": [
-      "Rachel Villarama",
-      "Ryan Soto"
+      "Lisamarie Chinchilla",
+      "Bruno Maguino"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -94565,8 +94565,8 @@
     {
      "t": "mixed",
      "h": [
-      "Diana Nguyen",
-      "Winston Lian"
+      "Emily Su",
+      "Jason Kwan"
      ],
      "a": [
       "Mary Brashier",
@@ -94576,8 +94576,8 @@
     {
      "t": "mixed",
      "h": [
-      "Emily Su",
-      "Jason Kwan"
+      "Diana Nguyen",
+      "Winston Lian"
      ],
      "a": [
       "Laura Govan",
@@ -94587,8 +94587,8 @@
     {
      "t": "female",
      "h": [
-      "Lisamarie Chinchilla",
-      "Christy Zhang"
+      "Diana Nguyen",
+      "Rachel Villarama"
      ],
      "a": [
       "Laura Govan",
@@ -94598,8 +94598,8 @@
     {
      "t": "female",
      "h": [
-      "Rachel Villarama",
-      "Emily Su"
+      "Lisamarie Chinchilla",
+      "Christy Zhang"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -94609,8 +94609,8 @@
     {
      "t": "male",
      "h": [
-      "Bruno Maguino",
-      "Ryan Soto"
+      "Ryan Soto",
+      "Man Kwok"
      ],
      "a": [
       "Lakshmikanth Chaluvadi",
@@ -94631,8 +94631,8 @@
     {
      "t": "mixed",
      "h": [
-      "Christy Zhang",
-      "Man Kwok"
+      "Rachel Villarama",
+      "Ryan Soto"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -94664,8 +94664,8 @@
     {
      "t": "mixed",
      "h": [
-      "Rachel Villarama",
-      "Ryan Soto"
+      "Christy Zhang",
+      "Man Kwok"
      ],
      "a": [
       "Monika Torbus",
@@ -94676,7 +94676,7 @@
      "t": "female",
      "h": [
       "Em Melo",
-      "Lisamarie Chinchilla"
+      "Diana Nguyen"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -94687,7 +94687,7 @@
      "t": "female",
      "h": [
       "Rachel Villarama",
-      "Diana Nguyen"
+      "Emily Su"
      ],
      "a": [
       "Laura Slane",
@@ -94697,8 +94697,8 @@
     {
      "t": "male",
      "h": [
-      "Bruno Maguino",
-      "Man Kwok"
+      "Jason Kwan",
+      "Ryan Soto"
      ],
      "a": [
       "Addison Stewart",
@@ -94708,8 +94708,8 @@
     {
      "t": "male",
      "h": [
-      "Jason Kwan",
-      "Ryan Soto"
+      "Bruno Maguino",
+      "Man Kwok"
      ],
      "a": [
       "Rick Wickenheisser",
@@ -94719,8 +94719,8 @@
     {
      "t": "mixed",
      "h": [
-      "Emily Su",
-      "Jason Kwan"
+      "Diana Nguyen",
+      "Bruno Maguino"
      ],
      "a": [
       "Laura Slane",
@@ -94741,8 +94741,8 @@
     {
      "t": "mixed",
      "h": [
-      "Lisamarie Chinchilla",
-      "Bruno Maguino"
+      "Emily Su",
+      "Jason Kwan"
      ],
      "a": [
       "Mary Brashier",
@@ -94752,7 +94752,7 @@
     {
      "t": "mixed",
      "h": [
-      "Em Melo",
+      "Christy Zhang",
       "Ryan Soto"
      ],
      "a": [
@@ -94763,8 +94763,8 @@
     {
      "t": "female",
      "h": [
-      "Diana Nguyen",
-      "Rachel Villarama"
+      "Rachel Villarama",
+      "Emily Su"
      ],
      "a": [
       "Laura Slane",
@@ -94774,8 +94774,8 @@
     {
      "t": "female",
      "h": [
-      "Em Melo",
-      "Lisamarie Chinchilla"
+      "Lisamarie Chinchilla",
+      "Em Melo"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -94785,8 +94785,8 @@
     {
      "t": "male",
      "h": [
-      "Bruno Maguino",
-      "Man Kwok"
+      "Man Kwok",
+      "Jason Kwan"
      ],
      "a": [
       "Dan Stanton",
@@ -94797,7 +94797,7 @@
      "t": "male",
      "h": [
       "Winston Lian",
-      "Jason Kwan"
+      "Ryan Soto"
      ],
      "a": [
       "Addison Stewart",
@@ -94818,8 +94818,8 @@
     {
      "t": "mixed",
      "h": [
-      "Christy Zhang",
-      "Ryan Soto"
+      "Emily Su",
+      "Man Kwok"
      ],
      "a": [
       "Patricia Kavanaugh",
@@ -94829,8 +94829,8 @@
     {
      "t": "mixed",
      "h": [
-      "Emily Su",
-      "Man Kwok"
+      "Christy Zhang",
+      "Jason Kwan"
      ],
      "a": [
       "Mary Brashier",
@@ -94840,7 +94840,7 @@
     {
      "t": "mixed",
      "h": [
-      "Diana Nguyen",
+      "Em Melo",
       "Bruno Maguino"
      ],
      "a": [
@@ -94851,7 +94851,7 @@
     {
      "t": "female",
      "h": [
-      "Lisamarie Chinchilla",
+      "Emily Su",
       "Christy Zhang"
      ],
      "a": [
@@ -94862,8 +94862,8 @@
     {
      "t": "female",
      "h": [
-      "Diana Nguyen",
-      "Em Melo"
+      "Em Melo",
+      "Lisamarie Chinchilla"
      ],
      "a": [
       "Monika Torbus",
@@ -94873,7 +94873,7 @@
     {
      "t": "male",
      "h": [
-      "Jason Kwan",
+      "Bruno Maguino",
       "Man Kwok"
      ],
      "a": [
@@ -97480,7 +97480,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-20T02:45:24.890Z";
+  DATA.meta.asOf = "2026-10-20T10:43:37.793Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
