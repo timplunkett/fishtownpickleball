@@ -90,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 602
+      "ranking": 605
     },
     {
       "playerId": "01687986-8454-48f2-ab99-dabc5bb343b7",
@@ -274,7 +274,7 @@
       "mixedLosses": 3,
       "genderWins": 2,
       "genderLosses": 2,
-      "ranking": 517
+      "ranking": 516
     },
     {
       "playerId": "04c5ee5b-25dc-4dfa-b1fa-4ed9653cd933",
@@ -343,7 +343,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 605
+      "ranking": 608
     },
     {
       "playerId": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 583
+      "ranking": 584
     },
     {
       "playerId": "05b42ddf-68a1-4468-bbaf-44bd9ed27abc",
@@ -619,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 616
+      "ranking": 619
     },
     {
       "playerId": "0b70d578-a00e-4d79-bbd3-a07ec89ef8b6",
@@ -734,7 +734,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 592
+      "ranking": 594
     },
     {
       "playerId": "0f4c760b-2f8c-402d-b544-11902855b3fc",
@@ -941,7 +941,7 @@
       "mixedLosses": 1,
       "genderWins": 1,
       "genderLosses": 3,
-      "ranking": 433
+      "ranking": 434
     },
     {
       "playerId": "13c4d5cf-50d3-4156-95a0-aa4c45c19e20",
@@ -1125,7 +1125,7 @@
       "mixedLosses": 7,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 522
+      "ranking": 521
     },
     {
       "playerId": "16a5ef9a-49fe-4341-9626-8f566552010e",
@@ -1427,6 +1427,29 @@
       "ranking": 303
     },
     {
+      "playerId": "1cb920b0-3fa7-418b-8240-daa87652e592",
+      "firstName": "Ashley",
+      "lastName": "Hyde",
+      "gender": "Female",
+      "dupr": "KOOMPO",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 581
+    },
+    {
       "playerId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
       "firstName": "Jacob",
       "lastName": "Alpert",
@@ -1654,7 +1677,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 595
+      "ranking": 597
     },
     {
       "playerId": "2123ba14-b2c7-40f0-a8d8-7b6ba90e3a19",
@@ -1838,7 +1861,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 604
+      "ranking": 607
     },
     {
       "playerId": "24a88fa9-03f6-44b7-b10d-321e2a46bb2f",
@@ -2229,7 +2252,7 @@
       "mixedLosses": 6,
       "genderWins": 15,
       "genderLosses": 9,
-      "ranking": 96
+      "ranking": 97
     },
     {
       "playerId": "2af973bf-1b1f-486d-9193-28fbede57a6b",
@@ -2275,7 +2298,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 584
+      "ranking": 586
     },
     {
       "playerId": "2b68baa8-32a7-45b1-8d44-3211a61edd7f",
@@ -2436,7 +2459,7 @@
       "mixedLosses": 3,
       "genderWins": 0,
       "genderLosses": 3,
-      "ranking": 514
+      "ranking": 513
     },
     {
       "playerId": "2d392f03-9016-4fe2-92d7-db5d24d43a35",
@@ -2597,7 +2620,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 590
+      "ranking": 592
     },
     {
       "playerId": "313153f7-7e8f-4e60-9340-0e0d1a43d6be",
@@ -3149,7 +3172,7 @@
       "mixedLosses": 6,
       "genderWins": 19,
       "genderLosses": 8,
-      "ranking": 54
+      "ranking": 55
     },
     {
       "playerId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
@@ -3218,7 +3241,7 @@
       "mixedLosses": 3,
       "genderWins": 1,
       "genderLosses": 3,
-      "ranking": 521
+      "ranking": 520
     },
     {
       "playerId": "3e927bec-47db-4d03-ac1c-81b5e9559762",
@@ -3333,7 +3356,7 @@
       "mixedLosses": 10,
       "genderWins": 4,
       "genderLosses": 8,
-      "ranking": 365
+      "ranking": 364
     },
     {
       "playerId": "4031f243-e80c-492b-b30b-5bf058824762",
@@ -3609,7 +3632,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 610
+      "ranking": 613
     },
     {
       "playerId": "4364dfec-6df2-40ac-8391-66283100d98f",
@@ -3632,7 +3655,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 614
+      "ranking": 617
     },
     {
       "playerId": "43e3e482-aa27-49c2-a18f-59a7abdbc7ba",
@@ -4023,7 +4046,7 @@
       "mixedLosses": 7,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 516
+      "ranking": 515
     },
     {
       "playerId": "48ed972d-ae17-408b-860e-6f122d0e4e9b",
@@ -4115,7 +4138,7 @@
       "mixedLosses": 11,
       "genderWins": 17,
       "genderLosses": 11,
-      "ranking": 133
+      "ranking": 132
     },
     {
       "playerId": "4a188481-bbb3-4d7b-b507-89f74d58af12",
@@ -4184,7 +4207,7 @@
       "mixedLosses": 4,
       "genderWins": 1,
       "genderLosses": 3,
-      "ranking": 518
+      "ranking": 517
     },
     {
       "playerId": "4bc1d4a3-5eea-4d41-9479-73fcfe5a4847",
@@ -4437,7 +4460,7 @@
       "mixedLosses": 1,
       "genderWins": 0,
       "genderLosses": 4,
-      "ranking": 528
+      "ranking": 527
     },
     {
       "playerId": "50853eee-28e0-4380-b379-35935eb2115a",
@@ -4483,7 +4506,7 @@
       "mixedLosses": 7,
       "genderWins": 4,
       "genderLosses": 11,
-      "ranking": 368
+      "ranking": 367
     },
     {
       "playerId": "5104ee51-fe1b-45d4-b3db-bdb759a0c2e7",
@@ -4614,14 +4637,14 @@
       "losses": 10,
       "gamesPlayed": 37,
       "pointsWon": 731,
-      "totalPointsAgainst": 639,
+      "totalPointsAgainst": 629,
       "clutchWins": 8,
       "clutchLosses": 4,
       "mixedWins": 15,
       "mixedLosses": 3,
       "genderWins": 12,
       "genderLosses": 7,
-      "ranking": 61
+      "ranking": 60
     },
     {
       "playerId": "53019cc2-8e6a-4807-88d1-10d1fb0a480d",
@@ -4690,7 +4713,7 @@
       "mixedLosses": 2,
       "genderWins": 1,
       "genderLosses": 1,
-      "ranking": 520
+      "ranking": 519
     },
     {
       "playerId": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
@@ -4966,7 +4989,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 598
+      "ranking": 601
     },
     {
       "playerId": "589a4aec-d9fc-48b1-8914-58b7b6d4d7e5",
@@ -5173,7 +5196,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 588
+      "ranking": 590
     },
     {
       "playerId": "5da3615e-9cd4-44f9-9e7d-637e270153ce",
@@ -5219,7 +5242,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 599
+      "ranking": 602
     },
     {
       "playerId": "5fa834df-5bb9-4aac-9980-66962cb6f0a1",
@@ -5242,7 +5265,7 @@
       "mixedLosses": 5,
       "genderWins": 1,
       "genderLosses": 6,
-      "ranking": 519
+      "ranking": 518
     },
     {
       "playerId": "60049f31-bf6f-4392-9b18-f73a6d156bd2",
@@ -5472,7 +5495,7 @@
       "mixedLosses": 3,
       "genderWins": 1,
       "genderLosses": 3,
-      "ranking": 524
+      "ranking": 523
     },
     {
       "playerId": "6537e984-a225-48cf-a812-1c71c3ecfbee",
@@ -5748,7 +5771,7 @@
       "mixedLosses": 1,
       "genderWins": 1,
       "genderLosses": 5,
-      "ranking": 515
+      "ranking": 514
     },
     {
       "playerId": "67e72d20-d17c-4480-8159-9e4be9e18459",
@@ -6185,7 +6208,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 606
+      "ranking": 609
     },
     {
       "playerId": "714331ee-d124-483d-a89e-11d1431a7fca",
@@ -6622,7 +6645,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 586
+      "ranking": 588
     },
     {
       "playerId": "79a3d198-0295-4bed-b0d7-bcda477d6b3a",
@@ -7105,7 +7128,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 601
+      "ranking": 604
     },
     {
       "playerId": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
@@ -7128,7 +7151,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 596
+      "ranking": 598
     },
     {
       "playerId": "83237821-4e2a-4f60-8fea-4be6655d52da",
@@ -7197,7 +7220,7 @@
       "mixedLosses": 2,
       "genderWins": 3,
       "genderLosses": 11,
-      "ranking": 375
+      "ranking": 374
     },
     {
       "playerId": "846135ff-c63f-435e-9415-1fb25e31a8ec",
@@ -7220,7 +7243,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 585
+      "ranking": 587
     },
     {
       "playerId": "848556a6-59a2-4641-b012-869e1ef7e5ef",
@@ -7312,7 +7335,7 @@
       "mixedLosses": 6,
       "genderWins": 7,
       "genderLosses": 2,
-      "ranking": 222
+      "ranking": 223
     },
     {
       "playerId": "85ee3181-a3ea-4022-8475-6d1c6b80211f",
@@ -7381,7 +7404,7 @@
       "mixedLosses": 4,
       "genderWins": 1,
       "genderLosses": 5,
-      "ranking": 527
+      "ranking": 526
     },
     {
       "playerId": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
@@ -7588,7 +7611,7 @@
       "mixedLosses": 12,
       "genderWins": 2,
       "genderLosses": 13,
-      "ranking": 434
+      "ranking": 433
     },
     {
       "playerId": "8b9a1a95-0599-42bc-b233-e24609d11e07",
@@ -7864,7 +7887,7 @@
       "mixedLosses": 6,
       "genderWins": 16,
       "genderLosses": 8,
-      "ranking": 55
+      "ranking": 56
     },
     {
       "playerId": "8fd73a4d-a785-4575-b796-4af5e3cb2781",
@@ -7933,7 +7956,7 @@
       "mixedLosses": 6,
       "genderWins": 0,
       "genderLosses": 7,
-      "ranking": 513
+      "ranking": 512
     },
     {
       "playerId": "91857142-d537-4b98-bbc2-481129371949",
@@ -8117,7 +8140,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 597
+      "ranking": 599
     },
     {
       "playerId": "94d76c8a-d5ee-444b-aa23-3c3ec71e2387",
@@ -8477,7 +8500,7 @@
       "wins": 2,
       "losses": 4,
       "gamesPlayed": 6,
-      "pointsWon": 100,
+      "pointsWon": 90,
       "totalPointsAgainst": 121,
       "clutchWins": 1,
       "clutchLosses": 0,
@@ -8485,7 +8508,7 @@
       "mixedLosses": 2,
       "genderWins": 0,
       "genderLosses": 2,
-      "ranking": 512
+      "ranking": 528
     },
     {
       "playerId": "9b83f83f-53c3-4576-9ea6-410e99f7c798",
@@ -8554,7 +8577,7 @@
       "mixedLosses": 6,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 525
+      "ranking": 524
     },
     {
       "playerId": "9dfeae9a-9e57-4720-9291-a41ade03daaa",
@@ -8577,7 +8600,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 581
+      "ranking": 582
     },
     {
       "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
@@ -8738,7 +8761,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 587
+      "ranking": 589
     },
     {
       "playerId": "a06e906c-dd36-4585-b03a-48a49b915662",
@@ -8876,7 +8899,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 607
+      "ranking": 610
     },
     {
       "playerId": "a26d005a-c084-4edb-8c82-bcdbd21e531b",
@@ -8968,7 +8991,7 @@
       "mixedLosses": 7,
       "genderWins": 1,
       "genderLosses": 4,
-      "ranking": 523
+      "ranking": 522
     },
     {
       "playerId": "a4cc43d3-8cb0-4ee6-8a8c-293a9d6c81ce",
@@ -9267,7 +9290,7 @@
       "mixedLosses": 1,
       "genderWins": 2,
       "genderLosses": 1,
-      "ranking": 369
+      "ranking": 368
     },
     {
       "playerId": "abab39fe-af60-4956-9f97-460189ab90dc",
@@ -9359,7 +9382,7 @@
       "mixedLosses": 8,
       "genderWins": 20,
       "genderLosses": 12,
-      "ranking": 97
+      "ranking": 96
     },
     {
       "playerId": "ac95857d-6706-4db0-89ae-846030096972",
@@ -9451,7 +9474,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 609
+      "ranking": 612
     },
     {
       "playerId": "ae015f4e-a359-406a-a394-b04d1ec288b7",
@@ -9520,7 +9543,7 @@
       "mixedLosses": 6,
       "genderWins": 3,
       "genderLosses": 3,
-      "ranking": 367
+      "ranking": 366
     },
     {
       "playerId": "af3ce205-4f9a-4382-8128-4a20fe26737b",
@@ -9750,7 +9773,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 613
+      "ranking": 616
     },
     {
       "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
@@ -9796,7 +9819,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 617
+      "ranking": 620
     },
     {
       "playerId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e",
@@ -10072,7 +10095,7 @@
       "mixedLosses": 11,
       "genderWins": 4,
       "genderLosses": 10,
-      "ranking": 372
+      "ranking": 371
     },
     {
       "playerId": "b93c7239-a974-467a-991e-b49159902fcf",
@@ -10118,7 +10141,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 600
+      "ranking": 603
     },
     {
       "playerId": "b9cd3f6d-4513-4966-881c-72f6cf5b7746",
@@ -10348,7 +10371,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 612
+      "ranking": 615
     },
     {
       "playerId": "bda20213-ea4b-4f64-a0dc-f7e3eef544bf",
@@ -10578,7 +10601,7 @@
       "mixedLosses": 12,
       "genderWins": 7,
       "genderLosses": 8,
-      "ranking": 366
+      "ranking": 365
     },
     {
       "playerId": "bfdfbea0-92ee-43e3-a30f-bec197d4fa0a",
@@ -10716,7 +10739,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 593
+      "ranking": 595
     },
     {
       "playerId": "c1e350d1-990b-468a-a43e-0ecd64269b2a",
@@ -10831,7 +10854,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 611
+      "ranking": 614
     },
     {
       "playerId": "c51fb84c-4210-4884-84e0-a6854852c31a",
@@ -10892,7 +10915,7 @@
       "wins": 8,
       "losses": 19,
       "gamesPlayed": 27,
-      "pointsWon": 453,
+      "pointsWon": 443,
       "totalPointsAgainst": 532,
       "clutchWins": 4,
       "clutchLosses": 2,
@@ -10900,7 +10923,7 @@
       "mixedLosses": 8,
       "genderWins": 5,
       "genderLosses": 11,
-      "ranking": 364
+      "ranking": 375
     },
     {
       "playerId": "c59d5e7c-f361-4e53-a58f-66a0f59fa600",
@@ -11123,14 +11146,14 @@
       "losses": 9,
       "gamesPlayed": 35,
       "pointsWon": 696,
-      "totalPointsAgainst": 608,
+      "totalPointsAgainst": 598,
       "clutchWins": 7,
       "clutchLosses": 4,
       "mixedWins": 12,
       "mixedLosses": 2,
       "genderWins": 14,
       "genderLosses": 7,
-      "ranking": 56
+      "ranking": 53
     },
     {
       "playerId": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
@@ -11429,7 +11452,7 @@
       "mixedLosses": 9,
       "genderWins": 21,
       "genderLosses": 5,
-      "ranking": 60
+      "ranking": 61
     },
     {
       "playerId": "ccf24d18-560f-4ae8-ad75-8fc330f7c24f",
@@ -11544,7 +11567,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 589
+      "ranking": 591
     },
     {
       "playerId": "cec94ca2-1b4a-4787-803a-b08ccdae1d18",
@@ -11777,6 +11800,29 @@
       "ranking": 215
     },
     {
+      "playerId": "d22f8b69-76a6-41e0-8b04-c5dae68d9f69",
+      "firstName": "Lucy",
+      "lastName": "Li",
+      "gender": "Female",
+      "dupr": "ZN07XP",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 585
+    },
+    {
       "playerId": "d31b9b93-03db-444e-85b8-75895b8469ea",
       "firstName": "May",
       "lastName": "Wang",
@@ -11866,7 +11912,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 591
+      "ranking": 593
     },
     {
       "playerId": "d5e7f8d4-68c6-42e7-bb88-e7b43740ecbe",
@@ -11981,7 +12027,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 615
+      "ranking": 618
     },
     {
       "playerId": "d67489d0-d69c-425e-86a7-0f7ade15ed25",
@@ -12188,7 +12234,7 @@
       "mixedLosses": 7,
       "genderWins": 14,
       "genderLosses": 6,
-      "ranking": 53
+      "ranking": 54
     },
     {
       "playerId": "db15b234-d88d-4556-9c9d-982947bdaae7",
@@ -12234,7 +12280,7 @@
       "mixedLosses": 15,
       "genderWins": 11,
       "genderLosses": 8,
-      "ranking": 223
+      "ranking": 222
     },
     {
       "playerId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9",
@@ -12809,7 +12855,7 @@
       "mixedLosses": 4,
       "genderWins": 1,
       "genderLosses": 6,
-      "ranking": 526
+      "ranking": 525
     },
     {
       "playerId": "e65bcc7b-3862-4331-868f-6abe34bfbfe6",
@@ -12833,6 +12879,29 @@
       "genderWins": 4,
       "genderLosses": 1,
       "ranking": 279
+    },
+    {
+      "playerId": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
+      "firstName": "Kathleen",
+      "lastName": "Nitti",
+      "gender": "Female",
+      "dupr": "Q5PDV5",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 600
     },
     {
       "playerId": "e6deea54-c0bb-40c7-83d0-b65c6eb1fcb2",
@@ -12901,7 +12970,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 608
+      "ranking": 611
     },
     {
       "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
@@ -12947,7 +13016,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 594
+      "ranking": 596
     },
     {
       "playerId": "e832c271-3f52-48b6-8a3f-bdf699531a03",
@@ -13131,7 +13200,7 @@
       "mixedLosses": 7,
       "genderWins": 13,
       "genderLosses": 3,
-      "ranking": 132
+      "ranking": 133
     },
     {
       "playerId": "ea832f36-2157-434a-8f02-bbb2c0bfe722",
@@ -13200,7 +13269,7 @@
       "mixedLosses": 12,
       "genderWins": 4,
       "genderLosses": 12,
-      "ranking": 370
+      "ranking": 369
     },
     {
       "playerId": "eca8a092-4206-4e2f-a241-36a137615f23",
@@ -13453,7 +13522,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 603
+      "ranking": 606
     },
     {
       "playerId": "f232c3b8-78b0-479f-b288-93e11a8b6ccf",
@@ -13568,7 +13637,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 582
+      "ranking": 583
     },
     {
       "playerId": "f46a315a-aae5-44b5-ab45-6949706396fd",
@@ -13706,7 +13775,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 618
+      "ranking": 621
     },
     {
       "playerId": "f76a584d-94cf-4bb7-8c34-90e6c491ac10",
@@ -14074,7 +14143,7 @@
       "mixedLosses": 15,
       "genderWins": 5,
       "genderLosses": 13,
-      "ranking": 371
+      "ranking": 370
     },
     {
       "playerId": "fd5a4ed7-ab62-4d19-a358-ba9be51fbd26",
@@ -14212,7 +14281,7 @@
       "mixedLosses": 21,
       "genderWins": 5,
       "genderLosses": 14,
-      "ranking": 374
+      "ranking": 372
     }
   ]
 }

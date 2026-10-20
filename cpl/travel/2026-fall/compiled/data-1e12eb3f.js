@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 602,
+   "leagueRank": 604,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 597,
+   "leagueRank": 599,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 607,
+   "leagueRank": 609,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 596,
+   "leagueRank": 597,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 588,
+   "leagueRank": 589,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 593,
+   "leagueRank": 594,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 601,
+   "leagueRank": 603,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 605,
+   "leagueRank": 607,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 599,
+   "leagueRank": 601,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73437,8 +73437,10 @@
   "Julie Marley": "6a2e3166-fec1-4aa3-b26d-7cfb54d9d717",
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
+  "Ly Kim": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
   "Marti Williams": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
   "Jessica Weinberg": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
+  "Fawn Patti": "81fa3aae-b090-436c-94e4-9b2661a4afcd",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
@@ -74251,6 +74253,14 @@
    "outsideSub": true
   },
   {
+   "name": "Ly Kim",
+   "playerId": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Marti Williams",
    "playerId": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
    "gender": "Female",
@@ -74337,6 +74347,14 @@
    "team": "Premiere Dinkers",
    "isCaptain": false,
    "outsideSub": false
+  },
+  {
+   "name": "Fawn Patti",
+   "playerId": "81fa3aae-b090-436c-94e4-9b2661a4afcd",
+   "gender": "Female",
+   "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": true
   },
   {
    "name": "Jeff Kornblatt",
@@ -75260,7 +75278,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T14:33:34.077Z";
+  DATA.meta.asOf = "2026-10-20T21:02:30.259Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

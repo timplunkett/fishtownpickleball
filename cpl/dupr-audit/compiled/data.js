@@ -1735,6 +1735,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Arpita Vaidya",
+   "playerId": "76e829fc-dfa9-4d0c-86ca-eaed7dc4a11a",
+   "team": "Jersey Pickleball Club",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Art Muth",
    "playerId": "6bfc3a49-53cb-4c03-b8cb-94552158ccbe",
    "team": "Flemington Blue",

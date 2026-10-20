@@ -88259,8 +88259,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 3,
@@ -88286,8 +88286,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Jersey Pickleball Club"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,

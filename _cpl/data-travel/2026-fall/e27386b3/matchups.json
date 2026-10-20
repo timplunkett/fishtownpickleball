@@ -1085,9 +1085,9 @@
       "weekNumber": 9,
       "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
       "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 450,
+      "awayPoints": 670,
+      "endResult": "away",
       "scheduledTime": "2026-10-19T19:30:00",
       "homeName": "Pickle Juice Blackwood",
       "awayName": "Players Courtyard"

@@ -605,9 +605,9 @@
       "weekNumber": 9,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 498,
+      "awayPoints": 397,
+      "endResult": "home",
       "scheduledTime": "2026-10-19T19:30:00",
       "homeName": "Pickleball Kingdom Watchung",
       "awayName": "Monroe"
