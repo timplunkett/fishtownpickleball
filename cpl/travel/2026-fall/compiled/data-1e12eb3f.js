@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 600,
+   "leagueRank": 601,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 596,
+   "leagueRank": 597,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 604,
+   "leagueRank": 606,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 595,
+   "leagueRank": 596,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 599,
+   "leagueRank": 600,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 602,
+   "leagueRank": 604,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 598,
+   "leagueRank": 599,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73429,6 +73429,7 @@
   "Lydia Madrilejos": "39aae561-e09c-4f74-873b-2b5a36c15d05",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
+  "Jeremy Soifer": "4dae6d67-32ee-47af-b281-286ad9fd1b76",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
@@ -73436,10 +73437,12 @@
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
   "Marti Williams": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
+  "Jessicae Weinberg": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
   "Jill Kane": "8d3b164f-eff4-45a4-8821-403eb051dd83",
+  "Mina Mount": "8e6b0543-1a6c-4593-8dff-9ae70aef8b18",
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Jennifer Kenton": "ab7b1b1a-5551-4d86-b8e7-026179d45ae5",
@@ -74007,6 +74010,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jeremy Soifer",
+   "playerId": "4dae6d67-32ee-47af-b281-286ad9fd1b76",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Kimberly Sorce",
    "playerId": "4e15db5a-174c-4d1a-92b4-340566b5ae93",
    "gender": "Female",
@@ -74255,6 +74266,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jessicae Weinberg",
+   "playerId": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
+   "gender": "Female",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Elisa Riesenbach",
    "playerId": "76b5ed62-1637-473f-a484-a86faf95338a",
    "gender": "Female",
@@ -74370,6 +74389,14 @@
    "name": "Pete Dunn",
    "playerId": "8e45f538-d95a-4554-9ccf-443a06b5a89e",
    "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Mina Mount",
+   "playerId": "8e6b0543-1a6c-4593-8dff-9ae70aef8b18",
+   "gender": "Female",
    "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
@@ -75224,7 +75251,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T22:07:06.212Z";
+  DATA.meta.asOf = "2026-10-20T02:43:39.443Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -12240,6 +12240,35 @@
    "playerId": "ecb01f29-37c9-4caa-a023-dc5d2591f375"
   },
   {
+   "name": "Maria Franco",
+   "gender": "Female",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 444,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4c0a6c7a-30fa-4f4b-9494-a54534b88be8"
+  },
+  {
    "name": "Dev Patel",
    "gender": "Male",
    "team": "Pickle Place",
@@ -66086,8 +66115,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Jake Maske"
      ],
      "a": [
       "Carly Pfeffer",
@@ -66101,19 +66130,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Franco",
+      "Matthew Marletta"
      ],
      "a": [
       "Alyssa Latham",
       "Dan Kaytes"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Iassen Christov"
      ],
      "a": [
       "Danielle Stein",
@@ -66123,8 +66156,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Pranav Tailor"
      ],
      "a": [
       "Martyna Dudek",
@@ -66134,8 +66167,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Mackenzi Furlong"
      ],
      "a": [
       "Carly Pfeffer",
@@ -66145,8 +66178,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Brittany Anghel"
      ],
      "a": [
       "Martyna Dudek",
@@ -66156,12 +66189,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Marletta",
+      "Neel Goyal"
      ],
      "a": [
       "Andrew Lin",
       "Dan Kaytes"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -66171,8 +66208,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Iassen Christov",
+      "Aadhar Rohila"
      ],
      "a": [
       "Oscar Montoya",
@@ -66182,23 +66219,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Neel Goyal"
      ],
      "a": [
       "Carly Pfeffer",
       "Dan Kaytes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Franco",
+      "Jake Maske"
      ],
      "a": [
       "Alyssa Latham",
       "Andrew Lin"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -66208,8 +66253,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Aadhar Rohila"
      ],
      "a": [
       "Danielle Stein",
@@ -66219,8 +66264,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Iassen Christov"
      ],
      "a": [
       "Martyna Dudek",
@@ -66230,8 +66275,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Brittany Anghel"
      ],
      "a": [
       "Carly Pfeffer",
@@ -66241,19 +66286,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Maria Franco"
      ],
      "a": [
       "Alyssa Latham",
       "Martyna Dudek"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Marletta",
+      "Iassen Christov"
      ],
      "a": [
       "Andrew Lin",
@@ -66267,8 +66316,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aadhar Rohila",
+      "Pranav Tailor"
      ],
      "a": [
       "Oscar Montoya",
@@ -66278,8 +66327,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Jake Maske"
      ],
      "a": [
       "Carly Pfeffer",
@@ -66293,8 +66342,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Matthew Marletta"
      ],
      "a": [
       "Danielle Stein",
@@ -66304,19 +66353,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Neel Goyal"
      ],
      "a": [
       "Martyna Dudek",
       "Oscar Montoya"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Pranav Tailor"
      ],
      "a": [
       "Alyssa Latham",
@@ -66326,8 +66379,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Kaleigh Tierney"
      ],
      "a": [
       "Carly Pfeffer",
@@ -66337,19 +66390,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Maria Franco"
      ],
      "a": [
       "Danielle Stein",
       "Martyna Dudek"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aadhar Rohila",
+      "Matthew Marletta"
      ],
      "a": [
       "Andrew Lin",
@@ -66363,8 +66420,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Maske",
+      "Pranav Tailor"
      ],
      "a": [
       "Oscar Montoya",
@@ -66374,19 +66431,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Franco",
+      "Neel Goyal"
      ],
      "a": [
       "Carly Pfeffer",
       "Oscar Montoya"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Aadhar Rohila"
      ],
      "a": [
       "Danielle Stein",
@@ -66400,8 +66461,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Iassen Christov"
      ],
      "a": [
       "Alyssa Latham",
@@ -66411,8 +66472,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Pranav Tailor"
      ],
      "a": [
       "Martyna Dudek",
@@ -66422,8 +66483,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Brittany Anghel"
      ],
      "a": [
       "Carly Pfeffer",
@@ -66433,23 +66494,31 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Maria Franco"
      ],
      "a": [
       "Alyssa Latham",
       "Danielle Stein"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Iassen Christov",
+      "Neel Goyal"
      ],
      "a": [
       "Andrew Lin",
       "Todd Mitchell"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -66459,8 +66528,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Maske",
+      "Pranav Tailor"
      ],
      "a": [
       "Oscar Montoya",
@@ -66607,8 +66676,8 @@
       ""
      ],
      "a": [
-      "Mickey Ma",
-      "Elliott Bauer"
+      "Brittney Lew",
+      "Jesse Martinez"
      ]
     },
     {
@@ -66629,7 +66698,7 @@
       ""
      ],
      "a": [
-      "Mickey Ma",
+      "Brittney Lew",
       "Cait Kearney"
      ]
     },
@@ -66640,7 +66709,7 @@
       ""
      ],
      "a": [
-      "Mickey Ma",
+      "Brittney Lew",
       "Nicolas Ha"
      ]
     },
@@ -66662,7 +66731,7 @@
       ""
      ],
      "a": [
-      "Brittney Lew",
+      "Lindsay Henzes",
       "Jesse Martinez"
      ]
     },
@@ -66834,14 +66903,6 @@
   {
    "result": null,
    "week": 9,
-   "home": "Montville",
-   "away": "Pickleball Kingdom Watchung",
-   "time": "2026-10-24T18:00:00",
-   "complete": false
-  },
-  {
-   "result": null,
-   "week": 9,
    "home": "Bounce Philly",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-10-25T14:00:00",
@@ -66933,6 +66994,14 @@
    "home": "Jersey Devil",
    "away": "Pickle House",
    "time": "2026-10-29T19:30:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 11,
+   "home": "Montville",
+   "away": "Pickleball Kingdom Watchung",
+   "time": "2026-10-27T19:30:00",
    "complete": false
   },
   {
@@ -67120,7 +67189,6 @@
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
   "Nicholas Howcumfu": "31ce4087-c3ba-4db5-878a-c4c19a52f2a3",
-  "Maria Franco": "4c0a6c7a-30fa-4f4b-9494-a54534b88be8",
   "John Tano": "4f829164-c19f-49a4-b5c5-8a7f390f1f05",
   "Heidi Hinz": "525f9d3d-1019-49bb-baec-a4dc75b7d62b",
   "David Barth": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
@@ -67964,7 +68032,7 @@
   "matchesPlayed": 91,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 442,
+  "totalPlayers": 443,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -68121,7 +68189,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T22:07:35.957Z";
+  DATA.meta.asOf = "2026-10-20T02:44:12.973Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

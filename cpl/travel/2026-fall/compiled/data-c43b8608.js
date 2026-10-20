@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 457,
+   "leagueRank": 458,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11774,6 +11774,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
+  },
+  {
+   "name": "Srinivas Balla",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 430,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "aca3ac6f-2b68-41ab-bf57-f5ef287de0c4"
   },
   {
    "name": "Mike Hardy",
@@ -56537,7 +56566,72 @@
    "home": "Allstar Pickler",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-10-24T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Herald Barber"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Srinivas Balla"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Guitta Barghash",
+      "Margaret Bayse"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -56886,6 +56980,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Amanda Nguyen": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
@@ -56900,7 +56995,6 @@
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
-  "Srinivas Balla": "aca3ac6f-2b68-41ab-bf57-f5ef287de0c4",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
@@ -56913,6 +57007,14 @@
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
  "availableSubs": [
+  {
+   "name": "Amanda Nguyen",
+   "playerId": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
+   "gender": "Female",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
   {
    "name": "Lou Gomez",
    "playerId": "02225bc8-b771-4167-90dc-370a93c81153",
@@ -58014,7 +58116,7 @@
   "matchesPlayed": 76,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 434,
+  "totalPlayers": 435,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -58155,7 +58257,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-19T22:08:25.293Z";
+  DATA.meta.asOf = "2026-10-20T02:46:09.576Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

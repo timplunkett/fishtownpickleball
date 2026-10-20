@@ -3373,6 +3373,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Chris Mendoza",
+   "playerId": "666618c5-e90e-4370-9b42-773ac384f7de",
+   "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
    "name": "Chris Norton",
    "playerId": "395868e3-8573-41ad-9b13-84b6a7bf7f35",
    "team": "Bounce Malvern Boom",
@@ -6817,6 +6824,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Hannah Boles",
+   "playerId": "fa7927b0-c775-4e45-a682-ce91d51d7817",
+   "team": "Delco Turf & Pickle",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Hannah Nussbaum",
    "playerId": "84b7c449-501c-438d-a3eb-ee67cc92fa0e",
    "team": "Dill Dinkers Hatboro The Factory",
@@ -9921,6 +9935,13 @@ window.DUPR_AUDIT = {
    "name": "Justin Lin",
    "playerId": "b084b51a-054c-4a7f-b1a5-0cb26e4f669c",
    "team": "ACE Downingtown",
+   "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Justin Villa",
+   "playerId": "d66b0fa0-2b50-45d7-a218-2c12d8525ef6",
+   "team": "Picklr Exton",
    "slug": "b7ca04e4",
    "gender": "Male"
   },
@@ -17118,6 +17139,13 @@ window.DUPR_AUDIT = {
    "playerId": "40f98b81-c10a-4e0b-9154-3a8ffa3d784c",
    "team": "Players Courtyard",
    "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Sophie O’Driscoll",
+   "playerId": "40f98b81-c10a-4e0b-9154-3a8ffa3d784c",
+   "team": "Players Courtyard",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {

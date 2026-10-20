@@ -14399,8 +14399,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Delco Turf & Pickle"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -29859,8 +29859,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "ACE Downingtown"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 4,
@@ -29886,8 +29886,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "ACE Downingtown"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -101934,8 +101934,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Players Courtyard"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -101961,8 +101961,8 @@
     "teamRes": "L",
     "teamGW": 6,
     "teamGL": 26,
-    "sub": 1,
-    "subFor": "Players Courtyard"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

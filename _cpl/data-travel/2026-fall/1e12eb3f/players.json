@@ -136,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 607
+      "ranking": 609
     },
     {
       "playerId": "03769e99-2521-4e52-bef4-cf55e57e9460",
@@ -711,7 +711,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 603
+      "ranking": 605
     },
     {
       "playerId": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
@@ -1585,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 605
+      "ranking": 607
     },
     {
       "playerId": "1bec31ec-6396-4b0a-826c-831ae5df347e",
@@ -1631,7 +1631,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 600
+      "ranking": 601
     },
     {
       "playerId": "1c4c9ff1-1050-48c3-b278-3a5afbf51a7c",
@@ -2413,7 +2413,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 597
+      "ranking": 598
     },
     {
       "playerId": "30568077-6244-48c9-b1cb-66d788ed8a4a",
@@ -2574,7 +2574,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 596
+      "ranking": 597
     },
     {
       "playerId": "33b16b4f-95d4-4467-aba6-44b22d090bb5",
@@ -3678,7 +3678,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 601
+      "ranking": 603
     },
     {
       "playerId": "43e85bb2-c9ae-4ebf-8e2d-7f77f5a801f7",
@@ -4208,6 +4208,29 @@
       "genderWins": 6,
       "genderLosses": 0,
       "ranking": 11
+    },
+    {
+      "playerId": "4dae6d67-32ee-47af-b281-286ad9fd1b76",
+      "firstName": "Jeremy",
+      "lastName": "Soifer",
+      "gender": "Male",
+      "dupr": "7MQN6N",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
+      "teamName": "PickleRage Union County",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 602
     },
     {
       "playerId": "4dc56079-f189-46c7-b2c6-d2951ab05d7e",
@@ -6162,7 +6185,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 608
+      "ranking": 611
     },
     {
       "playerId": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
@@ -6209,6 +6232,29 @@
       "genderWins": 0,
       "genderLosses": 1,
       "ranking": 558
+    },
+    {
+      "playerId": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
+      "firstName": "Jessicae",
+      "lastName": "Weinberg",
+      "gender": "Female",
+      "dupr": "0YVOQN",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
+      "teamName": "PickleRage Union County",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 610
     },
     {
       "playerId": "76b5ed62-1637-473f-a484-a86faf95338a",
@@ -6737,7 +6783,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 604
+      "ranking": 606
     },
     {
       "playerId": "80fbbb8f-8f4d-4a6f-bc08-925f29df32ea",
@@ -7220,7 +7266,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 595
+      "ranking": 596
     },
     {
       "playerId": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
@@ -7474,6 +7520,29 @@
       "genderWins": 9,
       "genderLosses": 6,
       "ranking": 111
+    },
+    {
+      "playerId": "8e6b0543-1a6c-4593-8dff-9ae70aef8b18",
+      "firstName": "Mina",
+      "lastName": "Mount",
+      "gender": "Female",
+      "dupr": "76ELV4",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 595
     },
     {
       "playerId": "8f21d0e1-3bff-42d5-a59a-f8240b2b7eb2",
@@ -8830,7 +8899,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 609
+      "ranking": 612
     },
     {
       "playerId": "aa46ebc1-bcda-4333-b10b-7e1518949cb5",
@@ -12326,7 +12395,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 606
+      "ranking": 608
     },
     {
       "playerId": "e5bf1611-3d03-4600-9e72-301e91a9db18",
@@ -12533,7 +12602,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 599
+      "ranking": 600
     },
     {
       "playerId": "e81f3561-3e91-48aa-8430-f177ad30248b",
@@ -13315,7 +13384,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 602
+      "ranking": 604
     },
     {
       "playerId": "f6eef486-8999-4247-a7d8-20251377021c",
@@ -13821,7 +13890,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 598
+      "ranking": 599
     },
     {
       "playerId": "fc528b4b-0dfe-4334-9619-0abce2d33972",

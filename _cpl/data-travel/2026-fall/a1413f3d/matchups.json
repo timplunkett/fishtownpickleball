@@ -1261,18 +1261,6 @@
       "awayName": "Monroe"
     },
     {
-      "matchupId": "2ae91ad5-a6a3-42aa-bb98-144a8d370e99",
-      "weekNumber": 9,
-      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
-      "awayTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T18:00:00",
-      "homeName": "Montville",
-      "awayName": "Pickleball Kingdom Watchung"
-    },
-    {
       "matchupId": "1733628e-d247-4171-9a26-13782dd58d78",
       "weekNumber": 9,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
@@ -1415,6 +1403,18 @@
       "scheduledTime": "2026-10-29T19:30:00",
       "homeName": "Jersey Devil",
       "awayName": "Pickle House"
+    },
+    {
+      "matchupId": "2ae91ad5-a6a3-42aa-bb98-144a8d370e99",
+      "weekNumber": 11,
+      "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "awayTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-27T19:30:00",
+      "homeName": "Montville",
+      "awayName": "Pickleball Kingdom Watchung"
     },
     {
       "matchupId": "a497783e-9dce-4367-a2cd-a5f3c2199522",

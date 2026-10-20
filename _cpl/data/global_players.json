@@ -217,7 +217,7 @@
     "duprRating": "3.353",
     "duprNumericId": 4960214726,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-10"
   },
   {
     "playerId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
@@ -1787,7 +1787,7 @@
     "duprRating": "3.924",
     "duprNumericId": 7987518948,
     "duprProvisional": false,
-    "lastSeen": "2026-08-31"
+    "lastSeen": "2026-10"
   },
   {
     "playerId": "11acfc83-ff3d-4e5f-b234-95827745ade8",
@@ -34883,10 +34883,10 @@
   {
     "playerId": "8b0492cf-8eea-4837-bcfe-773d45222643",
     "firstName": "Thomas",
-    "lastName": "Davis ",
+    "lastName": "Davis",
     "dupr": "QPJ660",
     "duprRating": "3.099",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 6133457360,
     "duprProvisional": false
   },
@@ -48354,6 +48354,52 @@
     "duprRating": "3.357",
     "lastSeen": "2026-10",
     "duprNumericId": 5453559390,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "8e6b0543-1a6c-4593-8dff-9ae70aef8b18",
+    "firstName": "Mina",
+    "lastName": "Mount",
+    "dupr": "76ELV4",
+    "duprRating": "3.005",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6286840359,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "4dae6d67-32ee-47af-b281-286ad9fd1b76",
+    "firstName": "Jeremy",
+    "lastName": "Soifer",
+    "dupr": "7MQN6N",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7423423663,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba",
+    "firstName": "Jessicae",
+    "lastName": "Weinberg",
+    "dupr": "0YVOQN",
+    "duprRating": null,
+    "lastSeen": "2026-10"
+  },
+  {
+    "playerId": "0deaaac2-9c44-40a4-84c2-ae00731d6f57",
+    "firstName": "Chris",
+    "lastName": "Mirra",
+    "dupr": "3LM255",
+    "duprRating": null,
+    "lastSeen": "2026-10"
+  },
+  {
+    "playerId": "f6b907d4-c474-4b19-a0d3-ad1b97b6d212",
+    "firstName": "Yanwen",
+    "lastName": "Yin",
+    "dupr": "7N9V75",
+    "duprRating": "2.910",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5724771044,
     "duprProvisional": false
   }
 ]

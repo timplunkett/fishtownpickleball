@@ -51485,7 +51485,64 @@
   },
   {
     "matchupId": "5e5ccb2a-23a4-426e-8091-98c5c55a748f",
-    "details": {}
+    "details": {
+      "lineups": {
+        "lineups": {
+          "$values": [
+            {
+              "matchupId": "5e5ccb2a-23a4-426e-8091-98c5c55a748f",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
+              "awayPlayerId2": "6600b9f3-d27b-4772-8308-5636ac646776",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "mixed"
+            },
+            {
+              "matchupId": "5e5ccb2a-23a4-426e-8091-98c5c55a748f",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "e4b1fba4-7df9-45eb-ad2f-d6b352d25cf4",
+              "awayPlayerId2": "8bb1e9d8-4569-41d0-8502-a265101a76d6",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "mixed"
+            },
+            {
+              "matchupId": "5e5ccb2a-23a4-426e-8091-98c5c55a748f",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "12f7de26-e375-4efe-a282-f292bd8ca719",
+              "awayPlayerId2": "40a679d7-818c-46dc-872c-5e1cdf926e44",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "mixed"
+            },
+            {
+              "matchupId": "5e5ccb2a-23a4-426e-8091-98c5c55a748f",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "941eff8b-b056-483d-b927-48cf751a04d9",
+              "awayPlayerId2": "aca3ac6f-2b68-41ab-bf57-f5ef287de0c4",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "mixed"
+            },
+            {
+              "matchupId": "5e5ccb2a-23a4-426e-8091-98c5c55a748f",
+              "homePlayerId1": null,
+              "homePlayerId2": null,
+              "awayPlayerId1": "8011677b-64c0-467d-8d54-c32da035effe",
+              "awayPlayerId2": "941eff8b-b056-483d-b927-48cf751a04d9",
+              "homeScore": null,
+              "awayScore": null,
+              "matchType": "female"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "matchupId": "68c63377-188e-419b-955d-5f4c07c700ad",
