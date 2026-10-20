@@ -1453,6 +1453,18 @@
       "awayName": "Pickle Juice Blackwood"
     },
     {
+      "matchupId": "504f64b7-e994-4598-a153-be9c75fcf0e6",
+      "weekNumber": 12,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-07T13:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "Players Courtyard"
+    },
+    {
       "matchupId": "18e1ef33-b1b0-4449-a5c9-d72202baff3c",
       "weekNumber": 12,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -1463,18 +1475,6 @@
       "scheduledTime": "2026-11-09T19:00:00",
       "homeName": "Flemington",
       "awayName": "PickleRage Union County Pandas"
-    },
-    {
-      "matchupId": "504f64b7-e994-4598-a153-be9c75fcf0e6",
-      "weekNumber": 12,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-09T19:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Players Courtyard"
     },
     {
       "matchupId": "8e8cf5bc-33fd-4930-b299-dbf39d098930",

@@ -66730,16 +66730,16 @@
   {
    "result": null,
    "week": 12,
-   "home": "Flemington",
-   "away": "PickleRage Union County Pandas",
-   "time": "2026-11-09T19:00:00",
+   "home": "Pickleball Kingdom Lehigh Valley",
+   "away": "Players Courtyard",
+   "time": "2026-11-07T13:00:00",
    "complete": false
   },
   {
    "result": null,
    "week": 12,
-   "home": "Pickleball Kingdom Lehigh Valley",
-   "away": "Players Courtyard",
+   "home": "Flemington",
+   "away": "PickleRage Union County Pandas",
    "time": "2026-11-09T19:00:00",
    "complete": false
   },
@@ -67837,7 +67837,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T14:32:49.293Z";
+  DATA.meta.asOf = "2026-10-20T16:03:59.920Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

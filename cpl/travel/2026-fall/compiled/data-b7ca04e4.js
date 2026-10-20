@@ -15952,6 +15952,35 @@
    "playerId": "2b402e40-cd4c-49e3-8f6b-4e70863852e9"
   },
   {
+   "name": "Conor Malloy",
+   "gender": "Male",
+   "team": "Pickle Juice Blackwood",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 586,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "79791efb-c2d0-449d-8572-a99a1f2a5200"
+  },
+  {
    "name": "Kylie Moulin",
    "gender": "Female",
    "team": "Picklr Newark",
@@ -95295,19 +95324,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Victoria Young",
+      "Conor Malloy"
      ],
      "a": [
       "Shania Bui",
       "Dylan Mich"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eileen Potter",
+      "Brian Cook"
      ],
      "a": [
       "Eileen Zhang",
@@ -95317,8 +95350,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Kinkel",
+      "Skylar Bobadilla"
      ],
      "a": [
       "Ginny Truong",
@@ -95328,8 +95361,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andrea Bramante",
+      "Jon Palabay"
      ],
      "a": [
       "Jessica Godish",
@@ -95343,8 +95376,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Victoria Young",
+      "Christina Juliano"
      ],
      "a": [
       "Shania Bui",
@@ -95354,8 +95387,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Potter",
+      "Magnolia Lau"
      ],
      "a": [
       "Christina Vuong",
@@ -95365,8 +95398,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Palabay",
+      "Patrick Reece"
      ],
      "a": [
       "Anthony Oliver",
@@ -95376,19 +95409,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Skylar Bobadilla",
+      "Conor Malloy"
      ],
      "a": [
       "David Tran",
       "Kong Vu"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Victoria Young",
+      "Brian Cook"
      ],
      "a": [
       "Ginny Truong",
@@ -95398,8 +95435,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christina Juliano",
+      "Patrick Reece"
      ],
      "a": [
       "Eileen Zhang",
@@ -95409,8 +95446,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Magnolia Lau",
+      "Skylar Bobadilla"
      ],
      "a": [
       "Vy Conghuyen",
@@ -95420,8 +95457,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andrea Bramante",
+      "Holden Lenoff"
      ],
      "a": [
       "Christina Vuong",
@@ -96139,7 +96176,6 @@
   "Saaketh Koundinya Gundavarapu": "67730cd7-1040-4a80-a665-53e124b526cd",
   "Grace Chung": "6e476240-4e0c-46ca-94b1-f2ec4e214835",
   "Grace Ramirez": "7082a4e4-613e-4ca0-b9fe-a5b195887830",
-  "Conor Malloy": "79791efb-c2d0-449d-8572-a99a1f2a5200",
   "Guitta Barghash": "8011677b-64c0-467d-8d54-c32da035effe",
   "Duy Duong": "81de0241-17f5-4c13-9214-0b914709e971",
   "Utkarsh Patel": "82beb69d-fdf5-4102-a1f8-612ce0049782",
@@ -97401,7 +97437,7 @@
   "matchesPlayed": 125,
   "provisionalMatches": 0,
   "weeks": "1-8",
-  "totalPlayers": 581,
+  "totalPlayers": 582,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -97480,7 +97516,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-20T10:43:37.793Z";
+  DATA.meta.asOf = "2026-10-20T16:06:07.617Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
