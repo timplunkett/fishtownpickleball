@@ -35832,7 +35832,7 @@
     "lastName": "Prasongyuenyong",
     "dupr": "PP4N6Q",
     "duprRating": "3.202",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 6706114860,
     "duprProvisional": false
   },
@@ -48504,6 +48504,16 @@
     "duprRating": "3.268",
     "lastSeen": "2026-10",
     "duprNumericId": 5975500287,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "f2953892-e184-43f2-a1dd-8fef5cbb622c",
+    "firstName": "Lisa",
+    "lastName": "Burgermeister",
+    "dupr": "V467JJ",
+    "duprRating": "2.520",
+    "lastSeen": "2026-10",
+    "duprNumericId": 4318902206,
     "duprProvisional": false
   }
 ]

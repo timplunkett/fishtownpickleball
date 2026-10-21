@@ -35571,8 +35571,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "William Lee"
      ],
      "a": [
       "Yuki Kim",
@@ -35586,8 +35586,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Anushk Gupta"
      ],
      "a": [
       "Teresa Wang",
@@ -35597,8 +35597,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Helen Liu",
+      "Ryan Rosen"
      ],
      "a": [
       "Nam Barsh",
@@ -35608,8 +35608,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Adam Beck"
      ],
      "a": [
       "Scotland Reynolds",
@@ -35619,8 +35619,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Helen Liu"
      ],
      "a": [
       "Yuki Kim",
@@ -35630,8 +35630,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Erika Richards"
      ],
      "a": [
       "Sarah Kline",
@@ -35641,8 +35641,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Beck",
+      "Ryan Rosen"
      ],
      "a": [
       "Nick Meale",
@@ -35652,8 +35652,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "William Lee"
      ],
      "a": [
       "Lou Frignito",
@@ -35667,8 +35667,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "William Lee"
      ],
      "a": [
       "Yuki Kim",
@@ -35682,8 +35682,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Adam Beck"
      ],
      "a": [
       "Teresa Wang",
@@ -35693,8 +35693,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Anushk Gupta"
      ],
      "a": [
       "Sarah Kline",
@@ -35704,8 +35704,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Ryan Rosen"
      ],
      "a": [
       "Nam Barsh",
@@ -35715,8 +35715,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Claudya Elefante"
      ],
      "a": [
       "Yuki Kim",
@@ -35726,8 +35726,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "Helen Liu"
      ],
      "a": [
       "Sarah Kline",
@@ -35737,8 +35737,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Ryan Rosen"
      ],
      "a": [
       "Nick Meale",
@@ -35748,8 +35748,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Beck",
+      "William Lee"
      ],
      "a": [
       "Lou Frignito",
@@ -35763,8 +35763,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Tartaglia",
+      "Anushk Gupta"
      ],
      "a": [
       "Yuki Kim",
@@ -35774,8 +35774,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Helen Liu",
+      "William Lee"
      ],
      "a": [
       "Teresa Wang",
@@ -35785,8 +35785,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Adam Beck"
      ],
      "a": [
       "Scotland Reynolds",
@@ -35796,8 +35796,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Ryan Rosen"
      ],
      "a": [
       "Nam Barsh",
@@ -35811,8 +35811,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Alyssa Tartaglia"
      ],
      "a": [
       "Teresa Wang",
@@ -35822,8 +35822,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Claudya Elefante"
      ],
      "a": [
       "Sarah Kline",
@@ -35833,8 +35833,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Beck",
+      "William Lee"
      ],
      "a": [
       "Nick Meale",
@@ -35844,8 +35844,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Ryan Rosen"
      ],
      "a": [
       "Chris Tabeling",
@@ -35859,8 +35859,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Adam Beck"
      ],
      "a": [
       "Yuki Kim",
@@ -35870,8 +35870,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Helen Liu",
+      "William Lee"
      ],
      "a": [
       "Scotland Reynolds",
@@ -35881,8 +35881,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Ryan Rosen"
      ],
      "a": [
       "Sarah Kline",
@@ -35892,8 +35892,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Anushk Gupta"
      ],
      "a": [
       "Nam Barsh",
@@ -35907,8 +35907,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Ross",
+      "Helen Liu"
      ],
      "a": [
       "Teresa Wang",
@@ -35918,8 +35918,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Alyssa Tartaglia"
      ],
      "a": [
       "Sarah Kline",
@@ -35929,8 +35929,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Adam Beck"
      ],
      "a": [
       "Nick Meale",
@@ -35944,8 +35944,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "William Lee"
      ],
      "a": [
       "Lou Frignito",
@@ -38279,7 +38279,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T02:39:12.391Z";
+  DATA.meta.asOf = "2026-10-21T10:53:59.727Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

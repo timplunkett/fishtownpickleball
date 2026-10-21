@@ -1378,7 +1378,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 466
+      "ranking": 467
     },
     {
       "playerId": "21277f01-5086-42c3-a156-c7b1a503e75b",
@@ -3909,6 +3909,29 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 465
+    },
+    {
+      "playerId": "5e42a5f7-22d1-4613-a829-b62121ddc704",
+      "firstName": "Jason",
+      "lastName": "Wu",
+      "gender": "Male",
+      "dupr": "0Y2XG2",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 466
     },
     {
       "playerId": "5f2e3f29-7b61-4d23-ba5a-23bfe5eac362",

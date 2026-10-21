@@ -57401,6 +57401,7 @@
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "Denise Werner": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
+  "Jason Wu": "5e42a5f7-22d1-4613-a829-b62121ddc704",
   "Joel Rubins": "70a271cf-643d-45a1-bb2e-c13be2cd168b",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Leslie Laganella": "79b88b19-d7ab-49ab-881c-888ff437ae90",
@@ -57803,6 +57804,14 @@
    "playerId": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
    "gender": "Female",
    "team": "Picklr Fair Lawn",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jason Wu",
+   "playerId": "5e42a5f7-22d1-4613-a829-b62121ddc704",
+   "gender": "Male",
+   "team": "Picklr Newtown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58696,7 +58705,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T02:39:42.441Z";
+  DATA.meta.asOf = "2026-10-21T10:54:26.368Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
