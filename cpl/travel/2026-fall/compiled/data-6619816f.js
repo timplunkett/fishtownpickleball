@@ -36713,7 +36713,7 @@
     {
      "t": "mixed",
      "h": [
-      "Danielle Bernero",
+      "Rachel Berger",
       "Caleb Perry-Abner"
      ],
      "a": [
@@ -36812,7 +36812,7 @@
     {
      "t": "mixed",
      "h": [
-      "Danielle Bernero",
+      "Rachel Berger",
       "Caleb Perry-Abner"
      ],
      "a": [
@@ -36889,7 +36889,7 @@
     {
      "t": "mixed",
      "h": [
-      "Danielle Bernero",
+      "Rachel Berger",
       "Johny Mario"
      ],
      "a": [
@@ -36945,7 +36945,7 @@
      "t": "female",
      "h": [
       "Michelle Quach",
-      "Danielle Bernero"
+      "Rachel Berger"
      ],
      "a": [
       "Charlotte Healey",
@@ -36977,7 +36977,7 @@
     {
      "t": "mixed",
      "h": [
-      "Danielle Bernero",
+      "Rachel Berger",
       "Johny Mario"
      ],
      "a": [
@@ -37033,7 +37033,7 @@
      "t": "female",
      "h": [
       "Michelle Quach",
-      "Danielle Bernero"
+      "Rachel Berger"
      ],
      "a": [
       "Alex Abad",
@@ -38279,7 +38279,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T10:53:59.727Z";
+  DATA.meta.asOf = "2026-10-21T16:22:54.310Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -12028,7 +12028,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 467,
+   "leagueRank": 469,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12057,7 +12057,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 441,
+   "leagueRank": 442,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12086,7 +12086,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 474,
+   "leagueRank": 476,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12115,7 +12115,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 480,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12144,7 +12144,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 454,
+   "leagueRank": 456,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12173,7 +12173,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 470,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12202,7 +12202,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 455,
+   "leagueRank": 457,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12231,7 +12231,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 470,
+   "leagueRank": 472,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12260,7 +12260,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 446,
+   "leagueRank": 447,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12289,7 +12289,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 463,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12318,7 +12318,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 448,
+   "leagueRank": 449,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12347,7 +12347,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 458,
+   "leagueRank": 460,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -69689,6 +69689,7 @@
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shukling Parker": "8b9a1a95-0599-42bc-b233-e24609d11e07",
+  "Virginie Boutin": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
   "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
@@ -69697,6 +69698,7 @@
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Kyle Wilson": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
   "Kierstin Gant": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
+  "Steven Hummel": "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca",
   "Brandon Tsang": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
   "Brian Landau": "e036945a-5009-4ae2-96a1-623387de7100",
   "Daniel Pham": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
@@ -70216,6 +70218,14 @@
    "outsideSub": true
   },
   {
+   "name": "Virginie Boutin",
+   "playerId": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
+   "gender": "Female",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Shangjia Dong",
    "playerId": "a6d8088e-3253-4253-a79d-e389864e2359",
    "gender": "Male",
@@ -70340,6 +70350,14 @@
    "playerId": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
    "gender": "Female",
    "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Steven Hummel",
+   "playerId": "c5bf56d5-50a9-4a1f-a6f8-3f3f5af91cca",
+   "gender": "Male",
+   "team": "Pickle House",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -70678,7 +70696,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T10:52:57.132Z";
+  DATA.meta.asOf = "2026-10-21T16:21:38.504Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

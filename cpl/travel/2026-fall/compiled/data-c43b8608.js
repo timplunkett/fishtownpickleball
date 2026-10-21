@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 461,
+   "leagueRank": 462,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 452,
+   "leagueRank": 453,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -56611,11 +56611,7 @@
      ],
      "a": [
       "Margaret Bayse",
-      "Srinivas Balla"
-     ],
-     "aSub": [
-      0,
-      1
+      "Herald Barber"
      ]
     },
     {
@@ -56742,6 +56738,102 @@
      "aSub": [
       0,
       1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Herald Barber",
+      "Madan P"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pedro Oliveira",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Herald Barber"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Srinivas Balla"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Guitta Barghash"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Shobana Ravishankar"
      ]
     },
     {
@@ -56752,107 +56844,11 @@
      ],
      "a": [
       "Srinivas Balla",
-      "Madan P"
+      "Pedro Oliveira"
      ],
      "aSub": [
       1,
       0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Pedro Oliveira",
-      "Stephen Stasiulewicz"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Shobana Ravishankar",
-      "Herald Barber"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Margaret Bayse",
-      "Gary Grzankowski"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nan Feng",
-      "Srinivas Balla"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Izabel Illipronti",
-      "Pedro Oliveira"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Margaret Bayse",
-      "Guitta Barghash"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nan Feng",
-      "Shobana Ravishankar"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Herald Barber",
-      "Stephen Stasiulewicz"
      ]
     },
     {
@@ -56900,7 +56896,7 @@
      ],
      "a": [
       "Guitta Barghash",
-      "Madan P"
+      "Gary Grzankowski"
      ],
      "aSub": [
       1,
@@ -56947,7 +56943,7 @@
       ""
      ],
      "a": [
-      "Pedro Oliveira",
+      "Madan P",
       "Herald Barber"
      ]
     },
@@ -57076,12 +57072,16 @@
     {
      "t": "mixed",
      "h": [
-      "Margaret Bayse",
+      "Judy Brougham",
       "Gary Grzankowski"
      ],
      "a": [
       "",
       ""
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -58705,7 +58705,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T10:54:26.368Z";
+  DATA.meta.asOf = "2026-10-21T16:23:25.751Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
