@@ -56540,7 +56540,361 @@
    "home": "Picklr Newark",
    "away": "One Love",
    "time": "2026-10-24T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Karen Kelly"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Lynne Walrod"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Cisar",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Stout",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Michael Stout"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Lynne Walrod"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Karen Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Cisar",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Mendez",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Michael Stout"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynne Walrod",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Lynne Walrod"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Karen Kelly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Mendez",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Stout",
+      "Jim Sintic"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Kelly",
+      "Rob Mendez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Heidi Lipton",
+      "Michael Stout"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynne Walrod",
+      "Michael Cisar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Kenneth Pickett"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Susan Belanger",
+      "Karen Kelly"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katy Taylor",
+      "Lynne Walrod"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Mendez",
+      "Michael Stout"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenneth Pickett",
+      "Jim Sintic"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -56621,12 +56975,8 @@
       ""
      ],
      "a": [
-      "Guitta Barghash",
+      "Margaret Bayse",
       "Izabel Illipronti"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -56695,7 +57045,7 @@
       ""
      ],
      "a": [
-      "Margaret Bayse",
+      "Nan Feng",
       "Herald Barber"
      ]
     },
@@ -56732,7 +57082,7 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Shobana Ravishankar",
       "Guitta Barghash"
      ],
      "aSub": [
@@ -56769,7 +57119,7 @@
       ""
      ],
      "a": [
-      "Shobana Ravishankar",
+      "Izabel Illipronti",
       "Herald Barber"
      ]
     },
@@ -56791,11 +57141,11 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Guitta Barghash",
       "Srinivas Balla"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -56806,7 +57156,7 @@
       ""
      ],
      "a": [
-      "Izabel Illipronti",
+      "Nan Feng",
       "Pedro Oliveira"
      ]
     },
@@ -57412,10 +57762,12 @@
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Teresa Carr": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
+  "Jiyun Yuh": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
   "Sheree Ross": "e3a5083d-9c55-4482-be06-647b8e86c504",
   "Mark Kot": "e652b254-402f-46be-90e9-ed5fcd575154",
   "Joy Frederick": "e97daa4f-0d54-4e83-87a3-3762d363be43",
+  "San Yang": "ea172a5a-d930-4f15-af1d-d792c4bd37a8",
   "Erik Abramson": "ea77bb43-8f4b-49df-8931-43c6cc9729a2",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
   "Dana Sun": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
@@ -58312,6 +58664,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jiyun Yuh",
+   "playerId": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
+   "gender": "Female",
+   "team": "APC Garden State",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Robert Shea",
    "playerId": "c95c4833-a2e9-44ca-8451-b39430659a7e",
    "gender": "Male",
@@ -58428,6 +58788,14 @@
    "playerId": "e97daa4f-0d54-4e83-87a3-3762d363be43",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "San Yang",
+   "playerId": "ea172a5a-d930-4f15-af1d-d792c4bd37a8",
+   "gender": "Female",
+   "team": "Montville Dragons",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58705,7 +59073,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T16:23:25.751Z";
+  DATA.meta.asOf = "2026-10-21T21:06:14.959Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

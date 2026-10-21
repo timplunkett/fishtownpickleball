@@ -13432,8 +13432,8 @@
    "name": "Sharon Pastore",
    "gender": "Female",
    "team": "Bounce Malvern",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 15,
    "wins": 3,
@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 608,
+   "leagueRank": 610,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 603,
+   "leagueRank": 604,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14928,7 +14928,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 584,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 613,
+   "leagueRank": 615,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 601,
+   "leagueRank": 602,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 593,
+   "leagueRank": 594,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15073,7 +15073,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 585,
+   "leagueRank": 586,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 598,
+   "leagueRank": 599,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 607,
+   "leagueRank": 609,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 611,
+   "leagueRank": 613,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 605,
+   "leagueRank": 606,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -57793,9 +57793,7 @@
      ]
     }
    ],
-   "subs": [
-    "Sharon Pastore"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -64320,8 +64318,7 @@
    ],
    "subs": [
     "Pablo Martin",
-    "David Arvan",
-    "Sharon Pastore"
+    "David Arvan"
    ]
   },
   {
@@ -73427,6 +73424,7 @@
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Lydia Madrilejos": "39aae561-e09c-4f74-873b-2b5a36c15d05",
+  "Christine Pisapia": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Tami Derrick": "46f2fdc9-6f31-45a0-8d89-0f7098676362",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
@@ -73456,6 +73454,7 @@
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Scott Moore": "c25daa27-7d35-45da-82f3-8ff1c62bcce3",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
+  "Daniel Coneeny": "d7811a70-f17e-46ec-b81a-14b05d5e7f33",
   "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
   "Dan Matthews": "db35c570-ffa9-423e-9a3b-8e218fb3f2ec",
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
@@ -73877,6 +73876,14 @@
    "playerId": "3de3caf1-50d6-43d6-a347-6ebb8f6acb96",
    "gender": "Female",
    "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Christine Pisapia",
+   "playerId": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
+   "gender": "Female",
+   "team": "Premiere Aces",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -74809,14 +74816,6 @@
    "outsideSub": true
   },
   {
-   "name": "Sharon Pastore",
-   "playerId": "cdd6b427-286b-4fe5-941c-7bdaf9de2843",
-   "gender": "Female",
-   "team": "Bounce Malvern",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Cathy Orourke",
    "playerId": "d0485529-ede0-4a73-b48c-a0a57803ff25",
    "gender": "Female",
@@ -74845,6 +74844,14 @@
    "playerId": "d61fec4f-3d91-4d15-9e73-53215808bd3d",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Daniel Coneeny",
+   "playerId": "d7811a70-f17e-46ec-b81a-14b05d5e7f33",
+   "gender": "Male",
+   "team": "Life Time Red Bank",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -75314,7 +75321,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T02:37:33.839Z";
+  DATA.meta.asOf = "2026-10-21T21:03:46.694Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

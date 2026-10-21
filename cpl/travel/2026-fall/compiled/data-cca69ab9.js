@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 228,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -36463,7 +36463,8 @@
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Matthew Marletta": "c3c6b787-5356-467d-8268-08e5f3cbc450",
-  "Pranav Tailor": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7"
+  "Pranav Tailor": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7",
+  "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
  },
  "availableSubs": [
   {
@@ -36883,6 +36884,14 @@
    "outsideSub": true
   },
   {
+   "name": "Ethan Rosen",
+   "playerId": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Peter Nagy",
    "playerId": "db98d397-2496-4147-943c-febe48812018",
    "gender": "Male",
@@ -37072,7 +37081,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T16:23:39.753Z";
+  DATA.meta.asOf = "2026-10-21T21:06:36.343Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

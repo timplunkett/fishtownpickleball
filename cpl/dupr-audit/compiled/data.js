@@ -16925,6 +16925,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Sharon Pastore",
+   "playerId": "cdd6b427-286b-4fe5-941c-7bdaf9de2843",
+   "team": "Bounce Malvern",
+   "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
    "name": "Sharon Rarig",
    "playerId": "f0fbd8dc-a5a3-45f7-8ca5-f0cb985f5f23",
    "team": "Colts Neck Racquet Club",
