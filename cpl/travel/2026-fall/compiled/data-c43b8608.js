@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 442,
+   "leagueRank": 443,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 435,
+   "leagueRank": 436,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11651,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 436,
+   "leagueRank": 437,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 460,
+   "leagueRank": 461,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 452,
+   "leagueRank": 453,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 451,
+   "leagueRank": 452,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -57395,6 +57395,7 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Yimin Wu": "207e0387-bddb-4fd6-a13f-6ab14b3295ed",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
@@ -57408,6 +57409,7 @@
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
+  "Teresa Carr": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
   "Sheree Ross": "e3a5083d-9c55-4482-be06-647b8e86c504",
@@ -57569,6 +57571,14 @@
    "playerId": "1fc2dd51-135b-46d6-91ef-9291b573e78a",
    "gender": "Female",
    "team": "Premiere",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yimin Wu",
+   "playerId": "207e0387-bddb-4fd6-a13f-6ab14b3295ed",
+   "gender": "Female",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58229,6 +58239,14 @@
    "outsideSub": true
   },
   {
+   "name": "Teresa Carr",
+   "playerId": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
+   "gender": "Female",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Dennis Higman",
    "playerId": "b8fabebb-fd0f-49a8-929a-defbac098e43",
    "gender": "Male",
@@ -58678,7 +58696,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T21:04:38.638Z";
+  DATA.meta.asOf = "2026-10-21T02:39:42.441Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

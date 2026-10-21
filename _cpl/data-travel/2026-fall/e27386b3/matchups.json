@@ -1037,9 +1037,9 @@
       "weekNumber": 9,
       "homeTeamId": "22d84662-b5bf-4b07-ae94-3184fb63775d",
       "awayTeamId": "ee6bc230-a5cc-4c02-bab3-439825ce248f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 601,
+      "awayPoints": 604,
+      "endResult": "home",
       "scheduledTime": "2026-10-19T19:30:00",
       "homeName": "Open Play",
       "awayName": "PickleRage Union County Pandas"

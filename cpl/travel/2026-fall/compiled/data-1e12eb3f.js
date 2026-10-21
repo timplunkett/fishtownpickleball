@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 604,
+   "leagueRank": 608,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 599,
+   "leagueRank": 603,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14928,7 +14928,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 581,
+   "leagueRank": 584,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 609,
+   "leagueRank": 613,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 597,
+   "leagueRank": 601,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 589,
+   "leagueRank": 593,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15073,7 +15073,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 585,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 594,
+   "leagueRank": 598,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 603,
+   "leagueRank": 607,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15160,7 +15160,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 570,
+   "leagueRank": 572,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 607,
+   "leagueRank": 611,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 601,
+   "leagueRank": 605,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73428,6 +73428,7 @@
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Lydia Madrilejos": "39aae561-e09c-4f74-873b-2b5a36c15d05",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
+  "Tami Derrick": "46f2fdc9-6f31-45a0-8d89-0f7098676362",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
   "Jeremy Soifer": "4dae6d67-32ee-47af-b281-286ad9fd1b76",
   "Kathleen Regan": "51c297fb-7791-4dc3-8d9f-de402d9caf76",
@@ -73443,10 +73444,13 @@
   "Fawn Patti": "81fa3aae-b090-436c-94e4-9b2661a4afcd",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
+  "Namit Jain": "8a49c394-945c-410d-8b79-b20b55437436",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
   "Jill Kane": "8d3b164f-eff4-45a4-8821-403eb051dd83",
   "Mina Mount": "8e6b0543-1a6c-4593-8dff-9ae70aef8b18",
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
+  "Joan Chernowski": "95a994f0-d4e7-4303-b20d-d432a392247b",
+  "Joseph Chernowski": "9fb38c6b-e78b-45aa-925b-92adfc063bf9",
   "Indira Wojcik": "a8ff9958-d91e-4e7f-a381-ec83440e8af8",
   "Jennifer Kenton": "ab7b1b1a-5551-4d86-b8e7-026179d45ae5",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
@@ -73957,6 +73961,14 @@
    "outsideSub": true
   },
   {
+   "name": "Tami Derrick",
+   "playerId": "46f2fdc9-6f31-45a0-8d89-0f7098676362",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Brian Borer",
    "playerId": "47124d07-437f-49ee-b6ba-fc48943aee42",
    "gender": "Male",
@@ -74381,6 +74393,14 @@
    "outsideSub": true
   },
   {
+   "name": "Namit Jain",
+   "playerId": "8a49c394-945c-410d-8b79-b20b55437436",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Stephen Littenberg",
    "playerId": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
    "gender": "Male",
@@ -74445,6 +74465,14 @@
    "outsideSub": true
   },
   {
+   "name": "Joan Chernowski",
+   "playerId": "95a994f0-d4e7-4303-b20d-d432a392247b",
+   "gender": "Female",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Patrick Neary",
    "playerId": "977152d9-389c-4ac9-8b39-59308f2194ec",
    "gender": "Male",
@@ -74497,6 +74525,14 @@
    "playerId": "9fafa9fd-7012-4a7e-8b91-28c33ecc0f21",
    "gender": "Female",
    "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Joseph Chernowski",
+   "playerId": "9fb38c6b-e78b-45aa-925b-92adfc063bf9",
+   "gender": "Male",
+   "team": "Bounce Philly",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -75278,7 +75314,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T21:02:30.259Z";
+  DATA.meta.asOf = "2026-10-21T02:37:33.839Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

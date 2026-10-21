@@ -13131,6 +13131,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Megan Quigley",
+   "playerId": "37d69abc-9610-4c03-a618-f905bd0e2fb1",
+   "team": "Bounce Tempest",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Megan Torres",
    "playerId": "45590591-9a85-4098-8ba9-36fc0fa18f4c",
    "team": "APC Garden State",
@@ -16491,6 +16498,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Sara Wiggert",
+   "playerId": "6cf82c92-fdfb-46bc-bad1-beec6ab96691",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Sarah Dente",
    "playerId": "95d554c7-4cd5-4e2a-8502-46479d0b1e8f",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -17041,6 +17055,13 @@ window.DUPR_AUDIT = {
    "playerId": "57f76666-8731-4408-9e83-fbab3d007fae",
    "team": "Picklr Newtown",
    "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Sherry Sili",
+   "playerId": "e3874889-50a3-472f-aada-20f41ce1bc3f",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {

@@ -39176,11 +39176,11 @@
   },
   {
     "playerId": "207e0387-bddb-4fd6-a13f-6ab14b3295ed",
-    "firstName": "Sarah",
+    "firstName": "Yimin",
     "lastName": "Wu",
     "dupr": "8EYVKW",
     "duprRating": "2.898",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 7508900180,
     "duprProvisional": false
   },
@@ -48444,6 +48444,66 @@
     "duprRating": "4.157",
     "lastSeen": "2026-10",
     "duprNumericId": 5799348687,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "46ea0700-3499-4478-9672-bac1b795c091",
+    "firstName": "Abdul",
+    "lastName": "Sami",
+    "dupr": "NNRVW2",
+    "duprRating": "2.865",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6189031056,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "95a994f0-d4e7-4303-b20d-d432a392247b",
+    "firstName": "Joan",
+    "lastName": "Chernowski",
+    "dupr": "9M92OR",
+    "duprRating": "2.416",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8062700083,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "9fb38c6b-e78b-45aa-925b-92adfc063bf9",
+    "firstName": "Joseph",
+    "lastName": "Chernowski",
+    "dupr": "RGYRVM",
+    "duprRating": "2.902",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7023767568,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "46f2fdc9-6f31-45a0-8d89-0f7098676362",
+    "firstName": "Tami",
+    "lastName": "Derrick",
+    "dupr": "9JPDXR",
+    "duprRating": "2.470",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7036062558,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "8a49c394-945c-410d-8b79-b20b55437436",
+    "firstName": "Namit",
+    "lastName": "Jain",
+    "dupr": "67NYYK",
+    "duprRating": "3.347",
+    "lastSeen": "2026-10",
+    "duprNumericId": 4676888853,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "f901ac16-5928-440c-97fd-a7521c4f38c6",
+    "firstName": "Amanda",
+    "lastName": "Anastasiou",
+    "dupr": "GGZLKX",
+    "duprRating": "3.268",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5975500287,
     "duprProvisional": false
   }
 ]

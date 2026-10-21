@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6199,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 239,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 246,
+   "leagueRank": 248,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -35209,8 +35209,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Arvidson",
+      "Patrick Ryan"
      ],
      "a": [
       "Gissel Escalante",
@@ -35220,8 +35220,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Robbie Oddy"
      ],
      "a": [
       "Amy Yan",
@@ -35231,8 +35231,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Ross Switkes"
      ],
      "a": [
       "Anisha Malhotra",
@@ -35242,8 +35242,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Thomas Connolly"
      ],
      "a": [
       "Ally Yan",
@@ -35253,8 +35253,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Susan Ackley"
      ],
      "a": [
       "Gissel Escalante",
@@ -35264,8 +35264,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Kelly Arvidson"
      ],
      "a": [
       "Anisha Malhotra",
@@ -35275,8 +35275,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robbie Oddy",
+      "Thomas Connolly"
      ],
      "a": [
       "Jason Makarevic",
@@ -35286,8 +35286,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ross Switkes",
+      "Patrick Ryan"
      ],
      "a": [
       "Chris Long",
@@ -35297,8 +35297,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Thomas Connolly"
      ],
      "a": [
       "Ally Yan",
@@ -35308,8 +35308,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Robbie Oddy"
      ],
      "a": [
       "Anisha Malhotra",
@@ -35319,8 +35319,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Ross Switkes"
      ],
      "a": [
       "Gissel Escalante",
@@ -35330,8 +35330,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Arvidson",
+      "Patrick Ryan"
      ],
      "a": [
       "Amy Yan",
@@ -35341,8 +35341,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Susan Ackley"
      ],
      "a": [
       "Anisha Malhotra",
@@ -35352,8 +35352,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Kelly Arvidson"
      ],
      "a": [
       "Gissel Escalante",
@@ -35363,8 +35363,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Patrick Ryan",
+      "Thomas Connolly"
      ],
      "a": [
       "Sidd Pathare",
@@ -35374,8 +35374,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ross Switkes",
+      "Robbie Oddy"
      ],
      "a": [
       "Jason Makarevic",
@@ -35385,8 +35385,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Patrick Ryan"
      ],
      "a": [
       "Gissel Escalante",
@@ -35396,8 +35396,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Ross Switkes"
      ],
      "a": [
       "Anisha Malhotra",
@@ -35407,8 +35407,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Thomas Connolly"
      ],
      "a": [
       "Amy Yan",
@@ -35418,8 +35418,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Arvidson",
+      "Robbie Oddy"
      ],
      "a": [
       "Ally Yan",
@@ -35429,8 +35429,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Kelly Arvidson"
      ],
      "a": [
       "Ally Yan",
@@ -35440,8 +35440,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Susan Ackley"
      ],
      "a": [
       "Gissel Escalante",
@@ -35451,8 +35451,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Patrick Ryan",
+      "Robbie Oddy"
      ],
      "a": [
       "Camrin Cronheim",
@@ -35462,8 +35462,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ross Switkes",
+      "Thomas Connolly"
      ],
      "a": [
       "Jason Makarevic",
@@ -35473,8 +35473,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Arvidson",
+      "Thomas Connolly"
      ],
      "a": [
       "Ally Yan",
@@ -35484,8 +35484,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Ackley",
+      "Patrick Ryan"
      ],
      "a": [
       "Amy Yan",
@@ -35495,8 +35495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Robbie Oddy"
      ],
      "a": [
       "Anisha Malhotra",
@@ -35506,8 +35506,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Ross Switkes"
      ],
      "a": [
       "Gissel Escalante",
@@ -35517,8 +35517,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi Battison",
+      "Kelly Arvidson"
      ],
      "a": [
       "Amy Yan",
@@ -35528,8 +35528,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Aimee Castellano",
+      "Susan Ackley"
      ],
      "a": [
       "Gissel Escalante",
@@ -35539,8 +35539,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ross Switkes",
+      "Patrick Ryan"
      ],
      "a": [
       "Jason Makarevic",
@@ -35550,8 +35550,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robbie Oddy",
+      "Thomas Connolly"
      ],
      "a": [
       "Sidd Pathare",
@@ -37600,6 +37600,7 @@
   "Matt Jump": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
+  "Taina Wesner": "583c5e68-0868-4a21-b1f0-0e68b9559476",
   "Stefanie Sohosky": "65aabbc7-a06a-4074-a5df-5b0938ede28a",
   "Charles Wood": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
   "Molly Mae Almora": "8be66311-db78-4041-ae94-42ca6f53d77d",
@@ -37846,6 +37847,14 @@
    "playerId": "55194d2f-f537-4e19-b901-86c559f25ef2",
    "gender": "Male",
    "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Taina Wesner",
+   "playerId": "583c5e68-0868-4a21-b1f0-0e68b9559476",
+   "gender": "Female",
+   "team": "Bounce Malvern",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -38270,7 +38279,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-20T21:04:05.356Z";
+  DATA.meta.asOf = "2026-10-21T02:39:12.391Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
