@@ -6373,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 251,
+   "leagueRank": 253,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -38068,7 +38068,361 @@
    "home": "ACE Moorestown",
    "away": "Pickle House",
    "time": "2026-10-25T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Kishan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Yoyo Shen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Kishan Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Kishan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Taylor Hartman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Emily Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Taylor Hartman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Emily Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Kishan Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Kishan Shah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yoyo Shen",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Yoyo Shen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Kishan Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Mickey Cook"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -38564,6 +38918,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Matt Jump": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
+  "Alex Szczepkowski": "0908e5fb-c5d1-401d-ab40-70a07f8466e0",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Taina Wesner": "583c5e68-0868-4a21-b1f0-0e68b9559476",
@@ -38572,6 +38927,7 @@
   "Kushal Thapa": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac",
   "Molly Mae Almora": "8be66311-db78-4041-ae94-42ca6f53d77d",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
+  "Elise Van Ormer": "959c8c5b-2b03-4809-b56c-40d9787e2554",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
  },
@@ -38589,6 +38945,14 @@
    "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
    "gender": "Male",
    "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Alex Szczepkowski",
+   "playerId": "0908e5fb-c5d1-401d-ab40-70a07f8466e0",
+   "gender": "Male",
+   "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -39001,6 +39365,14 @@
    "outsideSub": true
   },
   {
+   "name": "Elise Van Ormer",
+   "playerId": "959c8c5b-2b03-4809-b56c-40d9787e2554",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Eugene Zaslavsky",
    "playerId": "9638b474-ad68-4eff-a5a5-6c40db6ed4bb",
    "gender": "Male",
@@ -39274,7 +39646,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T16:22:13.385Z";
+  DATA.meta.asOf = "2026-10-22T21:02:13.810Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

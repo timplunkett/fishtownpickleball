@@ -25162,8 +25162,8 @@
     "teamRes": "W",
     "teamGW": 29,
     "teamGL": 3,
-    "sub": 1,
-    "subFor": "Home Court"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -25189,8 +25189,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Home Court"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

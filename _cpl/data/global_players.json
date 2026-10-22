@@ -7337,7 +7337,7 @@
     "duprRating": "3.388",
     "duprNumericId": 7519332746,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-10"
   },
   {
     "playerId": "41124e68-c4a1-4aa5-b76f-f14acd23999d",
@@ -32164,11 +32164,11 @@
   },
   {
     "playerId": "5a3ef7a6-3b61-4ca7-bab2-3817194cda35",
-    "firstName": "Jason ",
-    "lastName": "Combes ",
+    "firstName": "Jason",
+    "lastName": "Combes",
     "dupr": "8WVEQY",
     "duprRating": "3.409",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 7009535103,
     "duprProvisional": false
   },
@@ -33028,7 +33028,7 @@
     "lastName": "Van Ormer",
     "dupr": "2LREYE",
     "duprRating": "3.973",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 4972134982,
     "duprProvisional": false
   },
@@ -48584,6 +48584,56 @@
     "duprRating": "4.547",
     "lastSeen": "2026-10",
     "duprNumericId": 8124074881,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "3633a0d3-d3ca-478d-a357-6325a6c8c0cf",
+    "firstName": "Brayden",
+    "lastName": "Lee",
+    "dupr": "O6OWRL",
+    "duprRating": "3.868",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5140062167,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "0908e5fb-c5d1-401d-ab40-70a07f8466e0",
+    "firstName": "Alex",
+    "lastName": "Szczepkowski",
+    "dupr": "JZ544M",
+    "duprRating": "5.332",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7308349217,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "8d2e68bc-4d80-454f-833c-c03051de674b",
+    "firstName": "Sarah",
+    "lastName": "Perkins",
+    "dupr": "892997",
+    "duprRating": "3.268",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5901224737,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "47ca970b-d153-4af6-a6a3-89b5e780a5be",
+    "firstName": "Daniel",
+    "lastName": "Wu",
+    "dupr": "2ZWZZR",
+    "duprRating": "3.626",
+    "lastSeen": "2026-10",
+    "duprNumericId": 4308547269,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "0c14b44f-7a46-464e-a577-f8f9d6d24e6d",
+    "firstName": "Dean",
+    "lastName": "Tridente",
+    "dupr": "30RKQ2",
+    "duprRating": "4.881",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5975037381,
     "duprProvisional": false
   }
 ]

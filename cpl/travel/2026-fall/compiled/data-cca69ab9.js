@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 233,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5887,6 +5887,64 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Dean Tridente",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 232,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0c14b44f-7a46-464e-a577-f8f9d6d24e6d"
+  },
+  {
+   "name": "Michael Taylor",
+   "gender": "Male",
+   "team": "Jersey Devil",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 231,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb"
   },
   {
    "name": "Shang Li",
@@ -24639,8 +24697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vince Abate",
+      "Vaughn Mcclelland"
      ],
      "a": [
       "Chris Damato",
@@ -24650,19 +24708,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Braden Keith",
+      "Michael Taylor"
      ],
      "a": [
       "Mickey Cook",
       "Zach Hollmann"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sheel Motiwala",
+      "Daniel Schwab"
      ],
      "a": [
       "Shang Li",
@@ -24676,12 +24738,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Dean Tridente"
      ],
      "a": [
       "Dipen Bhatt",
       "Tarkan Akas"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -36861,7 +36927,6 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Aadhar Rohila": "05dac392-82dc-4f06-bfea-39887b921722",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
-  "Michael Taylor": "23871699-a12b-4eb6-89cb-62fec790e3fb",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
@@ -36909,6 +36974,14 @@
    "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3",
    "gender": "Male",
    "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dean Tridente",
+   "playerId": "0c14b44f-7a46-464e-a577-f8f9d6d24e6d",
+   "gender": "Male",
+   "team": "Jersey Devil",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -37389,7 +37462,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 212,
+  "totalPlayers": 214,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -37510,7 +37583,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T16:22:59.889Z";
+  DATA.meta.asOf = "2026-10-22T21:03:13.001Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

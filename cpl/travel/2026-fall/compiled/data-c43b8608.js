@@ -3427,8 +3427,8 @@
    "name": "David Cartwright",
    "gender": "Male",
    "team": "Home Court",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 7,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 467,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 456,
+   "leagueRank": 457,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,13 +11767,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 455,
+   "leagueRank": 456,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
+  },
+  {
+   "name": "Amanda Nguyen",
+   "gender": "Female",
+   "team": "PickleRage Union County",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 460,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "005fa3be-9004-46b4-a3e2-77cd8b27b08e"
+  },
+  {
+   "name": "Kathleen Leong",
+   "gender": "Female",
+   "team": "PickleRage Union County",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 452,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0722c430-ccb3-4155-8270-9147ff0fc831"
   },
   {
    "name": "Sarah Wu",
@@ -11796,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 471,
+   "leagueRank": 474,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -30620,8 +30678,7 @@
     }
    ],
    "subs": [
-    "Mark Szeman",
-    "David Cartwright"
+    "Mark Szeman"
    ]
   },
   {
@@ -46937,8 +46994,7 @@
     "Claudia Van Loo",
     "Barbara Mccarron",
     "Sherry Tomaino",
-    "Dari Mehl",
-    "David Cartwright"
+    "Dari Mehl"
    ]
   },
   {
@@ -56980,7 +57036,7 @@
       ""
      ],
      "a": [
-      "",
+      "Heidi Lipton",
       "Rob Mendez"
      ]
     },
@@ -57101,7 +57157,7 @@
       ""
      ],
      "a": [
-      "",
+      "Heidi Lipton",
       "Jim Sintic"
      ]
     },
@@ -57123,7 +57179,7 @@
       ""
      ],
      "a": [
-      "",
+      "Heidi Lipton",
       "Karen Kelly"
      ]
     },
@@ -57156,7 +57212,7 @@
       ""
      ],
      "a": [
-      "",
+      "Heidi Lipton",
       "Rob Mendez"
      ]
     },
@@ -57211,7 +57267,7 @@
       ""
      ],
      "a": [
-      "",
+      "Heidi Lipton",
       "Karen Kelly"
      ]
     },
@@ -57255,7 +57311,7 @@
       ""
      ],
      "a": [
-      "",
+      "Heidi Lipton",
       "Michael Stout"
      ]
     },
@@ -57991,7 +58047,7 @@
      ],
      "a": [
       "Janet Bellaran",
-      "Glenn Gelband"
+      "Nate Brochin"
      ]
     },
     {
@@ -58013,7 +58069,7 @@
      ],
      "a": [
       "Jody Scarano",
-      "Janet Bellaran"
+      "Michele Heinle"
      ]
     },
     {
@@ -58024,7 +58080,7 @@
      ],
      "a": [
       "Doreen Arleth",
-      "Michele Heinle"
+      "Janet Bellaran"
      ]
     },
     {
@@ -58103,14 +58159,10 @@
       "Paul Rappoport"
      ],
      "a": [
-      "Guitta Barghash",
+      "Margaret Bayse",
       "Herald Barber"
      ],
      "hSub": [
-      1,
-      0
-     ],
-     "aSub": [
       1,
       0
      ]
@@ -58153,11 +58205,7 @@
      ],
      "a": [
       "Gary Grzankowski",
-      "Srinivas Balla"
-     ],
-     "aSub": [
-      0,
-      1
+      "Pedro Oliveira"
      ]
     },
     {
@@ -58168,9 +58216,13 @@
      ],
      "a": [
       "Herald Barber",
-      "Pedro Oliveira"
+      "Srinivas Balla"
      ],
      "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
       0,
       1
      ]
@@ -58673,7 +58725,361 @@
    "home": "APC Garden State",
    "away": "Premiere",
    "time": "2026-10-24T18:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Mctague",
+      "Joe Carrano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gerilynn Calato",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosanna Neis",
+      "Christian Aberin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tina Pucciarelli",
+      "Thomas Licciardello"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Mctague",
+      "Rosanna Neis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raffaella Pernice",
+      "Gerilynn Calato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joe Carrano",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carlos Colon",
+      "Thomas Licciardello"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gerilynn Calato",
+      "Thomas Licciardello"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosanna Neis",
+      "Joe Carrano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raffaella Pernice",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Christian Aberin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tina Pucciarelli",
+      "Rosanna Neis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raffaella Pernice",
+      "Lisa Mctague"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joe Carrano",
+      "Thomas Licciardello"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carlos Colon",
+      "Christian Aberin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tina Pucciarelli",
+      "Christian Aberin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Mctague",
+      "Joe Carrano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gerilynn Calato",
+      "Thomas Licciardello"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raffaella Pernice",
+      "Carlos Colon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosanna Neis",
+      "Eileen Clark"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raffaella Pernice",
+      "Lisa Mctague"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alfonse Calato",
+      "Joe Carrano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carlos Colon",
+      "Christian Aberin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rosanna Neis",
+      "Joe Carrano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Mctague",
+      "Alfonse Calato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raffaella Pernice",
+      "Carlos Colon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Christian Aberin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Mctague",
+      "Gerilynn Calato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Clark",
+      "Tina Pucciarelli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alfonse Calato",
+      "Carlos Colon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joe Carrano",
+      "Christian Aberin"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -58681,7 +59087,445 @@
    "home": "Picklr Fair Lawn",
    "away": "PickleRage Union County",
    "time": "2026-10-24T18:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Leong",
+      "James Lo"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "Kevin Larkin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Nguyen",
+      "Michael Barry"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Amanda Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "Kathleen Leong"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Knight",
+      "Kevin Larkin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Yang",
+      "James Lo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Leong",
+      "Andy Knight"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Michael Barry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "James Lo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Nguyen",
+      "Dan Yang"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Kathleen Leong"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "Amanda Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Larkin",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Yang",
+      "Michael Barry"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Leong",
+      "James Lo"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "Kevin Larkin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Nguyen",
+      "Andy Knight"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Michael Barry"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Amanda Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "Kathleen Leong"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Barry",
+      "Kevin Larkin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Yang",
+      "James Lo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "James Lo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Nguyen",
+      "Andy Knight"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kathleen Leong",
+      "Kevin Larkin"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Linda Bozzo",
+      "Kathleen Leong"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christine Anderson",
+      "Amanda Nguyen"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Knight",
+      "James Lo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Barry",
+      "Dan Yang"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -59101,10 +59945,9 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
-  "Amanda Nguyen": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
-  "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Daniel Wu": "47ca970b-d153-4af6-a6a3-89b5e780a5be",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
@@ -59117,7 +59960,9 @@
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
+  "Sarah Perkins": "8d2e68bc-4d80-454f-833c-c03051de674b",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+  "George Mandl": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Teresa Carr": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
@@ -59444,6 +60289,14 @@
    "playerId": "41ea6231-c154-403e-a0e5-7e6b6d4cbbd2",
    "gender": "Male",
    "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Daniel Wu",
+   "playerId": "47ca970b-d153-4af6-a6a3-89b5e780a5be",
+   "gender": "Male",
+   "team": "Home Court",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59808,6 +60661,14 @@
    "outsideSub": true
   },
   {
+   "name": "Sarah Perkins",
+   "playerId": "8d2e68bc-4d80-454f-833c-c03051de674b",
+   "gender": "Female",
+   "team": "Picklr Fair Lawn",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Jennifer Qian",
    "playerId": "902a9e2d-2ac4-4d19-9ae7-e945ece1da00",
    "gender": "Female",
@@ -59860,6 +60721,14 @@
    "playerId": "981ae183-14b1-4b7f-880e-8f03e94ca703",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "George Mandl",
+   "playerId": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
+   "gender": "Male",
+   "team": "Home Court",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -60088,14 +60957,6 @@
    "outsideSub": true
   },
   {
-   "name": "David Cartwright",
-   "playerId": "d6a6177b-1ee7-410c-bafc-bf1a91628876",
-   "gender": "Male",
-   "team": "Home Court",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Reginald Escusa",
    "playerId": "ddaea91a-dc57-4adc-9b52-c1a93b017c2f",
    "gender": "Male",
@@ -60308,7 +61169,7 @@
   "matchesPlayed": 76,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 438,
+  "totalPlayers": 440,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -60449,7 +61310,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T16:22:44.546Z";
+  DATA.meta.asOf = "2026-10-22T21:02:54.914Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

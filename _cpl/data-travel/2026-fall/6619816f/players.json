@@ -185,6 +185,29 @@
       "ranking": 239
     },
     {
+      "playerId": "0908e5fb-c5d1-401d-ab40-70a07f8466e0",
+      "firstName": "Alex",
+      "lastName": "Szczepkowski",
+      "gender": "Male",
+      "dupr": "JZ544M",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 247
+    },
+    {
       "playerId": "094c3b61-96e3-48c6-8172-10b7eaf528f4",
       "firstName": "Robert",
       "lastName": "Khalev",
@@ -2298,7 +2321,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 248
+      "ranking": 250
     },
     {
       "playerId": "5b439439-36f5-421f-afaa-5d8b1a547954",
@@ -3080,7 +3103,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 250
+      "ranking": 252
     },
     {
       "playerId": "8079e74f-c537-4e42-9590-e8d60f10ba3d",
@@ -3287,7 +3310,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 247
+      "ranking": 248
     },
     {
       "playerId": "85e52e3b-5238-4583-8d1a-cc57f8218ef6",
@@ -3644,6 +3667,29 @@
       "isSub": true,
       "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
       "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 251
+    },
+    {
+      "playerId": "959c8c5b-2b03-4809-b56c-40d9787e2554",
+      "firstName": "Elise",
+      "lastName": "Van Ormer",
+      "gender": "Female",
+      "dupr": "2LREYE",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "teamName": "Dill Dinkers Hatboro The Factory",
       "wins": 0,
       "losses": 0,
       "gamesPlayed": 0,
@@ -4575,7 +4621,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 251
+      "ranking": 253
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
