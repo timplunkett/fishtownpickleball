@@ -42357,8 +42357,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -42384,8 +42384,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Picklr Newtown"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

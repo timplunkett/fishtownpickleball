@@ -17376,6 +17376,13 @@ window.DUPR_AUDIT = {
    "name": "Stephane Sabathier",
    "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
    "team": "Picklr Newtown",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Stephane Sabathier",
+   "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
+   "team": "Picklr Newtown",
    "slug": "c118b8e9",
    "gender": "Male"
   },

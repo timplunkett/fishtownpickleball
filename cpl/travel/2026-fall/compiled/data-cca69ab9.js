@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 233,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 222,
+   "leagueRank": 225,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5887,6 +5887,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Shang Li",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 221,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b478e004-cc16-4de5-a138-8df70602f115"
   },
   {
    "name": "Doug Horton",
@@ -24626,7 +24655,7 @@
      ],
      "a": [
       "Mickey Cook",
-      "Tarkan Akas"
+      "Zach Hollmann"
      ]
     },
     {
@@ -24636,8 +24665,12 @@
       ""
      ],
      "a": [
-      "Zach Hollmann",
-      ""
+      "Shang Li",
+      "Patrick Ryan"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     },
     {
@@ -24648,7 +24681,7 @@
      ],
      "a": [
       "Dipen Bhatt",
-      ""
+      "Tarkan Akas"
      ]
     },
     {
@@ -24670,7 +24703,11 @@
      ],
      "a": [
       "Mickey Cook",
-      ""
+      "Shang Li"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -24681,7 +24718,11 @@
      ],
      "a": [
       "Chris Damato",
-      ""
+      "Patrick Ryan"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -24714,7 +24755,11 @@
      ],
      "a": [
       "Zach Hollmann",
-      ""
+      "Patrick Ryan"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -24735,8 +24780,12 @@
       ""
      ],
      "a": [
-      "",
+      "Shang Li",
       "Tarkan Akas"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -24757,7 +24806,7 @@
       ""
      ],
      "a": [
-      "Mickey Cook",
+      "",
       "Zach Hollmann"
      ]
     },
@@ -24769,6 +24818,17 @@
      ],
      "a": [
       "Tarkan Akas",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Cook",
       ""
      ]
     },
@@ -36808,7 +36868,8 @@
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Matthew Marletta": "c3c6b787-5356-467d-8268-08e5f3cbc450",
   "Pranav Tailor": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7",
-  "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
+  "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322",
+  "Jim Pagano": "f1012c67-b6ba-4270-8d7a-53a9aa34b7df"
  },
  "availableSubs": [
   {
@@ -37172,6 +37233,14 @@
    "outsideSub": true
   },
   {
+   "name": "Shang Li",
+   "playerId": "b478e004-cc16-4de5-a138-8df70602f115",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Austin Williams",
    "playerId": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9",
    "gender": "Male",
@@ -37284,6 +37353,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jim Pagano",
+   "playerId": "f1012c67-b6ba-4270-8d7a-53a9aa34b7df",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Jack Blumberg",
    "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",
    "gender": "Male",
@@ -37312,7 +37389,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 211,
+  "totalPlayers": 212,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -37433,7 +37510,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T10:55:46.470Z";
+  DATA.meta.asOf = "2026-10-22T16:22:59.889Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

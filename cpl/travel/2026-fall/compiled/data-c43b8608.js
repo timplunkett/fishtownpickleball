@@ -22,7 +22,7 @@
    "winPct": 100,
    "diff": 249,
    "ppg": 21,
-   "leagueRank": 3,
+   "leagueRank": 4,
    "rating": 3.9,
    "ratingGames": 40,
    "confidence": 88,
@@ -51,7 +51,7 @@
    "winPct": 100,
    "diff": 194,
    "ppg": 21,
-   "leagueRank": 2,
+   "leagueRank": 3,
    "rating": 3.1,
    "ratingGames": 20,
    "confidence": 79,
@@ -80,7 +80,7 @@
    "winPct": 100,
    "diff": 144,
    "ppg": 21,
-   "leagueRank": 1,
+   "leagueRank": 2,
    "rating": 2.4,
    "ratingGames": 19,
    "confidence": 79,
@@ -109,7 +109,7 @@
    "winPct": 100,
    "diff": 101,
    "ppg": 21,
-   "leagueRank": 8,
+   "leagueRank": 1,
    "rating": 3.7,
    "ratingGames": 15,
    "confidence": 75,
@@ -225,7 +225,7 @@
    "winPct": 100,
    "diff": 13,
    "ppg": 21,
-   "leagueRank": 176,
+   "leagueRank": 177,
    "rating": 0.2,
    "ratingGames": 4,
    "confidence": 47,
@@ -254,7 +254,7 @@
    "winPct": 95,
    "diff": 136,
    "ppg": 20.8,
-   "leagueRank": 4,
+   "leagueRank": 5,
    "rating": 3.7,
    "ratingGames": 20,
    "confidence": 79,
@@ -283,7 +283,7 @@
    "winPct": 94.1,
    "diff": 75,
    "ppg": 20.6,
-   "leagueRank": 7,
+   "leagueRank": 8,
    "rating": 0.7,
    "ratingGames": 17,
    "confidence": 77,
@@ -312,7 +312,7 @@
    "winPct": 91.7,
    "diff": 88,
    "ppg": 20.8,
-   "leagueRank": 49,
+   "leagueRank": 25,
    "rating": 1.9,
    "ratingGames": 12,
    "confidence": 71,
@@ -341,7 +341,7 @@
    "winPct": 90.5,
    "diff": 288,
    "ppg": 20.5,
-   "leagueRank": 6,
+   "leagueRank": 7,
    "rating": 3.6,
    "ratingGames": 42,
    "confidence": 88,
@@ -399,7 +399,7 @@
    "winPct": 89.3,
    "diff": 207,
    "ppg": 20.6,
-   "leagueRank": 5,
+   "leagueRank": 6,
    "rating": 4.8,
    "ratingGames": 28,
    "confidence": 85,
@@ -689,7 +689,7 @@
    "winPct": 84.2,
    "diff": 146,
    "ppg": 20.1,
-   "leagueRank": 25,
+   "leagueRank": 26,
    "rating": 3,
    "ratingGames": 38,
    "confidence": 86,
@@ -805,7 +805,7 @@
    "winPct": 83.3,
    "diff": 139,
    "ppg": 20.3,
-   "leagueRank": 29,
+   "leagueRank": 30,
    "rating": 2.3,
    "ratingGames": 36,
    "confidence": 87,
@@ -834,7 +834,7 @@
    "winPct": 83.3,
    "diff": 87,
    "ppg": 20.7,
-   "leagueRank": 27,
+   "leagueRank": 28,
    "rating": 1,
    "ratingGames": 18,
    "confidence": 77,
@@ -1124,7 +1124,7 @@
    "winPct": 81.3,
    "diff": 154,
    "ppg": 20.5,
-   "leagueRank": 28,
+   "leagueRank": 29,
    "rating": 1.9,
    "ratingGames": 32,
    "confidence": 87,
@@ -1153,7 +1153,7 @@
    "winPct": 81.1,
    "diff": 166,
    "ppg": 20.1,
-   "leagueRank": 31,
+   "leagueRank": 32,
    "rating": 3.1,
    "ratingGames": 37,
    "confidence": 87,
@@ -1182,7 +1182,7 @@
    "winPct": 81.1,
    "diff": 157,
    "ppg": 20.3,
-   "leagueRank": 30,
+   "leagueRank": 31,
    "rating": 2.4,
    "ratingGames": 37,
    "confidence": 86,
@@ -1211,7 +1211,7 @@
    "winPct": 80.6,
    "diff": 147,
    "ppg": 20.3,
-   "leagueRank": 32,
+   "leagueRank": 33,
    "rating": 1.6,
    "ratingGames": 31,
    "confidence": 85,
@@ -1269,7 +1269,7 @@
    "winPct": 80,
    "diff": 119,
    "ppg": 20.4,
-   "leagueRank": 36,
+   "leagueRank": 37,
    "rating": 1,
    "ratingGames": 25,
    "confidence": 83,
@@ -1356,7 +1356,7 @@
    "winPct": 80,
    "diff": 34,
    "ppg": 20,
-   "leagueRank": 215,
+   "leagueRank": 173,
    "rating": 2.1,
    "ratingGames": 5,
    "confidence": 51,
@@ -1385,7 +1385,7 @@
    "winPct": 79.5,
    "diff": 176,
    "ppg": 20.3,
-   "leagueRank": 34,
+   "leagueRank": 35,
    "rating": 2.4,
    "ratingGames": 44,
    "confidence": 89,
@@ -1414,7 +1414,7 @@
    "winPct": 79.4,
    "diff": 138,
    "ppg": 19.7,
-   "leagueRank": 35,
+   "leagueRank": 36,
    "rating": 2.7,
    "ratingGames": 34,
    "confidence": 86,
@@ -1443,7 +1443,7 @@
    "winPct": 79.2,
    "diff": 96,
    "ppg": 20.3,
-   "leagueRank": 37,
+   "leagueRank": 38,
    "rating": 1.8,
    "ratingGames": 24,
    "confidence": 83,
@@ -1472,7 +1472,7 @@
    "winPct": 78.9,
    "diff": 75,
    "ppg": 20.3,
-   "leagueRank": 26,
+   "leagueRank": 27,
    "rating": 2.9,
    "ratingGames": 19,
    "confidence": 79,
@@ -1501,7 +1501,7 @@
    "winPct": 78.1,
    "diff": 129,
    "ppg": 20.1,
-   "leagueRank": 38,
+   "leagueRank": 39,
    "rating": 1.7,
    "ratingGames": 32,
    "confidence": 86,
@@ -1559,7 +1559,7 @@
    "winPct": 77.4,
    "diff": 97,
    "ppg": 20.3,
-   "leagueRank": 42,
+   "leagueRank": 43,
    "rating": 1.6,
    "ratingGames": 31,
    "confidence": 85,
@@ -1588,7 +1588,7 @@
    "winPct": 76.9,
    "diff": 159,
    "ppg": 20.4,
-   "leagueRank": 33,
+   "leagueRank": 34,
    "rating": 3.6,
    "ratingGames": 39,
    "confidence": 88,
@@ -1646,7 +1646,7 @@
    "winPct": 76.7,
    "diff": 134,
    "ppg": 19.5,
-   "leagueRank": 43,
+   "leagueRank": 44,
    "rating": 1.7,
    "ratingGames": 30,
    "confidence": 85,
@@ -1704,7 +1704,7 @@
    "winPct": 76.3,
    "diff": 134,
    "ppg": 20.1,
-   "leagueRank": 41,
+   "leagueRank": 42,
    "rating": 1.1,
    "ratingGames": 38,
    "confidence": 87,
@@ -1733,7 +1733,7 @@
    "winPct": 76.2,
    "diff": 117,
    "ppg": 20.1,
-   "leagueRank": 39,
+   "leagueRank": 40,
    "rating": 2,
    "ratingGames": 21,
    "confidence": 81,
@@ -1762,7 +1762,7 @@
    "winPct": 75.9,
    "diff": 135,
    "ppg": 20,
-   "leagueRank": 40,
+   "leagueRank": 41,
    "rating": 1.7,
    "ratingGames": 29,
    "confidence": 84,
@@ -1791,7 +1791,7 @@
    "winPct": 75,
    "diff": 83,
    "ppg": 19.8,
-   "leagueRank": 47,
+   "leagueRank": 48,
    "rating": 1.4,
    "ratingGames": 32,
    "confidence": 87,
@@ -1878,7 +1878,7 @@
    "winPct": 75,
    "diff": 59,
    "ppg": 19.9,
-   "leagueRank": 45,
+   "leagueRank": 46,
    "rating": 1.7,
    "ratingGames": 20,
    "confidence": 80,
@@ -2081,7 +2081,7 @@
    "winPct": 72.7,
    "diff": 25,
    "ppg": 19.9,
-   "leagueRank": 179,
+   "leagueRank": 180,
    "rating": 1.1,
    "ratingGames": 11,
    "confidence": 66,
@@ -2110,7 +2110,7 @@
    "winPct": 72.4,
    "diff": 83,
    "ppg": 20,
-   "leagueRank": 48,
+   "leagueRank": 49,
    "rating": 2,
    "ratingGames": 29,
    "confidence": 85,
@@ -2226,7 +2226,7 @@
    "winPct": 71.4,
    "diff": 80,
    "ppg": 19.8,
-   "leagueRank": 46,
+   "leagueRank": 47,
    "rating": 2.6,
    "ratingGames": 28,
    "confidence": 84,
@@ -2342,7 +2342,7 @@
    "winPct": 70.6,
    "diff": 78,
    "ppg": 19.9,
-   "leagueRank": 44,
+   "leagueRank": 45,
    "rating": 2.1,
    "ratingGames": 17,
    "confidence": 75,
@@ -2458,7 +2458,7 @@
    "winPct": 70,
    "diff": 23,
    "ppg": 19.2,
-   "leagueRank": 208,
+   "leagueRank": 209,
    "rating": -1.1,
    "ratingGames": 10,
    "confidence": 66,
@@ -3067,7 +3067,7 @@
    "winPct": 66.7,
    "diff": 32,
    "ppg": 19.3,
-   "leagueRank": 199,
+   "leagueRank": 200,
    "rating": 1.7,
    "ratingGames": 12,
    "confidence": 70,
@@ -3473,7 +3473,7 @@
    "winPct": 63.6,
    "diff": 28,
    "ppg": 20.1,
-   "leagueRank": 203,
+   "leagueRank": 204,
    "rating": 2.2,
    "ratingGames": 11,
    "confidence": 69,
@@ -4198,7 +4198,7 @@
    "winPct": 60,
    "diff": 33,
    "ppg": 20.1,
-   "leagueRank": 189,
+   "leagueRank": 190,
    "rating": 0.1,
    "ratingGames": 15,
    "confidence": 75,
@@ -4256,7 +4256,7 @@
    "winPct": 60,
    "diff": -8,
    "ppg": 18,
-   "leagueRank": 314,
+   "leagueRank": 315,
    "rating": 1.7,
    "ratingGames": 5,
    "confidence": 52,
@@ -4546,7 +4546,7 @@
    "winPct": 57.1,
    "diff": -4,
    "ppg": 18.6,
-   "leagueRank": 303,
+   "leagueRank": 304,
    "rating": 0,
    "ratingGames": 7,
    "confidence": 60,
@@ -4662,7 +4662,7 @@
    "winPct": 56.3,
    "diff": -6,
    "ppg": 17.4,
-   "leagueRank": 214,
+   "leagueRank": 215,
    "rating": 0.7,
    "ratingGames": 16,
    "confidence": 76,
@@ -5039,7 +5039,7 @@
    "winPct": 53.3,
    "diff": -8,
    "ppg": 17.5,
-   "leagueRank": 174,
+   "leagueRank": 175,
    "rating": 0.3,
    "ratingGames": 30,
    "confidence": 85,
@@ -5068,7 +5068,7 @@
    "winPct": 53.3,
    "diff": -15,
    "ppg": 18.1,
-   "leagueRank": 175,
+   "leagueRank": 176,
    "rating": -1.6,
    "ratingGames": 30,
    "confidence": 86,
@@ -5155,7 +5155,7 @@
    "winPct": 52.6,
    "diff": -12,
    "ppg": 17.2,
-   "leagueRank": 187,
+   "leagueRank": 188,
    "rating": -0.2,
    "ratingGames": 19,
    "confidence": 80,
@@ -5358,7 +5358,7 @@
    "winPct": 51.7,
    "diff": -31,
    "ppg": 17.8,
-   "leagueRank": 192,
+   "leagueRank": 193,
    "rating": -1.3,
    "ratingGames": 29,
    "confidence": 85,
@@ -5416,7 +5416,7 @@
    "winPct": 51.4,
    "diff": -29,
    "ppg": 17.9,
-   "leagueRank": 183,
+   "leagueRank": 184,
    "rating": -1.2,
    "ratingGames": 35,
    "confidence": 87,
@@ -5486,8 +5486,8 @@
    "name": "Stephane Sabathier",
    "gender": "Male",
    "team": "Picklr Newtown",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 6,
@@ -5532,7 +5532,7 @@
    "winPct": 50,
    "diff": 17,
    "ppg": 19.5,
-   "leagueRank": 313,
+   "leagueRank": 314,
    "rating": -0.6,
    "ratingGames": 6,
    "confidence": 55,
@@ -5590,7 +5590,7 @@
    "winPct": 50,
    "diff": 8,
    "ppg": 19.3,
-   "leagueRank": 309,
+   "leagueRank": 310,
    "rating": 0.1,
    "ratingGames": 4,
    "confidence": 46,
@@ -5648,7 +5648,7 @@
    "winPct": 50,
    "diff": 5,
    "ppg": 19.5,
-   "leagueRank": 299,
+   "leagueRank": 300,
    "rating": -0.6,
    "ratingGames": 6,
    "confidence": 52,
@@ -5851,7 +5851,7 @@
    "winPct": 50,
    "diff": -6,
    "ppg": 18.3,
-   "leagueRank": 177,
+   "leagueRank": 178,
    "rating": -1.3,
    "ratingGames": 20,
    "confidence": 79,
@@ -5909,7 +5909,7 @@
    "winPct": 50,
    "diff": -12,
    "ppg": 18.2,
-   "leagueRank": 178,
+   "leagueRank": 179,
    "rating": -0.8,
    "ratingGames": 30,
    "confidence": 86,
@@ -5938,7 +5938,7 @@
    "winPct": 50,
    "diff": -18,
    "ppg": 17.4,
-   "leagueRank": 190,
+   "leagueRank": 191,
    "rating": -0.3,
    "ratingGames": 32,
    "confidence": 86,
@@ -5996,7 +5996,7 @@
    "winPct": 48.4,
    "diff": -43,
    "ppg": 17.9,
-   "leagueRank": 198,
+   "leagueRank": 199,
    "rating": -0.6,
    "ratingGames": 31,
    "confidence": 86,
@@ -6025,7 +6025,7 @@
    "winPct": 48.1,
    "diff": -6,
    "ppg": 18.5,
-   "leagueRank": 184,
+   "leagueRank": 185,
    "rating": -1.1,
    "ratingGames": 27,
    "confidence": 84,
@@ -6112,7 +6112,7 @@
    "winPct": 47.8,
    "diff": -7,
    "ppg": 18.3,
-   "leagueRank": 186,
+   "leagueRank": 187,
    "rating": 0,
    "ratingGames": 23,
    "confidence": 82,
@@ -6141,7 +6141,7 @@
    "winPct": 47.8,
    "diff": -32,
    "ppg": 18,
-   "leagueRank": 197,
+   "leagueRank": 198,
    "rating": -0.9,
    "ratingGames": 46,
    "confidence": 90,
@@ -6170,7 +6170,7 @@
    "winPct": 47.6,
    "diff": -1,
    "ppg": 17.8,
-   "leagueRank": 180,
+   "leagueRank": 181,
    "rating": 1.1,
    "ratingGames": 21,
    "confidence": 80,
@@ -6228,7 +6228,7 @@
    "winPct": 47.4,
    "diff": -8,
    "ppg": 18.6,
-   "leagueRank": 212,
+   "leagueRank": 213,
    "rating": 1.4,
    "ratingGames": 19,
    "confidence": 79,
@@ -6257,7 +6257,7 @@
    "winPct": 47.4,
    "diff": -36,
    "ppg": 17.7,
-   "leagueRank": 185,
+   "leagueRank": 186,
    "rating": 1.3,
    "ratingGames": 38,
    "confidence": 88,
@@ -6286,7 +6286,7 @@
    "winPct": 46.7,
    "diff": -30,
    "ppg": 17.7,
-   "leagueRank": 200,
+   "leagueRank": 201,
    "rating": 0.6,
    "ratingGames": 30,
    "confidence": 85,
@@ -6344,7 +6344,7 @@
    "winPct": 46.3,
    "diff": -16,
    "ppg": 18.3,
-   "leagueRank": 182,
+   "leagueRank": 183,
    "rating": 0.5,
    "ratingGames": 41,
    "confidence": 89,
@@ -6431,7 +6431,7 @@
    "winPct": 46.2,
    "diff": -18,
    "ppg": 17.5,
-   "leagueRank": 201,
+   "leagueRank": 202,
    "rating": -0.9,
    "ratingGames": 26,
    "confidence": 83,
@@ -6460,7 +6460,7 @@
    "winPct": 46.2,
    "diff": -31,
    "ppg": 17.7,
-   "leagueRank": 207,
+   "leagueRank": 208,
    "rating": -1.2,
    "ratingGames": 26,
    "confidence": 84,
@@ -6518,7 +6518,7 @@
    "winPct": 45.8,
    "diff": 6,
    "ppg": 19.2,
-   "leagueRank": 181,
+   "leagueRank": 182,
    "rating": -0.3,
    "ratingGames": 24,
    "confidence": 82,
@@ -6576,7 +6576,7 @@
    "winPct": 45.5,
    "diff": 6,
    "ppg": 18.2,
-   "leagueRank": 188,
+   "leagueRank": 189,
    "rating": -0.3,
    "ratingGames": 44,
    "confidence": 89,
@@ -6605,7 +6605,7 @@
    "winPct": 45,
    "diff": 8,
    "ppg": 18.7,
-   "leagueRank": 196,
+   "leagueRank": 197,
    "rating": -0.8,
    "ratingGames": 20,
    "confidence": 80,
@@ -6634,7 +6634,7 @@
    "winPct": 45,
    "diff": -21,
    "ppg": 17.3,
-   "leagueRank": 204,
+   "leagueRank": 205,
    "rating": 0.1,
    "ratingGames": 40,
    "confidence": 88,
@@ -6663,7 +6663,7 @@
    "winPct": 44.4,
    "diff": 7,
    "ppg": 18.4,
-   "leagueRank": 173,
+   "leagueRank": 174,
    "rating": 1.2,
    "ratingGames": 36,
    "confidence": 87,
@@ -6692,7 +6692,7 @@
    "winPct": 44,
    "diff": -9,
    "ppg": 18.2,
-   "leagueRank": 193,
+   "leagueRank": 194,
    "rating": 0,
    "ratingGames": 25,
    "confidence": 83,
@@ -6721,7 +6721,7 @@
    "winPct": 44,
    "diff": -26,
    "ppg": 18,
-   "leagueRank": 202,
+   "leagueRank": 203,
    "rating": 0.3,
    "ratingGames": 25,
    "confidence": 83,
@@ -6779,7 +6779,7 @@
    "winPct": 43.2,
    "diff": -16,
    "ppg": 18,
-   "leagueRank": 191,
+   "leagueRank": 192,
    "rating": 2,
    "ratingGames": 37,
    "confidence": 87,
@@ -6808,7 +6808,7 @@
    "winPct": 42.9,
    "diff": 2,
    "ppg": 19,
-   "leagueRank": 308,
+   "leagueRank": 309,
    "rating": 0.4,
    "ratingGames": 7,
    "confidence": 60,
@@ -6953,7 +6953,7 @@
    "winPct": 41.9,
    "diff": -19,
    "ppg": 18.3,
-   "leagueRank": 205,
+   "leagueRank": 206,
    "rating": 0.1,
    "ratingGames": 31,
    "confidence": 86,
@@ -6982,7 +6982,7 @@
    "winPct": 41.9,
    "diff": -37,
    "ppg": 17.3,
-   "leagueRank": 213,
+   "leagueRank": 214,
    "rating": 0.8,
    "ratingGames": 31,
    "confidence": 86,
@@ -7011,7 +7011,7 @@
    "winPct": 41.5,
    "diff": 12,
    "ppg": 18.4,
-   "leagueRank": 194,
+   "leagueRank": 195,
    "rating": 0.8,
    "ratingGames": 53,
    "confidence": 91,
@@ -7040,7 +7040,7 @@
    "winPct": 41.5,
    "diff": -42,
    "ppg": 18.3,
-   "leagueRank": 206,
+   "leagueRank": 207,
    "rating": 0,
    "ratingGames": 41,
    "confidence": 89,
@@ -7156,7 +7156,7 @@
    "winPct": 40,
    "diff": 3,
    "ppg": 17.2,
-   "leagueRank": 304,
+   "leagueRank": 305,
    "rating": -0.1,
    "ratingGames": 10,
    "confidence": 67,
@@ -7330,7 +7330,7 @@
    "winPct": 40,
    "diff": -31,
    "ppg": 18.4,
-   "leagueRank": 209,
+   "leagueRank": 210,
    "rating": 0.3,
    "ratingGames": 30,
    "confidence": 86,
@@ -7388,7 +7388,7 @@
    "winPct": 39.1,
    "diff": -2,
    "ppg": 17.9,
-   "leagueRank": 211,
+   "leagueRank": 212,
    "rating": -0.6,
    "ratingGames": 23,
    "confidence": 83,
@@ -7446,7 +7446,7 @@
    "winPct": 38.5,
    "diff": 15,
    "ppg": 18.7,
-   "leagueRank": 195,
+   "leagueRank": 196,
    "rating": 0.5,
    "ratingGames": 26,
    "confidence": 84,
@@ -7475,7 +7475,7 @@
    "winPct": 38.2,
    "diff": -32,
    "ppg": 18.6,
-   "leagueRank": 210,
+   "leagueRank": 211,
    "rating": -0.1,
    "ratingGames": 34,
    "confidence": 87,
@@ -7852,7 +7852,7 @@
    "winPct": 36.4,
    "diff": 9,
    "ppg": 18.6,
-   "leagueRank": 305,
+   "leagueRank": 306,
    "rating": -2.6,
    "ratingGames": 11,
    "confidence": 69,
@@ -8577,7 +8577,7 @@
    "winPct": 31.6,
    "diff": -58,
    "ppg": 16.9,
-   "leagueRank": 306,
+   "leagueRank": 307,
    "rating": 0,
    "ratingGames": 19,
    "confidence": 79,
@@ -9215,7 +9215,7 @@
    "winPct": 27.3,
    "diff": -130,
    "ppg": 15.3,
-   "leagueRank": 296,
+   "leagueRank": 297,
    "rating": -3.1,
    "ratingGames": 33,
    "confidence": 87,
@@ -9360,7 +9360,7 @@
    "winPct": 25,
    "diff": -11,
    "ppg": 17.5,
-   "leagueRank": 379,
+   "leagueRank": 380,
    "rating": -2.3,
    "ratingGames": 4,
    "confidence": 46,
@@ -9389,7 +9389,7 @@
    "winPct": 25,
    "diff": -16,
    "ppg": 16.5,
-   "leagueRank": 382,
+   "leagueRank": 383,
    "rating": -1.4,
    "ratingGames": 4,
    "confidence": 46,
@@ -9650,7 +9650,7 @@
    "winPct": 25,
    "diff": -203,
    "ppg": 14.9,
-   "leagueRank": 302,
+   "leagueRank": 303,
    "rating": -2,
    "ratingGames": 40,
    "confidence": 89,
@@ -9679,7 +9679,7 @@
    "winPct": 24,
    "diff": -104,
    "ppg": 15.9,
-   "leagueRank": 293,
+   "leagueRank": 294,
    "rating": -1.3,
    "ratingGames": 26,
    "confidence": 84,
@@ -9708,7 +9708,7 @@
    "winPct": 23.8,
    "diff": -87,
    "ppg": 15.8,
-   "leagueRank": 300,
+   "leagueRank": 301,
    "rating": -2.7,
    "ratingGames": 21,
    "confidence": 81,
@@ -9737,7 +9737,7 @@
    "winPct": 23.5,
    "diff": -137,
    "ppg": 16.2,
-   "leagueRank": 294,
+   "leagueRank": 295,
    "rating": -2.2,
    "ratingGames": 34,
    "confidence": 87,
@@ -9795,7 +9795,7 @@
    "winPct": 23.1,
    "diff": -94,
    "ppg": 16.6,
-   "leagueRank": 297,
+   "leagueRank": 298,
    "rating": -2.7,
    "ratingGames": 26,
    "confidence": 83,
@@ -9824,7 +9824,7 @@
    "winPct": 22.2,
    "diff": -57,
    "ppg": 14,
-   "leagueRank": 388,
+   "leagueRank": 377,
    "rating": -4.2,
    "ratingGames": 9,
    "confidence": 64,
@@ -9853,7 +9853,7 @@
    "winPct": 22.2,
    "diff": -61,
    "ppg": 16.2,
-   "leagueRank": 315,
+   "leagueRank": 293,
    "rating": -1.8,
    "ratingGames": 18,
    "confidence": 78,
@@ -9882,7 +9882,7 @@
    "winPct": 21.6,
    "diff": -140,
    "ppg": 16.2,
-   "leagueRank": 295,
+   "leagueRank": 296,
    "rating": -1.2,
    "ratingGames": 37,
    "confidence": 87,
@@ -9911,7 +9911,7 @@
    "winPct": 21.1,
    "diff": -80,
    "ppg": 16.3,
-   "leagueRank": 298,
+   "leagueRank": 299,
    "rating": -1.8,
    "ratingGames": 19,
    "confidence": 79,
@@ -9998,7 +9998,7 @@
    "winPct": 20,
    "diff": -15,
    "ppg": 17.6,
-   "leagueRank": 378,
+   "leagueRank": 379,
    "rating": -0.5,
    "ratingGames": 5,
    "confidence": 51,
@@ -10027,7 +10027,7 @@
    "winPct": 20,
    "diff": -20,
    "ppg": 16.6,
-   "leagueRank": 385,
+   "leagueRank": 386,
    "rating": -0.7,
    "ratingGames": 5,
    "confidence": 51,
@@ -10375,7 +10375,7 @@
    "winPct": 20,
    "diff": -173,
    "ppg": 15.4,
-   "leagueRank": 307,
+   "leagueRank": 308,
    "rating": -2.2,
    "ratingGames": 35,
    "confidence": 86,
@@ -10404,7 +10404,7 @@
    "winPct": 19.4,
    "diff": -133,
    "ppg": 16,
-   "leagueRank": 301,
+   "leagueRank": 302,
    "rating": -1.1,
    "ratingGames": 31,
    "confidence": 85,
@@ -10520,7 +10520,7 @@
    "winPct": 17.9,
    "diff": -199,
    "ppg": 15.5,
-   "leagueRank": 310,
+   "leagueRank": 311,
    "rating": -1.9,
    "ratingGames": 39,
    "confidence": 88,
@@ -10578,7 +10578,7 @@
    "winPct": 17.1,
    "diff": -171,
    "ppg": 15.5,
-   "leagueRank": 312,
+   "leagueRank": 313,
    "rating": -2.4,
    "ratingGames": 35,
    "confidence": 86,
@@ -10607,7 +10607,7 @@
    "winPct": 17.1,
    "diff": -202,
    "ppg": 15.2,
-   "leagueRank": 311,
+   "leagueRank": 312,
    "rating": -1.5,
    "ratingGames": 41,
    "confidence": 89,
@@ -10694,7 +10694,7 @@
    "winPct": 16.7,
    "diff": -22,
    "ppg": 17,
-   "leagueRank": 383,
+   "leagueRank": 384,
    "rating": -1,
    "ratingGames": 6,
    "confidence": 52,
@@ -10781,7 +10781,7 @@
    "winPct": 16.7,
    "diff": -47,
    "ppg": 12.3,
-   "leagueRank": 407,
+   "leagueRank": 408,
    "rating": -0.5,
    "ratingGames": 6,
    "confidence": 56,
@@ -10984,7 +10984,7 @@
    "winPct": 12.5,
    "diff": -40,
    "ppg": 15.8,
-   "leagueRank": 386,
+   "leagueRank": 387,
    "rating": -1.9,
    "ratingGames": 8,
    "confidence": 61,
@@ -11013,7 +11013,7 @@
    "winPct": 12.5,
    "diff": -47,
    "ppg": 14.9,
-   "leagueRank": 387,
+   "leagueRank": 388,
    "rating": -2.3,
    "ratingGames": 8,
    "confidence": 61,
@@ -11100,7 +11100,7 @@
    "winPct": 12.5,
    "diff": -76,
    "ppg": 11.1,
-   "leagueRank": 411,
+   "leagueRank": 412,
    "rating": -4.8,
    "ratingGames": 8,
    "confidence": 62,
@@ -11303,7 +11303,7 @@
    "winPct": 9.1,
    "diff": -55,
    "ppg": 15.5,
-   "leagueRank": 377,
+   "leagueRank": 378,
    "rating": -1.8,
    "ratingGames": 11,
    "confidence": 68,
@@ -11390,7 +11390,7 @@
    "winPct": 8.3,
    "diff": -75,
    "ppg": 14.6,
-   "leagueRank": 384,
+   "leagueRank": 385,
    "rating": -3.9,
    "ratingGames": 12,
    "confidence": 71,
@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 444,
+   "leagueRank": 445,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 436,
+   "leagueRank": 437,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11651,7 +11651,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 464,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 455,
+   "leagueRank": 456,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 454,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11776,7 +11776,7 @@
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
   },
   {
-   "name": "Yimin Wu",
+   "name": "Sarah Wu",
    "gender": "Female",
    "team": "Allstar Pickler",
    "matches": 0,
@@ -11796,13 +11796,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 470,
+   "leagueRank": 471,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "207e0387-bddb-4fd6-a13f-6ab14b3295ed"
+  },
+  {
+   "name": "Sabrina Foland",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 443,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "24060b12-471f-4545-9d71-98d62020ad0c"
+  },
+  {
+   "name": "Kim Bober",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 433,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "40cac0f1-5ce3-4b52-b104-cb02c5bf066e"
   },
   {
    "name": "Srinivas Balla",
@@ -11912,7 +11970,7 @@
    "winPct": 0,
    "diff": -29,
    "ppg": 15.2,
-   "leagueRank": 413,
+   "leagueRank": 414,
    "rating": -1.3,
    "ratingGames": 5,
    "confidence": 51,
@@ -11941,7 +11999,7 @@
    "winPct": 0,
    "diff": -32,
    "ppg": 14.6,
-   "leagueRank": 416,
+   "leagueRank": 417,
    "rating": -2.2,
    "ratingGames": 5,
    "confidence": 51,
@@ -11999,7 +12057,7 @@
    "winPct": 0,
    "diff": -34,
    "ppg": 15.3,
-   "leagueRank": 409,
+   "leagueRank": 410,
    "rating": -1.3,
    "ratingGames": 6,
    "confidence": 54,
@@ -12028,7 +12086,7 @@
    "winPct": 0,
    "diff": -35,
    "ppg": 15.2,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": -1.3,
    "ratingGames": 6,
    "confidence": 56,
@@ -12144,7 +12202,7 @@
    "winPct": 0,
    "diff": -39,
    "ppg": 14.5,
-   "leagueRank": 417,
+   "leagueRank": 406,
    "rating": -2.5,
    "ratingGames": 6,
    "confidence": 53,
@@ -12260,7 +12318,7 @@
    "winPct": 0,
    "diff": -59,
    "ppg": 12.6,
-   "leagueRank": 408,
+   "leagueRank": 409,
    "rating": -1.5,
    "ratingGames": 7,
    "confidence": 57,
@@ -12318,7 +12376,7 @@
    "winPct": 0,
    "diff": -64,
    "ppg": 13,
-   "leagueRank": 412,
+   "leagueRank": 413,
    "rating": -3.2,
    "ratingGames": 8,
    "confidence": 62,
@@ -12347,7 +12405,7 @@
    "winPct": 0,
    "diff": -66,
    "ppg": 12.8,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": -0.9,
    "ratingGames": 8,
    "confidence": 60,
@@ -12376,7 +12434,7 @@
    "winPct": 0,
    "diff": -70,
    "ppg": 12.3,
-   "leagueRank": 415,
+   "leagueRank": 416,
    "rating": -3.7,
    "ratingGames": 8,
    "confidence": 61,
@@ -12463,7 +12521,7 @@
    "winPct": 0,
    "diff": -78,
    "ppg": 11.3,
-   "leagueRank": 414,
+   "leagueRank": 415,
    "rating": -2.3,
    "ratingGames": 8,
    "confidence": 61,
@@ -12608,7 +12666,7 @@
    "winPct": 0,
    "diff": -101,
    "ppg": 13.8,
-   "leagueRank": 380,
+   "leagueRank": 381,
    "rating": -1.8,
    "ratingGames": 14,
    "confidence": 73,
@@ -37087,14 +37145,6 @@
    "subs": []
   },
   {
-   "result": null,
-   "week": 5,
-   "home": "Montville Rocks",
-   "away": "Montville Dragons",
-   "time": "2026-09-20T14:00:00",
-   "complete": false
-  },
-  {
    "result": "away",
    "week": 5,
    "home": "Allstar Pickler",
@@ -40819,7 +40869,6 @@
    ],
    "subs": [
     "Denise D'Esposito",
-    "Stephane Sabathier",
     "Janette Crowe"
    ]
   },
@@ -45952,8 +46001,7 @@
     }
    ],
    "subs": [
-    "Tinglan Zhao",
-    "Stephane Sabathier"
+    "Tinglan Zhao"
    ]
   },
   {
@@ -56561,7 +56609,361 @@
    "home": "Montville Dragons",
    "away": "Pickleball Palace",
    "time": "2026-10-24T09:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ana Bautista",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Walters",
+      "Mike Matchett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Ashish Malhotra"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lydia Fiore",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Lydia Fiore"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mike Matchett",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Stone",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Ashish Malhotra"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Walters",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ana Bautista",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Mike Matchett"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lydia Fiore",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Walters",
+      "Allison Harmony"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "C Gwon",
+      "Ashish Malhotra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Stone",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lydia Fiore",
+      "Mike Matchett"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ana Bautista",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Walters",
+      "Barbara Thall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Lydia Fiore"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Stone",
+      "Mike Matchett"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashish Malhotra",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Ashish Malhotra"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cindy Walters",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Barbara Thall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lydia Fiore",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Roberto Marcillo",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mike Matchett",
+      "Ashish Malhotra"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -56578,7 +56980,7 @@
       ""
      ],
      "a": [
-      "Heidi Lipton",
+      "",
       "Rob Mendez"
      ]
     },
@@ -56699,7 +57101,7 @@
       ""
      ],
      "a": [
-      "Heidi Lipton",
+      "",
       "Jim Sintic"
      ]
     },
@@ -56721,7 +57123,7 @@
       ""
      ],
      "a": [
-      "Heidi Lipton",
+      "",
       "Karen Kelly"
      ]
     },
@@ -56754,7 +57156,7 @@
       ""
      ],
      "a": [
-      "Heidi Lipton",
+      "",
       "Rob Mendez"
      ]
     },
@@ -56809,7 +57211,7 @@
       ""
      ],
      "a": [
-      "Heidi Lipton",
+      "",
       "Karen Kelly"
      ]
     },
@@ -56853,7 +57255,7 @@
       ""
      ],
      "a": [
-      "Heidi Lipton",
+      "",
       "Michael Stout"
      ]
     },
@@ -56931,7 +57333,361 @@
    "home": "Dill Dinkers Lansdale",
    "away": "Monroe",
    "time": "2026-10-24T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Carara",
+      "Fabricio Pazmino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Rothman-Iliff",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liane Feyas",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Pflueger",
+      "Jeffrey Kowalski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Carara",
+      "Liane Feyas"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Catherine Malabanan",
+      "Nancy Atkinson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mauricio Ramirez",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Fabricio Pazmino",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Carara",
+      "Fabricio Pazmino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Rothman-Iliff",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liane Feyas",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Pflueger",
+      "Jeffrey Kowalski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liane Feyas",
+      "Jen Carara"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Atkinson",
+      "Catherine Malabanan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mauricio Ramirez",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Fabricio Pazmino",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Rothman-Iliff",
+      "Jeffrey Kowalski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Catherine Malabanan",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liane Feyas",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Pflueger",
+      "Fabricio Pazmino"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Rothman-Iliff",
+      "Catherine Malabanan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Pflueger",
+      "Nancy Atkinson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mauricio Ramirez",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeffrey Kowalski",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nancy Atkinson",
+      "Fabricio Pazmino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Rothman-Iliff",
+      "Vilmantas Latvys"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liane Feyas",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Terri Pflueger",
+      "Mauricio Ramirez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Rothman-Iliff",
+      "Catherine Malabanan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Liane Feyas",
+      "Nancy Atkinson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mauricio Ramirez",
+      "Nirav Solanki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Fabricio Pazmino",
+      "Jeffrey Kowalski"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -56939,7 +57695,361 @@
    "home": "Picklr Newtown",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-10-24T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jody Scarano",
+      "Robert Toledo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bellaran",
+      "John Laspina"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Flynn",
+      "Nate Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Heinle",
+      "Luis Perez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bellaran",
+      "Jody Scarano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Doreen Arleth",
+      "Michele Heinle"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Glenn Gelband",
+      "Nate Brochin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Toledo",
+      "Luis Perez"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bellaran",
+      "John Laspina"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Doreen Arleth",
+      "Mike Lasko"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Flynn",
+      "Nate Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Heinle",
+      "Luis Perez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Doreen Arleth",
+      "Sarah Flynn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jody Scarano",
+      "Michele Heinle"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Toledo",
+      "John Laspina"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Luis Perez",
+      "Mike Lasko"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Doreen Arleth",
+      "Robert Toledo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bellaran",
+      "Mike Lasko"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jody Scarano",
+      "Glenn Gelband"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Flynn",
+      "Luis Perez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jody Scarano",
+      "Sarah Flynn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bellaran",
+      "Michele Heinle"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nate Brochin",
+      "Glenn Gelband"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Laspina",
+      "Mike Lasko"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jody Scarano",
+      "Robert Toledo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Flynn",
+      "John Laspina"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janet Bellaran",
+      "Glenn Gelband"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Doreen Arleth",
+      "Mike Lasko"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jody Scarano",
+      "Janet Bellaran"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Doreen Arleth",
+      "Michele Heinle"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Toledo",
+      "Nate Brochin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Glenn Gelband",
+      "Luis Perez"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -56989,7 +58099,7 @@
     {
      "t": "mixed",
      "h": [
-      "Yimin Wu",
+      "Sarah Wu",
       "Paul Rappoport"
      ],
      "a": [
@@ -57020,7 +58130,7 @@
      "t": "female",
      "h": [
       "Jinghua Shi",
-      "Yimin Wu"
+      "Sarah Wu"
      ],
      "a": [
       "Guitta Barghash",
@@ -57068,7 +58178,7 @@
     {
      "t": "mixed",
      "h": [
-      "Valerie Ablaza",
+      "Sarah Wu",
       "Feng Song"
      ],
      "a": [
@@ -57076,7 +58186,7 @@
       "Gary Grzankowski"
      ],
      "hSub": [
-      0,
+      1,
       1
      ]
     },
@@ -57105,16 +58215,12 @@
     {
      "t": "mixed",
      "h": [
-      "Yimin Wu",
+      "Valerie Ablaza",
       "Paul Rappoport"
      ],
      "a": [
       "Guitta Barghash",
       "Stephen Stasiulewicz"
-     ],
-     "hSub": [
-      1,
-      0
      ],
      "aSub": [
       1,
@@ -57124,7 +58230,7 @@
     {
      "t": "female",
      "h": [
-      "Yimin Wu",
+      "Sarah Wu",
       "Valerie Ablaza"
      ],
      "a": [
@@ -57180,7 +58286,7 @@
     {
      "t": "mixed",
      "h": [
-      "Yimin Wu",
+      "Sarah Wu",
       "Scott Richeal"
      ],
      "a": [
@@ -57252,7 +58358,7 @@
      "t": "female",
      "h": [
       "Valerie Ablaza",
-      "Yimin Wu"
+      "Sarah Wu"
      ],
      "a": [
       "Nan Feng",
@@ -57341,7 +58447,7 @@
     {
      "t": "mixed",
      "h": [
-      "Yimin Wu",
+      "Sarah Wu",
       "Buyi Zhang"
      ],
      "a": [
@@ -57356,7 +58462,7 @@
     {
      "t": "female",
      "h": [
-      "Yimin Wu",
+      "Sarah Wu",
       "Jinghua Shi"
      ],
      "a": [
@@ -57417,7 +58523,141 @@
    "home": "ACE Moorestown",
    "away": "Stelton Sports",
    "time": "2026-10-24T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saritha Kondra",
+      "Craig Girvan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yolanda Li",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cathy Proctor",
+      "Gajendra Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Geordielyn Alviola",
+      "Ben Xie"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Geordielyn Alviola",
+      "Cathy Proctor"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessie Yan Han",
+      "Saritha Kondra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gajendra Mehta",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Girvan",
+      "Ben Xie"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Geordielyn Alviola",
+      "Gajendra Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yolanda Li",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cathy Proctor",
+      "Craig Girvan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessie Yan Han",
+      "Ben Xie"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -57547,6 +58787,21 @@
      ]
     },
     {
+     "t": "female",
+     "h": [
+      "Kim Bober",
+      "Sabrina Foland"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
      "t": "male",
      "h": [
       "Madan P",
@@ -57601,6 +58856,14 @@
    "home": "Monroe",
    "away": "Stelton Sports",
    "time": "2026-10-25T14:00:00",
+   "complete": false
+  },
+  {
+   "result": null,
+   "week": 11,
+   "home": "Montville Rocks",
+   "away": "Montville Dragons",
+   "time": "2026-10-31T15:00:00",
    "complete": false
   },
   {
@@ -57842,7 +59105,6 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
-  "Sabrina Foland": "24060b12-471f-4545-9d71-98d62020ad0c",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
@@ -58026,7 +59288,7 @@
    "outsideSub": true
   },
   {
-   "name": "Yimin Wu",
+   "name": "Sarah Wu",
    "playerId": "207e0387-bddb-4fd6-a13f-6ab14b3295ed",
    "gender": "Female",
    "team": "Allstar Pickler",
@@ -58164,6 +59426,14 @@
   {
    "name": "Raquel Sonia Waldman",
    "playerId": "4002e339-8807-4847-8590-ade6c826e1e6",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kim Bober",
+   "playerId": "40cac0f1-5ce3-4b52-b104-cb02c5bf066e",
    "gender": "Female",
    "team": "Pickleball Kingdom Watchung",
    "isCaptain": false,
@@ -58754,14 +60024,6 @@
    "outsideSub": true
   },
   {
-   "name": "Stephane Sabathier",
-   "playerId": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
-   "gender": "Male",
-   "team": "Picklr Newtown",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Jieping Wang",
    "playerId": "c9088878-9755-4e32-abed-4a4e5a42f9a8",
    "gender": "Male",
@@ -59046,7 +60308,7 @@
   "matchesPlayed": 76,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 436,
+  "totalPlayers": 438,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -59187,7 +60449,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T10:55:32.790Z";
+  DATA.meta.asOf = "2026-10-22T16:22:44.546Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
