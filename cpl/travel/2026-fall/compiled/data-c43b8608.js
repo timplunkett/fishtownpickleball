@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 443,
+   "leagueRank": 444,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 462,
+   "leagueRank": 464,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 454,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,13 +11767,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
+  },
+  {
+   "name": "Yimin Wu",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 470,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "207e0387-bddb-4fd6-a13f-6ab14b3295ed"
   },
   {
    "name": "Srinivas Balla",
@@ -56923,19 +56952,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Valerie Ablaza",
+      "Feng Song"
      ],
      "a": [
       "Nan Feng",
       "Pedro Oliveira"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rita Hung",
+      "Scott Richeal"
      ],
      "a": [
       "Izabel Illipronti",
@@ -56945,8 +56978,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jinghua Shi",
+      "Buyi Zhang"
      ],
      "a": [
       "Shobana Ravishankar",
@@ -56956,12 +56989,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yimin Wu",
+      "Paul Rappoport"
      ],
      "a": [
       "Guitta Barghash",
       "Herald Barber"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -56971,8 +57008,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rita Hung",
+      "Valerie Ablaza"
      ],
      "a": [
       "Margaret Bayse",
@@ -56982,19 +57019,27 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jinghua Shi",
+      "Yimin Wu"
      ],
      "a": [
-      "Izabel Illipronti",
+      "Guitta Barghash",
       "Shobana Ravishankar"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Rappoport",
+      "Scott Richeal"
      ],
      "a": [
       "Gary Grzankowski",
@@ -57008,30 +57053,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Buyi Zhang",
+      "Feng Song"
      ],
      "a": [
       "Herald Barber",
       "Pedro Oliveira"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Valerie Ablaza",
+      "Feng Song"
      ],
      "a": [
       "Shobana Ravishankar",
       "Gary Grzankowski"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jinghua Shi",
+      "Buyi Zhang"
      ],
      "a": [
       "Izabel Illipronti",
@@ -57041,8 +57094,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rita Hung",
+      "Scott Richeal"
      ],
      "a": [
       "Nan Feng",
@@ -57052,12 +57105,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yimin Wu",
+      "Paul Rappoport"
      ],
      "a": [
       "Guitta Barghash",
       "Stephen Stasiulewicz"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -57067,19 +57124,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yimin Wu",
+      "Valerie Ablaza"
      ],
      "a": [
       "Izabel Illipronti",
       "Margaret Bayse"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jinghua Shi",
+      "Rita Hung"
      ],
      "a": [
       "Shobana Ravishankar",
@@ -57093,19 +57154,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Buyi Zhang",
+      "Feng Song"
      ],
      "a": [
       "Herald Barber",
       "Madan P"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Rappoport",
+      "Scott Richeal"
      ],
      "a": [
       "Pedro Oliveira",
@@ -57115,30 +57180,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yimin Wu",
+      "Scott Richeal"
      ],
      "a": [
       "Izabel Illipronti",
       "Herald Barber"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jinghua Shi",
+      "Feng Song"
      ],
      "a": [
-      "Shobana Ravishankar",
+      "Margaret Bayse",
       "Stephen Stasiulewicz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rita Hung",
+      "Buyi Zhang"
      ],
      "a": [
       "Guitta Barghash",
@@ -57152,8 +57225,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Valerie Ablaza",
+      "Paul Rappoport"
      ],
      "a": [
       "Nan Feng",
@@ -57163,8 +57236,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rita Hung",
+      "Jinghua Shi"
      ],
      "a": [
       "Izabel Illipronti",
@@ -57178,19 +57251,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Valerie Ablaza",
+      "Yimin Wu"
      ],
      "a": [
       "Nan Feng",
       "Shobana Ravishankar"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Rappoport",
+      "Buyi Zhang"
      ],
      "a": [
       "Srinivas Balla",
@@ -57204,30 +57281,34 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Scott Richeal",
+      "Feng Song"
      ],
      "a": [
       "Gary Grzankowski",
       "Madan P"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Valerie Ablaza",
+      "Scott Richeal"
      ],
      "a": [
-      "Margaret Bayse",
+      "Izabel Illipronti",
       "Pedro Oliveira"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rita Hung",
+      "Paul Rappoport"
      ],
      "a": [
       "Shobana Ravishankar",
@@ -57241,12 +57322,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jinghua Shi",
+      "Feng Song"
      ],
      "a": [
       "Guitta Barghash",
       "Gary Grzankowski"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -57256,30 +57341,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yimin Wu",
+      "Buyi Zhang"
      ],
      "a": [
       "Nan Feng",
       "Stephen Stasiulewicz"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yimin Wu",
+      "Jinghua Shi"
      ],
      "a": [
       "Shobana Ravishankar",
       "Margaret Bayse"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Valerie Ablaza",
+      "Rita Hung"
      ],
      "a": [
       "Nan Feng",
@@ -57289,8 +57382,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Scott Richeal",
+      "Buyi Zhang"
      ],
      "a": [
       "Madan P",
@@ -57300,12 +57393,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Rappoport",
+      "Feng Song"
      ],
      "a": [
       "Gary Grzankowski",
       "Srinivas Balla"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -57745,7 +57842,7 @@
   "Kathleen Leong": "0722c430-ccb3-4155-8270-9147ff0fc831",
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
-  "Yimin Wu": "207e0387-bddb-4fd6-a13f-6ab14b3295ed",
+  "Sabrina Foland": "24060b12-471f-4545-9d71-98d62020ad0c",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Jim Soos": "4d7cc986-290c-4041-b722-e12b08536900",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
@@ -57763,6 +57860,7 @@
   "Teresa Carr": "b84f31ed-afcf-4045-b351-8ece85cdeb26",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Jiyun Yuh": "c94ae231-9f0c-4212-b769-7bd708d8fc38",
+  "Scott Newell": "d56c5a6f-53a4-499f-a6de-646bc7fbd37d",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
   "Sheree Ross": "e3a5083d-9c55-4482-be06-647b8e86c504",
   "Mark Kot": "e652b254-402f-46be-90e9-ed5fcd575154",
@@ -57932,6 +58030,14 @@
    "playerId": "207e0387-bddb-4fd6-a13f-6ab14b3295ed",
    "gender": "Female",
    "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sabrina Foland",
+   "playerId": "24060b12-471f-4545-9d71-98d62020ad0c",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Watchung",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58712,6 +58818,14 @@
    "outsideSub": true
   },
   {
+   "name": "Scott Newell",
+   "playerId": "d56c5a6f-53a4-499f-a6de-646bc7fbd37d",
+   "gender": "Male",
+   "team": "PCKLRAMA",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "David Cartwright",
    "playerId": "d6a6177b-1ee7-410c-bafc-bf1a91628876",
    "gender": "Male",
@@ -58932,7 +59046,7 @@
   "matchesPlayed": 76,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 435,
+  "totalPlayers": 436,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -59073,7 +59187,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T02:37:16.466Z";
+  DATA.meta.asOf = "2026-10-22T10:55:32.790Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

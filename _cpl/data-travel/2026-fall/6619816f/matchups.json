@@ -629,9 +629,9 @@
       "weekNumber": 9,
       "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 493,
+      "awayPoints": 667,
+      "endResult": "away",
       "scheduledTime": "2026-10-21T19:30:00",
       "homeName": "Dill Dinkers Hatboro Aces",
       "awayName": "Bounce Malvern"
