@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 610,
+   "leagueRank": 611,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 604,
+   "leagueRank": 605,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14928,7 +14928,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 585,
+   "leagueRank": 586,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 615,
+   "leagueRank": 616,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 602,
+   "leagueRank": 603,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 594,
+   "leagueRank": 595,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15073,7 +15073,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 586,
+   "leagueRank": 587,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 599,
+   "leagueRank": 600,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 609,
+   "leagueRank": 610,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 613,
+   "leagueRank": 614,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 606,
+   "leagueRank": 607,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73460,6 +73460,7 @@
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
+  "Jim Davis": "e5b99a3d-caa6-4d63-b1ee-1f60bf601fcf",
   "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea"
  },
  "availableSubs": [
@@ -75000,6 +75001,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jim Davis",
+   "playerId": "e5b99a3d-caa6-4d63-b1ee-1f60bf601fcf",
+   "gender": "Male",
+   "team": "Pickleball Palace Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Christine Ostapiak",
    "playerId": "e5d63f22-5a18-4b5d-b916-61d59e17fc0d",
    "gender": "Female",
@@ -75321,7 +75330,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T21:03:46.694Z";
+  DATA.meta.asOf = "2026-10-22T02:34:29.008Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

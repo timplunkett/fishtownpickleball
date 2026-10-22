@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 228,
+   "leagueRank": 229,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 215,
+   "leagueRank": 216,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 217,
+   "leagueRank": 218,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -36461,6 +36461,7 @@
   "Michael Taylor": "23871699-a12b-4eb6-89cb-62fec790e3fb",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
+  "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Matthew Marletta": "c3c6b787-5356-467d-8268-08e5f3cbc450",
   "Pranav Tailor": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7",
@@ -36788,6 +36789,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jordan Brochin",
+   "playerId": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Matthew Schwartz",
    "playerId": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
    "gender": "Male",
@@ -37081,7 +37090,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T21:06:36.343Z";
+  DATA.meta.asOf = "2026-10-22T02:37:38.168Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
