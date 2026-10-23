@@ -3779,7 +3779,7 @@
       "gender": "Male",
       "dupr": "2D2677",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
       "teamName": "Allstar Pickler",
       "wins": 11,

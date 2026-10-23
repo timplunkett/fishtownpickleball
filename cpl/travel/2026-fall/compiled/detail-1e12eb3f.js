@@ -8063,8 +8063,8 @@
     "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -8090,8 +8090,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

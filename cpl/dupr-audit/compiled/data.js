@@ -1917,6 +1917,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Austin Williams",
+   "playerId": "bb0bdc33-be20-4a45-9de9-0a52a88d7af9",
+   "team": "Flemington",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Ava Pastore",
    "playerId": "2e82399e-1fad-4343-81cd-5202f2fd17bf",
    "team": "Forward",
@@ -3653,6 +3660,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Christopher Moscony",
+   "playerId": "f64241ba-e625-4065-b72f-777f5a8fb2bd",
+   "team": "Bounce Philly",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Christopher Munden",
    "playerId": "83f40622-8ed8-42eb-8cbd-767d90f927df",
    "team": "Ballers Philly",
@@ -4455,6 +4469,13 @@ window.DUPR_AUDIT = {
    "playerId": "32df945d-84b6-409d-b2ab-109d6dc1e3de",
    "team": "Dill Dinkers Hatboro",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Danny Ruiz",
+   "playerId": "cf86f914-08ca-4df6-9cdb-74a23afc2478",
+   "team": "Pickle House",
+   "slug": "e27386b3",
    "gender": "Male"
   },
   {
@@ -15039,6 +15060,13 @@ window.DUPR_AUDIT = {
    "playerId": "2b68baa8-32a7-45b1-8d44-3211a61edd7f",
    "team": "Picklr Fair Lawn",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Pilot Sung",
+   "playerId": "45194127-5788-4152-92e6-25915e5419d8",
+   "team": "Allstar Pickler",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {

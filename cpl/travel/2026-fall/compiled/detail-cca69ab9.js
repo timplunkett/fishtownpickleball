@@ -716,8 +716,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -770,8 +770,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,

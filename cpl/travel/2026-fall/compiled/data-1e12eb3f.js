@@ -1339,8 +1339,8 @@
    "name": "Pilot Sung",
    "gender": "Male",
    "team": "Allstar Pickler",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 11,
@@ -15372,9 +15372,9 @@
    "playerId": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba"
   },
   {
-   "name": "Fawn Patti",
+   "name": "Jill Kane",
    "gender": "Female",
-   "team": "Premiere Aces",
+   "team": "Monroe",
    "matches": 0,
    "outsideSub": true,
    "isCaptain": false,
@@ -15392,13 +15392,13 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 605,
+   "leagueRank": 591,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
-   "playerId": "81fa3aae-b090-436c-94e4-9b2661a4afcd"
+   "playerId": "8d3b164f-eff4-45a4-8821-403eb051dd83"
   },
   {
    "name": "Mina Mount",
@@ -40845,7 +40845,6 @@
     }
    ],
    "subs": [
-    "Pilot Sung",
     "Ying Lin"
    ]
   },
@@ -65102,7 +65101,6 @@
     }
    ],
    "subs": [
-    "Pilot Sung",
     "Cheng Wong"
    ]
   },
@@ -73044,7 +73042,7 @@
       ""
      ],
      "a": [
-      "Fawn Patti",
+      "Regina Festa",
       "Frank Marchiano"
      ],
      "aSub": [
@@ -73101,7 +73099,7 @@
      ],
      "a": [
       "Paula De Nisc",
-      "Fawn Patti"
+      "Regina Festa"
      ],
      "aSub": [
       0,
@@ -73137,7 +73135,7 @@
       ""
      ],
      "a": [
-      "Fawn Patti",
+      "Regina Festa",
       "John Hans"
      ],
      "aSub": [
@@ -73200,7 +73198,7 @@
       ""
      ],
      "a": [
-      "Fawn Patti",
+      "Regina Festa",
       "Christine Pisapia"
      ],
      "aSub": [
@@ -73259,7 +73257,7 @@
       ""
      ],
      "a": [
-      "Fawn Patti",
+      "Regina Festa",
       "Frank Fama"
      ],
      "aSub": [
@@ -73300,7 +73298,7 @@
       ""
      ],
      "a": [
-      "Fawn Patti",
+      "Regina Festa",
       "Christine Pisapia"
      ],
      "aSub": [
@@ -73359,7 +73357,7 @@
       ""
      ],
      "a": [
-      "Fawn Patti",
+      "Regina Festa",
       "Frank Marchiano"
      ],
      "aSub": [
@@ -73390,7 +73388,7 @@
      ],
      "a": [
       "Roe Palermo",
-      "Fawn Patti"
+      "Regina Festa"
      ],
      "aSub": [
       0,
@@ -74251,7 +74249,7 @@
      ],
      "a": [
       "Janet Bodner",
-      "Henry Dornemann"
+      "Timothy Cassidy"
      ]
     },
     {
@@ -75810,7 +75808,385 @@
    "home": "Allstar Pickler",
    "away": "Pickleball Palace Blue",
    "time": "2026-10-24T14:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frances Smith",
+      "Jim Davis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clare Cruz",
+      "Stanley Okpor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Narag",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Quinn",
+      "Bill Lam"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Narag",
+      "Lynn Quinn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Munjack",
+      "Clare Cruz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jim Davis",
+      "Mark Garner"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bill Lam",
+      "Stanley Okpor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frances Smith",
+      "Jim Davis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clare Cruz",
+      "Stanley Okpor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Narag",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Quinn",
+      "Bill Lam"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Munjack",
+      "Lynn Quinn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clare Cruz",
+      "Tracy Narag"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Garner",
+      "Jim Davis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bill Lam",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Munjack",
+      "Jim Davis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frances Smith",
+      "Stanley Okpor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Quinn",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Narag",
+      "Mark Garner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Munjack",
+      "Tracy Narag"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clare Cruz",
+      "Frances Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stanley Okpor",
+      "Bill Lam"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Garner",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Munjack",
+      "Jim Davis"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Frances Smith",
+      "Stanley Okpor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lynn Quinn",
+      "Geoffrey Baird"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tracy Narag",
+      "Mark Garner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clare Cruz",
+      "Lynn Quinn"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Munjack",
+      "Frances Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bill Lam",
+      "Bill Gold"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Garner",
+      "Stanley Okpor"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -75818,7 +76194,381 @@
    "home": "Life Time Red Bank",
    "away": "Monroe",
    "time": "2026-10-24T14:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonnie Russo",
+      "Richard Ricciardi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Kane",
+      "Tiran Rishon"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Farrell",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Jill Kane"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonnie Russo",
+      "Denise Macfarlane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Oleg Goldinberg",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Richard Ricciardi",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Kane",
+      "Richard Ricciardi"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Farrell",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Bonnie Russo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Macfarlane",
+      "Jill Kane"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Manzo",
+      "Richard Ricciardi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Oleg Goldinberg",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Farrell",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Kane",
+      "Jeffrey Quinlan"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Macfarlane",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Bonnie Russo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Amy Farrell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Manzo",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Oleg Goldinberg",
+      "Richard Ricciardi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Macfarlane",
+      "Anthony Manzo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Olga Turova",
+      "Oleg Goldinberg"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Jeffrey Quinlan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonnie Russo",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Audrey Lotti",
+      "Olga Turova"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amy Farrell",
+      "Denise Macfarlane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Manzo",
+      "Tiran Rishon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeffrey Quinlan",
+      "Richard Ricciardi"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -76228,7 +76978,361 @@
    "home": "Premiere Dinkers",
    "away": "PKLD",
    "time": "2026-10-24T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Lenn Yeger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Petra Jones",
+      "Elliot Fishman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Antoinette Mccormick",
+      "Steven Truzzolino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Rosenberg",
+      "Bart Van Der Gaag"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Petra Jones",
+      "Michele Latwis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Rosenberg",
+      "Jennifer Makfinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Truzzolino",
+      "Michael Rosenmertz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bart Van Der Gaag",
+      "Elliot Fishman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Rosenberg",
+      "Lenn Yeger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Latwis",
+      "Steven Truzzolino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Michael Rosenmertz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Antoinette Mccormick",
+      "Elliot Fishman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Petra Jones",
+      "Michele Latwis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Antoinette Mccormick"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Truzzolino",
+      "Bart Van Der Gaag"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lenn Yeger",
+      "Michael Rosenmertz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Lenn Yeger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Petra Jones",
+      "Bart Van Der Gaag"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Rosenberg",
+      "Elliot Fishman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michele Latwis",
+      "Michael Rosenmertz"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Rosenberg",
+      "Michele Latwis"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Antoinette Mccormick"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bart Van Der Gaag",
+      "Steven Truzzolino"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lenn Yeger",
+      "Michael Rosenmertz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Elliot Fishman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Petra Jones",
+      "Bart Van Der Gaag"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Rosenberg",
+      "Steven Truzzolino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Antoinette Mccormick",
+      "Lenn Yeger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Makfinsky",
+      "Karen Rosenberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Antoinette Mccormick",
+      "Petra Jones"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Truzzolino",
+      "Elliot Fishman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bart Van Der Gaag",
+      "Lenn Yeger"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -76654,385 +77758,7 @@
    "home": "Premiere Aces",
    "away": "Pickleball Palace Blue",
    "time": "2026-10-25T18:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frances Smith",
-      "Jim Davis"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Clare Cruz",
-      "Stanley Okpor"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Geoffrey Baird"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Bill Lam"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Lisa Munjack"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Clare Cruz"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Mark Garner",
-      "Jim Davis"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Stanley Okpor",
-      "Bill Lam"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frances Smith",
-      "Jim Davis"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Clare Cruz",
-      "Stanley Okpor"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Geoffrey Baird"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Bill Lam"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Clare Cruz"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Lisa Munjack"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jim Davis",
-      "Mark Garner"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Bill Lam",
-      "Geoffrey Baird"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lisa Munjack",
-      "Jim Davis"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frances Smith",
-      "Stanley Okpor"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Geoffrey Baird"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Mark Garner"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frances Smith",
-      "Clare Cruz"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Lisa Munjack"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Stanley Okpor",
-      "Bill Lam"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Mark Garner",
-      "Geoffrey Baird"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lisa Munjack",
-      "Jim Davis"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frances Smith",
-      "Stanley Okpor"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Geoffrey Baird"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tracy Narag",
-      "Mark Garner"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Frances Smith",
-      "Lisa Munjack"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynn Quinn",
-      "Clare Cruz"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Geoffrey Baird",
-      "Bill Lam"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Mark Garner",
-      "Stanley Okpor"
-     ]
-    }
-   ]
+   "complete": false
   },
   {
    "result": null,
@@ -77964,11 +78690,11 @@
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
   "Ly Kim": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
   "Marti Williams": "753ab71e-d687-4f8a-a998-ce4ed1e37bc0",
+  "Fawn Patti": "81fa3aae-b090-436c-94e4-9b2661a4afcd",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
   "Namit Jain": "8a49c394-945c-410d-8b79-b20b55437436",
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
-  "Jill Kane": "8d3b164f-eff4-45a4-8821-403eb051dd83",
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Joan Chernowski": "95a994f0-d4e7-4303-b20d-d432a392247b",
   "Joseph Chernowski": "9fb38c6b-e78b-45aa-925b-92adfc063bf9",
@@ -78460,14 +79186,6 @@
    "playerId": "442d80c7-8eaf-413b-b99b-7cdaddb08b7c",
    "gender": "Female",
    "team": "One Love",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Pilot Sung",
-   "playerId": "45194127-5788-4152-92e6-25915e5419d8",
-   "gender": "Male",
-   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -79857,7 +80575,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T21:00:13.114Z";
+  DATA.meta.asOf = "2026-10-23T02:39:22.653Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

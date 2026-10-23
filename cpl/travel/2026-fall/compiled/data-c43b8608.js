@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 445,
+   "leagueRank": 446,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 467,
+   "leagueRank": 468,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11738,7 +11738,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 457,
+   "leagueRank": 458,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 456,
+   "leagueRank": 457,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11796,7 +11796,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 460,
+   "leagueRank": 461,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11825,7 +11825,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 452,
+   "leagueRank": 453,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11854,7 +11854,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 474,
+   "leagueRank": 475,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -57815,8 +57815,8 @@
       ""
      ],
      "a": [
-      "Doreen Arleth",
-      "Michele Heinle"
+      "Michele Heinle",
+      "Doreen Arleth"
      ]
     },
     {
@@ -57838,7 +57838,7 @@
      ],
      "a": [
       "Robert Toledo",
-      "Luis Perez"
+      "John Laspina"
      ]
     },
     {
@@ -58036,7 +58036,7 @@
      ],
      "a": [
       "Sarah Flynn",
-      "John Laspina"
+      "Glenn Gelband"
      ]
     },
     {
@@ -58708,6 +58708,226 @@
       "Jessie Yan Han",
       "Ben Xie"
      ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessie Yan Han",
+      "Yolanda Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saritha Kondra",
+      "Geordielyn Alviola"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Xie",
+      "Craig Girvan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gajendra Mehta",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessie Yan Han",
+      "Ben Xie"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yolanda Li",
+      "Gajendra Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cathy Proctor",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saritha Kondra",
+      "Craig Girvan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cathy Proctor",
+      "Saritha Kondra"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jessie Yan Han",
+      "Geordielyn Alviola"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Girvan",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gajendra Mehta",
+      "Ben Xie"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yolanda Li",
+      "Ben Xie"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saritha Kondra",
+      "Gajendra Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Geordielyn Alviola",
+      "Craig Girvan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cathy Proctor",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cathy Proctor",
+      "Geordielyn Alviola"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yolanda Li",
+      "Saritha Kondra"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Girvan",
+      "Karan Bhagat"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gajendra Mehta",
+      "Ben Xie"
+     ]
     }
    ]
   },
@@ -58717,7 +58937,361 @@
    "home": "PCKLRAMA",
    "away": "Home Court",
    "time": "2026-10-24T18:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Engel",
+      "Robert Huntley"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Kietrys",
+      "Rich Traynor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrea Smith",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sue Agneli",
+      "Peter Kuehne"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Kietrys",
+      "Melissa Engel"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrea Smith",
+      "Sandy Hartman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Rich Traynor"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Keith Bloom",
+      "David Cartwright"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandy Hartman",
+      "Peter Kuehne"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Streit",
+      "Rich Traynor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Engel",
+      "David Cartwright"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrea Smith",
+      "Keith Bloom"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sue Agneli",
+      "Melissa Engel"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Kietrys",
+      "Sharon Streit"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rich Traynor",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Huntley",
+      "Peter Kuehne"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Streit",
+      "Keith Bloom"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandy Hartman",
+      "Robert Huntley"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sue Agneli",
+      "Rich Traynor"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Kietrys",
+      "David Cartwright"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Kietrys",
+      "Sue Agneli"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Streit",
+      "Sandy Hartman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rich Traynor",
+      "Robert Huntley"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Peter Kuehne",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sandy Hartman",
+      "Keith Bloom"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrea Smith",
+      "Michael Gilbert"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sue Agneli",
+      "David Cartwright"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Streit",
+      "Robert Huntley"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Melissa Engel",
+      "Andrea Smith"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sharon Streit",
+      "Sue Agneli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Peter Kuehne",
+      "Rich Traynor"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Gilbert",
+      "David Cartwright"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -59956,6 +60530,7 @@
   "Jason Wu": "5e42a5f7-22d1-4613-a829-b62121ddc704",
   "Joel Rubins": "70a271cf-643d-45a1-bb2e-c13be2cd168b",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
+  "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
   "Leslie Laganella": "79b88b19-d7ab-49ab-881c-888ff437ae90",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
@@ -60521,6 +61096,14 @@
    "playerId": "73851057-8215-4f46-b594-de9aafc8435f",
    "gender": "Male",
    "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Trevor Foraker",
+   "playerId": "76ac11d3-ccdc-4009-b836-99023d2722ca",
+   "gender": "Male",
+   "team": "Picklr Newtown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -61310,7 +61893,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T21:02:54.914Z";
+  DATA.meta.asOf = "2026-10-23T02:41:50.339Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
