@@ -14870,7 +14870,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 612,
+   "leagueRank": 615,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14899,7 +14899,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 606,
+   "leagueRank": 609,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14928,7 +14928,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 587,
+   "leagueRank": 590,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14957,7 +14957,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 617,
+   "leagueRank": 620,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -14986,7 +14986,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 604,
+   "leagueRank": 607,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15015,7 +15015,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 596,
+   "leagueRank": 599,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15073,7 +15073,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 588,
+   "leagueRank": 591,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15102,7 +15102,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 601,
+   "leagueRank": 604,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15131,7 +15131,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 611,
+   "leagueRank": 614,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15160,7 +15160,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 572,
+   "leagueRank": 573,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15189,7 +15189,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 615,
+   "leagueRank": 618,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15218,7 +15218,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 608,
+   "leagueRank": 611,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15247,7 +15247,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 618,
+   "leagueRank": 621,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15276,7 +15276,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 609,
+   "leagueRank": 612,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15305,7 +15305,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 582,
+   "leagueRank": 583,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15334,13 +15334,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 613,
+   "leagueRank": 616,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "4dae6d67-32ee-47af-b281-286ad9fd1b76"
+  },
+  {
+   "name": "Jason Combes",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 574,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5a3ef7a6-3b61-4ca7-bab2-3817194cda35"
   },
   {
    "name": "Jessica Weinberg",
@@ -15363,13 +15392,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 621,
+   "leagueRank": 624,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "76a5d9e2-4abe-4656-bc37-5a340a4aeaba"
+  },
+  {
+   "name": "Marni Ehrlich",
+   "gender": "Female",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 585,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "78068f50-a492-47be-b308-47c78e4de58a"
   },
   {
    "name": "Jill Kane",
@@ -15392,7 +15450,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 591,
+   "leagueRank": 594,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15421,7 +15479,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 603,
+   "leagueRank": 606,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15450,7 +15508,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 623,
+   "leagueRank": 626,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15479,13 +15537,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 602,
+   "leagueRank": 605,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "c25daa27-7d35-45da-82f3-8ff1c62bcce3"
+  },
+  {
+   "name": "Robert Breitel",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 564,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "d4e5f4b9-7940-4e9f-b845-3fe94b0df319"
   },
   {
    "name": "Dan Matthews",
@@ -15508,7 +15595,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 600,
+   "leagueRank": 603,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15537,7 +15624,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 579,
+   "leagueRank": 580,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -75423,19 +75510,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judi London",
+      "Jason Combes"
      ],
      "a": [
       "Zalene Corey",
       "Anuraag Verma"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Miller",
+      "Paul Mcalary"
      ],
      "a": [
       "Lynn Snyder",
@@ -75445,8 +75536,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Wen Chang"
      ],
      "a": [
       "Amy Kienzle",
@@ -75456,8 +75547,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Kim Biddle",
@@ -75467,8 +75558,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Barbara Hand"
      ],
      "a": [
       "Zalene Corey",
@@ -75478,30 +75569,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marni Ehrlich",
+      "Lisa Miller"
      ],
      "a": [
       "Kimberly Kusumoto",
       "Lynn Snyder"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Combes",
+      "Robert Breitel"
      ],
      "a": [
       "George Nouaime",
       "Jeffrey Lindstrom"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wen Chang",
+      "Paul Mcalary"
      ],
      "a": [
       "Neal Shipon",
@@ -75515,30 +75614,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judi London",
+      "Robert Breitel"
      ],
      "a": [
       "Amy Kienzle",
       "Anuraag Verma"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marni Ehrlich",
+      "Jason Combes"
      ],
      "a": [
       "Zalene Corey",
       "Jeffrey Lindstrom"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Kim Biddle",
@@ -75548,8 +75655,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Wen Chang"
      ],
      "a": [
       "Kimberly Kusumoto",
@@ -75563,8 +75670,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Judi London",
+      "Lisa Miller"
      ],
      "a": [
       "Lynn Snyder",
@@ -75574,19 +75681,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marni Ehrlich",
+      "Andria Lochtenbergh"
      ],
      "a": [
       "Zalene Corey",
       "Kimberly Kusumoto"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derik Lochtenbergh",
+      "Paul Mcalary"
      ],
      "a": [
       "Brian Schartz",
@@ -75600,30 +75711,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Breitel",
+      "Wen Chang"
      ],
      "a": [
       "Anuraag Verma",
       "George Nouaime"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Judi London",
+      "Jason Combes"
      ],
      "a": [
       "Lynn Snyder",
       "Anuraag Verma"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Paul Mcalary"
      ],
      "a": [
       "Kimberly Kusumoto",
@@ -75633,23 +75752,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Miller",
+      "Robert Breitel"
      ],
      "a": [
       "Zalene Corey",
       "Jeffrey Lindstrom"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marni Ehrlich",
+      "Derik Lochtenbergh"
      ],
      "a": [
       "Amy Kienzle",
       "Neal Shipon"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -75659,8 +75786,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Lisa Miller"
      ],
      "a": [
       "Kim Biddle",
@@ -75670,8 +75797,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Judi London"
      ],
      "a": [
       "Lynn Snyder",
@@ -75681,41 +75808,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Wen Chang",
+      "Jason Combes"
      ],
      "a": [
       "Brian Schartz",
       "Anuraag Verma"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derik Lochtenbergh",
+      "Robert Breitel"
      ],
      "a": [
       "Jeffrey Lindstrom",
       "George Nouaime"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marni Ehrlich",
+      "Jason Combes"
      ],
      "a": [
       "Lynn Snyder",
       "Anuraag Verma"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Miller",
+      "Wen Chang"
      ],
      "a": [
       "Amy Kienzle",
@@ -75725,8 +75864,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Paul Mcalary"
      ],
      "a": [
       "Kim Biddle",
@@ -75740,12 +75879,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Robert Breitel"
      ],
      "a": [
       "Kimberly Kusumoto",
       "Scott Moore"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -75755,8 +75898,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Hand",
+      "Judi London"
      ],
      "a": [
       "Zalene Corey",
@@ -75766,23 +75909,31 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Andria Lochtenbergh",
+      "Marni Ehrlich"
      ],
      "a": [
       "Amy Kienzle",
       "Kim Biddle"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Combes",
+      "Wen Chang"
      ],
      "a": [
       "Anuraag Verma",
       "Neal Shipon"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -75792,8 +75943,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derik Lochtenbergh",
+      "Paul Mcalary"
      ],
      "a": [
       "Jeffrey Lindstrom",
@@ -76199,8 +76350,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Ruggieri",
+      "Blair Lane"
      ],
      "a": [
       "Bonnie Russo",
@@ -76210,8 +76361,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Leo Decker"
      ],
      "a": [
       "Jill Kane",
@@ -76225,19 +76376,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "John Desantis"
      ],
      "a": [
       "Olga Turova",
       "Anthony Manzo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Daniel Ryan"
      ],
      "a": [
       "Amy Farrell",
@@ -76247,8 +76402,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Nicole Tarallo"
      ],
      "a": [
       "Audrey Lotti",
@@ -76262,8 +76417,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Bonnie Russo",
@@ -76273,8 +76428,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leo Decker",
+      "Daniel Ryan"
      ],
      "a": [
       "Oleg Goldinberg",
@@ -76284,19 +76439,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Emil De Carvalho",
+      "David Mccarthy"
      ],
      "a": [
       "Richard Ricciardi",
       "Tiran Rishon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Leo Decker"
      ],
      "a": [
       "Audrey Lotti",
@@ -76306,8 +76465,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marie Walsh Mccarty",
+      "Daniel Ryan"
      ],
      "a": [
       "Olga Turova",
@@ -76317,12 +76476,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "John Desantis"
      ],
      "a": [
       "Jill Kane",
       "Richard Ricciardi"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -76332,8 +76495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Blair Lane"
      ],
      "a": [
       "Amy Farrell",
@@ -76343,8 +76506,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Erica Ruggieri"
      ],
      "a": [
       "Olga Turova",
@@ -76354,8 +76517,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Jackie Coneeny"
      ],
      "a": [
       "Denise Macfarlane",
@@ -76369,30 +76532,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Mccarthy",
+      "Emil De Carvalho"
      ],
      "a": [
       "Anthony Manzo",
       "Richard Ricciardi"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Desantis",
+      "Daniel Ryan"
      ],
      "a": [
       "Oleg Goldinberg",
       "Tiran Rishon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Blair Lane"
      ],
      "a": [
       "Audrey Lotti",
@@ -76402,19 +76573,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marie Walsh Mccarty",
+      "Emil De Carvalho"
      ],
      "a": [
       "Amy Farrell",
       "Anthony Manzo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Leo Decker"
      ],
      "a": [
       "Jill Kane",
@@ -76428,8 +76603,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Ruggieri",
+      "David Mccarthy"
      ],
      "a": [
       "Denise Macfarlane",
@@ -76439,8 +76614,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erica Ruggieri",
+      "Jackie Coneeny"
      ],
      "a": [
       "Audrey Lotti",
@@ -76450,8 +76625,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Olga Turova",
@@ -76461,8 +76636,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leo Decker",
+      "Daniel Ryan"
      ],
      "a": [
       "Anthony Manzo",
@@ -76472,30 +76647,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Desantis",
+      "Emil De Carvalho"
      ],
      "a": [
       "Oleg Goldinberg",
       "Richard Ricciardi"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "John Desantis"
      ],
      "a": [
       "Denise Macfarlane",
       "Anthony Manzo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "David Mccarthy"
      ],
      "a": [
       "Olga Turova",
@@ -76505,8 +76688,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Blair Lane"
      ],
      "a": [
       "Audrey Lotti",
@@ -76516,19 +76699,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Ruggieri",
+      "Emil De Carvalho"
      ],
      "a": [
       "Bonnie Russo",
       "Tiran Rishon"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Audrey Lotti",
@@ -76538,8 +76725,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Erica Ruggieri"
      ],
      "a": [
       "Amy Farrell",
@@ -76549,8 +76736,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leo Decker",
+      "Blair Lane"
      ],
      "a": [
       "Anthony Manzo",
@@ -76560,8 +76747,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Mccarthy",
+      "Daniel Ryan"
      ],
      "a": [
       "Jeffrey Quinlan",
@@ -77710,7 +77897,361 @@
    "home": "Bounce Malvern",
    "away": "Dill Dinkers Hatboro",
    "time": "2026-10-25T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonny Mayerberg",
+      "Eric Pollock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn King",
+      "Matt Becker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adele Hackney",
+      "Andrew Frey"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Raiken",
+      "Chris Hannah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adele Hackney",
+      "Lauren Ricks"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Raiken",
+      "Carolyn King"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Bush",
+      "David Wisch"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Becker",
+      "Chris Hannah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonny Mayerberg",
+      "Andrew Frey"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adele Hackney",
+      "Matt Becker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Ricks",
+      "Eric Pollock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn King",
+      "David Wisch"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn King",
+      "Bonny Mayerberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Ricks",
+      "Cheryl Raiken"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Hannah",
+      "Eric Pollock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Frey",
+      "Andrew Bush"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Ricks",
+      "Andrew Bush"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adele Hackney",
+      "David Wisch"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonny Mayerberg",
+      "Chris Hannah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Raiken",
+      "Matt Becker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Raiken",
+      "Bonny Mayerberg"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn King",
+      "Adele Hackney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Wisch",
+      "Andrew Frey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Pollock",
+      "Matt Becker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adele Hackney",
+      "Andrew Bush"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cheryl Raiken",
+      "Andrew Frey"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Ricks",
+      "Chris Hannah"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn King",
+      "Eric Pollock"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Ricks",
+      "Carolyn King"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bonny Mayerberg",
+      "Adele Hackney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Frey",
+      "Andrew Bush"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "David Wisch",
+      "Matt Becker"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -78679,9 +79220,9 @@
   "Haiying Hu": "30568077-6244-48c9-b1cb-66d788ed8a4a",
   "Lydia Madrilejos": "39aae561-e09c-4f74-873b-2b5a36c15d05",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
+  "Frank Fuggetta": "4391f4d6-4af7-450b-ab76-63ad718b26ae",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
   "Kathleen Regan": "51c297fb-7791-4dc3-8d9f-de402d9caf76",
-  "Jason Combes": "5a3ef7a6-3b61-4ca7-bab2-3817194cda35",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
@@ -79174,6 +79715,14 @@
    "outsideSub": true
   },
   {
+   "name": "Frank Fuggetta",
+   "playerId": "4391f4d6-4af7-450b-ab76-63ad718b26ae",
+   "gender": "Male",
+   "team": "Premiere Dinkers",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Frank Ciavardone",
    "playerId": "43e85bb2-c9ae-4ebf-8e2d-7f77f5a801f7",
    "gender": "Male",
@@ -79570,6 +80119,14 @@
    "playerId": "77e46249-c354-488b-9939-8a5c21dbf8ab",
    "gender": "Male",
    "team": "Picklr Fair Lawn",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Marni Ehrlich",
+   "playerId": "78068f50-a492-47be-b308-47c78e4de58a",
+   "gender": "Female",
+   "team": "Bounce Philly",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -80078,6 +80635,14 @@
    "outsideSub": true
   },
   {
+   "name": "Robert Breitel",
+   "playerId": "d4e5f4b9-7940-4e9f-b845-3fe94b0df319",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Allison Xiao",
    "playerId": "d50d8512-f462-48e4-9025-0135117cabae",
    "gender": "Female",
@@ -80418,7 +80983,7 @@
   "matchesPlayed": 100,
   "provisionalMatches": 1,
   "weeks": "1-9",
-  "totalPlayers": 571,
+  "totalPlayers": 574,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -80575,7 +81140,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T10:45:28.122Z";
+  DATA.meta.asOf = "2026-10-23T16:09:53.382Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -136,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 230
+      "ranking": 231
     },
     {
       "playerId": "08197a69-d447-4483-b3ae-7b232fb0655d",
@@ -274,7 +274,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 236
+      "ranking": 237
     },
     {
       "playerId": "0c1a11c0-7f89-48fa-af2f-3f9925039239",
@@ -527,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 238
+      "ranking": 239
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -780,7 +780,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 235
+      "ranking": 236
     },
     {
       "playerId": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
@@ -1378,7 +1378,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 237
+      "ranking": 238
     },
     {
       "playerId": "40abb6aa-9678-431b-8b5c-6f140f00c5bc",
@@ -1562,7 +1562,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 228
+      "ranking": 229
     },
     {
       "playerId": "4572bf15-1066-42b7-ae74-94d6175b1b96",
@@ -1723,7 +1723,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 229
+      "ranking": 230
     },
     {
       "playerId": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
@@ -1976,7 +1976,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 225
+      "ranking": 226
     },
     {
       "playerId": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
@@ -2738,6 +2738,29 @@
       "ranking": 138
     },
     {
+      "playerId": "7827b964-4715-4aec-aec4-e75085199fc1",
+      "firstName": "Jerry",
+      "lastName": "Li",
+      "gender": "Male",
+      "dupr": "G5XXKG",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 224
+    },
+    {
       "playerId": "7c8310a8-1a97-4c04-bbc0-519fe4132685",
       "firstName": "Scott",
       "lastName": "Bohrer",
@@ -2988,7 +3011,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 232
+      "ranking": 233
     },
     {
       "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
@@ -3586,7 +3609,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 233
+      "ranking": 234
     },
     {
       "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
@@ -3954,7 +3977,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 224
+      "ranking": 225
     },
     {
       "playerId": "b4efc48a-f302-4d27-8c35-0dac1e68eec8",
@@ -4322,7 +4345,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 226
+      "ranking": 227
     },
     {
       "playerId": "c55df548-ee89-4493-9268-850675b96066",
@@ -4391,7 +4414,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 234
+      "ranking": 235
     },
     {
       "playerId": "cc1d39e6-1550-41b8-bb47-4118be5f9ba6",
@@ -4667,7 +4690,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 231
+      "ranking": 232
     },
     {
       "playerId": "db98d397-2496-4147-943c-febe48812018",
@@ -5058,7 +5081,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 239
+      "ranking": 240
     },
     {
       "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
@@ -5104,7 +5127,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 227
+      "ranking": 228
     },
     {
       "playerId": "f2929b28-a6ee-45e5-9846-da957b6d8734",

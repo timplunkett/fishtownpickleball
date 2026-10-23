@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 239,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,13 +5967,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb"
+  },
+  {
+   "name": "Nathaniel Flores",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 220,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "31194d9a-69bf-4949-92b6-d5376144b8c5"
+  },
+  {
+   "name": "Anthony Leung",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 223,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "48457f37-29a2-47e7-8b2e-62316ad44feb"
   },
   {
    "name": "Shang Li",
@@ -5996,7 +6054,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 224,
+   "leagueRank": 225,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6025,7 +6083,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 227,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6054,7 +6112,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 235,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -37700,7 +37758,425 @@
    "home": "Dill Dinkers Freehold",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-10-24T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Nathaniel Flores"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Eric Jiang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Anthony Leung"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Leung",
+      "Ken Velarde"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Eric Jiang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Nathaniel Flores"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Jiang",
+      "Anthony Leung"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ken Velarde",
+      "Nathaniel Flores"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Jiang",
+      "Anthony Leung"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathaniel Flores",
+      "Ken Velarde"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Eric Jiang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gautham Bondugula",
+      "Anthony Leung"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Nathaniel Flores"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Jiang",
+      "Daniel Gallegos"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Leung",
+      "Gautham Bondugula"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Nathaniel Flores"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Jiang",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Leung",
+      "Kevin Sun"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nathaniel Flores",
+      "Daniel Gallegos"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Jiang",
+      "Gautham Bondugula"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bonaventura",
+      "Ken Velarde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Sun",
+      "Anthony Leung"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Gallegos",
+      "Nathaniel Flores"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -37884,11 +38360,10 @@
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
   "Samuel Darla": "2e946057-0cf8-4375-b401-9c4e475a894f",
-  "Nathaniel Flores": "31194d9a-69bf-4949-92b6-d5376144b8c5",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
-  "Anthony Leung": "48457f37-29a2-47e7-8b2e-62316ad44feb",
   "Dan Lougheed": "538f12a5-bf62-46a7-9ada-583a86b84ec0",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
+  "Jerry Li": "7827b964-4715-4aec-aec4-e75085199fc1",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322",
@@ -38184,6 +38659,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jerry Li",
+   "playerId": "7827b964-4715-4aec-aec4-e75085199fc1",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Noah Goding",
    "playerId": "80138d68-a74a-4f8c-aea1-7d31e682efa8",
    "gender": "Male",
@@ -38452,7 +38935,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 217,
+  "totalPlayers": 219,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -38573,7 +39056,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T10:47:52.630Z";
+  DATA.meta.asOf = "2026-10-23T16:13:09.378Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

@@ -61323,8 +61323,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -61350,8 +61350,8 @@
     "teamRes": "L",
     "teamGW": 6,
     "teamGL": 26,
-    "sub": 1,
-    "subFor": "Jersey Devil"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

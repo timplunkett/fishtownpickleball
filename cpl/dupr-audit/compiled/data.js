@@ -9080,6 +9080,13 @@ window.DUPR_AUDIT = {
   {
    "name": "John Darrah",
    "playerId": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
+   "team": "Jersey Devil",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "John Darrah",
+   "playerId": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
    "team": "APC Garden State",
    "slug": "2edc44e7",
    "gender": "Male"

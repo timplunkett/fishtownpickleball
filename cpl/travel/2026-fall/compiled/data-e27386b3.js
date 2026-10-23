@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 418,
+   "leagueRank": 419,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 417,
+   "leagueRank": 418,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10897,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 435,
+   "leagueRank": 437,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10926,7 +10926,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 392,
+   "leagueRank": 393,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 414,
+   "leagueRank": 415,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10984,7 +10984,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 425,
+   "leagueRank": 426,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11013,7 +11013,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 411,
+   "leagueRank": 412,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11042,7 +11042,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 419,
+   "leagueRank": 420,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11071,7 +11071,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 406,
+   "leagueRank": 407,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11100,7 +11100,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 400,
+   "leagueRank": 401,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -68486,6 +68486,7 @@
   "Nicholai Ola": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
   "Ken Bienkowski": "5cc85746-e4a6-432e-bfe5-8166f02867ce",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
+  "David Bailey": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
   "Carolyn Shipe": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
   "Stephanie Li": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
   "Isabella Silva": "6b4c5230-95a7-4b24-b971-47c8eb53b251",
@@ -68499,6 +68500,7 @@
   "Mira Sidhom": "c513749a-6d0b-46b9-928d-5485fa104e5f",
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
+  "Joel Tamayo": "df904856-c66c-4f71-95c2-1a9623f80a91",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Niman Ahmeti": "e5c7646e-bb30-40b2-bb20-bd4c75e814ce",
   "Anthony Oliver": "e99589b9-dcaa-405f-ad41-0cda95a5f236",
@@ -68721,6 +68723,14 @@
    "playerId": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
    "gender": "Female",
    "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "David Bailey",
+   "playerId": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
+   "gender": "Male",
+   "team": "Flemington",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -69125,6 +69135,14 @@
    "outsideSub": true
   },
   {
+   "name": "Joel Tamayo",
+   "playerId": "df904856-c66c-4f71-95c2-1a9623f80a91",
+   "gender": "Male",
+   "team": "Open Play",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Lynn Bresnahan",
    "playerId": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
    "gender": "Female",
@@ -69431,7 +69449,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T02:38:39.066Z";
+  DATA.meta.asOf = "2026-10-23T16:08:57.035Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

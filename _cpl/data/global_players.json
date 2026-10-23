@@ -39800,7 +39800,7 @@
     "lastName": "Tamayo",
     "dupr": "QPVO2D",
     "duprRating": "2.958",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 4364638789,
     "duprProvisional": false
   },
@@ -42622,7 +42622,7 @@
     "lastName": "Ehrlich",
     "dupr": "17N0DM",
     "duprRating": "3.136",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 5664451004,
     "duprProvisional": false
   },
@@ -48715,5 +48715,65 @@
     "lastSeen": "2026-10",
     "duprNumericId": 6894521448,
     "duprProvisional": false
+  },
+  {
+    "playerId": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
+    "firstName": "David",
+    "lastName": "Bailey",
+    "dupr": "7D7PO9",
+    "duprRating": "3.350",
+    "lastSeen": "2026-10",
+    "duprNumericId": 6198975469,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "d4e5f4b9-7940-4e9f-b845-3fe94b0df319",
+    "firstName": "Robert",
+    "lastName": "Breitel",
+    "dupr": "DP0D7Y",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7013432696,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "4391f4d6-4af7-450b-ab76-63ad718b26ae",
+    "firstName": "Frank",
+    "lastName": "Fuggetta",
+    "dupr": "XJ95N5",
+    "duprRating": "3.140",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7558099253,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "7911bc61-54b4-4be2-92e0-9d5a9b769e0c",
+    "firstName": "Thomas",
+    "lastName": "lee",
+    "dupr": "KE0ZZY",
+    "duprRating": "3.488",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7559265920,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "0e018305-2b75-4b23-8754-e5b5352242b7",
+    "firstName": "YvetteYvette",
+    "lastName": "Nguyen",
+    "dupr": "P56ZNQ",
+    "duprRating": "3.968",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5605573883,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "50da67b6-9ad4-49b9-8bfc-b9afd1b7c6b9",
+    "firstName": "Robin",
+    "lastName": "Polonet",
+    "dupr": "KE0OLQ",
+    "duprRating": 3.03,
+    "lastSeen": "2026-10",
+    "duprNumericId": 5012296518,
+    "duprProvisional": true
   }
 ]

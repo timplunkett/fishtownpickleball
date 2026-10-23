@@ -6315,7 +6315,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6344,7 +6344,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 244,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6373,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 253,
+   "leagueRank": 254,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -35326,7 +35326,6 @@
    "away": "Jersey Pickleball Club",
    "time": "2026-10-21T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 685,
    "awayPoints": 526,
    "homeGW": 29,
@@ -38929,7 +38928,8 @@
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
   "Elise Van Ormer": "959c8c5b-2b03-4809-b56c-40d9787e2554",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
-  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
+  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+  "Paige Metzler": "fbbe5ed6-1d46-48b3-9461-5922944a1016"
  },
  "availableSubs": [
   {
@@ -39509,6 +39509,14 @@
    "outsideSub": true
   },
   {
+   "name": "Paige Metzler",
+   "playerId": "fbbe5ed6-1d46-48b3-9461-5922944a1016",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Christine Ferraez",
    "playerId": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
    "gender": "Female",
@@ -39527,7 +39535,7 @@
  ],
  "meta": {
   "matchesPlayed": 53,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-9",
   "totalPlayers": 232,
   "ratingHistoryWeeks": [
@@ -39646,7 +39654,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-22T21:02:13.810Z";
+  DATA.meta.asOf = "2026-10-23T16:11:59.193Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

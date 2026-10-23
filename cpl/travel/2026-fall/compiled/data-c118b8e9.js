@@ -6675,8 +6675,8 @@
    "name": "John Darrah",
    "gender": "Male",
    "team": "Jersey Devil",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 5,
@@ -51893,8 +51893,7 @@
     }
    ],
    "subs": [
-    "Jacob Alpert",
-    "John Darrah"
+    "Jacob Alpert"
    ]
   },
   {
@@ -54700,8 +54699,7 @@
     }
    ],
    "subs": [
-    "Jacob Alpert",
-    "John Darrah"
+    "Jacob Alpert"
    ]
   },
   {
@@ -57507,7 +57505,361 @@
    "home": "Flemington",
    "away": "Allstar Pickler",
    "time": "2026-10-25T09:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Alexander King"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Fulford",
+      "Franklin Yiu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Lugtu",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Sean Majury"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Fulford",
+      "Franklin Yiu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Lugtu",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Sean Majury"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Lugtu",
+      "Saad Talat Siddiqui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianni Roman",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Brandon Fulford"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Franklin Yiu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Lugtu",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Jonathan Lugtu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Saad Talat Siddiqui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Fulford",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Jonathan Lugtu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Saad Talat Siddiqui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Fulford",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Fulford",
+      "Saad Talat Siddiqui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Jonathan Lugtu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Fulford",
+      "Saad Talat Siddiqui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Jonathan Lugtu"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -58018,14 +58370,6 @@
    "outsideSub": true
   },
   {
-   "name": "John Darrah",
-   "playerId": "6c1eeebb-15d3-4e98-81e6-e3d1a0ae8a84",
-   "gender": "Male",
-   "team": "Jersey Devil",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Abhishekh Mehra",
    "playerId": "6e92db16-8465-411e-bc3f-935badc74f47",
    "gender": "Male",
@@ -58531,7 +58875,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-21T21:07:15.276Z";
+  DATA.meta.asOf = "2026-10-23T16:13:54.358Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
