@@ -15914,7 +15914,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 629,
+   "leagueRank": 630,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16117,7 +16117,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 634,
+   "leagueRank": 635,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16204,7 +16204,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 636,
+   "leagueRank": 637,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -102785,6 +102785,7 @@
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
   "Alex Bey": "df50b777-55ba-476a-bff9-12f1f19a539b",
   "Chau Reyes": "e7c5198c-f8c6-40b4-bc7e-4662ead21924",
+  "John Sarinick": "ed26c838-1086-4f82-93a0-07e49ca65df9",
   "Rosellen Perlowitz": "f1f4f950-e704-48f2-bd4f-b9c6ccf797bf",
   "Lisa Burgermeister": "f2953892-e184-43f2-a1dd-8fef5cbb622c",
   "Mike Lanza": "f43cc85e-b2cd-4258-95d6-73db263c51f2"
@@ -104063,6 +104064,14 @@
    "outsideSub": true
   },
   {
+   "name": "John Sarinick",
+   "playerId": "ed26c838-1086-4f82-93a0-07e49ca65df9",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Karen Xia",
    "playerId": "f0c60706-496f-44eb-ac66-6587907b0688",
    "gender": "Female",
@@ -104239,7 +104248,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-23T02:40:52.093Z";
+  DATA.meta.asOf = "2026-10-23T10:46:50.299Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

@@ -74957,8 +74957,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Jake Denooyer"
      ],
      "a": [
       "Linda Bozzo",
@@ -74972,8 +74972,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "James Azarowicz"
      ],
      "a": [
       "Jessica Weinberg",
@@ -74987,8 +74987,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Rafael Moreano"
      ],
      "a": [
       "Indira Wojcik",
@@ -75002,8 +75002,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Noach Shapiro"
      ],
      "a": [
       "Amanda Nguyen",
@@ -75013,8 +75013,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Anne Buckley"
      ],
      "a": [
       "Linda Bozzo",
@@ -75024,8 +75024,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Kristin Duva"
      ],
      "a": [
       "Indira Wojcik",
@@ -75039,8 +75039,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Mcnulty",
+      "Alan Weissman"
      ],
      "a": [
       "Marty Tan",
@@ -75054,8 +75054,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Denooyer",
+      "James Azarowicz"
      ],
      "a": [
       "Ed Amato",
@@ -75069,8 +75069,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Matt Mcnulty"
      ],
      "a": [
       "Linda Bozzo",
@@ -75080,8 +75080,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Rafael Moreano"
      ],
      "a": [
       "Indira Wojcik",
@@ -75095,8 +75095,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Noach Shapiro"
      ],
      "a": [
       "Jessica Weinberg",
@@ -75110,8 +75110,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "James Azarowicz"
      ],
      "a": [
       "Amanda Nguyen",
@@ -75125,8 +75125,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Kristin Duva"
      ],
      "a": [
       "Linda Bozzo",
@@ -75140,8 +75140,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Debbie Spurr"
      ],
      "a": [
       "Amanda Nguyen",
@@ -75155,8 +75155,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Jake Denooyer"
      ],
      "a": [
       "Michael Schuller",
@@ -75170,8 +75170,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Weissman",
+      "Noach Shapiro"
      ],
      "a": [
       "Ed Amato",
@@ -75185,8 +75185,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Alan Weissman"
      ],
      "a": [
       "Linda Bozzo",
@@ -75196,8 +75196,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Jake Denooyer"
      ],
      "a": [
       "Jessica Weinberg",
@@ -75211,8 +75211,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Matt Mcnulty"
      ],
      "a": [
       "Indira Wojcik",
@@ -75226,8 +75226,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "James Azarowicz"
      ],
      "a": [
       "Amanda Nguyen",
@@ -75241,8 +75241,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Debbie Spurr"
      ],
      "a": [
       "Linda Bozzo",
@@ -75256,8 +75256,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Anne Buckley"
      ],
      "a": [
       "Amanda Nguyen",
@@ -75271,8 +75271,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Rafael Moreano"
      ],
      "a": [
       "Marty Tan",
@@ -75286,8 +75286,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noach Shapiro",
+      "Matt Mcnulty"
      ],
      "a": [
       "Jeremy Soifer",
@@ -75301,8 +75301,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Alan Weissman"
      ],
      "a": [
       "Linda Bozzo",
@@ -75316,8 +75316,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Jake Denooyer"
      ],
      "a": [
       "Indira Wojcik",
@@ -75331,8 +75331,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Matt Mcnulty"
      ],
      "a": [
       "Jessica Weinberg",
@@ -75346,8 +75346,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Noach Shapiro"
      ],
      "a": [
       "Amanda Nguyen",
@@ -75357,8 +75357,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Kristin Duva"
      ],
      "a": [
       "Linda Bozzo",
@@ -75368,8 +75368,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Charlene Fletcher"
      ],
      "a": [
       "Jessica Weinberg",
@@ -75383,8 +75383,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Denooyer",
+      "James Azarowicz"
      ],
      "a": [
       "Jeremy Soifer",
@@ -75398,8 +75398,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Alan Weissman"
      ],
      "a": [
       "Marty Tan",
@@ -76581,8 +76581,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Stone",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Ginger Evans",
@@ -76592,8 +76592,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynette Pil",
+      "Dean Lim"
      ],
      "a": [
       "Angela Bartelt",
@@ -76603,8 +76603,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rosa Tenan",
+      "John Gardler"
      ],
      "a": [
       "Mina Mount",
@@ -76618,8 +76618,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krishma Patel",
+      "Brian Kelly"
      ],
      "a": [
       "Joan Rudderow",
@@ -76629,8 +76629,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Theresa Dumbrique",
+      "Maria Cecilia Holgado"
      ],
      "a": [
       "Amy Clayman",
@@ -76644,8 +76644,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Krishma Patel",
+      "Donna Stone"
      ],
      "a": [
       "Angela Bartelt",
@@ -76655,8 +76655,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guillermo Wong",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Pete Certo",
@@ -76666,8 +76666,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian Kelly",
+      "John Gardler"
      ],
      "a": [
       "Rick Weiser",
@@ -76677,8 +76677,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Cecilia Holgado",
+      "Dean Lim"
      ],
      "a": [
       "Mina Mount",
@@ -76692,8 +76692,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rosa Tenan",
+      "John Gardler"
      ],
      "a": [
       "Amy Clayman",
@@ -76707,8 +76707,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krishma Patel",
+      "Brian Kelly"
      ],
      "a": [
       "Joan Rudderow",
@@ -76718,8 +76718,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynette Pil",
+      "Guillermo Wong"
      ],
      "a": [
       "Angela Bartelt",
@@ -76729,8 +76729,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynette Pil",
+      "Maria Cecilia Holgado"
      ],
      "a": [
       "Joan Rudderow",
@@ -76740,8 +76740,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Krishma Patel",
+      "Rosa Tenan"
      ],
      "a": [
       "Amy Clayman",
@@ -76751,8 +76751,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guillermo Wong",
+      "Brian Kelly"
      ],
      "a": [
       "Rick Weiser",
@@ -76762,8 +76762,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dean Lim",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Dan Matthews",
@@ -76777,8 +76777,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Krishma Patel",
+      "Guillermo Wong"
      ],
      "a": [
       "Joan Rudderow",
@@ -76788,8 +76788,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Stone",
+      "John Gardler"
      ],
      "a": [
       "Mina Mount",
@@ -76803,8 +76803,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Dumbrique",
+      "Brian Kelly"
      ],
      "a": [
       "Ginger Evans",
@@ -76814,8 +76814,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rosa Tenan",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Angela Bartelt",
@@ -76825,8 +76825,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Stone",
+      "Lynette Pil"
      ],
      "a": [
       "Joan Rudderow",
@@ -76836,8 +76836,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Krishma Patel",
+      "Theresa Dumbrique"
      ],
      "a": [
       "Mina Mount",
@@ -76851,8 +76851,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guillermo Wong",
+      "Dean Lim"
      ],
      "a": [
       "Rick Weiser",
@@ -76862,8 +76862,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Gardler",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Dan Matthews",
@@ -76877,8 +76877,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Dumbrique",
+      "John Gardler"
      ],
      "a": [
       "Joan Rudderow",
@@ -76888,8 +76888,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Donna Stone",
+      "Guillermo Wong"
      ],
      "a": [
       "Ginger Evans",
@@ -76899,8 +76899,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rosa Tenan",
+      "Dean Lim"
      ],
      "a": [
       "Amy Clayman",
@@ -76910,8 +76910,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Cecilia Holgado",
+      "Brian Kelly"
      ],
      "a": [
       "Angela Bartelt",
@@ -76921,8 +76921,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Theresa Dumbrique",
+      "Lynette Pil"
      ],
      "a": [
       "Mina Mount",
@@ -76936,8 +76936,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Cecilia Holgado",
+      "Donna Stone"
      ],
      "a": [
       "Joan Rudderow",
@@ -76947,8 +76947,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guillermo Wong",
+      "John Gardler"
      ],
      "a": [
       "Greg Taylor",
@@ -76958,8 +76958,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dean Lim",
+      "Srinatha Nanjundaiah"
      ],
      "a": [
       "Dan Matthews",
@@ -77794,8 +77794,8 @@
       ""
      ],
      "a": [
-      "Jennifer Taddeo",
-      "John Gardler"
+      "Lynette Pil",
+      "Subhas Desai"
      ]
     },
     {
@@ -77817,7 +77817,7 @@
      ],
      "a": [
       "Marleen Tuquero",
-      "Subhas Desai"
+      "Scott Perrone"
      ]
     },
     {
@@ -77850,7 +77850,7 @@
      ],
      "a": [
       "John Gardler",
-      "Scott Perrone"
+      "Subhas Desai"
      ]
     },
     {
@@ -77861,7 +77861,7 @@
      ],
      "a": [
       "Dean Lim",
-      "Subhas Desai"
+      "Scott Perrone"
      ]
     },
     {
@@ -77882,8 +77882,8 @@
       ""
      ],
      "a": [
-      "Maria Cecilia Holgado",
-      "Dean Lim"
+      "Lynette Pil",
+      "John Gardler"
      ]
     },
     {
@@ -77970,7 +77970,7 @@
       ""
      ],
      "a": [
-      "Jennifer Taddeo",
+      "Lynette Pil",
       "John Gardler"
      ]
     },
@@ -78004,7 +78004,7 @@
      ],
      "a": [
       "Donna Stone",
-      "Krishma Patel"
+      "Lynette Pil"
      ]
     },
     {
@@ -78014,7 +78014,7 @@
       ""
      ],
      "a": [
-      "Marleen Tuquero",
+      "Krishma Patel",
       "Jennifer Taddeo"
      ]
     },
@@ -78058,7 +78058,7 @@
       ""
      ],
      "a": [
-      "Maria Cecilia Holgado",
+      "Marleen Tuquero",
       "John Gardler"
      ]
     },
@@ -78069,8 +78069,8 @@
       ""
      ],
      "a": [
-      "Krishma Patel",
-      "Scott Perrone"
+      "Lynette Pil",
+      "Dean Lim"
      ]
     },
     {
@@ -78080,7 +78080,7 @@
       ""
      ],
      "a": [
-      "Marleen Tuquero",
+      "Maria Cecilia Holgado",
       "Subhas Desai"
      ]
     },
@@ -78113,7 +78113,7 @@
       ""
      ],
      "a": [
-      "John Gardler",
+      "Dean Lim",
       "Guillermo Wong"
      ]
     },
@@ -78124,8 +78124,8 @@
       ""
      ],
      "a": [
-      "Dean Lim",
-      "Subhas Desai"
+      "Subhas Desai",
+      "John Gardler"
      ]
     }
    ]
@@ -80575,7 +80575,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T02:39:22.653Z";
+  DATA.meta.asOf = "2026-10-23T10:45:28.122Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

@@ -57032,8 +57032,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Mark Pleasanton"
      ],
      "a": [
       "Heidi Lipton",
@@ -57043,8 +57043,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gwen Leach",
+      "Aaron Smith"
      ],
      "a": [
       "Karen Kelly",
@@ -57054,8 +57054,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Julian Stamper"
      ],
      "a": [
       "Susan Belanger",
@@ -57065,8 +57065,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Timothy Hopkins"
      ],
      "a": [
       "Katy Taylor",
@@ -57076,8 +57076,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Sandy Hopkins"
      ],
      "a": [
       "Susan Belanger",
@@ -57087,8 +57087,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Gwen Leach"
      ],
      "a": [
       "Katy Taylor",
@@ -57098,8 +57098,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Pleasanton",
+      "Julian Stamper"
      ],
      "a": [
       "Michael Cisar",
@@ -57109,8 +57109,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Smith",
+      "Timothy Hopkins"
      ],
      "a": [
       "Michael Stout",
@@ -57120,8 +57120,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Timothy Hopkins"
      ],
      "a": [
       "Katy Taylor",
@@ -57131,8 +57131,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Aaron Smith"
      ],
      "a": [
       "Karen Kelly",
@@ -57142,8 +57142,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Mark Pleasanton"
      ],
      "a": [
       "Susan Belanger",
@@ -57153,8 +57153,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Julian Stamper"
      ],
      "a": [
       "Heidi Lipton",
@@ -57164,8 +57164,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Sandy Hopkins"
      ],
      "a": [
       "Susan Belanger",
@@ -57175,8 +57175,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gwen Leach",
+      "Enid Lum"
      ],
      "a": [
       "Heidi Lipton",
@@ -57186,8 +57186,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Pleasanton",
+      "Julian Stamper"
      ],
      "a": [
       "Michael Cisar",
@@ -57197,8 +57197,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Smith",
+      "Timothy Hopkins"
      ],
      "a": [
       "Rob Mendez",
@@ -57208,8 +57208,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Aaron Smith"
      ],
      "a": [
       "Heidi Lipton",
@@ -57219,8 +57219,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Mark Pleasanton"
      ],
      "a": [
       "Susan Belanger",
@@ -57230,8 +57230,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gwen Leach",
+      "Julian Stamper"
      ],
      "a": [
       "Katy Taylor",
@@ -57241,8 +57241,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Timothy Hopkins"
      ],
      "a": [
       "Lynne Walrod",
@@ -57252,8 +57252,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Nancy Culley"
      ],
      "a": [
       "Susan Belanger",
@@ -57263,8 +57263,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Gwen Leach"
      ],
      "a": [
       "Heidi Lipton",
@@ -57274,8 +57274,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Pleasanton",
+      "Aaron Smith"
      ],
      "a": [
       "Rob Mendez",
@@ -57285,8 +57285,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Timothy Hopkins",
+      "Julian Stamper"
      ],
      "a": [
       "Michael Stout",
@@ -57296,8 +57296,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Mark Pleasanton"
      ],
      "a": [
       "Karen Kelly",
@@ -57307,8 +57307,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Timothy Hopkins"
      ],
      "a": [
       "Heidi Lipton",
@@ -57318,8 +57318,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Aaron Smith"
      ],
      "a": [
       "Lynne Walrod",
@@ -57329,8 +57329,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gwen Leach",
+      "Julian Stamper"
      ],
      "a": [
       "Katy Taylor",
@@ -57340,8 +57340,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Enid Lum"
      ],
      "a": [
       "Susan Belanger",
@@ -57351,8 +57351,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Sandy Hopkins"
      ],
      "a": [
       "Katy Taylor",
@@ -57362,8 +57362,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Pleasanton",
+      "Aaron Smith"
      ],
      "a": [
       "Rob Mendez",
@@ -57373,8 +57373,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Timothy Hopkins",
+      "Julian Stamper"
      ],
      "a": [
       "Kenneth Pickett",
@@ -61893,7 +61893,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T02:41:50.339Z";
+  DATA.meta.asOf = "2026-10-23T10:47:36.695Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

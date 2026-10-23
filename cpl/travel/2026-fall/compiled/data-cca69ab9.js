@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 226,
+   "leagueRank": 229,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 218,
+   "leagueRank": 219,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 233,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 232,
+   "leagueRank": 235,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5996,7 +5996,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 224,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6025,7 +6025,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6054,7 +6054,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -24813,11 +24813,11 @@
       "Daniel Schwab"
      ],
      "a": [
-      "Shang Li",
+      "Al Mancini",
       "Patrick Ryan"
      ],
      "aSub": [
-      1,
+      0,
       1
      ]
     },
@@ -24899,7 +24899,7 @@
       "Michael Taylor"
      ],
      "a": [
-      "Ali Husain",
+      "Tarkan Akas",
       "Dipen Bhatt"
      ],
      "hSub": [
@@ -24941,7 +24941,7 @@
      ],
      "a": [
       "Shang Li",
-      "Tarkan Akas"
+      "Ali Husain"
      ],
      "hSub": [
       0,
@@ -24978,7 +24978,7 @@
       "Vaughn Mcclelland"
      ],
      "a": [
-      "",
+      "Dipen Bhatt",
       "Zach Hollmann"
      ]
     },
@@ -25009,7 +25009,7 @@
      ],
      "a": [
       "Mickey Cook",
-      ""
+      "Al Mancini"
      ]
     },
     {
@@ -25020,7 +25020,7 @@
      ],
      "a": [
       "Ali Husain",
-      ""
+      "Al Mancini"
      ],
      "hSub": [
       0,
@@ -25065,11 +25065,7 @@
      ],
      "a": [
       "Mickey Cook",
-      "Patrick Ryan"
-     ],
-     "aSub": [
-      0,
-      1
+      "Dipen Bhatt"
      ]
     },
     {
@@ -25120,12 +25116,16 @@
       "Sheel Motiwala"
      ],
      "a": [
-      "",
-      ""
+      "Al Mancini",
+      "Shang Li"
      ],
      "hSub": [
       1,
       0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -25162,7 +25162,11 @@
      ],
      "a": [
       "Mickey Cook",
-      ""
+      "Shang Li"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -25172,8 +25176,12 @@
       "Stephen Conger"
      ],
      "a": [
-      "",
-      ""
+      "Dipen Bhatt",
+      "Patrick Ryan"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -25199,7 +25207,7 @@
      ],
      "a": [
       "Al Mancini",
-      ""
+      "Zach Hollmann"
      ],
      "hSub": [
       1,
@@ -25214,7 +25222,7 @@
      ],
      "a": [
       "Ali Husain",
-      ""
+      "Dipen Bhatt"
      ]
     },
     {
@@ -37875,7 +37883,10 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
+  "Samuel Darla": "2e946057-0cf8-4375-b401-9c4e475a894f",
+  "Nathaniel Flores": "31194d9a-69bf-4949-92b6-d5376144b8c5",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
+  "Anthony Leung": "48457f37-29a2-47e7-8b2e-62316ad44feb",
   "Dan Lougheed": "538f12a5-bf62-46a7-9ada-583a86b84ec0",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
@@ -37953,6 +37964,22 @@
    "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb",
    "gender": "Male",
    "team": "Jersey Devil",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Samuel Darla",
+   "playerId": "2e946057-0cf8-4375-b401-9c4e475a894f",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Nathaniel Flores",
+   "playerId": "31194d9a-69bf-4949-92b6-d5376144b8c5",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -38035,6 +38062,14 @@
    "team": "Jersey Devil",
    "isCaptain": false,
    "outsideSub": false
+  },
+  {
+   "name": "Anthony Leung",
+   "playerId": "48457f37-29a2-47e7-8b2e-62316ad44feb",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Watchung",
+   "isCaptain": false,
+   "outsideSub": true
   },
   {
    "name": "Ethan Henigan",
@@ -38538,7 +38573,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T02:42:10.593Z";
+  DATA.meta.asOf = "2026-10-23T10:47:52.630Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
