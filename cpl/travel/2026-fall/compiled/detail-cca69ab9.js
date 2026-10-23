@@ -34935,8 +34935,8 @@
     "teamRes": "L",
     "teamGW": 11,
     "teamGL": 21,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -34962,8 +34962,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Premiere"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

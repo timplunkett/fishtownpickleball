@@ -9631,6 +9631,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Joseph Lynskey",
+   "playerId": "0e8c08b7-0e58-434b-8830-f37779f821dc",
+   "team": "Premiere",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Joseph Mckenna",
    "playerId": "551c6f9d-b1e1-4b5b-a8cb-bea20a14d9ff",
    "team": "APC Garden State",
@@ -13016,6 +13023,13 @@ window.DUPR_AUDIT = {
    "playerId": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
    "team": "Pickleball HQ",
    "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Matthew Rafaniello",
+   "playerId": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
+   "team": "Pickleball HQ",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
@@ -16508,6 +16522,13 @@ window.DUPR_AUDIT = {
    "name": "Sara Hylan",
    "playerId": "153fa815-ce9c-4c36-8fce-c525887f05b1",
    "team": "Life Time Red Bank",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Sara Mizrahi",
+   "playerId": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
+   "team": "Pickleball Kingdom Tinton Falls",
    "slug": "ad44e3bd",
    "gender": "Female"
   },

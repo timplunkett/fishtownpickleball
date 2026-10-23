@@ -15273,8 +15273,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Pickleball HQ"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -15300,8 +15300,8 @@
     "teamRes": "W",
     "teamGW": 19,
     "teamGL": 13,
-    "sub": 1,
-    "subFor": "Pickleball HQ"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

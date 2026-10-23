@@ -4181,8 +4181,8 @@
    "name": "Joseph Lynskey",
    "gender": "Male",
    "team": "Premiere",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 6,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 239,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 230,
+   "leagueRank": 231,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 232,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,7 +5967,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6112,13 +6112,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7"
+  },
+  {
+   "name": "Jim Pagano",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 229,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f1012c67-b6ba-4270-8d7a-53a9aa34b7df"
   },
   {
    "name": "Doug Horton",
@@ -17384,7 +17413,6 @@
     }
    ],
    "subs": [
-    "Joseph Lynskey",
     "Fabricio Gaona"
    ]
   },
@@ -23887,7 +23915,6 @@
     }
    ],
    "subs": [
-    "Joseph Lynskey",
     "Geoff Watson",
     "Andrew Nguyen",
     "Omar Husain",
@@ -36947,8 +36974,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Neil Ottrando"
      ],
      "a": [
       "Robbie Oddy",
@@ -36958,8 +36985,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Chris Frangipane"
      ],
      "a": [
       "Austin Williams",
@@ -36969,8 +36996,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Joseph Lynskey"
      ],
      "a": [
       "Hany Ibrahim",
@@ -36984,8 +37011,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Nicholas Como"
      ],
      "a": [
       "Matthew Marletta",
@@ -36999,8 +37026,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Gary White"
      ],
      "a": [
       "Robbie Oddy",
@@ -37010,8 +37037,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Joseph Lynskey"
      ],
      "a": [
       "Hany Ibrahim",
@@ -37025,8 +37052,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Chris Frangipane"
      ],
      "a": [
       "Austin Williams",
@@ -37036,8 +37063,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Como",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Matthew Marletta",
@@ -37051,8 +37078,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Nicholas Como"
      ],
      "a": [
       "Robbie Oddy",
@@ -37062,8 +37089,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Alexandre Inamasu",
@@ -37077,8 +37104,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Gary White"
      ],
      "a": [
       "Aadhar Rohila",
@@ -37092,8 +37119,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Joseph Lynskey"
      ],
      "a": [
       "Tim Dowd",
@@ -37107,8 +37134,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Nicholas Como"
      ],
      "a": [
       "Robbie Oddy",
@@ -37118,8 +37145,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Rapaglia"
      ],
      "a": [
       "Alexandre Inamasu",
@@ -37133,8 +37160,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Aadhar Rohila",
@@ -37148,8 +37175,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Joseph Lynskey"
      ],
      "a": [
       "Matthew Marletta",
@@ -37163,8 +37190,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Como",
+      "Neil Ottrando"
      ],
      "a": [
       "Robbie Oddy",
@@ -37174,8 +37201,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Michael Rapaglia"
      ],
      "a": [
       "Tim Dowd",
@@ -37185,8 +37212,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Gary White"
      ],
      "a": [
       "Austin Williams",
@@ -37200,8 +37227,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Joseph Lynskey"
      ],
      "a": [
       "Pranav Tailor",
@@ -37215,8 +37242,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Como",
+      "Neil Ottrando"
      ],
      "a": [
       "Robbie Oddy",
@@ -37226,8 +37253,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Gary White"
      ],
      "a": [
       "Austin Williams",
@@ -37241,8 +37268,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Lynskey",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Matthew Marletta",
@@ -37256,8 +37283,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Michael Rapaglia"
      ],
      "a": [
       "Tim Dowd",
@@ -37271,8 +37298,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Gary White"
      ],
      "a": [
       "Robbie Oddy",
@@ -37282,8 +37309,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Hany Ibrahim",
@@ -37297,8 +37324,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Neil Ottrando"
      ],
      "a": [
       "Alexandre Inamasu",
@@ -37312,8 +37339,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Como",
+      "Joseph Lynskey"
      ],
      "a": [
       "Tim Dowd",
@@ -37327,8 +37354,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Como",
+      "Joseph Lynskey"
      ],
      "a": [
       "Matthew Marletta",
@@ -37342,8 +37369,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Neil Ottrando"
      ],
      "a": [
       "Austin Williams",
@@ -37353,8 +37380,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Gary White"
      ],
      "a": [
       "Tim Dowd",
@@ -37368,8 +37395,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Michael Rapaglia"
      ],
      "a": [
       "Alexandre Inamasu",
@@ -37763,8 +37790,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Harrison Mui"
      ],
      "a": [
       "Kevin Sun",
@@ -37778,19 +37805,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Eric Lin"
      ],
      "a": [
       "Anthony Bonaventura",
       "Eric Jiang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caesar Gene",
+      "Marcin Glowacki"
      ],
      "a": [
       "Daniel Gallegos",
@@ -37800,12 +37831,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Jim Pagano"
      ],
      "a": [
       "Ken Velarde",
       "Anthony Leung"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -37815,8 +37850,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Tom Laiso"
      ],
      "a": [
       "Anthony Leung",
@@ -37830,8 +37865,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caesar Gene",
+      "Harrison Mui"
      ],
      "a": [
       "Gautham Bondugula",
@@ -37841,24 +37876,32 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Lin",
+      "Adam Weinstock"
      ],
      "a": [
       "Anthony Bonaventura",
       "Eric Jiang"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marcin Glowacki",
+      "Jim Pagano"
      ],
      "a": [
       "Kevin Sun",
       "Nathaniel Flores"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -37867,13 +37910,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Eric Lin"
      ],
      "a": [
       "Eric Jiang",
       "Anthony Leung"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -37882,8 +37929,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Adam Weinstock"
      ],
      "a": [
       "Kevin Sun",
@@ -37893,13 +37940,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jim Pagano",
+      "Caesar Gene"
      ],
      "a": [
       "Ken Velarde",
       "Nathaniel Flores"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       0,
       1
@@ -37908,8 +37959,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harrison Mui",
+      "Marcin Glowacki"
      ],
      "a": [
       "Anthony Bonaventura",
@@ -37919,8 +37970,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Adam Weinstock"
      ],
      "a": [
       "Kevin Sun",
@@ -37930,12 +37981,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Lin",
+      "Harrison Mui"
      ],
      "a": [
       "Eric Jiang",
       "Anthony Leung"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -37945,8 +38000,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Marcin Glowacki"
      ],
      "a": [
       "Anthony Bonaventura",
@@ -37956,13 +38011,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caesar Gene",
+      "Jim Pagano"
      ],
      "a": [
       "Nathaniel Flores",
       "Ken Velarde"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       1,
       0
@@ -37971,8 +38030,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Marcin Glowacki"
      ],
      "a": [
       "Daniel Gallegos",
@@ -37982,8 +38041,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Harrison Mui"
      ],
      "a": [
       "Gautham Bondugula",
@@ -37997,23 +38056,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caesar Gene",
+      "Eric Lin"
      ],
      "a": [
       "Kevin Sun",
       "Ken Velarde"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Jim Pagano"
      ],
      "a": [
       "Anthony Bonaventura",
       "Nathaniel Flores"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -38023,8 +38090,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marcin Glowacki",
+      "Adam Weinstock"
      ],
      "a": [
       "Eric Jiang",
@@ -38034,19 +38101,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Lin",
+      "Jim Pagano"
      ],
      "a": [
       "Kevin Sun",
       "Ken Velarde"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Yoon Choi"
      ],
      "a": [
       "Anthony Leung",
@@ -38060,8 +38131,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caesar Gene",
+      "Harrison Mui"
      ],
      "a": [
       "Anthony Bonaventura",
@@ -38075,8 +38146,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yoon Choi",
+      "Harrison Mui"
      ],
      "a": [
       "Eric Jiang",
@@ -38086,13 +38157,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Lin",
+      "Jim Pagano"
      ],
      "a": [
       "Anthony Leung",
       "Kevin Sun"
      ],
+     "hSub": [
+      1,
+      1
+     ],
      "aSub": [
       1,
       0
@@ -38101,8 +38176,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Caesar Gene"
      ],
      "a": [
       "Anthony Bonaventura",
@@ -38112,8 +38187,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Marcin Glowacki"
      ],
      "a": [
       "Nathaniel Flores",
@@ -38127,8 +38202,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Weinstock",
+      "Harrison Mui"
      ],
      "a": [
       "Eric Jiang",
@@ -38138,19 +38213,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jim Pagano",
+      "Yoon Choi"
      ],
      "a": [
       "Anthony Bonaventura",
       "Ken Velarde"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Marcin Glowacki"
      ],
      "a": [
       "Kevin Sun",
@@ -38164,12 +38243,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caesar Gene",
+      "Eric Lin"
      ],
      "a": [
       "Daniel Gallegos",
       "Nathaniel Flores"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -38363,11 +38446,11 @@
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Dan Lougheed": "538f12a5-bf62-46a7-9ada-583a86b84ec0",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
+  "Chase Pac": "76874590-6501-40f8-ab24-7df0fb631c71",
   "Jerry Li": "7827b964-4715-4aec-aec4-e75085199fc1",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
-  "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322",
-  "Jim Pagano": "f1012c67-b6ba-4270-8d7a-53a9aa34b7df"
+  "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
  },
  "availableSubs": [
   {
@@ -38415,14 +38498,6 @@
    "playerId": "0c14b44f-7a46-464e-a577-f8f9d6d24e6d",
    "gender": "Male",
    "team": "Jersey Devil",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Joseph Lynskey",
-   "playerId": "0e8c08b7-0e58-434b-8830-f37779f821dc",
-   "gender": "Male",
-   "team": "Premiere",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -38647,6 +38722,14 @@
    "playerId": "74202229-7c29-44eb-9574-de687495a1a6",
    "gender": "Male",
    "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Chase Pac",
+   "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
+   "gender": "Male",
+   "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -38935,7 +39018,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 219,
+  "totalPlayers": 220,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -39056,7 +39139,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T16:13:09.378Z";
+  DATA.meta.asOf = "2026-10-23T20:53:29.904Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

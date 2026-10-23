@@ -1890,8 +1890,8 @@
    "name": "Matthew Rafaniello",
    "gender": "Male",
    "team": "Pickleball HQ",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 9,
@@ -8519,7 +8519,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 312,
+   "leagueRank": 314,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8548,7 +8548,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 323,
+   "leagueRank": 325,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8577,7 +8577,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 314,
+   "leagueRank": 316,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8606,7 +8606,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 306,
+   "leagueRank": 307,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8635,7 +8635,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 305,
+   "leagueRank": 306,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8664,7 +8664,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 313,
+   "leagueRank": 315,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8693,7 +8693,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 315,
+   "leagueRank": 317,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8722,7 +8722,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 318,
+   "leagueRank": 320,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -40275,8 +40275,7 @@
    ],
    "subs": [
     "Andy Suphaphol",
-    "Bren Calpin",
-    "Matthew Rafaniello"
+    "Bren Calpin"
    ]
   },
   {
@@ -55629,7 +55628,6 @@
     }
    ],
    "subs": [
-    "Matthew Rafaniello",
     "Lionell Matthews",
     "Shawn Mayer"
    ]
@@ -57510,8 +57508,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Josh Fink"
      ],
      "a": [
       "Sean Majury",
@@ -57521,8 +57519,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "John Pineda"
      ],
      "a": [
       "Brandon Fulford",
@@ -57532,8 +57530,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Fallone",
+      "David Tabacco"
      ],
      "a": [
       "Jonathan Lugtu",
@@ -57543,8 +57541,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "Franklin Lupianez"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -57554,8 +57552,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "John Fallone"
      ],
      "a": [
       "Alexander King",
@@ -57565,8 +57563,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Josh Fink"
      ],
      "a": [
       "Brandon Fulford",
@@ -57576,8 +57574,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Hadler",
+      "David Shapiro"
      ],
      "a": [
       "Jonathan Lugtu",
@@ -57587,8 +57585,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Josh Rito"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -57598,8 +57596,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Craig Butler"
      ],
      "a": [
       "Alexander King",
@@ -57609,8 +57607,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Fink",
+      "Tom Hadler"
      ],
      "a": [
       "Franklin Yiu",
@@ -57620,8 +57618,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Franklin Lupianez"
      ],
      "a": [
       "Jonathan Lugtu",
@@ -57631,8 +57629,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Rito",
+      "John Pineda"
      ],
      "a": [
       "Gianni Roman",
@@ -57642,8 +57640,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "John Fallone"
      ],
      "a": [
       "Alexander King",
@@ -57653,8 +57651,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Tom Hadler"
      ],
      "a": [
       "Sean Majury",
@@ -57664,8 +57662,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Pineda",
+      "David Shapiro"
      ],
      "a": [
       "Jonathan Lugtu",
@@ -57675,8 +57673,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Lupianez",
+      "Josh Rito"
      ],
      "a": [
       "Saad Talat Siddiqui",
@@ -57686,8 +57684,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "John Pineda"
      ],
      "a": [
       "Alexander King",
@@ -57697,8 +57695,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "John Fallone"
      ],
      "a": [
       "Sean Majury",
@@ -57708,8 +57706,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "Josh Rito"
      ],
      "a": [
       "Brandon Fulford",
@@ -57719,8 +57717,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Lupianez",
+      "Josh Fink"
      ],
      "a": [
       "Franklin Yiu",
@@ -57730,8 +57728,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Fink",
+      "David Shapiro"
      ],
      "a": [
       "Alexander King",
@@ -57741,8 +57739,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Hadler",
+      "Josh Rito"
      ],
      "a": [
       "Sean Majury",
@@ -57752,8 +57750,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Craig Butler"
      ],
      "a": [
       "Brandon Fulford",
@@ -57763,8 +57761,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Pineda",
+      "Franklin Lupianez"
      ],
      "a": [
       "Franklin Yiu",
@@ -57774,8 +57772,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Butler",
+      "Josh Fink"
      ],
      "a": [
       "Alexander King",
@@ -57785,8 +57783,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "John Pineda"
      ],
      "a": [
       "Sean Majury",
@@ -57796,8 +57794,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "Tom Hadler"
      ],
      "a": [
       "Brandon Fulford",
@@ -57807,8 +57805,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Tabacco",
+      "John Fallone"
      ],
      "a": [
       "Franklin Yiu",
@@ -57818,8 +57816,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Shapiro",
+      "Josh Fink"
      ],
      "a": [
       "Alexander King",
@@ -57829,8 +57827,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Fallone",
+      "Josh Rito"
      ],
      "a": [
       "Sean Majury",
@@ -57840,8 +57838,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Berlinger",
+      "David Tabacco"
      ],
      "a": [
       "Brandon Fulford",
@@ -57851,8 +57849,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Franklin Lupianez",
+      "Tom Hadler"
      ],
      "a": [
       "Franklin Yiu",
@@ -58101,8 +58099,10 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
+  "Cesar Alvarez": "3b7c9eab-a6e2-4e8d-b0f6-bb9a6b6dc0eb",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
+  "Carlos Echenique": "74530d59-ff19-42a4-87d4-0e3b9e516c66",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Jason Huang": "85c7fc54-57f2-4b1d-9601-a2265de3b295",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
@@ -58118,14 +58118,6 @@
    "playerId": "00810f93-8951-43da-8134-bf956b7afb73",
    "gender": "Male",
    "team": "PickleRage Union County",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Matthew Rafaniello",
-   "playerId": "021fbd88-6b98-47eb-aa92-96ed959d8a4b",
-   "gender": "Male",
-   "team": "Pickleball HQ",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58298,6 +58290,14 @@
    "outsideSub": true
   },
   {
+   "name": "Cesar Alvarez",
+   "playerId": "3b7c9eab-a6e2-4e8d-b0f6-bb9a6b6dc0eb",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Andrew Lin",
    "playerId": "3bdfa83e-2025-4441-b347-fade413a4179",
    "gender": "Male",
@@ -58374,6 +58374,14 @@
    "playerId": "6e92db16-8465-411e-bc3f-935badc74f47",
    "gender": "Male",
    "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Carlos Echenique",
+   "playerId": "74530d59-ff19-42a4-87d4-0e3b9e516c66",
+   "gender": "Male",
+   "team": "PickleRage Union County",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -58875,7 +58883,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T16:13:54.358Z";
+  DATA.meta.asOf = "2026-10-23T20:54:11.813Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

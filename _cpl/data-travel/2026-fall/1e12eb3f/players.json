@@ -1263,7 +1263,7 @@
       "mixedLosses": 13,
       "genderWins": 5,
       "genderLosses": 7,
-      "ranking": 359
+      "ranking": 358
     },
     {
       "playerId": "17d83f5c-38ad-4048-afbb-7302f3aff397",
@@ -2988,7 +2988,7 @@
       "mixedLosses": 9,
       "genderWins": 11,
       "genderLosses": 7,
-      "ranking": 101
+      "ranking": 102
     },
     {
       "playerId": "37721720-7c72-44d7-bc7c-c73f62e2fb4b",
@@ -6852,7 +6852,7 @@
       "mixedLosses": 5,
       "genderWins": 12,
       "genderLosses": 8,
-      "ranking": 102
+      "ranking": 101
     },
     {
       "playerId": "809fbee0-ae20-4726-9468-9e0e23f6696a",
@@ -8061,17 +8061,17 @@
       "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
       "teamName": "Players Courtyard",
       "wins": 6,
-      "losses": 30,
-      "gamesPlayed": 36,
-      "pointsWon": 550,
-      "totalPointsAgainst": 736,
+      "losses": 29,
+      "gamesPlayed": 35,
+      "pointsWon": 534,
+      "totalPointsAgainst": 715,
       "clutchWins": 3,
       "clutchLosses": 5,
       "mixedWins": 3,
       "mixedLosses": 10,
       "genderWins": 3,
-      "genderLosses": 20,
-      "ranking": 406
+      "genderLosses": 19,
+      "ranking": 405
     },
     {
       "playerId": "95a994f0-d4e7-4303-b20d-d432a392247b",
@@ -9694,17 +9694,17 @@
       "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
       "teamName": "Players Courtyard",
       "wins": 10,
-      "losses": 25,
-      "gamesPlayed": 35,
-      "pointsWon": 554,
-      "totalPointsAgainst": 681,
+      "losses": 26,
+      "gamesPlayed": 36,
+      "pointsWon": 570,
+      "totalPointsAgainst": 702,
       "clutchWins": 3,
       "clutchLosses": 4,
       "mixedWins": 8,
       "mixedLosses": 13,
       "genderWins": 2,
-      "genderLosses": 12,
-      "ranking": 358
+      "genderLosses": 13,
+      "ranking": 359
     },
     {
       "playerId": "b4abc444-82dd-446c-b55e-ad3ca1610ebd",
@@ -9773,7 +9773,7 @@
       "mixedLosses": 11,
       "genderWins": 5,
       "genderLosses": 17,
-      "ranking": 405
+      "ranking": 406
     },
     {
       "playerId": "b613137c-a590-4ca1-9835-aff71d263018",
