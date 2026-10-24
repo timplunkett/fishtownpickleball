@@ -95159,8 +95159,8 @@
     "teamRes": "L",
     "teamGW": 7,
     "teamGL": 25,
-    "sub": 1,
-    "subFor": "PickleRage Union County Pandas"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -95186,8 +95186,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "PickleRage Union County Pandas"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

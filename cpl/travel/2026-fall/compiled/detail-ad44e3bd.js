@@ -2131,8 +2131,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -2158,8 +2158,8 @@
     "teamRes": "W",
     "teamGW": 30,
     "teamGL": 2,
-    "sub": 1,
-    "subFor": "Montville"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

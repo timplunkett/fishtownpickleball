@@ -16282,8 +16282,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -16309,8 +16309,8 @@
     "teamRes": "W",
     "teamGW": 26,
     "teamGL": 6,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -40706,8 +40706,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Home Court"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -40733,8 +40733,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Home Court"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

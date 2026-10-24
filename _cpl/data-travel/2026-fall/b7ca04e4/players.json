@@ -711,7 +711,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 643
+      "ranking": 644
     },
     {
       "playerId": "0b70d578-a00e-4d79-bbd3-a07ec89ef8b6",
@@ -3448,7 +3448,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 642
+      "ranking": 643
     },
     {
       "playerId": "3f06f7a5-cf95-4a74-bdc0-38a080fd0a6c",
@@ -3839,7 +3839,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 640
+      "ranking": 641
     },
     {
       "playerId": "4364dfec-6df2-40ac-8391-66283100d98f",
@@ -3862,7 +3862,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 639
+      "ranking": 640
     },
     {
       "playerId": "438ab792-3729-4679-96fe-21d19c800067",
@@ -10187,7 +10187,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 638
+      "ranking": 639
     },
     {
       "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
@@ -10233,7 +10233,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 644
+      "ranking": 645
     },
     {
       "playerId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e",
@@ -10809,6 +10809,29 @@
       "genderWins": 2,
       "genderLosses": 1,
       "ranking": 488
+    },
+    {
+      "playerId": "bd958367-8cce-4f24-ba5a-208bac9b42b0",
+      "firstName": "Neale",
+      "lastName": "Smith",
+      "gender": "Male",
+      "dupr": "KO67DO",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "fc5381d3-0001-4cf0-a058-186d3b8bc9f3",
+      "teamName": "Jersey Devil Navy",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 638
     },
     {
       "playerId": "bda20213-ea4b-4f64-a0dc-f7e3eef544bf",
@@ -12464,7 +12487,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 641
+      "ranking": 642
     },
     {
       "playerId": "d67489d0-d69c-425e-86a7-0f7ade15ed25",

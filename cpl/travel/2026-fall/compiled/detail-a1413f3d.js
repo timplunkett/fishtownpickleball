@@ -10765,7 +10765,7 @@
    },
    {
     "pid": "76874590-6501-40f8-ab24-7df0fb631c71",
-    "name": "Chase Pac",
+    "name": "Chase Thomas",
     "n": 4,
     "synergy": -0.7
    }
@@ -30776,7 +30776,7 @@
    },
    {
     "pid": "76874590-6501-40f8-ab24-7df0fb631c71",
-    "name": "Chase Pac",
+    "name": "Chase Thomas",
     "n": 6,
     "synergy": 0.7
    },

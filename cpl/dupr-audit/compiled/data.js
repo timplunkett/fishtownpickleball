@@ -3219,7 +3219,7 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Chase Pac",
+   "name": "Chase Thomas",
    "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
    "team": "Ballers Philly",
    "slug": "a1413f3d",
@@ -3545,6 +3545,13 @@ window.DUPR_AUDIT = {
    "playerId": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
    "team": "Flemington Green",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Christine Ferraez",
+   "playerId": "ffe0a04b-eb97-4dda-8bc0-0ebe0fd1089e",
+   "team": "Flemington",
+   "slug": "6619816f",
    "gender": "Female"
   },
   {
@@ -4000,6 +4007,13 @@ window.DUPR_AUDIT = {
    "playerId": "04e63587-956f-4c32-8ee3-4f255aad446c",
    "team": "Dill Dinkers Hatboro",
    "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Courtney Wu",
+   "playerId": "e2b67207-a728-4faa-a830-232df72c9abe",
+   "team": "PickleRage Union County Pandas",
+   "slug": "e27386b3",
    "gender": "Female"
   },
   {
@@ -6884,6 +6898,13 @@ window.DUPR_AUDIT = {
    "playerId": "b4694087-759d-4570-9394-3e7c99f19099",
    "team": "Flemington",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Hany Ibrahim",
+   "playerId": "5b439439-36f5-421f-afaa-5d8b1a547954",
+   "team": "Home Court",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {
@@ -10545,6 +10566,13 @@ window.DUPR_AUDIT = {
    "playerId": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
    "team": "Pickleball Palace",
    "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
+   "name": "Kelly Lopinto",
+   "playerId": "8a1482a3-791c-4ec9-9fae-f9f4f9820296",
+   "team": "Montville",
+   "slug": "ad44e3bd",
    "gender": "Female"
   },
   {

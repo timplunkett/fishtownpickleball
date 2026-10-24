@@ -6962,7 +6962,7 @@
    "playerId": "d6b1f30d-fc49-4927-9868-73955559d98a"
   },
   {
-   "name": "Chase Pac",
+   "name": "Chase Thomas",
    "gender": "Male",
    "team": "Ballers Philly",
    "matches": 4,
@@ -12443,6 +12443,64 @@
    "playerId": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf"
   },
   {
+   "name": "Kyle Wilson",
+   "gender": "Male",
+   "team": "Home Court",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 485,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b4df3298-b7ff-41ed-8453-9aa5e64a26de"
+  },
+  {
+   "name": "Lauren Gnapp",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 454,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "be531df0-e305-4ae2-b203-becfa490f719"
+  },
+  {
    "name": "Steven Hummel",
    "gender": "Male",
    "team": "Pickle Place",
@@ -16922,7 +16980,7 @@
    "bId": "a7de14f0-a8da-402c-9340-c57389b6736a"
   },
   {
-   "a": "Chase Pac",
+   "a": "Chase Thomas",
    "b": "Matthew Mintz",
    "team": "Ballers Philly",
    "n": 6,
@@ -22551,7 +22609,7 @@
    "bId": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3"
   },
   {
-   "a": "Chase Pac",
+   "a": "Chase Thomas",
    "b": "Sophy Siv",
    "team": "Ballers Philly",
    "n": 4,
@@ -52363,7 +52421,7 @@
      "as": 21,
      "h": [
       "Tanya Patterson",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Allison Cavicchio",
@@ -52447,7 +52505,7 @@
      "as": 21,
      "h": [
       "Matthew Mintz",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Nachiket Vaidya",
@@ -52489,7 +52547,7 @@
      "as": 14,
      "h": [
       "Pauline Phan",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Pam Boyd",
@@ -52615,7 +52673,7 @@
      "as": 18,
      "h": [
       "Jessica Hyman",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Justine Inton",
@@ -52671,7 +52729,7 @@
      "as": 11,
      "h": [
       "Matthew Mintz",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Daniel Ehala",
@@ -52713,7 +52771,7 @@
      "as": 21,
      "h": [
       "Sophy Siv",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Pam Boyd",
@@ -59835,7 +59893,7 @@
      "as": 22,
      "h": [
       "Alexandria Mlkvy",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Taylor Lambe",
@@ -59891,7 +59949,7 @@
      "as": 21,
      "h": [
       "Se Jun Kim",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Gabriel Dos Anjos",
@@ -59947,7 +60005,7 @@
      "as": 21,
      "h": [
       "Jessica Hyman",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Jiyun Yuh",
@@ -59989,7 +60047,7 @@
      "as": 9,
      "h": [
       "Matthew Mintz",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Uzoma Nwankwo",
@@ -60031,7 +60089,7 @@
      "as": 17,
      "h": [
       "Sophy Siv",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Laura Sweet",
@@ -60101,7 +60159,7 @@
      "as": 14,
      "h": [
       "Yong Kim",
-      "Chase Pac"
+      "Chase Thomas"
      ],
      "a": [
       "Gabriel Dos Anjos",
@@ -63545,7 +63603,7 @@
      ],
      "a": [
       "Alin Piranian",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -63601,7 +63659,7 @@
      ],
      "a": [
       "Matthew Mintz",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -63657,7 +63715,7 @@
      ],
      "a": [
       "Sophy Siv",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -63727,7 +63785,7 @@
      ],
      "a": [
       "Matthew Mintz",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -63741,7 +63799,7 @@
      ],
      "a": [
       "Lindsey Allumbaugh",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -63839,7 +63897,7 @@
      ],
      "a": [
       "Jj Pospiech",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -63895,7 +63953,7 @@
      ],
      "a": [
       "Sophy Siv",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -69207,7 +69265,7 @@
       "Jeff Zamorski"
      ],
      "a": [
-      "Chase Pac",
+      "Chase Thomas",
       "Samuel Lee"
      ]
     },
@@ -69250,7 +69308,7 @@
      ],
      "a": [
       "Alin Piranian",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -69320,7 +69378,7 @@
      ],
      "a": [
       "Arjun Kumble",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -69418,7 +69476,7 @@
      ],
      "a": [
       "Matthew Mintz",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -69488,7 +69546,7 @@
      ],
      "a": [
       "Kelly Feng",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     },
     {
@@ -69544,7 +69602,7 @@
      ],
      "a": [
       "Raaj Singh",
-      "Chase Pac"
+      "Chase Thomas"
      ]
     }
    ],
@@ -71964,8 +72022,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Kevin Sheehan"
      ],
      "a": [
       "Layla Darian",
@@ -71975,19 +72033,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristy Detore",
+      "Kyle Wilson"
      ],
      "a": [
       "Kelly Arvidson",
       "Jamison Rowles"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maritoni Agatep",
+      "Marc Kunesch"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -71997,8 +72059,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lian Odonnell",
+      "Pat Wilson"
      ],
      "a": [
       "Noelle Villa",
@@ -72008,8 +72070,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristy Detore",
+      "Maritoni Agatep"
      ],
      "a": [
       "Layla Darian",
@@ -72019,8 +72081,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Lian Odonnell"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -72030,8 +72092,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Pat Wilson"
      ],
      "a": [
       "Tim Dowd",
@@ -72041,19 +72103,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Kyle Wilson"
      ],
      "a": [
       "Andy Ro",
       "Jamison Rowles"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristy Detore",
+      "Marc Kunesch"
      ],
      "a": [
       "Cally Kerrigan",
@@ -72063,8 +72129,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Jacob Yoo"
      ],
      "a": [
       "Layla Darian",
@@ -72074,19 +72140,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lian Odonnell",
+      "Kyle Wilson"
      ],
      "a": [
       "Noelle Villa",
       "Jamison Rowles"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maritoni Agatep",
+      "Kevin Sheehan"
      ],
      "a": [
       "Kelly Arvidson",
@@ -72096,8 +72166,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maritoni Agatep",
+      "Lian Odonnell"
      ],
      "a": [
       "Kelly Arvidson",
@@ -72107,8 +72177,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Kristy Detore"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -72118,8 +72188,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Pat Wilson"
      ],
      "a": [
       "Tim Dowd",
@@ -72129,30 +72199,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Kyle Wilson"
      ],
      "a": [
       "Andy Ro",
       "Jamison Rowles"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lian Odonnell",
+      "Kyle Wilson"
      ],
      "a": [
       "Layla Darian",
       "Andy Ro"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristy Detore",
+      "Pat Wilson"
      ],
      "a": [
       "Kelly Arvidson",
@@ -72162,8 +72240,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Kevin Sheehan"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -72173,8 +72251,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maritoni Agatep",
+      "Marc Kunesch"
      ],
      "a": [
       "Noelle Villa",
@@ -72184,8 +72262,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristy Detore",
+      "Lian Odonnell"
      ],
      "a": [
       "Kelly Arvidson",
@@ -72195,8 +72273,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Maritoni Agatep"
      ],
      "a": [
       "Layla Darian",
@@ -72206,8 +72284,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Pat Wilson"
      ],
      "a": [
       "Steven Gregov",
@@ -72217,8 +72295,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Marc Kunesch"
      ],
      "a": [
       "Tim Dowd",
@@ -72228,8 +72306,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Jacob Yoo"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -72239,8 +72317,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lian Odonnell",
+      "Kevin Sheehan"
      ],
      "a": [
       "Cally Kerrigan",
@@ -72250,8 +72328,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristy Detore",
+      "Marc Kunesch"
      ],
      "a": [
       "Layla Darian",
@@ -72261,19 +72339,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maritoni Agatep",
+      "Kyle Wilson"
      ],
      "a": [
       "Kelly Arvidson",
       "Tim Dowd"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Kristy Detore"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -72283,8 +72365,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maritoni Agatep",
+      "Lian Odonnell"
      ],
      "a": [
       "Kelly Arvidson",
@@ -72294,8 +72376,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Marc Kunesch"
      ],
      "a": [
       "Steven Gregov",
@@ -72305,12 +72387,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Kyle Wilson"
      ],
      "a": [
       "Tim Dowd",
       "Andy Ro"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -72335,7 +72421,385 @@
    "home": "Bounce Philly",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-10-25T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Joseph Mizrahi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Gnapp",
+      "Rodney Sanchez"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cj Pineda",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Lauren Gnapp"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Florence Doueck"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rich Pacailler",
+      "Rodney Sanchez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Rich Pacailler"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Gnapp",
+      "Rodney Sanchez"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Joseph Mizrahi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Florence Doueck"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Gabby Gonzalez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rodney Sanchez",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Brochin",
+      "Rich Pacailler"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabby Gonzalez",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Rich Pacailler"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Joseph Mizrahi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Lauren Gnapp"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Gabby Gonzalez"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Rich Pacailler"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ethan Rosen",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Gnapp",
+      "Joseph Mizrahi"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Jordan Brochin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cj Pineda",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Florence Doueck",
+      "Rich Pacailler"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chelsea Convissar",
+      "Gabby Gonzalez"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexis Milak",
+      "Lauren Gnapp"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Ethan Rosen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Brochin",
+      "Rich Pacailler"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -72632,9 +73096,7 @@
   "Melanie Shapsis": "b124018b-e1df-4535-b68f-6bcf67579a24",
   "Cynthia Covie": "b146d15b-2ed7-4087-a6a0-90d4538aea72",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
-  "Kyle Wilson": "b4df3298-b7ff-41ed-8453-9aa5e64a26de",
   "Kierstin Gant": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
-  "Lauren Gnapp": "be531df0-e305-4ae2-b203-becfa490f719",
   "Brandon Tsang": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
   "Brian Landau": "e036945a-5009-4ae2-96a1-623387de7100",
   "Daniel Pham": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
@@ -73526,7 +73988,7 @@
   "matchesPlayed": 100,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 453,
+  "totalPlayers": 455,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -73698,7 +74160,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T20:51:25.140Z";
+  DATA.meta.asOf = "2026-10-24T02:38:13.348Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

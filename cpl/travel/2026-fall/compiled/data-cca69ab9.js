@@ -5764,7 +5764,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 221,
+   "leagueRank": 222,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5793,7 +5793,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 240,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5822,7 +5822,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 216,
+   "leagueRank": 217,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5851,7 +5851,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 232,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5880,7 +5880,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 219,
+   "leagueRank": 220,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5909,7 +5909,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 232,
+   "leagueRank": 233,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5938,7 +5938,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -5967,13 +5967,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 237,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb"
+  },
+  {
+   "name": "Samuel Darla",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 219,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2e946057-0cf8-4375-b401-9c4e475a894f"
   },
   {
    "name": "Nathaniel Flores",
@@ -5996,7 +6025,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 220,
+   "leagueRank": 221,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6025,13 +6054,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 223,
+   "leagueRank": 224,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "48457f37-29a2-47e7-8b2e-62316ad44feb"
+  },
+  {
+   "name": "Dan Lougheed",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 227,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "538f12a5-bf62-46a7-9ada-583a86b84ec0"
+  },
+  {
+   "name": "Jerry Li",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 225,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7827b964-4715-4aec-aec4-e75085199fc1"
   },
   {
    "name": "Shang Li",
@@ -6054,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 225,
+   "leagueRank": 226,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6083,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 227,
+   "leagueRank": 228,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6112,13 +6199,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7"
+  },
+  {
+   "name": "Jeremy Buckley",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 215,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "eb8acf3f-de43-4af8-80b0-fd9d5887d80d"
   },
   {
    "name": "Jim Pagano",
@@ -37428,19 +37544,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Lougheed",
+      "Samuel Darla"
      ],
      "a": [
       "Lou Frignito",
       "Vaughn Lawrence"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Tim Cahalin"
      ],
      "a": [
       "Jeff Zamorski",
@@ -37450,30 +37570,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jerry Li",
+      "William Lee"
      ],
      "a": [
       "Shawn Ganow",
       "Jordan Long"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Jeremy Buckley"
      ],
      "a": [
       "Dustin Rabinowitz",
       "Austin Gow"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Christian Lupica"
      ],
      "a": [
       "Ryan Rosen",
@@ -37483,52 +37611,68 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Jerry Li"
      ],
      "a": [
       "Austin Gow",
       "Jordan Long"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Cahalin",
+      "Dan Lougheed"
      ],
      "a": [
       "Jeff Zamorski",
       "Lou Frignito"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeremy Buckley",
+      "Samuel Darla"
      ],
      "a": [
       "Vaughn Lawrence",
       "Scott Bohrer"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Lougheed",
+      "Samuel Darla"
      ],
      "a": [
       "Ryan Rosen",
       "Austin Gow"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Jeff Zamorski",
@@ -37538,8 +37682,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Christian Lupica"
      ],
      "a": [
       "Shawn Ganow",
@@ -37549,30 +37693,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Jerry Li"
      ],
      "a": [
       "Lou Frignito",
       "Dustin Rabinowitz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Jeremy Buckley"
      ],
      "a": [
       "Lou Frignito",
       "Shawn Ganow"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Alex Pecora"
      ],
      "a": [
       "Jeff Zamorski",
@@ -37582,19 +37734,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Lougheed",
+      "Jerry Li"
      ],
      "a": [
       "Vaughn Lawrence",
       "Jordan Long"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -37604,19 +37760,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Darla",
+      "Jeremy Buckley"
      ],
      "a": [
       "Ryan Rosen",
       "Vaughn Lawrence"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Tim Cahalin"
      ],
      "a": [
       "Austin Gow",
@@ -37626,30 +37786,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Jerry Li"
      ],
      "a": [
       "Lou Frignito",
       "Dustin Rabinowitz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Dan Lougheed"
      ],
      "a": [
       "Shawn Ganow",
       "Jeff Zamorski"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Tim Cahalin"
      ],
      "a": [
       "Jeff Zamorski",
@@ -37659,19 +37827,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Samuel Darla"
      ],
      "a": [
       "Scott Bohrer",
       "Vaughn Lawrence"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Alex Pecora"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -37681,41 +37853,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Lougheed",
+      "Jeremy Buckley"
      ],
      "a": [
       "Austin Gow",
       "Lou Frignito"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Samuel Darla"
      ],
      "a": [
       "Ryan Rosen",
       "Austin Gow"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Jerry Li"
      ],
      "a": [
       "Vaughn Lawrence",
       "Jordan Long"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Alex Pecora"
      ],
      "a": [
       "Shawn Ganow",
@@ -37725,52 +37909,68 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Cahalin",
+      "Jeremy Buckley"
      ],
      "a": [
       "Dustin Rabinowitz",
       "Jeff Zamorski"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Samuel Darla"
      ],
      "a": [
       "Ryan Rosen",
       "Scott Bohrer"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Dan Lougheed"
      ],
      "a": [
       "Lou Frignito",
       "Vaughn Lawrence"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jerry Li",
+      "Jeremy Buckley"
      ],
      "a": [
       "Shawn Ganow",
       "Jordan Long"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Alex Pecora"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -38442,12 +38642,10 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
-  "Samuel Darla": "2e946057-0cf8-4375-b401-9c4e475a894f",
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
-  "Dan Lougheed": "538f12a5-bf62-46a7-9ada-583a86b84ec0",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
-  "Chase Pac": "76874590-6501-40f8-ab24-7df0fb631c71",
-  "Jerry Li": "7827b964-4715-4aec-aec4-e75085199fc1",
+  "Chase Thomas": "76874590-6501-40f8-ab24-7df0fb631c71",
+  "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
@@ -38726,7 +38924,7 @@
    "outsideSub": true
   },
   {
-   "name": "Chase Pac",
+   "name": "Chase Thomas",
    "playerId": "76874590-6501-40f8-ab24-7df0fb631c71",
    "gender": "Male",
    "team": "ACE Moorestown",
@@ -38746,6 +38944,14 @@
    "playerId": "7827b964-4715-4aec-aec4-e75085199fc1",
    "gender": "Male",
    "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Santhosh Pillai",
+   "playerId": "7d25c9f9-c478-402a-9139-cc8781686a8e",
+   "gender": "Male",
+   "team": "Flemington",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -38958,6 +39164,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jeremy Buckley",
+   "playerId": "eb8acf3f-de43-4af8-80b0-fd9d5887d80d",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Fabricio Gaona",
    "playerId": "ee88d140-1a78-4776-85e0-3f982891576d",
    "gender": "Male",
@@ -39018,7 +39232,7 @@
   "matchesPlayed": 51,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 220,
+  "totalPlayers": 224,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -39139,7 +39353,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-23T20:53:29.904Z";
+  DATA.meta.asOf = "2026-10-24T02:40:20.823Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
