@@ -6672,6 +6672,35 @@
    "playerId": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2"
   },
   {
+   "name": "Elise Van Ormer",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 253,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "959c8c5b-2b03-4809-b56c-40d9787e2554"
+  },
+  {
    "name": "Liz Chen",
    "gender": "Female",
    "team": "Home Court",
@@ -39632,19 +39661,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elise Van Ormer",
+      "Clayton Schmucker"
      ],
      "a": [
       "Gissel Escalante",
       "Chris Long"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Varun Prakash"
      ],
      "a": [
       "Gift Horn",
@@ -39658,8 +39691,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Andrew Wakefield"
      ],
      "a": [
       "Anisha Malhotra",
@@ -39669,8 +39702,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Kenoa Tio"
      ],
      "a": [
       "Ally Yan",
@@ -39680,8 +39713,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Cristi Landrigan"
      ],
      "a": [
       "Gissel Escalante",
@@ -39695,19 +39728,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Elise Van Ormer"
      ],
      "a": [
       "Anisha Malhotra",
       "Amy Yan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Clayton Schmucker"
      ],
      "a": [
       "Camrin Cronheim",
@@ -39717,8 +39754,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Kenoa Tio"
      ],
      "a": [
       "Jason Makarevic",
@@ -39728,8 +39765,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Varun Prakash"
      ],
      "a": [
       "Gissel Escalante",
@@ -39739,19 +39776,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elise Van Ormer",
+      "Andrew Wakefield"
      ],
      "a": [
       "Ally Yan",
       "Sidd Pathare"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Kenoa Tio"
      ],
      "a": [
       "Anisha Malhotra",
@@ -39761,8 +39802,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Dylan Ashbach"
      ],
      "a": [
       "Gift Horn",
@@ -39776,19 +39817,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Elise Van Ormer"
      ],
      "a": [
       "Amy Yan",
       "Ally Yan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Rayna Baizman"
      ],
      "a": [
       "Gissel Escalante",
@@ -39802,8 +39847,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Kenoa Tio"
      ],
      "a": [
       "Camrin Cronheim",
@@ -39813,8 +39858,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Clayton Schmucker"
      ],
      "a": [
       "Jason Makarevic",
@@ -39824,8 +39869,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Dylan Ashbach"
      ],
      "a": [
       "Gift Horn",
@@ -39839,8 +39884,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Varun Prakash"
      ],
      "a": [
       "Gissel Escalante",
@@ -39850,19 +39895,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elise Van Ormer",
+      "Andrew Wakefield"
      ],
      "a": [
       "Amy Yan",
       "Sidd Pathare"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Kenoa Tio"
      ],
      "a": [
       "Anisha Malhotra",
@@ -39872,19 +39921,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Elise Van Ormer"
      ],
      "a": [
       "Gissel Escalante",
       "Anisha Malhotra"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Allison Tarnoff"
      ],
      "a": [
       "Ally Yan",
@@ -39894,8 +39947,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Varun Prakash"
      ],
      "a": [
       "Sidd Pathare",
@@ -39905,8 +39958,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenoa Tio",
+      "Clayton Schmucker"
      ],
      "a": [
       "Camrin Cronheim",
@@ -39916,8 +39969,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Andrew Wakefield"
      ],
      "a": [
       "Ally Yan",
@@ -39927,8 +39980,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rayna Baizman",
+      "Clayton Schmucker"
      ],
      "a": [
       "Gissel Escalante",
@@ -39938,12 +39991,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elise Van Ormer",
+      "Dylan Ashbach"
      ],
      "a": [
       "Gift Horn",
       "Sidd Pathare"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -39953,8 +40010,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Varun Prakash"
      ],
      "a": [
       "Anisha Malhotra",
@@ -39964,19 +40021,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Allison Tarnoff",
+      "Elise Van Ormer"
      ],
      "a": [
       "Gissel Escalante",
       "Anisha Malhotra"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Rayna Baizman"
      ],
      "a": [
       "Gift Horn",
@@ -39990,8 +40051,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kenoa Tio",
+      "Clayton Schmucker"
      ],
      "a": [
       "Camrin Cronheim",
@@ -40001,8 +40062,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Varun Prakash"
      ],
      "a": [
       "Chris Long",
@@ -41745,7 +41806,6 @@
   "Alex Szczepkowski": "0908e5fb-c5d1-401d-ab40-70a07f8466e0",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
-  "Elise Van Ormer": "959c8c5b-2b03-4809-b56c-40d9787e2554",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
   "Paige Metzler": "fbbe5ed6-1d46-48b3-9461-5922944a1016"
@@ -42372,7 +42432,7 @@
   "matchesPlayed": 53,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 243,
+  "totalPlayers": 244,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42489,7 +42549,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T15:08:10.533Z";
+  DATA.meta.asOf = "2026-10-24T20:02:34.687Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

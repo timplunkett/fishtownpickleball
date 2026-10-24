@@ -8490,7 +8490,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 314,
+   "leagueRank": 315,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8519,7 +8519,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 325,
+   "leagueRank": 326,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8548,7 +8548,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 316,
+   "leagueRank": 317,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8635,7 +8635,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 315,
+   "leagueRank": 316,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8693,7 +8693,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 313,
+   "leagueRank": 314,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8722,7 +8722,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 308,
+   "leagueRank": 309,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8751,7 +8751,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 317,
+   "leagueRank": 318,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8780,7 +8780,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 320,
+   "leagueRank": 321,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -58939,8 +58939,10 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
+  "Jonathan Ye": "4009508f-3759-4929-92e6-6bd9f850a74f",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
+  "Duy Duong": "81de0241-17f5-4c13-9214-0b914709e971",
   "Jason Huang": "85c7fc54-57f2-4b1d-9601-a2265de3b295",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Namit Jain": "8a49c394-945c-410d-8b79-b20b55437436",
@@ -59143,6 +59145,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jonathan Ye",
+   "playerId": "4009508f-3759-4929-92e6-6bd9f850a74f",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Roberto Marcillo",
    "playerId": "4516a66f-67b3-4981-a16d-036deb8db9bc",
    "gender": "Male",
@@ -59259,6 +59269,14 @@
    "playerId": "7f4b7644-6117-4eee-b3d8-a4955507923e",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Duy Duong",
+   "playerId": "81de0241-17f5-4c13-9214-0b914709e971",
+   "gender": "Male",
+   "team": "Bounce Tempest",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -59720,7 +59738,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T15:09:34.371Z";
+  DATA.meta.asOf = "2026-10-24T20:03:49.781Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

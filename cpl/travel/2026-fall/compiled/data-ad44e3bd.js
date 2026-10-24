@@ -4845,6 +4845,64 @@
    "playerId": "38944e1a-d33f-4b2f-8d9c-41a0fdd273cd"
   },
   {
+   "name": "Dace Rinkis",
+   "gender": "Female",
+   "team": "Premiere",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 197,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "48b33563-664a-462a-9bc6-9d07a9ac932e"
+  },
+  {
+   "name": "Carolyn Mako",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 192,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b"
+  },
+  {
    "name": "Amanda Anastasiou",
    "gender": "Female",
    "team": "Life Time Red Bank",
@@ -34193,8 +34251,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Rachel Mcgowan"
      ],
      "a": [
       "Julia Hollman",
@@ -34204,30 +34262,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Chisholm",
+      "Holli Lish"
      ],
      "a": [
       "Jeannine Calhoun",
       "Lynda Levan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Carolyn Mako"
      ],
      "a": [
       "Janice Aliberti",
       "Diane Bracco"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Lori Wild"
      ],
      "a": [
       "Sheila Curran",
@@ -34237,8 +34303,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Rachel Mcgowan"
      ],
      "a": [
       "Janice Aliberti",
@@ -34248,8 +34314,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heather Waters",
+      "Suzi French"
      ],
      "a": [
       "Julia Hollman",
@@ -34259,8 +34325,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Jacqueline Ho"
      ],
      "a": [
       "Diane Bracco",
@@ -34270,8 +34336,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Holli Lish"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -34281,19 +34347,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Kathy Chisholm"
      ],
      "a": [
       "Janice Aliberti",
       "Jeannine Calhoun"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Holli Lish"
      ],
      "a": [
       "Lynda Levan",
@@ -34303,19 +34373,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jacqueline Ho",
+      "Carolyn Mako"
      ],
      "a": [
       "Annette Marsh",
       "Sheila Curran"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Sulyn Kulick"
      ],
      "a": [
       "Julia Hollman",
@@ -34325,19 +34399,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Kathy Chisholm"
      ],
      "a": [
       "Jeannine Calhoun",
       "Annette Marsh"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Lori Wild"
      ],
      "a": [
       "Jamie Levin",
@@ -34347,8 +34425,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sulyn Kulick",
+      "Suzi French"
      ],
      "a": [
       "Lynda Levan",
@@ -34358,8 +34436,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jacqueline Hillgrube",
+      "Heather Waters"
      ],
      "a": [
       "Diane Bracco",
@@ -34369,8 +34447,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Virginie Boutin"
      ],
      "a": [
       "Julia Hollman",
@@ -34380,19 +34458,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Chisholm",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Janice Aliberti",
       "Elizabeth Biehl"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Heather Waters"
      ],
      "a": [
       "Grace Brennan",
@@ -34402,19 +34484,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Carolyn Mako"
      ],
      "a": [
       "Diane Bracco",
       "Annette Marsh"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heather Waters",
+      "Holli Lish"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -34424,8 +34510,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Jacqueline Ho"
      ],
      "a": [
       "Julia Hollman",
@@ -34435,19 +34521,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Carolyn Mako"
      ],
      "a": [
       "Janice Aliberti",
       "Jamie Levin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Lynda Levan",
@@ -34457,8 +34547,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Esha Gajjar",
+      "Jacqueline Ho"
      ],
      "a": [
       "Lynda Levan",
@@ -34468,8 +34558,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Suzi French",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Diane Bracco",
@@ -34479,19 +34569,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Kathy Chisholm"
      ],
      "a": [
       "Jeannine Calhoun",
       "Annette Marsh"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Holli Lish"
      ],
      "a": [
       "Janice Aliberti",
@@ -34501,8 +34595,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heather Waters",
+      "Jacqueline Hillgrube"
      ],
      "a": [
       "Jamie Levin",
@@ -34512,19 +34606,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carolyn Mako",
+      "Jacqueline Ho"
      ],
      "a": [
       "Janice Aliberti",
       "Annette Marsh"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginie Boutin",
+      "Sulyn Kulick"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -34534,12 +34632,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Mcgowan",
+      "Kathy Chisholm"
      ],
      "a": [
       "Grace Brennan",
       "Elizabeth Biehl"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -34555,19 +34657,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabrina Trunzo Dinkle",
+      "Dace Rinkis"
      ],
      "a": [
       "Jessica Wormeck",
       "Maureen Dazzo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Sitro",
+      "Paula De Nisc"
      ],
      "a": [
       "Karen Waldon",
@@ -34577,8 +34683,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Bonagura",
+      "Diana Macri"
      ],
      "a": [
       "Monika Torbus",
@@ -34588,8 +34694,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lenore David",
+      "Stacey Cohen"
      ],
      "a": [
       "Kelly Bowers",
@@ -34599,8 +34705,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Bonagura",
+      "Sabrina Trunzo Dinkle"
      ],
      "a": [
       "Kelly Bowers",
@@ -34610,8 +34716,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lenore David",
+      "Sally Sitro"
      ],
      "a": [
       "Christine Ziegler",
@@ -34621,19 +34727,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dace Rinkis",
+      "Paula De Nisc"
      ],
      "a": [
       "Peggy Matzen",
       "Holly Ferguson"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Cohen",
+      "Diana Macri"
      ],
      "a": [
       "Monika Torbus",
@@ -34643,19 +34753,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dace Rinkis",
+      "Lenore David"
      ],
      "a": [
       "Kelly Bowers",
       "Jessica Wormeck"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Cohen",
+      "Denise Bonagura"
      ],
      "a": [
       "Peggy Matzen",
@@ -34665,8 +34779,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Sitro",
+      "Diana Macri"
      ],
      "a": [
       "Christine Ziegler",
@@ -34676,8 +34790,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabrina Trunzo Dinkle",
+      "Paula De Nisc"
      ],
      "a": [
       "Karen Waldon",
@@ -34687,19 +34801,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dace Rinkis",
+      "Stacey Cohen"
      ],
      "a": [
       "Maureen Dazzo",
       "Karen Waldon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diana Macri",
+      "Lenore David"
      ],
      "a": [
       "Holly Ferguson",
@@ -34709,8 +34827,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula De Nisc",
+      "Denise Bonagura"
      ],
      "a": [
       "Kelly Bowers",
@@ -34720,8 +34838,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabrina Trunzo Dinkle",
+      "Sally Sitro"
      ],
      "a": [
       "Peggy Matzen",
@@ -34731,19 +34849,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dace Rinkis",
+      "Diana Macri"
      ],
      "a": [
       "Monika Torbus",
       "Christine Ziegler"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula De Nisc",
+      "Stacey Cohen"
      ],
      "a": [
       "Kelly Bowers",
@@ -34753,8 +34875,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabrina Trunzo Dinkle",
+      "Lenore David"
      ],
      "a": [
       "Maureen Dazzo",
@@ -34764,8 +34886,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Bonagura",
+      "Sally Sitro"
      ],
      "a": [
       "Peggy Matzen",
@@ -34775,8 +34897,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lenore David",
+      "Paula De Nisc"
      ],
      "a": [
       "Nancy Cook",
@@ -34786,19 +34908,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dace Rinkis",
+      "Denise Bonagura"
      ],
      "a": [
       "Christine Ziegler",
       "Monika Torbus"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabrina Trunzo Dinkle",
+      "Diana Macri"
      ],
      "a": [
       "Jessica Wormeck",
@@ -34808,8 +34934,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Cohen",
+      "Sally Sitro"
      ],
      "a": [
       "Kelly Bowers",
@@ -34819,8 +34945,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Cohen",
+      "Sabrina Trunzo Dinkle"
      ],
      "a": [
       "Jessica Wormeck",
@@ -34830,8 +34956,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diana Macri",
+      "Paula De Nisc"
      ],
      "a": [
       "Karen Waldon",
@@ -34841,8 +34967,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Bonagura",
+      "Lenore David"
      ],
      "a": [
       "Peggy Matzen",
@@ -34852,19 +34978,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dace Rinkis",
+      "Sally Sitro"
      ],
      "a": [
       "Holly Ferguson",
       "Nancy Cook"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabrina Trunzo Dinkle",
+      "Stacey Cohen"
      ],
      "a": [
       "Kelly Bowers",
@@ -34874,8 +35004,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diana Macri",
+      "Paula De Nisc"
      ],
      "a": [
       "Jessica Wormeck",
@@ -34885,8 +35015,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Bonagura",
+      "Lenore David"
      ],
      "a": [
       "Karen Waldon",
@@ -34896,12 +35026,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Sitro",
+      "Dace Rinkis"
      ],
      "a": [
       "Maureen Dazzo",
       "Nancy Cook"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -35018,7 +35152,6 @@
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
-  "Carolyn Mako": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
@@ -35158,6 +35291,14 @@
    "playerId": "487f97a4-05cd-4825-a2b9-d733741a8115",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dace Rinkis",
+   "playerId": "48b33563-664a-462a-9bc6-9d07a9ac932e",
+   "gender": "Female",
+   "team": "Premiere",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -35430,7 +35571,7 @@
   "matchesPlayed": 47,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 184,
+  "totalPlayers": 186,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -35544,7 +35685,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T15:09:14.100Z";
+  DATA.meta.asOf = "2026-10-24T20:03:28.843Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

@@ -1685,9 +1685,9 @@
       "weekNumber": 9,
       "homeTeamId": "4633cae0-e8f5-43d8-9dfe-792944157dc4",
       "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 589,
+      "awayPoints": 603,
+      "endResult": "home",
       "scheduledTime": "2026-10-24T09:00:00",
       "homeName": "Picklr Manahawkin",
       "awayName": "Premiere"

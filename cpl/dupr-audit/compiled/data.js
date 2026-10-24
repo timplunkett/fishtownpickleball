@@ -17772,6 +17772,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Suki Wong",
+   "playerId": "b92a5442-fd20-4e2f-896b-26cc5cfa5ea5",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Sultane Cosaj",
    "playerId": "c80624a6-0c31-4792-bc8d-c9f1d2153dca",
    "team": "Pickleball Kingdom Hillsborough",

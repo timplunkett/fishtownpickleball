@@ -629,9 +629,9 @@
       "weekNumber": 9,
       "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 626,
+      "awayPoints": 609,
+      "endResult": "home",
       "scheduledTime": "2026-10-24T09:00:00",
       "homeName": "Premiere",
       "awayName": "Flemington"
