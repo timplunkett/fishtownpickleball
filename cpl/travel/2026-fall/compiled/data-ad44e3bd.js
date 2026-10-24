@@ -33511,8 +33511,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kayla Gipson",
+      "Jasmine Ho"
      ],
      "a": [
       "Kathleen Rex",
@@ -33522,23 +33522,31 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Hemphill",
+      "Olga Turova"
      ],
      "a": [
       "Susan Hughes",
       "Maureen Murphy"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Marina Volpe"
      ],
      "a": [
       "Darlene Fusco",
       "Tracey Klemick"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -33548,8 +33556,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Paula Cushing"
      ],
      "a": [
       "Christine Steigerwalt",
@@ -33559,8 +33567,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Jasmine Ho"
      ],
      "a": [
       "Jean Dalstad",
@@ -33570,8 +33578,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Olga Turova"
      ],
      "a": [
       "Jenna Haas",
@@ -33581,34 +33589,46 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Hemphill",
+      "Linda Johns"
      ],
      "a": [
       "Lynn Hauth",
       "Maureen Murphy"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Paula Cushing"
      ],
      "a": [
       "Christine Steigerwalt",
       "Darlene Fusco"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Stephanie Ho"
      ],
      "a": [
       "Jean Dalstad",
       "Tracey Klemick"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -33618,8 +33638,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Paula Cushing"
      ],
      "a": [
       "Kathleen Rex",
@@ -33629,8 +33649,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kayla Gipson",
+      "Marina Berger"
      ],
      "a": [
       "Susan Hughes",
@@ -33640,8 +33660,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Turova",
+      "Linda Johns"
      ],
      "a": [
       "Mary Marger",
@@ -33651,19 +33671,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Kathy Hemphill"
      ],
      "a": [
       "Maureen Murphy",
       "Mary Marger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Paula Cushing"
      ],
      "a": [
       "Kathleen Rex",
@@ -33673,19 +33697,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Stephanie Ho"
      ],
      "a": [
       "Jenna Haas",
       "Susan Hughes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kayla Gipson",
+      "Linda Johns"
      ],
      "a": [
       "Sandy Hess",
@@ -33695,19 +33723,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Kathy Hemphill"
      ],
      "a": [
       "Maureen Murphy",
       "Susan Hughes"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Turova",
+      "Kayla Gipson"
      ],
      "a": [
       "Lynn Hauth",
@@ -33717,19 +33749,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Stephanie Ho"
      ],
      "a": [
       "Jenna Haas",
       "Christine Steigerwalt"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Paula Cushing"
      ],
      "a": [
       "Kathleen Rex",
@@ -33739,8 +33775,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Turova",
+      "Marina Volpe"
      ],
      "a": [
       "Jean Dalstad",
@@ -33750,8 +33786,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Paula Cushing"
      ],
      "a": [
       "Kathleen Rex",
@@ -33761,8 +33797,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Johns",
+      "Marina Berger"
      ],
      "a": [
       "Lynn Hauth",
@@ -33772,12 +33808,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Kayla Gipson"
      ],
      "a": [
       "Tracey Klemick",
       "Mary Marger"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -33787,8 +33827,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Turova",
+      "Linda Johns"
      ],
      "a": [
       "Sandy Hess",
@@ -33798,8 +33838,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Marina Volpe"
      ],
      "a": [
       "Lynn Hauth",
@@ -33809,12 +33849,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Stephanie Ho"
      ],
      "a": [
       "Mary Marger",
       "Tracey Klemick"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -33824,8 +33868,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kayla Gipson",
+      "Paula Cushing"
      ],
      "a": [
       "Jenna Haas",
@@ -33835,8 +33879,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Marina Volpe"
      ],
      "a": [
       "Kathleen Rex",
@@ -33846,19 +33890,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie Ho",
+      "Paula Cushing"
      ],
      "a": [
       "Darlene Fusco",
       "Christine Steigerwalt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kayla Gipson",
+      "Marina Berger"
      ],
      "a": [
       "Jean Dalstad",
@@ -33868,12 +33916,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Hemphill",
+      "Olga Turova"
      ],
      "a": [
       "Sandy Hess",
       "Susan Hughes"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -35150,6 +35202,7 @@
   "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
+  "Beth Urbanski": "36c90242-18df-4017-a44f-1ec26b2732b4",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
@@ -35275,6 +35328,14 @@
    "playerId": "2b4dc294-9f7a-40c5-978e-59adf81286d7",
    "gender": "Female",
    "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Beth Urbanski",
+   "playerId": "36c90242-18df-4017-a44f-1ec26b2732b4",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -35685,7 +35746,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T20:03:28.843Z";
+  DATA.meta.asOf = "2026-10-24T23:43:05.197Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

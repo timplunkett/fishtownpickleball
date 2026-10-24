@@ -8519,7 +8519,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 326,
+   "leagueRank": 327,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8673,6 +8673,35 @@
    "playerId": "3b7c9eab-a6e2-4e8d-b0f6-bb9a6b6dc0eb"
   },
   {
+   "name": "Jonathan Ye",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 329,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4009508f-3759-4929-92e6-6bd9f850a74f"
+  },
+  {
    "name": "Ryan Johnson",
    "gender": "Male",
    "team": "Home Court",
@@ -8758,6 +8787,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "bd59a857-a4a5-454c-af97-114b01faff8b"
+  },
+  {
+   "name": "Vlad Radomsky",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 323,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f292c0a4-030f-4f06-bef6-1588f91c5cab"
   },
   {
    "name": "Ryan Ly",
@@ -57572,8 +57630,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Zane Pagotto"
      ],
      "a": [
       "Dennis Yap",
@@ -57587,8 +57645,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Michael Barndt"
      ],
      "a": [
       "Michael Vincent",
@@ -57598,8 +57656,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Eric Ruiz"
      ],
      "a": [
       "Bryan Mccourt",
@@ -57609,8 +57667,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rahul Desai"
      ],
      "a": [
       "Kevin Sheehan",
@@ -57620,8 +57678,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rohit Mankotia"
      ],
      "a": [
       "Dennis Yap",
@@ -57631,8 +57689,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Rahul Desai"
      ],
      "a": [
       "Michael Vincent",
@@ -57642,8 +57700,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "Michael Barndt"
      ],
      "a": [
       "Marc Kunesch",
@@ -57653,8 +57711,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "David Reyes"
      ],
      "a": [
       "Michael Gilbert",
@@ -57668,8 +57726,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Eric Ruiz"
      ],
      "a": [
       "Dennis Yap",
@@ -57679,8 +57737,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Reyes",
+      "Michael Barndt"
      ],
      "a": [
       "Michael Vincent",
@@ -57690,8 +57748,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Cullen Curley"
      ],
      "a": [
       "Bryan Mccourt",
@@ -57701,8 +57759,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "Carlos Rincon"
      ],
      "a": [
       "Pat Wilson",
@@ -57712,8 +57770,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Michael Barndt"
      ],
      "a": [
       "Michael Vincent",
@@ -57723,8 +57781,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rahul Desai"
      ],
      "a": [
       "Bryan Mccourt",
@@ -57738,8 +57796,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Zane Pagotto"
      ],
      "a": [
       "Marc Kunesch",
@@ -57749,8 +57807,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Ruiz",
+      "Cullen Curley"
      ],
      "a": [
       "Pat Wilson",
@@ -57760,8 +57818,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Samuel Kashefska"
      ],
      "a": [
       "Dennis Yap",
@@ -57771,8 +57829,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Eric Ruiz"
      ],
      "a": [
       "Michael Vincent",
@@ -57782,8 +57840,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rahul Desai"
      ],
      "a": [
       "Pat Wilson",
@@ -57797,8 +57855,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "Michael Barndt"
      ],
      "a": [
       "Michael Gilbert",
@@ -57808,8 +57866,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Rahul Desai"
      ],
      "a": [
       "Dennis Yap",
@@ -57819,8 +57877,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Harlos Vizcarrondo"
      ],
      "a": [
       "Michael Vincent",
@@ -57830,8 +57888,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Eric Ruiz"
      ],
      "a": [
       "Pat Wilson",
@@ -57841,8 +57899,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "David Reyes"
      ],
      "a": [
       "Robert Huntley",
@@ -57856,8 +57914,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rahul Desai"
      ],
      "a": [
       "Dennis Yap",
@@ -57867,8 +57925,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rohit Mankotia"
      ],
      "a": [
       "Bryan Mccourt",
@@ -57882,8 +57940,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "David Reyes"
      ],
      "a": [
       "Marc Kunesch",
@@ -57893,8 +57951,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "Eric Ruiz"
      ],
      "a": [
       "Pat Wilson",
@@ -57904,8 +57962,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Zane Pagotto"
      ],
      "a": [
       "Dennis Yap",
@@ -57915,8 +57973,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "David Reyes"
      ],
      "a": [
       "Michael Vincent",
@@ -57930,8 +57988,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Cullen Curley"
      ],
      "a": [
       "Marc Kunesch",
@@ -57941,8 +57999,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Rincon",
+      "Harlos Vizcarrondo"
      ],
      "a": [
       "Kevin Sheehan",
@@ -58324,8 +58382,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Varun Kabaria"
      ],
      "a": [
       "Jonathan Dong",
@@ -58335,13 +58393,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Monzon",
+      "Lou Gomez"
      ],
      "a": [
       "Cesar Alvarez",
       "Ren Macalalag"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       1,
       0
@@ -58350,46 +58412,62 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Vlad Radomsky"
      ],
      "a": [
       "Shreyas Suresh Hassan",
       "Dan Yang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Corey Chen",
+      "Jonathan Ye"
      ],
      "a": [
       "Francis Thai",
       "Sean Diamond"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ye",
+      "Corey Chen"
      ],
      "a": [
       "Sean Diamond",
       "Francis Thai"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Monzon",
+      "Lou Gomez"
      ],
      "a": [
       "Carlos Echenique",
       "Ren Macalalag"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       1,
       0
@@ -58398,8 +58476,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Yashraj Kurani"
      ],
      "a": [
       "Shreyas Suresh Hassan",
@@ -58409,30 +58487,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Vlad Radomsky"
      ],
      "a": [
       "Jack Barry",
       "Jonathan Dong"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Gomez",
+      "Yashraj Kurani"
      ],
      "a": [
       "Dan Yang",
       "Jonathan Dong"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Corey Chen",
+      "Varun Kabaria"
      ],
      "a": [
       "Andy Knight",
@@ -58442,8 +58528,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Christopher Monzon"
      ],
      "a": [
       "Carlos Echenique",
@@ -58457,30 +58543,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Radomsky",
+      "Jonathan Ye"
      ],
      "a": [
       "Shreyas Suresh Hassan",
       "Jack Barry"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Lou Gomez"
      ],
      "a": [
       "Dan Yang",
       "Jonathan Dong"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Christopher Monzon"
      ],
      "a": [
       "Carlos Echenique",
@@ -58494,8 +58588,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Corey Chen",
+      "Varun Kabaria"
      ],
      "a": [
       "Francis Thai",
@@ -58505,19 +58599,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vlad Radomsky",
+      "Jonathan Ye"
      ],
      "a": [
       "Sean Diamond",
       "Jack Barry"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Yashraj Kurani"
      ],
      "a": [
       "Jonathan Dong",
@@ -58527,30 +58625,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Corey Chen",
+      "Vlad Radomsky"
      ],
      "a": [
       "Jack Barry",
       "Dan Yang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Gomez",
+      "Jonathan Ye"
      ],
      "a": [
       "Sean Diamond",
       "Andy Knight"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Christopher Monzon"
      ],
      "a": [
       "Francis Thai",
@@ -58560,19 +58666,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Corey Chen",
+      "Vlad Radomsky"
      ],
      "a": [
       "Jonathan Dong",
       "Shreyas Suresh Hassan"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Yashraj Kurani"
      ],
      "a": [
       "Cesar Alvarez",
@@ -58586,19 +58696,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ye",
+      "Lou Gomez"
      ],
      "a": [
       "Dan Yang",
       "Jack Barry"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Christopher Monzon"
      ],
      "a": [
       "Ren Macalalag",
@@ -58612,24 +58726,32 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Vlad Radomsky"
      ],
      "a": [
       "Ren Macalalag",
       "Jonathan Dong"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ye",
+      "Varun Kabaria"
      ],
      "a": [
       "Shreyas Suresh Hassan",
       "Carlos Echenique"
      ],
+     "hSub": [
+      1,
+      0
+     ],
      "aSub": [
       0,
       1
@@ -58638,19 +58760,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Gomez",
+      "George Vega Jr"
      ],
      "a": [
       "Sean Diamond",
       "Andy Knight"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Corey Chen",
+      "Christopher Monzon"
      ],
      "a": [
       "Cesar Alvarez",
@@ -58664,8 +58790,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Corey Chen"
      ],
      "a": [
       "Ren Macalalag",
@@ -58675,34 +58801,46 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Jonathan Ye"
      ],
      "a": [
       "Jack Barry",
       "Andy Knight"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Lou Gomez"
      ],
      "a": [
       "Dan Yang",
       "Sean Diamond"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Monzon",
+      "Vlad Radomsky"
      ],
      "a": [
       "Shreyas Suresh Hassan",
       "Francis Thai"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -58939,7 +59077,6 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Rahul Edla": "26c05976-e276-4316-bf43-3ea1316de1e7",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
-  "Jonathan Ye": "4009508f-3759-4929-92e6-6bd9f850a74f",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Duy Duong": "81de0241-17f5-4c13-9214-0b914709e971",
@@ -59585,6 +59722,14 @@
    "outsideSub": true
   },
   {
+   "name": "Vlad Radomsky",
+   "playerId": "f292c0a4-030f-4f06-bef6-1588f91c5cab",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Andrew Liou",
    "playerId": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95",
    "gender": "Male",
@@ -59605,7 +59750,7 @@
   "matchesPlayed": 83,
   "provisionalMatches": 1,
   "weeks": "1-9",
-  "totalPlayers": 310,
+  "totalPlayers": 312,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -59738,7 +59883,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T20:03:49.781Z";
+  DATA.meta.asOf = "2026-10-24T23:43:33.273Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

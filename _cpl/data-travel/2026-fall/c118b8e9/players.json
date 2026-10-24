@@ -941,7 +941,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 323
+      "ranking": 324
     },
     {
       "playerId": "23adcd68-130d-4176-b367-d3cd31260d21",
@@ -1769,7 +1769,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 328
+      "ranking": 329
     },
     {
       "playerId": "40681083-620d-4293-829f-91121323135c",
@@ -2712,7 +2712,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 325
+      "ranking": 326
     },
     {
       "playerId": "5f264528-efdb-4bda-88ed-8003f98c1c9b",
@@ -3770,7 +3770,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 327
+      "ranking": 328
     },
     {
       "playerId": "86d26f19-6cb9-442b-b089-994609b4fd77",
@@ -4161,7 +4161,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 324
+      "ranking": 325
     },
     {
       "playerId": "9571d7b5-fc34-4c77-a51f-c99b286e4304",
@@ -5150,7 +5150,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 326
+      "ranking": 327
     },
     {
       "playerId": "b50c51e8-3ce3-44ec-98e7-6cc11a705f17",
@@ -7198,6 +7198,29 @@
       "genderWins": 4,
       "genderLosses": 9,
       "ranking": 278
+    },
+    {
+      "playerId": "f292c0a4-030f-4f06-bef6-1588f91c5cab",
+      "firstName": "Vlad",
+      "lastName": "Radomsky",
+      "gender": "Male",
+      "dupr": "2LZ9LY",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "teamName": "Pickleball Kingdom Hillsborough",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 323
     },
     {
       "playerId": "f2c53e42-1eac-48dd-9c93-682ec5c1ac98",

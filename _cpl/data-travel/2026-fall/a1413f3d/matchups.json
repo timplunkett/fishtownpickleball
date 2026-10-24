@@ -1217,9 +1217,9 @@
       "weekNumber": 9,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 629,
+      "awayPoints": 615,
+      "endResult": "home",
       "scheduledTime": "2026-10-24T09:00:00",
       "homeName": "APC Garden State",
       "awayName": "Pickleball Kingdom Hillsborough"
