@@ -36440,19 +36440,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "James Price"
      ],
      "a": [
       "Chaoxia Cheng",
       "Jorge Diaz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "David Marchese"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36462,8 +36466,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Chris Norton"
      ],
      "a": [
       "Amy Johnson",
@@ -36473,8 +36477,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Sue Johnson",
@@ -36484,8 +36488,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Kristina Rhodes"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36495,8 +36499,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Jamila Sefiane"
      ],
      "a": [
       "Amy Johnson",
@@ -36506,19 +36510,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Marchese",
+      "James Price"
      ],
      "a": [
       "Steven Gregov",
       "Jorge Diaz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sandro Stefanelli",
+      "Chris Norton"
      ],
      "a": [
       "Marc Friedman",
@@ -36528,19 +36536,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "James Price"
      ],
      "a": [
       "Susan Ackley",
       "Steven Gregov"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Amy Johnson",
@@ -36550,8 +36562,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Chris Norton"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36561,19 +36573,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Michael Finkelstein"
      ],
      "a": [
       "Sue Johnson",
       "Art Muth"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Kristina Rhodes"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36583,8 +36599,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Cindy Hu"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -36594,19 +36610,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Marchese",
+      "Michael Finkelstein"
      ],
      "a": [
       "Tom Maley",
       "Steven Gregov"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Marc Friedman",
@@ -36616,19 +36636,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "James Price"
      ],
      "a": [
       "Susan Ackley",
       "Jorge Diaz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -36638,8 +36662,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "David Marchese"
      ],
      "a": [
       "Sue Johnson",
@@ -36649,19 +36673,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Michael Finkelstein"
      ],
      "a": [
       "Amy Johnson",
       "Art Muth"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Sandra Thompson"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36671,8 +36699,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Kristina Rhodes"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -36682,19 +36710,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "James Price"
      ],
      "a": [
       "Jorge Diaz",
       "Marc Friedman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sandro Stefanelli",
+      "David Marchese"
      ],
      "a": [
       "Art Muth",
@@ -36704,19 +36736,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "James Price"
      ],
      "a": [
       "Susan Ackley",
       "Steven Gregov"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -36726,8 +36762,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Chris Norton"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36737,8 +36773,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "David Marchese"
      ],
      "a": [
       "Amy Johnson",
@@ -36748,8 +36784,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Cindy Hu"
      ],
      "a": [
       "Carol Mastroianni",
@@ -36759,8 +36795,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Jamila Sefiane"
      ],
      "a": [
       "Susan Ackley",
@@ -36770,8 +36806,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "David Marchese"
      ],
      "a": [
       "Jorge Diaz",
@@ -36781,12 +36817,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sandro Stefanelli",
+      "James Price"
      ],
      "a": [
       "Art Muth",
       "Marc Friedman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -38603,7 +38643,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T02:36:27.567Z";
+  DATA.meta.asOf = "2026-10-24T15:05:29.933Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

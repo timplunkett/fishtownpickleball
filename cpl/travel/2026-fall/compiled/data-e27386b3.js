@@ -10810,7 +10810,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 421,
+   "leagueRank": 422,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10839,7 +10839,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 412,
+   "leagueRank": 413,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10868,7 +10868,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 420,
+   "leagueRank": 421,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10897,7 +10897,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 439,
+   "leagueRank": 440,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10955,7 +10955,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 416,
+   "leagueRank": 417,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -10984,7 +10984,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 428,
+   "leagueRank": 429,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11013,7 +11013,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 413,
+   "leagueRank": 414,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11042,7 +11042,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 422,
+   "leagueRank": 423,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11078,6 +11078,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "134eacc1-b2d8-4ac1-815b-4e7ba970b019"
+  },
+  {
+   "name": "Ben Cortes",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 401,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984"
   },
   {
    "name": "David Bailey",
@@ -11129,7 +11158,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 410,
+   "leagueRank": 411,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11158,7 +11187,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 408,
+   "leagueRank": 409,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11187,7 +11216,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 438,
+   "leagueRank": 439,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11216,7 +11245,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 427,
+   "leagueRank": 428,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -67517,19 +67546,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Ben Cortes"
      ],
      "a": [
       "Sarah Silva",
       "Ed Amato"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Gabe Nacion"
      ],
      "a": [
       "Amanda Nguyen",
@@ -67539,8 +67572,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anabel Mesa",
+      "Rakesh Roy"
      ],
      "a": [
       "Rachel Appleton",
@@ -67550,45 +67583,61 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Veronica Rosas",
+      "Danny Ruiz"
      ],
      "a": [
       "Courtney Wu",
       "Juri Solano"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Veronica Rosas",
+      "Iqra Hasan-Calmo"
      ],
      "a": [
       "Amanda Nguyen",
       "Courtney Wu"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anabel Mesa",
+      "Brianna Zenna"
      ],
      "a": [
       "Rachel Appleton",
       "Patricia Tuquero"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Cortes",
+      "Gabe Nacion"
      ],
      "a": [
       "John Danks",
       "Jeremy Bustos"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -67598,8 +67647,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakesh Roy",
+      "Danny Ruiz"
      ],
      "a": [
       "Ed Amato",
@@ -67609,8 +67658,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anabel Mesa",
+      "Rakesh Roy"
      ],
      "a": [
       "Amanda Nguyen",
@@ -67620,30 +67669,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Veronica Rosas",
+      "Danny Ruiz"
      ],
      "a": [
       "Sarah Silva",
       "Juri Solano"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Zenna",
+      "Ben Cortes"
      ],
      "a": [
       "Patricia Tuquero",
       "Kenneth Bautista"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Gabe Nacion"
      ],
      "a": [
       "Rachel Appleton",
@@ -67653,41 +67710,53 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Zenna",
+      "Anabel Mesa"
      ],
      "a": [
       "Sarah Silva",
       "Patricia Tuquero"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Veronica Rosas"
      ],
      "a": [
       "Amanda Nguyen",
       "Courtney Wu"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakesh Roy",
+      "Ben Cortes"
      ],
      "a": [
       "Kenneth Bautista",
       "John Danks"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Danny Ruiz",
+      "Gabe Nacion"
      ],
      "a": [
       "Juri Solano",
@@ -67701,8 +67770,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Gray Ferrante"
      ],
      "a": [
       "Sarah Silva",
@@ -67712,19 +67781,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Zenna",
+      "Rakesh Roy"
      ],
      "a": [
       "Patricia Tuquero",
       "Kenneth Bautista"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Danny Ruiz"
      ],
      "a": [
       "Rachel Appleton",
@@ -67734,19 +67807,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anabel Mesa",
+      "Ben Cortes"
      ],
      "a": [
       "Courtney Wu",
       "Juri Solano"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anabel Mesa",
+      "Iqra Hasan-Calmo"
      ],
      "a": [
       "Rachel Appleton",
@@ -67756,19 +67833,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brianna Zenna",
+      "Veronica Rosas"
      ],
      "a": [
       "Sarah Silva",
       "Amanda Nguyen"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakesh Roy",
+      "Gray Ferrante"
      ],
      "a": [
       "John Danks",
@@ -67778,13 +67859,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Danny Ruiz",
+      "Ben Cortes"
      ],
      "a": [
       "Juri Solano",
       "Jeremy Bustos"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -67793,13 +67878,17 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brianna Zenna",
+      "Ben Cortes"
      ],
      "a": [
       "Sarah Silva",
       "Jeremy Bustos"
      ],
+     "hSub": [
+      1,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -67808,8 +67897,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Iqra Hasan-Calmo",
+      "Danny Ruiz"
      ],
      "a": [
       "Patricia Tuquero",
@@ -67819,8 +67908,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Sowa",
+      "Gray Ferrante"
      ],
      "a": [
       "Rachel Appleton",
@@ -67830,30 +67919,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Veronica Rosas",
+      "Rakesh Roy"
      ],
      "a": [
       "Courtney Wu",
       "Marvin Steller"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Veronica Rosas",
+      "Brianna Zenna"
      ],
      "a": [
       "Rachel Appleton",
       "Patricia Tuquero"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anabel Mesa",
+      "Iqra Hasan-Calmo"
      ],
      "a": [
       "Courtney Wu",
@@ -67863,19 +67960,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Danny Ruiz",
+      "Ben Cortes"
      ],
      "a": [
       "Juri Solano",
       "Marvin Steller"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rakesh Roy",
+      "Gray Ferrante"
      ],
      "a": [
       "Ed Amato",
@@ -71661,10 +71762,10 @@
   "Kathi Sheehan": "074e66af-6079-4c8e-aa69-e01f488ba5b0",
   "Jana Bradley": "076a6405-8447-43b9-b8cf-1db5d857979c",
   "Judy Brougham": "076baef0-3766-4902-a737-578d6262a38a",
+  "Diana Damore": "112ccbed-a970-4871-8b76-29034bc5fb89",
   "Emily Fowler": "42dcd48a-d88f-422d-8a1e-8ea74ba52440",
   "Abdul Sami": "46ea0700-3499-4478-9672-bac1b795c091",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
-  "Ben Cortes": "4d89659f-a86c-4416-93f2-5c868fe0e984",
   "Mike Esfahani": "5309d94e-5f39-4cca-a25d-cba3773abe73",
   "Nicholai Ola": "590c2bb4-2fd5-484b-a75f-4863c40c9f66",
   "Ken Bienkowski": "5cc85746-e4a6-432e-bfe5-8166f02867ce",
@@ -71672,6 +71773,7 @@
   "Carolyn Shipe": "6775ab12-38b5-4f41-a6c1-df35276b63c2",
   "Stephanie Li": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
   "Isabella Silva": "6b4c5230-95a7-4b24-b971-47c8eb53b251",
+  "Shaozhi Zheng": "6df2a5f8-60fd-45c0-a7bd-3d0ad722d0fd",
   "Savannah Kwan": "723a730c-06c9-4a53-9275-53e2f98cce6f",
   "Ion Rabadon": "74a6086f-4c39-45c1-bb62-a90db6c74eab",
   "Steve Nuguid": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
@@ -71711,6 +71813,14 @@
    "playerId": "076a6405-8447-43b9-b8cf-1db5d857979c",
    "gender": "Female",
    "team": "Open Play",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Diana Damore",
+   "playerId": "112ccbed-a970-4871-8b76-29034bc5fb89",
+   "gender": "Female",
+   "team": "Home Court",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -71967,6 +72077,14 @@
    "playerId": "6c6f580c-14e7-4c43-a9e0-797f1c01b818",
    "gender": "Male",
    "team": "Picklr Newark",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Shaozhi Zheng",
+   "playerId": "6df2a5f8-60fd-45c0-a7bd-3d0ad722d0fd",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -72495,7 +72613,7 @@
   "matchesPlayed": 94,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 406,
+  "totalPlayers": 407,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -72637,7 +72755,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T02:36:58.874Z";
+  DATA.meta.asOf = "2026-10-24T15:05:57.756Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

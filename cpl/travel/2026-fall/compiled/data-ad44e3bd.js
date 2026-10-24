@@ -4845,6 +4845,35 @@
    "playerId": "38944e1a-d33f-4b2f-8d9c-41a0fdd273cd"
   },
   {
+   "name": "Amanda Anastasiou",
+   "gender": "Female",
+   "team": "Life Time Red Bank",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 185,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f901ac16-5928-440c-97fd-a7521c4f38c6"
+  },
+  {
    "name": "Jenny Miller",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -32978,8 +33007,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Caroline Kinlin"
      ],
      "a": [
       "Kara Chubrik",
@@ -32989,8 +33018,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Lay Wassana",
@@ -33000,8 +33029,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Kathleen Nitti"
      ],
      "a": [
       "Megan Curren",
@@ -33015,8 +33044,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Jackie Coneeny"
      ],
      "a": [
       "Sherry Sili",
@@ -33030,12 +33059,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Anastasiou",
+      "Jackie Coneeny"
      ],
      "a": [
       "Sherry Sili",
       "Irene Guile"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -33045,8 +33078,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Tanyalak Sawangpak",
@@ -33056,8 +33089,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Rachel Levkov"
      ],
      "a": [
       "Megan Curren",
@@ -33071,8 +33104,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathleen Nitti"
      ],
      "a": [
       "Rani Borusu",
@@ -33082,8 +33115,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Sara Hylan"
      ],
      "a": [
       "Lay Wassana",
@@ -33093,8 +33126,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Nitti",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Kara Chubrik",
@@ -33104,8 +33137,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Jackie Coneeny"
      ],
      "a": [
       "Rani Borusu",
@@ -33115,8 +33148,64 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Anastasiou",
+      "Caroline Kinlin"
+     ],
+     "a": [
+      "Lynette Pil",
+      "Irene Guile"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Amanda Anastasiou",
+      "Brittany Messing"
+     ],
+     "a": [
+      "Kara Chubrik",
+      "Sherry Sili"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Caroline Kinlin",
+      "Kathleen Nitti"
+     ],
+     "a": [
+      "Lay Wassana",
+      "Tanyalak Sawangpak"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Gina Faccone",
+      "Rachel Levkov"
+     ],
+     "a": [
+      "Rani Borusu",
+      "Megan Curren"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jackie Coneeny",
+      "Sara Hylan"
      ],
      "a": [
       "Lynette Pil",
@@ -33130,60 +33219,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kara Chubrik",
-      "Sherry Sili"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lay Wassana",
-      "Tanyalak Sawangpak"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rani Borusu",
-      "Megan Curren"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Lynette Pil",
-      "Irene Guile"
-     ],
-     "aSub": [
-      1,
-      1
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Amanda Anastasiou"
      ],
      "a": [
       "Tanyalak Sawangpak",
       "Irene Guile"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -33193,8 +33238,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Gina Faccone"
      ],
      "a": [
       "Megan Curren",
@@ -33204,8 +33249,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Rachel Levkov"
      ],
      "a": [
       "Lay Wassana",
@@ -33219,8 +33264,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Nitti",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Sherry Sili",
@@ -33230,19 +33275,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Anastasiou",
+      "Brittany Messing"
      ],
      "a": [
       "Kara Chubrik",
       "Megan Curren"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Sara Hylan"
      ],
      "a": [
       "Tanyalak Sawangpak",
@@ -33256,8 +33305,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Lay Wassana",
@@ -33271,8 +33320,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathleen Nitti"
      ],
      "a": [
       "Sherry Sili",
@@ -33282,19 +33331,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Anastasiou",
+      "Sara Hylan"
      ],
      "a": [
       "Megan Curren",
       "Tanyalak Sawangpak"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Jackie Coneeny"
      ],
      "a": [
       "Kara Chubrik",
@@ -33304,8 +33357,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Gina Faccone"
      ],
      "a": [
       "Rani Borusu",
@@ -33319,8 +33372,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Nitti",
+      "Brittany Messing"
      ],
      "a": [
       "Lynette Pil",
@@ -33334,8 +33387,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Gina Faccone"
      ],
      "a": [
       "Kara Chubrik",
@@ -33345,19 +33398,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Anastasiou",
+      "Caroline Kinlin"
      ],
      "a": [
       "Megan Curren",
       "Tanyalak Sawangpak"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Rachel Levkov"
      ],
      "a": [
       "Rani Borusu",
@@ -33371,8 +33428,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Sherry Sili",
@@ -34965,7 +35022,6 @@
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
-  "Amanda Anastasiou": "f901ac16-5928-440c-97fd-a7521c4f38c6",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
  },
  "availableSubs": [
@@ -35374,7 +35430,7 @@
   "matchesPlayed": 47,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 183,
+  "totalPlayers": 184,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -35488,7 +35544,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T02:40:33.286Z";
+  DATA.meta.asOf = "2026-10-24T15:09:14.100Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

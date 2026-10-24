@@ -46958,22 +46958,6 @@
       "matchupPlayerStats": {
         "$values": [
           {
-            "playerId": "1cd5949a-4196-4e3a-a611-7188d34f4708",
-            "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
-            "isSub": true,
-            "gamesPlayed": 1,
-            "wins": 0,
-            "losses": 1,
-            "pointsWon": 19,
-            "totalPointsAgainst": 21,
-            "clutchWins": 0,
-            "clutchLosses": 1,
-            "mixedWins": 0,
-            "mixedLosses": 0,
-            "genderWins": 0,
-            "genderLosses": 1
-          },
-          {
             "playerId": "23adcd68-130d-4176-b367-d3cd31260d21",
             "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
             "isSub": false,
@@ -47009,17 +46993,17 @@
             "playerId": "2811dd08-7b50-455b-bc23-46b064a912eb",
             "teamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
             "isSub": false,
-            "gamesPlayed": 7,
+            "gamesPlayed": 8,
             "wins": 1,
-            "losses": 6,
-            "pointsWon": 116,
-            "totalPointsAgainst": 145,
+            "losses": 7,
+            "pointsWon": 135,
+            "totalPointsAgainst": 166,
             "clutchWins": 1,
-            "clutchLosses": 2,
+            "clutchLosses": 3,
             "mixedWins": 0,
             "mixedLosses": 0,
             "genderWins": 1,
-            "genderLosses": 6
+            "genderLosses": 7
           },
           {
             "playerId": "323d96c3-4160-410b-96a5-87263e825f62",
@@ -47491,7 +47475,7 @@
               "homePlayerId1": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
               "homePlayerId2": "98842749-0d7d-4b20-b78a-50c79d087699",
               "awayPlayerId1": "23adcd68-130d-4176-b367-d3cd31260d21",
-              "awayPlayerId2": "1cd5949a-4196-4e3a-a611-7188d34f4708",
+              "awayPlayerId2": "2811dd08-7b50-455b-bc23-46b064a912eb",
               "homeScore": 22,
               "awayScore": 20,
               "matchType": "male"
