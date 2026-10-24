@@ -15459,6 +15459,35 @@
    "playerId": "5a3ef7a6-3b61-4ca7-bab2-3817194cda35"
   },
   {
+   "name": "Ly Kim",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 598,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6"
+  },
+  {
    "name": "Marti Williams",
    "gender": "Female",
    "team": "Dill Dinkers Newport",
@@ -79669,8 +79698,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Jake Denooyer"
      ],
      "a": [
       "Mylene Tenorio",
@@ -79680,8 +79709,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "James Azarowicz"
      ],
      "a": [
       "Barbara Brossok",
@@ -79695,8 +79724,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Rafael Moreano"
      ],
      "a": [
       "Olga Sedycias",
@@ -79706,8 +79735,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Gerard Scipione"
      ],
      "a": [
       "Marcia Rathjen",
@@ -79717,8 +79746,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Charlene Fletcher"
      ],
      "a": [
       "Marcia Rathjen",
@@ -79728,19 +79757,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Ly Kim"
      ],
      "a": [
       "Patty Direzze",
       "Mylene Tenorio"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Noach Shapiro"
      ],
      "a": [
       "Peter O'Farrill",
@@ -79750,8 +79783,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Denooyer",
+      "James Azarowicz"
      ],
      "a": [
       "Chuck Silvester",
@@ -79761,8 +79794,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Rafael Moreano"
      ],
      "a": [
       "Mylene Tenorio",
@@ -79772,8 +79805,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Gerard Scipione"
      ],
      "a": [
       "Patty Direzze",
@@ -79783,8 +79816,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Noach Shapiro"
      ],
      "a": [
       "Barbara Brossok",
@@ -79798,19 +79831,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ly Kim",
+      "James Azarowicz"
      ],
      "a": [
       "Marcia Rathjen",
       "Eldon Carandan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Kristin Duva"
      ],
      "a": [
       "Patty Direzze",
@@ -79824,8 +79861,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Anne Buckley"
      ],
      "a": [
       "Olga Sedycias",
@@ -79835,19 +79872,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Denooyer",
+      "Stanley Okpor"
      ],
      "a": [
       "Chuck Silvester",
       "Peter O'Farrill"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noach Shapiro",
+      "Gerard Scipione"
      ],
      "a": [
       "Dan Sweetman",
@@ -79857,23 +79898,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Stanley Okpor"
      ],
      "a": [
       "Olga Sedycias",
       "Dan Sweetman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ly Kim",
+      "Jake Denooyer"
      ],
      "a": [
       "Barbara Brossok",
       "Peter O'Farrill"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       1,
@@ -79883,8 +79932,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Rafael Moreano"
      ],
      "a": [
       "Patty Direzze",
@@ -79894,8 +79943,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "James Azarowicz"
      ],
      "a": [
       "Mylene Tenorio",
@@ -79905,12 +79954,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ly Kim",
+      "Debbie Spurr"
      ],
      "a": [
       "Mylene Tenorio",
       "Barbara Brossok"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -79920,8 +79973,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Kristin Duva"
      ],
      "a": [
       "Marcia Rathjen",
@@ -79931,19 +79984,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Stanley Okpor"
      ],
      "a": [
       "Chuck Silvester",
       "Dennis Tenorio"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gerard Scipione",
+      "James Azarowicz"
      ],
      "a": [
       "Eldon Carandan",
@@ -79953,8 +80010,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Gerard Scipione"
      ],
      "a": [
       "Mylene Tenorio",
@@ -79964,8 +80021,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Noach Shapiro"
      ],
      "a": [
       "Marcia Rathjen",
@@ -79975,8 +80032,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Jake Denooyer"
      ],
      "a": [
       "Barbara Brossok",
@@ -79990,19 +80047,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Stanley Okpor"
      ],
      "a": [
       "Olga Sedycias",
       "Craig Rathjen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Kristin Duva"
      ],
      "a": [
       "Patty Direzze",
@@ -80012,30 +80073,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Theresa Corderi",
+      "Ly Kim"
      ],
      "a": [
       "Mylene Tenorio",
       "Marcia Rathjen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Stanley Okpor"
      ],
      "a": [
       "Dan Sweetman",
       "Craig Rathjen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Denooyer",
+      "Rafael Moreano"
      ],
      "a": [
       "Peter O'Farrill",
@@ -83263,7 +83332,6 @@
   "Julie Marley": "6a2e3166-fec1-4aa3-b26d-7cfb54d9d717",
   "Sheryl Axelrod": "6f9e0a16-373f-4c8e-8e9f-31a4696b1a96",
   "Ira Feinberg": "72cdc96c-9681-4a9d-8336-0fdda1c3a6c8",
-  "Ly Kim": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
   "Fawn Patti": "81fa3aae-b090-436c-94e4-9b2661a4afcd",
   "Jeff Kornblatt": "85e38726-20b8-4988-a277-a25a5753b201",
   "Mary Delorenzo": "88030e00-b9ac-4970-af9a-5b12904cd78c",
@@ -85040,7 +85108,7 @@
   "matchesPlayed": 100,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 578,
+  "totalPlayers": 579,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -85197,7 +85265,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T02:37:39.105Z";
+  DATA.meta.asOf = "2026-10-24T10:01:35.875Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

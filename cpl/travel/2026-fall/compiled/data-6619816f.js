@@ -6382,6 +6382,64 @@
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
   },
   {
+   "name": "Tejas Goculdas",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro Aces",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 240,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "53929301-6ce2-40b9-b161-9ca68e3d4eaf"
+  },
+  {
+   "name": "Daisy Zhang",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro Aces",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 258,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5c9816a6-756b-4d45-803c-e38339915b28"
+  },
+  {
    "name": "Stefanie Sohosky",
    "gender": "Female",
    "team": "Jersey Pickleball Club",
@@ -26607,7 +26665,401 @@
    "home": "Jersey Pickleball Club",
    "away": "Dill Dinkers Hatboro Aces",
    "time": "2026-09-27T09:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daisy Zhang",
+      "Will Delaney"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "Claudya Elefante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "Will Delaney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anushk Gupta",
+      "Tejas Goculdas"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Will Delaney"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Tejas Goculdas"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daisy Zhang",
+      "Anushk Gupta"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "Julia Plein"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anushk Gupta",
+      "Will Delaney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "Tejas Goculdas"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daisy Zhang",
+      "Tejas Goculdas"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Daisy Zhang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Helen Liu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anushk Gupta",
+      "Will Delaney"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Will Delaney"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Helen Liu",
+      "Tejas Goculdas"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daisy Zhang",
+      "Julia Plein"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Will Delaney"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "Tejas Goculdas"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": "away",
@@ -40998,10 +41450,8 @@
   "Matt Jump": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
   "Alex Szczepkowski": "0908e5fb-c5d1-401d-ab40-70a07f8466e0",
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
-  "Tejas Goculdas": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Taina Wesner": "583c5e68-0868-4a21-b1f0-0e68b9559476",
-  "Daisy Zhang": "5c9816a6-756b-4d45-803c-e38339915b28",
   "Kushal Thapa": "85b62c8d-b3e4-4f75-93ec-cf7b5097a2ac",
   "Elise Van Ormer": "959c8c5b-2b03-4809-b56c-40d9787e2554",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
@@ -41630,7 +42080,7 @@
   "matchesPlayed": 53,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 238,
+  "totalPlayers": 240,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -41747,7 +42197,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T02:39:33.730Z";
+  DATA.meta.asOf = "2026-10-24T10:02:55.956Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
