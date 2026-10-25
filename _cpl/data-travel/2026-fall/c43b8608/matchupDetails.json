@@ -56432,8 +56432,8 @@
               "homePlayerId2": "38441ed7-017a-47a0-859b-ddb00d17d1cb",
               "awayPlayerId1": "d2a43eb3-f288-4ef4-bae9-209ab6ec0f0c",
               "awayPlayerId2": "812b9580-5a00-44a9-a5ed-5d1046755718",
-              "homeScore": null,
-              "awayScore": null,
+              "homeScore": 18,
+              "awayScore": 21,
               "matchType": "mixed"
             },
             {

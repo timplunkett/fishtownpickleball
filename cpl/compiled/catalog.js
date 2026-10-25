@@ -13,12 +13,12 @@ window.CPL_CATALOG = {
      "landingSlug": "b7ca04e4",
      "divisions": [
       {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-10-25T10:26:13.510Z"},
-      {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-10-25T10:26:50.779Z"},
+      {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-10-25T13:37:02.719Z"},
       {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-10-25T02:27:24.593Z"},
-      {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-10-25T10:28:41.782Z"},
+      {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-10-25T13:39:17.809Z"},
       {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-10-25T10:27:16.684Z"},
       {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-10-25T10:25:43.987Z"},
-      {"slug":"6619816f","divisionName":"4.5","asOf":"2026-10-25T10:28:16.581Z"},
+      {"slug":"6619816f","divisionName":"4.5","asOf":"2026-10-25T13:38:45.210Z"},
       {"slug":"ad44e3bd","divisionName":"3.25 Womens","asOf":"2026-10-25T02:28:50.894Z"},
       {"slug":"c118b8e9","divisionName":"3.75 Mens","asOf":"2026-10-25T10:29:31.494Z"},
       {"slug":"cca69ab9","divisionName":"4.5 Mens","asOf":"2026-10-25T10:28:55.953Z"}
