@@ -6315,7 +6315,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 246,
+   "leagueRank": 247,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6344,7 +6344,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 251,
+   "leagueRank": 252,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6373,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 260,
+   "leagueRank": 261,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6431,13 +6431,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 254,
+   "leagueRank": 255,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "0908e5fb-c5d1-401d-ab40-70a07f8466e0"
+  },
+  {
+   "name": "Celine Lee",
+   "gender": "Female",
+   "team": "Monroe",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 245,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0b160c94-cfd8-4419-be2d-d5aed19e4c96"
   },
   {
    "name": "Tejas Goculdas",
@@ -6489,7 +6518,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 257,
+   "leagueRank": 258,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6518,7 +6547,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 261,
+   "leagueRank": 262,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6547,7 +6576,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 252,
+   "leagueRank": 253,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6576,7 +6605,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 248,
+   "leagueRank": 249,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6605,7 +6634,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 259,
+   "leagueRank": 260,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6634,7 +6663,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 255,
+   "leagueRank": 256,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6692,7 +6721,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 258,
+   "leagueRank": 259,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6721,7 +6750,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 256,
+   "leagueRank": 257,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6779,7 +6808,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 245,
+   "leagueRank": 246,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -40335,8 +40364,12 @@
       "Alexander Tong"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Anthony Ursino"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -40357,8 +40390,12 @@
       "Charlotte Healey"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Morgan Fishman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -40423,8 +40460,12 @@
       "Zachary Lessner"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Anthony Ursino"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -40445,8 +40486,12 @@
       "Kathleen Dougherty"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Morgan Fishman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -40500,8 +40545,12 @@
       "William Hayes"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Eric Lin"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -40523,7 +40572,11 @@
      ],
      "a": [
       "Ruhi Shah",
-      "Angela Luo"
+      "Celine Lee"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -40599,8 +40652,12 @@
       "Zachary Lessner"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Eric Lin"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -40621,8 +40678,12 @@
       "Alex Abad"
      ],
      "a": [
-      "Angela Luo",
+      "Celine Lee",
       "Richa Shah"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -42101,6 +42162,14 @@
    "outsideSub": true
   },
   {
+   "name": "Celine Lee",
+   "playerId": "0b160c94-cfd8-4419-be2d-d5aed19e4c96",
+   "gender": "Female",
+   "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Katie Lazaar",
    "playerId": "0bed64f0-b72a-4d63-8d44-347635f58bae",
    "gender": "Female",
@@ -42705,7 +42774,7 @@
   "matchesPlayed": 53,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 247,
+  "totalPlayers": 248,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42822,7 +42891,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-25T02:27:41.621Z";
+  DATA.meta.asOf = "2026-10-25T10:28:16.581Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -37572,7 +37572,7 @@
     "lastName": "Lee",
     "dupr": "V2NWEP",
     "duprRating": "3.840",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 8484740378,
     "duprProvisional": false
   },
@@ -48874,6 +48874,16 @@
     "duprRating": "2.628",
     "lastSeen": "2026-10",
     "duprNumericId": 6408738974,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "0ac2bb45-b533-43aa-b2c5-e5925cf9a272",
+    "firstName": "Lydia",
+    "lastName": "sun",
+    "dupr": "NK29RZ",
+    "duprRating": "NR",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8025817071,
     "duprProvisional": false
   }
 ]

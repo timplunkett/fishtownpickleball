@@ -58394,7 +58394,7 @@
      "t": "male",
      "h": [
       "Christopher Monzon",
-      "Lou Gomez"
+      "Vlad Radomsky"
      ],
      "a": [
       "Cesar Alvarez",
@@ -58413,15 +58413,11 @@
      "t": "male",
      "h": [
       "George Vega Jr",
-      "Vlad Radomsky"
+      "Elliott Albanese"
      ],
      "a": [
       "Shreyas Suresh Hassan",
       "Dan Yang"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
@@ -58458,7 +58454,7 @@
      "t": "male",
      "h": [
       "Christopher Monzon",
-      "Lou Gomez"
+      "Vlad Radomsky"
      ],
      "a": [
       "Carlos Echenique",
@@ -58488,21 +58484,17 @@
      "t": "male",
      "h": [
       "George Vega Jr",
-      "Vlad Radomsky"
+      "Elliott Albanese"
      ],
      "a": [
       "Jack Barry",
       "Jonathan Dong"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "Lou Gomez",
+      "Vlad Radomsky",
       "Yashraj Kurani"
      ],
      "a": [
@@ -58543,7 +58535,7 @@
     {
      "t": "male",
      "h": [
-      "Vlad Radomsky",
+      "Elliott Albanese",
       "Jonathan Ye"
      ],
      "a": [
@@ -58551,7 +58543,7 @@
       "Jack Barry"
      ],
      "hSub": [
-      1,
+      0,
       1
      ]
     },
@@ -58559,7 +58551,7 @@
      "t": "male",
      "h": [
       "Yashraj Kurani",
-      "Lou Gomez"
+      "Vlad Radomsky"
      ],
      "a": [
       "Dan Yang",
@@ -58599,7 +58591,7 @@
     {
      "t": "male",
      "h": [
-      "Vlad Radomsky",
+      "Elliott Albanese",
       "Jonathan Ye"
      ],
      "a": [
@@ -58607,7 +58599,7 @@
       "Jack Barry"
      ],
      "hSub": [
-      1,
+      0,
       1
      ]
     },
@@ -58626,21 +58618,17 @@
      "t": "male",
      "h": [
       "Corey Chen",
-      "Vlad Radomsky"
+      "Elliott Albanese"
      ],
      "a": [
       "Jack Barry",
       "Dan Yang"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "Lou Gomez",
+      "Vlad Radomsky",
       "Jonathan Ye"
      ],
      "a": [
@@ -58667,15 +58655,11 @@
      "t": "male",
      "h": [
       "Corey Chen",
-      "Vlad Radomsky"
+      "Elliott Albanese"
      ],
      "a": [
       "Jonathan Dong",
       "Shreyas Suresh Hassan"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
@@ -58697,7 +58681,7 @@
      "t": "male",
      "h": [
       "Jonathan Ye",
-      "Lou Gomez"
+      "Vlad Radomsky"
      ],
      "a": [
       "Dan Yang",
@@ -58727,15 +58711,11 @@
      "t": "male",
      "h": [
       "Yashraj Kurani",
-      "Vlad Radomsky"
+      "Elliott Albanese"
      ],
      "a": [
       "Ren Macalalag",
       "Jonathan Dong"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
@@ -58760,7 +58740,7 @@
     {
      "t": "male",
      "h": [
-      "Lou Gomez",
+      "Vlad Radomsky",
       "George Vega Jr"
      ],
      "a": [
@@ -58817,7 +58797,7 @@
      "t": "male",
      "h": [
       "George Vega Jr",
-      "Lou Gomez"
+      "Vlad Radomsky"
      ],
      "a": [
       "Dan Yang",
@@ -58832,15 +58812,11 @@
      "t": "male",
      "h": [
       "Christopher Monzon",
-      "Vlad Radomsky"
+      "Elliott Albanese"
      ],
      "a": [
       "Shreyas Suresh Hassan",
       "Francis Thai"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     }
    ]
@@ -59883,7 +59859,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T23:43:33.273Z";
+  DATA.meta.asOf = "2026-10-25T10:29:31.494Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

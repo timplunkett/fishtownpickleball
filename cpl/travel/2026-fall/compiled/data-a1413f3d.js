@@ -72298,7 +72298,6 @@
    "away": "Flemington Green",
    "time": "2026-10-24T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 447,
    "awayPoints": 464,
    "homeGW": 17,
@@ -74342,7 +74341,7 @@
  ],
  "meta": {
   "matchesPlayed": 103,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-9",
   "totalPlayers": 455,
   "ratingHistoryWeeks": [
@@ -74516,7 +74515,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T23:40:29.181Z";
+  DATA.meta.asOf = "2026-10-25T10:27:16.684Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

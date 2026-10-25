@@ -1241,9 +1241,9 @@
       "weekNumber": 9,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 447,
+      "awayPoints": 464,
+      "endResult": "home",
       "scheduledTime": "2026-10-24T12:00:00",
       "homeName": "Home Court",
       "awayName": "Flemington Green"
