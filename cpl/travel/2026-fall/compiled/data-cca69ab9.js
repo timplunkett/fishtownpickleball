@@ -37747,7 +37747,6 @@
    "away": "Bounce Malvern",
    "time": "2026-10-24T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 518,
    "awayPoints": 660,
    "homeGW": 5,
@@ -38203,10 +38202,10 @@
     }
    ],
    "subs": [
-    "Dan Lougheed",
     "Samuel Darla",
-    "Harvey Mitchell",
+    "Dan Lougheed",
     "Jerry Li",
+    "Harvey Mitchell",
     "Jeremy Buckley"
    ]
   },
@@ -39438,7 +39437,393 @@
    "home": "Jersey Pickleball Club",
    "away": "Flemington",
    "time": "2026-10-26T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Christopher Ullo",
+      "Kevin Wysoczynski"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Sean O'Connell"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ],
+     "a": [
+      "Tim Dowd",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Gary Sidhu"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Hany Ibrahim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Phillips",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Frank Clark",
+      "Jay Alquiros"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Wasib Malik",
+      "Gary Sidhu"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Sean O'Connell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bradford Bisignano",
+      "Matt Schall"
+     ],
+     "a": [
+      "Andy Ead",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Ullo",
+      "Kevin Wysoczynski"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Hany Ibrahim"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Phillips",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Jay Alquiros",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Gary Sidhu",
+      "Kevin Wysoczynski"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bradford Bisignano",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Sean O'Connell",
+      "Jay Alquiros"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Phillips",
+      "Wasib Malik"
+     ],
+     "a": [
+      "Frank Clark",
+      "Hany Ibrahim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kevin Wysoczynski",
+      "Gary Sidhu"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Phillips",
+      "Wasib Malik"
+     ],
+     "a": [
+      "Sean O'Connell",
+      "Jay Alquiros"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bradford Bisignano",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Hany Ibrahim",
+      "Frank Clark"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Gary Sidhu",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Hany Ibrahim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kevin Wysoczynski",
+      "Wasib Malik"
+     ],
+     "a": [
+      "Andy Ead",
+      "Jay Alquiros"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Sean O'Connell"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Phillips",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Frank Clark",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Gary Sidhu",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Hany Ibrahim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Sean O'Connell"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bradford Bisignano",
+      "Wasib Malik"
+     ],
+     "a": [
+      "Tim Dowd",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Phillips",
+      "Kevin Wysoczynski"
+     ],
+     "a": [
+      "Andy Ead",
+      "Jay Alquiros"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Wasib Malik",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Andy Ead"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Kevin Wysoczynski"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Gary Sidhu",
+      "Daniel Phillips"
+     ],
+     "a": [
+      "Sean O'Connell",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Rosenwasser",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Hany Ibrahim",
+      "Jay Alquiros"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Gary Sidhu",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Andy Ead"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Kevin Wysoczynski"
+     ],
+     "a": [
+      "Shahar Gelber",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Rosenwasser",
+      "Wasib Malik"
+     ],
+     "a": [
+      "Sean O'Connell",
+      "Frank Clark"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Anthony Bradford Bisignano",
+      "Daniel Phillips"
+     ],
+     "a": [
+      "Hany Ibrahim",
+      "Jay Alquiros"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -40932,7 +41317,7 @@
  ],
  "meta": {
   "matchesPlayed": 54,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-9",
   "totalPlayers": 226,
   "ratingHistoryWeeks": [
@@ -41060,7 +41445,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T23:42:51.382Z";
+  DATA.meta.asOf = "2026-10-25T02:28:38.834Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

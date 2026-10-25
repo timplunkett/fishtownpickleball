@@ -33941,8 +33941,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Wendi Wolanske"
      ],
      "a": [
       "Ani Stone",
@@ -33952,8 +33952,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Tina Cros"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -33963,8 +33963,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Kimberley Levins"
      ],
      "a": [
       "Joanne Rim",
@@ -33974,8 +33974,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Toni Demaio"
      ],
      "a": [
       "Theresa Corderi",
@@ -33985,8 +33985,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Sara Mizrahi"
      ],
      "a": [
       "Ani Stone",
@@ -33996,8 +33996,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Kathleen Lynch"
      ],
      "a": [
       "Marie Chen",
@@ -34007,8 +34007,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Corinne Palma"
      ],
      "a": [
       "Joanne Rim",
@@ -34018,8 +34018,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darragh Odonnell",
+      "Donna Finn"
      ],
      "a": [
       "Debi Mcdonald",
@@ -34029,8 +34029,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Toni Demaio"
      ],
      "a": [
       "San Yang",
@@ -34040,8 +34040,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Kathleen Lynch"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -34051,8 +34051,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Tina Cros"
      ],
      "a": [
       "Joanne Rim",
@@ -34062,8 +34062,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Sara Mizrahi"
      ],
      "a": [
       "Theresa Corderi",
@@ -34073,8 +34073,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Sara Mizrahi"
      ],
      "a": [
       "Ani Stone",
@@ -34084,8 +34084,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Corinne Palma",
+      "Virginia Kenny"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -34095,8 +34095,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Kimberley Levins"
      ],
      "a": [
       "Theresa Corderi",
@@ -34106,8 +34106,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darragh Odonnell",
+      "Donna Finn"
      ],
      "a": [
       "Debi Mcdonald",
@@ -34117,8 +34117,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Lynch",
+      "Toni Demaio"
      ],
      "a": [
       "Theresa Corderi",
@@ -34128,8 +34128,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Deborah Muschio"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -34139,8 +34139,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Amy Wondrack"
      ],
      "a": [
       "Ronnie Kostak",
@@ -34150,8 +34150,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Sara Mizrahi"
      ],
      "a": [
       "Ly Kim",
@@ -34161,8 +34161,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Mizrahi",
+      "Kimberley Levins"
      ],
      "a": [
       "Ani Stone",
@@ -34172,8 +34172,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Lynch",
+      "Donna Finn"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -34183,8 +34183,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Corinne Palma"
      ],
      "a": [
       "Marie Chen",
@@ -34194,8 +34194,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darragh Odonnell",
+      "Virginia Kenny"
      ],
      "a": [
       "Ly Kim",
@@ -34205,8 +34205,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Corinne Palma"
      ],
      "a": [
       "Ani Stone",
@@ -34216,8 +34216,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Kimberley Levins"
      ],
      "a": [
       "Debi Mcdonald",
@@ -34227,8 +34227,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Wendi Wolanske"
      ],
      "a": [
       "Joanne Rim",
@@ -34238,8 +34238,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Darragh Odonnell",
+      "Toni Demaio"
      ],
      "a": [
       "Ly Kim",
@@ -34249,8 +34249,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Deborah Muschio",
+      "Darragh Odonnell"
      ],
      "a": [
       "Ani Stone",
@@ -34260,8 +34260,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Wondrack",
+      "Donna Finn"
      ],
      "a": [
       "Vilayvanh Sysounthone",
@@ -34271,8 +34271,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Corinne Palma"
      ],
      "a": [
       "Ronnie Kostak",
@@ -34282,8 +34282,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Toni Demaio"
      ],
      "a": [
       "Theresa Corderi",
@@ -35203,6 +35203,7 @@
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
   "Beth Urbanski": "36c90242-18df-4017-a44f-1ec26b2732b4",
+  "Katty Wong-Taylor": "473f352b-9646-45d8-b949-2a17561a7ba2",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
@@ -35342,6 +35343,14 @@
   {
    "name": "Robin Aiello",
    "playerId": "45790302-b906-4a8b-8a2d-08fbfaf6cbad",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Katty Wong-Taylor",
+   "playerId": "473f352b-9646-45d8-b949-2a17561a7ba2",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
    "isCaptain": false,
@@ -35746,7 +35755,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T23:43:05.197Z";
+  DATA.meta.asOf = "2026-10-25T02:28:50.894Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

@@ -1133,9 +1133,9 @@
       "weekNumber": 9,
       "homeTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
       "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 673,
+      "awayPoints": 538,
+      "endResult": "home",
       "scheduledTime": "2026-10-24T18:00:00",
       "homeName": "Bounce Philly",
       "awayName": "APC Garden State"

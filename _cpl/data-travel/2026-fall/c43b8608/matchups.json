@@ -989,9 +989,9 @@
       "weekNumber": 10,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 509,
+      "awayPoints": 654,
+      "endResult": "away",
       "scheduledTime": "2026-10-24T15:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Stelton Sports"

@@ -6315,7 +6315,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 245,
+   "leagueRank": 246,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6344,7 +6344,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 250,
+   "leagueRank": 251,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6373,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 259,
+   "leagueRank": 260,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6431,7 +6431,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 253,
+   "leagueRank": 254,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6489,7 +6489,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 256,
+   "leagueRank": 257,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6518,7 +6518,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 260,
+   "leagueRank": 261,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6547,7 +6547,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 251,
+   "leagueRank": 252,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6576,7 +6576,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 247,
+   "leagueRank": 248,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6605,7 +6605,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 258,
+   "leagueRank": 259,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6634,7 +6634,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 254,
+   "leagueRank": 255,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6692,7 +6692,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 257,
+   "leagueRank": 258,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6721,7 +6721,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 255,
+   "leagueRank": 256,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6779,7 +6779,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 244,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -38934,7 +38934,11 @@
      ],
      "a": [
       "Kelly Arvidson",
-      "Tim Dowd"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -38985,7 +38989,7 @@
       "Michael Velez"
      ],
      "a": [
-      "Tim Dowd",
+      "Vivek Kumar",
       "Santhosh Pillai"
      ],
      "hSub": [
@@ -38993,7 +38997,7 @@
       1
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -39046,9 +39050,13 @@
      ],
      "a": [
       "Susan Ackley",
-      "Tim Dowd"
+      "Vivek Kumar"
      ],
      "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
       0,
       1
      ]
@@ -39101,11 +39109,11 @@
       "Ryan Rosen"
      ],
      "a": [
-      "Tim Dowd",
+      "Vivek Kumar",
       "Santhosh Pillai"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -39147,7 +39155,11 @@
      ],
      "a": [
       "Kelly Arvidson",
-      "Tim Dowd"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -39203,7 +39215,11 @@
      ],
      "a": [
       "Ross Switkes",
-      "Tim Dowd"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -39248,7 +39264,11 @@
      ],
      "a": [
       "Christine Ferraez",
-      "Tim Dowd"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -39338,7 +39358,11 @@
      ],
      "a": [
       "Robbie Oddy",
-      "Tim Dowd"
+      "Vivek Kumar"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     }
    ]
@@ -42798,7 +42822,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-24T23:41:51.542Z";
+  DATA.meta.asOf = "2026-10-25T02:27:41.621Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
