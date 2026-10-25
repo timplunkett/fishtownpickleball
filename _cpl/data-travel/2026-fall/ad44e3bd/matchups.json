@@ -581,9 +581,9 @@
       "weekNumber": 9,
       "homeTeamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "awayTeamId": "a03155b4-44f5-424c-b2cd-70c69da12572",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 653,
+      "awayPoints": 523,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T09:00:00",
       "homeName": "PKLD",
       "awayName": "Pickleball Lehigh Valley"

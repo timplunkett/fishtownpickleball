@@ -642,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 10,
-      "ranking": 49
+      "ranking": 48
     },
     {
       "playerId": "1afca308-dca6-4828-946a-0ca6ad1b0c44",
@@ -678,17 +678,17 @@
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
       "wins": 7,
-      "losses": 8,
-      "gamesPlayed": 15,
-      "pointsWon": 287,
-      "totalPointsAgainst": 293,
+      "losses": 7,
+      "gamesPlayed": 14,
+      "pointsWon": 268,
+      "totalPointsAgainst": 270,
       "clutchWins": 2,
-      "clutchLosses": 5,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 7,
-      "genderLosses": 8,
-      "ranking": 174
+      "genderLosses": 7,
+      "ranking": 164
     },
     {
       "playerId": "1ddcd805-f965-4357-9567-35920e191f8c",
@@ -711,7 +711,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 26,
-      "ranking": 163
+      "ranking": 162
     },
     {
       "playerId": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
@@ -757,7 +757,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 26,
-      "ranking": 170
+      "ranking": 171
     },
     {
       "playerId": "23871699-a12b-4eb6-89cb-62fec790e3fb",
@@ -803,7 +803,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 11,
-      "ranking": 167
+      "ranking": 168
     },
     {
       "playerId": "259fc7aa-7e69-4830-87d8-b9a758ec7fda",
@@ -838,16 +838,16 @@
       "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
-      "wins": 33,
+      "wins": 32,
       "losses": 19,
-      "gamesPlayed": 52,
-      "pointsWon": 1026,
-      "totalPointsAgainst": 952,
+      "gamesPlayed": 51,
+      "pointsWon": 1005,
+      "totalPointsAgainst": 935,
       "clutchWins": 15,
       "clutchLosses": 10,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 33,
+      "genderWins": 32,
       "genderLosses": 19,
       "ranking": 43
     },
@@ -1125,7 +1125,7 @@
       "mixedLosses": 0,
       "genderWins": 35,
       "genderLosses": 22,
-      "ranking": 52
+      "ranking": 51
     },
     {
       "playerId": "3533f5a2-d7ed-4fd3-b969-5117c0474452",
@@ -1332,7 +1332,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 12,
-      "ranking": 51
+      "ranking": 50
     },
     {
       "playerId": "3efad314-83fb-4441-a7bf-510228cea1f8",
@@ -1608,7 +1608,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 4,
-      "ranking": 164
+      "ranking": 165
     },
     {
       "playerId": "45d2cd6f-4816-46b2-8e17-fab766cdb87e",
@@ -1700,7 +1700,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 4,
-      "ranking": 165
+      "ranking": 167
     },
     {
       "playerId": "4aea9e80-552f-49b8-9118-c03af246e089",
@@ -2022,7 +2022,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 26,
-      "ranking": 168
+      "ranking": 169
     },
     {
       "playerId": "55570d6a-eb15-4ba1-8a31-b4cee56f6740",
@@ -2436,7 +2436,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 11,
-      "ranking": 172
+      "ranking": 173
     },
     {
       "playerId": "6bf475b8-0f4c-4e4b-a1ba-279f5f8aa008",
@@ -2620,7 +2620,7 @@
       "mixedLosses": 0,
       "genderWins": 31,
       "genderLosses": 22,
-      "ranking": 50
+      "ranking": 49
     },
     {
       "playerId": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
@@ -2632,18 +2632,18 @@
       "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
-      "wins": 36,
+      "wins": 37,
       "losses": 31,
-      "gamesPlayed": 67,
-      "pointsWon": 1276,
-      "totalPointsAgainst": 1205,
+      "gamesPlayed": 68,
+      "pointsWon": 1297,
+      "totalPointsAgainst": 1222,
       "clutchWins": 7,
       "clutchLosses": 16,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 36,
+      "genderWins": 37,
       "genderLosses": 31,
-      "ranking": 63
+      "ranking": 62
     },
     {
       "playerId": "73090c04-48a1-48b2-b638-55b1e656f4ed",
@@ -3011,7 +3011,7 @@
       "mixedLosses": 0,
       "genderWins": 37,
       "genderLosses": 25,
-      "ranking": 53
+      "ranking": 52
     },
     {
       "playerId": "8257200c-7448-4527-92df-436d7bb18cac",
@@ -3161,17 +3161,17 @@
       "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
-      "wins": 28,
-      "losses": 24,
-      "gamesPlayed": 52,
-      "pointsWon": 982,
-      "totalPointsAgainst": 925,
+      "wins": 29,
+      "losses": 25,
+      "gamesPlayed": 54,
+      "pointsWon": 1022,
+      "totalPointsAgainst": 961,
       "clutchWins": 5,
-      "clutchLosses": 10,
+      "clutchLosses": 11,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 28,
-      "genderLosses": 24,
+      "genderWins": 29,
+      "genderLosses": 25,
       "ranking": 66
     },
     {
@@ -3540,7 +3540,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 24,
-      "ranking": 169
+      "ranking": 170
     },
     {
       "playerId": "a0aa8b27-3980-4abd-a62c-62d801cb0a82",
@@ -3609,7 +3609,7 @@
       "mixedLosses": 0,
       "genderWins": 24,
       "genderLosses": 14,
-      "ranking": 34
+      "ranking": 35
     },
     {
       "playerId": "a3dbb909-29a5-4aa0-a40f-42bed311f9cd",
@@ -4391,7 +4391,7 @@
       "mixedLosses": 0,
       "genderWins": 24,
       "genderLosses": 20,
-      "ranking": 62
+      "ranking": 63
     },
     {
       "playerId": "c3c6b787-5356-467d-8268-08e5f3cbc450",
@@ -4414,7 +4414,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 173
+      "ranking": 174
     },
     {
       "playerId": "c55df548-ee89-4493-9268-850675b96066",
@@ -4588,17 +4588,17 @@
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
       "wins": 20,
-      "losses": 14,
-      "gamesPlayed": 34,
-      "pointsWon": 656,
-      "totalPointsAgainst": 585,
+      "losses": 15,
+      "gamesPlayed": 35,
+      "pointsWon": 675,
+      "totalPointsAgainst": 608,
       "clutchWins": 4,
-      "clutchLosses": 5,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 20,
-      "genderLosses": 14,
-      "ranking": 48
+      "genderLosses": 15,
+      "ranking": 53
     },
     {
       "playerId": "d13d6c03-eea2-44f3-a497-965b1e95ea83",
@@ -4610,17 +4610,17 @@
       "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
-      "wins": 23,
-      "losses": 27,
-      "gamesPlayed": 50,
-      "pointsWon": 935,
-      "totalPointsAgainst": 949,
+      "wins": 22,
+      "losses": 26,
+      "gamesPlayed": 48,
+      "pointsWon": 895,
+      "totalPointsAgainst": 913,
       "clutchWins": 11,
-      "clutchLosses": 10,
+      "clutchLosses": 9,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 23,
-      "genderLosses": 27,
+      "genderWins": 22,
+      "genderLosses": 26,
       "ranking": 90
     },
     {
@@ -5311,7 +5311,7 @@
       "mixedLosses": 0,
       "genderWins": 35,
       "genderLosses": 19,
-      "ranking": 35
+      "ranking": 34
     },
     {
       "playerId": "f4b44cd7-fc9a-41a2-b569-cdaf08b0bf26",
@@ -5334,7 +5334,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 15,
-      "ranking": 162
+      "ranking": 163
     },
     {
       "playerId": "f4cd45db-8d83-423a-8936-c7d7a3b0ffad",
@@ -5541,7 +5541,7 @@
       "mixedLosses": 0,
       "genderWins": 6,
       "genderLosses": 18,
-      "ranking": 171
+      "ranking": 172
     },
     {
       "playerId": "fa28fec9-9eff-4831-912d-4180f8760eeb",

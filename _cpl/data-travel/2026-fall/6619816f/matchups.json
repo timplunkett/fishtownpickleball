@@ -361,18 +361,6 @@
       "awayName": "Dill Dinkers Hatboro The Factory"
     },
     {
-      "matchupId": "a0bfcd90-9800-437b-9ed3-932e9ec0d6a7",
-      "weekNumber": 5,
-      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-27T09:00:00",
-      "homeName": "Jersey Pickleball Club",
-      "awayName": "Dill Dinkers Hatboro Aces"
-    },
-    {
       "matchupId": "fdc310ca-d3ce-4dc8-9c38-6e4f4548e483",
       "weekNumber": 5,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -677,9 +665,9 @@
       "weekNumber": 9,
       "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 572,
+      "awayPoints": 561,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T09:00:00",
       "homeName": "Dill Dinkers Hatboro Aces",
       "awayName": "Flemington"
@@ -725,9 +713,9 @@
       "weekNumber": 9,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 601,
+      "awayPoints": 550,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T12:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Pickle House"
@@ -743,6 +731,18 @@
       "scheduledTime": "2026-10-25T12:00:00",
       "homeName": "Bounce Malvern",
       "awayName": "Jersey Pickleball Club"
+    },
+    {
+      "matchupId": "a0bfcd90-9800-437b-9ed3-932e9ec0d6a7",
+      "weekNumber": 9,
+      "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-25T15:00:00",
+      "homeName": "Jersey Pickleball Club",
+      "awayName": "Dill Dinkers Hatboro Aces"
     },
     {
       "matchupId": "7c1863d3-ca3b-4942-9f0d-5cde7c47460c",

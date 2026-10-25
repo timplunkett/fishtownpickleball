@@ -1025,9 +1025,9 @@
       "weekNumber": 9,
       "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "awayTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 634,
+      "awayPoints": 593,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T12:00:00",
       "homeName": "Pickleball Kingdom Hillsborough",
       "awayName": "PickleRage Union County"
