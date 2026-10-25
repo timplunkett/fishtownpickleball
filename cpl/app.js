@@ -3923,6 +3923,20 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
         : computeExpectedOutcome(usPlayers[0], usPlayers[1], themPlayers[0], themPlayers[1]);
       const expectedMargin = expectation.margin;
       const projection = describeProjectedOutcome(expectation);
+      // A provisional match's game the league has no score for: shown with its
+      // lineup and projection, but there's no result to compare against.
+      if (game.ns) {
+        return `
+        <tr class="nsrow">
+          ${renderGameTypeCell(game.t)}
+          <td class="l">${formatSubAwarePlayers(usPlayers)}</td>
+          <td class="l">${formatSubAwarePlayers(themPlayers, { sep: ' / ', escape: true })}</td>
+          <td class="mut">—</td>
+          <td class="l"><span class="ns-tag" title="The league has no score for this game">No score</span></td>
+          <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
+        </tr>
+      `;
+      }
       if (expectedMargin !== null && Math.abs(expectedMargin) >= 1.0) {
         if (expectedMargin < 0 && win) {
           upsetWins++;

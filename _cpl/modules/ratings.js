@@ -25,24 +25,31 @@ const PAIR_MIN = 3;
 // happened.
 const hasPlayer = (g) => (g.homePlayerId1 || g.homePlayerId2) && (g.awayPlayerId1 || g.awayPlayerId2);
 
+const isScored = (g) => Number.isFinite(g.homeScore) && Number.isFinite(g.awayScore);
+
+// A slotted game left unscored either hasn't been played yet or never will be —
+// the league sometimes leaves a game blank once the match is already decided.
+// Either way the result is knowable as soon as the leader is ahead by more games
+// than are still unscored: nothing left can overturn it, and a match still in
+// progress whose outcome could flip stays unresolved. The unscored games are
+// left out of `games` and the point totals; there's no score to count.
 function deriveProvisionalOutcome(details) {
   const allLineups = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []);
   const slottedLineups = allLineups.filter(hasPlayer);
-  if (!slottedLineups.length) return null;
-
-  const hasUnscoredSlottedGame = slottedLineups.some((g) => !Number.isFinite(g.homeScore) || !Number.isFinite(g.awayScore));
-  if (hasUnscoredSlottedGame) return null;
+  const scoredLineups = slottedLineups.filter(isScored);
+  if (!scoredLineups.length) return null;
+  const unscoredGames = slottedLineups.length - scoredLineups.length;
 
   let homeGW = 0, awayGW = 0, homePoints = 0, awayPoints = 0;
-  for (const g of slottedLineups) {
+  for (const g of scoredLineups) {
     homePoints += g.homeScore;
     awayPoints += g.awayScore;
     if (g.homeScore > g.awayScore) homeGW++;
     else awayGW++;
   }
 
-  if (homeGW === awayGW) return null;
-  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: slottedLineups };
+  if (Math.abs(homeGW - awayGW) <= unscoredGames) return null;
+  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: scoredLineups, unscoredGames };
 }
 
 // Games are played to a fixed target with win-by-two, so the overwhelmingly most
@@ -148,9 +155,10 @@ function synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubF
 
 // Fold provisional outcomes into a matchup feed so everything downstream sees them
 // as results. A matchup the league hasn't closed out but whose lineups are filled
-// and fully scored gets the derived `endResult` and point totals written onto it,
-// plus `provisional: true` for the UI to label, and its details gain the
-// per-player stat rows the league hasn't published yet. `completed` filters and
+// and scored far enough to decide it gets the derived `endResult` and point
+// totals written onto it, plus `provisional: true` for the UI to label, and its
+// details gain the per-player stat rows the league hasn't published yet (and
+// lose any games still unscored). `completed` filters and
 // stat accumulation then need no special case: a provisional result counts toward
 // standings, records and ratings exactly as a confirmed one does, and the only
 // thing that distinguishes it is the flag.
@@ -178,6 +186,15 @@ function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam })
     });
     resolvedDetailById.set(matchup.matchupId, {
       ...details,
+      // Downstream reads the lineups of every completed match as played games, so
+      // a decided match's unscored games go: no stat should count them. The
+      // compiler's match game list reads the unresolved details to show them.
+      ...(provisional.unscoredGames ? {
+        lineups: {
+          ...details.lineups,
+          lineups: { ...details.lineups.lineups, $values: details.lineups.lineups.$values.filter(isScored) },
+        },
+      } : {}),
       matchupPlayerStats: {
         $values: synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubForTeam }),
       },
@@ -571,6 +588,7 @@ module.exports = {
   isClutch,
   countsTowardPlayerStats,
   deriveProvisionalOutcome,
+  isScored,
   inferGameTarget,
   clampGameScores,
   synthesizeMatchupPlayerStats,

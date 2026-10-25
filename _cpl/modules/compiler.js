@@ -29,6 +29,7 @@ const { writeArchiveData } = require('./archive-outputs');
 const { expandJson } = require('./json-utils');
 const {
   isForfeit,
+  isScored,
   applyProvisionalOutcomes,
   computeRatings,
   computeWeeklyRatingHistory,
@@ -1121,7 +1122,20 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     if (complete && d) {
       let hgw = 0, agw = 0;
       const glist = [];
-      for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
+      // A provisional match's resolved details have its unscored games dropped,
+      // so read the unresolved ones: the game list still shows those games,
+      // flagged `ns` (no score), with the lineup posted for them, and nothing
+      // counts them.
+      const gameSource = (m.provisional && detailById.get(m.matchupId)) || d;
+      for (const g of (gameSource.lineups && gameSource.lineups.lineups && gameSource.lineups.lineups.$values) || []) {
+        if (!isScored(g)) {
+          glist.push({
+            t: g.matchType, ns: 1, hs: null, as: null,
+            h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
+            a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
+          });
+          continue;
+        }
         const homeWin = g.homeScore > g.awayScore;
         homeWin ? hgw++ : agw++;
         if (["mixed", "male", "female"].includes(g.matchType)) {

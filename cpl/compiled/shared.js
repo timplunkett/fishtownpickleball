@@ -584,6 +584,7 @@
       if (!m.complete) continue;
       const subs = m.subs || [];
       for (const g of (m.games || [])) {
+        if (g.ns) continue; // a provisional match's unscored game: nobody's record counts it
         // Two passes over the same game, one per side: `mine` names the two
         // players on this side, `theirs` the two on the other. `f`/`a` are
         // this side's score and the opponent's, matching the compiler's

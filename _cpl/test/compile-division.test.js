@@ -740,3 +740,38 @@ test('a same-name-and-team collision prints exactly one warning line, naming bot
   assert.match(lines[0], /eg2/);
   assert.match(lines[0], /kept both/);
 });
+
+test('a provisional match lists its unscored game, flagged, and no stat counts it', (t) => {
+  const lineup = (homeScore, awayScore) => ({
+    homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2',
+    homeScore, awayScore, matchType: 'male', matchupId: 'm-prov',
+  });
+  const { data, gamesByPid } = compileToObjects(t, {
+    extraMatchups: [{
+      matchupId: 'm-prov', weekNumber: 3, homeTeamId: TEAMS.A, awayTeamId: TEAMS.B,
+      homeName: 'Aces', awayName: 'Bandits', homePoints: 0, awayPoints: 0,
+      endResult: null, scheduledTime: '2026-08-24T19:00:00',
+    }],
+    extraMatchupDetails: [{
+      matchupId: 'm-prov',
+      details: {
+        matchup: { endResult: null },
+        matchupPlayerStats: { $values: [] },
+        // 3-0 with one game left blank: nothing left can overturn it.
+        lineups: { lineups: { $values: [lineup(11, 4), lineup(11, 6), lineup(11, 9), lineup(null, null)] } },
+      },
+    }],
+  });
+
+  const match = data.matches.find(m => m.week === 3);
+  assert.equal(match.result, 'home');
+  assert.equal(match.provisional, true);
+  assert.deepEqual([match.homeGW, match.awayGW], [3, 0], 'the blank game is nobody\'s game win');
+  assert.deepEqual([match.homePoints, match.awayPoints], [33, 19]);
+  assert.equal(match.games.length, 4, 'the blank game is still listed');
+  assert.deepEqual(match.games[3], {
+    t: 'male', ns: 1, hs: null, as: null, h: ['Ann Alpha', 'Abe Anders'], a: ['Bea Bravo', 'Ben Boone'],
+  });
+  // a1 played two games in week 1 and three scored ones here.
+  assert.equal(gamesByPid.get('a1').length, 5);
+});

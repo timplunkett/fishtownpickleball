@@ -84,11 +84,24 @@ test('computeRatings tolerates a matchup without details', () => {
   assert.deepEqual(computeRatings(completed, new Map()), {});
 });
 
-test('deriveProvisionalOutcome needs fully slotted, fully scored, non-tied lineups', () => {
+const unscored = (matchType = 'mixed') => (
+  { homePlayerId1: 'a', homePlayerId2: 'b', awayPlayerId1: 'c', awayPlayerId2: 'd', homeScore: null, awayScore: null, matchType }
+);
+
+test('deriveProvisionalOutcome needs slotted lineups scored far enough to decide the match', () => {
   assert.equal(deriveProvisionalOutcome(detailWithGames([])), null);
-  // Unscored slotted game -> null
+  // Nothing scored yet -> null
+  assert.equal(deriveProvisionalOutcome(detailWithGames([unscored()])), null);
+  // Still unscored games enough to flip or tie it -> null
   assert.equal(deriveProvisionalOutcome(detailWithGames([
-    { homePlayerId1: 'a', homePlayerId2: 'b', awayPlayerId1: 'c', awayPlayerId2: 'd', homeScore: null, awayScore: null },
+    game('a', 'b', 'c', 'd', 21, 5),
+    unscored(),
+  ])), null);
+  assert.equal(deriveProvisionalOutcome(detailWithGames([
+    game('a', 'b', 'c', 'd', 21, 5),
+    game('a', 'b', 'c', 'd', 21, 7),
+    unscored(),
+    unscored(),
   ])), null);
   // Tie on game wins -> null
   assert.equal(deriveProvisionalOutcome(detailWithGames([
@@ -106,6 +119,25 @@ test('deriveProvisionalOutcome needs fully slotted, fully scored, non-tied lineu
   assert.equal(outcome.awayGW, 1);
   assert.equal(outcome.homePoints, 25);
   assert.equal(outcome.awayPoints, 23);
+});
+
+test('deriveProvisionalOutcome decides a match an unscored game can no longer overturn', () => {
+  // The shape of a real one (2026 fall travel, week 9): 31 games scored, one left
+  // blank with all four players slotted, 23-8 on games. In miniature here.
+  const outcome = deriveProvisionalOutcome(detailWithGames([
+    game('a', 'b', 'c', 'd', 21, 15),
+    game('a', 'b', 'c', 'd', 21, 14),
+    game('a', 'b', 'c', 'd', 21, 10),
+    game('a', 'b', 'c', 'd', 12, 21),
+    unscored(),
+  ]));
+  assert.equal(outcome.result, 'home');
+  assert.equal(outcome.homeGW, 3);
+  assert.equal(outcome.awayGW, 1);
+  assert.equal(outcome.unscoredGames, 1);
+  assert.equal(outcome.homePoints, 75, 'the unscored game adds no points');
+  assert.equal(outcome.awayPoints, 60);
+  assert.equal(outcome.games.length, 4, 'only scored games are carried');
 });
 
 test('isClutch flags two-point games but not forfeits', () => {
@@ -240,6 +272,28 @@ test('applyProvisionalOutcomes resolves a scored-but-unconfirmed matchup into a 
   assert.equal(scored.endResult, null);
   assert.equal(scored.homePoints, 0);
   assert.equal(details.get('prov').matchupPlayerStats, undefined);
+});
+
+test('applyProvisionalOutcomes drops a decided match\'s unscored games from its details', () => {
+  const scored = { matchupId: 'prov', weekNumber: 1, homeTeamId: 'H', awayTeamId: 'A', endResult: null };
+  const details = new Map([
+    ['prov', detailWithGames([
+      game('a', 'b', 'c', 'd', 21, 5),
+      game('a', 'b', 'c', 'd', 21, 7),
+      unscored(),
+    ])],
+  ]);
+  const resolved = applyProvisionalOutcomes([scored], details, { isSubForTeam: () => false });
+
+  assert.equal(resolved.provisionalCount, 1);
+  assert.equal(resolved.matchups[0].endResult, 'home');
+  const games = resolved.detailById.get('prov').lineups.lineups.$values;
+  assert.equal(games.length, 2, 'downstream never sees a null-score game');
+  assert.ok(games.every(g => Number.isFinite(g.homeScore) && Number.isFinite(g.awayScore)));
+  const a = resolved.detailById.get('prov').matchupPlayerStats.$values.find(r => r.playerId === 'a');
+  assert.equal(a.gamesPlayed, 2);
+  // Inputs are not mutated.
+  assert.equal(details.get('prov').lineups.lineups.$values.length, 3);
 });
 
 test('applyProvisionalOutcomes feeds provisional games into the ratings', () => {

@@ -1466,7 +1466,9 @@ thead th:focus-visible,
   opacity: 0.6;
 }
 
-.ff-tag {
+/* A provisional match's game with no score yet: same pill as a forfeit */
+.ff-tag,
+.ns-tag {
   padding: 1px 6px;
   color: var(--mut);
   font-size: 9.5px;
