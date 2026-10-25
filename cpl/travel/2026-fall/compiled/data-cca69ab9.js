@@ -6141,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 235,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 243,
+   "leagueRank": 244,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6199,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 231,
+   "leagueRank": 232,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 239,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6257,7 +6257,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 233,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6286,7 +6286,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -40763,6 +40763,7 @@
   "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
+  "Adam Beck": "7d836ecc-e553-4966-9c12-2dc698a545d0",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
@@ -41069,6 +41070,14 @@
    "playerId": "7d25c9f9-c478-402a-9139-cc8781686a8e",
    "gender": "Male",
    "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Adam Beck",
+   "playerId": "7d836ecc-e553-4966-9c12-2dc698a545d0",
+   "gender": "Male",
+   "team": "Picklr Newtown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -41483,7 +41492,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-25T10:28:55.953Z";
+  DATA.meta.asOf = "2026-10-25T15:21:17.113Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

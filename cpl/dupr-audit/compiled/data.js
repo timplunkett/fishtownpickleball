@@ -13663,6 +13663,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Michael Velez",
+   "playerId": "772b8bd9-ee55-463b-8e7d-f5e571a2f047",
+   "team": "Dill Dinkers Hatboro Aces",
+   "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
    "name": "Michael Vincent",
    "playerId": "7f44421c-476c-4857-99ed-3376b32289ca",
    "team": "Home Court",
