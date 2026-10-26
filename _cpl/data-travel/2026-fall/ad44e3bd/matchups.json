@@ -569,9 +569,9 @@
       "weekNumber": 9,
       "homeTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T09:00:00",
       "homeName": "Life Time Red Bank",
       "awayName": "Pickleball Kingdom Hillsborough"

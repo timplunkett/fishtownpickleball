@@ -43040,7 +43040,7 @@
     "lastName": "Antico",
     "dupr": "3YQQPG",
     "duprRating": "4.551",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-10",
     "duprNumericId": 8492243512,
     "duprProvisional": false
   },
@@ -48894,6 +48894,26 @@
     "duprRating": "3.107",
     "lastSeen": "2026-10",
     "duprNumericId": 7897154369,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "23dc6f94-5506-42b9-b817-95585e2feb98",
+    "firstName": "Huy",
+    "lastName": "Dinh",
+    "dupr": "KON0WK",
+    "duprRating": "4.336",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8419912634,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "78166efd-32b0-4f51-b7d1-74da45ef9d50",
+    "firstName": "Nick",
+    "lastName": "Lavalette",
+    "dupr": "4ZPP6K",
+    "duprRating": "3.925",
+    "lastSeen": "2026-10",
+    "duprNumericId": 8424465785,
     "duprProvisional": false
   }
 ]

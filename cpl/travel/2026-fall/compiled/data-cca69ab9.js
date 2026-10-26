@@ -6141,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 236,
+   "leagueRank": 238,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 245,
+   "leagueRank": 247,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6199,7 +6199,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 232,
+   "leagueRank": 234,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 240,
+   "leagueRank": 242,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6257,13 +6257,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 234,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Eric Berlinger",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 231,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e"
   },
   {
    "name": "Meet Patel",
@@ -6286,7 +6315,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 238,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6315,7 +6344,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 243,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6344,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 229,
+   "leagueRank": 230,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6373,7 +6402,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 237,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6402,13 +6431,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 241,
+   "leagueRank": 243,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
+  },
+  {
+   "name": "Joe Antico",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 229,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f863dc2d-5729-4371-869b-cee2c4287dfd"
   },
   {
    "name": "Doug Horton",
@@ -40093,16 +40151,20 @@
     {
      "t": "male",
      "h": [
-      "Ethan Rosen",
-      "Gary Sidhu"
+      "Matt Schall",
+      "Ethan Rosen"
      ],
      "a": [
       "Shahar Gelber",
-      "Hany Ibrahim"
+      "Joe Antico"
      ],
      "hSub": [
-      1,
-      0
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -40113,33 +40175,37 @@
      ],
      "a": [
       "Frank Clark",
-      "Jay Alquiros"
+      "Eric Berlinger"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Wasib Malik",
-      "Gary Sidhu"
+      "Ethan Rosen"
      ],
      "a": [
       "Robbie Oddy",
       "Sean O'Connell"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Anthony Bradford Bisignano",
-      "Ethan Rosen"
+      "Matt Schall"
      ],
      "a": [
       "Andy Ead",
       "Tim Dowd"
-     ],
-     "hSub": [
-      0,
-      1
      ]
     },
     {
@@ -40150,11 +40216,15 @@
      ],
      "a": [
       "Shahar Gelber",
-      "Hany Ibrahim"
+      "Joe Antico"
      ],
      "hSub": [
       1,
       0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -40164,21 +40234,10 @@
       "Simon Rosenwasser"
      ],
      "a": [
-      "Jay Alquiros",
+      "Eric Berlinger",
       "Frank Clark"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Ethan Rosen",
-      "Simon Rosenwasser"
      ],
-     "a": [
-      "Robbie Oddy",
-      "Tim Dowd"
-     ],
-     "hSub": [
+     "aSub": [
       1,
       0
      ]
@@ -40186,12 +40245,27 @@
     {
      "t": "male",
      "h": [
-      "Gary Sidhu",
+      "Matt Schall",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ethan Rosen",
       "Kevin Wysoczynski"
      ],
      "a": [
       "Shahar Gelber",
       "Andy Ead"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -40202,9 +40276,13 @@
      ],
      "a": [
       "Sean O'Connell",
-      "Jay Alquiros"
+      "Eric Berlinger"
      ],
      "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
       0,
       1
      ]
@@ -40217,33 +40295,37 @@
      ],
      "a": [
       "Frank Clark",
-      "Hany Ibrahim"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Ethan Rosen",
-      "Simon Rosenwasser"
+      "Joe Antico"
      ],
-     "a": [
-      "Robbie Oddy",
-      "Tim Dowd"
-     ],
-     "hSub": [
-      1,
-      0
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Kevin Wysoczynski",
-      "Gary Sidhu"
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Tim Dowd"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Ethan Rosen"
      ],
      "a": [
       "Shahar Gelber",
       "Andy Ead"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -40254,7 +40336,11 @@
      ],
      "a": [
       "Sean O'Connell",
-      "Jay Alquiros"
+      "Eric Berlinger"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -40264,23 +40350,35 @@
       "Christopher Ullo"
      ],
      "a": [
-      "Hany Ibrahim",
+      "Joe Antico",
       "Frank Clark"
      ],
      "hSub": [
       0,
       1
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "Gary Sidhu",
+      "Ethan Rosen",
       "Simon Rosenwasser"
      ],
      "a": [
       "Robbie Oddy",
-      "Hany Ibrahim"
+      "Joe Antico"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -40291,13 +40389,17 @@
      ],
      "a": [
       "Andy Ead",
-      "Jay Alquiros"
+      "Eric Berlinger"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "Ethan Rosen",
+      "Matt Schall",
       "Christopher Ullo"
      ],
      "a": [
@@ -40305,7 +40407,7 @@
       "Sean O'Connell"
      ],
      "hSub": [
-      1,
+      0,
       1
      ]
     },
@@ -40323,18 +40425,26 @@
     {
      "t": "male",
      "h": [
-      "Gary Sidhu",
+      "Ethan Rosen",
       "Simon Rosenwasser"
      ],
      "a": [
       "Robbie Oddy",
-      "Hany Ibrahim"
+      "Joe Antico"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "Ethan Rosen",
+      "Matt Schall",
       "Christopher Ullo"
      ],
      "a": [
@@ -40342,7 +40452,7 @@
       "Sean O'Connell"
      ],
      "hSub": [
-      1,
+      0,
       1
      ]
     },
@@ -40365,7 +40475,11 @@
      ],
      "a": [
       "Andy Ead",
-      "Jay Alquiros"
+      "Eric Berlinger"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -40386,27 +40500,27 @@
     {
      "t": "male",
      "h": [
-      "Ethan Rosen",
+      "Matt Schall",
       "Kevin Wysoczynski"
      ],
      "a": [
       "Shahar Gelber",
       "Tim Dowd"
-     ],
-     "hSub": [
-      1,
-      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "Gary Sidhu",
+      "Ethan Rosen",
       "Daniel Phillips"
      ],
      "a": [
       "Sean O'Connell",
       "Frank Clark"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -40416,22 +40530,11 @@
       "Anthony Bradford Bisignano"
      ],
      "a": [
-      "Hany Ibrahim",
-      "Jay Alquiros"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Gary Sidhu",
-      "Christopher Ullo"
+      "Joe Antico",
+      "Eric Berlinger"
      ],
-     "a": [
-      "Robbie Oddy",
-      "Andy Ead"
-     ],
-     "hSub": [
-      0,
+     "aSub": [
+      1,
       1
      ]
     },
@@ -40439,15 +40542,26 @@
      "t": "male",
      "h": [
       "Ethan Rosen",
+      "Christopher Ullo"
+     ],
+     "a": [
+      "Robbie Oddy",
+      "Andy Ead"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
       "Kevin Wysoczynski"
      ],
      "a": [
       "Shahar Gelber",
       "Tim Dowd"
-     ],
-     "hSub": [
-      1,
-      0
      ]
     },
     {
@@ -40468,8 +40582,12 @@
       "Daniel Phillips"
      ],
      "a": [
-      "Hany Ibrahim",
-      "Jay Alquiros"
+      "Joe Antico",
+      "Eric Berlinger"
+     ],
+     "aSub": [
+      1,
+      1
      ]
     }
    ]
@@ -41482,6 +41600,14 @@
    "outsideSub": true
   },
   {
+   "name": "Eric Berlinger",
+   "playerId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Nathaniel Flores",
    "playerId": "31194d9a-69bf-4949-92b6-d5376144b8c5",
    "gender": "Male",
@@ -42008,13 +42134,21 @@
    "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
+  },
+  {
+   "name": "Joe Antico",
+   "playerId": "f863dc2d-5729-4371-869b-cee2c4287dfd",
+   "gender": "Male",
+   "team": "Flemington",
+   "isCaptain": false,
+   "outsideSub": true
   }
  ],
  "meta": {
   "matchesPlayed": 55,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 230,
+  "totalPlayers": 232,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42140,7 +42274,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T11:57:18.881Z";
+  DATA.meta.asOf = "2026-10-26T18:01:10.737Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

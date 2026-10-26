@@ -8635,7 +8635,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 317,
+   "leagueRank": 318,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8664,7 +8664,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 328,
+   "leagueRank": 330,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8693,7 +8693,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 319,
+   "leagueRank": 321,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8722,7 +8722,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 311,
+   "leagueRank": 312,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8751,7 +8751,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 310,
+   "leagueRank": 311,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8780,7 +8780,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 318,
+   "leagueRank": 319,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8809,13 +8809,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 313,
+   "leagueRank": 314,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "26c05976-e276-4316-bf43-3ea1316de1e7"
+  },
+  {
+   "name": "Brandon Calmo",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 308,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "79a3d198-0295-4bed-b0d7-bcda477d6b3a"
   },
   {
    "name": "Duy Duong",
@@ -8838,7 +8867,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 312,
+   "leagueRank": 313,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8867,7 +8896,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 320,
+   "leagueRank": 322,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8896,7 +8925,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 323,
+   "leagueRank": 325,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -9561,14 +9590,14 @@
   },
   {
    "name": "Flemington",
-   "w": 1,
+   "w": 2,
    "l": 8,
-   "pf": 4934,
+   "pf": 4966,
    "pa": 5647,
-   "gw": 93,
+   "gw": 125,
    "gl": 195,
-   "diff": -713,
-   "gameDiff": -102,
+   "diff": -681,
+   "gameDiff": -70,
    "power": -0.9,
    "powerRank": 6,
    "pod": 2,
@@ -9580,7 +9609,7 @@
      0
     ],
     "male": [
-     93,
+     125,
      195
     ],
     "female": [
@@ -9592,13 +9621,13 @@
   {
    "name": "Allstar Pickler",
    "w": 1,
-   "l": 9,
+   "l": 10,
    "pf": 4832,
-   "pa": 5799,
+   "pa": 5831,
    "gw": 76,
-   "gl": 244,
-   "diff": -967,
-   "gameDiff": -168,
+   "gl": 276,
+   "diff": -999,
+   "gameDiff": -200,
    "power": -1.1,
    "powerRank": 7,
    "pod": 2,
@@ -9611,7 +9640,7 @@
     ],
     "male": [
      76,
-     244
+     276
     ],
     "female": [
      0,
@@ -58299,15 +58328,22 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "week": 9,
    "home": "Flemington",
    "away": "Allstar Pickler",
    "time": "2026-10-25T09:00:00",
-   "complete": false,
+   "complete": true,
+   "homePoints": 32,
+   "awayPoints": 0,
+   "homeGW": 32,
+   "awayGW": 0,
    "games": [
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "Josh Fink"
@@ -58319,6 +58355,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Craig Butler",
       "John Pineda"
@@ -58330,6 +58369,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Fallone",
       "David Tabacco"
@@ -58341,6 +58383,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Shapiro",
       "Franklin Lupianez"
@@ -58352,6 +58397,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Craig Butler",
       "John Fallone"
@@ -58363,6 +58411,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "Josh Fink"
@@ -58374,6 +58425,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Tom Hadler",
       "David Shapiro"
@@ -58385,6 +58439,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Tabacco",
       "Josh Rito"
@@ -58396,6 +58453,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "Craig Butler"
@@ -58407,6 +58467,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Josh Fink",
       "Tom Hadler"
@@ -58418,6 +58481,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Tabacco",
       "Franklin Lupianez"
@@ -58429,6 +58495,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Josh Rito",
       "John Pineda"
@@ -58440,6 +58509,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Craig Butler",
       "John Fallone"
@@ -58451,6 +58523,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "Tom Hadler"
@@ -58462,6 +58537,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Pineda",
       "David Shapiro"
@@ -58473,6 +58551,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Franklin Lupianez",
       "Josh Rito"
@@ -58484,6 +58565,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Craig Butler",
       "John Pineda"
@@ -58495,6 +58579,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Shapiro",
       "John Fallone"
@@ -58506,6 +58593,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Tabacco",
       "Josh Rito"
@@ -58517,6 +58607,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Franklin Lupianez",
       "Josh Fink"
@@ -58528,6 +58621,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Josh Fink",
       "David Shapiro"
@@ -58539,6 +58635,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Tom Hadler",
       "Josh Rito"
@@ -58550,6 +58649,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "Craig Butler"
@@ -58561,6 +58663,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Pineda",
       "Franklin Lupianez"
@@ -58572,6 +58677,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Craig Butler",
       "Josh Fink"
@@ -58583,6 +58691,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Shapiro",
       "John Pineda"
@@ -58594,6 +58705,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "Tom Hadler"
@@ -58605,6 +58719,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Tabacco",
       "John Fallone"
@@ -58616,6 +58733,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "David Shapiro",
       "Josh Fink"
@@ -58627,6 +58747,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Fallone",
       "Josh Rito"
@@ -58638,6 +58761,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Eric Berlinger",
       "David Tabacco"
@@ -58649,6 +58775,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Franklin Lupianez",
       "Tom Hadler"
@@ -58658,7 +58787,8 @@
       "Jonathan Lugtu"
      ]
     }
-   ]
+   ],
+   "subs": []
   },
   {
    "result": "home",
@@ -60643,8 +60773,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Christopher Monzon",
@@ -60654,8 +60784,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "Umang Pathak"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -60665,41 +60795,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Bill Olderman"
      ],
      "a": [
       "Elliott Albanese",
       "Yashraj Kurani"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "John Manuzza"
      ],
      "a": [
       "Corey Chen",
       "Akash Raju"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "John Manuzza"
      ],
      "a": [
       "George Vega Jr",
       "Christopher Monzon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luke Simon",
+      "Umang Pathak"
      ],
      "a": [
       "Elliott Albanese",
@@ -60709,19 +60851,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Jun Zhi Tan",
       "Akash Raju"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "Jesse Mynahan"
      ],
      "a": [
       "Corey Chen",
@@ -60731,19 +60877,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Luke Simon"
      ],
      "a": [
       "Christopher Monzon",
       "Jun Zhi Tan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Elliott Albanese",
@@ -60753,8 +60903,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Umang Pathak"
      ],
      "a": [
       "Varun Kabaria",
@@ -60764,30 +60914,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Xhulio Kola"
      ],
      "a": [
       "Corey Chen",
       "Ritesh Patel"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Bill Olderman"
      ],
      "a": [
       "Christopher Monzon",
       "Jun Zhi Tan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Luke Simon"
      ],
      "a": [
       "Elliott Albanese",
@@ -60797,8 +60955,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "John Manuzza"
      ],
      "a": [
       "George Vega Jr",
@@ -60808,8 +60966,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "Jesse Mynahan"
      ],
      "a": [
       "Varun Kabaria",
@@ -60819,19 +60977,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Umang Pathak"
      ],
      "a": [
       "Jun Zhi Tan",
       "Elliott Albanese"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Jesse Mynahan"
      ],
      "a": [
       "Akash Raju",
@@ -60841,19 +61003,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Luke Simon"
      ],
      "a": [
       "George Vega Jr",
       "Yashraj Kurani"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Shalin Rawal"
      ],
      "a": [
       "Varun Kabaria",
@@ -60863,8 +61029,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "John Manuzza"
      ],
      "a": [
       "Christopher Monzon",
@@ -60874,30 +61040,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Shalin Rawal"
      ],
      "a": [
       "Elliott Albanese",
       "Jun Zhi Tan"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Todd Mitchell"
      ],
      "a": [
       "Akash Raju",
       "George Vega Jr"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Luke Simon"
      ],
      "a": [
       "Ritesh Patel",
@@ -60907,30 +61081,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Shalin Rawal"
      ],
      "a": [
       "Elliott Albanese",
       "Corey Chen"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Todd Mitchell"
      ],
      "a": [
       "Jun Zhi Tan",
       "Akash Raju"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Luke Simon"
      ],
      "a": [
       "George Vega Jr",
@@ -60940,8 +61122,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "John Manuzza"
      ],
      "a": [
       "Christopher Monzon",
@@ -60951,30 +61133,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Todd Mitchell"
      ],
      "a": [
       "Christopher Monzon",
       "Corey Chen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Xhulio Kola"
      ],
      "a": [
       "George Vega Jr",
       "Elliott Albanese"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Umang Pathak"
      ],
      "a": [
       "Jun Zhi Tan",
@@ -60984,8 +61174,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "John Manuzza"
      ],
      "a": [
       "Varun Kabaria",
@@ -62118,7 +62308,417 @@
    "home": "Pickleball Kingdom Hamilton",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-27T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Kevin Lew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Anthony Solares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Big G",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Cortes",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Ben Cortes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Big G",
+      "Kevin Lew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Solares",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Kevin Lew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Big G",
+      "Anthony Solares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Cortes",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Big G"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Lew",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Solares",
+      "Ben Cortes"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Kevin Lew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Anthony Solares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Big G",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Cortes",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Ben Cortes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Big G",
+      "Kevin Lew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Solares",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Kevin Lew"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Big G",
+      "Anthony Solares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ben Cortes",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erik Reilly",
+      "Big G"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ian Kohn",
+      "Brandon Calmo"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kevin Lew",
+      "Uday Acham"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Solares",
+      "Ben Cortes"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -62272,6 +62872,7 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
+  "Nick Lavalette": "78166efd-32b0-4f51-b7d1-74da45ef9d50",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Jason Huang": "85c7fc54-57f2-4b1d-9601-a2265de3b295",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
@@ -62579,10 +63180,26 @@
    "outsideSub": true
   },
   {
+   "name": "Nick Lavalette",
+   "playerId": "78166efd-32b0-4f51-b7d1-74da45ef9d50",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "David Brond",
    "playerId": "790dc637-f23d-4942-af8a-bfd20b474282",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Brandon Calmo",
+   "playerId": "79a3d198-0295-4bed-b0d7-bcda477d6b3a",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -62940,10 +63557,10 @@
   }
  ],
  "meta": {
-  "matchesPlayed": 85,
+  "matchesPlayed": 86,
   "provisionalMatches": 1,
   "weeks": "1-9",
-  "totalPlayers": 314,
+  "totalPlayers": 315,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -63081,7 +63698,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T02:28:22.248Z";
+  DATA.meta.asOf = "2026-10-26T18:01:49.434Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

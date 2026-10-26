@@ -909,6 +909,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Amanda Nguyen",
+   "playerId": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
+   "team": "PickleRage Union County",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Amanda Quinn",
    "playerId": "f1248cc3-96c3-4671-9b08-533d22eb710f",
    "team": "Pickleball Palace",
@@ -5182,6 +5189,13 @@ window.DUPR_AUDIT = {
    "name": "Dipen Bhatt",
    "playerId": "fe8af1d3-ff62-430d-90af-32794cc7b912",
    "team": "Pickle House",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Dipen Bhatt",
+   "playerId": "fe8af1d3-ff62-430d-90af-32794cc7b912",
+   "team": "Pickle House",
    "slug": "6619816f",
    "gender": "Male"
   },
@@ -8487,6 +8501,13 @@ window.DUPR_AUDIT = {
    "playerId": "3c293cfa-d13b-4c0d-8cfe-057058b886d8",
    "team": "Bounce Philly",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Jeremy Workman",
+   "playerId": "5a15e437-7769-4d60-bd0c-b6c48176289c",
+   "team": "Pickle Place",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {
@@ -14227,6 +14248,13 @@ window.DUPR_AUDIT = {
    "playerId": "bd958367-8cce-4f24-ba5a-208bac9b42b0",
    "team": "APC Garden State",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Neel Goyal",
+   "playerId": "8cfc8650-92ac-4ed4-9b57-2692526abd19",
+   "team": "Montville",
+   "slug": "a1413f3d",
    "gender": "Male"
   },
   {

@@ -1013,9 +1013,9 @@
       "weekNumber": 9,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T09:00:00",
       "homeName": "Flemington",
       "awayName": "Allstar Pickler"
