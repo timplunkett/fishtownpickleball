@@ -6382,6 +6382,35 @@
    "playerId": "9f205d60-6056-482a-bcca-3dfdbacf1e8d"
   },
   {
+   "name": "Ethan Rosen",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 241,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
+  },
+  {
    "name": "Doug Horton",
    "gender": "Male",
    "team": "Bounce Tempest",
@@ -40064,12 +40093,16 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Gary Sidhu"
      ],
      "a": [
       "Shahar Gelber",
       "Hany Ibrahim"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -40098,11 +40131,15 @@
      "t": "male",
      "h": [
       "Anthony Bradford Bisignano",
-      "Matt Schall"
+      "Ethan Rosen"
      ],
      "a": [
       "Andy Ead",
       "Tim Dowd"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -40134,12 +40171,16 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Simon Rosenwasser"
      ],
      "a": [
       "Robbie Oddy",
       "Tim Dowd"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -40182,12 +40223,16 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Simon Rosenwasser"
      ],
      "a": [
       "Robbie Oddy",
       "Tim Dowd"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -40252,7 +40297,7 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Christopher Ullo"
      ],
      "a": [
@@ -40260,7 +40305,7 @@
       "Sean O'Connell"
      ],
      "hSub": [
-      0,
+      1,
       1
      ]
     },
@@ -40289,7 +40334,7 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Christopher Ullo"
      ],
      "a": [
@@ -40297,7 +40342,7 @@
       "Sean O'Connell"
      ],
      "hSub": [
-      0,
+      1,
       1
      ]
     },
@@ -40341,12 +40386,16 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Kevin Wysoczynski"
      ],
      "a": [
       "Shahar Gelber",
       "Tim Dowd"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -40389,12 +40438,16 @@
     {
      "t": "male",
      "h": [
-      "Matt Schall",
+      "Ethan Rosen",
       "Kevin Wysoczynski"
      ],
      "a": [
       "Shahar Gelber",
       "Tim Dowd"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
@@ -41353,8 +41406,7 @@
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
-  "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
-  "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
+  "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f"
  },
  "availableSubs": [
   {
@@ -41962,7 +42014,7 @@
   "matchesPlayed": 55,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 229,
+  "totalPlayers": 230,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -42088,7 +42140,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T01:48:48.562Z";
+  DATA.meta.asOf = "2026-10-26T11:57:18.881Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

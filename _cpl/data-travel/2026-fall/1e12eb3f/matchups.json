@@ -1469,9 +1469,9 @@
       "weekNumber": 10,
       "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "awayTeamId": "621178fb-7b14-4740-831d-5506d8c87800",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 570,
+      "awayPoints": 581,
+      "endResult": "away",
       "scheduledTime": "2026-10-25T18:00:00",
       "homeName": "Flemington Green",
       "awayName": "Premiere Dinkers"
