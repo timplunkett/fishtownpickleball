@@ -6141,7 +6141,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 235,
+   "leagueRank": 236,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6170,7 +6170,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 244,
+   "leagueRank": 245,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6228,7 +6228,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 239,
+   "leagueRank": 240,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6266,6 +6266,35 @@
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
   },
   {
+   "name": "Meet Patel",
+   "gender": "Male",
+   "team": "Monroe",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 238,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "455edf3d-7568-49ab-b20b-4b66591ed544"
+  },
+  {
    "name": "Chase Thomas",
    "gender": "Male",
    "team": "ACE Moorestown",
@@ -6286,13 +6315,71 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 242,
+   "leagueRank": 243,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "76874590-6501-40f8-ab24-7df0fb631c71"
+  },
+  {
+   "name": "Adam Beck",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 229,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7d836ecc-e553-4966-9c12-2dc698a545d0"
+  },
+  {
+   "name": "Todd Gasparre",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 235,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9f205d60-6056-482a-bcca-3dfdbacf1e8d"
   },
   {
    "name": "Doug Horton",
@@ -38761,8 +38848,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Joseph Lynskey"
      ],
      "a": [
       "Neel Goyal",
@@ -38772,8 +38859,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Chris Frangipane"
      ],
      "a": [
       "Jason Makarevic",
@@ -38783,8 +38870,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Thomas Connolly",
@@ -38794,8 +38881,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Gary White"
      ],
      "a": [
       "Vivek Kumar",
@@ -38805,8 +38892,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Gary White"
      ],
      "a": [
       "Thomas Connolly",
@@ -38816,8 +38903,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Elliott Albanese",
@@ -38827,8 +38914,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Matthew Friedman"
      ],
      "a": [
       "Ian Chin",
@@ -38838,8 +38925,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Boris Tserlin"
      ],
      "a": [
       "Camrin Cronheim",
@@ -38849,8 +38936,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Matthew Friedman"
      ],
      "a": [
       "Camrin Cronheim",
@@ -38860,8 +38947,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Boris Tserlin"
      ],
      "a": [
       "Neel Goyal",
@@ -38871,8 +38958,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Rob Pandolfi"
      ],
      "a": [
       "Thomas Connolly",
@@ -38882,8 +38969,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Joseph Lynskey"
      ],
      "a": [
       "Jake Laifer",
@@ -38893,8 +38980,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Thomas Connolly",
@@ -38904,8 +38991,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Michael Rapaglia"
      ],
      "a": [
       "Jake Laifer",
@@ -38915,8 +39002,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Lynskey",
+      "Matthew Friedman"
      ],
      "a": [
       "Camrin Cronheim",
@@ -38926,8 +39013,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Neil Ottrando"
      ],
      "a": [
       "Jason Makarevic",
@@ -38937,8 +39024,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Matthew Friedman"
      ],
      "a": [
       "Thomas Connolly",
@@ -38948,8 +39035,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Joseph Lynskey"
      ],
      "a": [
       "Ian Chin",
@@ -38959,8 +39046,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Gary White"
      ],
      "a": [
       "Jason Makarevic",
@@ -38970,8 +39057,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Rob Pandolfi"
      ],
      "a": [
       "Camrin Cronheim",
@@ -38981,8 +39068,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Gary White"
      ],
      "a": [
       "Jason Makarevic",
@@ -38992,8 +39079,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Michael Rapaglia"
      ],
      "a": [
       "Neel Goyal",
@@ -39003,8 +39090,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neil Ottrando",
+      "Joseph Lynskey"
      ],
      "a": [
       "Ian Chin",
@@ -39014,8 +39101,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Friedman",
+      "Rob Pandolfi"
      ],
      "a": [
       "Thomas Connolly",
@@ -39025,8 +39112,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Neil Ottrando"
      ],
      "a": [
       "Camrin Cronheim",
@@ -39036,8 +39123,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Matthew Friedman"
      ],
      "a": [
       "Jason Makarevic",
@@ -39047,8 +39134,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Frangipane",
+      "Michael Rapaglia"
      ],
      "a": [
       "Thomas Connolly",
@@ -39058,8 +39145,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nicholas Yandoli",
+      "Joseph Lynskey"
      ],
      "a": [
       "Elliott Albanese",
@@ -39069,8 +39156,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Pandolfi",
+      "Neil Ottrando"
      ],
      "a": [
       "Thomas Connolly",
@@ -39080,8 +39167,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gary White",
+      "Chris Frangipane"
      ],
      "a": [
       "Elliott Albanese",
@@ -39091,8 +39178,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Rapaglia",
+      "Matthew Friedman"
      ],
      "a": [
       "Camrin Cronheim",
@@ -39102,8 +39189,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Boris Tserlin",
+      "Nicholas Yandoli"
      ],
      "a": [
       "Jason Makarevic",
@@ -39123,23 +39210,23 @@
     {
      "t": "male",
      "h": [
-      "Patrick Ryan",
-      "Zach Hollmann"
+      "Chris Damato",
+      "Patrick Ryan"
      ],
      "a": [
       "Vince Abate",
       "Vaughn Mcclelland"
      ],
      "hSub": [
-      1,
-      0
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
       "Ali Husain",
-      "Mickey Cook"
+      "Michael Li"
      ],
      "a": [
       "Tyler Arsenault",
@@ -39149,8 +39236,60 @@
     {
      "t": "male",
      "h": [
+      "Craig Frame",
+      "Shang Li"
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Stephen Conger"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mickey Cook",
+      "Zach Hollmann"
+     ],
+     "a": [
+      "Braden Keith",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ali Husain",
+      "Dipen Bhatt"
+     ],
+     "a": [
+      "Vince Abate",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Zach Hollmann",
+      "Patrick Ryan"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Ryan Furman"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
       "Michael Li",
-      "Chris Damato"
+      "Rich Marcovecchio"
      ],
      "a": [
       "Sheel Motiwala",
@@ -39160,7 +39299,7 @@
     {
      "t": "male",
      "h": [
-      "Craig Frame",
+      "Chris Damato",
       "Shang Li"
      ],
      "a": [
@@ -39176,55 +39315,7 @@
      "t": "male",
      "h": [
       "Chris Damato",
-      "Shang Li"
-     ],
-     "a": [
-      "Vince Abate",
-      "Vaughn Mcclelland"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Zach Hollmann",
       "Michael Li"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Ryan Furman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Mickey Cook",
-      "Craig Frame"
-     ],
-     "a": [
-      "Sheel Motiwala",
-      "Stephen Conger"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Dipen Bhatt",
-      "Rich Marcovecchio"
-     ],
-     "a": [
-      "Braden Keith",
-      "Brian Barenbaum"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
      ],
      "a": [
       "Tyler Arsenault",
@@ -39234,8 +39325,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Stephen Conger",
@@ -39245,8 +39336,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Craig Frame"
      ],
      "a": [
       "Ryan Furman",
@@ -39256,8 +39347,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hollmann",
+      "Dipen Bhatt"
      ],
      "a": [
       "Vaughn Mcclelland",
@@ -39267,8 +39358,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Zach Hollmann"
      ],
      "a": [
       "Tyler Arsenault",
@@ -39278,8 +39369,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Frame",
+      "Michael Li"
      ],
      "a": [
       "Ryan Furman",
@@ -39289,8 +39380,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Dipen Bhatt"
      ],
      "a": [
       "Brian Barenbaum",
@@ -39300,19 +39391,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shang Li",
+      "Patrick Ryan"
      ],
      "a": [
       "Sheel Motiwala",
       "Vaughn Mcclelland"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Craig Frame"
      ],
      "a": [
       "Sheel Motiwala",
@@ -39322,8 +39417,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Mickey Cook"
      ],
      "a": [
       "Vaughn Mcclelland",
@@ -39333,30 +39428,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Patrick Ryan",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Vince Abate",
       "Braden Keith"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Shang Li"
      ],
      "a": [
       "Tyler Arsenault",
       "Stephen Conger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Chris Damato"
      ],
      "a": [
       "Ryan Furman",
@@ -39366,30 +39469,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rich Marcovecchio",
+      "Shang Li"
      ],
      "a": [
       "Vince Abate",
       "Braden Keith"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Patrick Ryan",
+      "Zach Hollmann"
      ],
      "a": [
       "Sheel Motiwala",
       "Brian Barenbaum"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dipen Bhatt",
+      "Craig Frame"
      ],
      "a": [
       "Tyler Arsenault",
@@ -39399,8 +39510,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Craig Frame"
      ],
      "a": [
       "Tyler Arsenault",
@@ -39410,8 +39521,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Hollmann",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Ryan Furman",
@@ -39421,8 +39532,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Dipen Bhatt"
      ],
      "a": [
       "Sheel Motiwala",
@@ -39432,8 +39543,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Ali Husain"
      ],
      "a": [
       "Vince Abate",
@@ -39443,8 +39554,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Zach Hollmann"
      ],
      "a": [
       "Vince Abate",
@@ -39454,19 +39565,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mickey Cook",
+      "Shang Li"
      ],
      "a": [
       "Sheel Motiwala",
       "Braden Keith"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dipen Bhatt",
+      "Rich Marcovecchio"
      ],
      "a": [
       "Brian Barenbaum",
@@ -39476,12 +39591,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Patrick Ryan"
      ],
      "a": [
       "Tyler Arsenault",
       "Vaughn Mcclelland"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -39492,7 +39611,421 @@
    "home": "Monroe",
    "away": "Dill Dinkers Freehold",
    "time": "2026-10-26T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Ksiezopolski",
+      "Jon Bliven"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Samuel Levinson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Venuto",
+      "Rahul Purwah"
+     ],
+     "a": [
+      "Tom Laiso",
+      "Todd Gasparre"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Meet Patel",
+      "Ivan Rios"
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Marcin Glowacki"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Ksiezopolski",
+      "Brian O'Neill"
+     ],
+     "a": [
+      "Adam Weinstock",
+      "Caesar Gene"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steve Susskind",
+      "Brian O'Neill"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Adam Weinstock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Ksiezopolski",
+      "Rahul Purwah"
+     ],
+     "a": [
+      "Tom Laiso",
+      "Caesar Gene"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ivan Rios",
+      "Jon Bliven"
+     ],
+     "a": [
+      "Samuel Levinson",
+      "Eugene Zaslavsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Meet Patel",
+      "Christopher Venuto"
+     ],
+     "a": [
+      "Marcin Glowacki",
+      "Chenfei Gao"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Venuto",
+      "Rahul Purwah"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Eugene Zaslavsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian O'Neill",
+      "Michael Ksiezopolski"
+     ],
+     "a": [
+      "Samuel Levinson",
+      "Todd Gasparre"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Ksiezopolski",
+      "Meet Patel"
+     ],
+     "a": [
+      "Adam Weinstock",
+      "Chenfei Gao"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ivan Rios",
+      "Jon Bliven"
+     ],
+     "a": [
+      "Tom Laiso",
+      "Marcin Glowacki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian O'Neill",
+      "Steve Susskind"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Tom Laiso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jon Bliven",
+      "Christopher Venuto"
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Chenfei Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Meet Patel",
+      "Jonathan Ksiezopolski"
+     ],
+     "a": [
+      "Caesar Gene",
+      "Todd Gasparre"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Rahul Purwah",
+      "Ivan Rios"
+     ],
+     "a": [
+      "Samuel Levinson",
+      "Marcin Glowacki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Rahul Purwah",
+      "Jonathan Ksiezopolski"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Marcin Glowacki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Venuto",
+      "Michael Ksiezopolski"
+     ],
+     "a": [
+      "Adam Weinstock",
+      "Chenfei Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Brian O'Neill",
+      "Ivan Rios"
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Caesar Gene"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jon Bliven",
+      "Meet Patel"
+     ],
+     "a": [
+      "Tom Laiso",
+      "Todd Gasparre"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Venuto",
+      "Meet Patel"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Todd Gasparre"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ivan Rios",
+      "Steve Susskind"
+     ],
+     "a": [
+      "Tom Laiso",
+      "Adam Weinstock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Ksiezopolski",
+      "Brian O'Neill"
+     ],
+     "a": [
+      "Caesar Gene",
+      "Marcin Glowacki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jon Bliven",
+      "Rahul Purwah"
+     ],
+     "a": [
+      "Samuel Levinson",
+      "Chenfei Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Rahul Purwah",
+      "Meet Patel"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Caesar Gene"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Venuto",
+      "Ivan Rios"
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Samuel Levinson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steve Susskind",
+      "Jon Bliven"
+     ],
+     "a": [
+      "Adam Weinstock",
+      "Todd Gasparre"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jonathan Ksiezopolski",
+      "Brian O'Neill"
+     ],
+     "a": [
+      "Chenfei Gao",
+      "Marcin Glowacki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ivan Rios",
+      "Meet Patel"
+     ],
+     "a": [
+      "Yoon Choi",
+      "Adam Weinstock"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jon Bliven",
+      "Rahul Purwah"
+     ],
+     "a": [
+      "Tom Laiso",
+      "Chenfei Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Christopher Venuto",
+      "Jonathan Ksiezopolski"
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Todd Gasparre"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Steve Susskind",
+      "Michael Ksiezopolski"
+     ],
+     "a": [
+      "Samuel Levinson",
+      "Caesar Gene"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -39899,8 +40432,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Nguyen",
+      "Justin Bautista"
      ],
      "a": [
       "Shashank Kamdar",
@@ -39910,8 +40443,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Ashwin Korde"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -39921,8 +40454,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Alex Mihalca"
      ],
      "a": [
       "Jeff Zamorski",
@@ -39932,8 +40465,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Josh Knupp"
      ],
      "a": [
       "Lou Frignito",
@@ -39943,8 +40476,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Ashwin Korde"
      ],
      "a": [
       "Jeff Zamorski",
@@ -39954,8 +40487,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Justin Bautista"
      ],
      "a": [
       "Shashank Kamdar",
@@ -39965,8 +40498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Alex Mihalca"
      ],
      "a": [
       "Austin Gow",
@@ -39976,8 +40509,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Nguyen",
+      "Justin Chin"
      ],
      "a": [
       "Vaughn Lawrence",
@@ -39987,8 +40520,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Zachary Lessner"
      ],
      "a": [
       "Lou Frignito",
@@ -39998,8 +40531,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Ashwin Korde"
      ],
      "a": [
       "Jeff Zamorski",
@@ -40009,8 +40542,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Nguyen",
+      "Adriene Khon"
      ],
      "a": [
       "Ryan Rosen",
@@ -40020,8 +40553,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Justin Bautista"
      ],
      "a": [
       "Shashank Kamdar",
@@ -40031,8 +40564,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adriene Khon",
+      "Justin Chin"
      ],
      "a": [
       "Vaughn Lawrence",
@@ -40042,8 +40575,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Mihalca",
+      "Ashwin Korde"
      ],
      "a": [
       "Ryan Rosen",
@@ -40053,8 +40586,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Eric Nguyen"
      ],
      "a": [
       "Mark Kilimnik",
@@ -40064,8 +40597,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Justin Bautista"
      ],
      "a": [
       "Shashank Kamdar",
@@ -40075,8 +40608,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adriene Khon",
+      "Justin Chin"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -40086,8 +40619,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Justin Bautista"
      ],
      "a": [
       "Shashank Kamdar",
@@ -40097,8 +40630,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Alex Mihalca"
      ],
      "a": [
       "Ryan Rosen",
@@ -40108,8 +40641,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Nguyen",
+      "Alex Boory"
      ],
      "a": [
       "Mark Kilimnik",
@@ -40119,8 +40652,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Ashwin Korde"
      ],
      "a": [
       "Shawn Ganow",
@@ -40130,8 +40663,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Justin Bautista",
+      "Josh Knupp"
      ],
      "a": [
       "Shashank Kamdar",
@@ -40141,8 +40674,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Eric Nguyen"
      ],
      "a": [
       "Lou Frignito",
@@ -40152,8 +40685,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Justin Chin"
      ],
      "a": [
       "Vaughn Lawrence",
@@ -40163,8 +40696,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashwin Korde",
+      "Alex Mihalca"
      ],
      "a": [
       "Jeff Zamorski",
@@ -40174,8 +40707,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandyn Schuchart",
+      "Zachary Lessner"
      ],
      "a": [
       "Lou Frignito",
@@ -40185,8 +40718,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Justin Chin"
      ],
      "a": [
       "Austin Gow",
@@ -40196,8 +40729,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Justin Bautista",
+      "Eric Nguyen"
      ],
      "a": [
       "Shashank Kamdar",
@@ -40207,8 +40740,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Mihalca",
+      "Adriene Khon"
      ],
      "a": [
       "Mark Kilimnik",
@@ -40218,8 +40751,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zachary Lessner",
+      "Justin Bautista"
      ],
      "a": [
       "Shashank Kamdar",
@@ -40229,8 +40762,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Boory",
+      "Justin Chin"
      ],
      "a": [
       "Jeff Zamorski",
@@ -40240,8 +40773,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Josh Knupp",
+      "Brandyn Schuchart"
      ],
      "a": [
       "Vaughn Lawrence",
@@ -40261,8 +40794,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Joshua Mindlin"
      ],
      "a": [
       "Daniel Ehala",
@@ -40272,8 +40805,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Alex Pecora"
      ],
      "a": [
       "Matthew Mintz",
@@ -40287,8 +40820,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Chase Thomas",
@@ -40302,30 +40835,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Adam Beck"
      ],
      "a": [
       "Nachiket Vaidya",
       "Tyler Marlin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Cahalin",
+      "Adam Beck"
      ],
      "a": [
       "Shayne Clowar",
       "Riguo Zheng"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Alex Pecora"
      ],
      "a": [
       "Chase Thomas",
@@ -40339,8 +40880,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Thomas Fenton"
      ],
      "a": [
       "Tyler Marlin",
@@ -40350,8 +40891,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Daniel Ehala",
@@ -40361,8 +40902,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Tim Cahalin"
      ],
      "a": [
       "Daniel Ehala",
@@ -40372,8 +40913,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Zach Mcgowan"
      ],
      "a": [
       "Matthew Mintz",
@@ -40383,12 +40924,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Adam Beck"
      ],
      "a": [
       "Nachiket Vaidya",
       "Raaj Singh"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -40398,8 +40943,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Joshua Mindlin"
      ],
      "a": [
       "Bryan Nardone",
@@ -40409,8 +40954,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Zach Mcgowan"
      ],
      "a": [
       "Tyler Marlin",
@@ -40420,8 +40965,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Raaj Singh",
@@ -40435,8 +40980,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Joshua Mindlin"
      ],
      "a": [
       "Nachiket Vaidya",
@@ -40446,19 +40991,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Adam Beck"
      ],
      "a": [
       "Shayne Clowar",
       "Bryan Nardone"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Joshua Mindlin"
      ],
      "a": [
       "Matthew Mintz",
@@ -40468,8 +41017,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Zach Mcgowan"
      ],
      "a": [
       "Shayne Clowar",
@@ -40479,8 +41028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Chase Thomas",
@@ -40494,23 +41043,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Adam Beck"
      ],
      "a": [
       "Riguo Zheng",
       "Bryan Nardone"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Adam Beck"
      ],
      "a": [
       "Chase Thomas",
       "Daniel Ehala"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -40520,8 +41077,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Tim Cahalin"
      ],
      "a": [
       "Matthew Mintz",
@@ -40531,8 +41088,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Ron Branca"
      ],
      "a": [
       "Tyler Marlin",
@@ -40542,8 +41099,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Alex Pecora"
      ],
      "a": [
       "Raaj Singh",
@@ -40557,8 +41114,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "William Lee"
      ],
      "a": [
       "Matthew Mintz",
@@ -40572,19 +41129,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tim Cahalin",
+      "Adam Beck"
      ],
      "a": [
       "Riguo Zheng",
       "Shayne Clowar"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Alex Pecora"
      ],
      "a": [
       "Chase Thomas",
@@ -40598,8 +41159,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Zach Mcgowan"
      ],
      "a": [
       "Tyler Marlin",
@@ -40609,19 +41170,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Adam Beck"
      ],
      "a": [
       "Riguo Zheng",
       "Tyler Marlin"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Chase Thomas",
@@ -40635,8 +41200,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Ron Branca"
      ],
      "a": [
       "Raaj Singh",
@@ -40650,8 +41215,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Daniel Ehala",
@@ -40785,10 +41350,8 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
-  "Meet Patel": "455edf3d-7568-49ab-b20b-4b66591ed544",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
-  "Adam Beck": "7d836ecc-e553-4966-9c12-2dc698a545d0",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f",
   "Ethan Rosen": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322"
@@ -41171,6 +41734,14 @@
    "outsideSub": true
   },
   {
+   "name": "Todd Gasparre",
+   "playerId": "9f205d60-6056-482a-bcca-3dfdbacf1e8d",
+   "gender": "Male",
+   "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Marc Padre",
    "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
    "gender": "Male",
@@ -41391,7 +41962,7 @@
   "matchesPlayed": 55,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 226,
+  "totalPlayers": 229,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -41517,7 +42088,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-25T20:14:11.842Z";
+  DATA.meta.asOf = "2026-10-26T01:48:48.562Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

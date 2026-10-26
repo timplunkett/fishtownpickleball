@@ -5083,7 +5083,7 @@
     "pid": "06d52e99-941a-4ced-9968-f56e6075105a",
     "name": "Jeff Laniado",
     "n": 7,
-    "synergy": -1.6
+    "synergy": -1.5
    }
   ]
  },
@@ -15196,7 +15196,7 @@
     "pid": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
     "name": "Umang Pathak",
     "n": 7,
-    "synergy": -1.6
+    "synergy": -1.5
    }
   ]
  },
@@ -17395,7 +17395,7 @@
     "l": 0,
     "gp": 6,
     "pf": 126,
-    "pa": 91,
+    "pa": 90,
     "mx": [
      0,
      0
@@ -20049,7 +20049,7 @@
     "pid": "74f9fe34-f8c5-49dd-b504-939d0b4f5aaa",
     "name": "Bryan Mccourt",
     "n": 8,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
@@ -21480,7 +21480,7 @@
     "l": 1,
     "gp": 6,
     "pf": 117,
-    "pa": 94,
+    "pa": 93,
     "mx": [
      0,
      0
@@ -26597,7 +26597,7 @@
     "pid": "63950363-4747-4faf-b89a-eb88f8b9e81d",
     "name": "Yashraj Kurani",
     "n": 7,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "6af88387-5e2b-4ea7-b732-22885e4931a8",
@@ -27316,7 +27316,7 @@
     "pid": "45ea05c6-ef48-4b0a-9f71-a640be038d08",
     "name": "Dennis Yap",
     "n": 8,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
@@ -29104,7 +29104,7 @@
     "w": 2,
     "l": 5,
     "gp": 7,
-    "pf": 112,
+    "pf": 111,
     "pa": 140,
     "mx": [
      0,
@@ -29283,7 +29283,7 @@
     "pid": "2e77eb09-81b2-4cc7-8ed1-4cbf034705f6",
     "name": "Pat Wilson",
     "n": 5,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "115f3958-d110-41f0-a04c-aa2f8e17a54f",
@@ -34340,7 +34340,7 @@
     "pid": "be19bf10-b8a5-4626-8c10-f13ac708231d",
     "name": "George Vega Jr",
     "n": 7,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4",
@@ -36805,7 +36805,7 @@
     "label": "9",
     "rating": -1.2,
     "confidence": 85,
-    "rank": 225,
+    "rank": 226,
     "ratingGames": 27,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.3
@@ -39540,7 +39540,7 @@
     "w": 2,
     "l": 5,
     "gp": 7,
-    "pf": 128,
+    "pf": 127,
     "pa": 143,
     "mx": [
      0,
@@ -39688,12 +39688,6 @@
     "synergy": -0.2
    },
    {
-    "pid": "7f44421c-476c-4857-99ed-3376b32289ca",
-    "name": "Michael Vincent",
-    "n": 5,
-    "synergy": -0.5
-   },
-   {
     "pid": "a24bc2af-aca9-45dd-a827-12fb12f7b784",
     "name": "Ricky Jutkiewicz",
     "n": 4,
@@ -39703,6 +39697,12 @@
     "pid": "aeaef27d-01b3-4fb2-91f3-4be8c7602aa3",
     "name": "Marc Kunesch",
     "n": 3,
+    "synergy": -0.6
+   },
+   {
+    "pid": "7f44421c-476c-4857-99ed-3376b32289ca",
+    "name": "Michael Vincent",
+    "n": 5,
     "synergy": -0.6
    }
   ]
@@ -41408,7 +41408,7 @@
     "pid": "5b619b72-b78a-49ba-872d-c64db6084a67",
     "name": "Prashanth Koshy",
     "n": 9,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "b549a93c-acec-4419-9e30-5d8375518d2d",
@@ -50649,7 +50649,7 @@
     "pid": "e2f86c8b-755e-42a0-8828-f2965f4fbbe7",
     "name": "Ritesh Patel",
     "n": 9,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "63950363-4747-4faf-b89a-eb88f8b9e81d",
@@ -65435,7 +65435,7 @@
     "pid": "635ba257-e1ed-4db3-8303-5f241388437e",
     "name": "Sean Diamond",
     "n": 5,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -66055,9 +66055,9 @@
     "week": 9,
     "seq": 10,
     "label": "9",
-    "rating": -1.3,
+    "rating": -1.2,
     "confidence": 91,
-    "rank": 227,
+    "rank": 224,
     "ratingGames": 60,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.3
@@ -66086,25 +66086,25 @@
     "pid": "a78758b7-fe50-4865-b059-83a9d177e857",
     "name": "Francis Thai",
     "n": 8,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
     "name": "Andy Knight",
     "n": 11,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "7caafc32-1aed-4fb7-b145-baf82cbbe2d2",
     "name": "Vinay Mutt",
     "n": 6,
-    "synergy": -0.9
+    "synergy": -1
    },
    {
     "pid": "24db47b3-dedc-418d-9210-3b5fea1952da",
     "name": "Ren Macalalag",
     "n": 5,
-    "synergy": -1.4
+    "synergy": -1.5
    },
    {
     "pid": "d634d992-c9d8-4e31-acb7-45b1161eee19",
@@ -69691,7 +69691,7 @@
     "pid": "635ba257-e1ed-4db3-8303-5f241388437e",
     "name": "Sean Diamond",
     "n": 6,
-    "synergy": -0.9
+    "synergy": -1
    },
    {
     "pid": "a78758b7-fe50-4865-b059-83a9d177e857",
@@ -72119,7 +72119,7 @@
     "label": "9",
     "rating": -1.2,
     "confidence": 75,
-    "rank": 226,
+    "rank": 227,
     "ratingGames": 15,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.7
@@ -75129,7 +75129,7 @@
     "pid": "635ba257-e1ed-4db3-8303-5f241388437e",
     "name": "Sean Diamond",
     "n": 11,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "763342e5-4d13-45b7-8630-9d840cb7b8b3",
@@ -75439,7 +75439,7 @@
     "pid": "635ba257-e1ed-4db3-8303-5f241388437e",
     "name": "Sean Diamond",
     "n": 8,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "24db47b3-dedc-418d-9210-3b5fea1952da",

@@ -1717,18 +1717,6 @@
       "awayName": "Dill Dinkers Hatboro"
     },
     {
-      "matchupId": "fd4d7761-74e0-4ea6-97c2-7ec9c82a1677",
-      "weekNumber": 9,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-24T12:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "Picklr Fair Lawn"
-    },
-    {
       "matchupId": "2843b023-d235-4610-8f42-76ac89a62c68",
       "weekNumber": 9,
       "homeTeamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
@@ -1817,9 +1805,9 @@
       "weekNumber": 9,
       "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
       "awayTeamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 645,
+      "awayPoints": 542,
+      "endResult": "home",
       "scheduledTime": "2026-10-25T13:00:00",
       "homeName": "Bounce Tempest",
       "awayName": "Players Courtyard"
@@ -2171,6 +2159,18 @@
       "scheduledTime": "2026-11-06T19:30:00",
       "homeName": "Jersey Devil Green",
       "awayName": "Pickle Juice Blackwood"
+    },
+    {
+      "matchupId": "fd4d7761-74e0-4ea6-97c2-7ec9c82a1677",
+      "weekNumber": 12,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-07T12:00:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "Picklr Fair Lawn"
     },
     {
       "matchupId": "50bb6e49-155c-4b54-940d-7243f5826552",
