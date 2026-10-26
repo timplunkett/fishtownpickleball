@@ -39395,7 +39395,6 @@
    "away": "Home Court",
    "time": "2026-10-25T09:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 584,
    "awayPoints": 638,
    "homeGW": 13,
@@ -39853,8 +39852,8 @@
    "subs": [
     "Matt Jump",
     "Vince Abate",
-    "Liz Chen",
-    "Kushal Thapa"
+    "Kushal Thapa",
+    "Liz Chen"
    ]
   },
   {
@@ -43242,7 +43241,7 @@
  ],
  "meta": {
   "matchesPlayed": 59,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-9",
   "totalPlayers": 248,
   "ratingHistoryWeeks": [
@@ -43366,7 +43365,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T01:47:50.744Z";
+  DATA.meta.asOf = "2026-10-26T02:26:51.192Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
