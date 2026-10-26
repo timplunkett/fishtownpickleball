@@ -40629,7 +40629,7 @@
       "Alex Mihalca"
      ],
      "a": [
-      "Jeff Zamorski",
+      "Anushk Gupta",
       "Shawn Ganow"
      ]
     },
@@ -40651,7 +40651,7 @@
       "Ashwin Korde"
      ],
      "a": [
-      "Jeff Zamorski",
+      "Anushk Gupta",
       "Dustin Rabinowitz"
      ]
     },
@@ -40706,7 +40706,7 @@
       "Ashwin Korde"
      ],
      "a": [
-      "Jeff Zamorski",
+      "Anushk Gupta",
       "Mark Kilimnik"
      ]
     },
@@ -40751,7 +40751,7 @@
      ],
      "a": [
       "Ryan Rosen",
-      "Jeff Zamorski"
+      "Anushk Gupta"
      ]
     },
     {
@@ -40839,7 +40839,7 @@
      ],
      "a": [
       "Shashank Kamdar",
-      "Jeff Zamorski"
+      "Anushk Gupta"
      ]
     },
     {
@@ -40871,7 +40871,7 @@
       "Alex Mihalca"
      ],
      "a": [
-      "Jeff Zamorski",
+      "Anushk Gupta",
       "Mark Kilimnik"
      ]
     },
@@ -40937,7 +40937,7 @@
       "Justin Chin"
      ],
      "a": [
-      "Jeff Zamorski",
+      "Anushk Gupta",
       "Ryan Rosen"
      ]
     },
@@ -42274,7 +42274,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T18:01:10.737Z";
+  DATA.meta.asOf = "2026-10-26T22:19:22.672Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
