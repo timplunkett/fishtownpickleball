@@ -3587,7 +3587,7 @@ window.DUPR_AUDIT = {
    "playerId": "d156a552-7fa9-488e-9bfa-745feb859950",
    "team": "Flemington Green",
    "slug": "2edc44e7",
-   "gender": "Female"
+   "gender": "Male"
   },
   {
    "name": "Christine Pisapia",
@@ -18636,6 +18636,13 @@ window.DUPR_AUDIT = {
    "name": "Todd Mitchell",
    "playerId": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
    "team": "Pickleball Palace",
+   "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
+   "name": "Todd Stein",
+   "playerId": "63fb8f7d-8f83-4bdf-89c7-fc3ca7139df5",
+   "team": "Flemington Green",
    "slug": "2edc44e7",
    "gender": "Male"
   },

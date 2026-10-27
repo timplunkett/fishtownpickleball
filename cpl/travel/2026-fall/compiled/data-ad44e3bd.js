@@ -36015,6 +36015,7 @@
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
   "Renee Peel": "9e346d92-597a-49ef-af58-665667c75c82",
   "Danielle Nitti": "c87dbf47-5507-470c-b006-71eb4e859389",
+  "Lisa Yuskevich": "f03105d3-576a-4955-909a-24c18a087d1e",
   "Cara Marcoux": "fa1b17b7-edc0-4281-b66d-587b9eb73062"
  },
  "availableSubs": [
@@ -36427,6 +36428,14 @@
    "outsideSub": true
   },
   {
+   "name": "Lisa Yuskevich",
+   "playerId": "f03105d3-576a-4955-909a-24c18a087d1e",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Amanda Anastasiou",
    "playerId": "f901ac16-5928-440c-97fd-a7521c4f38c6",
    "gender": "Female",
@@ -36566,7 +36575,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T22:19:35.237Z";
+  DATA.meta.asOf = "2026-10-27T05:53:55.062Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

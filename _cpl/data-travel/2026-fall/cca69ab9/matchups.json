@@ -737,9 +737,9 @@
       "weekNumber": 10,
       "homeTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
       "awayTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 582,
+      "awayPoints": 638,
+      "endResult": "away",
       "scheduledTime": "2026-10-26T19:30:00",
       "homeName": "Bounce Tempest",
       "awayName": "Bounce Malvern"

@@ -110292,8 +110292,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Anshul Sahu"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110303,8 +110303,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Jason Kwan"
      ],
      "a": [
       "Dawn Moore",
@@ -110314,8 +110314,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "Winston Lian"
      ],
      "a": [
       "Lana Engler Carss",
@@ -110325,8 +110325,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dede Dolkar",
+      "Bruno Maguino"
      ],
      "a": [
       "Arzu Alimjan",
@@ -110336,8 +110336,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carissa Baptista",
+      "Dede Dolkar"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110347,8 +110347,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Christy Zhang"
      ],
      "a": [
       "Arzu Alimjan",
@@ -110358,8 +110358,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Man Kwok"
      ],
      "a": [
       "David Reyes",
@@ -110369,8 +110369,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Kwan",
+      "Anshul Sahu"
      ],
      "a": [
       "Cullen Curley",
@@ -110380,8 +110380,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Jason Kwan"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110391,8 +110391,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Winston Lian"
      ],
      "a": [
       "Arzu Alimjan",
@@ -110402,8 +110402,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Dede Dolkar",
+      "Bruno Maguino"
      ],
      "a": [
       "Lana Engler Carss",
@@ -110413,8 +110413,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carissa Baptista",
+      "Anshul Sahu"
      ],
      "a": [
       "Dawn Moore",
@@ -110424,8 +110424,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "Dede Dolkar"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110435,8 +110435,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Khushi Shah"
      ],
      "a": [
       "Arzu Alimjan",
@@ -110446,8 +110446,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Kwan",
+      "Anshul Sahu"
      ],
      "a": [
       "David Reyes",
@@ -110457,8 +110457,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Maguino",
+      "Man Kwok"
      ],
      "a": [
       "Jesse Frey",
@@ -110468,8 +110468,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carissa Baptista",
+      "Man Kwok"
      ],
      "a": [
       "Dawn Moore",
@@ -110479,8 +110479,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "Winston Lian"
      ],
      "a": [
       "Lana Engler Carss",
@@ -110490,8 +110490,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Anshul Sahu"
      ],
      "a": [
       "Deb Morisie",
@@ -110501,8 +110501,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Bruno Maguino"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110512,8 +110512,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "Carissa Baptista"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110523,8 +110523,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dede Dolkar",
+      "Khushi Shah"
      ],
      "a": [
       "Arzu Alimjan",
@@ -110534,8 +110534,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Man Kwok",
+      "Bruno Maguino"
      ],
      "a": [
       "David Reyes",
@@ -110545,8 +110545,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Jason Kwan"
      ],
      "a": [
       "Jesse Frey",
@@ -110556,8 +110556,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carissa Baptista",
+      "Winston Lian"
      ],
      "a": [
       "Arzu Alimjan",
@@ -110567,8 +110567,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christy Zhang",
+      "Bruno Maguino"
      ],
      "a": [
       "Dawn Moore",
@@ -110578,8 +110578,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "Anshul Sahu"
      ],
      "a": [
       "Deb Morisie",
@@ -110589,8 +110589,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Khushi Shah",
+      "Man Kwok"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110600,8 +110600,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Dede Dolkar",
+      "Khushi Shah"
      ],
      "a": [
       "Colleen Van Ee",
@@ -110611,8 +110611,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diana Nguyen",
+      "Carissa Baptista"
      ],
      "a": [
       "Lana Engler Carss",
@@ -110622,8 +110622,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Kwan",
+      "Bruno Maguino"
      ],
      "a": [
       "Cullen Curley",
@@ -110633,8 +110633,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Man Kwok"
      ],
      "a": [
       "Jesse Frey",
@@ -112817,7 +112817,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-27T03:01:32.883Z";
+  DATA.meta.asOf = "2026-10-27T05:52:47.862Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
