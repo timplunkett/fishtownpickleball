@@ -1325,9 +1325,9 @@
       "weekNumber": 10,
       "homeTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
       "awayTeamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 500,
+      "awayPoints": 629,
+      "endResult": "away",
       "scheduledTime": "2026-10-26T19:30:00",
       "homeName": "Pickle Juice Blackwood",
       "awayName": "Dill Dinkers Hatboro"

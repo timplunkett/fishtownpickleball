@@ -713,9 +713,9 @@
       "weekNumber": 10,
       "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
       "awayTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 520,
+      "awayPoints": 678,
+      "endResult": "away",
       "scheduledTime": "2026-10-26T19:30:00",
       "homeName": "Monroe",
       "awayName": "Dill Dinkers Freehold"
