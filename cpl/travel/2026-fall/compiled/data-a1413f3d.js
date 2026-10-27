@@ -12347,7 +12347,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 480,
+   "leagueRank": 481,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 487,
+   "leagueRank": 488,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 490,
+   "leagueRank": 491,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 481,
+   "leagueRank": 482,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12492,7 +12492,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 483,
+   "leagueRank": 484,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -73290,8 +73290,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Aadhar Rohila"
      ],
      "a": [
       "Liana Rose",
@@ -73301,8 +73301,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Jake Maske"
      ],
      "a": [
       "Ella Ly",
@@ -73312,19 +73312,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Franco",
+      "Matthew Marletta"
      ],
      "a": [
       "Jane Lin",
       "Nathaniel Flores"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Neel Goyal"
      ],
      "a": [
       "Kelly Sacchetti",
@@ -73334,8 +73338,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Jill Delpozzo"
      ],
      "a": [
       "Ella Ly",
@@ -73345,8 +73349,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Kaleigh Tierney"
      ],
      "a": [
       "Liana Rose",
@@ -73356,8 +73360,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Marletta",
+      "Neel Goyal"
      ],
      "a": [
       "Kurt Henson",
@@ -73367,8 +73371,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pranav Tailor",
+      "Aadhar Rohila"
      ],
      "a": [
       "Nathaniel Flores",
@@ -73378,8 +73382,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Pranav Tailor"
      ],
      "a": [
       "Liana Rose",
@@ -73389,19 +73393,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maria Franco",
+      "Matthew Marletta"
      ],
      "a": [
       "Rebecca Chow",
       "Christopher Natividad"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Aadhar Rohila"
      ],
      "a": [
       "Emily Su",
@@ -73411,8 +73419,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Jake Maske"
      ],
      "a": [
       "Ella Ly",
@@ -73422,8 +73430,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Jill Delpozzo"
      ],
      "a": [
       "Ella Ly",
@@ -73433,19 +73441,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Maria Franco"
      ],
      "a": [
       "Kelly Sacchetti",
       "Emily Su"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Neel Goyal",
+      "Matthew Marletta"
      ],
      "a": [
       "Nathaniel Flores",
@@ -73455,8 +73467,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pranav Tailor",
+      "Jake Maske"
      ],
      "a": [
       "Kurt Henson",
@@ -73466,8 +73478,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Aadhar Rohila"
      ],
      "a": [
       "Liana Rose",
@@ -73477,8 +73489,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Jake Maske"
      ],
      "a": [
       "Rebecca Chow",
@@ -73488,8 +73500,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Pranav Tailor"
      ],
      "a": [
       "Jane Lin",
@@ -73499,8 +73511,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Neel Goyal"
      ],
      "a": [
       "Ella Ly",
@@ -73510,8 +73522,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Kaleigh Tierney"
      ],
      "a": [
       "Ella Ly",
@@ -73521,19 +73533,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Franco",
+      "Brittany Anghel"
      ],
      "a": [
       "Liana Rose",
       "Rebecca Chow"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Marletta",
+      "Aadhar Rohila"
      ],
      "a": [
       "Nathaniel Flores",
@@ -73543,8 +73559,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pranav Tailor",
+      "Jake Maske"
      ],
      "a": [
       "Kurt Henson",
@@ -73554,8 +73570,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Pranav Tailor"
      ],
      "a": [
       "Liana Rose",
@@ -73565,8 +73581,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Matthew Marletta"
      ],
      "a": [
       "Emily Su",
@@ -73576,8 +73592,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaleigh Tierney",
+      "Neel Goyal"
      ],
      "a": [
       "Jane Lin",
@@ -73587,8 +73603,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jill Delpozzo",
+      "Jake Maske"
      ],
      "a": [
       "Rebecca Chow",
@@ -73598,19 +73614,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mackenzi Furlong",
+      "Maria Franco"
      ],
      "a": [
       "Liana Rose",
       "Rebecca Chow"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Anghel",
+      "Jill Delpozzo"
      ],
      "a": [
       "Kelly Sacchetti",
@@ -73620,8 +73640,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jake Maske",
+      "Neel Goyal"
      ],
      "a": [
       "Kurt Henson",
@@ -73631,8 +73651,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Marletta",
+      "Aadhar Rohila"
      ],
      "a": [
       "Nathaniel Flores",
@@ -73925,6 +73945,7 @@
   "Olivia Schaller": "84c96e34-809c-4b34-9005-8ea76ca6a233",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shukling Parker": "8b9a1a95-0599-42bc-b233-e24609d11e07",
+  "Amanda Mcalister": "9aa220fa-3161-4faa-ac70-8dfaf3ac3192",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
   "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
@@ -74483,6 +74504,14 @@
    "outsideSub": true
   },
   {
+   "name": "Amanda Mcalister",
+   "playerId": "9aa220fa-3161-4faa-ac70-8dfaf3ac3192",
+   "gender": "Female",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Justin Chin",
    "playerId": "9fa77cf9-39da-4bfe-8ada-d01143ca498c",
    "gender": "Male",
@@ -75008,7 +75037,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T17:59:56.204Z";
+  DATA.meta.asOf = "2026-10-27T03:00:33.009Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

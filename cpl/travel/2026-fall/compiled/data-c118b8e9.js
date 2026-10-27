@@ -8635,7 +8635,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 318,
+   "leagueRank": 319,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8664,7 +8664,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 330,
+   "leagueRank": 331,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8693,7 +8693,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 321,
+   "leagueRank": 322,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8780,7 +8780,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 319,
+   "leagueRank": 320,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -8816,6 +8816,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "26c05976-e276-4316-bf43-3ea1316de1e7"
+  },
+  {
+   "name": "Nick Lavalette",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 321,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "78166efd-32b0-4f51-b7d1-74da45ef9d50"
   },
   {
    "name": "Brandon Calmo",
@@ -8876,6 +8905,35 @@
    "playerId": "81de0241-17f5-4c13-9214-0b914709e971"
   },
   {
+   "name": "Jason Huang",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 317,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "85c7fc54-57f2-4b1d-9601-a2265de3b295"
+  },
+  {
    "name": "Winston Lian",
    "gender": "Male",
    "team": "PickleRage Union County",
@@ -8896,13 +8954,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 322,
+   "leagueRank": 323,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "bd59a857-a4a5-454c-af97-114b01faff8b"
+  },
+  {
+   "name": "Andrew Liou",
+   "gender": "Male",
+   "team": "PickleRage Union County",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 325,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
   },
   {
    "name": "Ryan Ly",
@@ -8925,7 +9012,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 325,
+   "leagueRank": 326,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -60049,8 +60136,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Jason Feldman",
@@ -60060,8 +60147,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Anthony Simonetti"
      ],
      "a": [
       "Joseph Lynskey",
@@ -60071,8 +60158,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Matthew Rafaniello"
      ],
      "a": [
       "Gary White",
@@ -60082,8 +60169,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Kyle Korman"
      ],
      "a": [
       "Rob Telles",
@@ -60093,8 +60180,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Luca Hendrickson"
      ],
      "a": [
       "Joseph Lynskey",
@@ -60104,8 +60191,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Jason Feldman",
@@ -60115,8 +60202,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Nesip Cengiz"
      ],
      "a": [
       "Rob Telles",
@@ -60126,8 +60213,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "David Wheeler"
      ],
      "a": [
       "Daniel Antonelli",
@@ -60137,8 +60224,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "David Wheeler"
      ],
      "a": [
       "Daniel Antonelli",
@@ -60148,8 +60235,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Rafaniello",
+      "Kyle Korman"
      ],
      "a": [
       "Jason Feldman",
@@ -60159,8 +60246,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Joseph Lynskey",
@@ -60170,8 +60257,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Gary White",
@@ -60181,8 +60268,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Anthony Simonetti"
      ],
      "a": [
       "Gary White",
@@ -60192,8 +60279,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Nesip Cengiz"
      ],
      "a": [
       "Daniel Antonelli",
@@ -60203,8 +60290,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Matthew Rafaniello"
      ],
      "a": [
       "Eden Ksendzovsky",
@@ -60214,8 +60301,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Rob Telles",
@@ -60225,8 +60312,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Jimmy Ramja"
      ],
      "a": [
       "Jason Feldman",
@@ -60236,8 +60323,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Matthew Rafaniello"
      ],
      "a": [
       "Michael Mazzola",
@@ -60247,8 +60334,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Luca Hendrickson"
      ],
      "a": [
       "Joseph Lynskey",
@@ -60258,8 +60345,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Nesip Cengiz"
      ],
      "a": [
       "Rob Telles",
@@ -60269,8 +60356,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Daniel Antonelli",
@@ -60280,8 +60367,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Luca Hendrickson"
      ],
      "a": [
       "Matthew Schwartz",
@@ -60291,8 +60378,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Kyle Korman"
      ],
      "a": [
       "Gary White",
@@ -60302,8 +60389,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Matthew Rafaniello"
      ],
      "a": [
       "Rob Telles",
@@ -60313,8 +60400,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Kyle Korman"
      ],
      "a": [
       "Eden Ksendzovsky",
@@ -60324,8 +60411,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Noah Ludwigsen",
+      "Matthew Rafaniello"
      ],
      "a": [
       "Michael Mazzola",
@@ -60335,8 +60422,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Jimmy Ramja"
      ],
      "a": [
       "Jason Feldman",
@@ -60346,8 +60433,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Nesip Cengiz"
      ],
      "a": [
       "Rob Telles",
@@ -60357,8 +60444,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Kyle Korman"
      ],
      "a": [
       "Michael Mazzola",
@@ -60368,8 +60455,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Jimmy Ramja"
      ],
      "a": [
       "Gary White",
@@ -60379,8 +60466,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Matthew Schwartz",
@@ -60390,8 +60477,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Nesip Cengiz"
      ],
      "a": [
       "Daniel Antonelli",
@@ -60411,8 +60498,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francis Thai",
+      "Sean Diamond"
      ],
      "a": [
       "Ayon Codner",
@@ -60422,30 +60509,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Huang",
+      "Dan Yang"
      ],
      "a": [
       "Samuel Kashefska",
       "Zane Pagotto"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guanqin Ma",
+      "Andrew Liou"
      ],
      "a": [
       "Carlos Rincon",
       "Michael Barndt"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Jack Barry"
      ],
      "a": [
       "Cullen Curley",
@@ -60455,63 +60550,83 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Ly",
+      "Winston Lian"
      ],
      "a": [
       "Samuel Kashefska",
       "Rahul Desai"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Lavalette",
+      "Ren Macalalag"
      ],
      "a": [
       "Eric Ruiz",
       "Zane Pagotto"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Liou",
+      "Guanqin Ma"
      ],
      "a": [
       "David Reyes",
       "Carlos Rincon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Jason Huang"
      ],
      "a": [
       "Cullen Curley",
       "Michael Barndt"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Liou",
+      "Ren Macalalag"
      ],
      "a": [
       "Samuel Kashefska",
       "Cullen Curley"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guanqin Ma",
+      "Francis Thai"
      ],
      "a": [
       "Zane Pagotto",
@@ -60521,30 +60636,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Ly",
+      "Winston Lian"
      ],
      "a": [
       "Ayon Codner",
       "Rahul Desai"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Lavalette",
+      "Dan Yang"
      ],
      "a": [
       "Carlos Rincon",
       "David Reyes"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Sean Diamond"
      ],
      "a": [
       "Samuel Kashefska",
@@ -60554,19 +60677,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Huang",
+      "Nick Lavalette"
      ],
      "a": [
       "Zane Pagotto",
       "Rahul Desai"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Guanqin Ma",
+      "Jack Barry"
      ],
      "a": [
       "Ayon Codner",
@@ -60576,8 +60703,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Jonathan Dong"
      ],
      "a": [
       "Cullen Curley",
@@ -60587,30 +60714,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Nick Lavalette"
      ],
      "a": [
       "Ayon Codner",
       "Zane Pagotto"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Liou",
+      "Jason Huang"
      ],
      "a": [
       "Samuel Kashefska",
       "Rahul Desai"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Francis Thai",
+      "Guanqin Ma"
      ],
      "a": [
       "Eric Ruiz",
@@ -60620,8 +60755,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Yang",
+      "Jonathan Dong"
      ],
      "a": [
       "Michael Barndt",
@@ -60631,8 +60766,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Barry",
+      "Guanqin Ma"
      ],
      "a": [
       "Eric Ruiz",
@@ -60642,19 +60777,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Lavalette",
+      "Sean Diamond"
      ],
      "a": [
       "Ayon Codner",
       "Michael Barndt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Dan Yang"
      ],
      "a": [
       "Cullen Curley",
@@ -60664,19 +60803,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Liou",
+      "Ren Macalalag"
      ],
      "a": [
       "Zane Pagotto",
       "Carlos Rincon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Barry",
+      "Dan Yang"
      ],
      "a": [
       "Zane Pagotto",
@@ -60686,8 +60829,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ren Macalalag",
+      "Jonathan Dong"
      ],
      "a": [
       "Samuel Kashefska",
@@ -60697,67 +60840,91 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Ly",
+      "Sean Diamond"
      ],
      "a": [
       "Ayon Codner",
       "Carlos Rincon"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Andrew Liou"
      ],
      "a": [
       "Michael Barndt",
       "David Reyes"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Ly",
+      "Ren Macalalag"
      ],
      "a": [
       "Ayon Codner",
       "Samuel Kashefska"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Winston Lian",
+      "Francis Thai"
      ],
      "a": [
       "Rahul Desai",
       "Zane Pagotto"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Dong",
+      "Jason Huang"
      ],
      "a": [
       "Carlos Rincon",
       "Eric Ruiz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Lavalette",
+      "Jack Barry"
      ],
      "a": [
       "Cullen Curley",
       "David Reyes"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -61557,8 +61724,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Marc Kunesch"
      ],
      "a": [
       "Eric Berlinger",
@@ -61568,8 +61735,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Dennis Yap"
      ],
      "a": [
       "Craig Butler",
@@ -61579,8 +61746,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Robert Huntley"
      ],
      "a": [
       "John Fallone",
@@ -61590,8 +61757,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Pat Wilson"
      ],
      "a": [
       "Tom Hadler",
@@ -61601,8 +61768,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
      ],
      "a": [
       "Eric Berlinger",
@@ -61612,8 +61779,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Matthew Carrington"
      ],
      "a": [
       "Craig Butler",
@@ -61623,8 +61790,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Kevin Sheehan"
      ],
      "a": [
       "Tom Hadler",
@@ -61634,8 +61801,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Marc Kunesch"
      ],
      "a": [
       "Franklin Lupianez",
@@ -61645,8 +61812,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
      ],
      "a": [
       "Eric Berlinger",
@@ -61656,8 +61823,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Kevin Sheehan"
      ],
      "a": [
       "Josh Fink",
@@ -61667,8 +61834,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Marc Kunesch"
      ],
      "a": [
       "John Fallone",
@@ -61678,8 +61845,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Pat Wilson"
      ],
      "a": [
       "Josh Rito",
@@ -61689,8 +61856,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
      ],
      "a": [
       "Craig Butler",
@@ -61700,8 +61867,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Matthew Carrington"
      ],
      "a": [
       "Eric Berlinger",
@@ -61711,8 +61878,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Robert Huntley"
      ],
      "a": [
       "John Pineda",
@@ -61722,8 +61889,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Franklin Lupianez",
@@ -61733,8 +61900,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Marc Kunesch"
      ],
      "a": [
       "Craig Butler",
@@ -61744,8 +61911,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Kevin Sheehan"
      ],
      "a": [
       "Tom Hadler",
@@ -61755,8 +61922,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Matthew Carrington"
      ],
      "a": [
       "David Tabacco",
@@ -61766,8 +61933,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Pat Wilson"
      ],
      "a": [
       "Franklin Lupianez",
@@ -61777,8 +61944,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Bryan Mccourt"
      ],
      "a": [
       "Josh Fink",
@@ -61788,8 +61955,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Pat Wilson"
      ],
      "a": [
       "David Tabacco",
@@ -61799,8 +61966,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Matthew Carrington"
      ],
      "a": [
       "Eric Berlinger",
@@ -61810,8 +61977,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Sheehan",
+      "Dennis Yap"
      ],
      "a": [
       "John Pineda",
@@ -61821,8 +61988,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Matthew Carrington"
      ],
      "a": [
       "Josh Fink",
@@ -61832,8 +61999,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Robert Huntley",
+      "Kevin Sheehan"
      ],
      "a": [
       "Josh Rito",
@@ -61843,8 +62010,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Pat Wilson"
      ],
      "a": [
       "Eric Berlinger",
@@ -61854,8 +62021,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "David Tabacco",
@@ -61865,8 +62032,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
      ],
      "a": [
       "John Pineda",
@@ -61876,8 +62043,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Dennis Yap"
      ],
      "a": [
       "Craig Butler",
@@ -61887,8 +62054,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Robert Huntley"
      ],
      "a": [
       "Eric Berlinger",
@@ -61898,8 +62065,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Marc Kunesch"
      ],
      "a": [
       "David Tabacco",
@@ -62872,15 +63039,13 @@
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Yiqun (Nina) Chen": "39da74b5-60a5-49cf-ae21-80b24602c3f4",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
-  "Nick Lavalette": "78166efd-32b0-4f51-b7d1-74da45ef9d50",
+  "Kevin Ha": "7db392f5-b7ff-4a11-8d57-cf10c8a335e7",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
-  "Jason Huang": "85c7fc54-57f2-4b1d-9601-a2265de3b295",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
   "Namit Jain": "8a49c394-945c-410d-8b79-b20b55437436",
   "Nirav Solanki": "938658e5-f3f0-4597-8d1b-8d65a9378673",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
-  "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa",
-  "Andrew Liou": "fd14ada2-5855-4bb3-a8cd-d68aba23ba95"
+  "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa"
  },
  "availableSubs": [
   {
@@ -63200,6 +63365,14 @@
    "playerId": "79a3d198-0295-4bed-b0d7-bcda477d6b3a",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kevin Ha",
+   "playerId": "7db392f5-b7ff-4a11-8d57-cf10c8a335e7",
+   "gender": "Male",
+   "team": "PickleRage Union County",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -63560,7 +63733,7 @@
   "matchesPlayed": 86,
   "provisionalMatches": 1,
   "weeks": "1-9",
-  "totalPlayers": 315,
+  "totalPlayers": 318,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -63698,7 +63871,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-26T22:19:58.999Z";
+  DATA.meta.asOf = "2026-10-27T03:03:09.599Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

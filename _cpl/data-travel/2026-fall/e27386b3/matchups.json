@@ -1265,9 +1265,9 @@
       "weekNumber": 10,
       "homeTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "awayTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 573,
+      "awayPoints": 655,
+      "endResult": "away",
       "scheduledTime": "2026-10-26T19:30:00",
       "homeName": "APC Garden State",
       "awayName": "Pickleball Kingdom Lehigh Valley"

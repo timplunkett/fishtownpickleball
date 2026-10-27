@@ -1109,9 +1109,9 @@
       "weekNumber": 10,
       "homeTeamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
       "awayTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 627,
+      "awayPoints": 633,
+      "endResult": "away",
       "scheduledTime": "2026-10-25T14:00:00",
       "homeName": "Montville Dragons",
       "awayName": "PCKLRAMA"
