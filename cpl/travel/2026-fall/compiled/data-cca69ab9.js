@@ -2791,7 +2791,7 @@
    "team": "Bounce Malvern",
    "matches": 7,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 44,
    "wins": 23,
    "losses": 21,
@@ -3748,7 +3748,7 @@
    "team": "Flemington",
    "matches": 5,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 39,
    "wins": 17,
    "losses": 22,
@@ -39862,7 +39862,6 @@
    "away": "Jersey Devil",
    "time": "2026-10-26T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 611,
    "awayPoints": 598,
    "homeGW": 17,
@@ -42954,7 +42953,7 @@
  ],
  "meta": {
   "matchesPlayed": 61,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-10",
   "totalPlayers": 232,
   "ratingHistoryWeeks": [
@@ -43087,7 +43086,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T17:07:42.123Z";
+  DATA.meta.asOf = "2026-10-27T21:40:48.567Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

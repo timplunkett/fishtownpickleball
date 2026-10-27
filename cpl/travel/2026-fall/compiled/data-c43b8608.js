@@ -6503,7 +6503,7 @@
    "team": "ACE Moorestown",
    "matches": 5,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 31,
    "wins": 15,
    "losses": 16,
@@ -7025,7 +7025,7 @@
    "team": "Allstar Pickler",
    "matches": 5,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 40,
    "wins": 18,
    "losses": 22,
@@ -67677,7 +67677,7 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Lisa Braumann",
       "Pedro Oliveira"
      ]
     },
@@ -67700,7 +67700,7 @@
      ],
      "a": [
       "Shobana Ravishankar",
-      "Stephen Stasiulewicz"
+      "Gary Grzankowski"
      ]
     },
     {
@@ -67741,7 +67741,7 @@
      ],
      "a": [
       "Nan Feng",
-      "Shobana Ravishankar"
+      "Izabel Illipronti"
      ]
     },
     {
@@ -67898,7 +67898,7 @@
       ""
      ],
      "a": [
-      "Shobana Ravishankar",
+      "Margaret Bayse",
       "Herald Barber"
      ]
     },
@@ -67968,7 +67968,7 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Lisa Braumann",
       "Stephen Stasiulewicz"
      ]
     },
@@ -69650,7 +69650,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T17:07:19.107Z";
+  DATA.meta.asOf = "2026-10-27T21:40:28.660Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

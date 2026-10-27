@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 639
+      "ranking": 640
     },
     {
       "playerId": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
@@ -1248,7 +1248,7 @@
       "lastName": "Mandry",
       "gender": "Male",
       "dupr": "8JP64M",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
       "teamName": "Players Courtyard",
@@ -1999,7 +1999,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 638
+      "ranking": 639
     },
     {
       "playerId": "24a88fa9-03f6-44b7-b10d-321e2a46bb2f",
@@ -2076,7 +2076,7 @@
       "lastName": "Abadi",
       "gender": "Female",
       "dupr": "0ZDD0Q",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
       "teamName": "Forward",
@@ -3816,7 +3816,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 644
+      "ranking": 645
     },
     {
       "playerId": "4364dfec-6df2-40ac-8391-66283100d98f",
@@ -3862,7 +3862,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 648
+      "ranking": 649
     },
     {
       "playerId": "438ab792-3729-4679-96fe-21d19c800067",
@@ -4239,7 +4239,7 @@
       "gender": "Male",
       "dupr": "G5RZ9Q",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "d35ca898-9222-4202-90c6-e0ae2c00b2c7",
       "teamName": "Players Courtyard",
       "wins": 5,
@@ -5015,6 +5015,29 @@
       "ranking": 302
     },
     {
+      "playerId": "53ca4a42-2265-4504-9a90-b1ab5cb4ea6f",
+      "firstName": "Jeannie",
+      "lastName": "Padden",
+      "gender": "Female",
+      "dupr": "2RDZVE",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "teamName": "Dill Dinkers Freehold",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 636
+    },
+    {
       "playerId": "545f9968-fc0a-420b-ba42-db16c6e1f884",
       "firstName": "Tayon",
       "lastName": "Hart",
@@ -5472,7 +5495,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 645
+      "ranking": 646
     },
     {
       "playerId": "5da3615e-9cd4-44f9-9e7d-637e270153ce",
@@ -6507,7 +6530,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 640
+      "ranking": 641
     },
     {
       "playerId": "714331ee-d124-483d-a89e-11d1431a7fca",
@@ -7496,7 +7519,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 637
+      "ranking": 638
     },
     {
       "playerId": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
@@ -8907,7 +8930,7 @@
       "lastName": "Sabino",
       "gender": "Male",
       "dupr": "Q59E44",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
       "teamName": "Picklr Fair Lawn",
@@ -9359,7 +9382,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 641
+      "ranking": 642
     },
     {
       "playerId": "a26d005a-c084-4edb-8c82-bcdbd21e531b",
@@ -9934,7 +9957,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 643
+      "ranking": 644
     },
     {
       "playerId": "ae015f4e-a359-406a-a394-b04d1ec288b7",
@@ -10233,7 +10256,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 647
+      "ranking": 648
     },
     {
       "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
@@ -10624,7 +10647,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 636
+      "ranking": 637
     },
     {
       "playerId": "b9cd3f6d-4513-4966-881c-72f6cf5b7746",
@@ -11383,7 +11406,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 646
+      "ranking": 647
     },
     {
       "playerId": "c51fb84c-4210-4884-84e0-a6854852c31a",
@@ -11759,7 +11782,7 @@
       "lastName": "Yuh",
       "gender": "Female",
       "dupr": "8KMZQK",
-      "isCaptain": false,
+      "isCaptain": true,
       "isSub": false,
       "teamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
       "teamName": "APC Garden State",
@@ -13545,7 +13568,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 642
+      "ranking": 643
     },
     {
       "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",

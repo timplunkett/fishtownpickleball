@@ -3023,7 +3023,7 @@
    "team": "Pickleball Kingdom Hillsborough",
    "matches": 7,
    "outsideSub": false,
-   "isCaptain": false,
+   "isCaptain": true,
    "gamesPlayed": 52,
    "wins": 26,
    "losses": 26,
@@ -44353,8 +44353,272 @@
       ""
      ],
      "a": [
-      "Hannah Nussbaum",
-      "Jonah Fliegelman"
+      "Rayna Baizman",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Kaylyn Swankoski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Dylan Ashbach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Kenoa Tio"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Kaylyn Swankoski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kenoa Tio",
+      "Joel Phillips"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Joel Phillips"
      ]
     },
     {
@@ -44376,7 +44640,7 @@
      ],
      "a": [
       "Rayna Baizman",
-      "Varun Prakash"
+      "Dylan Ashbach"
      ]
     },
     {
@@ -44387,7 +44651,7 @@
      ],
      "a": [
       "Nahla Bernhardt",
-      "Joel Phillips"
+      "Kenoa Tio"
      ]
     },
     {
@@ -44397,271 +44661,7 @@
       ""
      ],
      "a": [
-      "Hannah Nussbaum",
-      "Kaylyn Swankoski"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jonah Fliegelman",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Jonah Fliegelman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      "Andrew Wakefield"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Kaylyn Swankoski"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Varun Prakash"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jonah Fliegelman",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      ""
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      "Kaylyn Swankoski"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      "Nahla Bernhardt"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Andrew Wakefield",
-      "Joel Phillips"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Varun Prakash",
-      "Jonah Fliegelman"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kaylyn Swankoski",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Rayna Baizman",
-      ""
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Nahla Bernhardt",
-      ""
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Hannah Nussbaum",
+      "Allison Tarnoff",
       "Nahla Bernhardt"
      ]
     },
@@ -44684,7 +44684,7 @@
      ],
      "a": [
       "Andrew Wakefield",
-      "Jonah Fliegelman"
+      "Joel Phillips"
      ]
     },
     {
@@ -44694,8 +44694,8 @@
       ""
      ],
      "a": [
-      "Varun Prakash",
-      "Joel Phillips"
+      "Dylan Ashbach",
+      "Kenoa Tio"
      ]
     }
    ]
@@ -45565,7 +45565,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T17:06:35.525Z";
+  DATA.meta.asOf = "2026-10-27T21:39:48.398Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -21038,7 +21038,7 @@
      2,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -48858,7 +48858,7 @@
      1,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 1,
@@ -55947,7 +55947,7 @@
      3,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -56416,7 +56416,7 @@
      0,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -60415,7 +60415,7 @@
      0,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -60819,7 +60819,7 @@
      1,
      3
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -62909,7 +62909,7 @@
      1,
      1
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 1,
@@ -63470,7 +63470,7 @@
      3,
      1
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -71359,7 +71359,7 @@
      0,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -71750,7 +71750,7 @@
      3,
      3
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -73497,7 +73497,7 @@
      0,
      3
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -74386,7 +74386,7 @@
      3,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 1,
@@ -83941,7 +83941,7 @@
      4,
      2
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -92164,7 +92164,7 @@
      1,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -108422,8 +108422,8 @@
     "teamRes": "L",
     "teamGW": 6,
     "teamGL": 26,
-    "sub": 1,
-    "subFor": "Players Courtyard"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -108449,8 +108449,8 @@
     "teamRes": "L",
     "teamGW": 11,
     "teamGL": 21,
-    "sub": 1,
-    "subFor": "Players Courtyard"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -123659,7 +123659,7 @@
      2,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,
@@ -124214,7 +124214,7 @@
      3,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 1,
@@ -138530,7 +138530,7 @@
      1,
      4
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
     "sub": 0,

@@ -12445,6 +12445,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Maria Franco",
+   "playerId": "4c0a6c7a-30fa-4f4b-9494-a54534b88be8",
+   "team": "Montville",
+   "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
    "name": "Maria Valencia",
    "playerId": "e7f278dd-8790-4223-9d89-074a9da7b0a1",
    "team": "Pickleball Kingdom Hillsborough",
@@ -13926,6 +13933,13 @@ window.DUPR_AUDIT = {
    "playerId": "7663a676-aec1-4dea-9f73-4127a2c88dbb",
    "team": "Picklr Newark",
    "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Mike Hanson",
+   "playerId": "46a0bb90-abb0-49b5-a84d-bf0e5e1ee11c",
+   "team": "Players Courtyard",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
