@@ -9082,8 +9082,8 @@
    "name": "David Bailey",
    "gender": "Male",
    "team": "Flemington",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 1,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 7,
    "wins": 2,
@@ -71421,9 +71421,7 @@
      ]
     }
    ],
-   "subs": [
-    "David Bailey"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -77483,14 +77481,6 @@
    "outsideSub": true
   },
   {
-   "name": "David Bailey",
-   "playerId": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
-   "gender": "Male",
-   "team": "Flemington",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Crizle Ong",
    "playerId": "611e6c5a-d294-40b0-bf75-afbca58b145a",
    "gender": "Female",
@@ -78244,7 +78234,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T11:18:15.018Z";
+  DATA.meta.asOf = "2026-10-27T17:04:17.447Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

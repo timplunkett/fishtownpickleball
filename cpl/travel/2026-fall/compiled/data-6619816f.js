@@ -6779,7 +6779,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 260,
+   "leagueRank": 261,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6808,13 +6808,100 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 264,
+   "leagueRank": 265,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
+  },
+  {
+   "name": "Lizz Dunn",
+   "gender": "Female",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 258,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc"
+  },
+  {
+   "name": "Anthony Bradford Bisignano",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 257,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7ce7d3d1-b44b-431c-b3a5-20e153cc1777"
+  },
+  {
+   "name": "Nick Babinsky",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 256,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9790dabb-8be3-48df-9fc4-eecb920ec98c"
   },
   {
    "name": "Matthew Russell",
@@ -43092,8 +43179,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Andrew Wakefield"
      ],
      "a": [
       "Rachel Alfano",
@@ -43103,19 +43190,19 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Jonah Fliegelman"
      ],
      "a": [
-      "Alyssa Boyle",
+      "Charlotte Healey",
       "Zachary Lessner"
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Conor Landrigan"
      ],
      "a": [
       "Alex Abad",
@@ -43125,8 +43212,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Dylan Ashbach"
      ],
      "a": [
       "Elysia Price",
@@ -43136,8 +43223,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Marina Cozac"
      ],
      "a": [
       "Charlotte Healey",
@@ -43147,8 +43234,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43158,8 +43245,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Conor Landrigan",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Alexander Tong",
@@ -43169,8 +43256,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Steven Fernandez"
      ],
      "a": [
       "Bruno Casino",
@@ -43180,8 +43267,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Conor Landrigan"
      ],
      "a": [
       "Elysia Price",
@@ -43191,8 +43278,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Rachel Alfano",
@@ -43202,8 +43289,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Dylan Ashbach"
      ],
      "a": [
       "Alex Abad",
@@ -43213,8 +43300,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43224,8 +43311,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Elysia Price",
@@ -43235,8 +43322,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Kaylyn Swankoski"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43246,8 +43333,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Steven Fernandez"
      ],
      "a": [
       "Dustin Rabinowitz",
@@ -43257,8 +43344,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Conor Landrigan"
      ],
      "a": [
       "Bruno Casino",
@@ -43268,8 +43355,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Andrew Wakefield"
      ],
      "a": [
       "Charlotte Healey",
@@ -43279,8 +43366,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43290,8 +43377,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Steven Fernandez"
      ],
      "a": [
       "Rachel Alfano",
@@ -43301,8 +43388,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Alex Abad",
@@ -43312,8 +43399,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Elysia Price",
@@ -43323,8 +43410,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Cristi Landrigan"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43334,8 +43421,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Steven Fernandez"
      ],
      "a": [
       "Alexander Tong",
@@ -43345,8 +43432,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Conor Landrigan",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Zachary Lessner",
@@ -43356,8 +43443,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
      ],
      "a": [
       "Elysia Price",
@@ -43367,8 +43454,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marina Cozac",
+      "Steven Fernandez"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43378,8 +43465,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Charlotte Healey",
@@ -43389,8 +43476,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Hannah Nussbaum",
+      "Conor Landrigan"
      ],
      "a": [
       "Rachel Alfano",
@@ -43400,8 +43487,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cristi Landrigan",
+      "Hannah Nussbaum"
      ],
      "a": [
       "Rachel Alfano",
@@ -43411,8 +43498,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaylyn Swankoski",
+      "Marina Cozac"
      ],
      "a": [
       "Alyssa Boyle",
@@ -43422,8 +43509,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dylan Ashbach",
+      "Steven Fernandez"
      ],
      "a": [
       "Mark Kilimnik",
@@ -43433,8 +43520,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Wakefield",
+      "Jonah Fliegelman"
      ],
      "a": [
       "Zachary Lessner",
@@ -43811,7 +43898,445 @@
    "home": "Jersey Pickleball Club",
    "away": "Pickle House",
    "time": "2026-10-28T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Adrienne Butrymowicz",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Catherine Stewart",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Michael Li"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Joey Angelson",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Eva Danieli",
+      "Matt Schall"
+     ],
+     "a": [
+      "Lizz Dunn",
+      "Nick Babinsky"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Joey Angelson",
+      "Stefanie Sohosky"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Lizz Dunn"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Adrienne Butrymowicz",
+      "Catherine Stewart"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Emily Babinsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tom Laiso",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Michael Li",
+      "Mickey Cook"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Chris Damato",
+      "Nick Babinsky"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Joey Angelson",
+      "Matt Schall"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Catherine Stewart",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Zach Hollmann"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Adrienne Butrymowicz",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Eva Danieli",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Nick Babinsky"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Catherine Stewart",
+      "Eva Danieli"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Lizz Dunn"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Joey Angelson",
+      "Stefanie Sohosky"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Emily Babinsky"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Chris Damato",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Rosenwasser",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Nick Babinsky"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Catherine Stewart",
+      "Matt Schall"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Joey Angelson",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Stefanie Sohosky",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Mickey Cook"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Eva Danieli",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Nick Babinsky"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Catherine Stewart",
+      "Joey Angelson"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Stefanie Sohosky",
+      "Adrienne Butrymowicz"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Lizz Dunn"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Chris Damato",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Rosenwasser",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Nick Babinsky",
+      "Zach Hollmann"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Catherine Stewart",
+      "Matt Schall"
+     ],
+     "a": [
+      "Taylor Hartman",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Stefanie Sohosky",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Zach Hollmann"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Eva Danieli",
+      "Simon Rosenwasser"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Adrienne Butrymowicz",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Lissa Eagles",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Catherine Stewart",
+      "Joey Angelson"
+     ],
+     "a": [
+      "Kerrin Maurer",
+      "Lissa Eagles"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Adrienne Butrymowicz",
+      "Eva Danieli"
+     ],
+     "a": [
+      "Emily Babinsky",
+      "Lizz Dunn"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Schall",
+      "Anthony Bradford Bisignano"
+     ],
+     "a": [
+      "Chris Damato",
+      "Michael Li"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Simon Rosenwasser",
+      "Tom Laiso"
+     ],
+     "a": [
+      "Mickey Cook",
+      "Zach Hollmann"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -44259,9 +44784,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
-  "Lizz Dunn": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
-  "Anthony Bradford Bisignano": "7ce7d3d1-b44b-431c-b3a5-20e153cc1777",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
@@ -44756,6 +45279,14 @@
    "outsideSub": true
   },
   {
+   "name": "Nick Babinsky",
+   "playerId": "9790dabb-8be3-48df-9fc4-eecb920ec98c",
+   "gender": "Male",
+   "team": "Pickle House",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Brandyn Schuchart",
    "playerId": "9d821d34-4af3-4e4a-999d-25308b75ca0f",
    "gender": "Male",
@@ -44912,7 +45443,7 @@
   "matchesPlayed": 60,
   "provisionalMatches": 0,
   "weeks": "1-9",
-  "totalPlayers": 247,
+  "totalPlayers": 250,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -45034,7 +45565,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T03:01:50.628Z";
+  DATA.meta.asOf = "2026-10-27T17:06:35.525Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

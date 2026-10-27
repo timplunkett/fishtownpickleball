@@ -9980,9 +9980,9 @@
   {
    "name": "Jim Hu",
    "gender": "Male",
-   "team": "Allstar Pickler",
+   "team": "Montville Rocks",
    "matches": 0,
-   "outsideSub": true,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 8,
    "wins": 2,
@@ -9998,7 +9998,7 @@
    "winPct": 25,
    "diff": -26,
    "ppg": 17.3,
-   "leagueRank": 369,
+   "leagueRank": 461,
    "rating": -0.7,
    "ratingGames": 8,
    "confidence": 60,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 475,
+   "leagueRank": 476,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 469,
+   "leagueRank": 470,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 469,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -67726,7 +67726,22 @@
      ],
      "a": [
       "Lisa Braumann",
-      "Margaret Bayse"
+      "Raquel Sonia Waldman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Shobana Ravishankar"
      ]
     },
     {
@@ -67738,6 +67753,297 @@
      "a": [
       "Gary Grzankowski",
       "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Stasiulewicz",
+      "Madan P"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Herald Barber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Margaret Bayse"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Shobana Ravishankar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Herald Barber",
+      "Madan P"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pedro Oliveira",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raquel Sonia Waldman",
+      "Gary Grzankowski"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Braumann",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Herald Barber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Raquel Sonia Waldman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Lisa Braumann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary Grzankowski",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Madan P",
+      "Herald Barber"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Izabel Illipronti",
+      "Madan P"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nan Feng",
+      "Stephen Stasiulewicz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Margaret Bayse",
+      "Pedro Oliveira"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raquel Sonia Waldman",
+      "Herald Barber"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Raquel Sonia Waldman",
+      "Nan Feng"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shobana Ravishankar",
+      "Izabel Illipronti"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Madan P",
+      "Gary Grzankowski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Pedro Oliveira",
+      "Stephen Stasiulewicz"
      ]
     }
    ]
@@ -67947,6 +68253,7 @@
  "extraPlayerIds": {
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Yiyao Lu": "3b6e7112-199f-4d90-8157-f02bf96f9405",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
@@ -67956,6 +68263,7 @@
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
+  "Wei Zhu": "937eb27e-1168-4697-ad5c-dd5a6cf3872d",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
@@ -67966,6 +68274,7 @@
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
   "Dana Sun": "f0ced78a-591c-415f-9839-a538a6cb0d2c",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd",
+  "Susan Zhang": "f3be5948-f902-49ef-886c-190ad0cca61f",
   "Jennifer Applebee": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3"
  },
  "availableSubs": [
@@ -68175,7 +68484,7 @@
    "gender": "Male",
    "team": "Allstar Pickler",
    "isCaptain": false,
-   "outsideSub": true
+   "outsideSub": false
   },
   {
    "name": "Bill Smith",
@@ -68214,6 +68523,14 @@
    "playerId": "3572118b-4e01-4e64-96a4-a7cc80869425",
    "gender": "Male",
    "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Yiyao Lu",
+   "playerId": "3b6e7112-199f-4d90-8157-f02bf96f9405",
+   "gender": "Male",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -68682,6 +68999,14 @@
    "outsideSub": true
   },
   {
+   "name": "Wei Zhu",
+   "playerId": "937eb27e-1168-4697-ad5c-dd5a6cf3872d",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Shawn Nisse",
    "playerId": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
    "gender": "Male",
@@ -69098,6 +69423,14 @@
    "outsideSub": true
   },
   {
+   "name": "Susan Zhang",
+   "playerId": "f3be5948-f902-49ef-886c-190ad0cca61f",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Yayuan Lien",
    "playerId": "f4725f25-ce53-4104-8f94-d558d8c39e84",
    "gender": "Female",
@@ -69317,7 +69650,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T03:02:26.018Z";
+  DATA.meta.asOf = "2026-10-27T17:07:19.107Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

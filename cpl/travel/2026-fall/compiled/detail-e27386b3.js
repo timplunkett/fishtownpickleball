@@ -95419,8 +95419,8 @@
     "teamRes": "L",
     "teamGW": 10,
     "teamGL": 22,
-    "sub": 1,
-    "subFor": "Flemington"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

@@ -6344,7 +6344,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 242,
+   "leagueRank": 243,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6373,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 247,
+   "leagueRank": 249,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6431,7 +6431,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 245,
+   "leagueRank": 247,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -41726,7 +41726,6 @@
    "away": "ACE Moorestown",
    "time": "2026-10-26T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 649,
    "awayPoints": 537,
    "homeGW": 27,
@@ -42182,9 +42181,9 @@
     }
    ],
    "subs": [
-    "Raaj Singh",
     "Chase Thomas",
-    "Adam Beck"
+    "Adam Beck",
+    "Raaj Singh"
    ]
   },
   {
@@ -42311,7 +42310,9 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
+  "Matt Jump": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
+  "Tyler Fung": "166a70de-d49c-4fa0-9dbe-703976f26267",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
@@ -42351,6 +42352,14 @@
    "outsideSub": true
   },
   {
+   "name": "Matt Jump",
+   "playerId": "08d8b68a-9fe1-42c5-a8cf-9a92eaa0535f",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Clayton Schmucker",
    "playerId": "0be72348-4a00-413e-bf40-df6824c3cca3",
    "gender": "Male",
@@ -42371,6 +42380,14 @@
    "playerId": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
    "gender": "Male",
    "team": "Picklr Newtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Tyler Fung",
+   "playerId": "166a70de-d49c-4fa0-9dbe-703976f26267",
+   "gender": "Male",
+   "team": "ACE Moorestown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -42937,7 +42954,7 @@
  ],
  "meta": {
   "matchesPlayed": 61,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-10",
   "totalPlayers": 232,
   "ratingHistoryWeeks": [
@@ -43070,7 +43087,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T11:20:36.463Z";
+  DATA.meta.asOf = "2026-10-27T17:07:42.123Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

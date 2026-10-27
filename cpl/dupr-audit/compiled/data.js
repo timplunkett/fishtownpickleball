@@ -4584,6 +4584,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "David Bailey",
+   "playerId": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
+   "team": "Flemington",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "David Barban",
    "playerId": "6ffc191a-d2b1-4839-bd30-f93b5f9cd4d9",
    "team": "Pickleball Palace Blue",
@@ -8753,6 +8760,13 @@ window.DUPR_AUDIT = {
    "playerId": "0530512b-466d-4ff7-9e89-7961b4a63110",
    "team": "Bounce Malvern Black",
    "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
+   "name": "Jim Hu",
+   "playerId": "2ec82ce9-5de9-4bee-9f84-b28c2f6c0f2c",
+   "team": "Montville Rocks",
+   "slug": "c43b8608",
    "gender": "Male"
   },
   {

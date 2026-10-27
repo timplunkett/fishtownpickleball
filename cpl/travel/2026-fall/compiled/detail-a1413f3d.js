@@ -11931,7 +11931,7 @@
     "pid": "1a851b17-0445-4807-b476-575fd261f774",
     "name": "Anushk Gupta",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "261d14c5-288e-4349-a3ed-50bad4b620c1",
@@ -11967,7 +11967,7 @@
     "pid": "7d836ecc-e553-4966-9c12-2dc698a545d0",
     "name": "Adam Beck",
     "n": 4,
-    "synergy": -1
+    "synergy": -1.1
    }
   ]
  },
@@ -12271,7 +12271,7 @@
     "pid": "eea6a616-e242-4a3c-9a46-098432e0ab91",
     "name": "Elliott Bauer",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.7
    },
    {
     "pid": "57fabc8d-1a33-4757-b7f4-e3a161b65008",
@@ -13355,7 +13355,7 @@
     "pid": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
     "name": "Tejas Goculdas",
     "n": 4,
-    "synergy": -1
+    "synergy": -1.1
    },
    {
     "pid": "9563cc4a-b081-44cf-9b85-7e13bb2859be",
@@ -14678,7 +14678,7 @@
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "2c32e081-24bc-4910-93a2-fd247ded68fd",
@@ -16676,7 +16676,7 @@
      0
     ],
     "cl": [
-     0,
+     1,
      0
     ],
     "teamRes": "W",
@@ -16815,7 +16815,7 @@
     "pid": "78c6db04-57fc-4d21-ada7-80390f74e5c4",
     "name": "Nicolas Ha",
     "n": 11,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "026a8fae-55fa-42e3-ac43-8ec2e12662bb",
@@ -17456,7 +17456,7 @@
     ],
     "cl": [
      1,
-     3
+     4
     ],
     "teamRes": "L",
     "teamGW": 14,
@@ -17606,7 +17606,7 @@
     "pid": "6aa4b196-23d0-4070-8825-2b1d4b80395d",
     "name": "Joseph Mizrahi",
     "n": 13,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "a82d98f2-cb23-4bd2-95fe-11731dfd2749",
@@ -23769,7 +23769,7 @@
     ],
     "cl": [
      1,
-     1
+     2
     ],
     "teamRes": "L",
     "teamGW": 14,
@@ -23925,7 +23925,7 @@
     "pid": "dae9f061-a8d1-4c21-97b1-cf7cd9e60322",
     "name": "Ethan Rosen",
     "n": 13,
-    "synergy": -0.6
+    "synergy": -0.5
    }
   ]
  },
@@ -25200,7 +25200,7 @@
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    },
    {
     "pid": "ca490492-2de9-4f43-a01d-e340d9f34788",
@@ -27367,7 +27367,7 @@
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
     "n": 7,
-    "synergy": -0.8
+    "synergy": -0.7
    },
    {
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
@@ -29478,7 +29478,7 @@
     "pid": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
     "name": "Megan Harvey",
     "n": 11,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "c586ef6f-ad9c-4a4d-b16b-499622349707",
@@ -29490,25 +29490,25 @@
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
     "name": "Nam Barsh",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "f2cb8ea7-ed55-42cc-be8e-9f8352a330e8",
     "name": "Matthew Kraft",
     "n": 8,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "99779531-e32b-47d5-b580-171a74844d91",
     "name": "Chris Fratinardo",
     "n": 7,
-    "synergy": -0.8
+    "synergy": -0.7
    },
    {
     "pid": "75a01ddc-a43e-4853-bff8-5f88628c2204",
     "name": "Mara Boast",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -29870,7 +29870,7 @@
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
     "n": 11,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
@@ -32865,7 +32865,7 @@
     "pid": "53929301-6ce2-40b9-b161-9ca68e3d4eaf",
     "name": "Tejas Goculdas",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "fbbe5ed6-1d46-48b3-9461-5922944a1016",
@@ -33568,7 +33568,7 @@
     "pid": "f8687730-86a2-4769-a38b-7c0269ee88f5",
     "name": "Jeff Zamorski",
     "n": 8,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "23871699-a12b-4eb6-89cb-62fec790e3fb",
@@ -35277,7 +35277,7 @@
     "pid": "0f8e4988-5c5f-4023-bb2f-a9452618ce52",
     "name": "Eshan Kanetkar",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.7
    },
    {
     "pid": "026a8fae-55fa-42e3-ac43-8ec2e12662bb",
@@ -36575,7 +36575,7 @@
     "pid": "3bd44a9f-5b56-4f17-bf82-071ea5041a66",
     "name": "Andres Cardona",
     "n": 4,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "672fdc71-2bf2-48ff-9dae-e5e6dd1059b6",
@@ -38746,7 +38746,7 @@
      1
     ],
     "cl": [
-     1,
+     2,
      1
     ],
     "teamRes": "W",
@@ -38879,7 +38879,7 @@
     "pid": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
     "name": "Daniel Borgia",
     "n": 11,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "3bb1ed96-5e87-4701-9a91-35464c003b6f",
@@ -43015,7 +43015,7 @@
     "pid": "180f0f07-fb1c-4736-bc2a-b73df793ea05",
     "name": "Kyle Kerr",
     "n": 6,
-    "synergy": 1.8
+    "synergy": 1.7
    },
    {
     "pid": "18f5ee39-59cc-458d-8080-a296d6c15364",
@@ -44075,7 +44075,7 @@
     "pid": "3bd44a9f-5b56-4f17-bf82-071ea5041a66",
     "name": "Andres Cardona",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "e0e0f273-d022-414b-bc6a-e32641effa86",
@@ -48631,7 +48631,7 @@
     "label": "9",
     "rating": 1.5,
     "confidence": 90,
-    "rank": 98,
+    "rank": 97,
     "ratingGames": 52,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1
@@ -48871,7 +48871,7 @@
     "label": "9",
     "rating": 1.6,
     "confidence": 82,
-    "rank": 96,
+    "rank": 95,
     "ratingGames": 27,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
@@ -59489,7 +59489,7 @@
     "rank": 166,
     "ratingGames": 17,
     "strengthOfPartners": 0,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -63580,7 +63580,7 @@
     "pid": "3bd44a9f-5b56-4f17-bf82-071ea5041a66",
     "name": "Andres Cardona",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "9ef81f5d-1061-40b3-8d42-9ccc0c2c5c79",
@@ -64569,7 +64569,7 @@
     "label": "9",
     "rating": 1.6,
     "confidence": 66,
-    "rank": 97,
+    "rank": 96,
     "ratingGames": 9,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.2
@@ -69052,7 +69052,7 @@
     "label": "9",
     "rating": -0.9,
     "confidence": 84,
-    "rank": 309,
+    "rank": 308,
     "ratingGames": 26,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -70235,7 +70235,7 @@
     "label": "9",
     "rating": -1,
     "confidence": 88,
-    "rank": 313,
+    "rank": 312,
     "ratingGames": 39,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.2
@@ -81355,7 +81355,7 @@
     "pid": "439d9ebf-9409-4214-ad91-7c18a0153c71",
     "name": "Joshua Mindlin",
     "n": 6,
-    "synergy": 1.8
+    "synergy": 1.7
    },
    {
     "pid": "68c18c2b-7123-40f4-bf13-e795d12a7583",
@@ -89322,9 +89322,9 @@
     "week": 9,
     "seq": 15,
     "label": "9",
-    "rating": -0.9,
+    "rating": -1,
     "confidence": 85,
-    "rank": 308,
+    "rank": 315,
     "ratingGames": 31,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.7
@@ -89335,19 +89335,19 @@
     "pid": "1591fbbb-7191-49bc-bc26-e936af3f947c",
     "name": "Vinay Shankar Galla",
     "n": 4,
-    "synergy": 1
+    "synergy": 1.1
+   },
+   {
+    "pid": "e0e0f273-d022-414b-bc6a-e32641effa86",
+    "name": "Laura Kwasnoski",
+    "n": 4,
+    "synergy": 0.3
    },
    {
     "pid": "5da3638e-c042-456f-9150-310bfcf0c6db",
     "name": "Sarah Landis",
     "n": 3,
     "synergy": 0.3
-   },
-   {
-    "pid": "e0e0f273-d022-414b-bc6a-e32641effa86",
-    "name": "Laura Kwasnoski",
-    "n": 4,
-    "synergy": 0.2
    },
    {
     "pid": "bac7040f-efe1-4bff-b65e-2c84442793ec",
@@ -89359,7 +89359,7 @@
     "pid": "e8036546-eecf-466f-8b07-52272a291104",
     "name": "Kylie Moulin",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -103293,7 +103293,7 @@
     "label": "9",
     "rating": -0.9,
     "confidence": 72,
-    "rank": 310,
+    "rank": 309,
     "ratingGames": 12,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.9
@@ -108080,7 +108080,7 @@
     "label": "9",
     "rating": -0.9,
     "confidence": 61,
-    "rank": 311,
+    "rank": 310,
     "ratingGames": 8,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.3
@@ -109384,7 +109384,7 @@
     "rank": 420,
     "ratingGames": 14,
     "strengthOfPartners": -1.7,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
