@@ -533,9 +533,9 @@
       "weekNumber": 5,
       "homeTeamId": "e620dd0d-f470-4b11-add5-7ba38422130d",
       "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 637,
+      "awayPoints": 643,
+      "endResult": "away",
       "scheduledTime": "2026-09-27T12:00:00",
       "homeName": "Dill Dinkers Newport",
       "awayName": "Pickleball HQ"

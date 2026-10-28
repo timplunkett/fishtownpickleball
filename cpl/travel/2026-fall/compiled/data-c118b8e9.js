@@ -41115,7 +41115,6 @@
    "away": "Pickleball HQ",
    "time": "2026-09-27T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 637,
    "awayPoints": 643,
    "homeGW": 14,
@@ -41571,8 +41570,8 @@
     }
    ],
    "subs": [
-    "Andy Suphaphol",
-    "Bren Calpin"
+    "Bren Calpin",
+    "Andy Suphaphol"
    ]
   },
   {
@@ -65206,7 +65205,7 @@
  ],
  "meta": {
   "matchesPlayed": 95,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-10",
   "totalPlayers": 319,
   "ratingHistoryWeeks": [
@@ -65351,7 +65350,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T17:43:54.828Z";
+  DATA.meta.asOf = "2026-10-28T22:04:24.785Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
