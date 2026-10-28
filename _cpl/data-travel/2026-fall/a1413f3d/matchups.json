@@ -1277,9 +1277,9 @@
       "weekNumber": 10,
       "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
       "awayTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 626,
+      "awayPoints": 607,
+      "endResult": "away",
       "scheduledTime": "2026-10-27T19:30:00",
       "homeName": "Montville",
       "awayName": "Pickleball Kingdom Watchung"
