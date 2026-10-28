@@ -12347,7 +12347,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 481,
+   "leagueRank": 482,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 488,
+   "leagueRank": 489,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 491,
+   "leagueRank": 492,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 482,
+   "leagueRank": 483,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12492,7 +12492,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 484,
+   "leagueRank": 485,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -75494,8 +75494,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophia Kaufmann",
+      "Meet Patel"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75505,8 +75505,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Ali Husain"
      ],
      "a": [
       "Alexis Milak",
@@ -75516,8 +75516,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Anthony Ursino"
      ],
      "a": [
       "Gabby Gonzalez",
@@ -75527,8 +75527,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Parth Patel"
      ],
      "a": [
       "Perri Goldstein",
@@ -75538,8 +75538,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Morgan Fishman"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75549,8 +75549,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Sophia Kaufmann"
      ],
      "a": [
       "Alexis Milak",
@@ -75560,8 +75560,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Ursino",
+      "Parth Patel"
      ],
      "a": [
       "Eugene Yudelson",
@@ -75571,8 +75571,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Ashus Mahmood"
      ],
      "a": [
       "Jordan Brochin",
@@ -75582,8 +75582,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Anthony Ursino"
      ],
      "a": [
       "Gabby Gonzalez",
@@ -75593,8 +75593,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophia Kaufmann",
+      "Ashus Mahmood"
      ],
      "a": [
       "Cj Pineda",
@@ -75604,8 +75604,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Meet Patel"
      ],
      "a": [
       "Alexis Milak",
@@ -75615,8 +75615,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Ali Husain"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75626,8 +75626,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Sophia Kaufmann"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75637,8 +75637,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Richa Shah"
      ],
      "a": [
       "Alexis Milak",
@@ -75648,8 +75648,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Ursino",
+      "Parth Patel"
      ],
      "a": [
       "Ethan Rosen",
@@ -75659,8 +75659,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashus Mahmood",
+      "Meet Patel"
      ],
      "a": [
       "Eugene Yudelson",
@@ -75670,8 +75670,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Parth Patel"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75681,8 +75681,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Ali Husain"
      ],
      "a": [
       "Cj Pineda",
@@ -75692,8 +75692,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Ashus Mahmood"
      ],
      "a": [
       "Alexis Milak",
@@ -75703,8 +75703,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophia Kaufmann",
+      "Meet Patel"
      ],
      "a": [
       "Perri Goldstein",
@@ -75714,8 +75714,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Richa Shah"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75725,8 +75725,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Sophia Kaufmann"
      ],
      "a": [
       "Alexis Milak",
@@ -75736,8 +75736,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Ashus Mahmood"
      ],
      "a": [
       "Ethan Rosen",
@@ -75747,8 +75747,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Ursino",
+      "Meet Patel"
      ],
      "a": [
       "Joseph Mizrahi",
@@ -75758,8 +75758,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Ashus Mahmood"
      ],
      "a": [
       "Perri Goldstein",
@@ -75769,8 +75769,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Morgan Fishman",
+      "Parth Patel"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75780,8 +75780,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Anthony Ursino"
      ],
      "a": [
       "Gabby Gonzalez",
@@ -75791,8 +75791,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sophia Kaufmann",
+      "Ali Husain"
      ],
      "a": [
       "Alexis Milak",
@@ -75802,8 +75802,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erica Rosenberg",
+      "Morgan Fishman"
      ],
      "a": [
       "Alexis Milak",
@@ -75813,8 +75813,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Richa Shah",
+      "Sophia Kaufmann"
      ],
      "a": [
       "Chelsea Convissar",
@@ -75824,8 +75824,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Ursino",
+      "Meet Patel"
      ],
      "a": [
       "Joseph Mizrahi",
@@ -75835,8 +75835,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ali Husain",
+      "Parth Patel"
      ],
      "a": [
       "Eugene Yudelson",
@@ -76580,8 +76580,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Adam Beck"
      ],
      "a": [
       "Mickey Ma",
@@ -76591,8 +76591,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie George",
+      "Tejas Goculdas"
      ],
      "a": [
       "Tessa Arendt",
@@ -76602,8 +76602,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paige Metzler",
+      "Anushk Gupta"
      ],
      "a": [
       "Lindsay Henzes",
@@ -76613,8 +76613,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Melody Grohotolski",
+      "Will Delaney"
      ],
      "a": [
       "Cait Kearney",
@@ -76624,8 +76624,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Erika Richards"
      ],
      "a": [
       "Cait Kearney",
@@ -76635,8 +76635,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie George",
+      "Melody Grohotolski"
      ],
      "a": [
       "Tessa Arendt",
@@ -76646,8 +76646,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tejas Goculdas",
+      "Michael Velez"
      ],
      "a": [
       "Daniel Borgia",
@@ -76668,8 +76668,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Adam Beck"
      ],
      "a": [
       "Mickey Ma",
@@ -76690,8 +76690,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Daisy Zhang",
+      "Will Delaney"
      ],
      "a": [
       "Tessa Arendt",
@@ -76701,8 +76701,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Paige Metzler",
+      "Anushk Gupta"
      ],
      "a": [
       "Cait Kearney",
@@ -76712,8 +76712,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Paige Metzler"
      ],
      "a": [
       "Lindsay Henzes",
@@ -76723,8 +76723,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie George",
+      "Claudya Elefante"
      ],
      "a": [
       "Jingru Du",
@@ -76734,8 +76734,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tejas Goculdas",
+      "Adam Beck"
      ],
      "a": [
       "Daniel Borgia",
@@ -76756,8 +76756,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Daisy Zhang",
+      "Will Delaney"
      ],
      "a": [
       "Cait Kearney",
@@ -76767,8 +76767,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Adam Beck"
      ],
      "a": [
       "Jingru Du",
@@ -76778,8 +76778,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Michael Velez"
      ],
      "a": [
       "Lindsay Henzes",
@@ -76789,8 +76789,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stephanie George",
+      "Tejas Goculdas"
      ],
      "a": [
       "Mickey Ma",
@@ -76800,8 +76800,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stephanie George",
+      "Melody Grohotolski"
      ],
      "a": [
       "Tessa Arendt",
@@ -76811,8 +76811,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Daisy Zhang",
+      "Paige Metzler"
      ],
      "a": [
       "Cait Kearney",
@@ -76822,8 +76822,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Will Delaney"
      ],
      "a": [
       "Nicolas Ha",
@@ -76833,8 +76833,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Beck",
+      "Michael Velez"
      ],
      "a": [
       "Daniel Borgia",
@@ -76866,8 +76866,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Daisy Zhang",
+      "Tejas Goculdas"
      ],
      "a": [
       "Lindsay Henzes",
@@ -76877,8 +76877,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Claudya Elefante",
+      "Adam Beck"
      ],
      "a": [
       "Mickey Ma",
@@ -76888,8 +76888,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Erika Richards",
+      "Claudya Elefante"
      ],
      "a": [
       "Mickey Ma",
@@ -76899,8 +76899,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Daisy Zhang",
+      "Stephanie George"
      ],
      "a": [
       "Tessa Arendt",
@@ -76910,8 +76910,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Beck",
+      "Will Delaney"
      ],
      "a": [
       "Nicolas Ha",
@@ -76921,8 +76921,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tejas Goculdas",
+      "Anushk Gupta"
      ],
      "a": [
       "Jesse Martinez",
@@ -78276,6 +78276,7 @@
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Kierstin Gant": "bd7c6356-bebd-43a3-85c7-e1f8e51abc5e",
   "Brandon Tsang": "c80b5964-35f3-46b9-a0fa-9c3c9c673161",
+  "Thomas Ross": "eab86a29-43ef-4b31-ba94-928f57f56c9c",
   "Daniel Pham": "f3480a94-4abc-4571-850a-d241e4c8ec8e",
   "Nicholas Brow": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec"
  },
@@ -79081,6 +79082,14 @@
    "outsideSub": true
   },
   {
+   "name": "Thomas Ross",
+   "playerId": "eab86a29-43ef-4b31-ba94-928f57f56c9c",
+   "gender": "Male",
+   "team": "Pickle Place",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Kelly Hanson Word",
    "playerId": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
    "gender": "Female",
@@ -79347,7 +79356,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T11:52:05.038Z";
+  DATA.meta.asOf = "2026-10-28T17:41:11.324Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

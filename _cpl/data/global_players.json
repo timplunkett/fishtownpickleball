@@ -36332,7 +36332,7 @@
     "lastName": "Lin",
     "dupr": "XO6GE7",
     "duprRating": "3.628",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 5160109841,
     "duprProvisional": false
   },
@@ -48954,6 +48954,16 @@
     "duprRating": "3.728",
     "lastSeen": "2026-10",
     "duprNumericId": 7980153372,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "85bedaeb-99d5-498d-a8af-b9599d96c208",
+    "firstName": "Jun Hong",
+    "lastName": "Li",
+    "dupr": "6N49GE",
+    "duprRating": "3.484",
+    "lastSeen": "2026-10",
+    "duprNumericId": 5330478255,
     "duprProvisional": false
   }
 ]

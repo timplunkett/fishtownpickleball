@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 481,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 471,
+   "leagueRank": 474,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 469,
+   "leagueRank": 472,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -68253,6 +68253,7 @@
  "extraPlayerIds": {
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Leo Hong Lin": "333c65aa-2c77-4048-8238-2874adad0212",
   "Yiyao Lu": "3b6e7112-199f-4d90-8157-f02bf96f9405",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
@@ -68262,7 +68263,9 @@
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
+  "Jun Hong Li": "85bedaeb-99d5-498d-a8af-b9599d96c208",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
+  "Dan Kaytes": "8b0ee775-d66b-4db5-9b14-f6dc0c8a2a33",
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Wei Zhu": "937eb27e-1168-4697-ad5c-dd5a6cf3872d",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
@@ -68493,6 +68496,14 @@
    "playerId": "2f7ab054-2612-40b7-802c-fb07c80b409a",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Leo Hong Lin",
+   "playerId": "333c65aa-2c77-4048-8238-2874adad0212",
+   "gender": "Male",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -68953,6 +68964,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jun Hong Li",
+   "playerId": "85bedaeb-99d5-498d-a8af-b9599d96c208",
+   "gender": "Female",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "David King",
    "playerId": "86d26f19-6cb9-442b-b089-994609b4fd77",
    "gender": "Male",
@@ -68965,6 +68984,14 @@
    "playerId": "8863f91b-fd05-4ff3-8596-057a564a9741",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dan Kaytes",
+   "playerId": "8b0ee775-d66b-4db5-9b14-f6dc0c8a2a33",
+   "gender": "Male",
+   "team": "Pickleball Palace",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -69668,7 +69695,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T03:12:15.694Z";
+  DATA.meta.asOf = "2026-10-28T17:42:57.922Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -641,9 +641,9 @@
       "weekNumber": 9,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 622,
+      "awayPoints": 573,
+      "endResult": "home",
       "scheduledTime": "2026-10-21T19:30:00",
       "homeName": "Pickle House",
       "awayName": "Home Court"

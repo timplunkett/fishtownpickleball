@@ -36690,8 +36690,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Christine Ziegler"
      ],
      "a": [
       "Christine Steigerwalt",
@@ -36701,8 +36701,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Peggy Matzen"
      ],
      "a": [
       "Maureen Murphy",
@@ -36712,8 +36712,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Monika Torbus"
      ],
      "a": [
       "Jenna Haas",
@@ -36723,8 +36723,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Cook",
+      "Holly Ferguson"
      ],
      "a": [
       "Sandy Hess",
@@ -36734,8 +36734,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Christine Ziegler"
      ],
      "a": [
       "Denise Stevens",
@@ -36745,8 +36745,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Jessica Wormeck"
      ],
      "a": [
       "Kathleen Rex",
@@ -36756,8 +36756,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Cook",
+      "Holly Ferguson"
      ],
      "a": [
       "Lynn Hauth",
@@ -36767,8 +36767,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Monika Torbus"
      ],
      "a": [
       "Nami Huang",
@@ -36778,8 +36778,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Karen Waldon"
      ],
      "a": [
       "Denise Stevens",
@@ -36789,8 +36789,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Cook",
+      "Christine Ziegler"
      ],
      "a": [
       "Charlie Trapasso",
@@ -36800,8 +36800,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Jessica Wormeck"
      ],
      "a": [
       "Trena Hahn",
@@ -36811,8 +36811,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Peggy Matzen"
      ],
      "a": [
       "Sandy Hess",
@@ -36822,8 +36822,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Holly Ferguson"
      ],
      "a": [
       "Maureen Murphy",
@@ -36833,8 +36833,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Nancy Cook"
      ],
      "a": [
       "Darlene Fusco",
@@ -36844,8 +36844,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Christine Ziegler"
      ],
      "a": [
       "Trena Hahn",
@@ -36855,8 +36855,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Peggy Matzen"
      ],
      "a": [
       "Lynn Hauth",
@@ -36866,8 +36866,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Karen Waldon"
      ],
      "a": [
       "Nami Huang",
@@ -36877,8 +36877,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Christine Ziegler"
      ],
      "a": [
       "Denise Stevens",
@@ -36888,8 +36888,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Holly Ferguson"
      ],
      "a": [
       "Kathleen Rex",
@@ -36899,8 +36899,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Nancy Cook"
      ],
      "a": [
       "Ghada Abraham",
@@ -36910,8 +36910,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Holly Ferguson"
      ],
      "a": [
       "Trena Hahn",
@@ -36921,8 +36921,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Peggy Matzen"
      ],
      "a": [
       "Charlie Trapasso",
@@ -36932,8 +36932,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Karen Waldon"
      ],
      "a": [
       "Kathleen Rex",
@@ -36943,8 +36943,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Nancy Cook"
      ],
      "a": [
       "Jenna Haas",
@@ -36954,8 +36954,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Christine Ziegler"
      ],
      "a": [
       "Ghada Abraham",
@@ -36965,8 +36965,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Holly Ferguson"
      ],
      "a": [
       "Trena Hahn",
@@ -36976,8 +36976,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Jessica Wormeck"
      ],
      "a": [
       "Maureen Murphy",
@@ -36987,8 +36987,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Maureen Dazzo"
      ],
      "a": [
       "Jenna Haas",
@@ -36998,8 +36998,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Christine Ziegler"
      ],
      "a": [
       "Darlene Fusco",
@@ -37009,8 +37009,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Holly Ferguson"
      ],
      "a": [
       "Maureen Murphy",
@@ -37020,8 +37020,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Monika Torbus"
      ],
      "a": [
       "Jenna Haas",
@@ -37031,8 +37031,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karen Waldon",
+      "Nancy Cook"
      ],
      "a": [
       "Kathleen Rex",
@@ -38047,7 +38047,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T03:12:48.653Z";
+  DATA.meta.asOf = "2026-10-28T17:43:29.289Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

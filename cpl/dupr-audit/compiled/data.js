@@ -19483,6 +19483,13 @@ window.DUPR_AUDIT = {
    "name": "Xhulio Kola",
    "playerId": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
    "team": "Montville",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Xhulio Kola",
+   "playerId": "765b48a2-1800-4796-9b6e-39f78b3dfe8c",
+   "team": "Montville",
    "slug": "a1413f3d",
    "gender": "Male"
   },
