@@ -36198,11 +36198,11 @@
   },
   {
     "playerId": "995613f2-6596-4748-9689-8437c7802761",
-    "firstName": "George ",
+    "firstName": "George",
     "lastName": "Mok",
     "dupr": "2ZGQ7R",
     "duprRating": "3.815",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-10",
     "duprNumericId": 8330086524,
     "duprProvisional": false
   },
@@ -48945,5 +48945,15 @@
     "lastSeen": "2026-10",
     "duprNumericId": 6568337873,
     "duprProvisional": true
+  },
+  {
+    "playerId": "5de553b1-0bd0-4d92-b6d5-56da972b23f6",
+    "firstName": "Rich",
+    "lastName": "Russell",
+    "dupr": "59ENZP",
+    "duprRating": "3.728",
+    "lastSeen": "2026-10",
+    "duprNumericId": 7980153372,
+    "duprProvisional": false
   }
 ]

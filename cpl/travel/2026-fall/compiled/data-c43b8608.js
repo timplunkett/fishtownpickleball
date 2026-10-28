@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 476,
+   "leagueRank": 478,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 470,
+   "leagueRank": 471,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -67688,7 +67688,7 @@
       ""
      ],
      "a": [
-      "Izabel Illipronti",
+      "Nan Feng",
       "Herald Barber"
      ]
     },
@@ -67817,7 +67817,7 @@
       ""
      ],
      "a": [
-      "Nan Feng",
+      "Izabel Illipronti",
       "Margaret Bayse"
      ]
     },
@@ -68257,6 +68257,7 @@
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
+  "Rich Russell": "5de553b1-0bd0-4d92-b6d5-56da972b23f6",
   "Jason Wu": "5e42a5f7-22d1-4613-a829-b62121ddc704",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
@@ -68265,6 +68266,7 @@
   "Beth Pardilla": "8c91a1ca-2f64-4dc4-a33c-44e8c6f08eee",
   "Wei Zhu": "937eb27e-1168-4697-ad5c-dd5a6cf3872d",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
+  "George Mok": "995613f2-6596-4748-9689-8437c7802761",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
@@ -68679,6 +68681,14 @@
    "outsideSub": true
   },
   {
+   "name": "Rich Russell",
+   "playerId": "5de553b1-0bd0-4d92-b6d5-56da972b23f6",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Denise Werner",
    "playerId": "5e28fa79-7607-4115-94c9-7ffbccbf4f9b",
    "gender": "Female",
@@ -69035,6 +69045,14 @@
    "playerId": "981ae183-14b1-4b7f-880e-8f03e94ca703",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "George Mok",
+   "playerId": "995613f2-6596-4748-9689-8437c7802761",
+   "gender": "Male",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -69650,7 +69668,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-27T21:40:28.660Z";
+  DATA.meta.asOf = "2026-10-28T03:12:15.694Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

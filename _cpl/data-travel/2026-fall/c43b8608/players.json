@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 471
+      "ranking": 472
     },
     {
       "playerId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
@@ -527,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 474
+      "ranking": 475
     },
     {
       "playerId": "0d68c1e4-633a-4b56-bb73-06365cf5bdcb",
@@ -3980,6 +3980,29 @@
       "ranking": 115
     },
     {
+      "playerId": "5de553b1-0bd0-4d92-b6d5-56da972b23f6",
+      "firstName": "Rich",
+      "lastName": "Russell",
+      "gender": "Male",
+      "dupr": "59ENZP",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 477
+    },
+    {
       "playerId": "5e265a90-558b-4564-acd8-f358bab162a9",
       "firstName": "Rachel",
       "lastName": "Baluyot",
@@ -4046,7 +4069,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 480
+      "ranking": 482
     },
     {
       "playerId": "5f2e3f29-7b61-4d23-ba5a-23bfe5eac362",
@@ -4230,7 +4253,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 478
+      "ranking": 480
     },
     {
       "playerId": "643d57f1-e4de-431d-b486-01fcc266501f",
@@ -5978,7 +6001,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 473
+      "ranking": 474
     },
     {
       "playerId": "8d2e68bc-4d80-454f-833c-c03051de674b",
@@ -6369,7 +6392,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 482
+      "ranking": 484
     },
     {
       "playerId": "938658e5-f3f0-4597-8d1b-8d65a9378673",
@@ -6461,7 +6484,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 472
+      "ranking": 473
     },
     {
       "playerId": "94c45058-cae5-4085-ad9e-684309568903",
@@ -6646,6 +6669,29 @@
       "genderWins": 14,
       "genderLosses": 9,
       "ranking": 148
+    },
+    {
+      "playerId": "995613f2-6596-4748-9689-8437c7802761",
+      "firstName": "George",
+      "lastName": "Mok",
+      "gender": "Male",
+      "dupr": "2ZGQ7R",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 470
     },
     {
       "playerId": "99f7821f-79d3-4e9e-9a9f-01043edcebee",
@@ -8577,7 +8623,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 476
+      "ranking": 478
     },
     {
       "playerId": "cc77a7f0-8771-48b0-aedb-6a6aae456efc",
@@ -8876,7 +8922,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 470
+      "ranking": 471
     },
     {
       "playerId": "d1d8de9c-d716-4531-8f30-70742305ac46",
@@ -9497,7 +9543,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 475
+      "ranking": 476
     },
     {
       "playerId": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
@@ -10279,7 +10325,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 479
+      "ranking": 481
     },
     {
       "playerId": "f03105d3-576a-4955-909a-24c18a087d1e",
@@ -10348,7 +10394,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 477
+      "ranking": 479
     },
     {
       "playerId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e",
@@ -10509,7 +10555,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 481
+      "ranking": 483
     },
     {
       "playerId": "f4725f25-ce53-4104-8f94-d558d8c39e84",

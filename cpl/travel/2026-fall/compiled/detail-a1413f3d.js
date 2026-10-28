@@ -105310,8 +105310,8 @@
     "teamRes": "W",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 3,
@@ -105337,8 +105337,8 @@
     "teamRes": "L",
     "teamGW": 5,
     "teamGL": 27,
-    "sub": 1,
-    "subFor": "Picklr Newark"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

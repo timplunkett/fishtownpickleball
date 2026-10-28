@@ -454,6 +454,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Alex Bey",
+   "playerId": "df50b777-55ba-476a-bff9-12f1f19a539b",
+   "team": "Picklr Newark",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Alex Boory",
    "playerId": "897f1edf-63f3-4eec-bcf5-d5a1bf0be859",
    "team": "Bounce Philly",
