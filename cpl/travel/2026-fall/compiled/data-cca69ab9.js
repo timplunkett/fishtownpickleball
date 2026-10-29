@@ -39443,444 +39443,6 @@
    ]
   },
   {
-   "result": null,
-   "week": 9,
-   "home": "ACE Moorestown",
-   "away": "Jersey Devil",
-   "time": "2026-10-24T18:00:00",
-   "complete": false,
-   "games": [
-    {
-     "t": "male",
-     "h": [
-      "Matthew Mintz",
-      "Shayne Clowar"
-     ],
-     "a": [
-      "Dean Tridente",
-      "Vince Abate"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Daniel Ehala",
-      "Marc Harden"
-     ],
-     "a": [
-      "Vaughn Mcclelland",
-      "Braden Keith"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Marlin",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Sheel Motiwala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Damien Stahl",
-      "Matt Jump"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Kushal Thapa"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Marc Harden",
-      "Matt Jump"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Sheel Motiwala"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Marlin",
-      "Nachiket Vaidya"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Braden Keith"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Daniel Ehala",
-      "Matthew Mintz"
-     ],
-     "a": [
-      "Vince Abate",
-      "Dean Tridente"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Damien Stahl",
-      "Tyler Fung"
-     ],
-     "a": [
-      "Vaughn Mcclelland",
-      "Brian Barenbaum"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Daniel Ehala",
-      "Matt Jump"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Vince Abate"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Nachiket Vaidya",
-      "Marc Harden"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Stephen Conger"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Fung",
-      "Tyler Marlin"
-     ],
-     "a": [
-      "Braden Keith",
-      "Vaughn Mcclelland"
-     ],
-     "hSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Shayne Clowar",
-      "Matthew Mintz"
-     ],
-     "a": [
-      "Kushal Thapa",
-      "Brian Barenbaum"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Fung",
-      "Tyler Marlin"
-     ],
-     "a": [
-      "Vaughn Mcclelland",
-      "Sheel Motiwala"
-     ],
-     "hSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Nachiket Vaidya",
-      "Matthew Mintz"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Stephen Conger"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matt Jump",
-      "Shayne Clowar"
-     ],
-     "a": [
-      "Dean Tridente",
-      "Kushal Thapa"
-     ],
-     "hSub": [
-      1,
-      0
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Damien Stahl",
-      "Daniel Ehala"
-     ],
-     "a": [
-      "Braden Keith",
-      "Brian Barenbaum"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Nachiket Vaidya",
-      "Matt Jump"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Vince Abate"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Marc Harden",
-      "Shayne Clowar"
-     ],
-     "a": [
-      "Vaughn Mcclelland",
-      "Sheel Motiwala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Damien Stahl",
-      "Tyler Fung"
-     ],
-     "a": [
-      "Braden Keith",
-      "Stephen Conger"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Marlin",
-      "Matthew Mintz"
-     ],
-     "a": [
-      "Brian Barenbaum",
-      "Kushal Thapa"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matt Jump",
-      "Tyler Fung"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Stephen Conger"
-     ],
-     "hSub": [
-      1,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Shayne Clowar",
-      "Marc Harden"
-     ],
-     "a": [
-      "Vince Abate",
-      "Vaughn Mcclelland"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Marlin",
-      "Damien Stahl"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Kushal Thapa"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Daniel Ehala",
-      "Matthew Mintz"
-     ],
-     "a": [
-      "Sheel Motiwala",
-      "Dean Tridente"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Nachiket Vaidya",
-      "Tyler Fung"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Matthew Chen"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Damien Stahl",
-      "Matthew Mintz"
-     ],
-     "a": [
-      "Vince Abate",
-      "Braden Keith"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Shayne Clowar",
-      "Daniel Ehala"
-     ],
-     "a": [
-      "Dean Tridente",
-      "Stephen Conger"
-     ],
-     "aSub": [
-      1,
-      0
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Marlin",
-      "Marc Harden"
-     ],
-     "a": [
-      "Sheel Motiwala",
-      "Brian Barenbaum"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Nachiket Vaidya",
-      "Marc Harden"
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Dean Tridente"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Damien Stahl",
-      "Matt Jump"
-     ],
-     "a": [
-      "Kushal Thapa",
-      "Vince Abate"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Shayne Clowar",
-      "Tyler Fung"
-     ],
-     "a": [
-      "Matthew Chen",
-      "Braden Keith"
-     ],
-     "hSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Tyler Marlin",
-      "Daniel Ehala"
-     ],
-     "a": [
-      "Sheel Motiwala",
-      "Brian Barenbaum"
-     ]
-    }
-   ]
-  },
-  {
    "result": "away",
    "week": 10,
    "home": "Premiere",
@@ -42675,6 +42237,444 @@
   },
   {
    "result": null,
+   "week": 10,
+   "home": "ACE Moorestown",
+   "away": "Jersey Devil",
+   "time": "2026-10-30T19:30:00",
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Matthew Mintz",
+      "Shayne Clowar"
+     ],
+     "a": [
+      "Dean Tridente",
+      "Vince Abate"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Ehala",
+      "Marc Harden"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Marlin",
+      "Nachiket Vaidya"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Damien Stahl",
+      "Matt Jump"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Kushal Thapa"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Harden",
+      "Matt Jump"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Sheel Motiwala"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Marlin",
+      "Nachiket Vaidya"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Ehala",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Vince Abate",
+      "Dean Tridente"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Damien Stahl",
+      "Tyler Fung"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Brian Barenbaum"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Ehala",
+      "Matt Jump"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Vince Abate"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nachiket Vaidya",
+      "Marc Harden"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Fung",
+      "Tyler Marlin"
+     ],
+     "a": [
+      "Braden Keith",
+      "Vaughn Mcclelland"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shayne Clowar",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Kushal Thapa",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Fung",
+      "Tyler Marlin"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nachiket Vaidya",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Jump",
+      "Shayne Clowar"
+     ],
+     "a": [
+      "Dean Tridente",
+      "Kushal Thapa"
+     ],
+     "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Damien Stahl",
+      "Daniel Ehala"
+     ],
+     "a": [
+      "Braden Keith",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nachiket Vaidya",
+      "Matt Jump"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Vince Abate"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Harden",
+      "Shayne Clowar"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Damien Stahl",
+      "Tyler Fung"
+     ],
+     "a": [
+      "Braden Keith",
+      "Stephen Conger"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Marlin",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Brian Barenbaum",
+      "Kushal Thapa"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matt Jump",
+      "Tyler Fung"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ],
+     "hSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shayne Clowar",
+      "Marc Harden"
+     ],
+     "a": [
+      "Vince Abate",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Marlin",
+      "Damien Stahl"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Kushal Thapa"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Ehala",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Dean Tridente"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nachiket Vaidya",
+      "Tyler Fung"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Chen"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Damien Stahl",
+      "Matthew Mintz"
+     ],
+     "a": [
+      "Vince Abate",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shayne Clowar",
+      "Daniel Ehala"
+     ],
+     "a": [
+      "Dean Tridente",
+      "Stephen Conger"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Marlin",
+      "Marc Harden"
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Brian Barenbaum"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nachiket Vaidya",
+      "Marc Harden"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Dean Tridente"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Damien Stahl",
+      "Matt Jump"
+     ],
+     "a": [
+      "Kushal Thapa",
+      "Vince Abate"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shayne Clowar",
+      "Tyler Fung"
+     ],
+     "a": [
+      "Matthew Chen",
+      "Braden Keith"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Tyler Marlin",
+      "Daniel Ehala"
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Brian Barenbaum"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
    "week": 11,
    "home": "Picklr Newtown",
    "away": "Bounce Tempest",
@@ -43572,7 +43572,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-29T03:39:39.803Z";
+  DATA.meta.asOf = "2026-10-29T12:01:48.235Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
