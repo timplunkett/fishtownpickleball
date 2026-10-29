@@ -35938,8 +35938,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joanne Rim",
+      "Sarah Law"
      ],
      "a": [
       "Julia Hollman",
@@ -35949,8 +35949,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Chen",
+      "Ronnie Kostak"
      ],
      "a": [
       "Tammy Dragon",
@@ -35960,8 +35960,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vilayvanh Sysounthone",
+      "Jess Cox"
      ],
      "a": [
       "Janice Aliberti",
@@ -35971,8 +35971,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ani Stone",
+      "Kelly Lopinto"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -35982,8 +35982,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Chen",
+      "Kelly Lopinto"
      ],
      "a": [
       "Julia Hollman",
@@ -35993,8 +35993,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Law",
+      "Ronnie Kostak"
      ],
      "a": [
       "Tammy Dragon",
@@ -36004,8 +36004,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ani Stone",
+      "Joanne Rim"
      ],
      "a": [
       "Elizabeth Biehl",
@@ -36015,8 +36015,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vilayvanh Sysounthone",
+      "Maria Borges"
      ],
      "a": [
       "Lynda Levan",
@@ -36026,8 +36026,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ronnie Kostak",
+      "Sarah Law"
      ],
      "a": [
       "Tammy Dragon",
@@ -36037,8 +36037,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Chen",
+      "Kelly Lopinto"
      ],
      "a": [
       "Janice Aliberti",
@@ -36048,8 +36048,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jess Cox",
+      "Vilayvanh Sysounthone"
      ],
      "a": [
       "Jamie Levin",
@@ -36059,8 +36059,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Borges",
+      "Ly Kim"
      ],
      "a": [
       "Marianne Rosato",
@@ -36070,8 +36070,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Chen",
+      "Joanne Rim"
      ],
      "a": [
       "Lynda Levan",
@@ -36081,8 +36081,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ani Stone",
+      "Kelly Lopinto"
      ],
      "a": [
       "Julia Hollman",
@@ -36092,8 +36092,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vilayvanh Sysounthone",
+      "Ronnie Kostak"
      ],
      "a": [
       "Tammy Dragon",
@@ -36103,8 +36103,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Kumi Dalton"
      ],
      "a": [
       "Sheila Curran",
@@ -36114,8 +36114,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Chen",
+      "Joanne Rim"
      ],
      "a": [
       "Julia Hollman",
@@ -36125,8 +36125,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ani Stone",
+      "Kelly Lopinto"
      ],
      "a": [
       "Janice Aliberti",
@@ -36136,8 +36136,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Law",
+      "Jess Cox"
      ],
      "a": [
       "Tammy Dragon",
@@ -36147,8 +36147,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maria Borges",
+      "Ly Kim"
      ],
      "a": [
       "Elizabeth Biehl",
@@ -36158,8 +36158,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joanne Rim",
+      "Jess Cox"
      ],
      "a": [
       "Lynda Levan",
@@ -36169,8 +36169,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Law",
+      "Janine Thompson"
      ],
      "a": [
       "Annette Marsh",
@@ -36180,8 +36180,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Chen",
+      "Ronnie Kostak"
      ],
      "a": [
       "Tammy Dragon",
@@ -36191,8 +36191,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kumi Dalton",
+      "Ly Kim"
      ],
      "a": [
       "Marianne Rosato",
@@ -36202,8 +36202,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vilayvanh Sysounthone",
+      "Ronnie Kostak"
      ],
      "a": [
       "Julia Hollman",
@@ -36213,8 +36213,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Law",
+      "Ani Stone"
      ],
      "a": [
       "Janice Aliberti",
@@ -36224,8 +36224,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joanne Rim",
+      "Kelly Lopinto"
      ],
      "a": [
       "Lynda Levan",
@@ -36235,8 +36235,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kumi Dalton",
+      "Janine Thompson"
      ],
      "a": [
       "Jamie Levin",
@@ -36246,8 +36246,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Law",
+      "Ani Stone"
      ],
      "a": [
       "Julia Hollman",
@@ -36257,8 +36257,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jess Cox",
+      "Kelly Lopinto"
      ],
      "a": [
       "Lynda Levan",
@@ -36268,8 +36268,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kumi Dalton",
+      "Ly Kim"
      ],
      "a": [
       "Jamie Levin",
@@ -36279,8 +36279,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Vilayvanh Sysounthone",
+      "Janine Thompson"
      ],
      "a": [
       "Sheila Curran",
@@ -36300,8 +36300,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Marina Berger"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36311,8 +36311,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Johns",
+      "Marina Volpe"
      ],
      "a": [
       "Virginie Boutin",
@@ -36326,8 +36326,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Kim",
+      "Olga Turova"
      ],
      "a": [
       "Lori Wild",
@@ -36337,8 +36337,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Kayla Gipson"
      ],
      "a": [
       "Heather Waters",
@@ -36348,8 +36348,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Marina Berger"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36359,8 +36359,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Johns",
+      "Marina Volpe"
      ],
      "a": [
       "Virginie Boutin",
@@ -36374,8 +36374,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Kayla Gipson"
      ],
      "a": [
       "Pam Mcdannell",
@@ -36385,8 +36385,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Bruno",
+      "Linda Seemann"
      ],
      "a": [
       "Suzi French",
@@ -36396,8 +36396,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Jasmine Ho"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36407,8 +36407,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Marina Volpe"
      ],
      "a": [
       "Virginie Boutin",
@@ -36418,8 +36418,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Bruno",
+      "Linda Seemann"
      ],
      "a": [
       "Sulyn Kulick",
@@ -36433,8 +36433,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Kim",
+      "Olga Turova"
      ],
      "a": [
       "Suzi French",
@@ -36444,8 +36444,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Maureen Bruno"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36455,8 +36455,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Olga Turova"
      ],
      "a": [
       "Virginie Boutin",
@@ -36466,8 +36466,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kayla Gipson",
+      "Linda Johns"
      ],
      "a": [
       "Sulyn Kulick",
@@ -36481,8 +36481,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Kim",
+      "Linda Seemann"
      ],
      "a": [
       "Heather Waters",
@@ -36492,8 +36492,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Jasmine Ho"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36503,8 +36503,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Bruno",
+      "Olga Turova"
      ],
      "a": [
       "Virginie Boutin",
@@ -36514,8 +36514,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Paula Cushing",
+      "Linda Seemann"
      ],
      "a": [
       "Sulyn Kulick",
@@ -36525,8 +36525,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Kim",
+      "Linda Johns"
      ],
      "a": [
       "Heather Waters",
@@ -36536,8 +36536,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Paula Cushing"
      ],
      "a": [
       "Virginie Boutin",
@@ -36547,8 +36547,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Marina Berger"
      ],
      "a": [
       "Heather Waters",
@@ -36558,8 +36558,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Kim",
+      "Kayla Gipson"
      ],
      "a": [
       "Lori Wild",
@@ -36573,8 +36573,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Johns",
+      "Olga Turova"
      ],
      "a": [
       "Sulyn Kulick",
@@ -36584,8 +36584,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Paula Cushing"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36599,8 +36599,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Volpe",
+      "Jasmine Ho"
      ],
      "a": [
       "Virginie Boutin",
@@ -36610,8 +36610,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Bruno",
+      "Kayla Gipson"
      ],
      "a": [
       "Sulyn Kulick",
@@ -36621,8 +36621,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Seemann",
+      "Linda Johns"
      ],
      "a": [
       "Lori Wild",
@@ -36632,8 +36632,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marina Berger",
+      "Paula Cushing"
      ],
      "a": [
       "Rachel Mcgowan",
@@ -36647,8 +36647,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jasmine Ho",
+      "Kayla Gipson"
      ],
      "a": [
       "Virginie Boutin",
@@ -36658,8 +36658,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Olga Kim",
+      "Maureen Bruno"
      ],
      "a": [
       "Lori Wild",
@@ -36669,8 +36669,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Seemann",
+      "Olga Turova"
      ],
      "a": [
       "Heather Waters",
@@ -37052,8 +37052,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Karen Pisano",
@@ -37063,8 +37063,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jerzie-Ann Coppola",
+      "Kathy Baker"
      ],
      "a": [
       "Diana Macri",
@@ -37074,19 +37074,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Nicole Tarallo"
      ],
      "a": [
       "Suzanne Leon",
       "Stacey Cohen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Donna Facconerusin"
      ],
      "a": [
       "Nancy Ciappina",
@@ -37096,8 +37100,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathy Baker"
      ],
      "a": [
       "Stacey Cohen",
@@ -37107,8 +37111,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Jackie Coneeny"
      ],
      "a": [
       "Sally Sitro",
@@ -37118,19 +37122,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Dawn Dalessio",
       "Sabrina Trunzo Dinkle"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Jerzie-Ann Coppola"
      ],
      "a": [
       "Denise Bonagura",
@@ -37140,8 +37148,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Caroline Kinlin"
      ],
      "a": [
       "Diana Macri",
@@ -37151,19 +37159,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
       "Stacey Cohen"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Jerzie-Ann Coppola"
      ],
      "a": [
       "Elizabeth Damico",
@@ -37173,8 +37185,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Facconerusin",
+      "Kathy Baker"
      ],
      "a": [
       "Sally Sitro",
@@ -37184,8 +37196,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jerzie-Ann Coppola",
+      "Caroline Kinlin"
      ],
      "a": [
       "Nancy Ciappina",
@@ -37195,19 +37207,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Facconerusin",
+      "Nicole Tarallo"
      ],
      "a": [
       "Suzanne Leon",
       "Denise Bonagura"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Sara Hylan"
      ],
      "a": [
       "Sally Sitro",
@@ -37217,8 +37233,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Jackie Coneeny"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -37228,19 +37244,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Jerzie-Ann Coppola"
      ],
      "a": [
       "Stacey Cohen",
       "Denise Bonagura"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Caroline Kinlin"
      ],
      "a": [
       "Dawn Dalessio",
@@ -37250,8 +37270,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Walsh Mccarty",
+      "Kathy Baker"
      ],
      "a": [
       "Karen Pisano",
@@ -37261,30 +37281,34 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Jackie Coneeny"
      ],
      "a": [
       "Diana Macri",
-      "Suzanne Leon"
+      "Sabrina Trunzo Dinkle"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Donna Facconerusin"
      ],
      "a": [
       "Elizabeth Damico",
       "Karen Pisano"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Caroline Kinlin"
      ],
      "a": [
       "Diana Macri",
@@ -37294,8 +37318,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Suzanne Leon",
@@ -37305,8 +37329,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Hylan",
+      "Jackie Coneeny"
      ],
      "a": [
       "Denise Bonagura",
@@ -37316,8 +37340,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Sabrina Trunzo Dinkle",
@@ -37327,8 +37351,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Donna Facconerusin"
      ],
      "a": [
       "Denise Bonagura",
@@ -37338,19 +37362,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Jerzie-Ann Coppola"
      ],
      "a": [
       "Karen Pisano",
       "Diana Macri"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Caroline Kinlin"
      ],
      "a": [
       "Nancy Ciappina",
@@ -37360,19 +37388,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Tarallo",
+      "Jackie Coneeny"
      ],
      "a": [
       "Dawn Dalessio",
       "Stacey Cohen"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Sara Hylan"
      ],
      "a": [
       "Nancy Ciappina",
@@ -37382,19 +37414,19 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Walsh Mccarty",
+      "Caroline Kinlin"
      ],
      "a": [
-      "Sabrina Trunzo Dinkle",
-      "Diana Macri"
+      "Suzanne Leon",
+      "Denise Bonagura"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Jerzie-Ann Coppola"
      ],
      "a": [
       "Elizabeth Damico",
@@ -38047,7 +38079,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T17:43:29.289Z";
+  DATA.meta.asOf = "2026-10-29T03:40:07.935Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

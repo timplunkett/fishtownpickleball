@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 481,
+   "leagueRank": 482,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 474,
+   "leagueRank": 475,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 472,
+   "leagueRank": 473,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -68978,6 +68978,7 @@
   "Wei Zhu": "937eb27e-1168-4697-ad5c-dd5a6cf3872d",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "George Mok": "995613f2-6596-4748-9689-8437c7802761",
+  "Dawn Katz": "a78a9528-7388-4892-825f-87c69a3d2a87",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
@@ -69824,6 +69825,14 @@
    "outsideSub": true
   },
   {
+   "name": "Dawn Katz",
+   "playerId": "a78a9528-7388-4892-825f-87c69a3d2a87",
+   "gender": "Female",
+   "team": "One Love",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Julia Hollman",
    "playerId": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f",
    "gender": "Female",
@@ -70403,7 +70412,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T22:03:30.013Z";
+  DATA.meta.asOf = "2026-10-29T03:38:35.126Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
