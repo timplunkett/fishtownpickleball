@@ -12347,7 +12347,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 482,
+   "leagueRank": 483,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 489,
+   "leagueRank": 490,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 493,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 483,
+   "leagueRank": 484,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12463,7 +12463,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 468,
+   "leagueRank": 469,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12492,7 +12492,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 485,
+   "leagueRank": 486,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12521,7 +12521,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 460,
+   "leagueRank": 461,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12579,7 +12579,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 464,
+   "leagueRank": 465,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12608,7 +12608,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 480,
+   "leagueRank": 481,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12637,7 +12637,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 469,
+   "leagueRank": 470,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12666,7 +12666,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 465,
+   "leagueRank": 466,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12695,7 +12695,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 477,
+   "leagueRank": 478,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -75322,7 +75322,7 @@
      "t": "male",
      "h": [
       "Harvey Mitchell",
-      "Michael Taylor"
+      "Chris Fratinardo"
      ],
      "a": [
       "Jeremy Buckley",
@@ -75381,7 +75381,7 @@
      "t": "mixed",
      "h": [
       "Emily Ocasio",
-      "Michael Taylor"
+      "Chris Fratinardo"
      ],
      "a": [
       "Sarah Landis",
@@ -75429,7 +75429,7 @@
      "t": "male",
      "h": [
       "Jacinth Chikkala",
-      "Michael Taylor"
+      "Chris Fratinardo"
      ],
      "a": [
       "Dylan Rice",
@@ -75481,7 +75481,7 @@
      "t": "mixed",
      "h": [
       "Priya Narahari",
-      "Michael Taylor"
+      "Chris Fratinardo"
      ],
      "a": [
       "Laura Kwasnoski",
@@ -75573,7 +75573,7 @@
      "t": "mixed",
      "h": [
       "Priya Narahari",
-      "Michael Taylor"
+      "Chris Fratinardo"
      ],
      "a": [
       "Laura Kwasnoski",
@@ -75617,7 +75617,7 @@
      "t": "male",
      "h": [
       "Jeff Zamorski",
-      "Michael Taylor"
+      "Chris Fratinardo"
      ],
      "a": [
       "Vinay Shankar Galla",
@@ -78522,6 +78522,7 @@
   "David Barth": "536d9ae8-df38-4a00-9a1f-c79b8d83b97f",
   "Ryan Johnson": "62677973-769a-4bbb-a645-06442c103c58",
   "Bryan Tsang": "63cd3df2-bdd8-4e38-b449-653b71e10ff4",
+  "Josh Fink": "6a70d918-9cd3-47d0-a40a-901a406452b6",
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shukling Parker": "8b9a1a95-0599-42bc-b233-e24609d11e07",
@@ -78894,6 +78895,14 @@
    "playerId": "6a68ba8e-9700-4e5a-b54e-07160dac5c68",
    "gender": "Female",
    "team": "Bounce Tempest",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Josh Fink",
+   "playerId": "6a70d918-9cd3-47d0-a40a-901a406452b6",
+   "gender": "Male",
+   "team": "Flemington Blue",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -79612,7 +79621,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-29T03:36:12.753Z";
+  DATA.meta.asOf = "2026-10-29T18:09:59.439Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;
