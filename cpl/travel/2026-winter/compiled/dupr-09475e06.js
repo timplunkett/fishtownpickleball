@@ -1,0 +1,1 @@
+window.DUPR_RATINGS = {};
