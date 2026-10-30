@@ -3,12 +3,12 @@ window.CPL_CATALOG = {
   {
    "key": "travel",
    "label": "Cross Club League",
-   "current": "2026-winter",
+   "current": "2026-fall",
    "seasons": [
     {
      "slug": "2026-winter",
      "label": "Winter 2026",
-     "status": "current",
+     "status": "upcoming",
      "order": 20264,
      "landingSlug": "8b1c2590",
      "divisions": [
@@ -23,7 +23,7 @@ window.CPL_CATALOG = {
     {
      "slug": "2026-fall",
      "label": "Fall 2026",
-     "status": "archived",
+     "status": "current",
      "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [
