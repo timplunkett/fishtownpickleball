@@ -17051,6 +17051,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Shalin Rawal",
+   "playerId": "08530d21-2dc5-4f71-9d49-9191ec192860",
+   "team": "Montville",
+   "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
    "name": "Shanasia Bagnol",
    "playerId": "d183236f-85a1-41a3-a26a-2f9bc04c3b07",
    "team": "Pickleball Kingdom Tinton Falls",

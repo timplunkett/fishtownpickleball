@@ -9998,7 +9998,7 @@
    "winPct": 25,
    "diff": -26,
    "ppg": 17.3,
-   "leagueRank": 463,
+   "leagueRank": 464,
    "rating": -0.7,
    "ratingGames": 8,
    "confidence": 60,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 485,
+   "leagueRank": 486,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 479,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,7 +12434,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 476,
+   "leagueRank": 477,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12463,7 +12463,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 489,
+   "leagueRank": 490,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -69751,6 +69751,7 @@
   "Rich Russell": "5de553b1-0bd0-4d92-b6d5-56da972b23f6",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
+  "Arvie Flores": "7e89cce5-aed0-4d38-ab11-cd962d69fb46",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "Jun Hong Li": "85bedaeb-99d5-498d-a8af-b9599d96c208",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
@@ -70388,6 +70389,14 @@
    "playerId": "79b88b19-d7ab-49ab-881c-888ff437ae90",
    "gender": "Female",
    "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Arvie Flores",
+   "playerId": "7e89cce5-aed0-4d38-ab11-cd962d69fb46",
+   "gender": "Male",
+   "team": "Home Court",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -71219,7 +71228,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-30T03:41:11.974Z";
+  DATA.meta.asOf = "2026-10-30T11:55:47.019Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
