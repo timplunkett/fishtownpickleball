@@ -1087,7 +1087,7 @@ tbody td {
 td.played:focus-visible,
 .grid-wrap .entry[data-team]:focus-visible,
 .duorow:focus-visible,
-.pchip:focus-visible,
+.partner-row:focus-visible,
 thead th:focus-visible,
 .swarm-dot:focus-visible,
 .swarm-legend-item:focus-visible {
@@ -1342,10 +1342,9 @@ thead th:focus-visible,
 /* The "Also plays in" row in a player modal. The label sits above the list the
    way .player-result-name sits above .player-result-entries on the home page's
    Player Finder (cpl/home.js/home.css) — same list markup, different header,
-   because the modal already names the player in .mh-name above it. Top margin
-   matters here specifically: .mh-partners (the Chemistry line, the last thing
-   in #mhead) carries only a top margin of its own, so with none here the row
-   sat flush against it with no visible gap at all. */
+   because the modal already names the player in .mh-name above it. The top
+   margin keeps the row off the last thing in #mhead, which has no bottom
+   margin of its own. */
 .other-leagues {
   margin: 16px 0 14px;
   padding: 10px 12px;
@@ -1590,39 +1589,19 @@ thead th:focus-visible,
   border: 1px solid rgb(29 178 220 / 40%);
 }
 
-/* Partner-chemistry chips in the player modal */
-.mh-partners {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-  align-items: center;
-  margin: 10px 0 0;
-  color: var(--mut);
-  font-size: 13px;
-}
-
-.mh-partners .pl {
-  margin-right: 4px;
-  font-size: 10.5px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.pchip {
-  padding: 2px 9px;
-  background: var(--panel2);
-  border: 1px solid var(--line);
-  border-radius: 999px;
+/* Partner-chemistry table in the player modal (renderPartnerChemistrySection).
+   Rows open that partner's modal, like .duorow on the Top Duos table. Partners
+   under the 3-game minimum have no chemistry number and are dimmed. */
+.partner-row {
   cursor: pointer;
 }
 
-.pchip:hover {
-  border-color: var(--accent);
+.partner-row:hover {
+  background: rgb(29 178 220 / 6%);
 }
 
-.pchip b {
-  color: var(--txt);
-  font-weight: 700;
+.partner-row.thin td {
+  color: var(--mut);
 }
 
 /* Top Duos table + team-card affordances */
