@@ -6043,8 +6043,8 @@
     "teamRes": "W",
     "teamGW": 19,
     "teamGL": 13,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Lehigh Valley"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -6070,8 +6070,8 @@
     "teamRes": "W",
     "teamGW": 21,
     "teamGL": 11,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Lehigh Valley"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

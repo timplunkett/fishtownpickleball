@@ -709,6 +709,18 @@
       "awayName": "Premiere"
     },
     {
+      "matchupId": "a074aa7f-c2c9-4feb-aa37-c16bca771765",
+      "weekNumber": 11,
+      "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+      "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-10-31T13:00:00",
+      "homeName": "Bounce Malvern Black",
+      "awayName": "Bounce Malvern Boom"
+    },
+    {
       "matchupId": "05c3bb7c-9f97-4c0b-9c1a-347341de8380",
       "weekNumber": 11,
       "homeTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
@@ -719,18 +731,6 @@
       "scheduledTime": "2026-10-31T14:00:00",
       "homeName": "Jersey Pickleball Club",
       "awayName": "Flemington Blue"
-    },
-    {
-      "matchupId": "a074aa7f-c2c9-4feb-aa37-c16bca771765",
-      "weekNumber": 11,
-      "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
-      "awayTeamId": "cebe0ee0-0398-4b69-8bff-0bd749d2b454",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-10-31T14:00:00",
-      "homeName": "Bounce Malvern Black",
-      "awayName": "Bounce Malvern Boom"
     },
     {
       "matchupId": "cb43d89b-1826-40db-aa26-7321e73fbf76",

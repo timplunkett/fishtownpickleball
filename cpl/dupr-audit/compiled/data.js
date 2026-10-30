@@ -3594,7 +3594,7 @@ window.DUPR_AUDIT = {
    "playerId": "d156a552-7fa9-488e-9bfa-745feb859950",
    "team": "Flemington Green",
    "slug": "2edc44e7",
-   "gender": "Male"
+   "gender": "Female"
   },
   {
    "name": "Christine Pisapia",
@@ -4682,6 +4682,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "David Eisen",
+   "playerId": "d4b4ed3c-0c4b-4f8b-9b98-a5d448bfb361",
+   "team": "Pickle Place",
+   "slug": "2edc44e7",
+   "gender": "Male"
+  },
+  {
    "name": "David Fiscella",
    "playerId": "fa546fa2-45f5-4ad6-91ec-b6f6044ad8b0",
    "team": "Dill Dinkers Newport",
@@ -5197,6 +5204,13 @@ window.DUPR_AUDIT = {
    "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
    "team": "Pickleball Kingdom Lehigh Valley",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Dion Brown",
+   "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
@@ -11619,6 +11633,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Liby Saigal",
+   "playerId": "dc2026ad-428a-4822-ae40-889727c35b10",
+   "team": "Allstar Pickler",
+   "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
    "name": "Lili Zebluim",
    "playerId": "01687986-8454-48f2-ab99-dabc5bb343b7",
    "team": "Forward",
@@ -15173,6 +15194,13 @@ window.DUPR_AUDIT = {
    "team": "One Love",
    "slug": "1e12eb3f",
    "gender": "Male"
+  },
+  {
+   "name": "Picky Vorabouth",
+   "playerId": "38336cb3-6ff4-4187-abe5-3f0a819d0a0d",
+   "team": "Allstar Pickler",
+   "slug": "2edc44e7",
+   "gender": "Female"
   },
   {
    "name": "Piero Accinelli",

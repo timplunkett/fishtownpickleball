@@ -730,8 +730,8 @@
    "name": "Dion Brown",
    "gender": "Male",
    "team": "Pickleball Kingdom Lehigh Valley",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 10,
@@ -42498,9 +42498,7 @@
      ]
     }
    ],
-   "subs": [
-    "Dion Brown"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -51793,9 +51791,7 @@
      ]
     }
    ],
-   "subs": [
-    "Dion Brown"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -64755,14 +64751,6 @@
    "outsideSub": true
   },
   {
-   "name": "Dion Brown",
-   "playerId": "4c6d1b49-9a66-4e43-8a49-cf56c2901a3b",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Lehigh Valley",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Justin Umana",
    "playerId": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
    "gender": "Male",
@@ -65350,7 +65338,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-28T22:04:24.785Z";
+  DATA.meta.asOf = "2026-10-30T03:42:07.711Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

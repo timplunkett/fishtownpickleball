@@ -1576,8 +1576,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -20384,8 +20384,8 @@
     "teamRes": "L",
     "teamGW": 5,
     "teamGL": 27,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 5,
@@ -20411,8 +20411,8 @@
     "teamRes": "L",
     "teamGW": 15,
     "teamGL": 17,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 10,
@@ -40540,8 +40540,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Pickle Place"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -40567,8 +40567,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Pickle Place"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

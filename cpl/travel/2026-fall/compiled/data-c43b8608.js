@@ -9998,7 +9998,7 @@
    "winPct": 25,
    "diff": -26,
    "ppg": 17.3,
-   "leagueRank": 461,
+   "leagueRank": 463,
    "rating": -0.7,
    "ratingGames": 8,
    "confidence": 60,
@@ -12318,7 +12318,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 453,
+   "leagueRank": 454,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12347,7 +12347,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 454,
+   "leagueRank": 455,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12376,7 +12376,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 482,
+   "leagueRank": 485,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12405,7 +12405,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 475,
+   "leagueRank": 478,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12434,13 +12434,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 473,
+   "leagueRank": 476,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "fc938723-024e-4a2f-af97-1631190542d9"
+  },
+  {
+   "name": "Jason Wu",
+   "gender": "Male",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 489,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5e42a5f7-22d1-4613-a829-b62121ddc704"
   },
   {
    "name": "Neil Kussick",
@@ -67636,7 +67665,381 @@
    "home": "Montville Rocks",
    "away": "Montville Dragons",
    "time": "2026-10-31T15:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Thompson",
+      "Erickson Palomares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jemma Bucks",
+      "Lance Arlaus"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Rempson",
+      "Michael-John Van Rhyn"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Cesar Fojas"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Gallione",
+      "Denise Rempson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Thompson",
+      "Jemma Bucks"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cesar Fojas",
+      "Lance Arlaus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erickson Palomares",
+      "Michael-John Van Rhyn"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jemma Bucks",
+      "Cromwell Palomares"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Erickson Palomares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Gallione",
+      "Stephen Cordaro"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Thompson",
+      "Cesar Fojas"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Denise Rempson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Gallione",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Cordaro",
+      "Cromwell Palomares"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael-John Van Rhyn",
+      "Lance Arlaus"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Michael-John Van Rhyn"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jemma Bucks",
+      "Erickson Palomares"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Gallione",
+      "Lance Arlaus"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Rempson",
+      "Cesar Fojas"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jemma Bucks",
+      "Denise Rempson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Janine Thompson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Cordaro",
+      "Michael-John Van Rhyn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erickson Palomares",
+      "Cesar Fojas"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Cesar Fojas"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Gallione",
+      "Michael-John Van Rhyn"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Denise Rempson",
+      "Lance Arlaus"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Thompson",
+      "Cromwell Palomares"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Karen Gallione",
+      "Denise Rempson"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stella Ott",
+      "Jemma Bucks"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Cordaro",
+      "Michael-John Van Rhyn"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cromwell Palomares",
+      "Lance Arlaus"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -68786,7 +69189,385 @@
    "home": "ACE Moorestown",
    "away": "Picklr Newtown",
    "time": "2026-11-01T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "Jason Wu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Qiuwei Feng",
+      "George Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Mundenar",
+      "Mike Leach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sherri Falsetti",
+      "Eric Shipon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sherri Falsetti",
+      "Lisa Yuskevich"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "Qiuwei Feng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "George Chen",
+      "Jason Wu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leonard Procaccino",
+      "Gennadiy Sterin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Mundenar",
+      "Eric Shipon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sherri Falsetti",
+      "Mike Leach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "Jason Wu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Qiuwei Feng",
+      "George Chen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Mundenar",
+      "Lisa Yuskevich"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "Qiuwei Feng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gennadiy Sterin",
+      "Eric Shipon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leonard Procaccino",
+      "Mike Leach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sherri Falsetti",
+      "Jason Wu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Yuskevich",
+      "Gennadiy Sterin"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "George Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Mundenar",
+      "Eric Shipon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Qiuwei Feng",
+      "Sherri Falsetti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "Jill Mundenar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "George Chen",
+      "Leonard Procaccino"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gennadiy Sterin",
+      "Mike Leach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jill Mundenar",
+      "Leonard Procaccino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Qiuwei Feng",
+      "Jason Wu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Yuskevich",
+      "Mike Leach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sherri Falsetti",
+      "Eric Shipon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Qiuwei Feng",
+      "Sherri Falsetti"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marguerite Greener",
+      "Jill Mundenar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "George Chen",
+      "Jason Wu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leonard Procaccino",
+      "Gennadiy Sterin"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -68961,13 +69742,13 @@
  "extraPlayerIds": {
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
+  "Jim Ellis": "1ed8103f-540a-494e-902f-bd3e508736c1",
   "Leo Hong Lin": "333c65aa-2c77-4048-8238-2874adad0212",
   "Yiyao Lu": "3b6e7112-199f-4d90-8157-f02bf96f9405",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "Rich Russell": "5de553b1-0bd0-4d92-b6d5-56da972b23f6",
-  "Jason Wu": "5e42a5f7-22d1-4613-a829-b62121ddc704",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
@@ -68978,7 +69759,9 @@
   "Wei Zhu": "937eb27e-1168-4697-ad5c-dd5a6cf3872d",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "George Mok": "995613f2-6596-4748-9689-8437c7802761",
+  "Jeff Bischof": "99e56de2-03ec-4677-8475-a5f37c58674b",
   "Dawn Katz": "a78a9528-7388-4892-825f-87c69a3d2a87",
+  "Feng Ling": "b3e11fd0-f2cb-4338-b771-6490d98cf348",
   "Andrew Koshefsky": "b41df00c-281f-46dc-bf9f-129f29524744",
   "Steve Marcotrigiano": "bd901770-69ee-4f41-8cf6-cc82f9fc6043",
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
@@ -69125,6 +69908,14 @@
    "playerId": "1da995e5-0151-44d5-8809-07e0c147d1d7",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jim Ellis",
+   "playerId": "1ed8103f-540a-494e-902f-bd3e508736c1",
+   "gender": "Male",
+   "team": "Dill Dinkers Lansdale",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -69793,6 +70584,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jeff Bischof",
+   "playerId": "99e56de2-03ec-4677-8475-a5f37c58674b",
+   "gender": "Male",
+   "team": "Pickleball Palace",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "George Mandl",
    "playerId": "a0019103-8887-4a15-bbe0-d1c35cdd7b0d",
    "gender": "Male",
@@ -69899,6 +70698,14 @@
   {
    "name": "John Sallo",
    "playerId": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Feng Ling",
+   "playerId": "b3e11fd0-f2cb-4338-b771-6490d98cf348",
    "gender": "Male",
    "team": "Allstar Pickler",
    "isCaptain": false,
@@ -70261,7 +71068,7 @@
   "matchesPlayed": 95,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 453,
+  "totalPlayers": 454,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -70412,7 +71219,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-29T18:12:10.388Z";
+  DATA.meta.asOf = "2026-10-30T03:41:11.974Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -6373,7 +6373,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 250,
+   "leagueRank": 251,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6431,7 +6431,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 247,
+   "leagueRank": 248,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6525,6 +6525,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "166a70de-d49c-4fa0-9dbe-703976f26267"
+  },
+  {
+   "name": "Nick Mirabelli",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 246,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c742aa03-c717-434d-b773-50cffd906273"
   },
   {
    "name": "Doug Horton",
@@ -42265,30 +42294,38 @@
     {
      "t": "male",
      "h": [
-      "Daniel Ehala",
-      "Marc Harden"
+      "Damien Stahl",
+      "Matt Jump"
      ],
      "a": [
       "Vaughn Mcclelland",
       "Braden Keith"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "Tyler Marlin",
+      "Nick Mirabelli",
       "Nachiket Vaidya"
      ],
      "a": [
       "Tyler Arsenault",
       "Sheel Motiwala"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "Damien Stahl",
-      "Matt Jump"
+      "Marc Harden",
+      "Tyler Fung"
      ],
      "a": [
       "Matthew Chen",
@@ -42344,7 +42381,7 @@
      "t": "male",
      "h": [
       "Damien Stahl",
-      "Tyler Fung"
+      "Nick Mirabelli"
      ],
      "a": [
       "Vaughn Mcclelland",
@@ -42414,7 +42451,7 @@
     {
      "t": "male",
      "h": [
-      "Tyler Fung",
+      "Matt Jump",
       "Tyler Marlin"
      ],
      "a": [
@@ -42440,8 +42477,8 @@
     {
      "t": "male",
      "h": [
-      "Matt Jump",
-      "Nicholas Vanderveer"
+      "Nick Mirabelli",
+      "Tyler Fung"
      ],
      "a": [
       "Dean Tridente",
@@ -42471,7 +42508,7 @@
      "t": "male",
      "h": [
       "Nachiket Vaidya",
-      "Matt Jump"
+      "Nicholas Vanderveer"
      ],
      "a": [
       "Matthew Chen",
@@ -42486,7 +42523,7 @@
      "t": "male",
      "h": [
       "Marc Harden",
-      "Nicholas Vanderveer"
+      "Nick Mirabelli"
      ],
      "a": [
       "Vaughn Mcclelland",
@@ -42500,7 +42537,7 @@
     {
      "t": "male",
      "h": [
-      "Damien Stahl",
+      "Tyler Marlin",
       "Tyler Fung"
      ],
      "a": [
@@ -42515,7 +42552,7 @@
     {
      "t": "male",
      "h": [
-      "Tyler Marlin",
+      "Damien Stahl",
       "Matthew Mintz"
      ],
      "a": [
@@ -42542,7 +42579,7 @@
      "t": "male",
      "h": [
       "Nicholas Vanderveer",
-      "Marc Harden"
+      "Nick Mirabelli"
      ],
      "a": [
       "Vince Abate",
@@ -42550,7 +42587,7 @@
      ],
      "hSub": [
       1,
-      0
+      1
      ]
     },
     {
@@ -42583,7 +42620,7 @@
      "t": "male",
      "h": [
       "Nachiket Vaidya",
-      "Tyler Fung"
+      "Nick Mirabelli"
      ],
      "a": [
       "Tyler Arsenault",
@@ -42598,11 +42635,15 @@
      "t": "male",
      "h": [
       "Damien Stahl",
-      "Matthew Mintz"
+      "Matt Jump"
      ],
      "a": [
       "Vince Abate",
       "Braden Keith"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -42654,7 +42695,7 @@
      "t": "male",
      "h": [
       "Damien Stahl",
-      "Matt Jump"
+      "Nick Mirabelli"
      ],
      "a": [
       "Kushal Thapa",
@@ -43337,6 +43378,14 @@
    "outsideSub": true
   },
   {
+   "name": "Nick Mirabelli",
+   "playerId": "c742aa03-c717-434d-b773-50cffd906273",
+   "gender": "Male",
+   "team": "ACE Moorestown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Pranav Tailor",
    "playerId": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7",
    "gender": "Male",
@@ -43461,7 +43510,7 @@
   "matchesPlayed": 61,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 234,
+  "totalPlayers": 235,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -43592,7 +43641,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-29T18:12:27.730Z";
+  DATA.meta.asOf = "2026-10-30T03:41:26.812Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

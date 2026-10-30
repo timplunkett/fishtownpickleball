@@ -573,7 +573,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 250
+      "ranking": 251
     },
     {
       "playerId": "19407a76-031d-4be3-8ed8-ba88cccdfdd3",
@@ -1792,7 +1792,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 247
+      "ranking": 248
     },
     {
       "playerId": "4bc5dc80-f744-41e1-ab6e-a02c600abed8",
@@ -1861,7 +1861,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 249
+      "ranking": 250
     },
     {
       "playerId": "4d33c53f-a066-4543-b2cf-313c11165227",
@@ -2942,7 +2942,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 246
+      "ranking": 247
     },
     {
       "playerId": "7d836ecc-e553-4966-9c12-2dc698a545d0",
@@ -3793,7 +3793,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 248
+      "ranking": 249
     },
     {
       "playerId": "a472cebf-6bf1-42d1-9a41-fc8940cbb021",
@@ -4601,6 +4601,29 @@
       "ranking": 161
     },
     {
+      "playerId": "c742aa03-c717-434d-b773-50cffd906273",
+      "firstName": "Nick",
+      "lastName": "Mirabelli",
+      "gender": "Male",
+      "dupr": "ZNK59Q",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 246
+    },
+    {
       "playerId": "ca17b2c0-9b3b-47e2-b370-c53ec37675e7",
       "firstName": "Pranav",
       "lastName": "Tailor",
@@ -5311,7 +5334,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 251
+      "ranking": 252
     },
     {
       "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
