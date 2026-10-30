@@ -440,10 +440,12 @@ function opponentLinkHtml(name, fragment = '') {
   return `<a class="pname" href="${escapeHtml(teamHref(name, fragment))}" data-team="${slugify(name)}"${fragmentAttr}>${escapeHtml(name)}</a>`;
 }
 
+// ?lineup=1, when present, is kept: a player opened from the Lineup Lab opens
+// over the lab (see handleRoute), the same way one opened from a team page
+// keeps ?team=.
 function playerHref(player) {
   const url = new URL(window.location.href);
   url.searchParams.set('player', routeKeyForPlayer(player));
-  url.searchParams.delete('lineup');
   url.hash = '';
   return `${url.pathname}${url.search}`;
 }
@@ -3141,7 +3143,7 @@ function renderLineupRoster(teamName, side) {
     : null;
   const rows = roster.map((player) => `
     <tr>
-      <td class="l">${escapeHtml(player.name)}${player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : ''}${player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : ''}</td>
+      <td class="l">${renderPlayerName(player)}</td>
       <td>${player.gender === 'Female' ? 'W' : 'M'}</td>
       <td>${renderLineupRatingCell(player)}</td>
       <td>${renderCell(player, 'dupr')}</td>
@@ -3756,6 +3758,7 @@ function openPlayer(key) {
   setRouteInUrl({
     team: currentRoute.team || '',
     player: player ? routeKeyForPlayer(player) : slugify(key),
+    lineup: currentRoute.lineup,
     hash: currentFragment(),
   });
 }
@@ -3768,7 +3771,7 @@ function closeModal() {
       history.back();
       return;
     }
-    setRouteInUrl({ team: route.team || '', player: '', hash: currentFragment() }, { replace: true });
+    setRouteInUrl({ team: route.team || '', player: '', lineup: route.lineup, hash: currentFragment() }, { replace: true });
     return;
   }
 
@@ -4543,7 +4546,8 @@ function handleRoute() {
     // a hard refresh or a shared link, not just the click that got here.
     const requestedTeam = route.team &&
       DATA.teams.find((candidate) => slugify(candidate.name) === route.team);
-    if (requestedTeam && requestedTeam.name !== lineupLabState.teamA) {
+    const teamChanged = Boolean(requestedTeam && requestedTeam.name !== lineupLabState.teamA);
+    if (teamChanged) {
       lineupLabState.teamA = requestedTeam.name;
       // Landing here from a team's own page, the natural matchup is whoever
       // they play next — exactly what lineupDefaultMatchupIndex picks, so
@@ -4553,7 +4557,14 @@ function handleRoute() {
       lineupLabState.matchupIndex = lineupDefaultMatchupIndex(requestedTeam.name);
       lineupLabState.games = [];
     }
-    renderLineupLab();
+    // Opening or closing a player modal over the lab only changes ?player=.
+    // The lab's lineup lives in lineupLabState, not the URL, so a re-render
+    // here would change nothing but would scroll to the top and drop focus
+    // from wherever the reader was in the games grid. Render only when
+    // arriving at the lab or switching Team A.
+    if (elements.lineupView.hidden || teamChanged) renderLineupLab();
+    const player = route.player ? findPlayerByRouteParam(route.player) : null;
+    if (player) showPlayerModal(player);
     return;
   }
 
