@@ -92,6 +92,14 @@ function readSeasonConfig(configPath = CONFIG_PATH) {
 // season current past the arrival of its successor. `archive` is the opposite
 // lever, for freezing a season early.
 //
+// A season newer than the current one — only possible with a pin, while next
+// season's shell sits upstream waiting for this one to finish — is 'upcoming',
+// not 'archived'. It has no results to freeze, so listing it among the finished
+// seasons (the landing page's Archive box, /cpl/archive/, an "archived" stamp on
+// its dashboards) would be wrong in the same way freezing the pinned season
+// early was. Like an archived season it is not fetched: clearing the pin is
+// what makes it current, and from then on it refreshes normally.
+//
 // Note that `active` on the API's season records is not consulted. Every season
 // it has ever returned is active: true, including ones that finished a year ago,
 // so it carries no information about what is being played now.
@@ -112,12 +120,15 @@ function classifySeasons(seasons, { pin = null, archive = [] } = {}) {
   const currentSlug = current ? seasonSlug(current) : null;
   return sorted.map((season) => {
     const slug = seasonSlug(season);
+    let status = 'archived';
+    if (slug === currentSlug) status = 'current';
+    else if (current && !archived.has(slug) && compareSeasons(season, current) > 0) status = 'upcoming';
     return {
       slug,
       label: seasonLabel(season),
       seasonNumber: season.seasonNumber,
       seasonYear: season.seasonYear,
-      status: slug === currentSlug ? 'current' : 'archived',
+      status,
     };
   });
 }

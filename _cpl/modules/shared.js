@@ -796,9 +796,9 @@
       let rank = 0;
       league.seasons.forEach((season) => {
         if (!Array.isArray(season.divisions) || !season.divisions.length) return;
-        const matches = status === 'current'
-          ? season.status === 'current'
-          : season.status !== 'current';
+        // 'archived' means finished: an upcoming season (newer than a pinned
+        // current one) is neither in play nor in the archive yet.
+        const matches = season.status === status;
         if (!matches) {
           rank += 1;
           return;

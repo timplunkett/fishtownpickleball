@@ -1515,7 +1515,7 @@ function divisionSelectorGroups() {
         // Marked the same way the old Season selector marked one, so the
         // reason this dashboard stopped updating is legible from the control
         // that got you here.
-        label: `${season.label} (archived)`,
+        label: `${season.label} (${season.status === 'upcoming' ? 'upcoming' : 'archived'})`,
         entries: [{ key: currentLeague, label: league ? league.label : currentLeague, season }],
       });
     }

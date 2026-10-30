@@ -459,6 +459,19 @@ test('the archive box counts what is behind the link and names the seasons', () 
   );
 });
 
+test('an upcoming season is neither live nor finished', () => {
+  const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
+  catalog.leagues[0].seasons.unshift(
+    season('2026-winter', 'Winter 2026', 'upcoming', [{ slug: 'eeee5555', divisionName: '3.5 Mens' }]),
+  );
+  const app = runHome(catalog);
+  assert.deepEqual(textsIn(app.el('archive-list'), 'archive-list-season'), ['Spring 2026']);
+  assert.ok(
+    !optionValues(selectsIn(app.el('now-select-host'))[0]).some((value) => value.includes('2026-winter')),
+    'the upcoming season was offered as live',
+  );
+});
+
 test('a season both leagues played is listed once, naming both', () => {
   const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
   catalog.leagues[1].seasons.push(
