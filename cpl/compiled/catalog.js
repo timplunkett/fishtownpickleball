@@ -3,27 +3,27 @@ window.CPL_CATALOG = {
   {
    "key": "travel",
    "label": "Cross Club League",
-   "current": "2026-winter",
+   "current": "2026-fall",
    "seasons": [
     {
      "slug": "2026-winter",
      "label": "Winter 2026",
-     "status": "current",
+     "status": "upcoming",
      "order": 20264,
      "landingSlug": "8b1c2590",
      "divisions": [
-      {"slug":"8b1c2590","divisionName":"3.0 Mens"},
-      {"slug":"460d2b26","divisionName":"3.0 Womens"},
-      {"slug":"27ab7236","divisionName":"3.5 Mens"},
-      {"slug":"09475e06","divisionName":"3.5 Womens"},
-      {"slug":"022234f5","divisionName":"4.0 Mens"},
-      {"slug":"a0d5ca8d","divisionName":"4.0 Womens"}
+      {"slug":"8b1c2590","divisionName":"3.0 Mens","asOf":"2026-10-30T20:57:21.975Z"},
+      {"slug":"460d2b26","divisionName":"3.0 Womens","asOf":"2026-10-30T20:57:21.745Z"},
+      {"slug":"27ab7236","divisionName":"3.5 Mens","asOf":"2026-10-30T20:57:21.221Z"},
+      {"slug":"09475e06","divisionName":"3.5 Womens","asOf":"2026-10-30T20:57:20.612Z"},
+      {"slug":"022234f5","divisionName":"4.0 Mens","asOf":"2026-10-30T20:57:20.971Z"},
+      {"slug":"a0d5ca8d","divisionName":"4.0 Womens","asOf":"2026-10-30T20:57:21.464Z"}
      ]
     },
     {
      "slug": "2026-fall",
      "label": "Fall 2026",
-     "status": "archived",
+     "status": "current",
      "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [

@@ -31,17 +31,23 @@
   // ("3.5"), a local one is prefixed with its club, because five clubs run a
   // "3.25 - 3.99".
   //
-  // Optgroups appear only when more than one season is live. A single group
+  // Optgroups appear only when more than one season is listed. A single group
   // heading over the whole list repeats what the panel head already says, which
   // is the same rule the Division selector on every dashboard follows.
+  //
+  // An upcoming season (next season's shell, while this one is pinned current)
+  // is listed after the live ones, always under its own "(upcoming)" heading,
+  // and left out of the panel head's counts: those say what is being played.
   function buildNowBox() {
     var host = document.getElementById('now-select-host');
     var empty = document.getElementById('now-empty');
     var seasonLine = document.getElementById('now-season');
     if (!host) return;
 
-    var groups = shared.seasonsInPlay('current');
-    var count = groups.reduce(function (total, group) {
+    var live = shared.seasonsInPlay('current');
+    var upcoming = shared.upcomingSeasonGroups ? shared.upcomingSeasonGroups() : [];
+    var groups = live.concat(upcoming);
+    var count = live.reduce(function (total, group) {
       return total + group.entries.reduce(function (n, e) { return n + e.season.divisions.length; }, 0);
     }, 0);
 
@@ -50,18 +56,14 @@
     // only ever needed to unhide it — but that makes the page's correctness
     // depend on an attribute in a file nothing checks, and the two would drift.
     if (empty) empty.hidden = count > 0;
-    if (!count) {
-      // Every league between seasons at once. Rare, but it is what the site
-      // looks like in the gap, and it should read as a lull rather than a fault.
-      if (seasonLine) seasonLine.textContent = '';
-      return;
-    }
-
     if (seasonLine) {
-      seasonLine.textContent = groups.length === 1
-        ? groups[0].label + ' · ' + count + (count === 1 ? ' division' : ' divisions')
-        : groups.length + ' seasons · ' + count + ' divisions';
+      // Every league between seasons at once reads as a lull rather than a
+      // fault: no counts, and the empty line above says why.
+      seasonLine.textContent = !count ? '' : live.length === 1
+        ? live[0].label + ' · ' + count + (count === 1 ? ' division' : ' divisions')
+        : live.length + ' seasons · ' + count + ' divisions';
     }
+    if (!groups.length) return;
 
     var optionsFor = function (group) {
       return group.entries.map(function (entry) {
@@ -71,7 +73,7 @@
       }).join('');
     };
 
-    var body = groups.length === 1
+    var body = groups.length === 1 && !upcoming.length
       ? optionsFor(groups[0])
       : groups.map(function (group) {
         return '<optgroup label="' + escapeHtml(group.label) + '">' + optionsFor(group) + '</optgroup>';

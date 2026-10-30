@@ -8,6 +8,8 @@
     "pin:     a season slug held current even after a newer season appears upstream.",
     "         Use it when next season's shell is created before this season's",
     "         playoffs have finished, which would otherwise freeze results early.",
+    "         Seasons newer than the pinned one are 'upcoming': fetched, but",
+    "         never listed in the archive.",
     "         Remember to clear it, or the league stops updating.",
     "archive: season slugs frozen early, before a successor exists.",
     "",
@@ -15,7 +17,7 @@
     "field is warned about and ignored rather than being fatal."
   ],
   "travel": {
-    "pin": null,
+    "pin": "2026-fall",
     "archive": []
   },
   "local": {

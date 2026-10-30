@@ -459,6 +459,45 @@ test('the archive box counts what is behind the link and names the seasons', () 
   );
 });
 
+// Next season's shell, while this one is pinned current (see seasons.js).
+const withUpcoming = (divisions) => {
+  const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
+  catalog.leagues[0].seasons.unshift(season('2026-winter', 'Winter 2026', 'upcoming', divisions));
+  return catalog;
+};
+
+test('an upcoming season is not listed among the finished ones', () => {
+  const app = runHome(withUpcoming([{ slug: 'eeee5555', divisionName: '3.5 Mens', asOf: '2026-10-30T00:00:00Z' }]));
+  assert.deepEqual(textsIn(app.el('archive-list'), 'archive-list-season'), ['Spring 2026']);
+});
+
+test('an upcoming season follows the live ones under its own heading, uncounted', () => {
+  const app = runHome(withUpcoming([
+    { slug: 'eeee5555', divisionName: '3.5 Mens', asOf: '2026-10-30T00:00:00Z' },
+    // Listed upstream but never compiled: opening it would show nothing.
+    { slug: 'ffff7777', divisionName: '4.0 Mens' },
+  ]));
+  const select = selectsIn(app.el('now-select-host'))[0];
+  assert.deepEqual(optionValues(select).slice(-1), ['travel/2026-winter/?d=eeee5555']);
+  assert.ok(select.innerHTML.includes('label="Winter 2026 (upcoming)"'));
+  assert.equal(app.el('now-season').textContent, '2 seasons · 3 divisions');
+});
+
+test('a lone live season keeps its options ungrouped only when nothing is upcoming', () => {
+  const catalog = withUpcoming([{ slug: 'eeee5555', divisionName: '3.5 Mens', asOf: '2026-10-30T00:00:00Z' }]);
+  catalog.leagues.splice(1, 1);
+  const app = runHome(catalog);
+  const html = selectsIn(app.el('now-select-host'))[0].innerHTML;
+  assert.equal((html.match(/<optgroup/g) || []).length, 2);
+  assert.equal(app.el('now-season').textContent, 'Fall 2026 · 2 divisions');
+});
+
+test('an upcoming season with nothing compiled yet is left out of the picker', () => {
+  const app = runHome(withUpcoming([{ slug: 'eeee5555', divisionName: '3.5 Mens' }]));
+  const select = selectsIn(app.el('now-select-host'))[0];
+  assert.ok(!optionValues(select).some((value) => value.includes('2026-winter')));
+});
+
 test('a season both leagues played is listed once, naming both', () => {
   const catalog = JSON.parse(JSON.stringify(BOTH_LIVE));
   catalog.leagues[1].seasons.push(

@@ -788,8 +788,10 @@ async function downloadSeason(league, season, { divisionSlugs = null } = {}) {
 
 // Which seasons this run is allowed to touch.
 //
-// Nothing but the current season is fetched unless --season names others by
-// hand. That is the whole of "archived seasons are never fetched again": the
+// Nothing but the current season, and any upcoming one (newer than a pinned
+// current season, see seasons.js), is fetched unless --season names others by
+// hand. The current season goes first, so its refresh never waits on a season
+// that is still registering teams. That is the whole of "archived seasons are never fetched again": the
 // crons pass no --season, so no scheduled run can reach an archive, and a
 // season's results stop moving the moment it is classified archived. A person
 // typing --season=2026-spring has said what they mean, so it is allowed — with
@@ -801,7 +803,8 @@ function selectSeasonsToFetch(league, resolvedSeasons, seasonSlugs) {
       console.warn(`⚠️ ${league}: no current season (every season is archived); nothing to fetch.`);
       return [];
     }
-    return [current];
+    const upcoming = resolvedSeasons.filter((season) => season.status === 'upcoming');
+    return [current, ...upcoming];
   }
 
   const requested = new Set(seasonSlugs);

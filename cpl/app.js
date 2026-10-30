@@ -1494,14 +1494,18 @@ function currentPage() {
 // Season control next to it. One control removes the disagreement, and reads
 // the same way the picker on /cpl/ already does.
 //
-// Current seasons only, matching /cpl/'s picker — archived browsing is what
+// Current and upcoming seasons, matching /cpl/'s picker — archived browsing is what
 // /cpl/archive/ is for. The one exception is the page you are actually on: if
 // it is itself an archived season, that season is added back as its own group
 // so the control still shows where you are and still lets you switch divisions
 // within it, rather than offering nothing that matches the page you're on.
 function divisionSelectorGroups() {
   const { league: currentLeague, season: currentSeasonSlug } = currentPage();
-  const groups = CPLShared.seasonsInPlay('current');
+  // Upcoming seasons follow the live ones, as on /cpl/.
+  const groups = [
+    ...CPLShared.seasonsInPlay('current'),
+    ...(CPLShared.upcomingSeasonGroups ? CPLShared.upcomingSeasonGroups() : []),
+  ];
 
   const alreadyListed = groups.some((group) => (
     group.slug === currentSeasonSlug && group.entries.some((entry) => entry.key === currentLeague)
@@ -1515,7 +1519,7 @@ function divisionSelectorGroups() {
         // Marked the same way the old Season selector marked one, so the
         // reason this dashboard stopped updating is legible from the control
         // that got you here.
-        label: `${season.label} (archived)`,
+        label: `${season.label} (${season.status === 'upcoming' ? 'upcoming' : 'archived'})`,
         entries: [{ key: currentLeague, label: league ? league.label : currentLeague, season }],
       });
     }

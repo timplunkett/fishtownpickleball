@@ -796,9 +796,9 @@
       let rank = 0;
       league.seasons.forEach((season) => {
         if (!Array.isArray(season.divisions) || !season.divisions.length) return;
-        const matches = status === 'current'
-          ? season.status === 'current'
-          : season.status !== 'current';
+        // 'archived' means finished: an upcoming season (newer than a pinned
+        // current one) is neither in play nor in the archive yet.
+        const matches = season.status === status;
         if (!matches) {
           rank += 1;
           return;
@@ -819,6 +819,27 @@
       });
     });
     return [...groups.values()].sort(compareSeasonsNewestFirst);
+  }
+
+  // Seasons newer than a pinned current one, for the pickers to list after the
+  // live ones. Labelled "(upcoming)" so nobody mistakes registration for play,
+  // and limited to divisions that have been compiled (the catalog stamps those
+  // with `asOf`): upstream lists a new season's divisions before it has a
+  // single roster to show, and a picker entry that opens an empty dashboard is
+  // worse than none.
+  function upcomingSeasonGroups() {
+    return seasonsInPlay('upcoming')
+      .map((group) => ({
+        ...group,
+        label: `${group.label} (upcoming)`,
+        entries: group.entries
+          .map((entry) => ({
+            ...entry,
+            season: { ...entry.season, divisions: entry.season.divisions.filter((division) => division.asOf) },
+          }))
+          .filter((entry) => entry.season.divisions.length),
+      }))
+      .filter((group) => group.entries.length);
   }
 
   // How a division reads in a picker. Travel divisions are a bare bracket
@@ -976,6 +997,7 @@
     divisionOptionsHtml,
     divisionPath,
     seasonsInPlay,
+    upcomingSeasonGroups,
     getCatalog,
     decodeHtmlEntities,
     derivePlayerGames,

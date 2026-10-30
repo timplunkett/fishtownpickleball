@@ -14,6 +14,7 @@ const {
 const FALL_2026 = { seasonNumber: 3, seasonYear: 2026 };
 const SPRING_2026 = { seasonNumber: 1, seasonYear: 2026 };
 const FALL_2025 = { seasonNumber: 3, seasonYear: 2025 };
+const WINTER_2026 = { seasonNumber: 4, seasonYear: 2026 };
 
 test('season slugs and labels follow the number → name mapping', () => {
   assert.equal(seasonSlug(FALL_2026), '2026-fall');
@@ -56,8 +57,20 @@ test('pin holds a season current past the arrival of its successor', () => {
   const classified = classifySeasons([SPRING_2026, FALL_2026], { pin: '2026-spring' });
   assert.deepEqual(
     classified.map((s) => [s.slug, s.status]),
-    [['2026-spring', 'current'], ['2026-fall', 'archived']],
+    [['2026-spring', 'current'], ['2026-fall', 'upcoming']],
   );
+});
+
+// Fall 2026 travel, pinned while Winter 2026's shell already existed upstream:
+// the newer season was reported as a finished one and listed in the archive.
+test('a season newer than the pinned one is upcoming, and older ones stay archived', () => {
+  const classified = classifySeasons([FALL_2025, SPRING_2026, FALL_2026, WINTER_2026], { pin: '2026-fall' });
+  assert.deepEqual(
+    classified.map((s) => [s.slug, s.status]),
+    [['2025-fall', 'archived'], ['2026-spring', 'archived'], ['2026-fall', 'current'], ['2026-winter', 'upcoming']],
+  );
+  // Fetched: nothing in it is settled, and its rosters fill in as teams register.
+  assert.equal(isFetchable(classified.find((s) => s.slug === '2026-winter')), true);
 });
 
 test('a pin naming a season upstream does not have is ignored, not fatal', () => {
@@ -94,7 +107,7 @@ test('resolveLeagueSeasons returns newest first and reads its own league key', (
   assert.equal(currentSeason(localResolved).slug, '2026-fall');
 });
 
-test('only the current season may be fetched', () => {
+test('archived seasons may not be fetched', () => {
   const classified = classifySeasons([SPRING_2026, FALL_2026]);
   assert.deepEqual(classified.filter(isFetchable).map((s) => s.slug), ['2026-fall']);
 });

@@ -92,6 +92,15 @@ function readSeasonConfig(configPath = CONFIG_PATH) {
 // season current past the arrival of its successor. `archive` is the opposite
 // lever, for freezing a season early.
 //
+// A season newer than the current one — only possible with a pin, while next
+// season's shell sits upstream waiting for this one to finish — is 'upcoming',
+// not 'archived'. It has no results to freeze, so listing it among the finished
+// seasons (the landing page's Archive box, /cpl/archive/, an "archived" stamp on
+// its dashboards) would be wrong in the same way freezing the pinned season
+// early was. Unlike an archived season it is fetched: it has no settled results
+// to protect, and fetching it is what lets its rosters fill in as teams
+// register, so its dashboards have something to show before the pin is cleared.
+//
 // Note that `active` on the API's season records is not consulted. Every season
 // it has ever returned is active: true, including ones that finished a year ago,
 // so it carries no information about what is being played now.
@@ -112,12 +121,15 @@ function classifySeasons(seasons, { pin = null, archive = [] } = {}) {
   const currentSlug = current ? seasonSlug(current) : null;
   return sorted.map((season) => {
     const slug = seasonSlug(season);
+    let status = 'archived';
+    if (slug === currentSlug) status = 'current';
+    else if (current && !archived.has(slug) && compareSeasons(season, current) > 0) status = 'upcoming';
     return {
       slug,
       label: seasonLabel(season),
       seasonNumber: season.seasonNumber,
       seasonYear: season.seasonYear,
-      status: slug === currentSlug ? 'current' : 'archived',
+      status,
     };
   });
 }
@@ -143,8 +155,10 @@ function currentSeason(resolved) {
 // Recompiling it from its cached JSON is how its shards stay readable by an
 // app.js that has moved on since; refetching it is what would let an upstream
 // edit — or an upstream outage — rewrite a season whose results are settled.
+// An upcoming season has nothing settled yet, so it is fetched like the current
+// one.
 function isFetchable(season) {
-  return season.status === 'current';
+  return season.status === 'current' || season.status === 'upcoming';
 }
 
 module.exports = {

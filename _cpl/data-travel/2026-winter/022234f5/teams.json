@@ -1,0 +1,44 @@
+{
+  "$values": [
+    {
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
+      "teamName": "Forward",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
+      "teamName": "Pickleball HQ",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
+      "teamName": "Picklr Newark",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "pod": "TBD"
+    }
+  ]
+}

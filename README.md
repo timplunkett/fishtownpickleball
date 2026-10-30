@@ -129,7 +129,11 @@ Two overrides live in `_cpl/seasons.config.json`:
 - `pin` holds a season current after its successor's shell appears upstream.
   That is the one window the automatic rule gets wrong: the league creates next
   season before this season's playoffs finish, which would freeze results early.
-  **Clear it afterwards, or the league stops updating.**
+  **Clear it afterwards, or the league stops updating.** While it is set, any
+  season newer than the pinned one is `upcoming`: fetched like the current
+  season (so its rosters fill in), listed after the live seasons in the
+  /cpl/ and dashboard pickers as "Winter 2026 (upcoming)" once a division has
+  compiled data, and kept out of the archive.
 - `archive` freezes a season early.
 
 **What archived means.** Archived seasons are never fetched again. They *are*

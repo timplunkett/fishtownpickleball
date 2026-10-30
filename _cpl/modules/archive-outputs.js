@@ -146,7 +146,7 @@ function podiumOf(data) {
 function buildArchiveRows(rootDir, { eachLeagueSeason, seasonCompiledDir, sortDivisionsForLeague }) {
   const rows = [];
   for (const { league, season, divisions } of eachLeagueSeason()) {
-    if (season.status === 'current') continue;
+    if (season.status !== 'archived') continue;
     const compiledDir = seasonCompiledDir(rootDir, league, season.slug);
     for (const division of sortDivisionsForLeague(league, divisions)) {
       const data = readCompiledData(path.join(compiledDir, `data-${division.slug}.js`));
