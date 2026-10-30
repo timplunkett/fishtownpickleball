@@ -38762,7 +38762,7 @@
   "leagueType": "travel",
   "seasonSlug": "2026-fall",
   "seasonLabel": "Fall 2026",
-  "seasonStatus": "current",
+  "seasonStatus": "archived",
   "singleGender": "Female",
   "podCount": 1,
   "podNames": [

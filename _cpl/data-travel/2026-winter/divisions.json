@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "09475e06",
+    "divisionId": "09475e06-c033-4182-8f45-2e8bc7a35776",
+    "divisionName": "3.5 Womens",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api"
+  },
+  {
+    "slug": "022234f5",
+    "divisionId": "022234f5-69a1-4844-b9a2-4b5b4714fe37",
+    "divisionName": "4.0 Mens",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api"
+  },
+  {
+    "slug": "27ab7236",
+    "divisionId": "27ab7236-5ee1-497d-9707-72ac9d81ac1c",
+    "divisionName": "3.5 Mens",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api"
+  },
+  {
+    "slug": "a0d5ca8d",
+    "divisionId": "a0d5ca8d-87ff-4306-aca7-92f246aac972",
+    "divisionName": "4.0 Womens",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api"
+  },
+  {
+    "slug": "460d2b26",
+    "divisionId": "460d2b26-9db7-462b-874b-b3282f50db9b",
+    "divisionName": "3.0 Womens",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api"
+  },
+  {
+    "slug": "8b1c2590",
+    "divisionId": "8b1c2590-75ac-4b47-8c9f-d1fb42290b67",
+    "divisionName": "3.0 Mens",
+    "regionName": "",
+    "apiBase": "https://cplsecureapiproxy.azurewebsites.net/api/CPLSecureApiProxy/gender/v0/api"
+  }
+]

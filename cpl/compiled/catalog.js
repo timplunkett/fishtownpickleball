@@ -3,12 +3,27 @@ window.CPL_CATALOG = {
   {
    "key": "travel",
    "label": "Cross Club League",
-   "current": "2026-fall",
+   "current": "2026-winter",
    "seasons": [
+    {
+     "slug": "2026-winter",
+     "label": "Winter 2026",
+     "status": "current",
+     "order": 20264,
+     "landingSlug": "8b1c2590",
+     "divisions": [
+      {"slug":"8b1c2590","divisionName":"3.0 Mens"},
+      {"slug":"460d2b26","divisionName":"3.0 Womens"},
+      {"slug":"27ab7236","divisionName":"3.5 Mens"},
+      {"slug":"09475e06","divisionName":"3.5 Womens"},
+      {"slug":"022234f5","divisionName":"4.0 Mens"},
+      {"slug":"a0d5ca8d","divisionName":"4.0 Womens"}
+     ]
+    },
     {
      "slug": "2026-fall",
      "label": "Fall 2026",
-     "status": "current",
+     "status": "archived",
      "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [

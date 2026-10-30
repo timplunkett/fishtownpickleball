@@ -78311,7 +78311,7 @@
   "leagueType": "travel",
   "seasonSlug": "2026-fall",
   "seasonLabel": "Fall 2026",
-  "seasonStatus": "current",
+  "seasonStatus": "archived",
   "podCount": 2,
   "podNames": [
    "Northeast / Northwest",
