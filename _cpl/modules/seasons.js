@@ -97,8 +97,9 @@ function readSeasonConfig(configPath = CONFIG_PATH) {
 // not 'archived'. It has no results to freeze, so listing it among the finished
 // seasons (the landing page's Archive box, /cpl/archive/, an "archived" stamp on
 // its dashboards) would be wrong in the same way freezing the pinned season
-// early was. Like an archived season it is not fetched: clearing the pin is
-// what makes it current, and from then on it refreshes normally.
+// early was. Unlike an archived season it is fetched: it has no settled results
+// to protect, and fetching it is what lets its rosters fill in as teams
+// register, so its dashboards have something to show before the pin is cleared.
 //
 // Note that `active` on the API's season records is not consulted. Every season
 // it has ever returned is active: true, including ones that finished a year ago,
@@ -154,8 +155,10 @@ function currentSeason(resolved) {
 // Recompiling it from its cached JSON is how its shards stay readable by an
 // app.js that has moved on since; refetching it is what would let an upstream
 // edit — or an upstream outage — rewrite a season whose results are settled.
+// An upcoming season has nothing settled yet, so it is fetched like the current
+// one.
 function isFetchable(season) {
-  return season.status === 'current';
+  return season.status === 'current' || season.status === 'upcoming';
 }
 
 module.exports = {

@@ -69,8 +69,8 @@ test('a season newer than the pinned one is upcoming, and older ones stay archiv
     classified.map((s) => [s.slug, s.status]),
     [['2025-fall', 'archived'], ['2026-spring', 'archived'], ['2026-fall', 'current'], ['2026-winter', 'upcoming']],
   );
-  // Not fetched until the pin is cleared and it becomes current.
-  assert.equal(isFetchable(classified.find((s) => s.slug === '2026-winter')), false);
+  // Fetched: nothing in it is settled, and its rosters fill in as teams register.
+  assert.equal(isFetchable(classified.find((s) => s.slug === '2026-winter')), true);
 });
 
 test('a pin naming a season upstream does not have is ignored, not fatal', () => {
@@ -107,7 +107,7 @@ test('resolveLeagueSeasons returns newest first and reads its own league key', (
   assert.equal(currentSeason(localResolved).slug, '2026-fall');
 });
 
-test('only the current season may be fetched', () => {
+test('archived seasons may not be fetched', () => {
   const classified = classifySeasons([SPRING_2026, FALL_2026]);
   assert.deepEqual(classified.filter(isFetchable).map((s) => s.slug), ['2026-fall']);
 });

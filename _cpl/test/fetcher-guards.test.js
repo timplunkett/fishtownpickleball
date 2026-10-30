@@ -214,6 +214,14 @@ test('with no --season only the current season is fetched', () => {
   assert.deepEqual(selectSeasonsToFetch('travel', RESOLVED, []).map((s) => s.slug), ['2026-fall']);
 });
 
+test('an upcoming season is fetched after the current one', () => {
+  const withUpcoming = [{ slug: '2026-winter', status: 'upcoming' }, ...RESOLVED];
+  assert.deepEqual(
+    selectSeasonsToFetch('travel', withUpcoming, null).map((s) => s.slug),
+    ['2026-fall', '2026-winter'],
+  );
+});
+
 test('--season is the one way to reach an archived season', () => {
   assert.deepEqual(
     selectSeasonsToFetch('travel', RESOLVED, ['2026-spring']).map((s) => s.slug),
