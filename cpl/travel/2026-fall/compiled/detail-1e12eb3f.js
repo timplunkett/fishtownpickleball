@@ -87061,8 +87061,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -87088,8 +87088,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -112153,8 +112153,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 7,
@@ -112180,8 +112180,8 @@
     "teamRes": "L",
     "teamGW": 13,
     "teamGL": 19,
-    "sub": 1,
-    "subFor": "Bounce Philly"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

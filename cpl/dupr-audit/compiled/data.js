@@ -3961,6 +3961,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Corey Abrams",
+   "playerId": "1a37dcd5-8896-4e3e-8219-898b6a418e86",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Corey Chen",
    "playerId": "b549a93c-acec-4419-9e30-5d8375518d2d",
    "team": "Pickleball Kingdom Hillsborough",
@@ -12477,6 +12484,13 @@ window.DUPR_AUDIT = {
    "playerId": "4c0a6c7a-30fa-4f4b-9494-a54534b88be8",
    "team": "Montville",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Maria Medina",
+   "playerId": "5b296802-eaf0-4fc6-8798-38d35f37aa54",
+   "team": "Bounce Philly",
+   "slug": "1e12eb3f",
    "gender": "Female"
   },
   {
