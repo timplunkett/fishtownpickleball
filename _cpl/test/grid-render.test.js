@@ -76,6 +76,10 @@ DIVISIONS.forEach(({ label, file }) => {
     const app = runApp(file);
     const { DATA } = app.context;
 
+    // An upcoming season whose schedule isn't published yet compiles to no
+    // teams at all, and there is no grid to render.
+    if (!DATA.teams.length) return;
+
     const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
     const sizes = podCount <= 1
       ? [DATA.teams.length]
