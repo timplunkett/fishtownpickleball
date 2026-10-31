@@ -2902,11 +2902,16 @@ function lineupGamesFromMatchup(match, teamA, teamB) {
 // ensureLineupLabState, the matchup dropdown, "Reload this lineup", switching
 // teams — rebuilds a given matchupIndex the same way. Team B is always this
 // matchup's actual opponent; there's no independent Team B to resolve.
+// Team B comes from the match itself, not lineupLabState.teamB: when the
+// matchup dropdown changes, this runs before ensureLineupLabState has caught
+// teamB up, and the stale name made lineupPairFromMatch hand Team A's own
+// players to the opponent's side.
 function rebuildLineupLabGames() {
-  const { teamA, teamB, matchupIndex } = lineupLabState;
+  const { teamA, matchupIndex } = lineupLabState;
   if (matchupIndex == null) return [];
   const match = lineupSeasonMatchesForTeam(teamA)[matchupIndex];
   if (!match) return [];
+  const teamB = match.home === teamA ? match.away : match.home;
   return lineupGamesFromMatchup(match, teamA, teamB);
 }
 
