@@ -28,6 +28,8 @@ function makeElement(id) {
     querySelector: () => null,
     closest: () => null,
     appendChild() {},
+    // showModal focuses the close button; hideModal hands focus back.
+    focus() {},
     getBoundingClientRect: () => ({
       width: 900, height: 300, top: 0, left: 0, right: 900, bottom: 300,
     }),

@@ -440,10 +440,12 @@ function opponentLinkHtml(name, fragment = '') {
   return `<a class="pname" href="${escapeHtml(teamHref(name, fragment))}" data-team="${slugify(name)}"${fragmentAttr}>${escapeHtml(name)}</a>`;
 }
 
+// ?lineup=1, when present, is kept: a player opened from the Lineup Lab opens
+// over the lab (see handleRoute), the same way one opened from a team page
+// keeps ?team=.
 function playerHref(player) {
   const url = new URL(window.location.href);
   url.searchParams.set('player', routeKeyForPlayer(player));
-  url.searchParams.delete('lineup');
   url.hash = '';
   return `${url.pathname}${url.search}`;
 }
@@ -2159,32 +2161,113 @@ function sosNarrative(player) {
     `partners (${formatSignedValue(player.strengthOfPartners, 1)}).${tail}`;
 }
 
-function renderPartnerChip(partner, className) {
-  return `
-    <span class="pchip" data-player="${escapeHtml(partner.pid || partner.name)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(partner.name)}'s player detail">
-      <b>${escapeHtml(partner.name)}</b>
-      <span class="${className}">${formatSignedValue(partner.synergy, 1)}</span>
-      <span class="mut">(${partner.n}g)</span>
-    </span>
-  `;
+// Every partner this player has had in the division, best chemistry first.
+// Partners with 3+ rated games together (player.partners, from the detail
+// shard) take their numbers from the pair's own DATA.duos row, so they match
+// the Top Duos table exactly and cost the detail shard nothing extra. Everyone
+// else comes from the game log: record and actual margin straight off the
+// scores, expected margin from computeExpectedOutcome (the game log's own
+// projection, DUPR stand-ins included), and no chemistry number — too few games
+// to call it that, the same cut as Top Duos. Forfeits aren't rated, so they're
+// left out of both.
+function collectPartnerChemistry(player) {
+  const duoByPartner = new Map();
+  for (const duo of DATA.duos || []) {
+    if (duo.aId === player.playerId) duoByPartner.set(duo.bId, duo);
+    else if (duo.bId === player.playerId) duoByPartner.set(duo.aId, duo);
+  }
+
+  const rows = (player.partners || []).map((partner) => {
+    const duo = duoByPartner.get(partner.pid);
+    return {
+      key: partner.pid || partner.name,
+      name: partner.name,
+      n: partner.n,
+      w: duo ? duo.w : null,
+      l: duo ? duo.l : null,
+      synergy: partner.synergy,
+      avgActual: duo ? duo.avgActual : null,
+      avgExpected: duo ? duo.avgExpected : null,
+    };
+  });
+
+  const listed = new Set(rows.map((row) => row.name));
+  const thinByName = new Map();
+  for (const game of player.games || []) {
+    if (game.ff || !game.with || listed.has(game.with)) continue;
+    const entry = thinByName.get(game.with) || { name: game.with, n: 0, w: 0, sumActual: 0, sumExpected: 0, expectedKnown: true };
+    const expected = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]).margin;
+    entry.n += 1;
+    entry.w += game.w;
+    entry.sumActual += game.f - game.a;
+    if (expected === null) entry.expectedKnown = false;
+    else entry.sumExpected += expected;
+    thinByName.set(game.with, entry);
+  }
+  const round1 = (value) => Math.round(value * 10) / 10;
+  const thinRows = [...thinByName.values()]
+    .map((entry) => ({
+      key: entry.name,
+      name: entry.name,
+      n: entry.n,
+      w: entry.w,
+      l: entry.n - entry.w,
+      synergy: null,
+      avgActual: round1(entry.sumActual / entry.n),
+      avgExpected: entry.expectedKnown ? round1(entry.sumExpected / entry.n) : null,
+    }))
+    .sort((a, b) => (b.n - a.n) || a.name.localeCompare(b.name));
+
+  return rows.concat(thinRows);
 }
 
-function renderPartnersLine(player) {
-  const partners = player.partners || [];
+function renderPartnerChemistrySection(player) {
+  const partners = collectPartnerChemistry(player);
 
   if (partners.length === 0) {
     return '';
   }
 
-  const best = partners[0];
-  const worst = partners[partners.length - 1];
-  let markup = `<div class="mh-partners"><span class="pl">Chemistry</span> best ${renderPartnerChip(best, 'pos-diff')}`;
+  const signedCell = (value) => (value == null ? EMPTY_VALUE : formatSignedValue(value, 1));
+  const rows = partners.map((partner) => {
+    const hasSynergy = partner.synergy != null;
+    const synergyCell = hasSynergy
+      ? `<span class="rating ${partner.synergy >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(partner.synergy, 1)}</span>`
+      : `<span title="Fewer than 3 rated games together — too few to call it chemistry">${EMPTY_VALUE}</span>`;
+    const record = partner.w == null ? EMPTY_VALUE : `<b>${partner.w}</b>–${partner.l}`;
+    return `
+      <tr class="partner-row${hasSynergy ? '' : ' thin'}" data-player="${escapeHtml(partner.key)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(partner.name)}'s player detail">
+        <td class="l">${escapeHtml(partner.name)}</td>
+        <td>${partner.n}</td>
+        <td>${record}</td>
+        <td>${synergyCell}</td>
+        <td>${signedCell(partner.avgActual)}</td>
+        <td class="mut">${signedCell(partner.avgExpected)}</td>
+      </tr>
+    `;
+  }).join('');
+  const thinCount = partners.filter((partner) => partner.synergy == null).length;
+  const countLabel = `${partners.length} ${pluralize(partners.length, 'partner', 'partners')}` +
+    (thinCount ? ` (${thinCount} under 3 games)` : '');
 
-  if (partners.length > 1 && worst !== best) {
-    markup += ` &nbsp;•&nbsp; toughest fit ${renderPartnerChip(worst, 'neg-diff')}`;
-  }
-
-  return `${markup}</div>`;
+  return `
+    <section class="mchem">
+      <div class="gtitle">Partner chemistry <span>${countLabel} • how much a pair beats the result their four ratings predict, per game</span></div>
+      <table class="mlog partner-table">
+        <thead>
+          <tr>
+            <th class="l">Partner</th>
+            <th>Together</th>
+            <th>W–L</th>
+            <th>Chemistry</th>
+            <th>Actual/g</th>
+            <th>Expected/g</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </section>
+  `;
 }
 
 function renderModalHeader(player) {
@@ -2192,7 +2275,6 @@ function renderModalHeader(player) {
   const ratingClass = player.rating >= 0 ? 'pos-diff' : 'neg-diff';
   const diffClass = player.diff >= 0 ? 'pos-diff' : 'neg-diff';
   const narrative = !isMissing(player.rating) ? `<p class="mh-narr">${sosNarrative(player)}</p>` : '';
-  const partnersLine = renderPartnersLine(player);
   const latestRatingSnapshot = getLatestRatingSnapshot(player);
   const divisionRankStat = latestRatingSnapshot?.rank == null
     ? ''
@@ -2236,7 +2318,6 @@ function renderModalHeader(player) {
       ${duprStat}
     </div>
     ${narrative}
-    ${partnersLine}
   `;
 }
 
@@ -3062,7 +3143,7 @@ function renderLineupRoster(teamName, side) {
     : null;
   const rows = roster.map((player) => `
     <tr>
-      <td class="l">${escapeHtml(player.name)}${player.isCaptain ? ' <sup class="captain-tag" title="Team captain">C</sup>' : ''}${player.outsideSub ? ' <span class="sub-tag" title="Outside sub — not a rostered team member">sub</span>' : ''}</td>
+      <td class="l">${renderPlayerName(player)}</td>
       <td>${player.gender === 'Female' ? 'W' : 'M'}</td>
       <td>${renderLineupRatingCell(player)}</td>
       <td>${renderCell(player, 'dupr')}</td>
@@ -3567,6 +3648,7 @@ function renderModalBody(player) {
   return `
     <div class="other-leagues-host">${otherLeaguesSummary}</div>
     ${ratingHistorySection}
+    ${renderPartnerChemistrySection(player)}
     <table class="mlog">
       <thead>
         <tr>
@@ -3595,7 +3677,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Top table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted — a <b>TBD</b> slot is a lineup spot the team has not submitted yet, and a game with one still open cannot be projected.${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
+    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Partner chemistry lists everyone they have partnered: <b>Chemistry</b> is how many points per game the pair beats (or trails) the margin their four ratings predict, shrunk toward 0 on small samples and shown only at 3+ rated games together; <b>Actual/g</b> and <b>Expected/g</b> are the pair&#39;s real and predicted average margins. Forfeits are left out. Match table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted — a <b>TBD</b> slot is a lineup spot the team has not submitted yet, and a game with one still open cannot be projected.${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 
@@ -3650,7 +3732,8 @@ function showPlayerModal(player) {
   // gzipped: on a phone that is one to three seconds in which a tapped name did
   // nothing visible at all, which reads as a dead link and gets tapped again.
   // The header is drawn from the summary the page already has — everything in it
-  // but the chemistry line is in DATA.players — so only the body is a skeleton.
+  // but DIV RANK (from the rating history) is in DATA.players — so only the body
+  // is a skeleton. Partner chemistry lives in the body for the same reason.
   openModalPlayer = player;
   elements.modalHead.innerHTML = renderModalHeader(player);
   elements.modalBody.innerHTML = MODAL_SKELETON;
@@ -3675,6 +3758,7 @@ function openPlayer(key) {
   setRouteInUrl({
     team: currentRoute.team || '',
     player: player ? routeKeyForPlayer(player) : slugify(key),
+    lineup: currentRoute.lineup,
     hash: currentFragment(),
   });
 }
@@ -3687,7 +3771,7 @@ function closeModal() {
       history.back();
       return;
     }
-    setRouteInUrl({ team: route.team || '', player: '', hash: currentFragment() }, { replace: true });
+    setRouteInUrl({ team: route.team || '', player: '', lineup: route.lineup, hash: currentFragment() }, { replace: true });
     return;
   }
 
@@ -4462,7 +4546,8 @@ function handleRoute() {
     // a hard refresh or a shared link, not just the click that got here.
     const requestedTeam = route.team &&
       DATA.teams.find((candidate) => slugify(candidate.name) === route.team);
-    if (requestedTeam && requestedTeam.name !== lineupLabState.teamA) {
+    const teamChanged = Boolean(requestedTeam && requestedTeam.name !== lineupLabState.teamA);
+    if (teamChanged) {
       lineupLabState.teamA = requestedTeam.name;
       // Landing here from a team's own page, the natural matchup is whoever
       // they play next — exactly what lineupDefaultMatchupIndex picks, so
@@ -4472,7 +4557,14 @@ function handleRoute() {
       lineupLabState.matchupIndex = lineupDefaultMatchupIndex(requestedTeam.name);
       lineupLabState.games = [];
     }
-    renderLineupLab();
+    // Opening or closing a player modal over the lab only changes ?player=.
+    // The lab's lineup lives in lineupLabState, not the URL, so a re-render
+    // here would change nothing but would scroll to the top and drop focus
+    // from wherever the reader was in the games grid. Render only when
+    // arriving at the lab or switching Team A.
+    if (elements.lineupView.hidden || teamChanged) renderLineupLab();
+    const player = route.player ? findPlayerByRouteParam(route.player) : null;
+    if (player) showPlayerModal(player);
     return;
   }
 
@@ -4527,11 +4619,11 @@ function handleDuoClick(event) {
   }
 }
 
-function handlePartnerChipClick(event) {
-  const chip = event.target.closest('.pchip');
+function handlePartnerRowClick(event) {
+  const row = event.target.closest('.partner-row');
 
-  if (chip?.dataset.player) {
-    openPlayer(chip.dataset.player);
+  if (row?.dataset.player) {
+    openPlayer(row.dataset.player);
   }
 }
 
@@ -5111,7 +5203,7 @@ function initialize() {
   elements.swarmHost.addEventListener('click', handleSwarmLegendClick);
   elements.swarmHost.addEventListener('mouseover', handleSwarmOver);
   elements.swarmHost.addEventListener('mouseout', handleSwarmOut);
-  elements.modalHead.addEventListener('click', handlePartnerChipClick);
+  elements.modalBody.addEventListener('click', handlePartnerRowClick);
   elements.modalClose.addEventListener('click', closeModal);
   elements.overlay.addEventListener('click', handleOverlayClick);
   elements.overlay.addEventListener('keydown', handleModalKeydown);
@@ -5137,7 +5229,7 @@ function initialize() {
   elements.lineupView?.addEventListener('keydown', activateOnKeydown(handleDuoClick));
   elements.lineupView?.addEventListener('keydown', activateOnKeydown(handleDuoSort));
   elements.swarmHost.addEventListener('keydown', activateOnKeydown(handleSwarmClick));
-  elements.modalHead.addEventListener('keydown', activateOnKeydown(handlePartnerChipClick));
+  elements.modalBody.addEventListener('keydown', activateOnKeydown(handlePartnerRowClick));
   window.addEventListener('popstate', () => {
     routeSetByApp = false;
     handleRoute();
