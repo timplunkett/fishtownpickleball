@@ -70579,8 +70579,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yolanda Li",
+      "Karan Bhagat"
      ],
      "a": [
       "Kirsten Hinds",
@@ -70590,8 +70590,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Gajendra Mehta"
      ],
      "a": [
       "Janet Bellaran",
@@ -70601,8 +70601,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Geordielyn Alviola",
+      "Ben Xie"
      ],
      "a": [
       "Cindy Darcy",
@@ -70612,8 +70612,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Craig Girvan"
      ],
      "a": [
       "Christine Clark",
@@ -70623,8 +70623,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Saritha Kondra"
      ],
      "a": [
       "Kirsten Hinds",
@@ -70634,8 +70634,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Geordielyn Alviola"
      ],
      "a": [
       "Christine Clark",
@@ -70645,8 +70645,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Xie",
+      "Craig Girvan"
      ],
      "a": [
       "Robert Toledo",
@@ -70656,8 +70656,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Karan Bhagat",
+      "Shah Faisal"
      ],
      "a": [
       "Luis Perez",
@@ -70667,8 +70667,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cathy Proctor",
+      "Ben Xie"
      ],
      "a": [
       "Cindy Darcy",
@@ -70678,8 +70678,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Geordielyn Alviola",
+      "Craig Girvan"
      ],
      "a": [
       "Janet Bellaran",
@@ -70689,8 +70689,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ann Betterton",
+      "Gajendra Mehta"
      ],
      "a": [
       "Kirsten Hinds",
@@ -70700,8 +70700,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yolanda Li",
+      "Karan Bhagat"
      ],
      "a": [
       "Doreen Arleth",
@@ -70711,8 +70711,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Saritha Kondra",
+      "Yolanda Li"
      ],
      "a": [
       "Christine Clark",
@@ -70722,8 +70722,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Geordielyn Alviola",
+      "Ann Betterton"
      ],
      "a": [
       "Doreen Arleth",
@@ -70733,8 +70733,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Craig Girvan",
+      "Shah Faisal"
      ],
      "a": [
       "Glenn Gelband",
@@ -70744,8 +70744,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gajendra Mehta",
+      "Ben Xie"
      ],
      "a": [
       "Luis Perez",
@@ -73346,7 +73346,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-30T21:52:05.938Z";
+  DATA.meta.asOf = "2026-10-31T03:25:14.431Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

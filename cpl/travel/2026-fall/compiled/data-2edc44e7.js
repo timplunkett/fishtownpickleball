@@ -41075,16 +41075,12 @@
     {
      "t": "mixed",
      "h": [
-      "Andrea Dellechiaie",
+      "Amanda Quinn",
       "Ryan Sherry"
      ],
      "a": [
       "Mei Li",
       "Ben Xie"
-     ],
-     "hSub": [
-      1,
-      0
      ],
      "aSub": [
       0,
@@ -41106,11 +41102,15 @@
      "t": "female",
      "h": [
       "Jill Lesnik",
-      "Amanda Quinn"
+      "Andrea Dellechiaie"
      ],
      "a": [
       "Mei Li",
       "Rui Zhang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
@@ -41935,7 +41935,7 @@
      "t": "mixed",
      "h": [
       "Amy Chrebet",
-      "Gary Sidhu"
+      "Yi Gu"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -41991,7 +41991,7 @@
      "t": "male",
      "h": [
       "Michael Swell",
-      "Gary Sidhu"
+      "Lance Brown"
      ],
      "a": [
       "Steven Gregov",
@@ -42024,7 +42024,7 @@
      "t": "mixed",
      "h": [
       "Eva Danieli",
-      "Gary Sidhu"
+      "Yi Gu"
      ],
      "a": [
       "Chanda Mccoy",
@@ -42105,7 +42105,7 @@
     {
      "t": "male",
      "h": [
-      "Gary Sidhu",
+      "Darren Saks",
       "Yi Gu"
      ],
      "a": [
@@ -42199,7 +42199,7 @@
      "t": "male",
      "h": [
       "Michael Swell",
-      "Gary Sidhu"
+      "Darren Saks"
      ],
      "a": [
       "Simon Perry",
@@ -42209,7 +42209,7 @@
     {
      "t": "male",
      "h": [
-      "Darren Saks",
+      "Yi Gu",
       "Lance Brown"
      ],
      "a": [
@@ -42232,7 +42232,7 @@
      "t": "mixed",
      "h": [
       "Eva Danieli",
-      "Gary Sidhu"
+      "Lance Brown"
      ],
      "a": [
       "Chanda Mccoy",
@@ -42309,7 +42309,7 @@
     {
      "t": "male",
      "h": [
-      "Gary Sidhu",
+      "Lance Brown",
       "Yi Gu"
      ],
      "a": [
@@ -42748,8 +42748,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Daniel Chernin"
      ],
      "a": [
       "Kate Siedell",
@@ -42759,8 +42759,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Bud Heller"
      ],
      "a": [
       "Patricia Boyle",
@@ -42774,8 +42774,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Todd Mitchell"
      ],
      "a": [
       "Stacey Frank",
@@ -42789,8 +42789,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Ryan Sherry"
      ],
      "a": [
       "Kelly Karrer",
@@ -42804,8 +42804,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Stacey Frank",
@@ -42815,8 +42815,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Carly Pfeffer"
      ],
      "a": [
       "Sandy Alkins",
@@ -42830,8 +42830,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian Gonzalez",
+      "Bud Heller"
      ],
      "a": [
       "Jeff Lorman",
@@ -42841,8 +42841,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Ryan Sherry"
      ],
      "a": [
       "Craig Frame",
@@ -42856,8 +42856,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Brian Gonzalez"
      ],
      "a": [
       "Sandy Alkins",
@@ -42871,8 +42871,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Todd Mitchell"
      ],
      "a": [
       "Patricia Boyle",
@@ -42882,8 +42882,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Daniel Chernin"
      ],
      "a": [
       "Kate Siedell",
@@ -42897,8 +42897,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Bud Heller"
      ],
      "a": [
       "Kelly Karrer",
@@ -42912,8 +42912,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Carly Pfeffer"
      ],
      "a": [
       "Kate Siedell",
@@ -42923,8 +42923,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Amanda Quinn"
      ],
      "a": [
       "Kelly Karrer",
@@ -42938,8 +42938,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Brian Gonzalez"
      ],
      "a": [
       "Craig Frame",
@@ -42953,8 +42953,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Ryan Sherry"
      ],
      "a": [
       "Naresh Malhotra",
@@ -42968,8 +42968,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Ryan Sherry"
      ],
      "a": [
       "Stacey Frank",
@@ -42979,8 +42979,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Todd Mitchell"
      ],
      "a": [
       "Kelly Karrer",
@@ -42994,8 +42994,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Brian Gonzalez"
      ],
      "a": [
       "Patricia Boyle",
@@ -43005,8 +43005,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Bud Heller"
      ],
      "a": [
       "Sandy Alkins",
@@ -43020,8 +43020,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Sandy Alkins",
@@ -43035,8 +43035,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Rebecca Lederman"
      ],
      "a": [
       "Stacey Frank",
@@ -43046,8 +43046,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Todd Mitchell"
      ],
      "a": [
       "Naresh Malhotra",
@@ -43061,8 +43061,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bud Heller",
+      "Ryan Sherry"
      ],
      "a": [
       "Jeff Lorman",
@@ -43076,8 +43076,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Brian Gonzalez"
      ],
      "a": [
       "Stacey Frank",
@@ -43091,8 +43091,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Bud Heller"
      ],
      "a": [
       "Patricia Boyle",
@@ -43102,8 +43102,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Ryan Sherry"
      ],
      "a": [
       "Sandy Alkins",
@@ -43117,8 +43117,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Daniel Chernin"
      ],
      "a": [
       "Kate Siedell",
@@ -43128,8 +43128,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Kelly Karrer",
@@ -43143,8 +43143,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Carly Pfeffer"
      ],
      "a": [
       "Sandy Alkins",
@@ -43154,8 +43154,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Todd Mitchell",
+      "Brian Gonzalez"
      ],
      "a": [
       "Roger Graterol",
@@ -43169,8 +43169,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bud Heller",
+      "Daniel Chernin"
      ],
      "a": [
       "Craig Frame",
@@ -45025,7 +45025,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-30T21:49:26.651Z";
+  DATA.meta.asOf = "2026-10-31T03:23:08.610Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
