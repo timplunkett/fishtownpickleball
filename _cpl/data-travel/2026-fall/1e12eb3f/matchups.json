@@ -1625,9 +1625,9 @@
       "weekNumber": 11,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-10-31T15:00:00",
       "homeName": "ACE Moorestown",
       "awayName": "Flemington Green"

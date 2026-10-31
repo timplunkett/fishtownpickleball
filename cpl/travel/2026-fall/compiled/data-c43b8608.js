@@ -68617,19 +68617,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Renzulli",
+      "Willie Simmons"
      ],
      "a": [
       "Patty Andrzejewski",
       "Richard Ross"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Aaron Smith"
      ],
      "a": [
       "Linda Zarrilli",
@@ -68639,8 +68643,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Thomas Lum"
      ],
      "a": [
       "Stacy Ip-Mo",
@@ -68650,8 +68654,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Timothy Hopkins"
      ],
      "a": [
       "Lizzie Brofft",
@@ -68661,8 +68665,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Renzulli",
+      "Enid Lum"
      ],
      "a": [
       "Lisa Loeber",
@@ -68672,8 +68676,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Joy Perry"
      ],
      "a": [
       "Kimberly Brooks",
@@ -68683,19 +68687,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Smith",
+      "Willie Simmons"
      ],
      "a": [
       "Dave Hartzell",
       "Yuri Paritsky"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Lum",
+      "Mark Pleasanton"
      ],
      "a": [
       "Andrew Fang",
@@ -68705,19 +68713,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Willie Simmons"
      ],
      "a": [
       "Linda Zarrilli",
       "Richard Ross"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Mark Pleasanton"
      ],
      "a": [
       "Lisa Loeber",
@@ -68727,8 +68739,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Timothy Hopkins"
      ],
      "a": [
       "Patty Andrzejewski",
@@ -68738,8 +68750,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Thomas Lum"
      ],
      "a": [
       "Stacy Ip-Mo",
@@ -68749,8 +68761,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Nancy Culley"
      ],
      "a": [
       "Lisa Loeber",
@@ -68760,8 +68772,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Sara Renzulli"
      ],
      "a": [
       "Kimberly Brooks",
@@ -68771,19 +68783,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Smith",
+      "Willie Simmons"
      ],
      "a": [
       "Dave Hartzell",
       "Yuri Paritsky"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Pleasanton",
+      "Timothy Hopkins"
      ],
      "a": [
       "Andrew Fang",
@@ -68793,19 +68809,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Renzulli",
+      "Willie Simmons"
      ],
      "a": [
       "Linda Zarrilli",
       "John Dechristopher"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Timothy Hopkins"
      ],
      "a": [
       "Patty Andrzejewski",
@@ -68815,8 +68835,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Thomas Lum"
      ],
      "a": [
       "Lizzie Brofft",
@@ -68826,8 +68846,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Aaron Smith"
      ],
      "a": [
       "Kimberly Brooks",
@@ -68837,8 +68857,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sara Renzulli",
+      "Enid Lum"
      ],
      "a": [
       "Patty Andrzejewski",
@@ -68848,8 +68868,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandy Hopkins",
+      "Joy Perry"
      ],
      "a": [
       "Lisa Loeber",
@@ -68859,8 +68879,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aaron Smith",
+      "Mark Pleasanton"
      ],
      "a": [
       "Dave Hartzell",
@@ -68870,8 +68890,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Timothy Hopkins",
+      "Thomas Lum"
      ],
      "a": [
       "John Dechristopher",
@@ -68881,8 +68901,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Enid Lum",
+      "Mark Pleasanton"
      ],
      "a": [
       "Linda Zarrilli",
@@ -68892,8 +68912,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sara Renzulli",
+      "Aaron Smith"
      ],
      "a": [
       "Lisa Loeber",
@@ -68903,19 +68923,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Willie Simmons"
      ],
      "a": [
       "Lizzie Brofft",
       "Andrew Fang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Thomas Lum"
      ],
      "a": [
       "Kimberly Brooks",
@@ -68925,8 +68949,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Culley",
+      "Sandy Hopkins"
      ],
      "a": [
       "Kimberly Brooks",
@@ -68936,8 +68960,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joy Perry",
+      "Enid Lum"
      ],
      "a": [
       "Stacy Ip-Mo",
@@ -68947,8 +68971,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Timothy Hopkins",
+      "Thomas Lum"
      ],
      "a": [
       "Richard Ross",
@@ -68958,12 +68982,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Willie Simmons",
+      "Mark Pleasanton"
      ],
      "a": [
       "John Dechristopher",
       "Dave Hartzell"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -73346,7 +73374,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-31T03:25:14.431Z";
+  DATA.meta.asOf = "2026-10-31T16:35:30.808Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
