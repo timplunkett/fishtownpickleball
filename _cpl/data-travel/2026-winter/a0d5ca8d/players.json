@@ -21,7 +21,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 11
+      "ranking": 12
     },
     {
       "playerId": "22123177-1eb2-4285-bc92-f75799e175dd",
@@ -45,6 +45,29 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 3
+    },
+    {
+      "playerId": "3d7e1245-6f10-41b4-97e2-e3488ff364e3",
+      "firstName": "Michelle",
+      "lastName": "Sciarillo",
+      "gender": "Female",
+      "dupr": "KXY0N6",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 11
     },
     {
       "playerId": "40579892-d9bf-4d1d-9417-5830d5d45093",

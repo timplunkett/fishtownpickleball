@@ -13,11 +13,11 @@ window.CPL_CATALOG = {
      "landingSlug": "8b1c2590",
      "divisions": [
       {"slug":"8b1c2590","divisionName":"3.0 Mens","asOf":"2026-10-30T20:57:21.975Z"},
-      {"slug":"460d2b26","divisionName":"3.0 Womens","asOf":"2026-10-30T20:57:21.745Z"},
+      {"slug":"460d2b26","divisionName":"3.0 Womens","asOf":"2026-11-01T15:55:26.959Z"},
       {"slug":"27ab7236","divisionName":"3.5 Mens","asOf":"2026-10-30T20:57:21.221Z"},
       {"slug":"09475e06","divisionName":"3.5 Womens","asOf":"2026-10-30T20:57:20.612Z"},
       {"slug":"022234f5","divisionName":"4.0 Mens","asOf":"2026-10-30T20:57:20.971Z"},
-      {"slug":"a0d5ca8d","divisionName":"4.0 Womens","asOf":"2026-10-30T20:57:21.464Z"}
+      {"slug":"a0d5ca8d","divisionName":"4.0 Womens","asOf":"2026-11-01T15:55:26.727Z"}
      ]
     },
     {
@@ -27,15 +27,15 @@ window.CPL_CATALOG = {
      "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [
-      {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-11-01T03:23:44.811Z"},
+      {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-11-01T15:51:26.685Z"},
       {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-11-01T12:23:15.741Z"},
-      {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-10-29T18:11:02.498Z"},
-      {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-11-01T03:25:54.881Z"},
+      {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-11-01T15:53:39.515Z"},
+      {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-11-01T15:54:31.650Z"},
       {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-10-31T16:34:39.059Z"},
-      {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-11-01T03:23:13.155Z"},
+      {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-11-01T15:50:53.586Z"},
       {"slug":"6619816f","divisionName":"4.5","asOf":"2026-11-01T03:25:25.558Z"},
       {"slug":"ad44e3bd","divisionName":"3.25 Womens","asOf":"2026-10-30T03:41:40.597Z"},
-      {"slug":"c118b8e9","divisionName":"3.75 Mens","asOf":"2026-11-01T03:26:46.544Z"},
+      {"slug":"c118b8e9","divisionName":"3.75 Mens","asOf":"2026-11-01T15:55:25.016Z"},
       {"slug":"cca69ab9","divisionName":"4.5 Mens","asOf":"2026-11-01T03:26:14.634Z"}
      ]
     },

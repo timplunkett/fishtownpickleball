@@ -7,6 +7,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Susan Bluni": "0a1213eb-97d7-475b-a8d3-bc1828c31027",
+  "Lori Napierkowski": "0d6cc2dc-cb5c-42c2-aea9-d4325622eabe",
   "Anabel Mesa": "4013952e-b72e-4647-a22c-8ce9cf862a9a",
   "Bobbi-Jo Heckroth": "af31bedc-75c0-478f-8d1a-7f8e610e7d5e",
   "Jerzie-Ann Coppola": "d324c1b4-fb13-47d4-b380-f8427448308a",
@@ -36,7 +37,7 @@
   "reportedPods": []
  }
 };
-  DATA.meta.asOf = "2026-10-30T20:57:21.745Z";
+  DATA.meta.asOf = "2026-11-01T15:55:26.959Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["460d2b26"] = DATA;

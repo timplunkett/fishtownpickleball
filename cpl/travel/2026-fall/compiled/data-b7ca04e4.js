@@ -585,8 +585,8 @@
    "name": "Shalin Rawal",
    "gender": "Male",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 13,
    "wins": 11,
@@ -16523,7 +16523,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 640,
+   "leagueRank": 641,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16552,7 +16552,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 633,
+   "leagueRank": 634,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16581,7 +16581,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 639,
+   "leagueRank": 640,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16610,7 +16610,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 645,
+   "leagueRank": 646,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16639,7 +16639,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 635,
+   "leagueRank": 636,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16668,7 +16668,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 615,
+   "leagueRank": 616,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16697,7 +16697,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 625,
+   "leagueRank": 626,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16726,7 +16726,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 623,
+   "leagueRank": 624,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16755,7 +16755,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 642,
+   "leagueRank": 643,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16784,7 +16784,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 637,
+   "leagueRank": 638,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16813,7 +16813,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 626,
+   "leagueRank": 627,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -77671,9 +77671,7 @@
      ]
     }
    ],
-   "subs": [
-    "Shalin Rawal"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -101364,7 +101362,6 @@
     }
    ],
    "subs": [
-    "Shalin Rawal",
     "Jacquelyn Hardenburgh",
     "Carla Owens"
    ]
@@ -114609,6 +114606,8 @@
  "extraPlayerIds": {
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
+  "Jodie Bennett": "44a54409-964b-44ae-a670-c69f7edf9600",
+  "Janet Zhao": "501e4f41-3936-418a-8a20-910bdbb68d2f",
   "Armand Bigornia": "56f658f4-d84c-4a9a-89f4-fd29c03efc17",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
@@ -114623,6 +114622,7 @@
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "Alexander Oconnor": "9a84b0e7-92f5-47fa-b1fa-a460c593ae53",
   "Jeremy Forin": "a13b01c6-1423-458c-89af-482b3082ae59",
+  "Kevin Zhang": "a745d19b-cba3-4564-8c57-9d08812c5108",
   "Lucy Shao": "adeb473c-c162-4d73-bbc1-96ffbd94f53f",
   "Andrew Spencer": "b1af592e-2dc0-4273-9b6e-13b8a6eff673",
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
@@ -114709,14 +114709,6 @@
   {
    "name": "Jeff Laniado",
    "playerId": "06d52e99-941a-4ced-9968-f56e6075105a",
-   "gender": "Male",
-   "team": "Montville",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Shalin Rawal",
-   "playerId": "08530d21-2dc5-4f71-9d49-9191ec192860",
    "gender": "Male",
    "team": "Montville",
    "isCaptain": false,
@@ -115035,6 +115027,14 @@
    "outsideSub": true
   },
   {
+   "name": "Jodie Bennett",
+   "playerId": "44a54409-964b-44ae-a670-c69f7edf9600",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Austin Schaefer",
    "playerId": "44dcab2c-2140-4a79-890a-9b289312c58e",
    "gender": "Male",
@@ -115095,6 +115095,14 @@
    "playerId": "4fd249ba-ff70-4e34-a92c-0ea979aa608b",
    "gender": "Female",
    "team": "Home Court",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Janet Zhao",
+   "playerId": "501e4f41-3936-418a-8a20-910bdbb68d2f",
+   "gender": "Female",
+   "team": "APC Garden State",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -115607,6 +115615,14 @@
    "playerId": "a414cff9-d942-47f8-848f-c50abc9c71eb",
    "gender": "Male",
    "team": "LBF Pickleball",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kevin Zhang",
+   "playerId": "a745d19b-cba3-4564-8c57-9d08812c5108",
+   "gender": "Male",
+   "team": "APC Garden State",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -116170,7 +116186,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-10-29T18:11:02.498Z";
+  DATA.meta.asOf = "2026-11-01T15:53:39.515Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

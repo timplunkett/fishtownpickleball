@@ -8,6 +8,7 @@
  "extraPlayerIds": {
   "Hayley Yandoli": "1fc2dd51-135b-46d6-91ef-9291b573e78a",
   "Alyssa Boyle": "22123177-1eb2-4285-bc92-f75799e175dd",
+  "Michelle Sciarillo": "3d7e1245-6f10-41b4-97e2-e3488ff364e3",
   "Suzi Battison": "40579892-d9bf-4d1d-9417-5830d5d45093",
   "Sophia Kaufmann": "44f258b0-52df-4c16-8d1e-a9f2d65b439e",
   "Taylor Regenwether": "50c55e9f-2b0a-49f0-bbf8-6b8e3eab9c82",
@@ -42,7 +43,7 @@
   "reportedPods": []
  }
 };
-  DATA.meta.asOf = "2026-10-30T20:57:21.464Z";
+  DATA.meta.asOf = "2026-11-01T15:55:26.727Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a0d5ca8d"] = DATA;
