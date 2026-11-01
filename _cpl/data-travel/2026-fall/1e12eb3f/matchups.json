@@ -1505,9 +1505,9 @@
       "weekNumber": 11,
       "homeTeamId": "78b7cb5c-9812-49ab-9f1f-b59302ebd677",
       "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 535,
+      "awayPoints": 649,
+      "endResult": "away",
       "scheduledTime": "2026-10-31T13:00:00",
       "homeName": "Pickleball Kingdom Hamilton Prime Time",
       "awayName": "Flemington Blue"
