@@ -1157,9 +1157,9 @@
       "weekNumber": 11,
       "homeTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
       "awayTeamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 658,
+      "awayPoints": 479,
+      "endResult": "home",
       "scheduledTime": "2026-10-31T15:00:00",
       "homeName": "Montville Rocks",
       "awayName": "Montville Dragons"

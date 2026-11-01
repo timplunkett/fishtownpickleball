@@ -1584,6 +1584,13 @@ window.DUPR_AUDIT = {
    "name": "Anthony Oliver",
    "playerId": "e99589b9-dcaa-405f-ad41-0cda95a5f236",
    "team": "Bounce Tempest",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Anthony Oliver",
+   "playerId": "e99589b9-dcaa-405f-ad41-0cda95a5f236",
+   "team": "Bounce Tempest",
    "slug": "b7ca04e4",
    "gender": "Male"
   },

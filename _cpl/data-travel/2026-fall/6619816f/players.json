@@ -849,7 +849,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 259
+      "ranking": 260
     },
     {
       "playerId": "2026ccb7-bd78-4bb5-96de-9d0127fdd954",
@@ -2229,7 +2229,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 264
+      "ranking": 265
     },
     {
       "playerId": "54c51642-8048-4dd1-9221-a4306301ff72",
@@ -2850,7 +2850,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 261
+      "ranking": 262
     },
     {
       "playerId": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
@@ -3842,6 +3842,29 @@
       "ranking": 209
     },
     {
+      "playerId": "95d56ea3-7923-4cdd-9946-05a9b7f6634c",
+      "firstName": "Vladyslav",
+      "lastName": "Dubinin",
+      "gender": "Male",
+      "dupr": "8WM90Y",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 259
+    },
+    {
       "playerId": "9638b474-ad68-4eff-a5a5-6c40db6ed4bb",
       "firstName": "Eugene",
       "lastName": "Zaslavsky",
@@ -4092,7 +4115,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 263
+      "ranking": 264
     },
     {
       "playerId": "9dae8c17-6878-473a-83e9-a43b434f876b",
@@ -4253,7 +4276,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 262
+      "ranking": 263
     },
     {
       "playerId": "a19b179a-6a16-43a7-b2af-8d6e8d1a1205",
@@ -4828,7 +4851,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 265
+      "ranking": 266
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
@@ -5127,7 +5150,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 260
+      "ranking": 261
     },
     {
       "playerId": "ccd8a76f-df3a-4ab9-97b6-bae0f860a431",

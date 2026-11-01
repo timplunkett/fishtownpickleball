@@ -3530,8 +3530,8 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 10,
@@ -3557,8 +3557,8 @@
     "teamRes": "W",
     "teamGW": 17,
     "teamGL": 15,
-    "sub": 1,
-    "subFor": "Bounce Tempest"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

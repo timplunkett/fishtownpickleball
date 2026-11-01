@@ -6866,7 +6866,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 261,
+   "leagueRank": 262,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6895,7 +6895,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 265,
+   "leagueRank": 266,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -46161,6 +46161,7 @@
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
+  "Vladyslav Dubinin": "95d56ea3-7923-4cdd-9946-05a9b7f6634c",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
  },
@@ -46638,6 +46639,14 @@
    "outsideSub": true
   },
   {
+   "name": "Vladyslav Dubinin",
+   "playerId": "95d56ea3-7923-4cdd-9946-05a9b7f6634c",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Eugene Zaslavsky",
    "playerId": "9638b474-ad68-4eff-a5a5-6c40db6ed4bb",
    "gender": "Male",
@@ -46950,7 +46959,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-30T03:40:40.524Z";
+  DATA.meta.asOf = "2026-11-01T03:25:25.558Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

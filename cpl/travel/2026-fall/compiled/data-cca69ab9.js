@@ -6431,7 +6431,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 247,
+   "leagueRank": 249,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6460,7 +6460,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 253,
+   "leagueRank": 257,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6518,7 +6518,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 251,
+   "leagueRank": 255,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6554,6 +6554,122 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Yi Gu",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 250,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0640ecce-0b14-4eac-9cbd-be86592d6102"
+  },
+  {
+   "name": "Lance Brown",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 242,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "5d13288d-69fe-4d0b-bf69-51c1d24e3409"
+  },
+  {
+   "name": "Joseph Mizrahi",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 253,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6aa4b196-23d0-4070-8825-2b1d4b80395d"
+  },
+  {
+   "name": "Vladyslav Dubinin",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 247,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "95d56ea3-7923-4cdd-9946-05a9b7f6634c"
   },
   {
    "name": "Doug Horton",
@@ -43528,7 +43644,361 @@
    "home": "Monroe",
    "away": "Premiere",
    "time": "2026-11-02T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Chris Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Joseph Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Nicholas Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Boris Tserlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Nicholas Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Boris Tserlin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Nicholas Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Friedman",
+      "Joseph Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Joseph Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Friedman",
+      "Nicholas Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Joseph Lynskey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Nicholas Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Friedman",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Lynskey",
+      "Nicholas Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Yandoli",
+      "Joseph Lynskey"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -43808,7 +44278,11 @@
      ],
      "a": [
       "Shayne Clowar",
-      "Marc Harden"
+      "Nicholas Vanderveer"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -43926,7 +44400,361 @@
    "home": "Bounce Malvern",
    "away": "Pickle House",
    "time": "2026-11-02T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gopi Narayanan",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Cook",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gopi Narayanan",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Michael Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Cook",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Al Mancini",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Cook",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Al Mancini",
+      "Gopi Narayanan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Al Mancini",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Craig Frame",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gopi Narayanan",
+      "Craig Frame"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Mickey Cook"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Hollmann",
+      "Chris Damato"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dipen Bhatt",
+      "Tarkan Akas"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Li",
+      "Zach Hollmann"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Damato",
+      "Al Mancini"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gopi Narayanan",
+      "Dipen Bhatt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Cook",
+      "Tarkan Akas"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -43934,7 +44762,461 @@
    "home": "Pickleball Kingdom Watchung",
    "away": "Jersey Pickleball Club",
    "time": "2026-11-02T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Vladyslav Dubinin"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Yi Gu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Lance Brown"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Yi Gu"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vladyslav Dubinin",
+      "Andrew Bernard"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anthony Bradford Bisignano",
+      "Lance Brown"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Wasib Malik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Anthony Bradford Bisignano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Vladyslav Dubinin"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Yi Gu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Lance Brown"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Andrew Bernard"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vladyslav Dubinin",
+      "Anthony Bradford Bisignano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Yi Gu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Puccia",
+      "Lance Brown"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Yi Gu"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vladyslav Dubinin",
+      "Anthony Bradford Bisignano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lance Brown",
+      "Wasib Malik"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Joseph Mizrahi"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vladyslav Dubinin",
+      "Zachary Puccia"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Anthony Bradford Bisignano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lance Brown",
+      "Yi Gu"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Zachary Puccia"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Andrew Bernard"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yi Gu",
+      "Anthony Bradford Bisignano"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lance Brown",
+      "Vladyslav Dubinin"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Mizrahi",
+      "Lance Brown"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Bernard",
+      "Anthony Bradford Bisignano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Wasib Malik",
+      "Zachary Puccia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vladyslav Dubinin",
+      "Yi Gu"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -44012,9 +45294,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
-  "Yi Gu": "0640ecce-0b14-4eac-9cbd-be86592d6102",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
-  "Lance Brown": "5d13288d-69fe-4d0b-bf69-51c1d24e3409",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
@@ -44318,6 +45598,14 @@
    "outsideSub": true
   },
   {
+   "name": "Joseph Mizrahi",
+   "playerId": "6aa4b196-23d0-4070-8825-2b1d4b80395d",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Patrick Cadieu",
    "playerId": "6bf475b8-0f4c-4e4b-a1ba-279f5f8aa008",
    "gender": "Male",
@@ -44410,6 +45698,14 @@
    "playerId": "938658e5-f3f0-4597-8d1b-8d65a9378673",
    "gender": "Male",
    "team": "Monroe",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Vladyslav Dubinin",
+   "playerId": "95d56ea3-7923-4cdd-9946-05a9b7f6634c",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -44682,7 +45978,7 @@
   "matchesPlayed": 62,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 235,
+  "totalPlayers": 239,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -44818,7 +46114,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-31T20:51:46.620Z";
+  DATA.meta.asOf = "2026-11-01T03:26:14.634Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

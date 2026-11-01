@@ -320,7 +320,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 437
+      "ranking": 438
     },
     {
       "playerId": "076a6405-8447-43b9-b8cf-1db5d857979c",
@@ -1930,7 +1930,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 441
+      "ranking": 442
     },
     {
       "playerId": "371bb742-9ea6-464a-8c27-df8469b90a62",
@@ -2689,7 +2689,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 436
+      "ranking": 437
     },
     {
       "playerId": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
@@ -3566,6 +3566,29 @@
       "ranking": 124
     },
     {
+      "playerId": "5e605c22-faea-41b7-82ac-60046caa7b43",
+      "firstName": "Raul",
+      "lastName": "Real",
+      "gender": "Male",
+      "dupr": "DWQ40M",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "18572eac-af06-4d02-bcce-d41735f743dd",
+      "teamName": "Pickleball Kingdom Hamilton",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 436
+    },
+    {
       "playerId": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
       "firstName": "David",
       "lastName": "Bailey",
@@ -3862,7 +3885,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 438
+      "ranking": 439
     },
     {
       "playerId": "679d2999-1bf2-40ae-a420-9edf09aa8723",
@@ -4115,7 +4138,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 440
+      "ranking": 441
     },
     {
       "playerId": "6bc511e7-c686-4a9b-866a-d109aed9104d",
@@ -4230,7 +4253,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 443
+      "ranking": 444
     },
     {
       "playerId": "6e5d2bb6-bf2e-4f06-a2f8-24af7eca9cf8",
@@ -5587,7 +5610,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 442
+      "ranking": 443
     },
     {
       "playerId": "908a8539-b3a5-437a-957f-e900db3c01b9",
@@ -9161,7 +9184,7 @@
       "gender": "Male",
       "dupr": "99Z297",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
       "teamName": "Bounce Tempest",
       "wins": 11,
@@ -9244,7 +9267,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 439
+      "ranking": 440
     },
     {
       "playerId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7",
