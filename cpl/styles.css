@@ -2633,7 +2633,7 @@ thead th:focus-visible,
   line-height: 1;
 }
 
-.lineup-scoreline span:not(.lineup-score-dash, .lineup-ties) {
+.lineup-scoreline span:not(.lineup-score-dash, .lineup-ties, .lineup-mode-lean) {
   font-size: 15px;
   font-weight: 750;
 }
@@ -2713,7 +2713,7 @@ thead th:focus-visible,
 
 .lineup-roster-table th,
 .lineup-roster-table td {
-  padding: 7px 12px;
+  padding: 7px 9px;
   border-bottom: 1px solid rgb(42 50 61 / 65%);
 }
 
@@ -2906,8 +2906,208 @@ thead th:focus-visible,
   white-space: nowrap;
 }
 
+/* Availability: Team A's roster doubles as the picker (renderLineupRoster). */
+/* Dimmed, except the checkbox that brings them back. */
+.lineup-unavailable td:not(:first-child),
+.lineup-unavailable td:first-child > :not(.lineup-available) {
+  opacity: 0.45;
+}
+
+/* The page-wide `input` rule (min-width 200px, padding) is for text fields;
+   applied to a checkbox it was what blew the roster wider than its half of the
+   page. */
+.lineup-available {
+  min-width: 0;
+  padding: 0;
+  margin: 0 7px 0 0;
+  vertical-align: -2px;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* The opponent's roster: who's in their lineup, then everyone sitting. */
+.lineup-sitting td {
+  opacity: 0.55;
+}
+
+.lineup-sitting-divider td {
+  padding-top: 9px;
+  padding-bottom: 5px;
+  color: var(--mut);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--panel2);
+}
+
+.lineup-available-bulk {
+  display: inline-flex;
+  gap: 4px;
+  margin-left: 8px;
+}
+
+/* Outlined in the accent by default, so they read as controls rather than
+   metadata; filled like .lineup-action on hover, and while the roster's
+   checkboxes still match the preset last applied (.active, see
+   lineupAvailabilityPreset). */
+.lineup-available-bulk button {
+  padding: 1px 7px;
+  color: var(--txt);
+  font-family: inherit;
+  font-size: 10.5px;
+  font-weight: 700;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+}
+
+.lineup-available-bulk button:hover,
+.lineup-available-bulk button.active {
+  color: var(--bg);
+  background: var(--accent);
+}
+
+.lineup-available-bulk button:hover {
+  filter: brightness(1.1);
+}
+
+.lineup-available-bulk button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Strategy picker: Manual and the two auto modes (renderLineupStrategy). */
+.lineup-strategy {
+  margin-top: 14px;
+  padding: 16px 18px;
+}
+
+.lineup-strategy-head h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.lineup-strategy-head p {
+  margin: 3px 0 0;
+  color: var(--mut);
+  font-size: 12px;
+}
+
+.lineup-modes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.lineup-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  padding: 12px 13px;
+  color: var(--txt);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  background: var(--panel2);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.lineup-mode:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.lineup-mode.selected {
+  background: rgb(29 178 220 / 9%);
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+
+.lineup-mode:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.lineup-mode:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.lineup-mode-title {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.lineup-mode-blurb {
+  color: var(--mut);
+  font-size: 11.5px;
+  line-height: 1.35;
+}
+
+.lineup-mode-result {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  align-items: baseline;
+  margin-top: auto;
+  padding-top: 6px;
+  font-size: 12px;
+}
+
+.lineup-mode-score b {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.lineup-mode-lean {
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.lineup-playtime {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  align-items: center;
+  margin-top: 14px;
+  color: var(--mut);
+  font-size: 12px;
+}
+
+.lineup-playtime > span {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lineup-playtime input {
+  flex: 0 1 220px;
+  min-width: 0;
+  padding: 0;
+  accent-color: var(--accent);
+}
+
+.lineup-playtime output b {
+  color: var(--txt);
+}
+
+.lineup-strategy-note {
+  margin: 10px 0 0;
+  color: var(--mut);
+  font-size: 11.5px;
+}
+
 @media (max-width: 840px) {
   .lineup-rosters {
+    grid-template-columns: 1fr;
+  }
+
+  .lineup-modes {
     grid-template-columns: 1fr;
   }
 
