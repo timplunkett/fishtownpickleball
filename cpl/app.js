@@ -2221,10 +2221,16 @@ function collectPartnerChemistry(player) {
   return rows.concat(thinRows);
 }
 
+// Over the Lineup Lab, partners the captain has marked unavailable are left out
+// (see lineupHiddenNames) — the table answers "who should I pair them with this
+// week", and someone who isn't coming isn't an answer.
 function renderPartnerChemistrySection(player) {
-  const partners = collectPartnerChemistry(player);
+  const hiddenNames = lineupHiddenNames();
+  const allPartners = collectPartnerChemistry(player);
+  const partners = allPartners.filter((partner) => !hiddenNames.has(partner.name));
+  const hiddenCount = allPartners.length - partners.length;
 
-  if (partners.length === 0) {
+  if (partners.length === 0 && !hiddenCount) {
     return '';
   }
 
@@ -2248,7 +2254,8 @@ function renderPartnerChemistrySection(player) {
   }).join('');
   const thinCount = partners.filter((partner) => partner.synergy == null).length;
   const countLabel = `${partners.length} ${pluralize(partners.length, 'partner', 'partners')}` +
-    (thinCount ? ` (${thinCount} under 3 games)` : '');
+    (thinCount ? ` (${thinCount} under 3 games)` : '') +
+    (hiddenCount ? `, ${hiddenCount} unavailable hidden` : '');
 
   return `
     <section class="mchem">
@@ -2813,6 +2820,25 @@ const lineupLabState = {
   teamB: '',
   matchupIndex: null,
   games: [],
+  // Team A players the captain has marked as not available, per matchup (see
+  // lineupAvailabilityKey). Stored as the unavailable set rather than the
+  // available one so a roster that grows mid-season (a new sub) defaults to
+  // available, the same as everyone else on a fresh matchup.
+  unavailable: new Map(),
+  // 'manual', or one of LINEUP_AUTO_MODES' ids. An auto mode owns Team A's side
+  // of the grid: it's rebuilt whenever its inputs change (availability, the
+  // playing-time slider, the opponent's lineup) until the captain edits a
+  // Team A slot by hand, which drops back to manual and keeps that edit.
+  mode: 'manual',
+  // Team A's side as it was before an auto mode replaced it, so choosing
+  // Manual again hands back what the captain had rather than the optimizer's.
+  manualA: null,
+  // Playing-time flexibility, in games either side of an even split — see
+  // lineupPlayTimeBands. 0 is an even split; its maximum is no limit at all.
+  // Until the captain moves the slider (flexTouched), it's chosen for them:
+  // see lineupAutoFlex.
+  flex: 0,
+  flexTouched: false,
 };
 
 // Unlike the main team page's roster (which only ever shows DATA.players —
@@ -2848,6 +2874,72 @@ function lineupPlayer(name) {
   return DATA.players.find((player) => player.name === name)
     || (DATA.availableSubs || []).find((sub) => sub.name === name)
     || null;
+}
+
+// ── Availability ──
+// Who can actually play this week is per matchup, not per team: the same
+// captain marks a different set every week. Kept in memory only — the lab saves
+// nothing, by design (see the section comment above).
+function lineupAvailabilityKey() {
+  return `${lineupLabState.teamA}\u0000${lineupLabState.matchupIndex}`;
+}
+
+// Outside subs — players who aren't rostered on this team (see renderPlayerName's
+// "sub" badge). Captains reach for them only when they're short.
+function lineupOutsideSubNames(teamName) {
+  return lineupRoster(teamName).filter((player) => player.outsideSub).map((player) => player.name);
+}
+
+// The Team A names marked unavailable for the current matchup. On first visit
+// to a matchup whose Team A lineup is already posted, everyone not in that
+// lineup starts unavailable — the posted lineup is the best evidence of who's
+// around that week. Otherwise the default is "No subs": the team's own roster
+// available, outside subs not.
+function lineupUnavailable() {
+  const key = lineupAvailabilityKey();
+  let unavailable = lineupLabState.unavailable.get(key);
+  if (!unavailable) {
+    const match = lineupSeasonMatchesForTeam(lineupLabState.teamA)[lineupLabState.matchupIndex];
+    const posted = new Set();
+    for (let index = 0; index < (match?.games || []).length; index++) {
+      for (const name of lineupPairFromMatch(match, lineupLabState.teamA, index)) if (name) posted.add(name);
+    }
+    unavailable = new Set(posted.size
+      ? lineupRoster(lineupLabState.teamA).map((player) => player.name).filter((name) => !posted.has(name))
+      : lineupOutsideSubNames(lineupLabState.teamA));
+    lineupLabState.unavailable.set(key, unavailable);
+  }
+  return unavailable;
+}
+
+// Which bulk preset (All / No subs / None) the current checkboxes match, so its
+// button stays lit until the captain's ticks drift away from it. Null when
+// they match none — a hand-picked set, or a posted lineup's.
+function lineupAvailabilityPreset() {
+  const unavailable = lineupUnavailable();
+  const roster = lineupRoster(lineupLabState.teamA);
+  const subs = new Set(lineupOutsideSubNames(lineupLabState.teamA));
+  if (!unavailable.size) return 'available-all';
+  if (unavailable.size === roster.length) return 'available-none';
+  if (unavailable.size === subs.size && [...unavailable].every((name) => subs.has(name))) return 'available-no-subs';
+  return null;
+}
+
+function isLineupPlayerAvailable(name) {
+  return !lineupUnavailable().has(name);
+}
+
+function lineupAvailableRoster(teamName) {
+  const unavailable = lineupUnavailable();
+  return lineupRoster(teamName).filter((player) => !unavailable.has(player.name));
+}
+
+// The names chemistry views hide while the lab is open — the Top Duos table
+// and the partner table in a player modal opened over it — so a captain only
+// sees pairings they can actually field. Empty anywhere else on the site.
+function lineupHiddenNames() {
+  if (!elements.lineupView || elements.lineupView.hidden) return new Set();
+  return lineupUnavailable();
 }
 
 // Every one of Team A's matches for the whole season, earliest week first —
@@ -2965,9 +3057,13 @@ function lineupRatingText(name) {
   return `${formatSignedValue(rating.rating, 1)}${rating.estimated ? ' est.' : ''}`;
 }
 
-function lineupPlayerOptions(teamName, gameType, slotIndex, selected) {
+// Team A's dropdowns list only available players. One already in a slot stays
+// listed (marked) rather than silently vanishing from the grid — unchecking
+// someone shouldn't rewrite a lineup behind the captain's back; the rule check
+// above the grid flags it instead.
+function lineupPlayerOptions(teamName, gameType, slotIndex, selected, side) {
   const expectedGender = lineupExpectedGender(gameType, slotIndex);
-  const roster = lineupRoster(teamName)
+  const roster = (side === 'a' ? lineupAvailableRoster(teamName) : lineupRoster(teamName))
     .filter((player) => !expectedGender || player.gender === expectedGender)
     .slice()
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -2976,9 +3072,10 @@ function lineupPlayerOptions(teamName, gameType, slotIndex, selected) {
   }
   return [
     '<option value="">TBD</option>',
-    ...roster.map((player) => (
-      `<option value="${escapeHtml(player.name)}"${player.name === selected ? ' selected' : ''}>${escapeHtml(player.name)} (${escapeHtml(lineupRatingText(player.name))})</option>`
-    )),
+    ...roster.map((player) => {
+      const unavailable = side === 'a' && !isLineupPlayerAvailable(player.name) ? ' — unavailable' : '';
+      return `<option value="${escapeHtml(player.name)}"${player.name === selected ? ' selected' : ''}>${escapeHtml(player.name)} (${escapeHtml(lineupRatingText(player.name))})${unavailable}</option>`;
+    }),
   ].join('');
 }
 
@@ -3043,10 +3140,12 @@ function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts,
       const selected = pair[slotIndex] || '';
       const gender = lineupExpectedGender(gameType, slotIndex);
       const roundConflict = !!selected && roundConflictKeys.has(`${round}\u0000${selected}`);
+      const unavailable = !!selected && side === 'a' && !isLineupPlayerAvailable(selected);
+      const title = roundConflict ? 'Also playing another game in this round' : unavailable ? 'Marked unavailable' : '';
       return `<label>
         <span>${gender === 'Female' ? 'Woman' : gender === 'Male' ? 'Man' : `Player ${slotIndex + 1}`}</span>
-        <select class="lineup-slot${roundConflict ? ' lineup-slot-round-conflict' : ''}" data-game="${gameIndex}" data-side="${side}" data-slot="${slotIndex}" aria-label="${escapeHtml(teamName)} game ${gameIndex + 1} ${gender || `player ${slotIndex + 1}`}"${roundConflict ? ' title="Also playing another game in this round"' : ''}>
-          ${lineupPlayerOptions(teamName, gameType, slotIndex, selected)}
+        <select class="lineup-slot${roundConflict || unavailable ? ' lineup-slot-round-conflict' : ''}" data-game="${gameIndex}" data-side="${side}" data-slot="${slotIndex}" aria-label="${escapeHtml(teamName)} game ${gameIndex + 1} ${gender || `player ${slotIndex + 1}`}"${title ? ` title="${title}"` : ''}>
+          ${lineupPlayerOptions(teamName, gameType, slotIndex, selected, side)}
         </select>
       </label>`;
     }).join('')}
@@ -3135,33 +3234,69 @@ function renderLineupRatingCell(player) {
   return `<span class="rating ${className}" title="${escapeHtml(title)}">${formatSignedValue(rating.rating, 1)}</span>${renderEstimateTag(rating.estimated)}`;
 }
 
+// Team A's roster (side 'a') doubles as the availability picker: a checkbox
+// beside each name (in the name cell, not a column of its own, so the table
+// still fits half the page), and the header counts and averages only who's
+// available. Team B's is read-only — the captain doesn't decide who the other
+// team brings — so it's ordered by what the captain does need to know: who's
+// in their lineup first, then everyone sitting, under a divider.
 function renderLineupRoster(teamName, side) {
   const usage = lineupUsage(teamName, side);
+  const picker = side === 'a';
+  const playing = (player) => (usage.get(player.name) || 0) > 0;
   const roster = lineupRoster(teamName).slice().sort((a, b) => (
-    a.gender.localeCompare(b.gender) || a.name.localeCompare(b.name)
+    (picker ? 0 : Number(playing(b)) - Number(playing(a)))
+    || a.gender.localeCompare(b.gender) || a.name.localeCompare(b.name)
   ));
-  const averageDuprValues = roster
+  const sittingFrom = picker ? -1 : roster.findIndex((player) => !playing(player));
+  const available = picker ? roster.filter((player) => isLineupPlayerAvailable(player.name)) : roster;
+  const averageDuprValues = available
     .map((player) => DUPR_RATINGS[player.playerId]?.rating)
     .filter((rating) => Number.isFinite(rating));
   const averageDupr = averageDuprValues.length
     ? averageDuprValues.reduce((sum, rating) => sum + rating, 0) / averageDuprValues.length
     : null;
-  const rows = roster.map((player) => `
-    <tr>
-      <td class="l">${renderPlayerName(player)}</td>
+  const rows = roster.map((player, index) => {
+    const isAvailable = !picker || isLineupPlayerAvailable(player.name);
+    const checkbox = picker
+      ? `<input type="checkbox" class="lineup-available" data-player-name="${escapeHtml(player.name)}"${isAvailable ? ' checked' : ''} aria-label="${escapeHtml(player.name)} is available" title="Available for this matchup">`
+      : '';
+    // Only once anyone is playing: with no lineup posted, every row is
+    // "sitting" and a divider above all of them would say nothing.
+    const divider = index === sittingFrom && sittingFrom > 0
+      ? `<tr class="lineup-sitting-divider"><td colspan="5" class="l">Not in lineup</td></tr>`
+      : '';
+    const rowClass = [
+      isAvailable ? '' : 'lineup-unavailable',
+      !picker && sittingFrom > 0 && !playing(player) ? 'lineup-sitting' : '',
+    ].filter(Boolean).join(' ');
+    return `${divider}
+    <tr${rowClass ? ` class="${rowClass}"` : ''}>
+      <td class="l">${checkbox}${renderPlayerName(player)}</td>
       <td>${player.gender === 'Female' ? 'W' : 'M'}</td>
       <td>${renderLineupRatingCell(player)}</td>
       <td>${renderCell(player, 'dupr')}</td>
       <td>${usage.get(player.name) || 0}</td>
-    </tr>`).join('');
+    </tr>`;
+  }).join('');
+  const countLabel = picker
+    ? `${available.length} of ${roster.length} available`
+    : sittingFrom > 0 ? `${sittingFrom} in lineup of ${roster.length}` : `${roster.length} players`;
+  const preset = picker ? lineupAvailabilityPreset() : null;
+  const bulkButton = (action, label, title = '') => (
+    `<button type="button" data-lineup-action="${action}"${preset === action ? ' class="active" aria-pressed="true"' : ' aria-pressed="false"'}${title ? ` title="${title}"` : ''}>${label}</button>`
+  );
+  const bulk = picker
+    ? `<span class="lineup-available-bulk">${bulkButton('available-all', 'All')}${bulkButton('available-no-subs', 'No subs', 'Everyone on the roster except outside subs')}${bulkButton('available-none', 'None')}</span>`
+    : '';
   return `<section class="lineup-roster" style="--team-color:${getTeamColor(teamName)}">
     <div class="lineup-roster-head">
       <h3>${escapeHtml(teamName)}</h3>
-      <span>${roster.length} players${averageDupr == null ? '' : ` • Avg DUPR ${averageDupr.toFixed(3)}`}</span>
+      <span>${countLabel}${averageDupr == null ? '' : ` • Avg DUPR ${averageDupr.toFixed(3)}`}${bulk}</span>
     </div>
     <div class="scroll lineup-roster-table-wrap">
       <table class="lineup-roster-table">
-        <thead><tr><th class="l">Player</th><th></th><th>Rating</th><th>DUPR</th><th>In lineup</th></tr></thead>
+        <thead><tr><th class="l">${picker ? 'Available' : 'Player'}</th><th></th><th>Rating</th><th>DUPR</th><th title="Games in this lineup">Games</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
     </div>
@@ -3176,7 +3311,11 @@ function renderLineupRoster(teamName, side) {
 // other than the element — see handleLineupDuosToggle.
 function renderLineupDuos(teamA, teamB) {
   const teams = new Set([teamA, teamB].filter(Boolean));
-  const duos = (DATA.duos || []).filter((duo) => teams.has(duo.team));
+  // Only Team A's unavailable players are hidden — the opponent's duos are
+  // context, not choices.
+  const hidden = lineupUnavailable();
+  const duos = (DATA.duos || []).filter((duo) => teams.has(duo.team)
+    && !(duo.team === teamA && (hidden.has(duo.a) || hidden.has(duo.b))));
   const table = renderDuoTable('lineup', duos, {
     emptyMessage: 'Neither team has a pair with 3+ games together yet.',
   });
@@ -3200,6 +3339,685 @@ function handleLineupDuosToggle(event) {
   writePrefs({ lineupDuosOpen: event.target.open });
 }
 
+// ── Auto lineups ──
+// For the captain setting their lineup second: the opponent's 32 games are
+// fixed, and the question is which of our available pairs to put where. One
+// objective — the chance of winning the match — rather than a choice of
+// counting rules: maximizing it plays safe when we're the favourite (turn as
+// many games as possible into ones we're at least even in) and stacks when
+// we're the underdog (concede some games to make sure of the rest), without
+// the captain having to know which they are. It plays by the league's own rules
+// (gendered slots, one game per round per player, a pair at most twice a week)
+// plus the captain's playing-time band.
+const LINEUP_AUTO_MODES = [
+  {
+    id: 'best',
+    title: 'Best chance to win',
+    blurb: 'The lineup most likely to win the match from your available players. Plays it safe as the favourite, stacks as the underdog.',
+  },
+];
+
+// Chance the pair with an expected margin of `margin` points wins the game:
+// a logistic curve, 1 / (1 + e^(-k·margin)). k was fitted by maximum
+// likelihood on every completed, non-forfeit game in the archive (about
+// 51,000) using each player's rating as of the week *before* the game — the
+// same position the lab is in, projecting next week from ratings so far. Fitted
+// on end-of-season ratings instead, k comes out near 0.45: overconfident,
+// because those ratings were built from the very games being predicted. With
+// 0.32 the predicted and actual win rates agree to within a point in every
+// band (54% under a 1-point margin, 63% at 1–2.5, 76% at 2.5–5, 90% beyond).
+const LINEUP_WIN_CURVE = 0.32;
+
+function lineupGameWinChance(margin) {
+  if (margin == null) return 0.5;
+  return 1 / (1 + Math.exp(-LINEUP_WIN_CURVE * margin));
+}
+
+// Chance of winning the match from each game's win chance, assuming games are
+// independent: the probability of taking more than half of them. Exactly half
+// goes to total points, called a coin flip here. Returns { chance, expected }
+// — expected games won is the standings tiebreak (game win ratio).
+function lineupMatchWinChance(chances) {
+  let dist = [1];
+  for (const p of chances) {
+    const next = new Array(dist.length + 1).fill(0);
+    for (let won = 0; won < dist.length; won++) {
+      next[won] += dist[won] * (1 - p);
+      next[won + 1] += dist[won] * p;
+    }
+    dist = next;
+  }
+  const n = chances.length;
+  let chance = 0;
+  for (let won = 0; won <= n; won++) {
+    if (won * 2 > n) chance += dist[won];
+    else if (won * 2 === n) chance += dist[won] / 2;
+  }
+  return { chance, expected: chances.reduce((sum, p) => sum + p, 0) };
+}
+
+const LINEUP_PAIR_LIMIT = 2;
+
+// A small seeded PRNG (mulberry32), so the same inputs always produce the same
+// lineup: a captain toggling between modes shouldn't see a different answer
+// every time they come back to one.
+function seededRandom(seed) {
+  let state = seed >>> 0;
+  return () => {
+    state = (state + 0x6D2B79F5) >>> 0;
+    let t = state;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function hashString(text) {
+  let hash = 2166136261;
+  for (let index = 0; index < text.length; index++) {
+    hash ^= text.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+// The per-player games band for each pool of players. A pool is a gender when
+// every slot names one (a woman's slot can only take a woman, so women share
+// the women's slots between them), or 'any' when some slot doesn't. flex 0 is
+// an even split — floor/ceil of slots ÷ players — and each step widens the band
+// by one game on both ends, until at maxFlex it spans 0..rounds: no limit.
+function lineupPlayTimeBands(slotGenders, players, flex) {
+  const rounds = Math.ceil(slotGenders.length / LINEUP_ROUND_SIZE);
+  const anySlots = slotGenders.some((genders) => genders.some((gender) => !gender));
+  const poolOf = (player) => (anySlots ? 'any' : player.gender);
+  const slots = {};
+  for (const genders of slotGenders) {
+    for (const gender of genders) {
+      const pool = anySlots ? 'any' : gender;
+      slots[pool] = (slots[pool] || 0) + 1;
+    }
+  }
+  const sizes = {};
+  for (const player of players) sizes[poolOf(player)] = (sizes[poolOf(player)] || 0) + 1;
+  const bands = {};
+  let maxFlex = 0;
+  for (const [pool, count] of Object.entries(slots)) {
+    const size = sizes[pool] || 0;
+    const evenLow = size ? Math.floor(count / size) : 0;
+    const evenHigh = size ? Math.ceil(count / size) : 0;
+    maxFlex = Math.max(maxFlex, evenLow, rounds - evenHigh);
+    bands[pool] = {
+      slots: count,
+      players: size,
+      lo: Math.max(0, evenLow - flex),
+      hi: Math.min(rounds, evenHigh + flex),
+    };
+  }
+  return { bands, poolOf, rounds, maxFlex };
+}
+
+// Fills every slot of one side of a match from `players`, against fixed
+// opponents. Pure — everything it needs comes in on `spec` — so tests can drive
+// it directly:
+//   slotGenders  per game, [gender of slot 0, gender of slot 1] ('' = anyone)
+//   oppStrength  per game, the opponent pair's rating sum plus chemistry
+//   oppRated     per game, false when an opponent has no rating at all
+//   players      [{ name, gender, rating, rated }]
+//   synergy(i,j) chemistry for players i and j as a pair (0 when unknown)
+//   bands, poolOf  from lineupPlayTimeBands
+// Returns { pairs } (one [name, name] per game, in slot order) or { error }.
+//
+// Simulated annealing over a few seeded restarts, maximizing the chance of
+// winning the match (lineupMatchWinChance), with expected games won as a small
+// tiebreak: once a match is all but won or all but lost, the chance barely
+// moves and the game record — the standings tiebreak — is what's left to play
+// for.
+function optimizeLineup(spec) {
+  const {
+    slotGenders, oppStrength, oppRated, players, synergy, bands, poolOf,
+    roundSize = LINEUP_ROUND_SIZE, pairLimit = LINEUP_PAIR_LIMIT, seed = 1,
+    restarts = 3, iterations = 4000,
+  } = spec;
+  const gameCount = slotGenders.length;
+  const playerCount = players.length;
+  if (!gameCount) return { error: 'This matchup has no games to fill.' };
+  const roundOfGame = Array.from({ length: gameCount }, (_, game) => Math.floor(game / roundSize));
+  const roundOf = (game) => roundOfGame[game];
+  const roundCount = roundOf(gameCount - 1) + 1;
+
+  const eligible = (player, game, slot) => {
+    const gender = slotGenders[game][slot];
+    return !gender || players[player].gender === gender;
+  };
+
+  // Every round needs enough of each gender on the court at once.
+  for (let round = 0; round < roundCount; round++) {
+    const need = {};
+    for (let game = round * roundSize; game < Math.min(gameCount, (round + 1) * roundSize); game++) {
+      for (const gender of slotGenders[game]) need[gender || 'any'] = (need[gender || 'any'] || 0) + 1;
+    }
+    let gendered = 0;
+    for (const [gender, count] of Object.entries(need)) {
+      if (gender === 'any') continue;
+      gendered += count;
+      const have = players.filter((player) => player.gender === gender).length;
+      if (have < count) {
+        const word = gender === 'Female' ? pluralize(count, 'woman', 'women') : pluralize(count, 'man', 'men');
+        return { error: `Each round needs ${count} ${word} available; only ${have} ${have === 1 ? 'is' : 'are'}.` };
+      }
+    }
+    if (playerCount < gendered + (need.any || 0)) {
+      return { error: `Each round needs ${gendered + (need.any || 0)} players available; only ${playerCount} are.` };
+    }
+  }
+
+  const band = (player) => bands[poolOf(players[player])] || { lo: 0, hi: roundCount };
+  // Pair strength (both ratings plus their chemistry), precomputed: the inner
+  // loop asks for it on every move.
+  const strength = Array.from({ length: playerCount }, (_, i) => (
+    Array.from({ length: playerCount }, (__, j) => players[i].rating + players[j].rating + (i === j ? 0 : synergy(i, j)))
+  ));
+  const marginOf = (pair, game) => Math.round((strength[pair[0]][pair[1]] - oppStrength[game]) * 10) / 10;
+  // A game with anyone unrated in it is a coin flip, the same as
+  // lineupLineupChance scores it: there's no margin to project.
+  const chanceOf = (pair, game) => (
+    players[pair[0]].rated === false || players[pair[1]].rated === false || oppRated?.[game] === false
+      ? 0.5
+      : lineupGameWinChance(marginOf(pair, game))
+  );
+  const PAIR_PENALTY = 4;
+  const EXPECTED_WEIGHT = 0.002;
+  const pairKey = (a, b) => (a < b ? a * playerCount + b : b * playerCount + a);
+  // The distribution of games won is kept up to date move by move rather than
+  // rebuilt: adding one game is a single pass, and so is taking one out — in
+  // whichever direction keeps it numerically stable (dividing by the larger of
+  // p and 1 − p). Rebuilt from scratch every so often anyway, so rounding can't
+  // pile up over thousands of moves.
+  const addGame = (dist, p) => {
+    for (let won = gameCount; won > 0; won--) dist[won] = dist[won] * (1 - p) + dist[won - 1] * p;
+    dist[0] *= 1 - p;
+  };
+  const removeGame = (dist, p) => {
+    if (p <= 0.5) {
+      dist[0] /= 1 - p;
+      for (let won = 1; won <= gameCount; won++) dist[won] = (dist[won] - dist[won - 1] * p) / (1 - p);
+    } else {
+      let above = 0;
+      for (let won = gameCount; won >= 1; won--) {
+        const value = (dist[won] - above * (1 - p)) / p;
+        dist[won] = above;
+        above = value;
+      }
+      dist[0] = above;
+    }
+  };
+  // Two scales for the same objective. The match chance itself is flat near 0
+  // and 1 — an underdog at 3% or a favourite at 97% barely moves it with any one
+  // change — so the search wanders there. Its log-odds stretch exactly those
+  // ends, but squeeze the middle. Neither wins everywhere, so restarts take
+  // turns, and the lineups they find are compared on the chance itself.
+  const valueOfDist = (dist, expected, logOdds) => {
+    let chance = 0;
+    for (let won = 0; won <= gameCount; won++) {
+      if (won * 2 > gameCount) chance += dist[won];
+      else if (won * 2 === gameCount) chance += dist[won] / 2;
+    }
+    if (logOdds) {
+      const clamped = Math.min(1 - 1e-12, Math.max(1e-12, chance));
+      return Math.log(clamped / (1 - clamped)) + 10 * EXPECTED_WEIGHT * expected;
+    }
+    return chance + EXPECTED_WEIGHT * expected;
+  };
+
+  const random = seededRandom(seed);
+  const randomInt = (n) => Math.floor(random() * n);
+  const roundGames = Array.from({ length: roundCount }, (_, round) => {
+    const games = [];
+    for (let game = round * roundSize; game < Math.min(gameCount, (round + 1) * roundSize); game++) games.push(game);
+    return games;
+  });
+  const gamesInRound = (round) => roundGames[round];
+
+  let bestAssign = null;
+  let bestScore = null;
+
+  for (let restart = 0; restart < restarts; restart++) {
+    // Start: rotate through the roster round by round, always seating whoever
+    // has played least so far (random among ties). That alone lands every
+    // player within one game of an even split, i.e. inside any band.
+    const assign = Array.from({ length: gameCount }, () => [0, 0]);
+    const counts = new Array(playerCount).fill(0);
+    const inRound = Array.from({ length: roundCount }, () => new Array(playerCount).fill(false));
+    for (let round = 0; round < roundCount; round++) {
+      const slots = [];
+      for (const game of gamesInRound(round)) slots.push([game, 0], [game, 1]);
+      // Gendered slots first, so an 'any' slot can't take the last woman.
+      slots.sort((x, y) => Number(!slotGenders[x[0]][x[1]]) - Number(!slotGenders[y[0]][y[1]]) || random() - 0.5);
+      for (const [game, slot] of slots) {
+        let pick = -1;
+        let pickCount = Infinity;
+        let ties = 0;
+        for (let player = 0; player < playerCount; player++) {
+          if (inRound[round][player] || !eligible(player, game, slot)) continue;
+          if (counts[player] < pickCount) {
+            pick = player; pickCount = counts[player]; ties = 1;
+          } else if (counts[player] === pickCount && random() < 1 / ++ties) {
+            pick = player;
+          }
+        }
+        assign[game][slot] = pick;
+        counts[pick]++;
+        inRound[round][pick] = true;
+      }
+    }
+
+    const pairCounts = new Map();
+    let excess = 0;
+    const addPair = (game) => {
+      const key = pairKey(assign[game][0], assign[game][1]);
+      const count = (pairCounts.get(key) || 0) + 1;
+      pairCounts.set(key, count);
+      if (count > pairLimit) excess++;
+    };
+    const removePair = (game) => {
+      const key = pairKey(assign[game][0], assign[game][1]);
+      const count = pairCounts.get(key);
+      if (count > pairLimit) excess--;
+      pairCounts.set(key, count - 1);
+    };
+    const chances = assign.map((pair, game) => chanceOf(pair, game));
+    assign.forEach((_, game) => addPair(game));
+    let dist;
+    let expected;
+    const rebuild = () => {
+      dist = new Array(gameCount + 1).fill(0);
+      dist[0] = 1;
+      expected = 0;
+      for (const p of chances) {
+        addGame(dist, p);
+        expected += p;
+      }
+    };
+    rebuild();
+    const logOdds = restart % 2 === 0;
+    // Temperatures on each scale's own terms: a single move typically shifts
+    // the chance by a point or a few, its log-odds by a tenth or so.
+    const startTemp = logOdds ? 0.3 : 0.03;
+    const endTemp = startTemp / 100;
+    const penalty = (logOdds ? 50 : 1) * PAIR_PENALTY;
+    let current = valueOfDist(dist, expected, logOdds) - penalty * excess;
+
+    // changes: [[game, slot, player]]. Returns the reverse change list.
+    const apply = (changes) => {
+      const games = [...new Set(changes.map(([game]) => game))];
+      for (const game of games) removePair(game);
+      const undo = changes.map(([game, slot]) => [game, slot, assign[game][slot]]);
+      for (const [game, slot] of changes) {
+        const player = assign[game][slot];
+        counts[player]--;
+        inRound[roundOf(game)][player] = false;
+      }
+      for (const [game, slot, player] of changes) {
+        assign[game][slot] = player;
+        counts[player]++;
+        inRound[roundOf(game)][player] = true;
+      }
+      for (const game of games) {
+        addPair(game);
+        const p = chanceOf(assign[game], game);
+        removeGame(dist, chances[game]);
+        addGame(dist, p);
+        expected += p - chances[game];
+        chances[game] = p;
+      }
+      current = valueOfDist(dist, expected, logOdds) - penalty * excess;
+      return undo;
+    };
+
+    const propose = () => {
+      const game = randomInt(gameCount);
+      const slot = randomInt(2);
+      const round = roundOf(game);
+      const player = assign[game][slot];
+      const kind = random();
+      if (kind < 0.3) {
+        // Swap two players between games in the same round.
+        const others = gamesInRound(round);
+        const other = others[randomInt(others.length)];
+        const otherSlot = randomInt(2);
+        if (other === game) return null;
+        const swap = assign[other][otherSlot];
+        if (!eligible(player, other, otherSlot) || !eligible(swap, game, slot)) return null;
+        return [[game, slot, swap], [other, otherSlot, player]];
+      }
+      if (kind < 0.5) {
+        // Swap two whole pairs between games of the same shape in a round —
+        // the move that reassigns which of our pairs faces which of theirs.
+        const others = gamesInRound(round);
+        const other = others[randomInt(others.length)];
+        if (other === game || slotGenders[other][0] !== slotGenders[game][0] || slotGenders[other][1] !== slotGenders[game][1]) return null;
+        const [a0, a1] = assign[game];
+        const [b0, b1] = assign[other];
+        return [[game, 0, b0], [game, 1, b1], [other, 0, a0], [other, 1, a1]];
+      }
+      // A player sitting this round comes in.
+      const bench = [];
+      for (let candidate = 0; candidate < playerCount; candidate++) {
+        if (!inRound[round][candidate] && eligible(candidate, game, slot)) bench.push(candidate);
+      }
+      if (!bench.length) return null;
+      const sub = bench[randomInt(bench.length)];
+      if (kind < 0.75 && counts[player] - 1 >= band(player).lo && counts[sub] + 1 <= band(sub).hi) {
+        return [[game, slot, sub]];
+      }
+      // Or, keeping everyone's game count unchanged: they trade places across
+      // two rounds — the only way to move anyone when the band is tight.
+      const trades = [];
+      for (let other = 0; other < gameCount; other++) {
+        const otherRound = roundOfGame[other];
+        if (otherRound === round || inRound[otherRound][player]) continue;
+        for (let otherSlot = 0; otherSlot < 2; otherSlot++) {
+          if (assign[other][otherSlot] === sub && eligible(player, other, otherSlot)) trades.push([other, otherSlot]);
+        }
+      }
+      if (!trades.length) return null;
+      const [other, otherSlot] = trades[randomInt(trades.length)];
+      return [[game, slot, sub], [other, otherSlot, player]];
+    };
+
+    let restartBest = null;
+    let restartBestValue = -Infinity;
+    for (let step = 0; step < iterations; step++) {
+      const temp = startTemp * (endTemp / startTemp) ** (step / iterations);
+      if (step % 500 === 499) {
+        rebuild();
+        current = valueOfDist(dist, expected, logOdds) - penalty * excess;
+      }
+      const changes = propose();
+      if (!changes) continue;
+      const before = current;
+      const undo = apply(changes);
+      const delta = current - before;
+      if (delta >= 0 || random() < Math.exp(delta / temp)) {
+        if (!excess && current > restartBestValue + 1e-12) {
+          restartBestValue = current;
+          restartBest = assign.map((pair) => pair.slice());
+        }
+      } else {
+        apply(undo);
+      }
+    }
+    if (!restartBest && !excess) restartBest = assign.map((pair) => pair.slice());
+    if (restartBest) {
+      const finalChances = restartBest.map((pair, game) => chanceOf(pair, game));
+      const { chance, expected: finalExpected } = lineupMatchWinChance(finalChances);
+      const score = chance + EXPECTED_WEIGHT * finalExpected;
+      if (bestScore == null || score > bestScore + 1e-12) {
+        bestScore = score;
+        bestAssign = restartBest;
+      }
+    }
+  }
+  if (!bestAssign) return { error: 'No lineup fits the pair limit with these players available.' };
+
+  return { pairs: bestAssign.map((pair) => pair.map((player) => players[player].name)) };
+}
+
+// Everything optimizeLineup needs for the current matchup, or { error } saying
+// why the auto modes can't run yet.
+function lineupAutoSpec(flex = lineupLabState.flex) {
+  const { games, teamA, teamB } = lineupLabState;
+  if (!games.length) return { error: 'This matchup has no games to fill.' };
+  const missing = games.filter((game) => !isPairPosted(game.b)).length;
+  if (missing) {
+    return {
+      error: `Waiting on ${teamB || 'the opponent'}'s full lineup (${missing} of ${games.length} ${pluralize(games.length, 'game', 'games')} still open). Auto modes are for the team setting its lineup second.`,
+      waiting: true,
+    };
+  }
+  const players = lineupAvailableRoster(teamA).map((player) => ({
+    name: player.name,
+    gender: player.gender,
+    // An unrated player (no league games, no DUPR): any game they're in is a
+    // coin flip (see optimizeLineup's chanceOf).
+    rating: resolvePlayerRating(player.name)?.rating ?? 0,
+    rated: Boolean(resolvePlayerRating(player.name)),
+  }));
+  const slotGenders = games.map((game) => [0, 1].map((slot) => lineupExpectedGender(game.type, slot)));
+  const pairStrength = (pair) => pair.reduce((sum, name) => sum + (resolvePlayerRating(name)?.rating ?? 0), 0)
+    + (pairSynergyFor(pair[0], pair[1])?.synergy || 0);
+  const play = lineupPlayTimeBands(slotGenders, players, flex);
+  return {
+    play,
+    spec: {
+      slotGenders,
+      oppStrength: games.map((game) => pairStrength(game.b)),
+      oppRated: games.map((game) => game.b.every((name) => resolvePlayerRating(name))),
+      players,
+      synergy: (i, j) => pairSynergyFor(players[i].name, players[j].name)?.synergy || 0,
+      bands: play.bands,
+      poolOf: play.poolOf,
+      seed: hashString(`${teamA}|${lineupLabState.matchupIndex}|${players.map((player) => player.name).join(',')}`),
+    },
+  };
+}
+
+// Optimizing takes tens of milliseconds and the lab re-renders on every
+// change, most of which (a Team A slot, a duo sort) don't touch its inputs.
+const lineupAutoCache = new Map();
+
+// The optimizer's lineup at one slider setting, cached by everything it
+// depends on.
+function lineupAutoResultAt(spec, flex) {
+  const key = JSON.stringify([
+    lineupLabState.teamA, lineupLabState.matchupIndex, flex,
+    spec.players.map((player) => player.name), lineupLabState.games.map((game) => [game.type, game.b]),
+  ]);
+  let result = lineupAutoCache.get(key);
+  if (!result) {
+    result = optimizeLineup(spec);
+    if (!result.error) result.chance = lineupLineupChance(result.pairs);
+    if (lineupAutoCache.size > 80) lineupAutoCache.clear();
+    lineupAutoCache.set(key, result);
+  }
+  return result;
+}
+
+function lineupAutoResultsAt(flex) {
+  const auto = lineupAutoSpec(flex);
+  if (auto.error) return { error: auto.error, waiting: auto.waiting, play: auto.play };
+  const { spec, play } = auto;
+  return { results: { best: lineupAutoResultAt(spec, flex) }, play };
+}
+
+function lineupResultTally(result) {
+  return lineupTally(lineupLabState.games.map((game, index) => (
+    lineupGameProjection({ a: result.pairs[index], b: game.b })
+  )));
+}
+
+// Chance Team A wins the match with `pairs` (one per game) against the
+// opponent's side of the grid, on the same expected margins the projection
+// column shows (ratings, DUPR stand-ins and chemistry). A game with a rating
+// missing counts as a coin flip. Null while any slot on either side is open,
+// or a pair repeats a player — there's no match to call yet.
+function lineupLineupChance(pairs) {
+  const chances = [];
+  for (let index = 0; index < lineupLabState.games.length; index++) {
+    const ours = pairs[index] || [];
+    const theirs = lineupLabState.games[index].b;
+    if (!isPairPosted(ours) || !isPairPosted(theirs) || ours[0] === ours[1] || theirs[0] === theirs[1]) return null;
+    chances.push(lineupGameWinChance(
+      computeExpectedOutcome(ours[0], ours[1], theirs[0], theirs[1], { useSynergy: true }).margin,
+    ));
+  }
+  return chances.length ? lineupMatchWinChance(chances).chance : null;
+}
+
+// How close to the best achievable chance the slider's default has to get.
+const LINEUP_FLEX_TOLERANCE = 0.02;
+
+// The slider's default: the least playing-time flexibility whose lineup is
+// within two points of the best chance any setting reaches. Past that,
+// loosening only takes games from people for a sliver of a point.
+//
+// The best is estimated from the two ends — an even split and no limit —
+// rather than every setting, to keep opening a matchup cheap; then settings
+// are tried lowest first until one is close enough. Stepping up from the
+// bottom, rather than bisecting, means a noisy setting in the middle can't
+// push the default past one that already qualified.
+// Returns the auto results at the setting chosen.
+function lineupAutoFlex() {
+  const base = lineupAutoSpec(0);
+  const chosen = (flex) => ({ flex, auto: lineupAutoResultsAt(flex) });
+  if (base.error) return chosen(0);
+  const chanceAt = (flex) => {
+    const { spec } = flex ? lineupAutoSpec(flex) : base;
+    const result = lineupAutoResultAt(spec, flex);
+    return result.error ? -1 : (result.chance ?? -1);
+  };
+  const { maxFlex } = base.play;
+  const atEven = chanceAt(0);
+  if (!maxFlex || atEven >= 1 - LINEUP_FLEX_TOLERANCE / 2) return chosen(0);
+  const target = Math.max(atEven, chanceAt(maxFlex)) - LINEUP_FLEX_TOLERANCE;
+  if (atEven >= target) return chosen(0);
+  for (let flex = 1; flex < maxFlex; flex++) {
+    const chance = chanceAt(flex);
+    if (chance >= target) return chosen(flex);
+  }
+  return chosen(maxFlex);
+}
+
+function lineupAutoResults() {
+  if (lineupLabState.flexTouched) return lineupAutoResultsAt(lineupLabState.flex);
+  const { flex, auto } = lineupAutoFlex();
+  lineupLabState.flex = flex;
+  return auto;
+}
+
+function lineupTally(projections) {
+  return {
+    wins: projections.filter((projection) => projection.outcome === 'win').length,
+    losses: projections.filter((projection) => projection.outcome === 'loss').length,
+    ties: projections.filter((projection) => projection.outcome === 'tie').length,
+  };
+}
+
+// "65% to win", coloured by which way it leans. Rounded to a whole percent,
+// and never shown as a flat 0% or 100%: the model isn't that sure of anything.
+function lineupChanceText(chance) {
+  if (chance == null) return null;
+  const percent = Math.round(chance * 100);
+  const label = percent >= 100 ? '>99%' : percent <= 0 ? '<1%' : `${percent}%`;
+  const className = chance >= 0.6 ? 'res-W' : chance <= 0.4 ? 'res-L' : 'mut';
+  return { label, className };
+}
+
+function renderLineupChance(chance) {
+  const text = lineupChanceText(chance);
+  if (!text) return '';
+  return `<span class="lineup-mode-lean ${text.className}" title="Chance of winning the match, from each game's projected margin">${text.label} to win the match</span>`;
+}
+
+function renderLineupTallyText(tally, chance) {
+  return `<span class="lineup-mode-score"><b class="res-W">${tally.wins}</b>–<b class="res-L">${tally.losses}</b>${tally.ties ? ` <span class="lineup-ties">${tally.ties} even</span>` : ''}</span>
+    ${renderLineupChance(chance)}`;
+}
+
+// Keeps Team A's side in step with the selected auto mode — called at the top
+// of every render, so any input change re-optimizes. An auto mode that can no
+// longer run (the opponent's lineup went incomplete) drops back to manual and
+// leaves Team A's side as it was.
+function syncLineupAutoMode(auto) {
+  if (lineupLabState.mode === 'manual') return;
+  const result = auto.results?.[lineupLabState.mode];
+  if (!result || result.error) {
+    lineupLabState.mode = 'manual';
+    lineupLabState.manualA = null;
+    return;
+  }
+  lineupLabState.games.forEach((game, index) => {
+    game.a = result.pairs[index].slice();
+  });
+}
+
+function selectLineupMode(mode) {
+  if (mode === lineupLabState.mode) return;
+  if (mode === 'manual') {
+    if (lineupLabState.manualA) {
+      lineupLabState.games.forEach((game, index) => {
+        game.a = (lineupLabState.manualA[index] || ['', '']).slice();
+      });
+    }
+    lineupLabState.manualA = null;
+  } else if (lineupLabState.mode === 'manual') {
+    lineupLabState.manualA = lineupLabState.games.map((game) => game.a.slice());
+  }
+  lineupLabState.mode = mode;
+}
+
+// Called whenever the lab moves to a new matchup or team (and by Reload / Clear),
+// so the slider goes back to choosing itself as well.
+function resetLineupMode({ keepFlex = false } = {}) {
+  lineupLabState.mode = 'manual';
+  lineupLabState.manualA = null;
+  if (!keepFlex) lineupLabState.flexTouched = false;
+}
+
+function lineupPlayTimeLabel(play) {
+  const { flex } = lineupLabState;
+  const name = flex === 0 ? 'Even split' : flex >= play.maxFlex ? 'No limit' : `Even split ±${flex}`;
+  const poolName = { Female: 'Women', Male: 'Men', any: 'Each player' };
+  const ranges = Object.entries(play.bands)
+    .filter(([, band]) => band.players)
+    .map(([pool, band]) => `${poolName[pool] || pool} ${band.lo === band.hi ? band.lo : `${band.lo}–${band.hi}`} games`);
+  const why = lineupLabState.flexTouched
+    ? ''
+    : ` <span class="mut">(auto: the least flexibility within ${Math.round(LINEUP_FLEX_TOLERANCE * 100)} points of the best chance to win)</span>`;
+  return `<b>${name}</b>${ranges.length ? ` · ${escapeHtml(ranges.join(', '))}` : ''}${why}`;
+}
+
+function renderLineupStrategy(auto, manualTally, manualChance) {
+  const { teamA, teamB, mode } = lineupLabState;
+  const disabled = Boolean(auto.error);
+  const card = (id, title, blurb, scoreHtml, isDisabled) => `
+    <button type="button" class="lineup-mode${mode === id ? ' selected' : ''}" role="radio" aria-checked="${mode === id}" data-lineup-mode="${id}"${isDisabled ? ' disabled' : ''}>
+      <span class="lineup-mode-title">${title}</span>
+      <span class="lineup-mode-blurb">${blurb}</span>
+      <span class="lineup-mode-result">${scoreHtml}</span>
+    </button>`;
+  const manualScore = manualTally.wins + manualTally.losses + manualTally.ties
+    ? renderLineupTallyText(manualTally, manualChance)
+    : '<span class="mut">No games projected yet</span>';
+  const autoCards = LINEUP_AUTO_MODES.map((autoMode) => {
+    const result = auto.results?.[autoMode.id];
+    let scoreHtml;
+    if (!result) scoreHtml = '<span class="mut">Needs the full opponent lineup</span>';
+    else if (result.error) scoreHtml = `<span class="neg-diff">${escapeHtml(result.error)}</span>`;
+    else scoreHtml = renderLineupTallyText(lineupResultTally(result), result.chance);
+    return card(autoMode.id, autoMode.title, autoMode.blurb, scoreHtml, disabled || Boolean(result?.error));
+  }).join('');
+  const playTime = auto.play && auto.play.maxFlex > 0
+    ? `<label class="lineup-playtime">
+        <span>Playing time</span>
+        <input type="range" id="lineup-flex" min="0" max="${auto.play.maxFlex}" step="1" value="${Math.min(lineupLabState.flex, auto.play.maxFlex)}"${disabled ? ' disabled' : ''}>
+        <output for="lineup-flex">${lineupPlayTimeLabel(auto.play)}</output>
+      </label>`
+    : '';
+  return `<section class="lineup-strategy panel">
+    <div class="lineup-strategy-head">
+      <h3>Set ${escapeHtml(teamA)}'s lineup</h3>
+      <p>Setting second? The lab can fill ${escapeHtml(teamA)}'s side from your available players to give you the best chance of beating ${escapeHtml(teamB || 'the opponent')}'s posted lineup. Edit any slot afterwards to fine-tune by hand.</p>
+    </div>
+    <div class="lineup-modes" role="radiogroup" aria-label="Lineup strategy">
+      ${card('manual', 'Manual', 'Pick every slot yourself.', manualScore, false)}
+      ${autoCards}
+    </div>
+    ${playTime}
+    ${disabled ? `<p class="lineup-strategy-note">${escapeHtml(auto.error)}</p>` : ''}
+  </section>`;
+}
+
 function lineupMatchupDescription() {
   const { teamA, teamB, matchupIndex } = lineupLabState;
   const match = matchupIndex == null ? null : lineupSeasonMatchesForTeam(teamA)[matchupIndex];
@@ -3210,7 +4028,17 @@ function lineupMatchupDescription() {
 
 function renderLineupLab({ scroll = true } = {}) {
   ensureLineupLabState();
+  const auto = lineupAutoResults();
+  syncLineupAutoMode(auto);
   const projections = lineupLabState.games.map(lineupGameProjection);
+  const manualPairs = lineupLabState.mode === 'manual' || !lineupLabState.manualA
+    ? lineupLabState.games.map((game) => game.a)
+    : lineupLabState.games.map((_, index) => lineupLabState.manualA[index] || ['', '']);
+  const manualProjections = lineupLabState.games.map((game, index) => lineupGameProjection({ a: manualPairs[index], b: game.b }));
+  const chance = lineupLineupChance(lineupLabState.games.map((game) => game.a));
+  const unavailableInLineup = [...new Set(lineupLabState.games
+    .flatMap((game) => game.a)
+    .filter((name) => name && !isLineupPlayerAvailable(name)))];
   const knownPairRanks = lineupKnownPairRanks(lineupLabState.games);
   const pairCountsA = lineupPairCounts('a');
   const pairCountsB = lineupPairCounts('b');
@@ -3235,8 +4063,15 @@ function renderLineupLab({ scroll = true } = {}) {
         <span class="lineup-score-dash">–</span>
         <div><b class="res-L">${losses}</b><span>${escapeHtml(lineupLabState.teamB)}</span></div>
         ${ties ? `<span class="lineup-ties">${ties} even</span>` : ''}
+        ${renderLineupChance(chance)}
       </div>`
     : '<div class="lineup-score-empty">Choose players to see a projection</div>';
+  const unavailableRuleHtml = unavailableInLineup.length
+    ? `<div class="lineup-rule-check violation" role="alert">
+        <b>Unavailable player in lineup</b>
+        <span>${escapeHtml(unavailableInLineup.join(', '))} ${unavailableInLineup.length === 1 ? 'is' : 'are'} marked unavailable but still in a game.</span>
+      </div>`
+    : '';
   const pairRuleHtml = pairViolations.length
     ? `<div class="lineup-rule-check violation" role="alert">
         <b>Pair limit broken</b>
@@ -3312,12 +4147,20 @@ function renderLineupLab({ scroll = true } = {}) {
       <p class="lineup-source-note">${escapeHtml(lineupMatchupDescription())}</p>
     </section>
 
+    <div class="lineup-rosters">
+      ${renderLineupRoster(lineupLabState.teamA, 'a')}
+      ${renderLineupRoster(lineupLabState.teamB, 'b')}
+    </div>
+
+    ${renderLineupStrategy(auto, lineupTally(manualProjections), lineupLineupChance(manualPairs))}
+
     ${pairRuleHtml}
     ${roundRuleHtml}
+    ${unavailableRuleHtml}
 
     <section class="lineup-score-card panel">
       <div>
-        <span class="lineup-score-label">Projected game score</span>
+        <span class="lineup-score-label">Projected game score${lineupLabState.mode === 'manual' ? '' : ` — ${escapeHtml(LINEUP_AUTO_MODES.find((mode) => mode.id === lineupLabState.mode)?.title || '')}`}</span>
         ${scoreLine}
       </div>
       <div class="lineup-score-notes">
@@ -3325,11 +4168,6 @@ function renderLineupLab({ scroll = true } = {}) {
         ${caveats.map((note) => `<span>${note}</span>`).join('')}
       </div>
     </section>
-
-    <div class="lineup-rosters">
-      ${renderLineupRoster(lineupLabState.teamA, 'a')}
-      ${renderLineupRoster(lineupLabState.teamB, 'b')}
-    </div>
 
     ${renderLineupDuos(lineupLabState.teamA, lineupLabState.teamB)}
 
@@ -3366,6 +4204,7 @@ function handleLineupLabChange(event) {
     // rather than keep it, same as opening the lab from a team's own page.
     lineupLabState.matchupIndex = lineupDefaultMatchupIndex(lineupLabState.teamA);
     lineupLabState.games = [];
+    resetLineupMode();
     // Keeps ?team= in sync with the dropdown, the same way opening the lab
     // from a team's own page seeds it — so a refresh, or sharing the link,
     // lands back on the team just picked instead of whichever one the lab
@@ -3380,6 +4219,21 @@ function handleLineupLabChange(event) {
   if (event.target.id === 'lineup-matchup') {
     lineupLabState.matchupIndex = Number(event.target.value);
     lineupLabState.games = rebuildLineupLabGames();
+    resetLineupMode();
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  if (event.target.id === 'lineup-flex') {
+    lineupLabState.flex = Number(event.target.value) || 0;
+    lineupLabState.flexTouched = true;
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  if (event.target.classList?.contains('lineup-available')) {
+    const unavailable = lineupUnavailable();
+    const name = event.target.dataset.playerName;
+    if (event.target.checked) unavailable.delete(name);
+    else unavailable.add(name);
     renderLineupLab({ scroll: false });
     return;
   }
@@ -3387,6 +4241,9 @@ function handleLineupLabChange(event) {
   if (!slot) return;
   const game = lineupLabState.games[Number(slot.dataset.game)];
   if (!game) return;
+  // A hand edit to our own side takes the lineup over from an auto mode, edit
+  // included; an edit to the opponent's side just re-runs it.
+  if (slot.dataset.side === 'a') resetLineupMode({ keepFlex: true });
   game[slot.dataset.side][Number(slot.dataset.slot)] = slot.value;
   renderLineupLab({ scroll: false });
 }
@@ -3399,8 +4256,27 @@ function handleLineupLabClick(event) {
     setRouteInUrl({ team: '', player: '', lineup: false });
     return;
   }
+  const mode = event.target.closest('[data-lineup-mode]');
+  if (mode && !mode.disabled) {
+    selectLineupMode(mode.dataset.lineupMode);
+    renderLineupLab({ scroll: false });
+    return;
+  }
   const action = event.target.closest('[data-lineup-action]')?.dataset.lineupAction;
   if (!action) return;
+  if (action === 'available-all' || action === 'available-none' || action === 'available-no-subs') {
+    const unavailable = lineupUnavailable();
+    unavailable.clear();
+    if (action === 'available-none') {
+      for (const player of lineupRoster(lineupLabState.teamA)) unavailable.add(player.name);
+    }
+    if (action === 'available-no-subs') {
+      for (const name of lineupOutsideSubNames(lineupLabState.teamA)) unavailable.add(name);
+    }
+    renderLineupLab({ scroll: false });
+    return;
+  }
+  if (action === 'reset' || action === 'clear') resetLineupMode();
   if (action === 'reset') lineupLabState.games = rebuildLineupLabGames();
   // Clearing keeps the selected matchup — only the two sides' player picks
   // reset to blank — since the matchup itself is no longer an independent,
@@ -4561,6 +5437,7 @@ function handleRoute() {
       // renderLineupLab run below.
       lineupLabState.matchupIndex = lineupDefaultMatchupIndex(requestedTeam.name);
       lineupLabState.games = [];
+      resetLineupMode();
     }
     // Opening or closing a player modal over the lab only changes ?player=.
     // The lab's lineup lives in lineupLabState, not the URL, so a re-render
