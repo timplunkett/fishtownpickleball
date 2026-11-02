@@ -33966,7 +33966,7 @@
     "lastName": "Shanker",
     "dupr": "MYELXV",
     "duprRating": "4.115",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-11",
     "duprNumericId": 6279948439,
     "duprProvisional": false
   },
@@ -49105,5 +49105,15 @@
     "lastSeen": "2026-11",
     "duprNumericId": 7330051038,
     "duprProvisional": true
+  },
+  {
+    "playerId": "35b5ab56-7506-48d7-9c3e-add6e7e46e95",
+    "firstName": "Sharyn",
+    "lastName": "Malone-Caracci",
+    "dupr": "42DWJV",
+    "duprRating": "NR",
+    "lastSeen": "2026-11",
+    "duprNumericId": 4875725503,
+    "duprProvisional": false
   }
 ]

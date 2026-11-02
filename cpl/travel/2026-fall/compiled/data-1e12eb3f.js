@@ -1513,8 +1513,8 @@
    "name": "Ray Baker",
    "gender": "Male",
    "team": "Life Time Red Bank",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 9,
@@ -15885,7 +15885,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 635,
+   "leagueRank": 637,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15914,7 +15914,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 632,
+   "leagueRank": 634,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15943,7 +15943,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 642,
+   "leagueRank": 644,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -15972,7 +15972,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 629,
+   "leagueRank": 631,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16001,7 +16001,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 624,
+   "leagueRank": 625,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16059,7 +16059,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 618,
+   "leagueRank": 619,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16088,7 +16088,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 628,
+   "leagueRank": 630,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16117,7 +16117,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 634,
+   "leagueRank": 636,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16175,7 +16175,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 640,
+   "leagueRank": 642,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -33582,7 +33582,6 @@
     }
    ],
    "subs": [
-    "Ray Baker",
     "Kenny Mayerhofer"
    ]
   },
@@ -89523,7 +89522,6 @@
     }
    ],
    "subs": [
-    "Ray Baker",
     "Daniel Coneeny"
    ]
   },
@@ -93150,7 +93148,6 @@
    "away": "Pickleball Palace Blue",
    "time": "2026-10-31T15:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 622,
    "awayPoints": 550,
    "homeGW": 19,
@@ -94991,11 +94988,13 @@
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
+  "Sharyn Malone-Caracci": "35b5ab56-7506-48d7-9c3e-add6e7e46e95",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
   "Kate Trotman": "4ae1cfce-6ee1-4420-ac33-ef90a664935b",
   "Jimmy Tom": "4e873e4f-16c8-4504-a702-941e045a7d3b",
   "Maryellen Theel": "58ee8ff3-3c85-4880-a36b-826f818fd518",
+  "Allison Harmony": "5b98410e-1f1f-4143-ab72-c7d8a53e5309",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
@@ -95324,14 +95323,6 @@
    "outsideSub": true
   },
   {
-   "name": "Ray Baker",
-   "playerId": "2fdf723b-616f-4e34-9f50-fe833ff48f68",
-   "gender": "Male",
-   "team": "Life Time Red Bank",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Jack Peng",
    "playerId": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
    "gender": "Male",
@@ -95368,6 +95359,14 @@
    "playerId": "34d7bcec-00db-4531-a2f3-95b962aa748e",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Sharyn Malone-Caracci",
+   "playerId": "35b5ab56-7506-48d7-9c3e-add6e7e46e95",
+   "gender": "Female",
+   "team": "Dill Dinkers Newport",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -95728,6 +95727,14 @@
    "playerId": "5a3ef7a6-3b61-4ca7-bab2-3817194cda35",
    "gender": "Male",
    "team": "Bounce Philly",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Allison Harmony",
+   "playerId": "5b98410e-1f1f-4143-ab72-c7d8a53e5309",
+   "gender": "Female",
+   "team": "Pickleball Palace Black",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -96870,7 +96877,7 @@
  ],
  "meta": {
   "matchesPlayed": 135,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-11",
   "totalPlayers": 595,
   "ratingHistoryWeeks": [
@@ -97044,7 +97051,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-01T21:31:43.619Z";
+  DATA.meta.asOf = "2026-11-02T03:33:14.624Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

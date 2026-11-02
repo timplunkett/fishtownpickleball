@@ -12608,7 +12608,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 485,
+   "leagueRank": 486,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12637,7 +12637,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 493,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12666,7 +12666,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 495,
+   "leagueRank": 496,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12695,7 +12695,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 486,
+   "leagueRank": 487,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12753,7 +12753,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 488,
+   "leagueRank": 489,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -80686,6 +80686,7 @@
  "extraPlayerIds": {
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Kelly Walker": "13c6962e-5a72-4d69-a262-5010f8390ddd",
+  "Garrett Shanker": "167d944d-86f7-4bf3-b163-63123772d852",
   "Maureen Landau": "2416f07f-81be-491f-a32c-eb9e5c1c9e86",
   "Jr Oyefeso": "2cab6942-59d2-474e-b0e3-a550c256a3a1",
   "Umang Pathak": "30ecad69-b82a-45aa-94c5-f0f7869a0d12",
@@ -80780,6 +80781,14 @@
    "playerId": "15beb650-644a-4445-ae84-86c0cdeaa1bc",
    "gender": "Female",
    "team": "Montville",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Garrett Shanker",
+   "playerId": "167d944d-86f7-4bf3-b163-63123772d852",
+   "gender": "Male",
+   "team": "APC Garden State",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -81807,7 +81816,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-10-31T16:34:39.059Z";
+  DATA.meta.asOf = "2026-11-02T03:33:52.357Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

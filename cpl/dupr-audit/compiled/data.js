@@ -15588,6 +15588,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Ray Baker",
+   "playerId": "2fdf723b-616f-4e34-9f50-fe833ff48f68",
+   "team": "Life Time Red Bank",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Ray Hooley",
    "playerId": "c19c7479-4f7e-4727-9e1d-4e7aafc7a86e",
    "team": "ACE Moorestown",
@@ -15766,6 +15773,13 @@ window.DUPR_AUDIT = {
    "name": "Richard Demeuse",
    "playerId": "d88f1d1e-be4e-449e-b9b2-c468753e1dd3",
    "team": "Pickleball Kingdom Hamilton",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Richard Demeuse",
+   "playerId": "d88f1d1e-be4e-449e-b9b2-c468753e1dd3",
+   "team": "Flemington",
    "slug": "c118b8e9",
    "gender": "Male"
   },

@@ -42925,8 +42925,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Derek Callihan",
+      "William Lee"
      ],
      "a": [
       "Zyril Carilo",
@@ -42936,8 +42936,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Zachary Lessner",
@@ -42947,8 +42947,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Zach Mcgowan"
      ],
      "a": [
       "Brandyn Schuchart",
@@ -42958,8 +42958,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Joshua Mindlin"
      ],
      "a": [
       "Adriene Khon",
@@ -42969,8 +42969,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Joshua Mindlin"
      ],
      "a": [
       "Justin Bautista",
@@ -42980,8 +42980,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Joseph Yi"
      ],
      "a": [
       "Ashwin Korde",
@@ -42991,8 +42991,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Derek Callihan"
      ],
      "a": [
       "Zachary Lessner",
@@ -43002,8 +43002,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "Tim Cahalin"
      ],
      "a": [
       "Zyril Carilo",
@@ -43013,8 +43013,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Yi",
+      "Derek Callihan"
      ],
      "a": [
       "Ashwin Korde",
@@ -43024,8 +43024,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Justin Bautista",
@@ -43035,8 +43035,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Alex Pecora"
      ],
      "a": [
       "Zyril Carilo",
@@ -43046,8 +43046,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Ron Branca"
      ],
      "a": [
       "Adriene Khon",
@@ -43057,8 +43057,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Zachary Lessner",
@@ -43068,8 +43068,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Derek Callihan"
      ],
      "a": [
       "Zyril Carilo",
@@ -43079,8 +43079,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Ron Branca"
      ],
      "a": [
       "Justin Bautista",
@@ -43090,8 +43090,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Joseph Yi"
      ],
      "a": [
       "Adriene Khon",
@@ -43101,8 +43101,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Joseph Yi"
      ],
      "a": [
       "Zachary Lessner",
@@ -43112,8 +43112,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Derek Callihan"
      ],
      "a": [
       "Justin Chin",
@@ -43123,8 +43123,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Tim Cahalin"
      ],
      "a": [
       "Ashwin Korde",
@@ -43134,8 +43134,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Ron Branca"
      ],
      "a": [
       "Justin Bautista",
@@ -43145,8 +43145,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Tim Cahalin"
      ],
      "a": [
       "Brandyn Schuchart",
@@ -43156,8 +43156,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Derek Callihan"
      ],
      "a": [
       "Justin Bautista",
@@ -43167,8 +43167,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Joseph Yi"
      ],
      "a": [
       "Adriene Khon",
@@ -43178,8 +43178,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Joshua Mindlin"
      ],
      "a": [
       "Josh Knupp",
@@ -43189,8 +43189,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ron Branca",
+      "William Lee"
      ],
      "a": [
       "Brandyn Schuchart",
@@ -43200,8 +43200,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Joseph Yi"
      ],
      "a": [
       "Adriene Khon",
@@ -43211,8 +43211,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Mcgowan",
+      "Tim Cahalin"
      ],
      "a": [
       "Justin Bautista",
@@ -43222,8 +43222,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Derek Callihan"
      ],
      "a": [
       "Zyril Carilo",
@@ -43233,8 +43233,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Pecora",
+      "Tim Cahalin"
      ],
      "a": [
       "Zyril Carilo",
@@ -43244,8 +43244,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Fenton",
+      "Zach Mcgowan"
      ],
      "a": [
       "Brandyn Schuchart",
@@ -43255,8 +43255,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joshua Mindlin",
+      "Joseph Yi"
      ],
      "a": [
       "Josh Knupp",
@@ -43266,8 +43266,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Lee",
+      "Ron Branca"
      ],
      "a": [
       "Adriene Khon",
@@ -44063,8 +44063,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vaughn Mcclelland",
+      "Braden Keith"
      ],
      "a": [
       "Shayne Clowar",
@@ -44074,8 +44074,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Bowe",
+      "Tyler Arsenault"
      ],
      "a": [
       "Bryan Nardone",
@@ -44089,8 +44089,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Vince Abate"
      ],
      "a": [
       "Jeffrey Lena",
@@ -44104,30 +44104,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Fung",
+      "Matt Jump"
      ],
      "a": [
       "Matthew Mintz",
       "Daniel Ehala"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Braden Keith",
+      "Matt Jump"
      ],
      "a": [
       "Daniel Ehala",
       "Shayne Clowar"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Stephen Conger"
      ],
      "a": [
       "Bryan Nardone",
@@ -44141,12 +44149,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vaughn Mcclelland",
+      "Tyler Fung"
      ],
      "a": [
       "Nicholas Vanderveer",
       "Matthew Mintz"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -44156,8 +44168,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Bowe",
+      "Matthew Chen"
      ],
      "a": [
       "Tyler Marlin",
@@ -44167,30 +44179,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Fung",
+      "Vaughn Mcclelland"
      ],
      "a": [
       "Daniel Ehala",
       "Matthew Mintz"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Matt Jump"
      ],
      "a": [
       "Tyler Marlin",
       "Nachiket Vaidya"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vince Abate",
+      "Braden Keith"
      ],
      "a": [
       "Riguo Zheng",
@@ -44200,8 +44220,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Chen",
+      "Stephen Conger"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -44215,19 +44235,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Matt Jump"
      ],
      "a": [
       "Tyler Marlin",
       "Matthew Mintz"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Bowe",
+      "Matthew Chen"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -44241,12 +44265,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vince Abate",
+      "Tyler Fung"
      ],
      "a": [
       "Riguo Zheng",
       "Jeffrey Lena"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -44256,8 +44284,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Stephen Conger"
      ],
      "a": [
       "Bryan Nardone",
@@ -44267,8 +44295,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vince Abate",
+      "Vaughn Mcclelland"
      ],
      "a": [
       "Nachiket Vaidya",
@@ -44278,8 +44306,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Bowe",
+      "Kushal Thapa"
      ],
      "a": [
       "Tyler Marlin",
@@ -44289,8 +44317,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Matthew Chen"
      ],
      "a": [
       "Shayne Clowar",
@@ -44304,8 +44332,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stephen Conger",
+      "Braden Keith"
      ],
      "a": [
       "Bryan Nardone",
@@ -44315,8 +44343,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vince Abate",
+      "Vaughn Mcclelland"
      ],
      "a": [
       "Shayne Clowar",
@@ -44326,8 +44354,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Bowe",
+      "Kushal Thapa"
      ],
      "a": [
       "Nachiket Vaidya",
@@ -44337,12 +44365,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Matt Jump"
      ],
      "a": [
       "Jeffrey Lena",
       "Daniel Ehala"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -44352,13 +44384,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Braden Keith",
+      "Tyler Fung"
      ],
      "a": [
       "Riguo Zheng",
       "Nicholas Vanderveer"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -44367,13 +44403,17 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Tyler Fung"
      ],
      "a": [
       "Riguo Zheng",
       "Jeffrey Lena"
      ],
+     "hSub": [
+      0,
+      1
+     ],
      "aSub": [
       0,
       1
@@ -44382,8 +44422,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Matthew Chen"
      ],
      "a": [
       "Nicholas Vanderveer",
@@ -44397,19 +44437,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vince Abate",
+      "Matt Jump"
      ],
      "a": [
       "Tyler Marlin",
       "Shayne Clowar"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zach Bowe",
+      "Stephen Conger"
      ],
      "a": [
       "Nachiket Vaidya",
@@ -44429,8 +44473,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Jonah Karczmer"
      ],
      "a": [
       "Michael Li",
@@ -44440,8 +44484,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Ryan Rosen"
      ],
      "a": [
       "Zach Hollmann",
@@ -44451,8 +44495,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Shashank Kamdar"
      ],
      "a": [
       "Chris Damato",
@@ -44462,8 +44506,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Zamorski",
+      "Yash Shah"
      ],
      "a": [
       "Gopi Narayanan",
@@ -44473,8 +44517,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Anushk Gupta"
      ],
      "a": [
       "Michael Li",
@@ -44484,8 +44528,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "Shashank Kamdar"
      ],
      "a": [
       "Zach Hollmann",
@@ -44495,8 +44539,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Gow",
+      "Jeff Zamorski"
      ],
      "a": [
       "Mickey Cook",
@@ -44506,8 +44550,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Shah",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Gopi Narayanan",
@@ -44517,8 +44561,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Ryan Rosen"
      ],
      "a": [
       "Zach Hollmann",
@@ -44528,8 +44572,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Mickey Cook",
@@ -44539,8 +44583,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Yash Shah"
      ],
      "a": [
       "Al Mancini",
@@ -44550,8 +44594,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Gow",
+      "Jonah Karczmer"
      ],
      "a": [
       "Chris Damato",
@@ -44561,8 +44605,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Austin Gow"
      ],
      "a": [
       "Mickey Cook",
@@ -44572,8 +44616,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Jonah Karczmer"
      ],
      "a": [
       "Michael Li",
@@ -44583,8 +44627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Zach Hollmann",
@@ -44594,8 +44638,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Zamorski",
+      "Yash Shah"
      ],
      "a": [
       "Dipen Bhatt",
@@ -44605,8 +44649,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Austin Gow"
      ],
      "a": [
       "Chris Damato",
@@ -44616,8 +44660,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Zamorski",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Al Mancini",
@@ -44627,8 +44671,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "Jonah Karczmer"
      ],
      "a": [
       "Zach Hollmann",
@@ -44638,8 +44682,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Shashank Kamdar"
      ],
      "a": [
       "Michael Li",
@@ -44649,8 +44693,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Jeff Zamorski"
      ],
      "a": [
       "Michael Li",
@@ -44660,8 +44704,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Austin Gow"
      ],
      "a": [
       "Al Mancini",
@@ -44671,8 +44715,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yash Shah",
+      "Jonah Karczmer"
      ],
      "a": [
       "Zach Hollmann",
@@ -44682,8 +44726,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "Anushk Gupta"
      ],
      "a": [
       "Craig Frame",
@@ -44693,8 +44737,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Lou Frignito"
      ],
      "a": [
       "Gopi Narayanan",
@@ -44704,8 +44748,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Gow",
+      "Jonah Karczmer"
      ],
      "a": [
       "Michael Li",
@@ -44715,8 +44759,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Zamorski",
+      "Ryan Rosen"
      ],
      "a": [
       "Zach Hollmann",
@@ -44726,8 +44770,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Yash Shah"
      ],
      "a": [
       "Dipen Bhatt",
@@ -44737,8 +44781,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Jonah Karczmer"
      ],
      "a": [
       "Michael Li",
@@ -44748,8 +44792,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Gow",
+      "Anushk Gupta"
      ],
      "a": [
       "Chris Damato",
@@ -44759,8 +44803,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Jeff Zamorski"
      ],
      "a": [
       "Gopi Narayanan",
@@ -44770,8 +44814,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Ryan Rosen"
      ],
      "a": [
       "Mickey Cook",
@@ -46162,7 +46206,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-01T21:33:35.335Z";
+  DATA.meta.asOf = "2026-11-02T03:35:04.690Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
