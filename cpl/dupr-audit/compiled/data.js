@@ -14125,6 +14125,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Muhammad Usman",
+   "playerId": "8adf5cec-e3bf-4b0e-9a7c-7d1ed650bddb",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Mychal Villanueva",
    "playerId": "f9a4c12b-d9e3-40ae-a0c4-203c465508ce",
    "team": "Picklr Fair Lawn",

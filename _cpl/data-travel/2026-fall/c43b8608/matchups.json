@@ -1229,9 +1229,9 @@
       "weekNumber": 11,
       "homeTeamId": "0596c85b-5ecd-4439-936f-7293c49e7a0a",
       "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 669,
+      "awayPoints": 530,
+      "endResult": "home",
       "scheduledTime": "2026-11-01T14:00:00",
       "homeName": "Montville Rocks",
       "awayName": "Allstar Pickler"

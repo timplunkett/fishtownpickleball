@@ -6460,7 +6460,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 257,
+   "leagueRank": 258,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6554,6 +6554,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "63186871-d2ca-4525-b04a-2ba9c05349d3"
+  },
+  {
+   "name": "Muhammad Usman",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 257,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "8adf5cec-e3bf-4b0e-9a7c-7d1ed650bddb"
   },
   {
    "name": "Yi Gu",
@@ -43313,7 +43342,7 @@
       "Chenfei Gao"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Ian Chin"
      ]
     },
@@ -43369,7 +43398,7 @@
      ],
      "a": [
       "Ian Chin",
-      "Neel Goyal"
+      "Muhammad Usman"
      ]
     },
     {
@@ -43390,7 +43419,7 @@
       "Nicholas Lagrua"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Vivek Kumar"
      ]
     },
@@ -43456,7 +43485,7 @@
       "Nicholas Lagrua"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Vivek Kumar"
      ]
     },
@@ -43500,7 +43529,7 @@
       "Caesar Gene"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Jason Makarevic"
      ]
     },
@@ -43511,7 +43540,7 @@
       "Adam Weinstock"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Jake Laifer"
      ]
     },
@@ -43566,7 +43595,7 @@
       "Chenfei Gao"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Sidd Pathare"
      ]
     },
@@ -43599,7 +43628,7 @@
       "Nicholas Lagrua"
      ],
      "a": [
-      "Neel Goyal",
+      "Muhammad Usman",
       "Sidd Pathare"
      ]
     },
@@ -46070,7 +46099,7 @@
   "matchesPlayed": 62,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 239,
+  "totalPlayers": 240,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -46206,7 +46235,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-02T03:35:04.690Z";
+  DATA.meta.asOf = "2026-11-02T14:19:56.575Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
