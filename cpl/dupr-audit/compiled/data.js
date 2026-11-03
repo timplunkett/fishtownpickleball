@@ -8798,6 +8798,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Jim Ellis",
+   "playerId": "1ed8103f-540a-494e-902f-bd3e508736c1",
+   "team": "Dill Dinkers Lansdale",
+   "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
    "name": "Jim Hu",
    "playerId": "2ec82ce9-5de9-4bee-9f84-b28c2f6c0f2c",
    "team": "Montville Rocks",
@@ -17062,6 +17069,13 @@ window.DUPR_AUDIT = {
    "playerId": "1595a2c9-191e-42fc-808f-801346211bdd",
    "team": "Premiere",
    "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Sergey Sprikut",
+   "playerId": "28b4b9e6-0b25-473c-8386-2876bf60efab",
+   "team": "Allstar Pickler",
+   "slug": "2edc44e7",
    "gender": "Male"
   },
   {
