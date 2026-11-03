@@ -7253,8 +7253,8 @@
     "teamRes": "W",
     "teamGW": 18,
     "teamGL": 14,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -7280,8 +7280,8 @@
     "teamRes": "W",
     "teamGW": 31,
     "teamGL": 1,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Watchung"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

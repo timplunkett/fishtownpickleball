@@ -4538,7 +4538,7 @@
       "gender": "Female",
       "dupr": "ZNGVPM",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
       "teamName": "Montville Dragons",
       "wins": 3,

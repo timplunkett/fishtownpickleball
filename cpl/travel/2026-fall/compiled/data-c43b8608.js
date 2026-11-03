@@ -9633,8 +9633,8 @@
    "name": "Christine Algozo",
    "gender": "Female",
    "team": "Montville Dragons",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 10,
    "wins": 3,
@@ -48798,9 +48798,7 @@
      ]
     }
    ],
-   "subs": [
-    "Christine Algozo"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -58105,9 +58103,7 @@
      ]
     }
    ],
-   "subs": [
-    "Christine Algozo"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -74540,14 +74536,6 @@
    "outsideSub": true
   },
   {
-   "name": "Christine Algozo",
-   "playerId": "67afa47c-0543-4eb0-a949-fd28b870d20c",
-   "gender": "Female",
-   "team": "Montville Dragons",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Kara Chubrik",
    "playerId": "6848f02a-1acc-47f8-8743-3525311031a9",
    "gender": "Female",
@@ -75529,7 +75517,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T13:21:30.883Z";
+  DATA.meta.asOf = "2026-11-03T22:45:57.528Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

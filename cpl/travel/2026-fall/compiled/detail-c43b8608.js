@@ -91766,8 +91766,8 @@
     "teamRes": "L",
     "teamGW": 9,
     "teamGL": 23,
-    "sub": 1,
-    "subFor": "Montville Dragons"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -91793,8 +91793,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "Montville Dragons"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

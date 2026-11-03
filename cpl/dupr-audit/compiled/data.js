@@ -3541,6 +3541,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Christine Algozo",
+   "playerId": "67afa47c-0543-4eb0-a949-fd28b870d20c",
+   "team": "Montville Dragons",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Christine Anderson",
    "playerId": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
    "team": "PickleRage Union County",
@@ -3839,6 +3846,13 @@ window.DUPR_AUDIT = {
    "playerId": "ac5e76e4-8200-438e-b915-ee397f9af45c",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "a1413f3d",
+   "gender": "Female"
+  },
+  {
+   "name": "Claire Fabito",
+   "playerId": "722418a6-3c61-4a17-bf08-d84c1d12948c",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "b7ca04e4",
    "gender": "Female"
   },
   {
@@ -17888,6 +17902,13 @@ window.DUPR_AUDIT = {
    "playerId": "1ae6c582-2fb0-42ae-9f7b-2448c6c5e1da",
    "team": "Dill Dinkers Freehold",
    "slug": "b7ca04e4",
+   "gender": "Male"
+  },
+  {
+   "name": "Steven Santiago",
+   "playerId": "add792d2-e174-42b1-8bf8-bc9e2c2aa354",
+   "team": "Premiere",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {

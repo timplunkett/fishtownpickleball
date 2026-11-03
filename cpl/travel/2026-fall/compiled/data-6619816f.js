@@ -6866,7 +6866,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 263,
+   "leagueRank": 264,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6895,13 +6895,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 267,
+   "leagueRank": 268,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
+  },
+  {
+   "name": "Vladyslav Dubinin",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 259,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "95d56ea3-7923-4cdd-9946-05a9b7f6634c"
   },
   {
    "name": "Matthew Russell",
@@ -46866,8 +46895,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Lou Frignito"
      ],
      "a": [
       "Julia Plein",
@@ -46877,8 +46906,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Sarah Ross",
@@ -46888,8 +46917,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Chris Tabeling"
      ],
      "a": [
       "Claudya Elefante",
@@ -46899,19 +46928,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Vince Ha"
      ],
      "a": [
       "Erika Richards",
       "Adam Beck"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Sarah Kline"
      ],
      "a": [
       "Claudya Elefante",
@@ -46921,8 +46954,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Megan Harvey"
      ],
      "a": [
       "Erika Richards",
@@ -46932,8 +46965,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "Ryan Rosen",
@@ -46943,19 +46976,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Vince Ha"
      ],
      "a": [
       "Adam Beck",
       "Robert Schimony"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Lou Frignito"
      ],
      "a": [
       "Sarah Ross",
@@ -46965,8 +47002,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Julia Plein",
@@ -46976,8 +47013,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Chris Tabeling"
      ],
      "a": [
       "Erika Richards",
@@ -46987,19 +47024,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Vince Ha"
      ],
      "a": [
       "Alyssa Tartaglia",
       "William Lee"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Scotland Reynolds"
      ],
      "a": [
       "Sarah Ross",
@@ -47009,8 +47050,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Megan Harvey"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -47020,19 +47061,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Vince Ha"
      ],
      "a": [
       "Ryan Rosen",
       "Anushk Gupta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "William Lee",
@@ -47042,8 +47087,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Lou Frignito"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -47053,8 +47098,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Nick Meale"
      ],
      "a": [
       "Julia Plein",
@@ -47064,8 +47109,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Chris Tabeling"
      ],
      "a": [
       "Claudya Elefante",
@@ -47075,19 +47120,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Vince Ha"
      ],
      "a": [
       "Erika Richards",
       "Ryan Rosen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Sarah Kline"
      ],
      "a": [
       "Claudya Elefante",
@@ -47097,8 +47146,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Megan Harvey"
      ],
      "a": [
       "Sarah Ross",
@@ -47108,8 +47157,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Lou Frignito"
      ],
      "a": [
       "Adam Beck",
@@ -47119,30 +47168,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Tabeling",
+      "Vince Ha"
      ],
      "a": [
       "Robert Schimony",
       "Anushk Gupta"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Vince Ha"
      ],
      "a": [
       "Claudya Elefante",
       "Adam Beck"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nam Barsh",
+      "Lou Frignito"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -47152,8 +47209,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Nick Meale"
      ],
      "a": [
       "Sarah Ross",
@@ -47163,8 +47220,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Harvey",
+      "Chris Tabeling"
      ],
      "a": [
       "Julia Plein",
@@ -47174,8 +47231,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Megan Harvey"
      ],
      "a": [
       "Erika Richards",
@@ -47185,8 +47242,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Sarah Kline"
      ],
      "a": [
       "Sarah Ross",
@@ -47196,8 +47253,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Lou Frignito"
      ],
      "a": [
       "Adam Beck",
@@ -47207,12 +47264,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Tabeling",
+      "Vince Ha"
      ],
      "a": [
       "William Lee",
       "Ryan Rosen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -47228,8 +47289,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Tom Laiso"
      ],
      "a": [
       "Richa Shah",
@@ -47239,8 +47300,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Simon Rosenwasser"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -47250,19 +47311,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Amalia Ditrapani",
       "Maanav Shah"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -47272,8 +47337,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Margaret Robb"
      ],
      "a": [
       "Richa Shah",
@@ -47283,8 +47348,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -47294,8 +47359,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Simon Rosenwasser"
      ],
      "a": [
       "Maanav Shah",
@@ -47305,8 +47370,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Dilan Shah",
@@ -47316,8 +47381,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Tom Laiso"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -47327,8 +47392,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Richa Shah",
@@ -47338,8 +47403,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -47349,19 +47414,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Morgan Fishman",
       "Maanav Shah"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -47371,8 +47440,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Margaret Robb"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -47382,8 +47451,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Wysoczynski",
+      "Simon Rosenwasser"
      ],
      "a": [
       "Maanav Shah",
@@ -47393,8 +47462,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Tom Laiso"
      ],
      "a": [
       "Ali Husain",
@@ -47404,8 +47473,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Richa Shah",
@@ -47415,8 +47484,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Tom Laiso"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -47426,8 +47495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -47437,19 +47506,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Morgan Fishman",
       "Anthony Ursino"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Catherine Stewart"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -47459,8 +47532,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -47470,8 +47543,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Simon Rosenwasser",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Maanav Shah",
@@ -47481,30 +47554,38 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vladyslav Dubinin",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Ali Husain",
       "Eric Lin"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Morgan Fishman",
       "Dilan Shah"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -47514,8 +47595,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Simon Rosenwasser"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -47525,8 +47606,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Tom Laiso"
      ],
      "a": [
       "Richa Shah",
@@ -47536,8 +47617,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Catherine Stewart"
      ],
      "a": [
       "Amanda Ksiezopolski",
@@ -47547,8 +47628,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -47558,19 +47639,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Maanav Shah",
       "Ali Husain"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Simon Rosenwasser",
+      "Tom Laiso"
      ],
      "a": [
       "Anthony Ursino",
@@ -47613,7 +47698,7 @@
      "t": "mixed",
      "h": [
       "Charlotte Healey",
-      "Bruno Casino"
+      "Zachary Lessner"
      ],
      "a": [
       "Michelle Quach",
@@ -47656,8 +47741,8 @@
     {
      "t": "male",
      "h": [
-      "Dustin Rabinowitz",
-      "Alexander Tong"
+      "Zachary Lessner",
+      "Bruno Casino"
      ],
      "a": [
       "Zach Bowe",
@@ -47667,8 +47752,8 @@
     {
      "t": "male",
      "h": [
-      "Ashwin Korde",
-      "Bruno Casino"
+      "Dustin Rabinowitz",
+      "Ashwin Korde"
      ],
      "a": [
       "Matthew Chen",
@@ -47701,7 +47786,7 @@
      "t": "mixed",
      "h": [
       "Elysia Price",
-      "Dustin Rabinowitz"
+      "Zachary Lessner"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47712,7 +47797,7 @@
      "t": "mixed",
      "h": [
       "Alex Abad",
-      "Bruno Casino"
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Rachel Berger",
@@ -47755,7 +47840,7 @@
     {
      "t": "male",
      "h": [
-      "Dustin Rabinowitz",
+      "Bruno Casino",
       "Ashwin Korde"
      ],
      "a": [
@@ -47800,7 +47885,7 @@
      "t": "mixed",
      "h": [
       "Rachel Alfano",
-      "Bruno Casino"
+      "Zachary Lessner"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47855,7 +47940,7 @@
      "t": "mixed",
      "h": [
       "Rachel Alfano",
-      "Bruno Casino"
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47866,7 +47951,7 @@
      "t": "mixed",
      "h": [
       "Charlotte Healey",
-      "William Hayes"
+      "Bruno Casino"
      ],
      "a": [
       "Michelle Quach",
@@ -47877,7 +47962,7 @@
      "t": "mixed",
      "h": [
       "Alyssa Boyle",
-      "Dustin Rabinowitz"
+      "Zachary Lessner"
      ],
      "a": [
       "Arianna Haresign",
@@ -47986,9 +48071,9 @@
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
+  "Shahar Gelber": "7efd9bc6-6b2f-4e98-b785-136fea990664",
   "Caitlyn Moore": "905b402c-9a3e-4b59-ba3e-59f32370ad2e",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
-  "Vladyslav Dubinin": "95d56ea3-7923-4cdd-9946-05a9b7f6634c",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
  },
@@ -48370,6 +48455,14 @@
    "outsideSub": true
   },
   {
+   "name": "Shahar Gelber",
+   "playerId": "7efd9bc6-6b2f-4e98-b785-136fea990664",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Kristen Clemmer",
    "playerId": "7f2ca847-7635-4bda-9073-7625e6812f32",
    "gender": "Female",
@@ -48662,7 +48755,7 @@
   "matchesPlayed": 67,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 250,
+  "totalPlayers": 251,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -48794,7 +48887,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T13:20:57.695Z";
+  DATA.meta.asOf = "2026-11-03T22:45:13.067Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
