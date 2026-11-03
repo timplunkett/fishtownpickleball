@@ -262,33 +262,41 @@ function bulk(context, lineupAction) {
   });
 }
 
-test('the playing-time slider defaults to the least flex within reach of the best chance', () => {
+test('the playing-time slider defaults to the least flex that reaches the target chance', (t) => {
   const { context, document } = loadApp(largest.file);
   const view = document.getElementById('lineupview');
+  const target = vm.runInContext('LINEUP_TARGET_CHANCE', context);
   const tolerance = vm.runInContext('LINEUP_FLEX_TOLERANCE', context);
+  const reasons = {};
   let checked = 0;
   for (const team of context.DATA.teams) {
     const matches = context.lineupSeasonMatchesForTeam(team.name);
     matches.forEach((match, index) => {
-      if (checked >= 6 || !match.games?.length) return;
+      if ((reasons.target || 0) + (reasons.best || 0) >= 4 || !match.games?.length) return;
       openLab(context, team.name);
       chooseMatchup(context, index);
-      bulk(context, 'available-all');
+      bulk(context, 'available-no-subs');
       const slider = view.innerHTML.match(/id="lineup-flex"[^>]*max="(\d+)"[^>]*value="(\d+)"/);
       if (!slider) return;
       const [max, flex] = [Number(slider[1]), Number(slider[2])];
-      const chanceAt = (k) => context.lineupAutoResultsAt(k).results.best.chance;
-      const target = Math.max(chanceAt(0), chanceAt(max)) - tolerance;
-      if (chanceAt(0) < 1 - tolerance / 2) {
-        assert.ok(flex === max || chanceAt(flex) >= target, `flex ${flex} is short of the target`);
-        for (let k = 0; k < flex; k++) assert.ok(chanceAt(k) < target, `flex ${k} already qualified, default was ${flex}`);
-      } else {
-        assert.equal(flex, 0, 'an all-but-certain win at an even split stays there');
-      }
+      // An even split that already reaches the target is the common case;
+      // a few of those are enough, the rest of the time goes on the others.
+      if (context.lineupAutoResultsAt(0).results.best.chance >= target && (reasons.even || 0) >= 3) return;
+      const chances = [];
+      for (let k = 0; k <= max; k++) chances.push(context.lineupAutoResultsAt(k).results.best.chance);
+      const reaching = chances.findIndex((chance) => chance >= target);
+      const expected = reaching !== -1
+        ? reaching
+        : chances.findIndex((chance) => chance >= Math.max(...chances) - tolerance);
+      assert.equal(flex, expected, `chances ${chances.map((chance) => Math.round(chance * 100)).join(' ')}`);
+      const reason = reaching === -1 ? 'best' : reaching ? 'target' : 'even';
+      reasons[reason] = (reasons[reason] || 0) + 1;
+      assert.match(view.innerHTML, /\(auto: /);
       checked++;
     });
   }
   assert.ok(checked, 'found matchups to check');
+  t.diagnostic(JSON.stringify(reasons));
 });
 
 test('moving the slider sticks until the matchup changes', () => {

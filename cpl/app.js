@@ -2839,6 +2839,8 @@ const lineupLabState = {
   // see lineupAutoFlex.
   flex: 0,
   flexTouched: false,
+  // Why the auto default landed where it did — see lineupAutoFlex.
+  flexReason: '',
 };
 
 // Unlike the main team page's roster (which only ever shows DATA.players —
@@ -3854,44 +3856,51 @@ function lineupLineupChance(pairs) {
   return chances.length ? lineupMatchWinChance(chances).chance : null;
 }
 
-// How close to the best achievable chance the slider's default has to get.
+// The chance of winning the match the slider's default settles for. Captains
+// care about even playing time as well as the result, and the chance keeps
+// creeping up as minutes concentrate on the best players — 78% at ±1 can be
+// 97% at no limit, with a very different lineup. Past a comfortable chance,
+// those extra points aren't worth the reshuffle; below it, they are.
+const LINEUP_TARGET_CHANCE = 0.75;
+// When no setting reaches the target: how close to the best chance any
+// setting reaches the default has to get.
 const LINEUP_FLEX_TOLERANCE = 0.02;
 
-// The slider's default: the least playing-time flexibility whose lineup is
-// within two points of the best chance any setting reaches. Past that,
-// loosening only takes games from people for a sliver of a point.
-//
-// The best is estimated from the two ends — an even split and no limit —
-// rather than every setting, to keep opening a matchup cheap; then settings
-// are tried lowest first until one is close enough. Stepping up from the
-// bottom, rather than bisecting, means a noisy setting in the middle can't
-// push the default past one that already qualified.
+// The slider's default, and why it was chosen:
+//   'even'    an even split already reaches LINEUP_TARGET_CHANCE;
+//   'target'  the least flexibility that reaches it;
+//   'best'    nothing reaches it, so the least flexibility within
+//             LINEUP_FLEX_TOLERANCE of the best chance any setting gets —
+//             an underdog has more to gain from concentrating minutes.
+// Settings are tried lowest first, so it stops as soon as one qualifies; only
+// a matchup where no setting reaches the target tries them all. Stepping up
+// from the bottom, rather than bisecting, means a noisy setting in the middle
+// can't push the default past one that already qualified.
 // Returns the auto results at the setting chosen.
 function lineupAutoFlex() {
   const base = lineupAutoSpec(0);
-  const chosen = (flex) => ({ flex, auto: lineupAutoResultsAt(flex) });
-  if (base.error) return chosen(0);
+  const chosen = (flex, reason) => ({ flex, reason, auto: lineupAutoResultsAt(flex) });
+  if (base.error) return chosen(0, 'even');
   const chanceAt = (flex) => {
     const { spec } = flex ? lineupAutoSpec(flex) : base;
     const result = lineupAutoResultAt(spec, flex);
     return result.error ? -1 : (result.chance ?? -1);
   };
   const { maxFlex } = base.play;
-  const atEven = chanceAt(0);
-  if (!maxFlex || atEven >= 1 - LINEUP_FLEX_TOLERANCE / 2) return chosen(0);
-  const target = Math.max(atEven, chanceAt(maxFlex)) - LINEUP_FLEX_TOLERANCE;
-  if (atEven >= target) return chosen(0);
-  for (let flex = 1; flex < maxFlex; flex++) {
-    const chance = chanceAt(flex);
-    if (chance >= target) return chosen(flex);
+  const chances = [];
+  for (let flex = 0; flex <= maxFlex; flex++) {
+    chances.push(chanceAt(flex));
+    if (chances[flex] >= LINEUP_TARGET_CHANCE) return chosen(flex, flex ? 'target' : 'even');
   }
-  return chosen(maxFlex);
+  const bar = Math.max(...chances) - LINEUP_FLEX_TOLERANCE;
+  return chosen(chances.findIndex((chance) => chance >= bar), 'best');
 }
 
 function lineupAutoResults() {
   if (lineupLabState.flexTouched) return lineupAutoResultsAt(lineupLabState.flex);
-  const { flex, auto } = lineupAutoFlex();
+  const { flex, reason, auto } = lineupAutoFlex();
   lineupLabState.flex = flex;
+  lineupLabState.flexReason = reason;
   return auto;
 }
 
@@ -3971,9 +3980,15 @@ function lineupPlayTimeLabel(play) {
   const ranges = Object.entries(play.bands)
     .filter(([, band]) => band.players)
     .map(([pool, band]) => `${poolName[pool] || pool} ${band.lo === band.hi ? band.lo : `${band.lo}–${band.hi}`} games`);
-  const why = lineupLabState.flexTouched
+  const target = Math.round(LINEUP_TARGET_CHANCE * 100);
+  const reasons = {
+    even: `an even split already gives a ${target}%+ chance to win`,
+    target: `the least flexibility that reaches a ${target}% chance to win`,
+    best: `no setting reaches ${target}%, so the least flexibility within ${Math.round(LINEUP_FLEX_TOLERANCE * 100)} points of the best chance`,
+  };
+  const why = lineupLabState.flexTouched || !reasons[lineupLabState.flexReason]
     ? ''
-    : ` <span class="mut">(auto: the least flexibility within ${Math.round(LINEUP_FLEX_TOLERANCE * 100)} points of the best chance to win)</span>`;
+    : ` <span class="mut">(auto: ${reasons[lineupLabState.flexReason]})</span>`;
   return `<b>${name}</b>${ranges.length ? ` · ${escapeHtml(ranges.join(', '))}` : ''}${why}`;
 }
 
