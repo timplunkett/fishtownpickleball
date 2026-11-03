@@ -196,8 +196,16 @@ test('unavailable players drop out of the lab\'s dropdowns, Top Duos and the par
   setAvailable(context, duo.b, false);
   assert.ok(!duoRow(duosSection()), 'duo hidden once one of them is unavailable');
   assert.match(view.innerHTML, /class="lineup-unavailable"/);
-  const teamASelects = view.innerHTML.match(/data-side="a"[^>]*>[\s\S]*?<\/select>/g).join();
-  assert.ok(!teamASelects.includes(`>${duo.b} (`), 'unavailable player is not offered in Team A dropdowns');
+  // Not offered in any Team A dropdown, except one where they're already
+  // picked: unchecking someone flags them in place rather than rewriting the
+  // lineup, so a posted lineup that includes them keeps them, marked.
+  const options = view.innerHTML.match(/data-side="a"[^>]*>[\s\S]*?<\/select>/g)
+    .flatMap((select) => select.match(/<option[^>]*>[^<]*/g))
+    .filter((option) => option.includes(`>${duo.b} (`));
+  for (const option of options) {
+    assert.match(option, / selected>/, 'unavailable player is only listed where already picked');
+    assert.match(option, /— unavailable$/, 'and is marked unavailable there');
+  }
 
   const player = context.DATA.players.find((candidate) => candidate.playerId === duo.aId);
   const detailFile = path.join(path.dirname(largest.file), path.basename(context.DATA.meta.detailFile));
