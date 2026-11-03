@@ -73857,7 +73857,7 @@
    "week": 12,
    "home": "PCKLRAMA",
    "away": "Montville Rocks",
-   "time": "2026-11-08T11:00:00",
+   "time": "2026-11-08T12:00:00",
    "complete": false
   },
   {
@@ -75529,7 +75529,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T00:16:50.337Z";
+  DATA.meta.asOf = "2026-11-03T13:21:30.883Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

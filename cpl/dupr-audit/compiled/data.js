@@ -13621,13 +13621,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Michael Martellacci",
-   "playerId": "fe5f5565-3a59-4eb6-9857-7dcb007f4900",
-   "team": "Forward",
-   "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
    "name": "Michael Mastando",
    "playerId": "e1da49d1-14cf-4a20-9f10-39c7ba6c38c4",
    "team": "One Love",
@@ -14038,6 +14031,13 @@ window.DUPR_AUDIT = {
    "playerId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
    "team": "Picklr Newtown",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "Mike Martellacci",
+   "playerId": "fe5f5565-3a59-4eb6-9857-7dcb007f4900",
+   "team": "Forward",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {

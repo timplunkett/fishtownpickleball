@@ -46861,7 +46861,361 @@
    "home": "Bounce Malvern",
    "away": "Dill Dinkers Hatboro Aces",
    "time": "2026-11-04T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Sarah Ross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Claudya Elefante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Julia Plein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Rosen",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Alyssa Tartaglia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Erika Richards"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "William Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Schimony",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claudya Elefante",
+      "Adam Beck"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Tartaglia",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Ryan Rosen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Julia Plein",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Erika Richards",
+      "Claudya Elefante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sarah Ross",
+      "Julia Plein"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Beck",
+      "Robert Schimony"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Lee",
+      "Ryan Rosen"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -47236,8 +47590,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Alexander Tong"
      ],
      "a": [
       "Arianna Haresign",
@@ -47247,8 +47601,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "William Hayes"
      ],
      "a": [
       "Maeve Mcgowan",
@@ -47258,8 +47612,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Bruno Casino"
      ],
      "a": [
       "Michelle Quach",
@@ -47269,8 +47623,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47280,8 +47634,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "Alex Abad"
      ],
      "a": [
       "Arianna Haresign",
@@ -47291,8 +47645,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Elysia Price"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47302,8 +47656,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Alexander Tong"
      ],
      "a": [
       "Zach Bowe",
@@ -47313,8 +47667,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ashwin Korde",
+      "Bruno Casino"
      ],
      "a": [
       "Matthew Chen",
@@ -47324,8 +47678,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alexander Tong"
      ],
      "a": [
       "Arianna Haresign",
@@ -47335,8 +47689,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "William Hayes"
      ],
      "a": [
       "Maeve Mcgowan",
@@ -47346,8 +47700,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47357,8 +47711,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Bruno Casino"
      ],
      "a": [
       "Rachel Berger",
@@ -47368,8 +47722,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alex Abad"
      ],
      "a": [
       "Arianna Haresign",
@@ -47379,8 +47733,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "Rachel Alfano"
      ],
      "a": [
       "Michelle Quach",
@@ -47390,8 +47744,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Hayes",
+      "Alexander Tong"
      ],
      "a": [
       "Zach Bowe",
@@ -47401,8 +47755,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Ashwin Korde"
      ],
      "a": [
       "Matthew Matro",
@@ -47412,8 +47766,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "William Hayes"
      ],
      "a": [
       "Arianna Haresign",
@@ -47423,8 +47777,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Maeve Mcgowan",
@@ -47434,8 +47788,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "Alexander Tong"
      ],
      "a": [
       "Rachel Berger",
@@ -47445,8 +47799,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Bruno Casino"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47456,8 +47810,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "Rachel Alfano"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47467,8 +47821,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alex Abad",
+      "Charlotte Healey"
      ],
      "a": [
       "Maeve Mcgowan",
@@ -47478,8 +47832,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "William Hayes"
      ],
      "a": [
       "Tyler Arsenault",
@@ -47489,8 +47843,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Ashwin Korde"
      ],
      "a": [
       "Matthew Chen",
@@ -47500,8 +47854,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Alfano",
+      "Bruno Casino"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47511,8 +47865,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlotte Healey",
+      "William Hayes"
      ],
      "a": [
       "Michelle Quach",
@@ -47522,8 +47876,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Arianna Haresign",
@@ -47533,8 +47887,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Alexander Tong"
      ],
      "a": [
       "Rachel Berger",
@@ -47544,8 +47898,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alyssa Boyle",
+      "Alex Abad"
      ],
      "a": [
       "Arianna Haresign",
@@ -47555,8 +47909,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elysia Price",
+      "Rachel Alfano"
      ],
      "a": [
       "Michaela Pierznik",
@@ -47566,8 +47920,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruno Casino",
+      "Ashwin Korde"
      ],
      "a": [
       "Matthew Chen",
@@ -47577,8 +47931,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "William Hayes",
+      "Alexander Tong"
      ],
      "a": [
       "Tyler Arsenault",
@@ -48440,7 +48794,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T00:16:14.408Z";
+  DATA.meta.asOf = "2026-11-03T13:20:57.695Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
