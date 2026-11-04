@@ -1850,6 +1850,13 @@ window.DUPR_AUDIT = {
    "name": "Ashley Hyde",
    "playerId": "1cb920b0-3fa7-418b-8240-daa87652e592",
    "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Ashley Hyde",
+   "playerId": "1cb920b0-3fa7-418b-8240-daa87652e592",
+   "team": "Pickleball Kingdom Hillsborough",
    "slug": "a1413f3d",
    "gender": "Female"
   },

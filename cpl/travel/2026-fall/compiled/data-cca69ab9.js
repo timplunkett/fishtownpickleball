@@ -43845,7 +43845,6 @@
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-11-02T19:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 582,
    "awayPoints": 620,
    "homeGW": 12,
@@ -46943,7 +46942,7 @@
  ],
  "meta": {
   "matchesPlayed": 68,
-  "provisionalMatches": 3,
+  "provisionalMatches": 2,
   "weeks": "1-11",
   "totalPlayers": 241,
   "ratingHistoryWeeks": [
@@ -47086,7 +47085,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T22:46:19.814Z";
+  DATA.meta.asOf = "2026-11-04T23:03:05.480Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
