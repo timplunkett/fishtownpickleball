@@ -34386,7 +34386,7 @@
     "lastName": "Kalipalayam Kandasamy",
     "dupr": "0PW5PX",
     "duprRating": "4.456",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-11",
     "duprNumericId": 5927203221,
     "duprProvisional": false
   },
@@ -49174,6 +49174,34 @@
     "duprRating": "3.845",
     "lastSeen": "2026-11",
     "duprNumericId": 8135783142,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "6ecbb5ab-31f0-4238-a336-c384778fa3a7",
+    "firstName": "Aurelle",
+    "lastName": "Genzlinger",
+    "dupr": "7DP9E9",
+    "duprRating": "4.140",
+    "lastSeen": "2026-11",
+    "duprNumericId": 4980013190,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "d642dcb5-f300-4b91-98ac-c1b49e34bd85",
+    "firstName": "Bronwen",
+    "lastName": "Henry",
+    "dupr": "9PZY6R",
+    "duprRating": null,
+    "lastSeen": "2026-11"
+  },
+  {
+    "playerId": "3a16c2ca-7182-4a2c-bef7-fe9eea5fc33a",
+    "firstName": "Joyce",
+    "lastName": "Chedid",
+    "dupr": "Q9RRVD",
+    "duprRating": "2.209",
+    "lastSeen": "2026-11",
+    "duprNumericId": 6096761602,
     "duprProvisional": false
   }
 ]

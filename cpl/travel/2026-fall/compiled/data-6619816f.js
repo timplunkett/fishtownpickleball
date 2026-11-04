@@ -6904,6 +6904,35 @@
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
   },
   {
+   "name": "Caitlyn Moore",
+   "gender": "Female",
+   "team": "Home Court",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 263,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "905b402c-9a3e-4b59-ba3e-59f32370ad2e"
+  },
+  {
    "name": "Vladyslav Dubinin",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
@@ -46115,8 +46144,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Chris Long"
      ],
      "a": [
       "Melissa Dardani",
@@ -46126,8 +46155,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Kelly Arvidson",
@@ -46137,8 +46166,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Jason Makarevic"
      ],
      "a": [
       "Aimee Castellano",
@@ -46148,8 +46177,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Camrin Cronheim"
      ],
      "a": [
       "Layla Darian",
@@ -46163,8 +46192,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Melissa Dardani",
@@ -46174,8 +46203,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Ally Yan"
      ],
      "a": [
       "Aimee Castellano",
@@ -46189,8 +46218,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "James Cannizzaro"
      ],
      "a": [
       "Ross Switkes",
@@ -46200,8 +46229,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Jason Makarevic"
      ],
      "a": [
       "Thomas Connolly",
@@ -46211,8 +46240,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Jason Makarevic"
      ],
      "a": [
       "Melissa Dardani",
@@ -46222,8 +46251,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Camrin Cronheim"
      ],
      "a": [
       "Kelly Arvidson",
@@ -46233,8 +46262,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Aimee Castellano",
@@ -46244,8 +46273,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Chris Long"
      ],
      "a": [
       "Layla Darian",
@@ -46259,8 +46288,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Melissa Dardani",
@@ -46270,8 +46299,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Amy Yan"
      ],
      "a": [
       "Aimee Castellano",
@@ -46285,8 +46314,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "James Cannizzaro"
      ],
      "a": [
       "Ross Switkes",
@@ -46296,8 +46325,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Jason Makarevic"
      ],
      "a": [
       "Tim Dowd",
@@ -46307,8 +46336,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Camrin Cronheim"
      ],
      "a": [
       "Melissa Dardani",
@@ -46318,8 +46347,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Kelly Arvidson",
@@ -46329,8 +46358,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Jason Makarevic"
      ],
      "a": [
       "Aimee Castellano",
@@ -46340,8 +46369,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Chris Long"
      ],
      "a": [
       "Layla Darian",
@@ -46355,8 +46384,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Anisha Malhotra"
      ],
      "a": [
       "Melissa Dardani",
@@ -46366,8 +46395,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Amy Yan"
      ],
      "a": [
       "Kelly Arvidson",
@@ -46381,8 +46410,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Jason Makarevic"
      ],
      "a": [
       "Ross Switkes",
@@ -46392,8 +46421,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "James Cannizzaro"
      ],
      "a": [
       "Patrick Ryan",
@@ -46403,8 +46432,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Melissa Dardani",
@@ -46414,8 +46443,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Camrin Cronheim"
      ],
      "a": [
       "Kelly Arvidson",
@@ -46425,8 +46454,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Aimee Castellano",
@@ -46436,8 +46465,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Chris Long"
      ],
      "a": [
       "Layla Darian",
@@ -46451,8 +46480,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Anisha Malhotra"
      ],
      "a": [
       "Melissa Dardani",
@@ -46466,8 +46495,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Aimee Castellano",
@@ -46477,8 +46506,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "James Cannizzaro"
      ],
      "a": [
       "Ross Switkes",
@@ -46488,8 +46517,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Jason Makarevic"
      ],
      "a": [
       "Thomas Connolly",
@@ -46509,12 +46538,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Kiszonak",
+      "Austin Williams"
      ],
      "a": [
       "Emily Babinsky",
       "Nick Babinsky"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -46524,8 +46557,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Hany Ibrahim"
      ],
      "a": [
       "Lissa Eagles",
@@ -46535,8 +46568,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynda Tomaru",
+      "Ken Velarde"
      ],
      "a": [
       "Taylor Hartman",
@@ -46546,30 +46579,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlyn Moore",
+      "Elliot Stevens"
      ],
      "a": [
       "Kerrin Maurer",
       "Dipen Bhatt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Kiszonak",
+      "Caitlyn Moore"
      ],
      "a": [
       "Taylor Hartman",
       "Lissa Eagles"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Lynda Tomaru"
      ],
      "a": [
       "Emily Babinsky",
@@ -46579,8 +46620,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Hany Ibrahim"
      ],
      "a": [
       "Zach Hollmann",
@@ -46594,8 +46635,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliot Stevens",
+      "Ken Velarde"
      ],
      "a": [
       "Dipen Bhatt",
@@ -46605,12 +46646,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Kiszonak",
+      "Austin Williams"
      ],
      "a": [
       "Emily Babinsky",
       "Nick Babinsky"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -46620,8 +46665,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Hany Ibrahim"
      ],
      "a": [
       "Lissa Eagles",
@@ -46631,8 +46676,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynda Tomaru",
+      "Aidan Jackson"
      ],
      "a": [
       "Taylor Hartman",
@@ -46642,30 +46687,38 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlyn Moore",
+      "Elliot Stevens"
      ],
      "a": [
       "Kerrin Maurer",
       "Dipen Bhatt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Kiszonak",
+      "Caitlyn Moore"
      ],
      "a": [
       "Taylor Hartman",
       "Lissa Eagles"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Lynda Tomaru"
      ],
      "a": [
       "Kerrin Maurer",
@@ -46675,8 +46728,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hany Ibrahim",
+      "Elliot Stevens"
      ],
      "a": [
       "Chris Damato",
@@ -46690,8 +46743,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ken Velarde",
+      "Aidan Jackson"
      ],
      "a": [
       "Mickey Cook",
@@ -46701,8 +46754,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Aidan Jackson"
      ],
      "a": [
       "Taylor Hartman",
@@ -46712,8 +46765,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynda Tomaru",
+      "Ken Velarde"
      ],
      "a": [
       "Lissa Eagles",
@@ -46723,52 +46776,68 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Kiszonak",
+      "Elliot Stevens"
      ],
      "a": [
       "Emily Babinsky",
       "Dipen Bhatt"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlyn Moore",
+      "Austin Williams"
      ],
      "a": [
       "Kerrin Maurer",
       "Zach Hollmann"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynda Tomaru",
+      "Amanda Kiszonak"
      ],
      "a": [
       "Taylor Hartman",
       "Emily Babinsky"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Caitlyn Moore"
      ],
      "a": [
       "Kerrin Maurer",
       "Lissa Eagles"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Jackson",
+      "Elliot Stevens"
      ],
      "a": [
       "Nick Babinsky",
@@ -46782,8 +46851,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Williams",
+      "Ken Velarde"
      ],
      "a": [
       "Chris Damato",
@@ -46793,23 +46862,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Caitlyn Moore",
+      "Austin Williams"
      ],
      "a": [
       "Taylor Hartman",
       "Chris Damato"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Kiszonak",
+      "Elliot Stevens"
      ],
      "a": [
       "Lissa Eagles",
       "Nick Babinsky"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -46819,8 +46896,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Ken Velarde"
      ],
      "a": [
       "Emily Babinsky",
@@ -46830,8 +46907,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynda Tomaru",
+      "Aidan Jackson"
      ],
      "a": [
       "Kerrin Maurer",
@@ -46841,30 +46918,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynda Tomaru",
+      "Amanda Kiszonak"
      ],
      "a": [
       "Taylor Hartman",
       "Emily Babinsky"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sheila Siu",
+      "Caitlyn Moore"
      ],
      "a": [
       "Kerrin Maurer",
       "Lissa Eagles"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hany Ibrahim",
+      "Ken Velarde"
      ],
      "a": [
       "Chris Damato",
@@ -46874,8 +46959,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Aidan Jackson",
+      "Austin Williams"
      ],
      "a": [
       "Mickey Cook",
@@ -48072,7 +48157,6 @@
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Shahar Gelber": "7efd9bc6-6b2f-4e98-b785-136fea990664",
-  "Caitlyn Moore": "905b402c-9a3e-4b59-ba3e-59f32370ad2e",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
@@ -48755,7 +48839,7 @@
   "matchesPlayed": 67,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 251,
+  "totalPlayers": 252,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -48887,7 +48971,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T22:45:13.067Z";
+  DATA.meta.asOf = "2026-11-04T04:01:46.142Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
