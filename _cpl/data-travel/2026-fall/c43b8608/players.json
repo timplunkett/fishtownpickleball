@@ -4285,7 +4285,7 @@
       "gender": "Female",
       "dupr": "842LZ6",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "teamName": "ACE Moorestown",
       "wins": 2,

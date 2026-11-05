@@ -11437,6 +11437,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Lauren Mammano",
+   "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
+   "team": "Pickle House",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Lauren Mercado",
    "playerId": "0aa554f3-0eca-4f2d-b3d9-b277406a7435",
    "team": "Jersey Devil",
@@ -11868,6 +11875,13 @@ window.DUPR_AUDIT = {
    "playerId": "b79cef1c-cecc-48d4-9b14-4505bca1cce9",
    "team": "Mercer Bucks",
    "slug": "1e12eb3f",
+   "gender": "Female"
+  },
+  {
+   "name": "Lisa Blaber",
+   "playerId": "6202ab1c-d9ee-46e0-8020-c19f73658e3c",
+   "team": "ACE Moorestown",
+   "slug": "c43b8608",
    "gender": "Female"
   },
   {

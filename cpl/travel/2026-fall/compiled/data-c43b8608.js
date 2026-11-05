@@ -11489,8 +11489,8 @@
    "name": "Lisa Blaber",
    "gender": "Female",
    "team": "ACE Moorestown",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 2,
@@ -48333,9 +48333,7 @@
      ]
     }
    ],
-   "subs": [
-    "Lisa Blaber"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -73371,8 +73369,7 @@
    ],
    "subs": [
     "Rich Russell",
-    "Jason Wu",
-    "Lisa Blaber"
+    "Jason Wu"
    ]
   },
   {
@@ -74496,14 +74493,6 @@
    "outsideSub": true
   },
   {
-   "name": "Lisa Blaber",
-   "playerId": "6202ab1c-d9ee-46e0-8020-c19f73658e3c",
-   "gender": "Female",
-   "team": "ACE Moorestown",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Lisa Viola",
    "playerId": "643d57f1-e4de-431d-b486-01fcc266501f",
    "gender": "Female",
@@ -75517,7 +75506,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-03T22:45:57.528Z";
+  DATA.meta.asOf = "2026-11-05T23:05:56.004Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

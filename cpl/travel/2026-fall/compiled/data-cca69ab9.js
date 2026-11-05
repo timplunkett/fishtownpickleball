@@ -6547,7 +6547,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 261,
+   "leagueRank": 262,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -44771,7 +44771,6 @@
    "away": "ACE Moorestown",
    "time": "2026-11-02T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 667,
    "awayPoints": 505,
    "homeGW": 28,
@@ -45227,10 +45226,10 @@
     }
    ],
    "subs": [
-    "Jeffrey Lena",
-    "Nicholas Vanderveer",
+    "Matt Jump",
     "Tyler Fung",
-    "Matt Jump"
+    "Nicholas Vanderveer",
+    "Jeffrey Lena"
    ]
   },
   {
@@ -46244,6 +46243,7 @@
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
+  "Elliot Stevens": "3c27afe7-2382-44c1-a50d-cf7326aa325a",
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Joseph Mizrahi": "6aa4b196-23d0-4070-8825-2b1d4b80395d",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
@@ -46376,6 +46376,14 @@
    "playerId": "38d82d4c-1321-4c6b-8b93-bfbd8439fcac",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Elliot Stevens",
+   "playerId": "3c27afe7-2382-44c1-a50d-cf7326aa325a",
+   "gender": "Male",
+   "team": "Flemington",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -46942,7 +46950,7 @@
  ],
  "meta": {
   "matchesPlayed": 68,
-  "provisionalMatches": 2,
+  "provisionalMatches": 1,
   "weeks": "1-11",
   "totalPlayers": 241,
   "ratingHistoryWeeks": [
@@ -47085,7 +47093,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-04T23:03:05.480Z";
+  DATA.meta.asOf = "2026-11-05T23:06:17.297Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

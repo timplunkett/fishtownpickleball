@@ -67462,7 +67462,6 @@
    "away": "Jersey Devil",
    "time": "2026-11-03T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 621,
    "awayPoints": 626,
    "homeGW": 15,
@@ -70083,7 +70082,7 @@
  ],
  "meta": {
   "matchesPlayed": 103,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-11",
   "totalPlayers": 322,
   "ratingHistoryWeeks": [
@@ -70233,7 +70232,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-04T13:33:24.645Z";
+  DATA.meta.asOf = "2026-11-05T23:06:58.316Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
