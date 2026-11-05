@@ -4903,6 +4903,93 @@
    "playerId": "38944e1a-d33f-4b2f-8d9c-41a0fdd273cd"
   },
   {
+   "name": "Beth Urbanski",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 201,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "36c90242-18df-4017-a44f-1ec26b2732b4"
+  },
+  {
+   "name": "Joyce Chedid",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 189,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "3a16c2ca-7182-4a2c-bef7-fe9eea5fc33a"
+  },
+  {
+   "name": "Katty Wong-Taylor",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 202,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "473f352b-9646-45d8-b949-2a17561a7ba2"
+  },
+  {
    "name": "Amanda Anastasiou",
    "gender": "Female",
    "team": "Life Time Red Bank",
@@ -38533,8 +38620,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Annette Marsh"
      ],
      "a": [
       "Susan Hughes",
@@ -38544,19 +38631,19 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Marianne Rosato"
      ],
      "a": [
-      "Christine Steigerwalt",
+      "Ghada Abraham",
       "Kathleen Rex"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynda Levan",
+      "Diane Bracco"
      ],
      "a": [
       "Jean Dalstad",
@@ -38566,8 +38653,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janice Aliberti",
+      "Grace Brennan"
      ],
      "a": [
       "Charlie Trapasso",
@@ -38577,8 +38664,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Lynda Levan"
      ],
      "a": [
       "Mary Marger",
@@ -38588,8 +38675,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Grace Brennan"
      ],
      "a": [
       "Lynn Hauth",
@@ -38599,19 +38686,19 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Marianne Rosato"
      ],
      "a": [
-      "Christine Steigerwalt",
+      "Ghada Abraham",
       "Jean Dalstad"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annette Marsh",
+      "Sheila Curran"
      ],
      "a": [
       "Maureen Murphy",
@@ -38621,8 +38708,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Jeannine Calhoun"
      ],
      "a": [
       "Jean Dalstad",
@@ -38632,8 +38719,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Diane Bracco",
+      "Grace Brennan"
      ],
      "a": [
       "Nami Huang",
@@ -38643,8 +38730,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janice Aliberti",
+      "Lynda Levan"
      ],
      "a": [
       "Susan Hughes",
@@ -38654,8 +38741,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Sheila Curran"
      ],
      "a": [
       "Mary Marger",
@@ -38665,8 +38752,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janice Aliberti",
+      "Marianne Rosato"
      ],
      "a": [
       "Denise Stevens",
@@ -38676,8 +38763,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Sheila Curran"
      ],
      "a": [
       "Sandy Hess",
@@ -38687,8 +38774,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Diane Bracco"
      ],
      "a": [
       "Susan Hughes",
@@ -38698,19 +38785,19 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Annette Marsh"
      ],
      "a": [
       "Nami Huang",
-      "Christine Steigerwalt"
+      "Ghada Abraham"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynda Levan",
+      "Elizabeth Biehl"
      ],
      "a": [
       "Kathleen Rex",
@@ -38720,8 +38807,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Grace Brennan",
+      "Marianne Rosato"
      ],
      "a": [
       "Lynn Hauth",
@@ -38731,8 +38818,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janice Aliberti",
+      "Sheila Curran"
      ],
      "a": [
       "Nami Huang",
@@ -38742,8 +38829,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annette Marsh",
+      "Diane Bracco"
      ],
      "a": [
       "Jean Dalstad",
@@ -38753,8 +38840,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynda Levan",
+      "Marianne Rosato"
      ],
      "a": [
       "Jean Dalstad",
@@ -38764,8 +38851,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Elizabeth Biehl"
      ],
      "a": [
       "Charlie Trapasso",
@@ -38775,19 +38862,19 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Annette Marsh"
      ],
      "a": [
       "Susan Hughes",
-      "Christine Steigerwalt"
+      "Ghada Abraham"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Grace Brennan",
+      "Diane Bracco"
      ],
      "a": [
       "Lynn Hauth",
@@ -38797,8 +38884,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janice Aliberti",
+      "Annette Marsh"
      ],
      "a": [
       "Denise Stevens",
@@ -38808,8 +38895,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Sheila Curran"
      ],
      "a": [
       "Susan Hughes",
@@ -38819,8 +38906,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Grace Brennan",
+      "Marianne Rosato"
      ],
      "a": [
       "Sandy Hess",
@@ -38830,8 +38917,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Jeannine Calhoun"
      ],
      "a": [
       "Mary Marger",
@@ -38841,19 +38928,19 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Janice Aliberti"
      ],
      "a": [
-      "Christine Steigerwalt",
+      "Ghada Abraham",
       "Kathleen Rex"
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Diane Bracco"
      ],
      "a": [
       "Susan Hughes",
@@ -38863,8 +38950,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annette Marsh",
+      "Sheila Curran"
      ],
      "a": [
       "Charlie Trapasso",
@@ -38874,8 +38961,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynda Levan",
+      "Marianne Rosato"
      ],
      "a": [
       "Mary Marger",
@@ -38895,8 +38982,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Tanyalak Sawangpak"
      ],
      "a": [
       "Jessica Wormeck",
@@ -38906,8 +38993,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Kara Chubrik"
      ],
      "a": [
       "Meghan Klein",
@@ -38917,41 +39004,53 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Urbanski",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Monika Torbus",
       "Nancy Cook"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Joyce Chedid"
      ],
      "a": [
       "Maureen Dazzo",
       "Christine Ziegler"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Joyce Chedid"
      ],
      "a": [
       "Jessica Wormeck",
       "Meghan Klein"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Tanyalak Sawangpak"
      ],
      "a": [
       "Maureen Dazzo",
@@ -38961,8 +39060,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Kara Chubrik"
      ],
      "a": [
       "Karen Waldon",
@@ -38972,30 +39071,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Urbanski",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Peggy Matzen",
       "Holly Ferguson"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Beth Urbanski"
      ],
      "a": [
       "Jessica Wormeck",
       "Meghan Klein"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Tanyalak Sawangpak"
      ],
      "a": [
       "Karen Waldon",
@@ -39005,8 +39112,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Kara Chubrik"
      ],
      "a": [
       "Monika Torbus",
@@ -39016,19 +39123,23 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joyce Chedid",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Nancy Cook",
       "Holly Ferguson"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Tanyalak Sawangpak"
      ],
      "a": [
       "Jessica Wormeck",
@@ -39038,30 +39149,38 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Beth Urbanski"
      ],
      "a": [
       "Peggy Matzen",
       "Maureen Dazzo"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joyce Chedid",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Monika Torbus",
       "Holly Ferguson"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Kara Chubrik"
      ],
      "a": [
       "Karen Waldon",
@@ -39071,8 +39190,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Eileen Clark"
      ],
      "a": [
       "Christine Ziegler",
@@ -39082,63 +39201,83 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Urbanski",
+      "Kara Chubrik"
      ],
      "a": [
       "Jessica Wormeck",
       "Maureen Dazzo"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Monika Torbus",
       "Peggy Matzen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tanyalak Sawangpak",
+      "Joyce Chedid"
      ],
      "a": [
       "Holly Ferguson",
       "Nancy Cook"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lynne Silber",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Monika Torbus",
       "Nancy Cook"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Urbanski",
+      "Kara Chubrik"
      ],
      "a": [
       "Maureen Dazzo",
       "Peggy Matzen"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Eileen Clark"
      ],
      "a": [
       "Jessica Wormeck",
@@ -39148,52 +39287,68 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tanyalak Sawangpak",
+      "Joyce Chedid"
      ],
      "a": [
       "Christine Ziegler",
       "Meghan Klein"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Joyce Chedid"
      ],
      "a": [
       "Maureen Dazzo",
       "Nancy Cook"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Urbanski",
+      "Tanyalak Sawangpak"
      ],
      "a": [
       "Jessica Wormeck",
       "Monika Torbus"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Meghan Klein",
       "Peggy Matzen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Lynne Silber"
      ],
      "a": [
       "Holly Ferguson",
@@ -39203,41 +39358,53 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Beth Urbanski",
+      "Tanyalak Sawangpak"
      ],
      "a": [
       "Jessica Wormeck",
       "Monika Torbus"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kara Chubrik",
+      "Joyce Chedid"
      ],
      "a": [
       "Christine Ziegler",
       "Meghan Klein"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eileen Clark",
+      "Katty Wong-Taylor"
      ],
      "a": [
       "Karen Waldon",
       "Holly Ferguson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lay Wassana",
+      "Lynne Silber"
      ],
      "a": [
       "Maureen Dazzo",
@@ -39770,8 +39937,8 @@
     {
      "t": "female",
      "h": [
-      "Caroline Kinlin",
-      "Sara Hylan"
+      "Sara Hylan",
+      "Rachel Levkov"
      ],
      "a": [
       "Lori Wild",
@@ -39796,8 +39963,8 @@
     {
      "t": "female",
      "h": [
-      "Jackie Coneeny",
-      "Rachel Levkov"
+      "Caroline Kinlin",
+      "Jackie Coneeny"
      ],
      "a": [
       "Suzi French",
@@ -40032,9 +40199,6 @@
   "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
-  "Beth Urbanski": "36c90242-18df-4017-a44f-1ec26b2732b4",
-  "Joyce Chedid": "3a16c2ca-7182-4a2c-bef7-fe9eea5fc33a",
-  "Katty Wong-Taylor": "473f352b-9646-45d8-b949-2a17561a7ba2",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
@@ -40488,7 +40652,7 @@
   "matchesPlayed": 56,
   "provisionalMatches": 0,
   "weeks": "1-10",
-  "totalPlayers": 187,
+  "totalPlayers": 190,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -40612,7 +40776,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-04T23:03:25.612Z";
+  DATA.meta.asOf = "2026-11-05T04:24:21.648Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
