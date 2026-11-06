@@ -8258,7 +8258,7 @@
    "winPct": 50,
    "diff": -1,
    "ppg": 17.8,
-   "leagueRank": 475,
+   "leagueRank": 474,
    "rating": -0.5,
    "ratingGames": 6,
    "confidence": 58,
@@ -8287,7 +8287,7 @@
    "winPct": 50,
    "diff": -2,
    "ppg": 18.3,
-   "leagueRank": 478,
+   "leagueRank": 477,
    "rating": -1.8,
    "ratingGames": 4,
    "confidence": 47,
@@ -8432,7 +8432,7 @@
    "winPct": 50,
    "diff": -10,
    "ppg": 17.8,
-   "leagueRank": 485,
+   "leagueRank": 484,
    "rating": 0.4,
    "ratingGames": 6,
    "confidence": 55,
@@ -8461,7 +8461,7 @@
    "winPct": 50,
    "diff": -14,
    "ppg": 18.1,
-   "leagueRank": 488,
+   "leagueRank": 487,
    "rating": -1.7,
    "ratingGames": 10,
    "confidence": 69,
@@ -9737,7 +9737,7 @@
    "winPct": 42.9,
    "diff": 0,
    "ppg": 18.3,
-   "leagueRank": 476,
+   "leagueRank": 475,
    "rating": 1.8,
    "ratingGames": 7,
    "confidence": 59,
@@ -9795,7 +9795,7 @@
    "winPct": 42.9,
    "diff": -4,
    "ppg": 19.3,
-   "leagueRank": 481,
+   "leagueRank": 480,
    "rating": -0.3,
    "ratingGames": 7,
    "confidence": 61,
@@ -9853,7 +9853,7 @@
    "winPct": 42.9,
    "diff": -6,
    "ppg": 19,
-   "leagueRank": 483,
+   "leagueRank": 482,
    "rating": 0,
    "ratingGames": 7,
    "confidence": 60,
@@ -9911,7 +9911,7 @@
    "winPct": 42.9,
    "diff": -7,
    "ppg": 17,
-   "leagueRank": 495,
+   "leagueRank": 494,
    "rating": 2.9,
    "ratingGames": 7,
    "confidence": 61,
@@ -10404,7 +10404,7 @@
    "winPct": 40,
    "diff": -1,
    "ppg": 18.2,
-   "leagueRank": 497,
+   "leagueRank": 496,
    "rating": -0.2,
    "ratingGames": 5,
    "confidence": 53,
@@ -10433,7 +10433,7 @@
    "winPct": 40,
    "diff": -2,
    "ppg": 19.2,
-   "leagueRank": 487,
+   "leagueRank": 486,
    "rating": 0,
    "ratingGames": 5,
    "confidence": 53,
@@ -10491,7 +10491,7 @@
    "winPct": 40,
    "diff": -6,
    "ppg": 17.8,
-   "leagueRank": 505,
+   "leagueRank": 504,
    "rating": 0.6,
    "ratingGames": 5,
    "confidence": 52,
@@ -10520,7 +10520,7 @@
    "winPct": 40,
    "diff": -14,
    "ppg": 17.4,
-   "leagueRank": 474,
+   "leagueRank": 505,
    "rating": 1.1,
    "ratingGames": 10,
    "confidence": 69,
@@ -11071,7 +11071,7 @@
    "winPct": 37.5,
    "diff": -1,
    "ppg": 18.9,
-   "leagueRank": 494,
+   "leagueRank": 493,
    "rating": -1,
    "ratingGames": 8,
    "confidence": 61,
@@ -11129,7 +11129,7 @@
    "winPct": 37.5,
    "diff": -6,
    "ppg": 17.5,
-   "leagueRank": 503,
+   "leagueRank": 502,
    "rating": 0.9,
    "ratingGames": 8,
    "confidence": 63,
@@ -11680,7 +11680,7 @@
    "winPct": 35.7,
    "diff": -31,
    "ppg": 17,
-   "leagueRank": 502,
+   "leagueRank": 501,
    "rating": -0.8,
    "ratingGames": 14,
    "confidence": 73,
@@ -11883,7 +11883,7 @@
    "winPct": 35,
    "diff": -66,
    "ppg": 16.5,
-   "leagueRank": 486,
+   "leagueRank": 485,
    "rating": -2.1,
    "ratingGames": 20,
    "confidence": 80,
@@ -12231,7 +12231,7 @@
    "winPct": 33.3,
    "diff": -28,
    "ppg": 17.5,
-   "leagueRank": 498,
+   "leagueRank": 497,
    "rating": -0.1,
    "ratingGames": 15,
    "confidence": 76,
@@ -12695,7 +12695,7 @@
    "winPct": 31.6,
    "diff": -63,
    "ppg": 16.9,
-   "leagueRank": 482,
+   "leagueRank": 481,
    "rating": -0.2,
    "ratingGames": 19,
    "confidence": 80,
@@ -12782,7 +12782,7 @@
    "winPct": 31.3,
    "diff": -42,
    "ppg": 17.2,
-   "leagueRank": 484,
+   "leagueRank": 483,
    "rating": -1.7,
    "ratingGames": 16,
    "confidence": 76,
@@ -12811,7 +12811,7 @@
    "winPct": 31.3,
    "diff": -64,
    "ppg": 16.1,
-   "leagueRank": 504,
+   "leagueRank": 503,
    "rating": -2,
    "ratingGames": 16,
    "confidence": 77,
@@ -13072,7 +13072,7 @@
    "winPct": 30,
    "diff": -9,
    "ppg": 18.2,
-   "leagueRank": 501,
+   "leagueRank": 500,
    "rating": -2,
    "ratingGames": 10,
    "confidence": 68,
@@ -14638,7 +14638,7 @@
    "winPct": 21.1,
    "diff": -83,
    "ppg": 16,
-   "leagueRank": 492,
+   "leagueRank": 491,
    "rating": -0.5,
    "ratingGames": 19,
    "confidence": 80,
@@ -14870,7 +14870,7 @@
    "winPct": 20,
    "diff": -70,
    "ppg": 17.6,
-   "leagueRank": 477,
+   "leagueRank": 476,
    "rating": -3.8,
    "ratingGames": 25,
    "confidence": 84,
@@ -14928,7 +14928,7 @@
    "winPct": 19.2,
    "diff": -147,
    "ppg": 14.8,
-   "leagueRank": 490,
+   "leagueRank": 489,
    "rating": -3.6,
    "ratingGames": 26,
    "confidence": 84,
@@ -15624,7 +15624,7 @@
    "winPct": 14.8,
    "diff": -206,
    "ppg": 12.7,
-   "leagueRank": 489,
+   "leagueRank": 488,
    "rating": -2.2,
    "ratingGames": 27,
    "confidence": 84,
@@ -15972,7 +15972,7 @@
    "winPct": 11.1,
    "diff": -212,
    "ppg": 12.8,
-   "leagueRank": 500,
+   "leagueRank": 499,
    "rating": -3.5,
    "ratingGames": 27,
    "confidence": 84,
@@ -16001,7 +16001,7 @@
    "winPct": 10.8,
    "diff": -247,
    "ppg": 13.9,
-   "leagueRank": 480,
+   "leagueRank": 479,
    "rating": -2.4,
    "ratingGames": 37,
    "confidence": 88,
@@ -16030,7 +16030,7 @@
    "winPct": 10.5,
    "diff": -266,
    "ppg": 13.6,
-   "leagueRank": 491,
+   "leagueRank": 490,
    "rating": -3,
    "ratingGames": 38,
    "confidence": 88,
@@ -16088,7 +16088,7 @@
    "winPct": 9.8,
    "diff": -272,
    "ppg": 14,
-   "leagueRank": 479,
+   "leagueRank": 478,
    "rating": -2,
    "ratingGames": 41,
    "confidence": 89,
@@ -16117,7 +16117,7 @@
    "winPct": 9.4,
    "diff": -233,
    "ppg": 13.5,
-   "leagueRank": 493,
+   "leagueRank": 492,
    "rating": -2.8,
    "ratingGames": 32,
    "confidence": 86,
@@ -16320,7 +16320,7 @@
    "winPct": 7.7,
    "diff": -269,
    "ppg": 13.8,
-   "leagueRank": 496,
+   "leagueRank": 495,
    "rating": -3.1,
    "ratingGames": 39,
    "confidence": 88,
@@ -16349,7 +16349,7 @@
    "winPct": 7.5,
    "diff": -292,
    "ppg": 13.5,
-   "leagueRank": 499,
+   "leagueRank": 498,
    "rating": -3.6,
    "ratingGames": 40,
    "confidence": 89,
@@ -120168,7 +120168,6 @@
    "away": "Picklr Fair Lawn",
    "time": "2026-11-04T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 560,
    "awayPoints": 625,
    "homeGW": 11,
@@ -120632,7 +120631,6 @@
    "away": "Players Courtyard",
    "time": "2026-11-04T19:30:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 627,
    "awayPoints": 572,
    "homeGW": 19,
@@ -122330,7 +122328,361 @@
    "home": "Pickle House",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-11-09T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Jim Nelson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Carolyn Antuna"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Sally Webb"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Wong",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Jim Nelson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Lisa Weinthal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Sally Webb"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Wong",
+      "Jim Nelson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shawn Mayer",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Tayon Hart"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Jim Nelson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Sally Webb"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Carolyn Antuna"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Wong",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Leo Wong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Jim Nelson"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisa Weinthal",
+      "Shawn Mayer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sally Webb",
+      "Sammy Cohen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Perri Goldstein",
+      "Lisa Weinthal"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Carolyn Antuna",
+      "Sally Webb"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leo Wong",
+      "Jim Nelson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tayon Hart",
+      "Shawn Mayer"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -123939,7 +124291,7 @@
  ],
  "meta": {
   "matchesPlayed": 179,
-  "provisionalMatches": 2,
+  "provisionalMatches": 0,
   "weeks": "1-11",
   "totalPlayers": 630,
   "ratingHistoryWeeks": [
@@ -124045,7 +124397,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-06T04:22:50.850Z";
+  DATA.meta.asOf = "2026-11-06T22:35:48.206Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
