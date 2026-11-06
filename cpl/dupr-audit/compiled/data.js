@@ -1602,6 +1602,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Anthony Serratore",
+   "playerId": "726aafbc-2e11-4f8c-a178-15c4cba5a964",
+   "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
    "name": "Anthony Simonetti",
    "playerId": "3a2b64a1-6eb6-41e4-92fe-8da3d95af11b",
    "team": "Jersey Pickleball Club",
@@ -2078,7 +2085,7 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Ben Cortes",
+   "name": "Ben CortéS",
    "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
    "team": "Dill Dinkers Freehold",
    "slug": "c118b8e9",

@@ -62860,7 +62860,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 4,
     "synergy": -0.5
    },
@@ -69653,7 +69653,7 @@
   "partners": [
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 3,
     "synergy": 0.4
    },
@@ -69916,7 +69916,7 @@
   "partners": [
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 3,
     "synergy": 0.3
    },
@@ -71597,7 +71597,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 8,
     "synergy": -1.6
    },
@@ -74972,7 +74972,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 5,
     "synergy": -1.3
    }
@@ -78058,7 +78058,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 4,
     "synergy": 0.5
    },
@@ -78460,7 +78460,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 18,
     "synergy": 1.2
    },
@@ -93402,7 +93402,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 8,
     "synergy": -0.1
    },
@@ -93790,7 +93790,7 @@
    },
    {
     "pid": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-    "name": "Ben Cortes",
+    "name": "Ben CortéS",
     "n": 5,
     "synergy": -0.1
    },

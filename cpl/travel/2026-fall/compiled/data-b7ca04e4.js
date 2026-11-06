@@ -16213,7 +16213,7 @@
    "playerId": "a4c54a14-35b4-4b90-aabd-3d81ad719f4d"
   },
   {
-   "name": "Ben Cortes",
+   "name": "Ben CortéS",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
    "matches": 0,
@@ -59268,7 +59268,7 @@
      "as": 21,
      "h": [
       "Rebecca Edelstein",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Christina Schulz",
@@ -59324,7 +59324,7 @@
      "as": 11,
      "h": [
       "Brandon Pfeffer",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Tyler Kaleikini",
@@ -59366,7 +59366,7 @@
      "as": 21,
      "h": [
       "Abeer Massoud",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Tiffany Kaleikini",
@@ -59435,7 +59435,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Joe Ying"
      ],
      "a": [
@@ -59464,7 +59464,7 @@
      "as": 21,
      "h": [
       "Allyson Fry",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Abby Zhang",
@@ -59590,7 +59590,7 @@
      "as": 21,
      "h": [
       "Rebecca Edelstein",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Tiffany Kaleikini",
@@ -59659,7 +59659,7 @@
      "hs": 12,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Alex Sarin"
      ],
      "a": [
@@ -59686,7 +59686,7 @@
     "Kevin Lew",
     "Alex Sarin",
     "Austin Schaefer",
-    "Ben Cortes",
+    "Ben CortéS",
     "Rebecca Edelstein",
     "Nancy Luyando"
    ]
@@ -75174,7 +75174,7 @@
      "as": 21,
      "h": [
       "Robin Bennett",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Tracey Collins",
@@ -75272,7 +75272,7 @@
      "as": 21,
      "h": [
       "Ilya Shats",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Solomon Kam",
@@ -75328,7 +75328,7 @@
      "as": 21,
      "h": [
       "Robin Bennett",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Beth Osipowitz",
@@ -75370,7 +75370,7 @@
      "as": 21,
      "h": [
       "Joe Ying",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Sam Forin",
@@ -75440,7 +75440,7 @@
      "as": 21,
      "h": [
       "Elyse Mcguire",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Beth Osipowitz",
@@ -75496,7 +75496,7 @@
      "as": 25,
      "h": [
       "Ilya Shats",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Solomon Kam",
@@ -75507,7 +75507,7 @@
    "subs": [
     "Alex Luyando",
     "Elyse Mcguire",
-    "Ben Cortes",
+    "Ben CortéS",
     "Robin Bennett",
     "Botamina Gemian",
     "Nancy Luyando",
@@ -121968,7 +121968,361 @@
    "home": "Pickleball Kingdom Lehigh Valley",
    "away": "Picklr Fair Lawn",
    "time": "2026-11-07T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Minette Tubo",
+      "Homer Abes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Yosuke Kawai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ulyana Kitcmanuk",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Lara Gedeon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Minette Tubo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Piero Accinelli",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Gozon",
+      "Yosuke Kawai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ulyana Kitcmanuk",
+      "Joseph Gozon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Homer Abes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Yosuke Kawai"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Minette Tubo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Ulyana Kitcmanuk"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Piero Accinelli",
+      "Homer Abes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Gozon",
+      "Yosuke Kawai"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Minette Tubo",
+      "Joseph Gozon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Homer Abes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Yosuke Kawai"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Ulyana Kitcmanuk"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lara Gedeon",
+      "Maricel Pineda"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Piero Accinelli",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yosuke Kawai",
+      "Homer Abes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Minette Tubo",
+      "Piero Accinelli"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Leanna Coello",
+      "Homer Abes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Joseph Gozon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Binxin Cai",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Maricel Pineda",
+      "Minette Tubo"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ulyana Kitcmanuk",
+      "Binxin Cai"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Gozon",
+      "Andrew Chester"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yosuke Kawai",
+      "Homer Abes"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -122567,7 +122921,7 @@
    "outsideSub": true
   },
   {
-   "name": "Ben Cortes",
+   "name": "Ben CortéS",
    "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
@@ -123691,7 +124045,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-05T23:05:04.010Z";
+  DATA.meta.asOf = "2026-11-06T04:22:50.850Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

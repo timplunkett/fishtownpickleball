@@ -7339,7 +7339,7 @@
    "playerId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8"
   },
   {
-   "name": "Ben Cortes",
+   "name": "Ben CortéS",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
    "matches": 9,
@@ -11241,7 +11241,7 @@
   },
   {
    "a": "Erik Reilly",
-   "b": "Ben Cortes",
+   "b": "Ben CortéS",
    "team": "Dill Dinkers Freehold",
    "n": 18,
    "w": 8,
@@ -13737,7 +13737,7 @@
   },
   {
    "a": "Uday Acham",
-   "b": "Ben Cortes",
+   "b": "Ben CortéS",
    "team": "Dill Dinkers Freehold",
    "n": 4,
    "w": 2,
@@ -14218,7 +14218,7 @@
   },
   {
    "a": "Anthony Solares",
-   "b": "Ben Cortes",
+   "b": "Ben CortéS",
    "team": "Dill Dinkers Freehold",
    "n": 3,
    "w": 1,
@@ -14659,7 +14659,7 @@
    "bId": "aabb2c71-bc56-468e-91b9-d431d6f2d26b"
   },
   {
-   "a": "Ben Cortes",
+   "a": "Ben CortéS",
    "b": "Danny Ruiz",
    "team": "Dill Dinkers Freehold",
    "n": 3,
@@ -16271,7 +16271,7 @@
    "bId": "a117b66b-f319-4fc0-8ee2-feb3f17767d0"
   },
   {
-   "a": "Ben Cortes",
+   "a": "Ben CortéS",
    "b": "Big G",
    "team": "Dill Dinkers Freehold",
    "n": 8,
@@ -16323,7 +16323,7 @@
    "bId": "f75516ca-4ed9-4ca2-84d3-a6af16b16a27"
   },
   {
-   "a": "Ben Cortes",
+   "a": "Ben CortéS",
    "b": "Ian Kohn",
    "team": "Dill Dinkers Freehold",
    "n": 5,
@@ -18013,7 +18013,7 @@
    "bId": "66b5f8fe-1456-4ca5-ba6a-9ee4de2052cb"
   },
   {
-   "a": "Ben Cortes",
+   "a": "Ben CortéS",
    "b": "Hua Lin",
    "team": "Dill Dinkers Freehold",
    "n": 4,
@@ -20327,7 +20327,7 @@
    "bId": "d61a3828-6dfc-480a-b26a-534b0fe58268"
   },
   {
-   "a": "Ben Cortes",
+   "a": "Ben CortéS",
    "b": "Wensheng Yue",
    "team": "Dill Dinkers Freehold",
    "n": 5,
@@ -20796,7 +20796,7 @@
   },
   {
    "a": "Kevin Lew",
-   "b": "Ben Cortes",
+   "b": "Ben CortéS",
    "team": "Dill Dinkers Freehold",
    "n": 8,
    "w": 2,
@@ -25276,7 +25276,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -25346,7 +25346,7 @@
      ],
      "a": [
       "Michael Vollmer",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -25402,7 +25402,7 @@
      ],
      "a": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -25471,7 +25471,7 @@
       "Jimmy Ramja"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Pedro Delgado"
      ]
     },
@@ -25500,7 +25500,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -25654,7 +25654,7 @@
      ],
      "a": [
       "Hua Lin",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -25696,7 +25696,7 @@
      ],
      "a": [
       "Wensheng Yue",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -29536,7 +29536,7 @@
      ],
      "a": [
       "Michael Vollmer",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -29564,7 +29564,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -29620,7 +29620,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -29690,7 +29690,7 @@
      ],
      "a": [
       "Hua Lin",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -29802,7 +29802,7 @@
      ],
      "a": [
       "Uday Acham",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -29858,7 +29858,7 @@
      ],
      "a": [
       "Pedro Delgado",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -30883,7 +30883,7 @@
      "hs": 12,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -30926,7 +30926,7 @@
      "as": 23,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Dilip Patel",
@@ -30995,7 +30995,7 @@
      "hs": 12,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Wensheng Yue"
      ],
      "a": [
@@ -31051,7 +31051,7 @@
      "hs": 21,
      "as": 19,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Uday Acham"
      ],
      "a": [
@@ -31094,7 +31094,7 @@
      "as": 21,
      "h": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Ashish Kumar",
@@ -31136,7 +31136,7 @@
      "as": 21,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Ziyu Huang",
@@ -34570,7 +34570,7 @@
      "as": 20,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Derek Livingston",
@@ -34625,7 +34625,7 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Ian Kohn"
      ],
      "a": [
@@ -34668,7 +34668,7 @@
      "as": 19,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Derek Livingston",
@@ -34751,7 +34751,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -34780,7 +34780,7 @@
      "as": 22,
      "h": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Jonathan Carter",
@@ -34836,7 +34836,7 @@
      "as": 17,
      "h": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Mario Contreras",
@@ -34891,7 +34891,7 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -34976,7 +34976,7 @@
      "as": 22,
      "h": [
       "Sujoy Gayen",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Mario Contreras",
@@ -38326,7 +38326,7 @@
      "as": 22,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Daniel Antonelli",
@@ -38368,7 +38368,7 @@
      "as": 21,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Daniel Antonelli",
@@ -38424,7 +38424,7 @@
      "as": 21,
      "h": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Gary White",
@@ -38494,7 +38494,7 @@
      "as": 21,
      "h": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Gary White",
@@ -38549,7 +38549,7 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Ian Kohn"
      ],
      "a": [
@@ -38605,7 +38605,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Ian Kohn"
      ],
      "a": [
@@ -38633,7 +38633,7 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -38689,7 +38689,7 @@
      "hs": 12,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -43898,7 +43898,7 @@
      "as": 20,
      "h": [
       "Siva Indupuru",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Cory Mintz",
@@ -43954,7 +43954,7 @@
      "as": 21,
      "h": [
       "Wensheng Yue",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "John Coyle",
@@ -43968,7 +43968,7 @@
      "as": 17,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -44023,7 +44023,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Ian Kohn"
      ],
      "a": [
@@ -44121,7 +44121,7 @@
      "hs": 26,
      "as": 24,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Siva Indupuru"
      ],
      "a": [
@@ -44136,7 +44136,7 @@
      "as": 11,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Jacob Rosengarten",
@@ -44205,7 +44205,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -44275,7 +44275,7 @@
      "hs": 9,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Ian Kohn"
      ],
      "a": [
@@ -51777,7 +51777,7 @@
       "Nate Brochin"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Anthony Solares"
      ]
     },
@@ -51833,7 +51833,7 @@
       "Adnan Ul Haq"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Danny Ruiz"
      ]
     },
@@ -51862,7 +51862,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -51918,7 +51918,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -52002,7 +52002,7 @@
      ],
      "a": [
       "Hua Lin",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -52058,7 +52058,7 @@
      ],
      "a": [
       "Hua Lin",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -52100,7 +52100,7 @@
      ],
      "a": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -52156,7 +52156,7 @@
      ],
      "a": [
       "Kevin Lew",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -55986,7 +55986,7 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Danny Ruiz"
      ],
      "a": [
@@ -56001,7 +56001,7 @@
      "as": 20,
      "h": [
       "Wensheng Yue",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -56098,7 +56098,7 @@
      "hs": 20,
      "as": 22,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -56127,7 +56127,7 @@
      "as": 21,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Varun Gurram",
@@ -56169,7 +56169,7 @@
      "as": 21,
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Shyler Smith",
@@ -56224,7 +56224,7 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Danny Ruiz"
      ],
      "a": [
@@ -56322,7 +56322,7 @@
      "hs": 10,
      "as": 21,
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -56379,7 +56379,7 @@
      "as": 21,
      "h": [
       "Wensheng Yue",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Varun Gurram",
@@ -64828,7 +64828,7 @@
       "Harsh Upadhyaya"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Brandon Calmo"
      ]
     },
@@ -64843,7 +64843,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -64940,7 +64940,7 @@
       "Venu Yengala"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Uday Acham"
      ]
     },
@@ -64997,7 +64997,7 @@
      ],
      "a": [
       "Anthony Solares",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -65052,7 +65052,7 @@
       "Dilip Patel"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Brandon Calmo"
      ]
     },
@@ -65067,7 +65067,7 @@
      ],
      "a": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     },
     {
@@ -65164,7 +65164,7 @@
       "Dilip Patel"
      ],
      "a": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Uday Acham"
      ]
     },
@@ -65221,7 +65221,7 @@
      ],
      "a": [
       "Anthony Solares",
-      "Ben Cortes"
+      "Ben CortéS"
      ]
     }
    ],
@@ -67109,13 +67109,13 @@
      ],
      "a": [
       "Anthony Simonetti",
-      "Noah Ludwigsen"
+      "Carlos Idrovo"
      ]
     },
     {
      "t": "male",
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Uday Acham"
      ],
      "a": [
@@ -67153,13 +67153,13 @@
      ],
      "a": [
       "Anthony Simonetti",
-      "Noah Ludwigsen"
+      "Carlos Idrovo"
      ]
     },
     {
      "t": "male",
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Uday Acham"
      ],
      "a": [
@@ -67193,7 +67193,7 @@
      "t": "male",
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Jimmy Ramja",
@@ -67207,7 +67207,7 @@
       "Hua Lin"
      ],
      "a": [
-      "Noah Ludwigsen",
+      "Carlos Idrovo",
       "Matthew Rafaniello"
      ]
     },
@@ -67237,7 +67237,7 @@
      "t": "male",
      "h": [
       "Erik Reilly",
-      "Ben Cortes"
+      "Ben CortéS"
      ],
      "a": [
       "Jimmy Ramja",
@@ -67251,7 +67251,7 @@
       "Hua Lin"
      ],
      "a": [
-      "Noah Ludwigsen",
+      "Carlos Idrovo",
       "Matthew Rafaniello"
      ]
     },
@@ -67284,7 +67284,7 @@
       "Uday Acham"
      ],
      "a": [
-      "Noah Ludwigsen",
+      "Carlos Idrovo",
       "Jimmy Ramja"
      ]
     },
@@ -67302,7 +67302,7 @@
     {
      "t": "male",
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Hua Lin"
      ],
      "a": [
@@ -67328,7 +67328,7 @@
       "Uday Acham"
      ],
      "a": [
-      "Noah Ludwigsen",
+      "Carlos Idrovo",
       "Jimmy Ramja"
      ]
     },
@@ -67346,7 +67346,7 @@
     {
      "t": "male",
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Hua Lin"
      ],
      "a": [
@@ -67372,14 +67372,14 @@
       "Kevin Lew"
      ],
      "a": [
-      "Noah Ludwigsen",
+      "Carlos Idrovo",
       "Jose Campos"
      ]
     },
     {
      "t": "male",
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -67416,14 +67416,14 @@
       "Kevin Lew"
      ],
      "a": [
-      "Noah Ludwigsen",
+      "Carlos Idrovo",
       "Jose Campos"
      ]
     },
     {
      "t": "male",
      "h": [
-      "Ben Cortes",
+      "Ben CortéS",
       "Big G"
      ],
      "a": [
@@ -70232,7 +70232,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-05T23:06:58.316Z";
+  DATA.meta.asOf = "2026-11-06T04:24:40.183Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
