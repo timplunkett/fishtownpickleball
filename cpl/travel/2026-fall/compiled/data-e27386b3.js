@@ -82995,8 +82995,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia San Andres",
+      "Marcus Burritt"
      ],
      "a": [
       "Rebecca Woofter",
@@ -83006,8 +83006,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzane Sullivan",
+      "Anthony Serratore"
      ],
      "a": [
       "Kim Kronberger",
@@ -83017,8 +83017,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Peter Cao"
      ],
      "a": [
       "Jackie Bowes",
@@ -83028,8 +83028,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sabiha Kermalli",
+      "Adam Werwie"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -83039,8 +83039,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Sabiha Kermalli"
      ],
      "a": [
       "Melissa Mackey",
@@ -83050,8 +83050,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Zhou",
+      "Suzane Sullivan"
      ],
      "a": [
       "Rebecca Woofter",
@@ -83061,8 +83061,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Serratore",
+      "Marcus Burritt"
      ],
      "a": [
       "Colin Mackey",
@@ -83072,8 +83072,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Werwie",
+      "Victor Salicetti"
      ],
      "a": [
       "John Waggoner",
@@ -83083,8 +83083,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Zhou",
+      "Anthony Serratore"
      ],
      "a": [
       "Rebecca Woofter",
@@ -83094,8 +83094,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sabiha Kermalli",
+      "Adam Werwie"
      ],
      "a": [
       "Kim Kronberger",
@@ -83105,8 +83105,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Marcus Burritt"
      ],
      "a": [
       "Jackie Bowes",
@@ -83116,8 +83116,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzane Sullivan",
+      "Peter Cao"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -83127,8 +83127,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Suzane Sullivan"
      ],
      "a": [
       "Kim Kronberger",
@@ -83138,8 +83138,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sabiha Kermalli",
+      "Patricia San Andres"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -83149,8 +83149,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Werwie",
+      "Peter Cao"
      ],
      "a": [
       "John Waggoner",
@@ -83160,8 +83160,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marcus Burritt",
+      "Victor Salicetti"
      ],
      "a": [
       "Robert Courchain",
@@ -83171,8 +83171,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzane Sullivan",
+      "Adam Werwie"
      ],
      "a": [
       "Jackie Bowes",
@@ -83182,8 +83182,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia San Andres",
+      "Marcus Burritt"
      ],
      "a": [
       "Melissa Mackey",
@@ -83193,8 +83193,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Peter Cao"
      ],
      "a": [
       "Rebecca Woofter",
@@ -83204,8 +83204,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Zhou",
+      "Anthony Serratore"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -83215,8 +83215,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Zhou",
+      "Suzane Sullivan"
      ],
      "a": [
       "Rebecca Woofter",
@@ -83226,8 +83226,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Sabiha Kermalli"
      ],
      "a": [
       "Sophie O’Driscoll",
@@ -83237,8 +83237,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Adam Werwie",
+      "Marcus Burritt"
      ],
      "a": [
       "Josh Ruble",
@@ -83248,8 +83248,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Victor Salicetti",
+      "Anthony Serratore"
      ],
      "a": [
       "Robert Courchain",
@@ -83259,8 +83259,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Zhou",
+      "Peter Cao"
      ],
      "a": [
       "Kim Kronberger",
@@ -83270,8 +83270,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Suzane Sullivan",
+      "Adam Werwie"
      ],
      "a": [
       "Melissa Mackey",
@@ -83281,8 +83281,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Halimah Maideen",
+      "Marcus Burritt"
      ],
      "a": [
       "Jackie Bowes",
@@ -83292,8 +83292,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sabiha Kermalli",
+      "Victor Salicetti"
      ],
      "a": [
       "Elisabeth Marshall",
@@ -83303,8 +83303,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patricia San Andres",
+      "Sabiha Kermalli"
      ],
      "a": [
       "Rebecca Woofter",
@@ -83314,8 +83314,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Zhou",
+      "Halimah Maideen"
      ],
      "a": [
       "Jackie Bowes",
@@ -83325,8 +83325,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marcus Burritt",
+      "Victor Salicetti"
      ],
      "a": [
       "John Waggoner",
@@ -83336,8 +83336,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anthony Serratore",
+      "Adam Werwie"
      ],
      "a": [
       "Colin Mackey",
@@ -84536,7 +84536,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-06T04:20:04.379Z";
+  DATA.meta.asOf = "2026-11-06T13:29:25.834Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

@@ -47598,8 +47598,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "David Marchese"
      ],
      "a": [
       "Cynthia Eisen",
@@ -47609,8 +47609,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Ed Gieske"
      ],
      "a": [
       "Gina Pultorak",
@@ -47620,8 +47620,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Brett Kleger"
      ],
      "a": [
       "Nancy Blank",
@@ -47631,8 +47631,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Jane Meng",
@@ -47642,8 +47642,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Kristina Rhodes"
      ],
      "a": [
       "Cynthia Eisen",
@@ -47653,8 +47653,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Christine Dugan"
      ],
      "a": [
       "Jane Meng",
@@ -47668,8 +47668,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Chris Norton"
      ],
      "a": [
       "Eric Markowitz",
@@ -47679,8 +47679,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Talen Singer",
+      "Ed Gieske"
      ],
      "a": [
       "Jay Rohatgi",
@@ -47694,8 +47694,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Brett Kleger"
      ],
      "a": [
       "Cynthia Eisen",
@@ -47705,8 +47705,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Chris Norton"
      ],
      "a": [
       "Linda Schuda",
@@ -47720,8 +47720,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "David Marchese"
      ],
      "a": [
       "Jane Meng",
@@ -47735,8 +47735,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Nancy Blank",
@@ -47746,8 +47746,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Cindy Hu"
      ],
      "a": [
       "Cynthia Eisen",
@@ -47757,8 +47757,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Jamila Sefiane"
      ],
      "a": [
       "Linda Schuda",
@@ -47772,8 +47772,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Ed Gieske"
      ],
      "a": [
       "Jay Rohatgi",
@@ -47783,8 +47783,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Talen Singer",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Eric Markowitz",
@@ -47794,8 +47794,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Chris Norton"
      ],
      "a": [
       "Cynthia Eisen",
@@ -47805,8 +47805,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "Talen Singer"
      ],
      "a": [
       "Gina Pultorak",
@@ -47816,8 +47816,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "David Marchese"
      ],
      "a": [
       "Linda Schuda",
@@ -47831,8 +47831,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Ed Gieske"
      ],
      "a": [
       "Jane Meng",
@@ -47846,8 +47846,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Kristina Rhodes"
      ],
      "a": [
       "Cynthia Eisen",
@@ -47857,8 +47857,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Sandra Thompson"
      ],
      "a": [
       "Gina Pultorak",
@@ -47868,8 +47868,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brett Kleger",
+      "Talen Singer"
      ],
      "a": [
       "Eric Markowitz",
@@ -47879,8 +47879,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Ed Gieske"
      ],
      "a": [
       "Tom Zentmeyer",
@@ -47894,8 +47894,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandra Thompson",
+      "David Marchese"
      ],
      "a": [
       "Gina Pultorak",
@@ -47905,8 +47905,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Chris Norton"
      ],
      "a": [
       "Jane Meng",
@@ -47916,8 +47916,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristina Rhodes",
+      "Talen Singer"
      ],
      "a": [
       "Linda Schuda",
@@ -47931,8 +47931,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Dugan",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Nancy Blank",
@@ -47942,8 +47942,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cindy Hu",
+      "Christine Dugan"
      ],
      "a": [
       "Gina Pultorak",
@@ -47957,8 +47957,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jamila Sefiane",
+      "Kristina Rhodes"
      ],
      "a": [
       "Jane Meng",
@@ -47968,8 +47968,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Marchese",
+      "Brett Kleger"
      ],
      "a": [
       "Jay Rohatgi",
@@ -47979,8 +47979,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Norton",
+      "Sandro Stefanelli"
      ],
      "a": [
       "Todd Law",
@@ -48969,7 +48969,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-06T04:19:26.295Z";
+  DATA.meta.asOf = "2026-11-06T13:28:49.760Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
