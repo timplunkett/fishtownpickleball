@@ -75272,7 +75272,7 @@
      "t": "female",
      "h": [
       "Margaret Bayse",
-      "Nan Feng"
+      "Shobana Ravishankar"
      ],
      "a": [
       "",
@@ -75397,7 +75397,7 @@
     {
      "t": "male",
      "h": [
-      "Stephen Stasiulewicz",
+      "Pedro Oliveira",
       "Madan P"
      ],
      "a": [
@@ -75408,7 +75408,7 @@
     {
      "t": "mixed",
      "h": [
-      "Margaret Bayse",
+      "Nan Feng",
       "Herald Barber"
      ],
      "a": [
@@ -76735,7 +76735,381 @@
    "home": "Pickleball Kingdom Tinton Falls",
    "away": "Premiere",
    "time": "2026-11-08T14:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Bellaran",
+      "John Laspina"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jody Scarano",
+      "Robert Toledo"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Christine Clark",
+      "Mike Lasko"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sarah Flynn",
+      "Shawn Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Christine Clark",
+      "Jody Scarano"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janet Bellaran",
+      "Anita Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nate Brochin",
+      "Luis Perez"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shawn Maloney",
+      "Robert Toledo"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Bellaran",
+      "John Laspina"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jody Scarano",
+      "Robert Toledo"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Christine Clark",
+      "Mike Lasko"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Anita Maloney",
+      "Shawn Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Christine Clark",
+      "Anita Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jody Scarano",
+      "Sarah Flynn"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Luis Perez",
+      "Nate Brochin"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "John Laspina",
+      "Mike Lasko"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Christine Clark",
+      "Nate Brochin"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Bellaran",
+      "Robert Toledo"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sarah Flynn",
+      "Luis Perez"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Anita Maloney",
+      "John Laspina"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Sarah Flynn",
+      "Anita Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janet Bellaran",
+      "Christine Clark"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "John Laspina",
+      "Luis Perez"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Toledo",
+      "Shawn Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Jody Scarano",
+      "Shawn Maloney"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Janet Bellaran",
+      "Nate Brochin"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Christine Clark",
+      "Luis Perez"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Sarah Flynn",
+      "Mike Lasko"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Janet Bellaran",
+      "Sarah Flynn"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "Jody Scarano",
+      "Christine Clark"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Nate Brochin",
+      "Robert Toledo"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Mike Lasko",
+      "John Laspina"
+     ],
+     "a": [
+      "",
+      ""
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -79044,7 +79418,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T03:53:29.356Z";
+  DATA.meta.asOf = "2026-11-07T12:11:50.758Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

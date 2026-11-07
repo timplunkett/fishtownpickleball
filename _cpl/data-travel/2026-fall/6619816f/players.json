@@ -2229,7 +2229,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 268
+      "ranking": 269
     },
     {
       "playerId": "54c51642-8048-4dd1-9221-a4306301ff72",
@@ -2850,7 +2850,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 265
+      "ranking": 266
     },
     {
       "playerId": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
@@ -3793,7 +3793,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 264
+      "ranking": 265
     },
     {
       "playerId": "91d23f87-e0fc-4448-890e-c3abd96c70b4",
@@ -4046,7 +4046,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 263
+      "ranking": 264
     },
     {
       "playerId": "9b7488c5-bc66-41e4-8fa5-873e70c190e3",
@@ -4184,7 +4184,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 267
+      "ranking": 268
     },
     {
       "playerId": "9dae8c17-6878-473a-83e9-a43b434f876b",
@@ -4345,7 +4345,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 266
+      "ranking": 267
     },
     {
       "playerId": "a19b179a-6a16-43a7-b2af-8d6e8d1a1205",
@@ -4920,7 +4920,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 269
+      "ranking": 270
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",
@@ -5404,6 +5404,29 @@
       "genderWins": 0,
       "genderLosses": 7,
       "ranking": 241
+    },
+    {
+      "playerId": "d4c1185c-6147-4164-90e1-06ecfa162596",
+      "firstName": "Vaughn",
+      "lastName": "Lawrence",
+      "gender": "Male",
+      "dupr": "12XOX7",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 263
     },
     {
       "playerId": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",

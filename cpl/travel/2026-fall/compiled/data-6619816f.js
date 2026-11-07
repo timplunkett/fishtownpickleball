@@ -6895,7 +6895,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 265,
+   "leagueRank": 266,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6924,7 +6924,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 269,
+   "leagueRank": 270,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6953,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 264,
+   "leagueRank": 265,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6982,7 +6982,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 263,
+   "leagueRank": 264,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -49348,7 +49348,8 @@
   "Shahar Gelber": "7efd9bc6-6b2f-4e98-b785-136fea990664",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
-  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
+  "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
+  "Vaughn Lawrence": "d4c1185c-6147-4164-90e1-06ecfa162596"
  },
  "availableSubs": [
   {
@@ -49960,6 +49961,14 @@
    "outsideSub": true
   },
   {
+   "name": "Vaughn Lawrence",
+   "playerId": "d4c1185c-6147-4164-90e1-06ecfa162596",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Alice Napolitano",
    "playerId": "d56483b8-a5b8-4c1f-8437-39fcf90a5030",
    "gender": "Female",
@@ -50165,7 +50174,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T03:52:59.201Z";
+  DATA.meta.asOf = "2026-11-07T12:11:22.203Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
