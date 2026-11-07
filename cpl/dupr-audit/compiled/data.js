@@ -10219,6 +10219,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Karan N",
+   "playerId": "4c3b5a3a-2cbe-4287-a060-5b73d9fbf12b",
+   "team": "Pickle House",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Karan Pescatore",
    "playerId": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
    "team": "Pickleball Palace",

@@ -457,7 +457,7 @@
    "winPct": 84,
    "diff": 115,
    "ppg": 20.6,
-   "leagueRank": 15,
+   "leagueRank": 14,
    "rating": 0.3,
    "ratingGames": 25,
    "confidence": 83,
@@ -515,7 +515,7 @@
    "winPct": 83.3,
    "diff": 104,
    "ppg": 20.6,
-   "leagueRank": 44,
+   "leagueRank": 72,
    "rating": 1.9,
    "ratingGames": 18,
    "confidence": 78,
@@ -660,7 +660,7 @@
    "winPct": 82.5,
    "diff": 219,
    "ppg": 20.1,
-   "leagueRank": 12,
+   "leagueRank": 11,
    "rating": 3.9,
    "ratingGames": 57,
    "confidence": 91,
@@ -689,7 +689,7 @@
    "winPct": 82.5,
    "diff": 172,
    "ppg": 20.1,
-   "leagueRank": 17,
+   "leagueRank": 16,
    "rating": 2.3,
    "ratingGames": 40,
    "confidence": 88,
@@ -776,7 +776,7 @@
    "winPct": 81.8,
    "diff": 150,
    "ppg": 20.2,
-   "leagueRank": 21,
+   "leagueRank": 20,
    "rating": 1.6,
    "ratingGames": 33,
    "confidence": 87,
@@ -805,7 +805,7 @@
    "winPct": 81.8,
    "diff": 112,
    "ppg": 20.2,
-   "leagueRank": 23,
+   "leagueRank": 51,
    "rating": 1,
    "ratingGames": 22,
    "confidence": 81,
@@ -834,7 +834,7 @@
    "winPct": 81.8,
    "diff": 96,
    "ppg": 20.5,
-   "leagueRank": 11,
+   "leagueRank": 44,
    "rating": 2,
    "ratingGames": 22,
    "confidence": 82,
@@ -863,7 +863,7 @@
    "winPct": 81.4,
    "diff": 205,
    "ppg": 19.9,
-   "leagueRank": 27,
+   "leagueRank": 25,
    "rating": 2,
    "ratingGames": 43,
    "confidence": 89,
@@ -892,7 +892,7 @@
    "winPct": 81.1,
    "diff": 174,
    "ppg": 20.2,
-   "leagueRank": 24,
+   "leagueRank": 22,
    "rating": 2.3,
    "ratingGames": 53,
    "confidence": 91,
@@ -921,7 +921,7 @@
    "winPct": 81.1,
    "diff": 171,
    "ppg": 20.4,
-   "leagueRank": 18,
+   "leagueRank": 17,
    "rating": 2.1,
    "ratingGames": 37,
    "confidence": 88,
@@ -950,7 +950,7 @@
    "winPct": 81,
    "diff": 186,
    "ppg": 20.1,
-   "leagueRank": 16,
+   "leagueRank": 15,
    "rating": 2.4,
    "ratingGames": 42,
    "confidence": 89,
@@ -979,7 +979,7 @@
    "winPct": 80.8,
    "diff": 134,
    "ppg": 20.4,
-   "leagueRank": 14,
+   "leagueRank": 13,
    "rating": 2.4,
    "ratingGames": 26,
    "confidence": 84,
@@ -1008,7 +1008,7 @@
    "winPct": 80.6,
    "diff": 147,
    "ppg": 20.3,
-   "leagueRank": 19,
+   "leagueRank": 18,
    "rating": 2,
    "ratingGames": 31,
    "confidence": 85,
@@ -1037,7 +1037,7 @@
    "winPct": 80.6,
    "diff": 130,
    "ppg": 20.2,
-   "leagueRank": 13,
+   "leagueRank": 12,
    "rating": 3.4,
    "ratingGames": 31,
    "confidence": 87,
@@ -1153,7 +1153,7 @@
    "winPct": 79.2,
    "diff": 96,
    "ppg": 20.3,
-   "leagueRank": 28,
+   "leagueRank": 26,
    "rating": 1.8,
    "ratingGames": 24,
    "confidence": 83,
@@ -1182,7 +1182,7 @@
    "winPct": 78.4,
    "diff": 190,
    "ppg": 20.3,
-   "leagueRank": 22,
+   "leagueRank": 21,
    "rating": 3.1,
    "ratingGames": 51,
    "confidence": 90,
@@ -1211,7 +1211,7 @@
    "winPct": 78.4,
    "diff": 179,
    "ppg": 20.2,
-   "leagueRank": 25,
+   "leagueRank": 23,
    "rating": 3.2,
    "ratingGames": 51,
    "confidence": 90,
@@ -1240,7 +1240,7 @@
    "winPct": 78.3,
    "diff": 226,
    "ppg": 20.1,
-   "leagueRank": 20,
+   "leagueRank": 19,
    "rating": 3.8,
    "ratingGames": 60,
    "confidence": 92,
@@ -1269,7 +1269,7 @@
    "winPct": 78.1,
    "diff": 129,
    "ppg": 20.1,
-   "leagueRank": 29,
+   "leagueRank": 27,
    "rating": 1.4,
    "ratingGames": 32,
    "confidence": 87,
@@ -1298,7 +1298,7 @@
    "winPct": 77.8,
    "diff": 149,
    "ppg": 20.3,
-   "leagueRank": 26,
+   "leagueRank": 24,
    "rating": 2,
    "ratingGames": 27,
    "confidence": 85,
@@ -1356,7 +1356,7 @@
    "winPct": 77.5,
    "diff": 177,
    "ppg": 20.1,
-   "leagueRank": 30,
+   "leagueRank": 28,
    "rating": 2.1,
    "ratingGames": 40,
    "confidence": 88,
@@ -1414,7 +1414,7 @@
    "winPct": 76.6,
    "diff": 168,
    "ppg": 19.7,
-   "leagueRank": 32,
+   "leagueRank": 30,
    "rating": 2.6,
    "ratingGames": 47,
    "confidence": 89,
@@ -1443,7 +1443,7 @@
    "winPct": 75.8,
    "diff": 110,
    "ppg": 20.2,
-   "leagueRank": 41,
+   "leagueRank": 39,
    "rating": 1.6,
    "ratingGames": 33,
    "confidence": 87,
@@ -1472,7 +1472,7 @@
    "winPct": 75.4,
    "diff": 257,
    "ppg": 19.7,
-   "leagueRank": 35,
+   "leagueRank": 33,
    "rating": 2.7,
    "ratingGames": 61,
    "confidence": 92,
@@ -1501,7 +1501,7 @@
    "winPct": 75.4,
    "diff": 175,
    "ppg": 20,
-   "leagueRank": 39,
+   "leagueRank": 37,
    "rating": 2.2,
    "ratingGames": 57,
    "confidence": 91,
@@ -1530,7 +1530,7 @@
    "winPct": 75,
    "diff": 203,
    "ppg": 20.1,
-   "leagueRank": 33,
+   "leagueRank": 31,
    "rating": 2,
    "ratingGames": 60,
    "confidence": 92,
@@ -1559,7 +1559,7 @@
    "winPct": 75,
    "diff": 116,
    "ppg": 20.1,
-   "leagueRank": 31,
+   "leagueRank": 29,
    "rating": 3.5,
    "ratingGames": 28,
    "confidence": 85,
@@ -1733,7 +1733,7 @@
    "winPct": 74,
    "diff": 134,
    "ppg": 19.5,
-   "leagueRank": 50,
+   "leagueRank": 48,
    "rating": 1.3,
    "ratingGames": 50,
    "confidence": 90,
@@ -1762,7 +1762,7 @@
    "winPct": 73.3,
    "diff": 132,
    "ppg": 19.9,
-   "leagueRank": 36,
+   "leagueRank": 34,
    "rating": 2.6,
    "ratingGames": 30,
    "confidence": 85,
@@ -1791,7 +1791,7 @@
    "winPct": 73.1,
    "diff": 223,
    "ppg": 20.1,
-   "leagueRank": 40,
+   "leagueRank": 38,
    "rating": 2.3,
    "ratingGames": 52,
    "confidence": 91,
@@ -1820,7 +1820,7 @@
    "winPct": 72.7,
    "diff": 161,
    "ppg": 19.7,
-   "leagueRank": 46,
+   "leagueRank": 43,
    "rating": 2.5,
    "ratingGames": 55,
    "confidence": 91,
@@ -1849,7 +1849,7 @@
    "winPct": 72.7,
    "diff": 99,
    "ppg": 20.1,
-   "leagueRank": 37,
+   "leagueRank": 35,
    "rating": 2.3,
    "ratingGames": 22,
    "confidence": 81,
@@ -1907,7 +1907,7 @@
    "winPct": 72.5,
    "diff": 122,
    "ppg": 19.6,
-   "leagueRank": 49,
+   "leagueRank": 47,
    "rating": 2.5,
    "ratingGames": 51,
    "confidence": 90,
@@ -1936,7 +1936,7 @@
    "winPct": 72.4,
    "diff": 112,
    "ppg": 19.9,
-   "leagueRank": 42,
+   "leagueRank": 40,
    "rating": 1.8,
    "ratingGames": 29,
    "confidence": 85,
@@ -1994,7 +1994,7 @@
    "winPct": 72,
    "diff": 64,
    "ppg": 19,
-   "leagueRank": 69,
+   "leagueRank": 68,
    "rating": 0.2,
    "ratingGames": 25,
    "confidence": 84,
@@ -2023,7 +2023,7 @@
    "winPct": 71.8,
    "diff": 154,
    "ppg": 20,
-   "leagueRank": 43,
+   "leagueRank": 41,
    "rating": 2.4,
    "ratingGames": 39,
    "confidence": 89,
@@ -2052,7 +2052,7 @@
    "winPct": 71.8,
    "diff": 139,
    "ppg": 20.2,
-   "leagueRank": 34,
+   "leagueRank": 32,
    "rating": 3.5,
    "ratingGames": 39,
    "confidence": 88,
@@ -2110,7 +2110,7 @@
    "winPct": 71.4,
    "diff": 63,
    "ppg": 19.6,
-   "leagueRank": 64,
+   "leagueRank": 63,
    "rating": 2,
    "ratingGames": 21,
    "confidence": 79,
@@ -2168,7 +2168,7 @@
    "winPct": 70.7,
    "diff": 91,
    "ppg": 19.9,
-   "leagueRank": 56,
+   "leagueRank": 55,
    "rating": 1.5,
    "ratingGames": 41,
    "confidence": 89,
@@ -2197,7 +2197,7 @@
    "winPct": 70.6,
    "diff": 139,
    "ppg": 19.5,
-   "leagueRank": 61,
+   "leagueRank": 60,
    "rating": 0.8,
    "ratingGames": 34,
    "confidence": 87,
@@ -2226,7 +2226,7 @@
    "winPct": 70.6,
    "diff": 115,
    "ppg": 19.4,
-   "leagueRank": 65,
+   "leagueRank": 64,
    "rating": 0.6,
    "ratingGames": 51,
    "confidence": 91,
@@ -2313,7 +2313,7 @@
    "winPct": 70.4,
    "diff": 70,
    "ppg": 19.7,
-   "leagueRank": 55,
+   "leagueRank": 54,
    "rating": 2.2,
    "ratingGames": 27,
    "confidence": 85,
@@ -2342,7 +2342,7 @@
    "winPct": 70,
    "diff": 122,
    "ppg": 20.3,
-   "leagueRank": 38,
+   "leagueRank": 36,
    "rating": 2.6,
    "ratingGames": 30,
    "confidence": 85,
@@ -2371,7 +2371,7 @@
    "winPct": 70,
    "diff": 115,
    "ppg": 19.8,
-   "leagueRank": 48,
+   "leagueRank": 46,
    "rating": 3,
    "ratingGames": 40,
    "confidence": 89,
@@ -2400,7 +2400,7 @@
    "winPct": 70,
    "diff": 78,
    "ppg": 19.9,
-   "leagueRank": 58,
+   "leagueRank": 57,
    "rating": 1.5,
    "ratingGames": 30,
    "confidence": 86,
@@ -2429,7 +2429,7 @@
    "winPct": 70,
    "diff": 41,
    "ppg": 19.6,
-   "leagueRank": 67,
+   "leagueRank": 66,
    "rating": 2.3,
    "ratingGames": 30,
    "confidence": 86,
@@ -2487,7 +2487,7 @@
    "winPct": 69.6,
    "diff": 168,
    "ppg": 20.1,
-   "leagueRank": 47,
+   "leagueRank": 45,
    "rating": 1.9,
    "ratingGames": 46,
    "confidence": 90,
@@ -2545,7 +2545,7 @@
    "winPct": 69.4,
    "diff": 182,
    "ppg": 19.7,
-   "leagueRank": 45,
+   "leagueRank": 42,
    "rating": 4,
    "ratingGames": 49,
    "confidence": 90,
@@ -2603,7 +2603,7 @@
    "winPct": 69,
    "diff": 105,
    "ppg": 20,
-   "leagueRank": 60,
+   "leagueRank": 59,
    "rating": 1.6,
    "ratingGames": 42,
    "confidence": 89,
@@ -2632,7 +2632,7 @@
    "winPct": 68.9,
    "diff": 142,
    "ppg": 19.6,
-   "leagueRank": 51,
+   "leagueRank": 49,
    "rating": 2.3,
    "ratingGames": 45,
    "confidence": 90,
@@ -2661,7 +2661,7 @@
    "winPct": 68.8,
    "diff": 116,
    "ppg": 19.9,
-   "leagueRank": 63,
+   "leagueRank": 62,
    "rating": 1.9,
    "ratingGames": 48,
    "confidence": 90,
@@ -2690,7 +2690,7 @@
    "winPct": 68.8,
    "diff": 91,
    "ppg": 19.9,
-   "leagueRank": 54,
+   "leagueRank": 53,
    "rating": 2.7,
    "ratingGames": 48,
    "confidence": 90,
@@ -2748,7 +2748,7 @@
    "winPct": 68.3,
    "diff": 170,
    "ppg": 19.8,
-   "leagueRank": 52,
+   "leagueRank": 50,
    "rating": 2.5,
    "ratingGames": 60,
    "confidence": 92,
@@ -2777,7 +2777,7 @@
    "winPct": 68.2,
    "diff": 106,
    "ppg": 19.8,
-   "leagueRank": 68,
+   "leagueRank": 67,
    "rating": 0.6,
    "ratingGames": 44,
    "confidence": 89,
@@ -2806,7 +2806,7 @@
    "winPct": 67.9,
    "diff": 45,
    "ppg": 19.4,
-   "leagueRank": 72,
+   "leagueRank": 71,
    "rating": 1,
    "ratingGames": 28,
    "confidence": 85,
@@ -2864,7 +2864,7 @@
    "winPct": 66.7,
    "diff": 118,
    "ppg": 19.4,
-   "leagueRank": 70,
+   "leagueRank": 69,
    "rating": 1.6,
    "ratingGames": 36,
    "confidence": 88,
@@ -2893,7 +2893,7 @@
    "winPct": 66.7,
    "diff": 117,
    "ppg": 19.6,
-   "leagueRank": 66,
+   "leagueRank": 65,
    "rating": 1.2,
    "ratingGames": 30,
    "confidence": 85,
@@ -2922,7 +2922,7 @@
    "winPct": 66.7,
    "diff": 92,
    "ppg": 20.2,
-   "leagueRank": 59,
+   "leagueRank": 58,
    "rating": 2,
    "ratingGames": 36,
    "confidence": 88,
@@ -3125,7 +3125,7 @@
    "winPct": 66.1,
    "diff": 133,
    "ppg": 20.1,
-   "leagueRank": 57,
+   "leagueRank": 56,
    "rating": 2.8,
    "ratingGames": 59,
    "confidence": 92,
@@ -3154,7 +3154,7 @@
    "winPct": 66,
    "diff": 135,
    "ppg": 19.9,
-   "leagueRank": 62,
+   "leagueRank": 61,
    "rating": 2.2,
    "ratingGames": 48,
    "confidence": 90,
@@ -3212,7 +3212,7 @@
    "winPct": 65.9,
    "diff": 131,
    "ppg": 19.4,
-   "leagueRank": 53,
+   "leagueRank": 52,
    "rating": 4.4,
    "ratingGames": 41,
    "confidence": 89,
@@ -3328,7 +3328,7 @@
    "winPct": 64.8,
    "diff": 149,
    "ppg": 19.4,
-   "leagueRank": 71,
+   "leagueRank": 70,
    "rating": 2.5,
    "ratingGames": 71,
    "confidence": 93,
@@ -74846,8 +74846,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Goeckeler",
+      "Stephen Villani"
      ],
      "a": [
       "Dawn Gordon",
@@ -74857,8 +74857,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Grennan",
+      "Alex Lawrason"
      ],
      "a": [
       "Lisa Blaber",
@@ -74868,8 +74868,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Tom Matko"
      ],
      "a": [
       "Linda Goss",
@@ -74879,8 +74879,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Toby Athron"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -74890,8 +74890,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Goeckeler",
+      "Cyndee Catalano"
      ],
      "a": [
       "Linda Goss",
@@ -74901,8 +74901,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Elizabeth Biehl"
      ],
      "a": [
       "Lisa Blaber",
@@ -74912,8 +74912,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lawrason",
+      "Toby Athron"
      ],
      "a": [
       "Jason Fingerman",
@@ -74923,8 +74923,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Matko",
+      "Ken Carlson"
      ],
      "a": [
       "Pete Dunn",
@@ -74934,8 +74934,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cyndee Catalano",
+      "Toby Athron"
      ],
      "a": [
       "Kelley Batejan",
@@ -74945,8 +74945,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Stephen Villani"
      ],
      "a": [
       "Dawn Gordon",
@@ -74956,8 +74956,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Grennan",
+      "Tom Matko"
      ],
      "a": [
       "Lisa Blaber",
@@ -74967,8 +74967,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Ken Carlson"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -74978,8 +74978,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Elizabeth Biehl"
      ],
      "a": [
       "Dawn Gordon",
@@ -74989,8 +74989,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Goeckeler",
+      "Kathleen Grennan"
      ],
      "a": [
       "Linda Goss",
@@ -75000,8 +75000,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Matko",
+      "Ken Carlson"
      ],
      "a": [
       "Jason Fingerman",
@@ -75011,8 +75011,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lawrason",
+      "Stephen Villani"
      ],
      "a": [
       "David Corwin",
@@ -75022,8 +75022,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Goeckeler",
+      "Ken Carlson"
      ],
      "a": [
       "Linda Goss",
@@ -75033,8 +75033,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cyndee Catalano",
+      "Toby Athron"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -75044,8 +75044,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Stephen Villani"
      ],
      "a": [
       "Dawn Gordon",
@@ -75055,8 +75055,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Grennan",
+      "Alex Lawrason"
      ],
      "a": [
       "Kelley Batejan",
@@ -75066,8 +75066,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Goeckeler",
+      "Kathleen Grennan"
      ],
      "a": [
       "Linda Goss",
@@ -75077,8 +75077,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Cyndee Catalano"
      ],
      "a": [
       "Lisa Blaber",
@@ -75088,8 +75088,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stephen Villani",
+      "Toby Athron"
      ],
      "a": [
       "David Corwin",
@@ -75099,8 +75099,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Matko",
+      "Alex Lawrason"
      ],
      "a": [
       "Jason Fingerman",
@@ -75110,8 +75110,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Ken Carlson"
      ],
      "a": [
       "Dawn Gordon",
@@ -75121,8 +75121,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cyndee Catalano",
+      "Alex Lawrason"
      ],
      "a": [
       "Lisa Blaber",
@@ -75132,8 +75132,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathleen Grennan",
+      "Tom Matko"
      ],
      "a": [
       "Barb Mulckhuyse",
@@ -75143,8 +75143,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Goeckeler",
+      "Stephen Villani"
      ],
      "a": [
       "Linda Goss",
@@ -75154,8 +75154,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tammy Dragon",
+      "Susan Goeckeler"
      ],
      "a": [
       "Linda Goss",
@@ -75165,8 +75165,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Elizabeth Biehl",
+      "Cyndee Catalano"
      ],
      "a": [
       "Dawn Gordon",
@@ -75176,8 +75176,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Matko",
+      "Toby Athron"
      ],
      "a": [
       "Jason Fingerman",
@@ -75187,8 +75187,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lawrason",
+      "Ken Carlson"
      ],
      "a": [
       "David Corwin",
@@ -75371,16 +75371,12 @@
     {
      "t": "female",
      "h": [
-      "Kim Bober",
+      "Margaret Bayse",
       "Shobana Ravishankar"
      ],
      "a": [
       "",
       ""
-     ],
-     "hSub": [
-      1,
-      0
      ]
     },
     {
@@ -76378,8 +76374,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Andrew Fang"
      ],
      "a": [
       "Rachel Shirley",
@@ -76389,8 +76385,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Loeber",
+      "Greg Schipske"
      ],
      "a": [
       "Joan Glass",
@@ -76400,8 +76396,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Yuri Paritsky"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -76411,8 +76407,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "John Dechristopher"
      ],
      "a": [
       "Julie Chiappa",
@@ -76422,8 +76418,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Lisa Loeber"
      ],
      "a": [
       "Rachel Shirley",
@@ -76433,8 +76429,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Kimberly Brooks"
      ],
      "a": [
       "Denise Brownlee",
@@ -76444,8 +76440,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Greg Schipske",
+      "Andrew Fang"
      ],
      "a": [
       "Robert Alexander",
@@ -76455,8 +76451,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Dechristopher",
+      "Dave Hartzell"
      ],
      "a": [
       "Bart Allgeier",
@@ -76466,8 +76462,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Yuri Paritsky"
      ],
      "a": [
       "Julie Chiappa",
@@ -76477,8 +76473,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Dave Hartzell"
      ],
      "a": [
       "Denise Brownlee",
@@ -76488,8 +76484,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Andrew Fang"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -76499,8 +76495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kimberly Brooks",
+      "Richard Ross"
      ],
      "a": [
       "Rachel Shirley",
@@ -76510,8 +76506,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberly Brooks",
+      "Lizzie Brofft"
      ],
      "a": [
       "Joan Glass",
@@ -76521,8 +76517,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Lisa Loeber"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -76532,8 +76528,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Greg Schipske",
+      "John Dechristopher"
      ],
      "a": [
       "Robert Alexander",
@@ -76543,8 +76539,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Fang",
+      "Richard Ross"
      ],
      "a": [
       "Neil Vijayendran",
@@ -76554,8 +76550,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kimberly Brooks",
+      "Yuri Paritsky"
      ],
      "a": [
       "Joan Glass",
@@ -76565,8 +76561,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Loeber",
+      "Greg Schipske"
      ],
      "a": [
       "Rachel Shirley",
@@ -76576,8 +76572,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "John Dechristopher"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -76587,8 +76583,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Dave Hartzell"
      ],
      "a": [
       "Denise Brownlee",
@@ -76598,8 +76594,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Lizzie Brofft"
      ],
      "a": [
       "Joan Glass",
@@ -76609,8 +76605,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Lisa Loeber"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -76620,8 +76616,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yuri Paritsky",
+      "Richard Ross"
      ],
      "a": [
       "Neil Vijayendran",
@@ -76631,8 +76627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Greg Schipske",
+      "Andrew Fang"
      ],
      "a": [
       "Robert Alexander",
@@ -76642,8 +76638,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Andrew Fang"
      ],
      "a": [
       "Julie Chiappa",
@@ -76653,8 +76649,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patty Andrzejewski",
+      "Dave Hartzell"
      ],
      "a": [
       "Denise Brownlee",
@@ -76664,8 +76660,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kimberly Brooks",
+      "Richard Ross"
      ],
      "a": [
       "Rachel Shirley",
@@ -76675,8 +76671,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lisa Loeber",
+      "John Dechristopher"
      ],
      "a": [
       "Kristie Capitanelli",
@@ -76686,8 +76682,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Maussner",
+      "Patty Andrzejewski"
      ],
      "a": [
       "Rachel Shirley",
@@ -76697,8 +76693,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lizzie Brofft",
+      "Lisa Loeber"
      ],
      "a": [
       "Joan Glass",
@@ -76708,8 +76704,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Dechristopher",
+      "Andrew Fang"
      ],
      "a": [
       "Samuel Sickles",
@@ -76719,8 +76715,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yuri Paritsky",
+      "Greg Schipske"
      ],
      "a": [
       "Neil Vijayendran",
@@ -77484,8 +77480,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katy Taylor",
+      "Richie Nicholasi"
      ],
      "a": [
       "Ann Betterton",
@@ -77495,8 +77491,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Kelly",
+      "David Tisony"
      ],
      "a": [
       "Cathy Proctor",
@@ -77506,8 +77502,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "Hal Greenspan"
      ],
      "a": [
       "Geordielyn Alviola",
@@ -77517,8 +77513,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heidi Lipton",
+      "Michael Stout"
      ],
      "a": [
       "Yolanda Li",
@@ -77528,8 +77524,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "Karen Kelly"
      ],
      "a": [
       "Ann Betterton",
@@ -77539,8 +77535,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Katy Taylor",
+      "Lynne Walrod"
      ],
      "a": [
       "Saritha Kondra",
@@ -77550,8 +77546,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Mendez",
+      "Hal Greenspan"
      ],
      "a": [
       "Karan Bhagat",
@@ -77561,8 +77557,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Richie Nicholasi",
+      "John Dedeaux"
      ],
      "a": [
       "Ben Xie",
@@ -77572,8 +77568,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heidi Lipton",
+      "John Dedeaux"
      ],
      "a": [
       "Geordielyn Alviola",
@@ -77583,8 +77579,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "Hal Greenspan"
      ],
      "a": [
       "Saritha Kondra",
@@ -77594,8 +77590,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Kelly",
+      "Rob Mendez"
      ],
      "a": [
       "Yolanda Li",
@@ -77605,8 +77601,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynne Walrod",
+      "David Tisony"
      ],
      "a": [
       "Ann Betterton",
@@ -77616,8 +77612,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Katy Taylor",
+      "Karen Kelly"
      ],
      "a": [
       "Cathy Proctor",
@@ -77627,8 +77623,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "Heidi Lipton"
      ],
      "a": [
       "Saritha Kondra",
@@ -77638,8 +77634,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Stout",
+      "David Tisony"
      ],
      "a": [
       "Karan Bhagat",
@@ -77649,8 +77645,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Richie Nicholasi",
+      "John Dedeaux"
      ],
      "a": [
       "Ben Xie",
@@ -77660,8 +77656,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heidi Lipton",
+      "Rob Mendez"
      ],
      "a": [
       "Ann Betterton",
@@ -77671,8 +77667,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katy Taylor",
+      "Michael Stout"
      ],
      "a": [
       "Geordielyn Alviola",
@@ -77682,8 +77678,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Kelly",
+      "Hal Greenspan"
      ],
      "a": [
       "Saritha Kondra",
@@ -77693,8 +77689,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynne Walrod",
+      "Richie Nicholasi"
      ],
      "a": [
       "Cathy Proctor",
@@ -77704,8 +77700,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "Katy Taylor"
      ],
      "a": [
       "Ann Betterton",
@@ -77715,8 +77711,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heidi Lipton",
+      "Lynne Walrod"
      ],
      "a": [
       "Saritha Kondra",
@@ -77726,8 +77722,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hal Greenspan",
+      "Michael Stout"
      ],
      "a": [
       "Gajendra Mehta",
@@ -77737,8 +77733,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Dedeaux",
+      "David Tisony"
      ],
      "a": [
       "Craig Girvan",
@@ -77748,8 +77744,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Karen Kelly",
+      "John Dedeaux"
      ],
      "a": [
       "Geordielyn Alviola",
@@ -77759,8 +77755,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lynne Walrod",
+      "Hal Greenspan"
      ],
      "a": [
       "Yolanda Li",
@@ -77770,8 +77766,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Katy Taylor",
+      "Rob Mendez"
      ],
      "a": [
       "Saritha Kondra",
@@ -77781,8 +77777,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "David Tisony"
      ],
      "a": [
       "Cathy Proctor",
@@ -77792,8 +77788,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susan Belanger",
+      "Karen Kelly"
      ],
      "a": [
       "Yolanda Li",
@@ -77803,8 +77799,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Heidi Lipton",
+      "Lynne Walrod"
      ],
      "a": [
       "Ann Betterton",
@@ -77814,8 +77810,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Stout",
+      "Richie Nicholasi"
      ],
      "a": [
       "Gajendra Mehta",
@@ -77825,8 +77821,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rob Mendez",
+      "Hal Greenspan"
      ],
      "a": [
       "Craig Girvan",
@@ -79418,7 +79414,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T12:11:50.758Z";
+  DATA.meta.asOf = "2026-11-07T21:18:02.165Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

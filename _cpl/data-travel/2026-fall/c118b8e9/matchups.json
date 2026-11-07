@@ -1205,9 +1205,9 @@
       "weekNumber": 11,
       "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
       "awayTeamId": "842429da-28de-4fd8-af66-21557ba9fcf0",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 543,
+      "awayPoints": 677,
+      "endResult": "away",
       "scheduledTime": "2026-11-03T19:00:00",
       "homeName": "Dill Dinkers Freehold",
       "awayName": "Pickleball HQ"

@@ -6933,6 +6933,35 @@
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
   },
   {
+   "name": "Shahar Gelber",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 261,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7efd9bc6-6b2f-4e98-b785-136fea990664"
+  },
+  {
    "name": "Caitlyn Moore",
    "gender": "Female",
    "team": "Home Court",
@@ -48925,8 +48954,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Tom Laiso"
      ],
      "a": [
       "Arianna Haresign",
@@ -48936,12 +48965,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Kylie Lupica",
       "Matthew Chen"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -48951,19 +48984,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Shahar Gelber"
      ],
      "a": [
       "Rachel Berger",
       "Zach Bowe"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Lauren Mercado",
@@ -48973,8 +49010,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Arianna Haresign",
@@ -48984,8 +49021,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Joey Angelson"
      ],
      "a": [
       "Rachel Berger",
@@ -48999,8 +49036,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Zach Bowe",
@@ -49010,19 +49047,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vladyslav Dubinin",
+      "Shahar Gelber"
      ],
      "a": [
       "Tyler Arsenault",
       "Caleb Perry-Abner"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Tom Laiso"
      ],
      "a": [
       "Arianna Haresign",
@@ -49032,23 +49073,31 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Shahar Gelber"
      ],
      "a": [
       "Rachel Berger",
       "Tyler Arsenault"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Kylie Lupica",
       "Matthew Chen"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -49058,8 +49107,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Lauren Mercado",
@@ -49069,8 +49118,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Arianna Haresign",
@@ -49080,8 +49129,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Joey Angelson"
      ],
      "a": [
       "Rachel Berger",
@@ -49095,41 +49144,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shahar Gelber",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Stephen Conger",
       "Zach Bowe"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Tyler Arsenault",
       "Matthew Chen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Shahar Gelber"
      ],
      "a": [
       "Arianna Haresign",
       "Zach Bowe"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Rachel Berger",
@@ -49139,8 +49200,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Tom Laiso"
      ],
      "a": [
       "Kylie Lupica",
@@ -49154,19 +49215,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Lauren Mercado",
       "Matthew Chen"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Joey Angelson"
      ],
      "a": [
       "Kylie Lupica",
@@ -49180,8 +49245,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Rachel Berger",
@@ -49191,41 +49256,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Shahar Gelber"
      ],
      "a": [
       "Matthew Chen",
       "Zach Bowe"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kevin Wysoczynski",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Caleb Perry-Abner",
       "Stephen Conger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Shahar Gelber"
      ],
      "a": [
       "Arianna Haresign",
       "Zach Bowe"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Kylie Lupica",
@@ -49239,8 +49316,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Tom Laiso"
      ],
      "a": [
       "Rachel Berger",
@@ -49250,19 +49327,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Vladyslav Dubinin"
      ],
      "a": [
       "Lauren Mercado",
       "Caleb Perry-Abner"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Catherine Stewart",
+      "Joey Angelson"
      ],
      "a": [
       "Arianna Haresign",
@@ -49272,8 +49353,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Lauren Mercado",
@@ -49287,23 +49368,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Shahar Gelber"
      ],
      "a": [
       "Tyler Arsenault",
       "Stephen Conger"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vladyslav Dubinin",
+      "Kevin Wysoczynski"
      ],
      "a": [
       "Matthew Chen",
       "Caleb Perry-Abner"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -49345,7 +49434,6 @@
  "extraPlayerIds": {
   "Shawn Ganow": "1e340ccb-0e0f-4b6b-b760-d1a723561d04",
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
-  "Shahar Gelber": "7efd9bc6-6b2f-4e98-b785-136fea990664",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
@@ -50037,7 +50125,7 @@
   "matchesPlayed": 71,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 253,
+  "totalPlayers": 254,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -50174,7 +50262,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T12:11:22.203Z";
+  DATA.meta.asOf = "2026-11-07T21:17:30.901Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

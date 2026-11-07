@@ -11631,6 +11631,35 @@
    "playerId": "d4b1538b-bc04-4208-b52e-5a2bd5a452a4"
   },
   {
+   "name": "Wenge Li",
+   "gender": "Male",
+   "team": "PickleRage Union County Net Ninjas",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 429,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7d534d9a-c409-42fa-bce1-c04428d6c5e3"
+  },
+  {
    "name": "Roy Dragon",
    "gender": "Male",
    "team": "Flemington",
@@ -84538,7 +84567,369 @@
    "home": "PickleRage Union County Net Ninjas",
    "away": "Pickle House",
    "time": "2026-11-09T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "Kellie Roshak",
+      "Jayson Lee"
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Morgan Valencia King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Eva Rodriguez",
+      "Jimmy Tom"
+     ],
+     "a": [
+      "Katie O'Mara",
+      "Gabe Nacion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Huifang Yao",
+      "Wenge Li"
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Ross Bienstock"
+     ],
+     "hSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Roanne Mae Vega",
+      "Alex Sanchez"
+     ],
+     "a": [
+      "Emily Sowa",
+      "Gray Ferrante"
+     ],
+     "hSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Emily Sowa"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Katie O'Mara"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Morgan Valencia King",
+      "Ross Bienstock"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabe Nacion",
+      "Gray Ferrante"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sowa",
+      "Gabe Nacion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katie O'Mara",
+      "Morgan Valencia King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Ross Bienstock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Gray Ferrante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Emily Sowa"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Katie O'Mara"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Morgan Valencia King",
+      "Gray Ferrante"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabe Nacion",
+      "Ross Bienstock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Gabe Nacion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sowa",
+      "Morgan Valencia King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Ross Bienstock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katie O'Mara",
+      "Gray Ferrante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Emily Sowa"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Katie O'Mara"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabe Nacion",
+      "Gray Ferrante"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Morgan Valencia King",
+      "Ross Bienstock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jen Ogorzat",
+      "Gabe Nacion"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anabel Mesa",
+      "Morgan Valencia King"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sowa",
+      "Ross Bienstock"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katie O'Mara",
+      "Gray Ferrante"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Sowa",
+      "Anabel Mesa"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Katie O'Mara",
+      "Jen Ogorzat"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gabe Nacion",
+      "Morgan Valencia King"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gray Ferrante",
+      "Ross Bienstock"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -84647,7 +85038,6 @@
   "Isabella Silva": "6b4c5230-95a7-4b24-b971-47c8eb53b251",
   "Shaozhi Zheng": "6df2a5f8-60fd-45c0-a7bd-3d0ad722d0fd",
   "Steve Nuguid": "761a4cfd-197b-4887-b9d8-ec32a9a7cf10",
-  "Wenge Li": "7d534d9a-c409-42fa-bce1-c04428d6c5e3",
   "John Dick": "a16c6053-9417-4888-ab5d-7c08b327c117",
   "Karen Kung": "a885b861-0250-467f-a687-91b10977e7b5",
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
@@ -85488,7 +85878,7 @@
   "matchesPlayed": 121,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 417,
+  "totalPlayers": 418,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -85650,7 +86040,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T12:09:07.180Z";
+  DATA.meta.asOf = "2026-11-07T21:15:15.294Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
