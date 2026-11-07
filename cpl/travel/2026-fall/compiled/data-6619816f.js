@@ -3018,7 +3018,7 @@
    "playerId": "32ac3308-4ddd-496b-8942-ca2422322c06"
   },
   {
-   "name": "Amanda Ksiezopolski",
+   "name": "Amanda Kahriman",
    "gender": "Female",
    "team": "Monroe",
    "matches": 7,
@@ -6962,6 +6962,35 @@
    "playerId": "905b402c-9a3e-4b59-ba3e-59f32370ad2e"
   },
   {
+   "name": "Kylie Lupica",
+   "gender": "Female",
+   "team": "Jersey Devil",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 263,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "9b4b88bf-1f87-46cd-829a-84b82a424b82"
+  },
+  {
    "name": "Matthew Russell",
    "gender": "Male",
    "team": "ACE Moorestown",
@@ -8467,7 +8496,7 @@
    "bId": "b122f262-f81d-4fb2-9f11-c473d18a4260"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Ruhi Shah",
    "team": "Monroe",
    "n": 5,
@@ -9417,7 +9446,7 @@
   },
   {
    "a": "Anthony Ursino",
-   "b": "Amanda Ksiezopolski",
+   "b": "Amanda Kahriman",
    "team": "Monroe",
    "n": 4,
    "w": 2,
@@ -11770,7 +11799,7 @@
   },
   {
    "a": "Ali Husain",
-   "b": "Amanda Ksiezopolski",
+   "b": "Amanda Kahriman",
    "team": "Monroe",
    "n": 6,
    "w": 5,
@@ -12094,7 +12123,7 @@
    "bId": "3c81d27f-9e68-439b-a476-f5ac1a54f45a"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Shreyas Pani",
    "team": "Monroe",
    "n": 3,
@@ -13018,7 +13047,7 @@
   },
   {
    "a": "Maanav Shah",
-   "b": "Amanda Ksiezopolski",
+   "b": "Amanda Kahriman",
    "team": "Monroe",
    "n": 3,
    "w": 1,
@@ -14330,7 +14359,7 @@
    "bId": "f3d99274-413c-4720-9c8d-1a71f9b2e717"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Amalia Ditrapani",
    "team": "Monroe",
    "n": 11,
@@ -15357,7 +15386,7 @@
    "bId": "e76985fb-efd1-4180-a340-e4f36abbc8b4"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Sara Synn",
    "team": "Monroe",
    "n": 3,
@@ -19196,7 +19225,7 @@
       "Austin Williams"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ]
     },
@@ -19211,7 +19240,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -19336,7 +19365,7 @@
       "Aurora Lewis"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Amalia Ditrapani"
      ]
     },
@@ -19449,7 +19478,7 @@
      ],
      "a": [
       "Sara Synn",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -19532,7 +19561,7 @@
       "Ken Velarde"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ]
     },
@@ -19561,7 +19590,7 @@
      ],
      "a": [
       "Ruhi Shah",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -22891,7 +22920,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Shreyas Pani"
      ],
      "a": [
@@ -23017,7 +23046,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ],
      "a": [
@@ -23046,7 +23075,7 @@
      "as": 17,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Christine Ferraez",
@@ -23129,7 +23158,7 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ],
      "a": [
@@ -23157,7 +23186,7 @@
      "hs": 10,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sara Synn"
      ],
      "a": [
@@ -23269,7 +23298,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sara Synn"
      ],
      "a": [
@@ -27565,7 +27594,7 @@
       "Michael Li"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Shreyas Pani"
      ]
     },
@@ -27580,7 +27609,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -27692,7 +27721,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -27775,7 +27804,7 @@
       "Chris Damato"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Maanav Shah"
      ]
     },
@@ -27818,7 +27847,7 @@
      ],
      "a": [
       "Ruhi Shah",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -27930,7 +27959,7 @@
      ],
      "a": [
       "Ruhi Shah",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -29406,7 +29435,7 @@
      "hs": 14,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Shreyas Pani"
      ],
      "a": [
@@ -29518,7 +29547,7 @@
      "hs": 21,
      "as": 23,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Maanav Shah"
      ],
      "a": [
@@ -29560,7 +29589,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ],
      "a": [
@@ -29687,7 +29716,7 @@
      "as": 20,
      "h": [
       "Angela Luo",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Rachel Berger",
@@ -29756,7 +29785,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ],
      "a": [
@@ -29784,7 +29813,7 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Angela Luo"
      ],
      "a": [
@@ -35000,7 +35029,7 @@
      "hs": 8,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ],
      "a": [
@@ -35043,7 +35072,7 @@
      "as": 21,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Aurora Lewis",
@@ -35112,7 +35141,7 @@
      "hs": 21,
      "as": 11,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Eric Lin"
      ],
      "a": [
@@ -35238,7 +35267,7 @@
      "hs": 21,
      "as": 23,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ],
      "a": [
@@ -35253,7 +35282,7 @@
      "as": 21,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Kara Infante",
@@ -35365,7 +35394,7 @@
      "as": 29,
      "h": [
       "Ruhi Shah",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Kara Infante",
@@ -37831,7 +37860,7 @@
      "as": 20,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Danielle Mironova",
@@ -37872,7 +37901,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Maanav Shah"
      ],
      "a": [
@@ -37942,7 +37971,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ],
      "a": [
@@ -38041,7 +38070,7 @@
      "as": 17,
      "h": [
       "Ruhi Shah",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Catherine Stewart",
@@ -38124,7 +38153,7 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ],
      "a": [
@@ -38167,7 +38196,7 @@
      "as": 19,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Joey Angelson",
@@ -48021,7 +48050,7 @@
       "Kevin Wysoczynski"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ]
     },
@@ -48050,7 +48079,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -48147,7 +48176,7 @@
       "Adrienne Butrymowicz"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Amalia Ditrapani"
      ]
     },
@@ -48231,7 +48260,7 @@
       "Sebastian Ferrer"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Eric Lin"
      ]
     },
@@ -48273,7 +48302,7 @@
       "Adrienne Butrymowicz"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Richa Shah"
      ]
     },
@@ -48343,7 +48372,7 @@
       "Simon Rosenwasser"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ]
     },
@@ -48371,7 +48400,7 @@
       "Catherine Stewart"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ]
     },
@@ -48891,7 +48920,393 @@
    "home": "Jersey Pickleball Club",
    "away": "Jersey Devil",
    "time": "2026-11-08T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Lupica",
+      "Matthew Chen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Lauren Mercado"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Kylie Lupica"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Lupica",
+      "Matthew Chen"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Lauren Mercado"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Kylie Lupica"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Conger",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Lupica",
+      "Tyler Arsenault"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Matthew Chen"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Lupica",
+      "Arianna Haresign"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Lauren Mercado"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Caleb Perry-Abner",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Zach Bowe"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kylie Lupica",
+      "Tyler Arsenault"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Berger",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Caleb Perry-Abner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arianna Haresign",
+      "Rachel Berger"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lauren Mercado",
+      "Kylie Lupica"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Chen",
+      "Caleb Perry-Abner"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -48932,7 +49347,6 @@
   "Michael Swell": "5436acd1-542a-4ca5-a652-c0addcf23ea2",
   "Shahar Gelber": "7efd9bc6-6b2f-4e98-b785-136fea990664",
   "Alex Wong": "94e317d5-ad61-40c0-ad7a-25ba0ad248f2",
-  "Kylie Lupica": "9b4b88bf-1f87-46cd-829a-84b82a424b82",
   "Marc Padre": "a131a707-f20e-4838-9dcf-7cecb40c2705",
   "Johanna Kreilick": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598"
  },
@@ -49614,7 +50028,7 @@
   "matchesPlayed": 71,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 252,
+  "totalPlayers": 253,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -49751,7 +50165,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-05T23:05:22.098Z";
+  DATA.meta.asOf = "2026-11-07T03:52:59.201Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

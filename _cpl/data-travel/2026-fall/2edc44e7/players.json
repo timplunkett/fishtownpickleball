@@ -5780,7 +5780,7 @@
       "gender": "Male",
       "dupr": "8D0Q7L",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
       "wins": 3,

@@ -881,14 +881,14 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Amanda Ksiezopolski",
+   "name": "Amanda Kahriman",
    "playerId": "2138af89-34bc-4ee2-9955-ff16f0997031",
    "team": "Monroe",
    "slug": "a1413f3d",
    "gender": "Female"
   },
   {
-   "name": "Amanda Ksiezopolski",
+   "name": "Amanda Kahriman",
    "playerId": "2138af89-34bc-4ee2-9955-ff16f0997031",
    "team": "Monroe",
    "slug": "6619816f",
@@ -10846,6 +10846,13 @@ window.DUPR_AUDIT = {
    "playerId": "704ade73-b6ff-403a-8ce8-05282718c80c",
    "team": "Dill Dinkers Hatboro The Factory",
    "slug": "a1413f3d",
+   "gender": "Male"
+  },
+  {
+   "name": "Kevin Jackson",
+   "playerId": "de010831-4d74-40f1-8807-75b0d0447124",
+   "team": "Flemington Green",
+   "slug": "2edc44e7",
    "gender": "Male"
   },
   {

@@ -2061,7 +2061,7 @@
    "playerId": "a89121dd-192b-486d-b39d-18ee8447d641"
   },
   {
-   "name": "Amanda Ksiezopolski",
+   "name": "Amanda Kahriman",
    "gender": "Female",
    "team": "Monroe",
    "matches": 8,
@@ -15298,7 +15298,7 @@
    "bId": "e3d7c7c2-6222-4f4d-b6b3-37931f24274b"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Sophia Kaufmann",
    "team": "Monroe",
    "n": 6,
@@ -18041,7 +18041,7 @@
    "bId": "c94ae231-9f0c-4212-b769-7bd708d8fc38"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Morgan Fishman",
    "team": "Monroe",
    "n": 7,
@@ -18665,7 +18665,7 @@
    "bId": "5127c0b9-aaf8-49c5-a94f-bf92e7ae60f8"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Sara Synn",
    "team": "Monroe",
    "n": 3,
@@ -21824,7 +21824,7 @@
    "bId": "f74b8c41-058d-42b1-9e6b-a67cd0b65e91"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Richa Shah",
    "team": "Monroe",
    "n": 3,
@@ -22917,7 +22917,7 @@
   },
   {
    "a": "Anthony Ursino",
-   "b": "Amanda Ksiezopolski",
+   "b": "Amanda Kahriman",
    "team": "Monroe",
    "n": 4,
    "w": 2,
@@ -22929,7 +22929,7 @@
    "bId": "2138af89-34bc-4ee2-9955-ff16f0997031"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Rahul Purwah",
    "team": "Monroe",
    "n": 4,
@@ -25945,7 +25945,7 @@
    "bId": "b2f8ea85-7734-47a2-8ce7-bd968b3a51bc"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Amalia Ditrapani",
    "team": "Monroe",
    "n": 10,
@@ -26972,7 +26972,7 @@
    "bId": "a242cd39-8574-444a-99dc-95967faad87b"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Ashus Mahmood",
    "team": "Monroe",
    "n": 3,
@@ -27037,7 +27037,7 @@
    "bId": "87358255-41e8-42ed-a7bd-97cf151f43c8"
   },
   {
-   "a": "Amanda Ksiezopolski",
+   "a": "Amanda Kahriman",
    "b": "Samuel Levinson",
    "team": "Monroe",
    "n": 5,
@@ -33116,7 +33116,7 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Samuel Levinson"
      ],
      "a": [
@@ -33186,7 +33186,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ],
      "a": [
@@ -33228,7 +33228,7 @@
      "hs": 21,
      "as": 17,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Samuel Levinson"
      ],
      "a": [
@@ -33299,7 +33299,7 @@
      "as": 21,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Alyssa Krenek",
@@ -33410,7 +33410,7 @@
      "hs": 25,
      "as": 23,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Angela Luo"
      ],
      "a": [
@@ -33494,7 +33494,7 @@
      "hs": 21,
      "as": 12,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ],
      "a": [
@@ -33523,7 +33523,7 @@
      "as": 18,
      "h": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ],
      "a": [
       "Michelle Sciarillo",
@@ -35004,7 +35004,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Samuel Levinson"
      ],
      "a": [
@@ -35046,7 +35046,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Amalia Ditrapani"
      ],
      "a": [
@@ -35102,7 +35102,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ],
      "a": [
@@ -35144,7 +35144,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ],
      "a": [
@@ -35270,7 +35270,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Amalia Ditrapani"
      ],
      "a": [
@@ -35340,7 +35340,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Rahul Purwah"
      ],
      "a": [
@@ -35382,7 +35382,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Erica Rosenberg"
      ],
      "a": [
@@ -47085,7 +47085,7 @@
      "hs": 19,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Rahul Purwah"
      ],
      "a": [
@@ -47099,7 +47099,7 @@
      "hs": 21,
      "as": 12,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ],
      "a": [
@@ -47183,7 +47183,7 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Meet Patel"
      ],
      "a": [
@@ -47225,7 +47225,7 @@
      "hs": 21,
      "as": 17,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ],
      "a": [
@@ -47337,7 +47337,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Erica Rosenberg"
      ],
      "a": [
@@ -47407,7 +47407,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ],
      "a": [
@@ -47435,7 +47435,7 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ],
      "a": [
@@ -56804,7 +56804,7 @@
       "Rich Pacailler"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Parth Patel"
      ]
     },
@@ -56874,7 +56874,7 @@
       "Florence Doueck"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Amalia Ditrapani"
      ]
     },
@@ -56944,7 +56944,7 @@
       "Joseph Mizrahi"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ]
     },
@@ -56972,7 +56972,7 @@
       "Gabby Gonzalez"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sara Synn"
      ]
     },
@@ -57099,7 +57099,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -57140,7 +57140,7 @@
       "Jordan Brochin"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Samuel Levinson"
      ]
     },
@@ -57210,7 +57210,7 @@
       "Florence Doueck"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Richa Shah"
      ]
     },
@@ -60992,7 +60992,7 @@
       "Jake Laifer"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Jacob Yandoli"
      ]
     },
@@ -61034,7 +61034,7 @@
       "Ashley Hyde"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ]
     },
@@ -61132,7 +61132,7 @@
       "Jake Laifer"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Meet Patel"
      ]
     },
@@ -61147,7 +61147,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -61258,7 +61258,7 @@
       "Leah Stup"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ]
     },
@@ -61328,7 +61328,7 @@
       "Elliott Albanese"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Rahul Purwah"
      ]
     },
@@ -61385,7 +61385,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -65640,7 +65640,7 @@
       "Michael Rapaglia"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Jared Ciccarelli"
      ]
     },
@@ -65697,7 +65697,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -65795,7 +65795,7 @@
      ],
      "a": [
       "Amalia Ditrapani",
-      "Amanda Ksiezopolski"
+      "Amanda Kahriman"
      ]
     },
     {
@@ -65850,7 +65850,7 @@
       "Daniel Antonelli"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Anthony Ursino"
      ]
     },
@@ -65906,7 +65906,7 @@
       "Taylor Regenwether"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ]
     },
@@ -66004,7 +66004,7 @@
       "Daniel Antonelli"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Shahar Gelber"
      ]
     },
@@ -66018,7 +66018,7 @@
       "Gabrielle Padilla"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Richa Shah"
      ]
     },
@@ -72162,7 +72162,7 @@
      "hs": 20,
      "as": 22,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ashus Mahmood"
      ],
      "a": [
@@ -72204,7 +72204,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ],
      "a": [
@@ -72274,7 +72274,7 @@
      "hs": 19,
      "as": 21,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Rahul Purwah"
      ],
      "a": [
@@ -72316,7 +72316,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ],
      "a": [
@@ -72400,7 +72400,7 @@
      "hs": 21,
      "as": 23,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ashus Mahmood"
      ],
      "a": [
@@ -72428,7 +72428,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Morgan Fishman"
      ],
      "a": [
@@ -72484,7 +72484,7 @@
      "hs": 22,
      "as": 20,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Parth Patel"
      ],
      "a": [
@@ -72554,7 +72554,7 @@
      "hs": 21,
      "as": 16,
      "h": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ],
      "a": [
@@ -83785,7 +83785,7 @@
       "Varun Gurram"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ashus Mahmood"
      ]
     },
@@ -83841,7 +83841,7 @@
       "Danielle Mironova"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sara Synn"
      ]
     },
@@ -83939,7 +83939,7 @@
       "Sree Harsha Konduru"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Jacob Yandoli"
      ]
     },
@@ -83967,7 +83967,7 @@
       "Danielle Mironova"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sophia Kaufmann"
      ]
     },
@@ -84023,7 +84023,7 @@
       "Sree Harsha Konduru"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Ali Husain"
      ]
     },
@@ -84065,7 +84065,7 @@
       "Serena Martz"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Sara Synn"
      ]
     },
@@ -84163,7 +84163,7 @@
       "Sree Harsha Konduru"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Samuel Levinson"
      ]
     },
@@ -84177,7 +84177,7 @@
       "Eva Danieli"
      ],
      "a": [
-      "Amanda Ksiezopolski",
+      "Amanda Kahriman",
       "Richa Shah"
      ]
     },
@@ -88307,7 +88307,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-06T22:34:49.654Z";
+  DATA.meta.asOf = "2026-11-07T03:51:40.090Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

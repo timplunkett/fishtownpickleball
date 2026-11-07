@@ -2153,9 +2153,9 @@
       "weekNumber": 12,
       "homeTeamId": "9998d601-16b1-4156-b976-12a64d545c84",
       "awayTeamId": "feae6173-acdc-4b65-9d62-add922af0af2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 648,
+      "awayPoints": 544,
+      "endResult": "home",
       "scheduledTime": "2026-11-06T19:30:00",
       "homeName": "Jersey Devil Green",
       "awayName": "Pickle Juice Blackwood"

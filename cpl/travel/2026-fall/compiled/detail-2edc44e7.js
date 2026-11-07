@@ -54385,8 +54385,8 @@
     "teamRes": "L",
     "teamGW": 8,
     "teamGL": 24,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 9,
@@ -54412,8 +54412,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Flemington Green"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

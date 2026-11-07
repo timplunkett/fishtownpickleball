@@ -1037,7 +1037,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 7,
     "synergy": 0.7
    },
@@ -14484,7 +14484,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 3,
     "synergy": 0.6
    },
@@ -18471,7 +18471,7 @@
     "t": "mixed",
     "with": "Sharon Mathison",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Rahul Purwah"
     ],
     "f": 20,
@@ -29596,7 +29596,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 3,
     "synergy": 0.1
    },
@@ -29924,7 +29924,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 4,
     "synergy": -0.2
    },
@@ -30076,7 +30076,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 3,
     "synergy": -1.1
    }
@@ -36766,7 +36766,7 @@
     "t": "female",
     "with": "Sharon Mathison",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Amalia Ditrapani"
     ],
     "f": 13,
@@ -36782,7 +36782,7 @@
     "t": "mixed",
     "with": "Jake Laifer",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Anthony Ursino"
     ],
     "f": 21,
@@ -36798,7 +36798,7 @@
     "t": "female",
     "with": "Paige Rebeccah Smith",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Sophia Kaufmann"
     ],
     "f": 13,
@@ -36831,7 +36831,7 @@
     "t": "female",
     "with": "Joreen Sun",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Amalia Ditrapani"
     ],
     "f": 21,
@@ -37440,7 +37440,7 @@
     "t": "female",
     "with": "Paige Rebeccah Smith",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Sophia Kaufmann"
     ],
     "f": 23,
@@ -37477,7 +37477,7 @@
     "with": "Ashley Hyde",
     "vs": [
      "Amalia Ditrapani",
-     "Amanda Ksiezopolski"
+     "Amanda Kahriman"
     ],
     "f": 21,
     "a": 17,
@@ -42637,7 +42637,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 6,
     "synergy": 1.6
    },
@@ -46255,7 +46255,7 @@
     "t": "mixed",
     "with": "Gabby Gonzalez",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Samuel Levinson"
     ],
     "f": 21,
@@ -48825,7 +48825,7 @@
     "t": "female",
     "with": "Florence Doueck",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Richa Shah"
     ],
     "f": 16,
@@ -51861,7 +51861,7 @@
     "t": "mixed",
     "with": "Perri Goldstein",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Anthony Ursino"
     ],
     "f": 13,
@@ -56428,7 +56428,7 @@
     "t": "mixed",
     "with": "Paige Rebeccah Smith",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Rahul Purwah"
     ],
     "f": 15,
@@ -57742,7 +57742,7 @@
     "t": "female",
     "with": "Leah Stup",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Sophia Kaufmann"
     ],
     "f": 13,
@@ -58255,7 +58255,7 @@
     "t": "female",
     "with": "Leah Stup",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Sophia Kaufmann"
     ],
     "f": 23,
@@ -58271,7 +58271,7 @@
     "t": "mixed",
     "with": "Elliott Albanese",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Rahul Purwah"
     ],
     "f": 15,
@@ -60217,7 +60217,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 5,
     "synergy": -1.2
    },
@@ -61686,7 +61686,7 @@
     "t": "female",
     "with": "Alexis Milak",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Sara Synn"
     ],
     "f": 17,
@@ -61718,7 +61718,7 @@
     "t": "mixed",
     "with": "Jordan Brochin",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Samuel Levinson"
     ],
     "f": 21,
@@ -75876,7 +75876,7 @@
     "t": "female",
     "with": "Joreen Sun",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Morgan Fishman"
     ],
     "f": 9,
@@ -75892,7 +75892,7 @@
     "t": "mixed",
     "with": "Jake Laifer",
     "vs": [
-     "Amanda Ksiezopolski",
+     "Amanda Kahriman",
      "Meet Patel"
     ],
     "f": 23,
@@ -75957,7 +75957,7 @@
     "with": "Leah Stup",
     "vs": [
      "Amalia Ditrapani",
-     "Amanda Ksiezopolski"
+     "Amanda Kahriman"
     ],
     "f": 21,
     "a": 17,
@@ -85096,7 +85096,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 4,
     "synergy": -0.2
    },
@@ -86336,7 +86336,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 10,
     "synergy": -0.9
    }

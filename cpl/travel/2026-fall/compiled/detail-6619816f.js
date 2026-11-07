@@ -4161,7 +4161,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 3,
     "synergy": -0.4
    },
@@ -15413,7 +15413,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 6,
     "synergy": 0
    },
@@ -18639,7 +18639,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 5,
     "synergy": 1.4
    },
@@ -23658,7 +23658,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 3,
     "synergy": -0.1
    },
@@ -32413,7 +32413,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 11,
     "synergy": -1.1
    },
@@ -40421,7 +40421,7 @@
   "partners": [
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 4,
     "synergy": 0.8
    },
@@ -48727,7 +48727,7 @@
    },
    {
     "pid": "2138af89-34bc-4ee2-9955-ff16f0997031",
-    "name": "Amanda Ksiezopolski",
+    "name": "Amanda Kahriman",
     "n": 3,
     "synergy": -2.4
    }
