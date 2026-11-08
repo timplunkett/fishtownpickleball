@@ -17874,6 +17874,36 @@
    }
   },
   {
+   "name": "Picklr Fair Lawn",
+   "w": 9,
+   "l": 3,
+   "pf": 6789,
+   "pa": 6225,
+   "gw": 207,
+   "gl": 145,
+   "diff": 564,
+   "gameDiff": 62,
+   "power": 1.1,
+   "powerRank": 3,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     113,
+     63
+    ],
+    "male": [
+     40,
+     48
+    ],
+    "female": [
+     54,
+     34
+    ]
+   }
+  },
+  {
    "name": "PickleRage Union County",
    "w": 8,
    "l": 3,
@@ -17900,36 +17930,6 @@
     "female": [
      41,
      39
-    ]
-   }
-  },
-  {
-   "name": "Picklr Fair Lawn",
-   "w": 8,
-   "l": 3,
-   "pf": 6757,
-   "pa": 6225,
-   "gw": 207,
-   "gl": 145,
-   "diff": 532,
-   "gameDiff": 62,
-   "power": 1.1,
-   "powerRank": 3,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     113,
-     63
-    ],
-    "male": [
-     40,
-     48
-    ],
-    "female": [
-     54,
-     34
     ]
    }
   },
@@ -18446,12 +18446,12 @@
   {
    "name": "Pickleball Kingdom Hillsborough",
    "w": 0,
-   "l": 10,
+   "l": 11,
    "pf": 3790,
-   "pa": 5248,
+   "pa": 5280,
    "gw": 51,
    "gl": 205,
-   "diff": -1458,
+   "diff": -1490,
    "gameDiff": -154,
    "power": -1.9,
    "powerRank": 7,
@@ -102458,12 +102458,18 @@
    "complete": false
   },
   {
-   "result": null,
+   "result": "home",
    "week": 13,
    "home": "Picklr Fair Lawn",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-11-14T14:00:00",
-   "complete": false
+   "complete": true,
+   "homePoints": 32,
+   "awayPoints": 0,
+   "homeGW": 0,
+   "awayGW": 0,
+   "games": [],
+   "subs": []
   },
   {
    "result": null,
@@ -104467,9 +104473,9 @@
   }
  ],
  "meta": {
-  "matchesPlayed": 147,
+  "matchesPlayed": 148,
   "provisionalMatches": 1,
-  "weeks": "1-12",
+  "weeks": "1-13",
   "totalPlayers": 610,
   "ratingHistoryWeeks": [
    {
@@ -104546,6 +104552,11 @@
     "week": 12,
     "label": "12",
     "seq": 14
+   },
+   {
+    "week": 13,
+    "label": "13",
+    "seq": 15
    }
   ],
   "divisionSlug": "1e12eb3f",
@@ -104647,7 +104658,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T15:50:53.042Z";
+  DATA.meta.asOf = "2026-11-08T21:30:47.999Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

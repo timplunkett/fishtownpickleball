@@ -1301,9 +1301,9 @@
       "weekNumber": 12,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 653,
+      "awayPoints": 505,
+      "endResult": "home",
       "scheduledTime": "2026-11-08T12:00:00",
       "homeName": "Flemington",
       "awayName": "ACE Moorestown"

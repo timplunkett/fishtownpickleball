@@ -46568,8 +46568,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Brian O'Neill"
      ],
      "a": [
       "Thomas Connolly",
@@ -46579,8 +46579,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Venuto",
+      "Michael Ksiezopolski"
      ],
      "a": [
       "Neel Goyal",
@@ -46590,8 +46590,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Steve Susskind"
      ],
      "a": [
       "Jason Makarevic",
@@ -46601,8 +46601,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Jon Bliven"
      ],
      "a": [
       "Ian Chin",
@@ -46616,8 +46616,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Ksiezopolski",
+      "Jon Bliven"
      ],
      "a": [
       "Jason Makarevic",
@@ -46627,8 +46627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Ivan Rios"
      ],
      "a": [
       "Ian Chin",
@@ -46642,8 +46642,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian O'Neill",
+      "Steve Susskind"
      ],
      "a": [
       "Neel Goyal",
@@ -46653,8 +46653,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Christopher Venuto"
      ],
      "a": [
       "Thomas Connolly",
@@ -46664,8 +46664,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Ksiezopolski",
+      "Brian O'Neill"
      ],
      "a": [
       "Jason Makarevic",
@@ -46675,8 +46675,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Jonathan Ksiezopolski"
      ],
      "a": [
       "Thomas Connolly",
@@ -46686,8 +46686,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Christopher Venuto"
      ],
      "a": [
       "Elliott Albanese",
@@ -46697,8 +46697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Steve Susskind"
      ],
      "a": [
       "Vivek Kumar",
@@ -46712,8 +46712,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Christopher Venuto"
      ],
      "a": [
       "Vivek Kumar",
@@ -46727,8 +46727,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Steve Susskind"
      ],
      "a": [
       "Jason Makarevic",
@@ -46738,8 +46738,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Ksiezopolski",
+      "Ivan Rios"
      ],
      "a": [
       "Thomas Connolly",
@@ -46749,8 +46749,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Brian O'Neill"
      ],
      "a": [
       "Elliott Albanese",
@@ -46760,8 +46760,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Jon Bliven"
      ],
      "a": [
       "Vivek Kumar",
@@ -46771,8 +46771,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian O'Neill",
+      "Jonathan Ksiezopolski"
      ],
      "a": [
       "Jason Makarevic",
@@ -46782,8 +46782,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Christopher Venuto"
      ],
      "a": [
       "Ian Chin",
@@ -46793,8 +46793,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Ksiezopolski",
+      "Steve Susskind"
      ],
      "a": [
       "Neel Goyal",
@@ -46808,8 +46808,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Michael Ksiezopolski"
      ],
      "a": [
       "Jason Makarevic",
@@ -46819,8 +46819,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Ivan Rios"
      ],
      "a": [
       "Joseph Albanese",
@@ -46834,8 +46834,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Venuto",
+      "Steve Susskind"
      ],
      "a": [
       "Vivek Kumar",
@@ -46845,8 +46845,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian O'Neill",
+      "Jon Bliven"
      ],
      "a": [
       "Elliott Albanese",
@@ -46856,8 +46856,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Rosengarten",
+      "Brian O'Neill"
      ],
      "a": [
       "Jason Makarevic",
@@ -46867,8 +46867,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Steve Susskind"
      ],
      "a": [
       "Thomas Connolly",
@@ -46878,8 +46878,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Ksiezopolski",
+      "Jonathan Ksiezopolski"
      ],
      "a": [
       "Vivek Kumar",
@@ -46889,8 +46889,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ivan Rios",
+      "Christopher Venuto"
      ],
      "a": [
       "Elliott Albanese",
@@ -46904,8 +46904,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ksiezopolski",
+      "Steve Susskind"
      ],
      "a": [
       "Jason Makarevic",
@@ -46915,8 +46915,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Ksiezopolski",
+      "Ivan Rios"
      ],
      "a": [
       "Thomas Connolly",
@@ -46926,8 +46926,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jon Bliven",
+      "Jacob Rosengarten"
      ],
      "a": [
       "Joseph Albanese",
@@ -46941,8 +46941,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian O'Neill",
+      "Christopher Venuto"
      ],
      "a": [
       "Ian Chin",
@@ -48669,7 +48669,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T03:34:06.273Z";
+  DATA.meta.asOf = "2026-11-08T21:33:26.876Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

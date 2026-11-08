@@ -353,9 +353,9 @@
       "weekNumber": 5,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-09-27T09:00:00",
       "homeName": "Pickle House",
       "awayName": "Dill Dinkers Hatboro The Factory"

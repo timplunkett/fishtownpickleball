@@ -96999,7 +96999,11 @@
   },
   {
     "matchupId": "aff223a2-d049-4a34-a232-87bca4b2d17c",
-    "details": {}
+    "details": {
+      "matchupPlayerStats": {
+        "$values": []
+      }
+    }
   },
   {
     "matchupId": "7d096672-123b-444e-830d-885e49ea4bb5",

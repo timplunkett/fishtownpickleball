@@ -1829,9 +1829,9 @@
       "weekNumber": 13,
       "homeTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
       "awayTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
-      "homePoints": 0,
+      "homePoints": 32,
       "awayPoints": 0,
-      "endResult": null,
+      "endResult": "home",
       "scheduledTime": "2026-11-14T14:00:00",
       "homeName": "Picklr Fair Lawn",
       "awayName": "Pickleball Kingdom Hillsborough"
