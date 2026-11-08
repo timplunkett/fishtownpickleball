@@ -6,18 +6,41 @@
  "matches": [],
  "playoffs": [],
  "extraPlayerIds": {
+  "Gabrielle Padilla": "1dc544a2-42b1-41ed-b06d-d53cb2068d2f",
   "Hayley Yandoli": "1fc2dd51-135b-46d6-91ef-9291b573e78a",
+  "Amanda Kahriman": "2138af89-34bc-4ee2-9955-ff16f0997031",
   "Alyssa Boyle": "22123177-1eb2-4285-bc92-f75799e175dd",
+  "Maeve Mcgowan": "24325b7a-50bd-42dc-84c2-e3ac54360f9c",
+  "Lizz Dunn": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
+  "Sara Synn": "37acfc18-a8d1-4ea0-8c21-0d830c9f4f90",
+  "Mickey Ma": "3bb1ed96-5e87-4701-9a91-35464c003b6f",
   "Michelle Sciarillo": "3d7e1245-6f10-41b4-97e2-e3488ff364e3",
   "Suzi Battison": "40579892-d9bf-4d1d-9417-5830d5d45093",
+  "Jodie Bennett": "44a54409-964b-44ae-a670-c69f7edf9600",
   "Sophia Kaufmann": "44f258b0-52df-4c16-8d1e-a9f2d65b439e",
+  "Megan Harvey": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
   "Taylor Regenwether": "50c55e9f-2b0a-49f0-bbf8-6b8e3eab9c82",
+  "Daisy Zhang": "5c9816a6-756b-4d45-803c-e38339915b28",
+  "Lindsay Henzes": "5cd6231d-1bb7-4228-8d90-4a7c90a41d15",
+  "Hien Do": "5fe741a3-6764-46ca-a3c4-6130303ab075",
+  "Kathy Cripps": "6fbd0766-6774-4ed3-8fc2-10e7f2330ec0",
   "Tara Lombardo": "77d20dd0-823c-474e-b470-12f69db5a588",
+  "Tessa Arendt": "78d27fdd-25fb-4fe7-8f3e-9ff1f67fb2bc",
   "Alyssa Krenek": "7a8e232f-7cb0-409f-ab0a-75c274ad2727",
+  "Lauren Mammano": "8d896637-2c2a-4541-9155-257bf5a37055",
   "Kaylee Ritchie": "97afd4ef-139b-43d3-bc43-1e8f4a50ef89",
   "Amanda Mcalister": "9aa220fa-3161-4faa-ac70-8dfaf3ac3192",
+  "Kylie Lupica": "9b4b88bf-1f87-46cd-829a-84b82a424b82",
+  "Rachel Berger": "9b7488c5-bc66-41e4-8fa5-873e70c190e3",
   "Lissa Eagles": "9ec39678-a120-45de-b8a5-897b8cf900cd",
-  "Emily Babinsky": "d0e2c1ea-529d-4364-b521-cb205ecdded3"
+  "Paula Cuerquis": "ac412cd9-bd0a-4f98-8253-9c8c12911465",
+  "Harriet Levin": "aeff8297-a479-4b3b-9a49-72c410ac8e26",
+  "Cait Kearney": "b104bb38-14f6-40b1-8666-faf327d5f415",
+  "Olivia Iacono": "b4c834a7-feed-4d26-8cef-2ae27c643ec4",
+  "Gianna Medeiros": "b63ec8b5-b659-4404-92b0-8e577c87534a",
+  "Katherine Maruyama": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
+  "Emily Babinsky": "d0e2c1ea-529d-4364-b521-cb205ecdded3",
+  "Angela Tung": "f23a564b-06a9-455a-ad50-357e1b195991"
  },
  "availableSubs": [],
  "meta": {
@@ -43,7 +66,7 @@
   "reportedPods": []
  }
 };
-  DATA.meta.asOf = "2026-11-01T15:55:26.727Z";
+  DATA.meta.asOf = "2026-11-08T15:53:56.435Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a0d5ca8d"] = DATA;

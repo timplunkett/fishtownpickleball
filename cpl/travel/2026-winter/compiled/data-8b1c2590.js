@@ -5,7 +5,11 @@
  "duos": [],
  "matches": [],
  "playoffs": [],
- "extraPlayerIds": {},
+ "extraPlayerIds": {
+  "Jake Denooyer": "a314079a-16b7-42f5-be34-41e1672f7377",
+  "Mark Garner": "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3",
+  "Rafael Moreano": "f919968b-e6a7-4ea2-9d1d-049898bf39f4"
+ },
  "availableSubs": [],
  "meta": {
   "matchesPlayed": 0,
@@ -30,7 +34,7 @@
   "reportedPods": []
  }
 };
-  DATA.meta.asOf = "2026-10-30T20:57:21.975Z";
+  DATA.meta.asOf = "2026-11-08T15:53:56.872Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["8b1c2590"] = DATA;

@@ -1,11 +1,25 @@
 window.DUPR_RATINGS = {
+ "005c1a4c-4d04-4923-baea-1a720a4082ea": {"rating":4.066,"numericId":6710786486,"provisional":false},
  "0530512b-466d-4ff7-9e89-7961b4a63110": {"rating":4.362,"numericId":5589448920,"provisional":false},
+ "19d10737-b8cb-4106-9b6d-1c9aced87b19": {"rating":3.95,"numericId":8330765817,"provisional":false},
+ "1c13f01f-aeb7-45db-9faf-a6567d22bb81": {"rating":4.586,"numericId":6542963661,"provisional":false},
  "286a6155-78be-44df-ab99-7c2145620efd": {"rating":4.348,"numericId":4969980075,"provisional":false},
+ "2b9bdb08-5299-4462-b2f3-badf1ff81b85": {"rating":3.511,"numericId":7743659602,"provisional":false},
+ "37a0fa2c-df0b-4d92-900b-a9f20f441ad8": {"rating":4.047,"numericId":7492123755,"provisional":false},
  "41e02aef-d06c-4fda-87a1-61d609cec74f": {"rating":3.887,"numericId":4297961660,"provisional":false},
+ "445e89c8-a23c-440c-bd3c-7eab366bdd85": {"rating":4.631,"numericId":7039755864,"provisional":false},
+ "51352d99-02ac-4299-abac-a688bfade22f": {"rating":4.149,"numericId":4295236287,"provisional":false},
+ "5eccfff7-0902-4be1-a70e-361ff447bf6a": {"rating":4.426,"numericId":5752460783,"provisional":false},
+ "6043b3e3-217d-4ad3-bd5d-db9667b99bbc": {"rating":4.47,"numericId":5361175166,"provisional":false},
  "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3": {"rating":3.965,"numericId":4875318006,"provisional":false},
  "6aa60ea2-e7b6-49d6-80b1-a933dd6c475c": {"rating":4.306,"numericId":6424169428,"provisional":false},
+ "6d1beb10-bd5c-456f-95b5-1823752e8c62": {"rating":4.236,"numericId":7290959227,"provisional":false},
  "7c8310a8-1a97-4c04-bbc0-519fe4132685": {"rating":4.584,"numericId":7453288597,"provisional":false},
  "861c3f68-2c96-4a96-a75e-645020f73a5c": {"rating":4.371,"numericId":7097010971,"provisional":false},
  "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42": {"rating":3.896,"numericId":7351105045,"provisional":false},
- "980c2469-2017-4943-bc0d-5c49f0526f85": {"rating":3.951,"numericId":7448743735,"provisional":false}
+ "9790dabb-8be3-48df-9fc4-eecb920ec98c": {"rating":4.195,"numericId":7183901103,"provisional":false},
+ "980c2469-2017-4943-bc0d-5c49f0526f85": {"rating":3.951,"numericId":7448743735,"provisional":false},
+ "f1012c67-b6ba-4270-8d7a-53a9aa34b7df": {"rating":4.531,"numericId":7862894610,"provisional":false},
+ "fe5f5565-3a59-4eb6-9857-7dcb007f4900": {"rating":4.015,"numericId":6409490099,"provisional":false},
+ "fe8af1d3-ff62-430d-90af-32794cc7b912": {"rating":3.976,"numericId":7281386346,"provisional":false}
 };

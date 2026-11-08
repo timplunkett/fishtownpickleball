@@ -40939,7 +40939,7 @@
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
   "Maggie Jiang": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
   "Beth Urbanski": "36c90242-18df-4017-a44f-1ec26b2732b4",
-  "Katty Wong-Taylor": "473f352b-9646-45d8-b949-2a17561a7ba2",
+  "Katty Taylor": "473f352b-9646-45d8-b949-2a17561a7ba2",
   "Esther Dayon": "487f97a4-05cd-4825-a2b9-d733741a8115",
   "Love Roa": "5278c4bb-2d3a-4b18-bcb4-f073aac0f9ff",
   "Heidi Lipton": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
@@ -41093,7 +41093,7 @@
    "outsideSub": true
   },
   {
-   "name": "Katty Wong-Taylor",
+   "name": "Katty Taylor",
    "playerId": "473f352b-9646-45d8-b949-2a17561a7ba2",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
@@ -41522,7 +41522,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-05T23:06:31.433Z";
+  DATA.meta.asOf = "2026-11-08T15:53:34.607Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

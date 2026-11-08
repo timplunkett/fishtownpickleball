@@ -24,6 +24,29 @@
       "ranking": 1
     },
     {
+      "playerId": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
+      "firstName": "Anthony",
+      "lastName": "Solares",
+      "gender": "Male",
+      "dupr": "DNQGN4",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 6
+    },
+    {
       "playerId": "2c36f9fd-14b2-4be0-b006-331d920b352f",
       "firstName": "Aaron",
       "lastName": "Sanchez",
@@ -44,7 +67,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 4
+      "ranking": 5
+    },
+    {
+      "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
+      "firstName": "Ben",
+      "lastName": "Cortés",
+      "gender": "Male",
+      "dupr": "1296JE",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 2
     },
     {
       "playerId": "8c5b8075-b7ba-47b5-bee1-1e11cee6c905",
@@ -67,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 3
+      "ranking": 4
     },
     {
       "playerId": "c81acb97-fe8a-46b2-a6f5-611133095f5b",
@@ -90,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 2
+      "ranking": 3
     }
   ]
 }

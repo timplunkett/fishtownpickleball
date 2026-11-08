@@ -1217,7 +1217,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 201
+      "ranking": 202
     },
     {
       "playerId": "36cebb3b-4b08-456f-91f6-6fcdf4262e73",
@@ -1406,7 +1406,7 @@
     {
       "playerId": "473f352b-9646-45d8-b949-2a17561a7ba2",
       "firstName": "Katty",
-      "lastName": "Wong-Taylor",
+      "lastName": "Taylor",
       "gender": "Female",
       "dupr": "K50VRY",
       "isCaptain": false,
@@ -1424,7 +1424,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 202
+      "ranking": 201
     },
     {
       "playerId": "481c21f0-8481-47e8-9eba-9ab21c167cf4",

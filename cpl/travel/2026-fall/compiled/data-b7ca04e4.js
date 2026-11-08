@@ -2702,8 +2702,8 @@
    "name": "Sal Cocuzza",
    "gender": "Male",
    "team": "Montville",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 10,
    "wins": 7,
@@ -44026,9 +44026,7 @@
      ]
     }
    ],
-   "subs": [
-    "Sal Cocuzza"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -57958,7 +57956,6 @@
    ],
    "subs": [
     "Jaclyn Kulich",
-    "Sal Cocuzza",
     "Shukling Parker"
    ]
   },
@@ -124090,14 +124087,6 @@
    "outsideSub": true
   },
   {
-   "name": "Sal Cocuzza",
-   "playerId": "665c8622-ccbc-4273-9af7-fd9d8840581a",
-   "gender": "Male",
-   "team": "Montville",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Saaketh Koundinya Gundavarapu",
    "playerId": "67730cd7-1040-4a80-a665-53e124b526cd",
    "gender": "Male",
@@ -125083,7 +125072,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-08T12:32:38.331Z";
+  DATA.meta.asOf = "2026-11-08T15:52:13.962Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

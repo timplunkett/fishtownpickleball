@@ -48682,7 +48682,6 @@
    "away": "Pickle Place",
    "time": "2026-11-07T14:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 515,
    "awayPoints": 625,
    "homeGW": 10,
@@ -50410,7 +50409,7 @@
  ],
  "meta": {
   "matchesPlayed": 71,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-12",
   "totalPlayers": 273,
   "ratingHistoryWeeks": [
@@ -50559,7 +50558,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T12:29:47.965Z";
+  DATA.meta.asOf = "2026-11-08T15:49:38.295Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
