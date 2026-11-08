@@ -69517,7 +69517,97 @@
    "home": "Jersey Devil",
    "away": "Picklr Newtown",
    "time": "2026-11-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ro",
+      "Angelo Disipio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arnold Poblete",
+      "Michael Johnson"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Mathew Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Wu",
+      "Stephane Sabathier"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andy Ro",
+      "Angelo Disipio"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Arnold Poblete",
+      "Mathew Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Steven Hummel",
+      "Jason Wu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Johnson",
+      "Gary Garretson"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -70400,7 +70490,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T21:18:37.702Z";
+  DATA.meta.asOf = "2026-11-08T03:34:28.742Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

@@ -46201,7 +46201,361 @@
    "home": "Dill Dinkers Freehold",
    "away": "Premiere",
    "time": "2026-11-09T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Chris Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Chris Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Como",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Como",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Friedman",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neil Ottrando",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yandoli",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yandoli",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yandoli",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Matthew Friedman"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -46410,7 +46764,7 @@
       ""
      ],
      "a": [
-      "Neel Goyal",
+      "Vivek Kumar",
       "Muhammad Usman"
      ]
     },
@@ -46433,7 +46787,7 @@
      ],
      "a": [
       "Ian Chin",
-      "Vivek Kumar"
+      "Elliott Albanese"
      ]
     },
     {
@@ -46443,7 +46797,7 @@
       ""
      ],
      "a": [
-      "Elliott Albanese",
+      "Neel Goyal",
       "Joseph Albanese"
      ],
      "aSub": [
@@ -46470,7 +46824,7 @@
      ],
      "a": [
       "Joseph Albanese",
-      "Elliott Albanese"
+      "Neel Goyal"
      ],
      "aSub": [
       1,
@@ -46484,41 +46838,8 @@
       ""
      ],
      "a": [
-      "Neel Goyal",
-      "Muhammad Usman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
       "Vivek Kumar",
-      "Ian Chin"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jason Makarevic",
       "Muhammad Usman"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Thomas Connolly",
-      "Vivek Kumar"
      ]
     },
     {
@@ -46539,7 +46860,40 @@
       ""
      ],
      "a": [
-      "Neel Goyal",
+      "Jason Makarevic",
+      "Muhammad Usman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Thomas Connolly",
+      "Neel Goyal"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vivek Kumar",
+      "Ian Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
       "Joseph Albanese"
      ],
      "aSub": [
@@ -46566,11 +46920,7 @@
      ],
      "a": [
       "Thomas Connolly",
-      "Joseph Albanese"
-     ],
-     "aSub": [
-      0,
-      1
+      "Neel Goyal"
      ]
     },
     {
@@ -46580,8 +46930,12 @@
       ""
      ],
      "a": [
-      "Neel Goyal",
+      "Joseph Albanese",
       "Elliott Albanese"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -46603,7 +46957,385 @@
    "home": "Jersey Devil",
    "away": "Bounce Malvern",
    "time": "2026-11-09T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anushk Gupta",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Mark Kilimnik"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Velez",
+      "Vaughn Lawrence"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Vaughn Lawrence"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yash Shah",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Shashank Kamdar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jordan Long",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Velez",
+      "Anushk Gupta"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Velez",
+      "Yash Shah"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Michael Velez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Yash Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yash Shah",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Michael Velez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Anushk Gupta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Austin Gow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jeff Zamorski",
+      "Vaughn Lawrence"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Velez",
+      "Anushk Gupta"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shashank Kamdar",
+      "Yash Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Lawrence",
+      "Jordan Long"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Kilimnik",
+      "Jeff Zamorski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Austin Gow",
+      "Anushk Gupta"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -46621,11 +47353,7 @@
      ],
      "a": [
       "Austin Williams",
-      "Alexandre Inamasu"
-     ],
-     "aSub": [
-      0,
-      1
+      "Hany Ibrahim"
      ]
     },
     {
@@ -46673,11 +47401,7 @@
      ],
      "a": [
       "Austin Williams",
-      "Elliot Stevens"
-     ],
-     "aSub": [
-      0,
-      1
+      "Hany Ibrahim"
      ]
     },
     {
@@ -46698,8 +47422,8 @@
       ""
      ],
      "a": [
-      "Pranav Tailor",
-      "Matthew Marletta"
+      "Alexandre Inamasu",
+      "Elliot Stevens"
      ],
      "aSub": [
       1,
@@ -46754,11 +47478,11 @@
       ""
      ],
      "a": [
-      "Anthony Fallet",
+      "Matthew Marletta",
       "Pranav Tailor"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -46769,12 +47493,8 @@
       ""
      ],
      "a": [
-      "Matthew Marletta",
+      "Anthony Fallet",
       "Shahar Gelber"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
@@ -46837,7 +47557,11 @@
      ],
      "a": [
       "Austin Williams",
-      "Hany Ibrahim"
+      "Alexandre Inamasu"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -46862,7 +47586,7 @@
       ""
      ],
      "a": [
-      "Alexandre Inamasu",
+      "Matthew Marletta",
       "Elliot Stevens"
      ],
      "aSub": [
@@ -46889,7 +47613,7 @@
      ],
      "a": [
       "Austin Williams",
-      "Matthew Marletta"
+      "Elliot Stevens"
      ],
      "aSub": [
       0,
@@ -46929,12 +47653,12 @@
       ""
      ],
      "a": [
-      "Simon Perry",
-      "Elliot Stevens"
+      "Matthew Marletta",
+      "Shahar Gelber"
      ],
      "aSub": [
-      0,
-      1
+      1,
+      0
      ]
     },
     {
@@ -47001,17 +47725,6 @@
      ],
      "a": [
       "Austin Williams",
-      "Shahar Gelber"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Anthony Fallet",
       "Elliot Stevens"
      ],
      "aSub": [
@@ -47026,8 +47739,8 @@
       ""
      ],
      "a": [
-      "Hany Ibrahim",
-      "Matthew Marletta"
+      "Anthony Fallet",
+      "Pranav Tailor"
      ],
      "aSub": [
       0,
@@ -47041,12 +47754,23 @@
       ""
      ],
      "a": [
-      "Alexandre Inamasu",
+      "Simon Perry",
       "Andy Ead"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexandre Inamasu",
+      "Matthew Marletta"
      ],
      "aSub": [
       1,
-      0
+      1
      ]
     }
    ]
@@ -47945,7 +48669,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-07T21:18:15.388Z";
+  DATA.meta.asOf = "2026-11-08T03:34:06.273Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

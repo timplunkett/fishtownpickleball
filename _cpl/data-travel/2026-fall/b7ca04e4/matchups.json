@@ -2165,9 +2165,9 @@
       "weekNumber": 12,
       "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
       "awayTeamId": "b26ab177-34bf-48d5-a87f-14c13b22f4ce",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 520,
+      "awayPoints": 646,
+      "endResult": "away",
       "scheduledTime": "2026-11-07T12:00:00",
       "homeName": "Pickleball Kingdom Lehigh Valley",
       "awayName": "Picklr Fair Lawn"

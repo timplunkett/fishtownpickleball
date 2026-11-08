@@ -3014,6 +3014,29 @@
       "ranking": 162
     },
     {
+      "playerId": "772b8bd9-ee55-463b-8e7d-f5e571a2f047",
+      "firstName": "Michael",
+      "lastName": "Velez",
+      "gender": "Male",
+      "dupr": "5E6RP5",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 263
+    },
+    {
       "playerId": "7827b964-4715-4aec-aec4-e75085199fc1",
       "firstName": "Jerry",
       "lastName": "Li",
@@ -5587,7 +5610,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 263
+      "ranking": 264
     },
     {
       "playerId": "efe3ef0c-82f8-4370-89cc-ec41bd6719cc",
