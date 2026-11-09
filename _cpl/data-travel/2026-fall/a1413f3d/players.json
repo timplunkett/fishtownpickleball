@@ -8931,7 +8931,7 @@
       "gender": "Female",
       "dupr": "N79592",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
       "wins": 5,

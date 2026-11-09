@@ -37689,11 +37689,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -37709,11 +37705,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -37729,11 +37721,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -37765,11 +37753,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -37785,11 +37769,7 @@
     "w": 0,
     "ff": 1,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -37805,11 +37785,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -46998,8 +46974,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 11,
@@ -47031,8 +47006,7 @@
     "w": 0,
     "ff": 1,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 11,
@@ -49311,8 +49285,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 9,
@@ -49522,8 +49495,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 11,
@@ -49555,8 +49527,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 11,
@@ -52456,8 +52427,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 9,
@@ -57183,11 +57153,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -57219,11 +57185,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -57255,11 +57217,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -57291,11 +57249,7 @@
     "w": 0,
     "ff": 1,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -58926,11 +58880,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -59038,11 +58988,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -64401,11 +64347,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -64453,11 +64395,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -64473,11 +64411,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     1,
-     0
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -75544,11 +75478,7 @@
     "w": 1,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "vsSub": [
-     0,
-     1
-    ]
+    "subFor": null
    },
    {
     "wk": 11,
@@ -112750,8 +112680,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    },
    {
     "wk": 11,
@@ -112849,8 +112778,7 @@
     "w": 0,
     "ff": 0,
     "sub": 0,
-    "subFor": null,
-    "withSub": 1
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -116164,8 +116092,8 @@
     "teamRes": "L",
     "teamGW": 14,
     "teamGL": 18,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 11,
@@ -116191,8 +116119,8 @@
     "teamRes": "L",
     "teamGW": 16,
     "teamGL": 16,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "games": [
@@ -116209,8 +116137,8 @@
     "a": 14,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 9,
@@ -116225,8 +116153,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 9,
@@ -116241,8 +116169,8 @@
     "a": 23,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 9,
@@ -116257,8 +116185,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 9,
@@ -116273,8 +116201,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 9,
@@ -116289,8 +116217,8 @@
     "a": 17,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116305,8 +116233,8 @@
     "a": 25,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116321,8 +116249,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116337,8 +116265,8 @@
     "a": 20,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116353,8 +116281,8 @@
     "a": 18,
     "w": 1,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116369,8 +116297,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116385,8 +116313,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116401,8 +116329,8 @@
     "a": null,
     "w": 0,
     "ff": 1,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    },
    {
     "wk": 11,
@@ -116417,8 +116345,8 @@
     "a": 21,
     "w": 0,
     "ff": 0,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Tinton Falls"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

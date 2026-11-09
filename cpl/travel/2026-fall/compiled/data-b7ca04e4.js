@@ -122617,8 +122617,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Ramos",
+      "Michael Marinello"
      ],
      "a": [
       "Perri Goldstein",
@@ -122628,8 +122628,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Supriya Kothakonda",
+      "Brandon Calmo"
      ],
      "a": [
       "Carolyn Antuna",
@@ -122639,8 +122639,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taryn Seidner",
+      "Danny Ruiz"
      ],
      "a": [
       "Lisa Weinthal",
@@ -122650,8 +122650,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Demaise",
+      "Alan Liang"
      ],
      "a": [
       "Sally Webb",
@@ -122661,8 +122661,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Danielle Kuti",
+      "Supriya Kothakonda"
      ],
      "a": [
       "Perri Goldstein",
@@ -122672,8 +122672,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Demaise",
+      "Taryn Seidner"
      ],
      "a": [
       "Lisa Weinthal",
@@ -122683,8 +122683,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Liang",
+      "Brandon Calmo"
      ],
      "a": [
       "Leo Wong",
@@ -122694,8 +122694,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Danny Ruiz",
+      "Luis Guzman"
      ],
      "a": [
       "Tayon Hart",
@@ -122705,8 +122705,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Ramos",
+      "Michael Marinello"
      ],
      "a": [
       "Perri Goldstein",
@@ -122716,8 +122716,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Demaise",
+      "Brandon Calmo"
      ],
      "a": [
       "Carolyn Antuna",
@@ -122727,8 +122727,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Kuti",
+      "Luis Guzman"
      ],
      "a": [
       "Lisa Weinthal",
@@ -122738,8 +122738,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taryn Seidner",
+      "Danny Ruiz"
      ],
      "a": [
       "Sally Webb",
@@ -122749,8 +122749,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Ramos",
+      "Danielle Kuti"
      ],
      "a": [
       "Perri Goldstein",
@@ -122760,8 +122760,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taryn Seidner",
+      "Supriya Kothakonda"
      ],
      "a": [
       "Carolyn Antuna",
@@ -122771,8 +122771,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luis Guzman",
+      "Michael Marinello"
      ],
      "a": [
       "Leo Wong",
@@ -122782,8 +122782,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Liang",
+      "Brandon Calmo"
      ],
      "a": [
       "Shawn Mayer",
@@ -122793,8 +122793,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Kuti",
+      "Michael Marinello"
      ],
      "a": [
       "Perri Goldstein",
@@ -122804,8 +122804,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Ramos",
+      "Luis Guzman"
      ],
      "a": [
       "Carolyn Antuna",
@@ -122815,8 +122815,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Demaise",
+      "Danny Ruiz"
      ],
      "a": [
       "Lisa Weinthal",
@@ -122826,8 +122826,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Supriya Kothakonda",
+      "Alan Liang"
      ],
      "a": [
       "Sally Webb",
@@ -122837,8 +122837,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Ramos",
+      "Nicole Demaise"
      ],
      "a": [
       "Perri Goldstein",
@@ -122848,8 +122848,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taryn Seidner",
+      "Supriya Kothakonda"
      ],
      "a": [
       "Lisa Weinthal",
@@ -122859,8 +122859,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Luis Guzman",
+      "Brandon Calmo"
      ],
      "a": [
       "Leo Wong",
@@ -122870,8 +122870,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Liang",
+      "Danny Ruiz"
      ],
      "a": [
       "Tayon Hart",
@@ -122881,8 +122881,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Danielle Kuti",
+      "Michael Marinello"
      ],
      "a": [
       "Perri Goldstein",
@@ -122892,8 +122892,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Supriya Kothakonda",
+      "Brandon Calmo"
      ],
      "a": [
       "Carolyn Antuna",
@@ -122903,8 +122903,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taryn Seidner",
+      "Alan Liang"
      ],
      "a": [
       "Lisa Weinthal",
@@ -122914,8 +122914,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Nicole Demaise",
+      "Danny Ruiz"
      ],
      "a": [
       "Sally Webb",
@@ -122925,8 +122925,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nicole Demaise",
+      "Taryn Seidner"
      ],
      "a": [
       "Perri Goldstein",
@@ -122936,8 +122936,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Danielle Kuti",
+      "Rebecca Ramos"
      ],
      "a": [
       "Carolyn Antuna",
@@ -122947,8 +122947,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Calmo",
+      "Luis Guzman"
      ],
      "a": [
       "Leo Wong",
@@ -122958,8 +122958,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Liang",
+      "Danny Ruiz"
      ],
      "a": [
       "Tayon Hart",
@@ -123014,7 +123014,361 @@
    "home": "Delco Turf & Pickle",
    "away": "Bounce Malvern",
    "time": "2026-11-11T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenna Posner",
+      "Joseph Walton"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Minehan",
+      "Matthew Landis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Mchugh",
+      "Daniel Seng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Jennifer Minehan"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Mchugh",
+      "Kristie Frazier"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Walton",
+      "Michal Dziegielewski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Landis",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Minehan",
+      "Matthew Landis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenna Posner",
+      "Michal Dziegielewski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Mchugh",
+      "Daniel Seng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristie Frazier",
+      "Jenna Posner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Kim Mchugh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Enz",
+      "Joseph Walton"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Seng",
+      "Matthew Landis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kim Mchugh",
+      "Matthew Landis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Daniel Seng"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Minehan",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristie Frazier",
+      "Michal Dziegielewski"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Minehan",
+      "Kristie Frazier"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Jenna Posner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Joseph Walton",
+      "Michal Dziegielewski"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Seng",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jennifer Minehan",
+      "Matt Enz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Matthew Landis"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenna Posner",
+      "Michal Dziegielewski"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kristie Frazier",
+      "Daniel Seng"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jenna Posner",
+      "Kristie Frazier"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Hartman",
+      "Jennifer Minehan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Enz",
+      "Daniel Seng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Landis",
+      "Joseph Walton"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -125072,7 +125426,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-08T15:52:13.962Z";
+  DATA.meta.asOf = "2026-11-09T03:48:38.365Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

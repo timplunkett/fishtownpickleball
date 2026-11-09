@@ -9079,6 +9079,35 @@
    "playerId": "00810f93-8951-43da-8134-bf956b7afb73"
   },
   {
+   "name": "Chris Cheng",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 322,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0c6bb34d-2f84-4d14-b3c7-378346532a11"
+  },
+  {
    "name": "Yiqun (Nina) Chen",
    "gender": "Female",
    "team": "Dill Dinkers Newport",
@@ -9106,6 +9135,35 @@
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "39da74b5-60a5-49cf-ae21-80b24602c3f4"
+  },
+  {
+   "name": "Namit Jain",
+   "gender": "Male",
+   "team": "Bounce Malvern",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 326,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "8a49c394-945c-410d-8b79-b20b55437436"
   },
   {
    "name": "Nitin Chawke",
@@ -69522,7 +69580,417 @@
    "home": "Pickleball Kingdom Lehigh Valley",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-11-10T19:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yashraj Kurani",
+      "Prashanth Koshy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Max Schneiderman",
+      "Jun Zhi Tan"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ed Villaverde",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yashraj Kurani",
+      "Prashanth Koshy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Max Schneiderman",
+      "Jun Zhi Tan"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ed Villaverde",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Ed Villaverde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jun Zhi Tan",
+      "Yashraj Kurani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Prashanth Koshy",
+      "Max Schneiderman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jun Zhi Tan",
+      "Yashraj Kurani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Prashanth Koshy",
+      "Max Schneiderman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Ed Villaverde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Max Schneiderman",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ed Villaverde",
+      "Yashraj Kurani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jun Zhi Tan",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Prashanth Koshy",
+      "Akash Raju"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Max Schneiderman",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Yashraj Kurani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jun Zhi Tan",
+      "Elliott Albanese"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Prashanth Koshy",
+      "Ed Villaverde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yashraj Kurani",
+      "Max Schneiderman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Jun Zhi Tan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Lou Gomez"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ed Villaverde",
+      "Prashanth Koshy"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yashraj Kurani",
+      "Max Schneiderman"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Akash Raju",
+      "Jun Zhi Tan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Albanese",
+      "Ed Villaverde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lou Gomez",
+      "Prashanth Koshy"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -69543,8 +70011,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Graham Heavenrich"
      ],
      "a": [
       "Keith Richard",
@@ -69558,8 +70026,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Vincent Demarco"
      ],
      "a": [
       "Xan Hong",
@@ -69569,12 +70037,12 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Sal Bwint"
      ],
      "a": [
       "Ian Diamond",
-      "Yiqun (Nina) Chen"
+      "Nitin Chawke"
      ],
      "aSub": [
       0,
@@ -69584,11 +70052,11 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charles Evans",
+      "Dan Ladislaw"
      ],
      "a": [
-      "Nitin Chawke",
+      "Yiqun (Nina) Chen",
       "Paul Chantler"
      ],
      "aSub": [
@@ -69599,8 +70067,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Neave",
+      "Jordan Demcher"
      ],
      "a": [
       "Keith Richard",
@@ -69614,8 +70082,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Leland Weinert"
      ],
      "a": [
       "Xan Hong",
@@ -69625,12 +70093,12 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Sal Bwint"
      ],
      "a": [
       "Ian Diamond",
-      "Yiqun (Nina) Chen"
+      "Nitin Chawke"
      ],
      "aSub": [
       0,
@@ -69640,11 +70108,11 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Charles Evans"
      ],
      "a": [
-      "Nitin Chawke",
+      "Yiqun (Nina) Chen",
       "Paul Chantler"
      ],
      "aSub": [
@@ -69655,8 +70123,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Charles Evans"
      ],
      "a": [
       "Keith Richard",
@@ -69666,12 +70134,12 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leland Weinert",
+      "Vincent Demarco"
      ],
      "a": [
       "Xan Hong",
-      "David Brond"
+      "Nitin Chawke"
      ],
      "aSub": [
       0,
@@ -69681,11 +70149,11 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sal Bwint",
+      "Dan Ladislaw"
      ],
      "a": [
-      "Nitin Chawke",
+      "David Brond",
       "Yiqun (Nina) Chen"
      ],
      "aSub": [
@@ -69696,8 +70164,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Andrew Neave"
      ],
      "a": [
       "Paul Chantler",
@@ -69707,8 +70175,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leland Weinert",
+      "Andrew Neave"
      ],
      "a": [
       "Keith Richard",
@@ -69718,12 +70186,12 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Dan Ladislaw"
      ],
      "a": [
       "Xan Hong",
-      "David Brond"
+      "Nitin Chawke"
      ],
      "aSub": [
       0,
@@ -69733,11 +70201,11 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Vincent Demarco"
      ],
      "a": [
-      "Nitin Chawke",
+      "David Brond",
       "Yiqun (Nina) Chen"
      ],
      "aSub": [
@@ -69748,8 +70216,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Graham Heavenrich"
      ],
      "a": [
       "Paul Chantler",
@@ -69759,8 +70227,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leland Weinert",
+      "Dan Ladislaw"
      ],
      "a": [
       "Keith Richard",
@@ -69770,8 +70238,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Sal Bwint"
      ],
      "a": [
       "David Brond",
@@ -69785,8 +70253,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Vincent Demarco"
      ],
      "a": [
       "Bill Violette",
@@ -69800,8 +70268,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Charles Evans"
      ],
      "a": [
       "Paul Chantler",
@@ -69815,8 +70283,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Graham Heavenrich"
      ],
      "a": [
       "Keith Richard",
@@ -69826,8 +70294,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Neave",
+      "Vincent Demarco"
      ],
      "a": [
       "David Brond",
@@ -69841,8 +70309,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sal Bwint",
+      "Dan Ladislaw"
      ],
      "a": [
       "Bill Violette",
@@ -69856,8 +70324,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Leland Weinert",
+      "Matt Enz"
      ],
      "a": [
       "Paul Chantler",
@@ -69871,48 +70339,11 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Neave",
+      "Charles Evans"
      ],
      "a": [
       "Keith Richard",
-      "Bill Violette"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Xan Hong",
-      "Ian Diamond"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "David Brond",
-      "Nitin Chawke"
-     ],
-     "aSub": [
-      1,
-      1
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Paul Chantler",
       "Yiqun (Nina) Chen"
      ],
      "aSub": [
@@ -69923,19 +70354,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Keith Richard",
-      "Bill Violette"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Leland Weinert",
+      "Dan Ladislaw"
      ],
      "a": [
       "Xan Hong",
@@ -69945,27 +70365,87 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Matt Enz"
      ],
      "a": [
       "David Brond",
-      "Nitin Chawke"
+      "Paul Chantler"
      ],
      "aSub": [
       1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Harvey Mitchell",
+      "Jordan Demcher"
+     ],
+     "a": [
+      "Bill Violette",
+      "Nitin Chawke"
+     ],
+     "aSub": [
+      0,
       1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Vincent Demarco"
      ],
      "a": [
-      "Paul Chantler",
+      "Keith Richard",
       "Yiqun (Nina) Chen"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Andrew Neave",
+      "Jordan Demcher"
+     ],
+     "a": [
+      "Xan Hong",
+      "Ian Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Charles Evans",
+      "Namit Jain"
+     ],
+     "a": [
+      "David Brond",
+      "Paul Chantler"
+     ],
+     "hSub": [
+      0,
+      1
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Sal Bwint",
+      "Graham Heavenrich"
+     ],
+     "a": [
+      "Bill Violette",
+      "Nitin Chawke"
      ],
      "aSub": [
       0,
@@ -70342,7 +70822,361 @@
    "home": "Bounce Tempest",
    "away": "APC Garden State",
    "time": "2026-11-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neale Smith",
+      "Matt Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Daniel Dechristopher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andress Mims",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Neale Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Waters",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Neale Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Waters",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Neale Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Waters",
+      "Matt Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Daniel Dechristopher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Neale Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yongzhe Tian",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neale Smith",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Daniel Dechristopher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neale Smith",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Uzoma Nwankwo",
+      "Neale Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Andress Mims"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Waters",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Yongzhe Tian"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -70350,7 +71184,417 @@
    "home": "Montville",
    "away": "Allstar Pickler",
    "time": "2026-11-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Franklin Yiu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bing Zhu",
+      "Chris Cheng"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Franklin Yiu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Charley Ma"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianni Roman",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Sean Majury"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Charley Ma"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianni Roman",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Sean Majury"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Charley Ma"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gianni Roman",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Charley Ma"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Sean Majury"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Madhu Raghunathan",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Charley Ma"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Franklin Yiu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Madhu Raghunathan",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Saad Talat Siddiqui",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Saad Talat Siddiqui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charley Ma",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander King",
+      "Bing Zhu"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sean Majury",
+      "Madhu Raghunathan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Franklin Yiu",
+      "Gianni Roman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charley Ma",
+      "Saad Talat Siddiqui"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -70720,7 +71964,405 @@
    "home": "Home Court",
    "away": "PickleRage Union County",
    "time": "2026-11-10T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
+     ],
+     "a": [
+      "Jack Barry",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Guanqin Ma",
+      "Shreyas Suresh Hassan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Kunesch",
+      "Michael Gilbert"
+     ],
+     "a": [
+      "Sean Diamond",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Robert Huntley"
+     ],
+     "a": [
+      "Jason Huang",
+      "Carlos Echenique"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
+     ],
+     "a": [
+      "Jack Barry",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dennis Yap",
+      "Bryan Mccourt"
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Guanqin Ma"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Michael Vincent"
+     ],
+     "a": [
+      "Jason Huang",
+      "Carlos Echenique"
+     ],
+     "aSub": [
+      1,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kevin Sheehan",
+      "Michael Gilbert"
+     ],
+     "a": [
+      "Sean Diamond",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Dennis Yap"
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Dan Yang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Pat Wilson",
+      "Marc Kunesch"
+     ],
+     "a": [
+      "Jason Huang",
+      "Guanqin Ma"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Vincent",
+      "Kevin Sheehan"
+     ],
+     "a": [
+      "Vinay Mutt",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Robert Huntley"
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Huntley",
+      "Marc Kunesch"
+     ],
+     "a": [
+      "Francis Thai",
+      "Guanqin Ma"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Jack Barry"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Michael Gilbert"
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Andy Knight"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bryan Mccourt",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Sean Diamond",
+      "Carlos Echenique"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Dennis Yap"
+     ],
+     "a": [
+      "Guanqin Ma",
+      "Jack Barry"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Dan Yang",
+      "Shreyas Suresh Hassan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Huntley",
+      "Kevin Sheehan"
+     ],
+     "a": [
+      "Francis Thai",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bryan Mccourt",
+      "Michael Vincent"
+     ],
+     "a": [
+      "Ren Macalalag",
+      "Carlos Echenique"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Bryan Mccourt"
+     ],
+     "a": [
+      "Jack Barry",
+      "Guanqin Ma"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Pat Wilson",
+      "Michael Vincent"
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Vinay Mutt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Kunesch",
+      "Michael Gilbert"
+     ],
+     "a": [
+      "Jason Huang",
+      "Andy Knight"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Matthew Carrington"
+     ],
+     "a": [
+      "Carlos Echenique",
+      "Sean Diamond"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Michael Vincent",
+      "Kevin Sheehan"
+     ],
+     "a": [
+      "Guanqin Ma",
+      "Francis Thai"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Marc Kunesch"
+     ],
+     "a": [
+      "Carlos Echenique",
+      "Ren Macalalag"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Robert Huntley",
+      "Michael Gilbert"
+     ],
+     "a": [
+      "Andy Knight",
+      "Jason Huang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dennis Yap",
+      "Bryan Mccourt"
+     ],
+     "a": [
+      "Dan Yang",
+      "Sean Diamond"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Kevin Sheehan"
+     ],
+     "a": [
+      "Shreyas Suresh Hassan",
+      "Vinay Mutt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Guanqin Ma",
+      "Jason Huang"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bryan Mccourt",
+      "Marc Kunesch"
+     ],
+     "a": [
+      "Sean Diamond",
+      "Ren Macalalag"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
+     ],
+     "a": [
+      "Dan Yang",
+      "Carlos Echenique"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -71087,13 +72729,11 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
-  "Chris Cheng": "0c6bb34d-2f84-4d14-b3c7-378346532a11",
   "Steve Peck": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
   "Chris Shung": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
-  "Namit Jain": "8a49c394-945c-410d-8b79-b20b55437436",
   "Nirav Solanki": "938658e5-f3f0-4597-8d1b-8d65a9378673",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa"
@@ -71776,7 +73416,7 @@
   "matchesPlayed": 104,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 323,
+  "totalPlayers": 325,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -71924,7 +73564,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T21:33:50.272Z";
+  DATA.meta.asOf = "2026-11-09T03:50:04.396Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

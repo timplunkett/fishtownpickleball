@@ -821,9 +821,9 @@
       "weekNumber": 11,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "awayTeamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 514,
+      "awayPoints": 316,
+      "endResult": "home",
       "scheduledTime": "2026-11-02T19:30:00",
       "homeName": "Pickleball Kingdom Watchung",
       "awayName": "Jersey Pickleball Club"

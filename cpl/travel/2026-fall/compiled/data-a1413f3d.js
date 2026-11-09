@@ -9546,8 +9546,8 @@
    "name": "Lauren Gnapp",
    "gender": "Female",
    "team": "Pickleball Kingdom Tinton Falls",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 14,
    "wins": 5,
@@ -76339,9 +76339,7 @@
      ]
     }
    ],
-   "subs": [
-    "Lauren Gnapp"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -82844,8 +82842,7 @@
     }
    ],
    "subs": [
-    "Rachel Levkov",
-    "Lauren Gnapp"
+    "Rachel Levkov"
    ]
   },
   {
@@ -87908,14 +87905,6 @@
    "outsideSub": true
   },
   {
-   "name": "Lauren Gnapp",
-   "playerId": "be531df0-e305-4ae2-b203-becfa490f719",
-   "gender": "Female",
-   "team": "Pickleball Kingdom Tinton Falls",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Santhosh Kumar Kalipalayam Kandasamy",
    "playerId": "c04784f5-f05c-4f1e-8e1d-5fbbed7a09a9",
    "gender": "Male",
@@ -88320,7 +88309,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T03:32:07.963Z";
+  DATA.meta.asOf = "2026-11-09T03:47:41.191Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

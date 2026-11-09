@@ -1567,6 +1567,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Anthony Leung",
+   "playerId": "48457f37-29a2-47e7-8b2e-62316ad44feb",
+   "team": "Pickleball Kingdom Watchung",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Anthony Manzo",
    "playerId": "031d7489-2ebb-4fb5-959b-88a86d0fff46",
    "team": "Monroe",
@@ -7065,6 +7072,13 @@ window.DUPR_AUDIT = {
    "name": "Hayley Yandoli",
    "playerId": "1fc2dd51-135b-46d6-91ef-9291b573e78a",
    "team": "Premiere",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
+   "name": "Hayley Yandoli",
+   "playerId": "1fc2dd51-135b-46d6-91ef-9291b573e78a",
+   "team": "Premiere",
    "slug": "a1413f3d",
    "gender": "Female"
   },
@@ -11455,6 +11469,13 @@ window.DUPR_AUDIT = {
    "playerId": "ef0b7b1a-41ac-4ccd-b502-a68ad5549a3b",
    "team": "Picklr Newark",
    "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Lauren Gnapp",
+   "playerId": "be531df0-e305-4ae2-b203-becfa490f719",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "slug": "a1413f3d",
    "gender": "Female"
   },
   {
@@ -18273,6 +18294,13 @@ window.DUPR_AUDIT = {
    "playerId": "dae62b8e-5f8e-4721-8f41-3218518d1e30",
    "team": "Flemington Green",
    "slug": "2edc44e7",
+   "gender": "Female"
+  },
+  {
+   "name": "Tara Lombardo",
+   "playerId": "77d20dd0-823c-474e-b470-12f69db5a588",
+   "team": "Premiere",
+   "slug": "c43b8608",
    "gender": "Female"
   },
   {
