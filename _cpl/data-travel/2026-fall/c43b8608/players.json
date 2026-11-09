@@ -527,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 496
+      "ranking": 497
     },
     {
       "playerId": "0d68c1e4-633a-4b56-bb73-06365cf5bdcb",
@@ -3403,6 +3403,29 @@
       "genderWins": 4,
       "genderLosses": 18,
       "ranking": 292
+    },
+    {
+      "playerId": "4c4297a1-6537-482c-aeee-beb3aa5c3eb1",
+      "firstName": "Dina",
+      "lastName": "Perrella",
+      "gender": "Female",
+      "dupr": "17EPWM",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "teamName": "Home Court",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 496
     },
     {
       "playerId": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
@@ -8945,7 +8968,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 498
+      "ranking": 499
     },
     {
       "playerId": "cc77a7f0-8771-48b0-aedb-6a6aae456efc",
@@ -9888,7 +9911,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 497
+      "ranking": 498
     },
     {
       "playerId": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
@@ -10670,7 +10693,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 499
+      "ranking": 500
     },
     {
       "playerId": "f03105d3-576a-4955-909a-24c18a087d1e",

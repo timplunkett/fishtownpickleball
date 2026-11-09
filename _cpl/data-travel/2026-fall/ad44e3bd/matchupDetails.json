@@ -17932,7 +17932,7 @@
           {
             "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
             "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 8,
             "wins": 7,
             "losses": 1,
@@ -19897,7 +19897,7 @@
           {
             "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
             "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-            "isSub": true,
+            "isSub": false,
             "gamesPlayed": 8,
             "wins": 4,
             "losses": 4,

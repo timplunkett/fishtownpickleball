@@ -13043,7 +13043,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 498,
+   "leagueRank": 499,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -79205,6 +79205,7 @@
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
+  "Dina Perrella": "4c4297a1-6537-482c-aeee-beb3aa5c3eb1",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
@@ -79580,6 +79581,14 @@
    "playerId": "4b3f4a35-e94a-402c-869d-77650914bdcb",
    "gender": "Female",
    "team": "Dill Dinkers Lansdale",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Dina Perrella",
+   "playerId": "4c4297a1-6537-482c-aeee-beb3aa5c3eb1",
+   "gender": "Female",
+   "team": "Home Court",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -80711,7 +80720,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-09T14:47:57.784Z";
+  DATA.meta.asOf = "2026-11-09T21:32:48.630Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

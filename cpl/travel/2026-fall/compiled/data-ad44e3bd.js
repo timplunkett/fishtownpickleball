@@ -1426,8 +1426,8 @@
    "name": "Mary Brashier",
    "gender": "Female",
    "team": "Flemington Blue",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 16,
    "wins": 11,
@@ -25682,9 +25682,7 @@
      ]
     }
    ],
-   "subs": [
-    "Mary Brashier"
-   ]
+   "subs": []
   },
   {
    "result": "home",
@@ -27077,9 +27075,7 @@
      ]
     }
    ],
-   "subs": [
-    "Mary Brashier"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -41205,14 +41201,6 @@
    "outsideSub": true
   },
   {
-   "name": "Mary Brashier",
-   "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
-   "gender": "Female",
-   "team": "Flemington Blue",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Barbara Mccarron",
    "playerId": "9179cc04-34f4-48f4-b30d-69ec894d05f4",
    "gender": "Female",
@@ -41522,7 +41510,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T15:53:34.607Z";
+  DATA.meta.asOf = "2026-11-09T21:33:19.096Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

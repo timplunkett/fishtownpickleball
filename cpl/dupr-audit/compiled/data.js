@@ -608,6 +608,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Alexandra Pond",
+   "playerId": "ca2c7d14-de39-45a1-805a-ff1ab5be31d9",
+   "team": "Bounce Philly",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Alexandra Romagnolo",
    "playerId": "5b2cd4fb-dda2-4578-8b82-73ad0c7153dd",
    "team": "Premiere Dinkers",
@@ -4920,6 +4927,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Dean Tridente",
+   "playerId": "0c14b44f-7a46-464e-a577-f8f9d6d24e6d",
+   "team": "Jersey Devil",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Deb Morisie",
    "playerId": "94d76c8a-d5ee-444b-aa23-3c3ec71e2387",
    "team": "Pickleball Kingdom Lehigh Valley",
@@ -5435,6 +5449,13 @@ window.DUPR_AUDIT = {
    "playerId": "cb4a8451-13f9-4c27-8dc6-847fea7be9b4",
    "team": "Pickleball Kingdom Hamilton Prime Time",
    "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
+   "name": "Ed Villaverde",
+   "playerId": "3edc72f0-c23d-4ad5-9842-cde023cd7514",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -8263,6 +8284,13 @@ window.DUPR_AUDIT = {
    "playerId": "26116ec9-7f8d-4944-8c35-d2e0ad651a01",
    "team": "Flemington",
    "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Jeff Laniado",
+   "playerId": "06d52e99-941a-4ced-9968-f56e6075105a",
+   "team": "Montville",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {
@@ -12895,6 +12923,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Mary Brashier",
    "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
+   "team": "Flemington Blue",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
+   "name": "Mary Brashier",
+   "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
    "team": "Flemington",
    "slug": "b7ca04e4",
    "gender": "Female"
@@ -16026,6 +16061,13 @@ window.DUPR_AUDIT = {
    "playerId": "9b83f83f-53c3-4576-9ea6-410e99f7c798",
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
+   "name": "Roanne Mae Vega",
+   "playerId": "5a8658ab-fe97-4c51-a0fc-4cd151fc9b2c",
+   "team": "PickleRage Union County Net Ninjas",
+   "slug": "e27386b3",
    "gender": "Female"
   },
   {

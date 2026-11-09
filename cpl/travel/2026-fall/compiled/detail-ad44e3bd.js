@@ -16039,8 +16039,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -16066,8 +16066,8 @@
     "teamRes": "W",
     "teamGW": 20,
     "teamGL": 12,
-    "sub": 1,
-    "subFor": "Flemington Blue"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

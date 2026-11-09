@@ -49034,7 +49034,6 @@
    "away": "Jersey Devil",
    "time": "2026-11-08T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 563,
    "awayPoints": 631,
    "homeGW": 13,
@@ -49490,9 +49489,9 @@
     }
    ],
    "subs": [
+    "Shahar Gelber",
     "Vladyslav Dubinin",
-    "Kylie Lupica",
-    "Shahar Gelber"
+    "Kylie Lupica"
    ]
   },
   {
@@ -49517,7 +49516,361 @@
    "home": "ACE Moorestown",
    "away": "Dill Dinkers Hatboro The Factory",
    "time": "2026-11-11T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Dylan Ashbach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Allison Tarnoff"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Clayton Schmucker",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Dylan Ashbach"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Clayton Schmucker"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Allison Tarnoff"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rayna Baizman",
+      "Varun Prakash"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Andrew Wakefield"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nahla Bernhardt",
+      "Clayton Schmucker"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Tarnoff",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hannah Nussbaum",
+      "Nahla Bernhardt"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kaylyn Swankoski",
+      "Rayna Baizman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Ashbach",
+      "Jonah Fliegelman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Wakefield",
+      "Varun Prakash"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -50221,7 +50574,7 @@
  ],
  "meta": {
   "matchesPlayed": 73,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-11",
   "totalPlayers": 254,
   "ratingHistoryWeeks": [
@@ -50365,7 +50718,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T21:32:38.721Z";
+  DATA.meta.asOf = "2026-11-09T21:32:09.277Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

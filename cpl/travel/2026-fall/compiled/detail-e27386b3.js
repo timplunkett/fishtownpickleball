@@ -260,8 +260,8 @@
     "teamRes": "W",
     "teamGW": 25,
     "teamGL": 7,
-    "sub": 1,
-    "subFor": "PickleRage Union County Net Ninjas"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
