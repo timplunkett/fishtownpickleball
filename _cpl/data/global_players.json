@@ -49191,7 +49191,9 @@
     "firstName": "Bronwen",
     "lastName": "Henry",
     "dupr": "9PZY6R",
-    "duprRating": null,
+    "duprRating": "4.114",
+    "duprNumericId": 5356213820,
+    "duprProvisional": false,
     "lastSeen": "2026-11"
   },
   {
@@ -49249,7 +49251,9 @@
     "firstName": "Kevin",
     "lastName": "Burke",
     "dupr": "4ZQKMG",
-    "duprRating": null,
+    "duprRating": "3.418",
+    "duprNumericId": 8271860559,
+    "duprProvisional": false,
     "lastSeen": "2026-11"
   },
   {
