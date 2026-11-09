@@ -97938,7 +97938,6 @@
    "away": "Allstar Pickler",
    "time": "2026-11-07T14:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 597,
    "awayPoints": 646,
    "homeGW": 10,
@@ -98396,8 +98395,8 @@
    "subs": [
     "Haiying Hu",
     "Michelle Jacoby",
-    "Melissa Simon",
-    "Allen Wang"
+    "Allen Wang",
+    "Melissa Simon"
    ]
   },
   {
@@ -104474,7 +104473,7 @@
  ],
  "meta": {
   "matchesPlayed": 148,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-13",
   "totalPlayers": 610,
   "ratingHistoryWeeks": [
@@ -104658,7 +104657,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-08T21:30:47.999Z";
+  DATA.meta.asOf = "2026-11-09T14:45:38.143Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

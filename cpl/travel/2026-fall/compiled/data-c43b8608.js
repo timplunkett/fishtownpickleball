@@ -78198,7 +78198,6 @@
    "away": "Picklr Fair Lawn",
    "time": "2026-11-08T14:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 583,
    "awayPoints": 645,
    "homeGW": 12,
@@ -80539,7 +80538,7 @@
  ],
  "meta": {
   "matchesPlayed": 114,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-12",
   "totalPlayers": 476,
   "ratingHistoryWeeks": [
@@ -80712,7 +80711,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-09T03:49:25.766Z";
+  DATA.meta.asOf = "2026-11-09T14:47:57.784Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

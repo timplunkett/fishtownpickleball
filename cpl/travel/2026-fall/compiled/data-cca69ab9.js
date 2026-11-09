@@ -6701,6 +6701,35 @@
    "playerId": "95d56ea3-7923-4cdd-9946-05a9b7f6634c"
   },
   {
+   "name": "Akash Raju",
+   "gender": "Male",
+   "team": "Pickleball Kingdom Hillsborough",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 259,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a2fc30f9-b494-4781-900e-1e0b7d531f02"
+  },
+  {
    "name": "Doug Horton",
    "gender": "Male",
    "team": "Bounce Tempest",
@@ -46581,7 +46610,11 @@
      ],
      "a": [
       "Neel Goyal",
-      "Vivek Kumar"
+      "Akash Raju"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -46644,7 +46677,11 @@
      ],
      "a": [
       "Neel Goyal",
-      "Vivek Kumar"
+      "Akash Raju"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -46698,11 +46735,11 @@
       "Steve Susskind"
      ],
      "a": [
-      "Vivek Kumar",
+      "Akash Raju",
       "Joseph Albanese"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -46713,11 +46750,11 @@
       "Christopher Venuto"
      ],
      "a": [
-      "Vivek Kumar",
+      "Akash Raju",
       "Joseph Albanese"
      ],
      "aSub": [
-      0,
+      1,
       1
      ]
     },
@@ -46761,8 +46798,12 @@
       "Jon Bliven"
      ],
      "a": [
-      "Vivek Kumar",
+      "Akash Raju",
       "Muhammad Usman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -46835,8 +46876,12 @@
       "Steve Susskind"
      ],
      "a": [
-      "Vivek Kumar",
+      "Akash Raju",
       "Muhammad Usman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -46879,8 +46924,12 @@
       "Jonathan Ksiezopolski"
      ],
      "a": [
-      "Vivek Kumar",
+      "Akash Raju",
       "Ian Chin"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -46906,7 +46955,11 @@
      ],
      "a": [
       "Jason Makarevic",
-      "Vivek Kumar"
+      "Akash Raju"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -47848,7 +47901,6 @@
   "Royce Chan": "68274c39-0102-4554-978e-1aa50a0b3fba",
   "Joseph Mizrahi": "6aa4b196-23d0-4070-8825-2b1d4b80395d",
   "Santhosh Pillai": "7d25c9f9-c478-402a-9139-cc8781686a8e",
-  "Akash Raju": "a2fc30f9-b494-4781-900e-1e0b7d531f02",
   "Jordan Brochin": "a4176c65-8252-4eee-b2cb-28b8b7f1f036",
   "Matthew Schwartz": "a432d3e0-17c2-4741-a4b2-7f72b7a81a5f"
  },
@@ -48554,7 +48606,7 @@
   "matchesPlayed": 68,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 242,
+  "totalPlayers": 243,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -48695,7 +48747,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-09T03:49:41.339Z";
+  DATA.meta.asOf = "2026-11-09T14:48:15.687Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
