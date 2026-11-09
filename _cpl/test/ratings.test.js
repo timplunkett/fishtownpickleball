@@ -291,7 +291,10 @@ test('applyProvisionalOutcomes drops a decided match\'s unscored games from its 
   assert.equal(games.length, 2, 'downstream never sees a null-score game');
   assert.ok(games.every(g => Number.isFinite(g.homeScore) && Number.isFinite(g.awayScore)));
   const a = resolved.detailById.get('prov').matchupPlayerStats.$values.find(r => r.playerId === 'a');
-  assert.equal(a.gamesPlayed, 2);
+  // The league counts the slotted-but-unscored game as played, with no result.
+  assert.equal(a.gamesPlayed, 3);
+  assert.equal(a.wins + a.losses, 2);
+  assert.equal(a.pointsWon, 42);
   // Inputs are not mutated.
   assert.equal(details.get('prov').lineups.lineups.$values.length, 3);
 });

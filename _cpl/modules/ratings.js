@@ -32,13 +32,16 @@ const isScored = (g) => Number.isFinite(g.homeScore) && Number.isFinite(g.awaySc
 // Either way the result is knowable as soon as the leader is ahead by more games
 // than are still unscored: nothing left can overturn it, and a match still in
 // progress whose outcome could flip stays unresolved. The unscored games are
-// left out of `games` and the point totals; there's no score to count.
+// left out of `games` and the point totals; there's no score to count. They're
+// returned separately as `unscoredLineups`, because the league still counts them
+// as games played (see synthesizeMatchupPlayerStats).
 function deriveProvisionalOutcome(details) {
   const allLineups = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []);
   const slottedLineups = allLineups.filter(hasPlayer);
   const scoredLineups = slottedLineups.filter(isScored);
   if (!scoredLineups.length) return null;
-  const unscoredGames = slottedLineups.length - scoredLineups.length;
+  const unscoredLineups = slottedLineups.filter(g => !isScored(g));
+  const unscoredGames = unscoredLineups.length;
 
   let homeGW = 0, awayGW = 0, homePoints = 0, awayPoints = 0;
   for (const g of scoredLineups) {
@@ -49,7 +52,7 @@ function deriveProvisionalOutcome(details) {
   }
 
   if (Math.abs(homeGW - awayGW) <= unscoredGames) return null;
-  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: scoredLineups, unscoredGames };
+  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: scoredLineups, unscoredGames, unscoredLineups };
 }
 
 // Games are played to a fixed target with win-by-two, so the overwhelmingly most
@@ -147,6 +150,24 @@ function synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubF
         if (isClutch(g)) { if (won) row.clutchWins++; else row.clutchLosses++; }
         if (g.matchType === 'mixed') { if (won) row.mixedWins++; else row.mixedLosses++; }
         if (g.matchType === 'male' || g.matchType === 'female') { if (won) row.genderWins++; else row.genderLosses++; }
+      }
+    }
+  }
+
+  // A slotted game left unscored once the match was decided still counts as a
+  // game played for everyone slotted into it, with no win, loss or points: the
+  // league's rows for such a match report gamesPlayed one higher than
+  // wins + losses for exactly those players (first seen 2026-11-05, travel
+  // 2026-fall). For a match still being played this can run a game ahead, but it
+  // lands on the league's number either way: the game is scored later or it stays blank.
+  for (const g of (provisional.unscoredLineups || [])) {
+    const sides = [
+      { ids: [g.homePlayerId1, g.homePlayerId2], teamId: matchup.homeTeamId },
+      { ids: [g.awayPlayerId1, g.awayPlayerId2], teamId: matchup.awayTeamId },
+    ];
+    for (const side of sides) {
+      for (const playerId of side.ids) {
+        if (playerId) rowFor(playerId, side.teamId).gamesPlayed++;
       }
     }
   }
