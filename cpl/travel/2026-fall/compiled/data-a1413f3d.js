@@ -12869,7 +12869,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 496,
+   "leagueRank": 497,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12898,7 +12898,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 503,
+   "leagueRank": 504,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12927,7 +12927,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 506,
+   "leagueRank": 507,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12956,7 +12956,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 497,
+   "leagueRank": 498,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12985,7 +12985,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 483,
+   "leagueRank": 484,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13014,7 +13014,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 499,
+   "leagueRank": 500,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13043,7 +13043,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 479,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -87088,7 +87088,350 @@
    "home": "Pickle Place",
    "away": "Bounce Philly",
    "time": "2026-11-12T19:30:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Friedman",
+      "Eshan Kanetkar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittney Lew",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Friedman",
+      "Mickey Ma"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Jess Glassman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eshan Kanetkar",
+      "John Price"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Friedman",
+      "Eshan Kanetkar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittney Lew",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jingru Du",
+      "Elliott Bauer"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Friedman",
+      "Jess Glassman"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittney Lew",
+      "Jingru Du"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elliott Bauer",
+      "John Price"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eshan Kanetkar",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jingru Du",
+      "Elliott Bauer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Eshan Kanetkar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Glassman",
+      "John Price"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Brittney Lew"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Jess Glassman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "Anuj Mehta"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jess Glassman",
+      "John Price"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lindsay Henzes",
+      "Daniel Borgia"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mickey Ma",
+      "Eshan Kanetkar"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jingru Du",
+      "Nicolas Ha"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brittney Lew",
+      "Mickey Ma"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michelle Friedman",
+      "Jingru Du"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicolas Ha",
+      "Elliott Bauer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Borgia",
+      "John Price"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -87147,6 +87490,7 @@
   "Rick Wickenheisser": "741048e8-2c91-4466-bb1c-1a624d1dabd9",
   "Zachary Feldman": "8938260f-627e-485e-a076-ef541121cd70",
   "Shukling Parker": "8b9a1a95-0599-42bc-b233-e24609d11e07",
+  "Elizabeth Biehl": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
   "Shangjia Dong": "a6d8088e-3253-4253-a79d-e389864e2359",
   "Matt Schall": "aa0d9944-a9d3-46d5-8650-54e894adfeb2",
   "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
@@ -87784,6 +88128,14 @@
    "outsideSub": true
   },
   {
+   "name": "Elizabeth Biehl",
+   "playerId": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
+   "gender": "Female",
+   "team": "Flemington Blue",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Marc Padre",
    "playerId": "a131a707-f20e-4838-9dcf-7cecb40c2705",
    "gender": "Male",
@@ -88340,7 +88692,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T01:00:46.279Z";
+  DATA.meta.asOf = "2026-11-10T14:01:00.818Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

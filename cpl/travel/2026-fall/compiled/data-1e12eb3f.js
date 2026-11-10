@@ -16291,7 +16291,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 650,
+   "leagueRank": 651,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16320,7 +16320,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 647,
+   "leagueRank": 648,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16349,7 +16349,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 655,
+   "leagueRank": 656,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16378,7 +16378,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 644,
+   "leagueRank": 645,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16407,7 +16407,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 639,
+   "leagueRank": 640,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16494,7 +16494,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 642,
+   "leagueRank": 643,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16523,7 +16523,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 649,
+   "leagueRank": 650,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16581,7 +16581,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 653,
+   "leagueRank": 654,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -102650,6 +102650,7 @@
   "Jayne Brown": "0b04e2c1-d1c3-46d9-ab14-c71c0b99624f",
   "Mike Ussak": "0cb40ae1-3c39-43f7-9017-397eaa7e25f5",
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
+  "Rita Hung": "42cd2ea9-67c6-4d62-ad7f-8005e5c03606",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
@@ -103159,6 +103160,14 @@
    "playerId": "42843773-6096-4a7a-acb6-8be5b875fcf6",
    "gender": "Female",
    "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Rita Hung",
+   "playerId": "42cd2ea9-67c6-4d62-ad7f-8005e5c03606",
+   "gender": "Female",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -104810,7 +104819,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-09T21:30:07.970Z";
+  DATA.meta.asOf = "2026-11-10T14:00:24.663Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

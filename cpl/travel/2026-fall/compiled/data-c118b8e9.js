@@ -9195,35 +9195,6 @@
    "playerId": "834f3d3e-bde3-4b30-af4c-d1eadb344dfd"
   },
   {
-   "name": "Namit Jain",
-   "gender": "Male",
-   "team": "Bounce Malvern",
-   "matches": 0,
-   "outsideSub": true,
-   "isCaptain": false,
-   "gamesPlayed": 0,
-   "wins": 0,
-   "losses": 0,
-   "pointsWon": 0,
-   "totalPointsAgainst": 0,
-   "mixedWins": 0,
-   "mixedLosses": 0,
-   "genderWins": 0,
-   "genderLosses": 0,
-   "clutchWins": 0,
-   "clutchLosses": 0,
-   "winPct": 0,
-   "diff": 0,
-   "ppg": 0,
-   "leagueRank": 327,
-   "rating": null,
-   "ratingGames": 0,
-   "confidence": 0,
-   "strengthOfPartners": null,
-   "strengthOfOpponents": null,
-   "playerId": "8a49c394-945c-410d-8b79-b20b55437436"
-  },
-  {
    "name": "Nitin Chawke",
    "gender": "Male",
    "team": "Dill Dinkers Newport",
@@ -70890,15 +70861,11 @@
      "t": "male",
      "h": [
       "Charles Evans",
-      "Namit Jain"
+      "Matt Enz"
      ],
      "a": [
       "David Brond",
       "Paul Chantler"
-     ],
-     "hSub": [
-      0,
-      1
      ],
      "aSub": [
       1,
@@ -73202,6 +73169,7 @@
   "Justin Umana": "5eba9352-3bf9-4927-831e-52eaa3fb65a7",
   "Dileep Kumar Konduru": "7ef2aedb-09c0-4ed5-8f76-347f926777c5",
   "Craig Wu": "8667ff30-fa9e-4078-a6a0-63fcb68c8425",
+  "Namit Jain": "8a49c394-945c-410d-8b79-b20b55437436",
   "Nirav Solanki": "938658e5-f3f0-4597-8d1b-8d65a9378673",
   "Sean Liotine": "b7a5d158-2b7c-4fdc-83ab-aea797095631",
   "Chris Gander": "ebc6c2b2-f16d-478f-90fb-886d4e67f0aa"
@@ -73900,7 +73868,7 @@
   "matchesPlayed": 104,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 327,
+  "totalPlayers": 326,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -74048,7 +74016,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T01:02:19.203Z";
+  DATA.meta.asOf = "2026-11-10T14:03:44.805Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

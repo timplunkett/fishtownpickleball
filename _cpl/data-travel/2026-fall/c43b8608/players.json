@@ -2390,7 +2390,7 @@
       "mixedLosses": 8,
       "genderWins": 7,
       "genderLosses": 6,
-      "ranking": 146
+      "ranking": 147
     },
     {
       "playerId": "3572118b-4e01-4e64-96a4-a7cc80869425",
@@ -3264,7 +3264,7 @@
       "mixedLosses": 11,
       "genderWins": 3,
       "genderLosses": 11,
-      "ranking": 314
+      "ranking": 315
     },
     {
       "playerId": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
@@ -4736,7 +4736,7 @@
       "mixedLosses": 4,
       "genderWins": 5,
       "genderLosses": 7,
-      "ranking": 316
+      "ranking": 317
     },
     {
       "playerId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0",
@@ -6152,16 +6152,16 @@
       "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "teamName": "Picklr Newark",
       "wins": 2,
-      "losses": 58,
-      "gamesPlayed": 60,
-      "pointsWon": 807,
-      "totalPointsAgainst": 1255,
+      "losses": 59,
+      "gamesPlayed": 61,
+      "pointsWon": 819,
+      "totalPointsAgainst": 1276,
       "clutchWins": 1,
       "clutchLosses": 7,
       "mixedWins": 2,
       "mixedLosses": 31,
       "genderWins": 0,
-      "genderLosses": 27,
+      "genderLosses": 28,
       "ranking": 373
     },
     {
@@ -6300,7 +6300,7 @@
       "mixedLosses": 7,
       "genderWins": 13,
       "genderLosses": 9,
-      "ranking": 147
+      "ranking": 146
     },
     {
       "playerId": "8e45f538-d95a-4554-9ccf-443a06b5a89e",
@@ -8705,17 +8705,17 @@
       "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "teamName": "Picklr Newark",
       "wins": 10,
-      "losses": 42,
-      "gamesPlayed": 52,
-      "pointsWon": 827,
-      "totalPointsAgainst": 1049,
+      "losses": 41,
+      "gamesPlayed": 51,
+      "pointsWon": 815,
+      "totalPointsAgainst": 1028,
       "clutchWins": 4,
       "clutchLosses": 5,
       "mixedWins": 3,
       "mixedLosses": 23,
       "genderWins": 7,
-      "genderLosses": 19,
-      "ranking": 317
+      "genderLosses": 18,
+      "ranking": 314
     },
     {
       "playerId": "c6ea0e1b-0c39-4824-a7f8-68bcf38be1a9",
@@ -10739,7 +10739,7 @@
       "mixedLosses": 19,
       "genderWins": 5,
       "genderLosses": 23,
-      "ranking": 315
+      "ranking": 316
     },
     {
       "playerId": "f0ced78a-591c-415f-9839-a538a6cb0d2c",

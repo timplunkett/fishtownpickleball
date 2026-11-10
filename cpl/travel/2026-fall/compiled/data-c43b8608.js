@@ -1038,7 +1038,7 @@
    "diff": 239,
    "ppg": 20.3,
    "leagueRank": 16,
-   "rating": 3.2,
+   "rating": 3.1,
    "ratingGames": 58,
    "confidence": 91,
    "strengthOfPartners": 0.8,
@@ -2111,7 +2111,7 @@
    "diff": 76,
    "ppg": 20.1,
    "leagueRank": 167,
-   "rating": 2.1,
+   "rating": 2.2,
    "ratingGames": 17,
    "confidence": 78,
    "strengthOfPartners": 2,
@@ -2720,11 +2720,11 @@
    "diff": 134,
    "ppg": 19.6,
    "leagueRank": 75,
-   "rating": 0.3,
+   "rating": 0.2,
    "ratingGames": 57,
    "confidence": 91,
    "strengthOfPartners": 2,
-   "strengthOfOpponents": 0,
+   "strengthOfOpponents": -0.1,
    "playerId": "4f98756a-9726-48fe-a241-2579f96eee16"
   },
   {
@@ -3738,7 +3738,7 @@
    "rating": 1.1,
    "ratingGames": 37,
    "confidence": 88,
-   "strengthOfPartners": 0.1,
+   "strengthOfPartners": 0.2,
    "strengthOfOpponents": -0.4,
    "playerId": "a6669cc7-9c23-4088-8e49-e529dc9b46a8"
   },
@@ -4754,7 +4754,7 @@
    "ratingGames": 7,
    "confidence": 61,
    "strengthOfPartners": -0.2,
-   "strengthOfOpponents": 1,
+   "strengthOfOpponents": 0.9,
    "playerId": "5de553b1-0bd0-4d92-b6d5-56da972b23f6"
   },
   {
@@ -4836,7 +4836,7 @@
    "winPct": 56.8,
    "diff": 5,
    "ppg": 18.2,
-   "leagueRank": 147,
+   "leagueRank": 146,
    "rating": 0.1,
    "ratingGames": 37,
    "confidence": 88,
@@ -5363,7 +5363,7 @@
    "ratingGames": 42,
    "confidence": 89,
    "strengthOfPartners": 0.2,
-   "strengthOfOpponents": -1.1,
+   "strengthOfOpponents": -1,
    "playerId": "57ef9d21-095b-4eef-a332-5943f07d39a7"
   },
   {
@@ -5648,7 +5648,7 @@
    "winPct": 53.3,
    "diff": 20,
    "ppg": 19.3,
-   "leagueRank": 146,
+   "leagueRank": 147,
    "rating": 0,
    "ratingGames": 30,
    "confidence": 86,
@@ -5794,7 +5794,7 @@
    "diff": 71,
    "ppg": 19.1,
    "leagueRank": 130,
-   "rating": 1.1,
+   "rating": 1.2,
    "ratingGames": 63,
    "confidence": 92,
    "strengthOfPartners": 0.8,
@@ -7707,7 +7707,7 @@
    "winPct": 42.1,
    "diff": -47,
    "ppg": 15.9,
-   "leagueRank": 316,
+   "leagueRank": 317,
    "rating": -0.2,
    "ratingGames": 19,
    "confidence": 79,
@@ -9335,7 +9335,7 @@
    "rating": -0.2,
    "ratingGames": 15,
    "confidence": 76,
-   "strengthOfPartners": -2.4,
+   "strengthOfPartners": -2.3,
    "strengthOfOpponents": 0.3,
    "playerId": "152f95d8-c8ac-457d-a469-d5270c47cc47"
   },
@@ -10118,7 +10118,7 @@
    "rating": -3,
    "ratingGames": 15,
    "confidence": 77,
-   "strengthOfPartners": 0.7,
+   "strengthOfPartners": 0.6,
    "strengthOfOpponents": -1.3,
    "playerId": "b676efe0-5294-4ebe-ae21-989f42b33ebc"
   },
@@ -10462,7 +10462,7 @@
    "winPct": 25,
    "diff": -251,
    "ppg": 15.2,
-   "leagueRank": 315,
+   "leagueRank": 316,
    "rating": -3.3,
    "ratingGames": 56,
    "confidence": 92,
@@ -10520,7 +10520,7 @@
    "winPct": 24.1,
    "diff": -142,
    "ppg": 15.4,
-   "leagueRank": 314,
+   "leagueRank": 315,
    "rating": -1.8,
    "ratingGames": 29,
    "confidence": 85,
@@ -11312,6 +11312,35 @@
    "playerId": "21da9d6f-1118-44a7-984d-0565cb46f43d"
   },
   {
+   "name": "Aaron Smith",
+   "gender": "Male",
+   "team": "Picklr Newark",
+   "matches": 8,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 51,
+   "wins": 10,
+   "losses": 41,
+   "pointsWon": 815,
+   "totalPointsAgainst": 1028,
+   "mixedWins": 3,
+   "mixedLosses": 23,
+   "genderWins": 7,
+   "genderLosses": 18,
+   "clutchWins": 4,
+   "clutchLosses": 5,
+   "winPct": 19.6,
+   "diff": -213,
+   "ppg": 16,
+   "leagueRank": 314,
+   "rating": -1.2,
+   "ratingGames": 51,
+   "confidence": 91,
+   "strengthOfPartners": -2.2,
+   "strengthOfOpponents": 0.4,
+   "playerId": "c52d90c3-f405-4312-8c1d-0a828ce19a18"
+  },
+  {
    "name": "Haiying Hu",
    "gender": "Female",
    "team": "Allstar Pickler",
@@ -11368,35 +11397,6 @@
    "strengthOfPartners": -0.9,
    "strengthOfOpponents": 0.5,
    "playerId": "67f81846-bb41-4b0b-8d77-c0d876a4561c"
-  },
-  {
-   "name": "Aaron Smith",
-   "gender": "Male",
-   "team": "Picklr Newark",
-   "matches": 8,
-   "outsideSub": false,
-   "isCaptain": false,
-   "gamesPlayed": 52,
-   "wins": 10,
-   "losses": 42,
-   "pointsWon": 827,
-   "totalPointsAgainst": 1049,
-   "mixedWins": 3,
-   "mixedLosses": 23,
-   "genderWins": 7,
-   "genderLosses": 19,
-   "clutchWins": 4,
-   "clutchLosses": 5,
-   "winPct": 19.2,
-   "diff": -222,
-   "ppg": 15.9,
-   "leagueRank": 317,
-   "rating": -1.1,
-   "ratingGames": 52,
-   "confidence": 91,
-   "strengthOfPartners": -2.2,
-   "strengthOfOpponents": 0.4,
-   "playerId": "c52d90c3-f405-4312-8c1d-0a828ce19a18"
   },
   {
    "name": "Kenneth Margolin",
@@ -12435,7 +12435,7 @@
    "diff": -348,
    "ppg": 14.7,
    "leagueRank": 343,
-   "rating": -2.8,
+   "rating": -2.9,
    "ratingGames": 59,
    "confidence": 92,
    "strengthOfPartners": -2.4,
@@ -12728,7 +12728,7 @@
    "rating": -3.3,
    "ratingGames": 63,
    "confidence": 92,
-   "strengthOfPartners": -2.5,
+   "strengthOfPartners": -2.4,
    "strengthOfOpponents": 0.2,
    "playerId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
   },
@@ -12841,10 +12841,10 @@
    "diff": -300,
    "ppg": 13.8,
    "leagueRank": 361,
-   "rating": -4.7,
+   "rating": -4.6,
    "ratingGames": 43,
    "confidence": 89,
-   "strengthOfPartners": -2.4,
+   "strengthOfPartners": -2.5,
    "strengthOfOpponents": -0.3,
    "playerId": "0930c5f6-0231-431b-b9bb-609e61b519c1"
   },
@@ -12942,25 +12942,25 @@
    "matches": 10,
    "outsideSub": false,
    "isCaptain": false,
-   "gamesPlayed": 60,
+   "gamesPlayed": 61,
    "wins": 2,
-   "losses": 58,
-   "pointsWon": 807,
-   "totalPointsAgainst": 1255,
+   "losses": 59,
+   "pointsWon": 819,
+   "totalPointsAgainst": 1276,
    "mixedWins": 2,
    "mixedLosses": 31,
    "genderWins": 0,
-   "genderLosses": 27,
+   "genderLosses": 28,
    "clutchWins": 1,
    "clutchLosses": 7,
    "winPct": 3.3,
-   "diff": -448,
-   "ppg": 13.5,
+   "diff": -457,
+   "ppg": 13.4,
    "leagueRank": 373,
-   "rating": -4.9,
-   "ratingGames": 60,
+   "rating": -4.8,
+   "ratingGames": 61,
    "confidence": 92,
-   "strengthOfPartners": -2,
+   "strengthOfPartners": -2.1,
    "strengthOfOpponents": 0.1,
    "playerId": "8acca4cc-875c-4594-8f46-3d31b0912227"
   },
@@ -13907,7 +13907,7 @@
    "gl": 117,
    "diff": 907,
    "gameDiff": 118,
-   "power": 1.1,
+   "power": 1,
    "powerRank": 1,
    "pod": 1,
    "reportedPod": "Southwest",
@@ -14459,7 +14459,7 @@
    "n": 3,
    "w": 2,
    "l": 1,
-   "synergy": 3.5,
+   "synergy": 3.4,
    "avgActual": 4.3,
    "avgExpected": -3.7,
    "aId": "0a43c509-a439-4ddd-8084-728b7818a416",
@@ -14518,6 +14518,19 @@
    "bId": "c5081aa0-2c57-4a76-94d2-946aac182331"
   },
   {
+   "a": "George Chen",
+   "b": "Krystal Johnson",
+   "team": "Picklr Newtown",
+   "n": 12,
+   "w": 12,
+   "l": 0,
+   "synergy": 2.5,
+   "avgActual": 7.3,
+   "avgExpected": 4,
+   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
+   "bId": "a4fb87af-daed-4bc9-9027-2a4b215c060c"
+  },
+  {
    "a": "Paula Kolb",
    "b": "Joe Monello",
    "team": "PCKLRAMA",
@@ -14555,19 +14568,6 @@
    "avgExpected": -3.9,
    "aId": "318197d4-7171-47d3-b14a-a5c9b4276f77",
    "bId": "3fb4ee3b-cfde-49fe-8dba-bfb90c5db4e1"
-  },
-  {
-   "a": "George Chen",
-   "b": "Krystal Johnson",
-   "team": "Picklr Newtown",
-   "n": 12,
-   "w": 12,
-   "l": 0,
-   "synergy": 2.4,
-   "avgActual": 7.3,
-   "avgExpected": 4.2,
-   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
-   "bId": "a4fb87af-daed-4bc9-9027-2a4b215c060c"
   },
   {
    "a": "Cathy Fiebs",
@@ -14630,7 +14630,7 @@
    "l": 0,
    "synergy": 2.3,
    "avgActual": 3.3,
-   "avgExpected": -1.2,
+   "avgExpected": -1.3,
    "aId": "8e45f538-d95a-4554-9ccf-443a06b5a89e",
    "bId": "cff9ebd3-d67b-4a59-966f-a31b6208a155"
   },
@@ -14646,19 +14646,6 @@
    "avgExpected": -0.4,
    "aId": "67f81846-bb41-4b0b-8d77-c0d876a4561c",
    "bId": "8bb1e9d8-4569-41d0-8502-a265101a76d6"
-  },
-  {
-   "a": "Michele Heinle",
-   "b": "Janet Bellaran",
-   "team": "Pickleball Kingdom Tinton Falls",
-   "n": 4,
-   "w": 4,
-   "l": 0,
-   "synergy": 2.2,
-   "avgActual": 9,
-   "avgExpected": 4.7,
-   "aId": "4ac086b1-686b-4396-9645-7b403528877c",
-   "bId": "78d7b1d3-6b6c-4dde-a94f-5d4056b33ee7"
   },
   {
    "a": "Samuel Sickles",
@@ -14778,6 +14765,19 @@
    "bId": "b035d8be-372b-4bec-92be-0b0bde7dce82"
   },
   {
+   "a": "Michele Heinle",
+   "b": "Janet Bellaran",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "n": 4,
+   "w": 4,
+   "l": 0,
+   "synergy": 2.1,
+   "avgActual": 9,
+   "avgExpected": 4.8,
+   "aId": "4ac086b1-686b-4396-9645-7b403528877c",
+   "bId": "78d7b1d3-6b6c-4dde-a94f-5d4056b33ee7"
+  },
+  {
    "a": "Mara Levy",
    "b": "Dan Yang",
    "team": "PickleRage Union County",
@@ -14877,7 +14877,7 @@
    "l": 0,
    "synergy": 2,
    "avgActual": 10.3,
-   "avgExpected": 5.7,
+   "avgExpected": 5.8,
    "aId": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
    "bId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f"
   },
@@ -15033,7 +15033,7 @@
    "l": 1,
    "synergy": 1.8,
    "avgActual": 5.9,
-   "avgExpected": 3,
+   "avgExpected": 3.1,
    "aId": "236ac99f-3ad9-42b7-bb97-a2c238fbbf98",
    "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
@@ -15293,7 +15293,7 @@
    "l": 0,
    "synergy": 1.6,
    "avgActual": 8,
-   "avgExpected": 4.8,
+   "avgExpected": 4.7,
    "aId": "71f39077-b218-4226-8cf0-6419364ce275",
    "bId": "9d1192c8-e17a-4251-a23b-59d122f4bada"
   },
@@ -15358,7 +15358,7 @@
    "l": 1,
    "synergy": 1.6,
    "avgActual": 3,
-   "avgExpected": -0.1,
+   "avgExpected": -0.2,
    "aId": "201e264e-23da-435d-a4b5-0fea908d1098",
    "bId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb"
   },
@@ -15441,6 +15441,19 @@
    "bId": "d521a98f-88b6-488e-8903-8c35386df363"
   },
   {
+   "a": "Nancy Culley",
+   "b": "Enid Lum",
+   "team": "Picklr Newark",
+   "n": 8,
+   "w": 1,
+   "l": 7,
+   "synergy": 1.5,
+   "avgActual": -3.2,
+   "avgExpected": -5.5,
+   "aId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f",
+   "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
+  },
+  {
    "a": "Ronnie Kostak",
    "b": "Xiaohong Fang",
    "team": "Montville Rocks",
@@ -15517,6 +15530,19 @@
    "avgExpected": -2.2,
    "aId": "abd55992-7237-4a92-817d-3d39388369c9",
    "bId": "b6494c60-f3bc-4500-b908-d8e5b4ebcf89"
+  },
+  {
+   "a": "Amy Maussner",
+   "b": "Richard Ross",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 1.5,
+   "avgActual": 5,
+   "avgExpected": 1.6,
+   "aId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3",
+   "bId": "9d1192c8-e17a-4251-a23b-59d122f4bada"
   },
   {
    "a": "Peter Kuehne",
@@ -15618,7 +15644,7 @@
    "l": 0,
    "synergy": 1.4,
    "avgActual": 6,
-   "avgExpected": 2.8,
+   "avgExpected": 2.7,
    "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
    "bId": "57ef9d21-095b-4eef-a332-5943f07d39a7"
   },
@@ -15647,19 +15673,6 @@
    "avgExpected": -0.9,
    "aId": "21da9d6f-1118-44a7-984d-0565cb46f43d",
    "bId": "e80ce493-2de2-40d5-a94c-ea0d42634f82"
-  },
-  {
-   "a": "Nancy Culley",
-   "b": "Enid Lum",
-   "team": "Picklr Newark",
-   "n": 8,
-   "w": 1,
-   "l": 7,
-   "synergy": 1.4,
-   "avgActual": -3.2,
-   "avgExpected": -5.4,
-   "aId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f",
-   "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
   },
   {
    "a": "Ronnie Kostak",
@@ -15738,19 +15751,6 @@
    "avgExpected": -1.3,
    "aId": "21277f01-5086-42c3-a156-c7b1a503e75b",
    "bId": "5b619b72-b78a-49ba-872d-c64db6084a67"
-  },
-  {
-   "a": "Amy Maussner",
-   "b": "Richard Ross",
-   "team": "APC Garden State",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 1.4,
-   "avgActual": 5,
-   "avgExpected": 1.6,
-   "aId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3",
-   "bId": "9d1192c8-e17a-4251-a23b-59d122f4bada"
   },
   {
    "a": "Amy Maussner",
@@ -15896,6 +15896,19 @@
    "bId": "75e4a96f-5f49-4dec-97f2-6a79d5d290f4"
   },
   {
+   "a": "Yolanda Li",
+   "b": "Cathy Proctor",
+   "team": "Stelton Sports",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 1.3,
+   "avgActual": 2.8,
+   "avgExpected": 0.3,
+   "aId": "c27bd9a5-be16-49eb-a849-d3a556ab1d75",
+   "bId": "cb02b0c7-7df6-481e-aeb2-5f945a9522bc"
+  },
+  {
    "a": "Michael Saggese",
    "b": "Keith Bloom",
    "team": "Home Court",
@@ -15933,19 +15946,6 @@
    "avgExpected": -0.6,
    "aId": "384831b2-73f2-411a-a6ba-987562301f37",
    "bId": "fc240672-f23c-40d4-9601-d019937cd3bf"
-  },
-  {
-   "a": "Samuel Sickles",
-   "b": "Julie Chiappa",
-   "team": "Dill Dinkers Lansdale",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 1.3,
-   "avgActual": 5.3,
-   "avgExpected": 2.7,
-   "aId": "36b88cb3-c746-48d1-b18d-a080a7761a5e",
-   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "Mark Lederman",
@@ -16086,7 +16086,7 @@
    "l": 1,
    "synergy": 1.3,
    "avgActual": 1,
-   "avgExpected": -1.6,
+   "avgExpected": -1.5,
    "aId": "155f1b6d-eba7-4faf-a4c0-0fc6184e08ae",
    "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
@@ -16208,17 +16208,17 @@
    "bId": "9d439fce-c801-40b3-8e58-c5616fd7c2b7"
   },
   {
-   "a": "Yolanda Li",
-   "b": "Cathy Proctor",
-   "team": "Stelton Sports",
+   "a": "Samuel Sickles",
+   "b": "Julie Chiappa",
+   "team": "Dill Dinkers Lansdale",
    "n": 4,
    "w": 3,
    "l": 1,
    "synergy": 1.2,
-   "avgActual": 2.8,
-   "avgExpected": 0.3,
-   "aId": "c27bd9a5-be16-49eb-a849-d3a556ab1d75",
-   "bId": "cb02b0c7-7df6-481e-aeb2-5f945a9522bc"
+   "avgActual": 5.3,
+   "avgExpected": 2.8,
+   "aId": "36b88cb3-c746-48d1-b18d-a080a7761a5e",
+   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "Robert Goldenberg",
@@ -16398,7 +16398,7 @@
    "l": 1,
    "synergy": 1.1,
    "avgActual": 4.5,
-   "avgExpected": 2.3,
+   "avgExpected": 2.4,
    "aId": "7b807cdf-4322-4979-b810-acae5cc05409",
    "bId": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe"
   },
@@ -16697,7 +16697,7 @@
    "l": 4,
    "synergy": 1,
    "avgActual": -2,
-   "avgExpected": -3.6,
+   "avgExpected": -3.7,
    "aId": "c52d90c3-f405-4312-8c1d-0a828ce19a18",
    "bId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
   },
@@ -16775,7 +16775,7 @@
    "l": 1,
    "synergy": 1,
    "avgActual": 2.7,
-   "avgExpected": 0.2,
+   "avgExpected": 0.3,
    "aId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0",
    "bId": "aae8138e-15d4-44b2-b48c-60c87c40a116"
   },
@@ -17105,30 +17105,30 @@
    "bId": "5c119a69-3fc4-40b6-a8e1-dc3504df440a"
   },
   {
-   "a": "Tom Matko",
-   "b": "John Cave",
-   "team": "Flemington",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.9,
-   "avgActual": 5.3,
-   "avgExpected": 3.3,
-   "aId": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
-   "bId": "f93f978f-ba60-44ac-b8dc-9e872af0e5c2"
-  },
-  {
    "a": "Vincent Lamarco",
    "b": "Aaron Smith",
    "team": "Picklr Newark",
-   "n": 4,
+   "n": 3,
    "w": 1,
-   "l": 3,
+   "l": 2,
    "synergy": 0.9,
-   "avgActual": -5,
-   "avgExpected": -6.7,
+   "avgActual": -3.7,
+   "avgExpected": -5.8,
    "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
    "bId": "c52d90c3-f405-4312-8c1d-0a828ce19a18"
+  },
+  {
+   "a": "Kelley Batejan",
+   "b": "Andrea Schwab",
+   "team": "ACE Moorestown",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 0.9,
+   "avgActual": 2,
+   "avgExpected": 0.3,
+   "aId": "5d124581-6317-4648-8c11-2fa9235da2c3",
+   "bId": "605d7726-f903-4606-ad3d-14964b9e2e1b"
   },
   {
    "a": "Yan Wang",
@@ -17282,7 +17282,7 @@
    "l": 2,
    "synergy": 0.9,
    "avgActual": 5.8,
-   "avgExpected": 4.4,
+   "avgExpected": 4.3,
    "aId": "57ef9d21-095b-4eef-a332-5943f07d39a7",
    "bId": "fe15dec9-7fc3-4a99-9035-ff18c41bb6d2"
   },
@@ -17308,7 +17308,7 @@
    "l": 4,
    "synergy": 0.9,
    "avgActual": -4.5,
-   "avgExpected": -6.3,
+   "avgExpected": -6.2,
    "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
    "bId": "a9f2a010-b832-4aed-b68e-28fecd6a297d"
   },
@@ -17443,6 +17443,19 @@
    "bId": "ec511d19-2f10-425b-828f-708e5365bfcf"
   },
   {
+   "a": "Tom Matko",
+   "b": "John Cave",
+   "team": "Flemington",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.8,
+   "avgActual": 5.3,
+   "avgExpected": 3.4,
+   "aId": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
+   "bId": "f93f978f-ba60-44ac-b8dc-9e872af0e5c2"
+  },
+  {
    "a": "Thomas Lum",
    "b": "Mark Pleasanton",
    "team": "Picklr Newark",
@@ -17451,22 +17464,9 @@
    "l": 5,
    "synergy": 0.8,
    "avgActual": -4.2,
-   "avgExpected": -5.5,
+   "avgExpected": -5.4,
    "aId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7",
    "bId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
-  },
-  {
-   "a": "Kelley Batejan",
-   "b": "Andrea Schwab",
-   "team": "ACE Moorestown",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 0.8,
-   "avgActual": 2,
-   "avgExpected": 0.3,
-   "aId": "5d124581-6317-4648-8c11-2fa9235da2c3",
-   "bId": "605d7726-f903-4606-ad3d-14964b9e2e1b"
   },
   {
    "a": "Christine Ziegler",
@@ -17503,7 +17503,7 @@
    "l": 5,
    "synergy": 0.8,
    "avgActual": -3.3,
-   "avgExpected": -4.7,
+   "avgExpected": -4.6,
    "aId": "cdd3c5e6-7a40-4b65-a175-7910ba8e9ef9",
    "bId": "db17f42a-bdb5-4e65-ae18-487c8d6f4915"
   },
@@ -17573,6 +17573,19 @@
    "bId": "4b8bb97a-f15c-4f8d-926f-8a19379d6cfa"
   },
   {
+   "a": "Yuri Paritsky",
+   "b": "Richard Ross",
+   "team": "APC Garden State",
+   "n": 3,
+   "w": 2,
+   "l": 1,
+   "synergy": 0.8,
+   "avgActual": 3.3,
+   "avgExpected": 1.6,
+   "aId": "812b9580-5a00-44a9-a5ed-5d1046755718",
+   "bId": "9d1192c8-e17a-4251-a23b-59d122f4bada"
+  },
+  {
    "a": "Ken Carlson",
    "b": "Stephen Villani",
    "team": "Flemington",
@@ -17610,6 +17623,19 @@
    "avgExpected": 0.7,
    "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
    "bId": "cdd3c5e6-7a40-4b65-a175-7910ba8e9ef9"
+  },
+  {
+   "a": "Scott Auty",
+   "b": "Pete Dunn",
+   "team": "ACE Moorestown",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": 0.8,
+   "avgActual": 2.5,
+   "avgExpected": 1,
+   "aId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
+   "bId": "8e45f538-d95a-4554-9ccf-443a06b5a89e"
   },
   {
    "a": "Jim Hu",
@@ -17688,19 +17714,6 @@
    "avgExpected": 4.1,
    "aId": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
    "bId": "adcdbc67-29b2-4411-9d74-919d1c7abf0b"
-  },
-  {
-   "a": "Vincent Lamarco",
-   "b": "Nancy Culley",
-   "team": "Picklr Newark",
-   "n": 6,
-   "w": 2,
-   "l": 4,
-   "synergy": 0.7,
-   "avgActual": -3.8,
-   "avgExpected": -4.9,
-   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
-   "bId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f"
   },
   {
    "a": "Jenn Guerrini",
@@ -17937,6 +17950,19 @@
    "bId": "98bfa16f-b5e6-4534-a4b9-5b84267284d4"
   },
   {
+   "a": "Christine Ziegler",
+   "b": "Elizabeth Biehl",
+   "team": "Flemington",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": 0.7,
+   "avgActual": -3,
+   "avgExpected": -4.5,
+   "aId": "63946930-2dca-489e-8158-028722c045f5",
+   "bId": "a10029d9-c75f-4a33-98cd-6173faa99ddc"
+  },
+  {
    "a": "Patty Andrzejewski",
    "b": "Kimberly Brooks",
    "team": "APC Garden State",
@@ -17948,19 +17974,6 @@
    "avgExpected": 2.6,
    "aId": "1f25ceda-8df3-4d7c-87ab-efca36d548f2",
    "bId": "8dccb4ea-c8f8-4a4a-845b-42ef4211a12c"
-  },
-  {
-   "a": "Yuri Paritsky",
-   "b": "Richard Ross",
-   "team": "APC Garden State",
-   "n": 3,
-   "w": 2,
-   "l": 1,
-   "synergy": 0.7,
-   "avgActual": 3.3,
-   "avgExpected": 1.6,
-   "aId": "812b9580-5a00-44a9-a5ed-5d1046755718",
-   "bId": "9d1192c8-e17a-4251-a23b-59d122f4bada"
   },
   {
    "a": "Jody Scarano",
@@ -17976,19 +17989,6 @@
    "bId": "29b01229-f7ed-4692-bdb4-32926b8a7cc5"
   },
   {
-   "a": "Scott Auty",
-   "b": "Pete Dunn",
-   "team": "ACE Moorestown",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": 0.7,
-   "avgActual": 2.5,
-   "avgExpected": 1.1,
-   "aId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
-   "bId": "8e45f538-d95a-4554-9ccf-443a06b5a89e"
-  },
-  {
    "a": "Shobana Ravishankar",
    "b": "Stephen Stasiulewicz",
    "team": "Pickleball Kingdom Watchung",
@@ -18000,6 +18000,19 @@
    "avgExpected": -0.7,
    "aId": "12f7de26-e375-4efe-a282-f292bd8ca719",
    "bId": "40a679d7-818c-46dc-872c-5e1cdf926e44"
+  },
+  {
+   "a": "Marguerite Greener",
+   "b": "Dan He",
+   "team": "Picklr Newtown",
+   "n": 10,
+   "w": 9,
+   "l": 1,
+   "synergy": 0.6,
+   "avgActual": 5.9,
+   "avgExpected": 5.1,
+   "aId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d",
+   "bId": "f544c236-d1bb-4bcf-bf15-df57dfb4e7f1"
   },
   {
    "a": "Doreen Arleth",
@@ -18026,6 +18039,19 @@
    "avgExpected": 0.7,
    "aId": "bc82cbed-1dfa-43fa-9cc5-1f12b6c4fe76",
    "bId": "e9c2ebf6-88d5-485d-be0f-8c71488231ae"
+  },
+  {
+   "a": "Vincent Lamarco",
+   "b": "Nancy Culley",
+   "team": "Picklr Newark",
+   "n": 6,
+   "w": 2,
+   "l": 4,
+   "synergy": 0.6,
+   "avgActual": -3.8,
+   "avgExpected": -4.8,
+   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
+   "bId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f"
   },
   {
    "a": "Kristie Capitanelli",
@@ -18153,7 +18179,7 @@
    "l": 2,
    "synergy": 0.6,
    "avgActual": 2.4,
-   "avgExpected": 1.5,
+   "avgExpected": 1.4,
    "aId": "1f25ceda-8df3-4d7c-87ab-efca36d548f2",
    "bId": "8b17c8d0-5ea7-44ee-9a80-7e3c246c92d3"
   },
@@ -18182,19 +18208,6 @@
    "avgExpected": -2.1,
    "aId": "5d124581-6317-4648-8c11-2fa9235da2c3",
    "bId": "756e256e-ea2f-4e25-9c6a-e780860d048f"
-  },
-  {
-   "a": "Christine Ziegler",
-   "b": "Elizabeth Biehl",
-   "team": "Flemington",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": 0.6,
-   "avgActual": -3,
-   "avgExpected": -4.5,
-   "aId": "63946930-2dca-489e-8158-028722c045f5",
-   "bId": "a10029d9-c75f-4a33-98cd-6173faa99ddc"
   },
   {
    "a": "Mike Matchett",
@@ -18275,19 +18288,6 @@
    "bId": "401902c9-4e46-4ed7-9995-643dc73f135a"
   },
   {
-   "a": "Marguerite Greener",
-   "b": "Dan He",
-   "team": "Picklr Newtown",
-   "n": 10,
-   "w": 9,
-   "l": 1,
-   "synergy": 0.5,
-   "avgActual": 5.9,
-   "avgExpected": 5.1,
-   "aId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d",
-   "bId": "f544c236-d1bb-4bcf-bf15-df57dfb4e7f1"
-  },
-  {
    "a": "Eric Shipon",
    "b": "Lisa Yuskevich",
    "team": "Picklr Newtown",
@@ -18296,7 +18296,7 @@
    "l": 2,
    "synergy": 0.5,
    "avgActual": 0.8,
-   "avgExpected": -0.1,
+   "avgExpected": -0.2,
    "aId": "b035d8be-372b-4bec-92be-0b0bde7dce82",
    "bId": "f03105d3-576a-4955-909a-24c18a087d1e"
   },
@@ -18405,19 +18405,6 @@
    "bId": "6c10bca6-6034-42ca-8adc-1532e7e3c629"
   },
   {
-   "a": "Dave Hartzell",
-   "b": "Lisa Loeber",
-   "team": "APC Garden State",
-   "n": 4,
-   "w": 3,
-   "l": 1,
-   "synergy": 0.5,
-   "avgActual": 3.5,
-   "avgExpected": 2.6,
-   "aId": "844b1121-409f-4c34-8030-cbbcaee54cc3",
-   "bId": "9e88e95a-d634-4484-8a3e-76e54b82a5fd"
-  },
-  {
    "a": "Cyndee Catalano",
    "b": "Elizabeth Biehl",
    "team": "Flemington",
@@ -18439,7 +18426,7 @@
    "l": 3,
    "synergy": 0.5,
    "avgActual": -3.2,
-   "avgExpected": -4.1,
+   "avgExpected": -4.2,
    "aId": "756e256e-ea2f-4e25-9c6a-e780860d048f",
    "bId": "a07a95ba-4732-4c20-a3eb-0e74b419aee3"
   },
@@ -18457,19 +18444,6 @@
    "bId": "67f81846-bb41-4b0b-8d77-c0d876a4561c"
   },
   {
-   "a": "Linda Goss",
-   "b": "Kelley Batejan",
-   "team": "ACE Moorestown",
-   "n": 6,
-   "w": 4,
-   "l": 2,
-   "synergy": 0.5,
-   "avgActual": 0.2,
-   "avgExpected": -0.6,
-   "aId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
-   "bId": "5d124581-6317-4648-8c11-2fa9235da2c3"
-  },
-  {
    "a": "Neil Vijayendran",
    "b": "Julie Chiappa",
    "team": "Dill Dinkers Lansdale",
@@ -18478,7 +18452,7 @@
    "l": 3,
    "synergy": 0.5,
    "avgActual": 1,
-   "avgExpected": 0.1,
+   "avgExpected": 0.2,
    "aId": "1feab7e4-0989-45ae-acda-7ad5e78c3079",
    "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
@@ -18556,7 +18530,7 @@
    "l": 2,
    "synergy": 0.5,
    "avgActual": 0.7,
-   "avgExpected": -0.6,
+   "avgExpected": -0.5,
    "aId": "236ac99f-3ad9-42b7-bb97-a2c238fbbf98",
    "bId": "ff713931-208e-4b8f-9b1d-c7919e6af892"
   },
@@ -18585,6 +18559,19 @@
    "avgExpected": 1.1,
    "aId": "07767191-9167-4314-973d-3798ae6265a9",
    "bId": "864e4dd6-eb0d-46bf-9f15-5a9848251509"
+  },
+  {
+   "a": "Aaron Smith",
+   "b": "Nancy Culley",
+   "team": "Picklr Newark",
+   "n": 6,
+   "w": 1,
+   "l": 5,
+   "synergy": 0.5,
+   "avgActual": -2.7,
+   "avgExpected": -3.4,
+   "aId": "c52d90c3-f405-4312-8c1d-0a828ce19a18",
+   "bId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f"
   },
   {
    "a": "Madan P",
@@ -18691,19 +18678,6 @@
    "bId": "2e2b7732-48a3-4102-86f9-555111fa9ae8"
   },
   {
-   "a": "Liz Mooney",
-   "b": "Yuri Paritsky",
-   "team": "APC Garden State",
-   "n": 6,
-   "w": 3,
-   "l": 3,
-   "synergy": 0.4,
-   "avgActual": 1.2,
-   "avgExpected": 0.6,
-   "aId": "3899495d-b8a7-40b2-a42d-a48270d0ff6f",
-   "bId": "812b9580-5a00-44a9-a5ed-5d1046755718"
-  },
-  {
    "a": "Kimberly Brooks",
    "b": "Richard Ross",
    "team": "APC Garden State",
@@ -18717,6 +18691,19 @@
    "bId": "9d1192c8-e17a-4251-a23b-59d122f4bada"
   },
   {
+   "a": "Dave Hartzell",
+   "b": "Lisa Loeber",
+   "team": "APC Garden State",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 0.4,
+   "avgActual": 3.5,
+   "avgExpected": 2.7,
+   "aId": "844b1121-409f-4c34-8030-cbbcaee54cc3",
+   "bId": "9e88e95a-d634-4484-8a3e-76e54b82a5fd"
+  },
+  {
    "a": "Michele Heinle",
    "b": "Luis Perez",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -18725,7 +18712,7 @@
    "l": 1,
    "synergy": 0.4,
    "avgActual": 5,
-   "avgExpected": 4.2,
+   "avgExpected": 4.3,
    "aId": "4ac086b1-686b-4396-9645-7b403528877c",
    "bId": "fe7754f9-404d-4b6d-8499-552ee9f237fa"
   },
@@ -18795,19 +18782,6 @@
    "bId": "5acb8305-77d8-4089-88b6-9fbfa9400f6a"
   },
   {
-   "a": "Timothy Hopkins",
-   "b": "Nancy Culley",
-   "team": "Picklr Newark",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": 0.4,
-   "avgActual": -5,
-   "avgExpected": -5.9,
-   "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
-   "bId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f"
-  },
-  {
    "a": "Sal Garfi",
    "b": "Elizabeth Biehl",
    "team": "Flemington",
@@ -18819,19 +18793,6 @@
    "avgExpected": 2.8,
    "aId": "38441ed7-017a-47a0-859b-ddb00d17d1cb",
    "bId": "a10029d9-c75f-4a33-98cd-6173faa99ddc"
-  },
-  {
-   "a": "Sara Renzulli",
-   "b": "Timothy Hopkins",
-   "team": "Picklr Newark",
-   "n": 9,
-   "w": 0,
-   "l": 9,
-   "synergy": 0.4,
-   "avgActual": -6.1,
-   "avgExpected": -6.7,
-   "aId": "21da9d6f-1118-44a7-984d-0565cb46f43d",
-   "bId": "8acca4cc-875c-4594-8f46-3d31b0912227"
   },
   {
    "a": "Allison Harmony",
@@ -18881,9 +18842,35 @@
    "l": 0,
    "synergy": 0.4,
    "avgActual": 5.3,
-   "avgExpected": 4.4,
+   "avgExpected": 4.3,
    "aId": "8e45f538-d95a-4554-9ccf-443a06b5a89e",
    "bId": "c0b3d7fb-5792-4ff4-a83e-47db88ea0592"
+  },
+  {
+   "a": "Linda Goss",
+   "b": "Kelley Batejan",
+   "team": "ACE Moorestown",
+   "n": 6,
+   "w": 4,
+   "l": 2,
+   "synergy": 0.4,
+   "avgActual": 0.2,
+   "avgExpected": -0.6,
+   "aId": "14e5edae-ff22-415b-8267-d46a2117ed8d",
+   "bId": "5d124581-6317-4648-8c11-2fa9235da2c3"
+  },
+  {
+   "a": "Vincent Lamarco",
+   "b": "Timothy Hopkins",
+   "team": "Picklr Newark",
+   "n": 6,
+   "w": 0,
+   "l": 6,
+   "synergy": 0.4,
+   "avgActual": -8,
+   "avgExpected": -8.7,
+   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
+   "bId": "8acca4cc-875c-4594-8f46-3d31b0912227"
   },
   {
    "a": "Qiuwei Feng",
@@ -18946,7 +18933,7 @@
    "l": 4,
    "synergy": 0.4,
    "avgActual": -3,
-   "avgExpected": -3.7,
+   "avgExpected": -3.6,
    "aId": "844b1121-409f-4c34-8030-cbbcaee54cc3",
    "bId": "d2a43eb3-f288-4ef4-bae9-209ab6ec0f0c"
   },
@@ -19063,7 +19050,7 @@
    "l": 3,
    "synergy": 0.4,
    "avgActual": -6.7,
-   "avgExpected": -7.6,
+   "avgExpected": -7.5,
    "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
    "bId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
   },
@@ -19105,19 +19092,6 @@
    "avgExpected": -3.9,
    "aId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
    "bId": "d4254f79-f461-4723-9a64-2660985b2702"
-  },
-  {
-   "a": "Aaron Smith",
-   "b": "Nancy Culley",
-   "team": "Picklr Newark",
-   "n": 6,
-   "w": 1,
-   "l": 5,
-   "synergy": 0.4,
-   "avgActual": -2.7,
-   "avgExpected": -3.3,
-   "aId": "c52d90c3-f405-4312-8c1d-0a828ce19a18",
-   "bId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f"
   },
   {
    "a": "Lisa Braumann",
@@ -19250,6 +19224,19 @@
    "bId": "b4f3fc0d-6166-4726-9180-2a9a698afcdf"
   },
   {
+   "a": "Liz Mooney",
+   "b": "Yuri Paritsky",
+   "team": "APC Garden State",
+   "n": 6,
+   "w": 3,
+   "l": 3,
+   "synergy": 0.3,
+   "avgActual": 1.2,
+   "avgExpected": 0.6,
+   "aId": "3899495d-b8a7-40b2-a42d-a48270d0ff6f",
+   "bId": "812b9580-5a00-44a9-a5ed-5d1046755718"
+  },
+  {
    "a": "Stephen Arleth",
    "b": "Mike Lasko",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -19276,17 +19263,30 @@
    "bId": "94c45058-cae5-4085-ad9e-684309568903"
   },
   {
-   "a": "Andre Goldstein",
-   "b": "Joan Glass",
-   "team": "Dill Dinkers Lansdale",
-   "n": 4,
-   "w": 3,
-   "l": 1,
+   "a": "Timothy Hopkins",
+   "b": "Nancy Culley",
+   "team": "Picklr Newark",
+   "n": 3,
+   "w": 0,
+   "l": 3,
    "synergy": 0.3,
-   "avgActual": 1.8,
-   "avgExpected": 1.2,
-   "aId": "155f1b6d-eba7-4faf-a4c0-0fc6184e08ae",
-   "bId": "38739b70-06ec-41c1-bcfb-18a3c539951d"
+   "avgActual": -5,
+   "avgExpected": -5.8,
+   "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
+   "bId": "f58a1856-de9a-46ee-8a63-0445bee6fd3f"
+  },
+  {
+   "a": "Sara Renzulli",
+   "b": "Timothy Hopkins",
+   "team": "Picklr Newark",
+   "n": 9,
+   "w": 0,
+   "l": 9,
+   "synergy": 0.3,
+   "avgActual": -6.1,
+   "avgExpected": -6.6,
+   "aId": "21da9d6f-1118-44a7-984d-0565cb46f43d",
+   "bId": "8acca4cc-875c-4594-8f46-3d31b0912227"
   },
   {
    "a": "Michael Cisar",
@@ -19575,6 +19575,19 @@
    "bId": "4516a66f-67b3-4981-a16d-036deb8db9bc"
   },
   {
+   "a": "Michael Johnson",
+   "b": "Qiuwei Feng",
+   "team": "Picklr Newtown",
+   "n": 15,
+   "w": 11,
+   "l": 4,
+   "synergy": 0.2,
+   "avgActual": 2.3,
+   "avgExpected": 2.1,
+   "aId": "4f98756a-9726-48fe-a241-2579f96eee16",
+   "bId": "5afdbd12-d79e-45ec-ae26-63ea91a262f2"
+  },
+  {
    "a": "Lisa Yuskevich",
    "b": "Dan He",
    "team": "Picklr Newtown",
@@ -19718,6 +19731,19 @@
    "bId": "5d3b9d31-abbd-49ef-b63b-fa8a30759147"
   },
   {
+   "a": "Andre Goldstein",
+   "b": "Joan Glass",
+   "team": "Dill Dinkers Lansdale",
+   "n": 4,
+   "w": 3,
+   "l": 1,
+   "synergy": 0.2,
+   "avgActual": 1.8,
+   "avgExpected": 1.3,
+   "aId": "155f1b6d-eba7-4faf-a4c0-0fc6184e08ae",
+   "bId": "38739b70-06ec-41c1-bcfb-18a3c539951d"
+  },
+  {
    "a": "William Askin",
    "b": "Jason Fingerman",
    "team": "ACE Moorestown",
@@ -19796,19 +19822,6 @@
    "bId": "b39f886b-aa7a-40ca-81a1-5963941e541f"
   },
   {
-   "a": "Vincent Lamarco",
-   "b": "Joy Perry",
-   "team": "Picklr Newark",
-   "n": 3,
-   "w": 0,
-   "l": 3,
-   "synergy": 0.2,
-   "avgActual": -4,
-   "avgExpected": -4.4,
-   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
-   "bId": "a9f2a010-b832-4aed-b68e-28fecd6a297d"
-  },
-  {
    "a": "Dawn Gordon",
    "b": "Cathy Fiebs",
    "team": "ACE Moorestown",
@@ -19820,19 +19833,6 @@
    "avgExpected": 1.4,
    "aId": "756e256e-ea2f-4e25-9c6a-e780860d048f",
    "bId": "b39f886b-aa7a-40ca-81a1-5963941e541f"
-  },
-  {
-   "a": "Vincent Lamarco",
-   "b": "Timothy Hopkins",
-   "team": "Picklr Newark",
-   "n": 5,
-   "w": 0,
-   "l": 5,
-   "synergy": 0.2,
-   "avgActual": -7.8,
-   "avgExpected": -8.1,
-   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
-   "bId": "8acca4cc-875c-4594-8f46-3d31b0912227"
   },
   {
    "a": "John Zhong",
@@ -19869,7 +19869,7 @@
    "l": 1,
    "synergy": 0.2,
    "avgActual": 1,
-   "avgExpected": 0.5,
+   "avgExpected": 0.4,
    "aId": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
    "bId": "c6ea0e1b-0c39-4824-a7f8-68bcf38be1a9"
   },
@@ -20082,19 +20082,6 @@
    "bId": "d9cf59fa-8fad-405c-b881-fa78c3a30968"
   },
   {
-   "a": "Michael Johnson",
-   "b": "Qiuwei Feng",
-   "team": "Picklr Newtown",
-   "n": 15,
-   "w": 11,
-   "l": 4,
-   "synergy": 0.1,
-   "avgActual": 2.3,
-   "avgExpected": 2.2,
-   "aId": "4f98756a-9726-48fe-a241-2579f96eee16",
-   "bId": "5afdbd12-d79e-45ec-ae26-63ea91a262f2"
-  },
-  {
    "a": "Tom Matko",
    "b": "Cyndee Catalano",
    "team": "Flemington",
@@ -20277,19 +20264,6 @@
    "bId": "b3c8341b-b3d8-442b-93dc-1da6a5c4e868"
   },
   {
-   "a": "Karen Kelly",
-   "b": "Michael Cisar",
-   "team": "One Love",
-   "n": 13,
-   "w": 8,
-   "l": 5,
-   "synergy": 0.1,
-   "avgActual": 1,
-   "avgExpected": 0.9,
-   "aId": "07767191-9167-4314-973d-3798ae6265a9",
-   "bId": "7e8fcb9e-d338-4358-9181-f03e57ba5c7c"
-  },
-  {
    "a": "Kenneth Pickett",
    "b": "Jim Sintic",
    "team": "One Love",
@@ -20428,7 +20402,7 @@
    "l": 1,
    "synergy": 0.1,
    "avgActual": 3.7,
-   "avgExpected": 3.4,
+   "avgExpected": 3.5,
    "aId": "1feab7e4-0989-45ae-acda-7ad5e78c3079",
    "bId": "ff713931-208e-4b8f-9b1d-c7919e6af892"
   },
@@ -20454,7 +20428,7 @@
    "l": 4,
    "synergy": 0.1,
    "avgActual": -1.8,
-   "avgExpected": -2,
+   "avgExpected": -2.1,
    "aId": "53024744-72eb-4d56-b0c9-93a6201bdc33",
    "bId": "5d124581-6317-4648-8c11-2fa9235da2c3"
   },
@@ -20563,6 +20537,19 @@
    "bId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
   },
   {
+   "a": "Vincent Lamarco",
+   "b": "Joy Perry",
+   "team": "Picklr Newark",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": 0.1,
+   "avgActual": -4,
+   "avgExpected": -4.3,
+   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
+   "bId": "a9f2a010-b832-4aed-b68e-28fecd6a297d"
+  },
+  {
    "a": "Jianfeng Wang",
    "b": "Jack Tran",
    "team": "Montville Rocks",
@@ -20610,7 +20597,7 @@
    "l": 4,
    "synergy": 0.1,
    "avgActual": 0.6,
-   "avgExpected": 0.5,
+   "avgExpected": 0.4,
    "aId": "431b6290-28c1-49a9-b2a1-a0bb26532cca",
    "bId": "52221bc6-418a-45b2-9e92-5600b5a3040d"
   },
@@ -20784,6 +20771,19 @@
    "bId": "9b43d5cd-a837-4958-a69e-404061700cc6"
   },
   {
+   "a": "Karen Kelly",
+   "b": "Michael Cisar",
+   "team": "One Love",
+   "n": 13,
+   "w": 8,
+   "l": 5,
+   "synergy": 0,
+   "avgActual": 1,
+   "avgExpected": 0.9,
+   "aId": "07767191-9167-4314-973d-3798ae6265a9",
+   "bId": "7e8fcb9e-d338-4358-9181-f03e57ba5c7c"
+  },
+  {
    "a": "Nicole Nelson",
    "b": "Derek Manwaring",
    "team": "Picklr Fair Lawn",
@@ -20795,19 +20795,6 @@
    "avgExpected": -2.2,
    "aId": "2e2b7732-48a3-4102-86f9-555111fa9ae8",
    "bId": "ec511d19-2f10-425b-828f-708e5365bfcf"
-  },
-  {
-   "a": "Yuri Paritsky",
-   "b": "Dave Hartzell",
-   "team": "APC Garden State",
-   "n": 6,
-   "w": 2,
-   "l": 4,
-   "synergy": 0,
-   "avgActual": -0.5,
-   "avgExpected": -0.4,
-   "aId": "812b9580-5a00-44a9-a5ed-5d1046755718",
-   "bId": "844b1121-409f-4c34-8030-cbbcaee54cc3"
   },
   {
    "a": "Jody Scarano",
@@ -20883,7 +20870,7 @@
    "l": 6,
    "synergy": 0,
    "avgActual": -5.4,
-   "avgExpected": -5.4,
+   "avgExpected": -5.5,
    "aId": "1ca5f8b5-dd7b-4761-94ed-6eb61c36eb78",
    "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
   },
@@ -20896,7 +20883,7 @@
    "l": 2,
    "synergy": 0,
    "avgActual": -0.7,
-   "avgExpected": -0.7,
+   "avgExpected": -0.8,
    "aId": "756e256e-ea2f-4e25-9c6a-e780860d048f",
    "bId": "cff9ebd3-d67b-4a59-966f-a31b6208a155"
   },
@@ -21078,7 +21065,7 @@
    "l": 4,
    "synergy": 0,
    "avgActual": 2.6,
-   "avgExpected": 2.6,
+   "avgExpected": 2.5,
    "aId": "2266824f-5ba8-4da3-a512-94c8e14f7c90",
    "bId": "3123a017-5268-43cb-8306-d70ac18760c3"
   },
@@ -21289,6 +21276,32 @@
    "avgExpected": 4.8,
    "aId": "0a458710-16fc-4aac-93a1-91ce89d6bacf",
    "bId": "cb02b0c7-7df6-481e-aeb2-5f945a9522bc"
+  },
+  {
+   "a": "Yuri Paritsky",
+   "b": "Dave Hartzell",
+   "team": "APC Garden State",
+   "n": 6,
+   "w": 2,
+   "l": 4,
+   "synergy": -0.1,
+   "avgActual": -0.5,
+   "avgExpected": -0.4,
+   "aId": "812b9580-5a00-44a9-a5ed-5d1046755718",
+   "bId": "844b1121-409f-4c34-8030-cbbcaee54cc3"
+  },
+  {
+   "a": "Mike Leach",
+   "b": "Marguerite Greener",
+   "team": "Picklr Newtown",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -0.1,
+   "avgActual": -0.3,
+   "avgExpected": 0,
+   "aId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
+   "bId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d"
   },
   {
    "a": "Mike Lasko",
@@ -21590,6 +21603,19 @@
    "bId": "f544c236-d1bb-4bcf-bf15-df57dfb4e7f1"
   },
   {
+   "a": "George Chen",
+   "b": "Qiuwei Feng",
+   "team": "Picklr Newtown",
+   "n": 6,
+   "w": 5,
+   "l": 1,
+   "synergy": -0.2,
+   "avgActual": 4.5,
+   "avgExpected": 4.9,
+   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
+   "bId": "5afdbd12-d79e-45ec-ae26-63ea91a262f2"
+  },
+  {
    "a": "Jen Carara",
    "b": "Jocelyn Carney",
    "team": "Monroe",
@@ -21666,19 +21692,6 @@
    "avgExpected": -5.8,
    "aId": "9d1192c8-e17a-4251-a23b-59d122f4bada",
    "bId": "db17f42a-bdb5-4e65-ae18-487c8d6f4915"
-  },
-  {
-   "a": "Mike Leach",
-   "b": "Marguerite Greener",
-   "team": "Picklr Newtown",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -0.2,
-   "avgActual": -0.3,
-   "avgExpected": 0,
-   "aId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b",
-   "bId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d"
   },
   {
    "a": "Sarah Flynn",
@@ -22045,19 +22058,6 @@
    "bId": "8bb1e9d8-4569-41d0-8502-a265101a76d6"
   },
   {
-   "a": "George Chen",
-   "b": "Qiuwei Feng",
-   "team": "Picklr Newtown",
-   "n": 6,
-   "w": 5,
-   "l": 1,
-   "synergy": -0.3,
-   "avgActual": 4.5,
-   "avgExpected": 5,
-   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
-   "bId": "5afdbd12-d79e-45ec-ae26-63ea91a262f2"
-  },
-  {
    "a": "Robert Toledo",
    "b": "Luis Perez",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -22118,7 +22118,7 @@
    "l": 12,
    "synergy": -0.3,
    "avgActual": -4.8,
-   "avgExpected": -4.4,
+   "avgExpected": -4.5,
    "aId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7",
    "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
   },
@@ -22235,7 +22235,7 @@
    "l": 1,
    "synergy": -0.3,
    "avgActual": 1.3,
-   "avgExpected": 1.9,
+   "avgExpected": 2,
    "aId": "059a8d88-00ba-4f5b-add3-7a4bb09441f8",
    "bId": "4ac086b1-686b-4396-9645-7b403528877c"
   },
@@ -22329,19 +22329,6 @@
    "avgExpected": 3.6,
    "aId": "236ac99f-3ad9-42b7-bb97-a2c238fbbf98",
    "bId": "4f87890f-1940-405a-82a2-bd2d50b5bf21"
-  },
-  {
-   "a": "Robert Alexander",
-   "b": "Julie Chiappa",
-   "team": "Dill Dinkers Lansdale",
-   "n": 5,
-   "w": 3,
-   "l": 2,
-   "synergy": -0.3,
-   "avgActual": 0,
-   "avgExpected": 0.6,
-   "aId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0",
-   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "Kenneth Margolin",
@@ -22482,7 +22469,7 @@
    "l": 2,
    "synergy": -0.4,
    "avgActual": -0.2,
-   "avgExpected": 0.6,
+   "avgExpected": 0.5,
    "aId": "2d439cdc-347e-4beb-9975-1b31bc46f2df",
    "bId": "4f98756a-9726-48fe-a241-2579f96eee16"
   },
@@ -22552,19 +22539,6 @@
    "bId": "525db6fc-8fd4-42f1-97c6-51fb915cb21b"
   },
   {
-   "a": "Vincent Lamarco",
-   "b": "Mark Pleasanton",
-   "team": "Picklr Newark",
-   "n": 9,
-   "w": 0,
-   "l": 9,
-   "synergy": -0.4,
-   "avgActual": -9,
-   "avgExpected": -8.5,
-   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
-   "bId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
-  },
-  {
    "a": "John Romeo",
    "b": "Rayleen Romeo",
    "team": "Dill Dinkers Lansdale",
@@ -22576,6 +22550,19 @@
    "avgExpected": -3.4,
    "aId": "813470f2-6efd-44e2-87b0-c373c5ecacfd",
    "bId": "ed39904c-85db-4a4d-ba86-1e5c7f98529a"
+  },
+  {
+   "a": "Mark Pleasanton",
+   "b": "Enid Lum",
+   "team": "Picklr Newark",
+   "n": 3,
+   "w": 0,
+   "l": 3,
+   "synergy": -0.4,
+   "avgActual": -5.3,
+   "avgExpected": -4.3,
+   "aId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e",
+   "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
   },
   {
    "a": "Kristen Silvestri",
@@ -22708,6 +22695,32 @@
    "bId": "91f844b2-dd13-45a0-b66d-9b7ea751037a"
   },
   {
+   "a": "Robert Alexander",
+   "b": "Julie Chiappa",
+   "team": "Dill Dinkers Lansdale",
+   "n": 5,
+   "w": 3,
+   "l": 2,
+   "synergy": -0.4,
+   "avgActual": 0,
+   "avgExpected": 0.7,
+   "aId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0",
+   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
+  },
+  {
+   "a": "Michael Johnson",
+   "b": "Leonard Procaccino",
+   "team": "Picklr Newtown",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.4,
+   "avgActual": 1,
+   "avgExpected": 1.8,
+   "aId": "4f98756a-9726-48fe-a241-2579f96eee16",
+   "bId": "fe15dec9-7fc3-4a99-9035-ff18c41bb6d2"
+  },
+  {
    "a": "Julie Chiappa",
    "b": "Rachel Shirley",
    "team": "Dill Dinkers Lansdale",
@@ -22716,7 +22729,7 @@
    "l": 4,
    "synergy": -0.4,
    "avgActual": -0.1,
-   "avgExpected": 0.4,
+   "avgExpected": 0.5,
    "aId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47",
    "bId": "ff713931-208e-4b8f-9b1d-c7919e6af892"
   },
@@ -22820,7 +22833,7 @@
    "l": 1,
    "synergy": -0.4,
    "avgActual": 1.3,
-   "avgExpected": 2.2,
+   "avgExpected": 2.3,
    "aId": "57ad882f-2a78-4756-adcf-3839833ddcd3",
    "bId": "d2a43eb3-f288-4ef4-bae9-209ab6ec0f0c"
   },
@@ -22849,6 +22862,19 @@
    "avgExpected": 0.8,
    "aId": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
    "bId": "40a679d7-818c-46dc-872c-5e1cdf926e44"
+  },
+  {
+   "a": "George Chen",
+   "b": "Leonard Procaccino",
+   "team": "Picklr Newtown",
+   "n": 6,
+   "w": 4,
+   "l": 2,
+   "synergy": -0.5,
+   "avgActual": 3.3,
+   "avgExpected": 4.2,
+   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
+   "bId": "fe15dec9-7fc3-4a99-9035-ff18c41bb6d2"
   },
   {
    "a": "Kathleen Grennan",
@@ -22924,22 +22950,22 @@
    "l": 4,
    "synergy": -0.5,
    "avgActual": -4.2,
-   "avgExpected": -3.3,
+   "avgExpected": -3.4,
    "aId": "c52d90c3-f405-4312-8c1d-0a828ce19a18",
    "bId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7"
   },
   {
-   "a": "Mark Pleasanton",
-   "b": "Enid Lum",
+   "a": "Vincent Lamarco",
+   "b": "Mark Pleasanton",
    "team": "Picklr Newark",
-   "n": 3,
+   "n": 9,
    "w": 0,
-   "l": 3,
+   "l": 9,
    "synergy": -0.5,
-   "avgActual": -5.3,
-   "avgExpected": -4.2,
-   "aId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e",
-   "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
+   "avgActual": -9,
+   "avgExpected": -8.3,
+   "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
+   "bId": "f0d9f371-371e-4625-ad0a-aea8da83fb8e"
   },
   {
    "a": "Alam Mohammad",
@@ -23018,19 +23044,6 @@
    "avgExpected": 2.7,
    "aId": "85b74629-7dd6-48c5-bb23-d4216ec81261",
    "bId": "e224a324-8a0d-4739-9dae-07055090ef2a"
-  },
-  {
-   "a": "Denise Brownlee",
-   "b": "Julie Chiappa",
-   "team": "Dill Dinkers Lansdale",
-   "n": 8,
-   "w": 1,
-   "l": 7,
-   "synergy": -0.5,
-   "avgActual": -2.5,
-   "avgExpected": -1.7,
-   "aId": "4f1119b1-60c7-4430-bfe1-d98b286bde28",
-   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "William Askin",
@@ -23189,19 +23202,6 @@
    "bId": "9443df04-e253-4d24-8d52-6c89bba6b4e1"
   },
   {
-   "a": "Michael Johnson",
-   "b": "Leonard Procaccino",
-   "team": "Picklr Newtown",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.5,
-   "avgActual": 1,
-   "avgExpected": 2,
-   "aId": "4f98756a-9726-48fe-a241-2579f96eee16",
-   "bId": "fe15dec9-7fc3-4a99-9035-ff18c41bb6d2"
-  },
-  {
    "a": "Stacy Ip-Mo",
    "b": "Lizzie Brofft",
    "team": "APC Garden State",
@@ -23301,7 +23301,7 @@
    "l": 2,
    "synergy": -0.5,
    "avgActual": -1.7,
-   "avgExpected": -0.5,
+   "avgExpected": -0.4,
    "aId": "844b1121-409f-4c34-8030-cbbcaee54cc3",
    "bId": "8dccb4ea-c8f8-4a4a-845b-42ef4211a12c"
   },
@@ -23333,19 +23333,6 @@
   },
   {
    "a": "George Chen",
-   "b": "Leonard Procaccino",
-   "team": "Picklr Newtown",
-   "n": 6,
-   "w": 4,
-   "l": 2,
-   "synergy": -0.6,
-   "avgActual": 3.3,
-   "avgExpected": 4.3,
-   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
-   "bId": "fe15dec9-7fc3-4a99-9035-ff18c41bb6d2"
-  },
-  {
-   "a": "George Chen",
    "b": "Michael Johnson",
    "team": "Picklr Newtown",
    "n": 16,
@@ -23356,19 +23343,6 @@
    "avgExpected": 2.9,
    "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
    "bId": "4f98756a-9726-48fe-a241-2579f96eee16"
-  },
-  {
-   "a": "Alex Lawrason",
-   "b": "Stephen Villani",
-   "team": "Flemington",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.6,
-   "avgActual": 2,
-   "avgExpected": 3.3,
-   "aId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
-   "bId": "cc8cfbf1-a6d3-40d7-99a9-eb20343774eb"
   },
   {
    "a": "Jonathan Basa",
@@ -23486,6 +23460,19 @@
    "avgExpected": -1,
    "aId": "605d7726-f903-4606-ad3d-14964b9e2e1b",
    "bId": "b39f886b-aa7a-40ca-81a1-5963941e541f"
+  },
+  {
+   "a": "Denise Brownlee",
+   "b": "Julie Chiappa",
+   "team": "Dill Dinkers Lansdale",
+   "n": 8,
+   "w": 1,
+   "l": 7,
+   "synergy": -0.6,
+   "avgActual": -2.5,
+   "avgExpected": -1.6,
+   "aId": "4f1119b1-60c7-4430-bfe1-d98b286bde28",
+   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "Neil Vijayendran",
@@ -23761,6 +23748,19 @@
    "bId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b"
   },
   {
+   "a": "George Chen",
+   "b": "Dan He",
+   "team": "Picklr Newtown",
+   "n": 9,
+   "w": 7,
+   "l": 2,
+   "synergy": -0.7,
+   "avgActual": 3.3,
+   "avgExpected": 4.3,
+   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
+   "bId": "f544c236-d1bb-4bcf-bf15-df57dfb4e7f1"
+  },
+  {
    "a": "Krystal Johnson",
    "b": "Marguerite Greener",
    "team": "Picklr Newtown",
@@ -23772,6 +23772,19 @@
    "avgExpected": 4.3,
    "aId": "a4fb87af-daed-4bc9-9027-2a4b215c060c",
    "bId": "e4917a8d-1ea7-491b-a6cb-6a4f51566f3d"
+  },
+  {
+   "a": "Alex Lawrason",
+   "b": "Stephen Villani",
+   "team": "Flemington",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.7,
+   "avgActual": 2,
+   "avgExpected": 3.4,
+   "aId": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
+   "bId": "cc8cfbf1-a6d3-40d7-99a9-eb20343774eb"
   },
   {
    "a": "Shawn Maloney",
@@ -23811,19 +23824,6 @@
    "avgExpected": -2.9,
    "aId": "2e13698d-f902-43c1-b5b1-226d40d7af3d",
    "bId": "916dafeb-720f-471b-9609-7f338b793ed3"
-  },
-  {
-   "a": "Christina Pietrak",
-   "b": "Julie Chiappa",
-   "team": "Dill Dinkers Lansdale",
-   "n": 4,
-   "w": 2,
-   "l": 2,
-   "synergy": -0.7,
-   "avgActual": 0.5,
-   "avgExpected": 2,
-   "aId": "753f0571-691f-4de6-b307-50980e237994",
-   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "Rosanna Neis",
@@ -23899,7 +23899,7 @@
    "l": 5,
    "synergy": -0.7,
    "avgActual": -5.4,
-   "avgExpected": -4.2,
+   "avgExpected": -4.1,
    "aId": "0930c5f6-0231-431b-b9bb-609e61b519c1",
    "bId": "e80ce493-2de2-40d5-a94c-ea0d42634f82"
   },
@@ -23954,6 +23954,19 @@
    "avgExpected": -3.3,
    "aId": "8137da09-2781-4112-972a-dfd1c8102ba3",
    "bId": "e81b7980-75d9-4dab-b9e2-626065c3ee51"
+  },
+  {
+   "a": "Michael Johnson",
+   "b": "Krystal Johnson",
+   "team": "Picklr Newtown",
+   "n": 5,
+   "w": 3,
+   "l": 2,
+   "synergy": -0.7,
+   "avgActual": 1.4,
+   "avgExpected": 2.6,
+   "aId": "4f98756a-9726-48fe-a241-2579f96eee16",
+   "bId": "a4fb87af-daed-4bc9-9027-2a4b215c060c"
   },
   {
    "a": "Rodney Pierson",
@@ -24068,7 +24081,7 @@
    "l": 4,
    "synergy": -0.7,
    "avgActual": -11.2,
-   "avgExpected": -9.8,
+   "avgExpected": -9.9,
    "aId": "e66968be-773e-47ec-9f2c-10d7f2bcd3af",
    "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
   },
@@ -24164,19 +24177,6 @@
    "bId": "9642a1bd-ed0a-4d65-9c6e-8f0c04721c75"
   },
   {
-   "a": "George Chen",
-   "b": "Dan He",
-   "team": "Picklr Newtown",
-   "n": 9,
-   "w": 7,
-   "l": 2,
-   "synergy": -0.8,
-   "avgActual": 3.3,
-   "avgExpected": 4.5,
-   "aId": "36d781d6-de40-4d55-b17f-97f8c8757bd3",
-   "bId": "f544c236-d1bb-4bcf-bf15-df57dfb4e7f1"
-  },
-  {
    "a": "Denise Rempson",
    "b": "Janine Thompson",
    "team": "Montville Dragons",
@@ -24214,6 +24214,19 @@
    "avgExpected": -0.9,
    "aId": "2e13698d-f902-43c1-b5b1-226d40d7af3d",
    "bId": "a9c9b8dc-e4b6-49b3-9ec3-de99246526fa"
+  },
+  {
+   "a": "Christina Pietrak",
+   "b": "Julie Chiappa",
+   "team": "Dill Dinkers Lansdale",
+   "n": 4,
+   "w": 2,
+   "l": 2,
+   "synergy": -0.8,
+   "avgActual": 0.5,
+   "avgExpected": 2.1,
+   "aId": "753f0571-691f-4de6-b307-50980e237994",
+   "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
   {
    "a": "Kristen Silvestri",
@@ -24263,7 +24276,7 @@
    "l": 5,
    "synergy": -0.8,
    "avgActual": -0.1,
-   "avgExpected": 1,
+   "avgExpected": 0.9,
    "aId": "57ef9d21-095b-4eef-a332-5943f07d39a7",
    "bId": "b035d8be-372b-4bec-92be-0b0bde7dce82"
   },
@@ -24289,7 +24302,7 @@
    "l": 4,
    "synergy": -0.8,
    "avgActual": -11.5,
-   "avgExpected": -10,
+   "avgExpected": -9.9,
    "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
    "bId": "e66968be-773e-47ec-9f2c-10d7f2bcd3af"
   },
@@ -24331,32 +24344,6 @@
    "avgExpected": 2.3,
    "aId": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
    "bId": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0"
-  },
-  {
-   "a": "Timothy Hopkins",
-   "b": "Thomas Lum",
-   "team": "Picklr Newark",
-   "n": 11,
-   "w": 0,
-   "l": 11,
-   "synergy": -0.8,
-   "avgActual": -7.2,
-   "avgExpected": -6.1,
-   "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
-   "bId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7"
-  },
-  {
-   "a": "Michael Johnson",
-   "b": "Krystal Johnson",
-   "team": "Picklr Newtown",
-   "n": 5,
-   "w": 3,
-   "l": 2,
-   "synergy": -0.8,
-   "avgActual": 1.4,
-   "avgExpected": 2.8,
-   "aId": "4f98756a-9726-48fe-a241-2579f96eee16",
-   "bId": "a4fb87af-daed-4bc9-9027-2a4b215c060c"
   },
   {
    "a": "Stephen Stasiulewicz",
@@ -24536,7 +24523,7 @@
    "l": 3,
    "synergy": -0.9,
    "avgActual": 1.5,
-   "avgExpected": 2.8,
+   "avgExpected": 2.9,
    "aId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47",
    "bId": "aae8138e-15d4-44b2-b48c-60c87c40a116"
   },
@@ -24684,6 +24671,19 @@
    "bId": "b4b69268-6029-4071-84b1-45535a570f3a"
   },
   {
+   "a": "Timothy Hopkins",
+   "b": "Thomas Lum",
+   "team": "Picklr Newark",
+   "n": 11,
+   "w": 0,
+   "l": 11,
+   "synergy": -0.9,
+   "avgActual": -7.2,
+   "avgExpected": -6,
+   "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
+   "bId": "eabe4829-5c59-4dc9-8caf-0aa28ec41cc7"
+  },
+  {
    "a": "Linda Zarrilli",
    "b": "Hugh Pinder",
    "team": "APC Garden State",
@@ -24747,19 +24747,6 @@
    "avgExpected": 0,
    "aId": "57ef9d21-095b-4eef-a332-5943f07d39a7",
    "bId": "a63211cf-31ed-448e-8c87-2aaaf8e84a7b"
-  },
-  {
-   "a": "Timothy Hopkins",
-   "b": "Sandy Hopkins",
-   "team": "Picklr Newark",
-   "n": 8,
-   "w": 1,
-   "l": 7,
-   "synergy": -0.9,
-   "avgActual": -8.5,
-   "avgExpected": -7.2,
-   "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
-   "bId": "e80ce493-2de2-40d5-a94c-ea0d42634f82"
   },
   {
    "a": "Rodney Pierson",
@@ -24887,7 +24874,7 @@
    "l": 5,
    "synergy": -1,
    "avgActual": -5.6,
-   "avgExpected": -3.7,
+   "avgExpected": -3.8,
    "aId": "21da9d6f-1118-44a7-984d-0565cb46f43d",
    "bId": "fa4eb637-9da5-4418-9135-c41cca7e6ced"
   },
@@ -25043,7 +25030,7 @@
    "l": 3,
    "synergy": -1,
    "avgActual": -1,
-   "avgExpected": 1,
+   "avgExpected": 1.1,
    "aId": "38739b70-06ec-41c1-bcfb-18a3c539951d",
    "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
@@ -25059,6 +25046,19 @@
    "avgExpected": -1.8,
    "aId": "0d68c1e4-633a-4b56-bb73-06365cf5bdcb",
    "bId": "b4ef8674-2eff-4b19-80c1-82de7f94d8b7"
+  },
+  {
+   "a": "Timothy Hopkins",
+   "b": "Sandy Hopkins",
+   "team": "Picklr Newark",
+   "n": 8,
+   "w": 1,
+   "l": 7,
+   "synergy": -1,
+   "avgActual": -8.5,
+   "avgExpected": -7,
+   "aId": "8acca4cc-875c-4594-8f46-3d31b0912227",
+   "bId": "e80ce493-2de2-40d5-a94c-ea0d42634f82"
   },
   {
    "a": "Lou Gomez",
@@ -25134,7 +25134,7 @@
    "l": 6,
    "synergy": -1.1,
    "avgActual": -4.8,
-   "avgExpected": -3,
+   "avgExpected": -3.1,
    "aId": "21da9d6f-1118-44a7-984d-0565cb46f43d",
    "bId": "c52d90c3-f405-4312-8c1d-0a828ce19a18"
   },
@@ -25186,7 +25186,7 @@
    "l": 4,
    "synergy": -1.1,
    "avgActual": -5.7,
-   "avgExpected": -3.5,
+   "avgExpected": -3.6,
    "aId": "5d124581-6317-4648-8c11-2fa9235da2c3",
    "bId": "cff9ebd3-d67b-4a59-966f-a31b6208a155"
   },
@@ -25641,7 +25641,7 @@
    "l": 2,
    "synergy": -1.2,
    "avgActual": -2,
-   "avgExpected": 0.7,
+   "avgExpected": 0.8,
    "aId": "4f87890f-1940-405a-82a2-bd2d50b5bf21",
    "bId": "7c329f6b-3ee5-4a0a-8cd9-b3d439da6e47"
   },
@@ -25901,7 +25901,7 @@
    "l": 3,
    "synergy": -1.4,
    "avgActual": -4.7,
-   "avgExpected": -1.3,
+   "avgExpected": -1.4,
    "aId": "38441ed7-017a-47a0-859b-ddb00d17d1cb",
    "bId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f"
   },
@@ -25966,7 +25966,7 @@
    "l": 2,
    "synergy": -1.5,
    "avgActual": -2.3,
-   "avgExpected": 1.2,
+   "avgExpected": 1.3,
    "aId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0",
    "bId": "ff713931-208e-4b8f-9b1d-c7919e6af892"
   },
@@ -26400,6 +26400,19 @@
    "bId": "c4cb1aad-8e5f-4793-a206-18739d2190d3"
   },
   {
+   "a": "Andrea Schwab",
+   "b": "Barb Mulckhuyse",
+   "team": "ACE Moorestown",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -1.8,
+   "avgActual": -3.3,
+   "avgExpected": 1,
+   "aId": "605d7726-f903-4606-ad3d-14964b9e2e1b",
+   "bId": "b4b69268-6029-4071-84b1-45535a570f3a"
+  },
+  {
    "a": "Shah Faisal",
    "b": "Saritha Kondra",
    "team": "Stelton Sports",
@@ -26450,19 +26463,6 @@
    "avgExpected": 1.2,
    "aId": "236ac99f-3ad9-42b7-bb97-a2c238fbbf98",
    "bId": "6b844385-0db4-4fa9-a38f-1f79ecef1db0"
-  },
-  {
-   "a": "Colleen Derose",
-   "b": "Dawn Gordon",
-   "team": "ACE Moorestown",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -1.8,
-   "avgActual": -5.7,
-   "avgExpected": -1.4,
-   "aId": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-   "bId": "756e256e-ea2f-4e25-9c6a-e780860d048f"
   },
   {
    "a": "Tom Matko",
@@ -26517,19 +26517,6 @@
    "bId": "b39f886b-aa7a-40ca-81a1-5963941e541f"
   },
   {
-   "a": "Andrea Schwab",
-   "b": "Barb Mulckhuyse",
-   "team": "ACE Moorestown",
-   "n": 3,
-   "w": 1,
-   "l": 2,
-   "synergy": -1.9,
-   "avgActual": -3.3,
-   "avgExpected": 1,
-   "aId": "605d7726-f903-4606-ad3d-14964b9e2e1b",
-   "bId": "b4b69268-6029-4071-84b1-45535a570f3a"
-  },
-  {
    "a": "Sal Garfi",
    "b": "Christine Ziegler",
    "team": "Flemington",
@@ -26541,6 +26528,19 @@
    "avgExpected": -2.2,
    "aId": "38441ed7-017a-47a0-859b-ddb00d17d1cb",
    "bId": "63946930-2dca-489e-8158-028722c045f5"
+  },
+  {
+   "a": "Colleen Derose",
+   "b": "Dawn Gordon",
+   "team": "ACE Moorestown",
+   "n": 3,
+   "w": 1,
+   "l": 2,
+   "synergy": -1.9,
+   "avgActual": -5.7,
+   "avgExpected": -1.3,
+   "aId": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
+   "bId": "756e256e-ea2f-4e25-9c6a-e780860d048f"
   },
   {
    "a": "Pete Dunn",
@@ -76971,7 +76971,6 @@
    "away": "Picklr Newark",
    "time": "2026-11-08T12:00:00",
    "complete": true,
-   "provisional": true,
    "homePoints": 674,
    "awayPoints": 488,
    "homeGW": 27,
@@ -77295,7 +77294,7 @@
       "Michael Johnson"
      ],
      "a": [
-      "Aaron Smith",
+      "Timothy Hopkins",
       "Vincent Lamarco"
      ]
     },
@@ -79305,7 +79304,389 @@
    "home": "Home Court",
    "away": "Pickleball Palace",
    "time": "2026-11-14T12:00:00",
-   "complete": false
+   "complete": false,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kate Clow",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Chang",
+      "Robert Mroz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Gerard Scipione"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kate Clow",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Jane Chang"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Mroz",
+      "Robert Lee"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gerard Scipione",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Chang",
+      "Gerard Scipione"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Robert Mroz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Chang",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Kate Clow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Lee",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Mroz",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Matt Stone"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Robert Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Robert Mroz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kate Clow",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Barbara Thall"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Chang",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Lee",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Stone",
+      "Gerard Scipione"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kate Clow",
+      "Gerard Scipione"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Robert Lee"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jane Chang",
+      "Robert Mroz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Barbara Thall",
+      "Amanda Gardiner"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Allison Harmony",
+      "Kate Clow"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Mroz",
+      "Gerard Scipione"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matt Stone",
+      "Robert Lee"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -80727,7 +81108,7 @@
  ],
  "meta": {
   "matchesPlayed": 115,
-  "provisionalMatches": 1,
+  "provisionalMatches": 0,
   "weeks": "1-12",
   "totalPlayers": 476,
   "ratingHistoryWeeks": [
@@ -80900,7 +81281,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T01:01:36.560Z";
+  DATA.meta.asOf = "2026-11-10T14:02:58.879Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
