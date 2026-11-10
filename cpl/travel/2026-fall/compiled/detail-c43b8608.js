@@ -59,7 +59,7 @@
     "label": "12",
     "rating": 1.9,
     "confidence": 57,
-    "rank": 88,
+    "rank": 89,
     "ratingGames": 6,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.6
@@ -347,7 +347,7 @@
     "label": "12",
     "rating": 1.2,
     "confidence": 47,
-    "rank": 140,
+    "rank": 141,
     "ratingGames": 4,
     "strengthOfPartners": 2.5,
     "strengthOfOpponents": -0.3
@@ -403,7 +403,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 48,
-    "rank": 161,
+    "rank": 162,
     "ratingGames": 4,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": -0.1
@@ -891,7 +891,7 @@
     "pid": "2279ed76-ddf7-4ed7-aeef-e2bc83db3ed4",
     "name": "Xiaohong Fang",
     "n": 10,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
@@ -903,7 +903,7 @@
     "pid": "2ec82ce9-5de9-4bee-9f84-b28c2f6c0f2c",
     "name": "Jim Hu",
     "n": 5,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "32208805-a6c4-402d-bdf6-b44c29c35ba6",
@@ -915,7 +915,7 @@
     "pid": "ecf2cd14-2d76-4e21-9e99-e86aff72c356",
     "name": "Wallace Lee",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
@@ -927,7 +927,7 @@
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
     "name": "Jhon Cifuentes",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    },
    {
     "pid": "1a34ae87-9a09-4766-bdeb-dc8638846f24",
@@ -1023,7 +1023,7 @@
     "label": "12",
     "rating": 2.9,
     "confidence": 69,
-    "rank": 31,
+    "rank": 29,
     "ratingGames": 12,
     "strengthOfPartners": 0,
     "strengthOfOpponents": -1
@@ -1304,7 +1304,7 @@
     "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
     "name": "Shuming Zhu",
     "n": 3,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
@@ -1328,7 +1328,7 @@
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
     "name": "Vilayvanh Sysounthone",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "2279ed76-ddf7-4ed7-aeef-e2bc83db3ed4",
@@ -1723,7 +1723,7 @@
     "pid": "32208805-a6c4-402d-bdf6-b44c29c35ba6",
     "name": "Hongjie Liu",
     "n": 3,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "1a34ae87-9a09-4766-bdeb-dc8638846f24",
@@ -1735,7 +1735,7 @@
     "pid": "2ec82ce9-5de9-4bee-9f84-b28c2f6c0f2c",
     "name": "Jim Hu",
     "n": 3,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "e9147f78-5bc3-4cab-9b59-6f830a44337c",
@@ -1783,7 +1783,7 @@
     "pid": "d0138abd-f60e-490a-acaa-d4372e973d57",
     "name": "Jianfeng Wang",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -2213,16 +2213,16 @@
     "synergy": 1.5
    },
    {
-    "pid": "e9147f78-5bc3-4cab-9b59-6f830a44337c",
-    "name": "Yan Wang",
+    "pid": "9334d28c-6aab-4669-9297-799876b8ca16",
+    "name": "Bing Leng",
     "n": 10,
     "synergy": 1.3
    },
    {
-    "pid": "9334d28c-6aab-4669-9297-799876b8ca16",
-    "name": "Bing Leng",
+    "pid": "e9147f78-5bc3-4cab-9b59-6f830a44337c",
+    "name": "Yan Wang",
     "n": 10,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
@@ -2634,11 +2634,11 @@
     "week": 12,
     "seq": 16,
     "label": "12b",
-    "rating": 2.9,
+    "rating": 2.8,
     "confidence": 92,
-    "rank": 26,
+    "rank": 31,
     "ratingGames": 59,
-    "strengthOfPartners": 2.3,
+    "strengthOfPartners": 2.2,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -2653,19 +2653,19 @@
     "pid": "e9147f78-5bc3-4cab-9b59-6f830a44337c",
     "name": "Yan Wang",
     "n": 9,
-    "synergy": 0.9
+    "synergy": 1
    },
    {
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
     "name": "Jhon Cifuentes",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "9334d28c-6aab-4669-9297-799876b8ca16",
     "name": "Bing Leng",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "d0138abd-f60e-490a-acaa-d4372e973d57",
@@ -2683,7 +2683,7 @@
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
     "name": "Vilayvanh Sysounthone",
     "n": 6,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
@@ -2999,6 +2999,360 @@
   ],
   "partners": []
  },
+ "91857142-d537-4b98-bbc2-481129371949": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "PickleRage Union County",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 72,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 75,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Flemington",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 70,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "Allstar Pickler",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 66,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Montville Dragons",
+    "homeAway": "A",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 94,
+    "pa": 87,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Pickleball Palace",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 116,
+    "pa": 107,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     2,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 12,
+    "opp": "PickleRage Union County",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 78,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": 4,
+    "confidence": 49,
+    "rank": 3,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.5,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": 3.5,
+    "confidence": 66,
+    "rank": 8,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 3.8,
+    "confidence": 66,
+    "rank": 4,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 6,
+    "seq": 4,
+    "label": "6a",
+    "rating": 5.3,
+    "confidence": 76,
+    "rank": 1,
+    "ratingGames": 17,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 6,
+    "seq": 5,
+    "label": "6b",
+    "rating": 5.2,
+    "confidence": 81,
+    "rank": 1,
+    "ratingGames": 23,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 7,
+    "seq": 6,
+    "label": "7",
+    "rating": 5.1,
+    "confidence": 82,
+    "rank": 1,
+    "ratingGames": 23,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 8,
+    "seq": 7,
+    "label": "8",
+    "rating": 5.2,
+    "confidence": 82,
+    "rank": 1,
+    "ratingGames": 23,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 9,
+    "seq": 10,
+    "label": "9",
+    "rating": 4.8,
+    "confidence": 85,
+    "rank": 1,
+    "ratingGames": 28,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10",
+    "rating": 4.2,
+    "confidence": 87,
+    "rank": 2,
+    "ratingGames": 34,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": 4.3,
+    "confidence": 88,
+    "rank": 2,
+    "ratingGames": 34,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 12,
+    "seq": 16,
+    "label": "12",
+    "rating": 4.9,
+    "confidence": 89,
+    "rank": 1,
+    "ratingGames": 40,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "b5dec967-9e3a-49b4-b136-597711d099cc",
+    "name": "Robert Huntley",
+    "n": 3,
+    "synergy": 1
+   },
+   {
+    "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
+    "name": "Michael Gilbert",
+    "n": 6,
+    "synergy": 0.5
+   },
+   {
+    "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
+    "name": "Sharon Streit",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "2dfb6945-94b8-4fcd-85a6-2696fb38d54b",
+    "name": "Peter Kuehne",
+    "n": 3,
+    "synergy": 0.1
+   },
+   {
+    "pid": "900813f8-0026-4040-b11e-7222b87545db",
+    "name": "Cindi Goldstein",
+    "n": 4,
+    "synergy": -0.1
+   },
+   {
+    "pid": "f0ecf5f8-9392-4625-ba53-de6a61de6218",
+    "name": "Keith Bloom",
+    "n": 3,
+    "synergy": -1.7
+   }
+  ]
+ },
  "1bdfe261-94e8-4713-972b-785953b6dd88": {
   "log": [
    {
@@ -3227,7 +3581,7 @@
     "label": "12",
     "rating": 0.4,
     "confidence": 83,
-    "rank": 212,
+    "rank": 211,
     "ratingGames": 25,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": -1.7
@@ -3655,7 +4009,7 @@
     "label": "12",
     "rating": 2,
     "confidence": 78,
-    "rank": 82,
+    "rank": 81,
     "ratingGames": 18,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.7
@@ -3853,6 +4207,51 @@
   ],
   "partners": []
  },
+ "7e89cce5-aed0-4d38-ab11-cd962d69fb46": {
+  "log": [
+   {
+    "week": 12,
+    "opp": "PickleRage Union County",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 116,
+    "pa": 94,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 25,
+    "teamGL": 7,
+    "sub": 1,
+    "subFor": "Home Court"
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 12,
+    "seq": 16,
+    "label": "12",
+    "rating": 1.9,
+    "confidence": 57,
+    "rank": 88,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0.7
+   }
+  ],
+  "partners": []
+ },
  "5e42a5f7-22d1-4613-a829-b62121ddc704": {
   "log": [
    {
@@ -3901,367 +4300,13 @@
     "label": "12",
     "rating": 0,
     "confidence": 57,
-    "rank": 256,
+    "rank": 254,
     "ratingGames": 6,
     "strengthOfPartners": 2.8,
     "strengthOfOpponents": 0
    }
   ],
   "partners": []
- },
- "91857142-d537-4b98-bbc2-481129371949": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "PickleRage Union County",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 72,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 5,
-    "l": 0,
-    "gp": 5,
-    "pf": 105,
-    "pa": 75,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Flemington",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 70,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 25,
-    "teamGL": 7,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "Allstar Pickler",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 66,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Montville Dragons",
-    "homeAway": "A",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 94,
-    "pa": 87,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Pickleball Palace",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 116,
-    "pa": 107,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     2,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 12,
-    "opp": "PickleRage Union County",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 120,
-    "pa": 84,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": 4,
-    "confidence": 49,
-    "rank": 3,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.5,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": 3.5,
-    "confidence": 66,
-    "rank": 8,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 3.8,
-    "confidence": 66,
-    "rank": 4,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 6,
-    "seq": 4,
-    "label": "6a",
-    "rating": 5.3,
-    "confidence": 76,
-    "rank": 1,
-    "ratingGames": 17,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 6,
-    "seq": 5,
-    "label": "6b",
-    "rating": 5.2,
-    "confidence": 81,
-    "rank": 1,
-    "ratingGames": 23,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 7,
-    "seq": 6,
-    "label": "7",
-    "rating": 5.1,
-    "confidence": 82,
-    "rank": 1,
-    "ratingGames": 23,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 8,
-    "seq": 7,
-    "label": "8",
-    "rating": 5.2,
-    "confidence": 82,
-    "rank": 1,
-    "ratingGames": 23,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 9,
-    "seq": 10,
-    "label": "9",
-    "rating": 4.8,
-    "confidence": 85,
-    "rank": 1,
-    "ratingGames": 28,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10",
-    "rating": 4.2,
-    "confidence": 87,
-    "rank": 2,
-    "ratingGames": 34,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": 4.3,
-    "confidence": 88,
-    "rank": 2,
-    "ratingGames": 34,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 12,
-    "seq": 16,
-    "label": "12",
-    "rating": 4.6,
-    "confidence": 89,
-    "rank": 1,
-    "ratingGames": 40,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "b5dec967-9e3a-49b4-b136-597711d099cc",
-    "name": "Robert Huntley",
-    "n": 3,
-    "synergy": 1.1
-   },
-   {
-    "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
-    "name": "Michael Gilbert",
-    "n": 6,
-    "synergy": 0.6
-   },
-   {
-    "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
-    "name": "Sharon Streit",
-    "n": 3,
-    "synergy": 0.6
-   },
-   {
-    "pid": "2dfb6945-94b8-4fcd-85a6-2696fb38d54b",
-    "name": "Peter Kuehne",
-    "n": 3,
-    "synergy": 0.2
-   },
-   {
-    "pid": "900813f8-0026-4040-b11e-7222b87545db",
-    "name": "Cindi Goldstein",
-    "n": 4,
-    "synergy": 0
-   },
-   {
-    "pid": "f0ecf5f8-9392-4625-ba53-de6a61de6218",
-    "name": "Keith Bloom",
-    "n": 3,
-    "synergy": -1.6
-   }
-  ]
  },
  "78d7b1d3-6b6c-4dde-a94f-5d4056b33ee7": {
   "log": [
@@ -4643,7 +4688,7 @@
     "pid": "06b66cca-2292-4bbe-962e-1217c4418e18",
     "name": "Brooke Obrien",
     "n": 7,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "9a0e3b23-efa6-4c87-bc93-f8fa1bbde474",
@@ -4953,7 +4998,7 @@
     "label": "12",
     "rating": 2.3,
     "confidence": 88,
-    "rank": 59,
+    "rank": 58,
     "ratingGames": 40,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": -0.2
@@ -4970,7 +5015,7 @@
     "pid": "e1957c7a-4e30-47e1-bf43-fae97adcf183",
     "name": "Cindy Walters",
     "n": 3,
-    "synergy": 2
+    "synergy": 1.9
    },
    {
     "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
@@ -4982,7 +5027,7 @@
     "pid": "5b98410e-1f1f-4143-ab72-c7d8a53e5309",
     "name": "Allison Harmony",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "1181bed8-38bd-4496-8be0-323f36d5d7c4",
@@ -5401,7 +5446,7 @@
     "label": "12b",
     "rating": 2.2,
     "confidence": 91,
-    "rank": 63,
+    "rank": 61,
     "ratingGames": 51,
     "strengthOfPartners": 3,
     "strengthOfOpponents": 0.4
@@ -5415,15 +5460,15 @@
     "synergy": 1.3
    },
    {
-    "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
-    "name": "Shuming Zhu",
-    "n": 6,
-    "synergy": 0.9
-   },
-   {
     "pid": "ecf2cd14-2d76-4e21-9e99-e86aff72c356",
     "name": "Wallace Lee",
     "n": 9,
+    "synergy": 1
+   },
+   {
+    "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
+    "name": "Shuming Zhu",
+    "n": 6,
     "synergy": 0.9
    },
    {
@@ -5835,7 +5880,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 81,
-    "rank": 146,
+    "rank": 147,
     "ratingGames": 22,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -1.3
@@ -5858,7 +5903,7 @@
     "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
     "name": "Roberto Marcillo",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.6
    }
   ]
  },
@@ -6486,7 +6531,7 @@
     "pid": "ecf2cd14-2d76-4e21-9e99-e86aff72c356",
     "name": "Wallace Lee",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
@@ -6534,7 +6579,7 @@
     "pid": "9334d28c-6aab-4669-9297-799876b8ca16",
     "name": "Bing Leng",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    },
    {
     "pid": "d0138abd-f60e-490a-acaa-d4372e973d57",
@@ -7345,7 +7390,7 @@
     "pid": "91857142-d537-4b98-bbc2-481129371949",
     "name": "Susan M Fett",
     "n": 3,
-    "synergy": -1.6
+    "synergy": -1.7
    },
    {
     "pid": "900813f8-0026-4040-b11e-7222b87545db",
@@ -7610,13 +7655,13 @@
     "pid": "2dfb6945-94b8-4fcd-85a6-2696fb38d54b",
     "name": "Peter Kuehne",
     "n": 3,
-    "synergy": 1.5
+    "synergy": 1.6
    },
    {
     "pid": "91857142-d537-4b98-bbc2-481129371949",
     "name": "Susan M Fett",
     "n": 3,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "17c1d95a-2f52-4329-a52a-a991d1fc3335",
@@ -8056,7 +8101,7 @@
     "label": "12",
     "rating": 3.8,
     "confidence": 93,
-    "rank": 5,
+    "rank": 6,
     "ratingGames": 66,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.8
@@ -8067,7 +8112,7 @@
     "pid": "0a458710-16fc-4aac-93a1-91ce89d6bacf",
     "name": "Geordielyn Alviola",
     "n": 10,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "824c403f-8e75-42d5-bdbe-8effc6224ae0",
@@ -8266,7 +8311,7 @@
     "pid": "ec511d19-2f10-425b-828f-708e5365bfcf",
     "name": "Derek Manwaring",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0
    }
   ]
  },
@@ -8856,7 +8901,7 @@
     "label": "12",
     "rating": 3.1,
     "confidence": 91,
-    "rank": 21,
+    "rank": 20,
     "ratingGames": 58,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0
@@ -9275,7 +9320,7 @@
     "label": "12",
     "rating": 2.9,
     "confidence": 92,
-    "rank": 27,
+    "rank": 26,
     "ratingGames": 58,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.2
@@ -9887,8 +9932,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -10033,7 +10078,7 @@
     "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
     "name": "Michael Gilbert",
     "n": 5,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "e224a324-8a0d-4739-9dae-07055090ef2a",
@@ -10768,7 +10813,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 87,
-    "rank": 103,
+    "rank": 104,
     "ratingGames": 32,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.3
@@ -10996,7 +11041,7 @@
     "label": "12",
     "rating": 2,
     "confidence": 76,
-    "rank": 84,
+    "rank": 83,
     "ratingGames": 18,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.1
@@ -11550,8 +11595,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -11638,9 +11683,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 1.8,
+    "rating": 1.7,
     "confidence": 89,
-    "rank": 94,
+    "rank": 96,
     "ratingGames": 38,
     "strengthOfPartners": 2,
     "strengthOfOpponents": 0.2
@@ -11651,13 +11696,13 @@
     "pid": "b5dec967-9e3a-49b4-b136-597711d099cc",
     "name": "Robert Huntley",
     "n": 3,
-    "synergy": 1.5
+    "synergy": 1.6
    },
    {
     "pid": "91857142-d537-4b98-bbc2-481129371949",
     "name": "Susan M Fett",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "cb3cfdef-4bf3-4287-8d4e-dc17490860aa",
@@ -11669,19 +11714,19 @@
     "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
     "name": "Michael Gilbert",
     "n": 5,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "1318bc01-f23f-47da-94cb-ac71b8f3e694",
     "name": "Andrea Smith",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "35afefad-1bab-485e-8f04-d68feb2d8e82",
     "name": "Sandy Hartman",
     "n": 3,
-    "synergy": -1.3
+    "synergy": -1.2
    }
   ]
  },
@@ -12046,15 +12091,15 @@
     "synergy": 0.9
    },
    {
-    "pid": "dbe6ecd1-6aad-4f8f-bc44-702ef0be5667",
-    "name": "Jack Tran",
-    "n": 4,
-    "synergy": 0.8
-   },
-   {
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
     "name": "Jhon Cifuentes",
     "n": 5,
+    "synergy": 0.7
+   },
+   {
+    "pid": "dbe6ecd1-6aad-4f8f-bc44-702ef0be5667",
+    "name": "Jack Tran",
+    "n": 4,
     "synergy": 0.7
    },
    {
@@ -12073,13 +12118,13 @@
     "pid": "ecf2cd14-2d76-4e21-9e99-e86aff72c356",
     "name": "Wallace Lee",
     "n": 6,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "32208805-a6c4-402d-bdf6-b44c29c35ba6",
     "name": "Hongjie Liu",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.6
    }
   ]
  },
@@ -13179,8 +13224,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -13300,11 +13345,11 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 2.9,
+    "rating": 2.8,
     "confidence": 90,
-    "rank": 28,
+    "rank": 32,
     "ratingGames": 44,
-    "strengthOfPartners": 1.8,
+    "strengthOfPartners": 1.9,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -13319,19 +13364,19 @@
     "pid": "91857142-d537-4b98-bbc2-481129371949",
     "name": "Susan M Fett",
     "n": 6,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "429103e6-a3b1-4cb1-853d-bb4b849df001",
     "name": "Olga Khalev",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "35afefad-1bab-485e-8f04-d68feb2d8e82",
     "name": "Sandy Hartman",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "1318bc01-f23f-47da-94cb-ac71b8f3e694",
@@ -13343,19 +13388,19 @@
     "pid": "85b74629-7dd6-48c5-bb23-d4216ec81261",
     "name": "Rich Traynor",
     "n": 5,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
     "name": "Sharon Streit",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "2dfb6945-94b8-4fcd-85a6-2696fb38d54b",
     "name": "Peter Kuehne",
     "n": 5,
-    "synergy": -0.4
+    "synergy": -0.3
    }
   ]
  },
@@ -14186,7 +14231,7 @@
     "label": "12",
     "rating": 0.4,
     "confidence": 62,
-    "rank": 213,
+    "rank": 212,
     "ratingGames": 8,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -1.4
@@ -14452,7 +14497,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 46,
-    "rank": 162,
+    "rank": 163,
     "ratingGames": 4,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0
@@ -14915,7 +14960,7 @@
     "rank": 25,
     "ratingGames": 62,
     "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.7
+    "strengthOfOpponents": 0.6
    }
   ],
   "partners": [
@@ -15741,7 +15786,7 @@
     "pid": "e05ce193-53c0-4251-8a44-734c522f7a75",
     "name": "Christine Clark",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "90204557-bb5d-4892-abfe-d2530aa1ac3a",
@@ -16155,7 +16200,7 @@
     "label": "12",
     "rating": 1.9,
     "confidence": 91,
-    "rank": 87,
+    "rank": 86,
     "ratingGames": 53,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.2
@@ -16371,8 +16416,8 @@
      2
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -16481,9 +16526,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 2,
+    "rating": 1.9,
     "confidence": 88,
-    "rank": 79,
+    "rank": 87,
     "ratingGames": 34,
     "strengthOfPartners": 1.9,
     "strengthOfOpponents": -0.5
@@ -16500,19 +16545,19 @@
     "pid": "35afefad-1bab-485e-8f04-d68feb2d8e82",
     "name": "Sandy Hartman",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "91857142-d537-4b98-bbc2-481129371949",
     "name": "Susan M Fett",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
     "name": "Sharon Streit",
     "n": 4,
-    "synergy": -1.5
+    "synergy": -1.4
    },
    {
     "pid": "f0ecf5f8-9392-4625-ba53-de6a61de6218",
@@ -16925,8 +16970,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -17043,13 +17088,13 @@
     "pid": "e224a324-8a0d-4739-9dae-07055090ef2a",
     "name": "Janine Kietrys",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "429103e6-a3b1-4cb1-853d-bb4b849df001",
     "name": "Olga Khalev",
     "n": 4,
-    "synergy": -2.6
+    "synergy": -2.5
    }
   ]
  },
@@ -17272,7 +17317,7 @@
     "confidence": 81,
     "rank": 64,
     "ratingGames": 22,
-    "strengthOfPartners": 1.6,
+    "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.2
    }
   ],
@@ -17448,7 +17493,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 68,
-    "rank": 106,
+    "rank": 107,
     "ratingGames": 11,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.2
@@ -17595,8 +17640,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -17718,7 +17763,7 @@
     "label": "12",
     "rating": 1.2,
     "confidence": 86,
-    "rank": 139,
+    "rank": 140,
     "ratingGames": 29,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": 0.2
@@ -17735,7 +17780,7 @@
     "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
     "name": "Sharon Streit",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -18249,9 +18294,9 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 84,
-    "rank": 230,
+    "rank": 229,
     "ratingGames": 25,
-    "strengthOfPartners": 1.6,
+    "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -18423,8 +18468,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -18533,9 +18578,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 0.2,
+    "rating": 0.1,
     "confidence": 87,
-    "rank": 229,
+    "rank": 243,
     "ratingGames": 32,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.2
@@ -18546,13 +18591,13 @@
     "pid": "429103e6-a3b1-4cb1-853d-bb4b849df001",
     "name": "Olga Khalev",
     "n": 4,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "d6a6177b-1ee7-410c-bafc-bf1a91628876",
     "name": "David Cartwright",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.4
    },
    {
     "pid": "cb3cfdef-4bf3-4287-8d4e-dc17490860aa",
@@ -18676,10 +18721,10 @@
     "label": "12",
     "rating": 2.9,
     "confidence": 75,
-    "rank": 29,
+    "rank": 27,
     "ratingGames": 14,
     "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 1.7
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": [
@@ -19130,7 +19175,7 @@
     "pid": "f32137a7-e7f0-4891-8691-81732f3db7f5",
     "name": "Matt Stone",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "4d2fbd50-033d-48d4-99ca-e6941d6ee533",
@@ -19142,7 +19187,7 @@
     "pid": "1181bed8-38bd-4496-8be0-323f36d5d7c4",
     "name": "Mark Lederman",
     "n": 8,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -19793,7 +19838,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 87,
-    "rank": 158,
+    "rank": 159,
     "ratingGames": 34,
     "strengthOfPartners": 2.3,
     "strengthOfOpponents": -0.4
@@ -19810,7 +19855,7 @@
     "pid": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
     "name": "Vilayvanh Sysounthone",
     "n": 4,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
@@ -20424,7 +20469,7 @@
     "label": "12",
     "rating": 1.8,
     "confidence": 91,
-    "rank": 91,
+    "rank": 92,
     "ratingGames": 54,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0
@@ -20768,7 +20813,7 @@
     "pid": "52940bf9-2379-45c0-94db-829704ea0ecc",
     "name": "Robert Goldenberg",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "5fe0b62e-e4be-4dc3-9f9c-46123a17f754",
@@ -20786,7 +20831,7 @@
     "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
     "name": "Roberto Marcillo",
     "n": 8,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -21063,7 +21108,7 @@
     "pid": "c45a1c4a-3aec-4920-ac7b-22142f13030f",
     "name": "Stephane Sabathier",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "5afdbd12-d79e-45ec-ae26-63ea91a262f2",
@@ -21318,7 +21363,7 @@
     "pid": "2dfb6945-94b8-4fcd-85a6-2696fb38d54b",
     "name": "Peter Kuehne",
     "n": 3,
-    "synergy": -0.5
+    "synergy": -0.4
    }
   ]
  },
@@ -21746,9 +21791,9 @@
     "week": 12,
     "seq": 16,
     "label": "12b",
-    "rating": 2.3,
+    "rating": 2.2,
     "confidence": 86,
-    "rank": 60,
+    "rank": 63,
     "ratingGames": 33,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.7
@@ -21759,7 +21804,7 @@
     "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
     "name": "Shuming Zhu",
     "n": 3,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
@@ -21777,7 +21822,7 @@
     "pid": "9334d28c-6aab-4669-9297-799876b8ca16",
     "name": "Bing Leng",
     "n": 5,
-    "synergy": 0.3
+    "synergy": 0.4
    }
   ]
  },
@@ -21987,7 +22032,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 81,
-    "rank": 169,
+    "rank": 171,
     "ratingGames": 23,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.4
@@ -22179,8 +22224,8 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -22300,9 +22345,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 1.5,
+    "rating": 1.4,
     "confidence": 88,
-    "rank": 113,
+    "rank": 122,
     "ratingGames": 36,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 0
@@ -22313,37 +22358,37 @@
     "pid": "91857142-d537-4b98-bbc2-481129371949",
     "name": "Susan M Fett",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.5
    },
    {
     "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
     "name": "Michael Gilbert",
     "n": 3,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "35afefad-1bab-485e-8f04-d68feb2d8e82",
     "name": "Sandy Hartman",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "b9846bcc-bfe3-494e-aa14-c25e864463b6",
     "name": "Michael Saggese",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    },
    {
     "pid": "429103e6-a3b1-4cb1-853d-bb4b849df001",
     "name": "Olga Khalev",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1
    },
    {
     "pid": "900813f8-0026-4040-b11e-7222b87545db",
     "name": "Cindi Goldstein",
     "n": 4,
-    "synergy": -1.5
+    "synergy": -1.4
    }
   ]
  },
@@ -22955,7 +23000,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 89,
-    "rank": 100,
+    "rank": 101,
     "ratingGames": 42,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.1
@@ -23353,7 +23398,7 @@
     "label": "12",
     "rating": 1.8,
     "confidence": 90,
-    "rank": 92,
+    "rank": 93,
     "ratingGames": 48,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -23581,8 +23626,8 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
+    "teamGW": 25,
+    "teamGL": 7,
     "sub": 0,
     "subFor": null
    }
@@ -23691,9 +23736,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 0.4,
+    "rating": 0.3,
     "confidence": 86,
-    "rank": 211,
+    "rank": 220,
     "ratingGames": 32,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.6
@@ -23704,25 +23749,25 @@
     "pid": "e224a324-8a0d-4739-9dae-07055090ef2a",
     "name": "Janine Kietrys",
     "n": 4,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
     "name": "Michael Gilbert",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
     "name": "Sharon Streit",
     "n": 3,
-    "synergy": -1.1
+    "synergy": -1
    },
    {
     "pid": "d6a6177b-1ee7-410c-bafc-bf1a91628876",
     "name": "David Cartwright",
     "n": 4,
-    "synergy": -2.6
+    "synergy": -2.5
    }
   ]
  },
@@ -23846,7 +23891,7 @@
     "pid": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
     "name": "Paul Rappoport",
     "n": 3,
-    "synergy": -0.7
+    "synergy": -0.6
    }
   ]
  },
@@ -24273,7 +24318,7 @@
     "pid": "9ecb04f7-d32e-4f28-8585-aad932450f89",
     "name": "Gajendra Mehta",
     "n": 10,
-    "synergy": 1.4
+    "synergy": 1.3
    },
    {
     "pid": "824c403f-8e75-42d5-bdbe-8effc6224ae0",
@@ -25097,19 +25142,19 @@
     "pid": "9443df04-e253-4d24-8d52-6c89bba6b4e1",
     "name": "Susan Colicchio",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.5
    },
    {
     "pid": "e81b7980-75d9-4dab-b9e2-626065c3ee51",
     "name": "May Syso",
     "n": 12,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "e5eb8990-4b8d-4a10-bff8-29740ce57276",
     "name": "Joe Monello",
     "n": 13,
-    "synergy": -1.7
+    "synergy": -1.8
    }
   ]
  },
@@ -25357,7 +25402,7 @@
     "label": "12",
     "rating": 2,
     "confidence": 88,
-    "rank": 80,
+    "rank": 79,
     "ratingGames": 34,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": -0.1
@@ -25701,7 +25746,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 87,
-    "rank": 196,
+    "rank": 195,
     "ratingGames": 34,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0.1
@@ -26066,7 +26111,7 @@
     "pid": "6c10bca6-6034-42ca-8adc-1532e7e3c629",
     "name": "Garry Wright",
     "n": 12,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "d521a98f-88b6-488e-8903-8c35386df363",
@@ -27590,7 +27635,7 @@
     "label": "12",
     "rating": 1.7,
     "confidence": 88,
-    "rank": 96,
+    "rank": 97,
     "ratingGames": 36,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": -0.2
@@ -27607,7 +27652,7 @@
     "pid": "5fe0b62e-e4be-4dc3-9f9c-46123a17f754",
     "name": "Amanda Gardiner",
     "n": 3,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "c7c10631-26d1-46cf-9c21-84eed5659847",
@@ -27619,7 +27664,7 @@
     "pid": "c7ffa10b-a10b-4adc-9fb6-46ed7afaeecb",
     "name": "Robert Lee",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "d580c22d-f8c0-4688-90d5-af4f0e180c6d",
@@ -28310,7 +28355,7 @@
     "pid": "810856e7-f746-4641-a633-d870ff787e8d",
     "name": "Maricel Pineda",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "2e2b7732-48a3-4102-86f9-555111fa9ae8",
@@ -28331,15 +28376,15 @@
     "synergy": 0.2
    },
    {
-    "pid": "3fb4ee3b-cfde-49fe-8dba-bfb90c5db4e1",
-    "name": "Sergio Fasciano",
-    "n": 3,
-    "synergy": 0.2
-   },
-   {
     "pid": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
     "name": "Maria Fanfa",
     "n": 11,
+    "synergy": 0.1
+   },
+   {
+    "pid": "3fb4ee3b-cfde-49fe-8dba-bfb90c5db4e1",
+    "name": "Sergio Fasciano",
+    "n": 3,
     "synergy": 0.1
    },
    {
@@ -28686,7 +28731,7 @@
     "label": "12",
     "rating": 0.3,
     "confidence": 91,
-    "rank": 217,
+    "rank": 216,
     "ratingGames": 51,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.6
@@ -29060,7 +29105,7 @@
     "pid": "23bf4ad6-5b88-4d00-93c8-3134ec378f34",
     "name": "Kirsten Hinds",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "869705bd-7c6f-4515-a1a4-d214c92fabb4",
@@ -29391,7 +29436,7 @@
     "label": "12",
     "rating": 1.7,
     "confidence": 71,
-    "rank": 98,
+    "rank": 99,
     "ratingGames": 12,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.1
@@ -29844,51 +29889,6 @@
   ],
   "partners": []
  },
- "7e89cce5-aed0-4d38-ab11-cd962d69fb46": {
-  "log": [
-   {
-    "week": 12,
-    "opp": "PickleRage Union County",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 110,
-    "pa": 100,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 24,
-    "teamGL": 8,
-    "sub": 1,
-    "subFor": "Home Court"
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 12,
-    "seq": 16,
-    "label": "12",
-    "rating": 0.7,
-    "confidence": 57,
-    "rank": 179,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0.7
-   }
-  ],
-  "partners": []
- },
  "f531d208-4654-40ae-82e2-7c73886d7d7d": {
   "log": [
    {
@@ -30025,7 +30025,7 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 58,
-    "rank": 234,
+    "rank": 233,
     "ratingGames": 6,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": 0.7
@@ -30551,7 +30551,7 @@
     "pid": "5fe0b62e-e4be-4dc3-9f9c-46123a17f754",
     "name": "Amanda Gardiner",
     "n": 3,
-    "synergy": 2
+    "synergy": 1.9
    },
    {
     "pid": "4516a66f-67b3-4981-a16d-036deb8db9bc",
@@ -30965,7 +30965,7 @@
     "label": "12",
     "rating": 2.8,
     "confidence": 92,
-    "rank": 32,
+    "rank": 30,
     "ratingGames": 59,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.5
@@ -31262,9 +31262,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 2.3,
+    "rating": 2.2,
     "confidence": 90,
-    "rank": 58,
+    "rank": 62,
     "ratingGames": 48,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.4
@@ -31281,7 +31281,7 @@
     "pid": "ce787b4f-30b9-4fd0-a12a-caba1f27ca68",
     "name": "Savita Nandal",
     "n": 6,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "42cd2ea9-67c6-4d62-ad7f-8005e5c03606",
@@ -31290,22 +31290,22 @@
     "synergy": -0.1
    },
    {
+    "pid": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
+    "name": "John Sallo",
+    "n": 3,
+    "synergy": -0.6
+   },
+   {
     "pid": "d48ef63c-f537-4c65-93b1-f1907d2c2c2a",
     "name": "Valerie Ablaza",
     "n": 5,
     "synergy": -0.7
    },
    {
-    "pid": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
-    "name": "John Sallo",
-    "n": 3,
-    "synergy": -0.7
-   },
-   {
     "pid": "906383cd-e781-48bc-9004-0fc5427c7e62",
     "name": "Brandon Fulford",
     "n": 4,
-    "synergy": -1.1
+    "synergy": -1
    }
   ]
  },
@@ -32038,7 +32038,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 90,
-    "rank": 141,
+    "rank": 142,
     "ratingGames": 50,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 0.3
@@ -32672,8 +32672,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -32782,12 +32782,12 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 3.8,
+    "rating": 3.9,
     "confidence": 91,
-    "rank": 6,
+    "rank": 5,
     "ratingGames": 55,
     "strengthOfPartners": 0.3,
-    "strengthOfOpponents": 0.6
+    "strengthOfOpponents": 0.7
    }
   ],
   "partners": [
@@ -32795,7 +32795,7 @@
     "pid": "384831b2-73f2-411a-a6ba-987562301f37",
     "name": "Mara Levy",
     "n": 5,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "94c45058-cae5-4085-ad9e-684309568903",
@@ -32807,13 +32807,13 @@
     "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
     "name": "Christine Anderson",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
     "name": "Andy Knight",
     "n": 9,
-    "synergy": -0.8
+    "synergy": -0.9
    },
    {
     "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
@@ -33221,7 +33221,7 @@
     "pid": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
     "name": "Elizabeth Biehl",
     "n": 7,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "7b807cdf-4322-4979-b810-acae5cc05409",
@@ -33567,15 +33567,15 @@
     "synergy": 1.8
    },
    {
-    "pid": "5d3b9d31-abbd-49ef-b63b-fa8a30759147",
-    "name": "Charles Buzad",
-    "n": 5,
-    "synergy": 0.2
-   },
-   {
     "pid": "155f1b6d-eba7-4faf-a4c0-0fc6184e08ae",
     "name": "Andre Goldstein",
     "n": 4,
+    "synergy": 0.3
+   },
+   {
+    "pid": "5d3b9d31-abbd-49ef-b63b-fa8a30759147",
+    "name": "Charles Buzad",
+    "n": 5,
     "synergy": 0.2
    },
    {
@@ -34675,7 +34675,7 @@
     "label": "12",
     "rating": 1,
     "confidence": 90,
-    "rank": 150,
+    "rank": 151,
     "ratingGames": 44,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.1
@@ -34989,7 +34989,7 @@
     "label": "12",
     "rating": 2,
     "confidence": 70,
-    "rank": 85,
+    "rank": 84,
     "ratingGames": 11,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.2
@@ -35279,7 +35279,7 @@
     "label": "12",
     "rating": 1.8,
     "confidence": 89,
-    "rank": 93,
+    "rank": 94,
     "ratingGames": 41,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.8
@@ -35704,16 +35704,16 @@
     "synergy": 0
    },
    {
-    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
-    "name": "Jo Marie Holzhammer",
-    "n": 3,
-    "synergy": -0.1
-   },
-   {
     "pid": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
     "name": "Elizabeth Biehl",
     "n": 6,
     "synergy": -0.1
+   },
+   {
+    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
+    "name": "Jo Marie Holzhammer",
+    "n": 3,
+    "synergy": -0.2
    },
    {
     "pid": "63946930-2dca-489e-8158-028722c045f5",
@@ -35983,9 +35983,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 3.2,
+    "rating": 3.1,
     "confidence": 85,
-    "rank": 20,
+    "rank": 21,
     "ratingGames": 27,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.3
@@ -35996,19 +35996,19 @@
     "pid": "6600b9f3-d27b-4772-8308-5636ac646776",
     "name": "Pedro Oliveira",
     "n": 4,
-    "synergy": 1
+    "synergy": 1.1
+   },
+   {
+    "pid": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
+    "name": "Nan Feng",
+    "n": 5,
+    "synergy": 0.7
    },
    {
     "pid": "d1f3735c-669b-4a40-b4ca-b40ea1da4cb7",
     "name": "Zhihong Ge",
     "n": 3,
     "synergy": 0.7
-   },
-   {
-    "pid": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
-    "name": "Nan Feng",
-    "n": 5,
-    "synergy": 0.6
    }
   ]
  },
@@ -36548,7 +36548,7 @@
     "label": "12",
     "rating": 0.6,
     "confidence": 61,
-    "rank": 190,
+    "rank": 189,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": -0.3
@@ -36719,7 +36719,7 @@
     "label": "12",
     "rating": 2.3,
     "confidence": 63,
-    "rank": 62,
+    "rank": 60,
     "ratingGames": 8,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.9
@@ -37036,9 +37036,9 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 88,
-    "rank": 144,
+    "rank": 145,
     "ratingGames": 37,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -37305,7 +37305,7 @@
     "confidence": 87,
     "rank": 51,
     "ratingGames": 34,
-    "strengthOfPartners": 0.8,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -37320,13 +37320,13 @@
     "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
     "name": "John Kuo",
     "n": 10,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "94c45058-cae5-4085-ad9e-684309568903",
     "name": "Linda Bozzo",
     "n": 5,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "384831b2-73f2-411a-a6ba-987562301f37",
@@ -37597,7 +37597,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 87,
-    "rank": 145,
+    "rank": 146,
     "ratingGames": 34,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.7
@@ -37620,7 +37620,7 @@
     "pid": "b3c8341b-b3d8-442b-93dc-1da6a5c4e868",
     "name": "Scott Kindzierski",
     "n": 5,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "035a8041-2b2d-4050-a71d-9a8e7fb1b5e6",
@@ -38578,7 +38578,7 @@
     "label": "12",
     "rating": 2.9,
     "confidence": 73,
-    "rank": 30,
+    "rank": 28,
     "ratingGames": 13,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.5
@@ -38984,7 +38984,7 @@
     "pid": "155f1b6d-eba7-4faf-a4c0-0fc6184e08ae",
     "name": "Andre Goldstein",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "ff713931-208e-4b8f-9b1d-c7919e6af892",
@@ -39309,7 +39309,7 @@
     "label": "12",
     "rating": -0.1,
     "confidence": 88,
-    "rank": 260,
+    "rank": 259,
     "ratingGames": 36,
     "strengthOfPartners": 2.1,
     "strengthOfOpponents": -0.1
@@ -39320,19 +39320,19 @@
     "pid": "900813f8-0026-4040-b11e-7222b87545db",
     "name": "Cindi Goldstein",
     "n": 3,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "5acb8305-77d8-4089-88b6-9fbfa9400f6a",
     "name": "Michael Gilbert",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "9f9e5b25-d385-4c12-adb3-233c612619c4",
     "name": "Sharon Streit",
     "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "f0ecf5f8-9392-4625-ba53-de6a61de6218",
@@ -39350,7 +39350,7 @@
     "pid": "2dfb6945-94b8-4fcd-85a6-2696fb38d54b",
     "name": "Peter Kuehne",
     "n": 3,
-    "synergy": -1.3
+    "synergy": -1.2
    }
   ]
  },
@@ -40230,7 +40230,7 @@
     "label": "12",
     "rating": 1,
     "confidence": 93,
-    "rank": 148,
+    "rank": 149,
     "ratingGames": 64,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.3
@@ -40277,7 +40277,7 @@
     "pid": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
     "name": "Tom Matko",
     "n": 7,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
@@ -40694,15 +40694,15 @@
     "synergy": 1.2
    },
    {
-    "pid": "183983b9-993f-471e-ac3d-224dcee6d80f",
-    "name": "Steve Roth",
-    "n": 5,
-    "synergy": 0.3
-   },
-   {
     "pid": "77f18b1c-db78-4d0e-b81d-6d1efde8bb08",
     "name": "Elias Eid",
     "n": 4,
+    "synergy": 0.2
+   },
+   {
+    "pid": "183983b9-993f-471e-ac3d-224dcee6d80f",
+    "name": "Steve Roth",
+    "n": 5,
     "synergy": 0.2
    },
    {
@@ -41012,7 +41012,7 @@
     "label": "12",
     "rating": 1.5,
     "confidence": 90,
-    "rank": 110,
+    "rank": 111,
     "ratingGames": 43,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -41479,7 +41479,7 @@
     "label": "12",
     "rating": 0.3,
     "confidence": 92,
-    "rank": 216,
+    "rank": 215,
     "ratingGames": 58,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.3
@@ -41770,7 +41770,7 @@
     "pid": "78d7b1d3-6b6c-4dde-a94f-5d4056b33ee7",
     "name": "Janet Bellaran",
     "n": 7,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "fe7754f9-404d-4b6d-8499-552ee9f237fa",
@@ -42177,7 +42177,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 92,
-    "rank": 155,
+    "rank": 156,
     "ratingGames": 60,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.6
@@ -42355,7 +42355,7 @@
     "confidence": 68,
     "rank": 317,
     "ratingGames": 10,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.6
    }
   ],
@@ -42829,7 +42829,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 92,
-    "rank": 99,
+    "rank": 100,
     "ratingGames": 62,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.3
@@ -43168,7 +43168,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 88,
-    "rank": 242,
+    "rank": 241,
     "ratingGames": 37,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.3
@@ -43191,7 +43191,7 @@
     "pid": "1181bed8-38bd-4496-8be0-323f36d5d7c4",
     "name": "Mark Lederman",
     "n": 3,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "c7c10631-26d1-46cf-9c21-84eed5659847",
@@ -43543,7 +43543,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 89,
-    "rank": 101,
+    "rank": 102,
     "ratingGames": 42,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.2
@@ -43566,7 +43566,7 @@
     "pid": "9d1192c8-e17a-4251-a23b-59d122f4bada",
     "name": "Richard Ross",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "3899495d-b8a7-40b2-a42d-a48270d0ff6f",
@@ -43925,7 +43925,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 92,
-    "rank": 156,
+    "rank": 157,
     "ratingGames": 54,
     "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.2
@@ -44220,7 +44220,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 85,
-    "rank": 159,
+    "rank": 160,
     "ratingGames": 27,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.8
@@ -45058,8 +45058,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -45170,7 +45170,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 90,
-    "rank": 166,
+    "rank": 168,
     "ratingGames": 48,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.2
@@ -45181,13 +45181,13 @@
     "pid": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
     "name": "Amanda Nguyen",
     "n": 3,
-    "synergy": 2.6
+    "synergy": 2.5
    },
    {
     "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
     "name": "Christine Anderson",
     "n": 9,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
@@ -45196,16 +45196,16 @@
     "synergy": 0.3
    },
    {
+    "pid": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
+    "name": "Louis Sapirman",
+    "n": 3,
+    "synergy": 0
+   },
+   {
     "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
     "name": "Michael Barry",
     "n": 6,
     "synergy": -0.1
-   },
-   {
-    "pid": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
-    "name": "Louis Sapirman",
-    "n": 3,
-    "synergy": -0.2
    },
    {
     "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
@@ -45217,7 +45217,7 @@
     "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
     "name": "John Kuo",
     "n": 5,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -45461,8 +45461,8 @@
      2
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -45587,7 +45587,7 @@
     "rank": 183,
     "ratingGames": 55,
     "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": 0.4
    }
   ],
   "partners": [
@@ -45619,7 +45619,7 @@
     "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
     "name": "John Kuo",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
@@ -46010,7 +46010,7 @@
     "label": "12",
     "rating": 1.5,
     "confidence": 92,
-    "rank": 108,
+    "rank": 109,
     "ratingGames": 58,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.2
@@ -46027,7 +46027,7 @@
     "pid": "810856e7-f746-4641-a633-d870ff787e8d",
     "name": "Maricel Pineda",
     "n": 7,
-    "synergy": 1.5
+    "synergy": 1.6
    },
    {
     "pid": "14cdc9a7-221c-4933-bec3-854de864ccea",
@@ -46414,7 +46414,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 90,
-    "rank": 157,
+    "rank": 158,
     "ratingGames": 45,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -46845,7 +46845,7 @@
     "label": "12",
     "rating": 1.5,
     "confidence": 92,
-    "rank": 107,
+    "rank": 108,
     "ratingGames": 59,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.8
@@ -47298,7 +47298,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 93,
-    "rank": 191,
+    "rank": 190,
     "ratingGames": 68,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.2
@@ -47306,16 +47306,16 @@
   ],
   "partners": [
    {
-    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
-    "name": "Jo Marie Holzhammer",
-    "n": 4,
-    "synergy": 1.1
-   },
-   {
     "pid": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
     "name": "Alex Lawrason",
     "n": 4,
     "synergy": 1.1
+   },
+   {
+    "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
+    "name": "Jo Marie Holzhammer",
+    "n": 4,
+    "synergy": 1
    },
    {
     "pid": "65e91297-9d8e-4aad-a836-8458adc59a75",
@@ -47692,7 +47692,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 90,
-    "rank": 142,
+    "rank": 143,
     "ratingGames": 49,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.4
@@ -48111,7 +48111,7 @@
     "label": "12",
     "rating": 2,
     "confidence": 85,
-    "rank": 81,
+    "rank": 80,
     "ratingGames": 28,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.2
@@ -48344,7 +48344,7 @@
     "label": "12",
     "rating": -1.6,
     "confidence": 81,
-    "rank": 377,
+    "rank": 376,
     "ratingGames": 21,
     "strengthOfPartners": 2.6,
     "strengthOfOpponents": 0
@@ -48379,7 +48379,7 @@
     "pid": "ce26642b-bd69-4cbc-a478-95e060c2b0a8",
     "name": "Shuming Zhu",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.1
    },
    {
     "pid": "91f844b2-dd13-45a0-b66d-9b7ea751037a",
@@ -49123,7 +49123,7 @@
     "pid": "8137da09-2781-4112-972a-dfd1c8102ba3",
     "name": "Sarah Ramadas",
     "n": 6,
-    "synergy": 1.3
+    "synergy": 1.2
    },
    {
     "pid": "9443df04-e253-4d24-8d52-6c89bba6b4e1",
@@ -49141,13 +49141,13 @@
     "pid": "130961d9-c1d1-47b6-9bee-90183531473c",
     "name": "Gladys Garzone",
     "n": 20,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "d621bf00-b03f-478d-a0b6-cab0ba96b28b",
     "name": "Alam Mohammad",
     "n": 13,
-    "synergy": -1.7
+    "synergy": -1.8
    }
   ]
  },
@@ -49487,7 +49487,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 88,
-    "rank": 241,
+    "rank": 240,
     "ratingGames": 37,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": -0.2
@@ -49510,7 +49510,7 @@
     "pid": "9d1192c8-e17a-4251-a23b-59d122f4bada",
     "name": "Richard Ross",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "844b1121-409f-4c34-8030-cbbcaee54cc3",
@@ -49745,8 +49745,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -49846,10 +49846,10 @@
     "label": "12",
     "rating": -0.1,
     "confidence": 90,
-    "rank": 259,
+    "rank": 258,
     "ratingGames": 46,
     "strengthOfPartners": 1,
-    "strengthOfOpponents": 0
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": [
@@ -49866,16 +49866,16 @@
     "synergy": 1.1
    },
    {
-    "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
-    "name": "Raquel Murphy",
-    "n": 4,
-    "synergy": 1
-   },
-   {
     "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
     "name": "John Kuo",
     "n": 4,
-    "synergy": 1
+    "synergy": 1.1
+   },
+   {
+    "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
+    "name": "Raquel Murphy",
+    "n": 4,
+    "synergy": 0.9
    },
    {
     "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
@@ -49887,7 +49887,7 @@
     "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
     "name": "Dan Yang",
     "n": 9,
-    "synergy": -0.8
+    "synergy": -0.9
    },
    {
     "pid": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
@@ -50255,7 +50255,7 @@
     "label": "12",
     "rating": 1.8,
     "confidence": 91,
-    "rank": 90,
+    "rank": 91,
     "ratingGames": 55,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.9
@@ -50698,7 +50698,7 @@
     "pid": "f03105d3-576a-4955-909a-24c18a087d1e",
     "name": "Lisa Yuskevich",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "923cf821-3b2d-42e9-9269-97ab1b499ad8",
@@ -50927,7 +50927,7 @@
     "label": "12",
     "rating": -2,
     "confidence": 78,
-    "rank": 402,
+    "rank": 401,
     "ratingGames": 16,
     "strengthOfPartners": 1.2,
     "strengthOfOpponents": -0.9
@@ -51255,7 +51255,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 89,
-    "rank": 195,
+    "rank": 194,
     "ratingGames": 41,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": -0.3
@@ -51278,7 +51278,7 @@
     "pid": "9b43d5cd-a837-4958-a69e-404061700cc6",
     "name": "Stephanie Sozomenu",
     "n": 11,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "d4254f79-f461-4723-9a64-2660985b2702",
@@ -51500,7 +51500,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 83,
-    "rank": 197,
+    "rank": 196,
     "ratingGames": 25,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0
@@ -51511,7 +51511,7 @@
     "pid": "5b98410e-1f1f-4143-ab72-c7d8a53e5309",
     "name": "Allison Harmony",
     "n": 3,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "d580c22d-f8c0-4688-90d5-af4f0e180c6d",
@@ -52255,7 +52255,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 91,
-    "rank": 192,
+    "rank": 191,
     "ratingGames": 52,
     "strengthOfPartners": 1.4,
     "strengthOfOpponents": 0.6
@@ -52565,9 +52565,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 1.4,
+    "rating": 1.5,
     "confidence": 88,
-    "rank": 122,
+    "rank": 113,
     "ratingGames": 36,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.3
@@ -52578,19 +52578,19 @@
     "pid": "7b807cdf-4322-4979-b810-acae5cc05409",
     "name": "Cyndee Catalano",
     "n": 4,
-    "synergy": 1.1
+    "synergy": 1
    },
    {
     "pid": "b93dc821-ad17-49b2-8561-0c9da7614364",
     "name": "Ken Carlson",
     "n": 6,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "b925cfcd-a7a4-4c6c-a604-5b7997bceebb",
     "name": "Alex Lawrason",
     "n": 3,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
@@ -53130,13 +53130,13 @@
     "pid": "b3d8b1e5-378c-4b5b-bc50-dfa39e6c8311",
     "name": "Lisa Braumann",
     "n": 3,
-    "synergy": 1.2
+    "synergy": 1.1
    },
    {
     "pid": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
     "name": "Chris Shung",
     "n": 4,
-    "synergy": 1
+    "synergy": 1.1
    },
    {
     "pid": "941eff8b-b056-483d-b927-48cf751a04d9",
@@ -53154,19 +53154,19 @@
     "pid": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
     "name": "Nan Feng",
     "n": 9,
-    "synergy": 0.3
-   },
-   {
-    "pid": "40a679d7-818c-46dc-872c-5e1cdf926e44",
-    "name": "Stephen Stasiulewicz",
-    "n": 8,
-    "synergy": -0.4
+    "synergy": 0.2
    },
    {
     "pid": "e4b1fba4-7df9-45eb-ad2f-d6b352d25cf4",
     "name": "Izabel Illipronti",
     "n": 5,
     "synergy": -0.4
+   },
+   {
+    "pid": "40a679d7-818c-46dc-872c-5e1cdf926e44",
+    "name": "Stephen Stasiulewicz",
+    "n": 8,
+    "synergy": -0.5
    },
    {
     "pid": "8bb1e9d8-4569-41d0-8502-a265101a76d6",
@@ -54364,7 +54364,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 89,
-    "rank": 280,
+    "rank": 281,
     "ratingGames": 38,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": -0.1
@@ -54767,7 +54767,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 3,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "e1da49d1-14cf-4a20-9f10-39c7ba6c38c4",
@@ -54791,7 +54791,7 @@
     "pid": "477f09e9-1b92-40e0-ae94-e32a0722f1cd",
     "name": "Randi Yezer",
     "n": 6,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "164f7429-f944-4ac8-955b-8b53aa175065",
@@ -55002,7 +55002,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 81,
-    "rank": 147,
+    "rank": 148,
     "ratingGames": 20,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.4
@@ -55202,7 +55202,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 81,
-    "rank": 104,
+    "rank": 105,
     "ratingGames": 20,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 1.1
@@ -55551,7 +55551,7 @@
     "rank": 297,
     "ratingGames": 42,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": -1
+    "strengthOfOpponents": -1.1
    }
   ],
   "partners": [
@@ -55906,11 +55906,11 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 1.3,
+    "rating": 1.2,
     "confidence": 89,
-    "rank": 127,
+    "rank": 139,
     "ratingGames": 43,
-    "strengthOfPartners": -0.3,
+    "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.4
    }
   ],
@@ -55931,7 +55931,7 @@
     "pid": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
     "name": "Maria Fanfa",
     "n": 7,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "6ff12922-82df-486a-a686-c5a77674cbf4",
@@ -55943,781 +55943,13 @@
     "pid": "318197d4-7171-47d3-b14a-a5c9b4276f77",
     "name": "Zhaohui Li",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "8ec58af7-1a0a-445f-a4b8-6b4cdd68d908",
     "name": "Roni Douber",
     "n": 5,
-    "synergy": -1.2
-   }
-  ]
- },
- "94c45058-cae5-4085-ad9e-684309568903": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Home Court",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 109,
-    "pa": 116,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 4,
-    "opp": "One Love",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 119,
-    "pa": 83,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 18,
-    "teamGL": 14,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 142,
-    "pa": 119,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "PCKLRAMA",
-    "homeAway": "H",
-    "w": 3,
-    "l": 2,
-    "gp": 5,
-    "pf": 94,
-    "pa": 96,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Pickleball Palace",
-    "homeAway": "A",
-    "w": 0,
-    "l": 6,
-    "gp": 6,
-    "pf": 102,
-    "pa": 126,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     4
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 116,
-    "pa": 88,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 116,
-    "pa": 101,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Picklr Fair Lawn",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 155,
-    "pa": 128,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 157,
-    "pa": 153,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     3,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 12,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 1,
-    "l": 5,
-    "gp": 6,
-    "pf": 84,
-    "pa": 120,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     3
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 1,
-    "label": "2",
-    "rating": -0.4,
-    "confidence": 45,
-    "rank": 167,
-    "ratingGames": 6,
-    "strengthOfPartners": -0.3,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 4,
-    "seq": 2,
-    "label": "4",
-    "rating": 1,
-    "confidence": 67,
-    "rank": 91,
-    "ratingGames": 12,
-    "strengthOfPartners": 0.7,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 0.8,
-    "confidence": 76,
-    "rank": 123,
-    "ratingGames": 19,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 6,
-    "seq": 5,
-    "label": "6",
-    "rating": 0.8,
-    "confidence": 80,
-    "rank": 126,
-    "ratingGames": 24,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 7,
-    "seq": 6,
-    "label": "7",
-    "rating": 0.7,
-    "confidence": 84,
-    "rank": 143,
-    "ratingGames": 30,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 8,
-    "seq": 7,
-    "label": "8",
-    "rating": 0.5,
-    "confidence": 86,
-    "rank": 165,
-    "ratingGames": 36,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.3
-   },
-   {
-    "week": 9,
-    "seq": 10,
-    "label": "9",
-    "rating": 0.7,
-    "confidence": 88,
-    "rank": 156,
-    "ratingGames": 42,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.2
-   },
-   {
-    "week": 10,
-    "seq": 11,
-    "label": "10a",
-    "rating": 0.8,
-    "confidence": 90,
-    "rank": 154,
-    "ratingGames": 50,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10b",
-    "rating": 0.7,
-    "confidence": 91,
-    "rank": 166,
-    "ratingGames": 58,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": 0.7,
-    "confidence": 91,
-    "rank": 171,
-    "ratingGames": 58,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 12,
-    "seq": 16,
-    "label": "12",
-    "rating": 0.7,
-    "confidence": 92,
-    "rank": 174,
-    "ratingGames": 64,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.5
-   }
-  ],
-  "partners": [
-   {
-    "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
-    "name": "Michael Barry",
-    "n": 7,
-    "synergy": 1.2
-   },
-   {
-    "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
-    "name": "John Kuo",
-    "n": 6,
-    "synergy": 0.7
-   },
-   {
-    "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
-    "name": "Dan Yang",
-    "n": 14,
-    "synergy": 0.3
-   },
-   {
-    "pid": "f918cd15-2c56-4b28-a4ae-7e5588920538",
-    "name": "Becky Poon",
-    "n": 5,
-    "synergy": 0.2
-   },
-   {
-    "pid": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
-    "name": "Amanda Nguyen",
-    "n": 4,
-    "synergy": -0.7
-   },
-   {
-    "pid": "384831b2-73f2-411a-a6ba-987562301f37",
-    "name": "Mara Levy",
-    "n": 10,
-    "synergy": -0.9
-   },
-   {
-    "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
-    "name": "Raquel Murphy",
-    "n": 5,
-    "synergy": -1
-   }
-  ]
- },
- "d9cf59fa-8fad-405c-b881-fa78c3a30968": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Pickleball Kingdom Hillsborough",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 81,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 6,
-    "opp": "PCKLRAMA",
-    "homeAway": "H",
-    "w": 2,
-    "l": 3,
-    "gp": 5,
-    "pf": 99,
-    "pa": 89,
-    "mx": [
-     1,
-     1
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     0,
-     3
-    ],
-    "teamRes": "W",
-    "teamGW": 16,
-    "teamGL": 16,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Pickleball Palace",
-    "homeAway": "A",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 101,
-    "pa": 115,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     1,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "L",
-    "teamGW": 11,
-    "teamGL": 21,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "H",
-    "w": 7,
-    "l": 1,
-    "gp": 8,
-    "pf": 161,
-    "pa": 115,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Monroe",
-    "homeAway": "A",
-    "w": 1,
-    "l": 4,
-    "gp": 5,
-    "pf": 89,
-    "pa": 91,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     0,
-     2
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 13,
-    "teamGL": 19,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Pickleball Kingdom Watchung",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 154,
-    "pa": 145,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 12,
-    "opp": "Home Court",
-    "homeAway": "H",
-    "w": 2,
-    "l": 4,
-    "gp": 6,
-    "pf": 101,
-    "pa": 118,
-    "mx": [
-     1,
-     3
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 3,
-    "label": "5",
-    "rating": 1,
-    "confidence": 50,
-    "rank": 115,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": -2.5
-   },
-   {
-    "week": 6,
-    "seq": 5,
-    "label": "6",
-    "rating": 1.7,
-    "confidence": 65,
-    "rank": 75,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.3,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 7,
-    "seq": 6,
-    "label": "7",
-    "rating": 1.1,
-    "confidence": 75,
-    "rank": 124,
-    "ratingGames": 17,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 8,
-    "seq": 7,
-    "label": "8",
-    "rating": 1.9,
-    "confidence": 82,
-    "rank": 73,
-    "ratingGames": 25,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 9,
-    "seq": 10,
-    "label": "9",
-    "rating": 1.7,
-    "confidence": 84,
-    "rank": 91,
-    "ratingGames": 30,
-    "strengthOfPartners": 1.1,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 10,
-    "seq": 12,
-    "label": "10",
-    "rating": 1.5,
-    "confidence": 88,
-    "rank": 109,
-    "ratingGames": 38,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 11,
-    "seq": 14,
-    "label": "11",
-    "rating": 1.6,
-    "confidence": 88,
-    "rank": 105,
-    "ratingGames": 38,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.1
-   },
-   {
-    "week": 12,
-    "seq": 16,
-    "label": "12",
-    "rating": 1.5,
-    "confidence": 89,
-    "rank": 111,
-    "ratingGames": 44,
-    "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 0.3
-   }
-  ],
-  "partners": [
-   {
-    "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
-    "name": "Andy Knight",
-    "n": 4,
-    "synergy": 1
-   },
-   {
-    "pid": "f918cd15-2c56-4b28-a4ae-7e5588920538",
-    "name": "Becky Poon",
-    "n": 10,
-    "synergy": 0.8
-   },
-   {
-    "pid": "94c45058-cae5-4085-ad9e-684309568903",
-    "name": "Linda Bozzo",
-    "n": 6,
-    "synergy": 0.7
-   },
-   {
-    "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
-    "name": "Michael Barry",
-    "n": 3,
-    "synergy": 0.2
-   },
-   {
-    "pid": "fc240672-f23c-40d4-9601-d019937cd3bf",
-    "name": "Manop Sutipayakul",
-    "n": 3,
-    "synergy": -1
-   },
-   {
-    "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
-    "name": "Raquel Murphy",
-    "n": 5,
     "synergy": -1.1
-   },
-   {
-    "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
-    "name": "Kevin Larkin",
-    "n": 5,
-    "synergy": -1.2
    }
   ]
  },
@@ -57030,7 +56262,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 90,
-    "rank": 143,
+    "rank": 144,
     "ratingGames": 44,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.1
@@ -57473,7 +56705,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 88,
-    "rank": 281,
+    "rank": 282,
     "ratingGames": 37,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.1
@@ -57484,7 +56716,7 @@
     "pid": "916dafeb-720f-471b-9609-7f338b793ed3",
     "name": "Jonathan Basa",
     "n": 8,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "3b4a5b66-69e2-44be-96c8-b48d93e9ae6f",
@@ -57783,7 +57015,7 @@
     "label": "12",
     "rating": 1,
     "confidence": 89,
-    "rank": 151,
+    "rank": 152,
     "ratingGames": 41,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -58094,7 +57326,7 @@
     "label": "12",
     "rating": -0.1,
     "confidence": 85,
-    "rank": 262,
+    "rank": 261,
     "ratingGames": 28,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -58551,7 +57783,7 @@
     "label": "12",
     "rating": -0.1,
     "confidence": 92,
-    "rank": 258,
+    "rank": 256,
     "ratingGames": 58,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0
@@ -58574,7 +57806,7 @@
     "pid": "da2dbedd-2a9d-4b7e-924c-374e11dcddd8",
     "name": "Michael Neyrus",
     "n": 6,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "938658e5-f3f0-4597-8d1b-8d65a9378673",
@@ -58852,7 +58084,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 86,
-    "rank": 253,
+    "rank": 252,
     "ratingGames": 30,
     "strengthOfPartners": 1.3,
     "strengthOfOpponents": 0.3
@@ -59167,7 +58399,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 86,
-    "rank": 283,
+    "rank": 284,
     "ratingGames": 30,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0
@@ -59335,7 +58567,7 @@
     "label": "12",
     "rating": -1.4,
     "confidence": 76,
-    "rank": 360,
+    "rank": 359,
     "ratingGames": 15,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": -0.1
@@ -59347,6 +58579,447 @@
     "name": "Luis Perez",
     "n": 4,
     "synergy": 0.1
+   }
+  ]
+ },
+ "94c45058-cae5-4085-ad9e-684309568903": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Home Court",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 109,
+    "pa": 116,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 4,
+    "opp": "One Love",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 119,
+    "pa": 83,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 18,
+    "teamGL": 14,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 142,
+    "pa": 119,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "PCKLRAMA",
+    "homeAway": "H",
+    "w": 3,
+    "l": 2,
+    "gp": 5,
+    "pf": 94,
+    "pa": 96,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Pickleball Palace",
+    "homeAway": "A",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 102,
+    "pa": 126,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     4
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 116,
+    "pa": 88,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 116,
+    "pa": 101,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Picklr Fair Lawn",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 155,
+    "pa": 128,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 157,
+    "pa": 153,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     3,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 12,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 0,
+    "l": 6,
+    "gp": 6,
+    "pf": 78,
+    "pa": 126,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 7,
+    "teamGL": 25,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 1,
+    "label": "2",
+    "rating": -0.4,
+    "confidence": 45,
+    "rank": 167,
+    "ratingGames": 6,
+    "strengthOfPartners": -0.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 4,
+    "seq": 2,
+    "label": "4",
+    "rating": 1,
+    "confidence": 67,
+    "rank": 91,
+    "ratingGames": 12,
+    "strengthOfPartners": 0.7,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 0.8,
+    "confidence": 76,
+    "rank": 123,
+    "ratingGames": 19,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 6,
+    "seq": 5,
+    "label": "6",
+    "rating": 0.8,
+    "confidence": 80,
+    "rank": 126,
+    "ratingGames": 24,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 7,
+    "seq": 6,
+    "label": "7",
+    "rating": 0.7,
+    "confidence": 84,
+    "rank": 143,
+    "ratingGames": 30,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": 0.5
+   },
+   {
+    "week": 8,
+    "seq": 7,
+    "label": "8",
+    "rating": 0.5,
+    "confidence": 86,
+    "rank": 165,
+    "ratingGames": 36,
+    "strengthOfPartners": 1.5,
+    "strengthOfOpponents": 0.3
+   },
+   {
+    "week": 9,
+    "seq": 10,
+    "label": "9",
+    "rating": 0.7,
+    "confidence": 88,
+    "rank": 156,
+    "ratingGames": 42,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 10,
+    "seq": 11,
+    "label": "10a",
+    "rating": 0.8,
+    "confidence": 90,
+    "rank": 154,
+    "ratingGames": 50,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10b",
+    "rating": 0.7,
+    "confidence": 91,
+    "rank": 166,
+    "ratingGames": 58,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": 0.7,
+    "confidence": 91,
+    "rank": 171,
+    "ratingGames": 58,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 12,
+    "seq": 16,
+    "label": "12",
+    "rating": 0.6,
+    "confidence": 92,
+    "rank": 181,
+    "ratingGames": 64,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": 0.5
+   }
+  ],
+  "partners": [
+   {
+    "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
+    "name": "Michael Barry",
+    "n": 7,
+    "synergy": 1.2
+   },
+   {
+    "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
+    "name": "Dan Yang",
+    "n": 14,
+    "synergy": 0.3
+   },
+   {
+    "pid": "f918cd15-2c56-4b28-a4ae-7e5588920538",
+    "name": "Becky Poon",
+    "n": 5,
+    "synergy": 0.3
+   },
+   {
+    "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
+    "name": "John Kuo",
+    "n": 6,
+    "synergy": -0.2
+   },
+   {
+    "pid": "005fa3be-9004-46b4-a3e2-77cd8b27b08e",
+    "name": "Amanda Nguyen",
+    "n": 4,
+    "synergy": -0.7
+   },
+   {
+    "pid": "384831b2-73f2-411a-a6ba-987562301f37",
+    "name": "Mara Levy",
+    "n": 10,
+    "synergy": -0.8
+   },
+   {
+    "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
+    "name": "Raquel Murphy",
+    "n": 5,
+    "synergy": -1
    }
   ]
  },
@@ -59675,7 +59348,7 @@
     "label": "12",
     "rating": 0.3,
     "confidence": 91,
-    "rank": 218,
+    "rank": 217,
     "ratingGames": 49,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.4
@@ -60074,7 +59747,7 @@
     "label": "12",
     "rating": 1.5,
     "confidence": 91,
-    "rank": 109,
+    "rank": 110,
     "ratingGames": 53,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.1
@@ -60628,6 +60301,333 @@
    }
   ]
  },
+ "d9cf59fa-8fad-405c-b881-fa78c3a30968": {
+  "log": [
+   {
+    "week": 5,
+    "opp": "Pickleball Kingdom Hillsborough",
+    "homeAway": "A",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 81,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 6,
+    "opp": "PCKLRAMA",
+    "homeAway": "H",
+    "w": 2,
+    "l": 3,
+    "gp": 5,
+    "pf": 99,
+    "pa": 89,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     0,
+     3
+    ],
+    "teamRes": "W",
+    "teamGW": 16,
+    "teamGL": 16,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Pickleball Palace",
+    "homeAway": "A",
+    "w": 2,
+    "l": 4,
+    "gp": 6,
+    "pf": 101,
+    "pa": 115,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     1,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "L",
+    "teamGW": 11,
+    "teamGL": 21,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "H",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 161,
+    "pa": 115,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Monroe",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 89,
+    "pa": 91,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     0,
+     2
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 13,
+    "teamGL": 19,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Pickleball Kingdom Watchung",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 154,
+    "pa": 145,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 12,
+    "opp": "Home Court",
+    "homeAway": "H",
+    "w": 1,
+    "l": 5,
+    "gp": 6,
+    "pf": 95,
+    "pa": 124,
+    "mx": [
+     0,
+     4
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "L",
+    "teamGW": 7,
+    "teamGL": 25,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 5,
+    "seq": 3,
+    "label": "5",
+    "rating": 1,
+    "confidence": 50,
+    "rank": 115,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": -2.5
+   },
+   {
+    "week": 6,
+    "seq": 5,
+    "label": "6",
+    "rating": 1.7,
+    "confidence": 65,
+    "rank": 75,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.3,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 7,
+    "seq": 6,
+    "label": "7",
+    "rating": 1.1,
+    "confidence": 75,
+    "rank": 124,
+    "ratingGames": 17,
+    "strengthOfPartners": 0.9,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 8,
+    "seq": 7,
+    "label": "8",
+    "rating": 1.9,
+    "confidence": 82,
+    "rank": 73,
+    "ratingGames": 25,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": -0.1
+   },
+   {
+    "week": 9,
+    "seq": 10,
+    "label": "9",
+    "rating": 1.7,
+    "confidence": 84,
+    "rank": 91,
+    "ratingGames": 30,
+    "strengthOfPartners": 1.1,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 10,
+    "seq": 12,
+    "label": "10",
+    "rating": 1.5,
+    "confidence": 88,
+    "rank": 109,
+    "ratingGames": 38,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 11,
+    "seq": 14,
+    "label": "11",
+    "rating": 1.6,
+    "confidence": 88,
+    "rank": 105,
+    "ratingGames": 38,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 12,
+    "seq": 16,
+    "label": "12",
+    "rating": 1.3,
+    "confidence": 89,
+    "rank": 127,
+    "ratingGames": 44,
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.3
+   }
+  ],
+  "partners": [
+   {
+    "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
+    "name": "Andy Knight",
+    "n": 4,
+    "synergy": 1.1
+   },
+   {
+    "pid": "f918cd15-2c56-4b28-a4ae-7e5588920538",
+    "name": "Becky Poon",
+    "n": 10,
+    "synergy": 0.9
+   },
+   {
+    "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
+    "name": "Michael Barry",
+    "n": 3,
+    "synergy": 0.3
+   },
+   {
+    "pid": "94c45058-cae5-4085-ad9e-684309568903",
+    "name": "Linda Bozzo",
+    "n": 6,
+    "synergy": -0.2
+   },
+   {
+    "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
+    "name": "Raquel Murphy",
+    "n": 5,
+    "synergy": -0.9
+   },
+   {
+    "pid": "fc240672-f23c-40d4-9601-d019937cd3bf",
+    "name": "Manop Sutipayakul",
+    "n": 3,
+    "synergy": -0.9
+   },
+   {
+    "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
+    "name": "Kevin Larkin",
+    "n": 5,
+    "synergy": -1.1
+   }
+  ]
+ },
  "130961d9-c1d1-47b6-9bee-90183531473c": {
   "log": [
    {
@@ -61038,11 +61038,11 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 0.7,
+    "rating": 0.8,
     "confidence": 92,
-    "rank": 173,
+    "rank": 165,
     "ratingGames": 67,
-    "strengthOfPartners": 1,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.7
    }
   ],
@@ -61051,7 +61051,7 @@
     "pid": "9443df04-e253-4d24-8d52-6c89bba6b4e1",
     "name": "Susan Colicchio",
     "n": 10,
-    "synergy": 1.5
+    "synergy": 1.4
    },
    {
     "pid": "035a8041-2b2d-4050-a71d-9a8e7fb1b5e6",
@@ -61063,13 +61063,13 @@
     "pid": "cf05f9f7-40a6-4861-b9be-020ee81a9c06",
     "name": "Claudia Calle",
     "n": 14,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "e5eb8990-4b8d-4a10-bff8-29740ce57276",
     "name": "Joe Monello",
     "n": 20,
-    "synergy": -0.1
+    "synergy": -0.2
    },
    {
     "pid": "8354a910-27fd-4e09-85bd-499f5cf84237",
@@ -61422,7 +61422,7 @@
     "pid": "f4af59de-c7a2-4aa4-a3db-1e3856181ffe",
     "name": "Jo Marie Holzhammer",
     "n": 6,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "0ae368c3-2417-42c2-bf5b-5b9f314c9da5",
@@ -62730,7 +62730,7 @@
     "label": "12",
     "rating": 0.7,
     "confidence": 94,
-    "rank": 172,
+    "rank": 174,
     "ratingGames": 77,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.5
@@ -63195,7 +63195,7 @@
     "pid": "e81b7980-75d9-4dab-b9e2-626065c3ee51",
     "name": "May Syso",
     "n": 4,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "8137da09-2781-4112-972a-dfd1c8102ba3",
@@ -63219,19 +63219,19 @@
     "pid": "130961d9-c1d1-47b6-9bee-90183531473c",
     "name": "Gladys Garzone",
     "n": 14,
-    "synergy": 0.3
-   },
-   {
-    "pid": "9443df04-e253-4d24-8d52-6c89bba6b4e1",
-    "name": "Susan Colicchio",
-    "n": 3,
-    "synergy": -0.2
+    "synergy": 0.2
    },
    {
     "pid": "2d20b2d1-619b-4d27-b7cb-f0d83d56b4be",
     "name": "Steven Giudice",
     "n": 7,
     "synergy": -0.2
+   },
+   {
+    "pid": "9443df04-e253-4d24-8d52-6c89bba6b4e1",
+    "name": "Susan Colicchio",
+    "n": 3,
+    "synergy": -0.3
    },
    {
     "pid": "55b4770f-a6fa-41ce-b47b-a6e55a33d513",
@@ -63946,8 +63946,8 @@
      1
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -64069,9 +64069,9 @@
     "label": "12",
     "rating": 0.6,
     "confidence": 92,
-    "rank": 181,
+    "rank": 180,
     "ratingGames": 64,
-    "strengthOfPartners": 0.2,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.1
    }
   ],
@@ -64080,13 +64080,13 @@
     "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
     "name": "Raquel Murphy",
     "n": 11,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
     "name": "Kevin Larkin",
     "n": 9,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "384831b2-73f2-411a-a6ba-987562301f37",
@@ -64110,7 +64110,7 @@
     "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
     "name": "Dan Yang",
     "n": 4,
-    "synergy": 0
+    "synergy": -0.1
    },
    {
     "pid": "41ea6231-c154-403e-a0e5-7e6b6d4cbbd2",
@@ -64122,13 +64122,13 @@
     "pid": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
     "name": "Louis Sapirman",
     "n": 4,
-    "synergy": -1.3
+    "synergy": -1.4
    },
    {
     "pid": "fc240672-f23c-40d4-9601-d019937cd3bf",
     "name": "Manop Sutipayakul",
     "n": 3,
-    "synergy": -1.9
+    "synergy": -1.8
    },
    {
     "pid": "f918cd15-2c56-4b28-a4ae-7e5588920538",
@@ -64577,7 +64577,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 92,
-    "rank": 164,
+    "rank": 166,
     "ratingGames": 62,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.1
@@ -64600,13 +64600,13 @@
     "pid": "2253df3c-7a50-4a9a-b197-2f80d64b089f",
     "name": "Chris Shung",
     "n": 5,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "6600b9f3-d27b-4772-8308-5636ac646776",
     "name": "Pedro Oliveira",
     "n": 9,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "9642a1bd-ed0a-4d65-9c6e-8f0c04721c75",
@@ -64624,7 +64624,7 @@
     "pid": "67f81846-bb41-4b0b-8d77-c0d876a4561c",
     "name": "Gary Grzankowski",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "941eff8b-b056-483d-b927-48cf751a04d9",
@@ -64895,7 +64895,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 86,
-    "rank": 252,
+    "rank": 251,
     "ratingGames": 31,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.3
@@ -65226,7 +65226,7 @@
     "label": "12",
     "rating": 0.3,
     "confidence": 88,
-    "rank": 220,
+    "rank": 219,
     "ratingGames": 37,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 0
@@ -65704,7 +65704,7 @@
     "label": "12",
     "rating": 0.9,
     "confidence": 93,
-    "rank": 154,
+    "rank": 155,
     "ratingGames": 69,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.3
@@ -65715,12 +65715,18 @@
     "pid": "14cdc9a7-221c-4933-bec3-854de864ccea",
     "name": "Jennie Diamond",
     "n": 7,
-    "synergy": 0.8
+    "synergy": 0.9
    },
    {
     "pid": "8ec58af7-1a0a-445f-a4b8-6b4cdd68d908",
     "name": "Roni Douber",
     "n": 6,
+    "synergy": 0.7
+   },
+   {
+    "pid": "810856e7-f746-4641-a633-d870ff787e8d",
+    "name": "Maricel Pineda",
+    "n": 9,
     "synergy": 0.7
    },
    {
@@ -65734,12 +65740,6 @@
     "name": "Nicole Nelson",
     "n": 5,
     "synergy": 0.7
-   },
-   {
-    "pid": "810856e7-f746-4641-a633-d870ff787e8d",
-    "name": "Maricel Pineda",
-    "n": 9,
-    "synergy": 0.6
    },
    {
     "pid": "3804b024-a017-4fa2-90d3-5d726e764f44",
@@ -66180,7 +66180,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 93,
-    "rank": 163,
+    "rank": 164,
     "ratingGames": 67,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.6
@@ -66191,7 +66191,7 @@
     "pid": "130961d9-c1d1-47b6-9bee-90183531473c",
     "name": "Gladys Garzone",
     "n": 10,
-    "synergy": 1.5
+    "synergy": 1.4
    },
    {
     "pid": "e5eb8990-4b8d-4a10-bff8-29740ce57276",
@@ -66221,18 +66221,18 @@
     "pid": "cf05f9f7-40a6-4861-b9be-020ee81a9c06",
     "name": "Claudia Calle",
     "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "d621bf00-b03f-478d-a0b6-cab0ba96b28b",
-    "name": "Alam Mohammad",
-    "n": 3,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "035a8041-2b2d-4050-a71d-9a8e7fb1b5e6",
     "name": "Kristen Silvestri",
     "n": 6,
+    "synergy": -0.5
+   },
+   {
+    "pid": "d621bf00-b03f-478d-a0b6-cab0ba96b28b",
+    "name": "Alam Mohammad",
+    "n": 3,
     "synergy": -0.5
    },
    {
@@ -66907,7 +66907,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "b3317f76-7939-45f1-a100-dbd17d9c768e",
@@ -67026,7 +67026,7 @@
     "label": "12",
     "rating": -0.6,
     "confidence": 57,
-    "rank": 310,
+    "rank": 309,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -1.6
@@ -67137,9 +67137,9 @@
     "label": "12",
     "rating": 0.4,
     "confidence": 47,
-    "rank": 215,
+    "rank": 214,
     "ratingGames": 4,
-    "strengthOfPartners": 0.6,
+    "strengthOfPartners": 0.7,
     "strengthOfOpponents": -0.3
    }
   ],
@@ -67308,7 +67308,7 @@
     "label": "12",
     "rating": 1.6,
     "confidence": 72,
-    "rank": 105,
+    "rank": 106,
     "ratingGames": 12,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 1.1
@@ -67393,7 +67393,7 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 58,
-    "rank": 235,
+    "rank": 234,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0
@@ -67460,9 +67460,9 @@
     "label": "12",
     "rating": 0.6,
     "confidence": 62,
-    "rank": 189,
+    "rank": 188,
     "ratingGames": 8,
-    "strengthOfPartners": 0.3,
+    "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -67809,7 +67809,7 @@
     "label": "12",
     "rating": -0.4,
     "confidence": 90,
-    "rank": 286,
+    "rank": 287,
     "ratingGames": 48,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.1
@@ -68199,9 +68199,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 0,
+    "rating": -0.1,
     "confidence": 82,
-    "rank": 254,
+    "rank": 262,
     "ratingGames": 22,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.5
@@ -68618,7 +68618,7 @@
     "pid": "cf05f9f7-40a6-4861-b9be-020ee81a9c06",
     "name": "Claudia Calle",
     "n": 4,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "b3c8341b-b3d8-442b-93dc-1da6a5c4e868",
@@ -68642,7 +68642,7 @@
     "pid": "d621bf00-b03f-478d-a0b6-cab0ba96b28b",
     "name": "Alam Mohammad",
     "n": 12,
-    "synergy": -0.5
+    "synergy": -0.6
    },
    {
     "pid": "8137da09-2781-4112-972a-dfd1c8102ba3",
@@ -69443,7 +69443,7 @@
     "pid": "5c119a69-3fc4-40b6-a8e1-dc3504df440a",
     "name": "Robert Bernstein",
     "n": 12,
-    "synergy": 0.5
+    "synergy": 0.4
    },
    {
     "pid": "3804b024-a017-4fa2-90d3-5d726e764f44",
@@ -69851,7 +69851,7 @@
     "label": "12",
     "rating": 1.9,
     "confidence": 91,
-    "rank": 86,
+    "rank": 85,
     "ratingGames": 55,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 1.1
@@ -69886,7 +69886,7 @@
     "pid": "916dafeb-720f-471b-9609-7f338b793ed3",
     "name": "Jonathan Basa",
     "n": 8,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "2e13698d-f902-43c1-b5b1-226d40d7af3d",
@@ -70236,9 +70236,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 0,
+    "rating": -0.1,
     "confidence": 91,
-    "rank": 248,
+    "rank": 257,
     "ratingGames": 49,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 0.3
@@ -70249,19 +70249,19 @@
     "pid": "d521a98f-88b6-488e-8903-8c35386df363",
     "name": "Cheryl Klein",
     "n": 7,
-    "synergy": 1.5
+    "synergy": 1.6
    },
    {
     "pid": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
     "name": "Maria Fanfa",
     "n": 9,
-    "synergy": 0.6
+    "synergy": 0.7
    },
    {
     "pid": "3804b024-a017-4fa2-90d3-5d726e764f44",
     "name": "Renee Froeberg",
     "n": 4,
-    "synergy": 0.4
+    "synergy": 0.5
    },
    {
     "pid": "6c10bca6-6034-42ca-8adc-1532e7e3c629",
@@ -70273,7 +70273,7 @@
     "pid": "083316b5-595a-4b81-90e7-d72ee570e021",
     "name": "Stu Schwartz",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "ec511d19-2f10-425b-828f-708e5365bfcf",
@@ -70285,7 +70285,7 @@
     "pid": "6ff12922-82df-486a-a686-c5a77674cbf4",
     "name": "Joe Chin",
     "n": 3,
-    "synergy": -0.9
+    "synergy": -0.8
    }
   ]
  },
@@ -70866,7 +70866,7 @@
     "label": "12",
     "rating": 1.7,
     "confidence": 86,
-    "rank": 97,
+    "rank": 98,
     "ratingGames": 33,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -70895,7 +70895,7 @@
     "pid": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
     "name": "Paul Rappoport",
     "n": 4,
-    "synergy": -1.1
+    "synergy": -1
    },
    {
     "pid": "abd55992-7237-4a92-817d-3d39388369c9",
@@ -71149,7 +71149,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 85,
-    "rank": 167,
+    "rank": 169,
     "ratingGames": 29,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.8
@@ -71160,7 +71160,7 @@
     "pid": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
     "name": "Louis Sapirman",
     "n": 4,
-    "synergy": 1.9
+    "synergy": 1.8
    },
    {
     "pid": "384831b2-73f2-411a-a6ba-987562301f37",
@@ -71184,13 +71184,13 @@
     "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
     "name": "John Kuo",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    },
    {
     "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
     "name": "Christine Anderson",
     "n": 3,
-    "synergy": -1.9
+    "synergy": -1.8
    }
   ]
  },
@@ -73091,7 +73091,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 91,
-    "rank": 239,
+    "rank": 238,
     "ratingGames": 53,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.3
@@ -73132,7 +73132,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 5,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "07767191-9167-4314-973d-3798ae6265a9",
@@ -73866,7 +73866,7 @@
     "label": "12",
     "rating": -0.8,
     "confidence": 73,
-    "rank": 321,
+    "rank": 320,
     "ratingGames": 13,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": -0.8
@@ -74237,7 +74237,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 91,
-    "rank": 165,
+    "rank": 167,
     "ratingGames": 52,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.5
@@ -74971,7 +74971,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 84,
-    "rank": 168,
+    "rank": 170,
     "ratingGames": 24,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 0.7
@@ -75000,7 +75000,7 @@
     "pid": "57f76666-8731-4408-9e83-fbab3d007fae",
     "name": "Sherri Falsetti",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.6
    }
   ]
  },
@@ -75665,7 +75665,7 @@
     "rank": 298,
     "ratingGames": 35,
     "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.1
+    "strengthOfOpponents": -0.2
    }
   ],
   "partners": [
@@ -76048,7 +76048,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 90,
-    "rank": 249,
+    "rank": 248,
     "ratingGames": 46,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.6
@@ -76405,7 +76405,7 @@
     "confidence": 90,
     "rank": 227,
     "ratingGames": 44,
-    "strengthOfPartners": 1,
+    "strengthOfPartners": 0.9,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -76414,7 +76414,7 @@
     "pid": "667a80aa-7b06-46b5-a4ae-6989224ab5f9",
     "name": "Dan Yang",
     "n": 5,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "fc240672-f23c-40d4-9601-d019937cd3bf",
@@ -76435,16 +76435,16 @@
     "synergy": 0.4
    },
    {
+    "pid": "94c45058-cae5-4085-ad9e-684309568903",
+    "name": "Linda Bozzo",
+    "n": 10,
+    "synergy": -0.8
+   },
+   {
     "pid": "8aa9db46-30ca-4985-93b5-33ad3d7d1963",
     "name": "Michael Barry",
     "n": 6,
     "synergy": -0.8
-   },
-   {
-    "pid": "94c45058-cae5-4085-ad9e-684309568903",
-    "name": "Linda Bozzo",
-    "n": 10,
-    "synergy": -0.9
    },
    {
     "pid": "f918cd15-2c56-4b28-a4ae-7e5588920538",
@@ -76595,7 +76595,7 @@
     "label": "12",
     "rating": 2.3,
     "confidence": 71,
-    "rank": 61,
+    "rank": 59,
     "ratingGames": 11,
     "strengthOfPartners": -1.5,
     "strengthOfOpponents": 1.6
@@ -76681,8 +76681,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -76727,7 +76727,7 @@
     "label": "12",
     "rating": -1.6,
     "confidence": 81,
-    "rank": 376,
+    "rank": 375,
     "ratingGames": 22,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.2
@@ -76738,7 +76738,7 @@
     "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
     "name": "Kevin Larkin",
     "n": 3,
-    "synergy": 2.6
+    "synergy": 2.5
    },
    {
     "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
@@ -77397,7 +77397,7 @@
     "label": "12",
     "rating": 0.3,
     "confidence": 88,
-    "rank": 219,
+    "rank": 218,
     "ratingGames": 40,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -77420,7 +77420,7 @@
     "pid": "f2258c77-73cb-49de-991e-ed0cc4f3f9e2",
     "name": "Paul Rappoport",
     "n": 6,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "83effba4-f2b6-4576-93ef-1ba487b02f0c",
@@ -78105,7 +78105,7 @@
     "pid": "67afa47c-0543-4eb0-a949-fd28b870d20c",
     "name": "Christine Algozo",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.2
    },
    {
     "pid": "5e265a90-558b-4564-acd8-f358bab162a9",
@@ -78562,7 +78562,7 @@
     "label": "12",
     "rating": 1,
     "confidence": 93,
-    "rank": 149,
+    "rank": 150,
     "ratingGames": 63,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.7
@@ -79664,7 +79664,7 @@
     "pid": "b035d8be-372b-4bec-92be-0b0bde7dce82",
     "name": "Eric Shipon",
     "n": 5,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "a6669cc7-9c23-4088-8e49-e529dc9b46a8",
@@ -79985,13 +79985,13 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 3,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "7e8fcb9e-d338-4358-9181-f03e57ba5c7c",
     "name": "Michael Cisar",
     "n": 6,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "164f7429-f944-4ac8-955b-8b53aa175065",
@@ -80491,8 +80491,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -80590,9 +80590,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -0.4,
+    "rating": -0.3,
     "confidence": 90,
-    "rank": 287,
+    "rank": 280,
     "ratingGames": 47,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -80603,13 +80603,13 @@
     "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
     "name": "Christine Anderson",
     "n": 11,
-    "synergy": 2.1
+    "synergy": 2
    },
    {
     "pid": "fd8fa2a4-7f58-41d2-897e-e7df225c4ad0",
     "name": "Andy Knight",
     "n": 4,
-    "synergy": 1
+    "synergy": 0.9
    },
    {
     "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
@@ -80618,16 +80618,16 @@
     "synergy": 0.3
    },
    {
+    "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
+    "name": "John Kuo",
+    "n": 5,
+    "synergy": -0.9
+   },
+   {
     "pid": "94c45058-cae5-4085-ad9e-684309568903",
     "name": "Linda Bozzo",
     "n": 5,
     "synergy": -1
-   },
-   {
-    "pid": "d9cf59fa-8fad-405c-b881-fa78c3a30968",
-    "name": "John Kuo",
-    "n": 5,
-    "synergy": -1.1
    },
    {
     "pid": "2a05bac5-f8e0-4e68-928e-bb0ac69f1921",
@@ -81311,7 +81311,7 @@
     "label": "12",
     "rating": 1,
     "confidence": 87,
-    "rank": 152,
+    "rank": 153,
     "ratingGames": 33,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.1
@@ -81602,16 +81602,16 @@
     "synergy": 1
    },
    {
+    "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
+    "name": "Katy Taylor",
+    "n": 4,
+    "synergy": 0.2
+   },
+   {
     "pid": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
     "name": "Heidi Lipton",
     "n": 3,
     "synergy": 0.2
-   },
-   {
-    "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
-    "name": "Katy Taylor",
-    "n": 4,
-    "synergy": 0.1
    },
    {
     "pid": "cc825d8d-1218-413e-93c0-576dfe643a79",
@@ -82336,7 +82336,7 @@
     "pid": "941eff8b-b056-483d-b927-48cf751a04d9",
     "name": "Margaret Bayse",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.3
    },
    {
     "pid": "6600b9f3-d27b-4772-8308-5636ac646776",
@@ -83439,7 +83439,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 88,
-    "rank": 251,
+    "rank": 250,
     "ratingGames": 39,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.6
@@ -83468,7 +83468,7 @@
     "pid": "810856e7-f746-4641-a633-d870ff787e8d",
     "name": "Maricel Pineda",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
@@ -83879,7 +83879,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 92,
-    "rank": 237,
+    "rank": 236,
     "ratingGames": 66,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.6
@@ -83896,7 +83896,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "164f7429-f944-4ac8-955b-8b53aa175065",
@@ -84533,7 +84533,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 89,
-    "rank": 240,
+    "rank": 239,
     "ratingGames": 42,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 1
@@ -84550,7 +84550,7 @@
     "pid": "e5eb8990-4b8d-4a10-bff8-29740ce57276",
     "name": "Joe Monello",
     "n": 6,
-    "synergy": 1.3
+    "synergy": 1.2
    },
    {
     "pid": "d621bf00-b03f-478d-a0b6-cab0ba96b28b",
@@ -85474,7 +85474,7 @@
     "label": "12",
     "rating": 0.4,
     "confidence": 51,
-    "rank": 214,
+    "rank": 213,
     "ratingGames": 5,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.8
@@ -86130,7 +86130,7 @@
     "label": "12",
     "rating": -2.7,
     "confidence": 80,
-    "rank": 427,
+    "rank": 426,
     "ratingGames": 20,
     "strengthOfPartners": 1.7,
     "strengthOfOpponents": -0.1
@@ -86396,7 +86396,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.3
    }
   ]
  },
@@ -86628,7 +86628,7 @@
     "label": "12",
     "rating": -2.7,
     "confidence": 80,
-    "rank": 426,
+    "rank": 425,
     "ratingGames": 20,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": -0.1
@@ -86948,7 +86948,7 @@
     "pid": "3804b024-a017-4fa2-90d3-5d726e764f44",
     "name": "Renee Froeberg",
     "n": 3,
-    "synergy": 0.2
+    "synergy": 0.1
    },
    {
     "pid": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
@@ -86960,7 +86960,7 @@
     "pid": "6ff12922-82df-486a-a686-c5a77674cbf4",
     "name": "Joe Chin",
     "n": 5,
-    "synergy": -0.7
+    "synergy": -0.8
    }
   ]
  },
@@ -87309,9 +87309,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -0.8,
+    "rating": -0.9,
     "confidence": 91,
-    "rank": 319,
+    "rank": 325,
     "ratingGames": 51,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.3
@@ -87322,13 +87322,13 @@
     "pid": "5e265a90-558b-4564-acd8-f358bab162a9",
     "name": "Rachel Baluyot",
     "n": 8,
-    "synergy": 1.3
+    "synergy": 1.4
    },
    {
     "pid": "f0acebf7-62fd-455a-9fa4-c5ca589fc1b5",
     "name": "Jemma Bucks",
     "n": 4,
-    "synergy": 0
+    "synergy": 0.1
    },
    {
     "pid": "a9c9b8dc-e4b6-49b3-9ec3-de99246526fa",
@@ -87340,19 +87340,19 @@
     "pid": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
     "name": "Janine Thompson",
     "n": 8,
-    "synergy": -0.4
+    "synergy": -0.3
+   },
+   {
+    "pid": "bc82cbed-1dfa-43fa-9cc5-1f12b6c4fe76",
+    "name": "Cromwell Palomares",
+    "n": 13,
+    "synergy": -0.5
    },
    {
     "pid": "7c31fae2-4ca2-47e5-a531-cdcbdb069c80",
     "name": "Cesar Fojas",
     "n": 3,
     "synergy": -0.5
-   },
-   {
-    "pid": "bc82cbed-1dfa-43fa-9cc5-1f12b6c4fe76",
-    "name": "Cromwell Palomares",
-    "n": 13,
-    "synergy": -0.6
    },
    {
     "pid": "2e13698d-f902-43c1-b5b1-226d40d7af3d",
@@ -87698,7 +87698,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 90,
-    "rank": 193,
+    "rank": 192,
     "ratingGames": 46,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.7
@@ -88069,7 +88069,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 90,
-    "rank": 250,
+    "rank": 249,
     "ratingGames": 46,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.5
@@ -88926,7 +88926,7 @@
     "pid": "9d3946e6-1bab-4f1c-911c-81e21eb6caf1",
     "name": "Michael-John Van Rhyn",
     "n": 8,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "5c67007f-4ceb-44a8-873d-0c00553626a5",
@@ -88944,7 +88944,7 @@
     "pid": "916dafeb-720f-471b-9609-7f338b793ed3",
     "name": "Jonathan Basa",
     "n": 13,
-    "synergy": -0.6
+    "synergy": -0.5
    }
   ]
  },
@@ -89080,7 +89080,7 @@
     "confidence": 72,
     "rank": 316,
     "ratingGames": 13,
-    "strengthOfPartners": 1.3,
+    "strengthOfPartners": 1.2,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -89537,7 +89537,7 @@
     "label": "12",
     "rating": -0.1,
     "confidence": 86,
-    "rank": 261,
+    "rank": 260,
     "ratingGames": 29,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.6
@@ -89548,7 +89548,7 @@
     "pid": "25ba9d21-49c3-4449-a120-1ba4a9621fb7",
     "name": "Terri Pflueger",
     "n": 6,
-    "synergy": 0.7
+    "synergy": 0.6
    },
    {
     "pid": "258defc8-d5f3-4a32-bad2-66e180b19d44",
@@ -89694,12 +89694,12 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -0.6,
+    "rating": -0.5,
     "confidence": 60,
-    "rank": 308,
+    "rank": 301,
     "ratingGames": 8,
-    "strengthOfPartners": 0.9,
-    "strengthOfOpponents": 0.4
+    "strengthOfPartners": 0.8,
+    "strengthOfOpponents": 0.3
    }
   ],
   "partners": []
@@ -90443,7 +90443,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 5,
-    "synergy": -1.1
+    "synergy": -1
    }
   ]
  },
@@ -90648,7 +90648,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 76,
-    "rank": 255,
+    "rank": 253,
     "ratingGames": 16,
     "strengthOfPartners": -3.1,
     "strengthOfOpponents": -0.1
@@ -90665,7 +90665,7 @@
     "pid": "f58a1856-de9a-46ee-8a63-0445bee6fd3f",
     "name": "Nancy Culley",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.2
    }
   ]
  },
@@ -90876,7 +90876,7 @@
     "pid": "21277f01-5086-42c3-a156-c7b1a503e75b",
     "name": "Kenneth Margolin",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    },
    {
     "pid": "b2fa8b98-b75f-4754-a17f-a088e67fe990",
@@ -91733,9 +91733,9 @@
     "label": "12",
     "rating": 1.8,
     "confidence": 92,
-    "rank": 89,
+    "rank": 90,
     "ratingGames": 62,
-    "strengthOfPartners": -1,
+    "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.1
    }
   ],
@@ -91786,7 +91786,7 @@
     "pid": "3b4a5b66-69e2-44be-96c8-b48d93e9ae6f",
     "name": "Lance Arlaus",
     "n": 10,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -92934,7 +92934,7 @@
     "label": "12",
     "rating": -2,
     "confidence": 89,
-    "rank": 397,
+    "rank": 396,
     "ratingGames": 39,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -0.4
@@ -92957,13 +92957,13 @@
     "pid": "812b9580-5a00-44a9-a5ed-5d1046755718",
     "name": "Yuri Paritsky",
     "n": 3,
-    "synergy": 0.8
+    "synergy": 0.7
    },
    {
     "pid": "8dccb4ea-c8f8-4a4a-845b-42ef4211a12c",
     "name": "Kimberly Brooks",
     "n": 3,
-    "synergy": 0.4
+    "synergy": 0.3
    },
    {
     "pid": "3899495d-b8a7-40b2-a42d-a48270d0ff6f",
@@ -93360,7 +93360,7 @@
     "label": "12",
     "rating": -0.9,
     "confidence": 91,
-    "rank": 325,
+    "rank": 324,
     "ratingGames": 53,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0.4
@@ -93407,7 +93407,7 @@
     "pid": "a9c9b8dc-e4b6-49b3-9ec3-de99246526fa",
     "name": "Stella Ott",
     "n": 10,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
@@ -93914,7 +93914,7 @@
     "label": "12",
     "rating": 0.5,
     "confidence": 89,
-    "rank": 194,
+    "rank": 193,
     "ratingGames": 42,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 1.2
@@ -94261,9 +94261,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -1.6,
+    "rating": -1.7,
     "confidence": 88,
-    "rank": 375,
+    "rank": 380,
     "ratingGames": 37,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.5
@@ -94286,13 +94286,13 @@
     "pid": "38739b70-06ec-41c1-bcfb-18a3c539951d",
     "name": "Joan Glass",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "5d3b9d31-abbd-49ef-b63b-fa8a30759147",
     "name": "Charles Buzad",
     "n": 5,
-    "synergy": -0.1
+    "synergy": 0
    },
    {
     "pid": "ff713931-208e-4b8f-9b1d-c7919e6af892",
@@ -94722,18 +94722,18 @@
     "pid": "3fb4ee3b-cfde-49fe-8dba-bfb90c5db4e1",
     "name": "Sergio Fasciano",
     "n": 5,
-    "synergy": -0.7
-   },
-   {
-    "pid": "8ec58af7-1a0a-445f-a4b8-6b4cdd68d908",
-    "name": "Roni Douber",
-    "n": 4,
-    "synergy": -0.9
+    "synergy": -0.8
    },
    {
     "pid": "810856e7-f746-4641-a633-d870ff787e8d",
     "name": "Maricel Pineda",
     "n": 3,
+    "synergy": -0.8
+   },
+   {
+    "pid": "8ec58af7-1a0a-445f-a4b8-6b4cdd68d908",
+    "name": "Roni Douber",
+    "n": 4,
     "synergy": -0.9
    },
    {
@@ -95375,7 +95375,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 88,
-    "rank": 282,
+    "rank": 283,
     "ratingGames": 35,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 0.7
@@ -95539,7 +95539,7 @@
     "label": "12",
     "rating": 0,
     "confidence": 57,
-    "rank": 257,
+    "rank": 255,
     "ratingGames": 6,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.3
@@ -95728,7 +95728,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 57,
-    "rank": 285,
+    "rank": 286,
     "ratingGames": 6,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.2
@@ -96046,7 +96046,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 55,
-    "rank": 171,
+    "rank": 173,
     "ratingGames": 6,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 2.2
@@ -96621,7 +96621,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 87,
-    "rank": 243,
+    "rank": 242,
     "ratingGames": 36,
     "strengthOfPartners": -0.8,
     "strengthOfOpponents": 0.6
@@ -96650,7 +96650,7 @@
     "pid": "02225bc8-b771-4167-90dc-370a93c81153",
     "name": "Lou Gomez",
     "n": 3,
-    "synergy": -1
+    "synergy": -1.1
    },
    {
     "pid": "0eacbe77-e8aa-4c18-8cd8-74830c99351a",
@@ -97023,10 +97023,10 @@
     "label": "12",
     "rating": -2.2,
     "confidence": 90,
-    "rank": 410,
+    "rank": 412,
     "ratingGames": 48,
     "strengthOfPartners": 0.4,
-    "strengthOfOpponents": 0.2
+    "strengthOfOpponents": 0.1
    }
   ],
   "partners": [
@@ -97464,9 +97464,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -0.6,
+    "rating": -0.7,
     "confidence": 91,
-    "rank": 302,
+    "rank": 311,
     "ratingGames": 54,
     "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.6
@@ -97477,13 +97477,13 @@
     "pid": "7e8fcb9e-d338-4358-9181-f03e57ba5c7c",
     "name": "Michael Cisar",
     "n": 3,
-    "synergy": 1.9
+    "synergy": 2
    },
    {
     "pid": "07767191-9167-4314-973d-3798ae6265a9",
     "name": "Karen Kelly",
     "n": 4,
-    "synergy": 1.2
+    "synergy": 1.3
    },
    {
     "pid": "e1da49d1-14cf-4a20-9f10-39c7ba6c38c4",
@@ -97495,43 +97495,43 @@
     "pid": "9d439fce-c801-40b3-8e58-c5616fd7c2b7",
     "name": "Richie Nicholasi",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "98d93578-da83-40f7-ba1d-ac42a61c848c",
     "name": "Kenneth Pickett",
     "n": 4,
-    "synergy": 0.2
+    "synergy": 0.3
    },
    {
     "pid": "c6ea0e1b-0c39-4824-a7f8-68bcf38be1a9",
     "name": "Michael Stout",
     "n": 4,
-    "synergy": 0.1
+    "synergy": 0.2
    },
    {
     "pid": "477f09e9-1b92-40e0-ae94-e32a0722f1cd",
     "name": "Randi Yezer",
     "n": 3,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "7fbaae89-bf6e-441a-b713-9b1db817dc5c",
     "name": "Heidi Lipton",
     "n": 5,
-    "synergy": -0.4
+    "synergy": -0.3
    },
    {
     "pid": "442d80c7-8eaf-413b-b99b-7cdaddb08b7c",
     "name": "Ericka Lyn Mayer",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "779942b7-7f8c-45bd-ba33-9c07bd261d23",
     "name": "Lynne Walrod",
     "n": 5,
-    "synergy": -1.1
+    "synergy": -1
    },
    {
     "pid": "164f7429-f944-4ac8-955b-8b53aa175065",
@@ -97953,7 +97953,7 @@
     "label": "12",
     "rating": -0.9,
     "confidence": 92,
-    "rank": 324,
+    "rank": 323,
     "ratingGames": 57,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.3
@@ -97976,13 +97976,13 @@
     "pid": "941eff8b-b056-483d-b927-48cf751a04d9",
     "name": "Margaret Bayse",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "6600b9f3-d27b-4772-8308-5636ac646776",
     "name": "Pedro Oliveira",
     "n": 8,
-    "synergy": -0.4
+    "synergy": -0.5
    },
    {
     "pid": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
@@ -98000,7 +98000,7 @@
     "pid": "b3d8b1e5-378c-4b5b-bc50-dfa39e6c8311",
     "name": "Lisa Braumann",
     "n": 4,
-    "synergy": -0.8
+    "synergy": -0.9
    },
    {
     "pid": "67f81846-bb41-4b0b-8d77-c0d876a4561c",
@@ -98493,7 +98493,7 @@
     "label": "12",
     "rating": -0.8,
     "confidence": 84,
-    "rank": 320,
+    "rank": 319,
     "ratingGames": 25,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.9
@@ -99124,7 +99124,7 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 80,
-    "rank": 231,
+    "rank": 230,
     "ratingGames": 19,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.8
@@ -99284,9 +99284,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": 0.6,
+    "rating": 0.5,
     "confidence": 77,
-    "rank": 187,
+    "rank": 197,
     "ratingGames": 16,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.6
@@ -99956,7 +99956,7 @@
     "label": "12",
     "rating": -0.6,
     "confidence": 92,
-    "rank": 301,
+    "rank": 302,
     "ratingGames": 61,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.8
@@ -99994,15 +99994,15 @@
     "synergy": 0.1
    },
    {
-    "pid": "6da2022e-df04-471b-b640-65324174a368",
-    "name": "Jennifer Liss",
-    "n": 4,
-    "synergy": 0.1
-   },
-   {
     "pid": "2e2b7732-48a3-4102-86f9-555111fa9ae8",
     "name": "Nicole Nelson",
     "n": 6,
+    "synergy": 0
+   },
+   {
+    "pid": "6da2022e-df04-471b-b640-65324174a368",
+    "name": "Jennifer Liss",
+    "n": 4,
     "synergy": 0
    },
    {
@@ -100908,16 +100908,16 @@
     "synergy": 0.3
    },
    {
-    "pid": "83effba4-f2b6-4576-93ef-1ba487b02f0c",
-    "name": "Jinghua Shi",
-    "n": 6,
-    "synergy": -0.2
-   },
-   {
     "pid": "b379a353-c35e-4a6e-8ea4-ea21ebcdafa0",
     "name": "John Sallo",
     "n": 4,
     "synergy": -0.2
+   },
+   {
+    "pid": "83effba4-f2b6-4576-93ef-1ba487b02f0c",
+    "name": "Jinghua Shi",
+    "n": 6,
+    "synergy": -0.3
    },
    {
     "pid": "42cd2ea9-67c6-4d62-ad7f-8005e5c03606",
@@ -101232,7 +101232,7 @@
     "label": "12",
     "rating": -2,
     "confidence": 86,
-    "rank": 399,
+    "rank": 398,
     "ratingGames": 30,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": 0.2
@@ -101597,7 +101597,7 @@
     "confidence": 89,
     "rank": 340,
     "ratingGames": 41,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 0.2
    }
   ],
@@ -101624,7 +101624,7 @@
     "pid": "14cdc9a7-221c-4933-bec3-854de864ccea",
     "name": "Jennie Diamond",
     "n": 4,
-    "synergy": -0.2
+    "synergy": -0.1
    },
    {
     "pid": "98bfa16f-b5e6-4534-a4b9-5b84267284d4",
@@ -102368,7 +102368,7 @@
     "label": "12",
     "rating": 1,
     "confidence": 60,
-    "rank": 153,
+    "rank": 154,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 2
@@ -102501,8 +102501,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 1,
     "subFor": "PickleRage Union County"
    }
@@ -102514,9 +102514,9 @@
     "label": "12",
     "rating": -0.8,
     "confidence": 61,
-    "rank": 323,
+    "rank": 322,
     "ratingGames": 7,
-    "strengthOfPartners": 0.4,
+    "strengthOfPartners": 0.3,
     "strengthOfOpponents": 1.8
    }
   ],
@@ -103288,7 +103288,7 @@
     "label": "12",
     "rating": 0.1,
     "confidence": 91,
-    "rank": 238,
+    "rank": 237,
     "ratingGames": 54,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 0.5
@@ -103317,7 +103317,7 @@
     "pid": "67f81846-bb41-4b0b-8d77-c0d876a4561c",
     "name": "Gary Grzankowski",
     "n": 7,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "8bb1e9d8-4569-41d0-8502-a265101a76d6",
@@ -103335,7 +103335,7 @@
     "pid": "9642a1bd-ed0a-4d65-9c6e-8f0c04721c75",
     "name": "Ting Chen",
     "n": 10,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -103513,7 +103513,7 @@
     "label": "12",
     "rating": 0.8,
     "confidence": 69,
-    "rank": 170,
+    "rank": 172,
     "ratingGames": 11,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 1.4
@@ -103842,7 +103842,7 @@
     "label": "12",
     "rating": -2.2,
     "confidence": 90,
-    "rank": 411,
+    "rank": 413,
     "ratingGames": 41,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -104208,8 +104208,8 @@
      0
     ],
     "teamRes": "L",
-    "teamGW": 8,
-    "teamGL": 24,
+    "teamGW": 7,
+    "teamGL": 25,
     "sub": 0,
     "subFor": null
    }
@@ -104318,9 +104318,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -2.2,
+    "rating": -2.1,
     "confidence": 80,
-    "rank": 412,
+    "rank": 405,
     "ratingGames": 19,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 0.6
@@ -104331,25 +104331,25 @@
     "pid": "fc240672-f23c-40d4-9601-d019937cd3bf",
     "name": "Manop Sutipayakul",
     "n": 4,
-    "synergy": 1.9
+    "synergy": 1.8
    },
    {
     "pid": "c5081aa0-2c57-4a76-94d2-946aac182331",
     "name": "Kevin Larkin",
     "n": 3,
-    "synergy": -0.2
-   },
-   {
-    "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
-    "name": "Christine Anderson",
-    "n": 4,
-    "synergy": -1.3
+    "synergy": 0
    },
    {
     "pid": "d19964cc-f176-4f86-9cf9-e7bcb6a694f8",
     "name": "Raquel Murphy",
     "n": 3,
     "synergy": -1.3
+   },
+   {
+    "pid": "688aa4c5-9179-42aa-a456-92413a4ab4ad",
+    "name": "Christine Anderson",
+    "n": 4,
+    "synergy": -1.4
    }
   ]
  },
@@ -104815,7 +104815,7 @@
     "label": "12",
     "rating": -2.6,
     "confidence": 47,
-    "rank": 424,
+    "rank": 423,
     "ratingGames": 4,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": -1.2
@@ -105004,7 +105004,7 @@
     "label": "12",
     "rating": 0.6,
     "confidence": 63,
-    "rank": 188,
+    "rank": 187,
     "ratingGames": 8,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 2.3
@@ -105362,7 +105362,7 @@
     "rank": 292,
     "ratingGames": 8,
     "strengthOfPartners": -0.7,
-    "strengthOfOpponents": 1.5
+    "strengthOfOpponents": 1.4
    }
   ],
   "partners": []
@@ -105515,7 +105515,7 @@
     "label": "12",
     "rating": -0.8,
     "confidence": 63,
-    "rank": 322,
+    "rank": 321,
     "ratingGames": 8,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 1.5
@@ -105751,7 +105751,7 @@
     "label": "12",
     "rating": -1.6,
     "confidence": 80,
-    "rank": 378,
+    "rank": 377,
     "ratingGames": 20,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 0.8
@@ -106032,7 +106032,7 @@
     "label": "12",
     "rating": -2,
     "confidence": 86,
-    "rank": 398,
+    "rank": 397,
     "ratingGames": 32,
     "strengthOfPartners": -1.4,
     "strengthOfOpponents": -0.1
@@ -106486,15 +106486,15 @@
     "synergy": 0.4
    },
    {
-    "pid": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
-    "name": "Janine Thompson",
-    "n": 5,
-    "synergy": 0
-   },
-   {
     "pid": "916dafeb-720f-471b-9609-7f338b793ed3",
     "name": "Jonathan Basa",
     "n": 4,
+    "synergy": 0.1
+   },
+   {
+    "pid": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
+    "name": "Janine Thompson",
+    "n": 5,
     "synergy": 0
    },
    {
@@ -108144,7 +108144,7 @@
     "label": "12",
     "rating": -2,
     "confidence": 85,
-    "rank": 400,
+    "rank": 399,
     "ratingGames": 27,
     "strengthOfPartners": 0.2,
     "strengthOfOpponents": 0.5
@@ -108167,7 +108167,7 @@
     "pid": "14cdc9a7-221c-4933-bec3-854de864ccea",
     "name": "Jennie Diamond",
     "n": 5,
-    "synergy": -1.2
+    "synergy": -1.1
    }
   ]
  },
@@ -108476,7 +108476,7 @@
     "pid": "bc82cbed-1dfa-43fa-9cc5-1f12b6c4fe76",
     "name": "Cromwell Palomares",
     "n": 8,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "401902c9-4e46-4ed7-9995-643dc73f135a",
@@ -108910,7 +108910,7 @@
     "label": "12",
     "rating": -2.7,
     "confidence": 92,
-    "rank": 425,
+    "rank": 424,
     "ratingGames": 58,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 0.5
@@ -110527,7 +110527,7 @@
     "pid": "493d1f95-ca55-4e30-b627-1f3f8d787449",
     "name": "Gail Humphreys-Mackenzie",
     "n": 4,
-    "synergy": -0.3
+    "synergy": -0.2
    },
    {
     "pid": "e80ce493-2de2-40d5-a94c-ea0d42634f82",
@@ -110707,10 +110707,10 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 73,
-    "rank": 232,
+    "rank": 231,
     "ratingGames": 14,
     "strengthOfPartners": 0.8,
-    "strengthOfOpponents": 2.5
+    "strengthOfOpponents": 2.4
    }
   ],
   "partners": []
@@ -111039,7 +111039,7 @@
     "label": "12",
     "rating": -2,
     "confidence": 80,
-    "rank": 401,
+    "rank": 400,
     "ratingGames": 19,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0.7
@@ -111179,7 +111179,7 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 51,
-    "rank": 236,
+    "rank": 235,
     "ratingGames": 5,
     "strengthOfPartners": 1.1,
     "strengthOfOpponents": 2.1
@@ -111368,7 +111368,7 @@
     "label": "12",
     "rating": 0.7,
     "confidence": 49,
-    "rank": 180,
+    "rank": 179,
     "ratingGames": 5,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": 2.4
@@ -111457,7 +111457,7 @@
     "label": "12",
     "rating": -1.9,
     "confidence": 51,
-    "rank": 393,
+    "rank": 392,
     "ratingGames": 5,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -112570,7 +112570,7 @@
     "label": "12",
     "rating": -1.4,
     "confidence": 76,
-    "rank": 361,
+    "rank": 360,
     "ratingGames": 15,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.9
@@ -112581,7 +112581,7 @@
     "pid": "b2fa8b98-b75f-4754-a17f-a088e67fe990",
     "name": "Dari Mehl",
     "n": 3,
-    "synergy": -1
+    "synergy": -1.1
    }
   ]
  },
@@ -112824,7 +112824,7 @@
     "pid": "2827e15f-71d2-4ced-9841-c5f224f98339",
     "name": "Katy Taylor",
     "n": 4,
-    "synergy": -0.5
+    "synergy": -0.4
    },
    {
     "pid": "b3317f76-7939-45f1-a100-dbd17d9c768e",
@@ -114335,9 +114335,9 @@
     "label": "12",
     "rating": -2,
     "confidence": 92,
-    "rank": 395,
+    "rank": 394,
     "ratingGames": 62,
-    "strengthOfPartners": -0.9,
+    "strengthOfPartners": -1,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -114376,7 +114376,7 @@
     "pid": "12f7de26-e375-4efe-a282-f292bd8ca719",
     "name": "Shobana Ravishankar",
     "n": 7,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "9642a1bd-ed0a-4d65-9c6e-8f0c04721c75",
@@ -114388,7 +114388,7 @@
     "pid": "37674a49-6b43-48ad-827a-4d3baa1cab1c",
     "name": "Nan Feng",
     "n": 3,
-    "synergy": -0.6
+    "synergy": -0.5
    },
    {
     "pid": "40a679d7-818c-46dc-872c-5e1cdf926e44",
@@ -114708,10 +114708,10 @@
     "label": "12",
     "rating": -1.7,
     "confidence": 91,
-    "rank": 380,
+    "rank": 379,
     "ratingGames": 53,
-    "strengthOfPartners": -1.5,
-    "strengthOfOpponents": 1
+    "strengthOfPartners": -1.6,
+    "strengthOfOpponents": 0.9
    }
   ],
   "partners": [
@@ -114755,7 +114755,7 @@
     "pid": "0eacbe77-e8aa-4c18-8cd8-74830c99351a",
     "name": "Uma Kamineni",
     "n": 3,
-    "synergy": -1
+    "synergy": -0.9
    }
   ]
  },
@@ -114916,7 +114916,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 78,
-    "rank": 284,
+    "rank": 285,
     "ratingGames": 16,
     "strengthOfPartners": 0,
     "strengthOfOpponents": 1.4
@@ -114927,7 +114927,7 @@
     "pid": "2e13698d-f902-43c1-b5b1-226d40d7af3d",
     "name": "Denise Rempson",
     "n": 3,
-    "synergy": 0.3
+    "synergy": 0.2
    }
   ]
  },
@@ -115026,9 +115026,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -1.3,
+    "rating": -1.4,
     "confidence": 70,
-    "rank": 358,
+    "rank": 361,
     "ratingGames": 11,
     "strengthOfPartners": -1.1,
     "strengthOfOpponents": 1.2
@@ -115557,7 +115557,7 @@
     "rank": 264,
     "ratingGames": 6,
     "strengthOfPartners": 0.2,
-    "strengthOfOpponents": 1.7
+    "strengthOfOpponents": 1.6
    }
   ],
   "partners": []
@@ -115989,7 +115989,7 @@
     "rank": 204,
     "ratingGames": 6,
     "strengthOfPartners": 0.1,
-    "strengthOfOpponents": 2.5
+    "strengthOfOpponents": 2.6
    }
   ],
   "partners": []
@@ -117194,19 +117194,13 @@
     "label": "12",
     "rating": -2,
     "confidence": 90,
-    "rank": 396,
+    "rank": 395,
     "ratingGames": 43,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 1.1
    }
   ],
   "partners": [
-   {
-    "pid": "6600b9f3-d27b-4772-8308-5636ac646776",
-    "name": "Pedro Oliveira",
-    "n": 3,
-    "synergy": 1.2
-   },
    {
     "pid": "12f7de26-e375-4efe-a282-f292bd8ca719",
     "name": "Shobana Ravishankar",
@@ -117216,6 +117210,12 @@
    {
     "pid": "67f81846-bb41-4b0b-8d77-c0d876a4561c",
     "name": "Gary Grzankowski",
+    "n": 3,
+    "synergy": 1.1
+   },
+   {
+    "pid": "6600b9f3-d27b-4772-8308-5636ac646776",
+    "name": "Pedro Oliveira",
     "n": 3,
     "synergy": 1.1
    },
@@ -117253,7 +117253,7 @@
     "pid": "40a679d7-818c-46dc-872c-5e1cdf926e44",
     "name": "Stephen Stasiulewicz",
     "n": 4,
-    "synergy": -0.8
+    "synergy": -0.9
    }
   ]
  },
@@ -117591,16 +117591,16 @@
     "synergy": 0.5
    },
    {
-    "pid": "03bc5e6c-8df7-4b9d-a0df-37cb4068adac",
-    "name": "Carlos Colon",
-    "n": 11,
-    "synergy": 0
-   },
-   {
     "pid": "b4ef8674-2eff-4b19-80c1-82de7f94d8b7",
     "name": "Rosanna Neis",
     "n": 5,
     "synergy": 0
+   },
+   {
+    "pid": "03bc5e6c-8df7-4b9d-a0df-37cb4068adac",
+    "name": "Carlos Colon",
+    "n": 11,
+    "synergy": -0.1
    },
    {
     "pid": "be327e7d-88f5-4531-b6b9-a2ff187578a4",
@@ -118184,10 +118184,10 @@
     "label": "12",
     "rating": -2.2,
     "confidence": 92,
-    "rank": 409,
+    "rank": 411,
     "ratingGames": 59,
     "strengthOfPartners": -2,
-    "strengthOfOpponents": 0.3
+    "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
@@ -118207,7 +118207,7 @@
     "pid": "8acca4cc-875c-4594-8f46-3d31b0912227",
     "name": "Timothy Hopkins",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "21da9d6f-1118-44a7-984d-0565cb46f43d",
@@ -118635,7 +118635,7 @@
     "pid": "12f7de26-e375-4efe-a282-f292bd8ca719",
     "name": "Shobana Ravishankar",
     "n": 10,
-    "synergy": -0.9
+    "synergy": -1
    }
   ]
  },
@@ -119056,7 +119056,7 @@
     "label": "12",
     "rating": -2.6,
     "confidence": 74,
-    "rank": 423,
+    "rank": 422,
     "ratingGames": 14,
     "strengthOfPartners": -3,
     "strengthOfOpponents": 0
@@ -119463,7 +119463,7 @@
     "pid": "40a679d7-818c-46dc-872c-5e1cdf926e44",
     "name": "Stephen Stasiulewicz",
     "n": 5,
-    "synergy": 0.1
+    "synergy": 0
    },
    {
     "pid": "b3d8b1e5-378c-4b5b-bc50-dfa39e6c8311",
@@ -119487,7 +119487,7 @@
     "pid": "8bb1e9d8-4569-41d0-8502-a265101a76d6",
     "name": "Herald Barber",
     "n": 3,
-    "synergy": -1.2
+    "synergy": -1.3
    }
   ]
  },
@@ -119961,7 +119961,7 @@
     "label": "12",
     "rating": 0.2,
     "confidence": 62,
-    "rank": 233,
+    "rank": 232,
     "ratingGames": 8,
     "strengthOfPartners": 1,
     "strengthOfOpponents": 2.8
@@ -120173,9 +120173,9 @@
     "label": "12",
     "rating": -2.1,
     "confidence": 62,
-    "rank": 407,
+    "rank": 408,
     "ratingGames": 8,
-    "strengthOfPartners": -0.1,
+    "strengthOfPartners": -0.2,
     "strengthOfOpponents": 1.3
    }
   ],
@@ -120564,8 +120564,8 @@
     "confidence": 62,
     "rank": 465,
     "ratingGames": 8,
-    "strengthOfPartners": -2.1,
-    "strengthOfOpponents": 0
+    "strengthOfPartners": -2.2,
+    "strengthOfOpponents": -0.1
    }
   ],
   "partners": []
@@ -120709,9 +120709,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -1.9,
+    "rating": -2,
     "confidence": 76,
-    "rank": 391,
+    "rank": 402,
     "ratingGames": 16,
     "strengthOfPartners": -1.8,
     "strengthOfOpponents": 1.1
@@ -121640,7 +121640,7 @@
     "label": "12",
     "rating": -2.1,
     "confidence": 69,
-    "rank": 406,
+    "rank": 407,
     "ratingGames": 10,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.7
@@ -122357,7 +122357,7 @@
     "confidence": 89,
     "rank": 456,
     "ratingGames": 41,
-    "strengthOfPartners": -1.5,
+    "strengthOfPartners": -1.6,
     "strengthOfOpponents": 0.5
    }
   ],
@@ -122384,7 +122384,7 @@
     "pid": "b6494c60-f3bc-4500-b908-d8e5b4ebcf89",
     "name": "Scott Richeal",
     "n": 6,
-    "synergy": -0.2
+    "synergy": -0.3
    },
    {
     "pid": "ce787b4f-30b9-4fd0-a12a-caba1f27ca68",
@@ -122563,7 +122563,7 @@
     "label": "12",
     "rating": -2.1,
     "confidence": 69,
-    "rank": 405,
+    "rank": 406,
     "ratingGames": 11,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.4
@@ -124586,9 +124586,9 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -2.6,
+    "rating": -2.7,
     "confidence": 77,
-    "rank": 422,
+    "rank": 427,
     "ratingGames": 16,
     "strengthOfPartners": -1.3,
     "strengthOfOpponents": 0.5
@@ -125335,7 +125335,7 @@
     "pid": "a9f2a010-b832-4aed-b68e-28fecd6a297d",
     "name": "Joy Perry",
     "n": 4,
-    "synergy": 0.9
+    "synergy": 0.8
    },
    {
     "pid": "0930c5f6-0231-431b-b9bb-609e61b519c1",
@@ -125512,9 +125512,9 @@
     "label": "12",
     "rating": -1.9,
     "confidence": 39,
-    "rank": 394,
+    "rank": 393,
     "ratingGames": 3,
-    "strengthOfPartners": -3.3,
+    "strengthOfPartners": -3.2,
     "strengthOfOpponents": 0.8
    }
   ],
@@ -126077,7 +126077,7 @@
     "label": "12",
     "rating": -1.3,
     "confidence": 56,
-    "rank": 359,
+    "rank": 358,
     "ratingGames": 6,
     "strengthOfPartners": -1,
     "strengthOfOpponents": 1.2
@@ -126166,7 +126166,7 @@
     "label": "12",
     "rating": -1.6,
     "confidence": 53,
-    "rank": 379,
+    "rank": 378,
     "ratingGames": 5,
     "strengthOfPartners": -0.9,
     "strengthOfOpponents": 1.7
@@ -126388,7 +126388,7 @@
     "label": "12",
     "rating": -0.6,
     "confidence": 59,
-    "rank": 309,
+    "rank": 308,
     "ratingGames": 7,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 2.2
@@ -126588,7 +126588,7 @@
     "label": "12",
     "rating": -2.1,
     "confidence": 59,
-    "rank": 408,
+    "rank": 410,
     "ratingGames": 7,
     "strengthOfPartners": -2.1,
     "strengthOfOpponents": 1.5
@@ -127097,12 +127097,12 @@
     "week": 12,
     "seq": 16,
     "label": "12",
-    "rating": -2.2,
+    "rating": -2.1,
     "confidence": 60,
-    "rank": 413,
+    "rank": 409,
     "ratingGames": 7,
     "strengthOfPartners": -2.4,
-    "strengthOfOpponents": 2.5
+    "strengthOfOpponents": 2.4
    }
   ],
   "partners": []
@@ -127839,7 +127839,7 @@
     "confidence": 61,
     "rank": 471,
     "ratingGames": 8,
-    "strengthOfPartners": -2.6,
+    "strengthOfPartners": -2.7,
     "strengthOfOpponents": -0.4
    }
   ],
@@ -128208,7 +128208,7 @@
     "label": "12",
     "rating": -1.9,
     "confidence": 74,
-    "rank": 392,
+    "rank": 391,
     "ratingGames": 14,
     "strengthOfPartners": -1.6,
     "strengthOfOpponents": 1.6

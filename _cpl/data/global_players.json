@@ -32936,11 +32936,11 @@
   },
   {
     "playerId": "dbb4451c-263d-48e8-88c3-de221796f55b",
-    "firstName": "Thomas ",
-    "lastName": "Dill ",
+    "firstName": "Thomas",
+    "lastName": "Dill",
     "dupr": "W6295M",
     "duprRating": "5.331",
-    "lastSeen": "2026-09-01",
+    "lastSeen": "2026-11",
     "duprNumericId": 4784599168,
     "duprProvisional": false
   },
@@ -49367,5 +49367,13 @@
     "lastSeen": "2026-11",
     "duprNumericId": 7735954993,
     "duprProvisional": false
+  },
+  {
+    "playerId": "3f0dfdbb-e1c2-429e-83c5-2f06da11a2f1",
+    "firstName": "Dip",
+    "lastName": "Jadawala",
+    "dupr": "9D2VZK",
+    "duprRating": null,
+    "lastSeen": "2026-11"
   }
 ]

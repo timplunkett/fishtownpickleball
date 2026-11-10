@@ -6953,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 267,
+   "leagueRank": 268,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6982,7 +6982,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 271,
+   "leagueRank": 272,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7011,7 +7011,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 266,
+   "leagueRank": 267,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7040,13 +7040,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 265,
+   "leagueRank": 266,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "d4c1185c-6147-4164-90e1-06ecfa162596"
+  },
+  {
+   "name": "Thomas Dill",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 263,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "dbb4451c-263d-48e8-88c3-de221796f55b"
   },
   {
    "name": "Matthew Russell",
@@ -49889,8 +49918,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Matthew Matro"
      ],
      "a": [
       "Scotland Reynolds",
@@ -49900,8 +49929,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Tyler Arsenault"
      ],
      "a": [
       "Yuki Kim",
@@ -49911,8 +49940,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maeve Mcgowan",
+      "Matthew Chen"
      ],
      "a": [
       "Nam Barsh",
@@ -49926,8 +49955,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michaela Pierznik",
+      "Johny Mario"
      ],
      "a": [
       "Teresa Wang",
@@ -49941,8 +49970,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michaela Pierznik",
+      "Rachel Berger"
      ],
      "a": [
       "Nam Barsh",
@@ -49952,8 +49981,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Michelle Quach"
      ],
      "a": [
       "Yuki Kim",
@@ -49963,8 +49992,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Chen",
+      "Johny Mario"
      ],
      "a": [
       "Nick Meale",
@@ -49974,8 +50003,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caleb Perry-Abner",
+      "Tyler Arsenault"
      ],
      "a": [
       "Zyril Carilo",
@@ -49989,8 +50018,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maeve Mcgowan",
+      "Caleb Perry-Abner"
      ],
      "a": [
       "Nam Barsh",
@@ -50004,8 +50033,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michaela Pierznik",
+      "Tyler Arsenault"
      ],
      "a": [
       "Teresa Wang",
@@ -50015,8 +50044,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Matthew Chen"
      ],
      "a": [
       "Yuki Kim",
@@ -50030,8 +50059,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Berger",
+      "Matthew Matro"
      ],
      "a": [
       "Harriet Levin",
@@ -50041,8 +50070,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Michelle Quach"
      ],
      "a": [
       "Teresa Wang",
@@ -50052,8 +50081,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michaela Pierznik",
+      "Maeve Mcgowan"
      ],
      "a": [
       "Harriet Levin",
@@ -50063,8 +50092,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tyler Arsenault",
+      "Matthew Chen"
      ],
      "a": [
       "Vince Ha",
@@ -50074,8 +50103,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Johny Mario",
+      "Matthew Matro"
      ],
      "a": [
       "Zyril Carilo",
@@ -50089,8 +50118,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maeve Mcgowan",
+      "Caleb Perry-Abner"
      ],
      "a": [
       "Harriet Levin",
@@ -50104,8 +50133,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michaela Pierznik",
+      "Johny Mario"
      ],
      "a": [
       "Teresa Wang",
@@ -50115,8 +50144,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Berger",
+      "Matthew Matro"
      ],
      "a": [
       "Scotland Reynolds",
@@ -50130,8 +50159,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Tyler Arsenault"
      ],
      "a": [
       "Yuki Kim",
@@ -50141,8 +50170,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Rachel Berger"
      ],
      "a": [
       "Nam Barsh",
@@ -50152,8 +50181,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Maeve Mcgowan"
      ],
      "a": [
       "Yuki Kim",
@@ -50163,8 +50192,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Chen",
+      "Johny Mario"
      ],
      "a": [
       "Vaughn Lawrence",
@@ -50178,8 +50207,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Caleb Perry-Abner",
+      "Tyler Arsenault"
      ],
      "a": [
       "Nick Meale",
@@ -50189,8 +50218,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Arianna Haresign",
+      "Matthew Chen"
      ],
      "a": [
       "Yuki Kim",
@@ -50204,8 +50233,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rachel Berger",
+      "Caleb Perry-Abner"
      ],
      "a": [
       "Harriet Levin",
@@ -50219,8 +50248,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Matthew Matro"
      ],
      "a": [
       "Nam Barsh",
@@ -50230,8 +50259,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michaela Pierznik",
+      "Tyler Arsenault"
      ],
      "a": [
       "Scotland Reynolds",
@@ -50241,8 +50270,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Michaela Pierznik"
      ],
      "a": [
       "Teresa Wang",
@@ -50252,8 +50281,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Berger",
+      "Maeve Mcgowan"
      ],
      "a": [
       "Harriet Levin",
@@ -50263,8 +50292,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Chen",
+      "Caleb Perry-Abner"
      ],
      "a": [
       "Nick Meale",
@@ -50274,8 +50303,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Matro",
+      "Johny Mario"
      ],
      "a": [
       "Vaughn Lawrence",
@@ -50661,19 +50690,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Thomas Dill"
      ],
      "a": [
       "Kara Infante",
       "Austin Williams"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Kathy Behrmann",
@@ -50683,19 +50716,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Shahar Gelber"
      ],
      "a": [
       "Raneeta Sawhney-Rigby",
       "Ken Velarde"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Tom Laiso"
      ],
      "a": [
       "Ariana Rizvani",
@@ -50705,8 +50742,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Joey Angelson"
      ],
      "a": [
       "Kara Infante",
@@ -50716,8 +50753,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Margaret Robb"
      ],
      "a": [
       "Raneeta Sawhney-Rigby",
@@ -50727,41 +50764,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sebastian Ferrer",
+      "Thomas Dill"
      ],
      "a": [
       "Austin Williams",
       "Elliot Stevens"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Shahar Gelber"
      ],
      "a": [
       "Ken Velarde",
       "Aidan Jackson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Thomas Dill"
      ],
      "a": [
       "Kara Infante",
       "Austin Williams"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Kathy Behrmann",
@@ -50771,19 +50820,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Shahar Gelber"
      ],
      "a": [
       "Raneeta Sawhney-Rigby",
       "Elliot Stevens"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Tom Laiso"
      ],
      "a": [
       "Ariana Rizvani",
@@ -50793,8 +50846,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Joey Angelson"
      ],
      "a": [
       "Kara Infante",
@@ -50804,8 +50857,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Eva Danieli"
      ],
      "a": [
       "Jen Vorel",
@@ -50815,19 +50868,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shahar Gelber",
+      "Thomas Dill"
      ],
      "a": [
       "Austin Williams",
       "Noah Goding"
+     ],
+     "hSub": [
+      1,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Elliot Stevens",
@@ -50837,8 +50894,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Kara Infante",
@@ -50848,19 +50905,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Thomas Dill"
      ],
      "a": [
       "Kathy Behrmann",
       "Austin Williams"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Tom Laiso"
      ],
      "a": [
       "Raneeta Sawhney-Rigby",
@@ -50870,19 +50931,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Shahar Gelber"
      ],
      "a": [
       "Ariana Rizvani",
       "Aidan Jackson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Margaret Robb"
      ],
      "a": [
       "Kara Infante",
@@ -50892,8 +50957,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Joey Angelson"
      ],
      "a": [
       "Ariana Rizvani",
@@ -50903,41 +50968,53 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Thomas Dill"
      ],
      "a": [
       "Ken Velarde",
       "Aidan Jackson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shahar Gelber",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Elliot Stevens",
       "Noah Goding"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Thomas Dill"
      ],
      "a": [
       "Jen Vorel",
       "Austin Williams"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Adrienne Butrymowicz",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Kara Infante",
@@ -50947,8 +51024,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Tom Laiso"
      ],
      "a": [
       "Ariana Rizvani",
@@ -50958,19 +51035,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Margaret Robb",
+      "Shahar Gelber"
      ],
      "a": [
       "Raneeta Sawhney-Rigby",
       "Aidan Jackson"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Eva Danieli",
+      "Adrienne Butrymowicz"
      ],
      "a": [
       "Kara Infante",
@@ -50980,8 +51061,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Joey Angelson",
+      "Margaret Robb"
      ],
      "a": [
       "Raneeta Sawhney-Rigby",
@@ -50991,23 +51072,31 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Dill",
+      "Sebastian Ferrer"
      ],
      "a": [
       "Austin Williams",
       "Ken Velarde"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Tom Laiso",
+      "Shahar Gelber"
      ],
      "a": [
       "Aidan Jackson",
       "Elliot Stevens"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     }
    ]
@@ -51647,6 +51736,14 @@
    "outsideSub": true
   },
   {
+   "name": "Thomas Dill",
+   "playerId": "dbb4451c-263d-48e8-88c3-de221796f55b",
+   "gender": "Male",
+   "team": "Jersey Pickleball Club",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Johanna Wagner",
    "playerId": "e447eb0f-dc19-4616-a7f4-b53de776db3b",
    "gender": "Female",
@@ -51691,7 +51788,7 @@
   "matchesPlayed": 73,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 255,
+  "totalPlayers": 256,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -51833,7 +51930,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T01:01:04.907Z";
+  DATA.meta.asOf = "2026-11-10T22:42:27.090Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
