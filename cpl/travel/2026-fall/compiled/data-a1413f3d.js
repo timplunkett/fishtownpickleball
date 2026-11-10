@@ -12869,7 +12869,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 495,
+   "leagueRank": 496,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12898,7 +12898,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 502,
+   "leagueRank": 503,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12927,7 +12927,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 505,
+   "leagueRank": 506,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -12956,7 +12956,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 496,
+   "leagueRank": 497,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13014,7 +13014,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 498,
+   "leagueRank": 499,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -87133,6 +87133,7 @@
  ],
  "playoffs": [],
  "extraPlayerIds": {
+  "Courtney Skolka": "04e63587-956f-4c32-8ee3-4f255aad446c",
   "John Pineda": "099e3831-88c1-4907-9869-f193db58b64b",
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
   "Kelly Walker": "13c6962e-5a72-4d69-a262-5010f8390ddd",
@@ -87158,6 +87159,14 @@
   "Nicholas Brow": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec"
  },
  "availableSubs": [
+  {
+   "name": "Courtney Skolka",
+   "playerId": "04e63587-956f-4c32-8ee3-4f255aad446c",
+   "gender": "Female",
+   "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
   {
    "name": "Lawanakorn Powad",
    "playerId": "05cc6f6a-0431-452b-910c-0006feb23399",
@@ -88331,7 +88340,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-09T21:30:45.319Z";
+  DATA.meta.asOf = "2026-11-10T01:00:46.279Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

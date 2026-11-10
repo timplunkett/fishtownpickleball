@@ -10513,6 +10513,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Kathy Behrmann",
+   "playerId": "c6c3c899-b824-4074-b683-ad755850747a",
+   "team": "Home Court",
+   "slug": "6619816f",
+   "gender": "Female"
+  },
+  {
    "name": "Katie Li",
    "playerId": "b9087267-ae35-4c4d-baf5-90a51346fb9b",
    "team": "Open Play",
@@ -19442,6 +19449,13 @@ window.DUPR_AUDIT = {
    "playerId": "8257200c-7448-4527-92df-436d7bb18cac",
    "team": "Jersey Devil",
    "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
+   "name": "Vince Ha",
+   "playerId": "e8ff72be-37a6-464e-8e88-bfb034ffcd9d",
+   "team": "Bounce Malvern",
+   "slug": "6619816f",
    "gender": "Male"
   },
   {

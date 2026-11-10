@@ -661,8 +661,8 @@
     "teamRes": "W",
     "teamGW": 26,
     "teamGL": 6,
-    "sub": 1,
-    "subFor": "Bounce Malvern"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 11,
@@ -688,8 +688,8 @@
     "teamRes": "W",
     "teamGW": 23,
     "teamGL": 9,
-    "sub": 1,
-    "subFor": "Bounce Malvern"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -66327,8 +66327,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Home Court"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 8,
@@ -66354,8 +66354,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Home Court"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

@@ -1405,6 +1405,18 @@
       "awayName": "Pickleball Palace"
     },
     {
+      "matchupId": "c599eb88-a711-4f25-b1c2-54f6305eca02",
+      "weekNumber": 13,
+      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-15T11:00:00",
+      "homeName": "Flemington",
+      "awayName": "Picklr Newtown"
+    },
+    {
       "matchupId": "b2f6cd16-dbac-43cd-8279-429e8937f966",
       "weekNumber": 13,
       "homeTeamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
@@ -1415,18 +1427,6 @@
       "scheduledTime": "2026-11-15T12:00:00",
       "homeName": "Picklr Newark",
       "awayName": "Dill Dinkers Lansdale"
-    },
-    {
-      "matchupId": "c599eb88-a711-4f25-b1c2-54f6305eca02",
-      "weekNumber": 13,
-      "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
-      "awayTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-15T12:00:00",
-      "homeName": "Flemington",
-      "awayName": "Picklr Newtown"
     },
     {
       "matchupId": "3ca692c2-fadd-40f9-b8fa-37aacc0a9809",
