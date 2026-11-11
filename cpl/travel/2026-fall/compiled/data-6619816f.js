@@ -50417,7 +50417,7 @@
       "Ben Mead"
      ],
      "a": [
-      "Clayton Schmucker",
+      "Jonah Fliegelman",
       "Andrew Wakefield"
      ]
     },
@@ -50509,7 +50509,7 @@
       "Nathan Law"
      ],
      "a": [
-      "Clayton Schmucker",
+      "Andrew Wakefield",
       "Jonah Fliegelman"
      ]
     },
@@ -50558,7 +50558,7 @@
      ],
      "a": [
       "Allison Tarnoff",
-      "Clayton Schmucker"
+      "Varun Prakash"
      ]
     },
     {
@@ -50639,7 +50639,7 @@
      ],
      "a": [
       "Nahla Bernhardt",
-      "Clayton Schmucker"
+      "Dylan Ashbach"
      ]
     },
     {
@@ -51958,7 +51958,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-11T03:54:07.683Z";
+  DATA.meta.asOf = "2026-11-11T13:16:57.082Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

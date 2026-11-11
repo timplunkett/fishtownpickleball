@@ -124598,8 +124598,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lara Gedeon",
+      "Andrew Chester"
      ],
      "a": [
       "Jia Fei",
@@ -124609,8 +124609,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Yosuke Kawai"
      ],
      "a": [
       "Yuqing Wan",
@@ -124620,8 +124620,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ulyana Kitcmanuk",
+      "Frederick Lloyd Sabino"
      ],
      "a": [
       "Tingting Huang",
@@ -124631,8 +124631,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Joseph Gozon"
      ],
      "a": [
       "Michelle Lin",
@@ -124642,8 +124642,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Lara Gedeon"
      ],
      "a": [
       "Tingting Huang",
@@ -124653,8 +124653,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ulyana Kitcmanuk",
+      "Binxin Cai"
      ],
      "a": [
       "Yuqi Yin",
@@ -124664,8 +124664,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Chester",
+      "Joseph Gozon"
      ],
      "a": [
       "Ashok Rao",
@@ -124675,8 +124675,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yosuke Kawai",
+      "Homer Abes"
      ],
      "a": [
       "Andy Wang",
@@ -124686,8 +124686,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lara Gedeon",
+      "Yosuke Kawai"
      ],
      "a": [
       "Jia Fei",
@@ -124697,8 +124697,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Homer Abes"
      ],
      "a": [
       "Yuqi Yin",
@@ -124708,8 +124708,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Binxin Cai",
+      "Andrew Chester"
      ],
      "a": [
       "Yuqing Wan",
@@ -124719,8 +124719,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Joseph Gozon"
      ],
      "a": [
       "Michelle Lin",
@@ -124730,8 +124730,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lara Gedeon",
+      "Binxin Cai"
      ],
      "a": [
       "Jia Fei",
@@ -124741,8 +124741,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Maricel Pineda"
      ],
      "a": [
       "Tingting Huang",
@@ -124752,8 +124752,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Chester",
+      "Homer Abes"
      ],
      "a": [
       "Calvin Zheng",
@@ -124763,8 +124763,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yosuke Kawai",
+      "Frederick Lloyd Sabino"
      ],
      "a": [
       "Andy Wang",
@@ -124774,8 +124774,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lara Gedeon",
+      "Andrew Chester"
      ],
      "a": [
       "Jia Fei",
@@ -124785,8 +124785,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ulyana Kitcmanuk",
+      "Joseph Gozon"
      ],
      "a": [
       "Yuqing Wan",
@@ -124796,8 +124796,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Yosuke Kawai"
      ],
      "a": [
       "Tingting Huang",
@@ -124807,8 +124807,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Binxin Cai",
+      "Homer Abes"
      ],
      "a": [
       "Yuqi Yin",
@@ -124818,8 +124818,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Ulyana Kitcmanuk"
      ],
      "a": [
       "Michelle Lin",
@@ -124829,8 +124829,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lara Gedeon",
+      "Maricel Pineda"
      ],
      "a": [
       "Tingting Huang",
@@ -124840,8 +124840,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Frederick Lloyd Sabino",
+      "Homer Abes"
      ],
      "a": [
       "Calvin Zheng",
@@ -124851,8 +124851,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Chester",
+      "Joseph Gozon"
      ],
      "a": [
       "Andy Wang",
@@ -124862,8 +124862,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Homer Abes"
      ],
      "a": [
       "Jia Fei",
@@ -124873,8 +124873,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ulyana Kitcmanuk",
+      "Frederick Lloyd Sabino"
      ],
      "a": [
       "Tingting Huang",
@@ -124884,8 +124884,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Maricel Pineda",
+      "Yosuke Kawai"
      ],
      "a": [
       "Michelle Lin",
@@ -124895,8 +124895,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Binxin Cai",
+      "Joseph Gozon"
      ],
      "a": [
       "Yuqi Yin",
@@ -124906,8 +124906,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Leanna Coello",
+      "Lara Gedeon"
      ],
      "a": [
       "Tingting Huang",
@@ -124917,8 +124917,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ulyana Kitcmanuk",
+      "Binxin Cai"
      ],
      "a": [
       "Michelle Lin",
@@ -124928,8 +124928,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Gozon",
+      "Frederick Lloyd Sabino"
      ],
      "a": [
       "Ashok Rao",
@@ -124939,8 +124939,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Andrew Chester",
+      "Homer Abes"
      ],
      "a": [
       "Andy Wang",
@@ -130056,7 +130056,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-11T03:53:49.289Z";
+  DATA.meta.asOf = "2026-11-11T13:16:39.900Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
