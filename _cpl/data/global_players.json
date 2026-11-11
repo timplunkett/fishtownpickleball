@@ -49373,7 +49373,19 @@
     "firstName": "Dip",
     "lastName": "Jadawala",
     "dupr": "9D2VZK",
-    "duprRating": null,
-    "lastSeen": "2026-11"
+    "duprRating": "3.151",
+    "lastSeen": "2026-11",
+    "duprNumericId": 8211356862,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "0aaaf128-e6e8-44fc-b573-ba026fde6dcd",
+    "firstName": "John",
+    "lastName": "Ciccarelli",
+    "dupr": "DWDEDX",
+    "duprRating": "3.489",
+    "lastSeen": "2026-11",
+    "duprNumericId": 6949950436,
+    "duprProvisional": false
   }
 ]

@@ -37742,8 +37742,8 @@
     "teamRes": "L",
     "teamGW": 12,
     "teamGL": 20,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 2,
@@ -37769,8 +37769,8 @@
     "teamRes": "W",
     "teamGW": 27,
     "teamGL": 5,
-    "sub": 1,
-    "subFor": "Allstar Pickler"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

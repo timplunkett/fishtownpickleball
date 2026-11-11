@@ -41627,8 +41627,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Mary Brashier"
      ],
      "a": [
       "Julia Hollman",
@@ -41638,8 +41638,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Christine Ziegler"
      ],
      "a": [
       "Janice Aliberti",
@@ -41649,8 +41649,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Jessica Wormeck"
      ],
      "a": [
       "Annette Marsh",
@@ -41660,8 +41660,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Cook",
+      "Peggy Matzen"
      ],
      "a": [
       "Jamie Levin",
@@ -41671,8 +41671,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Christine Ziegler"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -41682,8 +41682,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Monika Torbus"
      ],
      "a": [
       "Annette Marsh",
@@ -41697,8 +41697,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Kelly Bowers"
      ],
      "a": [
       "Julia Hollman",
@@ -41708,8 +41708,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Nancy Cook"
      ],
      "a": [
       "Jamie Levin",
@@ -41719,8 +41719,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Monika Torbus"
      ],
      "a": [
       "Julia Hollman",
@@ -41734,8 +41734,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Jessica Wormeck"
      ],
      "a": [
       "Janice Aliberti",
@@ -41745,8 +41745,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Nancy Cook",
+      "Holly Ferguson"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -41756,8 +41756,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Maureen Dazzo"
      ],
      "a": [
       "Sheila Curran",
@@ -41767,8 +41767,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Mary Brashier"
      ],
      "a": [
       "Elizabeth Biehl",
@@ -41782,8 +41782,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Jessica Wormeck"
      ],
      "a": [
       "Julia Hollman",
@@ -41793,8 +41793,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Holly Ferguson"
      ],
      "a": [
       "Janice Aliberti",
@@ -41804,8 +41804,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Nancy Cook"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -41815,8 +41815,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Christine Ziegler"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -41830,8 +41830,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Maureen Dazzo"
      ],
      "a": [
       "Julia Hollman",
@@ -41841,8 +41841,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Jessica Wormeck"
      ],
      "a": [
       "Elizabeth Biehl",
@@ -41852,8 +41852,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Holly Ferguson",
+      "Peggy Matzen"
      ],
      "a": [
       "Annette Marsh",
@@ -41863,8 +41863,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Monika Torbus"
      ],
      "a": [
       "Julia Hollman",
@@ -41874,8 +41874,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Nancy Cook"
      ],
      "a": [
       "Jamie Levin",
@@ -41889,8 +41889,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Mary Brashier"
      ],
      "a": [
       "Lynda Levan",
@@ -41900,8 +41900,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Peggy Matzen",
+      "Holly Ferguson"
      ],
      "a": [
       "Diane Bracco",
@@ -41911,8 +41911,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Maureen Dazzo",
+      "Mary Brashier"
      ],
      "a": [
       "Janice Aliberti",
@@ -41926,8 +41926,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Monika Torbus",
+      "Nancy Cook"
      ],
      "a": [
       "Julia Hollman",
@@ -41937,8 +41937,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Christine Ziegler"
      ],
      "a": [
       "Elizabeth Biehl",
@@ -41948,8 +41948,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Peggy Matzen"
      ],
      "a": [
       "Lynda Levan",
@@ -41959,8 +41959,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Brashier",
+      "Maureen Dazzo"
      ],
      "a": [
       "Julia Hollman",
@@ -41970,8 +41970,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Ziegler",
+      "Monika Torbus"
      ],
      "a": [
       "Janice Aliberti",
@@ -41981,8 +41981,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Peggy Matzen"
      ],
      "a": [
       "Sheila Curran",
@@ -41996,8 +41996,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Holly Ferguson"
      ],
      "a": [
       "Jeannine Calhoun",
@@ -42017,8 +42017,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susana Palumbo",
+      "Toni Demaio"
      ],
      "a": [
       "Christine Pisapia",
@@ -42028,8 +42028,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Finn",
+      "Corinne Palma"
      ],
      "a": [
       "Denise Bonagura",
@@ -42039,8 +42039,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Melissa Mcconnell",
+      "Kimberley Levins"
      ],
      "a": [
       "Diana Macri",
@@ -42050,8 +42050,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Tina Cros"
      ],
      "a": [
       "Linda Iacono",
@@ -42061,8 +42061,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Toni Demaio",
+      "Donna Finn"
      ],
      "a": [
       "Christine Pisapia",
@@ -42072,8 +42072,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Karyn Jarmer"
      ],
      "a": [
       "Diana Macri",
@@ -42083,8 +42083,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Darragh Odonnell"
      ],
      "a": [
       "Lenore David",
@@ -42094,8 +42094,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Kimberley Levins"
      ],
      "a": [
       "Elizabeth Damico",
@@ -42105,8 +42105,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Susana Palumbo"
      ],
      "a": [
       "Dawn Dalessio",
@@ -42116,8 +42116,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Melissa Mcconnell",
+      "Karyn Jarmer"
      ],
      "a": [
       "Denise Bonagura",
@@ -42127,8 +42127,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Corinne Palma"
      ],
      "a": [
       "Diana Macri",
@@ -42138,8 +42138,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kimberley Levins",
+      "Wendi Wolanske"
      ],
      "a": [
       "Lenore David",
@@ -42149,8 +42149,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Finn",
+      "Darragh Odonnell"
      ],
      "a": [
       "Christine Pisapia",
@@ -42160,8 +42160,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Toni Demaio"
      ],
      "a": [
       "Dawn Dalessio",
@@ -42171,8 +42171,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susana Palumbo",
+      "Virginia Kenny"
      ],
      "a": [
       "Denise Bonagura",
@@ -42182,8 +42182,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Kimberley Levins"
      ],
      "a": [
       "Diana Macri",
@@ -42193,8 +42193,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Karyn Jarmer"
      ],
      "a": [
       "Christine Pisapia",
@@ -42204,8 +42204,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Corinne Palma"
      ],
      "a": [
       "Dawn Dalessio",
@@ -42215,8 +42215,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Melissa Mcconnell",
+      "Virginia Kenny"
      ],
      "a": [
       "Denise Bonagura",
@@ -42226,8 +42226,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Donna Finn"
      ],
      "a": [
       "Elizabeth Damico",
@@ -42237,8 +42237,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susana Palumbo",
+      "Kimberley Levins"
      ],
      "a": [
       "Christine Pisapia",
@@ -42248,8 +42248,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Virginia Kenny",
+      "Darragh Odonnell"
      ],
      "a": [
       "Dawn Dalessio",
@@ -42259,8 +42259,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Wendi Wolanske",
+      "Corinne Palma"
      ],
      "a": [
       "Lenore David",
@@ -42270,8 +42270,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karyn Jarmer",
+      "Toni Demaio"
      ],
      "a": [
       "Elizabeth Damico",
@@ -42281,8 +42281,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Tina Cros",
+      "Kimberley Levins"
      ],
      "a": [
       "Christine Pisapia",
@@ -42292,8 +42292,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Donna Finn",
+      "Darragh Odonnell"
      ],
      "a": [
       "Dawn Dalessio",
@@ -42303,8 +42303,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Corinne Palma",
+      "Virginia Kenny"
      ],
      "a": [
       "Denise Bonagura",
@@ -42314,8 +42314,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Melissa Mcconnell"
      ],
      "a": [
       "Lenore David",
@@ -42325,8 +42325,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sally Webb",
+      "Kimberley Levins"
      ],
      "a": [
       "Christine Pisapia",
@@ -42336,8 +42336,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Toni Demaio",
+      "Darragh Odonnell"
      ],
      "a": [
       "Dawn Dalessio",
@@ -42347,8 +42347,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Karyn Jarmer",
+      "Melissa Mcconnell"
      ],
      "a": [
       "Denise Bonagura",
@@ -42358,8 +42358,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Susana Palumbo",
+      "Wendi Wolanske"
      ],
      "a": [
       "Paula De Nisc",
@@ -42942,7 +42942,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-11T03:55:17.911Z";
+  DATA.meta.asOf = "2026-11-11T23:55:47.115Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

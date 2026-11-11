@@ -3212,6 +3212,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Charlene De Lara",
+   "playerId": "16f9fddd-e9cd-4e65-9090-2764c44fc74a",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "b7ca04e4",
+   "gender": "Female"
+  },
+  {
    "name": "Charlene Fletcher",
    "playerId": "d05d7514-8679-4d34-ad12-654b496f2308",
    "team": "Pickleball Palace Black",
@@ -6660,6 +6667,13 @@ window.DUPR_AUDIT = {
    "playerId": "be19bf10-b8a5-4626-8c10-f13ac708231d",
    "team": "Pickleball Kingdom Hillsborough",
    "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
+   "name": "George Zhou",
+   "playerId": "e623609f-5136-415f-a018-74427cfa13ff",
+   "team": "Allstar Pickler",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {

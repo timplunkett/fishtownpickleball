@@ -461,6 +461,29 @@
       "ranking": 41
     },
     {
+      "playerId": "0fbbdbbb-a550-49ae-b04a-111bfe4891f5",
+      "firstName": "Jordan",
+      "lastName": "Long",
+      "gender": "Male",
+      "dupr": "3V0L2J",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "teamName": "Dill Dinkers Hatboro The Factory",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 267
+    },
+    {
       "playerId": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
       "firstName": "Jonah",
       "lastName": "Fliegelman",
@@ -2252,7 +2275,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 271
+      "ranking": 272
     },
     {
       "playerId": "54c51642-8048-4dd1-9221-a4306301ff72",
@@ -2873,7 +2896,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 268
+      "ranking": 269
     },
     {
       "playerId": "6f9cb35b-f24c-4480-a8b4-86e6ea32f3c2",
@@ -3816,7 +3839,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 267
+      "ranking": 268
     },
     {
       "playerId": "91d23f87-e0fc-4448-890e-c3abd96c70b4",
@@ -4207,7 +4230,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 270
+      "ranking": 271
     },
     {
       "playerId": "9dae8c17-6878-473a-83e9-a43b434f876b",
@@ -4368,7 +4391,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 269
+      "ranking": 270
     },
     {
       "playerId": "a19b179a-6a16-43a7-b2af-8d6e8d1a1205",
@@ -4943,7 +4966,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 272
+      "ranking": 273
     },
     {
       "playerId": "c053f5d6-16e1-4847-b27b-49fe41f367c6",

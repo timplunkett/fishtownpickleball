@@ -3456,8 +3456,8 @@
    "name": "George Zhou",
    "gender": "Male",
    "team": "Allstar Pickler",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 11,
    "wins": 7,
@@ -38810,7 +38810,6 @@
    "subs": [
     "Buyi Zhang",
     "Feng Zhang",
-    "George Zhou",
     "Erik Abramson"
    ]
   },
@@ -44403,7 +44402,6 @@
     "Stacey Nusser",
     "Donna Fama",
     "Ying Lin",
-    "George Zhou",
     "Ki Keys"
    ]
   },
@@ -104468,14 +104466,6 @@
    "outsideSub": true
   },
   {
-   "name": "George Zhou",
-   "playerId": "e623609f-5136-415f-a018-74427cfa13ff",
-   "gender": "Male",
-   "team": "Allstar Pickler",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Jenny Winters",
    "playerId": "ea0e9b2c-cdde-48d1-8585-fd47053329b6",
    "gender": "Female",
@@ -104819,7 +104809,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T22:40:44.012Z";
+  DATA.meta.asOf = "2026-11-11T23:52:59.417Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

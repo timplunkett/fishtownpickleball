@@ -6953,7 +6953,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 268,
+   "leagueRank": 269,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -6982,13 +6982,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 272,
+   "leagueRank": 273,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "be9bc229-2d57-4236-a951-11a2f91a09a3"
+  },
+  {
+   "name": "Jordan Long",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro The Factory",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 267,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0fbbdbbb-a550-49ae-b04a-111bfe4891f5"
   },
   {
    "name": "Caitlyn Moore",
@@ -7011,7 +7040,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 267,
+   "leagueRank": 268,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -50359,7 +50388,11 @@
      ],
      "a": [
       "Allison Tarnoff",
-      "Andrew Wakefield"
+      "Jordan Long"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50418,7 +50451,11 @@
      ],
      "a": [
       "Jonah Fliegelman",
-      "Andrew Wakefield"
+      "Jordan Long"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50451,7 +50488,11 @@
      ],
      "a": [
       "Allison Tarnoff",
-      "Andrew Wakefield"
+      "Jordan Long"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50509,8 +50550,12 @@
       "Nathan Law"
      ],
      "a": [
-      "Andrew Wakefield",
+      "Jordan Long",
       "Jonah Fliegelman"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -50536,7 +50581,11 @@
      ],
      "a": [
       "Kaylyn Swankoski",
-      "Andrew Wakefield"
+      "Jordan Long"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50605,8 +50654,12 @@
       "Hector Irizarry"
      ],
      "a": [
-      "Andrew Wakefield",
+      "Jordan Long",
       "Varun Prakash"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -50628,7 +50681,11 @@
      ],
      "a": [
       "Kaylyn Swankoski",
-      "Andrew Wakefield"
+      "Jordan Long"
+     ],
+     "aSub": [
+      0,
+      1
      ]
     },
     {
@@ -50697,10 +50754,14 @@
       "Ben Mead"
      ],
      "a": [
-      "Andrew Wakefield",
+      "Jordan Long",
       "Varun Prakash"
      ],
      "hSub": [
+      1,
+      0
+     ],
+     "aSub": [
       1,
       0
      ]
@@ -51192,6 +51253,14 @@
    "playerId": "0eb33201-72fc-4c64-897a-85c3d9d64373",
    "gender": "Male",
    "team": "Dill Dinkers Hatboro Aces",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jordan Long",
+   "playerId": "0fbbdbbb-a550-49ae-b04a-111bfe4891f5",
+   "gender": "Male",
+   "team": "Dill Dinkers Hatboro The Factory",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -51816,7 +51885,7 @@
   "matchesPlayed": 73,
   "provisionalMatches": 0,
   "weeks": "1-11",
-  "totalPlayers": 256,
+  "totalPlayers": 257,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -51958,7 +52027,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-11T13:16:57.082Z";
+  DATA.meta.asOf = "2026-11-11T23:54:50.480Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

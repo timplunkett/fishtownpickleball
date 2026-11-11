@@ -12985,7 +12985,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 478,
+   "leagueRank": 479,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13014,7 +13014,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 479,
+   "leagueRank": 480,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13043,7 +13043,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 499,
+   "leagueRank": 500,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13072,7 +13072,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 493,
+   "leagueRank": 494,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13101,7 +13101,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 492,
+   "leagueRank": 493,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -79764,6 +79764,7 @@
  "playoffs": [],
  "extraPlayerIds": {
   "Thomas Musso": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
+  "John Ciccarelli": "0aaaf128-e6e8-44fc-b573-ba026fde6dcd",
   "Frank Rodriguez": "0d326b1f-4b59-4138-a03a-1adf0d465b70",
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Dina Perrella": "4c4297a1-6537-482c-aeee-beb3aa5c3eb1",
@@ -79830,6 +79831,14 @@
    "playerId": "09ff18df-a4f9-4af7-808b-d8ceca5d1c57",
    "gender": "Female",
    "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "John Ciccarelli",
+   "playerId": "0aaaf128-e6e8-44fc-b573-ba026fde6dcd",
+   "gender": "Male",
+   "team": "Premiere",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -81281,7 +81290,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T22:42:57.873Z";
+  DATA.meta.asOf = "2026-11-11T23:55:19.072Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
