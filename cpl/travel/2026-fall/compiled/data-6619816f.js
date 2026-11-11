@@ -49556,8 +49556,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Jason Makarevic"
      ],
      "a": [
       "Helen Liu",
@@ -49567,8 +49567,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Chris Long"
      ],
      "a": [
       "Claudya Elefante",
@@ -49578,8 +49578,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Erika Richards",
@@ -49589,8 +49589,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Julia Plein",
@@ -49600,8 +49600,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Claudya Elefante",
@@ -49611,8 +49611,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Anisha Malhotra"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -49622,8 +49622,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Chris Long"
      ],
      "a": [
       "Robert Schimony",
@@ -49633,8 +49633,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sidd Pathare",
+      "James Cannizzaro"
      ],
      "a": [
       "Adam Beck",
@@ -49644,8 +49644,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Jason Makarevic"
      ],
      "a": [
       "Claudya Elefante",
@@ -49655,8 +49655,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Julia Plein",
@@ -49666,8 +49666,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Chris Long"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -49677,8 +49677,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Helen Liu",
@@ -49688,8 +49688,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Anisha Malhotra"
      ],
      "a": [
       "Erika Richards",
@@ -49699,8 +49699,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Zoe Ousouljoglou"
      ],
      "a": [
       "Claudya Elefante",
@@ -49710,8 +49710,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Jason Makarevic"
      ],
      "a": [
       "Anushk Gupta",
@@ -49721,8 +49721,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Sidd Pathare",
+      "James Cannizzaro"
      ],
      "a": [
       "Robert Schimony",
@@ -49732,8 +49732,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "James Cannizzaro"
      ],
      "a": [
       "Claudya Elefante",
@@ -49743,8 +49743,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Helen Liu",
@@ -49754,8 +49754,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Erika Richards",
@@ -49765,8 +49765,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Chris Long"
      ],
      "a": [
       "Julia Plein",
@@ -49776,8 +49776,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Ally Yan"
      ],
      "a": [
       "Julia Plein",
@@ -49787,8 +49787,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Anisha Malhotra"
      ],
      "a": [
       "Erika Richards",
@@ -49798,8 +49798,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Sidd Pathare"
      ],
      "a": [
       "Robert Schimony",
@@ -49809,8 +49809,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "James Cannizzaro"
      ],
      "a": [
       "Michael Velez",
@@ -49820,8 +49820,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -49831,8 +49831,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Chris Long"
      ],
      "a": [
       "Claudya Elefante",
@@ -49842,8 +49842,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "James Cannizzaro"
      ],
      "a": [
       "Helen Liu",
@@ -49853,8 +49853,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Julia Plein",
@@ -49864,8 +49864,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Zoe Ousouljoglou",
+      "Anisha Malhotra"
      ],
      "a": [
       "Claudya Elefante",
@@ -49875,8 +49875,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Amy Yan"
      ],
      "a": [
       "Alyssa Tartaglia",
@@ -49886,8 +49886,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jason Makarevic",
+      "Sidd Pathare"
      ],
      "a": [
       "Anushk Gupta",
@@ -49897,8 +49897,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "James Cannizzaro"
      ],
      "a": [
       "Robert Schimony",
@@ -50328,19 +50328,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Alex Szczepkowski"
      ],
      "a": [
       "Hannah Nussbaum",
       "Jonah Fliegelman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Manny Lai"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50350,8 +50354,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anita Buggins",
+      "Hector Irizarry"
      ],
      "a": [
       "Allison Tarnoff",
@@ -50361,8 +50365,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shelah Wallace",
+      "Garv Singhal"
      ],
      "a": [
       "Nahla Bernhardt",
@@ -50372,8 +50376,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Brittany Hall"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -50383,8 +50387,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anita Buggins",
+      "Shelah Wallace"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50394,19 +50398,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Szczepkowski",
+      "Manny Lai"
      ],
      "a": [
       "Dylan Ashbach",
       "Varun Prakash"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Garv Singhal",
+      "Ben Mead"
      ],
      "a": [
       "Clayton Schmucker",
@@ -50416,8 +50424,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Manny Lai"
      ],
      "a": [
       "Rayna Baizman",
@@ -50427,8 +50435,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Hall",
+      "Nathan Law"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50438,8 +50446,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Hector Irizarry"
      ],
      "a": [
       "Allison Tarnoff",
@@ -50449,19 +50457,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anita Buggins",
+      "Alex Szczepkowski"
      ],
      "a": [
       "Nahla Bernhardt",
       "Jonah Fliegelman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shelah Wallace",
+      "Brittany Hall"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -50471,8 +50483,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anita Buggins",
+      "Stacy Walkowitz"
      ],
      "a": [
       "Rayna Baizman",
@@ -50482,8 +50494,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Hector Irizarry",
+      "Garv Singhal"
      ],
      "a": [
       "Dylan Ashbach",
@@ -50493,8 +50505,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Manny Lai",
+      "Nathan Law"
      ],
      "a": [
       "Clayton Schmucker",
@@ -50504,19 +50516,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brittany Hall",
+      "Alex Szczepkowski"
      ],
      "a": [
       "Hannah Nussbaum",
       "Jonah Fliegelman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shelah Wallace",
+      "Hector Irizarry"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50526,8 +50542,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Nathan Law"
      ],
      "a": [
       "Nahla Bernhardt",
@@ -50537,8 +50553,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anita Buggins",
+      "Ben Mead"
      ],
      "a": [
       "Allison Tarnoff",
@@ -50548,8 +50564,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shelah Wallace",
+      "Anita Buggins"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -50559,8 +50575,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Stacy Walkowitz"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50570,19 +50586,23 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Szczepkowski",
+      "Manny Lai"
      ],
      "a": [
       "Dylan Ashbach",
       "Jonah Fliegelman"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ben Mead",
+      "Hector Irizarry"
      ],
      "a": [
       "Andrew Wakefield",
@@ -50592,8 +50612,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anita Buggins",
+      "Ben Mead"
      ],
      "a": [
       "Rayna Baizman",
@@ -50603,8 +50623,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Nathan Law"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50614,8 +50634,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacy Walkowitz",
+      "Garv Singhal"
      ],
      "a": [
       "Nahla Bernhardt",
@@ -50625,19 +50645,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Shelah Wallace",
+      "Alex Szczepkowski"
      ],
      "a": [
       "Allison Tarnoff",
       "Jonah Fliegelman"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Annemarie Mccartney",
+      "Brittany Hall"
      ],
      "a": [
       "Hannah Nussbaum",
@@ -50647,8 +50671,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Shelah Wallace",
+      "Stacy Walkowitz"
      ],
      "a": [
       "Kaylyn Swankoski",
@@ -50658,8 +50682,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nathan Law",
+      "Garv Singhal"
      ],
      "a": [
       "Dylan Ashbach",
@@ -50669,12 +50693,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Szczepkowski",
+      "Ben Mead"
      ],
      "a": [
       "Andrew Wakefield",
       "Varun Prakash"
+     ],
+     "hSub": [
+      1,
+      0
      ]
     }
    ]
@@ -51930,7 +51958,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T22:42:27.090Z";
+  DATA.meta.asOf = "2026-11-11T03:54:07.683Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

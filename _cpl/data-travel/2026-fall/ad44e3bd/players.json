@@ -3641,7 +3641,7 @@
       "gender": "Female",
       "dupr": "Z4ODYM",
       "isCaptain": false,
-      "isSub": true,
+      "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
       "wins": 14,

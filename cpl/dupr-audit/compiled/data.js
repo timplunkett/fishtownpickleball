@@ -14706,6 +14706,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Nicole Tarallo",
+   "playerId": "d16138ba-5e8f-4f9e-9464-478ba4320c11",
+   "team": "Life Time Red Bank",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Nicole Votta",
    "playerId": "0b588015-8739-40d6-ad50-3aced7e5551b",
    "team": "Dill Dinkers Hatboro The Factory",
