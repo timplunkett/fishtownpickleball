@@ -458,7 +458,7 @@
       "mixedLosses": 18,
       "genderWins": 21,
       "genderLosses": 18,
-      "ranking": 197
+      "ranking": 198
     },
     {
       "playerId": "06d52e99-941a-4ced-9968-f56e6075105a",
@@ -953,18 +953,18 @@
       "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
-      "wins": 28,
+      "wins": 29,
       "losses": 26,
-      "gamesPlayed": 54,
-      "pointsWon": 1010,
-      "totalPointsAgainst": 994,
-      "clutchWins": 11,
+      "gamesPlayed": 55,
+      "pointsWon": 1031,
+      "totalPointsAgainst": 1013,
+      "clutchWins": 12,
       "clutchLosses": 9,
-      "mixedWins": 20,
+      "mixedWins": 21,
       "mixedLosses": 11,
       "genderWins": 8,
       "genderLosses": 15,
-      "ranking": 200
+      "ranking": 193
     },
     {
       "playerId": "12a884e9-e596-444c-8a0e-ed8cfa243232",
@@ -1447,7 +1447,7 @@
       "mixedLosses": 13,
       "genderWins": 17,
       "genderLosses": 14,
-      "ranking": 196
+      "ranking": 197
     },
     {
       "playerId": "1a22e8aa-6986-49b8-b97b-4811087295e7",
@@ -2229,7 +2229,7 @@
       "mixedLosses": 12,
       "genderWins": 13,
       "genderLosses": 8,
-      "ranking": 218
+      "ranking": 217
     },
     {
       "playerId": "287924dd-9eab-427d-adcd-f65ce9f866d4",
@@ -2252,7 +2252,7 @@
       "mixedLosses": 13,
       "genderWins": 13,
       "genderLosses": 8,
-      "ranking": 168
+      "ranking": 166
     },
     {
       "playerId": "28f35cb8-46a7-4338-9bdc-68f7bd6ca009",
@@ -3747,7 +3747,7 @@
       "mixedLosses": 8,
       "genderWins": 14,
       "genderLosses": 16,
-      "ranking": 199
+      "ranking": 200
     },
     {
       "playerId": "418f9f50-d9f9-4806-bef5-5bd9763b240f",
@@ -4427,17 +4427,17 @@
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
       "wins": 52,
-      "losses": 34,
-      "gamesPlayed": 86,
-      "pointsWon": 1651,
-      "totalPointsAgainst": 1520,
+      "losses": 35,
+      "gamesPlayed": 87,
+      "pointsWon": 1670,
+      "totalPointsAgainst": 1541,
       "clutchWins": 15,
-      "clutchLosses": 14,
+      "clutchLosses": 15,
       "mixedWins": 29,
-      "mixedLosses": 15,
+      "mixedLosses": 16,
       "genderWins": 23,
       "genderLosses": 19,
-      "ranking": 140
+      "ranking": 143
     },
     {
       "playerId": "4a188481-bbb3-4d7b-b507-89f74d58af12",
@@ -4460,7 +4460,7 @@
       "mixedLosses": 3,
       "genderWins": 23,
       "genderLosses": 1,
-      "ranking": 7
+      "ranking": 6
     },
     {
       "playerId": "4a7ff0ee-289b-4ab2-833f-8af1a7f34353",
@@ -4736,7 +4736,7 @@
       "mixedLosses": 8,
       "genderWins": 11,
       "genderLosses": 7,
-      "ranking": 142
+      "ranking": 141
     },
     {
       "playerId": "4fd249ba-ff70-4e34-a92c-0ea979aa608b",
@@ -4874,7 +4874,7 @@
       "mixedLosses": 13,
       "genderWins": 19,
       "genderLosses": 17,
-      "ranking": 167
+      "ranking": 168
     },
     {
       "playerId": "519426b7-932a-4dd5-9865-ebaadb3d226d",
@@ -5449,7 +5449,7 @@
       "mixedLosses": 17,
       "genderWins": 20,
       "genderLosses": 12,
-      "ranking": 141
+      "ranking": 140
     },
     {
       "playerId": "5b619b72-b78a-49ba-872d-c64db6084a67",
@@ -5691,18 +5691,18 @@
       "isSub": false,
       "teamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "teamName": "Pickleball Kingdom Watchung",
-      "wins": 30,
+      "wins": 31,
       "losses": 20,
-      "gamesPlayed": 50,
-      "pointsWon": 928,
-      "totalPointsAgainst": 854,
-      "clutchWins": 3,
+      "gamesPlayed": 51,
+      "pointsWon": 949,
+      "totalPointsAgainst": 873,
+      "clutchWins": 4,
       "clutchLosses": 2,
-      "mixedWins": 18,
+      "mixedWins": 19,
       "mixedLosses": 7,
       "genderWins": 12,
       "genderLosses": 13,
-      "ranking": 149
+      "ranking": 148
     },
     {
       "playerId": "60c53e43-dbe0-4f62-8023-a2c1c1303fc3",
@@ -7657,7 +7657,7 @@
       "mixedLosses": 12,
       "genderWins": 17,
       "genderLosses": 19,
-      "ranking": 166
+      "ranking": 167
     },
     {
       "playerId": "83a9e58a-b1de-4bda-a020-8cafc2fc47aa",
@@ -8876,7 +8876,7 @@
       "mixedLosses": 15,
       "genderWins": 18,
       "genderLosses": 18,
-      "ranking": 198
+      "ranking": 199
     },
     {
       "playerId": "98abb8c4-ac0b-4c10-b711-3c4a188429a2",
@@ -9888,7 +9888,7 @@
       "mixedLosses": 10,
       "genderWins": 13,
       "genderLosses": 10,
-      "ranking": 148
+      "ranking": 149
     },
     {
       "playerId": "aba00534-f2c3-4f27-a9ce-6d9b8a440258",
@@ -11222,7 +11222,7 @@
       "mixedLosses": 12,
       "genderWins": 18,
       "genderLosses": 14,
-      "ranking": 193
+      "ranking": 194
     },
     {
       "playerId": "bf370c20-c27a-4555-8410-5073dc29d1d0",
@@ -11337,7 +11337,7 @@
       "mixedLosses": 7,
       "genderWins": 14,
       "genderLosses": 6,
-      "ranking": 143
+      "ranking": 142
     },
     {
       "playerId": "c1251904-fef6-4eb5-9b49-06c8335e3546",
@@ -11406,7 +11406,7 @@
       "mixedLosses": 16,
       "genderWins": 19,
       "genderLosses": 15,
-      "ranking": 194
+      "ranking": 195
     },
     {
       "playerId": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
@@ -13108,7 +13108,7 @@
       "mixedLosses": 13,
       "genderWins": 13,
       "genderLosses": 6,
-      "ranking": 217
+      "ranking": 218
     },
     {
       "playerId": "de47e045-80e3-4209-a32e-d1c8a6de083b",
@@ -13177,7 +13177,7 @@
       "mixedLosses": 12,
       "genderWins": 16,
       "genderLosses": 13,
-      "ranking": 195
+      "ranking": 196
     },
     {
       "playerId": "df50b777-55ba-476a-bff9-12f1f19a539b",
@@ -14708,17 +14708,17 @@
       "teamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
       "teamName": "Pickleball Kingdom Hillsborough",
       "wins": 45,
-      "losses": 4,
-      "gamesPlayed": 49,
-      "pointsWon": 1003,
-      "totalPointsAgainst": 693,
+      "losses": 5,
+      "gamesPlayed": 50,
+      "pointsWon": 1022,
+      "totalPointsAgainst": 714,
       "clutchWins": 4,
-      "clutchLosses": 1,
+      "clutchLosses": 2,
       "mixedWins": 22,
-      "mixedLosses": 2,
+      "mixedLosses": 3,
       "genderWins": 23,
       "genderLosses": 2,
-      "ranking": 6
+      "ranking": 7
     },
     {
       "playerId": "f8a42c6f-43b2-4769-b0ed-a1d648353e04",

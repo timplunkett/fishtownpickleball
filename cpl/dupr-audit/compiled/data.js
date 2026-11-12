@@ -15063,6 +15063,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Patrick Ryan",
+   "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
+   "team": "Pickle House",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Patti Calhoon",
    "playerId": "dda14163-7c4e-4316-90f1-0a3852107876",
    "team": "Picklr Newark",
@@ -17280,6 +17287,13 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Tinton Falls",
    "slug": "ad44e3bd",
    "gender": "Female"
+  },
+  {
+   "name": "Shang Li",
+   "playerId": "b478e004-cc16-4de5-a138-8df70602f115",
+   "team": "Pickle House",
+   "slug": "cca69ab9",
+   "gender": "Male"
   },
   {
    "name": "Shania Bui",

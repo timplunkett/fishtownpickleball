@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 28,
       "genderLosses": 41,
-      "ranking": 106
+      "ranking": 105
     },
     {
       "playerId": "02318afc-9bde-4df3-a7b3-7f1d1da3186c",
@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 1,
       "genderLosses": 19,
-      "ranking": 173
+      "ranking": 174
     },
     {
       "playerId": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
@@ -90,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 11,
-      "ranking": 156
+      "ranking": 155
     },
     {
       "playerId": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
@@ -125,18 +125,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 49,
+      "wins": 57,
       "losses": 18,
-      "gamesPlayed": 67,
-      "pointsWon": 1340,
-      "totalPointsAgainst": 1049,
-      "clutchWins": 8,
+      "gamesPlayed": 75,
+      "pointsWon": 1508,
+      "totalPointsAgainst": 1151,
+      "clutchWins": 9,
       "clutchLosses": 8,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 49,
+      "genderWins": 57,
       "genderLosses": 18,
-      "ranking": 11
+      "ranking": 9
     },
     {
       "playerId": "069b6990-9fae-4294-bf0a-2e428a9f763e",
@@ -149,17 +149,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 1,
-      "losses": 31,
-      "gamesPlayed": 32,
-      "pointsWon": 331,
-      "totalPointsAgainst": 667,
+      "losses": 38,
+      "gamesPlayed": 39,
+      "pointsWon": 385,
+      "totalPointsAgainst": 814,
       "clutchWins": 0,
       "clutchLosses": 1,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 1,
-      "genderLosses": 31,
-      "ranking": 162
+      "genderLosses": 38,
+      "ranking": 163
     },
     {
       "playerId": "07767191-9167-4314-973d-3798ae6265a9",
@@ -182,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 8,
-      "ranking": 154
+      "ranking": 153
     },
     {
       "playerId": "078bc1a3-2897-4dc0-ae17-26b349108047",
@@ -194,18 +194,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 47,
-      "losses": 18,
-      "gamesPlayed": 65,
-      "pointsWon": 1297,
-      "totalPointsAgainst": 1095,
-      "clutchWins": 14,
-      "clutchLosses": 8,
+      "wins": 51,
+      "losses": 21,
+      "gamesPlayed": 72,
+      "pointsWon": 1438,
+      "totalPointsAgainst": 1226,
+      "clutchWins": 15,
+      "clutchLosses": 11,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 47,
-      "genderLosses": 18,
-      "ranking": 18
+      "genderWins": 51,
+      "genderLosses": 21,
+      "ranking": 25
     },
     {
       "playerId": "09ff18df-a4f9-4af7-808b-d8ceca5d1c57",
@@ -228,7 +228,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 7,
-      "ranking": 40
+      "ranking": 43
     },
     {
       "playerId": "0b21bd3b-0ab8-4dc8-9b09-5c47b57d5909",
@@ -264,17 +264,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 0,
-      "losses": 18,
-      "gamesPlayed": 18,
-      "pointsWon": 181,
-      "totalPointsAgainst": 378,
+      "losses": 25,
+      "gamesPlayed": 25,
+      "pointsWon": 257,
+      "totalPointsAgainst": 525,
       "clutchWins": 0,
       "clutchLosses": 1,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 0,
-      "genderLosses": 18,
-      "ranking": 174
+      "genderLosses": 25,
+      "ranking": 173
     },
     {
       "playerId": "0b40bb1c-5eb7-4684-a979-bb55ba7cf3e4",
@@ -320,7 +320,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 19,
-      "ranking": 75
+      "ranking": 74
     },
     {
       "playerId": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 32,
       "genderLosses": 34,
-      "ranking": 86
+      "ranking": 87
     },
     {
       "playerId": "0e5a80ef-a9db-4089-841d-f3083efff2a6",
@@ -378,18 +378,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 32,
-      "losses": 18,
-      "gamesPlayed": 50,
-      "pointsWon": 962,
-      "totalPointsAgainst": 888,
-      "clutchWins": 10,
-      "clutchLosses": 8,
+      "wins": 36,
+      "losses": 21,
+      "gamesPlayed": 57,
+      "pointsWon": 1096,
+      "totalPointsAgainst": 1012,
+      "clutchWins": 11,
+      "clutchLosses": 9,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 32,
-      "genderLosses": 18,
-      "ranking": 47
+      "genderWins": 36,
+      "genderLosses": 21,
+      "ranking": 51
     },
     {
       "playerId": "0f84aab6-2ae2-4a0b-ba2f-cd31c57fa7d7",
@@ -424,18 +424,18 @@
       "isSub": true,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 5,
-      "losses": 3,
-      "gamesPlayed": 8,
-      "pointsWon": 147,
-      "totalPointsAgainst": 134,
-      "clutchWins": 1,
-      "clutchLosses": 1,
+      "wins": 10,
+      "losses": 5,
+      "gamesPlayed": 15,
+      "pointsWon": 284,
+      "totalPointsAgainst": 251,
+      "clutchWins": 2,
+      "clutchLosses": 2,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 5,
-      "genderLosses": 3,
-      "ranking": 127
+      "genderWins": 10,
+      "genderLosses": 5,
+      "ranking": 111
     },
     {
       "playerId": "129227bd-dad6-4c63-9d24-d3c6a34e9621",
@@ -481,7 +481,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 4,
-      "ranking": 160
+      "ranking": 159
     },
     {
       "playerId": "13b0bf6b-9978-4ec3-bfa2-2ea173d47e56",
@@ -550,7 +550,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 23,
-      "ranking": 103
+      "ranking": 102
     },
     {
       "playerId": "15778391-96b7-4888-9d08-d63b96e104ca",
@@ -573,7 +573,7 @@
       "mixedLosses": 0,
       "genderWins": 32,
       "genderLosses": 18,
-      "ranking": 54
+      "ranking": 56
     },
     {
       "playerId": "16ba0acf-68e2-4649-8da3-05ef2f3cb1f0",
@@ -608,18 +608,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 29,
+      "wins": 34,
       "losses": 21,
-      "gamesPlayed": 50,
-      "pointsWon": 967,
-      "totalPointsAgainst": 852,
+      "gamesPlayed": 55,
+      "pointsWon": 1072,
+      "totalPointsAgainst": 908,
       "clutchWins": 5,
       "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 29,
+      "genderWins": 34,
       "genderLosses": 21,
-      "ranking": 53
+      "ranking": 48
     },
     {
       "playerId": "16f9fddd-e9cd-4e65-9090-2764c44fc74a",
@@ -642,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 3,
-      "ranking": 124
+      "ranking": 125
     },
     {
       "playerId": "18052e12-bbc5-4535-b93b-0e11242c27d7",
@@ -654,18 +654,18 @@
       "isSub": false,
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
-      "wins": 41,
-      "losses": 35,
-      "gamesPlayed": 76,
-      "pointsWon": 1402,
-      "totalPointsAgainst": 1345,
+      "wins": 44,
+      "losses": 40,
+      "gamesPlayed": 84,
+      "pointsWon": 1549,
+      "totalPointsAgainst": 1486,
       "clutchWins": 10,
-      "clutchLosses": 11,
+      "clutchLosses": 12,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 41,
-      "genderLosses": 35,
-      "ranking": 80
+      "genderWins": 44,
+      "genderLosses": 40,
+      "ranking": 83
     },
     {
       "playerId": "1a34ae87-9a09-4766-bdeb-dc8638846f24",
@@ -701,17 +701,17 @@
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
       "wins": 23,
-      "losses": 43,
-      "gamesPlayed": 66,
-      "pointsWon": 1097,
-      "totalPointsAgainst": 1271,
+      "losses": 51,
+      "gamesPlayed": 74,
+      "pointsWon": 1213,
+      "totalPointsAgainst": 1439,
       "clutchWins": 10,
-      "clutchLosses": 10,
+      "clutchLosses": 13,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 23,
-      "genderLosses": 43,
-      "ranking": 118
+      "genderLosses": 51,
+      "ranking": 124
     },
     {
       "playerId": "1bdd162f-17d6-43a3-bbbc-f7ad3337908a",
@@ -734,7 +734,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 6,
-      "ranking": 111
+      "ranking": 110
     },
     {
       "playerId": "201e264e-23da-435d-a4b5-0fea908d1098",
@@ -792,18 +792,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 36,
-      "losses": 22,
-      "gamesPlayed": 58,
-      "pointsWon": 1099,
-      "totalPointsAgainst": 974,
+      "wins": 41,
+      "losses": 24,
+      "gamesPlayed": 65,
+      "pointsWon": 1233,
+      "totalPointsAgainst": 1085,
       "clutchWins": 5,
-      "clutchLosses": 5,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 36,
-      "genderLosses": 22,
-      "ranking": 50
+      "genderWins": 41,
+      "genderLosses": 24,
+      "ranking": 49
     },
     {
       "playerId": "24c2ba9d-4af9-41c8-9a2c-ad9631349481",
@@ -861,18 +861,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 52,
-      "losses": 24,
-      "gamesPlayed": 76,
-      "pointsWon": 1488,
-      "totalPointsAgainst": 1242,
+      "wins": 54,
+      "losses": 30,
+      "gamesPlayed": 84,
+      "pointsWon": 1627,
+      "totalPointsAgainst": 1398,
       "clutchWins": 8,
-      "clutchLosses": 11,
+      "clutchLosses": 13,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 52,
-      "genderLosses": 24,
-      "ranking": 32
+      "genderWins": 54,
+      "genderLosses": 30,
+      "ranking": 41
     },
     {
       "playerId": "27908231-74bb-4956-adc4-5429e16e55ea",
@@ -908,17 +908,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 3,
-      "losses": 39,
-      "gamesPlayed": 42,
-      "pointsWon": 406,
-      "totalPointsAgainst": 874,
+      "losses": 46,
+      "gamesPlayed": 49,
+      "pointsWon": 453,
+      "totalPointsAgainst": 1021,
       "clutchWins": 2,
       "clutchLosses": 0,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 3,
-      "genderLosses": 39,
-      "ranking": 159
+      "genderLosses": 46,
+      "ranking": 161
     },
     {
       "playerId": "2912d9de-09e7-4b21-b93e-ae84f2f8fe93",
@@ -941,7 +941,7 @@
       "mixedLosses": 0,
       "genderWins": 27,
       "genderLosses": 13,
-      "ranking": 30
+      "ranking": 28
     },
     {
       "playerId": "294d9682-5231-4d0b-ab16-cf9f8bfb99bc",
@@ -1010,7 +1010,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 0,
-      "ranking": 78
+      "ranking": 80
     },
     {
       "playerId": "2abe95e2-0e73-49b6-aca8-689041f98b94",
@@ -1102,7 +1102,7 @@
       "mixedLosses": 0,
       "genderWins": 14,
       "genderLosses": 44,
-      "ranking": 126
+      "ranking": 127
     },
     {
       "playerId": "301def1b-f1d0-410c-aba8-13c15d2e091e",
@@ -1114,18 +1114,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 27,
+      "wins": 32,
       "losses": 23,
-      "gamesPlayed": 50,
-      "pointsWon": 958,
-      "totalPointsAgainst": 891,
+      "gamesPlayed": 55,
+      "pointsWon": 1063,
+      "totalPointsAgainst": 939,
       "clutchWins": 5,
       "clutchLosses": 8,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 27,
+      "genderWins": 32,
       "genderLosses": 23,
-      "ranking": 71
+      "ranking": 59
     },
     {
       "playerId": "33f1ae41-08db-4067-b5f5-f9324faf93f0",
@@ -1230,17 +1230,17 @@
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
       "wins": 31,
-      "losses": 47,
-      "gamesPlayed": 78,
-      "pointsWon": 1336,
-      "totalPointsAgainst": 1459,
+      "losses": 55,
+      "gamesPlayed": 86,
+      "pointsWon": 1434,
+      "totalPointsAgainst": 1627,
       "clutchWins": 12,
       "clutchLosses": 13,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 31,
-      "genderLosses": 47,
-      "ranking": 110
+      "genderLosses": 55,
+      "ranking": 117
     },
     {
       "playerId": "38944e1a-d33f-4b2f-8d9c-41a0fdd273cd",
@@ -1298,18 +1298,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 20,
+      "wins": 25,
       "losses": 10,
-      "gamesPlayed": 30,
-      "pointsWon": 580,
-      "totalPointsAgainst": 518,
+      "gamesPlayed": 35,
+      "pointsWon": 685,
+      "totalPointsAgainst": 563,
       "clutchWins": 4,
       "clutchLosses": 2,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 20,
+      "genderWins": 25,
       "genderLosses": 10,
-      "ranking": 69
+      "ranking": 30
     },
     {
       "playerId": "3f0fc558-80e9-4e47-8ba7-95968d3c336e",
@@ -1322,16 +1322,16 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 0,
-      "losses": 43,
-      "gamesPlayed": 43,
-      "pointsWon": 438,
-      "totalPointsAgainst": 903,
+      "losses": 50,
+      "gamesPlayed": 50,
+      "pointsWon": 496,
+      "totalPointsAgainst": 1050,
       "clutchWins": 0,
       "clutchLosses": 0,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 0,
-      "genderLosses": 43,
+      "genderLosses": 50,
       "ranking": 166
     },
     {
@@ -1344,18 +1344,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 29,
+      "wins": 36,
       "losses": 6,
-      "gamesPlayed": 35,
-      "pointsWon": 718,
-      "totalPointsAgainst": 559,
+      "gamesPlayed": 42,
+      "pointsWon": 865,
+      "totalPointsAgainst": 618,
       "clutchWins": 5,
       "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 29,
+      "genderWins": 36,
       "genderLosses": 6,
-      "ranking": 2
+      "ranking": 1
     },
     {
       "playerId": "406e8166-48fc-410b-99b2-5cbc3534fee3",
@@ -1493,7 +1493,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 181
+      "ranking": 182
     },
     {
       "playerId": "4986f918-309d-4d39-abde-336bc27ae79d",
@@ -1516,7 +1516,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 13,
-      "ranking": 89
+      "ranking": 90
     },
     {
       "playerId": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
@@ -1528,18 +1528,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 42,
-      "losses": 16,
-      "gamesPlayed": 58,
-      "pointsWon": 1147,
-      "totalPointsAgainst": 946,
-      "clutchWins": 7,
-      "clutchLosses": 9,
+      "wins": 45,
+      "losses": 20,
+      "gamesPlayed": 65,
+      "pointsWon": 1275,
+      "totalPointsAgainst": 1080,
+      "clutchWins": 9,
+      "clutchLosses": 10,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 42,
-      "genderLosses": 16,
-      "ranking": 25
+      "genderWins": 45,
+      "genderLosses": 20,
+      "ranking": 34
     },
     {
       "playerId": "4ca325bd-f0d7-4b18-b570-c6ef241d2ff5",
@@ -1562,7 +1562,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 188
+      "ranking": 187
     },
     {
       "playerId": "4f6ef7ac-2fb1-4903-9ebe-29391c3bab81",
@@ -1574,18 +1574,18 @@
       "isSub": false,
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
-      "wins": 27,
-      "losses": 31,
-      "gamesPlayed": 58,
-      "pointsWon": 1010,
-      "totalPointsAgainst": 1075,
-      "clutchWins": 11,
-      "clutchLosses": 2,
+      "wins": 30,
+      "losses": 36,
+      "gamesPlayed": 66,
+      "pointsWon": 1146,
+      "totalPointsAgainst": 1237,
+      "clutchWins": 14,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 27,
-      "genderLosses": 31,
-      "ranking": 102
+      "genderWins": 30,
+      "genderLosses": 36,
+      "ranking": 103
     },
     {
       "playerId": "4f9985c1-7c99-4816-9ddf-c45dc6dd9d7c",
@@ -1608,7 +1608,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 43,
-      "ranking": 138
+      "ranking": 137
     },
     {
       "playerId": "4fa43958-6eb0-4949-a48a-6f719f6b973f",
@@ -1689,18 +1689,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 26,
+      "wins": 31,
       "losses": 16,
-      "gamesPlayed": 42,
-      "pointsWon": 778,
-      "totalPointsAgainst": 704,
+      "gamesPlayed": 47,
+      "pointsWon": 883,
+      "totalPointsAgainst": 733,
       "clutchWins": 6,
       "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 26,
+      "genderWins": 31,
       "genderLosses": 16,
-      "ranking": 56
+      "ranking": 42
     },
     {
       "playerId": "58252bb7-5aa1-4dbd-85ba-e7ccbc56d64c",
@@ -1723,7 +1723,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 39,
-      "ranking": 117
+      "ranking": 118
     },
     {
       "playerId": "5a35b4ac-7b94-48d4-bd8f-d9c327751821",
@@ -1746,7 +1746,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 8,
-      "ranking": 42
+      "ranking": 45
     },
     {
       "playerId": "5db7fb50-d1a1-4c3f-8d61-34ca1947300c",
@@ -1758,18 +1758,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 38,
-      "losses": 17,
-      "gamesPlayed": 55,
-      "pointsWon": 1050,
-      "totalPointsAgainst": 928,
-      "clutchWins": 8,
-      "clutchLosses": 5,
+      "wins": 43,
+      "losses": 18,
+      "gamesPlayed": 61,
+      "pointsWon": 1174,
+      "totalPointsAgainst": 1031,
+      "clutchWins": 9,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 38,
-      "genderLosses": 17,
-      "ranking": 41
+      "genderWins": 43,
+      "genderLosses": 18,
+      "ranking": 37
     },
     {
       "playerId": "5e265a90-558b-4564-acd8-f358bab162a9",
@@ -1792,7 +1792,7 @@
       "mixedLosses": 0,
       "genderWins": 17,
       "genderLosses": 8,
-      "ranking": 73
+      "ranking": 72
     },
     {
       "playerId": "5f062913-9951-481b-8e1d-fee0093e68f2",
@@ -1815,7 +1815,7 @@
       "mixedLosses": 0,
       "genderWins": 23,
       "genderLosses": 16,
-      "ranking": 49
+      "ranking": 53
     },
     {
       "playerId": "5fe0b62e-e4be-4dc3-9f9c-46123a17f754",
@@ -1838,7 +1838,7 @@
       "mixedLosses": 0,
       "genderWins": 3,
       "genderLosses": 2,
-      "ranking": 125
+      "ranking": 126
     },
     {
       "playerId": "63946930-2dca-489e-8158-028722c045f5",
@@ -1850,18 +1850,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 36,
-      "losses": 22,
-      "gamesPlayed": 58,
-      "pointsWon": 1135,
-      "totalPointsAgainst": 993,
-      "clutchWins": 10,
+      "wins": 38,
+      "losses": 27,
+      "gamesPlayed": 65,
+      "pointsWon": 1249,
+      "totalPointsAgainst": 1131,
+      "clutchWins": 11,
       "clutchLosses": 13,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 36,
-      "genderLosses": 22,
-      "ranking": 48
+      "genderWins": 38,
+      "genderLosses": 27,
+      "ranking": 60
     },
     {
       "playerId": "66df26d7-8f8c-44ee-8294-7501f7ce0760",
@@ -1884,7 +1884,7 @@
       "mixedLosses": 0,
       "genderWins": 15,
       "genderLosses": 3,
-      "ranking": 57
+      "ranking": 58
     },
     {
       "playerId": "6764cb03-b6a2-4b85-95c7-f6ab7d00f203",
@@ -1919,18 +1919,18 @@
       "isSub": false,
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
-      "wins": 38,
-      "losses": 29,
-      "gamesPlayed": 67,
-      "pointsWon": 1243,
-      "totalPointsAgainst": 1181,
-      "clutchWins": 13,
-      "clutchLosses": 10,
+      "wins": 43,
+      "losses": 32,
+      "gamesPlayed": 75,
+      "pointsWon": 1398,
+      "totalPointsAgainst": 1318,
+      "clutchWins": 14,
+      "clutchLosses": 11,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 38,
-      "genderLosses": 29,
-      "ranking": 72
+      "genderWins": 43,
+      "genderLosses": 32,
+      "ranking": 69
     },
     {
       "playerId": "6848f02a-1acc-47f8-8743-3525311031a9",
@@ -1976,7 +1976,7 @@
       "mixedLosses": 0,
       "genderWins": 38,
       "genderLosses": 23,
-      "ranking": 45
+      "ranking": 47
     },
     {
       "playerId": "6bb662c7-ff1f-44b2-ad03-07a4c87eb51a",
@@ -1999,7 +1999,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 2,
-      "ranking": 16
+      "ranking": 18
     },
     {
       "playerId": "6f657f47-8452-4fa9-90fd-b63ed4f41a0b",
@@ -2022,7 +2022,7 @@
       "mixedLosses": 0,
       "genderWins": 1,
       "genderLosses": 2,
-      "ranking": 161
+      "ranking": 160
     },
     {
       "playerId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
@@ -2045,7 +2045,7 @@
       "mixedLosses": 0,
       "genderWins": 18,
       "genderLosses": 16,
-      "ranking": 76
+      "ranking": 75
     },
     {
       "playerId": "749aa09d-25ff-4bd4-b7f1-e1253413a3e6",
@@ -2068,7 +2068,7 @@
       "mixedLosses": 0,
       "genderWins": 37,
       "genderLosses": 13,
-      "ranking": 20
+      "ranking": 22
     },
     {
       "playerId": "7ae5ec6e-df01-41bd-b4e7-85522efbbd2c",
@@ -2091,7 +2091,7 @@
       "mixedLosses": 0,
       "genderWins": 27,
       "genderLosses": 24,
-      "ranking": 87
+      "ranking": 88
     },
     {
       "playerId": "7d70ad57-c02f-47cc-bdd2-e330a7fed56e",
@@ -2183,7 +2183,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 0,
-      "ranking": 82
+      "ranking": 84
     },
     {
       "playerId": "84dfc5ee-8326-4420-8d93-6a7ae1b81e15",
@@ -2195,18 +2195,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 26,
+      "wins": 31,
       "losses": 17,
-      "gamesPlayed": 43,
-      "pointsWon": 809,
-      "totalPointsAgainst": 772,
+      "gamesPlayed": 48,
+      "pointsWon": 914,
+      "totalPointsAgainst": 823,
       "clutchWins": 8,
       "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 26,
+      "genderWins": 31,
       "genderLosses": 17,
-      "ranking": 61
+      "ranking": 50
     },
     {
       "playerId": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
@@ -2218,18 +2218,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 46,
+      "wins": 53,
       "losses": 14,
-      "gamesPlayed": 60,
-      "pointsWon": 1201,
-      "totalPointsAgainst": 936,
+      "gamesPlayed": 67,
+      "pointsWon": 1348,
+      "totalPointsAgainst": 1039,
       "clutchWins": 7,
       "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 46,
+      "genderWins": 53,
       "genderLosses": 14,
-      "ranking": 7
+      "ranking": 4
     },
     {
       "playerId": "86d3ef72-f614-40a4-994d-836a87d21e9e",
@@ -2252,7 +2252,7 @@
       "mixedLosses": 0,
       "genderWins": 16,
       "genderLosses": 10,
-      "ranking": 84
+      "ranking": 86
     },
     {
       "playerId": "870b1163-513e-4625-af47-e154f02dacbc",
@@ -2275,7 +2275,7 @@
       "mixedLosses": 0,
       "genderWins": 7,
       "genderLosses": 0,
-      "ranking": 81
+      "ranking": 82
     },
     {
       "playerId": "875dfc40-0613-428f-8bb7-0e9f29e7ee78",
@@ -2298,7 +2298,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 25,
-      "ranking": 92
+      "ranking": 93
     },
     {
       "playerId": "892b68ae-7d54-456c-82f6-f2514e107d16",
@@ -2379,18 +2379,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 51,
-      "losses": 9,
-      "gamesPlayed": 60,
-      "pointsWon": 1225,
-      "totalPointsAgainst": 909,
-      "clutchWins": 9,
-      "clutchLosses": 5,
+      "wins": 55,
+      "losses": 13,
+      "gamesPlayed": 68,
+      "pointsWon": 1378,
+      "totalPointsAgainst": 1063,
+      "clutchWins": 12,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 51,
-      "genderLosses": 9,
-      "ranking": 1
+      "genderWins": 55,
+      "genderLosses": 13,
+      "ranking": 3
     },
     {
       "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
@@ -2402,18 +2402,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 11,
-      "losses": 5,
-      "gamesPlayed": 16,
-      "pointsWon": 317,
-      "totalPointsAgainst": 300,
-      "clutchWins": 8,
-      "clutchLosses": 3,
+      "wins": 14,
+      "losses": 10,
+      "gamesPlayed": 24,
+      "pointsWon": 473,
+      "totalPointsAgainst": 453,
+      "clutchWins": 9,
+      "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 11,
-      "genderLosses": 5,
-      "ranking": 100
+      "genderWins": 14,
+      "genderLosses": 10,
+      "ranking": 96
     },
     {
       "playerId": "9057a78b-0136-4bb6-92e9-508f621b51e1",
@@ -2471,17 +2471,17 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 52,
-      "losses": 19,
-      "gamesPlayed": 71,
-      "pointsWon": 1406,
-      "totalPointsAgainst": 1145,
-      "clutchWins": 7,
-      "clutchLosses": 7,
+      "wins": 58,
+      "losses": 20,
+      "gamesPlayed": 78,
+      "pointsWon": 1551,
+      "totalPointsAgainst": 1260,
+      "clutchWins": 9,
+      "clutchLosses": 8,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 52,
-      "genderLosses": 19,
+      "genderWins": 58,
+      "genderLosses": 20,
       "ranking": 17
     },
     {
@@ -2517,18 +2517,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 22,
+      "wins": 27,
       "losses": 14,
-      "gamesPlayed": 36,
-      "pointsWon": 703,
-      "totalPointsAgainst": 652,
+      "gamesPlayed": 41,
+      "pointsWon": 808,
+      "totalPointsAgainst": 709,
       "clutchWins": 6,
       "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 22,
+      "genderWins": 27,
       "genderLosses": 14,
-      "ranking": 51
+      "ranking": 39
     },
     {
       "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
@@ -2551,7 +2551,7 @@
       "mixedLosses": 0,
       "genderWins": 40,
       "genderLosses": 31,
-      "ranking": 67
+      "ranking": 68
     },
     {
       "playerId": "977d5afb-cd69-4327-9e27-4887259d384b",
@@ -2620,7 +2620,7 @@
       "mixedLosses": 0,
       "genderWins": 2,
       "genderLosses": 4,
-      "ranking": 155
+      "ranking": 152
     },
     {
       "playerId": "9d3e1b63-681f-4bd7-a450-332b1f375a29",
@@ -2666,7 +2666,7 @@
       "mixedLosses": 0,
       "genderWins": 38,
       "genderLosses": 14,
-      "ranking": 19
+      "ranking": 21
     },
     {
       "playerId": "9e346d92-597a-49ef-af58-665667c75c82",
@@ -2701,18 +2701,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 43,
-      "losses": 20,
-      "gamesPlayed": 63,
-      "pointsWon": 1243,
-      "totalPointsAgainst": 1011,
-      "clutchWins": 7,
-      "clutchLosses": 10,
+      "wins": 47,
+      "losses": 22,
+      "gamesPlayed": 69,
+      "pointsWon": 1360,
+      "totalPointsAgainst": 1126,
+      "clutchWins": 10,
+      "clutchLosses": 11,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 43,
-      "genderLosses": 20,
-      "ranking": 28
+      "genderWins": 47,
+      "genderLosses": 22,
+      "ranking": 32
     },
     {
       "playerId": "a188ab11-2879-4292-95dd-6bdd7858b7b9",
@@ -2725,16 +2725,16 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 0,
-      "losses": 82,
-      "gamesPlayed": 82,
-      "pointsWon": 865,
-      "totalPointsAgainst": 1722,
+      "losses": 89,
+      "gamesPlayed": 89,
+      "pointsWon": 956,
+      "totalPointsAgainst": 1869,
       "clutchWins": 0,
       "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 0,
-      "genderLosses": 82,
+      "genderLosses": 89,
       "ranking": 164
     },
     {
@@ -2747,18 +2747,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 34,
-      "losses": 22,
-      "gamesPlayed": 56,
-      "pointsWon": 1080,
-      "totalPointsAgainst": 975,
-      "clutchWins": 8,
+      "wins": 36,
+      "losses": 26,
+      "gamesPlayed": 62,
+      "pointsWon": 1183,
+      "totalPointsAgainst": 1096,
+      "clutchWins": 9,
       "clutchLosses": 8,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 34,
-      "genderLosses": 22,
-      "ranking": 58
+      "genderWins": 36,
+      "genderLosses": 26,
+      "ranking": 65
     },
     {
       "playerId": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
@@ -2781,7 +2781,7 @@
       "mixedLosses": 0,
       "genderWins": 51,
       "genderLosses": 39,
-      "ranking": 60
+      "ranking": 61
     },
     {
       "playerId": "a6f156e3-7dfa-42ec-8c69-a73c25e55833",
@@ -2804,7 +2804,7 @@
       "mixedLosses": 0,
       "genderWins": 49,
       "genderLosses": 17,
-      "ranking": 15
+      "ranking": 16
     },
     {
       "playerId": "ab244dd7-ca2a-4e68-befd-b60c8fbad96f",
@@ -2816,18 +2816,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 61,
-      "losses": 15,
-      "gamesPlayed": 76,
-      "pointsWon": 1516,
-      "totalPointsAgainst": 1142,
-      "clutchWins": 10,
-      "clutchLosses": 6,
+      "wins": 66,
+      "losses": 18,
+      "gamesPlayed": 84,
+      "pointsWon": 1669,
+      "totalPointsAgainst": 1295,
+      "clutchWins": 12,
+      "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 61,
-      "genderLosses": 15,
-      "ranking": 3
+      "genderWins": 66,
+      "genderLosses": 18,
+      "ranking": 8
     },
     {
       "playerId": "aca67666-3f71-498b-9ef7-c24729d89030",
@@ -2850,7 +2850,7 @@
       "mixedLosses": 0,
       "genderWins": 30,
       "genderLosses": 9,
-      "ranking": 12
+      "ranking": 13
     },
     {
       "playerId": "adcdbc67-29b2-4411-9d74-919d1c7abf0b",
@@ -2873,7 +2873,7 @@
       "mixedLosses": 0,
       "genderWins": 49,
       "genderLosses": 16,
-      "ranking": 10
+      "ranking": 12
     },
     {
       "playerId": "aecabaca-f05b-489f-87d6-afacfd32295c",
@@ -2886,17 +2886,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 2,
-      "losses": 65,
-      "gamesPlayed": 67,
-      "pointsWon": 703,
-      "totalPointsAgainst": 1402,
+      "losses": 72,
+      "gamesPlayed": 74,
+      "pointsWon": 766,
+      "totalPointsAgainst": 1549,
       "clutchWins": 1,
       "clutchLosses": 1,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 2,
-      "genderLosses": 65,
-      "ranking": 163
+      "genderLosses": 72,
+      "ranking": 162
     },
     {
       "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
@@ -2919,7 +2919,7 @@
       "mixedLosses": 0,
       "genderWins": 23,
       "genderLosses": 2,
-      "ranking": 8
+      "ranking": 10
     },
     {
       "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa",
@@ -3000,18 +3000,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 50,
-      "losses": 28,
-      "gamesPlayed": 78,
-      "pointsWon": 1511,
-      "totalPointsAgainst": 1309,
-      "clutchWins": 11,
-      "clutchLosses": 9,
+      "wins": 51,
+      "losses": 35,
+      "gamesPlayed": 86,
+      "pointsWon": 1648,
+      "totalPointsAgainst": 1475,
+      "clutchWins": 12,
+      "clutchLosses": 12,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 50,
-      "genderLosses": 28,
-      "ranking": 44
+      "genderWins": 51,
+      "genderLosses": 35,
+      "ranking": 57
     },
     {
       "playerId": "b3913bf1-60c7-45b5-b69b-fb7df945ce07",
@@ -3034,7 +3034,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 8,
-      "ranking": 182
+      "ranking": 181
     },
     {
       "playerId": "b466c6a0-1ec9-4148-819b-972cc37ca5ec",
@@ -3057,7 +3057,7 @@
       "mixedLosses": 0,
       "genderWins": 8,
       "genderLosses": 0,
-      "ranking": 77
+      "ranking": 76
     },
     {
       "playerId": "b5c2a59a-34f6-4b86-ac00-0a2d46082870",
@@ -3103,7 +3103,7 @@
       "mixedLosses": 0,
       "genderWins": 5,
       "genderLosses": 0,
-      "ranking": 79
+      "ranking": 81
     },
     {
       "playerId": "bbb3cbbd-edc3-4fa6-adef-800076f97402",
@@ -3115,18 +3115,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 31,
-      "losses": 14,
-      "gamesPlayed": 45,
-      "pointsWon": 854,
-      "totalPointsAgainst": 743,
+      "wins": 33,
+      "losses": 17,
+      "gamesPlayed": 50,
+      "pointsWon": 942,
+      "totalPointsAgainst": 834,
       "clutchWins": 7,
       "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 31,
-      "genderLosses": 14,
-      "ranking": 43
+      "genderWins": 33,
+      "genderLosses": 17,
+      "ranking": 52
     },
     {
       "playerId": "beb3bf0b-c34b-4687-a7d4-a66dca81e5b6",
@@ -3138,18 +3138,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 18,
+      "wins": 23,
       "losses": 17,
-      "gamesPlayed": 35,
-      "pointsWon": 629,
-      "totalPointsAgainst": 608,
+      "gamesPlayed": 40,
+      "pointsWon": 734,
+      "totalPointsAgainst": 667,
       "clutchWins": 3,
       "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 18,
+      "genderWins": 23,
       "genderLosses": 17,
-      "ranking": 90
+      "ranking": 71
     },
     {
       "playerId": "bec84964-d6ad-4c96-8abb-2f204bd1e64b",
@@ -3184,18 +3184,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 48,
+      "wins": 55,
       "losses": 13,
-      "gamesPlayed": 61,
-      "pointsWon": 1238,
-      "totalPointsAgainst": 933,
+      "gamesPlayed": 68,
+      "pointsWon": 1385,
+      "totalPointsAgainst": 987,
       "clutchWins": 13,
       "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 48,
+      "genderWins": 55,
       "genderLosses": 13,
-      "ranking": 4
+      "ranking": 2
     },
     {
       "playerId": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
@@ -3218,7 +3218,7 @@
       "mixedLosses": 0,
       "genderWins": 11,
       "genderLosses": 7,
-      "ranking": 105
+      "ranking": 106
     },
     {
       "playerId": "c3649296-108a-4a74-ad2a-e045d2fdee4c",
@@ -3230,18 +3230,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 46,
-      "losses": 19,
-      "gamesPlayed": 65,
-      "pointsWon": 1259,
-      "totalPointsAgainst": 1066,
-      "clutchWins": 12,
+      "wins": 48,
+      "losses": 23,
+      "gamesPlayed": 71,
+      "pointsWon": 1360,
+      "totalPointsAgainst": 1187,
+      "clutchWins": 13,
       "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 46,
-      "genderLosses": 19,
-      "ranking": 34
+      "genderWins": 48,
+      "genderLosses": 23,
+      "ranking": 44
     },
     {
       "playerId": "c40f8a3d-21b9-45d0-bbdc-1b1ca6f5a15a",
@@ -3264,7 +3264,7 @@
       "mixedLosses": 0,
       "genderWins": 10,
       "genderLosses": 43,
-      "ranking": 137
+      "ranking": 138
     },
     {
       "playerId": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
@@ -3277,17 +3277,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 2,
-      "losses": 32,
-      "gamesPlayed": 34,
-      "pointsWon": 392,
-      "totalPointsAgainst": 710,
+      "losses": 39,
+      "gamesPlayed": 41,
+      "pointsWon": 469,
+      "totalPointsAgainst": 857,
       "clutchWins": 2,
       "clutchLosses": 0,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 2,
-      "genderLosses": 32,
-      "ranking": 157
+      "genderLosses": 39,
+      "ranking": 158
     },
     {
       "playerId": "c5ed98db-36e2-4106-8f1e-67ec97fead81",
@@ -3368,18 +3368,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 36,
-      "losses": 27,
-      "gamesPlayed": 63,
-      "pointsWon": 1168,
-      "totalPointsAgainst": 1094,
+      "wins": 38,
+      "losses": 30,
+      "gamesPlayed": 68,
+      "pointsWon": 1258,
+      "totalPointsAgainst": 1185,
       "clutchWins": 9,
       "clutchLosses": 6,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 36,
-      "genderLosses": 27,
-      "ranking": 74
+      "genderWins": 38,
+      "genderLosses": 30,
+      "ranking": 79
     },
     {
       "playerId": "c80624a6-0c31-4792-bc8d-c9f1d2153dca",
@@ -3402,7 +3402,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 12,
-      "ranking": 158
+      "ranking": 157
     },
     {
       "playerId": "c87dbf47-5507-470c-b006-71eb4e859389",
@@ -3460,18 +3460,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 43,
-      "losses": 18,
-      "gamesPlayed": 61,
-      "pointsWon": 1182,
-      "totalPointsAgainst": 1039,
-      "clutchWins": 9,
-      "clutchLosses": 3,
+      "wins": 49,
+      "losses": 19,
+      "gamesPlayed": 68,
+      "pointsWon": 1327,
+      "totalPointsAgainst": 1158,
+      "clutchWins": 11,
+      "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 43,
-      "genderLosses": 18,
-      "ranking": 36
+      "genderWins": 49,
+      "genderLosses": 19,
+      "ranking": 33
     },
     {
       "playerId": "cac68244-9c27-49bf-9354-1e9282427426",
@@ -3506,18 +3506,18 @@
       "isSub": false,
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
-      "wins": 46,
-      "losses": 45,
-      "gamesPlayed": 91,
-      "pointsWon": 1668,
-      "totalPointsAgainst": 1621,
-      "clutchWins": 10,
-      "clutchLosses": 12,
+      "wins": 49,
+      "losses": 50,
+      "gamesPlayed": 99,
+      "pointsWon": 1815,
+      "totalPointsAgainst": 1773,
+      "clutchWins": 11,
+      "clutchLosses": 15,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 46,
-      "genderLosses": 45,
-      "ranking": 88
+      "genderWins": 49,
+      "genderLosses": 50,
+      "ranking": 89
     },
     {
       "playerId": "cb9d90de-b0eb-41d0-a16c-241d3ffe53a0",
@@ -3540,7 +3540,7 @@
       "mixedLosses": 0,
       "genderWins": 9,
       "genderLosses": 3,
-      "ranking": 96
+      "ranking": 97
     },
     {
       "playerId": "cc2a9e08-b163-4553-856f-c20895cb9930",
@@ -3563,7 +3563,7 @@
       "mixedLosses": 0,
       "genderWins": 31,
       "genderLosses": 15,
-      "ranking": 39
+      "ranking": 40
     },
     {
       "playerId": "ccd0807d-67ac-4dbc-a7c7-4b4df3dea598",
@@ -3586,7 +3586,7 @@
       "mixedLosses": 0,
       "genderWins": 21,
       "genderLosses": 5,
-      "ranking": 22
+      "ranking": 24
     },
     {
       "playerId": "cee0559f-0285-4e86-9254-128f836efee8",
@@ -3598,18 +3598,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 30,
-      "losses": 28,
-      "gamesPlayed": 58,
-      "pointsWon": 1064,
-      "totalPointsAgainst": 1008,
-      "clutchWins": 6,
-      "clutchLosses": 9,
+      "wins": 32,
+      "losses": 33,
+      "gamesPlayed": 65,
+      "pointsWon": 1183,
+      "totalPointsAgainst": 1144,
+      "clutchWins": 7,
+      "clutchLosses": 11,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 30,
-      "genderLosses": 28,
-      "ranking": 85
+      "genderWins": 32,
+      "genderLosses": 33,
+      "ranking": 92
     },
     {
       "playerId": "d014337a-9f8c-4b82-832f-76a3b66856fa",
@@ -3644,18 +3644,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 14,
-      "losses": 1,
-      "gamesPlayed": 15,
-      "pointsWon": 312,
-      "totalPointsAgainst": 174,
-      "clutchWins": 0,
+      "wins": 15,
+      "losses": 3,
+      "gamesPlayed": 18,
+      "pointsWon": 357,
+      "totalPointsAgainst": 235,
+      "clutchWins": 1,
       "clutchLosses": 0,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 14,
-      "genderLosses": 1,
-      "ranking": 59
+      "genderWins": 15,
+      "genderLosses": 3,
+      "ranking": 63
     },
     {
       "playerId": "d183236f-85a1-41a3-a26a-2f9bc04c3b07",
@@ -3678,7 +3678,7 @@
       "mixedLosses": 0,
       "genderWins": 22,
       "genderLosses": 5,
-      "ranking": 21
+      "ranking": 23
     },
     {
       "playerId": "d324c1b4-fb13-47d4-b380-f8427448308a",
@@ -3701,7 +3701,7 @@
       "mixedLosses": 0,
       "genderWins": 27,
       "genderLosses": 22,
-      "ranking": 68
+      "ranking": 70
     },
     {
       "playerId": "d45c0c05-5f76-4025-a4e6-8442591e88ab",
@@ -3736,18 +3736,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 35,
-      "losses": 26,
-      "gamesPlayed": 61,
-      "pointsWon": 1141,
-      "totalPointsAgainst": 1025,
-      "clutchWins": 9,
-      "clutchLosses": 10,
+      "wins": 37,
+      "losses": 31,
+      "gamesPlayed": 68,
+      "pointsWon": 1266,
+      "totalPointsAgainst": 1160,
+      "clutchWins": 10,
+      "clutchLosses": 13,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 35,
-      "genderLosses": 26,
-      "ranking": 64
+      "genderWins": 37,
+      "genderLosses": 31,
+      "ranking": 73
     },
     {
       "playerId": "d5bb6605-5ea8-42e6-8c85-03402664956d",
@@ -3770,7 +3770,7 @@
       "mixedLosses": 0,
       "genderWins": 34,
       "genderLosses": 32,
-      "ranking": 83
+      "ranking": 85
     },
     {
       "playerId": "d64631c2-5086-4d28-b93e-26c8661af87b",
@@ -3782,18 +3782,18 @@
       "isSub": false,
       "teamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "teamName": "Flemington Blue",
-      "wins": 43,
-      "losses": 27,
-      "gamesPlayed": 70,
-      "pointsWon": 1317,
-      "totalPointsAgainst": 1219,
+      "wins": 46,
+      "losses": 30,
+      "gamesPlayed": 76,
+      "pointsWon": 1420,
+      "totalPointsAgainst": 1330,
       "clutchWins": 11,
       "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 43,
-      "genderLosses": 27,
-      "ranking": 63
+      "genderWins": 46,
+      "genderLosses": 30,
+      "ranking": 67
     },
     {
       "playerId": "d74868c1-242c-4230-8117-fbbd3c41e250",
@@ -3816,7 +3816,7 @@
       "mixedLosses": 0,
       "genderWins": 27,
       "genderLosses": 42,
-      "ranking": 101
+      "ranking": 100
     },
     {
       "playerId": "d86280ad-5733-417d-af40-42a66c14b874",
@@ -3839,7 +3839,7 @@
       "mixedLosses": 0,
       "genderWins": 4,
       "genderLosses": 19,
-      "ranking": 152
+      "ranking": 151
     },
     {
       "playerId": "d895a1b4-ebbc-4f93-bca7-4e8b01b40635",
@@ -3908,7 +3908,7 @@
       "mixedLosses": 0,
       "genderWins": 27,
       "genderLosses": 41,
-      "ranking": 107
+      "ranking": 108
     },
     {
       "playerId": "db4adc99-5a82-4911-90f5-3624fda60ee3",
@@ -3920,18 +3920,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 17,
+      "wins": 22,
       "losses": 18,
-      "gamesPlayed": 35,
-      "pointsWon": 626,
-      "totalPointsAgainst": 625,
+      "gamesPlayed": 40,
+      "pointsWon": 731,
+      "totalPointsAgainst": 670,
       "clutchWins": 2,
       "clutchLosses": 2,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 17,
+      "genderWins": 22,
       "genderLosses": 18,
-      "ranking": 93
+      "ranking": 78
     },
     {
       "playerId": "de5f989a-61bd-45ff-8be9-1168a4ec65e7",
@@ -3944,17 +3944,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 3,
-      "losses": 39,
-      "gamesPlayed": 42,
-      "pointsWon": 530,
-      "totalPointsAgainst": 874,
+      "losses": 46,
+      "gamesPlayed": 49,
+      "pointsWon": 589,
+      "totalPointsAgainst": 1021,
       "clutchWins": 2,
       "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 3,
-      "genderLosses": 39,
-      "ranking": 151
+      "genderLosses": 46,
+      "ranking": 156
     },
     {
       "playerId": "e204f8ea-5c0b-4182-8af0-f372a67c2132",
@@ -4012,18 +4012,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 40,
+      "wins": 45,
       "losses": 14,
-      "gamesPlayed": 54,
-      "pointsWon": 1055,
-      "totalPointsAgainst": 889,
+      "gamesPlayed": 59,
+      "pointsWon": 1160,
+      "totalPointsAgainst": 937,
       "clutchWins": 10,
       "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 40,
+      "genderWins": 45,
       "genderLosses": 14,
-      "ranking": 24
+      "ranking": 19
     },
     {
       "playerId": "e61fbd7e-0b43-42a1-b2ae-03f4279ca2a1",
@@ -4036,17 +4036,17 @@
       "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
       "teamName": "Premiere",
       "wins": 6,
-      "losses": 85,
-      "gamesPlayed": 91,
-      "pointsWon": 1098,
-      "totalPointsAgainst": 1883,
+      "losses": 93,
+      "gamesPlayed": 99,
+      "pointsWon": 1187,
+      "totalPointsAgainst": 2051,
       "clutchWins": 3,
       "clutchLosses": 4,
       "mixedWins": 0,
       "mixedLosses": 0,
       "genderWins": 6,
-      "genderLosses": 85,
-      "ranking": 153
+      "genderLosses": 93,
+      "ranking": 154
     },
     {
       "playerId": "e6d3fe0a-88ab-4a56-8461-fc162ab5d308",
@@ -4058,18 +4058,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 43,
-      "losses": 22,
-      "gamesPlayed": 65,
-      "pointsWon": 1262,
-      "totalPointsAgainst": 1088,
-      "clutchWins": 10,
-      "clutchLosses": 6,
+      "wins": 48,
+      "losses": 24,
+      "gamesPlayed": 72,
+      "pointsWon": 1400,
+      "totalPointsAgainst": 1207,
+      "clutchWins": 11,
+      "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 43,
-      "genderLosses": 22,
-      "ranking": 37
+      "genderWins": 48,
+      "genderLosses": 24,
+      "ranking": 36
     },
     {
       "playerId": "e81f3561-3e91-48aa-8430-f177ad30248b",
@@ -4092,7 +4092,7 @@
       "mixedLosses": 0,
       "genderWins": 20,
       "genderLosses": 25,
-      "ranking": 108
+      "ranking": 107
     },
     {
       "playerId": "e84d93a0-c527-4a44-a896-ccc20d0ac474",
@@ -4104,18 +4104,18 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 52,
+      "wins": 57,
       "losses": 22,
-      "gamesPlayed": 74,
-      "pointsWon": 1457,
-      "totalPointsAgainst": 1176,
-      "clutchWins": 12,
+      "gamesPlayed": 79,
+      "pointsWon": 1562,
+      "totalPointsAgainst": 1250,
+      "clutchWins": 13,
       "clutchLosses": 9,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 52,
+      "genderWins": 57,
       "genderLosses": 22,
-      "ranking": 23
+      "ranking": 20
     },
     {
       "playerId": "e8a46252-99c1-405e-857c-d52d9550717a",
@@ -4138,7 +4138,7 @@
       "mixedLosses": 0,
       "genderWins": 40,
       "genderLosses": 13,
-      "ranking": 13
+      "ranking": 14
     },
     {
       "playerId": "e8b48f4f-6d2d-4db7-a4c1-69ff3de72688",
@@ -4161,7 +4161,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 5,
-      "ranking": 187
+      "ranking": 188
     },
     {
       "playerId": "e94c3831-b63f-4858-a2a1-94c0c10ee4e7",
@@ -4173,18 +4173,18 @@
       "isSub": false,
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
-      "wins": 23,
-      "losses": 28,
-      "gamesPlayed": 51,
-      "pointsWon": 907,
-      "totalPointsAgainst": 921,
-      "clutchWins": 6,
-      "clutchLosses": 7,
+      "wins": 25,
+      "losses": 34,
+      "gamesPlayed": 59,
+      "pointsWon": 1037,
+      "totalPointsAgainst": 1085,
+      "clutchWins": 8,
+      "clutchLosses": 9,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 23,
-      "genderLosses": 28,
-      "ranking": 97
+      "genderWins": 25,
+      "genderLosses": 34,
+      "ranking": 101
     },
     {
       "playerId": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
@@ -4207,7 +4207,7 @@
       "mixedLosses": 0,
       "genderWins": 39,
       "genderLosses": 12,
-      "ranking": 9
+      "ranking": 11
     },
     {
       "playerId": "ea172a5a-d930-4f15-af1d-d792c4bd37a8",
@@ -4230,7 +4230,7 @@
       "mixedLosses": 0,
       "genderWins": 24,
       "genderLosses": 9,
-      "ranking": 14
+      "ranking": 15
     },
     {
       "playerId": "ea658d89-a540-405d-9819-9c98a0484f60",
@@ -4368,7 +4368,7 @@
       "mixedLosses": 0,
       "genderWins": 37,
       "genderLosses": 30,
-      "ranking": 65
+      "ranking": 64
     },
     {
       "playerId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
@@ -4414,7 +4414,7 @@
       "mixedLosses": 0,
       "genderWins": 26,
       "genderLosses": 17,
-      "ranking": 52
+      "ranking": 54
     },
     {
       "playerId": "f7f80e1e-cebe-432b-9862-1120daaba26e",
@@ -4426,17 +4426,17 @@
       "isSub": false,
       "teamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
       "teamName": "Life Time Red Bank",
-      "wins": 29,
-      "losses": 18,
-      "gamesPlayed": 47,
-      "pointsWon": 877,
-      "totalPointsAgainst": 777,
-      "clutchWins": 8,
-      "clutchLosses": 4,
+      "wins": 33,
+      "losses": 20,
+      "gamesPlayed": 53,
+      "pointsWon": 994,
+      "totalPointsAgainst": 884,
+      "clutchWins": 11,
+      "clutchLosses": 5,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 29,
-      "genderLosses": 18,
+      "genderWins": 33,
+      "genderLosses": 20,
       "ranking": 55
     },
     {
@@ -4449,17 +4449,17 @@
       "isSub": false,
       "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
       "teamName": "PKLD",
-      "wins": 58,
-      "losses": 36,
-      "gamesPlayed": 94,
-      "pointsWon": 1784,
-      "totalPointsAgainst": 1547,
-      "clutchWins": 11,
+      "wins": 64,
+      "losses": 38,
+      "gamesPlayed": 102,
+      "pointsWon": 1939,
+      "totalPointsAgainst": 1685,
+      "clutchWins": 14,
       "clutchLosses": 12,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 58,
-      "genderLosses": 36,
+      "genderWins": 64,
+      "genderLosses": 38,
       "ranking": 46
     },
     {
@@ -4541,18 +4541,18 @@
       "isSub": false,
       "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
       "teamName": "Pickleball Kingdom Tinton Falls",
-      "wins": 24,
+      "wins": 29,
       "losses": 7,
-      "gamesPlayed": 31,
-      "pointsWon": 621,
-      "totalPointsAgainst": 474,
+      "gamesPlayed": 36,
+      "pointsWon": 726,
+      "totalPointsAgainst": 537,
       "clutchWins": 6,
       "clutchLosses": 3,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 24,
+      "genderWins": 29,
       "genderLosses": 7,
-      "ranking": 33
+      "ranking": 7
     },
     {
       "playerId": "fc2f208d-f6cc-4d5c-98d8-3f40e5856576",
@@ -4633,18 +4633,18 @@
       "isSub": false,
       "teamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
       "teamName": "Flemington Green",
-      "wins": 22,
-      "losses": 18,
-      "gamesPlayed": 40,
-      "pointsWon": 749,
-      "totalPointsAgainst": 689,
+      "wins": 24,
+      "losses": 22,
+      "gamesPlayed": 46,
+      "pointsWon": 861,
+      "totalPointsAgainst": 800,
       "clutchWins": 7,
-      "clutchLosses": 5,
+      "clutchLosses": 7,
       "mixedWins": 0,
       "mixedLosses": 0,
-      "genderWins": 22,
-      "genderLosses": 18,
-      "ranking": 70
+      "genderWins": 24,
+      "genderLosses": 22,
+      "ranking": 77
     }
   ]
 }

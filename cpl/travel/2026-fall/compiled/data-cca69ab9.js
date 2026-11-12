@@ -1136,8 +1136,8 @@
    "name": "Shang Li",
    "gender": "Male",
    "team": "Pickle House",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 12,
    "wins": 8,
@@ -2992,8 +2992,8 @@
    "name": "Patrick Ryan",
    "gender": "Male",
    "team": "Pickle House",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 2,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 21,
    "wins": 11,
@@ -27520,9 +27520,7 @@
     }
    ],
    "subs": [
-    "Michael Taylor",
-    "Patrick Ryan",
-    "Shang Li"
+    "Michael Taylor"
    ]
   },
   {
@@ -41496,10 +41494,7 @@
      ]
     }
    ],
-   "subs": [
-    "Patrick Ryan",
-    "Shang Li"
-   ]
+   "subs": []
   },
   {
    "result": "away",
@@ -48909,9 +48904,9 @@
    "name": "Patrick Ryan",
    "playerId": "8344fbda-35c2-4ce0-94ad-158090d2d5ba",
    "gender": "Male",
-   "team": "Pickle House",
+   "team": "Flemington",
    "isCaptain": false,
-   "outsideSub": true
+   "outsideSub": false
   },
   {
    "name": "Turney Hall",
@@ -49030,14 +49025,6 @@
    "playerId": "b0b23784-946d-4ba9-bfc9-e3a81d6ead7c",
    "gender": "Male",
    "team": "Bounce Tempest",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Shang Li",
-   "playerId": "b478e004-cc16-4de5-a138-8df70602f115",
-   "gender": "Male",
-   "team": "Pickle House",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -49376,7 +49363,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-10T22:43:14.427Z";
+  DATA.meta.asOf = "2026-11-12T23:02:25.257Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
