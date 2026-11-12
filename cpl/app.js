@@ -2952,16 +2952,30 @@ function lineupHiddenNames() {
 }
 
 // Every one of Team A's matches for the whole season, earliest week first —
-// whether it's finished, still to come, or has no lineups posted yet at all.
-// A matchup is addressed by its position in this exact list (matchupIndex),
-// never by week number: a team can have two matches filed under the same
-// week (a makeup alongside the regular slate), which made a by-week lookup
-// resolve to the wrong one.
+// whether it's finished, still to come, or has no lineups posted yet at all —
+// followed by any playoff matches, earliest round first. Playoff entries are
+// copies flagged `playoff` (their `round` is not a week number, so they can't
+// be told apart by week). A matchup is addressed by its position in this exact
+// list (matchupIndex), never by week number: a team can have two matches filed
+// under the same week (a makeup alongside the regular slate), which made a
+// by-week lookup resolve to the wrong one. Playoffs go last so a regular-season
+// index means the same match before and after the bracket is drawn.
 function lineupSeasonMatchesForTeam(teamName) {
-  return (DATA.matches || [])
-    .filter((match) => match.home === teamName || match.away === teamName)
-    .slice()
+  const involves = (match) => match.home === teamName || match.away === teamName;
+  const regular = (DATA.matches || [])
+    .filter(involves)
     .sort((a, b) => a.week - b.week);
+  const playoffs = (DATA.playoffs || [])
+    .filter(involves)
+    .sort((a, b) => (a.round || 1) - (b.round || 1))
+    .map((match) => ({ ...match, playoff: true }));
+  return [...regular, ...playoffs];
+}
+
+// "Week 3" for a regular-season match, the bracket's own round name
+// ("Playoffs", "Semifinals", …) for a playoff one.
+function lineupMatchLabel(match) {
+  return match.playoff ? playoffRoundLabel(match.round) : `Week ${match.week}`;
 }
 
 // The sensible matchup to land on when nothing else has been chosen yet: the
@@ -2989,8 +3003,13 @@ function lineupPairFromMatch(match, teamName, gameIndex) {
 // blank — lineupPairFromMatch already returns blank for a match with no
 // games array at all, so borrowing the shape never leaks another match's
 // actual players into this one.
+//
+// A playoff match borrows from another playoff match first: a bracket can play
+// a different format from the regular season, and a posted playoff lineup is
+// the best evidence of it.
 function lineupGamesFromMatchup(match, teamA, teamB) {
-  const shape = match?.games?.length ? match : (DATA.matches || []).find((m) => m.games?.length) || null;
+  const donors = match?.playoff ? [...(DATA.playoffs || []), ...(DATA.matches || [])] : (DATA.matches || []);
+  const shape = match?.games?.length ? match : donors.find((m) => m.games?.length) || null;
   if (!shape) return [];
   return shape.games.map((game, index) => ({
     type: game.t,
@@ -3045,12 +3064,23 @@ function lineupTeamOptions(selected) {
 // bare week number — regenerated every render, since the list is specific to
 // whichever team is currently Team A. Choosing one of these is what picks
 // Team B; there's no separate Team B control.
+//
+// Once Team A has a playoff match, the list splits into "Regular season" and
+// "Playoffs" groups so the bracket doesn't read as more weeks.
 function lineupMatchupOptions() {
-  return lineupSeasonMatchesForTeam(lineupLabState.teamA).map((match, index) => {
+  const matches = lineupSeasonMatchesForTeam(lineupLabState.teamA);
+  const option = (match, index) => {
     const opponent = match.home === lineupLabState.teamA ? match.away : match.home;
     const status = match.complete ? '' : match.games?.length ? ' — posted, not yet played' : ' — not yet posted';
-    return `<option value="${index}"${lineupLabState.matchupIndex === index ? ' selected' : ''}>Week ${match.week} vs ${escapeHtml(opponent)}${status}</option>`;
-  }).join('');
+    return `<option value="${index}"${lineupLabState.matchupIndex === index ? ' selected' : ''}>${escapeHtml(lineupMatchLabel(match))} vs ${escapeHtml(opponent)}${status}</option>`;
+  };
+  const options = matches.map((match, index) => ({ match, html: option(match, index) }));
+  if (!matches.some((match) => match.playoff)) return options.map(({ html }) => html).join('');
+  const group = (label, entries) => (
+    entries.length ? `<optgroup label="${label}">${entries.map(({ html }) => html).join('')}</optgroup>` : ''
+  );
+  return group('Regular season', options.filter(({ match }) => !match.playoff))
+    + group('Playoffs', options.filter(({ match }) => match.playoff));
 }
 
 function lineupExpectedGender(gameType, slotIndex) {
@@ -4041,7 +4071,7 @@ function lineupMatchupDescription() {
   const match = matchupIndex == null ? null : lineupSeasonMatchesForTeam(teamA)[matchupIndex];
   if (!match) return `${teamA}: no matchup found.`;
   const status = match.complete ? 'final' : match.games?.length ? 'posted, not yet played' : 'not yet posted';
-  return `Week ${match.week}: ${teamA} vs ${teamB} (${status}).`;
+  return `${lineupMatchLabel(match)}: ${teamA} vs ${teamB} (${status}).`;
 }
 
 function renderLineupLab({ scroll = true } = {}) {
@@ -5038,6 +5068,57 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   `;
 }
 
+// A playoff round's name, from where it sits among the rounds drawn so far: a
+// lone round is just "Playoffs", otherwise the last two are the Championship
+// and Semifinals. Shared by the bracket and the Lineup Lab's matchup picker so
+// the two name a round the same way.
+function playoffRoundLabel(round = 1) {
+  const rounds = [...new Set((DATA.playoffs || []).map((match) => match.round || 1))].sort((a, b) => a - b);
+  if (rounds.length <= 1) return 'Playoffs';
+  const index = rounds.indexOf(round || 1);
+  if (index === rounds.length - 1) return 'Championship';
+  if (index === rounds.length - 2) return 'Semifinals';
+  return `Round ${round}`;
+}
+
+// The bracket's way into the Lineup Lab: one link per team in a match still to
+// be played. A real href for new tabs (the lab defaults to the team's next
+// unplayed match, which is this one once the regular season is over); a plain
+// click opens this exact matchup — see handlePlayoffLabClick.
+function playoffLabLinksHtml(match) {
+  const link = (team) => {
+    if (!ROSTERED_TEAMS.has(team)) return '';
+    const url = new URL(window.location.href);
+    url.searchParams.delete('player');
+    url.searchParams.set('team', slugify(team));
+    url.searchParams.set('lineup', '1');
+    url.hash = '';
+    return `<a href="${escapeHtml(`${url.pathname}${url.search}`)}" data-lineup-team="${escapeHtml(team)}" data-lineup-round="${match.round || 1}">${escapeHtml(team)}</a>`;
+  };
+  const links = [link(match.home), link(match.away)].filter(Boolean);
+  return links.length ? `<div class="playoff-lab-links">Plan in Lineup Lab: ${links.join(' · ')}</div>` : '';
+}
+
+function handlePlayoffLabClick(event) {
+  if (!isPlainClick(event)) return;
+  const link = event.target.closest('[data-lineup-team]');
+  if (!link) return;
+  const teamName = link.dataset.lineupTeam;
+  const round = Number(link.dataset.lineupRound) || 1;
+  const index = lineupSeasonMatchesForTeam(teamName)
+    .findIndex((match) => match.playoff && (match.round || 1) === round);
+  if (index === -1) return;
+  event.preventDefault();
+  // Set before routing, so handleRoute sees no team change and keeps this
+  // matchup rather than re-defaulting it.
+  lineupLabState.teamA = teamName;
+  lineupLabState.matchupIndex = index;
+  lineupLabState.games = [];
+  resetLineupMode();
+  routeSetByApp = true;
+  setRouteInUrl({ team: slugify(teamName), player: '', lineup: true });
+}
+
 function renderPlayoffs() {
   const playoffs = DATA.playoffs || [];
   const hasPlayoffs = DATA.meta && DATA.meta.hasPlayoffs;
@@ -5074,6 +5155,7 @@ function renderPlayoffs() {
               <span class="mut">${scheduledTime || 'TBD'}</span>
             </div>
             <div class="match-summary">Lineups have not been posted yet.</div>
+            ${playoffLabLinksHtml(m)}
           </div>`;
       }
       const projections = (m.games || []).map((game) => ({
@@ -5105,6 +5187,7 @@ function renderPlayoffs() {
           </div>
           <div class="match-summary">${tally.summary}</div>
           ${renderPendingSubline(posting, tally)}
+          ${playoffLabLinksHtml(m)}
           <details>
             <summary>${posting.complete ? 'Projected game-by-game' : 'Lineup so far'} (${gameCount})</summary>
             <table class="mlog glog">
@@ -5147,19 +5230,11 @@ function renderPlayoffs() {
       </div>`;
   };
 
-  const roundLabels = rounds.length === 1
-    ? ['Playoffs']
-    : rounds.map((r, i) => {
-        if (i === rounds.length - 1) return 'Championship';
-        if (i === rounds.length - 2) return 'Semifinals';
-        return `Round ${r}`;
-      });
-
-  const sectionsHtml = rounds.map((r, i) => {
+  const sectionsHtml = rounds.map((r) => {
     const matchesHtml = byRound.get(r).map(renderPlayoffMatch).join('');
     return `
       <div class="playoff-round">
-        <h3 class="playoff-round-label">${roundLabels[i]}</h3>
+        <h3 class="playoff-round-label">${playoffRoundLabel(r)}</h3>
         ${matchesHtml}
       </div>`;
   }).join('');
@@ -6055,6 +6130,7 @@ function initialize() {
   elements.lineupView?.addEventListener('click', handleDuoClick);
   elements.lineupView?.addEventListener('click', handleDuoSort);
   elements.lineupView?.addEventListener('toggle', handleLineupDuosToggle, true);
+  elements.playoffsHost.addEventListener('click', handlePlayoffLabClick);
   elements.lineupLink?.addEventListener('click', (event) => {
     if (!isPlainClick(event)) return;
     event.preventDefault();

@@ -2286,6 +2286,19 @@ thead th:focus-visible,
   border-bottom: 1px solid var(--line);
 }
 
+/* A pending playoff match's links into the Lineup Lab, one per team. The
+   no-lineup block has no <details> beneath it, so it carries its own bottom
+   padding rather than borrowing that one's. */
+.playoff-lab-links {
+  padding: 4px 14px 6px;
+  color: var(--mut);
+  font-size: 12.5px;
+}
+
+.playoff-lab-links a {
+  color: var(--accent);
+}
+
 .pseed {
   display: inline-block;
   font-size: 11px;
