@@ -2534,11 +2534,13 @@ function renderMatchLogRows(player) {
 const NO_EXPECTATION = Object.freeze({ margin: null, estimated: false });
 
 // options.useSynergy opts into adjusting the margin with each side's real
-// pair chemistry (see pairSynergyFor) — off by default so every existing
-// caller (real-match projections, the player modal's expectation tags) is
-// unaffected; only the Lineup Lab currently opts in, since folding a real
-// modeling change into every projection across the site is a bigger step
-// than was asked for here.
+// pair chemistry (see pairSynergyFor). Every forward-looking projection opts
+// in — pending matches, a player's upcoming games and the Lineup Lab, all via
+// projectPendingGame — so a posted lineup and the same lineup in the Lab
+// project the same. Games already played stay off: synergy is itself a
+// shrunk average of actual-minus-expected over a pair's games, so folding it
+// back into those games' expectations (the upset/exp tags, the partner
+// chemistry table's Expected/g) would be circular.
 function computeExpectedOutcome(nameA, nameB, nameC, nameD, { useSynergy = false } = {}) {
   const ours = [nameA, nameB].map(resolvePlayerRating);
   const theirs = [nameC, nameD].map(resolvePlayerRating);
@@ -2617,6 +2619,7 @@ function describeProjectedOutcome(expectation) {
       resultClass: RESULT_CLASS.neutral,
       estimated: false,
       estimateTag: '',
+      chemistryTag: '',
       marginLabel: EMPTY_VALUE,
       resultLabel: '—',
       displayLabel: '—',
@@ -2625,7 +2628,7 @@ function describeProjectedOutcome(expectation) {
   const marginLabel = formatSignedValue(margin, 1);
   // Only ever populated when the caller opted into useSynergy (see
   // computeExpectedOutcome) and at least one side's pair has real chemistry
-  // data — '' for every non-Lineup-Lab caller, same as today.
+  // data — '' for completed games, which never opt in.
   const chemistryTag = synergy
     ? renderPairChemistryTag([['this pair', synergy.ours, 1], ['the other pair', synergy.theirs, -1]])
     : '';
@@ -2634,6 +2637,7 @@ function describeProjectedOutcome(expectation) {
     resultClass,
     estimated,
     estimateTag: renderEstimateTag(estimated),
+    chemistryTag,
     marginLabel,
     resultLabel: label,
     displayLabel: `${label} (${marginLabel})${chemistryTag}`,
@@ -2675,15 +2679,18 @@ const INCOMPLETE_PROJECTION = Object.freeze({
   resultClass: RESULT_CLASS.neutral,
   estimated: false,
   estimateTag: '',
+  chemistryTag: '',
   marginLabel: EMPTY_VALUE,
   resultLabel: EMPTY_VALUE,
   displayLabel: EMPTY_VALUE,
 });
 
-function projectPendingGame(ourPlayers, theirPlayers, options) {
+// Every game not yet played projects through here, chemistry included (see
+// computeExpectedOutcome), so pending matches and the Lineup Lab agree.
+function projectPendingGame(ourPlayers, theirPlayers) {
   if (!isPairPosted(ourPlayers) || !isPairPosted(theirPlayers)) return INCOMPLETE_PROJECTION;
   return describeProjectedOutcome(
-    computeExpectedOutcome(ourPlayers[0], ourPlayers[1], theirPlayers[0], theirPlayers[1], options),
+    computeExpectedOutcome(ourPlayers[0], ourPlayers[1], theirPlayers[0], theirPlayers[1], { useSynergy: true }),
   );
 }
 
@@ -3161,11 +3168,7 @@ function lineupGameProjection(game) {
   if (duplicateA || duplicateB) {
     return { ...INCOMPLETE_PROJECTION, invalid: true };
   }
-  // Real-match projections elsewhere on the site don't opt into this (see
-  // computeExpectedOutcome) — the Lineup Lab does, since factoring in real
-  // chemistry for a hypothetical pairing is exactly what a captain
-  // experimenting with lineups wants to see.
-  return projectPendingGame(game.a, game.b, { useSynergy: true });
+  return projectPendingGame(game.a, game.b);
 }
 
 // For a game where exactly one side has a full pair chosen and the other
@@ -5010,7 +5013,7 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
         ${renderGameTypeCell(game.t)}
         <td class="l">${renderPendingPair(usPlayers, usSub)}</td>
         <td class="l">${renderPendingPair(themPlayers, themSub)}</td>
-        <td class="${resultClass}">${projection.marginLabel}</td>
+        <td class="${resultClass}">${projection.marginLabel}${projection.chemistryTag}</td>
         <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
       </tr>
     `;
@@ -5090,7 +5093,7 @@ function renderPlayoffs() {
             ${renderGameTypeCell(game.t)}
             <td class="l">${renderPendingPair(game.h, game.hSub)}</td>
             <td class="l">${renderPendingPair(game.a, game.aSub)}</td>
-            <td class="${resultClass}">${projection.marginLabel}</td>
+            <td class="${resultClass}">${projection.marginLabel}${projection.chemistryTag}</td>
             <td class="${resultClass}">${projection.resultLabel}${tally.rowTag(projection)}</td>
           </tr>`;
       }).join('');
