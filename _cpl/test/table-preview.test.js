@@ -39,10 +39,9 @@ test('the largest division draws a preview of each table, with a button for the 
   assert.equal(more.hidden, false);
   assert.match(more.innerHTML, new RegExp(`data-show-all="players">Show all ${players} players<`));
 
-  if (duos > PREVIEW_ROWS + SLACK) {
-    assert.equal(duoRows(document), PREVIEW_ROWS);
-    assert.match(document.getElementById('duohost-more').innerHTML, new RegExp(`Show all ${duos} duos`));
-  }
+  assert.ok(duos > PREVIEW_ROWS + SLACK, `${label}: too few duos to preview`);
+  assert.equal(duoRows(document), PREVIEW_ROWS);
+  assert.match(document.getElementById('duohost-more').innerHTML, new RegExp(`Show all ${duos} duos`));
 });
 
 test('Show all draws every row and removes its button', () => {
@@ -61,7 +60,8 @@ test('Show all draws every row and removes its button', () => {
   assert.equal(document.getElementById('duohost-more').hidden, true);
 });
 
-test('a table within the slack of the limit is drawn whole, with no button', { skip: !small }, () => {
+test('a table within the slack of the limit is drawn whole, with no button', () => {
+  assert.ok(small, `no archived division has ${PREVIEW_ROWS + SLACK} players or fewer`);
   const { context, document, label } = small;
   assert.equal(leaderboardRows(document), context.DATA.players.length, label);
   assert.equal(document.getElementById('body-more').hidden, true, label);

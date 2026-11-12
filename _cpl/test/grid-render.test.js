@@ -71,14 +71,25 @@ test('there are compiled divisions to render', () => {
   assert.ok(DIVISIONS.length > 0);
 });
 
+// The per-division pod test below branches on whether the league published
+// usable pods. Both kinds have to be among the archived divisions, or one
+// branch is checked nowhere while every test still passes.
+test('the archived divisions include both pod-grouped and ungrouped cards', () => {
+  const usablePods = (DATA) => {
+    const reported = (DATA.meta && DATA.meta.reportedPods) || null;
+    return Boolean(reported && reported.length > 1 && DATA.teams.every((team) => team.reportedPod));
+  };
+  const kinds = new Set(DIVISIONS.map((division) => usablePods(compiledData(division))));
+  assert.ok(kinds.has(true), 'no archived division publishes usable pods');
+  assert.ok(kinds.has(false), 'every archived division publishes pods, so the fallback goes unchecked');
+});
+
 DIVISIONS.forEach(({ label, file }) => {
   test(`${label}: both views render`, () => {
     const app = runApp(file);
     const { DATA } = app.context;
 
-    // An upcoming season whose schedule isn't published yet compiles to no
-    // teams at all, and there is no grid to render.
-    if (!DATA.teams.length) return;
+    assert.ok(DATA.teams.length, `${label}: no teams to render`);
 
     const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
     const sizes = podCount <= 1

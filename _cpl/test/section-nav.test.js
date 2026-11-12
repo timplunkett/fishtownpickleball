@@ -210,8 +210,9 @@ function makeLocalStorage(seed) {
   };
 }
 
-// Several tests below need a division with published pods and a week where a
-// team plays twice (the "-multi" cells). Take the first played division that
+// Several tests below need a division where every team has a published pod,
+// across more than one pod, and a week where a team plays twice (the "-multi"
+// cells). Take the first played division that
 // has both, rather than whichever happens to sort first: a small local
 // division has neither, and an upcoming one has no teams at all.
 const DATA_FILE = (() => {
@@ -222,7 +223,9 @@ const DATA_FILE = (() => {
       const key = `${m.week}|${name}`;
       perWeek.set(key, (perWeek.get(key) || 0) + 1);
     }));
-    return teams.some((team) => team.reportedPod) && [...perWeek.values()].some((count) => count > 1);
+    const pods = new Set(teams.map((team) => team.reportedPod));
+    return teams.every((team) => team.reportedPod) && pods.size > 1
+      && [...perWeek.values()].some((count) => count > 1);
   });
   return division ? { leg: division.league, season: division.season, file: division.file } : null;
 })();
@@ -467,7 +470,7 @@ function runApp({
 }
 
 test('there is a compiled division to render', () => {
-  assert.ok(DATA_FILE, 'no compiled division has both published pods and a doubled week — run npm run compile, or loosen DATA_FILE');
+  assert.ok(DATA_FILE, 'no archived division has pods on every team and a doubled week — run npm run compile, or loosen DATA_FILE');
 });
 
 // --- Match block ids -------------------------------------------------------
@@ -763,7 +766,7 @@ test('the strip sits under the team name and above the first section', () => {
 test('the section ids name the kind of panel, not the team', () => {
   const app = runApp();
   const { DATA, renderTeamPage } = app.context;
-  if (DATA.teams.length < 2) return;
+  assert.ok(DATA.teams.length >= 2, 'need two teams to compare');
 
   const pages = DATA.teams.slice(0, 2).map((team) => {
     renderTeamPage(team, { scroll: false });
@@ -819,7 +822,7 @@ test('the standings table names the league\'s own pod, not the scheduling sectio
   const podCount = DATA.meta && DATA.meta.podCount > 1 ? DATA.meta.podCount : 1;
 
   const reported = DATA.teams.filter((team) => team.reportedPod);
-  if (!reported.length) return; // this division publishes no pods
+  assert.ok(reported.length, 'this division publishes no pods');
 
   reported.forEach((team) => {
     assert.equal(teamPodCell(team, podCount), team.reportedPod);
@@ -923,7 +926,7 @@ test('a team page in a division with pods states the overall rank too', () => {
   const app = runApp();
   const { DATA, renderTeamPage, podGroupOf } = app.context;
   const groups = app.context.cardPodGroups();
-  if (groups.length <= 1) return; // undivided: the one rank is already overall
+  assert.ok(groups.length > 1, 'this division is undivided, so there is no pod rank to check');
 
   DATA.teams.forEach((team, index) => {
     renderTeamPage(team, { scroll: false });
@@ -964,6 +967,7 @@ test('a team page names its pod exactly once', () => {
   const app = runApp();
   const { DATA, renderTeamPage } = app.context;
 
+  assert.ok(DATA.teams.some((team) => team.reportedPod), 'this division publishes no pods');
   DATA.teams.forEach((team) => {
     if (!team.reportedPod) return;
     renderTeamPage(team, { scroll: false });

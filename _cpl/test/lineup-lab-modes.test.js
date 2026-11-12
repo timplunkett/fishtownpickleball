@@ -101,7 +101,7 @@ for (const { label, file } of archivedDivisions()) {
   test(`${label}: auto lineups follow the rules and beat or match the posted lineup`, () => {
     const { context } = loadApp(file);
     const found = finishedMatchup(context);
-    if (!found) return;
+    assert.ok(found, `${label}: no finished matchup with games to check`);
     const { team, index, match, side, opp } = found;
     openLab(context, team.name);
     chooseMatchup(context, index);
@@ -115,7 +115,9 @@ for (const { label, file } of archivedDivisions()) {
     );
 
     const auto = context.lineupAutoSpec();
-    if (auto.error) return; // e.g. a posted lineup leaning on subs from other rosters
+    // An archived division never changes, so an error here is a regression,
+    // not a lineup the lab can't model yet.
+    assert.ok(!auto.error, `${label}: ${auto.error}`);
     const { spec } = auto;
     const postedPairs = match.games.map((game) => game[side]);
     const postedNames = new Set(postedPairs.flat());

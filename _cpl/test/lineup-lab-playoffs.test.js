@@ -76,7 +76,8 @@ function teamASlots(html) {
 const found = source();
 const unescape = (text) => text.replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&amp;/g, '&');
 
-test('playoff matches follow the regular season and the lab opens on them', { skip: !found }, () => {
+test('playoff matches follow the regular season and the lab opens on them', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
   const { context, document } = load(found.file, found.teams);
   const [a, b] = found.teams;
   const matches = context.lineupSeasonMatchesForTeam(a);
@@ -98,7 +99,8 @@ test('playoff matches follow the regular season and the lab opens on them', { sk
   assert.deepEqual(slots, JSON.parse(JSON.stringify(last.games.map((game) => game.h))));
 });
 
-test('an unposted playoff match borrows the bracket\'s format, not the regular season\'s', { skip: !found }, () => {
+test('an unposted playoff match borrows the bracket\'s format, not the regular season\'s', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
   const { context, document } = load(found.file, found.teams);
   const [, , c] = found.teams;
   openLab(context, c);
@@ -109,7 +111,8 @@ test('an unposted playoff match borrows the bracket\'s format, not the regular s
   assert.ok(slots.every((pair) => !pair[0] && !pair[1]), 'Team A starts blank');
 });
 
-test('the bracket links each pending match\'s teams into the lab on that matchup', { skip: !found }, () => {
+test('the bracket links each pending match\'s teams into the lab on that matchup', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
   const { context, document } = load(found.file, found.teams);
   const [a, b, c, d] = found.teams;
   const bracket = unescape(document.getElementById('playoffs-host').innerHTML);
@@ -137,7 +140,8 @@ test('the bracket links each pending match\'s teams into the lab on that matchup
   assert.equal(selectedMatchup(view.innerHTML), context.lineupSeasonMatchesForTeam(b).length - 1);
 });
 
-test('playoff rounds are named by their size, counting back from the Championship', { skip: !found }, () => {
+test('playoff rounds are named by their size, counting back from the Championship', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
   const round = (number, ...pairs) => pairs.map(([homeSeed, awaySeed]) => ({ round: number, homeSeed, awaySeed }));
   const labels = (playoffs) => {
     const { context } = loadApp(found.file, { mutate: (DATA) => { DATA.playoffs = playoffs; } });
