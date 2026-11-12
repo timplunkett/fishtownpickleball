@@ -6,12 +6,18 @@ window.DUPR_RATINGS = {
  "2827e15f-71d2-4ced-9841-c5f224f98339": {"rating":3.126,"numericId":6481138878,"provisional":false},
  "2b6f81eb-315c-4313-b515-d21d76d5f3e8": {"rating":2.977,"numericId":5125525287,"provisional":false},
  "2f50700d-74d4-426f-85c9-b894f72096f0": {"rating":3.08,"numericId":6501783670,"provisional":false},
+ "33bedbfd-6715-4614-8662-650a8bc4c678": {"rating":3.038,"numericId":5420309842,"provisional":false},
+ "3b6e4a3b-d867-475c-9418-ea6f854b8dd8": {"rating":2.856,"numericId":6525616208,"provisional":false},
  "4013952e-b72e-4647-a22c-8ce9cf862a9a": {"rating":3.019,"numericId":8329082097,"provisional":false},
  "424616ea-6f2f-40f1-8a36-d7258cc0e10b": {"rating":2.418,"numericId":5081089377,"provisional":false},
  "55b97f25-80ad-4c8f-8b85-f9b4652da585": {"rating":3.202,"numericId":7928960136,"provisional":false},
+ "72954591-9ccc-4961-8505-b9da6cee2320": {"rating":2.847,"numericId":7465944475,"provisional":false},
+ "7494f19a-141d-4c00-8d37-d5e79eca4853": {"rating":2.861,"numericId":7636749225,"provisional":false},
  "779942b7-7f8c-45bd-ba33-9c07bd261d23": {"rating":3.292,"numericId":5915623361,"provisional":false},
  "84f788e0-8287-45f3-a949-efe96138aab1": {"rating":2.912,"numericId":7220363096,"provisional":false},
+ "99913860-615f-4516-8868-f83a2c029221": {"rating":2.719,"numericId":7502858758,"provisional":false},
  "9fb103f4-ed93-40eb-89c8-d33764251654": {"rating":2.912,"numericId":7735954993,"provisional":false},
+ "a7416218-74a3-40c5-9327-97840c949fc4": {"rating":3.3,"numericId":6403966417,"provisional":false},
  "af31bedc-75c0-478f-8d1a-7f8e610e7d5e": {"rating":2.908,"numericId":5990309169,"provisional":false},
  "bd10ce5c-8ee4-4df1-a2f5-20b49a1a8b37": {"rating":2.955,"numericId":8375077422,"provisional":false},
  "ca3da64e-b479-46c8-a6ef-e9a5430c12c5": {"rating":3.311,"numericId":7062799354,"provisional":false},
@@ -19,5 +25,6 @@ window.DUPR_RATINGS = {
  "e870b473-4955-4ccf-82ce-88f72bf2d917": {"rating":3.297,"numericId":5646745918,"provisional":false},
  "eda84f5e-5e1e-4e49-b754-eacf36917f94": {"rating":3.04,"numericId":6003994072,"provisional":false},
  "ee6add19-54b8-42db-b4ea-81ea6c1ec00a": {"rating":3.436,"numericId":5110938274,"provisional":false},
- "fd98430d-66ed-4706-9740-569c723ace62": {"rating":"NR","numericId":5138101261,"provisional":false}
+ "fd98430d-66ed-4706-9740-569c723ace62": {"rating":"NR","numericId":5138101261,"provisional":false},
+ "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3": {"rating":3.104,"numericId":6136001700,"provisional":false}
 };

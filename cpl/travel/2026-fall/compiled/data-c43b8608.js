@@ -79313,104 +79313,12 @@
       ""
      ],
      "a": [
-      "Kate Clow",
-      "Chris Heimerle"
+      "Adora Lam",
+      "C Gwon"
      ],
      "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jane Chang",
-      "Robert Mroz"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Allison Harmony",
-      "Matt Stone"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Barbara Thall",
-      "Gerard Scipione"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kate Clow",
-      "Amanda Gardiner"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Allison Harmony",
-      "Jane Chang"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Robert Mroz",
-      "Robert Lee"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Gerard Scipione",
-      "Chris Heimerle"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jane Chang",
-      "Gerard Scipione"
+      1,
+      0
      ]
     },
     {
@@ -79431,8 +79339,8 @@
       ""
      ],
      "a": [
-      "Allison Harmony",
-      "Robert Mroz"
+      "Debbie Tovitz",
+      "Roberto Marcillo"
      ]
     },
     {
@@ -79442,7 +79350,7 @@
       ""
      ],
      "a": [
-      "Barbara Thall",
+      "Ana Bautista",
       "Chris Heimerle"
      ],
      "aSub": [
@@ -79457,8 +79365,8 @@
       ""
      ],
      "a": [
-      "Jane Chang",
-      "Amanda Gardiner"
+      "Debbie Tovitz",
+      "Ana Bautista"
      ]
     },
     {
@@ -79468,104 +79376,108 @@
       ""
      ],
      "a": [
-      "Allison Harmony",
+      "Kate Clow",
+      "Adora Lam"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Lederman",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "C Gwon",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adora Lam",
+      "Matt Stone"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Debbie Tovitz",
+      "Mark Lederman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ana Bautista",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
       "Kate Clow"
      ]
     },
     {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Robert Lee",
-      "Matt Stone"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Robert Mroz",
-      "Chris Heimerle"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Allison Harmony",
-      "Matt Stone"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Barbara Thall",
-      "Robert Lee"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Amanda Gardiner",
-      "Robert Mroz"
-     ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kate Clow",
-      "Chris Heimerle"
-     ],
-     "aSub": [
-      0,
-      1
-     ]
-    },
-    {
      "t": "female",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Allison Harmony",
-      "Barbara Thall"
-     ]
-    },
-    {
-     "t": "female",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Jane Chang",
-      "Amanda Gardiner"
+      "Ana Bautista",
+      "Debbie Tovitz"
      ]
     },
     {
@@ -79575,12 +79487,8 @@
       ""
      ],
      "a": [
-      "Robert Lee",
-      "Chris Heimerle"
-     ],
-     "aSub": [
-      0,
-      1
+      "Mark Lederman",
+      "C Gwon"
      ]
     },
     {
@@ -79591,7 +79499,26 @@
      ],
      "a": [
       "Matt Stone",
-      "Gerard Scipione"
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adora Lam",
+      "C Gwon"
+     ],
+     "aSub": [
+      1,
+      0
      ]
     },
     {
@@ -79602,7 +79529,22 @@
      ],
      "a": [
       "Kate Clow",
-      "Gerard Scipione"
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ana Bautista",
+      "Roberto Marcillo"
      ]
     },
     {
@@ -79613,32 +79555,106 @@
      ],
      "a": [
       "Amanda Gardiner",
-      "Robert Lee"
+      "Matt Stone"
      ]
     },
     {
-     "t": "mixed",
+     "t": "female",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Jane Chang",
-      "Robert Mroz"
+      "Debbie Tovitz",
+      "Kate Clow"
      ]
     },
     {
-     "t": "mixed",
+     "t": "female",
      "h": [
       "",
       ""
      ],
      "a": [
-      "Barbara Thall",
-      "Chris Heimerle"
+      "Amanda Gardiner",
+      "Adora Lam"
      ],
      "aSub": [
       0,
+      1
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Heimerle",
+      "Matt Stone"
+     ],
+     "aSub": [
+      1,
+      0
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Mark Lederman",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ana Bautista",
+      "Roberto Marcillo"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Amanda Gardiner",
+      "Mark Lederman"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Debbie Tovitz",
+      "C Gwon"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adora Lam",
+      "Chris Heimerle"
+     ],
+     "aSub": [
+      1,
       1
      ]
     },
@@ -79649,8 +79665,8 @@
       ""
      ],
      "a": [
-      "Barbara Thall",
-      "Amanda Gardiner"
+      "Debbie Tovitz",
+      "Kate Clow"
      ]
     },
     {
@@ -79660,8 +79676,8 @@
       ""
      ],
      "a": [
-      "Allison Harmony",
-      "Kate Clow"
+      "Amanda Gardiner",
+      "Ana Bautista"
      ]
     },
     {
@@ -79671,8 +79687,8 @@
       ""
      ],
      "a": [
-      "Robert Mroz",
-      "Gerard Scipione"
+      "Roberto Marcillo",
+      "C Gwon"
      ]
     },
     {
@@ -79683,7 +79699,7 @@
      ],
      "a": [
       "Matt Stone",
-      "Robert Lee"
+      "Mark Lederman"
      ]
     }
    ]
@@ -81308,7 +81324,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-12T05:02:29.332Z";
+  DATA.meta.asOf = "2026-11-12T17:05:50.623Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

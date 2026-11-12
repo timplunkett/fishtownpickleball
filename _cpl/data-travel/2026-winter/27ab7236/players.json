@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 6
+      "ranking": 7
     },
     {
       "playerId": "2c36f9fd-14b2-4be0-b006-331d920b352f",
@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 5
+      "ranking": 6
     },
     {
       "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984",
@@ -102,6 +102,29 @@
       "isSub": false,
       "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
       "teamName": "Forward",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 5
+    },
+    {
+      "playerId": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
+      "firstName": "Aidan",
+      "lastName": "Fredericks",
+      "gender": "Male",
+      "dupr": "8EZJ4W",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
       "wins": 0,
       "losses": 0,
       "gamesPlayed": 0,

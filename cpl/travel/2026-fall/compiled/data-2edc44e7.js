@@ -7475,7 +7475,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 278,
+   "leagueRank": 279,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7504,7 +7504,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 279,
+   "leagueRank": 280,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7533,7 +7533,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 289,
+   "leagueRank": 290,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7562,7 +7562,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 282,
+   "leagueRank": 283,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7591,7 +7591,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 285,
+   "leagueRank": 286,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -7620,7 +7620,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 284,
+   "leagueRank": 285,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -49700,14 +49700,410 @@
    ]
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "Jersey Pickleball Club",
+   "away": "Flemington Blue",
+   "time": "2026-11-14T09:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Bounce Malvern Black",
+   "away": "Flemington Green",
+   "time": "2026-11-14T13:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "ACE Moorestown",
+   "away": "Pickle Place",
+   "time": "2026-11-14T14:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Pultorak",
+      "Jay Rohatgi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Forrest",
+      "Eric Markowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Robert Block"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Marykristin Haskell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Pultorak",
+      "Janine Forrest"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jay Rohatgi",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Robert Block",
+      "Thomas Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Pultorak",
+      "Jay Rohatgi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Janine Forrest",
+      "Eric Markowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alicia Maguire",
+      "Thomas Ross"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Janine Forrest"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alicia Maguire",
+      "Marykristin Haskell"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jay Rohatgi",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Markowitz",
+      "Robert Block"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alicia Maguire",
+      "Eric Markowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Pultorak",
+      "Robert Block"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Thomas Ross"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Janine Forrest"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alicia Maguire",
+      "Gina Pultorak"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jay Rohatgi",
+      "Thomas Ross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Markowitz",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Jay Rohatgi"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Pultorak",
+      "Tom Zentmeyer"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alicia Maguire",
+      "Thomas Ross"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marykristin Haskell",
+      "Robert Block"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Cynthia Eisen",
+      "Marykristin Haskell"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gina Pultorak",
+      "Janine Forrest"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jay Rohatgi",
+      "Thomas Ross"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eric Markowitz",
+      "Tom Zentmeyer"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Palace",
+   "away": "Stelton Sports",
+   "time": "2026-11-14T15:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  }
+ ],
  "extraPlayerIds": {
   "Brooke Obrien": "06b66cca-2292-4bbe-962e-1217c4418e18",
   "Anthony Aloi": "5dbd9fa7-3080-43af-8973-8a83c0da9d56",
   "Virasack Vorabouth": "a478ffa6-7bfc-4c67-9b3d-0aad661a58bc",
   "Joe Palumbo": "b39664c3-1a6e-4493-968f-6e7f7939f694",
   "Alex Miller": "d74d4a67-cb90-44d8-aeea-b48fab564427",
-  "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2"
+  "Yongzhe Tian": "e1a924b8-3b3a-4780-8348-08a730ba61f2",
+  "John Cave": "f93f978f-ba60-44ac-b8dc-9e872af0e5c2"
  },
  "availableSubs": [
   {
@@ -50511,6 +50907,14 @@
    "outsideSub": true
   },
   {
+   "name": "John Cave",
+   "playerId": "f93f978f-ba60-44ac-b8dc-9e872af0e5c2",
+   "gender": "Male",
+   "team": "Flemington Green",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Julio Vidal",
    "playerId": "fc3b9b5a-304a-47b3-bf34-d553c4873ccf",
    "gender": "Male",
@@ -50617,7 +51021,7 @@
    }
   ],
   "divisionSlug": "2edc44e7",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Saturdays",
   "detailFile": "compiled/detail-2edc44e7.js",
   "clubName": "",
@@ -50675,7 +51079,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-09T21:28:45.548Z";
+  DATA.meta.asOf = "2026-11-12T17:01:20.829Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

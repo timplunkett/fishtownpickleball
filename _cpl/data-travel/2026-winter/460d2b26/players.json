@@ -21,7 +21,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 2
+      "ranking": 4
     },
     {
       "playerId": "0d6cc2dc-cb5c-42c2-aea9-d4325622eabe",
@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 14
+      "ranking": 20
     },
     {
       "playerId": "0dbb0642-fc0f-4763-98e1-cdd1815b470d",
@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 10
+      "ranking": 15
     },
     {
       "playerId": "1c3b8ddb-6596-4a83-ac12-05bfbf4610ce",
@@ -90,7 +90,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 17
+      "ranking": 25
+    },
+    {
+      "playerId": "1dc4f38a-9dfe-4fbf-8d96-297ab0d380b3",
+      "firstName": "Sandy",
+      "lastName": "Andersson",
+      "gender": "Female",
+      "dupr": "L59JW5",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
+      "teamName": "Forward",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 1
     },
     {
       "playerId": "2827e15f-71d2-4ced-9841-c5f224f98339",
@@ -113,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 20
+      "ranking": 29
     },
     {
       "playerId": "2b6f81eb-315c-4313-b515-d21d76d5f3e8",
@@ -136,7 +159,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 19
+      "ranking": 27
     },
     {
       "playerId": "2f50700d-74d4-426f-85c9-b894f72096f0",
@@ -159,7 +182,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 15
+      "ranking": 22
+    },
+    {
+      "playerId": "33bedbfd-6715-4614-8662-650a8bc4c678",
+      "firstName": "Kristin",
+      "lastName": "Duva",
+      "gender": "Female",
+      "dupr": "EWJY0W",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 7
+    },
+    {
+      "playerId": "3b6e4a3b-d867-475c-9418-ea6f854b8dd8",
+      "firstName": "Jessica",
+      "lastName": "Kopec",
+      "gender": "Female",
+      "dupr": "EVNO2J",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "52992dbf-1b34-4f11-8860-cad7af0cd0ac",
+      "teamName": "Game On New Jersey",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 12
     },
     {
       "playerId": "4013952e-b72e-4647-a22c-8ce9cf862a9a",
@@ -182,7 +251,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 13
+      "ranking": 19
     },
     {
       "playerId": "424616ea-6f2f-40f1-8a36-d7258cc0e10b",
@@ -205,7 +274,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 9
+      "ranking": 14
     },
     {
       "playerId": "55b97f25-80ad-4c8f-8b85-f9b4652da585",
@@ -228,7 +297,76 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 1
+      "ranking": 3
+    },
+    {
+      "playerId": "7006b707-5a6d-47e7-959c-17dad04b1dbf",
+      "firstName": "Claudine",
+      "lastName": "Ciullo",
+      "gender": "Female",
+      "dupr": "30K0PN",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "52992dbf-1b34-4f11-8860-cad7af0cd0ac",
+      "teamName": "Game On New Jersey",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 5
+    },
+    {
+      "playerId": "72954591-9ccc-4961-8505-b9da6cee2320",
+      "firstName": "Taylor",
+      "lastName": "Leuck",
+      "gender": "Female",
+      "dupr": "Z4MXOD",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+      "teamName": "One Love",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 16
+    },
+    {
+      "playerId": "7494f19a-141d-4c00-8d37-d5e79eca4853",
+      "firstName": "Diana",
+      "lastName": "Tabia",
+      "gender": "Female",
+      "dupr": "X0R64R",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "380119a2-0570-49c7-bfa1-cb739e16d267",
+      "teamName": "One Love",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 28
     },
     {
       "playerId": "779942b7-7f8c-45bd-ba33-9c07bd261d23",
@@ -251,7 +389,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 21
+      "ranking": 31
     },
     {
       "playerId": "84f788e0-8287-45f3-a949-efe96138aab1",
@@ -274,7 +412,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 11
+      "ranking": 17
+    },
+    {
+      "playerId": "99913860-615f-4516-8868-f83a2c029221",
+      "firstName": "Katie",
+      "lastName": "O'Mara",
+      "gender": "Female",
+      "dupr": "0XQWQG",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 21
     },
     {
       "playerId": "9fb103f4-ed93-40eb-89c8-d33764251654",
@@ -297,7 +458,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 16
+      "ranking": 24
+    },
+    {
+      "playerId": "a7416218-74a3-40c5-9327-97840c949fc4",
+      "firstName": "Thao",
+      "lastName": "Tran",
+      "gender": "Female",
+      "dupr": "99RG4E",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "52992dbf-1b34-4f11-8860-cad7af0cd0ac",
+      "teamName": "Game On New Jersey",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 30
     },
     {
       "playerId": "af31bedc-75c0-478f-8d1a-7f8e610e7d5e",
@@ -320,7 +504,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 5
+      "ranking": 9
     },
     {
       "playerId": "bd10ce5c-8ee4-4df1-a2f5-20b49a1a8b37",
@@ -343,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 18
+      "ranking": 26
     },
     {
       "playerId": "ca3da64e-b479-46c8-a6ef-e9a5430c12c5",
@@ -366,7 +550,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 6
+      "ranking": 10
     },
     {
       "playerId": "d324c1b4-fb13-47d4-b380-f8427448308a",
@@ -389,7 +573,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 3
+      "ranking": 6
+    },
+    {
+      "playerId": "e0556f63-d710-456e-812b-8fb7a188fd62",
+      "firstName": "Danielle",
+      "lastName": "Pell",
+      "gender": "Female",
+      "dupr": "XO4Q72",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "52992dbf-1b34-4f11-8860-cad7af0cd0ac",
+      "teamName": "Game On New Jersey",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 23
     },
     {
       "playerId": "e870b473-4955-4ccf-82ce-88f72bf2d917",
@@ -412,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 8
+      "ranking": 13
     },
     {
       "playerId": "eda84f5e-5e1e-4e49-b754-eacf36917f94",
@@ -435,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 4
+      "ranking": 8
     },
     {
       "playerId": "ee6add19-54b8-42db-b4ea-81ea6c1ec00a",
@@ -458,7 +665,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 12
+      "ranking": 18
     },
     {
       "playerId": "fd98430d-66ed-4706-9740-569c723ace62",
@@ -481,7 +688,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 7
+      "ranking": 11
+    },
+    {
+      "playerId": "fee5a8cb-84fc-4d3f-abbe-99d91c2dc9a3",
+      "firstName": "Jennifer",
+      "lastName": "Applebee",
+      "gender": "Female",
+      "dupr": "84GQRK",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "52992dbf-1b34-4f11-8860-cad7af0cd0ac",
+      "teamName": "Game On New Jersey",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 2
     }
   ]
 }

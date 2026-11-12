@@ -1,6 +1,11 @@
 {
   "$values": [
     {
+      "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "teamName": "ACE Moorestown",
+      "pod": "TBD"
+    },
+    {
       "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
       "teamName": "Dill Dinkers Hatboro",
       "pod": "TBD"
@@ -13,6 +18,11 @@
     {
       "teamId": "26e6e0df-027d-4877-a8a4-a7ab984559b9",
       "teamName": "Forward",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "52992dbf-1b34-4f11-8860-cad7af0cd0ac",
+      "teamName": "Game On New Jersey",
       "pod": "TBD"
     },
     {
@@ -48,6 +58,11 @@
     {
       "teamId": "c3d0b322-ef5e-4d0a-9da9-152c62260c2f",
       "teamName": "Picklr Newark",
+      "pod": "TBD"
+    },
+    {
+      "teamId": "8cb7ce38-04e1-4fc3-affe-204e73a9f322",
+      "teamName": "PKLD",
       "pod": "TBD"
     },
     {

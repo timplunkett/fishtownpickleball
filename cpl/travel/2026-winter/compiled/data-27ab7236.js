@@ -11,6 +11,7 @@
   "Aaron Sanchez": "2c36f9fd-14b2-4be0-b006-331d920b352f",
   "Ben CortéS": "4d89659f-a86c-4416-93f2-5c868fe0e984",
   "Seth Kaufmann": "8c5b8075-b7ba-47b5-bee1-1e11cee6c905",
+  "Aidan Fredericks": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
   "Michael Dyba": "c81acb97-fe8a-46b2-a6f5-611133095f5b"
  },
  "availableSubs": [],
@@ -37,7 +38,7 @@
   "reportedPods": []
  }
 };
-  DATA.meta.asOf = "2026-11-08T15:53:56.203Z";
+  DATA.meta.asOf = "2026-11-12T17:06:59.338Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["27ab7236"] = DATA;

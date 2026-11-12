@@ -95356,6 +95356,9 @@
   {
     "matchupId": "860affb3-74cf-4133-8e41-a764a57512cf",
     "details": {
+      "matchupPlayerStats": {
+        "$values": []
+      },
       "lineups": {
         "lineups": {
           "$values": [

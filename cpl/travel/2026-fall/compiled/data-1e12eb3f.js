@@ -18354,6 +18354,36 @@
    }
   },
   {
+   "name": "Premiere Aces",
+   "w": 2,
+   "l": 9,
+   "pf": 5127,
+   "pa": 6399,
+   "gw": 108,
+   "gl": 244,
+   "diff": -1272,
+   "gameDiff": -136,
+   "power": -1.4,
+   "powerRank": 6,
+   "pod": 1,
+   "reportedPod": "Northwest",
+   "podName": "Northwest",
+   "fmt": {
+    "mixed": [
+     46,
+     130
+    ],
+    "male": [
+     33,
+     55
+    ],
+    "female": [
+     29,
+     59
+    ]
+   }
+  },
+  {
    "name": "Flemington Green",
    "w": 2,
    "l": 10,
@@ -18380,36 +18410,6 @@
     "female": [
      32,
      56
-    ]
-   }
-  },
-  {
-   "name": "Premiere Aces",
-   "w": 1,
-   "l": 9,
-   "pf": 5095,
-   "pa": 6399,
-   "gw": 76,
-   "gl": 244,
-   "diff": -1304,
-   "gameDiff": -168,
-   "power": -1.4,
-   "powerRank": 6,
-   "pod": 1,
-   "reportedPod": "Northwest",
-   "podName": "Northwest",
-   "fmt": {
-    "mixed": [
-     30,
-     130
-    ],
-    "male": [
-     25,
-     55
-    ],
-    "female": [
-     21,
-     59
     ]
    }
   },
@@ -18446,13 +18446,13 @@
   {
    "name": "Pickleball Kingdom Hillsborough",
    "w": 0,
-   "l": 11,
+   "l": 12,
    "pf": 3790,
-   "pa": 5280,
+   "pa": 5312,
    "gw": 51,
-   "gl": 205,
-   "diff": -1490,
-   "gameDiff": -154,
+   "gl": 237,
+   "diff": -1522,
+   "gameDiff": -186,
    "power": -1.9,
    "powerRank": 7,
    "pod": 1,
@@ -18461,15 +18461,15 @@
    "fmt": {
     "mixed": [
      28,
-     100
+     116
     ],
     "male": [
      6,
-     58
+     66
     ],
     "female": [
      17,
-     47
+     55
     ]
    }
   }
@@ -100820,15 +100820,22 @@
    "subs": []
   },
   {
-   "result": null,
+   "result": "home",
    "week": 12,
    "home": "Premiere Aces",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-11-07T15:00:00",
-   "complete": false,
+   "complete": true,
+   "homePoints": 32,
+   "awayPoints": 0,
+   "homeGW": 32,
+   "awayGW": 0,
    "games": [
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Doreen Calcagno",
       "John Hans"
@@ -100840,6 +100847,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Roe Palermo",
       "Frank Fama"
@@ -100851,6 +100861,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "April Danks",
       "Jim Ritchie"
@@ -100862,6 +100875,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Paula De Nisc",
       "Felix Soto"
@@ -100873,6 +100889,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Doreen Calcagno",
       "Jen Ritchie"
@@ -100884,6 +100903,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Paula De Nisc",
       "April Danks"
@@ -100895,6 +100917,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Jim Ritchie",
       "Frank Marchiano"
@@ -100906,6 +100931,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Hans",
       "Vlad Feldman"
@@ -100917,6 +100945,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Doreen Calcagno",
       "Frank Fama"
@@ -100928,6 +100959,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Roe Palermo",
       "Frank Marchiano"
@@ -100939,6 +100973,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Paula De Nisc",
       "Vlad Feldman"
@@ -100950,6 +100987,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Jen Ritchie",
       "Felix Soto"
@@ -100961,6 +101001,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "April Danks",
       "Roe Palermo"
@@ -100972,6 +101015,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Doreen Calcagno",
       "Jen Ritchie"
@@ -100983,6 +101029,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Hans",
       "Jim Ritchie"
@@ -100994,6 +101043,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Frank Fama",
       "Frank Marchiano"
@@ -101005,6 +101057,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Roe Palermo",
       "Felix Soto"
@@ -101016,6 +101071,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "April Danks",
       "Vlad Feldman"
@@ -101027,6 +101085,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Jen Ritchie",
       "John Hans"
@@ -101038,6 +101099,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Paula De Nisc",
       "Jim Ritchie"
@@ -101049,6 +101113,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "April Danks",
       "Jen Ritchie"
@@ -101060,6 +101127,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Roe Palermo",
       "Paula De Nisc"
@@ -101071,6 +101141,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "John Hans",
       "Jim Ritchie"
@@ -101082,6 +101155,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Frank Fama",
       "Felix Soto"
@@ -101093,6 +101169,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Jen Ritchie",
       "Vlad Feldman"
@@ -101104,6 +101183,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Roe Palermo",
       "Felix Soto"
@@ -101115,6 +101197,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Doreen Calcagno",
       "Frank Marchiano"
@@ -101126,6 +101211,9 @@
     },
     {
      "t": "mixed",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "April Danks",
       "Frank Fama"
@@ -101137,6 +101225,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "April Danks",
       "Jen Ritchie"
@@ -101148,6 +101239,9 @@
     },
     {
      "t": "female",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Doreen Calcagno",
       "Paula De Nisc"
@@ -101159,6 +101253,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Vlad Feldman",
       "John Hans"
@@ -101170,6 +101267,9 @@
     },
     {
      "t": "male",
+     "ff": 1,
+     "hs": 1,
+     "as": 0,
      "h": [
       "Frank Marchiano",
       "Jim Ritchie"
@@ -101179,7 +101279,8 @@
       ""
      ]
     }
-   ]
+   ],
+   "subs": []
   },
   {
    "result": "home",
@@ -104627,7 +104728,7 @@
   }
  ],
  "meta": {
-  "matchesPlayed": 149,
+  "matchesPlayed": 150,
   "provisionalMatches": 0,
   "weeks": "1-13",
   "totalPlayers": 610,
@@ -104817,7 +104918,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-12T04:59:34.851Z";
+  DATA.meta.asOf = "2026-11-12T17:03:04.921Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

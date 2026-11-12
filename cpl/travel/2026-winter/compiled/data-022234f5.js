@@ -8,25 +8,41 @@
  "extraPlayerIds": {
   "Cole Neimetz": "005c1a4c-4d04-4923-baea-1a720a4082ea",
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
+  "Aadhar Rohila": "05dac392-82dc-4f06-bfea-39887b921722",
+  "Anuj Mehta": "17ae7f68-32f9-4610-8c29-4ffcad3ff0d8",
   "Christopher Venuto": "19d10737-b8cb-4106-9b6d-1c9aced87b19",
   "Marc Pellicane": "1c13f01f-aeb7-45db-9faf-a6567d22bb81",
+  "Michael Taylor": "23871699-a12b-4eb6-89cb-62fec790e3fb",
+  "Joshua Kim": "24c3c526-8dd1-4ed0-adcf-ca7857e8b0ec",
+  "John Price": "26bb625f-1de2-4b78-95d6-de6e7b81fe6a",
+  "Graham Heavenrich": "27d8a10f-ee9b-467c-bf8c-4872ce63de90",
   "Josh Solan": "286a6155-78be-44df-ab99-7c2145620efd",
+  "Josh Knupp": "292c729f-c522-4f41-8208-e1caf7f94498",
   "Jason Van Lieu": "2b9bdb08-5299-4462-b2f3-badf1ff81b85",
   "Keith Goldberg": "37a0fa2c-df0b-4d92-900b-a9f20f441ad8",
   "Jake Anderson": "41e02aef-d06c-4fda-87a1-61d609cec74f",
   "Chris Damato": "445e89c8-a23c-440c-bd3c-7eab366bdd85",
+  "Gage Cvijic": "4572bf15-1066-42b7-ae74-94d6175b1b96",
   "Al Mancini": "51352d99-02ac-4299-abac-a688bfade22f",
   "Derek Callihan": "5eccfff7-0902-4be1-a70e-361ff447bf6a",
   "Craig Frame": "6043b3e3-217d-4ad3-bd5d-db9667b99bbc",
   "Matt Enz": "683d1fdd-2fa0-4775-a8dd-0f733aa9f1a3",
   "Matthew Brigle": "6aa60ea2-e7b6-49d6-80b1-a933dd6c475c",
   "Jordan Demcher": "6d1beb10-bd5c-456f-95b5-1823752e8c62",
+  "Davis Kahl": "76b19538-3ce3-4569-b273-34c14544ce30",
   "Scott Bohrer": "7c8310a8-1a97-4c04-bbc0-519fe4132685",
   "Michael Finkelstein": "861c3f68-2c96-4a96-a75e-645020f73a5c",
   "Harrison Bohrer": "8a4095e6-2a3e-4a88-a6d2-8c1da135ce42",
+  "Ethan Le": "8bfd04ae-7aa7-4373-9302-bd7940a71ebe",
   "Nick Babinsky": "9790dabb-8be3-48df-9fc4-eecb920ec98c",
   "Jon Wheel": "980c2469-2017-4943-bc0d-5c49f0526f85",
+  "Daniel Borgia": "ae3cd925-c856-44dd-9cf5-3a2bd343adf2",
+  "David Brandolph": "be10853a-1f2c-4b56-8fd7-902ddc686401",
+  "Jordan Clever": "d64db065-87c9-4e7f-989b-6f0ec53240c9",
+  "Jake Maske": "dae921b5-d9da-47cb-9f22-0b6863940dd5",
+  "Andrew Martin": "e8b51e9c-3814-42e1-8413-2c1734514ea1",
   "Jim Pagano": "f1012c67-b6ba-4270-8d7a-53a9aa34b7df",
+  "Nicholas Brow": "fdbf0c0b-a961-47e4-abbe-5a56ad7a7bec",
   "Mike Martellacci": "fe5f5565-3a59-4eb6-9857-7dcb007f4900",
   "Dipen Bhatt": "fe8af1d3-ff62-430d-90af-32794cc7b912"
  },
@@ -54,7 +70,7 @@
   "reportedPods": []
  }
 };
-  DATA.meta.asOf = "2026-11-08T15:53:55.940Z";
+  DATA.meta.asOf = "2026-11-12T17:06:58.844Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["022234f5"] = DATA;

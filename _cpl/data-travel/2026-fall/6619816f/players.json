@@ -481,7 +481,7 @@
       "mixedLosses": 3,
       "genderWins": 3,
       "genderLosses": 1,
-      "ranking": 186
+      "ranking": 187
     },
     {
       "playerId": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
@@ -504,7 +504,7 @@
       "mixedLosses": 8,
       "genderWins": 11,
       "genderLosses": 4,
-      "ranking": 27
+      "ranking": 28
     },
     {
       "playerId": "108620c9-1cbb-4ea0-846c-bc781f1decea",
@@ -701,14 +701,14 @@
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "teamName": "ACE Moorestown",
       "wins": 25,
-      "losses": 28,
-      "gamesPlayed": 53,
-      "pointsWon": 956,
-      "totalPointsAgainst": 975,
+      "losses": 29,
+      "gamesPlayed": 54,
+      "pointsWon": 970,
+      "totalPointsAgainst": 996,
       "clutchWins": 11,
       "clutchLosses": 8,
       "mixedWins": 14,
-      "mixedLosses": 14,
+      "mixedLosses": 15,
       "genderWins": 11,
       "genderLosses": 14,
       "ranking": 100
@@ -1322,17 +1322,17 @@
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "teamName": "ACE Moorestown",
       "wins": 41,
-      "losses": 15,
-      "gamesPlayed": 56,
-      "pointsWon": 1094,
-      "totalPointsAgainst": 955,
+      "losses": 14,
+      "gamesPlayed": 55,
+      "pointsWon": 1080,
+      "totalPointsAgainst": 934,
       "clutchWins": 8,
       "clutchLosses": 4,
       "mixedWins": 21,
-      "mixedLosses": 8,
+      "mixedLosses": 7,
       "genderWins": 20,
       "genderLosses": 7,
-      "ranking": 10
+      "ranking": 7
     },
     {
       "playerId": "30cb78cb-f962-40f9-bd02-78d336920431",
@@ -2597,7 +2597,7 @@
       "mixedLosses": 4,
       "genderWins": 12,
       "genderLosses": 10,
-      "ranking": 22
+      "ranking": 21
     },
     {
       "playerId": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
@@ -2942,7 +2942,7 @@
       "mixedLosses": 9,
       "genderWins": 29,
       "genderLosses": 14,
-      "ranking": 9
+      "ranking": 10
     },
     {
       "playerId": "741de6b9-5fe7-49aa-9c55-5ff4050bb7a1",
@@ -3172,7 +3172,7 @@
       "mixedLosses": 3,
       "genderWins": 2,
       "genderLosses": 1,
-      "ranking": 237
+      "ranking": 238
     },
     {
       "playerId": "7d836ecc-e553-4966-9c12-2dc698a545d0",
@@ -3724,7 +3724,7 @@
       "mixedLosses": 1,
       "genderWins": 0,
       "genderLosses": 3,
-      "ranking": 238
+      "ranking": 237
     },
     {
       "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
@@ -4437,7 +4437,7 @@
       "mixedLosses": 5,
       "genderWins": 4,
       "genderLosses": 6,
-      "ranking": 187
+      "ranking": 186
     },
     {
       "playerId": "a2d56e71-3895-4316-9e9e-17565fb62295",
@@ -4518,18 +4518,18 @@
       "isSub": false,
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "teamName": "ACE Moorestown",
-      "wins": 31,
+      "wins": 30,
       "losses": 13,
-      "gamesPlayed": 44,
-      "pointsWon": 849,
-      "totalPointsAgainst": 764,
+      "gamesPlayed": 43,
+      "pointsWon": 828,
+      "totalPointsAgainst": 746,
       "clutchWins": 11,
       "clutchLosses": 2,
       "mixedWins": 19,
       "mixedLosses": 5,
-      "genderWins": 12,
+      "genderWins": 11,
       "genderLosses": 8,
-      "ranking": 21
+      "ranking": 22
     },
     {
       "playerId": "a667ec5e-c910-4115-b4d2-93d2dcfacbe8",
@@ -5081,7 +5081,7 @@
       "mixedLosses": 11,
       "genderWins": 20,
       "genderLosses": 1,
-      "ranking": 7
+      "ranking": 8
     },
     {
       "playerId": "c6a7f237-8e09-45e4-b34e-d179e46b61b1",
@@ -5185,18 +5185,18 @@
       "isSub": false,
       "teamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "teamName": "ACE Moorestown",
-      "wins": 21,
+      "wins": 22,
       "losses": 20,
-      "gamesPlayed": 41,
-      "pointsWon": 760,
-      "totalPointsAgainst": 711,
+      "gamesPlayed": 42,
+      "pointsWon": 781,
+      "totalPointsAgainst": 729,
       "clutchWins": 2,
       "clutchLosses": 8,
       "mixedWins": 11,
       "mixedLosses": 9,
-      "genderWins": 10,
+      "genderWins": 11,
       "genderLosses": 11,
-      "ranking": 64
+      "ranking": 63
     },
     {
       "playerId": "c929f42d-6fd4-4034-888e-ad456cda3063",
@@ -5426,7 +5426,7 @@
       "mixedLosses": 8,
       "genderWins": 16,
       "genderLosses": 8,
-      "ranking": 28
+      "ranking": 27
     },
     {
       "playerId": "d457bcf7-383d-4b25-a7a9-a456e5803087",
@@ -5610,7 +5610,7 @@
       "mixedLosses": 3,
       "genderWins": 17,
       "genderLosses": 12,
-      "ranking": 8
+      "ranking": 9
     },
     {
       "playerId": "e121745d-7833-45f1-965b-67653bd4751e",
@@ -5840,7 +5840,7 @@
       "mixedLosses": 9,
       "genderWins": 8,
       "genderLosses": 5,
-      "ranking": 63
+      "ranking": 64
     },
     {
       "playerId": "f2a53ee2-a602-4e58-8326-6d0624af34af",
