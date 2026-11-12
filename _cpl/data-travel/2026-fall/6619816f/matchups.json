@@ -917,9 +917,9 @@
       "weekNumber": 12,
       "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
       "awayTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 600,
+      "awayPoints": 630,
+      "endResult": "away",
       "scheduledTime": "2026-11-11T19:30:00",
       "homeName": "ACE Moorestown",
       "awayName": "Dill Dinkers Hatboro The Factory"
