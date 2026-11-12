@@ -5068,17 +5068,31 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   `;
 }
 
-// A playoff round's name, from where it sits among the rounds drawn so far: a
-// lone round is just "Playoffs", otherwise the last two are the Championship
-// and Semifinals. Shared by the bracket and the Lineup Lab's matchup picker so
-// the two name a round the same way.
+// A playoff round's name, from how many matches it holds: one is the
+// Championship, two the Semifinals, four the Quarterfinals, then the Round of
+// 16, 32, …. Counting from the round's own size rather than its place among
+// the rounds drawn so far names it correctly before the later rounds exist —
+// the bracket only shows up a round at a time, and a lone first round of four
+// matches is the quarterfinals, not "the playoffs". A bye is listed as a match
+// against no one, so a round with byes still counts out to its full size.
+//
+// The one exception is the medal round (see README "Working out who won"):
+// two matches seeded 1v2 and 3v4 as the last round are the final and the
+// bronze match, not a pair of semi-finals.
+//
+// Shared by the bracket and the Lineup Lab's matchup picker so the two name a
+// round the same way.
 function playoffRoundLabel(round = 1) {
-  const rounds = [...new Set((DATA.playoffs || []).map((match) => match.round || 1))].sort((a, b) => a - b);
-  if (rounds.length <= 1) return 'Playoffs';
-  const index = rounds.indexOf(round || 1);
-  if (index === rounds.length - 1) return 'Championship';
-  if (index === rounds.length - 2) return 'Semifinals';
-  return `Round ${round}`;
+  const playoffs = DATA.playoffs || [];
+  const matches = playoffs.filter((match) => (match.round || 1) === (round || 1));
+  const lastRound = Math.max(...playoffs.map((match) => match.round || 1));
+  const seeds = (match) => [match.homeSeed, match.awaySeed].sort((a, b) => a - b).join('v');
+  const isMedalRound = matches.length === 2 && (round || 1) === lastRound
+    && matches.map(seeds).sort().join(',') === '1v2,3v4';
+  if (matches.length <= 1 || isMedalRound) return 'Championship';
+  if (matches.length === 2) return 'Semifinals';
+  if (matches.length <= 4) return 'Quarterfinals';
+  return `Round of ${2 ** Math.ceil(Math.log2(matches.length * 2))}`;
 }
 
 // The bracket's way into the Lineup Lab: one link per team in a match still to

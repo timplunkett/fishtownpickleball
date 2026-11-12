@@ -89,8 +89,8 @@ test('playoff matches follow the regular season and the lab opens on them', { sk
   const html = document.getElementById('lineupview').innerHTML;
   assert.equal(selectedMatchup(html), matches.length - 1, 'defaults to the unplayed playoff match');
   assert.match(html, /<optgroup label="Regular season">/);
-  assert.match(html, new RegExp(`<optgroup label="Playoffs"><option value="${matches.length - 1}" selected>Playoffs vs `));
-  assert.ok(unescape(html).includes(`Playoffs: ${a} vs ${b} (posted, not yet played).`));
+  assert.match(html, new RegExp(`<optgroup label="Playoffs"><option value="${matches.length - 1}" selected>Semifinals vs `));
+  assert.ok(unescape(html).includes(`Semifinals: ${a} vs ${b} (posted, not yet played).`));
 
   // The posted playoff lineup is what loads, at its own length.
   const slots = teamASlots(unescape(html));
@@ -135,6 +135,31 @@ test('the bracket links each pending match\'s teams into the lab on that matchup
   assert.match(context.location.search, /lineup=1/);
   assert.equal(view.hidden, false);
   assert.equal(selectedMatchup(view.innerHTML), context.lineupSeasonMatchesForTeam(b).length - 1);
+});
+
+test('playoff rounds are named by their size, counting back from the Championship', { skip: !found }, () => {
+  const round = (number, ...pairs) => pairs.map(([homeSeed, awaySeed]) => ({ round: number, homeSeed, awaySeed }));
+  const labels = (playoffs) => {
+    const { context } = loadApp(found.file, { mutate: (DATA) => { DATA.playoffs = playoffs; } });
+    return [...new Set(playoffs.map((match) => match.round))].map((number) => context.playoffRoundLabel(number));
+  };
+  const firstRound = (count) => round(1, ...Array.from({ length: count }, () => [1, 2]));
+
+  // A full 16-team bracket, and the same bracket with only its first round drawn.
+  const full = [...firstRound(8), ...round(2, [1, 2], [1, 3], [1, 2], [1, 3]), ...round(3, [1, 2], [1, 2]), ...round(4, [1, 1])];
+  assert.deepEqual(labels(full), ['Round of 16', 'Quarterfinals', 'Semifinals', 'Championship']);
+  assert.deepEqual(labels(firstRound(8)), ['Round of 16']);
+  assert.deepEqual(labels(firstRound(4)), ['Quarterfinals']);
+  assert.deepEqual(labels(firstRound(16)), ['Round of 32']);
+  // Byes are listed as matches, so a 12-team bracket's first round is still 8.
+  assert.deepEqual(labels(round(1, [1, null], [2, 3], [1, null], [2, 3], [1, null], [2, 3], [1, null], [2, 3])), ['Round of 16']);
+
+  // A final alone, and the medal round — final plus bronze match — are both
+  // the Championship; the same seeds before a later round are semi-finals.
+  assert.deepEqual(labels(round(1, [1, 2])), ['Championship']);
+  assert.deepEqual(labels(round(1, [1, 2], [3, 4])), ['Championship']);
+  assert.deepEqual(labels(round(1, [1, 4], [2, 3])), ['Semifinals']);
+  assert.deepEqual(labels([...round(1, [3, 4], [1, 2]), ...round(2, [1, 1])]), ['Semifinals', 'Championship']);
 });
 
 test('a division without a bracket keeps a flat matchup list', () => {
