@@ -3,6 +3,11 @@
   display: none;
   margin-top: 1em;
   text-align: center;
+
+  // Focused by levels.js only to move screen readers and the viewport.
+  &:focus {
+    outline: none;
+  }
 }
 .level--message {
   display: block;
@@ -15,6 +20,47 @@
 .questions {
   display: none;
   margin: 1em 0;
+}
+
+// Each statement is one big tap target: the whole label toggles the box.
+.question {
+  position: relative;
+  margin-bottom: 0.5em;
+
+  input[type="checkbox"] {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0;
+    accent-color: var(--color-green-pickle);
+  }
+
+  input[type="checkbox"] + label {
+    display: block;
+    padding: 0.85em 1em 0.85em 3em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]:checked + label {
+    background-color: var(--color-green-lime);
+    border-color: var(--color-green-pickle);
+  }
+}
+
+// Easier to hit with a thumb on a phone.
+.button--next input[type="submit"] {
+  width: 100%;
+  padding: 0.75em 1em;
+  font-size: 1em;
+
+  @media (min-width: 30em) {
+    width: auto;
+    min-width: 12em;
+  }
 }
 
 #level-show-all {

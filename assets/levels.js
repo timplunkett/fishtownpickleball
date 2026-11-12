@@ -17,7 +17,12 @@ document.querySelector('.questions').style.display = 'block';
  */
 const displayResult = (level) => {
   document.querySelectorAll('.level-result').forEach(result => result.innerHTML = level);
-  document.querySelector('.level--results').style.display = 'block';
+  const results = document.querySelector('.level--results');
+  results.style.display = 'block';
+  // Bring the result into view (and to screen readers) on small screens,
+  // where it otherwise appears below the fold.
+  results.focus();
+  results.scrollIntoView({ behavior: 'smooth', block: 'center' });
 };
 
 /**
@@ -55,7 +60,7 @@ document.getElementById('level--form').addEventListener('submit', (e) => {
   const results = {};
   for (const [key, entry] of data.entries()) {
     if (key === 'dupr' && !isNaN(entry) && entry >= spicyLevel) {
-      results['fifth'].push(entry);
+      (results['fifth'] ||= []).push(entry);
     }
     if (!results[key]) {
       results[key] = [];

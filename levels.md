@@ -144,7 +144,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
       </div>
       <div class="question">
         <label for="dupr">My <a href="https://www.dupr.com" target="_blank" rel="nofollow">DUPR</a> rating is:</label>
-        <input id="dupr" name="dupr" type="text" />
+        <input id="dupr" name="dupr" type="text" inputmode="decimal" autocomplete="off" />
       </div>
     </div>
     <div class="button button--next">
@@ -152,7 +152,7 @@ You are encouraged to re-take this periodically and to update your result in Dis
     </div>
   </form>
 
-  <div class="level--results">
+  <div class="level--results" tabindex="-1">
     <p><span class="level--message">Your pickleball skill level is <span class="level-result"></span>!</span> <span class="level--instructions">Click <a href="https://discord.gg/6eY7GDZthF" target="_blank" rel="nofollow">here to join our Discord</a> and select <span class="level-result"></span>.</span></p>
   </div>
 </div>
