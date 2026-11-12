@@ -69,6 +69,20 @@ test('renderOtherLeaguesSummary\'s rootPath reaches both leagues\' redirect stub
 // checkout has compiled data for — so a modal can actually be opened on it.
 // Not hard-coded: the roster changes every refetch, and a name baked into this
 // file would eventually point at nobody.
+const playerIdsByFile = new Map();
+function compiledPlayerIds(division) {
+  if (!playerIdsByFile.has(division.file)) {
+    const context = { console };
+    context.window = context;
+    context.globalThis = context;
+    vm.runInNewContext(fs.readFileSync(path.join(CPL, 'compiled', 'shared.js'), 'utf8'), context);
+    vm.runInNewContext(fs.readFileSync(division.file, 'utf8'), context);
+    const players = (context.window.DATA && context.window.DATA.players) || [];
+    playerIdsByFile.set(division.file, new Set(players.map((player) => player.playerId)));
+  }
+  return playerIdsByFile.get(division.file);
+}
+
 function findCrossDivisionPlayer() {
   const context = { console };
   context.window = context;
@@ -90,7 +104,13 @@ function findCrossDivisionPlayer() {
   for (const [playerId, entries] of entriesByPlayerId) {
     const distinctDivisions = new Set(entries.map((e) => `${e.league}/${e.slug}`));
     if (distinctDivisions.size < 2) continue;
-    const home = entries.map((e) => byKey.get(`${e.league}/${e.slug}`)).find(Boolean);
+    // The home division has to actually list the player in DATA.players, not
+    // just be a division the finder index names them in: an upcoming season's
+    // index entries come from registered rosters (extraPlayerIds) before any
+    // player rows exist, so its compiled players array is still empty.
+    const home = entries
+      .map((e) => byKey.get(`${e.league}/${e.slug}`))
+      .find((division) => division && compiledPlayerIds(division).has(playerId));
     if (!home) continue;
     // At least one of the *other* divisions should carry a Rating, so the test
     // can assert the row actually shows one rather than special-casing "if any
