@@ -12985,7 +12985,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 479,
+   "leagueRank": 480,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13014,7 +13014,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 480,
+   "leagueRank": 481,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13043,7 +13043,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 500,
+   "leagueRank": 501,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13072,7 +13072,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 494,
+   "leagueRank": 495,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -13101,7 +13101,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 493,
+   "leagueRank": 494,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -79769,6 +79769,7 @@
   "Isabella Chernin": "48fa1082-3f31-4311-b71e-5da89fdb52d0",
   "Dina Perrella": "4c4297a1-6537-482c-aeee-beb3aa5c3eb1",
   "Tammie Destefano": "4d9ce370-c177-4fea-87a0-089117702814",
+  "Irfan Bokhari": "4f4c067e-83cf-4321-b6ce-25ed57b7f56c",
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
@@ -79781,6 +79782,7 @@
   "Adrienne Burmeister": "df8da1cc-0bf3-493c-b60a-63c9b95f5945",
   "Sheree Ross": "e3a5083d-9c55-4482-be06-647b8e86c504",
   "Mark Kot": "e652b254-402f-46be-90e9-ed5fcd575154",
+  "Bing Zhu": "e6f1ad88-f91d-41ca-9771-833b1f38eff3",
   "Joy Frederick": "e97daa4f-0d54-4e83-87a3-3762d363be43",
   "Gail Welkes": "ef42e106-1059-4976-98c3-daccda942f56",
   "Jack Feinstein": "f0ffbdf3-45d6-4f9a-8173-5f5054eadcfd"
@@ -80183,6 +80185,14 @@
    "playerId": "4e15db5a-174c-4d1a-92b4-340566b5ae93",
    "gender": "Female",
    "team": "Pickleball Kingdom Hillsborough",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Irfan Bokhari",
+   "playerId": "4f4c067e-83cf-4321-b6ce-25ed57b7f56c",
+   "gender": "Male",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -80963,6 +80973,14 @@
    "outsideSub": true
   },
   {
+   "name": "Bing Zhu",
+   "playerId": "e6f1ad88-f91d-41ca-9771-833b1f38eff3",
+   "gender": "Male",
+   "team": "Allstar Pickler",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Joy Frederick",
    "playerId": "e97daa4f-0d54-4e83-87a3-3762d363be43",
    "gender": "Female",
@@ -81290,7 +81308,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-11T23:55:19.072Z";
+  DATA.meta.asOf = "2026-11-12T05:02:29.332Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

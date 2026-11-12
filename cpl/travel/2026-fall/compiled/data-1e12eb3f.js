@@ -16291,7 +16291,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 651,
+   "leagueRank": 652,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16320,7 +16320,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 648,
+   "leagueRank": 649,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16349,7 +16349,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 656,
+   "leagueRank": 657,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16378,7 +16378,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 645,
+   "leagueRank": 646,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16523,7 +16523,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 650,
+   "leagueRank": 651,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16581,7 +16581,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 654,
+   "leagueRank": 655,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -102746,6 +102746,14 @@
    "outsideSub": true
   },
   {
+   "name": "Thomas Musso",
+   "playerId": "08f0cbb6-992f-4643-85bd-bf004ddb0734",
+   "gender": "Male",
+   "team": "Premiere Aces",
+   "isCaptain": false,
+   "outsideSub": false
+  },
+  {
    "name": "Lydia Sun",
    "playerId": "0ac2bb45-b533-43aa-b2c5-e5925cf9a272",
    "gender": "Female",
@@ -104809,7 +104817,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-11T23:52:59.417Z";
+  DATA.meta.asOf = "2026-11-12T04:59:34.851Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
