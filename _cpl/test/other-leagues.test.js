@@ -16,7 +16,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const { CPL, compiledData, compiledDivisions } = require('./helpers/compiled');
+const {
+  CPL, archivedDivisions, compiledData, compiledDivisions, seasonStatus,
+} = require('./helpers/compiled');
 
 const APP_SOURCE = fs.readFileSync(path.join(CPL, 'app.js'), 'utf8');
 
@@ -83,10 +85,13 @@ function findCrossDivisionPlayer() {
   vm.runInNewContext(fs.readFileSync(playerIndexFile, 'utf8'), context);
   const index = context.CPLShared.getPlayerIndex();
 
-  const byKey = new Map(compiledDivisions().map((d) => [`${d.league}/${d.slug}`, d]));
+  // Archived seasons only, on both ends: the home division the modal opens on,
+  // and the rated other division it must show. The index itself spans every
+  // season, but nothing this test asserts may hinge on a live one.
+  const byKey = new Map(archivedDivisions().map((d) => [`${d.league}/${d.slug}`, d]));
   const entriesByPlayerId = new Map();
   index.forEach((entry) => {
-    if (!entry.playerId) return;
+    if (!entry.playerId || seasonStatus(entry.league, entry.season) !== 'archived') return;
     if (!entriesByPlayerId.has(entry.playerId)) entriesByPlayerId.set(entry.playerId, []);
     entriesByPlayerId.get(entry.playerId).push(entry);
   });

@@ -1,6 +1,6 @@
 // The Lineup Lab's availability picker and its auto mode, "Best chance to
 // win". The optimizer is checked against the league's own rules on every
-// compiled division with a finished match, and against the lineup the team
+// archived division with a finished match, and against the lineup the team
 // actually posted: under the same rules it should never give a worse chance of
 // winning the match. Rendered through cpl/app.js.
 const test = require('node:test');
@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const { compiledDivisions, playedDivisions } = require('./helpers/compiled');
+const { archivedDivisions, compiledData, playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
 function openLab(context, teamName) {
@@ -17,6 +17,34 @@ function openLab(context, teamName) {
   context.location.search = `?lineup=1&team=${slug}`;
   context.location.href = `http://x/cpl/travel/?lineup=1&team=${slug}`;
   context.handleRoute();
+}
+
+// Archived divisions are fully played, and posted matchups are read-only in the
+// lab (no availability picker, nothing to wait on). A test that needs an
+// unposted matchup makes one: the team's last regular-season match goes back to
+// unplayed, and the bracket is dropped so that match is the last in the picker.
+// Returns the mutate hook and the reopened match's index in the picker.
+function reopenLastMatch(DATA, teamName) {
+  const involves = (match) => match.home === teamName || match.away === teamName;
+  const count = (DATA.matches || []).filter(involves).length;
+  assert.ok(count, `${teamName} has no regular-season matches to reopen`);
+  return {
+    index: count - 1,
+    mutate: (data) => {
+      data.playoffs = [];
+      const last = data.matches.filter(involves).sort((a, b) => a.week - b.week).pop();
+      Object.assign(last, {
+        complete: false, result: null, games: [], homePoints: 0, awayPoints: 0, homeGW: 0, awayGW: 0,
+      });
+    },
+  };
+}
+
+// A team with a confirmed roster, since a scheduled team need not have one yet.
+function rosteredTeam(DATA) {
+  const team = DATA.teams.find((candidate) => DATA.players.some((player) => player.team === candidate.name));
+  assert.ok(team, 'no team in this division has a roster');
+  return team.name;
 }
 
 function chooseMatchup(context, index) {
@@ -69,7 +97,7 @@ function checkRules(context, pairs, players) {
   return { counts, genders };
 }
 
-for (const { label, file } of compiledDivisions()) {
+for (const { label, file } of archivedDivisions()) {
   test(`${label}: auto lineups follow the rules and beat or match the posted lineup`, () => {
     const { context } = loadApp(file);
     const found = finishedMatchup(context);
@@ -127,7 +155,7 @@ test('the win curve and match chance behave', (t) => {
   t.diagnostic(`k = ${vm.runInContext('LINEUP_WIN_CURVE', context)}`);
 });
 
-const [largest] = compiledDivisions()
+const [largest] = archivedDivisions()
   .map((division) => ({ ...division, ...loadApp(division.file) }))
   .sort((a, b) => b.context.DATA.players.length - a.context.DATA.players.length);
 
@@ -143,20 +171,17 @@ test('the same inputs always produce the same auto lineup', () => {
 });
 
 test('auto modes wait for the opponent\'s full lineup', () => {
-  const { context, document } = loadApp(largest.file);
-  for (const team of context.DATA.teams) {
-    const matches = context.lineupSeasonMatchesForTeam(team.name);
-    const index = matches.findIndex((match) => !match.games?.length);
-    if (index === -1) continue;
-    openLab(context, team.name);
-    chooseMatchup(context, index);
-    const auto = context.lineupAutoResults();
-    assert.ok(auto.waiting, 'reports it is waiting on the opponent');
-    const html = document.getElementById('lineupview').innerHTML;
-    assert.match(html, /data-lineup-mode="best" disabled/);
-    assert.match(html, /Waiting on/);
-    return;
-  }
+  const team = rosteredTeam(compiledData(largest));
+  const { index, mutate } = reopenLastMatch(compiledData(largest), team);
+  const { context, document } = loadApp(largest.file, { mutate });
+  openLab(context, team);
+  chooseMatchup(context, index);
+  assert.ok(!context.lineupSeasonMatchesForTeam(team)[index].games?.length, 'the reopened match still has games');
+  const auto = context.lineupAutoResults();
+  assert.ok(auto.waiting, 'reports it is waiting on the opponent');
+  const html = document.getElementById('lineupview').innerHTML;
+  assert.match(html, /data-lineup-mode="best" disabled/);
+  assert.match(html, /Waiting on/);
 });
 
 test('choosing a mode fills Team A\'s side, and Manual hands back the previous lineup', () => {
@@ -178,13 +203,16 @@ test('choosing a mode fills Team A\'s side, and Manual hands back the previous l
 });
 
 test('unavailable players drop out of the lab\'s dropdowns, Top Duos and the partner chemistry modal', () => {
-  const { context, document } = loadApp(largest.file);
-  const view = document.getElementById('lineupview');
   // A Team A player with a qualified duo partner on the same team.
-  const duo = context.DATA.duos.find((candidate) => candidate.team === context.DATA.teams[0].name)
-    || context.DATA.duos[0];
+  const [duo] = compiledData(largest).duos;
+  assert.ok(duo, 'this division has no qualified duos');
   const team = duo.team;
+  // Availability is only editable on an unposted matchup.
+  const { index, mutate } = reopenLastMatch(compiledData(largest), team);
+  const { context, document } = loadApp(largest.file, { mutate });
+  const view = document.getElementById('lineupview');
   openLab(context, team);
+  chooseMatchup(context, index);
   context.handleLineupLabClick({
     button: 0,
     target: { closest: (selector) => (selector === '[data-lineup-action]' ? { dataset: { lineupAction: 'available-all' } } : null) },
@@ -220,29 +248,38 @@ test('unavailable players drop out of the lab\'s dropdowns, Top Duos and the par
   assert.ok(context.renderPartnerChemistrySection(player).includes(`>${duo.b}</td>`));
 });
 
-test('outside subs start unavailable on an unposted matchup, and "No subs" restores that', () => {
-  const { context, document } = loadApp(largest.file);
-  const view = document.getElementById('lineupview');
-  for (const team of context.DATA.teams) {
-    const subs = context.lineupOutsideSubNames(team.name);
-    const index = context.lineupSeasonMatchesForTeam(team.name).findIndex((match) => !match.games?.length);
-    if (!subs.length || index === -1) continue;
-    openLab(context, team.name);
-    chooseMatchup(context, index);
-    const own = context.lineupRoster(team.name).filter((player) => !player.outsideSub);
-    assert.equal(JSON.stringify([...context.lineupUnavailable()].sort()), JSON.stringify(subs.slice().sort()));
-    assert.match(view.innerHTML, new RegExp(`${own.length} of ${own.length + subs.length} available`));
-
-    const action = (lineupAction) => context.handleLineupLabClick({
-      button: 0,
-      target: { closest: (selector) => (selector === '[data-lineup-action]' ? { dataset: { lineupAction } } : null) },
-    });
-    action('available-all');
-    assert.equal(context.lineupUnavailable().size, 0);
-    action('available-no-subs');
-    assert.equal(JSON.stringify([...context.lineupUnavailable()].sort()), JSON.stringify(subs.slice().sort()));
-    return;
+// The first played division with a team that has outside subs, and that team.
+function teamWithOutsideSubs() {
+  for (const division of playedDivisions()) {
+    const { context } = loadApp(division.file);
+    const team = context.DATA.teams.find((candidate) => context.lineupOutsideSubNames(candidate.name).length);
+    if (team) return { division, team: team.name };
   }
+  return null;
+}
+
+test('outside subs start unavailable on an unposted matchup, and "No subs" restores that', () => {
+  const found = teamWithOutsideSubs();
+  assert.ok(found, 'no archived division has a team with outside subs');
+  const { index, mutate } = reopenLastMatch(compiledData(found.division), found.team);
+  const { context, document } = loadApp(found.division.file, { mutate });
+  const view = document.getElementById('lineupview');
+  const { team } = found;
+  const subs = context.lineupOutsideSubNames(team);
+  openLab(context, team);
+  chooseMatchup(context, index);
+  const own = context.lineupRoster(team).filter((player) => !player.outsideSub);
+  assert.equal(JSON.stringify([...context.lineupUnavailable()].sort()), JSON.stringify(subs.slice().sort()));
+  assert.match(view.innerHTML, new RegExp(`${own.length} of ${own.length + subs.length} available`));
+
+  const action = (lineupAction) => context.handleLineupLabClick({
+    button: 0,
+    target: { closest: (selector) => (selector === '[data-lineup-action]' ? { dataset: { lineupAction } } : null) },
+  });
+  action('available-all');
+  assert.equal(context.lineupUnavailable().size, 0);
+  action('available-no-subs');
+  assert.equal(JSON.stringify([...context.lineupUnavailable()].sort()), JSON.stringify(subs.slice().sort()));
 });
 
 test('the opponent\'s roster lists their lineup first, then who is sitting', () => {
@@ -326,11 +363,12 @@ test('moving the slider sticks until the matchup changes', () => {
 });
 
 test('the bulk availability button stays lit until the checkboxes drift from it', () => {
-  const { context, document } = loadApp(largest.file);
+  const team = rosteredTeam(compiledData(largest));
+  const { index, mutate } = reopenLastMatch(compiledData(largest), team);
+  const { context, document } = loadApp(largest.file, { mutate });
   const view = document.getElementById('lineupview');
-  // A scheduled team need not have a confirmed roster yet; this needs one.
-  const team = context.DATA.teams.find((candidate) => context.lineupRoster(candidate.name).length).name;
   openLab(context, team);
+  chooseMatchup(context, index);
   const lit = () => (view.innerHTML.match(/data-lineup-action="(available-[a-z-]+)" class="active"/g) || [])
     .map((match) => match.match(/available-[a-z-]+/)[0]);
   bulk(context, 'available-none');

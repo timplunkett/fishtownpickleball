@@ -3,7 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const vm = require('node:vm');
 const shared = require('../modules/shared');
-const { compiledDivisions } = require('./helpers/compiled');
+const { archivedDivisions } = require('./helpers/compiled');
 
 const { buildTeamAbbreviations, condenseWords } = shared;
 
@@ -188,11 +188,11 @@ test('degenerate input does not throw', () => {
   assert.equal(typeof punctuation['---'].code, 'string');
 });
 
-// --- Every compiled division, so a data refresh that adds a team surfaces here.
+// --- Every archived division: real team names, frozen so the check is reproducible.
 
 function loadDivisions() {
   const datasets = [];
-  compiledDivisions().forEach(({ label, file }) => {
+  archivedDivisions().forEach(({ label, file }) => {
     const context = { window: { CPL_DATASETS: {} } };
     context.globalThis = context;
     vm.runInNewContext(fs.readFileSync(file, 'utf8'), context);

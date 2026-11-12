@@ -6,7 +6,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { compiledDivisions, playedDivisions } = require('./helpers/compiled');
+const { playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
 // Shorter than any regular-season match, so a borrowed shape is unmistakable.
@@ -14,7 +14,7 @@ const PLAYOFF_GAMES = 8;
 
 // The first division with four teams that have posted a finished match.
 function source() {
-  for (const { file } of compiledDivisions()) {
+  for (const { file } of playedDivisions()) {
     const { context } = loadApp(file);
     const posted = (context.DATA.matches || []).filter((match) => match.complete && match.games?.length);
     const teams = [...new Set(posted.flatMap((match) => [match.home, match.away]))];

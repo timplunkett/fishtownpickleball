@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const { compiledDivisions } = require('./helpers/compiled');
+const { archivedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
 function loadWithDetails(file) {
@@ -23,7 +23,7 @@ function loadWithDetails(file) {
 
 const rowsIn = (markup) => markup.match(/<tr class="partner-row[^"]*"/g) || [];
 
-for (const { label, file } of compiledDivisions()) {
+for (const { label, file } of archivedDivisions()) {
   test(`${label}: every partner gets one row, qualified ones matching Top Duos`, () => {
     const { context } = loadWithDetails(file);
     const duoKey = (a, b) => [a, b].sort().join('|');

@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 
-const { compiledData, compiledDivisions, playedDivisions } = require('./helpers/compiled');
+const { archivedDivisions, compiledData, playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 const { compileDivision } = require('../modules/compiler');
 
@@ -65,7 +65,7 @@ const bodyRowCount = (html) => html
   .split('<tbody>').slice(1)
   .reduce((total, chunk) => total + countTags(chunk.split('</tbody>')[0], 'tr'), 0);
 
-const DIVISIONS = compiledDivisions();
+const DIVISIONS = archivedDivisions();
 
 test('there are compiled divisions to render', () => {
   assert.ok(DIVISIONS.length > 0);

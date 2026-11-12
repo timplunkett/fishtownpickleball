@@ -4,7 +4,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { compiledDivisions } = require('./helpers/compiled');
+const { archivedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
 // Mirrors TABLE_PREVIEW_ROWS / TABLE_PREVIEW_SLACK in cpl/app.js. A top-level
@@ -22,7 +22,7 @@ function clickShowAll(context, document, name) {
   context.handleShowAllClick({ target: { closest: () => ({ dataset: { showAll: name } }) } });
 }
 
-const loaded = compiledDivisions().map(({ label, file }) => ({ label, file, ...loadApp(file) }));
+const loaded = archivedDivisions().map(({ label, file }) => ({ label, file, ...loadApp(file) }));
 const byPlayers = loaded.slice().sort((a, b) => b.context.DATA.players.length - a.context.DATA.players.length);
 const largest = byPlayers[0];
 const small = byPlayers.find((entry) => entry.context.DATA.players.length <= PREVIEW_ROWS + SLACK);

@@ -6,10 +6,10 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { compiledDivisions } = require('./helpers/compiled');
+const { archivedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
-for (const { label, file } of compiledDivisions()) {
+for (const { label, file } of archivedDivisions()) {
   test(`${label}: pending-match projections match the Lineup Lab's`, () => {
     const { context } = loadApp(file);
     const pending = [...(context.DATA.matches || []), ...(context.DATA.playoffs || [])]

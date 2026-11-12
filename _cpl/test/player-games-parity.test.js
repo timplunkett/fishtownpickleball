@@ -30,7 +30,18 @@ const DEFAULT_SLUGS = new Set(['3bb6ae9d', '2c4f7612', 'c1b3f9c1']);
 function divisionsToCheck() {
   const all = cachedDivisions();
   if (process.env.CPL_PARITY_ALL === '1') return all;
-  return all.filter((division) => DEFAULT_SLUGS.has(division.slug));
+  const picked = all.filter((division) => DEFAULT_SLUGS.has(division.slug));
+  // All three, and all archived: a missing one would quietly shrink what this
+  // checks, and a live one would make it depend on the latest refresh.
+  assert.deepEqual(
+    picked.map((division) => division.slug).sort(),
+    [...DEFAULT_SLUGS].sort(),
+    'a default parity division is no longer cached',
+  );
+  picked.forEach((division) => {
+    assert.equal(division.status, 'archived', `${division.league}/${division.season}/${division.slug} is not archived`);
+  });
+  return picked;
 }
 
 // Every name that is empty, or shared by more than one player row — exactly

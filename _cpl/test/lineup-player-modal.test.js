@@ -2,14 +2,14 @@
 // the reader back to the standings: ?player= rides alongside ?lineup=1, and
 // opening or closing the modal leaves the lab's render (and so its scroll
 // position and focus) alone. Rendered through cpl/app.js against the largest
-// compiled division.
+// archived division.
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { compiledDivisions } = require('./helpers/compiled');
+const { archivedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
-const [{ file }] = compiledDivisions()
+const [{ file }] = archivedDivisions()
   .map((division) => ({ ...division, ...loadApp(division.file) }))
   .sort((a, b) => b.context.DATA.players.length - a.context.DATA.players.length);
 

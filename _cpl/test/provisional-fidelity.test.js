@@ -17,7 +17,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { cachedDivisions } = require('./helpers/compiled');
+const { archivedCachedDivisions, cachedDivisions } = require('./helpers/compiled');
 
 const {
   inferGameTarget,
@@ -41,10 +41,15 @@ function readJson(file) {
   return JSON.parse(fs.readFileSync(file, 'utf8'));
 }
 
-// Every cached division across both leagues, as { matchups, details, roster }.
+// Every archived cached division across both leagues, as { matchups, details, roster }.
+// Archived only, so the result moves with the derivation and nothing else; a
+// live season changes under it every refresh. CPL_FIDELITY_ALL=1 adds the
+// current and upcoming seasons, which is how to see whether the league has
+// changed a convention since the last season froze.
 function loadDivisions() {
   const divisions = [];
-  for (const { league, season, slug, dir } of cachedDivisions()) {
+  const source = process.env.CPL_FIDELITY_ALL === '1' ? cachedDivisions() : archivedCachedDivisions();
+  for (const { league, season, slug, dir } of source) {
     {
       const dataDir = `data-${league}/${season}`;
       const matchupsPath = path.join(dir, 'matchups.json');
