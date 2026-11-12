@@ -16,7 +16,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const { CPL, compiledDivisions } = require('./helpers/compiled');
+const { CPL, compiledData, compiledDivisions } = require('./helpers/compiled');
 
 const APP_SOURCE = fs.readFileSync(path.join(CPL, 'app.js'), 'utf8');
 
@@ -69,18 +69,8 @@ test('renderOtherLeaguesSummary\'s rootPath reaches both leagues\' redirect stub
 // checkout has compiled data for — so a modal can actually be opened on it.
 // Not hard-coded: the roster changes every refetch, and a name baked into this
 // file would eventually point at nobody.
-const playerIdsByFile = new Map();
 function compiledPlayerIds(division) {
-  if (!playerIdsByFile.has(division.file)) {
-    const context = { console };
-    context.window = context;
-    context.globalThis = context;
-    vm.runInNewContext(fs.readFileSync(path.join(CPL, 'compiled', 'shared.js'), 'utf8'), context);
-    vm.runInNewContext(fs.readFileSync(division.file, 'utf8'), context);
-    const players = (context.window.DATA && context.window.DATA.players) || [];
-    playerIdsByFile.set(division.file, new Set(players.map((player) => player.playerId)));
-  }
-  return playerIdsByFile.get(division.file);
+  return new Set((compiledData(division).players || []).map((player) => player.playerId));
 }
 
 function findCrossDivisionPlayer() {

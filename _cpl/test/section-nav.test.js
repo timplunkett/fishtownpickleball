@@ -9,7 +9,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
-const { compiledDivisions } = require('./helpers/compiled');
+const { compiledData, playedDivisions } = require('./helpers/compiled');
 
 const CPL = path.join(__dirname, '../../cpl');
 
@@ -210,8 +210,20 @@ function makeLocalStorage(seed) {
   };
 }
 
+// Several tests below need a division with published pods and a week where a
+// team plays twice (the "-multi" cells). Take the first played division that
+// has both, rather than whichever happens to sort first: a small local
+// division has neither, and an upcoming one has no teams at all.
 const DATA_FILE = (() => {
-  const division = compiledDivisions()[0];
+  const division = playedDivisions().find((candidate) => {
+    const { teams, matches } = compiledData(candidate);
+    const perWeek = new Map();
+    matches.forEach((m) => [m.home, m.away].forEach((name) => {
+      const key = `${m.week}|${name}`;
+      perWeek.set(key, (perWeek.get(key) || 0) + 1);
+    }));
+    return teams.some((team) => team.reportedPod) && [...perWeek.values()].some((count) => count > 1);
+  });
   return division ? { leg: division.league, season: division.season, file: division.file } : null;
 })();
 
@@ -455,7 +467,7 @@ function runApp({
 }
 
 test('there is a compiled division to render', () => {
-  assert.ok(DATA_FILE, 'no data-*.js found under cpl/ — run npm run compile');
+  assert.ok(DATA_FILE, 'no compiled division has both published pods and a doubled week — run npm run compile, or loosen DATA_FILE');
 });
 
 // --- Match block ids -------------------------------------------------------

@@ -6,7 +6,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
-const { compiledDivisions } = require('./helpers/compiled');
+const { compiledDivisions, playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
 // Shorter than any regular-season match, so a borrowed shape is unmistakable.
@@ -163,9 +163,10 @@ test('playoff rounds are named by their size, counting back from the Championshi
 });
 
 test('a division without a bracket keeps a flat matchup list', () => {
-  const division = compiledDivisions()[0];
+  const division = playedDivisions()[0];
   const { context, document } = loadApp(division.file, { mutate: (DATA) => { DATA.playoffs = []; } });
-  openLab(context, context.DATA.teams[0].name);
+  // A team that is actually on the schedule, so there are weeks to list.
+  openLab(context, context.DATA.matches[0].home);
   const html = document.getElementById('lineupview').innerHTML;
   assert.doesNotMatch(html, /<optgroup/);
   assert.match(html, /<option value="0"[^>]*>Week /);

@@ -8,6 +8,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const vm = require('node:vm');
 
 const ROOT = path.join(__dirname, '../../..');
 const CPL = path.join(ROOT, 'cpl');
@@ -49,6 +50,34 @@ function compiledDivisions() {
   ));
 }
 
+// A compiled division's DATA, read in a bare sandbox (no app.js). Cached per
+// file: several suites scan every division to pick one to render.
+const dataByFile = new Map();
+function compiledData(division) {
+  if (!dataByFile.has(division.file)) {
+    const context = { window: { CPL_DATASETS: {} } };
+    context.globalThis = context;
+    vm.runInNewContext(fs.readFileSync(division.file, 'utf8'), context, { filename: division.file });
+    dataByFile.set(division.file, context.window.DATA);
+  }
+  return dataByFile.get(division.file);
+}
+
+// Divisions that have actually been played: teams, and at least one finished
+// match with games. An upcoming season compiles to an empty division (no
+// teams, no players, only extraPlayerIds from registered rosters), and a
+// season in its first week has teams but nothing finished. Neither is a
+// reproducible "first division" to render. Use this, not compiledDivisions()[0],
+// when a test needs *a* real division rather than *every* division: the first
+// one in sort order changes whenever a season is added, archived or pruned.
+function playedDivisions() {
+  return compiledDivisions().filter((division) => {
+    const data = compiledData(division);
+    return data && (data.teams || []).length > 0
+      && (data.matches || []).some((match) => match.complete && (match.games || []).length);
+  });
+}
+
 // The compiled dataset for one division slug, whichever season holds it.
 function compiledDivision(slug) {
   return compiledDivisions().find((division) => division.slug === slug) || null;
@@ -70,4 +99,6 @@ function cachedDivisions() {
   });
 }
 
-module.exports = { CPL, LEAGUES, ROOT, cachedDivisions, compiledDivision, compiledDivisions };
+module.exports = {
+  CPL, LEAGUES, ROOT, cachedDivisions, compiledData, compiledDivision, compiledDivisions, playedDivisions,
+};

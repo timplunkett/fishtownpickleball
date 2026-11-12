@@ -23,7 +23,11 @@ test('a player opened from the Lineup Lab opens over the lab, without re-renderi
   const { context, document } = loadApp(file);
   const lineupView = document.getElementById('lineupview');
   const overlay = document.getElementById('overlay');
-  const team = context.DATA.teams[0];
+  // A scheduled team need not have a confirmed roster yet; this needs a
+  // rostered player to click.
+  const team = context.DATA.teams.find((candidate) => (
+    context.DATA.players.some((player) => player.team === candidate.name && player.playerId)
+  ));
   const teamSlug = context.CPLShared.slugify(team.name);
 
   go(context, `?lineup=1&team=${teamSlug}`);

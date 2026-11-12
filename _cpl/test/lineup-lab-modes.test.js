@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const { compiledDivisions } = require('./helpers/compiled');
+const { compiledDivisions, playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 
 function openLab(context, teamName) {
@@ -116,7 +116,7 @@ for (const { label, file } of compiledDivisions()) {
 }
 
 test('the win curve and match chance behave', (t) => {
-  const { context } = loadApp(compiledDivisions()[0].file);
+  const { context } = loadApp(playedDivisions()[0].file);
   assert.equal(context.lineupGameWinChance(0), 0.5);
   assert.equal(context.lineupGameWinChance(null), 0.5);
   assert.ok(Math.abs(context.lineupGameWinChance(3) + context.lineupGameWinChance(-3) - 1) < 1e-12);
@@ -328,7 +328,8 @@ test('moving the slider sticks until the matchup changes', () => {
 test('the bulk availability button stays lit until the checkboxes drift from it', () => {
   const { context, document } = loadApp(largest.file);
   const view = document.getElementById('lineupview');
-  const team = context.DATA.teams[0].name;
+  // A scheduled team need not have a confirmed roster yet; this needs one.
+  const team = context.DATA.teams.find((candidate) => context.lineupRoster(candidate.name).length).name;
   openLab(context, team);
   const lit = () => (view.innerHTML.match(/data-lineup-action="(available-[a-z-]+)" class="active"/g) || [])
     .map((match) => match.match(/available-[a-z-]+/)[0]);

@@ -9,7 +9,7 @@ const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
 
-const { compiledDivision, compiledDivisions } = require('./helpers/compiled');
+const { compiledData, compiledDivisions, playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
 const { compileDivision } = require('../modules/compiler');
 
@@ -398,10 +398,37 @@ test('NEXT marks one fixture per team, not every future one', () => {
 // and the failure was ugly — the by-week grid names each opponent inside the
 // cell, and an opponent the abbreviator never saw arrived as its full
 // 31-character name and took the column with it.
+// Any played division's long-named team will do, as long as some opponent of
+// it plays only that one match in the week (so there is a single, un-doubled
+// cell naming it). It used to be pinned to one team in 3.25 Womens by name,
+// which holds only until that division is recompiled or pruned.
+const escapeRegExp = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function findStrayCandidate() {
+  for (const division of playedDivisions()) {
+    const { teams, matches } = compiledData(division);
+    const perWeek = new Map();
+    matches.forEach((m) => [m.home, m.away].forEach((name) => {
+      const key = `${m.week}|${name}`;
+      perWeek.set(key, (perWeek.get(key) || 0) + 1);
+    }));
+    const stray = teams
+      .map((team) => team.name)
+      .filter((name) => name.length > 12)
+      .find((name) => matches.some((m) => {
+        if (m.home !== name && m.away !== name) return false;
+        const opponent = m.home === name ? m.away : m.home;
+        return perWeek.get(`${m.week}|${opponent}`) === 1;
+      }));
+    if (stray) return { division, stray };
+  }
+  return null;
+}
+
 test('an opponent with no row of its own is still abbreviated', () => {
-  const division = compiledDivision('ad44e3bd');
-  assert.ok(division, 'expected the 3.25 Womens division to be compiled');
-  const stray = 'Pickleball Kingdom Hillsborough';
+  const found = findStrayCandidate();
+  assert.ok(found, 'no played division has a long-named team with a single-fixture week against it');
+  const { division, stray } = found;
+  const strayPattern = escapeRegExp(stray);
 
   // Reproduce what the old compiler emitted: fixtures kept, row dropped.
   const app = runApp(division.file, (DATA) => {
@@ -420,15 +447,15 @@ test('an opponent with no row of its own is still abbreviated', () => {
 
   assert.ok(!html.includes(`>${stray}<`), 'the full name should not appear as cell text');
   assert.ok(html.includes(`title="${stray}"`), 'the full name should survive in a title');
-  assert.match(html, new RegExp(`gkey-item"><b>[A-Z]+</b> ${stray}<`), 'and in the key');
+  assert.match(html, new RegExp(`gkey-item"><b>[A-Z]+</b> ${strayPattern}<`), 'and in the key');
 
   const code = app.context.teamCode(stray);
   assert.ok(code.length <= 8 && code !== stray, `expected a short code, got "${code}"`);
-  assert.match(html, new RegExp(`class="wk opp" title="${stray}">${code}<`));
+  assert.match(html, new RegExp(`class="wk opp" title="${strayPattern}">${escapeRegExp(code)}<`));
 
   // No row and no link to it: there is no team page for the stray to open. The
   // cells naming it still open the row's own team, which does have one.
-  assert.ok(!html.includes('data-team="pickleball-kingdom-hillsborough"'), 'should not link');
+  assert.ok(!html.includes(`data-team="${app.context.CPLShared.slugify(stray)}"`), 'should not link');
   assert.ok(
     !rowsOf(html).some((row) => row.includes(`title="${stray}"><span class="gdot"`)),
     'should have no row of its own',
