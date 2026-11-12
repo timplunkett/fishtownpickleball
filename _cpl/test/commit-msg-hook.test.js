@@ -138,6 +138,15 @@ test('only requires the trailer inside Claude Code', () => {
   accepts(`fix(CPL): Do it\n\n${TRAILER}\n`, { claudeCode: true });
 });
 
+test('rejects a Claude-Session line on any branch, in or out of Claude Code', () => {
+  const session = 'Claude-Session: https://claude.ai/code/session_x';
+  rejects(`fix(CPL): Do it\n\n${TRAILER}\n${session}\n`, {}, /Claude-Session/);
+  rejects(`wip\n\n${TRAILER}\n${session}\n`, { on: 'branch' }, /Claude-Session/);
+  rejects(`wip\n\n${TRAILER}\n${session}\n`, { on: 'branch', claudeCode: true }, /Claude-Session/);
+  rejects(`wip\n\n${TRAILER}\nclaude-session: x\n`, { on: 'branch' }, /Claude-Session/);
+  accepts('fix(CPL): Mention the Claude-Session line in prose\n');
+});
+
 test('leaves non-Claude co-authors alone', () => {
   accepts('fix(CPL): Do it\n\nCo-authored-by: Someone Else <someone@example.com>\n');
 });

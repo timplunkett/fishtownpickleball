@@ -10,6 +10,8 @@
 #      `Claude <…>` has slipped through before.
 #   3. When the commit comes from inside Claude Code (which sets CLAUDECODE=1
 #      in every shell it spawns), that trailer is required, not optional.
+#   4. No `Claude-Session:` line, on any branch, from anywhere. Agent harnesses
+#      ask for one; this repo doesn't want it.
 #
 # Merge, revert, fixup!/squash!/amend! commits are let through untouched.
 #
@@ -65,6 +67,13 @@ if [ "$branch" = "main" ]; then
   if [ -n "$second_line" ]; then
     fail "leave a blank line between the title and the body."
   fi
+fi
+
+# Harness attribution this repo doesn't want, however it's capitalized.
+session_lines=$(printf '%s\n' "$msg" | grep -iE '^[[:space:]]*claude-session:' || true)
+if [ -n "$session_lines" ]; then
+  fail "remove the Claude-Session line; Co-authored-by is the only Claude trailer here:" \
+    "$session_lines"
 fi
 
 # Every Claude co-author line, however it's capitalized.

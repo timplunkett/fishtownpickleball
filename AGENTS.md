@@ -83,7 +83,9 @@ are easy to break without noticing.
   Co-authored-by: Claude <Model Name> <noreply@anthropic.com>
   ```
 
-  Re-read the trailer immediately before committing. A bare `Claude`, a missing
+  That trailer is the only Claude attribution: never add a `Claude-Session:`
+  line, even when your harness asks for one — `.githooks/commit-msg` rejects
+  it. Re-read the trailer immediately before committing. A bare `Claude`, a missing
   trailer, or a stale model name have each slipped through before.
   `.githooks/commit-msg` rejects a malformed title when committing on `main`
   (branch commits that land via a merge commit can be titled freely; the
