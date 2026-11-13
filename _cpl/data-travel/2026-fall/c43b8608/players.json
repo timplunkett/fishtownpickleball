@@ -5383,6 +5383,29 @@
       "ranking": 466
     },
     {
+      "playerId": "7a5d420a-f81b-4765-9afe-48446e811e78",
+      "firstName": "Bruce",
+      "lastName": "Sherman",
+      "gender": "Male",
+      "dupr": "L2JLJZ",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "a2b3fbfa-9aee-4b5a-bfb3-c123d1d43bbd",
+      "teamName": "Montville Dragons",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 502
+    },
+    {
       "playerId": "7b374f2a-8e98-445a-8ac1-f373be68f1e5",
       "firstName": "Jenn",
       "lastName": "Zhang",
@@ -10210,7 +10233,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 503
+      "ranking": 504
     },
     {
       "playerId": "e745841f-fdb4-4c67-bdc7-97aacd76d75c",
@@ -10762,7 +10785,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 502
+      "ranking": 503
     },
     {
       "playerId": "f03105d3-576a-4955-909a-24c18a087d1e",
