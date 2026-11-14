@@ -14580,6 +14580,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Nicholas Vanderveer",
+   "playerId": "4d33c53f-a066-4543-b2cf-313c11165227",
+   "team": "ACE Moorestown",
+   "slug": "cca69ab9",
+   "gender": "Male"
+  },
+  {
    "name": "Nicholas Yandoli",
    "playerId": "5ec3a192-8b1f-43ab-a348-739a0ba15429",
    "team": "Premiere",

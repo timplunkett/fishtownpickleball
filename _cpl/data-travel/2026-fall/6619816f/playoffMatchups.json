@@ -1,3 +1,64 @@
 {
-  "$values": []
+  "$values": [
+    {
+      "matchupId": "43d4b860-80fa-4d7a-9761-5e2dffda62e4",
+      "weekNumber": 1,
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-18T19:00:00",
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "Flemington",
+      "playoffGame": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 4
+    },
+    {
+      "matchupId": "1358ff05-d8be-465f-8b94-f76e25d92a21",
+      "weekNumber": 1,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-18T19:30:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Bounce Philly",
+      "playoffGame": 4,
+      "homePodRanking": 2,
+      "awayPodRanking": 3
+    },
+    {
+      "matchupId": "1c3e3e37-c4c6-48f9-abc6-47a44d8e6668",
+      "weekNumber": 1,
+      "homeTeamId": "fa997f1f-1a5c-4e79-82ce-58281fc682f4",
+      "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-18T19:30:00",
+      "homeName": "Dill Dinkers Hatboro The Factory",
+      "awayName": "ACE Moorestown",
+      "playoffGame": 3,
+      "homePodRanking": 1,
+      "awayPodRanking": 4
+    },
+    {
+      "matchupId": "c58f646d-1d18-4bca-b7ca-c1c22abd7fa0",
+      "weekNumber": 1,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-18T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Monroe",
+      "playoffGame": 2,
+      "homePodRanking": 2,
+      "awayPodRanking": 3
+    }
+  ]
 }

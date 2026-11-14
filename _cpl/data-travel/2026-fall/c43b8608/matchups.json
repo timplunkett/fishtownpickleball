@@ -1397,9 +1397,9 @@
       "weekNumber": 13,
       "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
       "awayTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 590,
+      "awayPoints": 592,
+      "endResult": "away",
       "scheduledTime": "2026-11-14T12:00:00",
       "homeName": "Home Court",
       "awayName": "Pickleball Palace"
