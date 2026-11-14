@@ -1,25 +1,541 @@
 (function () {
   const DATA = {
- "players": [],
- "teams": [],
+ "players": [
+  {
+   "name": "Aaron Sanchez",
+   "gender": "Male",
+   "team": "Forward",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 6,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "2c36f9fd-14b2-4be0-b006-331d920b352f"
+  },
+  {
+   "name": "Aidan Fredericks",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 4,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce"
+  },
+  {
+   "name": "Anthony Solares",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 7,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0adc78f0-0318-418d-bae1-f92d3ca5443d"
+  },
+  {
+   "name": "Ben CortéS",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 2,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4d89659f-a86c-4416-93f2-5c868fe0e984"
+  },
+  {
+   "name": "Jeffrey Cooper",
+   "gender": "Male",
+   "team": "Forward",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 1,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "039bf1ef-ec42-4568-b0c6-49e514e8dba1"
+  },
+  {
+   "name": "Michael Dyba",
+   "gender": "Male",
+   "team": "Forward",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 3,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c81acb97-fe8a-46b2-a6f5-611133095f5b"
+  },
+  {
+   "name": "Seth Kaufmann",
+   "gender": "Male",
+   "team": "Forward",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 5,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "8c5b8075-b7ba-47b5-bee1-1e11cee6c905"
+  }
+ ],
+ "teams": [
+  {
+   "name": "Dill Dinkers Hatboro",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Flemington",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Forward",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Home Court",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Montville",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickle House",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickle Juice Blackwood",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickleball HQ",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Exton",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Newark",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Premiere",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  }
+ ],
  "duos": [],
  "matches": [],
  "playoffs": [],
- "extraPlayerIds": {
-  "Jeffrey Cooper": "039bf1ef-ec42-4568-b0c6-49e514e8dba1",
-  "Anthony Solares": "0adc78f0-0318-418d-bae1-f92d3ca5443d",
-  "Aaron Sanchez": "2c36f9fd-14b2-4be0-b006-331d920b352f",
-  "Ben CortéS": "4d89659f-a86c-4416-93f2-5c868fe0e984",
-  "Seth Kaufmann": "8c5b8075-b7ba-47b5-bee1-1e11cee6c905",
-  "Aidan Fredericks": "a6d48fe9-1e3d-470b-8a0c-6061231f34ce",
-  "Michael Dyba": "c81acb97-fe8a-46b2-a6f5-611133095f5b"
- },
+ "extraPlayerIds": {},
  "availableSubs": [],
  "meta": {
   "matchesPlayed": 0,
   "provisionalMatches": 0,
   "weeks": "",
-  "totalPlayers": 0,
+  "totalPlayers": 7,
   "ratingHistoryWeeks": [],
   "divisionSlug": "27ab7236",
   "hasPlayoffs": false,
@@ -32,10 +548,10 @@
   "seasonLabel": "Winter 2026",
   "seasonStatus": "upcoming",
   "singleGender": "Male",
-  "podCount": 0,
-  "podNames": [],
-  "podSource": "api",
-  "reportedPods": []
+  "podCount": 1,
+  "podNames": null,
+  "podSource": "schedule",
+  "reportedPods": null
  }
 };
   DATA.meta.asOf = "2026-11-12T17:06:59.338Z";

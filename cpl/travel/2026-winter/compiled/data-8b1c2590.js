@@ -1,22 +1,367 @@
 (function () {
   const DATA = {
- "players": [],
- "teams": [],
+ "players": [
+  {
+   "name": "Jake Denooyer",
+   "gender": "Male",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 1,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a314079a-16b7-42f5-be34-41e1672f7377"
+  },
+  {
+   "name": "Juan Uribe",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 4,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7cf43262-2d33-4f82-afba-bf0294000c56"
+  },
+  {
+   "name": "Mark Garner",
+   "gender": "Male",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 2,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3"
+  },
+  {
+   "name": "Rafael Moreano",
+   "gender": "Male",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 3,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "f919968b-e6a7-4ea2-9d1d-049898bf39f4"
+  }
+ ],
+ "teams": [
+  {
+   "name": "Dill Dinkers Hatboro",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Flemington",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Home Court",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Montville",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickle House",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickleball Kingdom Hamilton",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Exton",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Newark",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  }
+ ],
  "duos": [],
  "matches": [],
  "playoffs": [],
- "extraPlayerIds": {
-  "Juan Uribe": "7cf43262-2d33-4f82-afba-bf0294000c56",
-  "Jake Denooyer": "a314079a-16b7-42f5-be34-41e1672f7377",
-  "Mark Garner": "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3",
-  "Rafael Moreano": "f919968b-e6a7-4ea2-9d1d-049898bf39f4"
- },
+ "extraPlayerIds": {},
  "availableSubs": [],
  "meta": {
   "matchesPlayed": 0,
   "provisionalMatches": 0,
   "weeks": "",
-  "totalPlayers": 0,
+  "totalPlayers": 4,
   "ratingHistoryWeeks": [],
   "divisionSlug": "8b1c2590",
   "hasPlayoffs": false,
@@ -29,10 +374,10 @@
   "seasonLabel": "Winter 2026",
   "seasonStatus": "upcoming",
   "singleGender": "Male",
-  "podCount": 0,
-  "podNames": [],
-  "podSource": "api",
-  "reportedPods": []
+  "podCount": 1,
+  "podNames": null,
+  "podSource": "schedule",
+  "reportedPods": null
  }
 };
   DATA.meta.asOf = "2026-11-12T17:07:00.927Z";

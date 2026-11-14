@@ -1,32 +1,773 @@
 (function () {
   const DATA = {
- "players": [],
- "teams": [],
+ "players": [
+  {
+   "name": "Andria Hinton",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 5,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "343d9ed5-c257-4043-98e3-fb3c6c21a537"
+  },
+  {
+   "name": "Betsy Hansbury",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 4,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "708f285b-0855-47a2-a8b4-9c1459f65781"
+  },
+  {
+   "name": "Christina Vuong",
+   "gender": "Female",
+   "team": "Ballers Philly",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 13,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028"
+  },
+  {
+   "name": "Esha Gajjar",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 3,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0"
+  },
+  {
+   "name": "Holli Lish",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 10,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0d736ba1-d552-490a-a21c-8aa58bec268e"
+  },
+  {
+   "name": "Ina Shuaipi",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 11,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "261fdcb3-6c64-4111-ab1b-92c21d2863bd"
+  },
+  {
+   "name": "Jacqueline Ho",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 6,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b"
+  },
+  {
+   "name": "Jodi De Waal",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 2,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "029d9ce1-1951-4439-8ec5-4792ecf1e957"
+  },
+  {
+   "name": "Krystal Johnson",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 7,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a4fb87af-daed-4bc9-9027-2a4b215c060c"
+  },
+  {
+   "name": "Lori Wild",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 14,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa"
+  },
+  {
+   "name": "Margo Langer",
+   "gender": "Female",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 8,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "0ac4f132-2c5c-4a1b-92a6-350f1952aa75"
+  },
+  {
+   "name": "Pamela Toy",
+   "gender": "Female",
+   "team": "Ballers Philly",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 12,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003"
+  },
+  {
+   "name": "Sarah Law",
+   "gender": "Female",
+   "team": "Montville",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 9,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2"
+  },
+  {
+   "name": "Virginie Boutin",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 1,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf"
+  }
+ ],
+ "teams": [
+  {
+   "name": "Ballers Philly",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Dill Dinkers Hatboro",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Flemington",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Home Court",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Montville",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickle House",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickle Juice Blackwood",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Pickleball HQ",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Exton",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Newark",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Picklr Newtown",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
+   "name": "Premiere",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  }
+ ],
  "duos": [],
  "matches": [],
  "playoffs": [],
- "extraPlayerIds": {
-  "Jodi De Waal": "029d9ce1-1951-4439-8ec5-4792ecf1e957",
-  "Margo Langer": "0ac4f132-2c5c-4a1b-92a6-350f1952aa75",
-  "Holli Lish": "0d736ba1-d552-490a-a21c-8aa58bec268e",
-  "Christina Vuong": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
-  "Ina Shuaipi": "261fdcb3-6c64-4111-ab1b-92c21d2863bd",
-  "Andria Hinton": "343d9ed5-c257-4043-98e3-fb3c6c21a537",
-  "Pamela Toy": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
-  "Betsy Hansbury": "708f285b-0855-47a2-a8b4-9c1459f65781",
-  "Jacqueline Ho": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
-  "Esha Gajjar": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
-  "Krystal Johnson": "a4fb87af-daed-4bc9-9027-2a4b215c060c",
-  "Virginie Boutin": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
-  "Sarah Law": "b0666637-423b-42ed-b2a4-02a6d12164c2",
-  "Lori Wild": "b1066a81-7537-4512-939d-5acbf11ef9aa"
- },
+ "extraPlayerIds": {},
  "availableSubs": [],
  "meta": {
   "matchesPlayed": 0,
   "provisionalMatches": 0,
   "weeks": "",
-  "totalPlayers": 0,
+  "totalPlayers": 14,
   "ratingHistoryWeeks": [],
   "divisionSlug": "09475e06",
   "hasPlayoffs": false,
@@ -39,10 +780,10 @@
   "seasonLabel": "Winter 2026",
   "seasonStatus": "upcoming",
   "singleGender": "Female",
-  "podCount": 0,
-  "podNames": [],
-  "podSource": "api",
-  "reportedPods": []
+  "podCount": 1,
+  "podNames": null,
+  "podSource": "schedule",
+  "reportedPods": null
  }
 };
   DATA.meta.asOf = "2026-11-12T17:06:58.208Z";
