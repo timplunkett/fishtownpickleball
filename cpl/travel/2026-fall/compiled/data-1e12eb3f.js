@@ -16465,7 +16465,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 635,
+   "leagueRank": 636,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -16552,7 +16552,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 625,
+   "leagueRank": 626,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -103102,7 +103102,7 @@
      "t": "mixed",
      "h": [
       "Karen Austin",
-      "Joshua Holloway"
+      "Michael Hougentogler"
      ],
      "a": [
       "Heidi Weinroth",
@@ -103135,7 +103135,7 @@
      "t": "mixed",
      "h": [
       "Karen Mcbride",
-      "Chris Owens"
+      "Joshua Holloway"
      ],
      "a": [
       "Audrey Brisson",
@@ -103190,7 +103190,7 @@
      "t": "mixed",
      "h": [
       "Jennifer Genna",
-      "Chris Owens"
+      "Albert Tiegs"
      ],
      "a": [
       "Tina Convery",
@@ -103311,7 +103311,7 @@
      "t": "mixed",
      "h": [
       "Karen Austin",
-      "Chris Owens"
+      "Charles Rhodes"
      ],
      "a": [
       "Audrey Brisson",
@@ -103377,7 +103377,7 @@
      "t": "mixed",
      "h": [
       "Irma Myersdonihoo",
-      "Chris Owens"
+      "Joshua Holloway"
      ],
      "a": [
       "Audrey Brisson",
@@ -103399,7 +103399,7 @@
      "t": "mixed",
      "h": [
       "Karen Mcbride",
-      "Joshua Holloway"
+      "Craig Mclean"
      ],
      "a": [
       "Jenn Allen",
@@ -103432,7 +103432,7 @@
      "t": "male",
      "h": [
       "Joshua Holloway",
-      "Chris Owens"
+      "Albert Tiegs"
      ],
      "a": [
       "Richard Fox",
@@ -105004,6 +105004,7 @@
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
+  "Katie Chu": "4baadcb1-740c-45a3-acc9-20dff40053ee",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
@@ -105023,8 +105024,7 @@
   "Michael Bardello": "de078500-3a0d-4d35-9d54-8ee4fe57eb2a",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
   "Jane Wang": "e4623ed7-3392-4f18-a65e-ed2922aed69d",
-  "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea",
-  "Eve Herman": "f12c8d85-5f93-483c-9763-f33cd6bee8b7"
+  "Eileen Killeen": "edaf31af-06d9-4f4c-a073-0876969e3cea"
  },
  "availableSubs": [
   {
@@ -105616,6 +105616,14 @@
    "playerId": "4ae1cfce-6ee1-4420-ac33-ef90a664935b",
    "gender": "Female",
    "team": "One Love",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Katie Chu",
+   "playerId": "4baadcb1-740c-45a3-acc9-20dff40053ee",
+   "gender": "Female",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -106860,14 +106868,6 @@
    "outsideSub": true
   },
   {
-   "name": "Eve Herman",
-   "playerId": "f12c8d85-5f93-483c-9763-f33cd6bee8b7",
-   "gender": "Female",
-   "team": "Allstar Pickler",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Heather Russo",
    "playerId": "f12d7d68-2a79-4956-9445-755e91408271",
    "gender": "Female",
@@ -107171,7 +107171,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-13T23:02:56.866Z";
+  DATA.meta.asOf = "2026-11-14T04:10:36.916Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

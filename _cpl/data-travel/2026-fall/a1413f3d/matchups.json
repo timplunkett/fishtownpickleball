@@ -49,18 +49,6 @@
       "awayName": "Dill Dinkers Hatboro The Factory"
     },
     {
-      "matchupId": "4cd3a834-f5b1-48dc-a3da-e6428a5475c0",
-      "weekNumber": 1,
-      "homeTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "awayTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "homePoints": 539,
-      "awayPoints": 677,
-      "endResult": "away",
-      "scheduledTime": "2026-08-27T19:30:00",
-      "homeName": "Allstar Pickler",
-      "awayName": "Pickleball Kingdom Watchung"
-    },
-    {
       "matchupId": "ab84ef13-27d1-41d4-9f2a-e96a87ba737e",
       "weekNumber": 1,
       "homeTeamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
@@ -143,18 +131,6 @@
       "scheduledTime": "2026-08-31T19:30:00",
       "homeName": "Ballers Philly",
       "awayName": "Pickle House"
-    },
-    {
-      "matchupId": "9a220cac-38bb-41c3-a53c-ed1d053fe24c",
-      "weekNumber": 2,
-      "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
-      "awayTeamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-09-03T19:00:00",
-      "homeName": "Flemington Green",
-      "awayName": "Allstar Pickler"
     },
     {
       "matchupId": "2a7e73d5-80c2-41ec-8637-88bbdc3e36ce",

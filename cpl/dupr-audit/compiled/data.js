@@ -177,13 +177,6 @@ window.DUPR_AUDIT = {
    "name": "Abraham Telechanski",
    "playerId": "e022118e-9373-4e2a-94f6-391f4fb84a54",
    "team": "Allstar Pickler",
-   "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
-   "name": "Abraham Telechanski",
-   "playerId": "e022118e-9373-4e2a-94f6-391f4fb84a54",
-   "team": "Allstar Pickler",
    "slug": "2edc44e7",
    "gender": "Male"
   },
@@ -3247,13 +3240,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Charley Ma",
-   "playerId": "14c024ce-7dc7-4c38-8c17-3467871220b6",
-   "team": "Allstar Pickler",
-   "slug": "a1413f3d",
-   "gender": "Male"
-  },
-  {
    "name": "Charlie Belluardo",
    "playerId": "cc693656-24c1-45d5-8058-30da8df62609",
    "team": "Monroe",
@@ -6204,13 +6190,6 @@ window.DUPR_AUDIT = {
    "name": "Evelyn Du",
    "playerId": "08547f36-c938-4f82-a783-9c89ab07500c",
    "team": "Allstar Pickler",
-   "slug": "a1413f3d",
-   "gender": "Female"
-  },
-  {
-   "name": "Evelyn Du",
-   "playerId": "08547f36-c938-4f82-a783-9c89ab07500c",
-   "team": "Allstar Pickler",
    "slug": "2edc44e7",
    "gender": "Female"
   },
@@ -6394,13 +6373,6 @@ window.DUPR_AUDIT = {
    "playerId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
    "team": "Allstar Pickler",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Franklin Yiu",
-   "playerId": "020affa0-bff4-49cb-94c0-a9eb9ba09b77",
-   "team": "Allstar Pickler",
-   "slug": "a1413f3d",
    "gender": "Male"
   },
   {
@@ -17167,13 +17139,6 @@ window.DUPR_AUDIT = {
    "playerId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0",
    "team": "Allstar Pickler",
    "slug": "c118b8e9",
-   "gender": "Male"
-  },
-  {
-   "name": "Sean Majury",
-   "playerId": "e41c0cda-fb97-4912-8e8a-fa99ff1725d0",
-   "team": "Allstar Pickler",
-   "slug": "a1413f3d",
    "gender": "Male"
   },
   {

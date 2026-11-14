@@ -4299,7 +4299,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 632
+      "ranking": 633
     },
     {
       "playerId": "4ae1cfce-6ee1-4420-ac33-ef90a664935b",
@@ -4346,6 +4346,29 @@
       "genderWins": 14,
       "genderLosses": 18,
       "ranking": 251
+    },
+    {
+      "playerId": "4baadcb1-740c-45a3-acc9-20dff40053ee",
+      "firstName": "Katie",
+      "lastName": "Chu",
+      "gender": "Female",
+      "dupr": "CPL004",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 623
     },
     {
       "playerId": "4badaa4b-ba4d-4e2b-8bb3-b9d10864142b",
@@ -5104,7 +5127,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 626
+      "ranking": 627
     },
     {
       "playerId": "5a35b4ac-7b94-48d4-bd8f-d9c327751821",
@@ -5357,7 +5380,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 627
+      "ranking": 628
     },
     {
       "playerId": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
@@ -5380,7 +5403,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 624
+      "ranking": 625
     },
     {
       "playerId": "5db691c2-51e1-4500-a9e7-60c0f303f6d0",
@@ -5679,7 +5702,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 631
+      "ranking": 632
     },
     {
       "playerId": "63811fd7-7206-48a8-a427-4463da0fc4f8",
@@ -6576,7 +6599,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 633
+      "ranking": 634
     },
     {
       "playerId": "730e7308-823f-4571-a7da-52806054582c",
@@ -7749,7 +7772,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 629
+      "ranking": 630
     },
     {
       "playerId": "888253bb-161e-4029-9170-1f7002abdbee",
@@ -9405,7 +9428,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 630
+      "ranking": 631
     },
     {
       "playerId": "a314079a-16b7-42f5-be34-41e1672f7377",
@@ -10210,7 +10233,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 634
+      "ranking": 635
     },
     {
       "playerId": "b49f166d-9cd4-4b86-961d-380dd8189a87",
@@ -11291,7 +11314,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 628
+      "ranking": 629
     },
     {
       "playerId": "c6b0c203-9659-494f-993b-dadd300ed3e8",
@@ -11682,7 +11705,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 635
+      "ranking": 636
     },
     {
       "playerId": "cb1a0db3-dc7b-4516-9269-3ccb10e4febf",
@@ -12671,7 +12694,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 623
+      "ranking": 624
     },
     {
       "playerId": "daa313b5-4017-4281-9fb9-b7baabdb5d30",
@@ -13913,7 +13936,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 625
+      "ranking": 626
     },
     {
       "playerId": "ec2ef0a6-432b-411c-ade1-9359c00587ba",
@@ -14167,29 +14190,6 @@
       "genderWins": 3,
       "genderLosses": 1,
       "ranking": 394
-    },
-    {
-      "playerId": "f12c8d85-5f93-483c-9763-f33cd6bee8b7",
-      "firstName": "Eve",
-      "lastName": "Herman",
-      "gender": "Female",
-      "dupr": "CPL002",
-      "isCaptain": false,
-      "isSub": true,
-      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
-      "teamName": "Allstar Pickler",
-      "wins": 0,
-      "losses": 0,
-      "gamesPlayed": 0,
-      "pointsWon": 0,
-      "totalPointsAgainst": 0,
-      "clutchWins": 0,
-      "clutchLosses": 0,
-      "mixedWins": 0,
-      "mixedLosses": 0,
-      "genderWins": 0,
-      "genderLosses": 0,
-      "ranking": 636
     },
     {
       "playerId": "f12d7d68-2a79-4956-9445-755e91408271",
