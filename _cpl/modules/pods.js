@@ -17,7 +17,14 @@ const PLACEHOLDER_POD_NAMES = new Set(['overall', 'tbd', 'n/a', 'none']);
 // (completed + scheduled) so the structure is known before the season ends. This
 // is the grouping standings, seeding and the head-to-head grid all assume, because
 // it's the only one guaranteed to contain every matchup it's asked to display.
+//
+// Before the league posts any fixtures the schedule implies no split at all, so
+// every team shares one section rather than each standing alone in its own.
 function inferPodsFromSchedule(teamArr, matchups) {
+  if (!matchups.some(m => m.homeName && m.awayName)) {
+    const byTeam = new Map(teamArr.map(t => [t.name, 1]));
+    return { byTeam, podCount: byTeam.size ? 1 : 0, podNames: null };
+  }
   const parent = {};
   const seed = name => { if (name && !parent[name]) parent[name] = name; };
   for (const m of matchups) { seed(m.homeName); seed(m.awayName); }

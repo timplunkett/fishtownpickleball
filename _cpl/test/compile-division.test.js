@@ -96,13 +96,20 @@ function writeDivision(dir, opts = {}) {
   }, pendingDetail];
 
   fs.writeFileSync(path.join(dir, 'matchups.json'), JSON.stringify({
-    $values: [...matchups, ...(opts.extraMatchups || [])],
+    $values: opts.noSchedule ? [] : [...matchups, ...(opts.extraMatchups || [])],
   }));
+  // The league's own team list (/teams). Optional, like the real cache: a
+  // division fetched before pods were added has none.
+  if (opts.teamList) {
+    fs.writeFileSync(path.join(dir, 'teams.json'), JSON.stringify({
+      $values: opts.teamList.map((teamName) => ({ teamId: `id-${teamName}`, teamName, pod: 'TBD' })),
+    }));
+  }
   // Callers may append extra roster rows, and reorder the list to stand in for
   // the API handing us the same roster in a different (rank-driven) order.
   const rows = [...players, ...(opts.extraPlayers || [])];
   fs.writeFileSync(path.join(dir, 'players.json'), JSON.stringify({ $values: opts.orderPlayers ? opts.orderPlayers(rows) : rows }));
-  fs.writeFileSync(path.join(dir, 'matchupDetails.json'), JSON.stringify([...matchupDetails, ...(opts.extraMatchupDetails || [])]));
+  fs.writeFileSync(path.join(dir, 'matchupDetails.json'), JSON.stringify(opts.noSchedule ? [] : [...matchupDetails, ...(opts.extraMatchupDetails || [])]));
   fs.writeFileSync(path.join(dir, 'playoffMatchups.json'), JSON.stringify({ $values: [] }));
   fs.writeFileSync(path.join(dir, 'playoffMatchupDetails.json'), JSON.stringify([]));
 }
@@ -269,6 +276,36 @@ test('rostered subs appear on the roster; placeholder teams are still excluded',
   assert.equal(sam.outsideSub, true, 'flagged the same way a sub who has actually played would be');
   assert.equal(data.players.some((p) => p.name === 'Pat Placeholder'), false, 'a placeholder team is not a real roster');
   assert.equal(data.teams.some((team) => team.name === 'Open Play'), false);
+});
+
+test('before any schedule is posted, the league team list stands in for it', (t) => {
+  // Rosters go up weeks before fixtures (2026 Winter travel): matchups.json is
+  // empty, so no team "has matchups". The division must still list its teams
+  // and rostered players, as the Player Finder already does from players.json.
+  const { data } = compileToObjects(t, {
+    noSchedule: true,
+    teamList: ['Aces', 'Bandits', 'Crushers', 'Dinkers'],
+  });
+  assert.deepEqual(data.teams.map((team) => team.name), ['Aces', 'Bandits', 'Crushers', 'Dinkers']);
+  assert.deepEqual(
+    data.players.map((p) => `${p.name}/${p.team}`),
+    ['Abe Anders/Aces', 'Ann Alpha/Aces', 'Bea Bravo/Bandits', 'Ben Boone/Bandits', 'Cal Charlie/Crushers', 'Cat Cortez/Crushers', 'Dan Delta/Dinkers'],
+  );
+  assert.equal(data.matches.length, 0);
+  // With no fixtures there is nothing to split the division on.
+  assert.deepEqual([...new Set(data.teams.map((team) => team.pod))], [1]);
+  // Nobody has played or been named in a lineup, so the sub stays off the
+  // roster, and a team the league does not list is still not a team.
+  assert.equal(data.players.some((p) => p.name === 'Sam Sub'), false);
+  assert.equal(data.players.some((p) => p.name === 'Pat Placeholder'), false);
+});
+
+test('a team on the league list but in no posted fixture is still excluded once a schedule exists', (t) => {
+  const { data } = compileToObjects(t, {
+    teamList: ['Aces', 'Bandits', 'Crushers', 'Dinkers', 'Open Play'],
+  });
+  assert.equal(data.teams.some((team) => team.name === 'Open Play'), false);
+  assert.equal(data.players.some((p) => p.name === 'Pat Placeholder'), false);
 });
 
 test('detail entries exist for players with history and are omitted otherwise', (t) => {

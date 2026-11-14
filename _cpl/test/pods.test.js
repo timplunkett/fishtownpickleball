@@ -27,6 +27,13 @@ test('inferPodsFromSchedule separates disjoint schedule groups', () => {
   assert.notEqual(sections.byTeam.get('A'), sections.byTeam.get('C'));
 });
 
+test('inferPodsFromSchedule puts every team in one pod before any fixture is posted', () => {
+  const teams = teamArr(['A', 'B', 'C']);
+  const sections = inferPodsFromSchedule(teams, []);
+  assert.equal(sections.podCount, 1);
+  assert.deepEqual([...sections.byTeam.values()], [1, 1, 1]);
+});
+
 test('podsFromApi rejects placeholder pod names', () => {
   const teams = teamArr(['A', 'B']);
   assert.equal(podsFromApi(teams, new Map([['A', 'Overall'], ['B', 'Overall']])), null);

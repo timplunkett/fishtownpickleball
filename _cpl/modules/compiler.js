@@ -551,9 +551,21 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // Teams that appear in at least one scheduled or completed matchup — used to
   // filter out placeholder entries (e.g. "Open Play") that exist in the player
   // roster but will never actually compete against anyone.
+  //
+  // Until the league posts a schedule there are no matchups to go by, and the
+  // filter would reject every roster row: the division compiled to no teams and
+  // no players while the Player Finder, which reads players.json directly,
+  // already listed everyone on their new teams (2026 Winter travel, rosters
+  // up weeks before fixtures). With no schedule at all, fall back to the
+  // league's own team list. A placeholder team the league lists there shows up
+  // until fixtures exist; once any matchup is posted the schedule decides again.
   const teamNamesWithMatchups = new Set(
     matchups.flatMap(m => [m.homeName, m.awayName]).filter(Boolean),
   );
+  const awaitingSchedule = !teamNamesWithMatchups.size;
+  if (awaitingSchedule) {
+    for (const name of podNameByTeam.keys()) teamNamesWithMatchups.add(name);
+  }
 
   const TEAMNAME = {};
   const players = new Map();
@@ -831,6 +843,11 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     for (const mu of matchups) {
       if (mu.homeName) ensureTeam(mu.homeName);
       if (mu.awayName) ensureTeam(mu.awayName);
+    }
+    // No schedule yet: the league's team list stands in for it, so a listed
+    // team whose roster is still all subs gets a row the same way.
+    if (awaitingSchedule) {
+      for (const name of teamNamesWithMatchups) ensureTeam(name);
     }
     const teamArr = [...teams.values()].sort((a, b) => a.name.localeCompare(b.name));
     for (const t of teamArr) { t.diff = 0; t.gameDiff = 0; t.fmt = { mixed: [0, 0], male: [0, 0], female: [0, 0] }; t.power = null; }
