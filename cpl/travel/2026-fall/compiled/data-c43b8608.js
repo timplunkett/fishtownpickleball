@@ -13226,6 +13226,35 @@
    "playerId": "4f4c067e-83cf-4321-b6ce-25ed57b7f56c"
   },
   {
+   "name": "Bruce Sherman",
+   "gender": "Male",
+   "team": "Montville Dragons",
+   "matches": 0,
+   "outsideSub": true,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 502,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "7a5d420a-f81b-4765-9afe-48446e811e78"
+  },
+  {
    "name": "Mark Kot",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
@@ -81907,8 +81936,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jess Cox",
+      "Jonathan Basa"
      ],
      "a": [
       "Rita Hung",
@@ -81918,12 +81947,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Bruce Sherman"
      ],
      "a": [
       "Feng Zhang",
       "Bing Zhu"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -81933,8 +81966,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stella Ott",
+      "Stephen Cordaro"
      ],
      "a": [
       "Isabella Chernin",
@@ -81948,8 +81981,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Rempson",
+      "Cesar Fojas"
      ],
      "a": [
       "Haiying Hu",
@@ -81959,8 +81992,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Algozo",
+      "Jess Cox"
      ],
      "a": [
       "Rita Hung",
@@ -81974,8 +82007,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stella Ott",
+      "Janine Thompson"
      ],
      "a": [
       "Haiying Hu",
@@ -81989,8 +82022,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Fojas",
+      "Lance Arlaus"
      ],
      "a": [
       "Paul Rappoport",
@@ -82004,8 +82037,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stephen Cordaro",
+      "Jonathan Basa"
      ],
      "a": [
       "Buyi Zhang",
@@ -82019,8 +82052,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Jonathan Basa"
      ],
      "a": [
       "Rita Hung",
@@ -82030,8 +82063,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jess Cox",
+      "Lance Arlaus"
      ],
      "a": [
       "Feng Zhang",
@@ -82045,8 +82078,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stella Ott",
+      "Stephen Cordaro"
      ],
      "a": [
       "Isabella Chernin",
@@ -82060,19 +82093,23 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Algozo",
+      "Bruce Sherman"
      ],
      "a": [
       "Haiying Hu",
       "Buyi Zhang"
+     ],
+     "hSub": [
+      0,
+      1
      ]
     },
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Jess Cox"
      ],
      "a": [
       "Rita Hung",
@@ -82086,8 +82123,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Algozo",
+      "Denise Rempson"
      ],
      "a": [
       "Haiying Hu",
@@ -82101,12 +82138,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruce Sherman",
+      "Lance Arlaus"
      ],
      "a": [
       "Paul Rappoport",
       "Irfan Bokhari"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -82116,8 +82157,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Stephen Cordaro",
+      "Cesar Fojas"
      ],
      "a": [
       "Buyi Zhang",
@@ -82131,8 +82172,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stella Ott",
+      "Lance Arlaus"
      ],
      "a": [
       "Rita Hung",
@@ -82146,8 +82187,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Algozo",
+      "Cesar Fojas"
      ],
      "a": [
       "Feng Zhang",
@@ -82161,8 +82202,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Rempson",
+      "Stephen Cordaro"
      ],
      "a": [
       "Haiying Hu",
@@ -82176,8 +82217,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jess Cox",
+      "Jonathan Basa"
      ],
      "a": [
       "Isabella Chernin",
@@ -82191,8 +82232,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Denise Rempson"
      ],
      "a": [
       "Rita Hung",
@@ -82202,8 +82243,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stella Ott",
+      "Jess Cox"
      ],
      "a": [
       "Feng Zhang",
@@ -82217,8 +82258,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Fojas",
+      "Lance Arlaus"
      ],
      "a": [
       "Paul Rappoport",
@@ -82232,12 +82273,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruce Sherman",
+      "Jonathan Basa"
      ],
      "a": [
       "Buyi Zhang",
       "Irfan Bokhari"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -82247,8 +82292,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stella Ott",
+      "Cesar Fojas"
      ],
      "a": [
       "Rita Hung",
@@ -82262,8 +82307,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Rempson",
+      "Stephen Cordaro"
      ],
      "a": [
       "Feng Zhang",
@@ -82277,8 +82322,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Jonathan Basa"
      ],
      "a": [
       "Isabella Chernin",
@@ -82292,12 +82337,16 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Christine Algozo",
+      "Bruce Sherman"
      ],
      "a": [
       "Haiying Hu",
       "Irfan Bokhari"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -82307,8 +82356,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Christine Algozo",
+      "Denise Rempson"
      ],
      "a": [
       "Rita Hung",
@@ -82322,8 +82371,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Janine Thompson",
+      "Jess Cox"
      ],
      "a": [
       "Haiying Hu",
@@ -82337,8 +82386,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Fojas",
+      "Jonathan Basa"
      ],
      "a": [
       "Paul Rappoport",
@@ -82352,12 +82401,16 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bruce Sherman",
+      "Lance Arlaus"
      ],
      "a": [
       "Buyi Zhang",
       "Irfan Bokhari"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -83485,7 +83538,6 @@
   "Zhu Liu": "5bfd80e0-fc4e-474c-9d01-50552c569bfe",
   "David Epstein": "73851057-8215-4f46-b594-de9aafc8435f",
   "Trevor Foraker": "76ac11d3-ccdc-4009-b836-99023d2722ca",
-  "Bruce Sherman": "7a5d420a-f81b-4765-9afe-48446e811e78",
   "Mari Kehoe": "82c17d41-9e6e-467c-9de4-2a5dd88b5c73",
   "David King": "86d26f19-6cb9-442b-b089-994609b4fd77",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
@@ -84856,7 +84908,7 @@
   "matchesPlayed": 115,
   "provisionalMatches": 0,
   "weeks": "1-12",
-  "totalPlayers": 482,
+  "totalPlayers": 483,
   "ratingHistoryWeeks": [
    {
     "week": 1,
@@ -85027,7 +85079,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-14T04:11:58.091Z";
+  DATA.meta.asOf = "2026-11-14T12:45:42.271Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
