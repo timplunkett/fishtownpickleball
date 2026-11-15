@@ -18719,7 +18719,7 @@
     "playerId": "4d20f87d-068f-4cce-806d-6941153e72be",
     "firstName": "Luc",
     "lastName": "Legaspi",
-    "dupr": "CPL006",
+    "dupr": "554Q6L",
     "duprRating": "3.801",
     "duprNumericId": 8273301129,
     "duprProvisional": false,
@@ -49432,9 +49432,11 @@
     "playerId": "f12c8d85-5f93-483c-9763-f33cd6bee8b7",
     "firstName": "Nicolas",
     "lastName": "Ha",
-    "dupr": "CPL002",
-    "duprRating": null,
-    "lastSeen": "2026-11"
+    "dupr": "76YXD0",
+    "duprNumericId": 6324828942,
+    "duprRating": "4.250",
+    "lastSeen": "2026-11",
+    "duprProvisional": false
   },
   {
     "playerId": "7a5d420a-f81b-4765-9afe-48446e811e78",
