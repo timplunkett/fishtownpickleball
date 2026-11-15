@@ -99,6 +99,22 @@
     return shared.divisionHref(row.league, row.season, row.slug, '../');
   }
 
+  // A team's own page on its division's dashboard: the ?team= route the
+  // dashboard's own team cards link to, so a name here goes where the same
+  // name goes there.
+  function teamHref(row, name) {
+    return '../' + shared.divisionPath(
+      { league: row.league, season: row.season, slug: row.slug },
+      { team: shared.slugify(name) },
+    );
+  }
+
+  // The title repeats the name because bracket cards cut long ones short.
+  function teamLink(row, name, className) {
+    return '<a class="pname' + (className ? ' ' + className : '') + '" href="' + escapeHtml(teamHref(row, name)) +
+      '" title="' + escapeHtml(name) + '">' + escapeHtml(name) + '</a>';
+  }
+
   // Short names for the round strip on each tile. The full name is its title.
   var ROUND_SHORT = { Championship: 'F', Semifinals: 'SF', Quarterfinals: 'QF' };
   function shortRound(label) {
@@ -252,9 +268,9 @@
     });
   }
 
-  function seeded(name, seed) {
+  function seeded(row, name, seed) {
     var badge = seed != null ? '<span class="pseed">#' + escapeHtml(String(seed)) + '</span> ' : '';
-    return badge + escapeHtml(name);
+    return badge + teamLink(row, name);
   }
 
   function upcomingHtml(rows) {
@@ -276,8 +292,8 @@
             '<td class="po-time">' + escapeHtml(isPast(entry.slot.time) ? formatDay(entry.slot.time) : formatClock(entry.slot.time)) + '</td>' +
             '<td><a class="app-link" href="#' + sectionId(entry.row) + '">' + escapeHtml(divisionLabel(entry.row)) + '</a></td>' +
             '<td class="po-round-cell">' + escapeHtml(entry.round) + '</td>' +
-            '<td class="po-match">' + seeded(entry.slot.home, entry.slot.homeSeed) + ' <span class="po-vs">vs</span> ' +
-              seeded(entry.slot.away, entry.slot.awaySeed) + '</td>' +
+            '<td class="po-match">' + seeded(entry.row, entry.slot.home, entry.slot.homeSeed) + ' <span class="po-vs">vs</span> ' +
+              seeded(entry.row, entry.slot.away, entry.slot.awaySeed) + '</td>' +
             '</tr>';
         }).join('');
     }).join('');
@@ -335,10 +351,10 @@
     return { positions: positions, rows: next };
   }
 
-  function teamLine(name, seed, state, score) {
+  function teamLine(row, name, seed, state, score) {
     return '<div class="pb-team' + (state ? ' is-' + state : '') + '">' +
       '<span class="pb-seed">' + (seed != null ? escapeHtml(String(seed)) : '') + '</span>' +
-      '<span class="pb-name" title="' + escapeHtml(name || '') + '">' + escapeHtml(name || '') + '</span>' +
+      (name ? teamLink(row, name, 'pb-name') : '<span class="pb-name"></span>') +
       '<span class="pb-score">' + (score != null ? escapeHtml(String(score)) : '') + '</span>' +
       '</div>';
   }
@@ -363,30 +379,30 @@
     };
   }
 
-  function cardHtml(rounds, level, index, abbr) {
+  function cardHtml(row, rounds, level, index, abbr) {
     var slot = rounds[level].slots[index];
     var classes = ['pb-card'];
     var lines;
     var meta;
     if (slot.bye) {
       classes.push('is-bye');
-      lines = teamLine(slot.home, slot.homeSeed, 'win', null) + placeholderLine({ text: 'Bye', title: 'No opponent this round' });
+      lines = teamLine(row, slot.home, slot.homeSeed, 'win', null) + placeholderLine({ text: 'Bye', title: 'No opponent this round' });
       meta = 'Through on a bye';
     } else if (slot.projected) {
       classes.push('is-projected');
-      lines = (slot.home ? teamLine(slot.home, null, '', null) : placeholderLine(sideName(rounds, level, slot.from[0], abbr))) +
-        (slot.away ? teamLine(slot.away, null, '', null) : placeholderLine(sideName(rounds, level, slot.from[1], abbr)));
+      lines = (slot.home ? teamLine(row, slot.home, null, '', null) : placeholderLine(sideName(rounds, level, slot.from[0], abbr))) +
+        (slot.away ? teamLine(row, slot.away, null, '', null) : placeholderLine(sideName(rounds, level, slot.from[1], abbr)));
       meta = 'Projected · not posted yet';
     } else if (slot.result) {
       var homeWon = slot.result === 'home';
-      lines = teamLine(slot.home, slot.homeSeed, homeWon ? 'win' : 'loss', slot.homeGW) +
-        teamLine(slot.away, slot.awaySeed, homeWon ? 'loss' : 'win', slot.awayGW);
+      lines = teamLine(row, slot.home, slot.homeSeed, homeWon ? 'win' : 'loss', slot.homeGW) +
+        teamLine(row, slot.away, slot.awaySeed, homeWon ? 'loss' : 'win', slot.awayGW);
       meta = (slot.provisional ? 'Provisional' : 'Final') +
         (slot.homePoints != null ? ' · pts ' + slot.homePoints + '–' + slot.awayPoints : '');
       if (slot.provisional) classes.push('is-provisional');
     } else {
       classes.push('is-pending');
-      lines = teamLine(slot.home, slot.homeSeed, '', null) + teamLine(slot.away, slot.awaySeed, '', null);
+      lines = teamLine(row, slot.home, slot.homeSeed, '', null) + teamLine(row, slot.away, slot.awaySeed, '', null);
       meta = slot.time ? formatWhen(slot.time) : 'Time TBD';
     }
     return { classes: classes.join(' '), html: lines + '<div class="pb-meta">' + escapeHtml(meta) + '</div>' };
@@ -421,7 +437,7 @@
     rounds.forEach(function (round, level) {
       parts.push(heading(round.label, x(level), round.projected));
       round.slots.forEach(function (slot, index) {
-        var card = cardHtml(rounds, level, index, abbr);
+        var card = cardHtml(row, rounds, level, index, abbr);
         parts.push(positioned(card.classes, x(level), y(level, index), card.html));
         if (!slot.from) return;
         var x2 = x(level);
@@ -451,8 +467,7 @@
       var champX = x(rounds.length);
       parts.push(heading('Champion', champX, false));
       parts.push(positioned('pb-card is-champion', champX, finalY,
-        '<span class="pb-trophy" aria-hidden="true">🏆</span><span class="pb-champ-name" title="' +
-        escapeHtml(row.podium[0]) + '">' + escapeHtml(row.podium[0]) + '</span>'));
+        '<span class="pb-trophy" aria-hidden="true">🏆</span>' + teamLink(row, row.podium[0], 'pb-champ-name')));
       paths.push('<path class="is-settled" d="M' + (x(lastLevel) + CARD_W) + ' ' + (finalY + CARD_H / 2) + 'H' + champX + '"/>');
     }
 
@@ -464,7 +479,7 @@
 
   function bronzeHtml(row) {
     if (!row.bronze) return '';
-    var card = cardHtml([{ slots: [row.bronze] }], 0, 0, {});
+    var card = cardHtml(row, [{ slots: [row.bronze] }], 0, 0, {});
     return '<div class="po-bronze"><h4 class="po-sub-head"><span aria-hidden="true">🥉</span> Bronze match</h4>' +
       '<div class="' + card.classes + ' is-static" style="width:' + CARD_W + 'px;height:' + CARD_H + 'px">' +
       card.html + '</div></div>';
@@ -487,7 +502,7 @@
     var body = row.field.map(function (team) {
       return '<tr' + (team.status === 'out' ? ' class="is-out"' : '') + '>' +
         '<td class="po-num">' + (team.seed != null ? escapeHtml(String(team.seed)) : '') + '</td>' +
-        '<th scope="row">' + escapeHtml(team.name) + '</th>' +
+        '<th scope="row">' + teamLink(row, team.name) + '</th>' +
         (hasPods ? '<td>' + escapeHtml(team.pod || '') + '</td>' : '') +
         '<td class="po-num">' + (team.w != null ? team.w + '–' + team.l : '') + '</td>' +
         '<td>' + statusCell(team) + '</td>' +
@@ -515,7 +530,7 @@
       return '<div class="po-pod">' +
         (group.label ? '<h4 class="po-sub-head">' + escapeHtml(group.label) + '</h4>' : '') +
         '<ol class="po-pod-list">' + group.teams.map(function (team) {
-          return '<li><span class="po-pod-name">' + escapeHtml(team.name) + '</span><span class="po-pod-rec">' +
+          return '<li>' + teamLink(row, team.name, 'po-pod-name') + '<span class="po-pod-rec">' +
             team.w + '–' + team.l + '</span></li>';
         }).join('') + '</ol></div>';
     }).join('');

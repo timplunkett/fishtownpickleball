@@ -21,6 +21,7 @@ const {
 } = require('../modules/playoff-outputs');
 const { podiumOf } = require('../modules/archive-outputs');
 const { CPL, archivedDivisions, compiledData } = require('./helpers/compiled');
+const { slugify } = require('../modules/shared');
 const { loadApp } = require('./helpers/app-harness');
 
 // --- Synthetic brackets ----------------------------------------------------------
@@ -321,6 +322,7 @@ function runPage(divisions, { now = Date.UTC(2026, 0, 1, 12) } = {}) {
   const context = {
     document,
     Date: FixedDate,
+    URLSearchParams,
     location: { hash: '', pathname: '/cpl/playoffs/' },
     history: { replaceState() {} },
     addEventListener() {},
@@ -381,6 +383,50 @@ test('the page draws a tile, a section and a bracket for every division', () => 
   assert.ok(html.includes('Next Mon, Jan 5'), 'the regular season\'s next match is missing');
 });
 
+// Every team name on the page goes to that team's page on its own division's
+// dashboard — the ?team= route the dashboard's team cards use — wherever the
+// name appears: bracket, champion, Coming up, the field, and the pod tables.
+test('team names link to their team pages on the division dashboard', () => {
+  const decided = archivedBrackets().find(({ data }) => podiumOf(data).basis === 'playoffs');
+  assert.ok(decided, 'no decided archived bracket to draw');
+  const playoffs = CROSSED_ROUND_1.map((m) => ({ ...m, time: '2026-01-07T19:00:00' }));
+  const divisions = [
+    row({ slug: 'aaaa0001', division: '3.0', ...divisionPlayoffs({ teams: CROSSED_TEAMS, playoffs, matches: [] }) }),
+    row({ slug: 'aaaa0002', division: '3.5', ...divisionPlayoffs(decided.data) }),
+    row({
+      slug: 'aaaa0003',
+      division: '4.0',
+      ...divisionPlayoffs({ teams: [team('Pod Leader', 'A', 9, 1)], meta: {}, matches: [{ complete: false }], playoffs: [] }),
+    }),
+  ];
+  const { html } = runPage(divisions);
+  const escapeRe = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Hrefs are HTML-escaped in the markup, so & reads &amp; here.
+  const linksTo = (cls, name) => html.match(new RegExp(
+    `<a class="${cls}" href="[^"]*team=${escapeRe(slugify(name))}&amp;d=[^"]*" title="${escapeRe(name)}">`, 'g',
+  )) || [];
+
+  // A first-round card and the Coming up row both link A1, to its team page.
+  const a1 = '<a class="pname pb-name" href="../travel/2099-spring/?team=a1&amp;d=aaaa0001" title="A1">';
+  assert.ok(html.includes(a1), 'the bracket card does not link the team to its page');
+  assert.ok(
+    html.includes('<td class="po-match"><span class="pseed">#1</span> <a class="pname" href="../travel/2099-spring/?team=a1&amp;d=aaaa0001"'),
+    'Coming up does not link the team to its page',
+  );
+
+  // Every team in the decided bracket's field is a link, and so is its champion.
+  assert.equal(linksTo('pname pb-champ-name', divisions[1].podium[0]).length, 1, 'the champion is not linked');
+  for (const entry of divisions[1].field) {
+    assert.ok(linksTo('pname', entry.name).length >= 1, `${entry.name} is not linked in the field`);
+  }
+
+  // The pod tables, before there is a bracket.
+  assert.ok(
+    html.includes('<a class="pname po-pod-name" href="../travel/2099-spring/?team=pod-leader&amp;d=aaaa0003" title="Pod Leader">'),
+    'the pod table does not link the team to its page',
+  );
+});
+
 test('a match whose day has passed without a result is awaiting it, not coming up', () => {
   const playoffs = CROSSED_ROUND_1.map((m, index) => ({
     ...m, time: index ? '2026-01-07T19:00:00' : '2025-12-20T19:00:00',
@@ -390,4 +436,19 @@ test('a match whose day has passed without a result is awaiting it, not coming u
   assert.ok(html.includes('Awaiting a result'), 'the stale match is listed as a fixture');
   assert.ok(html.includes('3 playoff matches scheduled · 1 awaiting a result'));
   assert.ok(html.includes('Next Wed, Jan 7'), 'the tile points at the stale match instead of the next one');
+});
+
+// .pb-name is a link on a real team and a plain span on an unfilled side of a
+// projected match. A hover rule on the bare class lit the spans up as well,
+// which read as something to click.
+test('only linked team names answer a hover in the bracket', () => {
+  const css = fs.readFileSync(path.join(CPL, 'home.css'), 'utf8');
+  const hovers = [...css.matchAll(/([^{}]+)\{[^}]*\}/g)]
+    .flatMap(([, selectors]) => selectors.split(','))
+    .map((selector) => selector.trim())
+    .filter((selector) => /\.pb-(name|champ-name)[^,]*:hover/.test(selector));
+  assert.ok(hovers.length, 'no hover rule for bracket team names — the scan stopped matching');
+  hovers.forEach((selector) => {
+    assert.match(selector, /a\.pb-(name|champ-name):hover/, `${selector} also lights up plain-text sides`);
+  });
 });

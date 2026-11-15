@@ -865,9 +865,14 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 .pb-team.is-loss .pb-name,
 .pb-team.is-loss .pb-score { color: var(--mut); }
 
-.pb-team.is-loss .pb-name { text-decoration: line-through; text-decoration-color: rgb(139 151 166 / 50%); }
-
 .pb-team.is-tbd .pb-name { color: var(--mut); font-style: italic; }
+
+/* Team names are links to their team pages (.pname, in styles.css). The win
+   and loss colours above outrank its hover, so hover is restated here — on the
+   links only. An unfilled side ("TBD", "PKLD / PK·Hillsbor") is a .pb-name
+   span with nothing behind it, and must not answer a hover. */
+.pb-team a.pb-name:hover,
+.pb-card a.pb-champ-name:hover { color: var(--accent); }
 
 .pb-meta {
   padding: 1px 8px 0 28px;
