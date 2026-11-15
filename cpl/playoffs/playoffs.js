@@ -243,28 +243,48 @@
 
   // --- Coming up -------------------------------------------------------------------
   //
-  // Every posted playoff match still to be played, across every division, in
-  // the order they happen. The question a reader arrives with on a playoff week
-  // is "who is playing tonight", and the answer used to take a visit to each
-  // division's dashboard in turn.
+  // Every posted playoff match still to be played, across every division. The
+  // question a reader arrives with on a playoff week is "who is playing
+  // tonight", and the answer used to take a visit to each division's dashboard
+  // in turn.
+  //
+  // Grouped by day, then by division within the day, then by time. Division
+  // order is the page's own (the catalog's, the same as the tiles and sections
+  // below), not the label's alphabetical order or the clock: sorted by time
+  // first, two divisions playing the same evening interleaved row by row.
+
+  // The local calendar day a match falls on, as a sortable key. Everything
+  // already past without a result shares one key that sorts ahead of the rest,
+  // because those are listed together under "Awaiting a result".
+  function dayKey(value) {
+    if (isPast(value)) return '0';
+    var date = parseTime(value);
+    if (!date) return '9';
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    return '1-' + date.getFullYear() + '-' + pad(date.getMonth() + 1) + '-' + pad(date.getDate());
+  }
 
   function upcomingMatches(rows) {
     var list = [];
-    rows.forEach(function (row) {
+    rows.forEach(function (row, order) {
       (row.rounds || []).forEach(function (round) {
         if (round.projected) return;
         round.slots.forEach(function (slot) {
           if (slot.bye || slot.result || !slot.time) return;
-          list.push({ row: row, round: round.label, slot: slot });
+          list.push({ row: row, order: order, round: round.label, slot: slot, day: dayKey(slot.time) });
         });
       });
       if (row.bronze && !row.bronze.result && row.bronze.time) {
-        list.push({ row: row, round: 'Bronze match', slot: row.bronze });
+        list.push({ row: row, order: order, round: 'Bronze match', slot: row.bronze, day: dayKey(row.bronze.time) });
       }
     });
+    // Down to the home team's name, so two matches at the same time in the
+    // same division can't swap places from one load to the next.
     return list.sort(function (a, b) {
-      return String(a.slot.time).localeCompare(String(b.slot.time))
-        || divisionLabel(a.row).localeCompare(divisionLabel(b.row));
+      return a.day.localeCompare(b.day)
+        || a.order - b.order
+        || String(a.slot.time).localeCompare(String(b.slot.time))
+        || String(a.slot.home).localeCompare(String(b.slot.home));
     });
   }
 
@@ -273,28 +293,41 @@
     return badge + teamLink(row, name);
   }
 
+  function upcomingRow(entry, firstInDivision, firstInDay) {
+    // The division is named once, on the first of its rows; a rule above that
+    // row separates it from the division before. The day's own heading row
+    // already does that for the first division of a day.
+    var classes = firstInDivision && !firstInDay ? ' class="po-div-start"' : '';
+    var division = firstInDivision
+      ? '<a class="app-link" href="#' + sectionId(entry.row) + '">' + escapeHtml(divisionLabel(entry.row)) + '</a>'
+      : '';
+    return '<tr' + classes + '>' +
+      '<td class="po-time">' + escapeHtml(isPast(entry.slot.time) ? formatDay(entry.slot.time) : formatClock(entry.slot.time)) + '</td>' +
+      '<td class="po-division-cell">' + division + '</td>' +
+      '<td class="po-round-cell">' + escapeHtml(entry.round) + '</td>' +
+      '<td class="po-match">' + seeded(entry.row, entry.slot.home, entry.slot.homeSeed) + ' <span class="po-vs">vs</span> ' +
+        seeded(entry.row, entry.slot.away, entry.slot.awaySeed) + '</td>' +
+      '</tr>';
+  }
+
   function upcomingHtml(rows) {
     var list = upcomingMatches(rows);
     if (!list.length) return '';
     var days = [];
-    var waiting = list.filter(function (entry) { return isPast(entry.slot.time); }).length;
+    var waiting = list.filter(function (entry) { return entry.day === '0'; }).length;
     list.forEach(function (entry) {
-      // Played on a day that has gone, with no result yet: grouped together at
-      // the top rather than under their dates, which would read as fixtures.
-      var day = isPast(entry.slot.time) ? 'Awaiting a result' : formatDay(entry.slot.time);
-      if (!days.length || days[days.length - 1].day !== day) days.push({ day: day, entries: [] });
+      if (!days.length || days[days.length - 1].key !== entry.day) {
+        // Played on a day that has gone, with no result yet: grouped together
+        // at the top rather than under their dates, which would read as fixtures.
+        days.push({ key: entry.day, label: entry.day === '0' ? 'Awaiting a result' : formatDay(entry.slot.time), entries: [] });
+      }
       days[days.length - 1].entries.push(entry);
     });
     var body = days.map(function (group) {
-      return '<tr class="arch-group"><th scope="colgroup" colspan="4">' + escapeHtml(group.day) + '</th></tr>' +
-        group.entries.map(function (entry) {
-          return '<tr>' +
-            '<td class="po-time">' + escapeHtml(isPast(entry.slot.time) ? formatDay(entry.slot.time) : formatClock(entry.slot.time)) + '</td>' +
-            '<td><a class="app-link" href="#' + sectionId(entry.row) + '">' + escapeHtml(divisionLabel(entry.row)) + '</a></td>' +
-            '<td class="po-round-cell">' + escapeHtml(entry.round) + '</td>' +
-            '<td class="po-match">' + seeded(entry.row, entry.slot.home, entry.slot.homeSeed) + ' <span class="po-vs">vs</span> ' +
-              seeded(entry.row, entry.slot.away, entry.slot.awaySeed) + '</td>' +
-            '</tr>';
+      return '<tr class="arch-group"><th scope="colgroup" colspan="4">' + escapeHtml(group.label) + '</th></tr>' +
+        group.entries.map(function (entry, index) {
+          var previous = group.entries[index - 1];
+          return upcomingRow(entry, !previous || previous.order !== entry.order, index === 0);
         }).join('');
     }).join('');
     return '<section class="po-section" id="coming-up">' +

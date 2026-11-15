@@ -719,6 +719,13 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 .po-round-cell { color: var(--mut); }
 .po-vs { color: var(--mut); font-size: .72rem; margin: 0 .2rem; }
 
+/* Within a day, each division's matches sit together under its name, and a
+   heavier rule than the row lines marks where the next division starts. The
+   day heading rows above them are untouched, so day still reads as the outer
+   grouping. Collapsed borders: the wider of two shared edges wins. */
+.po-upcoming tr.po-div-start td { border-top: 2px solid #4a5568; }
+.po-division-cell { vertical-align: top; }
+
 /* A division's own section. */
 .po-division-head {
   display: flex;

@@ -452,3 +452,47 @@ test('only linked team names answer a hover in the bracket', () => {
     assert.match(selector, /a\.pb-(name|champ-name):hover/, `${selector} also lights up plain-text sides`);
   });
 });
+
+// Coming up is grouped by day, then by division in the page's own order, then
+// by time. Sorted by time first, two divisions playing the same evening
+// interleaved row by row.
+test('Coming up groups each day by division, in page order, then by time', () => {
+  const at = (times) => CROSSED_ROUND_1.map((m, index) => ({ ...m, time: times[index] }));
+  const divisions = [
+    // Listed first on the page, but its matches start later in the evening.
+    row({
+      slug: 'aaaa0001',
+      division: '3.0',
+      ...divisionPlayoffs({ teams: CROSSED_TEAMS, matches: [], playoffs: at(['2026-01-07T19:30:00', '2026-01-07T19:30:00', '2026-01-08T19:00:00', '2026-01-07T19:30:00']) }),
+    }),
+    row({
+      slug: 'aaaa0002',
+      division: '3.5',
+      ...divisionPlayoffs({ teams: CROSSED_TEAMS, matches: [], playoffs: at(['2026-01-07T20:00:00', '2026-01-07T19:00:00', '2026-01-07T19:00:00', '2026-01-07T21:00:00']) }),
+    }),
+  ];
+  const { html } = runPage(divisions);
+  const table = /<table class="arch-table po-upcoming">([^]*?)<\/table>/.exec(html);
+  assert.ok(table, 'no Coming up table');
+  const lines = table[1].match(/<tr[^>]*>[^]*?<\/tr>/g).slice(1).map((tr) => {
+    if (tr.includes('arch-group')) return `[${/<th[^>]*>([^<]*)<\/th>/.exec(tr)[1]}]`;
+    const division = /href="#division-([^"]+)"/.exec(tr);
+    const time = /<td class="po-time">([^<]*)<\/td>/.exec(tr)[1];
+    const home = /title="([^"]+)"/.exec(tr)[1];
+    return `${tr.startsWith('<tr class="po-div-start"') ? '— ' : ''}${division ? division[1] + ' ' : ''}${time} ${home}`;
+  });
+  assert.deepEqual(lines, [
+    '[Wed, Jan 7]',
+    // The division is named on its first row only.
+    'aaaa0001 7:30 PM A1',
+    '7:30 PM A2',
+    '7:30 PM B1',
+    // A rule opens the next division; the day heading opened the first.
+    '— aaaa0002 7:00 PM B1',
+    '7:00 PM B2',
+    '8:00 PM A1',
+    '9:00 PM A2',
+    '[Thu, Jan 8]',
+    'aaaa0001 7:00 PM B2',
+  ]);
+});
