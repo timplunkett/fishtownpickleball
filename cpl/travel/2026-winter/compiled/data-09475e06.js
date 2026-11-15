@@ -80,7 +80,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 13,
+   "leagueRank": 14,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -167,7 +167,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 11,
+   "leagueRank": 12,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -283,7 +283,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 14,
+   "leagueRank": 15,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -321,6 +321,35 @@
    "playerId": "0ac4f132-2c5c-4a1b-92a6-350f1952aa75"
   },
   {
+   "name": "Pam Mcdannell",
+   "gender": "Female",
+   "team": "Picklr Newtown",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 11,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "da7ce23d-f915-469e-9ec1-d820d55b3b22"
+  },
+  {
    "name": "Pamela Toy",
    "gender": "Female",
    "team": "Ballers Philly",
@@ -341,7 +370,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 12,
+   "leagueRank": 13,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -767,7 +796,7 @@
   "matchesPlayed": 0,
   "provisionalMatches": 0,
   "weeks": "",
-  "totalPlayers": 14,
+  "totalPlayers": 15,
   "ratingHistoryWeeks": [],
   "divisionSlug": "09475e06",
   "hasPlayoffs": false,
@@ -786,7 +815,7 @@
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-11-12T17:06:58.208Z";
+  DATA.meta.asOf = "2026-11-15T16:11:41.497Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["09475e06"] = DATA;

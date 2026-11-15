@@ -93143,8 +93143,8 @@
     "teamRes": "W",
     "teamGW": 22,
     "teamGL": 10,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 11,
@@ -93170,8 +93170,8 @@
     "teamRes": "L",
     "teamGW": 3,
     "teamGL": 29,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [
@@ -126050,8 +126050,8 @@
     "teamRes": "L",
     "teamGW": 4,
     "teamGL": 28,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    },
    {
     "week": 6,
@@ -126077,8 +126077,8 @@
     "teamRes": "L",
     "teamGW": 5,
     "teamGL": 27,
-    "sub": 1,
-    "subFor": "Pickleball Kingdom Hillsborough"
+    "sub": 0,
+    "subFor": null
    }
   ],
   "ratingHistory": [

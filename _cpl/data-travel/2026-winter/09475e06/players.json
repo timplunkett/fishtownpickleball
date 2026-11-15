@@ -90,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 13
+      "ranking": 14
     },
     {
       "playerId": "261fdcb3-6c64-4111-ab1b-92c21d2863bd",
@@ -113,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 11
+      "ranking": 12
     },
     {
       "playerId": "343d9ed5-c257-4043-98e3-fb3c6c21a537",
@@ -159,7 +159,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 12
+      "ranking": 13
     },
     {
       "playerId": "708f285b-0855-47a2-a8b4-9c1459f65781",
@@ -320,7 +320,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 14
+      "ranking": 15
+    },
+    {
+      "playerId": "da7ce23d-f915-469e-9ec1-d820d55b3b22",
+      "firstName": "Pam",
+      "lastName": "Mcdannell",
+      "gender": "Female",
+      "dupr": "56K7PL",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 11
     }
   ]
 }

@@ -51102,7 +51102,6 @@
    "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
-   "provisional": true,
    "homePoints": 674,
    "awayPoints": 520,
    "homeGW": 27,
@@ -51567,6 +51566,16 @@
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Pickleball Palace",
+   "away": "Flemington Blue",
+   "time": "2026-11-21T15:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 3
   }
  ],
  "extraPlayerIds": {
@@ -52552,7 +52561,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T01:07:01.728Z";
+  DATA.meta.asOf = "2026-11-15T16:07:02.928Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

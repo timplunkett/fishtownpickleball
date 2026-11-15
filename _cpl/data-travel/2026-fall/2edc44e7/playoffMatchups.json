@@ -50,9 +50,9 @@
       "weekNumber": 1,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
       "awayTeamId": "e542e7ac-3699-43db-a067-02e18826d2dc",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 674,
+      "awayPoints": 520,
+      "endResult": "home",
       "scheduledTime": "2026-11-14T15:00:00",
       "homeName": "Pickleball Palace",
       "awayName": "Stelton Sports",
@@ -74,6 +74,21 @@
       "playoffGame": 2,
       "homePodRanking": 1,
       "awayPodRanking": 2
+    },
+    {
+      "matchupId": "8401d7fd-265f-4d6e-aff3-107c5538fcad",
+      "weekNumber": 2,
+      "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
+      "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-21T15:00:00",
+      "homeName": "Pickleball Palace",
+      "awayName": "Flemington Blue",
+      "playoffGame": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 3
     }
   ]
 }

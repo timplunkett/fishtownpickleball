@@ -11101,6 +11101,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Kimberly Sorce",
+   "playerId": "4e15db5a-174c-4d1a-92b4-340566b5ae93",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c43b8608",
+   "gender": "Female"
+  },
+  {
    "name": "Kirsten Hinds",
    "playerId": "23bf4ad6-5b88-4d00-93c8-3134ec378f34",
    "team": "Pickleball Kingdom Tinton Falls",
@@ -16278,6 +16285,13 @@ window.DUPR_AUDIT = {
    "playerId": "b85c2074-a149-4382-8563-e1ff5b5d70bc",
    "team": "Dill Dinkers Hatboro Aces",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "Robert Shea",
+   "playerId": "c95c4833-a2e9-44ca-8451-b39430659a7e",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c43b8608",
    "gender": "Male"
   },
   {
