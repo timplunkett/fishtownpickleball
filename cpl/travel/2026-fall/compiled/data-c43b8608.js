@@ -13333,7 +13333,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 504,
+   "leagueRank": 505,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -85382,7 +85382,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T01:11:27.214Z";
+  DATA.meta.asOf = "2026-11-15T03:57:04.035Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
