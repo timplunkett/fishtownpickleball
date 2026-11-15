@@ -4930,6 +4930,13 @@ window.DUPR_AUDIT = {
    "name": "Deb Morisie",
    "playerId": "94d76c8a-d5ee-444b-aa23-3c3ec71e2387",
    "team": "Pickleball Kingdom Lehigh Valley",
+   "slug": "e27386b3",
+   "gender": "Female"
+  },
+  {
+   "name": "Deb Morisie",
+   "playerId": "94d76c8a-d5ee-444b-aa23-3c3ec71e2387",
+   "team": "Pickleball Kingdom Lehigh Valley",
    "slug": "b7ca04e4",
    "gender": "Female"
   },
