@@ -91335,8 +91335,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Viviane Tran",
+      "Taylor Runyen"
      ],
      "a": [
       "Ashley Altman",
@@ -91346,8 +91346,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Torres",
+      "Gerry Bissinger"
      ],
      "a": [
       "Kris Miller",
@@ -91357,8 +91357,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brandi Horowitz",
+      "Jeff Stephenson"
      ],
      "a": [
       "Tiffany Weinert",
@@ -91368,8 +91368,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Abby Sprinkel",
+      "David Horowitz"
      ],
      "a": [
       "Sandy Duarte",
@@ -91379,8 +91379,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Oanh Quach",
+      "Megan Torres"
      ],
      "a": [
       "Sandy Duarte",
@@ -91390,8 +91390,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brandi Horowitz",
+      "Michele Costigan"
      ],
      "a": [
       "Tiffany Weinert",
@@ -91401,8 +91401,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Taylor Runyen",
+      "Inho Andrew Yuh"
      ],
      "a": [
       "Thomas Lum",
@@ -91412,8 +91412,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Horowitz",
+      "Jamie West"
      ],
      "a": [
       "Mike Fede",
@@ -91423,8 +91423,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Abby Sprinkel",
+      "Jeff Stephenson"
      ],
      "a": [
       "Sandy Duarte",
@@ -91434,8 +91434,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michele Costigan",
+      "Gerry Bissinger"
      ],
      "a": [
       "Ashley Altman",
@@ -91445,8 +91445,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Oanh Quach",
+      "Inho Andrew Yuh"
      ],
      "a": [
       "Kris Miller",
@@ -91456,8 +91456,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Viviane Tran",
+      "Jamie West"
      ],
      "a": [
       "Tiffany Weinert",
@@ -91467,8 +91467,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brandi Horowitz",
+      "Oanh Quach"
      ],
      "a": [
       "Kris Miller",
@@ -91478,8 +91478,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Megan Torres",
+      "Abby Sprinkel"
      ],
      "a": [
       "Sandy Duarte",
@@ -91489,8 +91489,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Taylor Runyen",
+      "David Horowitz"
      ],
      "a": [
       "Mike Fede",
@@ -91500,8 +91500,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gerry Bissinger",
+      "Jeff Stephenson"
      ],
      "a": [
       "Bill Dower",
@@ -91511,8 +91511,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Viviane Tran",
+      "David Horowitz"
      ],
      "a": [
       "Ashley Altman",
@@ -91522,8 +91522,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Abby Sprinkel",
+      "Inho Andrew Yuh"
      ],
      "a": [
       "Sandy Duarte",
@@ -91533,8 +91533,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michele Costigan",
+      "Taylor Runyen"
      ],
      "a": [
       "Kris Miller",
@@ -91544,8 +91544,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brandi Horowitz",
+      "Jamie West"
      ],
      "a": [
       "Tiffany Weinert",
@@ -91555,8 +91555,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Oanh Quach",
+      "Viviane Tran"
      ],
      "a": [
       "Ashley Altman",
@@ -91566,8 +91566,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brandi Horowitz",
+      "Megan Torres"
      ],
      "a": [
       "Sandy Duarte",
@@ -91577,8 +91577,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gerry Bissinger",
+      "Jamie West"
      ],
      "a": [
       "Mike Fede",
@@ -91588,8 +91588,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Inho Andrew Yuh",
+      "Jeff Stephenson"
      ],
      "a": [
       "Thomas Lum",
@@ -91599,8 +91599,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Brandi Horowitz",
+      "Taylor Runyen"
      ],
      "a": [
       "Ashley Altman",
@@ -91610,8 +91610,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Megan Torres",
+      "Jeff Stephenson"
      ],
      "a": [
       "Kris Miller",
@@ -91621,8 +91621,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Abby Sprinkel",
+      "Jamie West"
      ],
      "a": [
       "Tiffany Weinert",
@@ -91632,8 +91632,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michele Costigan",
+      "David Horowitz"
      ],
      "a": [
       "Sandy Duarte",
@@ -91643,8 +91643,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Viviane Tran",
+      "Michele Costigan"
      ],
      "a": [
       "Sandy Duarte",
@@ -91654,8 +91654,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Oanh Quach",
+      "Megan Torres"
      ],
      "a": [
       "Ashley Altman",
@@ -91665,8 +91665,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Gerry Bissinger",
+      "Inho Andrew Yuh"
      ],
      "a": [
       "Bill Dower",
@@ -91676,8 +91676,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Stephenson",
+      "Jamie West"
      ],
      "a": [
       "Mike Fede",
@@ -93788,7 +93788,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T01:07:35.406Z";
+  DATA.meta.asOf = "2026-11-15T13:11:59.031Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
