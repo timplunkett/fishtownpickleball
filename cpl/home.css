@@ -557,3 +557,460 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
     min-height: 44px;
   }
 }
+
+/* --- The playoff overview (cpl/playoffs/) --------------------------------- */
+
+/* Laid out like the archive page — a left-aligned column under a left-aligned
+   header — but wider, because a four-round bracket is four card columns side
+   by side. Anything wider than the column scrolls inside its own box. */
+.playoffs-page { justify-content: flex-start; gap: 1.5rem; }
+
+.playoffs-page .hero,
+.playoffs-page .playoffs-attrib,
+.playoffs-page .section-toc,
+.po-section {
+  width: 100%;
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.playoffs-page .hero,
+.playoffs-page .playoffs-attrib { text-align: left; }
+
+/* The body centres its children and sizes them to their content, which for a
+   bracket or a wide table is wider than a phone. The host takes the full width
+   instead, so what is too wide scrolls inside its own box. */
+.playoffs-page #playoffs-host { width: 100%; min-width: 0; }
+
+.playoffs-page .section-toc { padding-top: 8px; padding-bottom: 8px; }
+
+/* Clear of the sticky strip when a pill or a tile jumps to a section. The
+   literal is playoffs.js's SCROLL_GAP. */
+.po-section {
+  margin-bottom: 2.25rem;
+  scroll-margin-top: calc(var(--toc-height, 0px) + 10px);
+}
+
+.po-season + .po-season { margin-top: 1.5rem; }
+
+.po-season-head {
+  margin: .4rem 0 .1rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+/* One tile per division, linking down to its section. */
+.po-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: .75rem;
+}
+
+.po-tile {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  padding: .85rem .95rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color .15s, background .15s;
+}
+
+.po-tile:hover,
+.po-tile:focus-visible {
+  color: inherit;
+  border-color: #4a5568;
+  background: #1a212b;
+}
+
+.po-tile.is-decided { border-color: rgb(232 198 107 / 45%); }
+
+.po-tile-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.po-tile-name { font-weight: 700; font-size: .92rem; line-height: 1.25; }
+
+.po-tile-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .2rem .8rem;
+  font-size: .75rem;
+  color: var(--mut);
+}
+
+.po-champ { color: var(--gold); font-weight: 700; }
+
+/* What stage a division is at. Text first, colour second: the words carry the
+   state, so it reads the same without the colour. */
+.po-stage {
+  flex: none;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 1px solid var(--line);
+  color: var(--mut);
+}
+
+.po-stage.is-playoffs { color: var(--accent); border-color: var(--accent); }
+.po-stage.is-awaiting { color: var(--txt); border-color: #4a5568; }
+.po-stage.is-decided { color: var(--gold); border-color: var(--gold); }
+
+/* The rounds strip on a tile: played, being played, still to come. */
+.po-rounds {
+  display: flex;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.po-round {
+  flex: 1 1 0;
+  padding: 3px 0;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: .03em;
+  border: 1px solid var(--line);
+  color: var(--mut);
+}
+
+.po-round.is-done { background: #26303c; border-color: #26303c; color: var(--txt); }
+.po-round.is-current { border-color: var(--accent); color: var(--accent); background: rgb(29 178 220 / 10%); }
+.po-round.is-later { border-style: dashed; }
+
+/* Regular-season progress, before there is a bracket to show. */
+.po-progress {
+  display: block;
+  height: 6px;
+  border-radius: 999px;
+  background: #26303c;
+  overflow: hidden;
+}
+
+.po-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  background: var(--mut);
+}
+
+/* Coming up. Borrows the archive's table and its group rows for the days. */
+.po-upcoming td { white-space: nowrap; }
+.po-time { color: var(--mut); font-variant-numeric: tabular-nums; }
+.po-round-cell { color: var(--mut); }
+.po-vs { color: var(--mut); font-size: .72rem; margin: 0 .2rem; }
+
+/* Within a day, each division's matches sit together under its name, and a
+   heavier rule than the row lines marks where the next division starts. The
+   day heading rows above them are untouched, so day still reads as the outer
+   grouping. Collapsed borders: the wider of two shared edges wins. */
+.po-upcoming tr.po-div-start td { border-top: 2px solid #4a5568; }
+.po-division-cell { vertical-align: top; }
+
+/* A division's own section. */
+.po-division-head {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap;
+}
+
+.po-division-head .tier-head { margin: 0; }
+
+.po-division .tier-sub { margin-top: .25rem; }
+
+.po-note {
+  margin: 0 0 .6rem;
+  font-size: .8rem;
+  line-height: 1.45;
+}
+
+.po-note-quiet { color: var(--mut); font-size: .75rem; }
+
+.po-sub-head {
+  margin: 0 0 .4rem;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+/* The bracket. Absolutely positioned cards over one SVG of connectors, in a
+   box that scrolls sideways rather than squeezing four rounds onto a phone. */
+.pb-scroll {
+  overflow-x: auto;
+  margin: .5rem 0 .75rem;
+  padding: .25rem 0 .5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pb-bracket { position: relative; }
+
+.pb-lines {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+}
+
+.pb-lines path {
+  fill: none;
+  stroke: var(--line);
+  stroke-width: 1.5;
+}
+
+.pb-lines path.is-settled { stroke: #5b6675; }
+
+.pb-head {
+  position: absolute;
+  top: 0;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+.pb-head.is-projected { opacity: .75; }
+
+.pb-card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4px 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* The bronze match sits in the flow under the bracket rather than on it. */
+.pb-card.is-static { position: relative; }
+
+.pb-card.is-pending { border-color: #3b4654; }
+.pb-card.is-projected { border-style: dashed; background: transparent; }
+.pb-card.is-bye { background: transparent; }
+
+.pb-card.is-champion {
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+  padding: 0 .75rem;
+  border-color: var(--gold);
+  background: rgb(232 198 107 / 8%);
+}
+
+.pb-trophy { font-size: 1.3rem; }
+
+.pb-champ-name {
+  font-weight: 700;
+  color: var(--gold);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pb-team {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 21px;
+  padding: 0 8px;
+  font-size: .78rem;
+}
+
+.pb-seed {
+  flex: none;
+  width: 14px;
+  font-size: .66rem;
+  font-weight: 700;
+  color: var(--mut);
+  text-align: right;
+}
+
+.pb-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pb-score {
+  flex: none;
+  min-width: 18px;
+  font-weight: 700;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.pb-team.is-win .pb-name,
+.pb-team.is-win .pb-score { font-weight: 700; color: var(--txt); }
+
+.pb-team.is-win .pb-score { color: var(--win); }
+
+.pb-team.is-loss .pb-name,
+.pb-team.is-loss .pb-score { color: var(--mut); }
+
+.pb-team.is-tbd .pb-name { color: var(--mut); font-style: italic; }
+
+/* Team names are links to their team pages (.pname, in styles.css). The win
+   and loss colours above outrank its hover, so hover is restated here — on the
+   links only. An unfilled side ("TBD", "PKLD / PK·Hillsbor") is a .pb-name
+   span with nothing behind it, and must not answer a hover. */
+.pb-team a.pb-name:hover,
+.pb-card a.pb-champ-name:hover { color: var(--accent); }
+
+.pb-meta {
+  padding: 1px 8px 0 28px;
+  font-size: .64rem;
+  color: var(--mut);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pb-card.is-provisional .pb-meta { color: var(--gold); }
+
+.pb-note {
+  position: absolute;
+  padding: .6rem .7rem;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  font-size: .72rem;
+  line-height: 1.45;
+  color: var(--mut);
+}
+
+.po-bronze { margin: 0 0 1rem; }
+
+/* The playoff field, folded away by default: the bracket already says who is
+   alive, and this is the long form of it. */
+.po-field { margin-top: .5rem; }
+
+.po-field > summary {
+  cursor: pointer;
+  margin-bottom: .5rem;
+  font-size: .8rem;
+  font-weight: 600;
+  color: var(--mut);
+}
+
+.po-field > summary:hover { color: var(--txt); }
+
+.po-num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.po-field tr.is-out th,
+.po-field tr.is-out td { color: var(--mut); }
+
+.po-status { font-size: .75rem; }
+.po-status.is-alive { color: var(--accent); font-weight: 700; }
+.po-status.is-champion { color: var(--gold); font-weight: 700; }
+
+/* Pod tables for a division whose bracket is not out yet. Two to a row on a
+   wide screen: four abreast left team names a dozen characters. */
+.po-pods {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
+  gap: .75rem;
+}
+
+.po-pod {
+  padding: .7rem .85rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.po-pod-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: pod;
+}
+
+.po-pod-list li {
+  display: flex;
+  gap: .5rem;
+  padding: 3px 0;
+  font-size: .8rem;
+  counter-increment: pod;
+}
+
+.po-pod-list li::before {
+  content: counter(pod);
+  width: 1rem;
+  color: var(--mut);
+  font-size: .7rem;
+  font-weight: 700;
+  text-align: right;
+  line-height: 1.6;
+}
+
+.po-pod-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.po-pod-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+/* Column labels over the two records, sized to the record columns below. */
+.po-pod-cols {
+  display: flex;
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+.po-pod-cols > span,
+.po-pod-rec { width: 3rem; text-align: right; }
+
+/* The in-pod record carries the ranking, so it reads at full strength; the
+   overall record beside it is context. */
+.po-pod-rec { flex: none; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.po-pod-all { color: var(--mut); }
+
+@media (max-width: 640px) {
+  /* The match is what a phone has room for: the round is on the tile and the
+     division section already, and the two team names may wrap. */
+  .po-upcoming .po-round-cell { display: none; }
+  .po-upcoming td.po-match { white-space: normal; min-width: 12rem; }
+
+  .playoffs-page .hero,
+  .playoffs-page .playoffs-attrib,
+  .playoffs-page .section-toc,
+  .po-section { padding-left: 0; padding-right: 0; }
+}
+
+/* A way in from the landing page's Now playing box. */
+.now-links { margin: 0; font-size: .85rem; }

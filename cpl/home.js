@@ -56,6 +56,8 @@
     // only ever needed to unhide it — but that makes the page's correctness
     // depend on an attribute in a file nothing checks, and the two would drift.
     if (empty) empty.hidden = count > 0;
+    var playoffsLink = document.getElementById('now-playoffs');
+    if (playoffsLink) playoffsLink.hidden = !count;
     if (seasonLine) {
       // Every league between seasons at once reads as a lull rather than a
       // fault: no counts, and the empty line above says why.

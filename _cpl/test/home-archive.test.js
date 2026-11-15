@@ -110,8 +110,11 @@ function makeDocument(ids) {
   };
 }
 
-function runPage(file, { catalog, ids, archive, hash = '' } = {}) {
+function runPage(file, { catalog, ids, archive, hash = '', hidden = [] } = {}) {
   const document = makeDocument(ids);
+  // Elements the markup ships hidden, so a test can tell "the page showed it"
+  // from "nothing touched it".
+  hidden.forEach((id) => { document.getElementById(id).hidden = true; });
   const navigated = [];
   const replaced = [];
   const scrolled = [];
@@ -232,10 +235,11 @@ const BOTH_LIVE = {
 const HOME_IDS = [
   'now-select-host', 'now-empty', 'now-season', 'archive-panel', 'archive-summary',
   'archive-list', 'data-freshness', 'player-search', 'player-results', 'finder-hint',
+  'now-playoffs',
 ];
 
 function runHome(catalog) {
-  return runPage(path.join(CPL, 'home.js'), { catalog, ids: HOME_IDS });
+  return runPage(path.join(CPL, 'home.js'), { catalog, ids: HOME_IDS, hidden: ['now-empty', 'now-playoffs'] });
 }
 
 // --- The landing page's Now playing box ------------------------------------
@@ -295,6 +299,14 @@ test('both leagues between seasons reads as a lull, not a fault', () => {
   assert.equal(selectsIn(app.el('now-select-host')).length, 0);
   assert.equal(app.el('now-empty').hidden, false);
   assert.equal(app.el('now-season').textContent, '');
+  // The playoff overview carries current seasons only, so it would be empty.
+  assert.equal(app.el('now-playoffs').hidden, true);
+});
+
+// The markup ships it hidden, as it does the empty line.
+test('the playoff overview link shows while anything is being played', () => {
+  const app = runHome(BOTH_LIVE);
+  assert.equal(app.el('now-playoffs').hidden, false);
 });
 
 test('a travel option is a bare bracket and a local one names its club', () => {
@@ -843,7 +855,7 @@ test('every link class the pages emit is defined in a stylesheet', () => {
 
   const sources = [
     'index.html', 'home.js', 'archive/index.html', 'archive/archive.js',
-    'dupr-audit/index.html',
+    'dupr-audit/index.html', 'playoffs/index.html', 'playoffs/playoffs.js',
   ].map((file) => fs.readFileSync(path.join(CPL, file), 'utf8')).join('\n');
 
   // Anchors carry their class either as markup or as a generated string.
@@ -897,7 +909,7 @@ test('only links that leave the site are accented', () => {
 
   // And the site's own links are still relative, or the rule above catches them
   // by mistake.
-  const pages = ['index.html', 'archive/index.html', 'archive/archive.js', 'home.js']
+  const pages = ['index.html', 'archive/index.html', 'archive/archive.js', 'home.js', 'playoffs/index.html', 'playoffs/playoffs.js']
     .map((file) => fs.readFileSync(path.join(CPL, file), 'utf8')).join('\n');
   assert.ok(
     !/<a[^>]*href="https:\/\/fishtownpickleball/.test(pages),

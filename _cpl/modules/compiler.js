@@ -26,6 +26,7 @@ const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
 const { writeDuprShards } = require('./dupr-outputs');
 const { writeArchiveData } = require('./archive-outputs');
+const { writePlayoffData } = require('./playoff-outputs');
 const { expandJson } = require('./json-utils');
 const {
   isForfeit,
@@ -1751,6 +1752,10 @@ function buildPlayerIndex({ asOfBySlug = new Map(), ratingsBySlug = new Map() } 
   // with its podium. Read from the compiled shards just above, so this runs
   // after them.
   writeArchiveData(rootDir, { eachLeagueSeason, seasonCompiledDir, sortDivisionsForLeague });
+
+  // The playoff overview's rows: every division of every current season, with
+  // its bracket worked out. Read from the compiled shards too.
+  writePlayoffData(rootDir, { eachLeagueSeason, seasonCompiledDir, sortDivisionsForLeague });
 
   // Keep a DUPR shard beside every division dataset. The DUPR refresh rewrites
   // these too, so ratings still update without a recompile; doing it here as

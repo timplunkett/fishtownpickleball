@@ -21,13 +21,13 @@ z40=0000000000000000000000000000000000000000
 changed=""
 
 # cpl/ mixes compiled output with a handful of hand-written pages (app.js,
-# home.js, styles.css, home.css, and the three standalone index.html /
-# archive.js files). Every one of those hand-written pages lives outside any
+# home.js, styles.css, home.css, and the standalone pages' index.html /
+# archive.js / playoffs.js files). Every one of those hand-written pages lives outside any
 # compiled/ directory, so "changed something a fresh compile would touch" is:
 # _cpl/, anything under a compiled/ directory anywhere in cpl/ (the glob below
 # matches at any depth — cpl/compiled/, cpl/<league>/compiled/,
 # cpl/<league>/<season>/compiled/, cpl/archive/compiled/,
-# cpl/dupr-audit/compiled/ — without naming each one), or the two kinds of
+# cpl/dupr-audit/compiled/, cpl/playoffs/compiled/ — without naming each one), or the two kinds of
 # index.html that ARE generated but stay outside compiled/ on purpose (moving
 # them would change their real, bookmarked URL): the league redirect stub and
 # the season dashboard. See README.md "Generated paths — never hand-edit".

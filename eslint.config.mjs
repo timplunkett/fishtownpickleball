@@ -12,7 +12,7 @@ export default [
       'cpl/travel/*/compiled/data-*.js', 'cpl/travel/*/compiled/detail-*.js', 'cpl/travel/*/compiled/dupr-*.js',
       'cpl/compiled/shared.js', // generated copy of _cpl/modules/shared.js
       'cpl/compiled/catalog.js', 'cpl/compiled/player-index.js', 'cpl/compiled/dupr-ratings.js',
-      'cpl/archive/compiled/data.js', 'cpl/dupr-audit/compiled/data.js',
+      'cpl/archive/compiled/data.js', 'cpl/dupr-audit/compiled/data.js', 'cpl/playoffs/compiled/data.js',
       'node_modules/**', '_site/**', 'vendor/**',
     ],
   },
@@ -45,7 +45,7 @@ export default [
     },
   },
   {
-    files: ['cpl/archive/archive.js'],
+    files: ['cpl/archive/archive.js', 'cpl/playoffs/playoffs.js'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'script',

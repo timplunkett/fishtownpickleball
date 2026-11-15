@@ -5253,9 +5253,16 @@ function renderPlayoffs() {
       </div>`;
   }).join('');
 
+  // Every division's bracket on one page, for a season still being played —
+  // the overview carries current seasons only. Two levels up to cpl/, like the
+  // other hand-written paths in this file (see loadPlayerIndexScript).
+  const overviewLink = DATA.meta.seasonStatus === 'current'
+    ? '<p class="playoffs-overview-link"><a class="app-link" href="../../playoffs/">Every division\u2019s playoffs →</a></p>'
+    : '';
+
   // The heading lives in index.html with the other section headings, so it gets
   // the same collapse toggle and contents entry.
-  elements.playoffsHost.innerHTML = `<div class="playoff-bracket">${sectionsHtml}</div>`;
+  elements.playoffsHost.innerHTML = `<div class="playoff-bracket">${sectionsHtml}</div>${overviewLink}`;
   elements.playoffsSection.hidden = false;
 }
 
