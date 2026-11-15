@@ -444,6 +444,26 @@ async function fetchSeasonRecords(apiBases) {
   return [...byKey.values()];
 }
 
+// The league API sometimes rosters a player under a league-issued placeholder
+// (CPL002, CPL006, …) instead of their DUPR ID — seen on the 2026 Winter travel
+// roster for players whose earlier rows carried their real ID. Taken at face
+// value, the placeholder replaces the real ID on every refresh, undoing any
+// hand correction, and the player finder (which groups on the DUPR ID) splits
+// the person into two cards. So a placeholder only ever fills an empty slot:
+// it never replaces an ID already on file, which also makes a hand-corrected
+// `dupr` in global_players.json stick.
+const PLACEHOLDER_DUPR_RE = /^CPL\d+$/i;
+
+function isPlaceholderDupr(value) {
+  return typeof value === 'string' && PLACEHOLDER_DUPR_RE.test(value.trim());
+}
+
+function mergeDuprId(incoming, onFile) {
+  if (!incoming) return onFile || null;
+  if (onFile && isPlaceholderDupr(incoming) && !isPlaceholderDupr(onFile)) return onFile;
+  return incoming;
+}
+
 // Pure merge step for global_players.json, pulled out of
 // downloadLatestApiData so it can be unit-tested without touching the
 // filesystem or the network. Existing entries (from other leagues or prior
@@ -464,7 +484,7 @@ function mergeGlobalPlayers(existing, newPlayers, seenStamp) {
       // Update identity + dupr fields but preserve any fetched duprRating.
       existingMap[p.playerId].firstName = p.firstName;
       existingMap[p.playerId].lastName = p.lastName;
-      existingMap[p.playerId].dupr = p.dupr || existingMap[p.playerId].dupr || null;
+      existingMap[p.playerId].dupr = mergeDuprId(p.dupr, existingMap[p.playerId].dupr);
       existingMap[p.playerId].lastSeen = seenStamp;
     } else {
       existingMap[p.playerId] = {
@@ -910,5 +930,5 @@ module.exports = {
   slimMatchups, slimPlayoffMatchups, compareMatchups, slimMatchupDetails,
   assertArrayShape, isEmptyValue, writeGuarded, writeIfChanged,
   fetchSeasonRecords, mergeSeasonRecords, selectSeasonsToFetch, assertSeasonMatches,
-  mergeGlobalPlayers, aggregateSeasonResults,
+  mergeGlobalPlayers, isPlaceholderDupr, aggregateSeasonResults,
 };

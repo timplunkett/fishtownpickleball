@@ -146,7 +146,7 @@ test('assertArrayShape rejects a renamed envelope instead of silently yielding [
 // ---------------------------------------------------------------------------
 
 const {
-  assertSeasonMatches, mergeSeasonRecords, selectSeasonsToFetch, mergeGlobalPlayers,
+  assertSeasonMatches, mergeSeasonRecords, selectSeasonsToFetch, mergeGlobalPlayers, isPlaceholderDupr,
   aggregateSeasonResults,
 } = require('../modules/fetcher');
 
@@ -312,6 +312,74 @@ test('mergeGlobalPlayers skips rows with no playerId on either side', () => {
   );
   assert.equal(newPlayerCount, 0);
   assert.deepEqual(merged, []);
+});
+
+// The league API rosters some players under a league-issued placeholder
+// (CPL002, …) instead of their DUPR ID. The finder groups on the DUPR ID, so
+// letting a placeholder replace the real one splits a person into two cards
+// and undoes every hand correction on the next refresh.
+
+test('isPlaceholderDupr recognizes league-issued placeholders and nothing else', () => {
+  for (const value of ['CPL002', 'CPL006', 'cpl004', ' CPL1 ']) {
+    assert.equal(isPlaceholderDupr(value), true, value);
+  }
+  for (const value of ['76YXD0', '554Q6L', 'CPLX02', 'XCPL02', 'CPL', '', null, undefined, 6324828942]) {
+    assert.equal(isPlaceholderDupr(value), false, String(value));
+  }
+});
+
+test('mergeGlobalPlayers keeps a real DUPR ID on file over an incoming placeholder', () => {
+  const existing = [{
+    playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: '76YXD0', duprRating: '4.250', lastSeen: '2026-01',
+  }];
+  const { merged } = mergeGlobalPlayers(
+    existing,
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'CPL002' }],
+    STAMP,
+  );
+  assert.equal(merged[0].dupr, '76YXD0');
+  assert.equal(merged[0].duprRating, '4.250');
+  assert.equal(merged[0].lastSeen, STAMP);
+});
+
+test('mergeGlobalPlayers lets a real DUPR ID replace a placeholder on file', () => {
+  const existing = [{
+    playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'CPL002', duprRating: null, lastSeen: '2026-01',
+  }];
+  const { merged } = mergeGlobalPlayers(
+    existing,
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: '76YXD0' }],
+    STAMP,
+  );
+  assert.equal(merged[0].dupr, '76YXD0');
+});
+
+test('mergeGlobalPlayers still records a placeholder when it is the only ID there is', () => {
+  const { merged: fresh } = mergeGlobalPlayers(
+    [],
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'CPL004' }],
+    STAMP,
+  );
+  assert.equal(fresh[0].dupr, 'CPL004');
+
+  const { merged: replaced } = mergeGlobalPlayers(
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'CPL004', duprRating: null, lastSeen: '2026-01' }],
+    [{ playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'CPL009' }],
+    STAMP,
+  );
+  assert.equal(replaced[0].dupr, 'CPL009');
+});
+
+test('mergeGlobalPlayers picks the real ID for a new player whichever row comes first', () => {
+  const rows = [
+    { playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: 'CPL002' },
+    { playerId: 'p1', firstName: 'Ann', lastName: 'Lee', dupr: '76YXD0' },
+  ];
+  for (const order of [rows, [...rows].reverse()]) {
+    const { merged, newPlayerCount } = mergeGlobalPlayers([], order, STAMP);
+    assert.equal(newPlayerCount, 1);
+    assert.equal(merged[0].dupr, '76YXD0', order.map((r) => r.dupr).join(' then '));
+  }
 });
 
 // ---------------------------------------------------------------------------
