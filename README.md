@@ -145,6 +145,17 @@ out:
   3v4 between two of the previous round's *winners* is a semi-final, not a
   bronze match, because seeds are within the round.
 
+**How the league seeds, as far as the posted brackets show.** Each pod seeds
+its own teams by **record against the other teams in the pod**, not by overall
+record. That reproduces the first-round seeds in 49 of the 51 pods posted so
+far, against 44 for overall win percentage; the two misses are Spring 2026 4.0,
+whose pods ran 12/3/4/4. Every pod sends the same number of teams, three or
+four, but the count is not fixed by anything in the data: four pods of 4–6 teams
+have sent three and pods of 7–8 four; two-pod divisions sent three at 10 teams
+and four at 11–16. So before a bracket is out, a division's section lists the
+top four of each pod in in-pod order, with both records, and draws no cutoff.
+`playoff-overview.test.js` holds `rankPod` to every archived bracket.
+
 "Next match" is worked out in the browser, not at compile time: it depends on
 the day the page is read, and an unreported match stays on the schedule long
 after its date. Anything dated before today with no result reads as awaiting a

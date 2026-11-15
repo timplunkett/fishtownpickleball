@@ -559,17 +559,25 @@
         (next ? ', the next on ' + formatDay(next) : ', the rest awaiting results') +
         '. The bracket appears here once the league posts it.'
       : 'Every regular-season match is in. The bracket appears here once the league posts it.';
+    // In-pod record first: it is what the league seeds by (see rankPod in
+    // playoff-outputs.js), and the overall record beside it is why the order
+    // can look wrong at a glance.
     var groups = (row.leaders || []).map(function (group) {
       return '<div class="po-pod">' +
-        (group.label ? '<h4 class="po-sub-head">' + escapeHtml(group.label) + '</h4>' : '') +
+        '<div class="po-pod-head">' +
+          (group.label ? '<h4 class="po-sub-head">' + escapeHtml(group.label) + '</h4>' : '<span></span>') +
+          '<span class="po-pod-cols" aria-hidden="true"><span>In pod</span><span>All</span></span>' +
+        '</div>' +
         '<ol class="po-pod-list">' + group.teams.map(function (team) {
-          return '<li>' + teamLink(row, team.name, 'po-pod-name') + '<span class="po-pod-rec">' +
+          var inPod = team.pw != null ? team.pw + '–' + team.pl : '';
+          return '<li>' + teamLink(row, team.name, 'po-pod-name') +
+            '<span class="po-pod-rec" title="' + escapeHtml(inPod + ' against pod opponents') + '">' + inPod + '</span>' +
+            '<span class="po-pod-rec po-pod-all" title="' + escapeHtml(team.w + '–' + team.l + ' overall') + '">' +
             team.w + '–' + team.l + '</span></li>';
         }).join('') + '</ol></div>';
     }).join('');
     return '<p class="po-note">' + escapeHtml(intro) + '</p>' +
-      (groups ? '<p class="po-note po-note-quiet">The top of each pod today: the table, not the playoff field.</p>' +
-        '<div class="po-pods">' + groups + '</div>' : '');
+      (groups ? '<div class="po-pods">' + groups + '</div>' : '');
   }
 
   function divisionSummaryLine(row) {

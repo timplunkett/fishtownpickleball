@@ -11,7 +11,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-15T13:11:59.031Z",
    "stage": "regular",
    "regular": {"played":132,"total":143,"times":["2026-11-16T19:00:00","2026-11-16T19:30:00"]},
-   "leaders": [{"label":"Northeast A","teams":[{"name":"Pickleball Kingdom Tinton Falls","w":12,"l":0},{"name":"Pickleball HQ","w":6,"l":6}]},{"label":"Northeast B","teams":[{"name":"Flemington","w":7,"l":5},{"name":"Monroe","w":5,"l":7}]},{"label":"Northwest A","teams":[{"name":"Pickleball Palace","w":7,"l":5},{"name":"Home Court","w":6,"l":6}]},{"label":"Northwest B","teams":[{"name":"PickleRage Union County Net Ninjas","w":12,"l":0},{"name":"Pickleball Kingdom Hillsborough","w":9,"l":3}]},{"label":"Southeast","teams":[{"name":"Players Courtyard","w":8,"l":4},{"name":"Bounce Tempest","w":8,"l":4}]},{"label":"Southwest","teams":[{"name":"Bounce Philly","w":10,"l":2},{"name":"Pickleball Kingdom Lehigh Valley","w":9,"l":3}]}]
+   "leaders": [{"label":"Northeast A","teams":[{"name":"Pickleball Kingdom Tinton Falls","w":12,"l":0,"pw":3,"pl":0},{"name":"Pickleball HQ","w":6,"l":6,"pw":2,"pl":2},{"name":"Jersey Pickleball Club","w":2,"l":10,"pw":0,"pl":3}]},{"label":"Northeast B","teams":[{"name":"Flemington","w":7,"l":5,"pw":3,"pl":0},{"name":"Monroe","w":5,"l":7,"pw":2,"pl":1},{"name":"Pickle House","w":1,"l":11,"pw":0,"pl":4}]},{"label":"Northwest A","teams":[{"name":"Pickleball Palace","w":7,"l":5,"pw":3,"pl":0},{"name":"Home Court","w":6,"l":6,"pw":1,"pl":2},{"name":"Open Play","w":4,"l":8,"pw":1,"pl":3}]},{"label":"Northwest B","teams":[{"name":"PickleRage Union County Net Ninjas","w":12,"l":0,"pw":3,"pl":0},{"name":"Pickleball Kingdom Hillsborough","w":9,"l":3,"pw":2,"pl":2},{"name":"PickleRage Union County Pandas","w":1,"l":11,"pw":0,"pl":3}]},{"label":"Southeast","teams":[{"name":"Players Courtyard","w":8,"l":4,"pw":7,"pl":1},{"name":"Bounce Tempest","w":8,"l":4,"pw":5,"pl":2},{"name":"APC Garden State","w":5,"l":7,"pw":4,"pl":3},{"name":"Picklr Newark","w":2,"l":10,"pw":2,"pl":5}]},{"label":"Southwest","teams":[{"name":"Bounce Philly","w":10,"l":2,"pw":5,"pl":2},{"name":"Pickleball Kingdom Hamilton","w":9,"l":3,"pw":5,"pl":2},{"name":"Pickleball Kingdom Lehigh Valley","w":9,"l":3,"pw":4,"pl":3},{"name":"ACE Downingtown","w":7,"l":5,"pw":4,"pl":4}]}]
   },
   {
    "season": "2026-fall",
@@ -24,7 +24,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-15T16:08:16.306Z",
    "stage": "awaiting",
    "regular": {"played":156,"total":156},
-   "leaders": [{"label":"Northeast","teams":[{"name":"Premiere Dinkers","w":8,"l":4},{"name":"Life Time Red Bank","w":8,"l":4},{"name":"Monroe","w":7,"l":5}]},{"label":"Northwest","teams":[{"name":"Pickleball Palace Black","w":12,"l":0},{"name":"PickleRage Union County","w":9,"l":3},{"name":"Picklr Fair Lawn","w":9,"l":3}]},{"label":"Southeast","teams":[{"name":"ACE Moorestown","w":10,"l":2},{"name":"Pickleball Kingdom Hamilton Strikers","w":9,"l":3},{"name":"Flemington Blue","w":9,"l":3}]},{"label":"Southwest","teams":[{"name":"Forward","w":11,"l":1},{"name":"Jersey Devil","w":10,"l":2},{"name":"Dill Dinkers Hatboro","w":8,"l":4}]}]
+   "leaders": [{"label":"Northeast","teams":[{"name":"Life Time Red Bank","w":8,"l":4,"pw":7,"pl":3},{"name":"Premiere Dinkers","w":8,"l":4,"pw":6,"pl":4},{"name":"Monroe","w":7,"l":5,"pw":6,"pl":4},{"name":"PKLD","w":5,"l":7,"pw":5,"pl":5}]},{"label":"Northwest","teams":[{"name":"Pickleball Palace Black","w":12,"l":0,"pw":12,"pl":0},{"name":"PickleRage Union County","w":9,"l":3,"pw":9,"pl":3},{"name":"Picklr Fair Lawn","w":9,"l":3,"pw":9,"pl":3},{"name":"Allstar Pickler","w":5,"l":7,"pw":5,"pl":7}]},{"label":"Southeast","teams":[{"name":"ACE Moorestown","w":10,"l":2,"pw":8,"pl":2},{"name":"Flemington Blue","w":9,"l":3,"pw":8,"pl":2},{"name":"Pickleball Kingdom Hamilton Strikers","w":9,"l":3,"pw":7,"pl":3},{"name":"Pickleball Kingdom Hamilton Prime Time","w":5,"l":7,"pw":3,"pl":7}]},{"label":"Southwest","teams":[{"name":"Forward","w":11,"l":1,"pw":11,"pl":1},{"name":"Jersey Devil","w":10,"l":2,"pw":10,"pl":2},{"name":"Dill Dinkers Hatboro","w":8,"l":4,"pw":8,"pl":4},{"name":"Bounce Malvern","w":6,"l":6,"pw":6,"pl":6}]}]
   },
   {
    "season": "2026-fall",
@@ -55,7 +55,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-15T16:10:40.657Z",
    "stage": "regular",
    "regular": {"played":116,"total":126,"times":["2026-10-18T14:00:00","2026-11-15T11:00:00","2026-11-15T12:00:00","2026-11-15T13:00:00","2026-11-15T14:00:00","2026-11-15T16:00:00"]},
-   "leaders": [{"label":"Northeast","teams":[{"name":"Home Court","w":10,"l":1},{"name":"Pickleball Palace","w":9,"l":2},{"name":"PickleRage Union County","w":7,"l":4}]},{"label":"Northwest","teams":[{"name":"Montville Rocks","w":11,"l":0},{"name":"PCKLRAMA","w":7,"l":5},{"name":"Picklr Fair Lawn","w":5,"l":6}]},{"label":"Southeast","teams":[{"name":"Pickleball Kingdom Tinton Falls","w":12,"l":0},{"name":"Monroe","w":7,"l":4},{"name":"Stelton Sports","w":6,"l":5}]},{"label":"Southwest","teams":[{"name":"Picklr Newtown","w":10,"l":1},{"name":"Dill Dinkers Lansdale","w":7,"l":4},{"name":"Flemington","w":6,"l":5}]}]
+   "leaders": [{"label":"Northeast","teams":[{"name":"Home Court","w":10,"l":1,"pw":6,"pl":1},{"name":"Pickleball Palace","w":9,"l":2,"pw":6,"pl":1},{"name":"PickleRage Union County","w":7,"l":4,"pw":4,"pl":3},{"name":"Pickleball Kingdom Hillsborough","w":1,"l":9,"pw":1,"pl":6}]},{"label":"Northwest","teams":[{"name":"Montville Rocks","w":11,"l":0,"pw":7,"pl":0},{"name":"PCKLRAMA","w":7,"l":5,"pw":6,"pl":2},{"name":"Picklr Fair Lawn","w":5,"l":6,"pw":4,"pl":3},{"name":"Montville Dragons","w":1,"l":10,"pw":1,"pl":6}]},{"label":"Southeast","teams":[{"name":"Pickleball Kingdom Tinton Falls","w":12,"l":0,"pw":8,"pl":0},{"name":"Monroe","w":7,"l":4,"pw":4,"pl":3},{"name":"Stelton Sports","w":6,"l":5,"pw":3,"pl":4},{"name":"Premiere","w":3,"l":8,"pw":2,"pl":5}]},{"label":"Southwest","teams":[{"name":"Picklr Newtown","w":10,"l":1,"pw":9,"pl":0},{"name":"Dill Dinkers Lansdale","w":7,"l":4,"pw":5,"pl":4},{"name":"Flemington","w":6,"l":5,"pw":5,"pl":4},{"name":"APC Garden State","w":5,"l":6,"pw":5,"pl":4}]}]
   },
   {
    "season": "2026-fall",
@@ -68,7 +68,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-14T04:11:07.578Z",
    "stage": "awaiting",
    "regular": {"played":138,"total":138},
-   "leaders": [{"label":"Northeast","teams":[{"name":"Monroe","w":10,"l":2},{"name":"Pickleball Kingdom Hillsborough","w":9,"l":3},{"name":"Pickleball Kingdom Tinton Falls","w":6,"l":6}]},{"label":"Northwest","teams":[{"name":"Montville","w":9,"l":1},{"name":"Pickleball Kingdom Watchung","w":9,"l":1},{"name":"Pickleball Palace","w":5,"l":5}]},{"label":"Southeast","teams":[{"name":"Jersey Devil","w":10,"l":2},{"name":"Ballers Philly","w":7,"l":5},{"name":"ACE Moorestown","w":6,"l":6}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":12,"l":0},{"name":"Dill Dinkers Hatboro Aces","w":10,"l":2},{"name":"Bounce Philly","w":7,"l":5}]}]
+   "leaders": [{"label":"Northeast","teams":[{"name":"Monroe","w":10,"l":2,"pw":9,"pl":1},{"name":"Pickleball Kingdom Hillsborough","w":9,"l":3,"pw":8,"pl":2},{"name":"Pickleball Kingdom Tinton Falls","w":6,"l":6,"pw":5,"pl":5},{"name":"Premiere","w":5,"l":7,"pw":4,"pl":6}]},{"label":"Northwest","teams":[{"name":"Montville","w":9,"l":1,"pw":9,"pl":1},{"name":"Pickleball Kingdom Watchung","w":9,"l":1,"pw":9,"pl":1},{"name":"Pickleball Palace","w":5,"l":5,"pw":5,"pl":5},{"name":"Flemington Green","w":4,"l":6,"pw":4,"pl":6}]},{"label":"Southeast","teams":[{"name":"Jersey Devil","w":10,"l":2,"pw":9,"pl":1},{"name":"Ballers Philly","w":7,"l":5,"pw":7,"pl":3},{"name":"Bounce Tempest","w":6,"l":6,"pw":5,"pl":5},{"name":"ACE Moorestown","w":6,"l":6,"pw":4,"pl":6}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":12,"l":0,"pw":10,"pl":0},{"name":"Dill Dinkers Hatboro Aces","w":10,"l":2,"pw":8,"pl":2},{"name":"Bounce Philly","w":7,"l":5,"pw":5,"pl":5},{"name":"Picklr Newark","w":6,"l":6,"pw":5,"pl":5}]}]
   },
   {
    "season": "2026-fall",
@@ -117,7 +117,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-15T01:11:57.671Z",
    "stage": "awaiting",
    "regular": {"played":65,"total":65},
-   "leaders": [{"label":"East","teams":[{"name":"Pickleball Kingdom Tinton Falls","w":10,"l":3},{"name":"Life Time Red Bank","w":9,"l":4},{"name":"PKLD","w":5,"l":8},{"name":"Picklr Newtown","w":4,"l":9}]},{"label":"West","teams":[{"name":"Flemington Green","w":12,"l":1},{"name":"Montville","w":11,"l":2},{"name":"Flemington Blue","w":9,"l":4},{"name":"Pickleball Lehigh Valley","w":3,"l":10}]}]
+   "leaders": [{"label":"East","teams":[{"name":"Pickleball Kingdom Tinton Falls","w":10,"l":3,"pw":7,"pl":1},{"name":"Life Time Red Bank","w":9,"l":4,"pw":7,"pl":1},{"name":"PKLD","w":5,"l":8,"pw":4,"pl":4},{"name":"Picklr Newtown","w":4,"l":9,"pw":2,"pl":6}]},{"label":"West","teams":[{"name":"Flemington Green","w":12,"l":1,"pw":7,"pl":1},{"name":"Montville","w":11,"l":2,"pw":6,"pl":2},{"name":"Flemington Blue","w":9,"l":4,"pw":5,"pl":3},{"name":"Pickleball Lehigh Valley","w":3,"l":10,"pw":2,"pl":6}]}]
   },
   {
    "season": "2026-fall",
@@ -148,7 +148,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-15T03:57:18.537Z",
    "stage": "regular",
    "regular": {"played":72,"total":78,"times":["2026-10-24T09:00:00","2026-11-16T19:00:00","2026-11-16T19:30:00"]},
-   "leaders": [{"label":"North","teams":[{"name":"Pickleball Kingdom Hillsborough","w":10,"l":1},{"name":"Pickleball Kingdom Watchung","w":10,"l":2},{"name":"Premiere","w":7,"l":4}]},{"label":"Southeast","teams":[{"name":"Pickle House","w":8,"l":3},{"name":"Jersey Devil","w":5,"l":7},{"name":"ACE Moorestown","w":1,"l":10}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":9,"l":2},{"name":"Bounce Tempest","w":7,"l":4},{"name":"Picklr Newtown","w":4,"l":8}]}]
+   "leaders": [{"label":"North","teams":[{"name":"Pickleball Kingdom Hillsborough","w":10,"l":1,"pw":10,"pl":1},{"name":"Pickleball Kingdom Watchung","w":10,"l":2,"pw":10,"pl":2},{"name":"Premiere","w":7,"l":4,"pw":7,"pl":4},{"name":"Dill Dinkers Freehold","w":6,"l":5,"pw":6,"pl":5}]},{"label":"Southeast","teams":[{"name":"Pickle House","w":8,"l":3,"pw":5,"pl":0},{"name":"Jersey Devil","w":5,"l":7,"pw":2,"pl":4},{"name":"ACE Moorestown","w":1,"l":10,"pw":1,"pl":4}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":9,"l":2,"pw":4,"pl":1},{"name":"Bounce Tempest","w":7,"l":4,"pw":3,"pl":2},{"name":"Picklr Newtown","w":4,"l":8,"pw":1,"pl":5}]}]
   }
  ]
 };

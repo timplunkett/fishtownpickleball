@@ -927,10 +927,11 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
 .po-status.is-alive { color: var(--accent); font-weight: 700; }
 .po-status.is-champion { color: var(--gold); font-weight: 700; }
 
-/* Pod tables for a division whose bracket is not out yet. */
+/* Pod tables for a division whose bracket is not out yet. Two to a row on a
+   wide screen: four abreast left team names a dozen characters. */
 .po-pods {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
   gap: .75rem;
 }
 
@@ -974,7 +975,30 @@ option { font-weight: 400; color: var(--txt); background: #1c2430; }
   white-space: nowrap;
 }
 
-.po-pod-rec { flex: none; color: var(--mut); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.po-pod-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+/* Column labels over the two records, sized to the record columns below. */
+.po-pod-cols {
+  display: flex;
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--mut);
+}
+
+.po-pod-cols > span,
+.po-pod-rec { width: 3rem; text-align: right; }
+
+/* The in-pod record carries the ranking, so it reads at full strength; the
+   overall record beside it is context. */
+.po-pod-rec { flex: none; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.po-pod-all { color: var(--mut); }
 
 @media (max-width: 640px) {
   /* The match is what a phone has room for: the round is on the tile and the

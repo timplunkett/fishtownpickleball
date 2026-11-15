@@ -17,7 +17,7 @@ const path = require('node:path');
 const vm = require('node:vm');
 
 const {
-  buildBracket, divisionPlayoffs, pairForNextRound, roundName,
+  buildBracket, divisionPlayoffs, pairForNextRound, rankPod, roundName,
 } = require('../modules/playoff-outputs');
 const { podiumOf } = require('../modules/archive-outputs');
 const { CPL, archivedDivisions, compiledData } = require('./helpers/compiled');
@@ -275,6 +275,63 @@ test('the overview names every archived round the way the dashboard does', () =>
       assert.equal(round.label, context.playoffRoundLabel(round.round), `${division.label} round ${round.round}`);
     }
   }
+});
+
+// --- How the league seeds -------------------------------------------------------
+//
+// rankPod's claim is that the league seeds each pod by record against pod
+// opponents. Every archived travel bracket is held to it: the teams each pod
+// sent, in seed order, are rankPod's top teams for that pod.
+//
+// Spring 2026 4.0 is the one division it does not fit. Its pods ran 12/3/4/4
+// and it sent 7/2/3/2 to a 14-team bracket, so it was seeded some other way.
+const UNEVEN_PODS = new Set(['travel/2026-spring/data-dd1144f2.js']);
+
+function seededPods() {
+  const pods = [];
+  for (const { division, data } of archivedBrackets()) {
+    if (division.league !== 'travel' || UNEVEN_PODS.has(division.label)) continue;
+    const first = Math.min(...data.playoffs.map((m) => m.round));
+    const seed = new Map();
+    for (const m of data.playoffs.filter((x) => x.round === first)) {
+      if (!/^bye$/i.test(m.home)) seed.set(m.home, m.homeSeed);
+      if (!/^bye$/i.test(m.away)) seed.set(m.away, m.awaySeed);
+    }
+    for (const pod of new Set(data.teams.map((t) => t.reportedPod))) {
+      const teams = data.teams.filter((t) => t.reportedPod === pod);
+      const sent = teams.filter((t) => seed.has(t.name)).sort((a, b) => seed.get(a.name) - seed.get(b.name));
+      if (sent.length) pods.push({ label: `${division.label} ${pod}`, teams, sent, matches: data.matches });
+    }
+  }
+  return pods;
+}
+
+test('each pod\'s playoff teams, in seed order, are its top teams by in-pod record', () => {
+  const pods = seededPods();
+  assert.ok(pods.length >= 30, `only ${pods.length} archived pods to check`);
+  for (const pod of pods) {
+    const ranked = rankPod(pod.teams, pod.matches).slice(0, pod.sent.length).map((r) => r.team.name);
+    assert.deepEqual(ranked, pod.sent.map((t) => t.name), `${pod.label} was seeded differently`);
+  }
+  // And it is in-pod record doing the work: overall standings order gets at
+  // least one of these pods wrong, or this test could not tell them apart.
+  const overallWrong = pods.filter((pod) => (
+    pod.teams.slice(0, pod.sent.length).some((t, i) => t.name !== pod.sent[i].name)
+  ));
+  assert.ok(overallWrong.length, 'overall standings order matches every pod, so this proves nothing about in-pod record');
+});
+
+test('a pod is ranked by record against pod opponents before overall record', () => {
+  const teams = [team('Road Warrior', 'A', 9, 3), team('Pod Boss', 'A', 7, 5), team('Third', 'A', 5, 7)];
+  const won = (home, away) => ({ complete: true, home, away, result: 'home' });
+  const matches = [
+    won('Pod Boss', 'Road Warrior'), won('Pod Boss', 'Third'), won('Road Warrior', 'Third'),
+    // Out of the pod: counts overall, not in-pod.
+    won('Road Warrior', 'Someone Else'),
+  ];
+  const leaders = divisionPlayoffs({ teams, meta: {}, matches, playoffs: [] }).leaders[0].teams;
+  assert.deepEqual(leaders.map((t) => t.name), ['Pod Boss', 'Road Warrior', 'Third']);
+  assert.deepEqual(leaders.map((t) => [t.pw, t.pl]), [[2, 0], [1, 1], [0, 2]]);
 });
 
 // --- The page ------------------------------------------------------------------------

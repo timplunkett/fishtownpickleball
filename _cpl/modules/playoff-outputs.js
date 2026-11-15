@@ -350,15 +350,52 @@ function regularSeasonOf(data) {
   return { played, total: matches.length, ...(times.length ? { times } : {}) };
 }
 
-// The top of each pod, for a division whose bracket is not out yet. How many
-// teams a pod sends to the playoffs is not in the data, so this shows a few and
-// says it is the top of the table, not the playoff field.
+// A pod ranked the way the league seeds its playoffs: by record against the
+// other teams in the pod, not by overall record. Read off every bracket posted
+// so far, this reproduces the league's first-round seeds in 49 of 51 pods,
+// against 44 for overall win percentage. Every pod where overall record
+// disagreed with the seeds is one in-pod record explains (Fall 2026 4.5 South
+// seeded the 9–4 Dill Dinkers above the 10–3 Bounce Malvern, which it beat
+// twice). The two exceptions are Spring 2026 4.0, whose pods ran 12/3/4/4.
+//
+// Ties fall to overall win percentage and then the division's own standings
+// order. The league's tiebreak beyond in-pod record is not settled by the data.
+function rankPod(teams, matches) {
+  const names = new Set(teams.map((team) => team.name));
+  const inPod = new Map(teams.map((team) => [team.name, { w: 0, l: 0 }]));
+  for (const match of matches || []) {
+    if (!match.complete || !names.has(match.home) || !names.has(match.away)) continue;
+    const winner = match.result === 'home' ? match.home : match.away;
+    const loser = match.result === 'home' ? match.away : match.home;
+    inPod.get(winner).w += 1;
+    inPod.get(loser).l += 1;
+  }
+  const pct = (w, l) => (w + l ? w / (w + l) : 0);
+  return teams
+    .map((team, index) => ({ team, index, record: inPod.get(team.name) }))
+    .sort((a, b) => (
+      pct(b.record.w, b.record.l) - pct(a.record.w, a.record.l)
+      || pct(b.team.w || 0, b.team.l || 0) - pct(a.team.w || 0, a.team.l || 0)
+      || a.index - b.index
+    ))
+    .map(({ team, record }) => ({ team, pw: record.w, pl: record.l }));
+}
+
+// The top of each pod in that order, for a division whose bracket is not out
+// yet. Every pod has sent the same number of teams in every regular division,
+// three or four: four pods of 4–6 teams sent three, pods of 7–8 sent four, and
+// two-pod divisions sent three at 10 teams and four at 11–16. That is a
+// pattern, not a rule that settles a 24-team division, so the page shows four
+// (the most any regular pod has sent) and does not draw a cutoff.
+const POD_LEADERS_SHOWN = 4;
+
 function podLeadersOf(data) {
   const groups = displayPodGroups(data.teams || [], data.meta || {});
-  const take = groups.length <= 2 ? 4 : groups.length <= 4 ? 3 : 2;
   return groups.map((group) => ({
     label: group.label,
-    teams: group.teams.slice(0, take).map((team) => ({ name: team.name, w: team.w, l: team.l })),
+    teams: rankPod(group.teams, data.matches).slice(0, POD_LEADERS_SHOWN).map(({ team, pw, pl }) => ({
+      name: team.name, w: team.w, l: team.l, pw, pl,
+    })),
   }));
 }
 
@@ -506,6 +543,7 @@ module.exports = {
   buildPlayoffRows,
   divisionPlayoffs,
   pairForNextRound,
+  rankPod,
   roundName,
   writePlayoffData,
 };
