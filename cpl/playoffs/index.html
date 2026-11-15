@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Playoff Overview — Fishtown Pickleball</title>
+<!-- These pages publish the names and ratings of some three thousand real
+     people. Anyone with the link is welcome to them; a search engine is not.
+     The Open Graph tags below are unaffected by this and are meant to be: robots
+     rules govern crawlers, unfurlers read OG, so the link still previews
+     properly when it is pasted into a group chat. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Where every division of the current season stands in its playoffs: brackets, who is still alive, and what is coming up.">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fishtown Pickleball Club">
+<meta property="og:title" content="CPL Playoff Overview">
+<meta property="og:description" content="Every division's bracket in one place: who is still alive, who plays next, and who has won.">
+<meta property="og:url" content="https://fishtownpickleball.com/cpl/playoffs/">
+<meta property="og:image" content="https://fishtownpickleball.com/assets/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CPL Playoff Overview">
+<meta name="twitter:description" content="Every division's bracket in one place.">
+<meta name="twitter:image" content="https://fishtownpickleball.com/assets/logo.png">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../home.css">
+</head>
+<body class="playoffs-page">
+  <noscript>
+    <p class="load-error" role="alert">This page draws its brackets in the browser, so it needs
+    JavaScript switched on. Nothing here works without it.</p>
+  </noscript>
+
+  <div class="hero">
+    <div class="kicker"><a class="back-link" href="../">← CPL</a></div>
+    <h1>Playoff Overview</h1>
+    <!-- Filled in by playoffs.js: which season, and how fresh the newest
+         division on the page is. Empty until then, so a slow load makes no claim. -->
+    <p class="freshness" id="playoffs-freshness"></p>
+  </div>
+
+  <!-- One pill for the summary, one for what is coming up, and one per division.
+       Ships hidden, like the archive's: a page with no script must not show an
+       empty bar. -->
+  <nav class="section-toc" id="playoffs-toc" aria-label="Jump to a division" hidden></nav>
+
+  <div id="playoffs-host"></div>
+
+  <!-- Shown in place of everything else when no season is being played. -->
+  <p class="panel-empty tier-empty" id="playoffs-empty" hidden>
+    No season is being played right now. Finished seasons are in the
+    <a class="app-link" href="../archive/">archive</a>.
+  </p>
+
+  <p class="attrib playoffs-attrib">Unofficial. Compiled from the Cross Club League API and DUPR; not affiliated
+  with, endorsed by, or operated by DUPR or the Cross Club League.</p>
+
+<script src="../compiled/shared.js" defer></script>
+<!-- Every division of every current season, with its bracket already worked
+     out by the compiler (see _cpl/modules/playoff-outputs.js). Kept out of
+     catalog.js, which loads on every page. -->
+<script src="compiled/data.js" defer></script>
+<script src="playoffs.js" defer></script>
+</body>
+</html>

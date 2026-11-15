@@ -2299,6 +2299,12 @@ thead th:focus-visible,
   color: var(--accent);
 }
 
+/* The way from one division's bracket to every division's (cpl/playoffs/). */
+.playoffs-overview-link {
+  margin: 14px 0 0;
+  font-size: 13px;
+}
+
 .pseed {
   display: inline-block;
   font-size: 11px;

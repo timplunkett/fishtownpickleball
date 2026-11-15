@@ -30,6 +30,8 @@ const SOURCES = [
   'cpl/index.html',
   'cpl/archive/index.html',
   'cpl/archive/archive.js',
+  'cpl/playoffs/index.html',
+  'cpl/playoffs/playoffs.js',
   'cpl/dupr-audit/index.html',
   // The dashboard shells are hand-written here and copied into every season
   // directory by the compiler, so these are the only two copies a person edits.

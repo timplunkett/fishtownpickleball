@@ -117,6 +117,39 @@ Local divisions are grouped under a club heading spanning the table rather than
 repeating the club on every row — four Summer 2026 clubs run more than one
 division, and the repetition was most of the table's width.
 
+### The playoff overview
+
+`/cpl/playoffs/` is every division of every **current** season on one page: a
+tile per division saying what stage it has reached, a "Coming up" table of every
+posted playoff match still to be played, and a section per division with its
+bracket drawn out (or, before the league posts one, the top of each pod). It
+reads `cpl/playoffs/compiled/data.js`, which `_cpl/modules/playoff-outputs.js`
+builds from the compiled shards — the same split as the archive's `data.js`.
+Finished seasons are the archive's job, so they are not on it.
+
+The API publishes a bracket as a flat list of matches per round, a round at a
+time, and says nothing about which match feeds which. The compiler works that
+out:
+
+- **Posted rounds are linked through the teams.** Each match in a round is
+  between the survivors of two matches of the round before. If any match fails
+  to find both its feeders, the rounds are listed as plain rounds instead.
+- **Rounds not posted yet are drawn only when the pods make it certain.** Two
+  matches drawing on the same pods meet; otherwise a first round pairs by
+  crossover (A1 v B4 meets B2 v A3, a bye meets the match whose lower seed is
+  from the bye-holder's pod). Anything ambiguous is left undrawn, and the page
+  says the draw is not out yet. A wrong bracket tells a team who it plays next,
+  so the test suite cuts every archived bracket back a round at a time and
+  requires the redraw to match what was played, or to abstain.
+- The medal round is read as in "Working out who won", with one more check: a
+  3v4 between two of the previous round's *winners* is a semi-final, not a
+  bronze match, because seeds are within the round.
+
+"Next match" is worked out in the browser, not at compile time: it depends on
+the day the page is read, and an unreported match stays on the schedule long
+after its date. Anything dated before today with no result reads as awaiting a
+result rather than as coming up.
+
 A season slug is `<year>-<name>`: `2026-fall`, `2026-spring`, `2026-summer`.
 The API numbers seasons 1–4 within a year (1 = Spring, 2 = Summer, 3 = Fall);
 the mapping lives in `_cpl/modules/seasons.js`.
@@ -236,10 +269,10 @@ player is re-fetched, not which players are in scope.
 A `compiled/` directory sits beside every page that reads generated output —
 `cpl/compiled/`, next to the homepage `cpl/index.html`; `cpl/<league>/compiled/`,
 next to that league's redirect stub; `cpl/<league>/<season>/compiled/`, next to
-that season's dashboard; `cpl/archive/compiled/` and `cpl/dupr-audit/compiled/`,
-next to those two pages. Anything inside one of those is written by the
-pipeline. Editing it by hand works exactly until the next run, which overwrites
-your change without a word:
+that season's dashboard; `cpl/archive/compiled/`, `cpl/playoffs/compiled/` and
+`cpl/dupr-audit/compiled/`, next to those three pages. Anything inside one of
+those is written by the pipeline. Editing it by hand works exactly until the
+next run, which overwrites your change without a word:
 
 - `cpl/<league>/<season>/compiled/` — the per-division `data-*.js`,
   `detail-*.js` and `dupr-*.js` shards, and that season's `bootstrap.js`
@@ -254,7 +287,8 @@ your change without a word:
   `_cpl/modules/bootstrap-gen.js`
 - `cpl/compiled/catalog.js` — the league/season/division index every page reads
 - `cpl/compiled/player-index.js`
-- `cpl/archive/compiled/data.js` and `cpl/dupr-audit/compiled/data.js`
+- `cpl/archive/compiled/data.js`, `cpl/playoffs/compiled/data.js` and
+  `cpl/dupr-audit/compiled/data.js`
 - `cpl/compiled/dupr-ratings.js` — the one file in `compiled/` that
   `npm run compile` doesn't write. `npm run dupr:fetch` does; compile only
   *reads* it, to derive the per-division shards above. It lives in
@@ -281,8 +315,9 @@ text link — `.back-link` is chrome labelling the way up a level, and
 `.player-result-entry` is a whole-row anchor whose affordance is its hover
 background. A test asserts the shared rule still covers all four selectors.
 
-Neither are the three standalone pages — `cpl/index.html` + `cpl/home.js`,
-`cpl/archive/index.html` + `cpl/archive/archive.js`, and
+Neither are the four standalone pages — `cpl/index.html` + `cpl/home.js`,
+`cpl/archive/index.html` + `cpl/archive/archive.js`,
+`cpl/playoffs/index.html` + `cpl/playoffs/playoffs.js`, and
 `cpl/dupr-audit/index.html`. They read the generated data files at runtime
 (from their own `compiled/`) rather than being generated themselves.
 
@@ -344,6 +379,7 @@ plus the two league/season `index.html` files that are generated but stay
 outside `compiled/` (see "Generated paths" above) — not the hand-written
 pages (`cpl/app.js`, `cpl/home.js`, `cpl/styles.css`, `cpl/home.css`,
 `cpl/index.html`, `cpl/archive/index.html`, `cpl/archive/archive.js`,
+`cpl/playoffs/index.html`, `cpl/playoffs/playoffs.js`,
 `cpl/dupr-audit/index.html`). A push that only touches those, or nothing
 under `_cpl/`/`cpl/` at all, is left alone.
 

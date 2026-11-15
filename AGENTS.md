@@ -104,10 +104,11 @@ silently overwritten. Edit the source instead: `_cpl/modules/shared.js` (not
 `cpl/compiled/shared.js`), `_cpl/templates/<league>.html` (not the season
 copies). Full list: README "Generated paths — never hand-edit". Hand-written:
 `cpl/app.js`, `cpl/home.js`, `cpl/styles.css`, `cpl/home.css`, `cpl/index.html`,
-`cpl/archive/{index.html,archive.js}`, `cpl/dupr-audit/index.html`.
+`cpl/archive/{index.html,archive.js}`, `cpl/playoffs/{index.html,playoffs.js}`,
+`cpl/dupr-audit/index.html`.
 
 **CSS placement.** `cpl/styles.css` loads on every page; `cpl/home.css` only on
-the homepage. Markup shared between `app.js` and `home.js` must be styled in
+the homepage and the standalone archive and playoff pages, never a dashboard. Markup shared between `app.js` and `home.js` must be styled in
 `styles.css`.
 
 **No primary division.** No division is special. Target subsets with
