@@ -130631,7 +130631,88 @@
    "subs": []
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "PKLD",
+   "away": "Pickleball Kingdom Hillsborough",
+   "time": "2026-11-18T19:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Picklr Fair Lawn",
+   "away": "Picklr Manahawkin",
+   "time": "2026-11-18T19:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Forward",
+   "away": "Ballers Philly",
+   "time": "2026-11-18T19:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Jersey Devil Green",
+   "away": "ACE Downingtown",
+   "time": "2026-11-18T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Dill Dinkers Hatboro",
+   "away": "Bounce Tempest",
+   "time": "2026-11-18T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Bounce Philly",
+   "away": "Delco Turf & Pickle",
+   "time": "2026-11-18T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Premiere",
+   "away": "Pickleball Kingdom Watchung",
+   "time": "2026-11-18T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Montville",
+   "away": "Pickleball Kingdom Tinton Falls",
+   "time": "2026-11-18T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  }
+ ],
  "extraPlayerIds": {
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
@@ -132197,7 +132278,7 @@
    }
   ],
   "divisionSlug": "b7ca04e4",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Wednesdays",
   "detailFile": "compiled/detail-b7ca04e4.js",
   "clubName": "",
@@ -132222,7 +132303,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-12T23:01:08.379Z";
+  DATA.meta.asOf = "2026-11-15T01:10:24.146Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

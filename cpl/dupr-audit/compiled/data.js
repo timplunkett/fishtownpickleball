@@ -19585,6 +19585,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Vyas Maddukuri",
+   "playerId": "4c208ee3-c374-413b-8941-b1ad278acfb5",
+   "team": "Allstar Pickler",
+   "slug": "c118b8e9",
+   "gender": "Male"
+  },
+  {
    "name": "Wallace Lee",
    "playerId": "ecf2cd14-2d76-4e21-9e99-e86aff72c356",
    "team": "Montville Rocks",

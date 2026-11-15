@@ -1,6 +1,52 @@
 {
   "$values": [
     {
+      "playerId": "4b9f7f7b-5027-482c-93aa-66ca594436db",
+      "firstName": "Anthony",
+      "lastName": "DeAngelis",
+      "gender": "Male",
+      "dupr": "4VQ5EK",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 1
+    },
+    {
+      "playerId": "6afbc227-b3f8-4abf-9d5f-b905a4c0993c",
+      "firstName": "William",
+      "lastName": "Dyott",
+      "gender": "Male",
+      "dupr": "2PX6EE",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "teamName": "Pickle House",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 3
+    },
+    {
       "playerId": "7cf43262-2d33-4f82-afba-bf0294000c56",
       "firstName": "Juan",
       "lastName": "Uribe",
@@ -21,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 4
+      "ranking": 6
     },
     {
       "playerId": "a314079a-16b7-42f5-be34-41e1672f7377",
@@ -44,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 1
+      "ranking": 2
     },
     {
       "playerId": "c9e3d3ee-24e9-437d-b770-fb4a3b5a37b3",
@@ -67,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 2
+      "ranking": 4
     },
     {
       "playerId": "f919968b-e6a7-4ea2-9d1d-049898bf39f4",
@@ -90,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 3
+      "ranking": 5
     }
   ]
 }

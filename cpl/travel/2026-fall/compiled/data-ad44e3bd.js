@@ -5666,39 +5666,9 @@
    }
   },
   {
-   "name": "Pickleball Kingdom Hillsborough",
+   "name": "Pickleball Lehigh Valley",
    "w": 3,
    "l": 10,
-   "pf": 6854,
-   "pa": 7133,
-   "gw": 152,
-   "gl": 256,
-   "diff": -279,
-   "gameDiff": -104,
-   "power": -0.2,
-   "powerRank": 4,
-   "pod": 1,
-   "reportedPod": "West",
-   "podName": "East / West",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     0,
-     0
-    ],
-    "female": [
-     152,
-     256
-    ]
-   }
-  },
-  {
-   "name": "Pickleball Lehigh Valley",
-   "w": 2,
-   "l": 11,
    "pf": 6417,
    "pa": 8160,
    "gw": 87,
@@ -5722,6 +5692,36 @@
     "female": [
      87,
      321
+    ]
+   }
+  },
+  {
+   "name": "Pickleball Kingdom Hillsborough",
+   "w": 2,
+   "l": 11,
+   "pf": 6854,
+   "pa": 7133,
+   "gw": 152,
+   "gl": 256,
+   "diff": -279,
+   "gameDiff": -104,
+   "power": -0.2,
+   "powerRank": 4,
+   "pod": 1,
+   "reportedPod": "West",
+   "podName": "East / West",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     152,
+     256
     ]
    }
   },
@@ -28267,7 +28267,7 @@
    ]
   },
   {
-   "result": "away",
+   "result": "home",
    "week": 6,
    "home": "Pickleball Lehigh Valley",
    "away": "Pickleball Kingdom Hillsborough",
@@ -43585,7 +43585,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-13T04:16:48.570Z";
+  DATA.meta.asOf = "2026-11-15T01:11:57.671Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

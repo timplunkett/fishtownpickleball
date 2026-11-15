@@ -2,6 +2,35 @@
   const DATA = {
  "players": [
   {
+   "name": "Anthony Deangelis",
+   "gender": "Male",
+   "team": "Flemington",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": false,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 1,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "4b9f7f7b-5027-482c-93aa-66ca594436db"
+  },
+  {
    "name": "Jake Denooyer",
    "gender": "Male",
    "team": "Montville",
@@ -22,7 +51,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 1,
+   "leagueRank": 2,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -51,7 +80,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 4,
+   "leagueRank": 6,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -80,7 +109,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 2,
+   "leagueRank": 4,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -109,13 +138,42 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 3,
+   "leagueRank": 5,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
    "strengthOfPartners": null,
    "strengthOfOpponents": null,
    "playerId": "f919968b-e6a7-4ea2-9d1d-049898bf39f4"
+  },
+  {
+   "name": "William Dyott",
+   "gender": "Male",
+   "team": "Pickle House",
+   "matches": 0,
+   "outsideSub": false,
+   "isCaptain": true,
+   "gamesPlayed": 0,
+   "wins": 0,
+   "losses": 0,
+   "pointsWon": 0,
+   "totalPointsAgainst": 0,
+   "mixedWins": 0,
+   "mixedLosses": 0,
+   "genderWins": 0,
+   "genderLosses": 0,
+   "clutchWins": 0,
+   "clutchLosses": 0,
+   "winPct": 0,
+   "diff": 0,
+   "ppg": 0,
+   "leagueRank": 3,
+   "rating": null,
+   "ratingGames": 0,
+   "confidence": 0,
+   "strengthOfPartners": null,
+   "strengthOfOpponents": null,
+   "playerId": "6afbc227-b3f8-4abf-9d5f-b905a4c0993c"
   }
  ],
  "teams": [
@@ -294,6 +352,35 @@
    "podName": null
   },
   {
+   "name": "Pickleball Palace",
+   "w": 0,
+   "l": 0,
+   "pf": 0,
+   "pa": 0,
+   "gw": 0,
+   "gl": 0,
+   "diff": 0,
+   "gameDiff": 0,
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     0,
+     0
+    ],
+    "female": [
+     0,
+     0
+    ]
+   },
+   "power": null,
+   "pod": 1,
+   "reportedPod": null,
+   "podName": null
+  },
+  {
    "name": "Picklr Exton",
    "w": 0,
    "l": 0,
@@ -361,7 +448,7 @@
   "matchesPlayed": 0,
   "provisionalMatches": 0,
   "weeks": "",
-  "totalPlayers": 4,
+  "totalPlayers": 6,
   "ratingHistoryWeeks": [],
   "divisionSlug": "8b1c2590",
   "hasPlayoffs": false,
@@ -380,7 +467,7 @@
   "reportedPods": null
  }
 };
-  DATA.meta.asOf = "2026-11-12T17:07:00.927Z";
+  DATA.meta.asOf = "2026-11-15T01:12:27.041Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["8b1c2590"] = DATA;

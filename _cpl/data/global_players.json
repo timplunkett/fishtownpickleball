@@ -2227,7 +2227,7 @@
     "duprRating": "3.915",
     "duprNumericId": 4977032768,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-11"
   },
   {
     "playerId": "c1c58200-c49c-4797-9c4a-cee408744794",
@@ -5107,7 +5107,7 @@
     "duprRating": "3.175",
     "duprNumericId": 7436388648,
     "duprProvisional": false,
-    "lastSeen": "2026-09-01"
+    "lastSeen": "2026-11"
   },
   {
     "playerId": "9beb7596-d6b9-41aa-ab94-66d16839c1f5",
@@ -18719,7 +18719,7 @@
     "playerId": "4d20f87d-068f-4cce-806d-6941153e72be",
     "firstName": "Luc",
     "lastName": "Legaspi",
-    "dupr": "554Q6L",
+    "dupr": "CPL006",
     "duprRating": "3.801",
     "duprNumericId": 8273301129,
     "duprProvisional": false,
@@ -30680,7 +30680,7 @@
     "lastName": "Demola",
     "dupr": "LVVY6Z",
     "duprRating": "3.050",
-    "lastSeen": "2026-08-31",
+    "lastSeen": "2026-11",
     "duprNumericId": 8109811000,
     "duprProvisional": false
   },
@@ -49430,8 +49430,8 @@
   },
   {
     "playerId": "f12c8d85-5f93-483c-9763-f33cd6bee8b7",
-    "firstName": "Eve",
-    "lastName": "Herman",
+    "firstName": "Nicolas",
+    "lastName": "Ha",
     "dupr": "CPL002",
     "duprRating": null,
     "lastSeen": "2026-11"
@@ -49453,5 +49453,35 @@
     "dupr": "CPL004",
     "duprRating": null,
     "lastSeen": "2026-11"
+  },
+  {
+    "playerId": "69bfceab-d621-4d6e-8bab-2d3f0c61c525",
+    "firstName": "Nancy",
+    "lastName": "Del Viscio",
+    "dupr": "ZN79LM",
+    "duprRating": "3.052",
+    "lastSeen": "2026-11",
+    "duprNumericId": 5470830316,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "2fc0943a-563f-4920-b0b3-e5952994ae87",
+    "firstName": "Reema",
+    "lastName": "Mulchandani",
+    "dupr": "4QK096",
+    "duprRating": "2.905",
+    "lastSeen": "2026-11",
+    "duprNumericId": 4860725749,
+    "duprProvisional": false
+  },
+  {
+    "playerId": "6afbc227-b3f8-4abf-9d5f-b905a4c0993c",
+    "firstName": "William",
+    "lastName": "Dyott",
+    "dupr": "2PX6EE",
+    "duprRating": "NR",
+    "lastSeen": "2026-11",
+    "duprNumericId": 6027132976,
+    "duprProvisional": false
   }
 ]

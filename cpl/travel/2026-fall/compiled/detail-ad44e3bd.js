@@ -30455,7 +30455,7 @@
      1,
      0
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 8,
     "sub": 0,
@@ -41782,7 +41782,7 @@
      2,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 8,
     "sub": 0,
@@ -46326,7 +46326,7 @@
      1,
      0
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 8,
     "sub": 0,
@@ -46735,7 +46735,7 @@
      0,
      2
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 8,
     "sub": 0,
@@ -47565,7 +47565,7 @@
      1,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -49022,7 +49022,7 @@
      3,
      1
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 8,
     "sub": 0,
@@ -49513,7 +49513,7 @@
      1,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -50865,7 +50865,7 @@
      0,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -51400,7 +51400,7 @@
      1,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -52700,7 +52700,7 @@
      1,
      1
     ],
-    "teamRes": "W",
+    "teamRes": "L",
     "teamGW": 16,
     "teamGL": 8,
     "sub": 0,
@@ -53293,7 +53293,7 @@
      0,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -53934,7 +53934,7 @@
      0,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -54386,7 +54386,7 @@
      0,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -55507,7 +55507,7 @@
      0,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -55965,7 +55965,7 @@
      1,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -56424,7 +56424,7 @@
      1,
      1
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -57143,7 +57143,7 @@
      1,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,
@@ -59896,7 +59896,7 @@
      0,
      0
     ],
-    "teamRes": "L",
+    "teamRes": "W",
     "teamGW": 8,
     "teamGL": 16,
     "sub": 0,

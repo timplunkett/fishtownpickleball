@@ -6686,558 +6686,6 @@
    }
   ]
  },
- "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Allstar Pickler",
-    "homeAway": "H",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 93,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 27,
-    "teamGL": 5,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 5,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 98,
-    "pa": 81,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Flemington Blue",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 119,
-    "pa": 106,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Stelton Sports",
-    "homeAway": "A",
-    "w": 7,
-    "l": 0,
-    "gp": 7,
-    "pf": 147,
-    "pa": 91,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 4,
-    "l": 3,
-    "gp": 7,
-    "pf": 133,
-    "pa": 118,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Premiere",
-    "homeAway": "H",
-    "w": 5,
-    "l": 2,
-    "gp": 7,
-    "pf": 142,
-    "pa": 95,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 29,
-    "teamGL": 3,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 113,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 113,
-    "pa": 112,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Bounce Malvern Black",
-    "homeAway": "A",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 120,
-    "pa": 102,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 11,
-    "opp": "Stelton Sports",
-    "homeAway": "H",
-    "w": 0,
-    "l": 3,
-    "gp": 3,
-    "pf": 46,
-    "pa": 63,
-    "mx": [
-     0,
-     2
-    ],
-    "gn": [
-     0,
-     1
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 11,
-    "opp": "ACE Moorestown",
-    "homeAway": "H",
-    "w": 3,
-    "l": 1,
-    "gp": 4,
-    "pf": 82,
-    "pa": 68,
-    "mx": [
-     1,
-     0
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 12,
-    "opp": "Allstar Pickler",
-    "homeAway": "A",
-    "w": 6,
-    "l": 0,
-    "gp": 6,
-    "pf": 126,
-    "pa": 80,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 2,
-    "label": "2",
-    "rating": 0.1,
-    "confidence": 49,
-    "rank": 69,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -2
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": 0.2,
-    "confidence": 49,
-    "rank": 68,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.2,
-    "strengthOfOpponents": -2
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": 1.3,
-    "confidence": 65,
-    "rank": 40,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": 1.3,
-    "confidence": 66,
-    "rank": 48,
-    "ratingGames": 11,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7a",
-    "rating": 0.6,
-    "confidence": 75,
-    "rank": 78,
-    "ratingGames": 17,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7b",
-    "rating": 1.5,
-    "confidence": 81,
-    "rank": 44,
-    "ratingGames": 24,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": 1,
-    "confidence": 85,
-    "rank": 66,
-    "ratingGames": 31,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 9,
-    "seq": 11,
-    "label": "9a",
-    "rating": 1.1,
-    "confidence": 87,
-    "rank": 61,
-    "ratingGames": 38,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -0.8
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9b",
-    "rating": 1.3,
-    "confidence": 89,
-    "rank": 57,
-    "ratingGames": 46,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10a",
-    "rating": 1.1,
-    "confidence": 90,
-    "rank": 65,
-    "ratingGames": 52,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 10,
-    "seq": 14,
-    "label": "10b",
-    "rating": 1.4,
-    "confidence": 91,
-    "rank": 56,
-    "ratingGames": 58,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 11,
-    "seq": 15,
-    "label": "11a",
-    "rating": 0.9,
-    "confidence": 92,
-    "rank": 76,
-    "ratingGames": 61,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.3
-   },
-   {
-    "week": 11,
-    "seq": 16,
-    "label": "11b",
-    "rating": 1.1,
-    "confidence": 92,
-    "rank": 72,
-    "ratingGames": 65,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 12,
-    "seq": 18,
-    "label": "12",
-    "rating": 1.2,
-    "confidence": 93,
-    "rank": 72,
-    "ratingGames": 71,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.4
-   }
-  ],
-  "partners": [
-   {
-    "pid": "23c87311-dae9-47a5-be80-30aab8231ce2",
-    "name": "Cheryl Isbirian",
-    "n": 4,
-    "synergy": 1.3
-   },
-   {
-    "pid": "9282b1b2-6551-481c-b9b8-2a246a49a621",
-    "name": "Bud Heller",
-    "n": 5,
-    "synergy": 0.9
-   },
-   {
-    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
-    "name": "Karan Pescatore",
-    "n": 5,
-    "synergy": 0.9
-   },
-   {
-    "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
-    "name": "Alex Lee",
-    "n": 4,
-    "synergy": 0.8
-   },
-   {
-    "pid": "9fc26554-f672-4501-9d2e-a8553fd79eaf",
-    "name": "Daniel Chernin",
-    "n": 6,
-    "synergy": 0.7
-   },
-   {
-    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
-    "name": "Rebecca Lederman",
-    "n": 8,
-    "synergy": 0.5
-   },
-   {
-    "pid": "340fe4f1-f3ed-4fb1-9ba3-74752ee1d864",
-    "name": "Jill Lesnik",
-    "n": 3,
-    "synergy": 0
-   },
-   {
-    "pid": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
-    "name": "Emil Pescatore",
-    "n": 7,
-    "synergy": -0.3
-   },
-   {
-    "pid": "20e006d9-72f9-4f9e-bad5-750694224782",
-    "name": "Kate Curren",
-    "n": 8,
-    "synergy": -0.3
-   },
-   {
-    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
-    "name": "Kelly Hanson Word",
-    "n": 5,
-    "synergy": -0.5
-   },
-   {
-    "pid": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
-    "name": "Todd Mitchell",
-    "n": 3,
-    "synergy": -0.5
-   }
-  ]
- },
  "0530512b-466d-4ff7-9e89-7961b4a63110": {
   "log": [
    {
@@ -8166,6 +7614,558 @@
     "name": "Tera Baccile",
     "n": 3,
     "synergy": -1.8
+   }
+  ]
+ },
+ "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "H",
+    "w": 6,
+    "l": 0,
+    "gp": 6,
+    "pf": 126,
+    "pa": 93,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 4,
+    "l": 1,
+    "gp": 5,
+    "pf": 98,
+    "pa": 81,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     1,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 119,
+    "pa": 106,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Stelton Sports",
+    "homeAway": "A",
+    "w": 7,
+    "l": 0,
+    "gp": 7,
+    "pf": 147,
+    "pa": 91,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 4,
+    "l": 3,
+    "gp": 7,
+    "pf": 133,
+    "pa": 118,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Premiere",
+    "homeAway": "H",
+    "w": 5,
+    "l": 2,
+    "gp": 7,
+    "pf": 142,
+    "pa": 95,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 29,
+    "teamGL": 3,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 113,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 113,
+    "pa": 112,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 120,
+    "pa": 102,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 11,
+    "opp": "Stelton Sports",
+    "homeAway": "H",
+    "w": 0,
+    "l": 3,
+    "gp": 3,
+    "pf": 46,
+    "pa": 63,
+    "mx": [
+     0,
+     2
+    ],
+    "gn": [
+     0,
+     1
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 11,
+    "opp": "ACE Moorestown",
+    "homeAway": "H",
+    "w": 3,
+    "l": 1,
+    "gp": 4,
+    "pf": 82,
+    "pa": 68,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 12,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 5,
+    "l": 0,
+    "gp": 5,
+    "pf": 105,
+    "pa": 61,
+    "mx": [
+     1,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 2,
+    "label": "2",
+    "rating": 0.1,
+    "confidence": 49,
+    "rank": 69,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -2
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": 0.2,
+    "confidence": 49,
+    "rank": 68,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.2,
+    "strengthOfOpponents": -2
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": 1.3,
+    "confidence": 65,
+    "rank": 40,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": 1.3,
+    "confidence": 66,
+    "rank": 48,
+    "ratingGames": 11,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7a",
+    "rating": 0.6,
+    "confidence": 75,
+    "rank": 78,
+    "ratingGames": 17,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7b",
+    "rating": 1.5,
+    "confidence": 81,
+    "rank": 44,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": 1,
+    "confidence": 85,
+    "rank": 66,
+    "ratingGames": 31,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 9,
+    "seq": 11,
+    "label": "9a",
+    "rating": 1.1,
+    "confidence": 87,
+    "rank": 61,
+    "ratingGames": 38,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.8
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9b",
+    "rating": 1.3,
+    "confidence": 89,
+    "rank": 57,
+    "ratingGames": 46,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10a",
+    "rating": 1.1,
+    "confidence": 90,
+    "rank": 65,
+    "ratingGames": 52,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "seq": 14,
+    "label": "10b",
+    "rating": 1.4,
+    "confidence": 91,
+    "rank": 56,
+    "ratingGames": 58,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 11,
+    "seq": 15,
+    "label": "11a",
+    "rating": 0.9,
+    "confidence": 92,
+    "rank": 76,
+    "ratingGames": 61,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 11,
+    "seq": 16,
+    "label": "11b",
+    "rating": 1.1,
+    "confidence": 92,
+    "rank": 72,
+    "ratingGames": 65,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 12,
+    "seq": 18,
+    "label": "12",
+    "rating": 1.2,
+    "confidence": 93,
+    "rank": 72,
+    "ratingGames": 70,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -0.4
+   }
+  ],
+  "partners": [
+   {
+    "pid": "23c87311-dae9-47a5-be80-30aab8231ce2",
+    "name": "Cheryl Isbirian",
+    "n": 4,
+    "synergy": 1.3
+   },
+   {
+    "pid": "9282b1b2-6551-481c-b9b8-2a246a49a621",
+    "name": "Bud Heller",
+    "n": 5,
+    "synergy": 0.9
+   },
+   {
+    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
+    "name": "Karan Pescatore",
+    "n": 5,
+    "synergy": 0.9
+   },
+   {
+    "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
+    "name": "Alex Lee",
+    "n": 4,
+    "synergy": 0.8
+   },
+   {
+    "pid": "9fc26554-f672-4501-9d2e-a8553fd79eaf",
+    "name": "Daniel Chernin",
+    "n": 6,
+    "synergy": 0.7
+   },
+   {
+    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
+    "name": "Rebecca Lederman",
+    "n": 8,
+    "synergy": 0.5
+   },
+   {
+    "pid": "340fe4f1-f3ed-4fb1-9ba3-74752ee1d864",
+    "name": "Jill Lesnik",
+    "n": 3,
+    "synergy": 0
+   },
+   {
+    "pid": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+    "name": "Emil Pescatore",
+    "n": 6,
+    "synergy": -0.3
+   },
+   {
+    "pid": "20e006d9-72f9-4f9e-bad5-750694224782",
+    "name": "Kate Curren",
+    "n": 8,
+    "synergy": -0.3
+   },
+   {
+    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
+    "name": "Kelly Hanson Word",
+    "n": 5,
+    "synergy": -0.5
+   },
+   {
+    "pid": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
+    "name": "Todd Mitchell",
+    "n": 3,
+    "synergy": -0.5
    }
   ]
  },
@@ -9470,7 +9470,7 @@
     "label": "12",
     "rating": 1.4,
     "confidence": 77,
-    "rank": 66,
+    "rank": 65,
     "ratingGames": 16,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.2
@@ -10323,7 +10323,7 @@
     "label": "12",
     "rating": 1.4,
     "confidence": 91,
-    "rank": 59,
+    "rank": 58,
     "ratingGames": 53,
     "strengthOfPartners": 2,
     "strengthOfOpponents": 0.1
@@ -11939,7 +11939,7 @@
     "label": "12",
     "rating": 1.3,
     "confidence": 91,
-    "rank": 69,
+    "rank": 68,
     "ratingGames": 58,
     "strengthOfPartners": 1.6,
     "strengthOfOpponents": 0
@@ -11999,6 +11999,449 @@
     "name": "Michael Dieterle",
     "n": 6,
     "synergy": -1.5
+   }
+  ]
+ },
+ "ecc02ab8-5e9c-4950-89b7-be3f397683c3": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 118,
+    "pa": 104,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 124,
+    "pa": 87,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Stelton Sports",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 117,
+    "pa": 111,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 96,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 8,
+    "l": 0,
+    "gp": 8,
+    "pf": 168,
+    "pa": 110,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     4,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 5,
+    "l": 3,
+    "gp": 8,
+    "pf": 154,
+    "pa": 146,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 11,
+    "opp": "Stelton Sports",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 120,
+    "pa": 100,
+    "mx": [
+     1,
+     2
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 23,
+    "teamGL": 9,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 11,
+    "opp": "ACE Moorestown",
+    "homeAway": "H",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 145,
+    "pa": 152,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 20,
+    "teamGL": 12,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 12,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 3,
+    "l": 0,
+    "gp": 3,
+    "pf": 63,
+    "pa": 47,
+    "mx": [
+     2,
+     0
+    ],
+    "gn": [
+     1,
+     0
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 2,
+    "label": "2",
+    "rating": -0.2,
+    "confidence": 46,
+    "rank": 75,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.2,
+    "confidence": 46,
+    "rank": 85,
+    "ratingGames": 6,
+    "strengthOfPartners": 1,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -1.2,
+    "confidence": 48,
+    "rank": 136,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.6,
+    "strengthOfOpponents": -1.3
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": -0.5,
+    "confidence": 50,
+    "rank": 118,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7a",
+    "rating": 0.5,
+    "confidence": 68,
+    "rank": 82,
+    "ratingGames": 12,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7b",
+    "rating": 0.5,
+    "confidence": 77,
+    "rank": 84,
+    "ratingGames": 18,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": 0.3,
+    "confidence": 82,
+    "rank": 93,
+    "ratingGames": 24,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": 0.8,
+    "confidence": 86,
+    "rank": 71,
+    "ratingGames": 32,
+    "strengthOfPartners": 1.7,
+    "strengthOfOpponents": -0.7
+   },
+   {
+    "week": 10,
+    "seq": 14,
+    "label": "10",
+    "rating": 0.9,
+    "confidence": 89,
+    "rank": 75,
+    "ratingGames": 40,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 11,
+    "seq": 15,
+    "label": "11a",
+    "rating": 1,
+    "confidence": 90,
+    "rank": 73,
+    "ratingGames": 46,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 11,
+    "seq": 16,
+    "label": "11b",
+    "rating": 0.8,
+    "confidence": 91,
+    "rank": 86,
+    "ratingGames": 54,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 12,
+    "seq": 18,
+    "label": "12",
+    "rating": 1,
+    "confidence": 92,
+    "rank": 80,
+    "ratingGames": 57,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0
+   }
+  ],
+  "partners": [
+   {
+    "pid": "9282b1b2-6551-481c-b9b8-2a246a49a621",
+    "name": "Bud Heller",
+    "n": 4,
+    "synergy": 1.9
+   },
+   {
+    "pid": "1bad49ab-f2b8-439b-9e4b-3ff3cb8ca325",
+    "name": "Charlie Johnston",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "6d8254ae-6e00-4704-8c1e-936733eb9b09",
+    "name": "Ryan Sherry",
+    "n": 3,
+    "synergy": 0.5
+   },
+   {
+    "pid": "20e006d9-72f9-4f9e-bad5-750694224782",
+    "name": "Kate Curren",
+    "n": 4,
+    "synergy": 0
+   },
+   {
+    "pid": "f1248cc3-96c3-4671-9b08-533d22eb710f",
+    "name": "Amanda Quinn",
+    "n": 5,
+    "synergy": 0
+   },
+   {
+    "pid": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
+    "name": "Todd Mitchell",
+    "n": 5,
+    "synergy": -0.2
+   },
+   {
+    "pid": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
+    "name": "Emil Pescatore",
+    "n": 6,
+    "synergy": -0.4
+   },
+   {
+    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
+    "name": "Karan Pescatore",
+    "n": 4,
+    "synergy": -0.5
+   },
+   {
+    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
+    "name": "Rebecca Lederman",
+    "n": 3,
+    "synergy": -1.1
+   },
+   {
+    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
+    "name": "Kelly Hanson Word",
+    "n": 5,
+    "synergy": -2.9
    }
   ]
  },
@@ -12894,449 +13337,6 @@
     "name": "Patricia Boyle",
     "n": 4,
     "synergy": -1.4
-   }
-  ]
- },
- "ecc02ab8-5e9c-4950-89b7-be3f397683c3": {
-  "log": [
-   {
-    "week": 2,
-    "opp": "Allstar Pickler",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 118,
-    "pa": 104,
-    "mx": [
-     2,
-     0
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 27,
-    "teamGL": 5,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Flemington Blue",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 124,
-    "pa": 87,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Stelton Sports",
-    "homeAway": "A",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 117,
-    "pa": 111,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 112,
-    "pa": 96,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 8,
-    "l": 0,
-    "gp": 8,
-    "pf": 168,
-    "pa": 110,
-    "mx": [
-     4,
-     0
-    ],
-    "gn": [
-     4,
-     0
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Bounce Malvern Black",
-    "homeAway": "A",
-    "w": 5,
-    "l": 3,
-    "gp": 8,
-    "pf": 154,
-    "pa": 146,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 11,
-    "opp": "Stelton Sports",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 120,
-    "pa": 100,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 11,
-    "opp": "ACE Moorestown",
-    "homeAway": "H",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 145,
-    "pa": 152,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     1,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 20,
-    "teamGL": 12,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 12,
-    "opp": "Allstar Pickler",
-    "homeAway": "A",
-    "w": 2,
-    "l": 0,
-    "gp": 2,
-    "pf": 42,
-    "pa": 28,
-    "mx": [
-     1,
-     0
-    ],
-    "gn": [
-     1,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 2,
-    "seq": 2,
-    "label": "2",
-    "rating": -0.2,
-    "confidence": 46,
-    "rank": 75,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.2,
-    "confidence": 46,
-    "rank": 85,
-    "ratingGames": 6,
-    "strengthOfPartners": 1,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -1.2,
-    "confidence": 48,
-    "rank": 136,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.6,
-    "strengthOfOpponents": -1.3
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": -0.5,
-    "confidence": 50,
-    "rank": 118,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7a",
-    "rating": 0.5,
-    "confidence": 68,
-    "rank": 82,
-    "ratingGames": 12,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7b",
-    "rating": 0.5,
-    "confidence": 77,
-    "rank": 84,
-    "ratingGames": 18,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": 0.3,
-    "confidence": 82,
-    "rank": 93,
-    "ratingGames": 24,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -0.5
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": 0.8,
-    "confidence": 86,
-    "rank": 71,
-    "ratingGames": 32,
-    "strengthOfPartners": 1.7,
-    "strengthOfOpponents": -0.7
-   },
-   {
-    "week": 10,
-    "seq": 14,
-    "label": "10",
-    "rating": 0.9,
-    "confidence": 89,
-    "rank": 75,
-    "ratingGames": 40,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 11,
-    "seq": 15,
-    "label": "11a",
-    "rating": 1,
-    "confidence": 90,
-    "rank": 73,
-    "ratingGames": 46,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 11,
-    "seq": 16,
-    "label": "11b",
-    "rating": 0.8,
-    "confidence": 91,
-    "rank": 86,
-    "ratingGames": 54,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 12,
-    "seq": 18,
-    "label": "12",
-    "rating": 1,
-    "confidence": 92,
-    "rank": 80,
-    "ratingGames": 56,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0
-   }
-  ],
-  "partners": [
-   {
-    "pid": "9282b1b2-6551-481c-b9b8-2a246a49a621",
-    "name": "Bud Heller",
-    "n": 4,
-    "synergy": 1.9
-   },
-   {
-    "pid": "1bad49ab-f2b8-439b-9e4b-3ff3cb8ca325",
-    "name": "Charlie Johnston",
-    "n": 3,
-    "synergy": 0.5
-   },
-   {
-    "pid": "6d8254ae-6e00-4704-8c1e-936733eb9b09",
-    "name": "Ryan Sherry",
-    "n": 3,
-    "synergy": 0.5
-   },
-   {
-    "pid": "20e006d9-72f9-4f9e-bad5-750694224782",
-    "name": "Kate Curren",
-    "n": 4,
-    "synergy": 0
-   },
-   {
-    "pid": "f1248cc3-96c3-4671-9b08-533d22eb710f",
-    "name": "Amanda Quinn",
-    "n": 5,
-    "synergy": 0
-   },
-   {
-    "pid": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
-    "name": "Todd Mitchell",
-    "n": 5,
-    "synergy": -0.2
-   },
-   {
-    "pid": "1c9b7abf-dae6-4e0d-a31d-485e99a01fec",
-    "name": "Emil Pescatore",
-    "n": 6,
-    "synergy": -0.4
-   },
-   {
-    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
-    "name": "Karan Pescatore",
-    "n": 4,
-    "synergy": -0.5
-   },
-   {
-    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
-    "name": "Rebecca Lederman",
-    "n": 3,
-    "synergy": -1.1
-   },
-   {
-    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
-    "name": "Kelly Hanson Word",
-    "n": 5,
-    "synergy": -2.9
    }
   ]
  },
@@ -15530,7 +15530,7 @@
     "label": "12",
     "rating": 1.4,
     "confidence": 87,
-    "rank": 61,
+    "rank": 60,
     "ratingGames": 32,
     "strengthOfPartners": 1.8,
     "strengthOfOpponents": 0.2
@@ -19317,7 +19317,7 @@
     "label": "12",
     "rating": -0.4,
     "confidence": 91,
-    "rank": 146,
+    "rank": 145,
     "ratingGames": 56,
     "strengthOfPartners": 1.5,
     "strengthOfOpponents": -0.4
@@ -22537,221 +22537,59 @@
    }
   ]
  },
- "1c9b7abf-dae6-4e0d-a31d-485e99a01fec": {
+ "340fe4f1-f3ed-4fb1-9ba3-74752ee1d864": {
   "log": [
-   {
-    "week": 2,
-    "opp": "Allstar Pickler",
-    "homeAway": "H",
-    "w": 4,
-    "l": 2,
-    "gp": 6,
-    "pf": 112,
-    "pa": 106,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 27,
-    "teamGL": 5,
-    "sub": 0,
-    "subFor": null
-   },
    {
     "week": 5,
     "opp": "Jersey Pickleball Club",
     "homeAway": "H",
-    "w": 6,
-    "l": 1,
-    "gp": 7,
-    "pf": 144,
-    "pa": 124,
-    "mx": [
-     3,
-     0
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     3,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Flemington Blue",
-    "homeAway": "H",
-    "w": 5,
-    "l": 1,
-    "gp": 6,
-    "pf": 123,
-    "pa": 92,
-    "mx": [
-     3,
-     1
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 7,
-    "opp": "Stelton Sports",
-    "homeAway": "A",
-    "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 130,
-    "pa": 133,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     1,
-     3
-    ],
-    "cl": [
-     0,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 8,
-    "opp": "Flemington Blue",
-    "homeAway": "A",
     "w": 3,
     "l": 3,
     "gp": 6,
     "pf": 115,
-    "pa": 111,
+    "pa": 105,
     "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     3,
-     0
-    ],
-    "cl": [
-     0,
+     1,
      2
     ],
-    "teamRes": "W",
-    "teamGW": 22,
-    "teamGL": 10,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 9,
-    "opp": "Premiere",
-    "homeAway": "A",
-    "w": 7,
-    "l": 1,
-    "gp": 8,
-    "pf": 166,
-    "pa": 119,
-    "mx": [
-     4,
-     0
-    ],
     "gn": [
-     3,
+     2,
      1
     ],
     "cl": [
      1,
-     1
+     2
     ],
     "teamRes": "W",
-    "teamGW": 31,
-    "teamGL": 1,
+    "teamGW": 26,
+    "teamGL": 6,
     "sub": 0,
     "subFor": null
    },
    {
-    "week": 10,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "A",
+    "week": 11,
+    "opp": "Stelton Sports",
+    "homeAway": "H",
     "w": 3,
-    "l": 4,
-    "gp": 7,
-    "pf": 134,
-    "pa": 135,
-    "mx": [
-     0,
-     3
-    ],
-    "gn": [
-     3,
-     1
-    ],
-    "cl": [
-     2,
-     1
-    ],
-    "teamRes": "W",
-    "teamGW": 19,
-    "teamGL": 13,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 10,
-    "opp": "Bounce Malvern Black",
-    "homeAway": "A",
-    "w": 4,
-    "l": 4,
-    "gp": 8,
-    "pf": 151,
-    "pa": 153,
+    "l": 3,
+    "gp": 6,
+    "pf": 116,
+    "pa": 114,
     "mx": [
      2,
      2
     ],
     "gn": [
-     2,
-     2
-    ],
-    "cl": [
-     3,
+     1,
      1
     ],
+    "cl": [
+     1,
+     2
+    ],
     "teamRes": "W",
-    "teamGW": 21,
-    "teamGL": 11,
+    "teamGW": 23,
+    "teamGL": 9,
     "sub": 0,
     "subFor": null
    },
@@ -22759,18 +22597,18 @@
     "week": 12,
     "opp": "Allstar Pickler",
     "homeAway": "A",
-    "w": 2,
-    "l": 4,
+    "w": 5,
+    "l": 1,
     "gp": 6,
-    "pf": 106,
-    "pa": 114,
+    "pf": 123,
+    "pa": 83,
     "mx": [
-     2,
+     3,
      1
     ],
     "gn": [
-     0,
-     3
+     2,
+     0
     ],
     "cl": [
      1,
@@ -22785,192 +22623,100 @@
   ],
   "ratingHistory": [
    {
-    "week": 2,
-    "seq": 2,
-    "label": "2",
-    "rating": -0.7,
-    "confidence": 50,
-    "rank": 90,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.9
-   },
-   {
-    "week": 4,
-    "seq": 3,
-    "label": "4",
-    "rating": -0.8,
-    "confidence": 50,
-    "rank": 100,
-    "ratingGames": 6,
-    "strengthOfPartners": 0.4,
-    "strengthOfOpponents": -0.9
-   },
-   {
     "week": 5,
     "seq": 4,
     "label": "5",
-    "rating": -0.6,
-    "confidence": 69,
-    "rank": 113,
-    "ratingGames": 13,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": -0.5
+    "rating": -0.2,
+    "confidence": 52,
+    "rank": 99,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": -0.1
    },
    {
     "week": 6,
     "seq": 7,
     "label": "6",
-    "rating": -0.5,
-    "confidence": 69,
-    "rank": 117,
-    "ratingGames": 13,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -0.4
-   },
-   {
-    "week": 7,
-    "seq": 8,
-    "label": "7a",
-    "rating": 0.1,
-    "confidence": 77,
-    "rank": 102,
-    "ratingGames": 19,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": -0.3
+    "rating": -0.1,
+    "confidence": 52,
+    "rank": 108,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.9,
+    "strengthOfOpponents": 0
    },
    {
     "week": 7,
     "seq": 9,
-    "label": "7b",
-    "rating": -0.3,
-    "confidence": 82,
-    "rank": 120,
-    "ratingGames": 26,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": -0.2
+    "label": "7",
+    "rating": 0.6,
+    "confidence": 54,
+    "rank": 80,
+    "ratingGames": 6,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.6
    },
    {
     "week": 8,
     "seq": 10,
     "label": "8",
-    "rating": 0.1,
-    "confidence": 85,
-    "rank": 107,
-    "ratingGames": 32,
+    "rating": 0.5,
+    "confidence": 54,
+    "rank": 88,
+    "ratingGames": 6,
     "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0.5
    },
    {
     "week": 9,
     "seq": 12,
     "label": "9",
-    "rating": 0.2,
-    "confidence": 88,
-    "rank": 100,
-    "ratingGames": 40,
+    "rating": 0.7,
+    "confidence": 55,
+    "rank": 78,
+    "ratingGames": 6,
     "strengthOfPartners": 2,
-    "strengthOfOpponents": -0.2
-   },
-   {
-    "week": 10,
-    "seq": 13,
-    "label": "10a",
-    "rating": 0.2,
-    "confidence": 89,
-    "rank": 109,
-    "ratingGames": 47,
-    "strengthOfPartners": 2.1,
-    "strengthOfOpponents": 0
+    "strengthOfOpponents": 0.7
    },
    {
     "week": 10,
     "seq": 14,
-    "label": "10b",
-    "rating": 0,
-    "confidence": 91,
-    "rank": 118,
-    "ratingGames": 55,
-    "strengthOfPartners": 2.3,
-    "strengthOfOpponents": 0.2
+    "label": "10",
+    "rating": 0.9,
+    "confidence": 56,
+    "rank": 83,
+    "ratingGames": 6,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 1
    },
    {
     "week": 11,
     "seq": 16,
     "label": "11",
-    "rating": -0.1,
-    "confidence": 91,
-    "rank": 129,
-    "ratingGames": 55,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": 0.1
+    "rating": 0.8,
+    "confidence": 72,
+    "rank": 84,
+    "ratingGames": 12,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.9
    },
    {
     "week": 12,
     "seq": 18,
     "label": "12",
-    "rating": -0.3,
-    "confidence": 92,
-    "rank": 139,
-    "ratingGames": 61,
-    "strengthOfPartners": 2.2,
+    "rating": 1.4,
+    "confidence": 79,
+    "rank": 61,
+    "ratingGames": 18,
+    "strengthOfPartners": 1.5,
     "strengthOfOpponents": 0.2
    }
   ],
   "partners": [
    {
-    "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
-    "name": "Alex Lee",
-    "n": 8,
-    "synergy": 1.2
-   },
-   {
-    "pid": "20e006d9-72f9-4f9e-bad5-750694224782",
-    "name": "Kate Curren",
-    "n": 4,
-    "synergy": 0.6
-   },
-   {
-    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
-    "name": "Kelly Hanson Word",
-    "n": 4,
-    "synergy": 0.5
-   },
-   {
     "pid": "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b",
     "name": "Carly Pfeffer",
-    "n": 7,
-    "synergy": -0.3
-   },
-   {
-    "pid": "ecc02ab8-5e9c-4950-89b7-be3f397683c3",
-    "name": "Brian Gonzalez",
-    "n": 6,
-    "synergy": -0.4
-   },
-   {
-    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
-    "name": "Rebecca Lederman",
     "n": 3,
-    "synergy": -0.4
-   },
-   {
-    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
-    "name": "Karan Pescatore",
-    "n": 9,
-    "synergy": -0.5
-   },
-   {
-    "pid": "9fc26554-f672-4501-9d2e-a8553fd79eaf",
-    "name": "Daniel Chernin",
-    "n": 3,
-    "synergy": -0.5
-   },
-   {
-    "pid": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
-    "name": "Todd Mitchell",
-    "n": 3,
-    "synergy": -2.5
+    "synergy": 0
    }
   ]
  },
@@ -23784,6 +23530,443 @@
     "name": "Todd Gasparre",
     "n": 7,
     "synergy": -2
+   }
+  ]
+ },
+ "1c9b7abf-dae6-4e0d-a31d-485e99a01fec": {
+  "log": [
+   {
+    "week": 2,
+    "opp": "Allstar Pickler",
+    "homeAway": "H",
+    "w": 4,
+    "l": 2,
+    "gp": 6,
+    "pf": 112,
+    "pa": 106,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     2,
+     1
+    ],
+    "cl": [
+     1,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 27,
+    "teamGL": 5,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 5,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "H",
+    "w": 6,
+    "l": 1,
+    "gp": 7,
+    "pf": 144,
+    "pa": 124,
+    "mx": [
+     3,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     3,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Flemington Blue",
+    "homeAway": "H",
+    "w": 5,
+    "l": 1,
+    "gp": 6,
+    "pf": 123,
+    "pa": 92,
+    "mx": [
+     3,
+     1
+    ],
+    "gn": [
+     2,
+     0
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 26,
+    "teamGL": 6,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 7,
+    "opp": "Stelton Sports",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 130,
+    "pa": 133,
+    "mx": [
+     2,
+     1
+    ],
+    "gn": [
+     1,
+     3
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 8,
+    "opp": "Flemington Blue",
+    "homeAway": "A",
+    "w": 3,
+    "l": 3,
+    "gp": 6,
+    "pf": 115,
+    "pa": 111,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     3,
+     0
+    ],
+    "cl": [
+     0,
+     2
+    ],
+    "teamRes": "W",
+    "teamGW": 22,
+    "teamGL": 10,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 9,
+    "opp": "Premiere",
+    "homeAway": "A",
+    "w": 7,
+    "l": 1,
+    "gp": 8,
+    "pf": 166,
+    "pa": 119,
+    "mx": [
+     4,
+     0
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     1,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 31,
+    "teamGL": 1,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Jersey Pickleball Club",
+    "homeAway": "A",
+    "w": 3,
+    "l": 4,
+    "gp": 7,
+    "pf": 134,
+    "pa": 135,
+    "mx": [
+     0,
+     3
+    ],
+    "gn": [
+     3,
+     1
+    ],
+    "cl": [
+     2,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 19,
+    "teamGL": 13,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 10,
+    "opp": "Bounce Malvern Black",
+    "homeAway": "A",
+    "w": 4,
+    "l": 4,
+    "gp": 8,
+    "pf": 151,
+    "pa": 153,
+    "mx": [
+     2,
+     2
+    ],
+    "gn": [
+     2,
+     2
+    ],
+    "cl": [
+     3,
+     1
+    ],
+    "teamRes": "W",
+    "teamGW": 21,
+    "teamGL": 11,
+    "sub": 0,
+    "subFor": null
+   },
+   {
+    "week": 12,
+    "opp": "Allstar Pickler",
+    "homeAway": "A",
+    "w": 1,
+    "l": 4,
+    "gp": 5,
+    "pf": 85,
+    "pa": 95,
+    "mx": [
+     1,
+     1
+    ],
+    "gn": [
+     0,
+     3
+    ],
+    "cl": [
+     0,
+     0
+    ],
+    "teamRes": "W",
+    "teamGW": 28,
+    "teamGL": 4,
+    "sub": 0,
+    "subFor": null
+   }
+  ],
+  "ratingHistory": [
+   {
+    "week": 2,
+    "seq": 2,
+    "label": "2",
+    "rating": -0.7,
+    "confidence": 50,
+    "rank": 90,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 4,
+    "seq": 3,
+    "label": "4",
+    "rating": -0.8,
+    "confidence": 50,
+    "rank": 100,
+    "ratingGames": 6,
+    "strengthOfPartners": 0.4,
+    "strengthOfOpponents": -0.9
+   },
+   {
+    "week": 5,
+    "seq": 4,
+    "label": "5",
+    "rating": -0.6,
+    "confidence": 69,
+    "rank": 113,
+    "ratingGames": 13,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": -0.5
+   },
+   {
+    "week": 6,
+    "seq": 7,
+    "label": "6",
+    "rating": -0.5,
+    "confidence": 69,
+    "rank": 117,
+    "ratingGames": 13,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.4
+   },
+   {
+    "week": 7,
+    "seq": 8,
+    "label": "7a",
+    "rating": 0.1,
+    "confidence": 77,
+    "rank": 102,
+    "ratingGames": 19,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": -0.3
+   },
+   {
+    "week": 7,
+    "seq": 9,
+    "label": "7b",
+    "rating": -0.3,
+    "confidence": 82,
+    "rank": 120,
+    "ratingGames": 26,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 8,
+    "seq": 10,
+    "label": "8",
+    "rating": 0.1,
+    "confidence": 85,
+    "rank": 107,
+    "ratingGames": 32,
+    "strengthOfPartners": 1.8,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 9,
+    "seq": 12,
+    "label": "9",
+    "rating": 0.2,
+    "confidence": 88,
+    "rank": 100,
+    "ratingGames": 40,
+    "strengthOfPartners": 2,
+    "strengthOfOpponents": -0.2
+   },
+   {
+    "week": 10,
+    "seq": 13,
+    "label": "10a",
+    "rating": 0.2,
+    "confidence": 89,
+    "rank": 109,
+    "ratingGames": 47,
+    "strengthOfPartners": 2.1,
+    "strengthOfOpponents": 0
+   },
+   {
+    "week": 10,
+    "seq": 14,
+    "label": "10b",
+    "rating": 0,
+    "confidence": 91,
+    "rank": 118,
+    "ratingGames": 55,
+    "strengthOfPartners": 2.3,
+    "strengthOfOpponents": 0.2
+   },
+   {
+    "week": 11,
+    "seq": 16,
+    "label": "11",
+    "rating": -0.1,
+    "confidence": 91,
+    "rank": 129,
+    "ratingGames": 55,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 0.1
+   },
+   {
+    "week": 12,
+    "seq": 18,
+    "label": "12",
+    "rating": -0.3,
+    "confidence": 92,
+    "rank": 140,
+    "ratingGames": 60,
+    "strengthOfPartners": 2.2,
+    "strengthOfOpponents": 0.2
+   }
+  ],
+  "partners": [
+   {
+    "pid": "22e2201d-16d7-4474-847b-5f4f0cef44e6",
+    "name": "Alex Lee",
+    "n": 8,
+    "synergy": 1.2
+   },
+   {
+    "pid": "20e006d9-72f9-4f9e-bad5-750694224782",
+    "name": "Kate Curren",
+    "n": 4,
+    "synergy": 0.6
+   },
+   {
+    "pid": "ecfbb129-ba7d-4b52-92b9-869fa7487248",
+    "name": "Kelly Hanson Word",
+    "n": 4,
+    "synergy": 0.5
+   },
+   {
+    "pid": "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b",
+    "name": "Carly Pfeffer",
+    "n": 6,
+    "synergy": -0.3
+   },
+   {
+    "pid": "ecc02ab8-5e9c-4950-89b7-be3f397683c3",
+    "name": "Brian Gonzalez",
+    "n": 6,
+    "synergy": -0.4
+   },
+   {
+    "pid": "cb324481-3d73-47c2-9cc0-a1e1650dd87f",
+    "name": "Rebecca Lederman",
+    "n": 3,
+    "synergy": -0.4
+   },
+   {
+    "pid": "2cb4b2dd-d14b-4bab-a8be-ef4b14845711",
+    "name": "Karan Pescatore",
+    "n": 9,
+    "synergy": -0.5
+   },
+   {
+    "pid": "9fc26554-f672-4501-9d2e-a8553fd79eaf",
+    "name": "Daniel Chernin",
+    "n": 3,
+    "synergy": -0.5
+   },
+   {
+    "pid": "164bf044-d118-4bee-8bd6-d0bad38b79ea",
+    "name": "Todd Mitchell",
+    "n": 3,
+    "synergy": -2.5
    }
   ]
  },
@@ -25134,189 +25317,6 @@
     "name": "Jonathan Goldner",
     "n": 6,
     "synergy": -1.1
-   }
-  ]
- },
- "340fe4f1-f3ed-4fb1-9ba3-74752ee1d864": {
-  "log": [
-   {
-    "week": 5,
-    "opp": "Jersey Pickleball Club",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 115,
-    "pa": 105,
-    "mx": [
-     1,
-     2
-    ],
-    "gn": [
-     2,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 26,
-    "teamGL": 6,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 11,
-    "opp": "Stelton Sports",
-    "homeAway": "H",
-    "w": 3,
-    "l": 3,
-    "gp": 6,
-    "pf": 116,
-    "pa": 114,
-    "mx": [
-     2,
-     2
-    ],
-    "gn": [
-     1,
-     1
-    ],
-    "cl": [
-     1,
-     2
-    ],
-    "teamRes": "W",
-    "teamGW": 23,
-    "teamGL": 9,
-    "sub": 0,
-    "subFor": null
-   },
-   {
-    "week": 12,
-    "opp": "Allstar Pickler",
-    "homeAway": "A",
-    "w": 4,
-    "l": 1,
-    "gp": 5,
-    "pf": 102,
-    "pa": 64,
-    "mx": [
-     2,
-     1
-    ],
-    "gn": [
-     2,
-     0
-    ],
-    "cl": [
-     0,
-     0
-    ],
-    "teamRes": "W",
-    "teamGW": 28,
-    "teamGL": 4,
-    "sub": 0,
-    "subFor": null
-   }
-  ],
-  "ratingHistory": [
-   {
-    "week": 5,
-    "seq": 4,
-    "label": "5",
-    "rating": -0.2,
-    "confidence": 52,
-    "rank": 99,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": -0.1
-   },
-   {
-    "week": 6,
-    "seq": 7,
-    "label": "6",
-    "rating": -0.1,
-    "confidence": 52,
-    "rank": 108,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.9,
-    "strengthOfOpponents": 0
-   },
-   {
-    "week": 7,
-    "seq": 9,
-    "label": "7",
-    "rating": 0.6,
-    "confidence": 54,
-    "rank": 80,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.6
-   },
-   {
-    "week": 8,
-    "seq": 10,
-    "label": "8",
-    "rating": 0.5,
-    "confidence": 54,
-    "rank": 88,
-    "ratingGames": 6,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.5
-   },
-   {
-    "week": 9,
-    "seq": 12,
-    "label": "9",
-    "rating": 0.7,
-    "confidence": 55,
-    "rank": 78,
-    "ratingGames": 6,
-    "strengthOfPartners": 2,
-    "strengthOfOpponents": 0.7
-   },
-   {
-    "week": 10,
-    "seq": 14,
-    "label": "10",
-    "rating": 0.9,
-    "confidence": 56,
-    "rank": 83,
-    "ratingGames": 6,
-    "strengthOfPartners": 2.2,
-    "strengthOfOpponents": 1
-   },
-   {
-    "week": 11,
-    "seq": 16,
-    "label": "11",
-    "rating": 0.8,
-    "confidence": 72,
-    "rank": 84,
-    "ratingGames": 12,
-    "strengthOfPartners": 1.8,
-    "strengthOfOpponents": 0.9
-   },
-   {
-    "week": 12,
-    "seq": 18,
-    "label": "12",
-    "rating": 1.5,
-    "confidence": 78,
-    "rank": 58,
-    "ratingGames": 17,
-    "strengthOfPartners": 1.5,
-    "strengthOfOpponents": 0.2
-   }
-  ],
-  "partners": [
-   {
-    "pid": "387e74d4-66ee-4a52-a4ac-aae3dbe1d21b",
-    "name": "Carly Pfeffer",
-    "n": 3,
-    "synergy": 0
    }
   ]
  },
@@ -26694,7 +26694,7 @@
     "label": "12",
     "rating": 1.4,
     "confidence": 88,
-    "rank": 60,
+    "rank": 59,
     "ratingGames": 38,
     "strengthOfPartners": 0.4,
     "strengthOfOpponents": 0.1
@@ -31055,7 +31055,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 91,
-    "rank": 76,
+    "rank": 77,
     "ratingGames": 52,
     "strengthOfPartners": 0.3,
     "strengthOfOpponents": -0.1
@@ -31406,7 +31406,7 @@
     "label": "12",
     "rating": 1.1,
     "confidence": 89,
-    "rank": 77,
+    "rank": 78,
     "ratingGames": 39,
     "strengthOfPartners": -0.3,
     "strengthOfOpponents": 0
@@ -34928,9 +34928,9 @@
     "week": 12,
     "seq": 17,
     "label": "12a",
-    "rating": 1.1,
+    "rating": 1.2,
     "confidence": 82,
-    "rank": 78,
+    "rank": 75,
     "ratingGames": 23,
     "strengthOfPartners": -0.1,
     "strengthOfOpponents": 0
@@ -34958,7 +34958,7 @@
     "pid": "988636eb-4604-44d6-af70-2732b787ec2a",
     "name": "Ronnie Yin",
     "n": 6,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "08547f36-c938-4f82-a783-9c89ab07500c",
@@ -38228,7 +38228,7 @@
     "label": "12b",
     "rating": 1.3,
     "confidence": 85,
-    "rank": 70,
+    "rank": 69,
     "ratingGames": 30,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 1.1
@@ -43201,7 +43201,7 @@
     "label": "12",
     "rating": -0.4,
     "confidence": 92,
-    "rank": 145,
+    "rank": 144,
     "ratingGames": 60,
     "strengthOfPartners": -0.4,
     "strengthOfOpponents": 0.2
@@ -45063,9 +45063,9 @@
     "week": 12,
     "seq": 18,
     "label": "12",
-    "rating": -0.3,
+    "rating": -0.4,
     "confidence": 88,
-    "rank": 142,
+    "rank": 147,
     "ratingGames": 38,
     "strengthOfPartners": -0.5,
     "strengthOfOpponents": 0.3
@@ -46839,7 +46839,7 @@
     "label": "12",
     "rating": -0.3,
     "confidence": 90,
-    "rank": 140,
+    "rank": 141,
     "ratingGames": 46,
     "strengthOfPartners": -0.7,
     "strengthOfOpponents": 0.4
@@ -49545,7 +49545,7 @@
     "rank": 238,
     "ratingGames": 80,
     "strengthOfPartners": 0.5,
-    "strengthOfOpponents": 0.1
+    "strengthOfOpponents": 0.2
    },
    {
     "week": 12,
@@ -49570,7 +49570,7 @@
     "pid": "28b4b9e6-0b25-473c-8386-2876bf60efab",
     "name": "Sergey Sprikut",
     "n": 6,
-    "synergy": 0.5
+    "synergy": 0.6
    },
    {
     "pid": "972856ec-207d-4f89-9d97-6fda7c0e083b",
@@ -49606,7 +49606,7 @@
     "pid": "ce787b4f-30b9-4fd0-a12a-caba1f27ca68",
     "name": "Savita Nandal",
     "n": 3,
-    "synergy": -1.4
+    "synergy": -1.5
    },
    {
     "pid": "43591e18-9405-426d-bb8b-3fb004656823",
@@ -49936,7 +49936,7 @@
     "label": "12",
     "rating": -0.4,
     "confidence": 90,
-    "rank": 147,
+    "rank": 146,
     "ratingGames": 47,
     "strengthOfPartners": -1.2,
     "strengthOfOpponents": 0.4
@@ -61065,7 +61065,7 @@
     "confidence": 90,
     "rank": 208,
     "ratingGames": 46,
-    "strengthOfPartners": -1.5,
+    "strengthOfPartners": -1.4,
     "strengthOfOpponents": 0.3
    }
   ],
@@ -64965,7 +64965,7 @@
     "pid": "988636eb-4604-44d6-af70-2732b787ec2a",
     "name": "Ronnie Yin",
     "n": 3,
-    "synergy": -1.4
+    "synergy": -1.5
    }
   ]
  },
