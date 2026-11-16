@@ -16987,7 +16987,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 654,
+   "leagueRank": 656,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17016,7 +17016,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 648,
+   "leagueRank": 649,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17045,7 +17045,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 653,
+   "leagueRank": 655,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17074,7 +17074,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 656,
+   "leagueRank": 658,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17103,7 +17103,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 650,
+   "leagueRank": 652,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17161,7 +17161,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 641,
+   "leagueRank": 642,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17219,7 +17219,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 655,
+   "leagueRank": 657,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -17248,7 +17248,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 651,
+   "leagueRank": 653,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -130680,7 +130680,394 @@
    "time": "2026-11-18T19:30:00",
    "complete": false,
    "homeSeed": 2,
-   "awaySeed": 3
+   "awaySeed": 3,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Vuong",
+      "Carlos Lichty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Khanh Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Kong Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Dylan Mich"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ginny Truong",
+      "Christina Vuong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Shania Bui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Mich",
+      "John Tano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khanh Vu",
+      "Kong Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Khanh Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Kong Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Carlos Lichty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Vuong",
+      "Dylan Mich"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Shania Bui"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Vuong",
+      "Ginny Truong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Kong Vu",
+      "John Tano"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Mich",
+      "Carlos Lichty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Carlos Lichty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "John Tano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ginny Truong",
+      "Khanh Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Kong Vu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Ginny Truong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Christina Vuong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Tano",
+      "Dylan Mich"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khanh Vu",
+      "Carlos Lichty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Khanh Vu"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christina Vuong",
+      "Dylan Mich"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "John Tano"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephanie Li",
+      "Kong Vu"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ginny Truong",
+      "Stephanie Li"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Shania Bui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khanh Vu",
+      "Kong Vu"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dylan Mich",
+      "Carlos Lichty"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shania Bui",
+      "Dylan Mich"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eileen Zhang",
+      "Stephanie Li"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khanh Vu",
+      "Kong Vu"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -130700,7 +131087,361 @@
    "time": "2026-11-18T19:30:00",
    "complete": false,
    "homeSeed": 2,
-   "awaySeed": 3
+   "awaySeed": 3,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Winston Lian"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khushi Shah",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisamarie Chinchilla",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dede Dolkar",
+      "Ryan Soto"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Claire Fabito"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisamarie Chinchilla",
+      "Dede Dolkar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Winston Lian",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Soto",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khushi Shah",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Winston Lian"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dede Dolkar",
+      "Ryan Soto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisamarie Chinchilla",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Claire Fabito"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dede Dolkar",
+      "Lisamarie Chinchilla"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Winston Lian",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Soto",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Khushi Shah",
+      "Winston Lian"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dede Dolkar",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claire Fabito",
+      "Ryan Soto"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisamarie Chinchilla",
+      "Claire Fabito"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Khushi Shah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jason Kwan",
+      "Ryan Soto"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Winston Lian",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisamarie Chinchilla",
+      "Winston Lian"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dede Dolkar",
+      "Bruno Maguino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Claire Fabito",
+      "Ryan Soto"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Emily Su",
+      "Khushi Shah"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Lisamarie Chinchilla",
+      "Claire Fabito"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Soto",
+      "Jason Kwan"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Winston Lian",
+      "Bruno Maguino"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -130716,18 +131457,22 @@
  "extraPlayerIds": {
   "Berit Fischer": "24dfee95-a64b-4f79-9f62-eaacf8c85204",
   "Susie Mcconaghy": "2f3d9529-6c37-4b2b-8394-a6be2f207b8a",
+  "Emily Simpson": "49f894dc-a1b9-48cc-abeb-9c184a97057f",
   "Miguel Nicolas": "590c18bf-f227-4b1e-9274-4a723eaf7eee",
   "John Manuzza": "5d3156e6-7886-4184-9d2f-3ec44d72bb3b",
   "Saaketh Koundinya Gundavarapu": "67730cd7-1040-4a80-a665-53e124b526cd",
   "Guitta Barghash": "8011677b-64c0-467d-8d54-c32da035effe",
+  "Vanessa Tortorice": "818811e5-0eb6-4611-8ac3-f65c10316305",
   "Duy Duong": "81de0241-17f5-4c13-9214-0b914709e971",
   "Utkarsh Patel": "82beb69d-fdf5-4102-a1f8-612ce0049782",
+  "Jasmine Nguyen": "8621d525-134a-4647-a7bd-98c3a357cdc3",
   "Rylee Boles": "8dc5085d-c5f5-4346-86df-bf213a86f974",
   "Barbara Mccarron": "9179cc04-34f4-48f4-b30d-69ec894d05f4",
   "Shawn Nisse": "948031fd-d3bf-4cdf-8b58-ebd9b0a07246",
   "Jeremy Forin": "a13b01c6-1423-458c-89af-482b3082ae59",
   "Andrew Spencer": "b1af592e-2dc0-4273-9b6e-13b8a6eff673",
   "Fernando Castillo": "be5a3617-d9e3-4515-b7d3-f14b99cb1d2e",
+  "Kimberley Levins": "c132bfd5-ae12-478d-86bc-e483f85cb26a",
   "Sara Mizrahi": "c190d722-7f9c-49a7-88ae-cbba5f19e7d0",
   "Paul Mastaj": "ce698888-9c10-4116-9e16-e4507e641722",
   "Fern Mckoy": "d528eb86-fad0-4b21-9784-c4c7cb69054d",
@@ -131151,6 +131896,14 @@
    "outsideSub": true
   },
   {
+   "name": "Emily Simpson",
+   "playerId": "49f894dc-a1b9-48cc-abeb-9c184a97057f",
+   "gender": "Female",
+   "team": "ACE Downingtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Diane Fischetti",
    "playerId": "4a7ff0ee-289b-4ab2-833f-8af1a7f34353",
    "gender": "Female",
@@ -131423,6 +132176,14 @@
    "outsideSub": true
   },
   {
+   "name": "Vanessa Tortorice",
+   "playerId": "818811e5-0eb6-4611-8ac3-f65c10316305",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
    "name": "Guihua Zhang",
    "playerId": "81abfb04-0994-4144-9d27-5c37354151cf",
    "gender": "Male",
@@ -131459,6 +132220,14 @@
    "playerId": "848556a6-59a2-4641-b012-869e1ef7e5ef",
    "gender": "Male",
    "team": "Dill Dinkers Freehold",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Jasmine Nguyen",
+   "playerId": "8621d525-134a-4647-a7bd-98c3a357cdc3",
+   "gender": "Female",
+   "team": "ACE Downingtown",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -131843,6 +132612,14 @@
    "playerId": "bfdfbea0-92ee-43e3-a30f-bec197d4fa0a",
    "gender": "Female",
    "team": "ACE Downingtown",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Kimberley Levins",
+   "playerId": "c132bfd5-ae12-478d-86bc-e483f85cb26a",
+   "gender": "Female",
+   "team": "Pickleball Kingdom Tinton Falls",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -132303,7 +133080,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-15T01:10:24.146Z";
+  DATA.meta.asOf = "2026-11-16T18:44:27.580Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

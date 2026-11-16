@@ -874,6 +874,13 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
+   "name": "Amanda Collins",
+   "playerId": "2a59237c-117d-426c-b266-1b968c1a56c0",
+   "team": "Montville",
+   "slug": "ad44e3bd",
+   "gender": "Female"
+  },
+  {
    "name": "Amanda Gardiner",
    "playerId": "5fe0b62e-e4be-4dc3-9f9c-46123a17f754",
    "team": "Pickleball Palace",
@@ -3961,7 +3968,7 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Colleen Derose",
+   "name": "Colleen Deroae",
    "playerId": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
    "team": "ACE Moorestown",
    "slug": "c43b8608",
@@ -12422,13 +12429,6 @@ window.DUPR_AUDIT = {
    "team": "Pickleball Kingdom Watchung",
    "slug": "b7ca04e4",
    "gender": "Male"
-  },
-  {
-   "name": "Mandy Collins",
-   "playerId": "2a59237c-117d-426c-b266-1b968c1a56c0",
-   "team": "Montville",
-   "slug": "ad44e3bd",
-   "gender": "Female"
   },
   {
    "name": "Manny Lai",

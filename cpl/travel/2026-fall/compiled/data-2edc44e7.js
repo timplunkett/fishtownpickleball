@@ -50878,7 +50878,7 @@
      ],
      "a": [
       "Cynthia Eisen",
-      "Tom Zentmeyer"
+      "Jay Rohatgi"
      ]
     },
     {
@@ -50906,7 +50906,7 @@
      ],
      "a": [
       "Gina Pultorak",
-      "Robert Block"
+      "Tom Zentmeyer"
      ]
     },
     {
@@ -51032,7 +51032,7 @@
      ],
      "a": [
       "Marykristin Haskell",
-      "Robert Block"
+      "Eric Markowitz"
      ]
     },
     {
@@ -51560,22 +51560,22 @@
   {
    "result": null,
    "round": 2,
-   "home": "ACE Moorestown",
-   "away": "Bounce Malvern Black",
-   "time": "2026-11-21T13:00:00",
+   "home": "Pickleball Palace",
+   "away": "Flemington Blue",
+   "time": "2026-11-21T12:00:00",
    "complete": false,
    "homeSeed": 1,
-   "awaySeed": 2
+   "awaySeed": 3
   },
   {
    "result": null,
    "round": 2,
-   "home": "Pickleball Palace",
-   "away": "Flemington Blue",
-   "time": "2026-11-21T15:00:00",
+   "home": "ACE Moorestown",
+   "away": "Bounce Malvern Black",
+   "time": "2026-11-21T14:00:00",
    "complete": false,
    "homeSeed": 1,
-   "awaySeed": 3
+   "awaySeed": 2
   }
  ],
  "extraPlayerIds": {
@@ -52561,7 +52561,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T16:07:02.928Z";
+  DATA.meta.asOf = "2026-11-16T18:41:28.712Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

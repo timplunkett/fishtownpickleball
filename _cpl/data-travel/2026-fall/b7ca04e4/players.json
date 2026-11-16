@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 654
+      "ranking": 656
     },
     {
       "playerId": "0534f11f-c60b-49bf-8407-3d2ce0f1b7a0",
@@ -1815,7 +1815,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 648
+      "ranking": 649
     },
     {
       "playerId": "2123ba14-b2c7-40f0-a8d8-7b6ba90e3a19",
@@ -1999,7 +1999,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 653
+      "ranking": 655
     },
     {
       "playerId": "24a88fa9-03f6-44b7-b10d-321e2a46bb2f",
@@ -2758,7 +2758,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 645
+      "ranking": 646
     },
     {
       "playerId": "2fda2042-6613-42f8-ad93-c3cff9a58f3e",
@@ -3862,7 +3862,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 656
+      "ranking": 658
     },
     {
       "playerId": "4364dfec-6df2-40ac-8391-66283100d98f",
@@ -3908,7 +3908,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 658
+      "ranking": 661
     },
     {
       "playerId": "438ab792-3729-4679-96fe-21d19c800067",
@@ -4415,6 +4415,29 @@
       "genderWins": 22,
       "genderLosses": 14,
       "ranking": 77
+    },
+    {
+      "playerId": "49f894dc-a1b9-48cc-abeb-9c184a97057f",
+      "firstName": "EMILY",
+      "lastName": "SIMPSON",
+      "gender": "Female",
+      "dupr": "LVKRZ6",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "teamName": "ACE Downingtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 659
     },
     {
       "playerId": "49f9e3a4-2ae2-4335-ada3-28486b1a65d4",
@@ -5357,7 +5380,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 650
+      "ranking": 652
     },
     {
       "playerId": "589a4aec-d9fc-48b1-8914-58b7b6d4d7e5",
@@ -5564,7 +5587,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 642
+      "ranking": 643
     },
     {
       "playerId": "5d31878a-1454-4c45-866e-b905165729f0",
@@ -7522,6 +7545,29 @@
       "ranking": 19
     },
     {
+      "playerId": "818811e5-0eb6-4611-8ac3-f65c10316305",
+      "firstName": "vanessa",
+      "lastName": "tortorice",
+      "gender": "Female",
+      "dupr": "WNWMGM",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 662
+    },
+    {
       "playerId": "81abfb04-0994-4144-9d27-5c37354151cf",
       "firstName": "Guihua",
       "lastName": "Zhang",
@@ -7611,7 +7657,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 652
+      "ranking": 654
     },
     {
       "playerId": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
@@ -7726,7 +7772,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 641
+      "ranking": 642
     },
     {
       "playerId": "848556a6-59a2-4641-b012-869e1ef7e5ef",
@@ -7842,6 +7888,29 @@
       "genderWins": 3,
       "genderLosses": 2,
       "ranking": 267
+    },
+    {
+      "playerId": "8621d525-134a-4647-a7bd-98c3a357cdc3",
+      "firstName": "Jasmine",
+      "lastName": "Nguyen",
+      "gender": "Female",
+      "dupr": "4QORDK",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "2fe3b981-f169-4f6e-a84e-707c31b64e7f",
+      "teamName": "ACE Downingtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 650
     },
     {
       "playerId": "8632a302-90a3-4332-b4d1-fccc0f692e8e",
@@ -8462,7 +8531,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 644
+      "ranking": 645
     },
     {
       "playerId": "91857142-d537-4b98-bbc2-481129371949",
@@ -8646,7 +8715,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 649
+      "ranking": 651
     },
     {
       "playerId": "94d76c8a-d5ee-444b-aa23-3c3ec71e2387",
@@ -9474,7 +9543,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 655
+      "ranking": 657
     },
     {
       "playerId": "a26d005a-c084-4edb-8c82-bcdbd21e531b",
@@ -10394,7 +10463,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 657
+      "ranking": 660
     },
     {
       "playerId": "b205e6a7-d62d-42bf-b2d5-e7e5d0c109ec",
@@ -10785,7 +10854,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 651
+      "ranking": 653
     },
     {
       "playerId": "b9cd3f6d-4513-4966-881c-72f6cf5b7746",
@@ -11363,6 +11432,29 @@
       "ranking": 71
     },
     {
+      "playerId": "c132bfd5-ae12-478d-86bc-e483f85cb26a",
+      "firstName": "Kimberley",
+      "lastName": "Levins",
+      "gender": "Female",
+      "dupr": "OZ6GK7",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 641
+    },
+    {
       "playerId": "c14e8948-35aa-4a6f-b8ac-a5c41c75063f",
       "firstName": "Jim",
       "lastName": "Fett",
@@ -11429,7 +11521,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 647
+      "ranking": 648
     },
     {
       "playerId": "c1e350d1-990b-468a-a43e-0ecd64269b2a",
@@ -12257,7 +12349,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 643
+      "ranking": 644
     },
     {
       "playerId": "cec94ca2-1b4a-4787-803a-b08ccdae1d18",
@@ -12602,7 +12694,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 646
+      "ranking": 647
     },
     {
       "playerId": "d5e7f8d4-68c6-42e7-bb88-e7b43740ecbe",

@@ -61,21 +61,6 @@
       "awayPodRanking": 4
     },
     {
-      "matchupId": "9e1d98f7-1248-41dc-bffe-d5ccc90cca41",
-      "weekNumber": 2,
-      "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-21T13:00:00",
-      "homeName": "ACE Moorestown",
-      "awayName": "Bounce Malvern Black",
-      "playoffGame": 2,
-      "homePodRanking": 1,
-      "awayPodRanking": 2
-    },
-    {
       "matchupId": "8401d7fd-265f-4d6e-aff3-107c5538fcad",
       "weekNumber": 2,
       "homeTeamId": "590bf1c2-ff12-4521-9241-5a23a4261b71",
@@ -83,12 +68,27 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-21T15:00:00",
+      "scheduledTime": "2026-11-21T12:00:00",
       "homeName": "Pickleball Palace",
       "awayName": "Flemington Blue",
       "playoffGame": 1,
       "homePodRanking": 1,
       "awayPodRanking": 3
+    },
+    {
+      "matchupId": "9e1d98f7-1248-41dc-bffe-d5ccc90cca41",
+      "weekNumber": 2,
+      "homeTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
+      "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-21T14:00:00",
+      "homeName": "ACE Moorestown",
+      "awayName": "Bounce Malvern Black",
+      "playoffGame": 2,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
     }
   ]
 }

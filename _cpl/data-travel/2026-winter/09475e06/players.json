@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 8
+      "ranking": 9
     },
     {
       "playerId": "0d736ba1-d552-490a-a21c-8aa58bec268e",
@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 10
+      "ranking": 13
     },
     {
       "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
@@ -90,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 14
+      "ranking": 18
     },
     {
       "playerId": "261fdcb3-6c64-4111-ab1b-92c21d2863bd",
@@ -113,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 12
+      "ranking": 16
     },
     {
       "playerId": "343d9ed5-c257-4043-98e3-fb3c6c21a537",
@@ -139,6 +139,29 @@
       "ranking": 5
     },
     {
+      "playerId": "43e3e482-aa27-49c2-a18f-59a7abdbc7ba",
+      "firstName": "Jennifer",
+      "lastName": "Kasnadi",
+      "gender": "Female",
+      "dupr": "764ME0",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "teamName": "Ballers Philly",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 8
+    },
+    {
       "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
       "firstName": "Pamela",
       "lastName": "Toy",
@@ -159,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 13
+      "ranking": 17
     },
     {
       "playerId": "708f285b-0855-47a2-a8b4-9c1459f65781",
@@ -206,6 +229,29 @@
       "genderWins": 0,
       "genderLosses": 0,
       "ranking": 6
+    },
+    {
+      "playerId": "9334d28c-6aab-4669-9297-799876b8ca16",
+      "firstName": "Bing",
+      "lastName": "Leng",
+      "gender": "Female",
+      "dupr": "WX75RM",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 12
     },
     {
       "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
@@ -297,7 +343,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 9
+      "ranking": 11
     },
     {
       "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa",
@@ -320,7 +366,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 15
+      "ranking": 19
+    },
+    {
+      "playerId": "c7d6417a-1519-48bd-831a-58e1714d70a9",
+      "firstName": "Carmina",
+      "lastName": "Lasam",
+      "gender": "Female",
+      "dupr": "WXYVPK",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9b780b61-ef5c-4b9a-9981-66ad650f8320",
+      "teamName": "Montville",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 10
     },
     {
       "playerId": "da7ce23d-f915-469e-9ec1-d820d55b3b22",
@@ -343,7 +412,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 11
+      "ranking": 14
+    },
+    {
+      "playerId": "e9933537-c449-42e8-b742-0fd7e4ea8619",
+      "firstName": "Minjel",
+      "lastName": "Shah",
+      "gender": "Female",
+      "dupr": "76YRR9",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "teamName": "Ballers Philly",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 15
     }
   ]
 }

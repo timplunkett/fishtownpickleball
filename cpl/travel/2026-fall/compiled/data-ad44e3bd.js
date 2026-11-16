@@ -582,7 +582,7 @@
    "playerId": "adcdbc67-29b2-4411-9d74-919d1c7abf0b"
   },
   {
-   "name": "Mandy Collins",
+   "name": "Amanda Collins",
    "gender": "Female",
    "team": "Montville",
    "matches": 2,
@@ -10933,7 +10933,7 @@
   },
   {
    "a": "Vera Wong",
-   "b": "Mandy Collins",
+   "b": "Amanda Collins",
    "team": "Montville",
    "n": 3,
    "w": 1,
@@ -32884,7 +32884,7 @@
      "hs": 21,
      "as": 12,
      "h": [
-      "Mandy Collins",
+      "Amanda Collins",
       "Angie Ratkowitz"
      ],
      "a": [
@@ -32941,7 +32941,7 @@
      "as": 9,
      "h": [
       "Vera Wong",
-      "Mandy Collins"
+      "Amanda Collins"
      ],
      "a": [
       "Charlie Trapasso",
@@ -33080,7 +33080,7 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Mandy Collins",
+      "Amanda Collins",
       "Ly Kim"
      ],
      "a": [
@@ -33109,7 +33109,7 @@
      "as": 12,
      "h": [
       "Cheryl Brodsky",
-      "Mandy Collins"
+      "Amanda Collins"
      ],
      "a": [
       "Darlene Fusco",
@@ -33150,7 +33150,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Mandy Collins",
+      "Amanda Collins",
       "Ly Kim"
      ],
      "a": [
@@ -41805,7 +41805,7 @@
       "Megan Curren"
      ],
      "a": [
-      "Mandy Collins",
+      "Amanda Collins",
       "Maria Borges"
      ]
     },
@@ -41889,7 +41889,7 @@
       "Kara Chubrik"
      ],
      "a": [
-      "Mandy Collins",
+      "Amanda Collins",
       "Vera Wong"
      ]
     },
@@ -41932,7 +41932,7 @@
      ],
      "a": [
       "Hope Lo",
-      "Mandy Collins"
+      "Amanda Collins"
      ]
     },
     {
@@ -42071,7 +42071,7 @@
       "Nikki Nigro"
      ],
      "a": [
-      "Mandy Collins",
+      "Amanda Collins",
       "Vera Wong"
      ]
     }
@@ -43007,7 +43007,48 @@
    "subs": []
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "Montville",
+   "away": "Flemington Blue",
+   "time": "2026-11-19T10:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Flemington Green",
+   "away": "Bye",
+   "time": "2026-11-19T11:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": null
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Life Time Red Bank",
+   "away": "PKLD",
+   "time": "2026-11-19T11:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Tinton Falls",
+   "away": "Bye",
+   "time": "2026-11-19T12:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": null
+  }
+ ],
  "extraPlayerIds": {
   "Carmen Ford": "03a2d697-767c-43c3-8d2f-5791c538cf1f",
   "Janice Corpora": "0b75a96c-be49-4dbb-967f-bd6459b0f3bc",
@@ -43530,7 +43571,7 @@
    }
   ],
   "divisionSlug": "ad44e3bd",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Thursdays",
   "detailFile": "compiled/detail-ad44e3bd.js",
   "clubName": "",
@@ -43585,7 +43626,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T01:11:57.671Z";
+  DATA.meta.asOf = "2026-11-16T18:46:03.229Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

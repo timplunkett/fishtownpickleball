@@ -16670,7 +16670,7 @@
    },
    {
     "pid": "2a59237c-117d-426c-b266-1b968c1a56c0",
-    "name": "Mandy Collins",
+    "name": "Amanda Collins",
     "n": 3,
     "synergy": -0.5
    }

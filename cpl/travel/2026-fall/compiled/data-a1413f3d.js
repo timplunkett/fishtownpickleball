@@ -92493,7 +92493,88 @@
    "subs": []
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Hillsborough",
+   "away": "Pickleball Palace",
+   "time": "2026-11-19T19:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Monroe",
+   "away": "Flemington Green",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Ballers Philly",
+   "away": "Bounce Philly",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Jersey Devil",
+   "away": "Picklr Newark",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Dill Dinkers Hatboro Aces",
+   "away": "Bounce Tempest",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Bounce Malvern",
+   "away": "ACE Moorestown",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Pickleball Kingdom Tinton Falls",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Montville",
+   "away": "Premiere",
+   "time": "2026-11-19T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  }
+ ],
  "extraPlayerIds": {
   "Courtney Skolka": "04e63587-956f-4c32-8ee3-4f255aad446c",
   "Luiza Scarlatti": "12db11ed-c342-47ec-8fed-44745a35dbdb",
@@ -93604,7 +93685,7 @@
    }
   ],
   "divisionSlug": "a1413f3d",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Thursdays",
   "detailFile": "compiled/detail-a1413f3d.js",
   "clubName": "",
@@ -93695,7 +93776,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-14T04:11:07.578Z";
+  DATA.meta.asOf = "2026-11-16T18:43:30.054Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

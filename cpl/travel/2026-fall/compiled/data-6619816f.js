@@ -51780,7 +51780,361 @@
    "time": "2026-11-18T19:30:00",
    "complete": false,
    "homeSeed": 2,
-   "awaySeed": 3
+   "awaySeed": 3,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Alexander Tong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlotte Healey",
+      "Bruno Casino"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Alex Abad"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Elysia Price"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Hayes",
+      "Alexander Tong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Bruno Casino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Bruno Casino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlotte Healey",
+      "William Hayes"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Rachel Alfano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Charlotte Healey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "William Hayes",
+      "Alexander Tong"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruno Casino",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlotte Healey",
+      "William Hayes"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      "Alexander Tong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Alex Abad"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Elysia Price"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruno Casino",
+      "Dustin Rabinowitz"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander Tong",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlotte Healey",
+      "Alexander Tong"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Zachary Lessner"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rachel Alfano",
+      "Bruno Casino"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Elysia Price",
+      "William Hayes"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alyssa Boyle",
+      "Rachel Alfano"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Abad",
+      "Charlotte Healey"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bruno Casino",
+      "William Hayes"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alexander Tong",
+      "Dustin Rabinowitz"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -52997,7 +53351,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T13:13:01.812Z";
+  DATA.meta.asOf = "2026-11-16T18:44:51.258Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

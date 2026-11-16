@@ -74343,7 +74343,361 @@
    "time": "2026-11-17T19:00:00",
    "complete": false,
    "homeSeed": 4,
-   "awaySeed": 3
+   "awaySeed": 3,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Rajeeth Nadig"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Varun Gurram"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Bennett Pereira",
+      "Ping Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jitendra Arora",
+      "Anil Kumar Jakkaladki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Varun Gurram"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Rajeeth Nadig"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jitendra Arora",
+      "Bennett Pereira"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sushil Rijhwani",
+      "Anil Kumar Jakkaladki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Rajeeth Nadig"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Varun Gurram"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anil Kumar Jakkaladki",
+      "Jitendra Arora"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ping Peng",
+      "Sushil Rijhwani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rajeeth Nadig",
+      "Varun Gurram"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Shyler Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anil Kumar Jakkaladki",
+      "Sushil Rijhwani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jitendra Arora",
+      "Ping Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Ping Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Rajeeth Nadig"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Gurram",
+      "Bennett Pereira"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jitendra Arora",
+      "Sushil Rijhwani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Gurram",
+      "Rajeeth Nadig"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Shyler Smith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jitendra Arora",
+      "Ping Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anil Kumar Jakkaladki",
+      "Bennett Pereira"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Varun Gurram"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rajeeth Nadig",
+      "Bennett Pereira"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Sushil Rijhwani"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Anil Kumar Jakkaladki",
+      "Ping Peng"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Shyler Smith",
+      "Bennett Pereira"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rajeeth Nadig",
+      "Anil Kumar Jakkaladki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sree Harsha Konduru",
+      "Jitendra Arora"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Varun Gurram",
+      "Sushil Rijhwani"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -74358,8 +74712,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
      ],
      "a": [
       "Kapil Khanna",
@@ -74369,8 +74723,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Pritpal Singh",
@@ -74380,8 +74734,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Michael Vincent"
      ],
      "a": [
       "Imran Mazhar",
@@ -74391,8 +74745,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Robert Huntley"
      ],
      "a": [
       "Venu Yengala",
@@ -74402,8 +74756,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Dennis Yap"
      ],
      "a": [
       "Kapil Khanna",
@@ -74413,8 +74767,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Robert Huntley"
      ],
      "a": [
       "Venu Yengala",
@@ -74424,8 +74778,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Michael Gilbert"
      ],
      "a": [
       "Imran Mazhar",
@@ -74435,8 +74789,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Marc Kunesch"
      ],
      "a": [
       "Yash Mehta",
@@ -74446,8 +74800,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
      ],
      "a": [
       "Kapil Khanna",
@@ -74457,8 +74811,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Robert Huntley"
      ],
      "a": [
       "Ashish Kumar",
@@ -74468,8 +74822,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matthew Carrington",
+      "Michael Vincent"
      ],
      "a": [
       "Pritpal Singh",
@@ -74479,8 +74833,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Michael Gilbert"
      ],
      "a": [
       "Venu Yengala",
@@ -74490,8 +74844,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
      ],
      "a": [
       "Kapil Khanna",
@@ -74501,8 +74855,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Michael Vincent"
      ],
      "a": [
       "Yash Mehta",
@@ -74512,30 +74866,30 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Matthew Carrington"
      ],
      "a": [
       "Ashish Kumar",
-      "Harsh Upadhyaya"
+      "Pritpal Singh"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Michael Gilbert"
      ],
      "a": [
-      "Pritpal Singh",
+      "Harsh Upadhyaya",
       "Venu Yengala"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Kapil Khanna",
@@ -74545,30 +74899,151 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Kunesch",
+      "Michael Vincent"
      ],
      "a": [
       "Imran Mazhar",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Robert Huntley"
+     ],
+     "a": [
+      "Ashish Kumar",
       "Dilip Patel"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Pat Wilson"
      ],
      "a": [
-      "Ashish Kumar",
+      "Syed Haider",
       "Yash Mehta"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jacob Yoo",
+      "Dennis Yap"
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Imran Mazhar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Yash Mehta",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bryan Mccourt",
+      "Michael Vincent"
+     ],
+     "a": [
+      "Ashish Kumar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Matthew Carrington",
+      "Michael Gilbert"
+     ],
+     "a": [
+      "Harsh Upadhyaya",
+      "Venu Yengala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Bryan Mccourt",
+      "Robert Huntley"
+     ],
+     "a": [
+      "Yash Mehta",
+      "Dilip Patel"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Kunesch",
+      "Michael Vincent"
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Matthew Carrington"
+     ],
+     "a": [
+      "Pritpal Singh",
+      "Ashish Kumar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Ashish Kumar"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jacob Yoo",
+      "Matthew Carrington"
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Yash Mehta"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Marc Kunesch",
+      "Michael Gilbert"
      ],
      "a": [
       "Syed Haider",
@@ -74578,129 +75053,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kapil Khanna",
-      "Imran Mazhar"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Yash Mehta",
-      "Pritpal Singh"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ashish Kumar",
-      "Venu Yengala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Harsh Upadhyaya",
-      "Dilip Patel"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kapil Khanna",
-      "Harsh Upadhyaya"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Yash Mehta",
-      "Venu Yengala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Pritpal Singh",
-      "Syed Haider"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Imran Mazhar",
-      "Ashish Kumar"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Kapil Khanna",
-      "Ashish Kumar"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Imran Mazhar",
-      "Syed Haider"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Yash Mehta",
-      "Venu Yengala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Bryan Mccourt",
+      "Pat Wilson"
      ],
      "a": [
       "Pritpal Singh",
@@ -74760,7 +75114,361 @@
    "time": "2026-11-17T19:30:00",
    "complete": false,
    "homeSeed": 2,
-   "awaySeed": 4
+   "awaySeed": 4,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Darrah",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Uston",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Ruble",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "Dan Carpenter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "Christopher Uston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Dan Ruble"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Uston",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Darrah",
+      "Dan Carpenter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Ruble",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "Christopher Uston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "John Darrah",
+      "Dan Carpenter"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Ruble",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Derek Livingston",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "Dan Ruble"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Uston",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tim Bruno",
+      "Derek Livingston"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Ruble",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Mario Contreras"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Ruble",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Christopher Uston",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tom Kresky",
+      "Derek Livingston"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -74770,7 +75478,394 @@
    "time": "2026-11-17T19:30:00",
    "complete": false,
    "homeSeed": 2,
-   "awaySeed": 3
+   "awaySeed": 3,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Kyle Martin"
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Vincent Rigoglioso",
+      "Ken Weinstein"
+     ],
+     "a": [
+      "Andrew Ferraro",
+      "Tyler Bayly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yong Kim",
+      "Jimmy Lee"
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Jared Rapoport"
+     ],
+     "a": [
+      "Andress Mims",
+      "Matt Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Vincent Rigoglioso",
+      "Ken Weinstein"
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Andrew Ferraro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Yong Kim"
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kyle Martin",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kyle Martin",
+      "Vincent Rigoglioso"
+     ],
+     "a": [
+      "Andress Mims",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Tyler Bayly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Jimmy Lee"
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Yong Kim",
+      "Jared Rapoport"
+     ],
+     "a": [
+      "Andrew Ferraro",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Andrew Ferraro",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ken Weinstein",
+      "Kyle Martin"
+     ],
+     "a": [
+      "Andress Mims",
+      "Matt Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Vincent Rigoglioso"
+     ],
+     "a": [
+      "Jimmy Shapiro",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jimmy Lee",
+      "Jared Rapoport"
+     ],
+     "a": [
+      "Tyler Bayly",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Yong Kim"
+     ],
+     "a": [
+      "Andress Mims",
+      "Andrew Ferraro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Vincent Rigoglioso"
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jared Rapoport",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Mark Waters",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jimmy Lee",
+      "Ken Weinstein"
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Tyler Bayly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jimmy Lee",
+      "Ken Weinstein"
+     ],
+     "a": [
+      "Andress Mims",
+      "Jimmy Shapiro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kyle Martin",
+      "David Brandolph"
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Tyler Bayly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Vincent Rigoglioso",
+      "Yong Kim"
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Mark Waters"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Jimmy Lee"
+     ],
+     "a": [
+      "Andress Mims",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Kyle Martin",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Yongzhe Tian",
+      "Bruce Nguyen"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Jared Rapoport"
+     ],
+     "a": [
+      "Daniel Dechristopher",
+      "Tyler Bayly"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Vincent Rigoglioso",
+      "Yong Kim"
+     ],
+     "a": [
+      "Matt Inzerillo",
+      "Andrew Ferraro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Daniel Borgia",
+      "Jimmy Lee"
+     ],
+     "a": [
+      "Bruce Nguyen",
+      "Daniel Dechristopher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jared Rapoport",
+      "Yong Kim"
+     ],
+     "a": [
+      "Tyler Bayly",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "David Brandolph",
+      "Paul Perumaly"
+     ],
+     "a": [
+      "Andrew Ferraro",
+      "Matt Inzerillo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Ken Weinstein",
+      "Kyle Martin"
+     ],
+     "a": [
+      "Mark Waters",
+      "Yongzhe Tian"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yongzhe Tian",
+      "Daniel Dechristopher"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Bayly",
+      "Uzoma Nwankwo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Andrew Ferraro",
+      "Bruce Nguyen"
+     ]
+    }
+   ]
   }
  ],
  "extraPlayerIds": {
@@ -75656,7 +76751,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-15T01:12:25.271Z";
+  DATA.meta.asOf = "2026-11-16T18:46:35.305Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
