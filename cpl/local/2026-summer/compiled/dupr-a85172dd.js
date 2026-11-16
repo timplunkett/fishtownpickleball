@@ -28,7 +28,7 @@ window.DUPR_RATINGS = {
  "51dd0df2-d833-4037-a26d-5da2eb3d570e": {"rating":4.162,"numericId":6414940705,"provisional":false},
  "5b600631-57fc-476c-9bbb-6951d5ffd294": {"rating":4.091,"numericId":5894536757,"provisional":false},
  "5d13288d-69fe-4d0b-bf69-51c1d24e3409": {"rating":3.96,"numericId":5553765464,"provisional":false},
- "6035850e-af27-40db-bb81-f5787f344871": {"rating":4.219,"numericId":7340104265,"provisional":false},
+ "6035850e-af27-40db-bb81-f5787f344871": {"rating":4.368,"numericId":7340104265,"provisional":false},
  "6043b3e3-217d-4ad3-bd5d-db9667b99bbc": {"rating":4.47,"numericId":5361175166,"provisional":false},
  "63870355-c8af-48c8-8472-f6cc82db5508": {"rating":3.663,"numericId":6176407376,"provisional":false},
  "6774a445-ef5d-478f-a7ca-d77c9217d1aa": {"rating":3.912,"numericId":8069153395,"provisional":false},
@@ -56,11 +56,11 @@ window.DUPR_RATINGS = {
  "b19e749a-26c5-4240-9f43-35559a12683f": {"rating":3.75,"numericId":5664034751,"provisional":false},
  "bbaf3def-a87b-4537-8701-4f5ae0108b1f": {"rating":4.497,"numericId":7596545289,"provisional":false},
  "bdf67f01-a772-481e-976a-0c44364c6f34": {"rating":3.855,"numericId":6138176838,"provisional":false},
- "c314fe29-19de-4c08-956b-ae10493edcc8": {"rating":3.866,"numericId":6241130680,"provisional":false},
+ "c314fe29-19de-4c08-956b-ae10493edcc8": {"rating":3.883,"numericId":6241130680,"provisional":false},
  "ce590106-6f19-43b7-8a91-4dc31d28eb31": {"rating":4.429,"numericId":7033254409,"provisional":false},
  "d0e2c1ea-529d-4364-b521-cb205ecdded3": {"rating":4.533,"numericId":5021068826,"provisional":false},
  "eea6a616-e242-4a3c-9a46-098432e0ab91": {"rating":4.104,"numericId":5253374443,"provisional":false},
  "f1012c67-b6ba-4270-8d7a-53a9aa34b7df": {"rating":4.531,"numericId":7862894610,"provisional":false},
  "f30428dd-bc5a-4535-94b3-b8779e958ada": {"rating":4.945,"numericId":6251769079,"provisional":false},
- "fe8af1d3-ff62-430d-90af-32794cc7b912": {"rating":4.064,"numericId":7281386346,"provisional":false}
+ "fe8af1d3-ff62-430d-90af-32794cc7b912": {"rating":4.108,"numericId":7281386346,"provisional":false}
 };
