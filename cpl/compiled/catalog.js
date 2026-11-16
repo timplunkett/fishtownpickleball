@@ -27,10 +27,10 @@ window.CPL_CATALOG = {
      "order": 20263,
      "landingSlug": "b7ca04e4",
      "divisions": [
-      {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-11-16T03:55:55.588Z"},
+      {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-11-16T14:20:57.541Z"},
       {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-11-15T16:08:16.306Z"},
       {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-11-15T01:10:24.146Z"},
-      {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-11-16T03:56:52.029Z"},
+      {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-11-16T14:21:58.975Z"},
       {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-11-14T04:11:07.578Z"},
       {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-11-15T16:07:02.928Z"},
       {"slug":"6619816f","divisionName":"4.5","asOf":"2026-11-15T13:13:01.812Z"},

@@ -89239,7 +89239,7 @@
      "t": "mixed",
      "h": [
       "Diana Tabia",
-      "Tomas Ruiz"
+      "James Gillick"
      ],
      "a": [
       "Emily Sowa",
@@ -89302,7 +89302,7 @@
      "t": "male",
      "h": [
       "Aseem Sharma",
-      "James Gillick"
+      "Tomas Ruiz"
      ],
      "a": [
       "Gray Ferrante",
@@ -89313,7 +89313,7 @@
      "t": "mixed",
      "h": [
       "Jaymie Vincelli",
-      "James Gillick"
+      "Jonathan Wong"
      ],
      "a": [
       "Jen Ogorzat",
@@ -89323,7 +89323,7 @@
     {
      "t": "mixed",
      "h": [
-      "Lisa Sardo",
+      "Diana Tabia",
       "Matthew Rafaniello"
      ],
      "a": [
@@ -89335,7 +89335,7 @@
      "t": "mixed",
      "h": [
       "Jasmine Ho",
-      "Tomas Ruiz"
+      "Aseem Sharma"
      ],
      "a": [
       "Katie O'Mara",
@@ -89345,8 +89345,8 @@
     {
      "t": "mixed",
      "h": [
-      "Diana Tabia",
-      "Jonathan Wong"
+      "Jillian Sorrentino",
+      "James Gillick"
      ],
      "a": [
       "Marisa Cohen",
@@ -89371,8 +89371,8 @@
     {
      "t": "female",
      "h": [
-      "Jasmine Ho",
-      "Diana Tabia"
+      "Jillian Sorrentino",
+      "Jasmine Ho"
      ],
      "a": [
       "Jen Ogorzat",
@@ -89383,7 +89383,7 @@
      "t": "male",
      "h": [
       "Jonathan Wong",
-      "Tomas Ruiz"
+      "Matthew Rafaniello"
      ],
      "a": [
       "Gabe Nacion",
@@ -89394,7 +89394,7 @@
      "t": "male",
      "h": [
       "Aseem Sharma",
-      "James Gillick"
+      "Tomas Ruiz"
      ],
      "a": [
       "Ross Bienstock",
@@ -89442,7 +89442,7 @@
      "t": "mixed",
      "h": [
       "Jasmine Ho",
-      "Tomas Ruiz"
+      "James Gillick"
      ],
      "a": [
       "Katie O'Mara",
@@ -89478,8 +89478,8 @@
     {
      "t": "male",
      "h": [
-      "Matthew Rafaniello",
-      "Jonathan Wong"
+      "Jonathan Wong",
+      "Aseem Sharma"
      ],
      "a": [
       "Morgan Valencia King",
@@ -89522,7 +89522,7 @@
     {
      "t": "mixed",
      "h": [
-      "Diana Tabia",
+      "Lisa Sardo",
       "Aseem Sharma"
      ],
      "a": [
@@ -89533,7 +89533,7 @@
     {
      "t": "mixed",
      "h": [
-      "Lisa Sardo",
+      "Diana Tabia",
       "Tomas Ruiz"
      ],
      "a": [
@@ -89566,8 +89566,8 @@
     {
      "t": "male",
      "h": [
-      "James Gillick",
-      "Matthew Rafaniello"
+      "Matthew Rafaniello",
+      "Tomas Ruiz"
      ],
      "a": [
       "Gabe Nacion",
@@ -89578,7 +89578,7 @@
      "t": "male",
      "h": [
       "Aseem Sharma",
-      "Tomas Ruiz"
+      "Jonathan Wong"
      ],
      "a": [
       "Morgan Valencia King",
@@ -94309,7 +94309,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-16T03:55:55.588Z";
+  DATA.meta.asOf = "2026-11-16T14:20:57.541Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
