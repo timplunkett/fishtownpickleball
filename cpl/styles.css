@@ -3121,12 +3121,29 @@ thead th:focus-visible,
   font-size: 11.5px;
 }
 
+/* The opponent's picker (renderLineupOpponent): As entered plus two
+   simulations, so three across. */
+.lineup-opponent .lineup-modes {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.lineup-opp-reroll {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  align-items: center;
+  margin-top: 12px;
+  color: var(--mut);
+  font-size: 12px;
+}
+
 @media (max-width: 840px) {
   .lineup-rosters {
     grid-template-columns: 1fr;
   }
 
-  .lineup-modes {
+  .lineup-modes,
+  .lineup-opponent .lineup-modes {
     grid-template-columns: 1fr;
   }
 

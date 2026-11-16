@@ -371,7 +371,9 @@ test('the bulk availability button stays lit until the checkboxes drift from it'
   const view = document.getElementById('lineupview');
   openLab(context, team);
   chooseMatchup(context, index);
-  const lit = () => (view.innerHTML.match(/data-lineup-action="(available-[a-z-]+)" class="active"/g) || [])
+  // Team A's buttons only: the opponent's roster has its own set while their
+  // side is open.
+  const lit = () => (view.innerHTML.match(/data-lineup-action="(available-[a-z-]+)" data-side="a" class="active"/g) || [])
     .map((match) => match.match(/available-[a-z-]+/)[0]);
   bulk(context, 'available-none');
   assert.deepEqual([...lit()], ['available-none']);
