@@ -1460,6 +1460,18 @@ thead th:focus-visible,
   color: var(--mut);
 }
 
+/* The tiebreak round of a playoff match, set apart in every game table. */
+.tiebreak-divider td {
+  padding-top: 9px;
+  padding-bottom: 5px;
+  color: var(--mut);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: var(--panel2);
+}
+
 /* Forfeit tags in game logs */
 .ffrow {
   opacity: 0.6;

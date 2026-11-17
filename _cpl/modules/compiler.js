@@ -31,6 +31,9 @@ const { expandJson } = require('./json-utils');
 const {
   isForfeit,
   isScored,
+  isTiebreakIndex,
+  isPlayedTiebreak,
+  regularMatchLength,
   applyProvisionalOutcomes,
   computeRatings,
   computeWeeklyRatingHistory,
@@ -76,12 +79,15 @@ function firstValues(obj) {
 // when nobody in that game is subbing, matching the sparse withSub/vsSub
 // convention below — the overwhelming majority of games have no sub in them,
 // and this recompiles every game, in every division, every season.
-function buildPendingGames(detail, nameById, homeName, awayName, homeTeamByPid = {}) {
+//
+// `tiebreakFrom` (playoffs only — see isTiebreakIndex in ratings.js) flags each
+// game of the tiebreak round `tb`, counted before empty rows are dropped.
+function buildPendingGames(detail, nameById, homeName, awayName, homeTeamByPid = {}, { tiebreakFrom = null } = {}) {
   const lineups = (detail && detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
   const name = (playerId) => (playerId && nameById[playerId]) || "";
   const isSub = (playerId, teamName) => !!playerId && homeTeamByPid[playerId] !== teamName;
   return lineups
-    .map((g) => {
+    .map((g, index) => {
       const hIds = [g.homePlayerId1, g.homePlayerId2];
       const aIds = [g.awayPlayerId1, g.awayPlayerId2];
       const hSub = hIds.map((pid) => (isSub(pid, homeName) ? 1 : 0));
@@ -92,6 +98,7 @@ function buildPendingGames(detail, nameById, homeName, awayName, homeTeamByPid =
         a: aIds.map(name),
         ...(hSub.some(Boolean) ? { hSub } : {}),
         ...(aSub.some(Boolean) ? { aSub } : {}),
+        ...(isTiebreakIndex(index, tiebreakFrom) ? { tb: 1 } : {}),
       };
     })
     .filter((g) => [...g.h, ...g.a].some(Boolean));
@@ -1191,13 +1198,20 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // are display-only — the regular season alone drives standings and ratings — but
   // they get the same provisional resolution so a scored-but-unconfirmed bracket
   // game shows its result, flagged, like a regular-season one.
+  //
+  // A playoff match also carries a tiebreak round past the regular games (see
+  // isTiebreakIndex in ratings.js): its games are flagged `tb`, and when the
+  // match didn't need them they're listed `ns` and counted by nothing — not as
+  // games won by either side, which is what an unscored game used to be here.
   const rawPlayoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
   const rawPlayoffDetailById = new Map((playoffMatchupDetailsJson || []).map(x => [x.matchupId, x.details]));
+  const tiebreakFrom = regularMatchLength(detailById);
   const {
     matchups: playoffMatchups,
     detailById: playoffDetailById,
   } = applyProvisionalOutcomes(rawPlayoffMatchups, rawPlayoffDetailById, {
     isSubForTeam: (playerId, teamId) => homeTeamByPid[playerId] !== teamNameById[teamId],
+    tiebreakFrom,
   });
   const playoffs = [];
   for (const m of playoffMatchups) {
@@ -1212,18 +1226,26 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     if (complete && d) {
       let hgw = 0, agw = 0;
       const glist = [];
-      for (const g of (d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) {
+      // Read unresolved, as the regular season's list does: a provisional
+      // match's resolved details have lost their unplayed games, and with them
+      // the positions that say which games are the tiebreak.
+      const gameSource = (m.provisional && rawPlayoffDetailById.get(m.matchupId)) || d;
+      const lineups = (gameSource.lineups && gameSource.lineups.lineups && gameSource.lineups.lineups.$values) || [];
+      lineups.forEach((g, index) => {
+        const tb = isTiebreakIndex(index, tiebreakFrom) ? { tb: 1 } : {};
+        const h = [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""];
+        const a = [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""];
+        if (tb.tb ? !isPlayedTiebreak(g) : !isScored(g)) {
+          glist.push({ t: g.matchType, ns: 1, hs: null, as: null, h, a, ...tb });
+          return;
+        }
         const homeWin = g.homeScore > g.awayScore;
         homeWin ? hgw++ : agw++;
-        glist.push({
-          t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore,
-          h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
-          a: [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""],
-        });
-      }
+        glist.push({ t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore, h, a, ...tb });
+      });
       Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
     } else if (d) {
-      const pendingGames = buildPendingGames(d, nameById, m.homeName, m.awayName, homeTeamByPid);
+      const pendingGames = buildPendingGames(d, nameById, m.homeName, m.awayName, homeTeamByPid, { tiebreakFrom });
       if (pendingGames.length) Object.assign(rec, { games: pendingGames });
     }
     playoffs.push(rec);

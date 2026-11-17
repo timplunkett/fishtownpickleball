@@ -27,6 +27,19 @@ const hasPlayer = (g) => (g.homePlayerId1 || g.homePlayerId2) && (g.awayPlayerId
 
 const isScored = (g) => Number.isFinite(g.homeScore) && Number.isFinite(g.awayScore);
 
+// A playoff match can't end level. Captains post a tiebreak round on top of the
+// regular games — three more pairs — and it's played only when the regular
+// games split evenly; a regular-season 16–16 goes to total points instead. The
+// league flags nothing: the tiebreak is simply every lineup past the length of
+// a regular-season match (see regularMatchLength), so `tiebreakFrom` is that
+// length, or null where there's no tiebreak to look for. A tiebreak game the
+// match didn't need is left unscored or recorded 0–0, so a score of 0–0 there
+// means "not played", not a game anyone won.
+const isTiebreakIndex = (index, tiebreakFrom) => tiebreakFrom != null && index >= tiebreakFrom;
+const isPlayedTiebreak = (g) => isScored(g) && Math.max(g.homeScore, g.awayScore) > 0;
+const hasTiebreakRound = (details, tiebreakFrom) => tiebreakFrom != null
+  && ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []).length > tiebreakFrom;
+
 // A slotted game left unscored either hasn't been played yet or never will be —
 // the league sometimes leaves a game blank once the match is already decided.
 // Either way the result is knowable as soon as the leader is ahead by more games
@@ -35,24 +48,51 @@ const isScored = (g) => Number.isFinite(g.homeScore) && Number.isFinite(g.awaySc
 // left out of `games` and the point totals; there's no score to count. They're
 // returned separately as `unscoredLineups`, because the league still counts them
 // as games played (see synthesizeMatchupPlayerStats).
-function deriveProvisionalOutcome(details) {
+//
+// With `tiebreakFrom` (playoffs; see isTiebreakIndex) the regular games are
+// called first, on their own: a lead the unscored regular games can't overturn
+// decides the match, and the tiebreak round goes unplayed — it isn't counted,
+// not even as games still to come, which is what once left a 17–15 playoff
+// match "undecided" with three tiebreak games outstanding. Only an even split
+// with every regular game scored goes to the tiebreak, called the same way.
+// `tiebreakPlayed` says whether its games are part of the result.
+function deriveProvisionalOutcome(details, { tiebreakFrom = null } = {}) {
   const allLineups = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []);
-  const slottedLineups = allLineups.filter(hasPlayer);
-  const scoredLineups = slottedLineups.filter(isScored);
-  if (!scoredLineups.length) return null;
-  const unscoredLineups = slottedLineups.filter(g => !isScored(g));
-  const unscoredGames = unscoredLineups.length;
+  const hasTiebreak = hasTiebreakRound(details, tiebreakFrom);
+  const regular = hasTiebreak ? allLineups.slice(0, tiebreakFrom) : allLineups;
+  const tally = (lineups, played) => {
+    const slotted = lineups.filter(hasPlayer);
+    const scored = slotted.filter(played);
+    const unscored = slotted.filter(g => !played(g));
+    let homeGW = 0, awayGW = 0, homePoints = 0, awayPoints = 0;
+    for (const g of scored) {
+      homePoints += g.homeScore;
+      awayPoints += g.awayScore;
+      if (g.homeScore > g.awayScore) homeGW++;
+      else awayGW++;
+    }
+    return { scored, unscored, homeGW, awayGW, homePoints, awayPoints };
+  };
 
-  let homeGW = 0, awayGW = 0, homePoints = 0, awayPoints = 0;
-  for (const g of scoredLineups) {
-    homePoints += g.homeScore;
-    awayPoints += g.awayScore;
-    if (g.homeScore > g.awayScore) homeGW++;
-    else awayGW++;
-  }
+  const main = tally(regular, isScored);
+  if (!main.scored.length) return null;
+  const outcome = (parts, tiebreakPlayed) => {
+    const sum = (key) => parts.reduce((total, part) => total + part[key], 0);
+    const homeGW = sum('homeGW'), awayGW = sum('awayGW');
+    const unscoredLineups = parts.flatMap(part => part.unscored);
+    return {
+      result: homeGW > awayGW ? 'home' : 'away',
+      homeGW, awayGW, homePoints: sum('homePoints'), awayPoints: sum('awayPoints'),
+      games: parts.flatMap(part => part.scored),
+      unscoredGames: unscoredLineups.length, unscoredLineups, tiebreakPlayed,
+    };
+  };
 
-  if (Math.abs(homeGW - awayGW) <= unscoredGames) return null;
-  return { result: homeGW > awayGW ? 'home' : 'away', homeGW, awayGW, homePoints, awayPoints, games: scoredLineups, unscoredGames, unscoredLineups };
+  if (Math.abs(main.homeGW - main.awayGW) > main.unscored.length) return outcome([main], false);
+  if (!hasTiebreak || main.unscored.length || main.homeGW !== main.awayGW) return null;
+  const tiebreak = tally(allLineups.slice(tiebreakFrom), isPlayedTiebreak);
+  if (Math.abs(tiebreak.homeGW - tiebreak.awayGW) <= tiebreak.unscored.length) return null;
+  return outcome([main, tiebreak], true);
 }
 
 // Games are played to a fixed target with win-by-two, so the overwhelmingly most
@@ -76,6 +116,24 @@ function inferGameTarget(detailByMatchupId) {
     if (count > best) { best = count; target = score; }
   }
   return target ?? GAME_TARGET_FALLBACK;
+}
+
+// How many games a regular-season match has in this division: the most common
+// lineup count across its matches (32 everywhere so far — but a division has
+// run a short match, so it's counted rather than assumed). A playoff match's
+// lineups past this many are its tiebreak round (see isTiebreakIndex). Null
+// with no posted lineups to count, and then nothing is taken for a tiebreak.
+function regularMatchLength(detailByMatchupId) {
+  const counts = new Map();
+  for (const details of detailByMatchupId.values()) {
+    const length = ((details && details.lineups && details.lineups.lineups && details.lineups.lineups.$values) || []).length;
+    if (length) counts.set(length, (counts.get(length) || 0) + 1);
+  }
+  let modal = null, best = 0;
+  for (const [length, count] of counts) {
+    if (count > best || (count === best && length < modal)) { best = count; modal = length; }
+  }
+  return modal;
 }
 
 // A game the league counts toward a player's record: one that actually reached the
@@ -185,7 +243,11 @@ function synthesizeMatchupPlayerStats(provisional, matchup, { gameTarget, isSubF
 // thing that distinguishes it is the flag.
 //
 // Returns fresh objects throughout; neither input is mutated.
-function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam }) {
+//
+// `tiebreakFrom` is for playoff feeds only (see deriveProvisionalOutcome): a
+// resolved match's details lose its tiebreak round as well when the match
+// didn't need it.
+function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam, tiebreakFrom = null }) {
   const gameTarget = inferGameTarget(detailByMatchupId);
   const resolvedMatchups = [];
   const resolvedDetailById = new Map(detailByMatchupId);
@@ -193,7 +255,7 @@ function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam })
 
   for (const matchup of matchups) {
     const details = detailByMatchupId.get(matchup.matchupId);
-    const provisional = (matchup.endResult || !details) ? null : deriveProvisionalOutcome(details);
+    const provisional = (matchup.endResult || !details) ? null : deriveProvisionalOutcome(details, { tiebreakFrom });
     if (!provisional) {
       resolvedMatchups.push(matchup);
       continue;
@@ -210,10 +272,15 @@ function applyProvisionalOutcomes(matchups, detailByMatchupId, { isSubForTeam })
       // Downstream reads the lineups of every completed match as played games, so
       // a decided match's unscored games go: no stat should count them. The
       // compiler's match game list reads the unresolved details to show them.
-      ...(provisional.unscoredGames ? {
+      ...(provisional.unscoredGames || (hasTiebreakRound(details, tiebreakFrom) && !provisional.tiebreakPlayed) ? {
         lineups: {
           ...details.lineups,
-          lineups: { ...details.lineups.lineups, $values: details.lineups.lineups.$values.filter(isScored) },
+          lineups: {
+            ...details.lineups.lineups,
+            $values: details.lineups.lineups.$values.filter((g, index) => (
+              isTiebreakIndex(index, tiebreakFrom) ? provisional.tiebreakPlayed && isPlayedTiebreak(g) : isScored(g)
+            )),
+          },
         },
       } : {}),
       matchupPlayerStats: {
@@ -610,6 +677,9 @@ module.exports = {
   countsTowardPlayerStats,
   deriveProvisionalOutcome,
   isScored,
+  isTiebreakIndex,
+  isPlayedTiebreak,
+  regularMatchLength,
   inferGameTarget,
   clampGameScores,
   synthesizeMatchupPlayerStats,
