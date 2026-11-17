@@ -79992,7 +79992,7 @@
    "homePoints": 650,
    "awayPoints": 541,
    "homeGW": 24,
-   "awayGW": 11,
+   "awayGW": 8,
    "games": [
     {
      "t": "mixed",
@@ -80444,7 +80444,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80454,11 +80454,12 @@
      "a": [
       "Lana Engler Carss",
       "Mark Scott"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80468,11 +80469,12 @@
      "a": [
       "Melissa Hummel",
       "Charlie Trapasso"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80482,7 +80484,8 @@
      "a": [
       "Farhan Chowdhury",
       "Howie Knudson"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -80508,7 +80511,7 @@
    "homePoints": 554,
    "awayPoints": 658,
    "homeGW": 9,
-   "awayGW": 26,
+   "awayGW": 23,
    "games": [
     {
      "t": "mixed",
@@ -80960,7 +80963,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80970,11 +80973,12 @@
      "a": [
       "Cassie Lou",
       "Sandeep Ramakrishna"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80984,11 +80988,12 @@
      "a": [
       "Sushma Rayapudi",
       "Rani Borusu"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80998,7 +81003,8 @@
      "a": [
       "Neeraj Shah",
       "Shah Faisal"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -81024,7 +81030,7 @@
    "homePoints": 583,
    "awayPoints": 644,
    "homeGW": 11,
-   "awayGW": 24,
+   "awayGW": 21,
    "games": [
     {
      "t": "mixed",
@@ -81476,9 +81482,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Carissa Nicdao",
       "Kevin Zhang"
@@ -81486,13 +81492,14 @@
      "a": [
       "Jen Ogorzat",
       "Luis Guzman"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Janet Zhao",
       "Alana Payne"
@@ -81500,13 +81507,14 @@
      "a": [
       "Ola Cauble",
       "Taryn Seidner"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Zach Victor",
       "Jon Palabay"
@@ -81514,7 +81522,8 @@
      "a": [
       "Danny Ruiz",
       "Anthony Solares"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -81540,7 +81549,7 @@
    "homePoints": 648,
    "awayPoints": 510,
    "homeGW": 25,
-   "awayGW": 10,
+   "awayGW": 7,
    "games": [
     {
      "t": "mixed",
@@ -81992,9 +82001,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Andria Hinton",
       "J-P Lautenschlager"
@@ -82002,13 +82011,14 @@
      "a": [
       "Sharon Rarig",
       "Tyler Raboy"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Hada Solorzano",
       "Quynh Nguyen"
@@ -82016,13 +82026,14 @@
      "a": [
       "Petra Jones",
       "Ceci Yee"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Alessio Muscara",
       "Westley Roy"
@@ -82030,7 +82041,8 @@
      "a": [
       "Chris Rattiner",
       "Joseph Bender"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -82510,7 +82522,7 @@
    "homePoints": 567,
    "awayPoints": 623,
    "homeGW": 11,
-   "awayGW": 24,
+   "awayGW": 21,
    "games": [
     {
      "t": "mixed",
@@ -82962,7 +82974,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -82972,11 +82984,12 @@
      "a": [
       "Cassie Lou",
       "Neeraj Shah"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -82986,11 +82999,12 @@
      "a": [
       "Rani Borusu",
       "Sushma Rayapudi"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -83000,7 +83014,8 @@
      "a": [
       "Sandeep Ramakrishna",
       "Tara Nath"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -83016,7 +83031,7 @@
    "homePoints": 618,
    "awayPoints": 605,
    "homeGW": 21,
-   "awayGW": 14,
+   "awayGW": 11,
    "games": [
     {
      "t": "mixed",
@@ -83468,9 +83483,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -83478,13 +83493,14 @@
      "a": [
       "Jen Ogorzat",
       "Luis Guzman"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -83492,13 +83508,14 @@
      "a": [
       "Taryn Seidner",
       "Ola Cauble"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -83506,7 +83523,8 @@
      "a": [
       "Anthony Solares",
       "Edwin Garcia"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -83522,7 +83540,7 @@
    "homePoints": 602,
    "awayPoints": 634,
    "homeGW": 14,
-   "awayGW": 21,
+   "awayGW": 18,
    "games": [
     {
      "t": "mixed",
@@ -83974,7 +83992,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -83984,11 +84002,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -83998,11 +84017,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -84012,7 +84032,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -85418,7 +85439,8 @@
      "a": [
       "Michelle Eisenberg",
       "Lionell Matthews"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
@@ -85432,7 +85454,8 @@
      "a": [
       "Terri Pflueger",
       "Liane Feyas"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
@@ -85446,7 +85469,8 @@
      "a": [
       "Uttam Purohit",
       "Xavier Yandoli"
-     ]
+     ],
+     "tb": 1
     }
    ]
   }

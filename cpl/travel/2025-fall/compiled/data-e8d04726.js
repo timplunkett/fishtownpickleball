@@ -97638,7 +97638,7 @@
    "homePoints": 675,
    "awayPoints": 547,
    "homeGW": 23,
-   "awayGW": 12,
+   "awayGW": 9,
    "games": [
     {
      "t": "mixed",
@@ -98090,7 +98090,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -98100,11 +98100,12 @@
      "a": [
       "Emily Su",
       "Othman Loudghiri"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -98114,11 +98115,12 @@
      "a": [
       "Ceil Gomez",
       "Kelly O’Brien"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -98128,7 +98130,8 @@
      "a": [
       "Fabricio Gaona",
       "Nikko Santos"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -98628,7 +98631,7 @@
    "homePoints": 657,
    "awayPoints": 574,
    "homeGW": 20,
-   "awayGW": 15,
+   "awayGW": 12,
    "games": [
     {
      "t": "mixed",
@@ -99080,7 +99083,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -99090,11 +99093,12 @@
      "a": [
       "Laura Sweet",
       "Matthew Mintz"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -99104,11 +99108,12 @@
      "a": [
       "Sandy Alkins",
       "Kelly Karrer"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -99118,7 +99123,8 @@
      "a": [
       "Josh Knupp",
       "Josh Eagel"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -99134,7 +99140,7 @@
    "homePoints": 638,
    "awayPoints": 585,
    "homeGW": 22,
-   "awayGW": 13,
+   "awayGW": 10,
    "games": [
     {
      "t": "mixed",
@@ -99586,7 +99592,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -99596,11 +99602,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -99610,11 +99617,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -99624,7 +99632,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -100568,7 +100577,7 @@
    "homePoints": 589,
    "awayPoints": 674,
    "homeGW": 8,
-   "awayGW": 27,
+   "awayGW": 24,
    "games": [
     {
      "t": "mixed",
@@ -101020,7 +101029,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -101030,11 +101039,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -101044,11 +101054,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -101058,7 +101069,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

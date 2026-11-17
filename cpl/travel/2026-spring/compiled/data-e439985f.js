@@ -72325,7 +72325,7 @@
    "homePoints": 629,
    "awayPoints": 609,
    "homeGW": 18,
-   "awayGW": 17,
+   "awayGW": 14,
    "games": [
     {
      "t": "mixed",
@@ -72777,7 +72777,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -72787,11 +72787,12 @@
      "a": [
       "Diana Nguyen",
       "Carlos Echenique"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -72801,11 +72802,12 @@
      "a": [
       "Eva Rodriguez",
       "Kellie Roshak"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -72815,7 +72817,8 @@
      "a": [
       "Laksh Mendiratta",
       "Santosh Asbe"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -73315,7 +73318,7 @@
    "homePoints": 669,
    "awayPoints": 488,
    "homeGW": 31,
-   "awayGW": 4,
+   "awayGW": 1,
    "games": [
     {
      "t": "mixed",
@@ -73767,7 +73770,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -73777,11 +73780,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -73791,11 +73795,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -73805,7 +73810,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -73821,7 +73827,7 @@
    "homePoints": 634,
    "awayPoints": 587,
    "homeGW": 22,
-   "awayGW": 13,
+   "awayGW": 10,
    "games": [
     {
      "t": "mixed",
@@ -74273,7 +74279,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74283,11 +74289,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74297,13 +74304,14 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
-     "as": 0,
+     "as": null,
      "h": [
       "Lloyd Telmo",
       "Arnold Shin"
@@ -74311,7 +74319,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -75719,7 +75728,7 @@
    "homePoints": 600,
    "awayPoints": 642,
    "homeGW": 15,
-   "awayGW": 20,
+   "awayGW": 17,
    "games": [
     {
      "t": "mixed",
@@ -76171,7 +76180,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -76181,11 +76190,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -76195,11 +76205,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -76209,7 +76220,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

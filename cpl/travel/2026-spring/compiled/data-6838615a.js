@@ -71427,7 +71427,7 @@
    "homePoints": 640,
    "awayPoints": 543,
    "homeGW": 23,
-   "awayGW": 12,
+   "awayGW": 9,
    "games": [
     {
      "t": "mixed",
@@ -71879,7 +71879,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -71889,11 +71889,12 @@
      "a": [
       "Susan Colicchio",
       "Scott Mckay"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -71903,11 +71904,12 @@
      "a": [
       "Ronnie Kostak",
       "Vilayvanh Sysounthone"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -71917,7 +71919,8 @@
      "a": [
       "Joe Monello",
       "Jonathan Basa"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -71943,7 +71946,7 @@
    "homePoints": 625,
    "awayPoints": 600,
    "homeGW": 18,
-   "awayGW": 17,
+   "awayGW": 14,
    "games": [
     {
      "t": "mixed",
@@ -72395,9 +72398,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Ricki Cohen",
       "Michael Plumeri"
@@ -72405,13 +72408,14 @@
      "a": [
       "Susan Goeckeler",
       "Stephen Villani"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Nicole Mandry",
       "Sophea Siv"
@@ -72419,13 +72423,14 @@
      "a": [
       "Tammy Dragon",
       "Laura Govan"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Brad Mandry",
       "Scott Strong"
@@ -72433,7 +72438,8 @@
      "a": [
       "Alex Lawrason",
       "Tom Hadler"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -72459,7 +72465,7 @@
    "homePoints": 608,
    "awayPoints": 611,
    "homeGW": 15,
-   "awayGW": 20,
+   "awayGW": 17,
    "games": [
     {
      "t": "mixed",
@@ -72911,7 +72917,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -72921,11 +72927,12 @@
      "a": [
       "Amy Maussner",
       "Andrew Fang"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -72935,11 +72942,12 @@
      "a": [
       "Patty Andrzejewski",
       "Linda Zarrilli"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -72949,7 +72957,8 @@
      "a": [
       "Brent Whitaker",
       "Scott Rosenberg"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -72965,7 +72974,7 @@
    "homePoints": 622,
    "awayPoints": 575,
    "homeGW": 20,
-   "awayGW": 15,
+   "awayGW": 12,
    "games": [
     {
      "t": "mixed",
@@ -73417,9 +73426,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Cathy Proctor",
       "Zemin Zeng"
@@ -73427,13 +73436,14 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Ann Betterton",
       "Mei Li"
@@ -73441,13 +73451,14 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Gajendra Mehta",
       "Ben Xie"
@@ -73455,7 +73466,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -73935,7 +73947,7 @@
    "homePoints": 658,
    "awayPoints": 576,
    "homeGW": 20,
-   "awayGW": 15,
+   "awayGW": 12,
    "games": [
     {
      "t": "mixed",
@@ -74387,7 +74399,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74397,11 +74409,12 @@
      "a": [
       "Ricki Cohen",
       "Joseph Henry"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74411,11 +74424,12 @@
      "a": [
       "Nicole Mandry",
       "Sophea Siv"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74425,7 +74439,8 @@
      "a": [
       "Brad Mandry",
       "Scott Strong"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -74441,7 +74456,7 @@
    "homePoints": 653,
    "awayPoints": 610,
    "homeGW": 20,
-   "awayGW": 15,
+   "awayGW": 12,
    "games": [
     {
      "t": "mixed",
@@ -74893,7 +74908,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74903,11 +74918,12 @@
      "a": [
       "Lisa Loeber",
       "John Dechristopher"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74917,11 +74933,12 @@
      "a": [
       "Patty Andrzejewski",
       "Amy Maussner"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74931,7 +74948,8 @@
      "a": [
       "Andrew Fang",
       "Greg Schipske"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -74947,7 +74965,7 @@
    "homePoints": 606,
    "awayPoints": 627,
    "homeGW": 15,
-   "awayGW": 20,
+   "awayGW": 17,
    "games": [
     {
      "t": "mixed",
@@ -75399,7 +75417,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -75409,11 +75427,12 @@
      "a": [
       "Cathy Proctor",
       "Gajendra Mehta"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -75423,11 +75442,12 @@
      "a": [
       "Mei Li",
       "Geordielyn Alviola"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -75437,7 +75457,8 @@
      "a": [
       "Zemin Zeng",
       "Ben Xie"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

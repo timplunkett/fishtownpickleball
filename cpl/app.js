@@ -66,6 +66,27 @@ function renderGameTypeCell(gameType) {
   const [label, className] = GAME_TYPE_LABELS[gameType] || ['', ''];
   return `<td class="l"><span class="pill ${className}">${label}</span></td>`;
 }
+
+// A playoff match's tiebreak round (`tb`, flagged by the compiler — see
+// isTiebreakIndex in ratings.js): the extra pairs captains post for a playoff,
+// played only when the regular games split evenly. Nothing that adds up a
+// match's games — a projected record, a win chance, the weekly pair limit —
+// counts them as regular games.
+const isTiebreakGame = (game) => Boolean(game?.tb);
+
+// A divider row above the first tiebreak game of a game table, so the round
+// reads as the conditional extra it is rather than more of the same night.
+// `columns` is the table's column count.
+function renderTiebreakDivider(games, index, columns) {
+  if (!isTiebreakGame(games[index]) || isTiebreakGame(games[index - 1])) return '';
+  const regular = games.filter((game) => !isTiebreakGame(game)).length;
+  const tied = regular && regular % 2 === 0 ? ` ${regular / 2}–${regular / 2}` : '';
+  return `<tr class="tiebreak-divider"><td colspan="${columns}" class="l">Tiebreak — played only if the match is tied${tied}</td></tr>`;
+}
+
+// What a game table's tiebreak game shows in its result cells when the match
+// didn't need it.
+const TIEBREAK_NOT_PLAYED = '<span class="ns-tag" title="Tiebreak game — not played, since the regular games decided the match">Not needed</span>';
 const RESULT_CLASS = Object.freeze({
   win: 'res-W',
   slightWin: 'res-slight-W',
@@ -3069,16 +3090,25 @@ function lineupPairFromMatch(match, teamName, gameIndex) {
 //
 // A playoff match borrows from another playoff match first: a bracket can play
 // a different format from the regular season, and a posted playoff lineup is
-// the best evidence of it.
+// the best evidence of it. That includes its tiebreak round (isTiebreakGame):
+// a playoff match still to be played whose posted games stop short of one gets
+// the borrowed round's games appended, blank, since its captains are expected
+// to set those pairs too and the posted lineup just doesn't have them yet.
 function lineupGamesFromMatchup(match, teamA, teamB) {
   const donors = match?.playoff ? [...(DATA.playoffs || []), ...(DATA.matches || [])] : (DATA.matches || []);
   const shape = match?.games?.length ? match : donors.find((m) => m.games?.length) || null;
   if (!shape) return [];
-  return shape.games.map((game, index) => ({
+  const games = shape.games.map((game, index) => ({
     type: game.t,
     a: lineupPairFromMatch(match, teamA, index),
     b: lineupPairFromMatch(match, teamB, index),
+    tb: isTiebreakGame(game),
   }));
+  if (match?.playoff && !match.complete && !games.some(isTiebreakGame)) {
+    const round = (DATA.playoffs || []).find((m) => m.games?.some(isTiebreakGame))?.games.filter(isTiebreakGame) || [];
+    for (const game of round) games.push({ type: game.t, a: ['', ''], b: ['', ''], tb: true });
+  }
+  return games;
 }
 
 // The one place lineupLabState.games gets (re)built, so every caller —
@@ -3188,9 +3218,12 @@ function lineupPairKey(pair) {
   return pair.slice().sort((a, b) => a.localeCompare(b)).join('\u0000');
 }
 
+// The weekly pair limit counts the regular games only: a tiebreak round is
+// extra pairs on top of them, so repeating a pair there breaks nothing.
 function lineupPairCounts(side) {
   const counts = new Map();
   for (const game of lineupLabState.games) {
+    if (isTiebreakGame(game)) continue;
     const key = lineupPairKey(game[side]);
     if (key) counts.set(key, (counts.get(key) || 0) + 1);
   }
@@ -3199,7 +3232,7 @@ function lineupPairCounts(side) {
 
 function lineupPairViolations(side, teamName, counts) {
   return [...counts.entries()]
-    .filter(([, count]) => count > 2)
+    .filter(([, count]) => count > LINEUP_PAIR_LIMIT)
     .map(([key, count]) => ({ teamName, pair: key.split('\u0000'), count, side }));
 }
 
@@ -3225,9 +3258,10 @@ function lineupRoundConflicts(side, teamName) {
   const violations = [];
   const conflictKeys = new Set();
   for (const [round, counts] of byRound) {
+    const tiebreak = isTiebreakGame(lineupLabState.games[round * LINEUP_ROUND_SIZE]);
     for (const [name, count] of counts) {
       if (count > 1) {
-        violations.push({ teamName, side, round, name, count });
+        violations.push({ teamName, side, round, name, count, tiebreak });
         conflictKeys.add(`${round}\u0000${name}`);
       }
     }
@@ -3235,9 +3269,9 @@ function lineupRoundConflicts(side, teamName) {
   return { violations, conflictKeys };
 }
 
-function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts, roundConflictKeys) {
+function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts, roundConflictKeys, { tiebreak = false } = {}) {
   const pairCount = pairCounts.get(lineupPairKey(pair)) || 0;
-  const violatesPairLimit = pairCount > 2;
+  const violatesPairLimit = !tiebreak && pairCount > LINEUP_PAIR_LIMIT;
   const round = lineupRoundIndex(gameIndex);
   return `<div class="lineup-pair${violatesPairLimit ? ' lineup-pair-over-limit' : ''}">
     ${[0, 1].map((slotIndex) => {
@@ -3253,7 +3287,7 @@ function renderLineupPair(teamName, pair, gameType, gameIndex, side, pairCounts,
         </select>
       </label>`;
     }).join('')}
-    ${violatesPairLimit ? `<span class="lineup-pair-warning">Pair used ${pairCount}× — weekly maximum is 2</span>` : ''}
+    ${violatesPairLimit ? `<span class="lineup-pair-warning">Pair used ${pairCount}× — weekly maximum is ${LINEUP_PAIR_LIMIT}</span>` : ''}
   </div>`;
 }
 
@@ -3442,7 +3476,7 @@ function handleLineupDuosToggle(event) {
 }
 
 // ── Auto lineups ──
-// For the captain setting their lineup second: the opponent's 32 games are
+// For the captain setting their lineup second: the opponent's games are
 // fixed, and the question is which of our available pairs to put where. One
 // objective — the chance of winning the match — rather than a choice of
 // counting rules: maximizing it plays safe when we're the favourite (turn as
@@ -3450,7 +3484,9 @@ function handleLineupDuosToggle(event) {
 // we're the underdog (concede some games to make sure of the rest), without
 // the captain having to know which they are. It plays by the league's own rules
 // (gendered slots, one game per round per player, a pair at most twice a week)
-// plus the captain's playing-time band.
+// plus the captain's playing-time band. A playoff tiebreak round is planned
+// too, as what it is: games that decide the match only from an even split,
+// outside the pair limit and the playing-time band.
 const LINEUP_AUTO_MODES = [
   {
     id: 'best',
@@ -3477,11 +3513,16 @@ function lineupGameWinChance(margin) {
 
 // Chance of winning the match from each game's win chance, assuming games are
 // independent: the probability of taking more than half of them. Exactly half
-// goes to total points, called a coin flip here. Returns { chance, expected }
-// — expected games won is the standings tiebreak (game win ratio).
-function lineupMatchWinChance(chances) {
+// goes to total points in the regular season, called a coin flip here; in a
+// playoff it goes to the tiebreak round — the games `tiebreak` flags (one
+// boolean per game) — and that round's own chance of a majority. Returns
+// { chance, expected }: expected games won, the standings tiebreak (game win
+// ratio), counts a tiebreak game only as often as the round gets played.
+function lineupMatchWinChance(chances, tiebreak = []) {
+  const regular = chances.filter((_, index) => !tiebreak[index]);
+  const extra = chances.filter((_, index) => tiebreak[index]);
   let dist = [1];
-  for (const p of chances) {
+  for (const p of regular) {
     const next = new Array(dist.length + 1).fill(0);
     for (let won = 0; won < dist.length; won++) {
       next[won] += dist[won] * (1 - p);
@@ -3489,13 +3530,16 @@ function lineupMatchWinChance(chances) {
     }
     dist = next;
   }
-  const n = chances.length;
+  const n = regular.length;
+  const decider = extra.length ? lineupMatchWinChance(extra).chance : 0.5;
   let chance = 0;
+  let level = 0;
   for (let won = 0; won <= n; won++) {
     if (won * 2 > n) chance += dist[won];
-    else if (won * 2 === n) chance += dist[won] / 2;
+    else if (won * 2 === n) level = dist[won];
   }
-  return { chance, expected: chances.reduce((sum, p) => sum + p, 0) };
+  const sum = (list) => list.reduce((total, p) => total + p, 0);
+  return { chance: chance + level * decider, expected: sum(regular) + level * sum(extra) };
 }
 
 const LINEUP_PAIR_LIMIT = 2;
@@ -3566,7 +3610,10 @@ function lineupPlayTimeBands(slotGenders, players, flex) {
 //   oppRated     per game, false when an opponent has no rating at all
 //   players      [{ name, gender, rating, rated }]
 //   synergy(i,j) chemistry for players i and j as a pair (0 when unknown)
-//   bands, poolOf  from lineupPlayTimeBands
+//   bands, poolOf  from lineupPlayTimeBands (on the regular games alone)
+//   tiebreak     optional: per game, true for a playoff tiebreak game — left
+//                out of the pair limit and the bands, and scored as the
+//                decider of an even split (see lineupMatchWinChance)
 //   oppSamples   optional: [{ strength, rated }] per simulated opponent lineup,
 //                each like oppStrength / oppRated. When given, a game's win
 //                chance is its average across them instead (see
@@ -3584,11 +3631,17 @@ function optimizeLineup(spec) {
   const {
     slotGenders, oppStrength, oppRated, oppSamples, players, synergy, bands, poolOf,
     roundSize = LINEUP_ROUND_SIZE, pairLimit = LINEUP_PAIR_LIMIT, seed = 1,
-    restarts = 3, iterations = 4000,
+    restarts = 3, iterations = 4000, tiebreak = [],
   } = spec;
   const gameCount = slotGenders.length;
   const playerCount = players.length;
   if (!gameCount) return { error: 'This matchup has no games to fill.' };
+  const isTiebreak = (game) => Boolean(tiebreak[game]);
+  const tiebreakFlags = slotGenders.map((_, game) => isTiebreak(game));
+  const tiebreakGames = tiebreakFlags.flatMap((flag, game) => (flag ? [game] : []));
+  // The games-won distribution covers the regular games only; the tiebreak
+  // round is scored on top of it (valueOfDist).
+  const regularCount = gameCount - tiebreakGames.length;
   const roundOfGame = Array.from({ length: gameCount }, (_, game) => Math.floor(game / roundSize));
   const roundOf = (game) => roundOfGame[game];
   const roundCount = roundOf(gameCount - 1) + 1;
@@ -3656,16 +3709,16 @@ function optimizeLineup(spec) {
   // p and 1 − p). Rebuilt from scratch every so often anyway, so rounding can't
   // pile up over thousands of moves.
   const addGame = (dist, p) => {
-    for (let won = gameCount; won > 0; won--) dist[won] = dist[won] * (1 - p) + dist[won - 1] * p;
+    for (let won = regularCount; won > 0; won--) dist[won] = dist[won] * (1 - p) + dist[won - 1] * p;
     dist[0] *= 1 - p;
   };
   const removeGame = (dist, p) => {
     if (p <= 0.5) {
       dist[0] /= 1 - p;
-      for (let won = 1; won <= gameCount; won++) dist[won] = (dist[won] - dist[won - 1] * p) / (1 - p);
+      for (let won = 1; won <= regularCount; won++) dist[won] = (dist[won] - dist[won - 1] * p) / (1 - p);
     } else {
       let above = 0;
-      for (let won = gameCount; won >= 1; won--) {
+      for (let won = regularCount; won >= 1; won--) {
         const value = (dist[won] - above * (1 - p)) / p;
         dist[won] = above;
         above = value;
@@ -3678,11 +3731,18 @@ function optimizeLineup(spec) {
   // change — so the search wanders there. Its log-odds stretch exactly those
   // ends, but squeeze the middle. Neither wins everywhere, so restarts take
   // turns, and the lineups they find are compared on the chance itself.
-  const valueOfDist = (dist, expected, logOdds) => {
+  // `tiebreakChances` are the current win chances of the tiebreak games, if
+  // any: an even split of the regular games goes to them rather than a coin
+  // flip, and they add to the expected games won only as often as that happens.
+  const valueOfDist = (dist, expected, logOdds, tiebreakChances) => {
     let chance = 0;
-    for (let won = 0; won <= gameCount; won++) {
-      if (won * 2 > gameCount) chance += dist[won];
-      else if (won * 2 === gameCount) chance += dist[won] / 2;
+    for (let won = 0; won <= regularCount; won++) {
+      if (won * 2 > regularCount) chance += dist[won];
+      else if (won * 2 === regularCount) {
+        const decider = tiebreakChances.length ? lineupMatchWinChance(tiebreakChances).chance : 0.5;
+        chance += dist[won] * decider;
+        expected += dist[won] * tiebreakChances.reduce((sum, p) => sum + p, 0);
+      }
     }
     if (logOdds) {
       const clamped = Math.min(1 - 1e-12, Math.max(1e-12, chance));
@@ -3728,7 +3788,7 @@ function optimizeLineup(spec) {
           }
         }
         assign[game][slot] = pick;
-        counts[pick]++;
+        if (!isTiebreak(game)) counts[pick]++;
         inRound[round][pick] = true;
       }
     }
@@ -3736,12 +3796,14 @@ function optimizeLineup(spec) {
     const pairCounts = new Map();
     let excess = 0;
     const addPair = (game) => {
+      if (isTiebreak(game)) return;
       const key = pairKey(assign[game][0], assign[game][1]);
       const count = (pairCounts.get(key) || 0) + 1;
       pairCounts.set(key, count);
       if (count > pairLimit) excess++;
     };
     const removePair = (game) => {
+      if (isTiebreak(game)) return;
       const key = pairKey(assign[game][0], assign[game][1]);
       const count = pairCounts.get(key);
       if (count > pairLimit) excess--;
@@ -3752,14 +3814,17 @@ function optimizeLineup(spec) {
     let dist;
     let expected;
     const rebuild = () => {
-      dist = new Array(gameCount + 1).fill(0);
+      dist = new Array(regularCount + 1).fill(0);
       dist[0] = 1;
       expected = 0;
-      for (const p of chances) {
+      chances.forEach((p, game) => {
+        if (isTiebreak(game)) return;
         addGame(dist, p);
         expected += p;
-      }
+      });
     };
+    const tiebreakChances = () => tiebreakGames.map((game) => chances[game]);
+    const value = () => valueOfDist(dist, expected, logOdds, tiebreakChances());
     rebuild();
     const logOdds = restart % 2 === 0;
     // Temperatures on each scale's own terms: a single move typically shifts
@@ -3767,7 +3832,7 @@ function optimizeLineup(spec) {
     const startTemp = logOdds ? 0.3 : 0.03;
     const endTemp = startTemp / 100;
     const penalty = (logOdds ? 50 : 1) * PAIR_PENALTY;
-    let current = valueOfDist(dist, expected, logOdds) - penalty * excess;
+    let current = value() - penalty * excess;
 
     // changes: [[game, slot, player]]. Returns the reverse change list.
     const apply = (changes) => {
@@ -3776,23 +3841,25 @@ function optimizeLineup(spec) {
       const undo = changes.map(([game, slot]) => [game, slot, assign[game][slot]]);
       for (const [game, slot] of changes) {
         const player = assign[game][slot];
-        counts[player]--;
+        if (!isTiebreak(game)) counts[player]--;
         inRound[roundOf(game)][player] = false;
       }
       for (const [game, slot, player] of changes) {
         assign[game][slot] = player;
-        counts[player]++;
+        if (!isTiebreak(game)) counts[player]++;
         inRound[roundOf(game)][player] = true;
       }
       for (const game of games) {
         addPair(game);
         const p = chanceOf(assign[game], game);
-        removeGame(dist, chances[game]);
-        addGame(dist, p);
-        expected += p - chances[game];
+        if (!isTiebreak(game)) {
+          removeGame(dist, chances[game]);
+          addGame(dist, p);
+          expected += p - chances[game];
+        }
         chances[game] = p;
       }
-      current = valueOfDist(dist, expected, logOdds) - penalty * excess;
+      current = value() - penalty * excess;
       return undo;
     };
 
@@ -3829,15 +3896,18 @@ function optimizeLineup(spec) {
       }
       if (!bench.length) return null;
       const sub = bench[randomInt(bench.length)];
+      // A tiebreak game counts toward nobody's band, so anyone may come in.
+      if (isTiebreak(game)) return [[game, slot, sub]];
       if (kind < 0.75 && counts[player] - 1 >= band(player).lo && counts[sub] + 1 <= band(sub).hi) {
         return [[game, slot, sub]];
       }
       // Or, keeping everyone's game count unchanged: they trade places across
-      // two rounds — the only way to move anyone when the band is tight.
+      // two rounds — the only way to move anyone when the band is tight. Never
+      // with a tiebreak game, which would move a game in or out of the count.
       const trades = [];
       for (let other = 0; other < gameCount; other++) {
         const otherRound = roundOfGame[other];
-        if (otherRound === round || inRound[otherRound][player]) continue;
+        if (otherRound === round || inRound[otherRound][player] || isTiebreak(other)) continue;
         for (let otherSlot = 0; otherSlot < 2; otherSlot++) {
           if (assign[other][otherSlot] === sub && eligible(player, other, otherSlot)) trades.push([other, otherSlot]);
         }
@@ -3853,7 +3923,7 @@ function optimizeLineup(spec) {
       const temp = startTemp * (endTemp / startTemp) ** (step / iterations);
       if (step % 500 === 499) {
         rebuild();
-        current = valueOfDist(dist, expected, logOdds) - penalty * excess;
+        current = value() - penalty * excess;
       }
       const changes = propose();
       if (!changes) continue;
@@ -3872,7 +3942,7 @@ function optimizeLineup(spec) {
     if (!restartBest && !excess) restartBest = assign.map((pair) => pair.slice());
     if (restartBest) {
       const finalChances = restartBest.map((pair, game) => chanceOf(pair, game));
-      const { chance, expected: finalExpected } = lineupMatchWinChance(finalChances);
+      const { chance, expected: finalExpected } = lineupMatchWinChance(finalChances, tiebreakFlags);
       const score = chance + EXPECTED_WEIGHT * finalExpected;
       if (bestScore == null || score > bestScore + 1e-12) {
         bestScore = score;
@@ -3917,13 +3987,16 @@ const LINEUP_OPP_FRESH_PAIR = 0.25;
 // What a team's posted lineups this season say about its habits: how often
 // (recency-weighted) each player appeared and how many games they played when
 // they did, and how often each pair played together. Only lineups the team
-// posted in full count. Data never changes under a loaded page, so it's
-// cached per team.
+// posted in full count, and only their regular games: a playoff tiebreak round
+// is extra, and says nothing about a usual night. Data never changes under a
+// loaded page, so it's cached per team.
 const lineupOpponentHistoryCache = new Map();
 function lineupOpponentHistory(teamName) {
   if (lineupOpponentHistoryCache.has(teamName)) return lineupOpponentHistoryCache.get(teamName);
   const posted = lineupSeasonMatchesForTeam(teamName).filter((match) => (
-    match.games?.length && match.games.every((_, index) => isPairPosted(lineupPairFromMatch(match, teamName, index)))
+    match.games?.length && match.games.every((game, index) => (
+      isTiebreakGame(game) || isPairPosted(lineupPairFromMatch(match, teamName, index))
+    ))
   ));
   const players = new Map();
   const pairs = new Map();
@@ -3932,7 +4005,8 @@ function lineupOpponentHistory(teamName) {
     const weight = LINEUP_OPP_RECENCY ** (posted.length - 1 - order);
     total += weight;
     const games = new Map();
-    match.games.forEach((_, index) => {
+    match.games.forEach((game, index) => {
+      if (isTiebreakGame(game)) return;
       const pair = lineupPairFromMatch(match, teamName, index);
       for (const name of pair) games.set(name, (games.get(name) || 0) + 1);
       const key = lineupPairKey(pair);
@@ -3970,13 +4044,14 @@ function lineupOpponentHistory(teamName) {
 // over every pairing, proportional to the product of each pair's weight).
 // 'strongest' seats the top-rated available players every round and pairs them
 // for the most chemistry. Either way the league's rules hold (gendered slots,
-// one game per round each, a pair at most twice a week), and within a round
+// one game per round each, a pair at most twice a week — `tiebreak`, per game,
+// marks a playoff tiebreak game, which the pair limit doesn't count), and within a round
 // the strongest pair of each game type takes the lowest court — archived
 // lineups put stronger pairs on lower courts far more often than not.
 function simulateOpponentLineup(spec, random) {
   const {
     slotGenders, players, pairWeight = () => 0, synergy = () => 0, mode = 'likely',
-    roundSize = LINEUP_ROUND_SIZE, pairLimit = LINEUP_PAIR_LIMIT,
+    roundSize = LINEUP_ROUND_SIZE, pairLimit = LINEUP_PAIR_LIMIT, tiebreak = [],
   } = spec;
   const gameCount = slotGenders.length;
   if (!gameCount) return { error: 'This matchup has no games to fill.' };
@@ -4071,8 +4146,9 @@ function simulateOpponentLineup(spec, random) {
       for (let earlier = k - 1; earlier >= 0; earlier--) if (typeOf(games[earlier]) === typeOf(game)) return earlier;
       return -1;
     });
+    const limited = !games.some((game) => tiebreak[game]);
     const scorePair = (x, y) => {
-      const over = (pairCounts.get(pairKey(x, y)) || 0) >= pairLimit ? -50 : 0;
+      const over = limited && (pairCounts.get(pairKey(x, y)) || 0) >= pairLimit ? -50 : 0;
       return over + (likely ? Math.log(LINEUP_OPP_FRESH_PAIR + pairWeight(x, y)) : synergy(x, y));
     };
     const used = new Set();
@@ -4123,7 +4199,7 @@ function simulateOpponentLineup(spec, random) {
       const [x, y] = assign[game];
       played[x]++;
       played[y]++;
-      pairCounts.set(pairKey(x, y), (pairCounts.get(pairKey(x, y)) || 0) + 1);
+      if (!tiebreak[game]) pairCounts.set(pairKey(x, y), (pairCounts.get(pairKey(x, y)) || 0) + 1);
     }
   }
   return { pairs: assign.map((pair) => pair.map((index) => players[index].name)) };
@@ -4153,6 +4229,7 @@ function lineupOpponentSpec(mode) {
   });
   return {
     slotGenders: games.map((game) => [0, 1].map((slot) => lineupExpectedGender(game.type, slot))),
+    tiebreak: games.map(isTiebreakGame),
     players,
     pairWeight: (x, y) => history.pairs.get(lineupPairKey([players[x].name, players[y].name])) || 0,
     synergy: (x, y) => pairSynergyFor(players[x].name, players[y].name)?.synergy || 0,
@@ -4255,13 +4332,17 @@ function lineupAutoSpec(flex = lineupLabState.flex) {
     rated: Boolean(resolvePlayerRating(player.name)),
   }));
   const slotGenders = games.map((game) => [0, 1].map((slot) => lineupExpectedGender(game.type, slot)));
+  const tiebreak = games.map(isTiebreakGame);
   const pairStrength = (pair) => pair.reduce((sum, name) => sum + (resolvePlayerRating(name)?.rating ?? 0), 0)
     + (pairSynergyFor(pair[0], pair[1])?.synergy || 0);
-  const play = lineupPlayTimeBands(slotGenders, players, flex);
+  // Playing time is shared out over the regular games: a tiebreak game may
+  // never be played, so it can't be anyone's share of the night.
+  const play = lineupPlayTimeBands(slotGenders.filter((_, game) => !tiebreak[game]), players, flex);
   return {
     play,
     spec: {
       slotGenders,
+      tiebreak,
       oppStrength: games.map((game) => pairStrength(game.b)),
       oppRated: games.map((game) => game.b.every((name) => resolvePlayerRating(name))),
       oppSamples: opp?.samples.map((pairs) => ({
@@ -4340,7 +4421,7 @@ function lineupChanceAgainst(pairs, opponentPairs) {
       computeExpectedOutcome(ours[0], ours[1], theirs[0], theirs[1], { useSynergy: true }).margin,
     ));
   }
-  return chances.length ? lineupMatchWinChance(chances).chance : null;
+  return chances.length ? lineupMatchWinChance(chances, lineupLabState.games.map(isTiebreakGame)).chance : null;
 }
 
 // The chance of winning the match the slider's default settles for. Captains
@@ -4391,12 +4472,22 @@ function lineupAutoResults() {
   return auto;
 }
 
-function lineupTally(projections) {
+// `projections` line up with the lab's games, one per game; the tiebreak round
+// is left out, as it is from every match record (see lineupTiebreakTally).
+function lineupTally(projections, { tiebreak = false } = {}) {
+  projections = projections.filter((_, index) => isTiebreakGame(lineupLabState.games[index]) === tiebreak);
   return {
     wins: projections.filter((projection) => projection.outcome === 'win').length,
     losses: projections.filter((projection) => projection.outcome === 'loss').length,
     ties: projections.filter((projection) => projection.outcome === 'tie').length,
   };
+}
+
+// The tiebreak round's own projected record, for the score card: it decides
+// the match only from an even split, so it's shown beside the regular games'
+// score rather than added into it.
+function lineupTiebreakTally(projections) {
+  return lineupTally(projections, { tiebreak: true });
 }
 
 // "65% to win", coloured by which way it leans. Rounded to a whole percent,
@@ -4594,14 +4685,24 @@ function renderLineupLab({ scroll = true } = {}) {
   const roundConflictsA = lineupRoundConflicts('a', lineupLabState.teamA);
   const roundConflictsB = lineupRoundConflicts('b', lineupLabState.teamB);
   const roundViolations = [...roundConflictsA.violations, ...roundConflictsB.violations];
-  const tally = summarizeProjections(projections);
-  const wins = projections.filter((projection) => projection.outcome === 'win').length;
-  const losses = projections.filter((projection) => projection.outcome === 'loss').length;
-  const ties = projections.filter((projection) => projection.outcome === 'tie').length;
+  // The score is the regular games' (lineupTally); a tiebreak round gets a
+  // line of its own below it.
+  const regularProjections = projections.filter((_, index) => !isTiebreakGame(lineupLabState.games[index]));
+  const regularCount = regularProjections.length;
+  const tiebreakCount = projections.length - regularCount;
+  const tally = summarizeProjections(regularProjections);
+  const { wins, losses, ties } = lineupTally(projections);
+  const tiebreakTally = lineupTiebreakTally(projections);
   const invalid = projections.filter((projection) => projection.invalid).length;
   const projected = wins + losses + ties;
+  const tiebreakProjected = tiebreakTally.wins + tiebreakTally.losses + tiebreakTally.ties;
   const caveats = [...tally.caveats];
   if (invalid) caveats.push(`${invalid} ${pluralize(invalid, 'game has', 'games have')} a duplicate player`);
+  const tiebreakLine = tiebreakCount
+    ? `<span title="Played only if the match is tied ${regularCount / 2}–${regularCount / 2}">Tiebreak ${tiebreakProjected
+      ? `<b class="res-W">${tiebreakTally.wins}</b>–<b class="res-L">${tiebreakTally.losses}</b>${tiebreakTally.ties ? ` (${tiebreakTally.ties} even)` : ''}${tiebreakProjected < tiebreakCount ? ` from ${tiebreakProjected} of ${tiebreakCount}` : ''}`
+      : 'not projected yet'} — played only if tied ${regularCount / 2}–${regularCount / 2}</span>`
+    : '';
   const scoreLine = projected
     ? `<div class="lineup-scoreline">
         <div><span>${escapeHtml(lineupLabState.teamA)}</span><b class="res-W">${wins}</b></div>
@@ -4620,18 +4721,18 @@ function renderLineupLab({ scroll = true } = {}) {
   const pairRuleHtml = pairViolations.length
     ? `<div class="lineup-rule-check violation" role="alert">
         <b>Pair limit broken</b>
-        <span>A pair may play together no more than twice in a week.</span>
+        <span>A pair may play together no more than twice in a week${lineupLabState.games.some(isTiebreakGame) ? ' (the tiebreak round doesn\'t count)' : ''}.</span>
         <ul>${pairViolations.map((violation) => (
           `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.pair.join(' / '))} is used ${violation.count} times</li>`
         )).join('')}</ul>
       </div>`
-    : `<div class="lineup-rule-check valid"><b>Pair limit clear</b><span>No pair is used more than twice.</span></div>`;
+    : `<div class="lineup-rule-check valid"><b>Pair limit clear</b><span>No pair is used more than twice${lineupLabState.games.some(isTiebreakGame) ? ' outside the tiebreak round, which the limit doesn\'t count' : ''}.</span></div>`;
   const roundRuleHtml = roundViolations.length
     ? `<div class="lineup-rule-check violation" role="alert">
         <b>Round conflict</b>
         <span>A player can't be in two games in the same round (1–4, 5–8, …) — they'd need to be on two courts at once.</span>
         <ul>${roundViolations.map((violation) => (
-          `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.name)} is in ${violation.count} games in round ${violation.round + 1}</li>`
+          `<li><b>${escapeHtml(violation.teamName)}</b>: ${escapeHtml(violation.name)} is in ${violation.count} games in ${violation.tiebreak ? 'the tiebreak round' : `round ${violation.round + 1}`}</li>`
         )).join('')}</ul>
       </div>`
     : `<div class="lineup-rule-check valid"><b>Round conflict clear</b><span>No player is in two games in the same round.</span></div>`;
@@ -4660,12 +4761,13 @@ function renderLineupLab({ scroll = true } = {}) {
     } else {
       projectionText = `<span class="${projection.resultClass}">${projection.displayLabel}</span>${tally.rowTag(projection)}`;
     }
-    return `<tr${duplicate ? ' class="lineup-invalid"' : ''}>
+    const tiebreak = isTiebreakGame(game);
+    return `${renderTiebreakDivider(lineupLabState.games, index, 5)}<tr${duplicate ? ' class="lineup-invalid"' : ''}>
       <td class="lineup-game-number">${index + 1}</td>
       <td>${lineupTypeBadge(game.type)}</td>
-      <td>${renderLineupPair(lineupLabState.teamA, game.a, game.type, index, 'a', pairCountsA, roundConflictsA.conflictKeys)}</td>
+      <td>${renderLineupPair(lineupLabState.teamA, game.a, game.type, index, 'a', pairCountsA, roundConflictsA.conflictKeys, { tiebreak })}</td>
       <td class="lineup-projection">${projectionText}</td>
-      <td>${renderLineupPair(lineupLabState.teamB, game.b, game.type, index, 'b', pairCountsB, roundConflictsB.conflictKeys)}</td>
+      <td>${renderLineupPair(lineupLabState.teamB, game.b, game.type, index, 'b', pairCountsB, roundConflictsB.conflictKeys, { tiebreak })}</td>
     </tr>`;
   }).join('');
 
@@ -4711,7 +4813,8 @@ function renderLineupLab({ scroll = true } = {}) {
         ${scoreLine}
       </div>
       <div class="lineup-score-notes">
-        <span>${projected} of ${lineupLabState.games.length} games projected</span>
+        <span>${projected} of ${regularCount} games projected</span>
+        ${tiebreakLine}
         ${caveats.map((note) => `<span>${note}</span>`).join('')}
       </div>
     </section>
@@ -4896,6 +4999,7 @@ function getProjectedPlayerGames(player) {
         vs: [themPlayers[0] || '', themPlayers[1] || ''],
         projection: projectPendingGame(usPlayers, themPlayers),
         isPlayoff: true,
+        ...(isTiebreakGame(game) ? { tb: 1 } : {}),
       });
     }
   }
@@ -4967,7 +5071,7 @@ function renderGameLogRows(player, projectedGames = []) {
         <td class="l">${game.with ? escapeHtml(game.with) : TBD_SLOT}</td>
         <td class="l">${renderPendingPair(game.vs)}</td>
         <td class="mut">${EMPTY_VALUE}</td>
-        <td class="mut">Pending</td>
+        <td class="mut">${game.tb ? '<span title="Played only if the match is tied after the regular games">Tiebreak</span>' : 'Pending'}</td>
         <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
       </tr>
     `;
@@ -5448,7 +5552,8 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
     .map((n) => (escape ? escapeHtml(n) : n) + (matchSubs.has(n) ? ' <span class="sub-tag" title="Intra-league sub">sub</span>' : ''))
     .join(sep);
   const gameRows = (match.games || [])
-    .map((game) => {
+    .map((game, index, games) => {
+      const divider = renderTiebreakDivider(games, index, GAME_TYPE_HEADER ? 6 : 5);
       const usPlayers = homeSide ? game.h : game.a;
       const themPlayers = homeSide ? game.a : game.h;
       const usScore = homeSide ? game.hs : game.as;
@@ -5461,15 +5566,16 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
       const expectedMargin = expectation.margin;
       const projection = describeProjectedOutcome(expectation);
       // A provisional match's game the league has no score for: shown with its
-      // lineup and projection, but there's no result to compare against.
+      // lineup and projection, but there's no result to compare against. So is
+      // a playoff tiebreak game the match didn't need.
       if (game.ns) {
-        return `
+        return `${divider}
         <tr class="nsrow">
           ${renderGameTypeCell(game.t)}
           <td class="l">${formatSubAwarePlayers(usPlayers)}</td>
           <td class="l">${formatSubAwarePlayers(themPlayers, { sep: ' / ', escape: true })}</td>
           <td class="mut">—</td>
-          <td class="l"><span class="ns-tag" title="The league has no score for this game">No score</span></td>
+          <td class="l">${isTiebreakGame(game) ? TIEBREAK_NOT_PLAYED : '<span class="ns-tag" title="The league has no score for this game">No score</span>'}</td>
           <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
         </tr>
       `;
@@ -5486,7 +5592,7 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
         }
       }
       const expectTag = renderExpectationTag(expectedMargin, win);
-      return `
+      return `${divider}
         <tr${game.ff ? ' class="ffrow"' : ''}>
           ${renderGameTypeCell(game.t)}
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : formatSubAwarePlayers(usPlayers)}</td>
@@ -5549,16 +5655,18 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
       projection: projectPendingGame(usPlayers, themPlayers),
     };
   });
-  const tally = summarizeProjections(projections.map((entry) => entry.projection));
+  // The headline record is the regular games'; a tiebreak round still counts
+  // toward what's posted, since captains are expected to set it.
+  const tally = summarizeProjections(projections.filter(({ game }) => !isTiebreakGame(game)).map((entry) => entry.projection));
   const posting = summarizeLineupPosting(projections, teamName, opponent);
 
-  const gameRows = projections.map(({ game, usPlayers, themPlayers, projection }) => {
+  const gameRows = projections.map(({ game, usPlayers, themPlayers, projection }, index) => {
     const resultClass = projection.outcome === 'win' || projection.outcome === 'loss' || projection.outcome === 'tie'
       ? projection.resultClass
       : '';
     const usSub = homeSide ? game.hSub : game.aSub;
     const themSub = homeSide ? game.aSub : game.hSub;
-    return `
+    return `${renderTiebreakDivider(match.games, index, GAME_TYPE_HEADER ? 5 : 4)}
       <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
         ${renderGameTypeCell(game.t)}
         <td class="l">${renderPendingPair(usPlayers, usSub)}</td>
@@ -5698,13 +5806,15 @@ function renderPlayoffs() {
         themPlayers: game.a,
         projection: projectPendingGame(game.h, game.a),
       }));
-      const tally = summarizeProjections(projections.map((entry) => entry.projection));
+      // As on a team's page: the record is the regular games', the posting
+      // count includes the tiebreak round.
+      const tally = summarizeProjections(projections.filter(({ game }) => !isTiebreakGame(game)).map((entry) => entry.projection));
       const posting = summarizeLineupPosting(projections, m.home, m.away);
-      const gameRows = projections.map(({ game, projection }) => {
+      const gameRows = projections.map(({ game, projection }, index) => {
         const resultClass = projection.outcome === 'win' || projection.outcome === 'loss' || projection.outcome === 'tie'
           ? projection.resultClass
           : '';
-        return `
+        return `${renderTiebreakDivider(m.games, index, GAME_TYPE_HEADER ? 5 : 4)}
           <tr${projection.outcome === 'incomplete' ? ' class="tbdrow"' : ''}>
             ${renderGameTypeCell(game.t)}
             <td class="l">${renderPendingPair(game.h, game.hSub)}</td>
@@ -5735,9 +5845,22 @@ function renderPlayoffs() {
     const homeWon = m.result === 'home';
     const winnerClass = getWinLossClass(true);
     const loserClass = getWinLossClass(false);
-    const gameRows = (m.games || []).map((game) => {
+    const gameRows = (m.games || []).map((game, index, games) => {
+      const divider = renderTiebreakDivider(games, index, GAME_TYPE_HEADER ? 5 : 4);
+      // A game the match didn't need (a playoff tiebreak) or the league left
+      // without a score: its lineup, and no result.
+      if (game.ns) {
+        return `${divider}
+        <tr class="nsrow">
+          ${renderGameTypeCell(game.t)}
+          <td class="l">${escapeHtml(game.h.join(' / '))}</td>
+          <td class="l">${escapeHtml(game.a.join(' / '))}</td>
+          <td class="mut">—</td>
+          <td class="l">${isTiebreakGame(game) ? TIEBREAK_NOT_PLAYED : '<span class="ns-tag" title="The league has no score for this game">No score</span>'}</td>
+        </tr>`;
+      }
       const homeWin = game.hs > game.as;
-      return `
+      return `${divider}
         <tr${game.ff ? ' class="ffrow"' : ''}>
           ${renderGameTypeCell(game.t)}
           <td class="l">${game.ff ? '<span class="ff-tag">forfeit</span>' : escapeHtml(game.h.join(' / '))}</td>

@@ -117,6 +117,19 @@ Local divisions are grouped under a club heading spanning the table rather than
 repeating the club on every row — four Summer 2026 clubs run more than one
 division, and the repetition was most of the table's width.
 
+### The playoff tiebreak round
+
+A playoff match can't end level. Captains post three more pairs on top of the
+regular games, and those are played only when the regular games split evenly
+(16–16); in the regular season a 16–16 goes to total points instead. The API
+doesn't mark these games — they're simply the lineups past a regular match's
+length — so the compiler flags them `tb` (`isTiebreakIndex` and
+`regularMatchLength` in `_cpl/modules/ratings.js`). One the match didn't need
+is left unscored or recorded 0–0, and is listed `ns`, counted by nothing. They
+stay out of a match's game record, the provisional call, and the Lineup Lab's
+weekly pair limit and playing-time bands; the lab's win chance gives them an
+even split to decide. See `_cpl/test/playoff-tiebreak.test.js`.
+
 ### The playoff overview
 
 `/cpl/playoffs/` is every division of every **current** season on one page: a

@@ -45128,7 +45128,7 @@
    "homePoints": 552,
    "awayPoints": 570,
    "homeGW": 15,
-   "awayGW": 20,
+   "awayGW": 17,
    "games": [
     {
      "t": "mixed",
@@ -45580,7 +45580,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -45590,11 +45590,12 @@
      "a": [
       "Janine Forrest",
       "Eric Markowitz"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -45604,11 +45605,12 @@
      "a": [
       "Harriet Levin",
       "Cynthia Eisen"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -45618,7 +45620,8 @@
      "a": [
       "Tom Zentmeyer",
       "Z Zhang"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

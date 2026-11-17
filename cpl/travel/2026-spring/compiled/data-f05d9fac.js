@@ -42790,7 +42790,7 @@
    "homePoints": 635,
    "awayPoints": 523,
    "homeGW": 23,
-   "awayGW": 12,
+   "awayGW": 9,
    "games": [
     {
      "t": "mixed",
@@ -43242,9 +43242,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Angela Bartelt",
       "David Corwin"
@@ -43252,13 +43252,14 @@
      "a": [
       "Kim Slomeana",
       "George Nouaime"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Joan Rudderow",
       "Amy Moore"
@@ -43266,13 +43267,14 @@
      "a": [
       "Christina Samtmann",
       "Mary Hain"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Bob Sochor",
       "Dennis Higman"
@@ -43280,7 +43282,8 @@
      "a": [
       "Scott Nissenbaum",
       "Dan Callaghan"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -43296,7 +43299,7 @@
    "homePoints": 656,
    "awayPoints": 567,
    "homeGW": 21,
-   "awayGW": 14,
+   "awayGW": 11,
    "games": [
     {
      "t": "mixed",
@@ -43748,7 +43751,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -43758,11 +43761,12 @@
      "a": [
       "Petra Jones",
       "Bob Debarge"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -43772,11 +43776,12 @@
      "a": [
       "Jennifer Makfinsky",
       "Karen Rosenberg"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -43786,7 +43791,8 @@
      "a": [
       "Jeffrey Quinlan",
       "Mike Hardy"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

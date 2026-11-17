@@ -45167,7 +45167,7 @@
    "homePoints": 635,
    "awayPoints": 571,
    "homeGW": 18,
-   "awayGW": 17,
+   "awayGW": 14,
    "games": [
     {
      "t": "mixed",
@@ -45619,7 +45619,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -45629,11 +45629,12 @@
      "a": [
       "Kara Infante",
       "Phil Chang"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -45643,11 +45644,12 @@
      "a": [
       "Caitlyn Moore",
       "Tin Wai Kwan"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -45657,7 +45659,8 @@
      "a": [
       "Stephen Mcnamara",
       "Chad Durkin"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -46137,7 +46140,7 @@
    "homePoints": 657,
    "awayPoints": 562,
    "homeGW": 26,
-   "awayGW": 9,
+   "awayGW": 6,
    "games": [
     {
      "t": "mixed",
@@ -46589,7 +46592,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -46599,11 +46602,12 @@
      "a": [
       "Michelle Quach",
       "Matthew Chen"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -46613,11 +46617,12 @@
      "a": [
       "Shelah Wallace",
       "Arianna Haresign"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -46627,7 +46632,8 @@
      "a": [
       "Drew Von Bargen",
       "Zach Bowe"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
