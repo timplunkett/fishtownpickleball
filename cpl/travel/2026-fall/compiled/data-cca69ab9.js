@@ -7080,36 +7080,6 @@
  ],
  "teams": [
   {
-   "name": "Pickleball Kingdom Watchung",
-   "w": 10,
-   "l": 2,
-   "pf": 7256,
-   "pa": 6552,
-   "gw": 248,
-   "gl": 136,
-   "diff": 704,
-   "gameDiff": 112,
-   "power": 1,
-   "powerRank": 2,
-   "pod": 1,
-   "reportedPod": "North",
-   "podName": "North",
-   "fmt": {
-    "mixed": [
-     0,
-     0
-    ],
-    "male": [
-     248,
-     136
-    ],
-    "female": [
-     0,
-     0
-    ]
-   }
-  },
-  {
    "name": "Bounce Malvern",
    "w": 10,
    "l": 2,
@@ -7121,7 +7091,7 @@
    "gameDiff": 110,
    "power": 1.3,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -7151,7 +7121,7 @@
    "gameDiff": 110,
    "power": 1.1,
    "powerRank": 1,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -7162,6 +7132,36 @@
     "male": [
      247,
      137
+    ],
+    "female": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Pickleball Kingdom Watchung",
+   "w": 10,
+   "l": 2,
+   "pf": 7256,
+   "pa": 6552,
+   "gw": 240,
+   "gl": 136,
+   "diff": 704,
+   "gameDiff": 104,
+   "power": 1,
+   "powerRank": 2,
+   "pod": 2,
+   "reportedPod": "North",
+   "podName": "North",
+   "fmt": {
+    "mixed": [
+     0,
+     0
+    ],
+    "male": [
+     240,
+     136
     ],
     "female": [
      0,
@@ -7181,7 +7181,7 @@
    "gameDiff": 66,
    "power": 0.7,
    "powerRank": 1,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southeast",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -7211,7 +7211,7 @@
    "gameDiff": 68,
    "power": 1,
    "powerRank": 3,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -7241,7 +7241,7 @@
    "gameDiff": 74,
    "power": 0.9,
    "powerRank": 4,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -7271,7 +7271,7 @@
    "gameDiff": 0,
    "power": 0.6,
    "powerRank": 2,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -7301,7 +7301,7 @@
    "gameDiff": 18,
    "power": 0.4,
    "powerRank": 2,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southeast",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -7331,7 +7331,7 @@
    "gameDiff": -26,
    "power": 0.3,
    "powerRank": 3,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southwest",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -7361,7 +7361,7 @@
    "gameDiff": -64,
    "power": -0.2,
    "powerRank": 5,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -7386,12 +7386,12 @@
    "pf": 5962,
    "pa": 6657,
    "gw": 123,
-   "gl": 229,
+   "gl": 221,
    "diff": -695,
-   "gameDiff": -106,
+   "gameDiff": -98,
    "power": -0.4,
    "powerRank": 6,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -7401,7 +7401,7 @@
     ],
     "male": [
      123,
-     229
+     221
     ],
     "female": [
      0,
@@ -7421,7 +7421,7 @@
    "gameDiff": -168,
    "power": -0.9,
    "powerRank": 3,
-   "pod": 2,
+   "pod": 1,
    "reportedPod": "Southeast",
    "podName": "Southeast / Southwest",
    "fmt": {
@@ -7451,7 +7451,7 @@
    "gameDiff": -194,
    "power": -1.3,
    "powerRank": 7,
-   "pod": 1,
+   "pod": 2,
    "reportedPod": "North",
    "podName": "North",
    "fmt": {
@@ -22757,7 +22757,7 @@
    "homePoints": 455,
    "awayPoints": 482,
    "homeGW": 12,
-   "awayGW": 20,
+   "awayGW": 12,
    "games": [
     {
      "t": "male",
@@ -23097,9 +23097,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Wasib Malik",
       "Daniel Phillips"
@@ -23111,9 +23111,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Matt Schall",
       "Zachary Puccia"
@@ -23125,9 +23125,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Gary Sidhu",
       "Simon Rosenwasser"
@@ -23139,9 +23139,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Kevin Wysoczynski",
       "Anthony Bradford Bisignano"
@@ -23153,9 +23153,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Kevin Wysoczynski",
       "Anthony Bradford Bisignano"
@@ -23167,9 +23167,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Wasib Malik",
       "Daniel Phillips"
@@ -23181,9 +23181,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Gary Sidhu",
       "Simon Rosenwasser"
@@ -23195,9 +23195,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Matt Schall",
       "Zachary Puccia"
@@ -51894,8 +51894,8 @@
   "singleGender": "Male",
   "podCount": 2,
   "podNames": [
-   "North",
-   "Southeast / Southwest"
+   "Southeast / Southwest",
+   "North"
   ],
   "podSource": "api",
   "reportedPods": [
@@ -51907,6 +51907,11 @@
    "crossPodMatchups": 18,
    "totalMatchups": 78,
    "reported": {
+    "Southwest": [
+     "Bounce Malvern",
+     "Bounce Tempest",
+     "Picklr Newtown"
+    ],
     "North": [
      "Dill Dinkers Freehold",
      "Flemington",
@@ -51916,11 +51921,6 @@
      "Pickleball Kingdom Watchung",
      "Premiere"
     ],
-    "Southwest": [
-     "Bounce Malvern",
-     "Bounce Tempest",
-     "Picklr Newtown"
-    ],
     "Southeast": [
      "ACE Moorestown",
      "Jersey Devil",
@@ -51929,6 +51929,14 @@
    },
    "schedule": {
     "Pod 1": [
+     "ACE Moorestown",
+     "Bounce Malvern",
+     "Bounce Tempest",
+     "Jersey Devil",
+     "Pickle House",
+     "Picklr Newtown"
+    ],
+    "Pod 2": [
      "Dill Dinkers Freehold",
      "Flemington",
      "Jersey Pickleball Club",
@@ -51936,14 +51944,6 @@
      "Pickleball Kingdom Hillsborough",
      "Pickleball Kingdom Watchung",
      "Premiere"
-    ],
-    "Pod 2": [
-     "ACE Moorestown",
-     "Bounce Malvern",
-     "Bounce Tempest",
-     "Jersey Devil",
-     "Pickle House",
-     "Picklr Newtown"
     ]
    }
   }

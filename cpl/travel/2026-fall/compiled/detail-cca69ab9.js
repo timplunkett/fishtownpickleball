@@ -2179,7 +2179,7 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -5747,7 +5747,7 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -7890,7 +7890,7 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -16271,7 +16271,7 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -26144,7 +26144,7 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -27706,7 +27706,7 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -29294,7 +29294,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -29648,7 +29648,7 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -32212,7 +32212,7 @@
      3
     ],
     "teamRes": "W",
-    "teamGW": 20,
+    "teamGW": 12,
     "teamGL": 12,
     "sub": 0,
     "subFor": null
@@ -42052,7 +42052,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -47434,7 +47434,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -51159,7 +51159,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -56210,7 +56210,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -57455,7 +57455,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -58899,7 +58899,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },
@@ -66133,7 +66133,7 @@
     ],
     "teamRes": "L",
     "teamGW": 12,
-    "teamGL": 20,
+    "teamGL": 12,
     "sub": 0,
     "subFor": null
    },

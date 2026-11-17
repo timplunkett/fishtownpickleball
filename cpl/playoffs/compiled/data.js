@@ -168,7 +168,7 @@ window.CPL_PLAYOFFS = {
    "asOf": "2026-11-17T15:15:19.285Z",
    "stage": "regular",
    "regular": {"played":76,"total":78,"times":["2026-10-24T09:00:00","2026-11-16T19:30:00"]},
-   "leaders": [{"label":"North","teams":[{"name":"Pickleball Kingdom Watchung","w":10,"l":2,"pw":10,"pl":2},{"name":"Pickleball Kingdom Hillsborough","w":10,"l":2,"pw":10,"pl":2},{"name":"Premiere","w":8,"l":4,"pw":8,"pl":4},{"name":"Dill Dinkers Freehold","w":7,"l":5,"pw":7,"pl":5}]},{"label":"Southeast","teams":[{"name":"Pickle House","w":8,"l":3,"pw":5,"pl":0},{"name":"Jersey Devil","w":5,"l":7,"pw":2,"pl":4},{"name":"ACE Moorestown","w":1,"l":10,"pw":1,"pl":4}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":10,"l":2,"pw":5,"pl":1},{"name":"Bounce Tempest","w":7,"l":5,"pw":3,"pl":3},{"name":"Picklr Newtown","w":4,"l":8,"pw":1,"pl":5}]}]
+   "leaders": [{"label":"North","teams":[{"name":"Pickleball Kingdom Hillsborough","w":10,"l":2,"pw":10,"pl":2},{"name":"Pickleball Kingdom Watchung","w":10,"l":2,"pw":10,"pl":2},{"name":"Premiere","w":8,"l":4,"pw":8,"pl":4},{"name":"Dill Dinkers Freehold","w":7,"l":5,"pw":7,"pl":5}]},{"label":"Southeast","teams":[{"name":"Pickle House","w":8,"l":3,"pw":5,"pl":0},{"name":"Jersey Devil","w":5,"l":7,"pw":2,"pl":4},{"name":"ACE Moorestown","w":1,"l":10,"pw":1,"pl":4}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":10,"l":2,"pw":5,"pl":1},{"name":"Bounce Tempest","w":7,"l":5,"pw":3,"pl":3},{"name":"Picklr Newtown","w":4,"l":8,"pw":1,"pl":5}]}]
   }
  ]
 };
