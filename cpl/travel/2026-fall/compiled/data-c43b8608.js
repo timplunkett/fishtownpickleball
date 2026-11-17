@@ -85416,11 +85416,11 @@
    "result": null,
    "round": 1,
    "home": "Monroe",
-   "away": "Flemington",
+   "away": "APC Garden State",
    "time": "2026-11-22T14:00:00",
    "complete": false,
    "homeSeed": 2,
-   "awaySeed": 4
+   "awaySeed": 3
   },
   {
    "result": null,
@@ -87013,7 +87013,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-16T18:45:26.773Z";
+  DATA.meta.asOf = "2026-11-17T01:19:27.028Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;
