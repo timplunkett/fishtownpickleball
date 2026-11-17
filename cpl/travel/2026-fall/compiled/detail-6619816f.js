@@ -4179,7 +4179,7 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 0,
     "subFor": null
@@ -11074,7 +11074,7 @@
      2
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 0,
     "subFor": null
@@ -25708,7 +25708,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -26589,7 +26589,7 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 0,
     "subFor": null
@@ -32177,7 +32177,7 @@
      0
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 0,
     "subFor": null
@@ -40241,7 +40241,7 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough"
@@ -43591,7 +43591,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -45428,7 +45428,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -47698,7 +47698,7 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough"
@@ -50613,7 +50613,7 @@
      1
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 0,
     "subFor": null
@@ -52395,7 +52395,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -53919,7 +53919,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -57774,7 +57774,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -58296,7 +58296,7 @@
      2
     ],
     "teamRes": "W",
-    "teamGW": 21,
+    "teamGW": 17,
     "teamGL": 11,
     "sub": 1,
     "subFor": "Pickleball Kingdom Hillsborough"
@@ -63008,7 +63008,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 0,
     "subFor": null
    },
@@ -71152,7 +71152,7 @@
     ],
     "teamRes": "L",
     "teamGW": 11,
-    "teamGL": 21,
+    "teamGL": 17,
     "sub": 1,
     "subFor": "Flemington"
    },

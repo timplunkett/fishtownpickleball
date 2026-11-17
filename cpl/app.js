@@ -5536,6 +5536,13 @@ function matchBlockId(match, kind = 'match') {
   return `${kind}-w${match.week}-${slugify(match.home)}-vs-${slugify(match.away)}`;
 }
 
+// A match block's heading: "Week 3", or for a playoff match the bracket's own
+// round name — a team page hands playoff matches in with `week` set to their
+// round number, which read as "Week 1" for the quarterfinals.
+function teamMatchLabel(match, kind) {
+  return kind === 'playoff' ? playoffRoundLabel(match.round ?? match.week) : `Week ${match.week}`;
+}
+
 function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   const homeSide = match.home === teamName;
   const usPoints = homeSide ? match.homePoints : match.awayPoints;
@@ -5611,7 +5618,7 @@ function renderTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   return `
     <div class="wk-block" id="${blockId}">
       <div class="wk-head">
-        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}${crossPodTag(teamName, opponent)}</span>
+        <span>${teamMatchLabel(match, kind)} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}${crossPodTag(teamName, opponent)}</span>
         <span class="${getWinLossClass(won)}">${won ? 'WON' : 'LOST'} ${usGames}–${themGames}${provisionalLabel}</span>
       </div>
       <div class="match-summary">Match points <b>${usPoints}–${themPoints}</b> • Games <b>${usGames}–${themGames}</b>${match.provisional ? ' • <span class="mut">Unverified</span>' : ''}${upsetLine}</div>
@@ -5637,7 +5644,7 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
     return `
       <div class="wk-block pending-match" id="${blockId}">
         <div class="wk-head">
-          <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}${crossPodTag(teamName, opponent)}</span>
+          <span>${teamMatchLabel(match, kind)} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}${crossPodTag(teamName, opponent)}</span>
           <span class="mut">${scheduledTime || 'TBD'}</span>
         </div>
         <div class="match-summary">Lineups have not been posted yet.</div>
@@ -5680,7 +5687,7 @@ function renderPendingTeamMatchBlock(match, teamName, { kind = 'match' } = {}) {
   return `
     <div class="wk-block pending-match" id="${blockId}">
       <div class="wk-head">
-        <span>Week ${match.week} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}</span>
+        <span>${teamMatchLabel(match, kind)} • ${homeSide ? 'vs' : '@'} ${opponentLinkHtml(opponent, blockId)}</span>
         <span class="mut">${scheduledTime || 'TBD'}</span>
       </div>
       <div class="match-summary">${tally.summary}</div>

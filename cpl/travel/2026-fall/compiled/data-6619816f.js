@@ -7462,10 +7462,10 @@
    "l": 2,
    "pf": 8233,
    "pa": 7473,
-   "gw": 261,
+   "gw": 257,
    "gl": 155,
    "diff": 760,
-   "gameDiff": 106,
+   "gameDiff": 102,
    "power": 1,
    "powerRank": 1,
    "pod": 1,
@@ -7477,11 +7477,11 @@
      82
     ],
     "male": [
-     53,
+     51,
      51
     ],
     "female": [
-     82,
+     80,
      22
     ]
    }
@@ -7703,9 +7703,9 @@
    "pf": 7485,
    "pa": 8043,
    "gw": 169,
-   "gl": 247,
+   "gl": 243,
    "diff": -558,
-   "gameDiff": -78,
+   "gameDiff": -74,
    "power": -0.4,
    "powerRank": 4,
    "pod": 1,
@@ -7718,11 +7718,11 @@
     ],
     "male": [
      46,
-     58
+     56
     ],
     "female": [
      34,
-     70
+     68
     ]
    }
   },
@@ -38768,7 +38768,7 @@
    "homePoints": 520,
    "awayPoints": 550,
    "homeGW": 11,
-   "awayGW": 21,
+   "awayGW": 17,
    "games": [
     {
      "t": "mixed",
@@ -39164,9 +39164,9 @@
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Layla Darian",
       "Kelly Arvidson"
@@ -39178,9 +39178,9 @@
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Aimee Castellano",
       "Susan Ackley"
@@ -39192,9 +39192,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Ross Switkes",
       "Patrick Ryan"
@@ -39206,9 +39206,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Robbie Oddy",
       "Thomas Connolly"

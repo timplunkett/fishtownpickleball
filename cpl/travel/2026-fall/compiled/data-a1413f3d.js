@@ -13818,9 +13818,9 @@
    "pf": 7039,
    "pa": 6042,
    "gw": 233,
-   "gl": 119,
+   "gl": 115,
    "diff": 997,
-   "gameDiff": 114,
+   "gameDiff": 118,
    "power": 1.4,
    "powerRank": 1,
    "pod": 1,
@@ -13833,11 +13833,11 @@
     ],
     "male": [
      49,
-     39
+     37
     ],
     "female": [
      66,
-     22
+     20
     ]
    }
   },
@@ -13967,10 +13967,10 @@
    "l": 6,
    "pf": 7361,
    "pa": 7181,
-   "gw": 209,
+   "gw": 205,
    "gl": 175,
    "diff": 180,
-   "gameDiff": 34,
+   "gameDiff": 30,
    "power": 0.5,
    "powerRank": 3,
    "pod": 1,
@@ -13982,11 +13982,11 @@
      86
     ],
     "male": [
-     56,
+     54,
      40
     ],
     "female": [
-     47,
+     45,
      49
     ]
    }
@@ -14058,9 +14058,9 @@
    "pf": 6398,
    "pa": 6716,
    "gw": 153,
-   "gl": 199,
+   "gl": 198,
    "diff": -318,
-   "gameDiff": -46,
+   "gameDiff": -45,
    "power": 0.5,
    "powerRank": 4,
    "pod": 1,
@@ -14357,10 +14357,10 @@
    "l": 12,
    "pf": 6685,
    "pa": 7792,
-   "gw": 114,
+   "gw": 113,
    "gl": 270,
    "diff": -1107,
-   "gameDiff": -156,
+   "gameDiff": -157,
    "power": -0.4,
    "powerRank": 6,
    "pod": 1,
@@ -79028,7 +79028,7 @@
    "homePoints": 575,
    "awayPoints": 504,
    "homeGW": 21,
-   "awayGW": 11,
+   "awayGW": 7,
    "games": [
     {
      "t": "mixed",
@@ -79424,9 +79424,9 @@
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Erica Rosenberg",
       "Morgan Fishman"
@@ -79438,9 +79438,9 @@
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Richa Shah",
       "Sophia Kaufmann"
@@ -79452,9 +79452,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Anthony Ursino",
       "Meet Patel"
@@ -79466,9 +79466,9 @@
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Ali Husain",
       "Parth Patel"
