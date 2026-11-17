@@ -70,9 +70,9 @@ function writeDivision(dir, opts = {}) {
       matchupPlayerStats: { $values: [] },
       lineups: { lineups: { $values: [
         { homePlayerId1: 'c1', homePlayerId2: 'c2', awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm2' },
+        { homePlayerId1: null, homePlayerId2: null, awayPlayerId1: null, awayPlayerId2: null, homeScore: null, awayScore: null, matchType: 'mixed', matchupId: 'm2' },
         { homePlayerId1: 'c1', homePlayerId2: null, awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'male', matchupId: 'm2' },
         { homePlayerId1: null, homePlayerId2: null, awayPlayerId1: 'd1', awayPlayerId2: 's1', homeScore: null, awayScore: null, matchType: 'female', matchupId: 'm2' },
-        { homePlayerId1: null, homePlayerId2: null, awayPlayerId1: null, awayPlayerId2: null, homeScore: null, awayScore: null, matchType: 'mixed', matchupId: 'm2' },
       ] } },
     },
   };
@@ -91,6 +91,7 @@ function writeDivision(dir, opts = {}) {
       lineups: { lineups: { $values: [
         { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: opts.preSeason ? null : 11, awayScore: opts.preSeason ? null : 8, matchType: 'male', matchupId: 'm1' },
         { homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2', homeScore: opts.preSeason ? null : 11, awayScore: opts.preSeason ? null : 8, matchType: 'male', matchupId: 'm1' },
+        ...(opts.extraWeek1Games || []),
       ] } },
     },
   }, pendingDetail];
@@ -336,17 +337,20 @@ test('detail entries exist for players with history and are omitted otherwise', 
 // has any completed matches yet. In the days before a match one team routinely
 // submits before the other, and a slot can sit open inside an otherwise-set
 // pair, so a half-filled row survives too with "" for what isn't posted — the
-// dashboard shows those slots as TBD. Only a row with nothing in it is dropped.
+// dashboard shows those slots as TBD. So does a row nobody's in yet: a game's
+// place in the list is its court and round, so a blank one in the middle stays
+// where it is rather than moving every game after it up a place.
 const assertPostedLineups = (data) => {
   const upcoming = data.matches.find((m) => m.week === 2);
   assert.equal(upcoming.complete, false);
-  assert.equal(upcoming.games.length, 3, 'the wholly empty lineup is dropped, the partial ones are kept');
+  assert.equal(upcoming.games.length, 4, 'every game keeps its place, the blank one included');
   // Sam Sub is rostered as a sub on Dinkers (the away team here), so every
   // game he's posted in carries an `aSub` flag alongside his name — the only
   // signal available pre-score, since the league hasn't published
   // matchupPlayerStats for this matchup yet.
   assert.deepEqual(upcoming.games, [
     { t: 'male', h: ['Cal Charlie', 'Cat Cortez'], a: ['Dan Delta', 'Sam Sub'], aSub: [0, 1] },
+    { t: 'mixed', h: ['', ''], a: ['', ''] },
     { t: 'male', h: ['Cal Charlie', ''], a: ['Dan Delta', 'Sam Sub'], aSub: [0, 1] },
     { t: 'female', h: ['', ''], a: ['Dan Delta', 'Sam Sub'], aSub: [0, 1] },
   ]);
@@ -811,4 +815,25 @@ test('a provisional match lists its unscored game, flagged, and no stat counts i
   });
   // a1 played two games in week 1 and three scored ones here.
   assert.equal(gamesByPid.get('a1').length, 5);
+});
+
+// A confirmed match can carry games the league never played: blank, or at
+// 0–0, once the night was already decided (four 2026-fall travel matches have
+// them, one a 12–12 settled on points with eight 0–0 games). The league's own
+// player rows count a 0–0 game for nobody, so neither does anything here: not
+// the match's game record, the standings, the format splits, or a player's
+// game log. Both still show in the match's game list, flagged `ns`.
+test('a confirmed match\'s unplayed games count for neither side', (t) => {
+  const unplayed = (homeScore, awayScore) => ({
+    homePlayerId1: 'a1', homePlayerId2: 'a2', awayPlayerId1: 'b1', awayPlayerId2: 'b2',
+    homeScore, awayScore, matchType: 'male', matchupId: 'm1',
+  });
+  const { data, gamesByPid } = compileToObjects(t, { extraWeek1Games: [unplayed(0, 0), unplayed(null, null)] });
+  const match = data.matches.find((m) => m.week === 1);
+  assert.deepEqual([match.homeGW, match.awayGW], [2, 0]);
+  assert.deepEqual(match.games.map((g) => g.ns || 0), [0, 0, 1, 1]);
+  const team = (name) => data.teams.find((candidate) => candidate.name === name);
+  assert.deepEqual([team('Aces').gw, team('Aces').gl, team('Bandits').gw, team('Bandits').gl], [2, 0, 0, 2]);
+  assert.deepEqual(team('Bandits').fmt.male, [0, 2]);
+  assert.equal(gamesByPid.get('b1').length, 2, 'no phantom loss in the game log');
 });

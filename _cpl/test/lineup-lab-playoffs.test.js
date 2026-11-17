@@ -175,3 +175,19 @@ test('a division without a bracket keeps a flat matchup list', () => {
   assert.doesNotMatch(html, /<optgroup/);
   assert.match(html, /<option value="0"[^>]*>Week /);
 });
+
+test('a team page heads its playoff matches with the round, not a week', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
+  const { context, document } = load(found.file, found.teams);
+  const [a, , c] = found.teams;
+  for (const team of [a, c]) {
+    context.location.search = `?team=${context.CPLShared.slugify(team)}`;
+    context.location.href = `http://x/cpl/travel/${context.location.search}`;
+    context.handleRoute();
+    const html = unescape(document.getElementById('teamview').innerHTML);
+    // a's match has a posted lineup, c's has none: both kinds of pending block.
+    const block = new RegExp(`id="playoff-w1-[^"]*">\\s*<div class="wk-head">\\s*<span>([^•]*) • `).exec(html);
+    assert.ok(block, `${team}: no playoff block on the team page`);
+    assert.equal(block[1], 'Semifinals', `${team}: heading`);
+  }
+});

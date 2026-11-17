@@ -345,3 +345,21 @@ test('computePairSynergy surfaces pairs only at 3+ shared games', () => {
   assert.equal(duos[0].n, 3);
   assert.ok(partnersByPid.a.some((p) => p.pid === 'b' && p.name === 'Bo Two'));
 });
+
+// A 0–0 game is one the league never played (see isPlayed): it can't be called
+// for either side, and unlike a blank one it isn't anyone's game played.
+test('deriveProvisionalOutcome counts a 0–0 game for nobody', () => {
+  const won = Array.from({ length: 20 }, () => game('a', 'b', 'c', 'd', 21, 15));
+  const lost = Array.from({ length: 8 }, () => game('a', 'b', 'c', 'd', 15, 21));
+  const zeros = Array.from({ length: 4 }, () => game('a', 'b', 'c', 'd', 0, 0));
+  const outcome = deriveProvisionalOutcome(detailWithGames([...won, ...lost, ...zeros]));
+  assert.equal(outcome.result, 'home');
+  assert.deepEqual([outcome.homeGW, outcome.awayGW], [20, 8]);
+  assert.equal(outcome.games.length, 28);
+  assert.equal(outcome.unscoredLineups.length, 0, 'a 0–0 game is not a game played');
+
+  // Close enough that four games still to play could flip it: undecided, not
+  // four away wins.
+  const close = [...won.slice(0, 15), ...Array.from({ length: 13 }, () => game('a', 'b', 'c', 'd', 15, 21)), ...zeros];
+  assert.equal(deriveProvisionalOutcome(detailWithGames(close)), null);
+});

@@ -30,9 +30,8 @@ const { writePlayoffData } = require('./playoff-outputs');
 const { expandJson } = require('./json-utils');
 const {
   isForfeit,
-  isScored,
+  isPlayed,
   isTiebreakIndex,
-  isPlayedTiebreak,
   regularMatchLength,
   applyProvisionalOutcomes,
   computeRatings,
@@ -67,8 +66,13 @@ function firstValues(obj) {
 // and a slot can sit empty inside an otherwise-filled pair, so any row with at
 // least one named player is carried through with "" standing in for the slots
 // still to come — the dashboard renders those as TBD and skips the projection.
-// Only rows with nothing at all in them are dropped. Shared by the pre-season
-// and in-season match builders so upcoming schedules show lineups in both.
+// A row with nobody in it yet stays too, as long as any row has someone: a
+// game's place in the list is its court and round (the Lineup Lab reads rounds
+// of four off it), so dropping a blank game from the middle would move every
+// game after it, and dropping blank ones from the end would cut the lineup
+// short. Only a lineup with nobody in it at all comes back empty — nothing
+// posted yet. Shared by the pre-season and in-season match builders so
+// upcoming schedules show lineups in both.
 //
 // homeName/awayName + homeTeamByPid let a lineup slot say whether the player
 // in it is subbing — the same test completed matchups use to flag `subPids`
@@ -81,12 +85,12 @@ function firstValues(obj) {
 // and this recompiles every game, in every division, every season.
 //
 // `tiebreakFrom` (playoffs only — see isTiebreakIndex in ratings.js) flags each
-// game of the tiebreak round `tb`, counted before empty rows are dropped.
+// game of the tiebreak round `tb`.
 function buildPendingGames(detail, nameById, homeName, awayName, homeTeamByPid = {}, { tiebreakFrom = null } = {}) {
   const lineups = (detail && detail.lineups && detail.lineups.lineups && detail.lineups.lineups.$values) || [];
   const name = (playerId) => (playerId && nameById[playerId]) || "";
   const isSub = (playerId, teamName) => !!playerId && homeTeamByPid[playerId] !== teamName;
-  return lineups
+  const games = lineups
     .map((g, index) => {
       const hIds = [g.homePlayerId1, g.homePlayerId2];
       const aIds = [g.awayPlayerId1, g.awayPlayerId2];
@@ -100,8 +104,8 @@ function buildPendingGames(detail, nameById, homeName, awayName, homeTeamByPid =
         ...(aSub.some(Boolean) ? { aSub } : {}),
         ...(isTiebreakIndex(index, tiebreakFrom) ? { tb: 1 } : {}),
       };
-    })
-    .filter((g) => [...g.h, ...g.a].some(Boolean));
+    });
+  return games.some((g) => [...g.h, ...g.a].some(Boolean)) ? games : [];
 }
 
 // Every rostered player already ships a name and a playerId inside
@@ -921,8 +925,10 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     const ps = d ? ((d.matchupPlayerStats && d.matchupPlayerStats.$values) || []) : [];
     const games = d ? ((d.lineups && d.lineups.lineups && d.lineups.lineups.$values) || []) : [];
 
+    // Only games with a result (isPlayed): a blank or 0–0 game a confirmed
+    // match left over isn't a game either side won.
     let hgw = 0, agw = 0;
-    for (const g of games) (g.homeScore > g.awayScore ? hgw++ : agw++);
+    for (const g of games) if (isPlayed(g)) (g.homeScore > g.awayScore ? hgw++ : agw++);
 
     const home = { id: homeId, name: mu.homeName, points: mu.homePoints, gw: hgw };
     const away = { id: awayId, name: mu.awayName, points: mu.awayPoints, gw: agw };
@@ -981,6 +987,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     }
 
     for (const g of games) {
+      if (!isPlayed(g)) continue; // nothing to log: no result, and derivePlayerGames skips it too (`ns`)
       const persp = [
         [g.homePlayerId1, g.homePlayerId2, away.name, g.awayPlayerId1, g.awayPlayerId2, g.homeScore, g.awayScore],
         [g.homePlayerId2, g.homePlayerId1, away.name, g.awayPlayerId1, g.awayPlayerId2, g.homeScore, g.awayScore],
@@ -1153,7 +1160,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       // counts them.
       const gameSource = (m.provisional && detailById.get(m.matchupId)) || d;
       for (const g of (gameSource.lineups && gameSource.lineups.lineups && gameSource.lineups.lineups.$values) || []) {
-        if (!isScored(g)) {
+        if (!isPlayed(g)) {
           glist.push({
             t: g.matchType, ns: 1, hs: null, as: null,
             h: [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""],
@@ -1235,7 +1242,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         const tb = isTiebreakIndex(index, tiebreakFrom) ? { tb: 1 } : {};
         const h = [nameById[g.homePlayerId1] || "", nameById[g.homePlayerId2] || ""];
         const a = [nameById[g.awayPlayerId1] || "", nameById[g.awayPlayerId2] || ""];
-        if (tb.tb ? !isPlayedTiebreak(g) : !isScored(g)) {
+        if (!isPlayed(g)) {
           glist.push({ t: g.matchType, ns: 1, hs: null, as: null, h, a, ...tb });
           return;
         }
