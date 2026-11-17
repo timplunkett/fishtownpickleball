@@ -49157,7 +49157,7 @@
    "homePoints": 653,
    "awayPoints": 514,
    "homeGW": 24,
-   "awayGW": 11,
+   "awayGW": 8,
    "games": [
     {
      "t": "mixed",
@@ -49609,7 +49609,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -49619,11 +49619,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -49633,11 +49634,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -49647,7 +49649,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -50127,7 +50130,7 @@
    "homePoints": 665,
    "awayPoints": 541,
    "homeGW": 24,
-   "awayGW": 11,
+   "awayGW": 8,
    "games": [
     {
      "t": "mixed",
@@ -50579,7 +50582,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -50589,11 +50592,12 @@
      "a": [
       "Aimee Castellano",
       "Eric Luque"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -50603,11 +50607,12 @@
      "a": [
       "Susan Ackley",
       "Denise Richmond"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -50617,7 +50622,8 @@
      "a": [
       "David Osborne",
       "Steven Gregov"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

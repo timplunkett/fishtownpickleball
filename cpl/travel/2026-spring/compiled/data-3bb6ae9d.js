@@ -124425,7 +124425,7 @@
    "homePoints": 639,
    "awayPoints": 546,
    "homeGW": 26,
-   "awayGW": 9,
+   "awayGW": 6,
    "games": [
     {
      "t": "mixed",
@@ -124877,9 +124877,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Christina Sheehan",
       "Jordan Clever"
@@ -124887,13 +124887,14 @@
      "a": [
       "Maggie Malloy",
       "Ethan Le"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Brittney Lew",
       "Mickey Ma"
@@ -124901,13 +124902,14 @@
      "a": [
       "Marina Mounelasy",
       "Thuy Heng"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jarrett Basedow",
       "Nicolas Ha"
@@ -124915,7 +124917,8 @@
      "a": [
       "Jake Cohen",
       "Kyle Kelly"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -125859,7 +125862,7 @@
    "homePoints": 612,
    "awayPoints": 612,
    "homeGW": 14,
-   "awayGW": 21,
+   "awayGW": 18,
    "games": [
     {
      "t": "mixed",
@@ -126311,7 +126314,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -126321,11 +126324,12 @@
      "a": [
       "Isabel Laroque",
       "Michael Martellacci"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -126335,11 +126339,12 @@
      "a": [
       "Olivia Lee",
       "Justyna Wojdyla"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -126349,7 +126354,8 @@
      "a": [
       "Jake Anderson",
       "Davis Kahl"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -127293,7 +127299,7 @@
    "homePoints": 601,
    "awayPoints": 581,
    "homeGW": 19,
-   "awayGW": 16,
+   "awayGW": 13,
    "games": [
     {
      "t": "mixed",
@@ -127745,9 +127751,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Cait Kearney",
       "Jordan Clever"
@@ -127755,13 +127761,14 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Brittney Lew",
       "Mickey Ma"
@@ -127769,13 +127776,14 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Nicolas Ha",
       "Jj Pospiech"
@@ -127783,7 +127791,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -127799,7 +127808,7 @@
    "homePoints": 640,
    "awayPoints": 510,
    "homeGW": 24,
-   "awayGW": 11,
+   "awayGW": 8,
    "games": [
     {
      "t": "mixed",
@@ -128251,7 +128260,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -128261,11 +128270,12 @@
      "a": [
       "Isabel Laroque",
       "Michael Martellacci"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -128275,11 +128285,12 @@
      "a": [
       "Olivia Lee",
       "Justyna Wojdyla"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -128289,7 +128300,8 @@
      "a": [
       "Jake Anderson",
       "Davis Kahl"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -128769,7 +128781,7 @@
    "homePoints": 613,
    "awayPoints": 582,
    "homeGW": 17,
-   "awayGW": 18,
+   "awayGW": 15,
    "games": [
     {
      "t": "mixed",
@@ -129221,7 +129233,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -129231,11 +129243,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -129245,11 +129258,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -129259,7 +129273,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

@@ -74153,7 +74153,7 @@
    "homePoints": 652,
    "awayPoints": 534,
    "homeGW": 27,
-   "awayGW": 8,
+   "awayGW": 5,
    "games": [
     {
      "t": "mixed",
@@ -74605,7 +74605,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74615,11 +74615,12 @@
      "a": [
       "Vicki Luckett",
       "Moe Phanhnong"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74629,11 +74630,12 @@
      "a": [
       "Ann Dunn",
       "Zalene Corey"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -74643,7 +74645,8 @@
      "a": [
       "Jonathan Hunsinger",
       "Mark Dinan"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -74659,7 +74662,7 @@
    "homePoints": 645,
    "awayPoints": 569,
    "homeGW": 23,
-   "awayGW": 12,
+   "awayGW": 9,
    "games": [
     {
      "t": "mixed",
@@ -75111,7 +75114,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -75121,11 +75124,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -75135,11 +75139,12 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -75149,7 +75154,8 @@
      "a": [
       "",
       ""
-     ]
+     ],
+     "tb": 1
     }
    ]
   },

@@ -79541,7 +79541,7 @@
    "homePoints": 578,
    "awayPoints": 664,
    "homeGW": 9,
-   "awayGW": 26,
+   "awayGW": 23,
    "games": [
     {
      "t": "mixed",
@@ -79993,7 +79993,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80003,11 +80003,12 @@
      "a": [
       "Ella Ly",
       "George Vega Jr"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80017,11 +80018,12 @@
      "a": [
       "Joyce Yu",
       "Tracy Wong"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -80031,7 +80033,8 @@
      "a": [
       "Miguel Nicolas",
       "Marc Padre"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -80531,7 +80534,7 @@
    "homePoints": 562,
    "awayPoints": 613,
    "homeGW": 11,
-   "awayGW": 24,
+   "awayGW": 21,
    "games": [
     {
      "t": "mixed",
@@ -80983,9 +80986,9 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Kaleigh Hadley",
       "Yongzhe Tian"
@@ -80993,13 +80996,14 @@
      "a": [
       "Daisy Zhang",
       "James Gatter"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Jing He",
       "Danielle Kane"
@@ -81007,13 +81011,14 @@
      "a": [
       "Sara Wilson",
       "Alessandra Andrei"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
-     "hs": 0,
-     "as": 0,
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Albert Lin",
       "Andre Pereldik"
@@ -81021,7 +81026,8 @@
      "a": [
       "Tyler Kuhns",
       "David Reyes"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -81047,7 +81053,7 @@
    "homePoints": 626,
    "awayPoints": 590,
    "homeGW": 19,
-   "awayGW": 16,
+   "awayGW": 13,
    "games": [
     {
      "t": "mixed",
@@ -81499,7 +81505,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -81509,11 +81515,12 @@
      "a": [
       "Siena Cashan",
       "Christian Deleon"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -81523,11 +81530,12 @@
      "a": [
       "Mary Shaila Mendoza",
       "Srilahari Kunchapu"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -81537,7 +81545,8 @@
      "a": [
       "Peter David",
       "Matthew Reyes"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
@@ -82481,7 +82490,7 @@
    "homePoints": 612,
    "awayPoints": 592,
    "homeGW": 19,
-   "awayGW": 16,
+   "awayGW": 13,
    "games": [
     {
      "t": "mixed",
@@ -82933,7 +82942,7 @@
     },
     {
      "t": "mixed",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -82943,11 +82952,12 @@
      "a": [
       "Daisy Zhang",
       "Tyler Kuhns"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "female",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -82957,11 +82967,12 @@
      "a": [
       "Alessandra Andrei",
       "Sara Wilson"
-     ]
+     ],
+     "tb": 1
     },
     {
      "t": "male",
-     "ff": 1,
+     "ns": 1,
      "hs": null,
      "as": null,
      "h": [
@@ -82971,7 +82982,8 @@
      "a": [
       "James Gatter",
       "David Reyes"
-     ]
+     ],
+     "tb": 1
     }
    ]
   },
