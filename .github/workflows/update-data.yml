@@ -5,10 +5,15 @@ name: CPL Data Refresh
 
 on:
   schedule:
+    # Off the top of the hour on purpose. GitHub delays scheduled runs under
+    # load and drops some outright, and minute 0 is the busiest slot: on
+    # '0 */6 * * *' about half the runs never fired and the rest started one to
+    # three hours late.
     # Frequent due-only refreshes (every 6 hours).
-    - cron: '0 */6 * * *'
-    # Weekly full safety refresh (Sunday 9:00 AM UTC).
-    - cron: '0 9 * * 0'
+    - cron: '23 */6 * * *'
+    # Weekly full safety refresh (Sunday 9:17 AM UTC). The pipeline step below
+    # matches this exact string to pick full mode, so change both together.
+    - cron: '17 9 * * 0'
   workflow_dispatch:
     inputs:
       refresh_mode:
@@ -49,7 +54,7 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             REFRESH_MODE="${MANUAL_REFRESH_MODE:-full}"
-          elif [ "${EVENT_SCHEDULE}" = "0 9 * * 0" ]; then
+          elif [ "${EVENT_SCHEDULE}" = "17 9 * * 0" ]; then
             REFRESH_MODE="full"
           else
             REFRESH_MODE="due"

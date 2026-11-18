@@ -350,14 +350,15 @@ Neither are the four standalone pages — `cpl/index.html` + `cpl/home.js`,
 Two workflows write to the repository. They share a `cpl-repo-writes`
 concurrency group so they can never race each other's push.
 
-- **`.github/workflows/update-data.yml` — Weekly Data Update.** Two crons:
-  every 6 hours (`0 */6 * * *`) it runs a *due-only* refresh, and Sundays at
-  09:00 UTC (`0 9 * * 0`) it runs a *full* refresh of every division. Either way
+- **`.github/workflows/update-data.yml` — CPL Data Refresh.** Two crons:
+  every 6 hours (`23 */6 * * *`) it runs a *due-only* refresh, and Sundays at
+  09:17 UTC (`17 9 * * 0`) it runs a *full* refresh of every division. Both
+  avoid minute 0, where GitHub most often delays or drops scheduled runs. Either way
   it commits whatever compiled successfully, then fails the run if any division
   errored — so partial data still ships but a broken division can't rot
   unnoticed. Also runnable via **Run workflow** with a `refresh_mode` of `due`
   or `full`.
-- **`.github/workflows/update-dupr.yml` — Update DUPR Ratings.** Monday 07:00
+- **`.github/workflows/update-dupr.yml` — Update DUPR Ratings.** Monday 07:41
   UTC cron (off-cycle from the data workflow's crons on purpose, so the two
   never queue behind each other for nothing), plus `workflow_dispatch`. Needs
   the `DUPR_ACCESS_TOKEN` secret. The cron always runs `full` against every
