@@ -2225,13 +2225,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Bill Lam",
-   "playerId": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
-   "team": "Pickleball Palace Blue",
-   "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
    "name": "Bill Nguyen",
    "playerId": "205b26e9-e90c-4da9-a58b-4aad708d68df",
    "team": "Forward",
@@ -2673,7 +2666,7 @@ window.DUPR_AUDIT = {
    "gender": "Female"
   },
   {
-   "name": "Brittni Veyna",
+   "name": "Brittni Jo",
    "playerId": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
    "team": "Players Courtyard",
    "slug": "b7ca04e4",
@@ -9635,6 +9628,13 @@ window.DUPR_AUDIT = {
    "playerId": "6bc511e7-c686-4a9b-866a-d109aed9104d",
    "team": "Pickleball HQ",
    "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Jonathan Ye",
+   "playerId": "4009508f-3759-4929-92e6-6bd9f850a74f",
+   "team": "Pickleball Kingdom Hillsborough",
+   "slug": "c118b8e9",
    "gender": "Male"
   },
   {
@@ -19708,6 +19708,13 @@ window.DUPR_AUDIT = {
    "playerId": "4dfed1a1-5375-446c-98bc-69402e70e1d5",
    "team": "Bounce Philly",
    "slug": "6619816f",
+   "gender": "Male"
+  },
+  {
+   "name": "William Lam",
+   "playerId": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
+   "team": "Pickleball Palace Blue",
+   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {

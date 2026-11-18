@@ -6356,8 +6356,8 @@
    "name": "Jonathan Ye",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
-   "matches": 0,
-   "outsideSub": true,
+   "matches": 3,
+   "outsideSub": false,
    "isCaptain": false,
    "gamesPlayed": 24,
    "wins": 9,
@@ -61737,7 +61737,6 @@
    ],
    "subs": [
     "Cesar Alvarez",
-    "Jonathan Ye",
     "Carlos Echenique",
     "Vlad Radomsky"
    ]
@@ -66869,7 +66868,6 @@
     }
    ],
    "subs": [
-    "Jonathan Ye",
     "Justin Lucas",
     "Max Schneiderman"
    ]
@@ -70586,7 +70584,6 @@
    ],
    "subs": [
     "Dip Jadawala",
-    "Jonathan Ye",
     "Ryan Peixoto",
     "Reuben Zilber",
     "Jonathan Nieves"
@@ -74348,8 +74345,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Monzon",
+      "Prashanth Koshy"
      ],
      "a": [
       "Shyler Smith",
@@ -74359,8 +74356,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Akash Raju",
+      "Yashraj Kurani"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74370,8 +74367,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "George Vega Jr"
      ],
      "a": [
       "Bennett Pereira",
@@ -74381,8 +74378,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ye",
+      "Varun Kabaria"
      ],
      "a": [
       "Jitendra Arora",
@@ -74392,8 +74389,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ritesh Patel",
+      "Jonathan Ye"
      ],
      "a": [
       "Shyler Smith",
@@ -74403,8 +74400,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Christopher Monzon"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74414,8 +74411,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Akash Raju",
+      "Yashraj Kurani"
      ],
      "a": [
       "Jitendra Arora",
@@ -74425,8 +74422,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "George Vega Jr"
      ],
      "a": [
       "Sushil Rijhwani",
@@ -74436,8 +74433,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Akash Raju"
      ],
      "a": [
       "Shyler Smith",
@@ -74447,8 +74444,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Christopher Monzon"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74458,8 +74455,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Prashanth Koshy",
+      "Ritesh Patel"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -74469,8 +74466,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Ye",
+      "Yashraj Kurani"
      ],
      "a": [
       "Ping Peng",
@@ -74480,8 +74477,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Christopher Monzon"
      ],
      "a": [
       "Rajeeth Nadig",
@@ -74491,8 +74488,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Akash Raju"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74502,8 +74499,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ritesh Patel",
+      "Yashraj Kurani"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -74513,8 +74510,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Jonathan Ye"
      ],
      "a": [
       "Jitendra Arora",
@@ -74524,8 +74521,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Akash Raju",
+      "Jonathan Ye"
      ],
      "a": [
       "Shyler Smith",
@@ -74535,8 +74532,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Yashraj Kurani"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74546,8 +74543,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Prashanth Koshy"
      ],
      "a": [
       "Varun Gurram",
@@ -74557,8 +74554,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Ritesh Patel"
      ],
      "a": [
       "Jitendra Arora",
@@ -74568,8 +74565,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Akash Raju",
+      "Jonathan Ye"
      ],
      "a": [
       "Varun Gurram",
@@ -74579,8 +74576,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "George Vega Jr",
+      "Prashanth Koshy"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74590,8 +74587,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Varun Kabaria",
+      "Christopher Monzon"
      ],
      "a": [
       "Jitendra Arora",
@@ -74601,8 +74598,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Elliott Albanese"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -74612,8 +74609,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Akash Raju",
+      "George Vega Jr"
      ],
      "a": [
       "Shyler Smith",
@@ -74623,8 +74620,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christopher Monzon",
+      "Prashanth Koshy"
      ],
      "a": [
       "Rajeeth Nadig",
@@ -74634,8 +74631,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Jonathan Ye"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74645,8 +74642,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Ritesh Patel"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -74656,8 +74653,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Yashraj Kurani",
+      "Prashanth Koshy"
      ],
      "a": [
       "Shyler Smith",
@@ -74667,8 +74664,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Akash Raju",
+      "George Vega Jr"
      ],
      "a": [
       "Rajeeth Nadig",
@@ -74678,8 +74675,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Elliott Albanese",
+      "Jonathan Ye"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -74689,8 +74686,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ritesh Patel",
+      "Varun Kabaria"
      ],
      "a": [
       "Varun Gurram",
@@ -74700,31 +74697,41 @@
    ]
   },
   {
-   "result": null,
+   "result": "away",
    "round": 1,
    "home": "Home Court",
    "away": "Pickleball Kingdom Hamilton",
    "time": "2026-11-17T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 3,
    "awaySeed": 4,
+   "homePoints": 681,
+   "awayPoints": 675,
+   "homeGW": 17,
+   "awayGW": 18,
    "games": [
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
-      "Ricky Jutkiewicz",
-      "Jacob Yoo"
+      "Marc Kunesch",
+      "Robert Huntley"
      ],
      "a": [
       "Kapil Khanna",
-      "Ashish Kumar"
+      "Syed Haider"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
-      "Dennis Yap",
-      "Bryan Mccourt"
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
      ],
      "a": [
       "Pritpal Singh",
@@ -74733,9 +74740,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
-      "Pat Wilson",
-      "Michael Vincent"
+      "Dennis Yap",
+      "Bryan Mccourt"
      ],
      "a": [
       "Imran Mazhar",
@@ -74744,9 +74754,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 28,
+     "as": 26,
      "h": [
-      "Marc Kunesch",
-      "Robert Huntley"
+      "Pat Wilson",
+      "Michael Vincent"
      ],
      "a": [
       "Venu Yengala",
@@ -74755,9 +74768,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
-      "Jacob Yoo",
-      "Dennis Yap"
+      "Pat Wilson",
+      "Michael Gilbert"
      ],
      "a": [
       "Kapil Khanna",
@@ -74766,42 +74782,54 @@
     },
     {
      "t": "male",
-     "h": [
-      "Matthew Carrington",
-      "Robert Huntley"
-     ],
-     "a": [
-      "Venu Yengala",
-      "Ashish Kumar"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Pat Wilson",
-      "Michael Gilbert"
-     ],
-     "a": [
-      "Imran Mazhar",
-      "Syed Haider"
-     ]
-    },
-    {
-     "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Ricky Jutkiewicz",
       "Marc Kunesch"
      ],
      "a": [
+      "Venu Yengala",
+      "Jaiveer Narwal"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
+     "h": [
+      "Matthew Carrington",
+      "Robert Huntley"
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
+     "h": [
+      "Jacob Yoo",
+      "Dennis Yap"
+     ],
+     "a": [
       "Yash Mehta",
       "Harsh Upadhyaya"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
-      "Ricky Jutkiewicz",
-      "Dennis Yap"
+      "Marc Kunesch",
+      "Michael Gilbert"
      ],
      "a": [
       "Kapil Khanna",
@@ -74810,20 +74838,26 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
-      "Bryan Mccourt",
-      "Robert Huntley"
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
      ],
      "a": [
-      "Ashish Kumar",
+      "Jaiveer Narwal",
       "Imran Mazhar"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
      "h": [
-      "Matthew Carrington",
-      "Michael Vincent"
+      "Bryan Mccourt",
+      "Robert Huntley"
      ],
      "a": [
       "Pritpal Singh",
@@ -74832,9 +74866,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
-      "Marc Kunesch",
-      "Michael Gilbert"
+      "Matthew Carrington",
+      "Michael Vincent"
      ],
      "a": [
       "Venu Yengala",
@@ -74843,9 +74880,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
-      "Ricky Jutkiewicz",
-      "Jacob Yoo"
+      "Bryan Mccourt",
+      "Michael Vincent"
      ],
      "a": [
       "Kapil Khanna",
@@ -74854,75 +74894,96 @@
     },
     {
      "t": "male",
-     "h": [
-      "Bryan Mccourt",
-      "Michael Vincent"
-     ],
-     "a": [
-      "Yash Mehta",
-      "Syed Haider"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Dennis Yap",
-      "Matthew Carrington"
-     ],
-     "a": [
-      "Ashish Kumar",
-      "Pritpal Singh"
-     ]
-    },
-    {
-     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Pat Wilson",
       "Michael Gilbert"
      ],
      "a": [
+      "Yash Mehta",
+      "Syed Haider"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Ricky Jutkiewicz",
+      "Jacob Yoo"
+     ],
+     "a": [
+      "Jaiveer Narwal",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
+     "h": [
+      "Dennis Yap",
+      "Matthew Carrington"
+     ],
+     "a": [
       "Harsh Upadhyaya",
       "Venu Yengala"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
+     "h": [
+      "Marc Kunesch",
+      "Michael Vincent"
+     ],
+     "a": [
+      "Kapil Khanna",
+      "Pritpal Singh"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
+     "h": [
+      "Jacob Yoo",
+      "Pat Wilson"
+     ],
+     "a": [
+      "Imran Mazhar",
+      "Harsh Upadhyaya"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
       "Dennis Yap",
       "Bryan Mccourt"
      ],
      "a": [
-      "Kapil Khanna",
-      "Pritpal Singh"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Marc Kunesch",
-      "Michael Vincent"
-     ],
-     "a": [
-      "Imran Mazhar",
-      "Harsh Upadhyaya"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "Matthew Carrington",
-      "Robert Huntley"
-     ],
-     "a": [
-      "Ashish Kumar",
+      "Jaiveer Narwal",
       "Dilip Patel"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
-      "Jacob Yoo",
-      "Pat Wilson"
+      "Matthew Carrington",
+      "Robert Huntley"
      ],
      "a": [
       "Syed Haider",
@@ -74931,9 +74992,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
-      "Jacob Yoo",
-      "Dennis Yap"
+      "Matthew Carrington",
+      "Michael Gilbert"
      ],
      "a": [
       "Kapil Khanna",
@@ -74942,9 +75006,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
      "h": [
-      "Ricky Jutkiewicz",
-      "Pat Wilson"
+      "Jacob Yoo",
+      "Dennis Yap"
      ],
      "a": [
       "Yash Mehta",
@@ -74953,20 +75020,26 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Bryan Mccourt",
       "Michael Vincent"
      ],
      "a": [
-      "Ashish Kumar",
+      "Jaiveer Narwal",
       "Syed Haider"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
-      "Matthew Carrington",
-      "Michael Gilbert"
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
      ],
      "a": [
       "Harsh Upadhyaya",
@@ -74975,9 +75048,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
-      "Ricky Jutkiewicz",
-      "Pat Wilson"
+      "Marc Kunesch",
+      "Michael Vincent"
      ],
      "a": [
       "Kapil Khanna",
@@ -74986,9 +75062,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
-      "Bryan Mccourt",
-      "Robert Huntley"
+      "Ricky Jutkiewicz",
+      "Pat Wilson"
      ],
      "a": [
       "Yash Mehta",
@@ -74997,9 +75076,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "Marc Kunesch",
-      "Michael Vincent"
+      "Jacob Yoo",
+      "Matthew Carrington"
      ],
      "a": [
       "Imran Mazhar",
@@ -75008,31 +75090,40 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
-      "Jacob Yoo",
-      "Matthew Carrington"
+      "Bryan Mccourt",
+      "Robert Huntley"
      ],
      "a": [
       "Pritpal Singh",
-      "Ashish Kumar"
+      "Venu Yengala"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
-      "Ricky Jutkiewicz",
-      "Dennis Yap"
+      "Matthew Carrington",
+      "Michael Gilbert"
      ],
      "a": [
       "Kapil Khanna",
-      "Ashish Kumar"
+      "Dilip Patel"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
-      "Jacob Yoo",
-      "Matthew Carrington"
+      "Ricky Jutkiewicz",
+      "Dennis Yap"
      ],
      "a": [
       "Imran Mazhar",
@@ -75041,9 +75132,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Marc Kunesch",
-      "Michael Gilbert"
+      "Pat Wilson"
      ],
      "a": [
       "Syed Haider",
@@ -75052,9 +75146,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "Bryan Mccourt",
-      "Pat Wilson"
+      "Jacob Yoo",
+      "Bryan Mccourt"
      ],
      "a": [
       "Pritpal Singh",
@@ -75063,21 +75160,27 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
-      "",
-      ""
+      "Dennis Yap",
+      "Jacob Yoo"
      ],
      "a": [
       "Kapil Khanna",
-      "Ashish Kumar"
+      ""
      ],
      "tb": 1
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
-      "",
-      ""
+      "Pat Wilson",
+      "Matthew Carrington"
      ],
      "a": [
       "Yash Mehta",
@@ -75087,9 +75190,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
-      "",
-      ""
+      "Ricky Jutkiewicz",
+      "Bryan Mccourt"
      ],
      "a": [
       "Pritpal Singh",
@@ -75110,20 +75216,27 @@
    "awaySeed": null
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Pickleball HQ",
    "away": "Jersey Devil",
    "time": "2026-11-17T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 4,
+   "homePoints": 665,
+   "awayPoints": 523,
+   "homeGW": 29,
+   "awayGW": 3,
    "games": [
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "John Darrah",
@@ -75132,9 +75245,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "David Wheeler"
      ],
      "a": [
       "Dan Carpenter",
@@ -75143,86 +75259,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tim Bruno",
-      "Derek Livingston"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Christopher Uston",
-      "Tom Kresky"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Dan Ruble",
-      "Tim Bruno"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Brandon Dejesus",
-      "Dan Carpenter"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Derek Livingston",
-      "John Darrah"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tom Kresky",
-      "Christopher Uston"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Dan Carpenter",
-      "Brandon Dejesus"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Tim Bruno",
@@ -75231,9 +75273,110 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Matthew Rafaniello"
+     ],
+     "a": [
+      "Christopher Uston",
+      "Tom Kresky"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
+     "h": [
+      "Christopher Hendrickson",
+      "Anthony Simonetti"
+     ],
+     "a": [
+      "Dan Ruble",
+      "Tim Bruno"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
+     "h": [
+      "Luca Hendrickson",
+      "Noah Ludwigsen"
+     ],
+     "a": [
+      "Brandon Dejesus",
+      "Dan Carpenter"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
+     "h": [
+      "Jimmy Ramja",
+      "David Wheeler"
+     ],
+     "a": [
+      "Mario Contreras",
+      "John Darrah"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
+     "h": [
+      "Kyle Korman",
+      "Matthew Rafaniello"
+     ],
+     "a": [
+      "Tom Kresky",
+      "Christopher Uston"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
+     "h": [
+      "Jimmy Ramja",
+      "Noah Ludwigsen"
+     ],
+     "a": [
+      "Dan Carpenter",
+      "Brandon Dejesus"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Christopher Hendrickson",
+      "Luca Hendrickson"
+     ],
+     "a": [
+      "Tim Bruno",
+      "Dan Ruble"
+     ]
+    },
+    {
+     "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
+     "h": [
+      "Anthony Simonetti",
+      "Kyle Korman"
      ],
      "a": [
       "Christopher Uston",
@@ -75242,20 +75385,26 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Carlos Idrovo"
      ],
      "a": [
-      "Derek Livingston",
+      "Tom Kresky",
       "John Darrah"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Noah Ludwigsen"
      ],
      "a": [
       "John Darrah",
@@ -75264,20 +75413,26 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Luca Hendrickson"
      ],
      "a": [
       "Dan Ruble",
-      "Derek Livingston"
+      "Christopher Uston"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Kyle Korman"
      ],
      "a": [
       "Brandon Dejesus",
@@ -75286,9 +75441,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
-      "",
-      ""
+      "David Wheeler",
+      "Carlos Idrovo"
      ],
      "a": [
       "Tim Bruno",
@@ -75297,9 +75455,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Brandon Dejesus",
@@ -75308,9 +75469,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "David Wheeler"
      ],
      "a": [
       "John Darrah",
@@ -75319,9 +75483,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "",
-      ""
+      "Jimmy Ramja",
+      "Christopher Hendrickson"
      ],
      "a": [
       "Dan Ruble",
@@ -75330,20 +75497,26 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Carlos Idrovo"
      ],
      "a": [
-      "Derek Livingston",
+      "Tim Bruno",
       "Mario Contreras"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Dan Carpenter",
@@ -75352,9 +75525,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
-      "",
-      ""
+      "Matthew Rafaniello",
+      "Carlos Idrovo"
      ],
      "a": [
       "Brandon Dejesus",
@@ -75363,9 +75539,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Luca Hendrickson"
      ],
      "a": [
       "Tom Kresky",
@@ -75374,9 +75553,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Jimmy Ramja"
      ],
      "a": [
       "Christopher Uston",
@@ -75385,20 +75567,26 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Tim Bruno",
-      "Derek Livingston"
+      "Christopher Uston"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Jimmy Ramja"
      ],
      "a": [
       "Dan Ruble",
@@ -75407,9 +75595,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
-      "",
-      ""
+      "Luca Hendrickson",
+      "David Wheeler"
      ],
      "a": [
       "Brandon Dejesus",
@@ -75418,9 +75609,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Carlos Idrovo"
      ],
      "a": [
       "Dan Carpenter",
@@ -75429,9 +75623,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "",
-      ""
+      "Carlos Idrovo",
+      "Matthew Rafaniello"
      ],
      "a": [
       "Dan Ruble",
@@ -75440,9 +75637,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
-      "",
-      ""
+      "Christopher Hendrickson",
+      "Noah Ludwigsen"
      ],
      "a": [
       "Dan Carpenter",
@@ -75451,9 +75651,12 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
-      "",
-      ""
+      "Kyle Korman",
+      "Jimmy Ramja"
      ],
      "a": [
       "Christopher Uston",
@@ -75462,29 +75665,84 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
-      "",
-      ""
+      "Anthony Simonetti",
+      "Luca Hendrickson"
      ],
      "a": [
       "Tom Kresky",
-      "Derek Livingston"
+      "Mario Contreras"
      ]
+    },
+    {
+     "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
+     "h": [
+      "Jimmy Ramja",
+      "Kyle Korman"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
+     "h": [
+      "Anthony Simonetti",
+      "Christopher Hendrickson"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
+     "h": [
+      "Noah Ludwigsen",
+      "Luca Hendrickson"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
     }
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Bounce Tempest",
    "away": "APC Garden State",
    "time": "2026-11-17T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 630,
+   "awayPoints": 610,
+   "homeGW": 19,
+   "awayGW": 13,
    "games": [
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "David Brandolph",
       "Kyle Martin"
@@ -75496,6 +75754,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Daniel Borgia",
       "Paul Perumaly"
@@ -75507,6 +75768,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Vincent Rigoglioso",
       "Ken Weinstein"
@@ -75518,6 +75782,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Yong Kim",
       "Jimmy Lee"
@@ -75529,6 +75796,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "David Brandolph",
       "Jared Rapoport"
@@ -75540,6 +75810,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Vincent Rigoglioso",
       "Ken Weinstein"
@@ -75551,6 +75824,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Daniel Borgia",
       "Yong Kim"
@@ -75562,6 +75838,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
      "h": [
       "Kyle Martin",
       "Paul Perumaly"
@@ -75573,6 +75852,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Kyle Martin",
       "Vincent Rigoglioso"
@@ -75584,6 +75866,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "David Brandolph",
       "Paul Perumaly"
@@ -75595,6 +75880,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Daniel Borgia",
       "Jimmy Lee"
@@ -75606,6 +75894,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Yong Kim",
       "Jared Rapoport"
@@ -75617,6 +75908,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Daniel Borgia",
       "Paul Perumaly"
@@ -75628,6 +75922,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Ken Weinstein",
       "Kyle Martin"
@@ -75639,6 +75936,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "David Brandolph",
       "Vincent Rigoglioso"
@@ -75650,6 +75950,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
      "h": [
       "Jimmy Lee",
       "Jared Rapoport"
@@ -75661,6 +75964,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Daniel Borgia",
       "Yong Kim"
@@ -75672,6 +75978,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
      "h": [
       "David Brandolph",
       "Vincent Rigoglioso"
@@ -75683,6 +75992,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Jared Rapoport",
       "Paul Perumaly"
@@ -75694,6 +76006,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Jimmy Lee",
       "Ken Weinstein"
@@ -75705,6 +76020,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
      "h": [
       "Jimmy Lee",
       "Ken Weinstein"
@@ -75716,6 +76034,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Kyle Martin",
       "David Brandolph"
@@ -75727,6 +76048,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Daniel Borgia",
       "Jared Rapoport"
@@ -75738,6 +76062,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Vincent Rigoglioso",
       "Yong Kim"
@@ -75749,6 +76076,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "David Brandolph",
       "Jimmy Lee"
@@ -75760,6 +76090,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Kyle Martin",
       "Paul Perumaly"
@@ -75771,6 +76104,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Daniel Borgia",
       "Jared Rapoport"
@@ -75782,6 +76118,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
       "Vincent Rigoglioso",
       "Yong Kim"
@@ -75793,6 +76132,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Daniel Borgia",
       "Jimmy Lee"
@@ -75804,6 +76146,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
      "h": [
       "Jared Rapoport",
       "Yong Kim"
@@ -75815,6 +76160,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "David Brandolph",
       "Paul Perumaly"
@@ -75826,6 +76174,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
       "Ken Weinstein",
       "Kyle Martin"
@@ -75837,6 +76188,9 @@
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -75849,6 +76203,9 @@
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -75861,6 +76218,9 @@
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -75872,6 +76232,36 @@
      "tb": 1
     }
    ]
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Montville",
+   "away": "Pickleball Kingdom Hamilton",
+   "time": "2026-11-24T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Pickleball Kingdom Lehigh Valley",
+   "away": "Pickleball HQ",
+   "time": "2026-11-24T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Premiere",
+   "away": "Bounce Tempest",
+   "time": "2026-11-24T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
   }
  ],
  "extraPlayerIds": {
@@ -76082,14 +76472,6 @@
   {
    "name": "Dip Jadawala",
    "playerId": "3f0dfdbb-e1c2-429e-83c5-2f06da11a2f1",
-   "gender": "Male",
-   "team": "Pickleball Kingdom Hillsborough",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
-   "name": "Jonathan Ye",
-   "playerId": "4009508f-3759-4929-92e6-6bd9f850a74f",
    "gender": "Male",
    "team": "Pickleball Kingdom Hillsborough",
    "isCaptain": false,
@@ -76757,7 +77139,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-16T18:46:35.305Z";
+  DATA.meta.asOf = "2026-11-18T13:36:31.967Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

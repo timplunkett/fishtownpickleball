@@ -350,7 +350,7 @@
   "partners": [
    {
     "pid": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
-    "name": "Bill Lam",
+    "name": "William Lam",
     "n": 3,
     "synergy": 0.1
    }
@@ -30289,7 +30289,7 @@
     "label": "1",
     "rating": -0.6,
     "confidence": 46,
-    "rank": 163,
+    "rank": 162,
     "ratingGames": 6,
     "strengthOfPartners": 0.5,
     "strengthOfOpponents": -0.1
@@ -49111,7 +49111,7 @@
    },
    {
     "pid": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
-    "name": "Bill Lam",
+    "name": "William Lam",
     "n": 4,
     "synergy": 0.9
    },
@@ -50069,7 +50069,7 @@
     "label": "13",
     "rating": 0.7,
     "confidence": 85,
-    "rank": 232,
+    "rank": 231,
     "ratingGames": 28,
     "strengthOfPartners": 0.1,
     "strengthOfOpponents": 0.4
@@ -65340,7 +65340,7 @@
     "label": "12",
     "rating": 0.6,
     "confidence": 85,
-    "rank": 239,
+    "rank": 238,
     "ratingGames": 28,
     "strengthOfPartners": 0.8,
     "strengthOfOpponents": 0.1
@@ -78066,7 +78066,7 @@
     "label": "1",
     "rating": -0.6,
     "confidence": 46,
-    "rank": 162,
+    "rank": 163,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.4
@@ -78099,7 +78099,7 @@
     "label": "5",
     "rating": -0.5,
     "confidence": 52,
-    "rank": 283,
+    "rank": 284,
     "ratingGames": 6,
     "strengthOfPartners": 0.6,
     "strengthOfOpponents": 2.1
@@ -78110,7 +78110,7 @@
     "label": "6",
     "rating": -0.6,
     "confidence": 53,
-    "rank": 311,
+    "rank": 312,
     "ratingGames": 6,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 2.1
@@ -78176,7 +78176,7 @@
     "label": "12",
     "rating": 0.6,
     "confidence": 85,
-    "rank": 238,
+    "rank": 239,
     "ratingGames": 28,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.6
@@ -78187,7 +78187,7 @@
     "label": "13",
     "rating": 0.7,
     "confidence": 85,
-    "rank": 231,
+    "rank": 232,
     "ratingGames": 28,
     "strengthOfPartners": 0.7,
     "strengthOfOpponents": 0.7
@@ -79128,7 +79128,7 @@
     "label": "6",
     "rating": -0.6,
     "confidence": 53,
-    "rank": 312,
+    "rank": 311,
     "ratingGames": 6,
     "strengthOfPartners": -1.9,
     "strengthOfOpponents": -0.2
@@ -101298,7 +101298,7 @@
   "partners": [
    {
     "pid": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
-    "name": "Bill Lam",
+    "name": "William Lam",
     "n": 3,
     "synergy": 0.7
    },
@@ -103590,7 +103590,7 @@
    },
    {
     "pid": "7fe8e4a4-6d94-4cb2-831f-23e53d4a8603",
-    "name": "Bill Lam",
+    "name": "William Lam",
     "n": 4,
     "synergy": -0.2
    },
@@ -158341,7 +158341,7 @@
     "label": "5",
     "rating": -0.5,
     "confidence": 52,
-    "rank": 284,
+    "rank": 283,
     "ratingGames": 6,
     "strengthOfPartners": -0.6,
     "strengthOfOpponents": 1.1

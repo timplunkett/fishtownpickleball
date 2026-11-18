@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 13
+      "ranking": 14
     },
     {
       "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
@@ -90,7 +90,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 18
+      "ranking": 19
     },
     {
       "playerId": "261fdcb3-6c64-4111-ab1b-92c21d2863bd",
@@ -113,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 16
+      "ranking": 17
     },
     {
       "playerId": "343d9ed5-c257-4043-98e3-fb3c6c21a537",
@@ -182,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 17
+      "ranking": 18
     },
     {
       "playerId": "708f285b-0855-47a2-a8b4-9c1459f65781",
@@ -251,7 +251,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 12
+      "ranking": 13
     },
     {
       "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
@@ -366,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 19
+      "ranking": 20
     },
     {
       "playerId": "c7d6417a-1519-48bd-831a-58e1714d70a9",
@@ -412,7 +412,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 14
+      "ranking": 15
     },
     {
       "playerId": "e9933537-c449-42e8-b742-0fd7e4ea8619",
@@ -435,7 +435,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 15
+      "ranking": 16
+    },
+    {
+      "playerId": "f89874de-ee0c-486f-af7d-32e4aed59df8",
+      "firstName": "Thuy",
+      "lastName": "Le",
+      "gender": "Female",
+      "dupr": "P59G9G",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "c0b58e91-0345-4df0-9312-569c8010fd3a",
+      "teamName": "Ballers Philly",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 12
     }
   ]
 }

@@ -6875,7 +6875,7 @@
    "playerId": "5a3ef7a6-3b61-4ca7-bab2-3817194cda35"
   },
   {
-   "name": "Bill Lam",
+   "name": "William Lam",
    "gender": "Male",
    "team": "Pickleball Palace Blue",
    "matches": 5,
@@ -22548,7 +22548,7 @@
    "bId": "ef0bc1ce-6709-4172-97a6-8ea5a462bea4"
   },
   {
-   "a": "Bill Lam",
+   "a": "William Lam",
    "b": "Lynn Quinn",
    "team": "Pickleball Palace Blue",
    "n": 4,
@@ -23393,7 +23393,7 @@
    "bId": "d8d92449-f754-45b9-acf1-821822b1abb5"
   },
   {
-   "a": "Bill Lam",
+   "a": "William Lam",
    "b": "Christine Ostapiak",
    "team": "Pickleball Palace Blue",
    "n": 3,
@@ -27267,7 +27267,7 @@
    "bId": "fbaf1cdd-118b-4d51-a42e-f06908cc3f3c"
   },
   {
-   "a": "Bill Lam",
+   "a": "William Lam",
    "b": "Edward Goodman",
    "team": "Pickleball Palace Blue",
    "n": 3,
@@ -28606,7 +28606,7 @@
    "bId": "4ca325bd-f0d7-4b18-b570-c6ef241d2ff5"
   },
   {
-   "a": "Bill Lam",
+   "a": "William Lam",
    "b": "Stanley Okpor",
    "team": "Pickleball Palace Blue",
    "n": 4,
@@ -38714,7 +38714,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Bill Lam",
+      "William Lam",
       "Stanley Okpor"
      ],
      "a": [
@@ -38757,7 +38757,7 @@
      "as": 22,
      "h": [
       "Tracy Narag",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Kathi Savage",
@@ -38826,7 +38826,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Bill Lam",
+      "William Lam",
       "Mark Garner"
      ],
      "a": [
@@ -38938,7 +38938,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Bill Lam",
+      "William Lam",
       "Tracy Waffenfeld"
      ],
      "a": [
@@ -38995,7 +38995,7 @@
      "as": 21,
      "h": [
       "Clare Cruz",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Teresa Carr",
@@ -39065,7 +39065,7 @@
      "as": 21,
      "h": [
       "Stanley Okpor",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Michael Barry",
@@ -68043,7 +68043,7 @@
      "as": 21,
      "h": [
       "Danielle Klein",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Patricia Cordts",
@@ -68127,7 +68127,7 @@
      "as": 21,
      "h": [
       "Aimee Kierney",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Marcia Rathjen",
@@ -68239,7 +68239,7 @@
      "as": 24,
      "h": [
       "Christine Ostapiak",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Qiuyan Kong",
@@ -68351,7 +68351,7 @@
      "as": 21,
      "h": [
       "Christine Ostapiak",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Marcia Rathjen",
@@ -80667,7 +80667,7 @@
      "as": 22,
      "h": [
       "Edward Goodman",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Vlad Feldman",
@@ -80709,7 +80709,7 @@
      "as": 19,
      "h": [
       "Clare Cruz",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Doreen Calcagno",
@@ -80793,7 +80793,7 @@
      "as": 18,
      "h": [
       "Edward Goodman",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Frank Marchiano",
@@ -80807,7 +80807,7 @@
      "as": 11,
      "h": [
       "Christine Ostapiak",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Jen Ritchie",
@@ -80890,7 +80890,7 @@
      "hs": 21,
      "as": 12,
      "h": [
-      "Bill Lam",
+      "William Lam",
       "Al Chen"
      ],
      "a": [
@@ -80933,7 +80933,7 @@
      "as": 20,
      "h": [
       "Tracy Narag",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "Eileen Clark",
@@ -81017,7 +81017,7 @@
      "as": 15,
      "h": [
       "Edward Goodman",
-      "Bill Lam"
+      "William Lam"
      ],
      "a": [
       "John Hans",
@@ -84363,7 +84363,7 @@
      ],
      "a": [
       "Lynn Quinn",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -84418,7 +84418,7 @@
       "Dajie （David） Yang"
      ],
      "a": [
-      "Bill Lam",
+      "William Lam",
       "Stanley Okpor"
      ]
     },
@@ -84475,7 +84475,7 @@
      ],
      "a": [
       "Lynn Quinn",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -84530,7 +84530,7 @@
       "Dajie （David） Yang"
      ],
      "a": [
-      "Bill Lam",
+      "William Lam",
       "Geoffrey Baird"
      ]
     },
@@ -84629,7 +84629,7 @@
      ],
      "a": [
       "Stanley Okpor",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -84740,7 +84740,7 @@
       "Cheng Wong"
      ],
      "a": [
-      "Bill Lam",
+      "William Lam",
       "Bill Gold"
      ]
     },
@@ -96044,7 +96044,7 @@
      ],
      "a": [
       "Geoffrey Baird",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -96156,7 +96156,7 @@
      ],
      "a": [
       "Andrew Craig",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -96212,7 +96212,7 @@
      ],
      "a": [
       "Lynn Quinn",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -96282,7 +96282,7 @@
      ],
      "a": [
       "Bill Gold",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -96324,7 +96324,7 @@
      ],
      "a": [
       "Lynn Quinn",
-      "Bill Lam"
+      "William Lam"
      ]
     },
     {
@@ -106296,7 +106296,6 @@
   "Jack Peng": "30527f36-bdaa-4a8b-ad77-c9864d5b94a9",
   "Lan Tang": "4364dfec-6df2-40ac-8391-66283100d98f",
   "Keith Fallon": "49a11c9c-4eed-430b-8c58-053c30246d45",
-  "Katie Chu": "4baadcb1-740c-45a3-acc9-20dff40053ee",
   "Theresa Crowther": "5d42dbc9-9c0e-4bf4-bf14-8a94414f08aa",
   "Matthew Colasanto": "5d997109-fb91-4c4c-b3f7-0a98b3d6786b",
   "Tim Donovan": "6366cf7a-d40d-430c-b9ed-488085aa68cb",
@@ -106310,6 +106309,7 @@
   "Stephen Littenberg": "8aa63b50-7f8f-4393-9ee8-8c5bac4e5e83",
   "Brian Chatburn": "92d013b9-8178-4a31-abed-8ba62f4540cb",
   "Emil Micha": "947e59a7-78ce-4190-8042-bfbce30bcd3b",
+  "Katie Chu": "977d9a70-fea3-46a9-9820-2e82170c4663",
   "Marilyn Geneveo": "b48c5b4e-a121-4adb-aaa2-0887729117a9",
   "Lenore David": "c5c674c6-e1c9-4f4b-96bf-873e84931042",
   "Stacey Cohen": "da4d615a-2d9f-4939-be52-1760fb37eb60",
@@ -106912,14 +106912,6 @@
    "outsideSub": true
   },
   {
-   "name": "Katie Chu",
-   "playerId": "4baadcb1-740c-45a3-acc9-20dff40053ee",
-   "gender": "Female",
-   "team": "Allstar Pickler",
-   "isCaptain": false,
-   "outsideSub": true
-  },
-  {
    "name": "Qiao Yang",
    "playerId": "4be24db4-ce32-40fa-bd9d-1900b731a602",
    "gender": "Female",
@@ -107484,6 +107476,14 @@
    "playerId": "977152d9-389c-4ac9-8b39-59308f2194ec",
    "gender": "Male",
    "team": "Forward",
+   "isCaptain": false,
+   "outsideSub": true
+  },
+  {
+   "name": "Katie Chu",
+   "playerId": "977d9a70-fea3-46a9-9820-2e82170c4663",
+   "gender": "Female",
+   "team": "Allstar Pickler",
    "isCaptain": false,
    "outsideSub": true
   },
@@ -108463,7 +108463,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-16T18:42:51.911Z";
+  DATA.meta.asOf = "2026-11-18T13:32:50.429Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

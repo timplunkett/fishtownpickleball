@@ -103096,7 +103096,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 6,
     "synergy": -0.1
    },
@@ -109129,7 +109129,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 8,
     "synergy": -1.6
    }
@@ -125446,7 +125446,7 @@
   "partners": [
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 17,
     "synergy": 2.5
    },
@@ -141001,7 +141001,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 3,
     "synergy": -0.4
    },
@@ -144918,7 +144918,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 5,
     "synergy": -0.5
    },
@@ -172965,7 +172965,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 6,
     "synergy": -0.8
    },
@@ -173802,7 +173802,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 7,
     "synergy": 1
    },
@@ -180743,7 +180743,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 8,
     "synergy": -0.1
    },
@@ -189173,7 +189173,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 4,
     "synergy": -0.3
    },
@@ -200750,7 +200750,7 @@
    },
    {
     "pid": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
-    "name": "Brittni Veyna",
+    "name": "Brittni Jo",
     "n": 4,
     "synergy": -0.2
    },

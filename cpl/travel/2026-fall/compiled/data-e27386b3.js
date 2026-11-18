@@ -1249,7 +1249,7 @@
    "playerId": "cf86f914-08ca-4df6-9cdb-74a23afc2478"
   },
   {
-   "name": "Brittni Veyna",
+   "name": "Brittni Jo",
    "gender": "Female",
    "team": "Players Courtyard",
    "matches": 0,
@@ -32297,7 +32297,7 @@
       "Peter Lien"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "John Waggoner"
      ]
     },
@@ -32354,7 +32354,7 @@
      ],
      "a": [
       "Sophie O’Driscoll",
-      "Brittni Veyna"
+      "Brittni Jo"
      ]
     },
     {
@@ -32409,7 +32409,7 @@
       "Timothy Lowry"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "Josh Ruble"
      ]
     },
@@ -32465,7 +32465,7 @@
       "Briane Cornish"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "Rebecca Woofter"
      ]
     },
@@ -32549,7 +32549,7 @@
       "Tuan Nguyen"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "Robert Courchain"
      ]
     },
@@ -32577,7 +32577,7 @@
       "Megan Quigley"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "Jackie Bowes"
      ]
     },
@@ -32633,7 +32633,7 @@
       "Jason Nguyen"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "Josh Ruble"
      ]
     },
@@ -32689,7 +32689,7 @@
       "Megan Quigley"
      ],
      "a": [
-      "Brittni Veyna",
+      "Brittni Jo",
       "Jackie Bowes"
      ]
     },
@@ -32737,7 +32737,7 @@
     }
    ],
    "subs": [
-    "Brittni Veyna"
+    "Brittni Jo"
    ]
   },
   {
@@ -95429,7 +95429,398 @@
    "subs": []
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Lehigh Valley",
+   "away": "APC Garden State",
+   "time": "2026-11-23T19:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Flemington",
+   "away": "Home Court",
+   "time": "2026-11-23T19:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Bounce Tempest",
+   "away": "ACE Downingtown",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "PickleRage Union County Net Ninjas",
+   "away": "Pickleball HQ",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Tinton Falls",
+   "away": "Pickleball Kingdom Hillsborough",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2,
+   "games": [
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene De Lara",
+      "Rob Stever"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hee Kim",
+      "Jonathan Nieves"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suki Wong",
+      "Ryan Peixoto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sultane Cosaj",
+      "Srinath Katari"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene De Lara",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suki Wong",
+      "Hee Kim"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene De Lara",
+      "Rob Stever"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Nigro",
+      "Jonathan Nieves"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hee Kim",
+      "Ryan Peixoto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sultane Cosaj",
+      "Reuben Zilber"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Nigro",
+      "Suki Wong"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hee Kim",
+      "Charlene De Lara"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hee Kim",
+      "Ryan Peixoto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suki Wong",
+      "Jonathan Nieves"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Nigro",
+      "Rob Stever"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sultane Cosaj",
+      ""
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Hee Kim",
+      "Charlene De Lara"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suki Wong",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Reuben Zilber",
+      "Jonathan Nieves"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Stever",
+      "Ryan Peixoto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene De Lara",
+      "Jonathan Nieves"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suki Wong",
+      "Ryan Peixoto"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nikki Nigro",
+      "Rob Stever"
+     ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sultane Cosaj",
+      "Srinath Katari"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Charlene De Lara",
+      "Nikki Nigro"
+     ]
+    },
+    {
+     "t": "female",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Suki Wong",
+      "Hee Kim"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Peixoto",
+      "Srinath Katari"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jonathan Nieves",
+      "Rob Stever"
+     ]
+    }
+   ]
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Players Courtyard",
+   "away": "Pickleball Kingdom Hamilton",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Bounce Philly",
+   "away": "Picklr Newark",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Palace",
+   "away": "Monroe",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  }
+ ],
  "extraPlayerIds": {
   "Kathi Sheehan": "074e66af-6079-4c8e-aa69-e01f488ba5b0",
   "Jana Bradley": "076a6405-8447-43b9-b8cf-1db5d857979c",
@@ -96007,7 +96398,7 @@
    "outsideSub": true
   },
   {
-   "name": "Brittni Veyna",
+   "name": "Brittni Jo",
    "playerId": "bf60680b-003f-4083-b6ce-25bf3a7cd964",
    "gender": "Female",
    "team": "Players Courtyard",
@@ -96354,7 +96745,7 @@
    }
   ],
   "divisionSlug": "e27386b3",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Mondays",
   "detailFile": "compiled/detail-e27386b3.js",
   "clubName": "",
@@ -96447,7 +96838,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-17T15:13:45.875Z";
+  DATA.meta.asOf = "2026-11-18T13:31:54.742Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
