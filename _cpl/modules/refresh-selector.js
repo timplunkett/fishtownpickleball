@@ -97,6 +97,19 @@ function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 }
 
+// Every matchup the due check has to consider for one division: the regular
+// season's matchups.json plus the playoff bracket's playoffMatchups.json. The
+// fetcher writes playoffs to their own file, so reading only matchups.json
+// made every division look finished ("no incomplete scheduled matches") the
+// moment its regular season ended, and due mode never picked up a playoff
+// lineup or result.
+function readDivisionMatchups(divDataDir) {
+  return [
+    ...extractValues(readJson(path.join(divDataDir, 'matchups.json'))),
+    ...extractValues(readJson(path.join(divDataDir, 'playoffMatchups.json'))),
+  ];
+}
+
 function summarizeDivisionSchedule(matchups, nowUtc, options) {
   const resultsWindowMs = options.resultsWindowHours * 60 * 60 * 1000;
   const matchDurationMs = options.matchDurationHours * 60 * 60 * 1000;
@@ -196,8 +209,7 @@ function selectDueDivisionSlugs(league, options) {
   const rows = [];
 
   for (const div of divisions) {
-    const matchupsPath = path.join(dataDir, div.slug, 'matchups.json');
-    const matchups = extractValues(readJson(matchupsPath));
+    const matchups = readDivisionMatchups(path.join(dataDir, div.slug));
     const schedule = summarizeDivisionSchedule(matchups, nowUtc, options);
     if (schedule.eligible) selected.push(div.slug);
     rows.push({
@@ -233,6 +245,7 @@ module.exports = {
   DEFAULT_HOME_LINEUP_DAYS_BEFORE,
   lineupDueUtc,
   parseScheduledTime,
+  readDivisionMatchups,
   selectDueDivisionSlugs,
   summarizeDivisionSchedule,
 };

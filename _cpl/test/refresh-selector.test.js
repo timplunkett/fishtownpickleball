@@ -1,9 +1,13 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
 const {
   parseScheduledTime,
   summarizeDivisionSchedule,
   lineupDueUtc,
+  readDivisionMatchups,
   DEFAULT_TIMEZONE,
   DEFAULT_RESULTS_WINDOW_HOURS,
   DEFAULT_MATCH_DURATION_HOURS,
@@ -107,4 +111,56 @@ test('primary weekday is the modal scheduled day', () => {
   ];
   const summary = summarizeDivisionSchedule(matchups, nowUtc, OPTIONS);
   assert.equal(summary.primaryWeekday, 'Mon');
+});
+
+// Synthetic division cache: a finished regular season plus one upcoming
+// playoff match, the shape every division is in during playoff week.
+function writeDivisionCache({ regular, playoffs }) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'refresh-selector-'));
+  fs.writeFileSync(path.join(dir, 'matchups.json'), JSON.stringify({ $values: regular }));
+  if (playoffs) fs.writeFileSync(path.join(dir, 'playoffMatchups.json'), JSON.stringify({ $values: playoffs }));
+  return dir;
+}
+
+test('readDivisionMatchups includes playoff matchups alongside the regular season', (t) => {
+  const dir = writeDivisionCache({
+    regular: [{ matchupId: 'r1', scheduledTime: '2026-08-17T19:00', endResult: 'home' }],
+    playoffs: [{ matchupId: 'p1', scheduledTime: '2026-08-24T19:00', endResult: null, playoffGame: 1 }],
+  });
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  assert.deepEqual(readDivisionMatchups(dir).map((m) => m.matchupId), ['r1', 'p1']);
+});
+
+test('readDivisionMatchups tolerates a division with no playoff file', (t) => {
+  const dir = writeDivisionCache({
+    regular: [{ matchupId: 'r1', scheduledTime: '2026-08-17T19:00', endResult: 'home' }],
+  });
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  assert.deepEqual(readDivisionMatchups(dir).map((m) => m.matchupId), ['r1']);
+});
+
+test('a finished regular season with a playoff lineup due is selected', (t) => {
+  // Regular season all complete; playoff match Mon 2026-08-24 19:00 ET, away
+  // lineup due Sat 2026-08-22 20:00 ET. Sunday noon is past that deadline.
+  const dir = writeDivisionCache({
+    regular: [{ scheduledTime: '2026-08-17T19:00', endResult: 'home' }],
+    playoffs: [{ scheduledTime: '2026-08-24T19:00', endResult: null, playoffGame: 1 }],
+  });
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  const nowUtc = new Date('2026-08-23T16:00:00Z');
+  const summary = summarizeDivisionSchedule(readDivisionMatchups(dir), nowUtc, OPTIONS);
+  assert.equal(summary.eligible, true);
+  assert.match(summary.reason, /pending match lineup/);
+});
+
+test('a playoff match awaiting its result is selected', (t) => {
+  const dir = writeDivisionCache({
+    regular: [{ scheduledTime: '2026-08-17T19:00', endResult: 'home' }],
+    playoffs: [{ scheduledTime: '2026-08-24T19:00', endResult: null, playoffGame: 1 }],
+  });
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  const nowUtc = new Date('2026-08-25T02:00:00Z'); // ~1h after the match ended
+  const summary = summarizeDivisionSchedule(readDivisionMatchups(dir), nowUtc, OPTIONS);
+  assert.equal(summary.eligible, true);
+  assert.match(summary.reason, /post-match window/);
 });
