@@ -5,6 +5,7 @@
 // doesn't depend on which week the live data has reached.
 const test = require('node:test');
 const assert = require('node:assert/strict');
+const vm = require('node:vm');
 
 const { playedDivisions } = require('./helpers/compiled');
 const { loadApp } = require('./helpers/app-harness');
@@ -58,6 +59,13 @@ function openLab(context, teamName) {
   context.location.search = `?lineup=1&team=${slug}`;
   context.location.href = `http://x/cpl/travel/?lineup=1&team=${slug}`;
   context.handleRoute();
+}
+
+const labState = (context) => vm.runInContext('lineupLabState', context);
+
+function clickMode(context, mode) {
+  const button = { dataset: { lineupMode: mode }, disabled: false };
+  context.handleLineupLabClick({ button: 0, target: { closest: (selector) => (selector === '[data-lineup-mode]' ? button : null) } });
 }
 
 const selectedMatchup = (html) => Number(/<option value="(\d+)" selected>/.exec(html.split('id="lineup-matchup"')[1])[1]);
@@ -190,4 +198,86 @@ test('a team page heads its playoff matches with the round, not a week', () => {
     assert.ok(block, `${team}: no playoff block on the team page`);
     assert.equal(block[1], 'Semifinals', `${team}: heading`);
   }
+});
+
+// Captains may enter a playoff's tiebreak pairs any time before the match, so
+// an opponent with every regular game in and its tiebreak round still open
+// mustn't hold up "Best chance to win". Both ways the round can be open: the
+// match's games stop short of it (the lab appends it, blank, from the bracket),
+// or it's there with nobody in it.
+const TIEBREAK_GAMES = 3;
+function withOpenTiebreak([a, b, c, d], { roundListed, regularOpen = false }) {
+  return (DATA) => {
+    for (const match of DATA.matches) match.complete = true;
+    const last = DATA.matches.filter((match) => match.games?.length && (match.home === b || match.away === b)).pop();
+    const side = last.home === b ? 'h' : 'a';
+    const regular = last.games.filter((game) => !game.tb)
+      .map((game, index) => ({ t: game.t, h: ['', ''], a: regularOpen && index === 0 ? ['', ''] : [...game[side]] }));
+    const round = regular.slice(0, TIEBREAK_GAMES).map((game) => ({ t: game.t, tb: true }));
+    DATA.meta.hasPlayoffs = true;
+    DATA.playoffs = [
+      {
+        result: null, round: 1, home: a, away: b, complete: false, homeSeed: 1, awaySeed: 4,
+        games: [...regular, ...(roundListed ? round.map((game) => ({ ...game, h: ['', ''], a: ['', ''] })) : [])],
+      },
+      // The bracket's tiebreak format, for the lab to borrow.
+      {
+        result: null, round: 1, home: c, away: d, complete: false, homeSeed: 2, awaySeed: 3,
+        games: [...regular, ...round].map((game) => ({ ...game, h: ['', ''], a: ['', ''] })),
+      },
+    ];
+  };
+}
+
+function openTiebreakLab(teams, options) {
+  const { context, document } = loadApp(found.file, { mutate: withOpenTiebreak(teams, options) });
+  openLab(context, teams[0]);
+  const games = labState(context).games;
+  const tiebreak = games.map((game) => Boolean(game.tb));
+  assert.equal(tiebreak.filter(Boolean).length, TIEBREAK_GAMES, 'the lab has the tiebreak round');
+  assert.ok(games.every((game, index) => !tiebreak[index] || game.b.every((name) => !name)), 'their tiebreak round is open');
+  return { context, document, games, tiebreak };
+}
+
+test('an opponent\'s open tiebreak round doesn\'t block "Best chance to win"', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
+  for (const roundListed of [false, true]) {
+    const label = roundListed ? 'listed but blank' : 'not listed';
+    const { context, document, games, tiebreak } = openTiebreakLab(found.teams, { roundListed });
+    assert.ok(games.every((game, index) => tiebreak[index] || game.b.every(Boolean)), `${label}: every regular game is in`);
+
+    const auto = context.lineupAutoResults();
+    assert.equal(auto.error, undefined, `${label}: ${auto.error}`);
+    const best = auto.results.best;
+    assert.equal(best.error, undefined, `${label}: ${best.error}`);
+    assert.equal(typeof best.chance, 'number', `${label}: the suggestion has a chance to win`);
+
+    // Planned against their likely tiebreak round, their entered games as they are.
+    const fill = context.lineupOpponentTiebreakFill();
+    assert.ok(fill?.samples.length > 1, `${label}: the open round is filled from their likely lineups`);
+    for (const sample of fill.samples) {
+      sample.forEach((pair, index) => {
+        if (tiebreak[index]) assert.ok(pair.every(Boolean), `${label}: simulated tiebreak game ${index + 1} is filled`);
+        else assert.deepEqual([...pair], [...games[index].b], `${label}: entered game ${index + 1} is kept`);
+      });
+    }
+
+    const view = document.getElementById('lineupview');
+    context.renderLineupLab();
+    assert.doesNotMatch(view.innerHTML, /data-lineup-mode="best" disabled/, `${label}: the mode is offered`);
+    assert.match(view.innerHTML, /hasn't entered its tiebreak pairs yet/);
+    clickMode(context, 'best');
+    assert.match(view.innerHTML, /aria-checked="true" data-lineup-mode="best"/, `${label}: the mode stays selected`);
+    assert.ok(labState(context).games.every((game) => game.a.every(Boolean)), `${label}: Team A's side is filled, tiebreak round too`);
+    assert.match(view.innerHTML, /% to win the match \(tiebreak vs \d+ likely rounds\)/);
+  }
+});
+
+test('an open regular game still waits for the opponent, tiebreak round or not', () => {
+  assert.ok(found, 'no archived division has four teams with a finished match to graft a bracket onto');
+  const { context } = openTiebreakLab(found.teams, { roundListed: false, regularOpen: true });
+  const auto = context.lineupAutoResults();
+  assert.ok(auto.waiting, 'reports it is waiting on the opponent');
+  assert.match(auto.error, /\(1 of \d+ games still open\)/, 'counts only the regular games');
+  assert.equal(context.lineupOpponentTiebreakFill(), null);
 });

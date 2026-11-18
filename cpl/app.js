@@ -4244,6 +4244,10 @@ function lineupOpponentSpec(mode) {
 const lineupOppCache = new Map();
 function lineupOpponentSamples(mode = lineupLabState.oppMode) {
   if (mode === 'manual' || !lineupOpponentSimulatable()) return null;
+  return lineupOpponentSimulations(mode);
+}
+
+function lineupOpponentSimulations(mode) {
   const spec = lineupOpponentSpec(mode);
   const key = JSON.stringify([
     lineupLabState.teamA, lineupLabState.matchupIndex, mode,
@@ -4265,6 +4269,36 @@ function lineupOpponentSamples(mode = lineupLabState.oppMode) {
     lineupOppCache.set(key, value);
   }
   return value;
+}
+
+// Entering a playoff tiebreak round before the match is optional, so an
+// opponent whose regular games are all in but whose tiebreak pairs aren't
+// doesn't hold up "Best chance to win". While their side is as entered, its
+// open tiebreak games are planned against the tiebreak round of their likely
+// lineups (LINEUP_OPP_SAMPLES of them, as when simulating the whole side),
+// every entered game as it is. { samples, key, tiebreak: true }, or null when
+// no tiebreak game is open, a regular game still is, or no likely lineup fits
+// their roster — then an open tiebreak game is a coin flip.
+function lineupOpponentTiebreakFill() {
+  if (lineupLabState.oppMode !== 'manual') return null;
+  const { games } = lineupLabState;
+  const open = games.map((game) => !isPairPosted(game.b));
+  if (!open.some(Boolean) || games.some((game, index) => open[index] && !isTiebreakGame(game))) return null;
+  const likely = lineupOpponentSimulations('likely');
+  if (likely.error) return null;
+  const entered = games.map((game) => game.b);
+  return {
+    key: JSON.stringify([likely.key, entered]),
+    samples: likely.samples.map((pairs) => pairs.map((pair, index) => (open[index] ? pair : entered[index]))),
+    tiebreak: true,
+  };
+}
+
+// The opponent lineups Team A plans against: the simulated ones while the
+// opponent is simulated, the entered side with its open tiebreak round filled
+// (lineupOpponentTiebreakFill), or null — plan against the grid as it is.
+function lineupOpponentPlan() {
+  return lineupOpponentSamples() || lineupOpponentTiebreakFill();
 }
 
 // Keeps Team B's side in step with the selected opponent mode, the way
@@ -4313,13 +4347,16 @@ function resetLineupOppMode() {
 function lineupAutoSpec(flex = lineupLabState.flex) {
   const { games, teamA, teamB } = lineupLabState;
   if (!games.length) return { error: 'This matchup has no games to fill.' };
-  const opp = lineupOpponentSamples();
+  const opp = lineupOpponentPlan();
   if (opp?.error) return { error: `Can't simulate ${teamB}'s lineup: ${opp.error}` };
-  const missing = games.filter((game) => !isPairPosted(game.b)).length;
+  // Only the regular games: an open tiebreak round is planned against their
+  // likely one (lineupOpponentTiebreakFill).
+  const regular = games.filter((game) => !isTiebreakGame(game));
+  const missing = regular.filter((game) => !isPairPosted(game.b)).length;
   if (missing) {
     const simulate = lineupOpponentSimulatable() ? ` — or simulate ${teamB || 'the opponent'}'s lineup above` : '';
     return {
-      error: `Waiting on ${teamB || 'the opponent'}'s full lineup (${missing} of ${games.length} ${pluralize(games.length, 'game', 'games')} still open). Auto modes are for the team setting its lineup second${simulate}.`,
+      error: `Waiting on ${teamB || 'the opponent'}'s full lineup (${missing} of ${regular.length} ${pluralize(regular.length, 'game', 'games')} still open). Auto modes are for the team setting its lineup second${simulate}.`,
       waiting: true,
     };
   }
@@ -4369,7 +4406,7 @@ function lineupAutoResultAt(spec, flex) {
     lineupLabState.teamA, lineupLabState.matchupIndex, flex,
     spec.players.map((player) => player.name),
     // A simulated opponent: the samples, not whichever one the grid shows.
-    lineupOpponentSamples()?.key || lineupLabState.games.map((game) => [game.type, game.b]),
+    lineupOpponentPlan()?.key || lineupLabState.games.map((game) => [game.type, game.b]),
   ]);
   let result = lineupAutoCache.get(key);
   if (!result) {
@@ -4397,12 +4434,14 @@ function lineupResultTally(result) {
 // Chance Team A wins the match with `pairs` (one per game) against the
 // opponent's side of the grid, on the same expected margins the projection
 // column shows (ratings, DUPR stand-ins and chemistry). A game with a rating
-// missing counts as a coin flip. Null while any slot on either side is open,
-// or a pair repeats a player — there's no match to call yet. While the
-// opponent is simulated, it's the average over every simulated lineup, not
-// only the one on screen (see lineupOpponentSamples).
+// missing counts as a coin flip, and so does a tiebreak game with a slot open:
+// entering that round ahead of the match is optional. Null while any regular
+// slot on either side is open, or a pair repeats a player — there's no match
+// to call yet. While the opponent is simulated, or its open tiebreak round is
+// filled in, it's the average over every such lineup, not only the one on
+// screen (see lineupOpponentPlan).
 function lineupLineupChance(pairs) {
-  const opp = lineupOpponentSamples();
+  const opp = lineupOpponentPlan();
   if (opp?.samples) {
     const chances = opp.samples.map((sample) => lineupChanceAgainst(pairs, sample));
     if (chances.some((chance) => chance == null)) return null;
@@ -4416,6 +4455,10 @@ function lineupChanceAgainst(pairs, opponentPairs) {
   for (let index = 0; index < lineupLabState.games.length; index++) {
     const ours = pairs[index] || [];
     const theirs = opponentPairs[index] || [];
+    if (isTiebreakGame(lineupLabState.games[index]) && (!isPairPosted(ours) || !isPairPosted(theirs))) {
+      chances.push(0.5);
+      continue;
+    }
     if (!isPairPosted(ours) || !isPairPosted(theirs) || ours[0] === ours[1] || theirs[0] === theirs[1]) return null;
     chances.push(lineupGameWinChance(
       computeExpectedOutcome(ours[0], ours[1], theirs[0], theirs[1], { useSynergy: true }).margin,
@@ -4505,12 +4548,16 @@ function lineupChanceText(chance) {
 function renderLineupChance(chance) {
   const text = lineupChanceText(chance);
   if (!text) return '';
-  const opp = lineupOpponentSamples();
+  const opp = lineupOpponentPlan();
   const count = opp?.samples?.length || 0;
-  const over = count > 1 ? ` vs ${count} ${lineupLabState.oppMode} lineups` : count ? ` vs their ${lineupLabState.oppMode} lineup` : '';
-  const title = count > 1
+  let over = count > 1 ? ` vs ${count} ${lineupLabState.oppMode} lineups` : count ? ` vs their ${lineupLabState.oppMode} lineup` : '';
+  let title = count > 1
     ? "Average chance of winning the match across every simulated opponent lineup, from each game's projected margin"
     : "Chance of winning the match, from each game's projected margin";
+  if (opp?.tiebreak) {
+    over = ` (tiebreak vs ${count} likely ${pluralize(count, 'round', 'rounds')})`;
+    title = "Chance of winning the match, from each game's projected margin; the opponent's tiebreak pairs aren't entered, so that round is averaged over their likely ones";
+  }
   return `<span class="lineup-mode-lean ${text.className}" title="${title}">${text.label} to win the match${escapeHtml(over)}</span>`;
 }
 
@@ -4617,8 +4664,21 @@ function renderLineupStrategy(auto, manualTally, manualChance) {
       ${autoCards}
     </div>
     ${playTime}
-    ${disabled ? `<p class="lineup-strategy-note">${escapeHtml(auto.error)}</p>` : ''}
+    ${disabled ? `<p class="lineup-strategy-note">${escapeHtml(auto.error)}</p>` : renderLineupTiebreakNote()}
   </section>`;
+}
+
+// Says how an opponent tiebreak round that isn't entered yet is planned for
+// (see lineupOpponentTiebreakFill), so the suggestion doesn't look as though
+// it knows their pairs.
+function renderLineupTiebreakNote() {
+  const { games, teamB, oppMode } = lineupLabState;
+  if (oppMode !== 'manual' || !games.some((game) => isTiebreakGame(game) && !isPairPosted(game.b))) return '';
+  const fill = lineupOpponentTiebreakFill();
+  const how = fill
+    ? `"Best chance to win" plans that round against ${fill.samples.length} ${pluralize(fill.samples.length, 'lineup', 'lineups')} they might field.`
+    : 'Until they do, each of its games counts as a coin flip.';
+  return `<p class="lineup-strategy-note">${escapeHtml(teamB || 'The opponent')} hasn't entered its tiebreak pairs yet (that's optional before the match). ${how}</p>`;
 }
 
 // The opponent's half of the strategy picker, shown only while their side is
