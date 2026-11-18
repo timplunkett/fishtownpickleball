@@ -51775,8 +51775,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Suzi Battison",
@@ -51786,8 +51786,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "James Cannizzaro"
      ],
      "a": [
       "Melissa Dardani",
@@ -51797,8 +51797,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Camrin Cronheim"
      ],
      "a": [
       "Kelly Arvidson",
@@ -51808,8 +51808,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Chris Long"
      ],
      "a": [
       "Aimee Castellano",
@@ -51819,8 +51819,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Anisha Malhotra"
      ],
      "a": [
       "Suzi Battison",
@@ -51830,8 +51830,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Amy Yan"
      ],
      "a": [
       "Kelly Arvidson",
@@ -51841,8 +51841,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Sidd Pathare"
      ],
      "a": [
       "Ross Switkes",
@@ -51852,8 +51852,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Jason Makarevic"
      ],
      "a": [
       "Robbie Oddy",
@@ -51863,8 +51863,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Suzi Battison",
@@ -51874,8 +51874,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Melissa Dardani",
@@ -51885,8 +51885,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Jason Makarevic"
      ],
      "a": [
       "Kelly Arvidson",
@@ -51896,8 +51896,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Chris Long"
      ],
      "a": [
       "Aimee Castellano",
@@ -51907,8 +51907,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Anisha Malhotra"
      ],
      "a": [
       "Suzi Battison",
@@ -51918,8 +51918,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Amy Yan"
      ],
      "a": [
       "Kelly Arvidson",
@@ -51929,8 +51929,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "Jason Makarevic"
      ],
      "a": [
       "Ross Switkes",
@@ -51940,8 +51940,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Cannizzaro",
+      "Sidd Pathare"
      ],
      "a": [
       "Patrick Ryan",
@@ -51951,8 +51951,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Chris Long"
      ],
      "a": [
       "Suzi Battison",
@@ -51962,8 +51962,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Camrin Cronheim"
      ],
      "a": [
       "Melissa Dardani",
@@ -51973,8 +51973,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "James Cannizzaro"
      ],
      "a": [
       "Kelly Arvidson",
@@ -51984,8 +51984,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Aimee Castellano",
@@ -51995,8 +51995,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Amy Yan"
      ],
      "a": [
       "Suzi Battison",
@@ -52006,8 +52006,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Ally Yan"
      ],
      "a": [
       "Melissa Dardani",
@@ -52017,8 +52017,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Jason Makarevic"
      ],
      "a": [
       "Ross Switkes",
@@ -52028,8 +52028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "James Cannizzaro"
      ],
      "a": [
       "Robbie Oddy",
@@ -52039,8 +52039,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "James Cannizzaro"
      ],
      "a": [
       "Suzi Battison",
@@ -52050,8 +52050,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amy Yan",
+      "Sidd Pathare"
      ],
      "a": [
       "Melissa Dardani",
@@ -52061,8 +52061,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Camrin Cronheim"
      ],
      "a": [
       "Kelly Arvidson",
@@ -52072,8 +52072,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ally Yan",
+      "Jason Makarevic"
      ],
      "a": [
       "Aimee Castellano",
@@ -52083,8 +52083,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anisha Malhotra",
+      "Amy Yan"
      ],
      "a": [
       "Suzi Battison",
@@ -52094,8 +52094,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gissel Escalante",
+      "Ally Yan"
      ],
      "a": [
       "Melissa Dardani",
@@ -52105,8 +52105,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Long",
+      "James Cannizzaro"
      ],
      "a": [
       "Robbie Oddy",
@@ -52116,8 +52116,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Camrin Cronheim",
+      "Sidd Pathare"
      ],
      "a": [
       "Ross Switkes",
@@ -52139,8 +52139,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Lou Frignito"
      ],
      "a": [
       "Rachel Alfano",
@@ -52150,8 +52150,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Vince Ha"
      ],
      "a": [
       "Alex Abad",
@@ -52161,8 +52161,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Chris Tabeling"
      ],
      "a": [
       "Elysia Price",
@@ -52172,8 +52172,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Charlotte Healey",
@@ -52183,8 +52183,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Sarah Kline"
      ],
      "a": [
       "Alyssa Boyle",
@@ -52194,8 +52194,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Teresa Wang"
      ],
      "a": [
       "Charlotte Healey",
@@ -52205,8 +52205,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Vince Ha"
      ],
      "a": [
       "William Hayes",
@@ -52216,8 +52216,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "Zachary Lessner",
@@ -52227,8 +52227,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Chris Tabeling"
      ],
      "a": [
       "Rachel Alfano",
@@ -52238,8 +52238,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Lou Frignito"
      ],
      "a": [
       "Alyssa Boyle",
@@ -52249,8 +52249,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Nick Meale"
      ],
      "a": [
       "Elysia Price",
@@ -52260,8 +52260,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Vince Ha"
      ],
      "a": [
       "Charlotte Healey",
@@ -52271,8 +52271,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Teresa Wang"
      ],
      "a": [
       "Alyssa Boyle",
@@ -52282,8 +52282,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Sarah Kline"
      ],
      "a": [
       "Alex Abad",
@@ -52293,8 +52293,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Meale",
+      "Chris Tabeling"
      ],
      "a": [
       "William Hayes",
@@ -52304,8 +52304,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Vince Ha"
      ],
      "a": [
       "Bruno Casino",
@@ -52315,8 +52315,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Vince Ha"
      ],
      "a": [
       "Alyssa Boyle",
@@ -52326,8 +52326,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Nick Meale"
      ],
      "a": [
       "Charlotte Healey",
@@ -52337,8 +52337,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Chris Tabeling"
      ],
      "a": [
       "Alex Abad",
@@ -52348,8 +52348,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Lou Frignito"
      ],
      "a": [
       "Elysia Price",
@@ -52359,8 +52359,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Scotland Reynolds"
      ],
      "a": [
       "Alyssa Boyle",
@@ -52370,8 +52370,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Sarah Kline"
      ],
      "a": [
       "Rachel Alfano",
@@ -52381,8 +52381,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Nick Meale"
      ],
      "a": [
       "Bruno Casino",
@@ -52392,8 +52392,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Tabeling",
+      "Vince Ha"
      ],
      "a": [
       "Alexander Tong",
@@ -52403,8 +52403,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Kline",
+      "Nick Meale"
      ],
      "a": [
       "Charlotte Healey",
@@ -52414,8 +52414,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Lou Frignito"
      ],
      "a": [
       "Alyssa Boyle",
@@ -52425,8 +52425,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Scotland Reynolds",
+      "Chris Tabeling"
      ],
      "a": [
       "Rachel Alfano",
@@ -52436,8 +52436,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Vince Ha"
      ],
      "a": [
       "Elysia Price",
@@ -52447,8 +52447,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yuki Kim",
+      "Sarah Kline"
      ],
      "a": [
       "Elysia Price",
@@ -52458,8 +52458,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Teresa Wang",
+      "Scotland Reynolds"
      ],
      "a": [
       "Alex Abad",
@@ -52469,8 +52469,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Nick Meale"
      ],
      "a": [
       "Bruno Casino",
@@ -52480,8 +52480,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Tabeling",
+      "Vince Ha"
      ],
      "a": [
       "Alexander Tong",
@@ -52767,8 +52767,8 @@
     {
      "t": "mixed",
      "h": [
-      "Hannah Nussbaum",
-      "Conor Landrigan"
+      "Allison Tarnoff",
+      "Andrew Wakefield"
      ],
      "a": [
       "Krysti Maronski-Neufeldt",
@@ -52778,8 +52778,8 @@
     {
      "t": "mixed",
      "h": [
-      "Allison Tarnoff",
-      "Andrew Wakefield"
+      "Hannah Nussbaum",
+      "Conor Landrigan"
      ],
      "a": [
       "Anita Buggins",
@@ -54059,7 +54059,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-17T15:14:08.373Z";
+  DATA.meta.asOf = "2026-11-18T00:15:21.323Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -51094,7 +51094,48 @@
    "subs": []
   }
  ],
- "playoffs": [],
+ "playoffs": [
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Hillsborough",
+   "away": "Dill Dinkers Freehold",
+   "time": "2026-11-23T19:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickleball Kingdom Watchung",
+   "away": "Premiere",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Bounce Malvern",
+   "away": "Jersey Devil",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 1,
+   "home": "Pickle House",
+   "away": "Bounce Tempest",
+   "time": "2026-11-23T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  }
+ ],
  "extraPlayerIds": {
   "Jim Darcangelo": "0530512b-466d-4ff7-9e89-7961b4a63110",
   "Jonah Fliegelman": "1070bcd5-fdff-4adc-8d03-460a208fe4e8",
@@ -51882,7 +51923,7 @@
    }
   ],
   "divisionSlug": "cca69ab9",
-  "hasPlayoffs": false,
+  "hasPlayoffs": true,
   "typicalDay": "Mondays",
   "detailFile": "compiled/detail-cca69ab9.js",
   "clubName": "",
@@ -51949,7 +51990,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-17T15:15:19.285Z";
+  DATA.meta.asOf = "2026-11-18T00:16:20.472Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;

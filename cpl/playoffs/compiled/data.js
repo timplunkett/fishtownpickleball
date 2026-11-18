@@ -111,7 +111,7 @@ window.CPL_PLAYOFFS = {
    "slug": "6619816f",
    "division": "4.5",
    "teams": 12,
-   "asOf": "2026-11-17T15:14:08.373Z",
+   "asOf": "2026-11-18T00:15:21.323Z",
    "stage": "playoffs",
    "current": "Quarterfinals",
    "regular": {"played":77,"total":78,"times":["2026-11-04T19:30:00"]},
@@ -165,10 +165,15 @@ window.CPL_PLAYOFFS = {
    "slug": "cca69ab9",
    "division": "4.5 Mens",
    "teams": 13,
-   "asOf": "2026-11-17T15:15:19.285Z",
-   "stage": "regular",
+   "asOf": "2026-11-18T00:16:20.472Z",
+   "stage": "playoffs",
+   "current": "Quarterfinals",
    "regular": {"played":76,"total":78,"times":["2026-10-24T09:00:00","2026-11-16T19:30:00"]},
-   "leaders": [{"label":"North","teams":[{"name":"Pickleball Kingdom Hillsborough","w":10,"l":2,"pw":10,"pl":2},{"name":"Pickleball Kingdom Watchung","w":10,"l":2,"pw":10,"pl":2},{"name":"Premiere","w":8,"l":4,"pw":8,"pl":4},{"name":"Dill Dinkers Freehold","w":7,"l":5,"pw":7,"pl":5}]},{"label":"Southeast","teams":[{"name":"Pickle House","w":8,"l":3,"pw":5,"pl":0},{"name":"Jersey Devil","w":5,"l":7,"pw":2,"pl":4},{"name":"ACE Moorestown","w":1,"l":10,"pw":1,"pl":4}]},{"label":"Southwest","teams":[{"name":"Bounce Malvern","w":10,"l":2,"pw":5,"pl":1},{"name":"Bounce Tempest","w":7,"l":5,"pw":3,"pl":3},{"name":"Picklr Newtown","w":4,"l":8,"pw":1,"pl":5}]}]
+   "alive": 8,
+   "field": [{"name":"Bounce Malvern","seed":1,"w":10,"l":2,"pod":"Southwest","status":"alive"},{"name":"Pickleball Kingdom Hillsborough","seed":1,"w":10,"l":2,"pod":"North","status":"alive"},{"name":"Pickleball Kingdom Watchung","seed":2,"w":10,"l":2,"pod":"North","status":"alive"},{"name":"Pickle House","seed":1,"w":8,"l":3,"pod":"Southeast","status":"alive"},{"name":"Premiere","seed":3,"w":8,"l":4,"pod":"North","status":"alive"},{"name":"Dill Dinkers Freehold","seed":4,"w":7,"l":5,"pod":"North","status":"alive"},{"name":"Bounce Tempest","seed":2,"w":7,"l":5,"pod":"Southwest","status":"alive"},{"name":"Jersey Devil","seed":2,"w":5,"l":7,"pod":"Southeast","status":"alive"}],
+   "rounds": [{"label":"Quarterfinals","slots":[{"home":"Pickleball Kingdom Hillsborough","away":"Dill Dinkers Freehold","homeSeed":1,"awaySeed":4,"time":"2026-11-23T19:00:00"},{"home":"Pickleball Kingdom Watchung","away":"Premiere","homeSeed":2,"awaySeed":3,"time":"2026-11-23T19:30:00"},{"home":"Bounce Malvern","away":"Jersey Devil","homeSeed":1,"awaySeed":2,"time":"2026-11-23T19:30:00"},{"home":"Pickle House","away":"Bounce Tempest","homeSeed":1,"awaySeed":2,"time":"2026-11-23T19:30:00"}],"round":1}],
+   "linked": true,
+   "drawPending": true
   }
  ]
 };

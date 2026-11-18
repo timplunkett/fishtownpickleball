@@ -1,3 +1,64 @@
 {
-  "$values": []
+  "$values": [
+    {
+      "matchupId": "6e8e17da-86ed-4314-b906-bae5b9e1c19a",
+      "weekNumber": 1,
+      "homeTeamId": "cf00671f-332a-44e4-a466-cfc010cd3699",
+      "awayTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-23T19:00:00",
+      "homeName": "Pickleball Kingdom Hillsborough",
+      "awayName": "Dill Dinkers Freehold",
+      "playoffGame": 1,
+      "homePodRanking": 1,
+      "awayPodRanking": 4
+    },
+    {
+      "matchupId": "2209d153-3d39-4d45-b5f7-82ac55e1e163",
+      "weekNumber": 1,
+      "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-23T19:30:00",
+      "homeName": "Pickleball Kingdom Watchung",
+      "awayName": "Premiere",
+      "playoffGame": 2,
+      "homePodRanking": 2,
+      "awayPodRanking": 3
+    },
+    {
+      "matchupId": "7f350fba-eb59-47e9-9cd7-d93014abdf44",
+      "weekNumber": 1,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-23T19:30:00",
+      "homeName": "Bounce Malvern",
+      "awayName": "Jersey Devil",
+      "playoffGame": 3,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    },
+    {
+      "matchupId": "9e394998-5849-48b5-8ccd-5bcb41c70b23",
+      "weekNumber": 1,
+      "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
+      "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-23T19:30:00",
+      "homeName": "Pickle House",
+      "awayName": "Bounce Tempest",
+      "playoffGame": 4,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    }
+  ]
 }
