@@ -52867,8 +52867,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Nick Dehmer"
      ],
      "a": [
       "Amanda Kahriman",
@@ -52878,8 +52878,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Dipen Bhatt"
      ],
      "a": [
       "Ruhi Shah",
@@ -52889,8 +52889,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Michael Li"
      ],
      "a": [
       "Morgan Fishman",
@@ -52900,8 +52900,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Mickey Cook"
      ],
      "a": [
       "Richa Shah",
@@ -52911,8 +52911,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Yoyo Shen"
      ],
      "a": [
       "Ruhi Shah",
@@ -52922,8 +52922,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Emily Babinsky"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -52933,8 +52933,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Dehmer",
+      "Chris Damato"
      ],
      "a": [
       "Shreyas Pani",
@@ -52944,8 +52944,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Mickey Cook"
      ],
      "a": [
       "Dilan Shah",
@@ -52955,8 +52955,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Michael Li"
      ],
      "a": [
       "Richa Shah",
@@ -52966,8 +52966,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Mickey Cook"
      ],
      "a": [
       "Morgan Fishman",
@@ -52977,8 +52977,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Dipen Bhatt"
      ],
      "a": [
       "Ruhi Shah",
@@ -52988,8 +52988,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Chris Damato"
      ],
      "a": [
       "Amanda Kahriman",
@@ -52999,8 +52999,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Taylor Hartman"
      ],
      "a": [
       "Sophia Kaufmann",
@@ -53010,8 +53010,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Yoyo Shen"
      ],
      "a": [
       "Richa Shah",
@@ -53021,8 +53021,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Mickey Cook"
      ],
      "a": [
       "Shreyas Pani",
@@ -53032,8 +53032,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Dehmer",
+      "Dipen Bhatt"
      ],
      "a": [
       "Eric Lin",
@@ -53043,8 +53043,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Chris Damato"
      ],
      "a": [
       "Ruhi Shah",
@@ -53054,8 +53054,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Michael Li"
      ],
      "a": [
       "Richa Shah",
@@ -53065,8 +53065,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Nick Dehmer"
      ],
      "a": [
       "Amanda Kahriman",
@@ -53076,8 +53076,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Dipen Bhatt"
      ],
      "a": [
       "Morgan Fishman",
@@ -53087,8 +53087,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Emily Babinsky"
      ],
      "a": [
       "Ruhi Shah",
@@ -53098,8 +53098,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Lissa Eagles"
      ],
      "a": [
       "Morgan Fishman",
@@ -53109,8 +53109,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Michael Li"
      ],
      "a": [
       "Shreyas Pani",
@@ -53120,8 +53120,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Nick Dehmer",
+      "Dipen Bhatt"
      ],
      "a": [
       "Anthony Ursino",
@@ -53131,8 +53131,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Michael Li"
      ],
      "a": [
       "Morgan Fishman",
@@ -53142,8 +53142,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lissa Eagles",
+      "Chris Damato"
      ],
      "a": [
       "Richa Shah",
@@ -53153,8 +53153,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Yoyo Shen",
+      "Mickey Cook"
      ],
      "a": [
       "Ruhi Shah",
@@ -53164,8 +53164,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Nick Dehmer"
      ],
      "a": [
       "Amanda Kahriman",
@@ -53175,8 +53175,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Taylor Hartman",
+      "Lissa Eagles"
      ],
      "a": [
       "Amalia Ditrapani",
@@ -53186,8 +53186,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Emily Babinsky",
+      "Yoyo Shen"
      ],
      "a": [
       "Ruhi Shah",
@@ -53197,8 +53197,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Li",
+      "Nick Dehmer"
      ],
      "a": [
       "Dilan Shah",
@@ -53208,8 +53208,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Damato",
+      "Mickey Cook"
      ],
      "a": [
       "Eric Lin",
@@ -54059,7 +54059,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-18T00:15:21.323Z";
+  DATA.meta.asOf = "2026-11-18T13:23:20.139Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
