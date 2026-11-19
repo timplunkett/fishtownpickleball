@@ -93635,8 +93635,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Matt Jump"
      ],
      "a": [
       "Pam Politis",
@@ -93650,8 +93650,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kylie Lupica",
+      "Christian Lupica"
      ],
      "a": [
       "Carly Cebek",
@@ -93661,8 +93661,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Angela Tung",
+      "Tyler Fung"
      ],
      "a": [
       "Maureen Landau",
@@ -93676,8 +93676,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heather Conger",
+      "Evan Woerner"
      ],
      "a": [
       "Jennifer Kasnadi",
@@ -93691,8 +93691,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaleigh Hadley",
+      "Heather Conger"
      ],
      "a": [
       "Carly Cebek",
@@ -93702,12 +93702,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Srilahari Kunchapu"
      ],
      "a": [
       "Maureen Landau",
       "Jennifer Kasnadi"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -93717,8 +93721,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Ryan Furman"
      ],
      "a": [
       "Clifford Kleckley",
@@ -93728,8 +93732,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Jump",
+      "Tyler Fung"
      ],
      "a": [
       "Andres Cardona",
@@ -93739,8 +93743,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Kushal Thapa"
      ],
      "a": [
       "Jennifer Kasnadi",
@@ -93754,8 +93758,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Angela Tung",
+      "Ryan Furman"
      ],
      "a": [
       "Ashlee Stritzinger",
@@ -93765,8 +93769,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heather Conger",
+      "Evan Woerner"
      ],
      "a": [
       "Pam Politis",
@@ -93780,8 +93784,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kylie Lupica",
+      "Christian Lupica"
      ],
      "a": [
       "Carly Cebek",
@@ -93791,8 +93795,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Kylie Lupica"
      ],
      "a": [
       "Carly Cebek",
@@ -93806,12 +93810,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaleigh Hadley",
+      "Srilahari Kunchapu"
      ],
      "a": [
       "Jennifer Kasnadi",
       "Pam Politis"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       1,
@@ -93821,8 +93829,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Jump",
+      "Tyler Fung"
      ],
      "a": [
       "Clifford Kleckley",
@@ -93832,8 +93840,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Evan Woerner"
      ],
      "a": [
       "Savan Patel",
@@ -93847,8 +93855,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heather Conger",
+      "Christian Lupica"
      ],
      "a": [
       "Carly Cebek",
@@ -93858,8 +93866,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Matt Jump"
      ],
      "a": [
       "Ashlee Stritzinger",
@@ -93869,8 +93877,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Angela Tung",
+      "Evan Woerner"
      ],
      "a": [
       "Pam Politis",
@@ -93884,8 +93892,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kylie Lupica",
+      "Ryan Furman"
      ],
      "a": [
       "Maureen Landau",
@@ -93899,12 +93907,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Srilahari Kunchapu"
      ],
      "a": [
       "Carly Cebek",
       "Jennifer Kasnadi"
+     ],
+     "hSub": [
+      0,
+      1
      ],
      "aSub": [
       0,
@@ -93914,8 +93926,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kaleigh Hadley",
+      "Angela Tung"
      ],
      "a": [
       "Ashlee Stritzinger",
@@ -93929,8 +93941,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Evan Woerner",
+      "Matt Jump"
      ],
      "a": [
       "Clifford Kleckley",
@@ -93940,8 +93952,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Kushal Thapa",
+      "Ryan Furman"
      ],
      "a": [
       "Andres Cardona",
@@ -93951,8 +93963,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Michelle Quach",
+      "Kushal Thapa"
      ],
      "a": [
       "Carly Cebek",
@@ -93962,8 +93974,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kylie Lupica",
+      "Ryan Furman"
      ],
      "a": [
       "Maureen Landau",
@@ -93977,8 +93989,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Angela Tung",
+      "Tyler Fung"
      ],
      "a": [
       "Jennifer Kasnadi",
@@ -93992,8 +94004,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Heather Conger",
+      "Christian Lupica"
      ],
      "a": [
       "Pam Politis",
@@ -94007,12 +94019,16 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Srilahari Kunchapu",
+      "Kaleigh Hadley"
      ],
      "a": [
       "Carly Cebek",
       "Maureen Landau"
+     ],
+     "hSub": [
+      1,
+      0
      ],
      "aSub": [
       0,
@@ -94022,8 +94038,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Angela Tung",
+      "Kylie Lupica"
      ],
      "a": [
       "Jennifer Kasnadi",
@@ -94037,8 +94053,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Christian Lupica",
+      "Kushal Thapa"
      ],
      "a": [
       "Clifford Kleckley",
@@ -94048,8 +94064,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Furman",
+      "Tyler Fung"
      ],
      "a": [
       "Vinay Shankar Galla",
@@ -96747,7 +96763,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-19T00:34:08.279Z";
+  DATA.meta.asOf = "2026-11-19T15:56:11.391Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

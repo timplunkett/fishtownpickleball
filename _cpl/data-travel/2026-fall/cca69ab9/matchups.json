@@ -917,9 +917,9 @@
       "weekNumber": 13,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "9fbf069e-3489-41a5-a7d9-84f8572ed2bd",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 616,
+      "awayPoints": 634,
+      "endResult": "away",
       "scheduledTime": "2026-11-16T19:30:00",
       "homeName": "Pickle House",
       "awayName": "ACE Moorestown"

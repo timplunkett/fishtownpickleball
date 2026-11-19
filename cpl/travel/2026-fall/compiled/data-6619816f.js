@@ -51763,17 +51763,24 @@
  ],
  "playoffs": [
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Flemington",
    "time": "2026-11-18T19:00:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
+   "homePoints": 650,
+   "awayPoints": 492,
+   "homeGW": 26,
+   "awayGW": 6,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Amy Yan",
       "Jason Makarevic"
@@ -51785,6 +51792,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Gissel Escalante",
       "James Cannizzaro"
@@ -51796,6 +51806,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Ally Yan",
       "Camrin Cronheim"
@@ -51807,6 +51820,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Anisha Malhotra",
       "Chris Long"
@@ -51818,6 +51834,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Gissel Escalante",
       "Anisha Malhotra"
@@ -51829,6 +51848,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Ally Yan",
       "Amy Yan"
@@ -51840,17 +51862,23 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Camrin Cronheim",
       "Sidd Pathare"
      ],
      "a": [
       "Sean O'Connell",
-      "Patrick Ryan"
+      "Ross Switkes"
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Chris Long",
       "Jason Makarevic"
@@ -51862,6 +51890,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Amy Yan",
       "James Cannizzaro"
@@ -51873,6 +51904,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Ally Yan",
       "Sidd Pathare"
@@ -51884,17 +51918,23 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Gissel Escalante",
       "Jason Makarevic"
      ],
      "a": [
       "Kelly Arvidson",
-      "Patrick Ryan"
+      "Sean O'Connell"
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Anisha Malhotra",
       "Chris Long"
@@ -51906,6 +51946,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Gissel Escalante",
       "Anisha Malhotra"
@@ -51917,6 +51960,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Ally Yan",
       "Amy Yan"
@@ -51928,6 +51974,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Chris Long",
       "Jason Makarevic"
@@ -51939,17 +51988,23 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "James Cannizzaro",
       "Sidd Pathare"
      ],
      "a": [
-      "Patrick Ryan",
+      "Sean O'Connell",
       "Thomas Connolly"
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Gissel Escalante",
       "Chris Long"
@@ -51961,6 +52016,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Anisha Malhotra",
       "Camrin Cronheim"
@@ -51972,6 +52030,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Amy Yan",
       "James Cannizzaro"
@@ -51983,6 +52044,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Ally Yan",
       "Sidd Pathare"
@@ -51994,6 +52058,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Anisha Malhotra",
       "Amy Yan"
@@ -52005,6 +52072,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Gissel Escalante",
       "Ally Yan"
@@ -52016,6 +52086,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
      "h": [
       "Camrin Cronheim",
       "Jason Makarevic"
@@ -52027,17 +52100,23 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Chris Long",
       "James Cannizzaro"
      ],
      "a": [
       "Robbie Oddy",
-      "Patrick Ryan"
+      "Sean O'Connell"
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Gissel Escalante",
       "James Cannizzaro"
@@ -52049,6 +52128,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Amy Yan",
       "Sidd Pathare"
@@ -52060,6 +52142,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Anisha Malhotra",
       "Camrin Cronheim"
@@ -52071,17 +52156,23 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Ally Yan",
       "Jason Makarevic"
      ],
      "a": [
       "Aimee Castellano",
-      "Patrick Ryan"
+      "Sean O'Connell"
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Anisha Malhotra",
       "Amy Yan"
@@ -52093,6 +52184,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Gissel Escalante",
       "Ally Yan"
@@ -52104,6 +52198,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Chris Long",
       "James Cannizzaro"
@@ -52115,6 +52212,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Camrin Cronheim",
       "Sidd Pathare"
@@ -52127,17 +52227,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Bounce Malvern",
    "away": "Bounce Philly",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 633,
+   "awayPoints": 592,
+   "homeGW": 20,
+   "awayGW": 12,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Scotland Reynolds",
       "Lou Frignito"
@@ -52149,6 +52256,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Sarah Kline",
       "Vince Ha"
@@ -52160,6 +52270,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Teresa Wang",
       "Chris Tabeling"
@@ -52171,6 +52284,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Yuki Kim",
       "Nick Meale"
@@ -52182,6 +52298,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Scotland Reynolds",
       "Sarah Kline"
@@ -52193,6 +52312,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Yuki Kim",
       "Teresa Wang"
@@ -52204,6 +52326,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Lou Frignito",
       "Vince Ha"
@@ -52215,6 +52340,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Nick Meale",
       "Chris Tabeling"
@@ -52226,6 +52354,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Teresa Wang",
       "Chris Tabeling"
@@ -52237,6 +52368,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Scotland Reynolds",
       "Lou Frignito"
@@ -52248,6 +52382,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Yuki Kim",
       "Nick Meale"
@@ -52259,6 +52396,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Sarah Kline",
       "Vince Ha"
@@ -52270,6 +52410,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Yuki Kim",
       "Teresa Wang"
@@ -52281,6 +52424,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Scotland Reynolds",
       "Sarah Kline"
@@ -52292,6 +52438,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Nick Meale",
       "Chris Tabeling"
@@ -52303,6 +52452,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Lou Frignito",
       "Vince Ha"
@@ -52314,6 +52466,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
      "h": [
       "Yuki Kim",
       "Vince Ha"
@@ -52325,6 +52480,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Teresa Wang",
       "Nick Meale"
@@ -52336,6 +52494,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Scotland Reynolds",
       "Chris Tabeling"
@@ -52347,6 +52508,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Sarah Kline",
       "Lou Frignito"
@@ -52358,6 +52522,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Yuki Kim",
       "Scotland Reynolds"
@@ -52369,6 +52536,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Teresa Wang",
       "Sarah Kline"
@@ -52380,6 +52550,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Lou Frignito",
       "Nick Meale"
@@ -52391,6 +52564,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Chris Tabeling",
       "Vince Ha"
@@ -52402,6 +52578,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Sarah Kline",
       "Nick Meale"
@@ -52413,6 +52592,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Yuki Kim",
       "Lou Frignito"
@@ -52424,6 +52606,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Scotland Reynolds",
       "Chris Tabeling"
@@ -52435,6 +52620,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Teresa Wang",
       "Vince Ha"
@@ -52446,6 +52634,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Yuki Kim",
       "Sarah Kline"
@@ -52457,6 +52648,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Teresa Wang",
       "Scotland Reynolds"
@@ -52468,6 +52662,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Lou Frignito",
       "Nick Meale"
@@ -52479,6 +52676,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
      "h": [
       "Chris Tabeling",
       "Vince Ha"
@@ -52491,17 +52691,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Dill Dinkers Hatboro The Factory",
    "away": "ACE Moorestown",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
+   "homePoints": 668,
+   "awayPoints": 594,
+   "homeGW": 20,
+   "awayGW": 12,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Hannah Nussbaum",
       "Jonah Fliegelman"
@@ -52513,6 +52720,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Marina Cozac",
       "Dylan Ashbach"
@@ -52524,6 +52734,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Allison Tarnoff",
       "Steven Fernandez"
@@ -52535,6 +52748,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
      "h": [
       "Cristi Landrigan",
       "Conor Landrigan"
@@ -52546,6 +52762,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Kaylyn Swankoski",
       "Cristi Landrigan"
@@ -52557,6 +52776,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Marina Cozac",
       "Hannah Nussbaum"
@@ -52568,6 +52790,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Dylan Ashbach",
       "Steven Fernandez"
@@ -52579,6 +52804,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Andrew Wakefield",
       "Jonah Fliegelman"
@@ -52590,6 +52818,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Hannah Nussbaum",
       "Jonah Fliegelman"
@@ -52601,6 +52832,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Kaylyn Swankoski",
       "Andrew Wakefield"
@@ -52612,6 +52846,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Allison Tarnoff",
       "Conor Landrigan"
@@ -52623,6 +52860,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Marina Cozac",
       "Dylan Ashbach"
@@ -52634,6 +52874,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Marina Cozac",
       "Kaylyn Swankoski"
@@ -52645,6 +52888,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Hannah Nussbaum",
       "Cristi Landrigan"
@@ -52656,6 +52902,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Dylan Ashbach",
       "Steven Fernandez"
@@ -52667,6 +52916,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Andrew Wakefield",
       "Conor Landrigan"
@@ -52678,6 +52930,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
      "h": [
       "Marina Cozac",
       "Steven Fernandez"
@@ -52689,6 +52944,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Kaylyn Swankoski",
       "Dylan Ashbach"
@@ -52700,6 +52958,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Cristi Landrigan",
       "Conor Landrigan"
@@ -52711,6 +52972,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Allison Tarnoff",
       "Jonah Fliegelman"
@@ -52722,6 +52986,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Hannah Nussbaum",
       "Allison Tarnoff"
@@ -52733,6 +53000,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Kaylyn Swankoski",
       "Marina Cozac"
@@ -52744,6 +53014,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Andrew Wakefield",
       "Steven Fernandez"
@@ -52755,6 +53028,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Conor Landrigan",
       "Jonah Fliegelman"
@@ -52766,6 +53042,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Allison Tarnoff",
       "Andrew Wakefield"
@@ -52777,6 +53056,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Hannah Nussbaum",
       "Conor Landrigan"
@@ -52788,6 +53070,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Kaylyn Swankoski",
       "Dylan Ashbach"
@@ -52799,6 +53084,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Cristi Landrigan",
       "Jonah Fliegelman"
@@ -52810,6 +53098,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Kaylyn Swankoski",
       "Cristi Landrigan"
@@ -52821,6 +53112,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Marina Cozac",
       "Hannah Nussbaum"
@@ -52832,6 +53126,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Conor Landrigan",
       "Steven Fernandez"
@@ -52843,6 +53140,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Dylan Ashbach",
       "Jonah Fliegelman"
@@ -52855,17 +53155,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Pickle House",
    "away": "Monroe",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 637,
+   "awayPoints": 561,
+   "homeGW": 25,
+   "awayGW": 7,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Taylor Hartman",
       "Nick Dehmer"
@@ -52877,6 +53184,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
      "h": [
       "Lissa Eagles",
       "Dipen Bhatt"
@@ -52888,6 +53198,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Yoyo Shen",
       "Michael Li"
@@ -52899,6 +53212,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Emily Babinsky",
       "Mickey Cook"
@@ -52910,6 +53226,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Lissa Eagles",
       "Yoyo Shen"
@@ -52921,6 +53240,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Taylor Hartman",
       "Emily Babinsky"
@@ -52932,6 +53254,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Nick Dehmer",
       "Chris Damato"
@@ -52943,6 +53268,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Michael Li",
       "Mickey Cook"
@@ -52954,6 +53282,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Taylor Hartman",
       "Michael Li"
@@ -52965,6 +53296,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Yoyo Shen",
       "Mickey Cook"
@@ -52976,6 +53310,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Lissa Eagles",
       "Dipen Bhatt"
@@ -52987,6 +53324,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Emily Babinsky",
       "Chris Damato"
@@ -52998,6 +53338,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Emily Babinsky",
       "Taylor Hartman"
@@ -53009,6 +53352,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Lissa Eagles",
       "Yoyo Shen"
@@ -53020,6 +53366,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Chris Damato",
       "Mickey Cook"
@@ -53031,6 +53380,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Nick Dehmer",
       "Dipen Bhatt"
@@ -53042,6 +53394,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Lissa Eagles",
       "Chris Damato"
@@ -53053,6 +53408,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Yoyo Shen",
       "Michael Li"
@@ -53064,6 +53422,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Taylor Hartman",
       "Nick Dehmer"
@@ -53075,6 +53436,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Emily Babinsky",
       "Dipen Bhatt"
@@ -53086,6 +53450,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Yoyo Shen",
       "Emily Babinsky"
@@ -53097,6 +53464,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Taylor Hartman",
       "Lissa Eagles"
@@ -53108,6 +53478,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Chris Damato",
       "Michael Li"
@@ -53119,6 +53492,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Nick Dehmer",
       "Dipen Bhatt"
@@ -53130,6 +53506,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Taylor Hartman",
       "Michael Li"
@@ -53141,6 +53520,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
      "h": [
       "Lissa Eagles",
       "Chris Damato"
@@ -53152,6 +53534,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Yoyo Shen",
       "Mickey Cook"
@@ -53163,6 +53548,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Emily Babinsky",
       "Nick Dehmer"
@@ -53174,6 +53562,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Taylor Hartman",
       "Lissa Eagles"
@@ -53185,6 +53576,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Emily Babinsky",
       "Yoyo Shen"
@@ -53196,6 +53590,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Michael Li",
       "Nick Dehmer"
@@ -53207,6 +53604,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
      "h": [
       "Chris Damato",
       "Mickey Cook"
@@ -53217,6 +53617,26 @@
      ]
     }
    ]
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Pickleball Kingdom Hillsborough",
+   "away": "Pickle House",
+   "time": "2026-11-25T19:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Dill Dinkers Hatboro The Factory",
+   "away": "Bounce Malvern",
+   "time": "2026-11-25T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
   }
  ],
  "extraPlayerIds": {
@@ -54059,7 +54479,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-19T00:34:28.260Z";
+  DATA.meta.asOf = "2026-11-19T15:57:58.805Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

@@ -43395,8 +43395,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Gina Faccone"
      ],
      "a": [
       "Jasmine Ho",
@@ -43406,8 +43406,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marian Kingston",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Marina Berger",
@@ -43417,8 +43417,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Kathleen Nitti"
      ],
      "a": [
       "Marina Volpe",
@@ -43428,8 +43428,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Caroline Kinlin"
      ],
      "a": [
       "Maureen Bruno",
@@ -43439,8 +43439,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathleen Nitti"
      ],
      "a": [
       "Kayla Gipson",
@@ -43450,8 +43450,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Caroline Kinlin",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Jasmine Ho",
@@ -43461,8 +43461,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Brittany Messing"
      ],
      "a": [
       "Marina Berger",
@@ -43472,8 +43472,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Jackie Coneeny"
      ],
      "a": [
       "Maureen Bruno",
@@ -43483,8 +43483,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathy Baker"
      ],
      "a": [
       "Paula Cushing",
@@ -43494,8 +43494,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Marian Kingston"
      ],
      "a": [
       "Jasmine Ho",
@@ -43505,8 +43505,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Caroline Kinlin"
      ],
      "a": [
       "Maureen Bruno",
@@ -43516,8 +43516,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Nitti",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Kayla Gipson",
@@ -43527,8 +43527,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Kathy Baker"
      ],
      "a": [
       "Marina Berger",
@@ -43538,8 +43538,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathleen Nitti"
      ],
      "a": [
       "Jasmine Ho",
@@ -43549,8 +43549,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Marian Kingston"
      ],
      "a": [
       "Maureen Bruno",
@@ -43560,8 +43560,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jackie Coneeny",
+      "Caroline Kinlin"
      ],
      "a": [
       "Kayla Gipson",
@@ -43571,8 +43571,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Kathy Baker"
      ],
      "a": [
       "Paula Cushing",
@@ -43582,8 +43582,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Jackie Coneeny"
      ],
      "a": [
       "Jasmine Ho",
@@ -43593,8 +43593,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Nitti",
+      "Marian Kingston"
      ],
      "a": [
       "Marina Berger",
@@ -43604,8 +43604,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Maureen Bruno",
@@ -43615,8 +43615,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Jackie Coneeny"
      ],
      "a": [
       "Olga Turova",
@@ -43626,8 +43626,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Marian Kingston"
      ],
      "a": [
       "Jasmine Ho",
@@ -43637,8 +43637,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathleen Nitti",
+      "Brittany Messing"
      ],
      "a": [
       "Marina Volpe",
@@ -43648,8 +43648,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Caroline Kinlin"
      ],
      "a": [
       "Maureen Bruno",
@@ -43659,8 +43659,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Kathleen Nitti"
      ],
      "a": [
       "Jasmine Ho",
@@ -43670,8 +43670,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marie Walsh Mccarty",
+      "Jackie Coneeny"
      ],
      "a": [
       "Marina Berger",
@@ -43681,8 +43681,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marian Kingston",
+      "Caroline Kinlin"
      ],
      "a": [
       "Marina Volpe",
@@ -43692,8 +43692,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gina Faccone",
+      "Brittany Messing"
      ],
      "a": [
       "Kayla Gipson",
@@ -43703,8 +43703,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rachel Levkov",
+      "Gina Faccone"
      ],
      "a": [
       "Maureen Bruno",
@@ -43714,8 +43714,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathy Baker",
+      "Kathleen Nitti"
      ],
      "a": [
       "Jasmine Ho",
@@ -43725,8 +43725,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Brittany Messing",
+      "Marie Walsh Mccarty"
      ],
      "a": [
       "Marina Berger",
@@ -43736,8 +43736,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marian Kingston",
+      "Jackie Coneeny"
      ],
      "a": [
       "Kayla Gipson",
@@ -44334,7 +44334,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-19T00:35:33.153Z";
+  DATA.meta.asOf = "2026-11-19T15:59:40.171Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;

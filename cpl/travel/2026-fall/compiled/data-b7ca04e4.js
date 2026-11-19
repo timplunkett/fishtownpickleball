@@ -130633,17 +130633,24 @@
  ],
  "playoffs": [
   {
-   "result": null,
+   "result": "away",
    "round": 1,
    "home": "PKLD",
    "away": "Pickleball Kingdom Hillsborough",
    "time": "2026-11-18T19:00:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
+   "homePoints": 607,
+   "awayPoints": 635,
+   "homeGW": 14,
+   "awayGW": 18,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Kelsey Miller",
       "Jadiel Rodriguez"
@@ -130655,6 +130662,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Olivia Jung-Moss",
       "Sam Forin"
@@ -130666,6 +130676,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Stephanie Ho",
       "Kyle Korman"
@@ -130677,6 +130690,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Tracy Wong",
       "Xavier Yandoli"
@@ -130688,6 +130704,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Tracy Wong",
       "Esther Yoon"
@@ -130699,6 +130718,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Brianna Burns",
       "Kelsey Miller"
@@ -130710,6 +130732,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
      "h": [
       "Juan Millan",
       "Kyle Korman"
@@ -130721,6 +130746,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Sam Forin",
       "Xavier Yandoli"
@@ -130732,6 +130760,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Stephanie Ho",
       "Jadiel Rodriguez"
@@ -130743,6 +130774,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Brianna Burns",
       "Xavier Yandoli"
@@ -130754,6 +130788,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Esther Yoon",
       "Sam Forin"
@@ -130765,6 +130802,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Olivia Jung-Moss",
       "Kyle Korman"
@@ -130776,6 +130816,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Stephanie Ho",
       "Kelsey Miller"
@@ -130787,6 +130830,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Tracy Wong",
       "Esther Yoon"
@@ -130798,6 +130844,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Sam Forin",
       "Xavier Yandoli"
@@ -130809,6 +130858,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Juan Millan",
       "Kyle Korman"
@@ -130820,6 +130872,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
      "h": [
       "Olivia Jung-Moss",
       "Kyle Korman"
@@ -130831,6 +130886,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Tracy Wong",
       "Xavier Yandoli"
@@ -130842,6 +130900,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Brianna Burns",
       "Juan Millan"
@@ -130853,6 +130914,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Stephanie Ho",
       "Jadiel Rodriguez"
@@ -130864,6 +130928,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Brianna Burns",
       "Tracy Wong"
@@ -130875,6 +130942,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Kelsey Miller",
       "Esther Yoon"
@@ -130886,6 +130956,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Juan Millan",
       "Xavier Yandoli"
@@ -130897,6 +130970,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Jadiel Rodriguez",
       "Sam Forin"
@@ -130908,6 +130984,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Stephanie Ho",
       "Kyle Korman"
@@ -130919,6 +130998,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Kelsey Miller",
       "Jadiel Rodriguez"
@@ -130930,6 +131012,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Esther Yoon",
       "Juan Millan"
@@ -130941,6 +131026,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Olivia Jung-Moss",
       "Sam Forin"
@@ -130952,6 +131040,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 15,
+     "as": 20,
      "h": [
       "Olivia Jung-Moss",
       "Brianna Burns"
@@ -130963,6 +131054,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Stephanie Ho",
       "Kelsey Miller"
@@ -130974,6 +131068,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Juan Millan",
       "Xavier Yandoli"
@@ -130985,6 +131082,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Sam Forin",
       "Jadiel Rodriguez"
@@ -130997,17 +131097,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Picklr Fair Lawn",
    "away": "Picklr Manahawkin",
    "time": "2026-11-18T19:00:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 669,
+   "awayPoints": 557,
+   "homeGW": 26,
+   "awayGW": 6,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
      "h": [
       "Ulyana Kitcmanuk",
       "Piero Accinelli"
@@ -131019,6 +131126,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Lara Gedeon",
       "Andrew Chester"
@@ -131030,6 +131140,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Minette Tubo",
       "Homer Abes"
@@ -131041,6 +131154,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Leanna Coello",
       "Mychal Villanueva"
@@ -131052,6 +131168,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Lara Gedeon",
       "Minette Tubo"
@@ -131063,6 +131182,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Ulyana Kitcmanuk",
       "Binxin Cai"
@@ -131074,6 +131196,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Joseph Gozon",
       "Yosuke Kawai"
@@ -131085,6 +131210,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Mychal Villanueva",
       "Piero Accinelli"
@@ -131096,6 +131224,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Lara Gedeon",
       "Yosuke Kawai"
@@ -131107,6 +131238,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Binxin Cai",
       "Homer Abes"
@@ -131118,6 +131252,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Leanna Coello",
       "Mychal Villanueva"
@@ -131129,6 +131266,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Ulyana Kitcmanuk",
       "Joseph Gozon"
@@ -131140,6 +131280,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Leanna Coello",
       "Lara Gedeon"
@@ -131151,6 +131294,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Binxin Cai",
       "Minette Tubo"
@@ -131162,6 +131308,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Yosuke Kawai",
       "Homer Abes"
@@ -131173,6 +131322,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Andrew Chester",
       "Piero Accinelli"
@@ -131184,6 +131336,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Lara Gedeon",
       "Andrew Chester"
@@ -131195,6 +131350,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Leanna Coello",
       "Piero Accinelli"
@@ -131206,6 +131364,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Minette Tubo",
       "Mychal Villanueva"
@@ -131217,6 +131378,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Binxin Cai",
       "Joseph Gozon"
@@ -131228,6 +131392,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Lara Gedeon",
       "Ulyana Kitcmanuk"
@@ -131239,6 +131406,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 27,
+     "as": 25,
      "h": [
       "Leanna Coello",
       "Minette Tubo"
@@ -131250,6 +131420,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Piero Accinelli",
       "Mychal Villanueva"
@@ -131261,6 +131434,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Yosuke Kawai",
       "Homer Abes"
@@ -131272,6 +131448,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Leanna Coello",
       "Piero Accinelli"
@@ -131283,6 +131462,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Ulyana Kitcmanuk",
       "Joseph Gozon"
@@ -131294,6 +131476,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Minette Tubo",
       "Mychal Villanueva"
@@ -131305,6 +131490,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Binxin Cai",
       "Andrew Chester"
@@ -131316,6 +131504,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Leanna Coello",
       "Lara Gedeon"
@@ -131327,6 +131518,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Binxin Cai",
       "Ulyana Kitcmanuk"
@@ -131338,6 +131532,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Yosuke Kawai",
       "Joseph Gozon"
@@ -131349,6 +131546,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Andrew Chester",
       "Homer Abes"
@@ -131361,17 +131561,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Forward",
    "away": "Ballers Philly",
    "time": "2026-11-18T19:00:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
+   "homePoints": 686,
+   "awayPoints": 487,
+   "homeGW": 31,
+   "awayGW": 1,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Ava Pastore",
       "Davis Kahl"
@@ -131383,6 +131590,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Lili Zebluim",
       "Cole Neimetz"
@@ -131394,6 +131604,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Justyna Wojdyla",
       "Matthew Crawford"
@@ -131405,6 +131618,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Isabel Laroque",
       "Mike Martellacci"
@@ -131416,6 +131632,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Ariane Abadi",
       "Lili Zebluim"
@@ -131427,6 +131646,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Ava Pastore",
       "Isabel Laroque"
@@ -131438,6 +131660,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Luc Legaspi",
       "Cole Neimetz"
@@ -131449,6 +131674,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 26,
      "h": [
       "Davis Kahl",
       "Mike Martellacci"
@@ -131460,6 +131688,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Lili Zebluim",
       "Matthew Crawford"
@@ -131471,6 +131702,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Isabel Laroque",
       "Davis Kahl"
@@ -131482,6 +131716,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Ariane Abadi",
       "Mike Martellacci"
@@ -131493,6 +131730,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 7,
      "h": [
       "Ava Pastore",
       "Luc Legaspi"
@@ -131504,6 +131744,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Ariane Abadi",
       "Justyna Wojdyla"
@@ -131515,6 +131758,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Ava Pastore",
       "Lili Zebluim"
@@ -131526,6 +131772,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Cole Neimetz",
       "Matthew Crawford"
@@ -131537,6 +131786,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Davis Kahl",
       "Luc Legaspi"
@@ -131548,6 +131800,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Isabel Laroque",
       "Davis Kahl"
@@ -131559,6 +131814,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Ava Pastore",
       "Matthew Crawford"
@@ -131570,6 +131828,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Justyna Wojdyla",
       "Cole Neimetz"
@@ -131581,6 +131842,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Ariane Abadi",
       "Mike Martellacci"
@@ -131592,6 +131856,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
      "h": [
       "Isabel Laroque",
       "Ariane Abadi"
@@ -131603,6 +131870,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Lili Zebluim",
       "Justyna Wojdyla"
@@ -131614,6 +131884,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Matthew Crawford",
       "Luc Legaspi"
@@ -131625,6 +131898,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Cole Neimetz",
       "Mike Martellacci"
@@ -131636,6 +131912,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Ariane Abadi",
       "Cole Neimetz"
@@ -131647,6 +131926,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 5,
      "h": [
       "Isabel Laroque",
       "Mike Martellacci"
@@ -131658,6 +131940,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Ava Pastore",
       "Davis Kahl"
@@ -131669,6 +131954,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Lili Zebluim",
       "Luc Legaspi"
@@ -131680,6 +131968,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Ariane Abadi",
       "Lili Zebluim"
@@ -131691,6 +131982,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Ava Pastore",
       "Isabel Laroque"
@@ -131702,6 +131996,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Luc Legaspi",
       "Mike Martellacci"
@@ -131713,6 +132010,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Cole Neimetz",
       "Davis Kahl"
@@ -131724,6 +132024,9 @@
     },
     {
      "t": "mixed",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -131736,6 +132039,9 @@
     },
     {
      "t": "female",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -131748,6 +132054,9 @@
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -131761,17 +132070,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Jersey Devil Green",
    "away": "ACE Downingtown",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
+   "homePoints": 630,
+   "awayPoints": 560,
+   "homeGW": 21,
+   "awayGW": 11,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Katrina Maranan",
       "Brandon Dejesus"
@@ -131783,6 +132099,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Olivia Schaller",
       "Evan Sinclair"
@@ -131794,6 +132113,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Victoria Rolon",
       "Peter David"
@@ -131801,14 +132123,13 @@
      "a": [
       "Jasmine Nguyen",
       "Justin Lin"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Linda Liu",
       "Xin Liu"
@@ -131820,6 +132141,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
       "Srilahari Kunchapu",
       "Olivia Schaller"
@@ -131827,14 +132151,13 @@
      "a": [
       "Kiddi Vu",
       "Jasmine Nguyen"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Linda Liu",
       "Victoria Rolon"
@@ -131842,14 +132165,13 @@
      "a": [
       "Emily Simpson",
       "Nancy Wu"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Jaspher Cosico",
       "Benji Berry"
@@ -131861,6 +132183,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Evan Sinclair",
       "Peter David"
@@ -131872,6 +132197,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Katrina Maranan",
       "Brandon Dejesus"
@@ -131879,14 +132207,13 @@
      "a": [
       "Emily Simpson",
       "Avinash Thumma"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Olivia Schaller",
       "Evan Sinclair"
@@ -131898,6 +132225,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Victoria Rolon",
       "Benji Berry"
@@ -131905,14 +132235,13 @@
      "a": [
       "Jasmine Nguyen",
       "Justin Lin"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Srilahari Kunchapu",
       "Xin Liu"
@@ -131924,6 +132253,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Srilahari Kunchapu",
       "Katrina Maranan"
@@ -131935,6 +132267,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Olivia Schaller",
       "Linda Liu"
@@ -131942,14 +132277,13 @@
      "a": [
       "Jasmine Nguyen",
       "Emily Simpson"
-     ],
-     "aSub": [
-      1,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
      "h": [
       "Benji Berry",
       "Brandon Dejesus"
@@ -131961,6 +132295,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Jaspher Cosico",
       "Peter David"
@@ -131972,6 +132309,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Victoria Rolon",
       "Peter David"
@@ -131983,6 +132323,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Katrina Maranan",
       "Evan Sinclair"
@@ -131990,14 +132333,13 @@
      "a": [
       "Emily Simpson",
       "Chris Mendoza"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Srilahari Kunchapu",
       "Xin Liu"
@@ -132009,6 +132351,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Linda Liu",
       "Jaspher Cosico"
@@ -132020,6 +132365,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Olivia Schaller",
       "Linda Liu"
@@ -132031,6 +132379,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Srilahari Kunchapu",
       "Katrina Maranan"
@@ -132038,14 +132389,13 @@
      "a": [
       "Yushan Mirza",
       "Emily Simpson"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Evan Sinclair",
       "Xin Liu"
@@ -132057,6 +132407,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Benji Berry",
       "Brandon Dejesus"
@@ -132068,6 +132421,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Katrina Maranan",
       "Evan Sinclair"
@@ -132075,14 +132431,13 @@
      "a": [
       "Emily Simpson",
       "Avinash Thumma"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Victoria Rolon",
       "Benji Berry"
@@ -132090,14 +132445,13 @@
      "a": [
       "Jasmine Nguyen",
       "Chris Mendoza"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Olivia Schaller",
       "Xin Liu"
@@ -132109,6 +132463,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Linda Liu",
       "Jaspher Cosico"
@@ -132120,6 +132477,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Srilahari Kunchapu",
       "Olivia Schaller"
@@ -132131,6 +132491,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Linda Liu",
       "Victoria Rolon"
@@ -132138,14 +132501,13 @@
      "a": [
       "Jasmine Nguyen",
       "Emily Simpson"
-     ],
-     "aSub": [
-      1,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Peter David",
       "Brandon Dejesus"
@@ -132157,6 +132519,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Jaspher Cosico",
       "Benji Berry"
@@ -132168,6 +132533,9 @@
     },
     {
      "t": "mixed",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132180,6 +132548,9 @@
     },
     {
      "t": "female",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132188,14 +132559,13 @@
       "Jasmine Nguyen",
       "Emily Simpson"
      ],
-     "aSub": [
-      1,
-      1
-     ],
      "tb": 1
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132209,17 +132579,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Dill Dinkers Hatboro",
    "away": "Bounce Tempest",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 623,
+   "awayPoints": 605,
+   "homeGW": 17,
+   "awayGW": 15,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Natalia Koontz",
       "Shawn Roseman"
@@ -132231,6 +132608,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Thania Padova",
       "David Barth"
@@ -132242,6 +132622,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Gabby Frieder",
       "Andrew Son"
@@ -132253,6 +132636,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Courtney Skolka",
       "Jason Quach"
@@ -132264,6 +132650,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Vanessa Rhoades",
       "Gabby Frieder"
@@ -132275,6 +132664,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Courtney Skolka",
       "Natalia Koontz"
@@ -132286,6 +132678,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
      "h": [
       "Andrew Son",
       "Nick Lewis"
@@ -132297,6 +132692,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "David Barth",
       "Jason Quach"
@@ -132308,6 +132706,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Gabby Frieder",
       "Nick Lewis"
@@ -132319,6 +132720,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Courtney Skolka",
       "Andrew Son"
@@ -132330,6 +132734,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Thania Padova",
       "Shawn Roseman"
@@ -132341,6 +132748,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Emily Sheetz",
       "Jason Quach"
@@ -132352,6 +132762,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Courtney Skolka",
       "Thania Padova"
@@ -132363,6 +132776,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Vanessa Rhoades",
       "Emily Sheetz"
@@ -132374,6 +132790,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Andrew Son",
       "Nick Lewis"
@@ -132385,6 +132804,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "David Barth",
       "Shawn Roseman"
@@ -132396,6 +132818,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Thania Padova",
       "Jason Quach"
@@ -132407,6 +132832,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Gabby Frieder",
       "Nick Lewis"
@@ -132418,6 +132846,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Natalia Koontz",
       "Shawn Roseman"
@@ -132429,6 +132860,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Courtney Skolka",
       "David Barth"
@@ -132440,6 +132874,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
      "h": [
       "Courtney Skolka",
       "Vanessa Rhoades"
@@ -132451,6 +132888,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Gabby Frieder",
       "Natalia Koontz"
@@ -132462,6 +132902,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Andrew Son",
       "Jason Quach"
@@ -132473,6 +132916,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Nick Lewis",
       "David Barth"
@@ -132484,6 +132930,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Courtney Skolka",
       "Jason Quach"
@@ -132495,6 +132944,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Gabby Frieder",
       "Shawn Roseman"
@@ -132506,6 +132958,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Thania Padova",
       "David Barth"
@@ -132517,6 +132972,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Natalia Koontz",
       "Andrew Son"
@@ -132528,6 +132986,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Gabby Frieder",
       "Emily Sheetz"
@@ -132539,6 +133000,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Courtney Skolka",
       "Natalia Koontz"
@@ -132550,6 +133014,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "David Barth",
       "Jason Quach"
@@ -132561,6 +133028,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Shawn Roseman",
       "Nick Lewis"
@@ -132572,6 +133042,9 @@
     },
     {
      "t": "mixed",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132584,6 +133057,9 @@
     },
     {
      "t": "female",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132596,6 +133072,9 @@
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132609,17 +133088,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Bounce Philly",
    "away": "Delco Turf & Pickle",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 629,
+   "awayPoints": 606,
+   "homeGW": 18,
+   "awayGW": 14,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Sarina Manetta",
       "Joshua Kim"
@@ -132631,6 +133117,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Maggie Malloy",
       "Anthony Prusich"
@@ -132642,6 +133131,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Gianna Medeiros",
       "Jeremy Chen"
@@ -132653,6 +133145,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Julia Manetta",
       "Jonathan Macqueen"
@@ -132664,6 +133159,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Alexandra Pond",
       "Sarina Manetta"
@@ -132675,6 +133173,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
      "h": [
       "Julia Manetta",
       "Gianna Medeiros"
@@ -132686,6 +133187,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Zach Strickland",
       "Jeremy Chen"
@@ -132697,6 +133201,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Andrew Martin",
       "Joshua Kim"
@@ -132708,6 +133215,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Alexandra Pond",
       "Jeremy Chen"
@@ -132719,6 +133229,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Julia Manetta",
       "Anthony Prusich"
@@ -132730,6 +133243,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Sarina Manetta",
       "Jonathan Macqueen"
@@ -132741,6 +133257,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Maggie Malloy",
       "Andrew Martin"
@@ -132752,6 +133271,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Gianna Medeiros",
       "Maggie Malloy"
@@ -132763,6 +133285,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Sarina Manetta",
       "Julia Manetta"
@@ -132774,6 +133299,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Zach Strickland",
       "Joshua Kim"
@@ -132785,6 +133313,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Andrew Martin",
       "Jonathan Macqueen"
@@ -132796,6 +133327,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Alexandra Pond",
       "Anthony Prusich"
@@ -132807,6 +133341,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Gianna Medeiros",
       "Jeremy Chen"
@@ -132818,6 +133355,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Sarina Manetta",
       "Jonathan Macqueen"
@@ -132829,6 +133369,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 5,
      "h": [
       "Maggie Malloy",
       "Andrew Martin"
@@ -132840,6 +133383,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 22,
      "h": [
       "Sarina Manetta",
       "Maggie Malloy"
@@ -132851,6 +133397,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Julia Manetta",
       "Gianna Medeiros"
@@ -132862,6 +133411,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 8,
+     "as": 21,
      "h": [
       "Zach Strickland",
       "Andrew Martin"
@@ -132873,6 +133425,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Joshua Kim",
       "Jonathan Macqueen"
@@ -132884,6 +133439,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Alexandra Pond",
       "Andrew Martin"
@@ -132895,6 +133453,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Sarina Manetta",
       "Anthony Prusich"
@@ -132906,6 +133467,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Julia Manetta",
       "Jeremy Chen"
@@ -132917,6 +133481,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Maggie Malloy",
       "Joshua Kim"
@@ -132928,6 +133495,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Sarina Manetta",
       "Julia Manetta"
@@ -132939,6 +133509,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Maggie Malloy",
       "Gianna Medeiros"
@@ -132950,6 +133523,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Andrew Martin",
       "Joshua Kim"
@@ -132961,6 +133537,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
      "h": [
       "Jeremy Chen",
       "Zach Strickland"
@@ -132972,6 +133551,9 @@
     },
     {
      "t": "mixed",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132984,6 +133566,9 @@
     },
     {
      "t": "female",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -132996,6 +133581,9 @@
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "",
       ""
@@ -133009,17 +133597,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "away",
    "round": 1,
    "home": "Premiere",
    "away": "Pickleball Kingdom Watchung",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 507,
+   "awayPoints": 649,
+   "homeGW": 6,
+   "awayGW": 26,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Yuyi Lin",
       "Jason Ilkowitz"
@@ -133031,6 +133626,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
       "Genifer Lefkowitz",
       "Jason Feldman"
@@ -133042,6 +133640,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Gwyneth Geressy",
       "Eden Ksendzovsky"
@@ -133053,6 +133654,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Tiffany Kaleikini",
       "Paul Iacullo"
@@ -133064,6 +133668,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
      "h": [
       "Tiffany Kaleikini",
       "Genifer Lefkowitz"
@@ -133075,6 +133682,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Abby Zhang",
       "Christina Schulz"
@@ -133086,6 +133696,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Eden Ksendzovsky",
       "Jason Feldman"
@@ -133097,6 +133710,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 6,
+     "as": 21,
      "h": [
       "Jason Ilkowitz",
       "Tyler Kaleikini"
@@ -133108,6 +133724,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Genifer Lefkowitz",
       "Jason Feldman"
@@ -133119,6 +133738,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 6,
+     "as": 21,
      "h": [
       "Yuyi Lin",
       "Tyler Kaleikini"
@@ -133130,6 +133752,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Tiffany Kaleikini",
       "Paul Iacullo"
@@ -133141,6 +133766,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 13,
+     "as": 21,
      "h": [
       "Gwyneth Geressy",
       "Eden Ksendzovsky"
@@ -133152,6 +133780,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Tiffany Kaleikini",
       "Genifer Lefkowitz"
@@ -133163,6 +133794,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Abby Zhang",
       "Christina Schulz"
@@ -133174,6 +133808,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Eden Ksendzovsky",
       "Jason Feldman"
@@ -133185,6 +133822,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Jason Ilkowitz",
       "Paul Iacullo"
@@ -133196,6 +133836,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Christina Schulz",
       "Eden Ksendzovsky"
@@ -133207,6 +133850,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Gwyneth Geressy",
       "Jason Feldman"
@@ -133218,6 +133864,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
      "h": [
       "Abby Zhang",
       "Tyler Kaleikini"
@@ -133229,6 +133878,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Tiffany Kaleikini",
       "Jason Ilkowitz"
@@ -133240,6 +133892,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Tiffany Kaleikini",
       "Yuyi Lin"
@@ -133251,6 +133906,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Abby Zhang",
       "Genifer Lefkowitz"
@@ -133262,6 +133920,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 15,
+     "as": 21,
      "h": [
       "Eden Ksendzovsky",
       "Paul Iacullo"
@@ -133273,6 +133934,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Jason Feldman",
       "Jason Ilkowitz"
@@ -133284,6 +133948,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Gwyneth Geressy",
       "Jason Feldman"
@@ -133295,6 +133962,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 10,
+     "as": 21,
      "h": [
       "Abby Zhang",
       "Tyler Kaleikini"
@@ -133306,6 +133976,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Christina Schulz",
       "Eden Ksendzovsky"
@@ -133317,6 +133990,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Yuyi Lin",
       "Paul Iacullo"
@@ -133328,6 +134004,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 9,
+     "as": 21,
      "h": [
       "Abby Zhang",
       "Yuyi Lin"
@@ -133339,6 +134018,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Gwyneth Geressy",
       "Christina Schulz"
@@ -133350,6 +134032,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Eden Ksendzovsky",
       "Tyler Kaleikini"
@@ -133361,6 +134046,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Jason Feldman",
       "Jason Ilkowitz"
@@ -133373,17 +134061,24 @@
    ]
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Montville",
    "away": "Pickleball Kingdom Tinton Falls",
    "time": "2026-11-18T19:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 1,
    "awaySeed": 4,
+   "homePoints": 678,
+   "awayPoints": 500,
+   "homeGW": 28,
+   "awayGW": 4,
    "games": [
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Alexa Laniado",
       "Brandon Tsang"
@@ -133395,6 +134090,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Addy Aquino",
       "Jason Huang"
@@ -133406,6 +134104,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Alexandra Sierer",
       "Sal Cocuzza"
@@ -133417,6 +134118,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Sarah Law",
       "Jeff Laniado"
@@ -133424,14 +134128,13 @@
      "a": [
       "Vanessa Tortorice",
       "Jim Nelson"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 24,
+     "as": 26,
      "h": [
       "Addy Aquino",
       "Alexandra Sierer"
@@ -133439,14 +134142,13 @@
      "a": [
       "Rachel Levkov",
       "Kimberley Levins"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Sarah Law",
       "Alexa Laniado"
@@ -133458,6 +134160,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Brandon Tsang",
       "Jeff Laniado"
@@ -133469,6 +134174,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Sal Cocuzza",
       "Jason Huang"
@@ -133480,6 +134188,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Alexa Laniado",
       "Jeff Laniado"
@@ -133491,6 +134202,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Alexandra Sierer",
       "Todd Green"
@@ -133498,14 +134212,13 @@
      "a": [
       "Kimberley Levins",
       "Jim Nelson"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Addy Aquino",
       "Kamal D"
@@ -133517,6 +134230,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Corie Stone",
       "Brandon Tsang"
@@ -133524,14 +134240,13 @@
      "a": [
       "Vanessa Tortorice",
       "Sammy Cohen"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Addy Aquino",
       "Sarah Law"
@@ -133543,6 +134258,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 5,
      "h": [
       "Alexa Laniado",
       "Corie Stone"
@@ -133550,14 +134268,13 @@
      "a": [
       "Lisa Weinthal",
       "Vanessa Tortorice"
-     ],
-     "aSub": [
-      0,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Jeff Laniado",
       "Sal Cocuzza"
@@ -133569,6 +134286,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Todd Green",
       "Kamal D"
@@ -133580,6 +134300,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Alexa Laniado",
       "Jeff Laniado"
@@ -133591,6 +134314,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Sarah Law",
       "Brandon Tsang"
@@ -133602,6 +134328,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Addy Aquino",
       "Todd Green"
@@ -133609,14 +134338,13 @@
      "a": [
       "Kimberley Levins",
       "Sammy Cohen"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Alexandra Sierer",
       "Sal Cocuzza"
@@ -133624,14 +134352,13 @@
      "a": [
       "Vanessa Tortorice",
       "Shawn Mayer"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Alexa Laniado",
       "Alexandra Sierer"
@@ -133643,6 +134370,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 26,
+     "as": 24,
      "h": [
       "Sarah Law",
       "Corie Stone"
@@ -133650,14 +134380,13 @@
      "a": [
       "Kimberley Levins",
       "Vanessa Tortorice"
-     ],
-     "aSub": [
-      1,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 11,
      "h": [
       "Jason Huang",
       "Brandon Tsang"
@@ -133669,6 +134398,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Kamal D",
       "Sal Cocuzza"
@@ -133680,6 +134412,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Alexa Laniado",
       "Brandon Tsang"
@@ -133691,6 +134426,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Sarah Law",
       "Jeff Laniado"
@@ -133702,6 +134440,9 @@
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Alexandra Sierer",
       "Todd Green"
@@ -133709,14 +134450,13 @@
      "a": [
       "Kimberley Levins",
       "Jim Nelson"
-     ],
-     "aSub": [
-      1,
-      0
      ]
     },
     {
      "t": "mixed",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Addy Aquino",
       "Jason Huang"
@@ -133728,6 +134468,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 25,
      "h": [
       "Addy Aquino",
       "Alexa Laniado"
@@ -133739,6 +134482,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Sarah Law",
       "Alexandra Sierer"
@@ -133746,14 +134492,13 @@
      "a": [
       "Kimberley Levins",
       "Vanessa Tortorice"
-     ],
-     "aSub": [
-      1,
-      1
      ]
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Jeff Laniado",
       "Brandon Tsang"
@@ -133765,6 +134510,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Todd Green",
       "Kamal D"
@@ -133776,6 +134524,9 @@
     },
     {
      "t": "mixed",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Alexandra Sierer",
       "Todd Green"
@@ -133788,6 +134539,9 @@
     },
     {
      "t": "female",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Alexa Laniado",
       "Sarah Law"
@@ -133796,14 +134550,13 @@
       "Perri Goldstein",
       "Kimberley Levins"
      ],
-     "aSub": [
-      0,
-      1
-     ],
      "tb": 1
     },
     {
      "t": "male",
+     "ns": 1,
+     "hs": null,
+     "as": null,
      "h": [
       "Brandon Tsang",
       "Jeff Laniado"
@@ -133815,6 +134568,46 @@
      "tb": 1
     }
    ]
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Picklr Fair Lawn",
+   "away": "Pickleball Kingdom Hillsborough",
+   "time": "2026-11-25T19:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 4
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Bounce Philly",
+   "away": "Forward",
+   "time": "2026-11-25T19:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 1
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Montville",
+   "away": "Pickleball Kingdom Watchung",
+   "time": "2026-11-25T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Jersey Devil Green",
+   "away": "Dill Dinkers Hatboro",
+   "time": "2026-11-25T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
   }
  ],
  "extraPlayerIds": {
@@ -135443,7 +136236,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-18T13:34:28.801Z";
+  DATA.meta.asOf = "2026-11-19T15:57:15.952Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;
