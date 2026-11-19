@@ -74333,17 +74333,24 @@
    "awaySeed": null
   },
   {
-   "result": null,
+   "result": "away",
    "round": 1,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Pickle House",
    "time": "2026-11-17T19:00:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 4,
    "awaySeed": 3,
+   "homePoints": 585,
+   "awayPoints": 621,
+   "homeGW": 12,
+   "awayGW": 20,
    "games": [
     {
      "t": "male",
+     "ff": 0,
+     "hs": 7,
+     "as": 21,
      "h": [
       "Christopher Monzon",
       "Prashanth Koshy"
@@ -74355,6 +74362,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Akash Raju",
       "Yashraj Kurani"
@@ -74366,6 +74376,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Elliott Albanese",
       "George Vega Jr"
@@ -74377,6 +74390,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Jonathan Ye",
       "Varun Kabaria"
@@ -74388,6 +74404,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Ritesh Patel",
       "Jonathan Ye"
@@ -74399,6 +74418,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Varun Kabaria",
       "Christopher Monzon"
@@ -74410,6 +74432,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Akash Raju",
       "Yashraj Kurani"
@@ -74421,6 +74446,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Elliott Albanese",
       "George Vega Jr"
@@ -74432,6 +74460,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Elliott Albanese",
       "Akash Raju"
@@ -74443,6 +74474,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "George Vega Jr",
       "Christopher Monzon"
@@ -74454,6 +74488,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Prashanth Koshy",
       "Ritesh Patel"
@@ -74465,6 +74502,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Jonathan Ye",
       "Yashraj Kurani"
@@ -74476,6 +74516,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "George Vega Jr",
       "Christopher Monzon"
@@ -74487,6 +74530,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 22,
+     "as": 24,
      "h": [
       "Elliott Albanese",
       "Akash Raju"
@@ -74498,6 +74544,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Ritesh Patel",
       "Yashraj Kurani"
@@ -74509,6 +74558,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Varun Kabaria",
       "Jonathan Ye"
@@ -74520,6 +74572,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Akash Raju",
       "Jonathan Ye"
@@ -74531,6 +74586,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Elliott Albanese",
       "Yashraj Kurani"
@@ -74542,6 +74600,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Varun Kabaria",
       "Prashanth Koshy"
@@ -74553,6 +74614,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "George Vega Jr",
       "Ritesh Patel"
@@ -74564,6 +74628,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 14,
+     "as": 21,
      "h": [
       "Akash Raju",
       "Jonathan Ye"
@@ -74575,6 +74642,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "George Vega Jr",
       "Prashanth Koshy"
@@ -74586,6 +74656,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Varun Kabaria",
       "Christopher Monzon"
@@ -74597,6 +74670,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Yashraj Kurani",
       "Elliott Albanese"
@@ -74608,6 +74684,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Akash Raju",
       "George Vega Jr"
@@ -74619,6 +74698,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Christopher Monzon",
       "Prashanth Koshy"
@@ -74630,6 +74712,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Elliott Albanese",
       "Jonathan Ye"
@@ -74641,6 +74726,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Yashraj Kurani",
       "Ritesh Patel"
@@ -74652,6 +74740,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Yashraj Kurani",
       "Prashanth Koshy"
@@ -74663,6 +74754,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 24,
+     "as": 26,
      "h": [
       "Akash Raju",
       "George Vega Jr"
@@ -74674,6 +74768,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Elliott Albanese",
       "Jonathan Ye"
@@ -74685,6 +74782,9 @@
     },
     {
      "t": "male",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
      "h": [
       "Ritesh Patel",
       "Varun Kabaria"
@@ -75168,8 +75268,8 @@
       "Jacob Yoo"
      ],
      "a": [
-      "Kapil Khanna",
-      ""
+      "Yash Mehta",
+      "Imran Mazhar"
      ],
      "tb": 1
     },
@@ -75183,8 +75283,8 @@
       "Matthew Carrington"
      ],
      "a": [
-      "Yash Mehta",
-      "Imran Mazhar"
+      "Kapil Khanna",
+      "Pritpal Singh"
      ],
      "tb": 1
     },
@@ -75198,7 +75298,7 @@
       "Bryan Mccourt"
      ],
      "a": [
-      "Pritpal Singh",
+      "Venu Yengala",
       "Harsh Upadhyaya"
      ],
      "tb": 1
@@ -76236,22 +76336,32 @@
   {
    "result": null,
    "round": 2,
+   "home": "Pickleball Kingdom Lehigh Valley",
+   "away": "Pickleball HQ",
+   "time": "2026-11-24T19:00:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Bounce Malvern",
+   "away": "Pickle House",
+   "time": "2026-11-24T19:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 3
+  },
+  {
+   "result": null,
+   "round": 2,
    "home": "Montville",
    "away": "Pickleball Kingdom Hamilton",
    "time": "2026-11-24T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 4
-  },
-  {
-   "result": null,
-   "round": 2,
-   "home": "Pickleball Kingdom Lehigh Valley",
-   "away": "Pickleball HQ",
-   "time": "2026-11-24T19:30:00",
-   "complete": false,
-   "homeSeed": 2,
-   "awaySeed": 2
   },
   {
    "result": null,
@@ -77139,7 +77249,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-18T13:36:31.967Z";
+  DATA.meta.asOf = "2026-11-19T00:36:03.948Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

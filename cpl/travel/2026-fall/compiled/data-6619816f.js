@@ -51779,7 +51779,7 @@
       "Jason Makarevic"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Thomas Connolly"
      ]
     },
@@ -51802,7 +51802,7 @@
      ],
      "a": [
       "Kelly Arvidson",
-      "Patrick Ryan"
+      "Sean O'Connell"
      ]
     },
     {
@@ -51823,7 +51823,7 @@
       "Anisha Malhotra"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Melissa Dardani"
      ]
     },
@@ -51845,7 +51845,7 @@
       "Sidd Pathare"
      ],
      "a": [
-      "Ross Switkes",
+      "Sean O'Connell",
       "Patrick Ryan"
      ]
     },
@@ -51867,7 +51867,7 @@
       "James Cannizzaro"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Thomas Connolly"
      ]
     },
@@ -51911,7 +51911,7 @@
       "Anisha Malhotra"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Melissa Dardani"
      ]
     },
@@ -51955,7 +51955,7 @@
       "Chris Long"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Robbie Oddy"
      ]
     },
@@ -51999,7 +51999,7 @@
       "Amy Yan"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Aimee Castellano"
      ]
     },
@@ -52043,7 +52043,7 @@
       "James Cannizzaro"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Robbie Oddy"
      ]
     },
@@ -52087,7 +52087,7 @@
       "Amy Yan"
      ],
      "a": [
-      "Suzi Battison",
+      "Susan Ackley",
       "Aimee Castellano"
      ]
     },
@@ -52177,7 +52177,7 @@
      ],
      "a": [
       "Charlotte Healey",
-      "Bruno Casino"
+      "William Hayes"
      ]
     },
     {
@@ -52221,7 +52221,7 @@
      ],
      "a": [
       "Zachary Lessner",
-      "Bruno Casino"
+      "Dustin Rabinowitz"
      ]
     },
     {
@@ -52243,7 +52243,7 @@
      ],
      "a": [
       "Alyssa Boyle",
-      "Bruno Casino"
+      "Alexander Tong"
      ]
     },
     {
@@ -52308,7 +52308,7 @@
       "Vince Ha"
      ],
      "a": [
-      "Bruno Casino",
+      "Zachary Lessner",
       "Dustin Rabinowitz"
      ]
     },
@@ -52385,7 +52385,7 @@
       "Nick Meale"
      ],
      "a": [
-      "Bruno Casino",
+      "William Hayes",
       "Dustin Rabinowitz"
      ]
     },
@@ -52430,7 +52430,7 @@
      ],
      "a": [
       "Rachel Alfano",
-      "Bruno Casino"
+      "Dustin Rabinowitz"
      ]
     },
     {
@@ -52473,7 +52473,7 @@
       "Nick Meale"
      ],
      "a": [
-      "Bruno Casino",
+      "Zachary Lessner",
       "William Hayes"
      ]
     },
@@ -54059,7 +54059,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-18T13:23:20.139Z";
+  DATA.meta.asOf = "2026-11-19T00:34:28.260Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
