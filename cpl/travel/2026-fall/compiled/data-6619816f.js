@@ -53623,7 +53623,7 @@
    "round": 2,
    "home": "Pickleball Kingdom Hillsborough",
    "away": "Pickle House",
-   "time": "2026-11-25T19:00:00",
+   "time": "2026-12-02T19:00:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2
@@ -53633,7 +53633,7 @@
    "round": 2,
    "home": "Dill Dinkers Hatboro The Factory",
    "away": "Bounce Malvern",
-   "time": "2026-11-25T19:30:00",
+   "time": "2026-12-02T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2
@@ -54479,7 +54479,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-19T15:57:58.805Z";
+  DATA.meta.asOf = "2026-11-20T00:43:56.233Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

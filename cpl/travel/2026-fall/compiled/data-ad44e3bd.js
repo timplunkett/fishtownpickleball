@@ -43009,17 +43009,24 @@
  ],
  "playoffs": [
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Montville",
    "away": "Flemington Blue",
    "time": "2026-11-19T10:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 659,
+   "awayPoints": 553,
+   "homeGW": 25,
+   "awayGW": 7,
    "games": [
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Sarah Law",
       "Ronnie Kostak"
@@ -43031,6 +43038,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Vilayvanh Sysounthone",
       "Joanne Rim"
@@ -43042,6 +43052,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Ani Stone",
       "Kelly Lopinto"
@@ -43053,6 +43066,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Jess Cox",
       "Janine Thompson"
@@ -43064,6 +43080,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Sarah Law",
       "Joanne Rim"
@@ -43075,17 +43094,23 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 12,
      "h": [
       "Ronnie Kostak",
       "Vilayvanh Sysounthone"
      ],
      "a": [
-      "Jessica Wormeck",
+      "Karen Waldon",
       "Kelly Bowers"
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "San Yang",
       "Kumi Dalton"
@@ -43097,6 +43122,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Jess Cox",
       "Theresa Corderi"
@@ -43108,6 +43136,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Jess Cox",
       "Kelly Lopinto"
@@ -43119,17 +43150,23 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Ani Stone",
       "Ronnie Kostak"
      ],
      "a": [
       "Mary Brashier",
-      "Jessica Wormeck"
+      "Holly Ferguson"
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Vilayvanh Sysounthone",
       "Joanne Rim"
@@ -43141,6 +43178,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Janine Thompson",
       "Kumi Dalton"
@@ -43152,6 +43192,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Ani Stone",
       "Sarah Law"
@@ -43163,6 +43206,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Jess Cox",
       "Kelly Lopinto"
@@ -43174,6 +43220,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 17,
+     "as": 21,
      "h": [
       "Ronnie Kostak",
       "Maria Borges"
@@ -43185,6 +43234,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Kumi Dalton",
       "San Yang"
@@ -43196,17 +43248,23 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Ani Stone",
       "San Yang"
      ],
      "a": [
       "Johanna Kreilick",
-      "Jessica Wormeck"
+      "Peggy Matzen"
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Ronnie Kostak",
       "Sarah Law"
@@ -43218,6 +43276,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Vilayvanh Sysounthone",
       "Maria Borges"
@@ -43229,6 +43290,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Theresa Corderi",
       "Kelly Lopinto"
@@ -43240,6 +43304,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Ronnie Kostak",
       "Vilayvanh Sysounthone"
@@ -43251,6 +43318,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 12,
+     "as": 21,
      "h": [
       "Kelly Lopinto",
       "Theresa Corderi"
@@ -43262,6 +43332,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Janine Thompson",
       "Kumi Dalton"
@@ -43273,17 +43346,23 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Jess Cox",
       "Joanne Rim"
      ],
      "a": [
       "Nancy Cook",
-      "Jessica Wormeck"
+      "Johanna Kreilick"
      ]
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 15,
      "h": [
       "Jess Cox",
       "Sarah Law"
@@ -43295,6 +43374,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Ani Stone",
       "Joanne Rim"
@@ -43306,6 +43388,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 29,
+     "as": 27,
      "h": [
       "Vilayvanh Sysounthone",
       "San Yang"
@@ -43317,6 +43402,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Theresa Corderi",
       "Maria Borges"
@@ -43328,6 +43416,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Joanne Rim",
       "Sarah Law"
@@ -43339,6 +43430,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Ani Stone",
       "Kelly Lopinto"
@@ -43350,6 +43444,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Janine Thompson",
       "San Yang"
@@ -43361,6 +43458,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 10,
      "h": [
       "Maria Borges",
       "Theresa Corderi"
@@ -43383,17 +43483,24 @@
    "awaySeed": null
   },
   {
-   "result": null,
+   "result": "home",
    "round": 1,
    "home": "Life Time Red Bank",
    "away": "PKLD",
    "time": "2026-11-19T11:30:00",
-   "complete": false,
+   "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "homePoints": 655,
+   "awayPoints": 524,
+   "homeGW": 23,
+   "awayGW": 9,
    "games": [
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Rachel Levkov",
       "Gina Faccone"
@@ -43405,6 +43512,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 23,
+     "as": 21,
      "h": [
       "Marian Kingston",
       "Marie Walsh Mccarty"
@@ -43416,6 +43526,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 7,
      "h": [
       "Kathy Baker",
       "Kathleen Nitti"
@@ -43427,6 +43540,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 17,
      "h": [
       "Brittany Messing",
       "Caroline Kinlin"
@@ -43438,6 +43554,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Gina Faccone",
       "Kathleen Nitti"
@@ -43449,6 +43568,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Caroline Kinlin",
       "Marie Walsh Mccarty"
@@ -43460,6 +43582,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Kathy Baker",
       "Brittany Messing"
@@ -43471,6 +43596,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 25,
+     "as": 23,
      "h": [
       "Rachel Levkov",
       "Jackie Coneeny"
@@ -43482,6 +43610,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 11,
+     "as": 21,
      "h": [
       "Gina Faccone",
       "Kathy Baker"
@@ -43493,6 +43624,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 16,
+     "as": 21,
      "h": [
       "Brittany Messing",
       "Marian Kingston"
@@ -43504,6 +43638,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Rachel Levkov",
       "Caroline Kinlin"
@@ -43515,6 +43652,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Kathleen Nitti",
       "Marie Walsh Mccarty"
@@ -43526,6 +43666,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 19,
+     "as": 21,
      "h": [
       "Rachel Levkov",
       "Kathy Baker"
@@ -43537,6 +43680,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Gina Faccone",
       "Kathleen Nitti"
@@ -43548,6 +43694,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Brittany Messing",
       "Marian Kingston"
@@ -43559,6 +43708,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Jackie Coneeny",
       "Caroline Kinlin"
@@ -43570,6 +43722,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Gina Faccone",
       "Kathy Baker"
@@ -43581,6 +43736,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Rachel Levkov",
       "Jackie Coneeny"
@@ -43592,6 +43750,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Kathleen Nitti",
       "Marian Kingston"
@@ -43603,6 +43764,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 13,
      "h": [
       "Brittany Messing",
       "Marie Walsh Mccarty"
@@ -43614,6 +43778,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 14,
      "h": [
       "Kathy Baker",
       "Jackie Coneeny"
@@ -43625,6 +43792,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Gina Faccone",
       "Marian Kingston"
@@ -43636,6 +43806,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 19,
      "h": [
       "Kathleen Nitti",
       "Brittany Messing"
@@ -43647,6 +43820,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 9,
      "h": [
       "Rachel Levkov",
       "Caroline Kinlin"
@@ -43658,6 +43834,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 8,
      "h": [
       "Rachel Levkov",
       "Kathleen Nitti"
@@ -43669,6 +43848,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 18,
+     "as": 21,
      "h": [
       "Marie Walsh Mccarty",
       "Jackie Coneeny"
@@ -43680,6 +43862,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 22,
+     "as": 20,
      "h": [
       "Marian Kingston",
       "Caroline Kinlin"
@@ -43691,6 +43876,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 4,
      "h": [
       "Gina Faccone",
       "Brittany Messing"
@@ -43702,6 +43890,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 20,
+     "as": 22,
      "h": [
       "Rachel Levkov",
       "Gina Faccone"
@@ -43713,6 +43904,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 23,
      "h": [
       "Kathy Baker",
       "Kathleen Nitti"
@@ -43724,6 +43918,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 16,
      "h": [
       "Brittany Messing",
       "Marie Walsh Mccarty"
@@ -43735,6 +43932,9 @@
     },
     {
      "t": "female",
+     "ff": 0,
+     "hs": 21,
+     "as": 18,
      "h": [
       "Marian Kingston",
       "Jackie Coneeny"
@@ -43755,6 +43955,26 @@
    "complete": false,
    "homeSeed": 1,
    "awaySeed": null
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Flemington Green",
+   "away": "Montville",
+   "time": "2026-11-26T10:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Pickleball Kingdom Tinton Falls",
+   "away": "Life Time Red Bank",
+   "time": "2026-11-26T11:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2
   }
  ],
  "extraPlayerIds": {
@@ -44334,7 +44554,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-19T15:59:40.171Z";
+  DATA.meta.asOf = "2026-11-20T00:45:01.504Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["ad44e3bd"] = DATA;
