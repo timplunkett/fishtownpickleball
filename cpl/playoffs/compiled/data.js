@@ -26,7 +26,7 @@ window.CPL_PLAYOFFS = {
    "slug": "1e12eb3f",
    "division": "3.0 (50+)",
    "teams": 26,
-   "asOf": "2026-11-20T14:16:18.130Z",
+   "asOf": "2026-11-20T14:28:39.441Z",
    "stage": "playoffs",
    "current": "Round of 16",
    "regular": {"played":156,"total":156},
