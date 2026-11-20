@@ -43017,6 +43017,7 @@
    "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "game": 4,
    "homePoints": 659,
    "awayPoints": 553,
    "homeGW": 25,
@@ -43480,7 +43481,8 @@
    "time": "2026-11-19T11:00:00",
    "complete": false,
    "homeSeed": 1,
-   "awaySeed": null
+   "awaySeed": null,
+   "game": 3
   },
   {
    "result": "home",
@@ -43491,6 +43493,7 @@
    "complete": true,
    "homeSeed": 2,
    "awaySeed": 3,
+   "game": 2,
    "homePoints": 655,
    "awayPoints": 524,
    "homeGW": 23,
@@ -43954,7 +43957,8 @@
    "time": "2026-11-19T12:00:00",
    "complete": false,
    "homeSeed": 1,
-   "awaySeed": null
+   "awaySeed": null,
+   "game": 1
   },
   {
    "result": null,
@@ -43964,7 +43968,8 @@
    "time": "2026-11-26T10:30:00",
    "complete": false,
    "homeSeed": 1,
-   "awaySeed": 2
+   "awaySeed": 2,
+   "game": 2
   },
   {
    "result": null,
@@ -43974,7 +43979,8 @@
    "time": "2026-11-26T11:30:00",
    "complete": false,
    "homeSeed": 1,
-   "awaySeed": 2
+   "awaySeed": 2,
+   "game": 1
   }
  ],
  "extraPlayerIds": {

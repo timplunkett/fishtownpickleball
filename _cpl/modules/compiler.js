@@ -1229,6 +1229,9 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
       time: m.scheduledTime || null, complete,
       homeSeed: m.homePodRanking ?? null, awaySeed: m.awayPodRanking ?? null,
     };
+    // The match's slot in its round's bracket: games 2k-1 and 2k of one round
+    // feed game k of the next. See bracketByGame in playoff-outputs.js.
+    if (m.playoffGame != null) rec.game = m.playoffGame;
     if (m.provisional) rec.provisional = true;
     if (complete && d) {
       let hgw = 0, agw = 0;

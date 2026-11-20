@@ -595,9 +595,12 @@
   }
 
   function divisionSectionHtml(row) {
-    var projected = (row.rounds || []).some(function (round) { return round.projected; });
+    // A round posted in part has projected matches of its own.
+    var projected = (row.rounds || []).some(function (round) {
+      return round.slots.some(function (slot) { return slot.projected; });
+    });
     var legend = projected
-      ? '<p class="po-note po-note-quiet">Dashed rounds aren’t posted by the league yet; they are drawn from how the pods were seeded.</p>'
+      ? '<p class="po-note po-note-quiet">Dashed matches aren’t posted by the league yet; they show who meets whom as the earlier rounds are decided.</p>'
       : '';
     var body = row.rounds && row.rounds.length
       ? bracketHtml(row) + legend + bronzeHtml(row) + fieldHtml(row)

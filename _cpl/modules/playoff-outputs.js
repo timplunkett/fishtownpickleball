@@ -75,6 +75,12 @@ function slotOf(match) {
   return slot;
 }
 
+// The game number of a match, kept on the working copy of its slot only.
+function withGame(slot, match) {
+  if (match.game != null) slot.game = match.game;
+  return slot;
+}
+
 // Who goes through. A bye's team goes through without playing; a projected
 // slot has not been played by definition.
 function winnerOf(slot) {
@@ -245,6 +251,71 @@ function pairByCrossover(slots, members, podOf) {
   return pairs;
 }
 
+// --- Drawing the bracket from the league's game numbers -----------------------
+//
+// Each playoff match also carries `game`, its slot within its round: games
+// 2k-1 and 2k of one round feed game k of the next, which is how the league's
+// own bracket is drawn. Every archived travel bracket follows it. With game
+// numbers the whole bracket can be drawn from the first round, whatever the
+// pods are, and a round posted only in part keeps its posted matches.
+//
+// The numbers are still checked against the teams: a later match has to be
+// between the survivors of the two games that feed it. A first round that is
+// not games 1..n for a power-of-two n, or any match that does not fit, and the
+// numbers are not trusted at all — the pods and teams take over as before.
+function bracketByGame(posted) {
+  const numbered = (slot) => Number.isInteger(slot.game) && slot.game >= 1;
+  if (!posted.every((round) => round.slots.every(numbered))) return null;
+
+  const placeByGame = (slots, width, isFinal) => {
+    const byGame = new Map();
+    for (const slot of slots) {
+      // A lone final keeps whatever number it had before the bronze match was
+      // split off it.
+      const game = isFinal && slots.length === 1 ? 1 : slot.game;
+      if (game > width || byGame.has(game)) return null;
+      byGame.set(game, slot);
+    }
+    return byGame;
+  };
+
+  const first = posted[0].slots;
+  const size = first.length;
+  if (size & (size - 1)) return null;
+  const firstByGame = placeByGame(first, size, size === 1);
+  if (!firstByGame || firstByGame.size !== size) return null;
+  const rounds = [{ number: posted[0].number, slots: Array.from({ length: size }, (_, i) => firstByGame.get(i + 1)) }];
+
+  for (let width = size / 2, level = 1; width >= 1; width /= 2, level += 1) {
+    const previous = rounds[level - 1].slots;
+    const round = posted[level];
+    const byGame = round ? placeByGame(round.slots, width, width === 1) : new Map();
+    if (!byGame) return null;
+    const slots = [];
+    for (let k = 1; k <= width; k += 1) {
+      const from = [2 * k - 2, 2 * k - 1];
+      const [a, b] = from.map((index) => previous[index]);
+      let slot = byGame.get(k);
+      if (slot) {
+        const fits = !slot.bye && slot.home != null && slot.away != null && (
+          (a.teams.includes(slot.home) && b.teams.includes(slot.away))
+          || (b.teams.includes(slot.home) && a.teams.includes(slot.away))
+        );
+        if (!fits) return null;
+      } else {
+        slot = { home: winnerOf(a), away: winnerOf(b), projected: true };
+      }
+      slot.from = from;
+      slot.teams = [...new Set([...a.teams, ...b.teams])];
+      slots.push(slot);
+    }
+    rounds.push({ number: round ? round.number : null, ...(round ? {} : { projected: true }), slots });
+  }
+  // More posted rounds than the first round leaves room for.
+  if (posted.length > rounds.length) return null;
+  return rounds;
+}
+
 // --- One division's bracket --------------------------------------------------
 
 // The bracket as rounds of slots, each later slot naming the two slots of the
@@ -270,15 +341,19 @@ function buildBracket(data) {
 
   // Working copies carry `teams`, every team that has fed the slot, for the
   // pairing above. It is stripped before anything is written.
-  const rounds = posted.map((matches, index) => ({
+  const working = () => posted.map((matches, index) => ({
     number: numbers[index],
     slots: matches.map((match) => {
-      const slot = slotOf(match);
+      const slot = withGame(slotOf(match), match);
       slot.teams = participants(slot);
       return slot;
     }),
   }));
 
+  const byGame = bracketByGame(working());
+  if (byGame) return bracketOut(byGame, numbers, { linked: true, drawPending: false, medal });
+
+  const rounds = working();
   let linked = true;
   for (let index = 1; index < rounds.length; index += 1) {
     const links = linkRounds(rounds[index - 1].slots, rounds[index].slots);
@@ -317,6 +392,11 @@ function buildBracket(data) {
     drawPending = rounds[rounds.length - 1].slots.length > 1;
   }
 
+  return bracketOut(rounds, numbers, { linked, drawPending, medal });
+}
+
+// The working rounds as written out: working fields stripped, each round named.
+function bracketOut(rounds, numbers, { linked, drawPending, medal }) {
   const bronze = medal ? slotOf(medal.bronze) : null;
   const out = rounds.map((round, index) => ({
     label: roundName(round.slots.length),
@@ -324,6 +404,7 @@ function buildBracket(data) {
     slots: round.slots.map((slot) => {
       const clean = { ...slot };
       delete clean.teams;
+      delete clean.game;
       if (clean.projected) {
         if (clean.home == null) delete clean.home;
         if (clean.away == null) delete clean.away;

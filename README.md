@@ -141,8 +141,19 @@ builds from the compiled shards — the same split as the archive's `data.js`.
 Finished seasons are the archive's job, so they are not on it.
 
 The API publishes a bracket as a flat list of matches per round, a round at a
-time, and says nothing about which match feeds which. The compiler works that
-out:
+time. Each match carries `playoffGame`, its slot in the round, and that is what
+the compiler draws from:
+
+- **Game numbers draw the whole bracket.** Games 2k−1 and 2k of a round feed
+  game k of the next — the league's own bracket, and every archived travel
+  bracket follows it. So the first round alone draws every round to the final,
+  and a round posted in part keeps its posted matches. The numbers are checked
+  against the teams (a later match has to be between survivors of the two games
+  that feed it); a first round that isn't games 1..n, or any match that doesn't
+  fit, and the bracket falls back to the rules below. The suite redraws every
+  archived bracket from its first round and requires an exact match.
+
+Without usable game numbers (some local brackets have none):
 
 - **Posted rounds are linked through the teams.** Each match in a round is
   between the survivors of two matches of the round before. If any match fails
@@ -152,8 +163,9 @@ out:
   crossover (A1 v B4 meets B2 v A3, a bye meets the match whose lower seed is
   from the bye-holder's pod). Anything ambiguous is left undrawn, and the page
   says the draw is not out yet. A wrong bracket tells a team who it plays next,
-  so the test suite cuts every archived bracket back a round at a time and
-  requires the redraw to match what was played, or to abstain.
+  so the test suite cuts every archived bracket back a round at a time, game
+  numbers stripped, and requires the redraw to match what was played, or to
+  abstain.
 - The medal round is read as in "Working out who won", with one more check: a
   3v4 between two of the previous round's *winners* is a semi-final, not a
   bronze match, because seeds are within the round.

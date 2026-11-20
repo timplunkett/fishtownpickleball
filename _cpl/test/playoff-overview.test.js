@@ -2,9 +2,10 @@
 // _cpl/modules/playoff-outputs.js, and the page that draws it.
 //
 // The model has two jobs that can go wrong without anything looking broken.
-// Linking posted rounds into a bracket, which the API gives no help with; and
-// drawing the rounds nobody has posted yet, which is a guess unless the pods
-// make it a certainty. A wrong guess tells a team who it plays next, so the
+// Linking posted rounds into a bracket; and drawing the rounds nobody has
+// posted yet. Game numbers settle both; without them the posted rounds link
+// through the teams, and a later round is a guess unless the pods make it a
+// certainty. A wrong guess tells a team who it plays next, so the
 // suite holds every archived bracket to "redrawn exactly or not at all".
 //
 // Data comes from archived seasons and synthetic brackets only. A current
@@ -53,6 +54,94 @@ const CROSSED_ROUND_1 = [
 ];
 
 const pairsOf = (round) => round.slots.map((slot) => (slot.from || []).slice().sort((a, b) => a - b).join('-')).sort().join(' ');
+
+// Who can reach each match of a round, as sorted team lists. Unlike pairsOf it
+// doesn't depend on the order a round's slots are listed in, so brackets drawn
+// different ways can be compared.
+function teamPairsOf(bracket, level) {
+  const reach = [];
+  bracket.rounds.forEach((round, at) => {
+    reach[at] = round.slots.map((slot) => (slot.from
+      ? slot.from.flatMap((index) => reach[at - 1][index])
+      : [slot.home, slot.away].filter((name) => name != null)));
+  });
+  return reach[level].map((names) => names.slice().sort().join('+')).sort().join(' | ');
+}
+
+// --- Game numbers ------------------------------------------------------------------
+
+// A bracket as it would arrive without game numbers, for the pods to draw.
+const withoutGames = (playoffs) => playoffs.map((m) => {
+  const copy = { ...m };
+  delete copy.game;
+  return copy;
+});
+
+// Eight teams from eight pods, so the pods settle nothing: only the numbers do.
+const SCATTERED_TEAMS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'].map((name) => team(name, `Pod ${name}`));
+const numbered = (round, game, home, away, result) => match(round, home, away, result, 1, 2, { game });
+
+test('game numbers draw a bracket the pods cannot', () => {
+  const playoffs = [
+    numbered(1, 3, 'E', 'F'),
+    numbered(1, 1, 'A', 'B'),
+    numbered(1, 4, 'G', 'H'),
+    numbered(1, 2, 'C', 'D'),
+  ];
+  assert.equal(buildBracket({ teams: SCATTERED_TEAMS, playoffs: withoutGames(playoffs) }).drawPending, true);
+
+  const bracket = buildBracket({ teams: SCATTERED_TEAMS, playoffs });
+  assert.equal(bracket.linked, true);
+  assert.equal(bracket.drawPending, false);
+  assert.deepEqual(bracket.rounds[0].slots.map((slot) => slot.home), ['A', 'C', 'E', 'G']);
+  assert.equal(teamPairsOf(bracket, 1), 'A+B+C+D | E+F+G+H');
+  assert.deepEqual(bracket.rounds.map((round) => round.label), ['Quarterfinals', 'Semifinals', 'Championship']);
+  assert.ok(bracket.rounds[0].slots.every((slot) => !('game' in slot)), 'the working game number leaked out');
+});
+
+test('a round posted in part keeps its posted matches and draws the rest', () => {
+  const bracket = buildBracket({
+    teams: SCATTERED_TEAMS,
+    playoffs: [
+      numbered(1, 1, 'A', 'B', 'home'),
+      numbered(1, 2, 'C', 'D', 'away'),
+      numbered(1, 3, 'E', 'F', 'home'),
+      numbered(1, 4, 'G', 'H', 'home'),
+      numbered(2, 2, 'E', 'G'),
+    ],
+  });
+  const semis = bracket.rounds[1];
+  assert.equal(semis.projected, undefined);
+  assert.deepEqual(semis.slots[0], { home: 'A', away: 'D', projected: true, from: [0, 1] });
+  assert.equal(semis.slots[1].home, 'E');
+  assert.equal(semis.slots[1].projected, undefined);
+  assert.deepEqual(semis.slots[1].from, [2, 3]);
+});
+
+test('game numbers that disagree with the teams are not trusted', () => {
+  const playoffs = [
+    numbered(1, 1, 'A', 'B', 'home'),
+    numbered(1, 2, 'C', 'D', 'home'),
+    numbered(1, 3, 'E', 'F', 'home'),
+    numbered(1, 4, 'G', 'H', 'home'),
+    // A beat B in game 1 and E beat F in game 3: they can't meet in semi 1.
+    numbered(2, 1, 'A', 'E'),
+    numbered(2, 2, 'C', 'G'),
+  ];
+  const bracket = buildBracket({ teams: SCATTERED_TEAMS, playoffs });
+  // The teams link the posted rounds as they were actually played instead.
+  assert.equal(teamPairsOf(bracket, 1), 'A+B+E+F | C+D+G+H');
+});
+
+test('a first round that is not games 1 to n is not trusted', () => {
+  const playoffs = [
+    numbered(1, 1, 'A', 'B'),
+    numbered(1, 2, 'C', 'D'),
+    numbered(1, 2, 'E', 'F'),
+    numbered(1, 4, 'G', 'H'),
+  ];
+  assert.equal(buildBracket({ teams: SCATTERED_TEAMS, playoffs }).drawPending, true);
+});
 
 test('a round with nothing after it is drawn forward from a crossover seeding', () => {
   const bracket = buildBracket({ teams: CROSSED_TEAMS, playoffs: CROSSED_ROUND_1 });
@@ -246,14 +335,19 @@ test('every archived bracket links into one tree that ends in its champion', () 
 
 // The guarantee that matters: cut an archived bracket back to a round, and the
 // rounds drawn forward from it either match what was actually played or are
-// not drawn at all.
-test('cut back a round at a time, every archived bracket is redrawn exactly or not at all', () => {
+// not drawn at all. Game numbers are stripped, so this holds the pods alone to
+// it — they are what draws a bracket whose matches carry no numbers.
+
+test('cut back a round at a time, every archived bracket is redrawn from the pods exactly or not at all', () => {
   let redrawn = 0;
   for (const { division, data } of archivedBrackets()) {
     const truth = buildBracket(data);
     const numbers = [...new Set(data.playoffs.map((m) => m.round))].sort((a, b) => a - b);
     for (let keep = 1; keep < numbers.length; keep += 1) {
-      const cut = buildBracket({ ...data, playoffs: data.playoffs.filter((m) => m.round <= numbers[keep - 1]) });
+      const cut = buildBracket({
+        ...data,
+        playoffs: withoutGames(data.playoffs.filter((m) => m.round <= numbers[keep - 1])),
+      });
       for (let level = keep; level < cut.rounds.length; level += 1) {
         assert.equal(
           pairsOf(cut.rounds[level]),
@@ -265,6 +359,29 @@ test('cut back a round at a time, every archived bracket is redrawn exactly or n
     }
   }
   assert.ok(redrawn >= 20, `only ${redrawn} projected rounds were checked — the abstention rule may have swallowed them all`);
+});
+
+// With game numbers there is no abstaining: the first round alone draws the
+// whole bracket, and it has to be the one that was played.
+test('every archived bracket with game numbers is redrawn exactly from its first round', () => {
+  let checked = 0;
+  for (const { division, data } of archivedBrackets()) {
+    if (!data.playoffs.every((m) => Number.isInteger(m.game))) continue;
+    const truth = buildBracket({ ...data, playoffs: withoutGames(data.playoffs) });
+    const first = Math.min(...data.playoffs.map((m) => m.round));
+    const cut = buildBracket({ ...data, playoffs: data.playoffs.filter((m) => m.round === first) });
+    assert.equal(cut.drawPending, false, `${division.label} stopped short of a final`);
+    assert.equal(cut.rounds.length, truth.rounds.length, `${division.label} drew a different number of rounds`);
+    for (let level = 1; level < truth.rounds.length; level += 1) {
+      assert.equal(
+        teamPairsOf(cut, level),
+        teamPairsOf(truth, level),
+        `${division.label}: ${truth.rounds[level].label} was drawn wrong from game numbers`,
+      );
+    }
+    checked += 1;
+  }
+  assert.ok(checked >= 10, `only ${checked} archived brackets carry game numbers — the check above saw next to nothing`);
 });
 
 test('the overview names every archived round the way the dashboard does', () => {
