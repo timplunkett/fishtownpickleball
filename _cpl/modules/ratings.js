@@ -456,6 +456,12 @@ function computeRatings(completed, detailByMatchupId, lambda = RIDGE_LAMBDA) {
 // matches are in. Grouping by calendar date (rather than exact scheduledTime)
 // keeps same-night, different-court staggered start times — the common case —
 // collapsed into one round.
+//
+// A playoff matchup arrives with `playoffRound` set and `weekNumber` already
+// moved past the regular season (see computeWeeklyRatingHistory), so the
+// bracket's rounds sort after every week; their labels are "P1", "P2", ….
+const weekLabelOf = (round) => (round.playoffRound != null ? `P${round.playoffRound}` : String(round.week));
+
 function groupMatchupsIntoRounds(completed) {
   const dateOnly = (t) => (t ? String(t).slice(0, 10) : '');
   const roundKeyOf = (matchup) => `${matchup.weekNumber}::${dateOnly(matchup.scheduledTime)}`;
@@ -464,7 +470,10 @@ function groupMatchupsIntoRounds(completed) {
   for (const matchup of completed) {
     const key = roundKeyOf(matchup);
     if (!roundByKey.has(key)) {
-      roundByKey.set(key, { key, week: matchup.weekNumber, sortTime: matchup.scheduledTime || '' });
+      roundByKey.set(key, {
+        key, week: matchup.weekNumber, sortTime: matchup.scheduledTime || '',
+        ...(matchup.playoffRound != null ? { playoffRound: matchup.playoffRound } : {}),
+      });
     }
   }
 
@@ -483,9 +492,10 @@ function groupMatchupsIntoRounds(completed) {
     round.roundsInWeek = roundsPerWeek.get(round.week);
     // "Week 3" when the week is a single round (the common case, unchanged
     // from before); "3a" / "3b" / ... when the week has more than one.
+    round.baseLabel = weekLabelOf(round);
     round.label = round.roundsInWeek > 1
-      ? `${round.week}${String.fromCharCode(96 + round.round)}`
-      : String(round.week);
+      ? `${round.baseLabel}${String.fromCharCode(96 + round.round)}`
+      : round.baseLabel;
   });
 
   return { rounds, roundKeyOf };
@@ -503,7 +513,14 @@ function groupMatchupsIntoRounds(completed) {
 // what the old week-only computation always showed. Only when a player has
 // more than one real round in the same week do we keep them all, each with
 // its own label ("2a" / "2b" / ...).
-function collapsePlayerHistory(rawEntries, finalRoundByWeek) {
+//
+// A playoff round is not a bye for someone who didn't play in it: most of the
+// division never plays a playoff match, and one flat point per round on all
+// their charts would say nothing. So a playoff round a player sat out is
+// dropped, except the last round of all — the refit after the final still
+// moves everyone a little (every rating is solved jointly), and the history has
+// to end on the rating the player is shown with.
+function collapsePlayerHistory(rawEntries, finalRoundByWeek, lastWeek) {
   let prevRatingGames = null;
   const marked = rawEntries.map((entry) => {
     const isReal = prevRatingGames == null || entry.ratingGames !== prevRatingGames;
@@ -518,10 +535,14 @@ function collapsePlayerHistory(rawEntries, finalRoundByWeek) {
     while (j < marked.length && marked[j].entry.week === marked[i].entry.week) j++;
     const group = marked.slice(i, j);
     const realOnes = group.filter((m) => m.isReal).map((m) => m.entry);
+    const satOutPlayoffRound = !realOnes.length && group[0].entry.playoffRound != null
+      && group[0].entry.week !== lastWeek;
     const weekEntries = realOnes.length ? realOnes : [group[group.length - 1].entry];
+    const canonical = finalRoundByWeek.get(weekEntries[0].week);
 
-    if (weekEntries.length === 1) {
-      const canonical = finalRoundByWeek.get(weekEntries[0].week);
+    if (satOutPlayoffRound) {
+      // Nothing kept: see above.
+    } else if (weekEntries.length === 1) {
       kept.push({ ...weekEntries[0], round: 1, roundsInWeek: 1, seq: canonical.seq, label: canonical.label });
     } else {
       weekEntries.forEach((entry, index) => {
@@ -529,7 +550,7 @@ function collapsePlayerHistory(rawEntries, finalRoundByWeek) {
           ...entry,
           round: index + 1,
           roundsInWeek: weekEntries.length,
-          label: `${entry.week}${String.fromCharCode(97 + index)}`,
+          label: `${canonical.label}${String.fromCharCode(97 + index)}`,
         });
       });
     }
@@ -538,14 +559,28 @@ function collapsePlayerHistory(rawEntries, finalRoundByWeek) {
   return kept;
 }
 
-function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
-  const { rounds, roundKeyOf } = groupMatchupsIntoRounds(completed);
+// `playoffs` are the completed playoff matchups, rated like any other week and
+// charted after the last one: round n of the bracket becomes a week past the
+// regular season's last, labelled "Pn" and carrying `playoffRound: n` instead
+// of a `week` (that week number is only an ordering key and isn't shipped).
+// `detailByMatchupId` has to hold their details too.
+function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById, { playoffs = [] } = {}) {
+  const lastRegularWeek = Math.max(0, ...completed.map((matchup) => matchup.weekNumber || 0));
+  const rated = [
+    ...completed,
+    ...playoffs.map((matchup) => ({
+      ...matchup,
+      weekNumber: lastRegularWeek + (matchup.weekNumber || 1),
+      playoffRound: matchup.weekNumber || 1,
+    })),
+  ];
+  const { rounds, roundKeyOf } = groupMatchupsIntoRounds(rated);
   const seqByRoundKey = new Map(rounds.map((round) => [round.key, round.seq]));
   const rawHistoryByPid = {};
 
   rounds.forEach((round) => {
     const snapshotRatings = computeRatings(
-      completed.filter((matchup) => seqByRoundKey.get(roundKeyOf(matchup)) <= round.seq),
+      rated.filter((matchup) => seqByRoundKey.get(roundKeyOf(matchup)) <= round.seq),
       detailByMatchupId,
     );
     const ratedPlayers = Object.entries(snapshotRatings)
@@ -559,6 +594,7 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
     ratedPlayers.forEach(([pid, snapshot], index) => {
       (rawHistoryByPid[pid] = rawHistoryByPid[pid] || []).push({
         week: round.week,
+        ...(round.playoffRound != null ? { playoffRound: round.playoffRound } : {}),
         seq: round.seq,
         rating: snapshot.rating,
         confidence: snapshot.confidence,
@@ -574,7 +610,8 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
   // who didn't personally double up that week collapses down to, regardless
   // of which of the week's rounds their one real match actually fell in.
   const finalRoundByWeek = new Map();
-  for (const round of rounds) finalRoundByWeek.set(round.week, { seq: round.seq, label: String(round.week) });
+  for (const round of rounds) finalRoundByWeek.set(round.week, { seq: round.seq, label: round.baseLabel });
+  const lastWeek = rounds.length ? rounds[rounds.length - 1].week : null;
 
   // `round`/`roundsInWeek` only exist to drive the two decisions below (is
   // this entry part of a genuine per-player doubleheader, and does the
@@ -582,7 +619,7 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
   // actually ships, since nothing downstream reads them once that's decided.
   const collapsedByPid = {};
   for (const [pid, rawEntries] of Object.entries(rawHistoryByPid)) {
-    collapsedByPid[pid] = collapsePlayerHistory(rawEntries, finalRoundByWeek);
+    collapsedByPid[pid] = collapsePlayerHistory(rawEntries, finalRoundByWeek, lastWeek);
   }
 
   const weeksNeedingSplit = new Set();
@@ -592,10 +629,11 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
     }
   }
 
+  const weekKeyOf = (entry) => (entry.playoffRound != null ? { playoffRound: entry.playoffRound } : { week: entry.week });
   const historyByPid = {};
   for (const [pid, entries] of Object.entries(collapsedByPid)) {
     historyByPid[pid] = entries.map((entry) => ({
-      week: entry.week,
+      ...weekKeyOf(entry),
       seq: entry.seq,
       label: entry.label,
       rating: entry.rating,
@@ -612,8 +650,8 @@ function computeWeeklyRatingHistory(completed, detailByMatchupId, playersById) {
     .map((round) => {
       const splitting = round.roundsInWeek > 1 && weeksNeedingSplit.has(round.week);
       return {
-        week: round.week,
-        label: splitting ? round.label : String(round.week),
+        ...weekKeyOf(round),
+        label: splitting ? round.label : round.baseLabel,
         seq: round.seq,
       };
     });

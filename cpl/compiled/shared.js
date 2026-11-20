@@ -560,9 +560,10 @@
   // what the compiler's fallback is for.
   //
   // Only `m.complete` matches contribute: `m.games` on an incomplete match is
-  // a posted-but-unplayed lineup (see buildPendingGames), not a played game,
-  // and playoffs are excluded because the compiler never builds `P.games` from
-  // them either.
+  // a posted-but-unplayed lineup (see buildPendingGames), not a played game.
+  // DATA.matches holds no playoff matches; the playoff game log is derived
+  // separately, from playoffsAsMatches(DATA.playoffs), where a playoff
+  // tiebreak game keeps its `tb` flag.
   function derivePlayerGames(matches, players) {
     const pidByName = {};
     const seen = new Set();
@@ -618,6 +619,7 @@
               subFor: isSub ? side.myTeam : null,
               ...(withSub ? { withSub: 1 } : {}),
               ...(vsSub[0] || vsSub[1] ? { vsSub } : {}),
+              ...(g.tb ? { tb: 1 } : {}),
             });
           }
         }
@@ -630,6 +632,12 @@
     // exactly.
     Object.values(gamesByPid).forEach((games) => games.sort((a, b) => a.wk - b.wk));
     return gamesByPid;
+  }
+
+  // DATA.playoffs in the shape derivePlayerGames reads: a playoff match's round
+  // stands in for its week, so a player's playoff games come out as `wk` = round.
+  function playoffsAsMatches(playoffs) {
+    return (playoffs || []).map((match) => ({ ...match, week: match.round || 1 }));
   }
 
   // The groups the dashboard presents a division in: the league's own pods when it
@@ -1001,6 +1009,7 @@
     getCatalog,
     decodeHtmlEntities,
     derivePlayerGames,
+    playoffsAsMatches,
     displayPodGroups,
     loadErrorHtml,
     formatDataAge,

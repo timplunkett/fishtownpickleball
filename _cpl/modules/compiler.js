@@ -21,6 +21,7 @@ const {
   travelDivisionGender,
   displayPodGroups,
   derivePlayerGames,
+  playoffsAsMatches,
 } = require('./shared');
 const { getDivisionBracket } = require('./brackets');
 const { assignPods } = require('./pods');
@@ -184,7 +185,11 @@ function writeDataScript(outPath, data) {
 // runs, a player whose derived games matched has already had `games` deleted
 // off it, so this only ever ships the array for the handful it couldn't
 // rebuild, and never ships an empty one.
-const PLAYER_DETAIL_KEYS = ['log', 'games', 'ratingHistory', 'partners'];
+//
+// `playoffLog` / `playoffGames` are the same two logs for the player's playoff
+// matches, and `playoffGames` ships only as a fallback in the same way.
+const PLAYER_DETAIL_KEYS = ['log', 'games', 'playoffLog', 'playoffGames', 'ratingHistory', 'partners'];
+const FALLBACK_DETAIL_KEYS = new Set(['games', 'playoffGames']);
 
 function splitPlayerDetails(playerArr) {
   const detailByPid = {};
@@ -192,14 +197,23 @@ function splitPlayerDetails(playerArr) {
     const detail = {};
     let hasContent = false;
     for (const key of PLAYER_DETAIL_KEYS) {
-      if (key === 'games') {
+      if (FALLBACK_DETAIL_KEYS.has(key)) {
         // Only ever present here for the fallback players compileDivision
-        // kept `games` on; everyone else had it deleted already.
-        if (Array.isArray(player.games) && player.games.length) {
-          detail.games = player.games;
+        // kept the log on; everyone else had it deleted already.
+        if (Array.isArray(player[key]) && player[key].length) {
+          detail[key] = player[key];
           hasContent = true;
         }
-        delete player.games;
+        delete player[key];
+        continue;
+      }
+      if (key === 'playoffLog') {
+        // Most players never play a playoff match: no empty array for them.
+        if (Array.isArray(player.playoffLog) && player.playoffLog.length) {
+          detail.playoffLog = player.playoffLog;
+          hasContent = true;
+        }
+        delete player.playoffLog;
         continue;
       }
       detail[key] = player[key] || [];
@@ -773,7 +787,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     team: homeTeamByPid[p.playerId], matches: 0, outsideSub: false, isCaptain: !!p.isCaptain,
     gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
     mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
-    clutchWins: 0, clutchLosses: 0, log: [], games: [],
+    clutchWins: 0, clutchLosses: 0, log: [], games: [], playoffLog: [], playoffGames: [],
     winPct: 0, diff: 0, ppg: 0,
     leagueRank: p.ranking ?? null,
     rating: null, ratingGames: 0, confidence: 0,
@@ -915,6 +929,59 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   }
   seedRosterPlayers();
 
+  // One game, written into the log (`key`: 'games' or 'playoffGames') of each
+  // of the four players in it who has a row. `wk` is the week, or for a
+  // playoff game its round; `extra` is appended last ({ tb: 1 } on a playoff
+  // tiebreak game), matching derivePlayerGames key for key.
+  const logPlayerGame = (key, wk, homeName, awayName, g, subPids, subForByPid, extra = {}) => {
+    const persp = [
+      [g.homePlayerId1, g.homePlayerId2, awayName, g.awayPlayerId1, g.awayPlayerId2, g.homeScore, g.awayScore],
+      [g.homePlayerId2, g.homePlayerId1, awayName, g.awayPlayerId1, g.awayPlayerId2, g.homeScore, g.awayScore],
+      [g.awayPlayerId1, g.awayPlayerId2, homeName, g.homePlayerId1, g.homePlayerId2, g.awayScore, g.homeScore],
+      [g.awayPlayerId2, g.awayPlayerId1, homeName, g.homePlayerId1, g.homePlayerId2, g.awayScore, g.homeScore],
+    ];
+    for (const [me, partner, oppTeam, o1, o2, my, their] of persp) {
+      const P = players.get(me);
+      if (!P) continue;
+      // Sub status of the *other* three players in this specific game — the
+      // profiled player (`me`) can be looking at a partner or an opponent who
+      // subbed in, independent of whether `me` themselves is a sub. Omitted
+      // (rather than always written as 0/[0,0]) when nobody on the other
+      // side subbed, since that's the overwhelming majority of games and
+      // this recompiles every game, in every division, every season.
+      const withSub = subPids.has(partner);
+      const vsSub = [subPids.has(o1), subPids.has(o2)];
+      P[key].push({
+        wk, opp: oppTeam, t: g.matchType,
+        with: nameById[partner] || "", vs: [nameById[o1] || "", nameById[o2] || ""],
+        f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
+        sub: subForByPid[me] ? 1 : 0, subFor: subForByPid[me] || null,
+        ...(withSub ? { withSub: 1 } : {}),
+        ...(vsSub[0] || vsSub[1] ? { vsSub: [vsSub[0] ? 1 : 0, vsSub[1] ? 1 : 0] } : {}),
+        ...extra,
+      });
+    }
+  };
+
+  // A player who first turns up in a matchup's stat rows rather than on the
+  // roster: an outside sub, or a rostered sub with no row yet.
+  const ensureStatPlayer = (pid, teamName) => {
+    if (players.has(pid)) return players.get(pid);
+    const info = playerInfoById[pid] || {};
+    const P = {
+      name: nameById[pid] || "", gender: info.gender,
+      team: homeTeamByPid[pid] || teamName, matches: 0,
+      outsideSub: !homeTeamByPid[pid],
+      isCaptain: false,
+      gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
+      mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
+      clutchWins: 0, clutchLosses: 0, log: [], games: [], playoffLog: [], playoffGames: [],
+      playerId: pid,
+    };
+    players.set(pid, P);
+    return P;
+  };
+
   for (const mu of completed) {
     const d = resolvedDetailById.get(mu.matchupId) || null;
 
@@ -952,20 +1019,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     for (const p of ps) {
       if (!p.gamesPlayed) continue;
       const pid = p.playerId;
-      if (!players.has(pid)) {
-        const info = playerInfoById[pid] || {};
-        players.set(pid, {
-          name: nameById[pid] || "", gender: info.gender,
-          team: homeTeamByPid[pid] || TEAMNAME[p.teamId], matches: 0,
-          outsideSub: !homeTeamByPid[pid],
-          isCaptain: false,
-          gamesPlayed: 0, wins: 0, losses: 0, pointsWon: 0, totalPointsAgainst: 0,
-          mixedWins: 0, mixedLosses: 0, genderWins: 0, genderLosses: 0,
-          clutchWins: 0, clutchLosses: 0, log: [], games: [],
-          playerId: pid,
-        });
-      }
-      const P = players.get(pid);
+      const P = ensureStatPlayer(pid, TEAMNAME[p.teamId]);
       if (!p.isSub) P.matches++;
       P.gamesPlayed += p.gamesPlayed; P.wins += p.wins; P.losses += p.losses;
       P.pointsWon += p.pointsWon; P.totalPointsAgainst += p.totalPointsAgainst;
@@ -988,34 +1042,86 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 
     for (const g of games) {
       if (!isPlayed(g)) continue; // nothing to log: no result, and derivePlayerGames skips it too (`ns`)
-      const persp = [
-        [g.homePlayerId1, g.homePlayerId2, away.name, g.awayPlayerId1, g.awayPlayerId2, g.homeScore, g.awayScore],
-        [g.homePlayerId2, g.homePlayerId1, away.name, g.awayPlayerId1, g.awayPlayerId2, g.homeScore, g.awayScore],
-        [g.awayPlayerId1, g.awayPlayerId2, home.name, g.homePlayerId1, g.homePlayerId2, g.awayScore, g.homeScore],
-        [g.awayPlayerId2, g.awayPlayerId1, home.name, g.homePlayerId1, g.homePlayerId2, g.awayScore, g.homeScore],
-      ];
-      for (const [me, partner, oppTeam, o1, o2, my, their] of persp) {
-        const P = players.get(me);
-        if (!P) continue;
-        // Sub status of the *other* three players in this specific game — the
-        // profiled player (`me`) can be looking at a partner or an opponent who
-        // subbed in, independent of whether `me` themselves is a sub. Omitted
-        // (rather than always written as 0/[0,0]) when nobody on the other
-        // side subbed, since that's the overwhelming majority of games and
-        // this recompiles every game, in every division, every season.
-        const withSub = subPids.has(partner);
-        const vsSub = [subPids.has(o1), subPids.has(o2)];
-        P.games.push({
-          wk: mu.weekNumber, opp: oppTeam, t: g.matchType,
-          with: nameById[partner] || "", vs: [nameById[o1] || "", nameById[o2] || ""],
-          f: my, a: their, w: my > their ? 1 : 0, ff: isForfeit(g) ? 1 : 0,
-          sub: subForByPid[me] ? 1 : 0, subFor: subForByPid[me] || null,
-          ...(withSub ? { withSub: 1 } : {}),
-          ...(vsSub[0] || vsSub[1] ? { vsSub: [vsSub[0] ? 1 : 0, vsSub[1] ? 1 : 0] } : {}),
-        });
-      }
+      logPlayerGame('games', mu.weekNumber, home.name, away.name, g, subPids, subForByPid);
     }
   }
+
+  // Playoff matchups get the same provisional resolution as the regular
+  // season's, so a scored-but-unconfirmed bracket game counts and shows its
+  // result, flagged, like a regular-season one. They count toward the rating
+  // like any other week (see the ratings below) and give each player a
+  // playoff match log and game log of their own; standings and every other
+  // player total stay regular-season only.
+  const rawPlayoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
+  const rawPlayoffDetailById = new Map((playoffMatchupDetailsJson || []).map(x => [x.matchupId, x.details]));
+  const tiebreakFrom = regularMatchLength(detailById);
+  const {
+    matchups: playoffMatchups,
+    detailById: playoffDetailById,
+  } = applyProvisionalOutcomes(rawPlayoffMatchups, rawPlayoffDetailById, {
+    isSubForTeam: (playerId, teamId) => homeTeamByPid[playerId] !== teamNameById[teamId],
+    tiebreakFrom,
+  });
+  const completedPlayoffs = playoffMatchups.filter(m => m.endResult && playoffDetailById.get(m.matchupId));
+  // Every played game of a playoff match, with its tiebreak flag. Read from
+  // the unresolved details for a provisional match, as the bracket's own game
+  // list does (see the playoffs list below): resolving drops unplayed games,
+  // and with them the positions that say which games are the tiebreak.
+  const playedPlayoffGames = (m) => {
+    const d = playoffDetailById.get(m.matchupId);
+    const source = (m.provisional && rawPlayoffDetailById.get(m.matchupId)) || d;
+    const lineups = (source && source.lineups && source.lineups.lineups && source.lineups.lineups.$values) || [];
+    return lineups
+      .map((g, index) => ({ g, tb: isTiebreakIndex(index, tiebreakFrom) }))
+      .filter(({ g }) => isPlayed(g));
+  };
+
+  for (const mu of completedPlayoffs) {
+    const d = playoffDetailById.get(mu.matchupId);
+    const round = mu.weekNumber || 1;
+    const homeId = mu.homeTeamId;
+    const played = playedPlayoffGames(mu);
+    let hgw = 0, agw = 0;
+    for (const { g } of played) (g.homeScore > g.awayScore ? hgw++ : agw++);
+    const homeWon = mu.endResult === 'home';
+    const ps = (d.matchupPlayerStats && d.matchupPlayerStats.$values) || [];
+    const subPids = new Set();
+    const subForByPid = {};
+    for (const p of ps) {
+      if (p.isSub && p.gamesPlayed) { subPids.add(p.playerId); subForByPid[p.playerId] = teamNameById[p.teamId]; }
+    }
+    for (const p of ps) {
+      if (!p.gamesPlayed) continue;
+      const P = ensureStatPlayer(p.playerId, teamNameById[p.teamId]);
+      const isHome = p.teamId === homeId;
+      const teamWon = isHome ? homeWon : !homeWon;
+      // Same shape as a regular-season `log` entry, with the round for the week.
+      P.playoffLog.push({
+        round, opp: isHome ? mu.awayName : mu.homeName, homeAway: isHome ? "H" : "A",
+        w: p.wins, l: p.losses, gp: p.gamesPlayed, pf: p.pointsWon, pa: p.totalPointsAgainst,
+        mx: [p.mixedWins, p.mixedLosses], gn: [p.genderWins, p.genderLosses],
+        cl: [p.clutchWins, p.clutchLosses],
+        teamRes: teamWon ? "W" : "L", teamGW: isHome ? hgw : agw, teamGL: isHome ? agw : hgw,
+        sub: p.isSub ? 1 : 0, subFor: p.isSub ? teamNameById[p.teamId] : null,
+      });
+    }
+    for (const { g, tb } of played) {
+      logPlayerGame('playoffGames', round, mu.homeName, mu.awayName, g, subPids, subForByPid, tb ? { tb: 1 } : {});
+    }
+  }
+
+  // What the rating reads for a playoff match: its played games only. A
+  // confirmed match keeps the tiebreak round it didn't need, recorded 0–0,
+  // and computeRatings would take a 0–0 for an even game.
+  const ratingDetailById = new Map(resolvedDetailById);
+  for (const mu of completedPlayoffs) {
+    const d = playoffDetailById.get(mu.matchupId);
+    ratingDetailById.set(mu.matchupId, {
+      ...d,
+      lineups: { ...d.lineups, lineups: { ...d.lineups.lineups, $values: playedPlayoffGames(mu).map(({ g }) => g) } },
+    });
+  }
+  const ratedMatchups = [...completed, ...completedPlayoffs];
 
   let rankByPid = {};
   let rankByName = {};
@@ -1055,10 +1161,14 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   }
 
   // Ridge-APM ratings: partner/opponent-adjusted net points per game.
-  const ratings = computeRatings(completed, resolvedDetailById);
-  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(completed, resolvedDetailById, players);
+  // Playoff matches count like any other week, so a run through the bracket
+  // shows up in the rating, its weekly history and pair chemistry.
+  const ratings = computeRatings(ratedMatchups, ratingDetailById);
+  const { historyByPid, weeks: ratingHistoryWeeks } = computeWeeklyRatingHistory(
+    completed, ratingDetailById, players, { playoffs: completedPlayoffs },
+  );
   // Teammate-pair chemistry (over/under-performance vs. rating-expected result).
-  const { duos, partnersByPid } = computePairSynergy(completed, resolvedDetailById, ratings, homeTeamByPid, nameById);
+  const { duos, partnersByPid } = computePairSynergy(ratedMatchups, ratingDetailById, ratings, homeTeamByPid, nameById);
 
   const playerArr = [];
   for (const [pid, P] of players.entries()) {
@@ -1076,6 +1186,8 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
     P.isCaptain = captainTeamByPid[pid] === P.team;
     P.log.sort((a, b) => a.week - b.week);
     P.games.sort((a, b) => a.wk - b.wk);
+    P.playoffLog.sort((a, b) => a.round - b.round);
+    P.playoffGames.sort((a, b) => a.wk - b.wk);
     playerArr.push(P);
   }
   playerArr.sort((a, b) => (b.winPct - a.winPct) || (b.diff - a.diff));
@@ -1132,7 +1244,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // Reads the resolved details so a provisional result names its subs too — the
   // league hasn't published stat rows for it, but the synthesized ones carry isSub.
   const subNamesByMatchupId = {};
-  for (const [matchupId, details] of resolvedDetailById) {
+  for (const [matchupId, details] of [...resolvedDetailById, ...playoffDetailById]) {
     const subs = [];
     const players = (details && details.matchupPlayerStats && details.matchupPlayerStats.$values) || [];
     // Collect the set of player IDs that appear as regular (non-sub) roster members in this matchup.
@@ -1201,25 +1313,11 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
 
   const typicalDay = computeTypicalDay(matchups);
 
-  // Build the playoffs list from playoff matchups if available. Playoff results
-  // are display-only — the regular season alone drives standings and ratings — but
-  // they get the same provisional resolution so a scored-but-unconfirmed bracket
-  // game shows its result, flagged, like a regular-season one.
-  //
-  // A playoff match also carries a tiebreak round past the regular games (see
+  // Build the playoffs list from the playoff matchups resolved above. A playoff
+  // match also carries a tiebreak round past the regular games (see
   // isTiebreakIndex in ratings.js): its games are flagged `tb`, and when the
   // match didn't need them they're listed `ns` and counted by nothing — not as
   // games won by either side, which is what an unscored game used to be here.
-  const rawPlayoffMatchups = (playoffFeed && (playoffFeed.$values || firstValues(playoffFeed))) || [];
-  const rawPlayoffDetailById = new Map((playoffMatchupDetailsJson || []).map(x => [x.matchupId, x.details]));
-  const tiebreakFrom = regularMatchLength(detailById);
-  const {
-    matchups: playoffMatchups,
-    detailById: playoffDetailById,
-  } = applyProvisionalOutcomes(rawPlayoffMatchups, rawPlayoffDetailById, {
-    isSubForTeam: (playerId, teamId) => homeTeamByPid[playerId] !== teamNameById[teamId],
-    tiebreakFrom,
-  });
   const playoffs = [];
   for (const m of playoffMatchups) {
     const d = playoffDetailById.get(m.matchupId);
@@ -1253,7 +1351,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
         homeWin ? hgw++ : agw++;
         glist.push({ t: g.matchType, ff: isForfeit(g) ? 1 : 0, hs: g.homeScore, as: g.awayScore, h, a, ...tb });
       });
-      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist });
+      Object.assign(rec, { homePoints: m.homePoints, awayPoints: m.awayPoints, homeGW: hgw, awayGW: agw, games: glist, subs: subNamesByMatchupId[m.matchupId] || [] });
     } else if (d) {
       const pendingGames = buildPendingGames(d, nameById, m.homeName, m.awayName, homeTeamByPid, { tiebreakFrom });
       if (pendingGames.length) Object.assign(rec, { games: pendingGames });
@@ -1272,6 +1370,9 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   const gamesByPid = new Map(
     playerArr.filter((p) => p.playerId).map((p) => [p.playerId, p.games]),
   );
+  const playoffGamesByPid = new Map(
+    playerArr.filter((p) => p.playerId).map((p) => [p.playerId, p.playoffGames]),
+  );
 
   // The browser rebuilds a player's game log from DATA.matches via the same
   // derivePlayerGames this calls, so shipping it again here would duplicate
@@ -1279,16 +1380,21 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // can't reproduce — because a name it would need to key off is empty or
   // shared by more than one roster row (derivePlayerGames' own identity rule)
   // — keeps `games` in the detail shard, as a fallback. See PLAYER_DETAIL_KEYS.
+  //
+  // The playoff game log works the same way, from DATA.playoffs, its round
+  // standing in for the week (see playoffsAsMatches in shared.js).
   const derivedGamesByPid = derivePlayerGames(matches, playerArr);
+  const derivedPlayoffGamesByPid = derivePlayerGames(playoffsAsMatches(playoffs), playerArr);
   let fallbackGamesCount = 0;
   for (const player of playerArr) {
     if (!player.playerId) continue;
-    const derived = derivedGamesByPid[player.playerId] || [];
-    if (JSON.stringify(derived) === JSON.stringify(player.games)) {
-      delete player.games;
-    } else {
-      fallbackGamesCount += 1;
+    let fellBack = false;
+    for (const [key, derivedByPid] of [['games', derivedGamesByPid], ['playoffGames', derivedPlayoffGamesByPid]]) {
+      const derived = derivedByPid[player.playerId] || [];
+      if (JSON.stringify(derived) === JSON.stringify(player[key])) delete player[key];
+      else fellBack = true;
     }
+    if (fellBack) fallbackGamesCount += 1;
   }
   if (fallbackGamesCount) {
     console.log(`  ℹ ${fallbackGamesCount} player(s) keep a compiled game log — the browser's own derivation can't reproduce it (see derivePlayerGames).`);
@@ -1334,7 +1440,7 @@ function compileDivision(slug, divDataDir, outPath, detailOutPath, divisionMeta)
   // gamesByPid is only for the parity test (player-games-parity.test.js),
   // which needs the ground truth `games` built above regardless of whether it
   // was emitted; compileSeason ignores it.
-  return { asOf: DATA.meta.asOf, ratingByPid, gamesByPid };
+  return { asOf: DATA.meta.asOf, ratingByPid, gamesByPid, playoffGamesByPid };
 }
 
 // One season of one league, into cpl/<league>/<season>/.

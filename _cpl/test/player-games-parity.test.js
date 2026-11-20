@@ -2,7 +2,7 @@
 // cpl/app.js's mergePlayerDetails — CPLShared.derivePlayerGames plus the
 // compiler's own fallback for names it can't resolve — has to reproduce
 // exactly the `games` compileDivision itself computed for every player, in
-// every order. Compiling straight from the cached API JSON in _cpl/data-*/,
+// every order — and the same for `playoffGames`. Compiling straight from the cached API JSON in _cpl/data-*/,
 // rather than reading what's already in cpl/<league>/<season>/compiled/,
 // so this exercises the same derivation the next refresh will ship, not
 // whatever happened to be compiled last.
@@ -69,12 +69,13 @@ test('derivePlayerGames, via mergePlayerDetails, reproduces compileDivision\'s o
 
   let playersChecked = 0;
   let fallbackPlayersChecked = 0;
+  let playoffPlayersChecked = 0;
 
   for (const division of divisions) {
     const label = `${division.league}/${division.season}/${division.slug}`;
     const outPath = path.join(tmp, `data-${division.slug}.js`);
     const detailPath = path.join(tmp, `detail-${division.slug}.js`);
-    const { gamesByPid } = compileDivision(division.slug, division.dir, outPath, detailPath, {
+    const { gamesByPid, playoffGamesByPid } = compileDivision(division.slug, division.dir, outPath, detailPath, {
       // renderHeader requires a clubName for a local division; travel never
       // reads it. Neither affects the game log this test checks.
       clubName: division.league === 'local' ? 'Test Club' : '',
@@ -111,6 +112,21 @@ test('derivePlayerGames, via mergePlayerDetails, reproduces compileDivision\'s o
         `${label}: ${player.name} (${player.playerId})'s merged game log does not match compileDivision's own`,
       );
 
+      // The playoff game log, derived the same way from DATA.playoffs.
+      const playoffTruth = playoffGamesByPid.get(player.playerId) || [];
+      assert.deepEqual(
+        player.playoffGames,
+        playoffTruth,
+        `${label}: ${player.name} (${player.playerId})'s merged playoff game log does not match compileDivision's own`,
+      );
+      if (playoffTruth.length) playoffPlayersChecked += 1;
+      if (Array.isArray((details[player.playerId] || {}).playoffGames)) {
+        const badPlayoffName = badNames.has(player.name || '') || playoffTruth.some((g) => (
+          badNames.has(g.with) || badNames.has(g.vs[0]) || badNames.has(g.vs[1])
+        ));
+        assert.ok(badPlayoffName, `${label}: ${player.name} (${player.playerId}) keeps a compiled playoff game log with no empty/duplicate name nearby to explain it`);
+      }
+
       const keptFallback = Array.isArray((details[player.playerId] || {}).games);
       if (!keptFallback) continue;
       fallbackPlayersChecked += 1;
@@ -134,6 +150,9 @@ test('derivePlayerGames, via mergePlayerDetails, reproduces compileDivision\'s o
   }
 
   assert.ok(playersChecked > 0, 'no players were checked at all');
+  // All three default divisions played their playoffs: a playoff log nobody
+  // has would make the playoff half of this check vacuous.
+  assert.ok(playoffPlayersChecked > 0, 'no player with a playoff game was checked');
   if (fallbackPlayersChecked) {
     console.log(`  (${fallbackPlayersChecked} of ${playersChecked} checked players kept a compiled fallback game log)`);
   }

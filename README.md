@@ -130,6 +130,22 @@ stay out of a match's game record, the provisional call, and the Lineup Lab's
 weekly pair limit and playing-time bands; the lab's win chance gives them an
 even split to decide. See `_cpl/test/playoff-tiebreak.test.js`.
 
+### Playoffs in the rating
+
+Playoff matches count toward a player's rating like any other week: the
+rating, its weekly history and pair chemistry are all fitted over the regular
+season and every finished playoff match together (only played games — a
+tiebreak round the match didn't need is nobody's game). Standings and every
+other player total stay regular-season only. On the rating chart the bracket's
+rounds come after the last week (compiled as `playoffRound` with a `P1`, `P2`, …
+label, shown by round name); a player gets a point for each round they played
+in and, like everyone, one after the last round, since every rating is solved
+together and moves a little each time. Each player also gets a `playoffLog` and
+`playoffGames` (the playoff match table and game log, shipped and derived like
+`log` and `games`), which their modal shows in a section at the top and below
+the regular season's game-by-game log. A sub who played only in the playoffs
+gets a player row. See `computeWeeklyRatingHistory` in `_cpl/modules/ratings.js`.
+
 ### The playoff overview
 
 `/cpl/playoffs/` is every division of every **current** season on one page: a

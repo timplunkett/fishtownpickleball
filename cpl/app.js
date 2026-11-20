@@ -97,7 +97,7 @@ const RESULT_CLASS = Object.freeze({
 // Shared client utilities (cpl/compiled/shared.js loads before this file).
 const {
   escapeHtml, slugify, formatDuprRating, formatSignedValue, getPlayerIndex, buildDuprRatingIndex,
-  buildTeamAbbreviations, displayPodGroups, loadErrorHtml, formatDataAge, derivePlayerGames,
+  buildTeamAbbreviations, displayPodGroups, loadErrorHtml, formatDataAge, derivePlayerGames, playoffsAsMatches,
 } = window.CPLShared;
 
 // Remembered view preferences: which sections you left collapsed, and which of
@@ -800,6 +800,7 @@ function mergePlayerDetails() {
   // memoizes the call into this function), and every player's game log comes
   // out of the same pass over DATA.matches.
   const derivedGames = derivePlayerGames(DATA.matches, DATA.players);
+  const derivedPlayoffGames = derivePlayerGames(playoffsAsMatches(DATA.playoffs), DATA.players);
   for (const player of DATA.players) {
     const detail = player.playerId ? details[player.playerId] : null;
     // detail.games is the compiler's fallback for the players the derivation
@@ -809,8 +810,11 @@ function mergePlayerDetails() {
     // including when detail-*.js itself failed to load, since DATA.matches is
     // already on the page regardless.
     player.games = (detail && detail.games) || derivedGames[player.playerId] || [];
+    // The playoff game log, the same way: `wk` is the playoff round.
+    player.playoffGames = (detail && detail.playoffGames) || derivedPlayoffGames[player.playerId] || [];
     if (!detail) continue;
     player.log = detail.log || [];
+    player.playoffLog = detail.playoffLog || [];
     player.ratingHistory = detail.ratingHistory || [];
     player.partners = detail.partners || [];
   }
@@ -2349,6 +2353,30 @@ function renderModalHeader(player) {
   `;
 }
 
+// A rating snapshot's round, or an axis tick's: a regular-season week reads
+// "Wk 3" ("Wk 3a" for one of a split week's rounds), a playoff round by the
+// bracket's name for it. The compiler labels playoff rounds "P1", "P2", … and
+// marks them with `playoffRound` (see computeWeeklyRatingHistory).
+const PLAYOFF_ROUND_SHORT_LABELS = { Championship: 'Final', Semifinals: 'SF', Quarterfinals: 'QF' };
+function playoffRoundShortLabel(round) {
+  const name = playoffRoundLabel(round);
+  return PLAYOFF_ROUND_SHORT_LABELS[name] || name.replace('Round of ', 'R');
+}
+function ratingRoundSuffix(entry) {
+  return String(entry.label ?? '').replace(/^P\d+/, '');
+}
+function ratingRoundLabel(entry) {
+  if (entry.playoffRound == null) return `Wk ${entry.label ?? entry.week}`;
+  return `${playoffRoundShortLabel(entry.playoffRound)}${ratingRoundSuffix(entry)}`;
+}
+function ratingRoundTitle(entry) {
+  if (entry.playoffRound == null) return `Week ${entry.label ?? entry.week}`;
+  return `${playoffRoundLabel(entry.playoffRound)}${ratingRoundSuffix(entry)}`;
+}
+function ratingAxisLabel(entry) {
+  return entry.playoffRound == null ? `W${entry.label}` : ratingRoundLabel(entry);
+}
+
 function renderRatingTrendChart(player, history) {
   const weeks = ratingHistoryWeeks.length
     ? ratingHistoryWeeks
@@ -2431,7 +2459,7 @@ function renderRatingTrendChart(player, history) {
       const rankLabel = snapshot.rank == null ? '' : ` • #${snapshot.rank}`;
       return `
         <circle cx="${cx}" cy="${cy}" r="${radius}" fill="${getTeamColor(player.team)}" stroke="rgb(0 0 0 / 30%)" stroke-width="1.2">
-          <title>Week ${snapshot.label ?? snapshot.week}: ${formatSignedValue(snapshot.rating, 1)}${rankLabel} • ${snapshot.confidence}% confidence</title>
+          <title>${escapeHtml(ratingRoundTitle(snapshot))}: ${formatSignedValue(snapshot.rating, 1)}${rankLabel} • ${snapshot.confidence}% confidence</title>
         </circle>
       `;
     })
@@ -2441,7 +2469,7 @@ function renderRatingTrendChart(player, history) {
       const x = xScale(round.seq).toFixed(1);
       return `
         <line x1="${x}" y1="${top}" x2="${x}" y2="${H - bottom}" stroke="var(--line)" stroke-dasharray="2 4" opacity="0.45"/>
-        <text x="${x}" y="${H - 11}" text-anchor="middle" font-size="11" fill="var(--mut)">W${round.label}</text>
+        <text x="${x}" y="${H - 11}" text-anchor="middle" font-size="11" fill="var(--mut)">${escapeHtml(ratingAxisLabel(round))}</text>
       `;
     })
     .join('');
@@ -2489,7 +2517,7 @@ function renderRatingHistorySection(player) {
   const changeClass = change >= 0 ? 'pos-diff' : 'neg-diff';
   const currentRank = latestSnapshot.rank == null ? EMPTY_VALUE : `#${latestSnapshot.rank}`;
   const trendSummary = history.length > 1
-    ? `Change since Wk ${firstSnapshot.label ?? firstSnapshot.week}`
+    ? `Change since ${ratingRoundLabel(firstSnapshot)}`
     : 'Current snapshot';
   const rows = history
     .map((snapshot, index) => {
@@ -2499,7 +2527,7 @@ function renderRatingHistorySection(player) {
       const rankCell = snapshot.rank == null ? EMPTY_VALUE : `#${snapshot.rank}`;
       return `
         <div class="rhist-row">
-          <div class="wk">Wk ${snapshot.label ?? snapshot.week}</div>
+          <div class="wk">${escapeHtml(ratingRoundLabel(snapshot))}</div>
           <div class="val ${snapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(snapshot.rating, 1)}</div>
           <div class="df ${roundedDiff == null || roundedDiff === 0 ? 'mut' : roundedDiff > 0 ? 'pos-diff' : 'neg-diff'}">${roundedDiff == null || roundedDiff === 0 ? EMPTY_VALUE : formatSignedValue(roundedDiff, 1)}</div>
           <div class="rk">${rankCell}</div>
@@ -2511,7 +2539,7 @@ function renderRatingHistorySection(player) {
 
   return `
     <section class="mtrend">
-      <div class="gtitle">Rating by week <span>cumulative through each week • rank = among rated players in this division</span></div>
+      <div class="gtitle">Rating by week <span>cumulative through each week, playoffs included • rank = among rated players in this division</span></div>
       <div class="mtrend-chart">${renderRatingTrendChart(player, history)}</div>
       <div class="mtrend-summary">
         <div><span class="lab">Current</span><b class="${latestSnapshot.rating >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(latestSnapshot.rating, 1)}</b></div>
@@ -2530,12 +2558,14 @@ function renderRatingHistorySection(player) {
   `;
 }
 
-function renderMatchLogRows(player) {
-  return (player.log || [])
+// One row per match: a player's regular-season `log`, or with `playoff` their
+// `playoffLog`, whose rows carry the playoff round in place of the week.
+function renderMatchLogRows(player, { playoff = false } = {}) {
+  return ((playoff ? player.playoffLog : player.log) || [])
     .map(
       (game) => `
         <tr${game.sub ? ' class="subrow"' : ''}>
-          <td class="l">Wk ${game.week}${game.sub ? ` <span class="sub-tag" title="Intra-league sub — not counted in match totals">sub</span>` : ''}</td>
+          <td class="l">${playoff ? escapeHtml(playoffRoundLabel(game.round)) : `Wk ${game.week}`}${game.sub ? ` <span class="sub-tag" title="Intra-league sub — not counted in match totals">sub</span>` : ''}</td>
           <td class="l"><span class="teamdot" style="background:${getTeamColor(game.opp)}"></span>${game.homeAway === 'H' ? 'vs' : '@'} ${escapeHtml(game.opp)}${game.sub && game.subFor ? ` <span class="mut">(for ${escapeHtml(game.subFor)})</span>` : ''}</td>
           <td><b>${game.w}</b>–${game.l}</td>
           <td>${game.pf}–${game.pa}</td>
@@ -5068,20 +5098,30 @@ function getProjectedPlayerGames(player) {
   return [...projectedGames, ...playoffProjected];
 }
 
+// The game-by-game log: the regular season's games, then the playoffs' in the
+// same format under the round's name, then any projected games still to come.
+// A playoff game's `wk` is its round.
 function renderGameLogRows(player, projectedGames = []) {
   let gameLog = '';
   let lastWeek = null;
   let lastOpp = null;
+  let lastIsPlayoff = false;
+  const completedGames = [
+    ...(player.games || []),
+    ...(player.playoffGames || []).map((game) => ({ ...game, isPlayoff: true })),
+  ];
 
-  for (const game of player.games || []) {
-    if (game.wk !== lastWeek || game.opp !== lastOpp) {
+  for (const game of completedGames) {
+    if (game.wk !== lastWeek || game.opp !== lastOpp || Boolean(game.isPlayoff) !== lastIsPlayoff) {
       lastWeek = game.wk;
       lastOpp = game.opp;
+      lastIsPlayoff = Boolean(game.isPlayoff);
       const subNote = game.sub && game.subFor
         ? ` <span class="mut">(sub for ${escapeHtml(game.subFor)})</span>`
         : '';
+      const weekLabel = game.isPlayoff ? escapeHtml(playoffRoundLabel(game.wk)) : `Week ${game.wk}`;
       gameLog += `
-        <tr class="wkrow"><td colspan="${GAME_LOG_COLSPAN}" class="l">Week ${game.wk} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
+        <tr class="wkrow"><td colspan="${GAME_LOG_COLSPAN}" class="l">${weekLabel} • vs ${escapeHtml(game.opp)}${subNote}</td></tr>
       `;
     }
 
@@ -5098,25 +5138,29 @@ function renderGameLogRows(player, projectedGames = []) {
       : computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]);
     const expectTag = renderExpectationTag(expectation.margin, game.w === 1);
     const projection = describeProjectedOutcome(expectation);
+    const tiebreakTag = isTiebreakGame(game)
+      ? ' <span class="mut" title="Tiebreak round — played because the regular games split evenly">TB</span>'
+      : '';
     gameLog += `
       <tr${game.ff ? ' class="ffrow"' : (game.sub ? ' class="subrow"' : '')}>
         ${renderGameTypeCell(game.t)}
         <td class="l">${partnerCell}</td>
         <td class="l">${opponentCell}</td>
         <td class="${resultClass}">${game.f}–${game.a}</td>
-        <td class="${resultClass} l">${game.w ? 'W' : 'L'}${forfeitTag}${expectTag}</td>
+        <td class="${resultClass} l">${game.w ? 'W' : 'L'}${forfeitTag}${tiebreakTag}${expectTag}</td>
         <td class="${projection.resultClass}">${projection.displayLabel}${projection.estimateTag}</td>
       </tr>
     `;
   }
 
-  let lastIsPlayoff = false;
+  let lastWasProjected = false;
   for (const game of projectedGames) {
-    if (game.wk !== lastWeek || game.opp !== lastOpp || (game.isPlayoff || false) !== lastIsPlayoff) {
+    if (!lastWasProjected || game.wk !== lastWeek || game.opp !== lastOpp || Boolean(game.isPlayoff) !== lastIsPlayoff) {
+      lastWasProjected = true;
       lastWeek = game.wk;
       lastOpp = game.opp;
-      lastIsPlayoff = game.isPlayoff || false;
-      const weekLabel = game.isPlayoff ? `Playoffs` : `Week ${game.wk}`;
+      lastIsPlayoff = Boolean(game.isPlayoff);
+      const weekLabel = game.isPlayoff ? escapeHtml(playoffRoundLabel(game.wk)) : `Week ${game.wk}`;
       gameLog += `
         <tr class="wkrow wkrow-projected">
           <td colspan="${GAME_LOG_COLSPAN}" class="l"><span class="mut">(projected)</span> ${weekLabel} • vs ${escapeHtml(game.opp)}</td>
@@ -5232,16 +5276,69 @@ const MODAL_SKELETON = `
   <p class="mskel-note">Loading match history…</p>
 `;
 
+// The match table's header row, shared by the regular season's and the
+// playoffs' (`firstColumn` names the round column).
+function matchLogHeadHtml(firstColumn) {
+  return `
+    <thead>
+      <tr>
+        <th class="l">${firstColumn}</th>
+        <th class="l">Opponent</th>
+        <th>Ind. W–L</th>
+        <th>Pts F–A</th>
+        ${SINGLE_GENDER ? '' : '<th>Mixed</th><th>Same-gen</th>'}
+        <th>Clutch</th>
+        <th>Team result</th>
+      </tr>
+    </thead>
+  `;
+}
+
+// The player's playoff run, at the top of their modal: totals over every
+// playoff match they played, then one row per match in the same format as the
+// regular season's match table. Nothing for a player with no playoff match.
+// The header's numbers stay regular-season only; the rating counts both.
+function renderPlayoffStatsSection(player) {
+  const log = player.playoffLog || [];
+  if (!log.length) return '';
+  const sum = (pick) => log.reduce((total, entry) => total + pick(entry), 0);
+  const wins = sum((entry) => entry.w);
+  const losses = sum((entry) => entry.l);
+  const pointsFor = sum((entry) => entry.pf);
+  const pointsAgainst = sum((entry) => entry.pa);
+  const diff = pointsFor - pointsAgainst;
+  const games = wins + losses;
+  const winPct = games ? Math.round((1000 * wins) / games) / 10 : 0;
+  const teamWins = log.filter((entry) => !entry.sub && entry.teamRes === 'W').length;
+  const teamLosses = log.filter((entry) => !entry.sub && entry.teamRes === 'L').length;
+  const matchCount = log.length;
+  return `
+    <section class="mtrend mplayoffs">
+      <div class="gtitle">Playoffs <span>${matchCount} ${pluralize(matchCount, 'match', 'matches')} • counted in the rating below</span></div>
+      <div class="mtrend-summary">
+        <div><span class="lab">Games W–L</span><b>${wins}–${losses}</b> <span class="mut">${winPct}%</span></div>
+        <div><span class="lab">Points F–A</span><b>${pointsFor}–${pointsAgainst}</b> <span class="${diff >= 0 ? 'pos-diff' : 'neg-diff'}">${formatSignedValue(diff)}</span></div>
+        <div><span class="lab">Matches W–L</span><b>${teamWins}–${teamLosses}</b></div>
+      </div>
+      <table class="mlog">
+        ${matchLogHeadHtml('Round')}
+        <tbody>${renderMatchLogRows(player, { playoff: true })}</tbody>
+      </table>
+    </section>
+  `;
+}
+
 function renderModalBody(player) {
   const projectedGames = getProjectedPlayerGames(player);
   const matchRows = renderMatchLogRows(player);
   const gameRows = renderGameLogRows(player, projectedGames);
   const gameCount = (player.games || []).length;
+  const playoffGameCount = (player.playoffGames || []).length;
   const projectedCount = projectedGames.length;
   const ratingHistorySection = renderRatingHistorySection(player);
 
   let expectedWins = 0, expectedLosses = 0, upsetWins = 0, upsetLosses = 0;
-  for (const game of player.games || []) {
+  for (const game of [...(player.games || []), ...(player.playoffGames || [])]) {
     if (game.ff) continue;
     const em = computeExpectedOutcome(player.name, game.with, game.vs[0], game.vs[1]).margin;
     if (em === null || Math.abs(em) < 1.0) continue;
@@ -5259,24 +5356,15 @@ function renderModalBody(player) {
   const otherLeaguesSummary = renderOtherLeaguesSummary(player);
 
   return `
+    ${renderPlayoffStatsSection(player)}
     <div class="other-leagues-host">${otherLeaguesSummary}</div>
     ${ratingHistorySection}
     ${renderPartnerChemistrySection(player)}
     <table class="mlog">
-      <thead>
-        <tr>
-          <th class="l">Week</th>
-          <th class="l">Opponent</th>
-          <th>Ind. W–L</th>
-          <th>Pts F–A</th>
-          ${SINGLE_GENDER ? '' : '<th>Mixed</th><th>Same-gen</th>'}
-          <th>Clutch</th>
-          <th>Team result</th>
-        </tr>
-      </thead>
+      ${matchLogHeadHtml('Week')}
       <tbody>${matchRows}</tbody>
     </table>
-    <div class="gtitle">Game-by-game log <span>${gameCount} games${projectedCount ? ` + ${projectedCount} projected` : ''}${upsetLine}</span></div>
+    <div class="gtitle">Game-by-game log <span>${gameCount} games${playoffGameCount ? ` + ${playoffGameCount} playoff` : ''}${projectedCount ? ` + ${projectedCount} projected` : ''}${upsetLine}</span></div>
     <table class="mlog glog">
       <thead>
         <tr>
@@ -5290,7 +5378,7 @@ function renderModalBody(player) {
       </thead>
       <tbody>${gameRows}</tbody>
     </table>
-    <p class="mnote">The rating chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Partner chemistry lists everyone they have partnered: <b>Chemistry</b> is how many points per game the pair beats (or trails) the margin their four ratings predict, shrunk toward 0 on small samples and shown only at 3+ rated games together; <b>Actual/g</b> and <b>Expected/g</b> are the pair&#39;s real and predicted average margins. Forfeits are left out. Match table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted — a <b>TBD</b> slot is a lineup spot the team has not submitted yet, and a game with one still open cannot be projected.${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
+    <p class="mnote">The rating counts playoff matches like any other week, and the chart carries on through the playoff rounds a player played in, plus a last point after the final for everyone (every rating is solved together, so it moves a little after each round). The chart is cumulative through each week, so each point shows what the model would have said at that moment in the season; rank is the player&#39;s place among rated players in this division for that snapshot. Partner chemistry lists everyone they have partnered: <b>Chemistry</b> is how many points per game the pair beats (or trails) the margin their four ratings predict, shrunk toward 0 on small samples and shown only at 3+ rated games together; <b>Actual/g</b> and <b>Expected/g</b> are the pair&#39;s real and predicted average margins. Forfeits are left out. Match table = per-week match summary (league-recorded splits). Bottom = every individual game with partner, opponents and the actual final score, plus pending lineup projections when posted — a <b>TBD</b> slot is a lineup spot the team has not submitted yet, and a game with one still open cannot be projected.${SINGLE_GENDER ? '' : 'Type: <b>MIX</b> mixed • <b>W</b> women&#39;s • <b>M</b> men&#39;s. '}An <b>F</b> tag marks a forfeit/walkover (1–0) — it counts in the win/loss record but is excluded from the Rating. <b>sub</b> rows are intra-league sub appearances for another team and are not counted in the match total. Projection is rating-based and uses expected pair-rating margin (pts/game): <b>Proj W/L</b> = clear favorite/underdog (&gt;2.5 pt margin); <b>Slight W/L</b> = mild edge (1.0–2.5 pt margin); <b>Even</b> = too close to call (&lt;1.0 pt margin). For completed games the Result column shows: <b>exp</b> = result met expectations when there is a rating-based favorite; <b>↑</b> = upset win (overcame a pair-rating deficit of ≥1.0 pt); <b>↓</b> = upset loss (pair had a rating advantage of ≥1.0 pt). Tags appear only when all four players have a rating and the matchup is not rated Even.</p>
   `;
 }
 

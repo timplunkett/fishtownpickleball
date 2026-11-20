@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const {
   invertMatrix,
   computeRatings,
+  computeWeeklyRatingHistory,
   computePairSynergy,
   deriveProvisionalOutcome,
   isForfeit,
@@ -362,4 +363,61 @@ test('deriveProvisionalOutcome counts a 0–0 game for nobody', () => {
   // four away wins.
   const close = [...won.slice(0, 15), ...Array.from({ length: 13 }, () => game('a', 'b', 'c', 'd', 15, 21)), ...zeros];
   assert.equal(deriveProvisionalOutcome(detailWithGames(close)), null);
+});
+
+// Playoff matches are rated like another week, charted after the last one.
+// Four pairs: A/B and C/D play the regular season; only A/B and C/D reach the
+// bracket, E/F never play past week 2, and in round 2 only A/B play (a bye
+// for C/D, say), so C/D sit out a round that isn't the last.
+test('computeWeeklyRatingHistory rates playoff rounds after the regular season, under their own labels', () => {
+  const matchup = (id, weekNumber, scheduledTime) => ({ matchupId: id, weekNumber, scheduledTime });
+  const regular = [
+    matchup('r1', 1, '2026-05-01T19:00:00'),
+    matchup('r2', 2, '2026-05-08T19:00:00'),
+  ];
+  const playoffs = [
+    matchup('p1', 1, '2026-06-01T10:00:00'),
+    matchup('p2', 2, '2026-06-08T10:00:00'),
+    matchup('p3', 3, '2026-06-15T10:00:00'),
+  ];
+  const details = new Map([
+    ['r1', detailWithGames([game('a', 'b', 'c', 'd', 21, 15), game('a', 'b', 'e', 'f', 21, 10)])],
+    ['r2', detailWithGames([game('c', 'd', 'e', 'f', 21, 12)])],
+    ['p1', detailWithGames([game('a', 'b', 'c', 'd', 21, 19)])],
+    ['p2', detailWithGames([game('a', 'b', 'g', 'h', 21, 5)])],
+    ['p3', detailWithGames([game('a', 'b', 'c', 'd', 15, 21)])],
+  ]);
+  const players = new Map(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'].map((pid) => [pid, { name: pid }]));
+  const { historyByPid, weeks } = computeWeeklyRatingHistory(regular, details, players, { playoffs });
+
+  assert.deepEqual(weeks.map((w) => [w.week ?? null, w.playoffRound ?? null, w.label]), [
+    [1, null, '1'], [2, null, '2'], [null, 1, 'P1'], [null, 2, 'P2'], [null, 3, 'P3'],
+  ]);
+  const labels = (pid) => historyByPid[pid].map((entry) => entry.label);
+  assert.deepEqual(labels('a'), ['1', '2', 'P1', 'P2', 'P3'], 'played every round');
+  assert.deepEqual(labels('c'), ['1', '2', 'P1', 'P3'], 'sat out P2, which is not the last round');
+  assert.deepEqual(labels('e'), ['1', '2', 'P3'], 'no playoffs: only the last round, where the refit ends');
+  assert.deepEqual(labels('g'), ['P2', 'P3'], 'a playoff-only player starts in the playoffs');
+  for (const entry of historyByPid.a.filter((e) => e.label.startsWith('P'))) {
+    assert.equal(entry.week, undefined, 'a playoff round ships no week number');
+    assert.equal(entry.playoffRound, Number(entry.label.slice(1)));
+  }
+
+  // The last snapshot is the rating over everything, playoffs included.
+  const all = computeRatings([...regular, ...playoffs], details);
+  for (const pid of players.keys()) {
+    const last = historyByPid[pid].at(-1);
+    assert.equal(last.rating, all[pid].rating, `${pid}'s history doesn't end on their rating`);
+    assert.equal(last.ratingGames, all[pid].ratingGames);
+  }
+  assert.equal(all.a.ratingGames, 5, 'two regular games and three playoff games');
+});
+
+test('computeWeeklyRatingHistory without playoffs is unchanged', () => {
+  const regular = [{ matchupId: 'r1', weekNumber: 1, scheduledTime: '2026-05-01' }];
+  const details = new Map([['r1', detailWithGames([game('a', 'b', 'c', 'd', 21, 15)])]]);
+  const players = new Map(['a', 'b', 'c', 'd'].map((pid) => [pid, { name: pid }]));
+  const { historyByPid, weeks } = computeWeeklyRatingHistory(regular, details, players);
+  assert.deepEqual(weeks, [{ week: 1, label: '1', seq: 0 }]);
+  assert.deepEqual(Object.keys(historyByPid.a[0]).slice(0, 3), ['week', 'seq', 'label']);
 });

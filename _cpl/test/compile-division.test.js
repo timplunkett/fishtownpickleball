@@ -111,8 +111,8 @@ function writeDivision(dir, opts = {}) {
   const rows = [...players, ...(opts.extraPlayers || [])];
   fs.writeFileSync(path.join(dir, 'players.json'), JSON.stringify({ $values: opts.orderPlayers ? opts.orderPlayers(rows) : rows }));
   fs.writeFileSync(path.join(dir, 'matchupDetails.json'), JSON.stringify(opts.noSchedule ? [] : [...matchupDetails, ...(opts.extraMatchupDetails || [])]));
-  fs.writeFileSync(path.join(dir, 'playoffMatchups.json'), JSON.stringify({ $values: [] }));
-  fs.writeFileSync(path.join(dir, 'playoffMatchupDetails.json'), JSON.stringify([]));
+  fs.writeFileSync(path.join(dir, 'playoffMatchups.json'), JSON.stringify({ $values: opts.playoffMatchups || [] }));
+  fs.writeFileSync(path.join(dir, 'playoffMatchupDetails.json'), JSON.stringify(opts.playoffMatchupDetails || []));
 }
 
 function compileToObjects(t, opts = {}) {
@@ -136,6 +136,7 @@ function compileToObjects(t, opts = {}) {
     details: JSON.parse(JSON.stringify(sandbox.window.CPL_DETAILS.testslug)),
     ratingByPid: result.ratingByPid,
     gamesByPid: result.gamesByPid,
+    playoffGamesByPid: result.playoffGamesByPid,
   };
 }
 
@@ -836,4 +837,115 @@ test('a confirmed match\'s unplayed games count for neither side', (t) => {
   assert.deepEqual([team('Aces').gw, team('Aces').gl, team('Bandits').gw, team('Bandits').gl], [2, 0, 0, 2]);
   assert.deepEqual(team('Bandits').fmt.male, [0, 2]);
   assert.equal(gamesByPid.get('b1').length, 2, 'no phantom loss in the game log');
+});
+
+// A playoff match between Aces and Bandits: two games, then a tiebreak round
+// the match didn't need, recorded 0–0. Xia Xu is rostered as a sub and plays
+// only in the playoffs. A regular match here is two games long (the modal
+// lineup count; see regularMatchLength), so the third game is the tiebreak.
+function playoffFixture() {
+  const g = (h1, h2, a1, a2, homeScore, awayScore) => ({
+    homePlayerId1: h1, homePlayerId2: h2, awayPlayerId1: a1, awayPlayerId2: a2,
+    homeScore, awayScore, matchType: 'male', matchupId: 'p1',
+  });
+  return {
+    extraPlayers: [rosterPlayer('x1', 'Xia', 'Xu', TEAMS.B, 'Bandits', { isSub: true })],
+    playoffMatchups: [{
+      matchupId: 'p1', weekNumber: 1, homeTeamId: TEAMS.A, awayTeamId: TEAMS.B,
+      homeName: 'Aces', awayName: 'Bandits', homePoints: 22, awayPoints: 15,
+      endResult: 'home', scheduledTime: '2026-09-20T10:00:00', playoffGame: 1,
+      homePodRanking: 1, awayPodRanking: 2,
+    }],
+    playoffMatchupDetails: [{
+      matchupId: 'p1',
+      details: {
+        matchup: { endResult: 'home' },
+        matchupPlayerStats: { $values: [
+          matchupPlayer('a1', TEAMS.A, { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 15, genderWins: 2 }),
+          matchupPlayer('a2', TEAMS.A, { gamesPlayed: 2, wins: 2, losses: 0, pointsWon: 22, totalPointsAgainst: 15, genderWins: 2 }),
+          matchupPlayer('b1', TEAMS.B, { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 9, totalPointsAgainst: 11, genderLosses: 1 }),
+          matchupPlayer('b2', TEAMS.B, { gamesPlayed: 1, wins: 0, losses: 1, pointsWon: 6, totalPointsAgainst: 11, genderLosses: 1 }),
+          matchupPlayer('x1', TEAMS.B, { isSub: true, gamesPlayed: 2, wins: 0, losses: 2, pointsWon: 15, totalPointsAgainst: 22, genderLosses: 2 }),
+        ] },
+        lineups: { lineups: { $values: [
+          g('a1', 'a2', 'b1', 'x1', 11, 9),
+          g('a1', 'a2', 'b2', 'x1', 11, 6),
+          g('a1', 'a2', 'b1', 'b2', 0, 0),
+        ] } },
+      },
+    }],
+  };
+}
+
+test('playoff games count toward the rating, and nothing else regular-season', (t) => {
+  const without = compileToObjects(t, { extraPlayers: playoffFixture().extraPlayers });
+  const { data, details } = compileToObjects(t, playoffFixture());
+  const ann = data.players.find((p) => p.name === 'Ann Alpha');
+  const annBefore = without.data.players.find((p) => p.name === 'Ann Alpha');
+
+  // Two regular games and two playoff games; the unneeded 0–0 tiebreak is
+  // nobody's game, or it would have been read as an even one.
+  assert.equal(annBefore.ratingGames, 2);
+  assert.equal(ann.ratingGames, 4);
+  assert.ok(ann.rating > annBefore.rating, 'two more wins raise the rating');
+
+  // Every regular-season total and the standings are left alone.
+  for (const key of ['matches', 'gamesPlayed', 'wins', 'losses', 'pointsWon', 'winPct', 'diff']) {
+    assert.equal(ann[key], annBefore[key], `Ann's ${key} changed`);
+  }
+  const record = (teams) => teams.map(({ name, w, l, gw, gl, pf, pa }) => ({ name, w, l, gw, gl, pf, pa }));
+  assert.deepEqual(record(data.teams), record(without.data.teams));
+
+  // The rating history carries on into the bracket, under the round's label.
+  assert.deepEqual(data.meta.ratingHistoryWeeks.at(-1), { playoffRound: 1, label: 'P1', seq: 1 });
+  const lastSnapshot = details.a1.ratingHistory.at(-1);
+  assert.equal(lastSnapshot.label, 'P1');
+  assert.equal(lastSnapshot.rating, ann.rating);
+  assert.equal(lastSnapshot.ratingGames, 4);
+});
+
+test('a player\'s playoff matches get a match log and a game log of their own', (t) => {
+  const { data, details, playoffGamesByPid } = compileToObjects(t, playoffFixture());
+
+  assert.deepEqual(details.a1.playoffLog, [{
+    round: 1, opp: 'Bandits', homeAway: 'H', w: 2, l: 0, gp: 2, pf: 22, pa: 15,
+    mx: [0, 0], gn: [2, 0], cl: [0, 0], teamRes: 'W', teamGW: 2, teamGL: 0, sub: 0, subFor: null,
+  }]);
+  assert.equal(details.c1, undefined, 'a player with nothing to show ships no detail');
+  assert.equal(details.b1.playoffLog[0].teamRes, 'L');
+
+  // The game log is derived in the browser from DATA.playoffs, which now names
+  // the match's subs, so nobody here needs the compiled fallback.
+  assert.deepEqual(data.playoffs[0].subs, ['Xia Xu']);
+  assert.equal(details.a1.playoffGames, undefined);
+  assert.deepEqual(playoffGamesByPid.get('a1').map((g) => [g.wk, g.opp, g.with, g.vs, g.f, g.a, g.w, g.tb]), [
+    [1, 'Bandits', 'Abe Anders', ['Bea Bravo', 'Xia Xu'], 11, 9, 1, undefined],
+    [1, 'Bandits', 'Abe Anders', ['Ben Boone', 'Xia Xu'], 11, 6, 1, undefined],
+  ]);
+  assert.deepEqual(playoffGamesByPid.get('a1')[0].vsSub, [0, 1]);
+
+  // A sub who played only in the playoffs gets a row: no regular-season
+  // games, but a rating and the playoff logs.
+  const xia = data.players.find((p) => p.name === 'Xia Xu');
+  assert.ok(xia, 'the playoff-only sub has no player row');
+  assert.equal(xia.team, 'Bandits');
+  assert.equal(xia.gamesPlayed, 0);
+  assert.equal(xia.ratingGames, 2);
+  assert.ok(xia.rating < 0);
+  assert.equal(details.x1.playoffLog[0].sub, 1);
+  assert.equal(playoffGamesByPid.get('x1').length, 2);
+  assert.ok(playoffGamesByPid.get('x1').every((g) => g.sub === 1 && g.subFor === 'Bandits'));
+});
+
+test('a playoff tiebreak game that was played counts, flagged', (t) => {
+  const fixture = playoffFixture();
+  const games = fixture.playoffMatchupDetails[0].details.lineups.lineups.$values;
+  // 1–1 after the regular games, settled by the tiebreak.
+  games[1] = { ...games[1], homeScore: 6, awayScore: 11 };
+  games[2] = { ...games[2], homeScore: 11, awayScore: 4 };
+  const { data, details, playoffGamesByPid } = compileToObjects(t, fixture);
+  assert.equal(data.players.find((p) => p.name === 'Ann Alpha').ratingGames, 5);
+  const annGames = playoffGamesByPid.get('a1');
+  assert.deepEqual(annGames.map((g) => g.tb), [undefined, undefined, 1]);
+  assert.equal(details.a1.playoffGames, undefined, 'the browser derives the tb flag too');
 });
