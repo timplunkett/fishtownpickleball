@@ -16,21 +16,6 @@
       "awayPodRanking": 3
     },
     {
-      "matchupId": "c6c2b38d-b605-4dbf-93af-3fd2f36c45cc",
-      "weekNumber": 1,
-      "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-21T13:00:00",
-      "homeName": "PickleRage Union County",
-      "awayName": "Monroe",
-      "playoffGame": 3,
-      "homePodRanking": 2,
-      "awayPodRanking": 3
-    },
-    {
       "matchupId": "ff78a804-d14f-4b6b-9e2e-1cf4105d6b16",
       "weekNumber": 1,
       "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
@@ -42,6 +27,21 @@
       "homeName": "Flemington Blue",
       "awayName": "Dill Dinkers Hatboro",
       "playoffGame": 6,
+      "homePodRanking": 2,
+      "awayPodRanking": 3
+    },
+    {
+      "matchupId": "c6c2b38d-b605-4dbf-93af-3fd2f36c45cc",
+      "weekNumber": 1,
+      "homeTeamId": "67a23869-5ce4-4ea2-9dc4-5d522baeb63c",
+      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-21T13:30:00",
+      "homeName": "PickleRage Union County",
+      "awayName": "Monroe",
+      "playoffGame": 3,
       "homePodRanking": 2,
       "awayPodRanking": 3
     },

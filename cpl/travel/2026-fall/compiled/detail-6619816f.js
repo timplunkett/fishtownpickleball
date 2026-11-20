@@ -34278,7 +34278,7 @@
    },
    {
     "pid": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
-    "name": "Charles Wood",
+    "name": "Charlie Wood",
     "n": 4,
     "synergy": 0.2
    },
@@ -59914,7 +59914,7 @@
    },
    {
     "pid": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
-    "name": "Charles Wood",
+    "name": "Charlie Wood",
     "n": 4,
     "synergy": -1
    }
@@ -61708,7 +61708,7 @@
    },
    {
     "pid": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
-    "name": "Charles Wood",
+    "name": "Charlie Wood",
     "n": 3,
     "synergy": 0.6
    },
@@ -72447,7 +72447,7 @@
    },
    {
     "pid": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
-    "name": "Charles Wood",
+    "name": "Charlie Wood",
     "n": 4,
     "synergy": 0.4
    },

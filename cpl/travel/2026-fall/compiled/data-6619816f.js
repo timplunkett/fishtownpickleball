@@ -4816,7 +4816,7 @@
    "playerId": "772b8bd9-ee55-463b-8e7d-f5e571a2f047"
   },
   {
-   "name": "Charles Wood",
+   "name": "Charlie Wood",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
    "matches": 0,
@@ -10368,7 +10368,7 @@
   },
   {
    "a": "Simon Rosenwasser",
-   "b": "Charles Wood",
+   "b": "Charlie Wood",
    "team": "Jersey Pickleball Club",
    "n": 3,
    "w": 2,
@@ -11043,7 +11043,7 @@
    "bId": "fa43af77-3cd1-4e61-a8dc-bd714b65d517"
   },
   {
-   "a": "Charles Wood",
+   "a": "Charlie Wood",
    "b": "Kevin Wysoczynski",
    "team": "Jersey Pickleball Club",
    "n": 4,
@@ -11654,7 +11654,7 @@
    "bId": "e121745d-7833-45f1-965b-67653bd4751e"
   },
   {
-   "a": "Charles Wood",
+   "a": "Charlie Wood",
    "b": "Margaret Robb",
    "team": "Jersey Pickleball Club",
    "n": 4,
@@ -14852,7 +14852,7 @@
    "bId": "fa519fb1-87ca-4a7b-9265-4aba9807929f"
   },
   {
-   "a": "Charles Wood",
+   "a": "Charlie Wood",
    "b": "Molly Mae Almora",
    "team": "Jersey Pickleball Club",
    "n": 4,
@@ -43644,7 +43644,7 @@
      ],
      "a": [
       "Molly Mae Almora",
-      "Charles Wood"
+      "Charlie Wood"
      ]
     },
     {
@@ -43700,7 +43700,7 @@
      ],
      "a": [
       "Kevin Wysoczynski",
-      "Charles Wood"
+      "Charlie Wood"
      ]
     },
     {
@@ -43728,7 +43728,7 @@
      ],
      "a": [
       "Margaret Robb",
-      "Charles Wood"
+      "Charlie Wood"
      ]
     },
     {
@@ -43811,7 +43811,7 @@
       "Shashank Kamdar"
      ],
      "a": [
-      "Charles Wood",
+      "Charlie Wood",
       "Kevin Wysoczynski"
      ]
     },
@@ -43854,7 +43854,7 @@
      ],
      "a": [
       "Margaret Robb",
-      "Charles Wood"
+      "Charlie Wood"
      ]
     },
     {
@@ -43923,7 +43923,7 @@
       "Austin Gow"
      ],
      "a": [
-      "Charles Wood",
+      "Charlie Wood",
       "Kevin Wysoczynski"
      ]
     },
@@ -43980,7 +43980,7 @@
      ],
      "a": [
       "Molly Mae Almora",
-      "Charles Wood"
+      "Charlie Wood"
      ]
     },
     {
@@ -44050,7 +44050,7 @@
      ],
      "a": [
       "Tom Laiso",
-      "Charles Wood"
+      "Charlie Wood"
      ]
     }
    ],
@@ -44059,7 +44059,7 @@
     "Emily Ocasio",
     "Taina Wesner",
     "Stefanie Sohosky",
-    "Charles Wood",
+    "Charlie Wood",
     "Molly Mae Almora"
    ]
   },
@@ -44110,7 +44110,7 @@
      "as": 21,
      "h": [
       "Molly Mae Almora",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Daisy Zhang",
@@ -44180,7 +44180,7 @@
      "as": 21,
      "h": [
       "Kevin Wysoczynski",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Michael Velez",
@@ -44236,7 +44236,7 @@
      "as": 15,
      "h": [
       "Margaret Robb",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Daisy Zhang",
@@ -44292,7 +44292,7 @@
      "as": 15,
      "h": [
       "Simon Rosenwasser",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Adam Beck",
@@ -44306,7 +44306,7 @@
      "as": 20,
      "h": [
       "Margaret Robb",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Daisy Zhang",
@@ -44404,7 +44404,7 @@
      "as": 15,
      "h": [
       "Simon Rosenwasser",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Michael Velez",
@@ -44460,7 +44460,7 @@
      "as": 13,
      "h": [
       "Molly Mae Almora",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Helen Liu",
@@ -44516,7 +44516,7 @@
      "as": 21,
      "h": [
       "Simon Rosenwasser",
-      "Charles Wood"
+      "Charlie Wood"
      ],
      "a": [
       "Adam Beck",
@@ -44527,7 +44527,7 @@
    "subs": [
     "Tejas Goculdas",
     "Daisy Zhang",
-    "Charles Wood",
+    "Charlie Wood",
     "Molly Mae Almora"
    ]
   },
@@ -54240,7 +54240,7 @@
    "outsideSub": true
   },
   {
-   "name": "Charles Wood",
+   "name": "Charlie Wood",
    "playerId": "80208c7c-8a40-4f68-b43f-e0c0d5f87ad3",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
@@ -54676,7 +54676,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T00:43:56.233Z";
+  DATA.meta.asOf = "2026-11-20T14:17:13.927Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;
