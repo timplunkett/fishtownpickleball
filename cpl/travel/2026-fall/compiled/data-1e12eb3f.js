@@ -107495,7 +107495,7 @@
     {
      "t": "female",
      "h": [
-      "Kathy Baker",
+      "Caroline Kinlin",
       "Elaine Aquilone"
      ],
      "a": [
@@ -107539,7 +107539,7 @@
     {
      "t": "mixed",
      "h": [
-      "Donna Facconerusin",
+      "Elaine Aquilone",
       "Virgo Marjamaa"
      ],
      "a": [
@@ -107573,7 +107573,7 @@
      "t": "female",
      "h": [
       "Nicole Tarallo",
-      "Elaine Aquilone"
+      "Kathy Baker"
      ],
      "a": [
       "Lingshan Hsieh",
@@ -107627,7 +107627,7 @@
     {
      "t": "mixed",
      "h": [
-      "Caroline Kinlin",
+      "Donna Facconerusin",
       "Leo Decker"
      ],
      "a": [
@@ -108848,8 +108848,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jennifer Laroque",
+      "Chris Allander"
      ],
      "a": [
       "Mary Foster",
@@ -108859,8 +108859,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Hain",
+      "Bill Venella"
      ],
      "a": [
       "Debra Crawford",
@@ -108870,8 +108870,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carolyn Laverdiere",
+      "David Ward"
      ],
      "a": [
       "Yayuan Lien",
@@ -108881,8 +108881,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Crista Renauro",
+      "Dan Callaghan"
      ],
      "a": [
       "Luz Bonner",
@@ -108892,8 +108892,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carolyn Laverdiere",
+      "Ellen Rubiato"
      ],
      "a": [
       "Debra Crawford",
@@ -108903,8 +108903,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Laroque",
+      "Lori Wild"
      ],
      "a": [
       "Mary Foster",
@@ -108914,8 +108914,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Ward",
+      "Chris Allander"
      ],
      "a": [
       "Jimbo Jimenez",
@@ -108925,8 +108925,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Venella",
+      "Ken Wager"
      ],
      "a": [
       "Nicholai Ola",
@@ -108936,8 +108936,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Crista Renauro",
+      "Chris Allander"
      ],
      "a": [
       "Mary Foster",
@@ -108947,8 +108947,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Hain",
+      "Dan Callaghan"
      ],
      "a": [
       "Franchesa Mclean",
@@ -108958,8 +108958,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Rubiato",
+      "Bill Venella"
      ],
      "a": [
       "Luz Bonner",
@@ -108969,8 +108969,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Ken Wager"
      ],
      "a": [
       "Debra Crawford",
@@ -108980,8 +108980,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Laroque",
+      "Crista Renauro"
      ],
      "a": [
       "Debra Crawford",
@@ -108991,8 +108991,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Hain",
+      "Ellen Rubiato"
      ],
      "a": [
       "Luz Bonner",
@@ -109002,8 +109002,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Ward",
+      "Bill Venella"
      ],
      "a": [
       "Jimbo Jimenez",
@@ -109013,8 +109013,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Callaghan",
+      "Ken Wager"
      ],
      "a": [
       "Ed Mendoza",
@@ -109024,8 +109024,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Rubiato",
+      "Ken Wager"
      ],
      "a": [
       "Debra Crawford",
@@ -109035,8 +109035,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Crista Renauro",
+      "Chris Allander"
      ],
      "a": [
       "Franchesa Mclean",
@@ -109046,8 +109046,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "David Ward"
      ],
      "a": [
       "Yayuan Lien",
@@ -109057,8 +109057,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carolyn Laverdiere",
+      "Dan Callaghan"
      ],
      "a": [
       "Mary Foster",
@@ -109068,8 +109068,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Mary Hain",
+      "Jennifer Laroque"
      ],
      "a": [
       "Debra Crawford",
@@ -109079,8 +109079,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Carolyn Laverdiere"
      ],
      "a": [
       "Mary Foster",
@@ -109090,8 +109090,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Callaghan",
+      "David Ward"
      ],
      "a": [
       "Jimbo Jimenez",
@@ -109101,8 +109101,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Chris Allander",
+      "Bill Venella"
      ],
      "a": [
       "Dino Del Rosario",
@@ -109112,8 +109112,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Lori Wild",
+      "Bill Venella"
      ],
      "a": [
       "Mary Foster",
@@ -109123,8 +109123,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Ellen Rubiato",
+      "Chris Allander"
      ],
      "a": [
       "Debra Crawford",
@@ -109134,8 +109134,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Mary Hain",
+      "Ken Wager"
      ],
      "a": [
       "Yayuan Lien",
@@ -109145,8 +109145,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Crista Renauro",
+      "Dan Callaghan"
      ],
      "a": [
       "Franchesa Mclean",
@@ -109156,8 +109156,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jennifer Laroque",
+      "Crista Renauro"
      ],
      "a": [
       "Mary Foster",
@@ -109167,8 +109167,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Ellen Rubiato",
+      "Mary Hain"
      ],
      "a": [
       "Luz Bonner",
@@ -109178,8 +109178,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dan Callaghan",
+      "Chris Allander"
      ],
      "a": [
       "Ed Mendoza",
@@ -109189,8 +109189,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Ward",
+      "Ken Wager"
      ],
      "a": [
       "Nicholai Ola",
@@ -111411,7 +111411,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T14:28:39.441Z";
+  DATA.meta.asOf = "2026-11-20T15:39:26.407Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
