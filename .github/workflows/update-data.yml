@@ -3,16 +3,31 @@
 # actively misleading clue when paging back through ~375 runs a year.
 name: CPL Data Refresh
 
+# GitHub labels every API dispatch "Manually run by <token owner>", the same as
+# a click on Run workflow, so the run name carries the mode and the caller's
+# `source` instead. Both read on the Actions page without opening the run.
+run-name: >-
+  ${{ github.event_name == 'workflow_dispatch'
+      && format('CPL Data Refresh ({0}) via {1}', inputs.refresh_mode, inputs.source)
+      || format('CPL Data Refresh ({0}) via GitHub cron', github.event.schedule == '17 9 * * 0' && 'full' || 'due') }}
+
 on:
+  # The main due schedule is external: a cron-job.org job calls the
+  # workflow_dispatch API at 02:41, 08:41, 14:41 and 20:41 UTC with
+  # refresh_mode=due and source=cron-job.org. GitHub's scheduler can't be
+  # relied on alone: even off minute 0 it dropped over half the runs, and in
+  # November 2026 the cron below went 14 hours without firing at all.
   schedule:
-    # Off the top of the hour on purpose. GitHub delays scheduled runs under
-    # load and drops some outright, and minute 0 is the busiest slot: on
-    # '0 */6 * * *' about half the runs never fired and the rest started one to
-    # three hours late.
-    # Frequent due-only refreshes (every 6 hours).
+    # Backup to the external trigger, offset from it by 2h18m so the two
+    # alternate rather than queue behind each other. Off the top of the hour
+    # on purpose: minute 0 is GitHub's busiest slot, and on '0 */6 * * *'
+    # about half the runs never fired and the rest started one to three hours
+    # late. A due run with nothing due commits nothing, so a doubled-up run is
+    # cheap.
     - cron: '23 */6 * * *'
     # Weekly full safety refresh (Sunday 9:17 AM UTC). The pipeline step below
-    # matches this exact string to pick full mode, so change both together.
+    # and run-name above both match this exact string to pick full mode, so
+    # change all three together.
     - cron: '17 9 * * 0'
   workflow_dispatch:
     inputs:
@@ -20,6 +35,10 @@ on:
         description: "Refresh mode: due (division-gated) or full (all divisions)"
         required: false
         default: "full"
+      source:
+        description: "Who started this run; shown in the run name"
+        required: false
+        default: "Run workflow button"
 
 permissions:
   contents: write
@@ -205,8 +224,8 @@ jobs:
       # A ping that only ever arrives from a fully successful run turns all three
       # into the same alert: the ping stopped coming.
       # Configure the Healthchecks.io check with period 7h and grace 1h — one
-      # tick longer than the 6-hour cron, so a single slow or queued run does not
-      # page, but two consecutive misses do.
+      # tick longer than the 6-hour schedule, so a single slow or queued run
+      # does not page, but two consecutive misses do.
       - name: Ping healthcheck (dead man's switch)
         if: success()
         env:

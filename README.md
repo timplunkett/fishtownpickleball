@@ -378,10 +378,14 @@ Neither are the four standalone pages — `cpl/index.html` + `cpl/home.js`,
 Two workflows write to the repository. They share a `cpl-repo-writes`
 concurrency group so they can never race each other's push.
 
-- **`.github/workflows/update-data.yml` — CPL Data Refresh.** Two crons:
-  every 6 hours (`23 */6 * * *`) it runs a *due-only* refresh, and Sundays at
-  09:17 UTC (`17 9 * * 0`) it runs a *full* refresh of every division. Both
-  avoid minute 0, where GitHub most often delays or drops scheduled runs. Either way
+- **`.github/workflows/update-data.yml` — CPL Data Refresh.** Every 6 hours
+  it runs a *due-only* refresh, and Sundays at 09:17 UTC (`17 9 * * 0`) it
+  runs a *full* refresh of every division. The due schedule is driven mainly
+  by a cron-job.org job that calls the `workflow_dispatch` API (02:41, 08:41,
+  14:41 and 20:41 UTC, `refresh_mode=due`, `source=cron-job.org`), because
+  GitHub's own scheduler drops or delays many runs; the workflow's
+  `23 */6 * * *` cron stays as a backup. Each run's name says its mode and
+  what started it (GitHub cron, cron-job.org, or the Run workflow button). Either way
   it commits whatever compiled successfully, then fails the run if any division
   errored — so partial data still ships but a broken division can't rot
   unnoticed. Also runnable via **Run workflow** with a `refresh_mode` of `due`
@@ -483,11 +487,12 @@ the compiled dashboards before committing, and expect the diff to be large —
 a season is roughly a megabyte per division.
 
 **Recover from bad published data.** Reverting the commit is not enough — the
-6-hourly cron will refetch and re-commit the same bad data within 6 hours. Do
+6-hourly refresh will refetch and re-commit the same bad data within 6 hours. Do
 both, in this order:
 
-1. **Disable the workflow first.** GitHub → Actions → *Weekly Data Update* →
-   `⋯` → **Disable workflow**. (Or comment out the `schedule:` block and push.)
+1. **Disable the workflow first.** GitHub → Actions → *CPL Data Refresh* →
+   `⋯` → **Disable workflow**. That stops the cron-job.org dispatches too (they
+   fail while it's disabled); commenting out the `schedule:` block would not.
 2. Then revert the bad commit(s) and push.
 3. Fix the underlying cause — usually a fetcher or compiler bug, or an upstream
    API change.
