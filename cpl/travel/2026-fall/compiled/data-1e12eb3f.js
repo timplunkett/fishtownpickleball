@@ -108483,8 +108483,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Mylene Tenorio",
@@ -108494,8 +108494,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "John Stassi"
      ],
      "a": [
       "Patricia Cordts",
@@ -108505,8 +108505,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "Thomas Musso"
      ],
      "a": [
       "Olga Sedycias",
@@ -108516,8 +108516,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Stassi",
+      "John Rogers"
      ],
      "a": [
       "Maria Fanfa",
@@ -108527,8 +108527,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Barbara Markoglu"
      ],
      "a": [
       "Patricia Cordts",
@@ -108538,8 +108538,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Marie Granberg"
      ],
      "a": [
       "Olga Sedycias",
@@ -108549,8 +108549,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "John Rogers"
      ],
      "a": [
       "Chuck Silvester",
@@ -108560,8 +108560,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Joseph Romagnolo",
+      "John Stassi"
      ],
      "a": [
       "Peter O'Farrill",
@@ -108571,8 +108571,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "John Stassi"
      ],
      "a": [
       "Qiuyan Kong",
@@ -108582,8 +108582,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Thomas Musso"
      ],
      "a": [
       "Mylene Tenorio",
@@ -108593,8 +108593,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "John Rogers"
      ],
      "a": [
       "Olga Sedycias",
@@ -108604,8 +108604,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Stassi",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Maria Fanfa",
@@ -108615,8 +108615,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Marie Granberg"
      ],
      "a": [
       "Mylene Tenorio",
@@ -108626,8 +108626,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Denise Caracciolo"
      ],
      "a": [
       "Qiuyan Kong",
@@ -108637,8 +108637,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "John Rogers"
      ],
      "a": [
       "Eldon Carandan",
@@ -108648,8 +108648,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Stassi",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Dan Sweetman",
@@ -108659,8 +108659,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "John Rogers"
      ],
      "a": [
       "Maria Fanfa",
@@ -108670,8 +108670,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marie Granberg",
+      "Thomas Musso"
      ],
      "a": [
       "Qiuyan Kong",
@@ -108681,8 +108681,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Stassi",
+      "John Stassi"
      ],
      "a": [
       "Marcia Rathjen",
@@ -108692,8 +108692,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Olga Sedycias",
@@ -108703,8 +108703,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "Risa Korzekwinski"
      ],
      "a": [
       "Mylene Tenorio",
@@ -108714,8 +108714,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "Denise Stassi"
      ],
      "a": [
       "Olga Sedycias",
@@ -108725,8 +108725,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Chuck Silvester",
@@ -108736,8 +108736,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Rogers",
+      "John Stassi"
      ],
      "a": [
       "Dennis Tenorio",
@@ -108747,8 +108747,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Caracciolo",
+      "Thomas Musso"
      ],
      "a": [
       "Patricia Cordts",
@@ -108758,8 +108758,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Denise Stassi",
+      "John Rogers"
      ],
      "a": [
       "Olga Sedycias",
@@ -108769,8 +108769,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "John Stassi"
      ],
      "a": [
       "Qiuyan Kong",
@@ -108780,8 +108780,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Alexandra Romagnolo",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Maria Fanfa",
@@ -108791,8 +108791,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Barbara Markoglu",
+      "Marie Granberg"
      ],
      "a": [
       "Maria Fanfa",
@@ -108802,8 +108802,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Risa Korzekwinski",
+      "Denise Stassi"
      ],
      "a": [
       "Qiuyan Kong",
@@ -108813,8 +108813,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Stassi",
+      "John Rogers"
      ],
      "a": [
       "Peter O'Farrill",
@@ -108824,13 +108824,49 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Thomas Musso",
+      "Joseph Romagnolo"
      ],
      "a": [
       "Eldon Carandan",
       "Craig Rathjen"
      ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Barbara Markoglu",
+      "Thomas Musso"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "female",
+     "h": [
+      "Risa Korzekwinski",
+      "Denise Caracciolo"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "h": [
+      "John Stassi",
+      "Joseph Romagnolo"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
     }
    ]
   },
@@ -111411,7 +111447,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T15:39:26.407Z";
+  DATA.meta.asOf = "2026-11-20T20:42:56.963Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

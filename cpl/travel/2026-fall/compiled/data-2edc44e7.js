@@ -52287,8 +52287,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Jeff Lorman"
      ],
      "a": [
       "Katherine Maruyama",
@@ -52298,8 +52298,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
       "Vicki Main",
@@ -52309,8 +52309,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
       "Harriet Levin",
@@ -52320,8 +52320,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Jonathan Brand"
      ],
      "a": [
       "Stephanie Woomer",
@@ -52331,8 +52331,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Stacey Frank"
      ],
      "a": [
       "Tera Baccile",
@@ -52342,8 +52342,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Sandy Alkins"
      ],
      "a": [
       "Harriet Levin",
@@ -52353,8 +52353,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Jeff Lorman"
      ],
      "a": [
       "Jingwei Wu",
@@ -52364,8 +52364,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Boyle",
+      "Jonathan Brand"
      ],
      "a": [
       "Keith Goldberg",
@@ -52375,8 +52375,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Jonathan Brand"
      ],
      "a": [
       "Harriet Levin",
@@ -52386,8 +52386,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Robert Finley"
      ],
      "a": [
       "Vicki Main",
@@ -52397,8 +52397,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Marc Harden"
      ],
      "a": [
       "Tera Baccile",
@@ -52408,8 +52408,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Michael Boyle"
      ],
      "a": [
       "Stephanie Woomer",
@@ -52419,8 +52419,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Pam Boyd"
      ],
      "a": [
       "Vicki Main",
@@ -52430,8 +52430,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Stacey Frank"
      ],
      "a": [
       "Stephanie Woomer",
@@ -52441,8 +52441,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Michael Boyle"
      ],
      "a": [
       "Keith Goldberg",
@@ -52452,8 +52452,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Jeff Lorman"
      ],
      "a": [
       "Jingwei Wu",
@@ -52463,8 +52463,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Michael Boyle"
      ],
      "a": [
       "Vicki Main",
@@ -52474,8 +52474,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Robert Finley"
      ],
      "a": [
       "Tera Baccile",
@@ -52485,8 +52485,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Marc Harden"
      ],
      "a": [
       "Harriet Levin",
@@ -52496,8 +52496,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Jeff Lorman"
      ],
      "a": [
       "Katherine Maruyama",
@@ -52507,8 +52507,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Kate Siedell"
      ],
      "a": [
       "Katherine Maruyama",
@@ -52518,8 +52518,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Sandy Alkins"
      ],
      "a": [
       "Stephanie Woomer",
@@ -52529,8 +52529,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Robert Finley"
      ],
      "a": [
       "Michael Finkelstein",
@@ -52540,8 +52540,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Michael Boyle"
      ],
      "a": [
       "Michael Dieterle",
@@ -52551,8 +52551,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Patricia Boyle",
+      "Jonathan Brand"
      ],
      "a": [
       "Stephanie Woomer",
@@ -52562,8 +52562,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sandy Alkins",
+      "Michael Boyle"
      ],
      "a": [
       "Harriet Levin",
@@ -52573,8 +52573,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Marc Harden"
      ],
      "a": [
       "Tera Baccile",
@@ -52584,8 +52584,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Stacey Frank",
+      "Jeff Lorman"
      ],
      "a": [
       "Katherine Maruyama",
@@ -52595,8 +52595,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Siedell",
+      "Sandy Alkins"
      ],
      "a": [
       "Tera Baccile",
@@ -52606,8 +52606,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Pam Boyd",
+      "Stacey Frank"
      ],
      "a": [
       "Vicki Main",
@@ -52617,8 +52617,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jonathan Brand",
+      "Michael Boyle"
      ],
      "a": [
       "Keith Goldberg",
@@ -52628,8 +52628,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Marc Harden",
+      "Robert Finley"
      ],
      "a": [
       "Jim Darcangelo",
@@ -53626,7 +53626,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T14:15:29.455Z";
+  DATA.meta.asOf = "2026-11-20T20:42:00.128Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
