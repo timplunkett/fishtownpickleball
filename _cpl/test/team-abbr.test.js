@@ -121,7 +121,8 @@ test('a known franchise brand is stripped even when it appears once', () => {
   assert.equal(elsewhere['Pickleball Kingdom Tinton Falls'], 'TINT');
 
   // Longest match wins, and a brand never consumes the whole name.
-  assert.equal(codesOf(['Bounce Malvern Boom'])['Bounce Malvern Boom'], 'BOOM');
+  assert.equal(codesOf(['Pickleball Kingdom Hamilton'])['Pickleball Kingdom Hamilton'], 'HAMI');
+  assert.equal(codesOf(['Pickleball Palace'])['Pickleball Palace'], 'PICK');
   assert.equal(codesOf(['Bounce Malvern'])['Bounce Malvern'], 'MALV');
   assert.equal(codesOf(['Picklr Newtown'])['Picklr Newtown'], 'NEWT');
 });
@@ -168,6 +169,30 @@ test('scope is the set passed in, so unrelated pods do not steal abbreviations',
   const together = codesOf(['Ballers Philly', 'Bounce Philly']);
   assert.notEqual(together['Ballers Philly'], together['Bounce Philly']);
   assert.ok(!/\d/.test(together['Bounce Philly']), 'no numeric suffix when letters can tell them apart');
+});
+
+test('labels that differ only by the separator or case count as a collision', () => {
+  // Unbranded "Brewerytown Philly" is too long to spell out, so it condenses to
+  // "BPhilly" — a unique string beside branded "Bounce Philly"'s "B·Philly",
+  // but the same label to anyone reading the header.
+  const labels = labelsOf(['Brewerytown Philly', 'Bounce Philly']);
+  assert.equal(labels['Brewerytown Philly'], 'BrPhilly');
+  assert.equal(labels['Bounce Philly'], 'Bo·Philly');
+});
+
+test('two brands sharing an initial and a location part on a second letter', () => {
+  const names = ['Ballers Philly', 'Bounce Philly', 'Bounce Tempest'];
+  // Tempest never collided, so it keeps the first rung.
+  assert.deepEqual(labelsOf(names), {
+    'Ballers Philly': 'Ba·Philly',
+    'Bounce Philly': 'Bo·Philly',
+    'Bounce Tempest': 'B·Tempest',
+  });
+  assert.deepEqual(codesOf(names), {
+    'Ballers Philly': 'BAPH',
+    'Bounce Philly': 'BOPH',
+    'Bounce Tempest': 'TEMP',
+  });
 });
 
 test('overrides win and push the rest around them', () => {
@@ -226,7 +251,8 @@ DIVISIONS.forEach(({ file, data }) => {
 
       ['label', 'code'].forEach((kind) => {
         const values = names.map((name) => built[name][kind]);
-        assert.equal(new Set(values).size, values.length, `${where}: duplicate ${kind}`);
+        const readings = values.map((value) => value.replace(/·/g, '').toLowerCase());
+        assert.equal(new Set(readings).size, values.length, `${where}: duplicate ${kind}`);
         values.forEach((value, position) => {
           assert.ok(value.length > 0, `${where}: empty ${kind} for ${names[position]}`);
           assert.ok(
