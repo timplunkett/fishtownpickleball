@@ -106951,8 +106951,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "John Danks"
      ],
      "a": [
       "Denise Macfarlane",
@@ -106962,8 +106962,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Vilaikeo",
+      "Louis Sapirman"
      ],
      "a": [
       "Kim Barton",
@@ -106973,8 +106973,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathi Savage",
+      "Michael Barry"
      ],
      "a": [
       "Olga Turova",
@@ -106984,8 +106984,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Michael Schuller"
      ],
      "a": [
       "Audrey Lotti",
@@ -106995,8 +106995,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathi Savage",
+      "Marita Dow"
      ],
      "a": [
       "Amy Farrell",
@@ -107006,8 +107006,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "Amanda Nguyen"
      ],
      "a": [
       "Olga Turova",
@@ -107017,8 +107017,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Ed Amato"
      ],
      "a": [
       "Tiran Rishon",
@@ -107028,8 +107028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Louis Sapirman",
+      "Michael Barry"
      ],
      "a": [
       "Anthony Manzo",
@@ -107039,8 +107039,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Vilaikeo",
+      "Michael Barry"
      ],
      "a": [
       "Amy Farrell",
@@ -107050,8 +107050,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "Louis Sapirman"
      ],
      "a": [
       "Audrey Lotti",
@@ -107061,8 +107061,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathi Savage",
+      "John Danks"
      ],
      "a": [
       "Kim Barton",
@@ -107072,8 +107072,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marita Dow",
+      "Michael Schuller"
      ],
      "a": [
       "Olga Turova",
@@ -107083,8 +107083,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "Linda Vilaikeo"
      ],
      "a": [
       "Audrey Lotti",
@@ -107094,8 +107094,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Marita Dow",
+      "Amanda Nguyen"
      ],
      "a": [
       "Amy Farrell",
@@ -107105,8 +107105,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Michael Barry"
      ],
      "a": [
       "Tiran Rishon",
@@ -107116,8 +107116,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ed Amato",
+      "Michael Schuller"
      ],
      "a": [
       "Anthony Manzo",
@@ -107127,8 +107127,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "Michael Barry"
      ],
      "a": [
       "Amy Farrell",
@@ -107138,8 +107138,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kathi Savage",
+      "John Danks"
      ],
      "a": [
       "Denise Macfarlane",
@@ -107149,8 +107149,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marita Dow",
+      "Ed Amato"
      ],
      "a": [
       "Audrey Lotti",
@@ -107160,8 +107160,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Michael Schuller"
      ],
      "a": [
       "Olga Turova",
@@ -107171,8 +107171,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathi Savage",
+      "Linda Bozzo"
      ],
      "a": [
       "Olga Turova",
@@ -107182,8 +107182,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Linda Vilaikeo"
      ],
      "a": [
       "Audrey Lotti",
@@ -107193,8 +107193,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Louis Sapirman"
      ],
      "a": [
       "Tiran Rishon",
@@ -107204,8 +107204,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barry",
+      "Michael Schuller"
      ],
      "a": [
       "Richard Ricciardi",
@@ -107215,8 +107215,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Vilaikeo",
+      "Louis Sapirman"
      ],
      "a": [
       "Kim Barton",
@@ -107226,8 +107226,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "John Danks"
      ],
      "a": [
       "Audrey Lotti",
@@ -107237,8 +107237,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Marita Dow",
+      "Michael Schuller"
      ],
      "a": [
       "Amy Farrell",
@@ -107248,8 +107248,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Nguyen",
+      "Ed Amato"
      ],
      "a": [
       "Olga Turova",
@@ -107259,8 +107259,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Linda Bozzo",
+      "Linda Vilaikeo"
      ],
      "a": [
       "Audrey Lotti",
@@ -107270,8 +107270,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kathi Savage",
+      "Marita Dow"
      ],
      "a": [
       "Olga Turova",
@@ -107281,8 +107281,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Louis Sapirman",
+      "Michael Barry"
      ],
      "a": [
       "Tiran Rishon",
@@ -107292,8 +107292,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Danks",
+      "Ed Amato"
      ],
      "a": [
       "Anthony Manzo",
@@ -111483,7 +111483,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-21T00:05:11.076Z";
+  DATA.meta.asOf = "2026-11-21T02:42:36.095Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
