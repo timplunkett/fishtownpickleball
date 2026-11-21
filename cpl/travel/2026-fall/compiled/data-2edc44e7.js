@@ -52270,6 +52270,42 @@
       "Jorge Diaz",
       "John Pineda"
      ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Rebecca Lederman",
+      "Jeffrey Susskind"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "female",
+     "h": [
+      "Kelly Hanson Word",
+      "Kate Curren"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "h": [
+      "Alex Lee",
+      "Daniel Chernin"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
     }
    ]
   },
@@ -53626,7 +53662,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-21T00:04:14.462Z";
+  DATA.meta.asOf = "2026-11-21T20:41:48.339Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

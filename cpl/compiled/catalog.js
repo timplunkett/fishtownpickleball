@@ -32,11 +32,11 @@ window.CPL_CATALOG = {
       {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-11-19T15:57:15.952Z"},
       {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-11-21T00:06:10.564Z"},
       {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-11-20T14:16:54.755Z"},
-      {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-11-21T00:04:14.462Z"},
+      {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-11-21T20:41:48.339Z"},
       {"slug":"6619816f","divisionName":"4.5","asOf":"2026-11-20T14:17:13.927Z"},
       {"slug":"ad44e3bd","divisionName":"3.25 Womens","asOf":"2026-11-21T00:06:44.931Z"},
       {"slug":"c118b8e9","divisionName":"3.75 Mens","asOf":"2026-11-19T00:36:03.948Z"},
-      {"slug":"cca69ab9","divisionName":"4.5 Mens","asOf":"2026-11-19T15:59:17.512Z"}
+      {"slug":"cca69ab9","divisionName":"4.5 Mens","asOf":"2026-11-21T20:44:02.347Z"}
      ]
     },
     {
