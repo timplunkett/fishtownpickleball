@@ -51922,8 +51922,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Alex Lee"
      ],
      "a": [
       "Susan Ackley",
@@ -51933,8 +51933,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Chanda Mccoy",
@@ -51944,8 +51944,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Bud Heller"
      ],
      "a": [
       "Carol Mastroianni",
@@ -51955,8 +51955,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Daniel Chernin"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -51966,8 +51966,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Susan Ackley",
@@ -51977,8 +51977,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Amanda Quinn"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -51988,8 +51988,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Alex Lee"
      ],
      "a": [
       "Simon Perry",
@@ -51999,8 +51999,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian Gonzalez",
+      "Bud Heller"
      ],
      "a": [
       "Bill Brandt",
@@ -52010,8 +52010,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Bud Heller"
      ],
      "a": [
       "Chanda Mccoy",
@@ -52021,8 +52021,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Susan Ackley",
@@ -52032,8 +52032,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Brian Gonzalez"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -52043,8 +52043,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Daniel Chernin"
      ],
      "a": [
       "Carol Mastroianni",
@@ -52054,8 +52054,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Carly Pfeffer"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -52065,8 +52065,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Amanda Quinn"
      ],
      "a": [
       "Susan Ackley",
@@ -52076,8 +52076,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brian Gonzalez",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Bill Brandt",
@@ -52087,8 +52087,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lee",
+      "Bud Heller"
      ],
      "a": [
       "Simon Perry",
@@ -52098,8 +52098,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Chanda Mccoy",
@@ -52109,8 +52109,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Daniel Chernin"
      ],
      "a": [
       "Susan Ackley",
@@ -52120,8 +52120,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Alex Lee"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -52131,8 +52131,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Brian Gonzalez"
      ],
      "a": [
       "Carol Mastroianni",
@@ -52142,8 +52142,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Kelly Hanson Word"
      ],
      "a": [
       "Carol Mastroianni",
@@ -52153,8 +52153,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Rebecca Lederman"
      ],
      "a": [
       "Susan Ackley",
@@ -52164,8 +52164,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Daniel Chernin",
+      "Alex Lee"
      ],
      "a": [
       "Jorge Diaz",
@@ -52175,8 +52175,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bud Heller",
+      "Brian Gonzalez"
      ],
      "a": [
       "Steven Gregov",
@@ -52186,8 +52186,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Susan Ackley",
@@ -52197,8 +52197,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Carly Pfeffer",
+      "Bud Heller"
      ],
      "a": [
       "Chanda Mccoy",
@@ -52208,8 +52208,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Rebecca Lederman",
+      "Alex Lee"
      ],
      "a": [
       "Carol Mastroianni",
@@ -52219,8 +52219,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Amanda Quinn",
+      "Brian Gonzalez"
      ],
      "a": [
       "Chaoxia Cheng",
@@ -52230,8 +52230,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Hanson Word",
+      "Rebecca Lederman"
      ],
      "a": [
       "Susan Ackley",
@@ -52241,8 +52241,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kate Curren",
+      "Carly Pfeffer"
      ],
      "a": [
       "Carol Mastroianni",
@@ -52252,8 +52252,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bud Heller",
+      "Daniel Chernin"
      ],
      "a": [
       "Bill Brandt",
@@ -52263,8 +52263,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alex Lee",
+      "Jeffrey Susskind"
      ],
      "a": [
       "Jorge Diaz",
@@ -52320,7 +52320,7 @@
     {
      "t": "mixed",
      "h": [
-      "Stacey Frank",
+      "Sandy Alkins",
       "Jonathan Brand"
      ],
      "a": [
@@ -52496,7 +52496,7 @@
     {
      "t": "mixed",
      "h": [
-      "Sandy Alkins",
+      "Stacey Frank",
       "Jeff Lorman"
      ],
      "a": [
@@ -53626,7 +53626,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T20:42:00.128Z";
+  DATA.meta.asOf = "2026-11-21T00:04:14.462Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
