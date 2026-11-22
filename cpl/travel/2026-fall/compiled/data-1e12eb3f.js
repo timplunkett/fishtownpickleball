@@ -107931,7 +107931,6 @@
    "homeSeed": 2,
    "awaySeed": 3,
    "game": 3,
-   "provisional": true,
    "homePoints": 623,
    "awayPoints": 592,
    "homeGW": 17,
@@ -108384,51 +108383,6 @@
       "Anthony Manzo",
       "Jeffrey Quinlan"
      ]
-    },
-    {
-     "t": "mixed",
-     "ns": 1,
-     "hs": null,
-     "as": null,
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Olga Turova",
-      "Anthony Manzo"
-     ],
-     "tb": 1
-    },
-    {
-     "t": "female",
-     "ns": 1,
-     "hs": null,
-     "as": null,
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Audrey Lotti",
-      "Amy Farrell"
-     ],
-     "tb": 1
-    },
-    {
-     "t": "male",
-     "ns": 1,
-     "hs": null,
-     "as": null,
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tiran Rishon",
-      "Oleg Goldinberg"
-     ],
-     "tb": 1
     }
    ],
    "subs": []
@@ -110946,12 +110900,23 @@
   {
    "result": null,
    "round": 2,
-   "home": "Pickleball Kingdom Hamilton Strikers",
-   "away": "ACE Moorestown",
+   "home": "PickleRage Union County",
+   "away": "Life Time Red Bank",
+   "time": "2026-11-28T13:30:00",
+   "complete": false,
+   "homeSeed": 2,
+   "awaySeed": 1,
+   "game": 2
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "ACE Moorestown",
+   "away": "Pickleball Kingdom Hamilton Strikers",
    "time": "2026-11-28T15:00:00",
    "complete": false,
-   "homeSeed": 3,
-   "awaySeed": 1,
+   "homeSeed": 1,
+   "awaySeed": 3,
    "game": 4
   },
   {
@@ -113157,7 +113122,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-22T02:43:24.785Z";
+  DATA.meta.asOf = "2026-11-22T07:10:00.548Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;
