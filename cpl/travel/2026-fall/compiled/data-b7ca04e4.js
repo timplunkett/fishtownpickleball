@@ -135136,51 +135136,6 @@
       "Jim Nelson",
       "Tayon Hart"
      ]
-    },
-    {
-     "t": "mixed",
-     "ns": 1,
-     "hs": null,
-     "as": null,
-     "h": [
-      "Alexandra Sierer",
-      "Todd Green"
-     ],
-     "a": [
-      "Rachel Levkov",
-      "Tayon Hart"
-     ],
-     "tb": 1
-    },
-    {
-     "t": "female",
-     "ns": 1,
-     "hs": null,
-     "as": null,
-     "h": [
-      "Alexa Laniado",
-      "Sarah Law"
-     ],
-     "a": [
-      "Perri Goldstein",
-      "Kimberley Levins"
-     ],
-     "tb": 1
-    },
-    {
-     "t": "male",
-     "ns": 1,
-     "hs": null,
-     "as": null,
-     "h": [
-      "Brandon Tsang",
-      "Jeff Laniado"
-     ],
-     "a": [
-      "John Kulesza",
-      "Shawn Mayer"
-     ],
-     "tb": 1
     }
    ],
    "subs": [
@@ -135193,7 +135148,7 @@
    "round": 2,
    "home": "Picklr Fair Lawn",
    "away": "Pickleball Kingdom Hillsborough",
-   "time": "2026-11-25T19:00:00",
+   "time": "2026-12-02T19:00:00",
    "complete": false,
    "homeSeed": 2,
    "awaySeed": 4,
@@ -135202,20 +135157,9 @@
   {
    "result": null,
    "round": 2,
-   "home": "Bounce Philly",
-   "away": "Forward",
-   "time": "2026-11-25T19:00:00",
-   "complete": false,
-   "homeSeed": 2,
-   "awaySeed": 1,
-   "game": 4
-  },
-  {
-   "result": null,
-   "round": 2,
    "home": "Montville",
    "away": "Pickleball Kingdom Watchung",
-   "time": "2026-11-25T19:30:00",
+   "time": "2026-12-02T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 3,
@@ -135226,11 +135170,22 @@
    "round": 2,
    "home": "Jersey Devil Green",
    "away": "Dill Dinkers Hatboro",
-   "time": "2026-11-25T19:30:00",
+   "time": "2026-12-02T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
    "game": 3
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Forward",
+   "away": "Bounce Philly",
+   "time": "2026-12-02T19:30:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2,
+   "game": 4
   }
  ],
  "extraPlayerIds": {
@@ -136860,7 +136815,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-19T15:57:15.952Z";
+  DATA.meta.asOf = "2026-11-22T17:16:37.119Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

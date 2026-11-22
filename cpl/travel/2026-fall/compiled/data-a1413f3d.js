@@ -97088,12 +97088,12 @@
   {
    "result": null,
    "round": 2,
-   "home": "Dill Dinkers Hatboro Aces",
-   "away": "Jersey Devil",
-   "time": "2026-11-26T19:30:00",
+   "home": "Jersey Devil",
+   "away": "Dill Dinkers Hatboro Aces",
+   "time": "2026-12-03T19:30:00",
    "complete": false,
-   "homeSeed": 2,
-   "awaySeed": 1,
+   "homeSeed": 1,
+   "awaySeed": 2,
    "game": 4
   },
   {
@@ -97101,7 +97101,7 @@
    "round": 2,
    "home": "Bounce Malvern",
    "away": "Ballers Philly",
-   "time": "2026-11-26T19:30:00",
+   "time": "2026-12-03T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
@@ -97112,7 +97112,7 @@
    "round": 2,
    "home": "Montville",
    "away": "Pickleball Kingdom Hillsborough",
-   "time": "2026-11-26T19:30:00",
+   "time": "2026-12-03T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
@@ -97121,12 +97121,12 @@
   {
    "result": null,
    "round": 2,
-   "home": "Pickleball Kingdom Watchung",
-   "away": "Monroe",
-   "time": "2026-11-26T19:30:00",
+   "home": "Monroe",
+   "away": "Pickleball Kingdom Watchung",
+   "time": "2026-12-03T19:30:00",
    "complete": false,
-   "homeSeed": 2,
-   "awaySeed": 1,
+   "homeSeed": 1,
+   "awaySeed": 2,
    "game": 2
   }
  ],
@@ -98351,7 +98351,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T14:16:54.755Z";
+  DATA.meta.asOf = "2026-11-22T17:15:35.006Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["a1413f3d"] = DATA;

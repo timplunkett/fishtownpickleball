@@ -123,17 +123,17 @@
     {
       "matchupId": "44133012-a989-431c-b453-84beb07f8d4f",
       "weekNumber": 2,
-      "homeTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
-      "awayTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "homeTeamId": "cc417fcd-ba9d-4aa0-a9d0-fd936d84cad4",
+      "awayTeamId": "a7842292-8bb2-48e6-b851-d0ea10fc092f",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-26T19:30:00",
-      "homeName": "Dill Dinkers Hatboro Aces",
-      "awayName": "Jersey Devil",
+      "scheduledTime": "2026-12-03T19:30:00",
+      "homeName": "Jersey Devil",
+      "awayName": "Dill Dinkers Hatboro Aces",
       "playoffGame": 4,
-      "homePodRanking": 2,
-      "awayPodRanking": 1
+      "homePodRanking": 1,
+      "awayPodRanking": 2
     },
     {
       "matchupId": "79a75550-6b61-4853-97a5-9a98b445e2b3",
@@ -143,7 +143,7 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-26T19:30:00",
+      "scheduledTime": "2026-12-03T19:30:00",
       "homeName": "Bounce Malvern",
       "awayName": "Ballers Philly",
       "playoffGame": 3,
@@ -158,7 +158,7 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-26T19:30:00",
+      "scheduledTime": "2026-12-03T19:30:00",
       "homeName": "Montville",
       "awayName": "Pickleball Kingdom Hillsborough",
       "playoffGame": 1,
@@ -168,17 +168,17 @@
     {
       "matchupId": "ebcca816-2667-44c9-8a2d-e5cf0d23d2be",
       "weekNumber": 2,
-      "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
-      "awayTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "homeTeamId": "a6304256-b4c9-4e95-bd45-e33feeba6eb2",
+      "awayTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-26T19:30:00",
-      "homeName": "Pickleball Kingdom Watchung",
-      "awayName": "Monroe",
+      "scheduledTime": "2026-12-03T19:30:00",
+      "homeName": "Monroe",
+      "awayName": "Pickleball Kingdom Watchung",
       "playoffGame": 2,
-      "homePodRanking": 2,
-      "awayPodRanking": 1
+      "homePodRanking": 1,
+      "awayPodRanking": 2
     }
   ]
 }

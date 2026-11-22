@@ -12,12 +12,12 @@ window.CPL_CATALOG = {
      "order": 20264,
      "landingSlug": "8b1c2590",
      "divisions": [
-      {"slug":"8b1c2590","divisionName":"3.0 Mens","asOf":"2026-11-18T13:36:34.309Z"},
-      {"slug":"460d2b26","divisionName":"3.0 Womens","asOf":"2026-11-18T13:36:34.078Z"},
-      {"slug":"27ab7236","divisionName":"3.5 Mens","asOf":"2026-11-18T13:36:33.493Z"},
-      {"slug":"09475e06","divisionName":"3.5 Womens","asOf":"2026-11-18T13:36:32.372Z"},
-      {"slug":"022234f5","divisionName":"4.0 Mens","asOf":"2026-11-18T13:36:33.213Z"},
-      {"slug":"a0d5ca8d","divisionName":"4.0 Womens","asOf":"2026-11-18T13:36:33.776Z"}
+      {"slug":"8b1c2590","divisionName":"3.0 Mens","asOf":"2026-11-22T17:18:35.194Z"},
+      {"slug":"460d2b26","divisionName":"3.0 Womens","asOf":"2026-11-22T17:18:34.875Z"},
+      {"slug":"27ab7236","divisionName":"3.5 Mens","asOf":"2026-11-22T17:18:34.182Z"},
+      {"slug":"09475e06","divisionName":"3.5 Womens","asOf":"2026-11-22T17:18:33.612Z"},
+      {"slug":"022234f5","divisionName":"4.0 Mens","asOf":"2026-11-22T17:18:33.866Z"},
+      {"slug":"a0d5ca8d","divisionName":"4.0 Womens","asOf":"2026-11-22T17:18:34.485Z"}
      ]
     },
     {
@@ -29,9 +29,9 @@ window.CPL_CATALOG = {
      "divisions": [
       {"slug":"e27386b3","divisionName":"3.0","asOf":"2026-11-22T07:09:16.223Z"},
       {"slug":"1e12eb3f","divisionName":"3.0 (50+)","asOf":"2026-11-22T07:10:00.548Z"},
-      {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-11-19T15:57:15.952Z"},
+      {"slug":"b7ca04e4","divisionName":"3.5","asOf":"2026-11-22T17:16:37.119Z"},
       {"slug":"c43b8608","divisionName":"3.5 (50+)","asOf":"2026-11-22T14:43:13.284Z"},
-      {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-11-20T14:16:54.755Z"},
+      {"slug":"a1413f3d","divisionName":"4.0","asOf":"2026-11-22T17:15:35.006Z"},
       {"slug":"2edc44e7","divisionName":"4.0 (50+)","asOf":"2026-11-22T02:41:54.643Z"},
       {"slug":"6619816f","divisionName":"4.5","asOf":"2026-11-20T14:17:13.927Z"},
       {"slug":"ad44e3bd","divisionName":"3.25 Womens","asOf":"2026-11-21T00:06:44.931Z"},

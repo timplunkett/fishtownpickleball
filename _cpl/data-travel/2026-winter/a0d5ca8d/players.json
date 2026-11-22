@@ -21,7 +21,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 51
+      "ranking": 74
     },
     {
       "playerId": "013a0ee8-d510-472a-b8fb-7d19b1d5dc31",
@@ -44,7 +44,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 9
+      "ranking": 11
+    },
+    {
+      "playerId": "067afbd0-d803-4eb0-b467-3af2930f18af",
+      "firstName": "Rachel",
+      "lastName": "Levkov",
+      "gender": "Female",
+      "dupr": "NRPJD6",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 40
+    },
+    {
+      "playerId": "0d68c1e4-633a-4b56-bb73-06365cf5bdcb",
+      "firstName": "Lisa",
+      "lastName": "Mctague",
+      "gender": "Female",
+      "dupr": "8DONQ6",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 53
     },
     {
       "playerId": "12584e84-045d-4de1-8edc-7ccbcb1ee27a",
@@ -67,7 +113,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 44
+      "ranking": 62
     },
     {
       "playerId": "132ce7b0-abfa-4888-bb2f-a0d95019863c",
@@ -90,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 53
+      "ranking": 76
     },
     {
       "playerId": "1dc544a2-42b1-41ed-b06d-d53cb2068d2f",
@@ -113,7 +159,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 45
+      "ranking": 64
     },
     {
       "playerId": "1fc2dd51-135b-46d6-91ef-9291b573e78a",
@@ -136,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 55
+      "ranking": 78
     },
     {
       "playerId": "2138af89-34bc-4ee2-9955-ff16f0997031",
@@ -159,7 +205,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 24
+      "ranking": 35
     },
     {
       "playerId": "218e6e5d-e016-4509-9642-c40f2304d76b",
@@ -182,7 +228,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 41
+      "ranking": 56
     },
     {
       "playerId": "22123177-1eb2-4285-bc92-f75799e175dd",
@@ -205,7 +251,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 10
+      "ranking": 12
     },
     {
       "playerId": "24325b7a-50bd-42dc-84c2-e3ac54360f9c",
@@ -228,7 +274,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 39
+      "ranking": 52
     },
     {
       "playerId": "26d1dea5-a222-41e0-b8eb-152de6a397fc",
@@ -251,7 +297,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 16
+      "ranking": 21
+    },
+    {
+      "playerId": "279df046-e022-4adf-a5ea-4072a29d9622",
+      "firstName": "Adrienne",
+      "lastName": "Butrymowicz",
+      "gender": "Female",
+      "dupr": "3YKLJD",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 13
+    },
+    {
+      "playerId": "2935d0db-6050-4349-9c2e-a4adf18e32f0",
+      "firstName": "Allyssa",
+      "lastName": "Perez",
+      "gender": "Female",
+      "dupr": "WXMPEY",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 65
     },
     {
       "playerId": "2db0eb6d-a738-4daa-9be3-8e7a535330ba",
@@ -274,7 +366,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 36
+      "ranking": 49
+    },
+    {
+      "playerId": "3478a097-ab58-413c-b90e-aef96e00fbfa",
+      "firstName": "Anh",
+      "lastName": "Nguyen",
+      "gender": "Female",
+      "dupr": "2QJY29",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 61
     },
     {
       "playerId": "37acfc18-a8d1-4ea0-8c21-0d830c9f4f90",
@@ -297,7 +412,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 50
+      "ranking": 73
     },
     {
       "playerId": "38b77cba-a727-446f-a587-bf2e41412fe6",
@@ -320,7 +435,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 22
+      "ranking": 33
+    },
+    {
+      "playerId": "3a71fcfb-81a0-45b4-b3fa-f52cc9cba49d",
+      "firstName": "Beth",
+      "lastName": "Osipowitz",
+      "gender": "Female",
+      "dupr": "35Q6OR",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 63
     },
     {
       "playerId": "3b266168-bee9-42c0-96d0-93ade18a2448",
@@ -343,7 +481,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 18
+      "ranking": 24
     },
     {
       "playerId": "3bb1ed96-5e87-4701-9a91-35464c003b6f",
@@ -366,7 +504,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 31
+      "ranking": 44
     },
     {
       "playerId": "3d7e1245-6f10-41b4-97e2-e3488ff364e3",
@@ -389,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 49
+      "ranking": 71
     },
     {
       "playerId": "40579892-d9bf-4d1d-9417-5830d5d45093",
@@ -412,7 +550,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 5
+      "ranking": 6
     },
     {
       "playerId": "44a54409-964b-44ae-a670-c69f7edf9600",
@@ -435,7 +573,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 6
+      "ranking": 8
     },
     {
       "playerId": "44f258b0-52df-4c16-8d1e-a9f2d65b439e",
@@ -458,7 +596,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 25
+      "ranking": 36
     },
     {
       "playerId": "4977544e-0c7f-4151-815c-51f68473862f",
@@ -481,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 34
+      "ranking": 47
     },
     {
       "playerId": "4d576bb5-e9e5-4ad1-a18f-022508c6a161",
@@ -504,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 19
+      "ranking": 29
     },
     {
       "playerId": "50c55e9f-2b0a-49f0-bbf8-6b8e3eab9c82",
@@ -527,7 +665,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 46
+      "ranking": 67
     },
     {
       "playerId": "55ccbdaa-8f11-4c08-abb5-6e71438471b1",
@@ -550,7 +688,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 35
+      "ranking": 48
+    },
+    {
+      "playerId": "57fabc8d-1a33-4757-b7f4-e3a161b65008",
+      "firstName": "Brittney",
+      "lastName": "Lew",
+      "gender": "Female",
+      "dupr": "V7L6X7",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 41
     },
     {
       "playerId": "583c5e68-0868-4a21-b1f0-0e68b9559476",
@@ -573,7 +734,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 54
+      "ranking": 77
     },
     {
       "playerId": "5c9816a6-756b-4d45-803c-e38339915b28",
@@ -596,7 +757,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 56
+      "ranking": 79
     },
     {
       "playerId": "5cd6231d-1bb7-4228-8d90-4a7c90a41d15",
@@ -619,7 +780,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 21
+      "ranking": 31
+    },
+    {
+      "playerId": "5fd7e152-10cf-4669-bcf2-09a067870bf0",
+      "firstName": "Stephanie",
+      "lastName": "Moniz",
+      "gender": "Female",
+      "dupr": "DYQ06X",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 58
     },
     {
       "playerId": "5fe741a3-6764-46ca-a3c4-6130303ab075",
@@ -642,7 +826,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 15
+      "ranking": 19
     },
     {
       "playerId": "6c8e2373-9549-4f25-9cbf-4264745eda64",
@@ -688,7 +872,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 12
+      "ranking": 15
     },
     {
       "playerId": "75a01ddc-a43e-4853-bff8-5f88628c2204",
@@ -711,7 +895,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 8
+      "ranking": 10
+    },
+    {
+      "playerId": "762e975c-b3df-450e-a9c9-e502fcb2870e",
+      "firstName": "Jennifer",
+      "lastName": "Hansen",
+      "gender": "Female",
+      "dupr": "6Z24ZQ",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 28
+    },
+    {
+      "playerId": "77c32d66-d466-4308-9c45-1639e1925b70",
+      "firstName": "Julianna",
+      "lastName": "Rodrigues",
+      "gender": "Female",
+      "dupr": "RWRWQM",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 70
     },
     {
       "playerId": "77d20dd0-823c-474e-b470-12f69db5a588",
@@ -734,7 +964,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 29
+      "ranking": 42
     },
     {
       "playerId": "78d27fdd-25fb-4fe7-8f3e-9ff1f67fb2bc",
@@ -757,7 +987,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 2
+      "ranking": 3
+    },
+    {
+      "playerId": "78d7b1d3-6b6c-4dde-a94f-5d4056b33ee7",
+      "firstName": "Janet",
+      "lastName": "Bellaran",
+      "gender": "Female",
+      "dupr": "9PGPYJ",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 7
+    },
+    {
+      "playerId": "7a2cb26b-6e52-4dbd-bab4-83536f4500bb",
+      "firstName": "Allison",
+      "lastName": "Sobieski",
+      "gender": "Female",
+      "dupr": "V26505",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 72
     },
     {
       "playerId": "7a8e232f-7cb0-409f-ab0a-75c274ad2727",
@@ -780,7 +1056,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 27
+      "ranking": 38
     },
     {
       "playerId": "7ed1c503-4fef-4347-87c6-f8ca1a4acdd0",
@@ -803,7 +1079,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 11
+      "ranking": 14
+    },
+    {
+      "playerId": "7f80a6cd-0daa-4c81-b9ff-7c0b863a24ae",
+      "firstName": "Eva",
+      "lastName": "Danieli",
+      "gender": "Female",
+      "dupr": "JZJ0KD",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 17
     },
     {
       "playerId": "87358255-41e8-42ed-a7bd-97cf151f43c8",
@@ -826,7 +1125,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 42
+      "ranking": 57
     },
     {
       "playerId": "89bdcff6-2fba-4bde-b831-872bf9ce7843",
@@ -849,7 +1148,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 32
+      "ranking": 45
+    },
+    {
+      "playerId": "8be66311-db78-4041-ae94-42ca6f53d77d",
+      "firstName": "Molly Mae",
+      "lastName": "Almora",
+      "gender": "Female",
+      "dupr": "8E4DRW",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 2
     },
     {
       "playerId": "8d896637-2c2a-4541-9155-257bf5a37055",
@@ -872,7 +1194,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 33
+      "ranking": 46
+    },
+    {
+      "playerId": "90987b97-d181-4c15-9c7c-e0bebff4e9b0",
+      "firstName": "Meryl",
+      "lastName": "Nadler",
+      "gender": "Female",
+      "dupr": "947088",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 59
+    },
+    {
+      "playerId": "957ef2de-1e80-4ec9-b5cd-96d11bef6383",
+      "firstName": "Gabby",
+      "lastName": "Gonzalez",
+      "gender": "Female",
+      "dupr": "76Z24N",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 27
     },
     {
       "playerId": "97afd4ef-139b-43d3-bc43-1e8f4a50ef89",
@@ -895,7 +1263,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 48
+      "ranking": 69
     },
     {
       "playerId": "9aa220fa-3161-4faa-ac70-8dfaf3ac3192",
@@ -918,7 +1286,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 38
+      "ranking": 51
     },
     {
       "playerId": "9b4b88bf-1f87-46cd-829a-84b82a424b82",
@@ -941,7 +1309,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 30
+      "ranking": 43
     },
     {
       "playerId": "9b7488c5-bc66-41e4-8fa5-873e70c190e3",
@@ -964,7 +1332,53 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 7
+      "ranking": 9
+    },
+    {
+      "playerId": "9e2cc278-7356-491f-b853-945e33a988d2",
+      "firstName": "Ali",
+      "lastName": "Fordyce",
+      "gender": "Female",
+      "dupr": "3LMZW5",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 25
+    },
+    {
+      "playerId": "9eba6702-22e5-4b53-b6f0-acc44ac2034d",
+      "firstName": "Gift",
+      "lastName": "Horn",
+      "gender": "Female",
+      "dupr": "1Q0XQR",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "0c4b68aa-84f1-481b-bfed-6f28404417e1",
+      "teamName": "Allstar Pickler",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 32
     },
     {
       "playerId": "9ec39678-a120-45de-b8a5-897b8cf900cd",
@@ -987,7 +1401,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 17
+      "ranking": 22
     },
     {
       "playerId": "ac412cd9-bd0a-4f98-8253-9c8c12911465",
@@ -1010,7 +1424,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 13
+      "ranking": 16
+    },
+    {
+      "playerId": "ac5e76e4-8200-438e-b915-ee397f9af45c",
+      "firstName": "CJ",
+      "lastName": "Pineda",
+      "gender": "Female",
+      "dupr": "N7GR4W",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 66
     },
     {
       "playerId": "aeff8297-a479-4b3b-9a49-72c410ac8e26",
@@ -1033,7 +1470,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 28
+      "ranking": 39
     },
     {
       "playerId": "b104bb38-14f6-40b1-8666-faf327d5f415",
@@ -1056,7 +1493,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 26
+      "ranking": 37
+    },
+    {
+      "playerId": "b312fbd5-22d1-4445-bff8-9bf18d762438",
+      "firstName": "Jingru",
+      "lastName": "Du",
+      "gender": "Female",
+      "dupr": "EGXKOM",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "9f922778-8439-4d3d-957b-075d021f44b2",
+      "teamName": "Bounce Philly",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 20
     },
     {
       "playerId": "b4c834a7-feed-4d26-8cef-2ae27c643ec4",
@@ -1079,7 +1539,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 23
+      "ranking": 34
     },
     {
       "playerId": "b63ec8b5-b659-4404-92b0-8e577c87534a",
@@ -1102,7 +1562,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 40
+      "ranking": 54
     },
     {
       "playerId": "b83bd6a7-2706-4a28-af7b-2b5da3d7281a",
@@ -1125,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 37
+      "ranking": 50
     },
     {
       "playerId": "bbaf3def-a87b-4537-8701-4f5ae0108b1f",
@@ -1148,7 +1608,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 20
+      "ranking": 30
+    },
+    {
+      "playerId": "c314fe29-19de-4c08-956b-ae10493edcc8",
+      "firstName": "Perri",
+      "lastName": "Goldstein",
+      "gender": "Female",
+      "dupr": "RZQDPD",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "7f965bc3-ca27-4325-9cf0-1bcf2512f525",
+      "teamName": "Jersey Pickleball Club",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 26
     },
     {
       "playerId": "ca490492-2de9-4f43-a01d-e340d9f34788",
@@ -1171,7 +1654,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 43
+      "ranking": 60
     },
     {
       "playerId": "d0e2c1ea-529d-4364-b521-cb205ecdded3",
@@ -1194,7 +1677,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 3
+      "ranking": 4
+    },
+    {
+      "playerId": "dc1107ce-7076-4251-9bf3-b4a1ee5ac9a9",
+      "firstName": "Clarisse",
+      "lastName": "Espiritu",
+      "gender": "Female",
+      "dupr": "Q5WO00",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "teamName": "Pickleball Kingdom Tinton Falls",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 23
     },
     {
       "playerId": "ef423f8a-5c2c-4a12-9f37-b41ff6d6c530",
@@ -1217,7 +1723,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 14
+      "ranking": 18
     },
     {
       "playerId": "f23a564b-06a9-455a-ad50-357e1b195991",
@@ -1240,7 +1746,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 52
+      "ranking": 75
     },
     {
       "playerId": "f73639c7-39ff-4cb8-b5a1-09c073c5c7b3",
@@ -1263,7 +1769,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 47
+      "ranking": 68
     },
     {
       "playerId": "fa43af77-3cd1-4e61-a8dc-bd714b65d517",
@@ -1286,7 +1792,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 4
+      "ranking": 5
+    },
+    {
+      "playerId": "fbbe5ed6-1d46-48b3-9461-5922944a1016",
+      "firstName": "Paige",
+      "lastName": "Metzler",
+      "gender": "Female",
+      "dupr": "LVZ5WQ",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "teamName": "Bounce Malvern",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 55
     }
   ]
 }
