@@ -722,7 +722,7 @@
               "homePlayerId1": "97f2b250-2030-4296-be61-63cffb17043b",
               "homePlayerId2": "d4c1185c-6147-4164-90e1-06ecfa162596",
               "awayPlayerId1": "a89121dd-192b-486d-b39d-18ee8447d641",
-              "awayPlayerId2": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
+              "awayPlayerId2": "3382b214-0a3e-4005-aba4-084588de0d98",
               "homeScore": null,
               "awayScore": null,
               "matchType": "male"
@@ -732,7 +732,7 @@
               "homePlayerId1": "0fbbdbbb-a550-49ae-b04a-111bfe4891f5",
               "homePlayerId2": "f8687730-86a2-4769-a38b-7c0269ee88f5",
               "awayPlayerId1": "d23d47c0-4f40-4691-b81a-9ad6e36402b6",
-              "awayPlayerId2": "3382b214-0a3e-4005-aba4-084588de0d98",
+              "awayPlayerId2": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
               "homeScore": null,
               "awayScore": null,
               "matchType": "male"
@@ -740,7 +740,7 @@
             {
               "matchupId": "7f350fba-eb59-47e9-9cd7-d93014abdf44",
               "homePlayerId1": "d23839c0-334b-4423-9305-0c6281523d5d",
-              "homePlayerId2": "97f2b250-2030-4296-be61-63cffb17043b",
+              "homePlayerId2": "0e577096-0b13-441d-b087-cc49cb55cfe2",
               "awayPlayerId1": "eebadc3a-5763-4612-9232-d3a98ea188d6",
               "awayPlayerId2": "a89121dd-192b-486d-b39d-18ee8447d641",
               "homeScore": null,
@@ -842,7 +842,7 @@
               "homePlayerId1": "d23839c0-334b-4423-9305-0c6281523d5d",
               "homePlayerId2": "d6c15f91-4cc9-4612-8ec3-8f4ebd4e0cc1",
               "awayPlayerId1": "3382b214-0a3e-4005-aba4-084588de0d98",
-              "awayPlayerId2": "e3f3e90d-b026-49f2-8194-45e9252b61f8",
+              "awayPlayerId2": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
               "homeScore": null,
               "awayScore": null,
               "matchType": "male"
@@ -851,7 +851,7 @@
               "matchupId": "7f350fba-eb59-47e9-9cd7-d93014abdf44",
               "homePlayerId1": "f8687730-86a2-4769-a38b-7c0269ee88f5",
               "homePlayerId2": "56db4b56-6166-437f-8ece-26576b7042e5",
-              "awayPlayerId1": "24e70ef7-b98e-459e-8a19-19a2b66a054e",
+              "awayPlayerId1": "e3f3e90d-b026-49f2-8194-45e9252b61f8",
               "awayPlayerId2": "d23d47c0-4f40-4691-b81a-9ad6e36402b6",
               "homeScore": null,
               "awayScore": null,

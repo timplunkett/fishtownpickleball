@@ -95473,8 +95473,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Paul Matzko"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -95484,8 +95484,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95495,8 +95495,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Eric Brezina"
      ],
      "a": [
       "Kristin Larosa",
@@ -95506,8 +95506,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "David Bailey"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95517,8 +95517,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Kelly Bowers"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95528,8 +95528,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Sarah Stangota"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95539,8 +95539,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Brezina",
+      "David Bailey"
      ],
      "a": [
       "David Cartwright",
@@ -95550,8 +95550,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lakshmikanth Chaluvadi",
+      "Paul Matzko"
      ],
      "a": [
       "Andy Pineda",
@@ -95561,8 +95561,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95572,8 +95572,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Paul Matzko"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -95583,8 +95583,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "David Bailey"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95594,8 +95594,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Eric Brezina"
      ],
      "a": [
       "Kristin Larosa",
@@ -95605,8 +95605,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Jessica Wormeck"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -95616,8 +95616,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Sarah Stangota"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95627,8 +95627,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Matzko",
+      "Eric Brezina"
      ],
      "a": [
       "David Schwartz",
@@ -95638,8 +95638,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Bailey",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Andy Pineda",
@@ -95649,8 +95649,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Paul Matzko"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95660,8 +95660,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Kristin Larosa",
@@ -95671,8 +95671,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "David Bailey"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95682,8 +95682,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Eric Brezina"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -95693,8 +95693,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "Jeannine Calhoun"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -95704,8 +95704,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Jessica Wormeck"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95715,8 +95715,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Brezina",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "David Cartwright",
@@ -95726,8 +95726,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Bailey",
+      "Paul Matzko"
      ],
      "a": [
       "Robert Paniti",
@@ -95737,8 +95737,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Gail Hannagan",
+      "Eric Brezina"
      ],
      "a": [
       "Kristin Larosa",
@@ -95748,8 +95748,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95759,8 +95759,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Sarah Stangota",
+      "David Bailey"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95770,8 +95770,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Jeannine Calhoun",
+      "Paul Matzko"
      ],
      "a": [
       "Danica Bramschreiber",
@@ -95781,8 +95781,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kelly Bowers",
+      "Sarah Stangota"
      ],
      "a": [
       "Rosellen Perlowitz",
@@ -95792,8 +95792,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Jessica Wormeck",
+      "Jeannine Calhoun"
      ],
      "a": [
       "Alyssa Beattie",
@@ -95803,8 +95803,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Bailey",
+      "Lakshmikanth Chaluvadi"
      ],
      "a": [
       "Andy Pineda",
@@ -95814,8 +95814,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Paul Matzko",
+      "Eric Brezina"
      ],
      "a": [
       "David Cartwright",
@@ -99469,7 +99469,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-22T19:52:50.712Z";
+  DATA.meta.asOf = "2026-11-22T20:42:24.690Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
