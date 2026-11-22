@@ -96203,8 +96203,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Carlos Echenique"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96214,8 +96214,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Cesar Alvarez"
      ],
      "a": [
       "Diana Tabia",
@@ -96225,8 +96225,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Jayson Lee"
      ],
      "a": [
       "Jillian Sorrentino",
@@ -96236,8 +96236,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Jimmy Tom"
      ],
      "a": [
       "Taylor Leuck",
@@ -96247,8 +96247,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Kerry Eskay"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96258,8 +96258,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Eva Rodriguez"
      ],
      "a": [
       "Jillian Sorrentino",
@@ -96269,8 +96269,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Tom",
+      "Jayson Lee"
      ],
      "a": [
       "Tomas Ruiz",
@@ -96280,8 +96280,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Alvarez",
+      "Brandon Agudelo"
      ],
      "a": [
       "Jonathan Wong",
@@ -96291,8 +96291,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Jimmy Tom"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96302,8 +96302,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Cesar Alvarez"
      ],
      "a": [
       "Diana Tabia",
@@ -96313,8 +96313,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Huifang Yao",
+      "Brandon Agudelo"
      ],
      "a": [
       "Jillian Sorrentino",
@@ -96324,8 +96324,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Carlos Echenique"
      ],
      "a": [
       "Taylor Leuck",
@@ -96335,8 +96335,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Roanne Mae Vega"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96346,8 +96346,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Huifang Yao"
      ],
      "a": [
       "Jasmine Ho",
@@ -96357,8 +96357,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Brandon Agudelo",
+      "Jayson Lee"
      ],
      "a": [
       "Tomas Ruiz",
@@ -96368,8 +96368,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Echenique",
+      "Alex Sanchez"
      ],
      "a": [
       "Jonathan Wong",
@@ -96379,8 +96379,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Alex Sanchez"
      ],
      "a": [
       "Diana Tabia",
@@ -96390,8 +96390,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Cesar Alvarez"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96401,8 +96401,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Huifang Yao",
+      "Brandon Agudelo"
      ],
      "a": [
       "Taylor Leuck",
@@ -96412,8 +96412,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Eva Rodriguez",
+      "Jimmy Tom"
      ],
      "a": [
       "Jasmine Ho",
@@ -96423,8 +96423,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Eva Rodriguez"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96434,8 +96434,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Huifang Yao",
+      "Kerry Eskay"
      ],
      "a": [
       "Jasmine Ho",
@@ -96445,8 +96445,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jimmy Tom",
+      "Jayson Lee"
      ],
      "a": [
       "Matthew Rafaniello",
@@ -96456,8 +96456,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Echenique",
+      "Brandon Agudelo"
      ],
      "a": [
       "Jonathan Wong",
@@ -96467,8 +96467,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Roanne Mae Vega",
+      "Carlos Echenique"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96478,8 +96478,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Jayson Lee"
      ],
      "a": [
       "Taylor Leuck",
@@ -96489,8 +96489,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kellie Roshak",
+      "Cesar Alvarez"
      ],
      "a": [
       "Jasmine Ho",
@@ -96500,8 +96500,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Huifang Yao",
+      "Alex Sanchez"
      ],
      "a": [
       "Diana Tabia",
@@ -96511,8 +96511,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kerry Eskay",
+      "Eva Rodriguez"
      ],
      "a": [
       "Julianna Rodrigues",
@@ -96522,8 +96522,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Huifang Yao",
+      "Roanne Mae Vega"
      ],
      "a": [
       "Taylor Leuck",
@@ -96533,8 +96533,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Carlos Echenique",
+      "Alex Sanchez"
      ],
      "a": [
       "Matthew Rafaniello",
@@ -96544,8 +96544,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Alvarez",
+      "Brandon Agudelo"
      ],
      "a": [
       "Jonathan Wong",
@@ -99469,7 +99469,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-22T07:09:16.223Z";
+  DATA.meta.asOf = "2026-11-22T19:52:50.712Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

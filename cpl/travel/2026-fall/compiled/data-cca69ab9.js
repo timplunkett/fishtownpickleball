@@ -51988,8 +51988,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Shashank Kamdar"
      ],
      "a": [
       "Zach Bowe",
@@ -51999,8 +51999,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Mark Kilimnik"
      ],
      "a": [
       "Vaughn Mcclelland",
@@ -52010,19 +52010,19 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "Vaughn Lawrence"
      ],
      "a": [
       "Ryan Furman",
-      "Dean Tridente"
+      "Stephen Conger"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Long",
+      "Jeff Zamorski"
      ],
      "a": [
       "Braden Keith",
@@ -52032,8 +52032,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Ryan Rosen"
      ],
      "a": [
       "Zach Bowe",
@@ -52043,8 +52043,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Lou Frignito"
      ],
      "a": [
       "Tyler Arsenault",
@@ -52054,19 +52054,19 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Long",
+      "Mark Kilimnik"
      ],
      "a": [
       "Sheel Motiwala",
-      "Dean Tridente"
+      "Stephen Conger"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Jeff Zamorski"
      ],
      "a": [
       "Braden Keith",
@@ -52076,8 +52076,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Vaughn Lawrence"
      ],
      "a": [
       "Zach Bowe",
@@ -52087,8 +52087,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Anushk Gupta"
      ],
      "a": [
       "Tyler Arsenault",
@@ -52098,8 +52098,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "Jeff Zamorski"
      ],
      "a": [
       "Sheel Motiwala",
@@ -52109,8 +52109,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Jordan Long"
      ],
      "a": [
       "Stephen Conger",
@@ -52120,8 +52120,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Anushk Gupta",
+      "Lou Frignito"
      ],
      "a": [
       "Tyler Arsenault",
@@ -52131,8 +52131,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Long",
+      "Vaughn Lawrence"
      ],
      "a": [
       "Zach Bowe",
@@ -52142,8 +52142,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Mark Kilimnik"
      ],
      "a": [
       "Daniel Schwab",
@@ -52153,8 +52153,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jeff Zamorski",
+      "Shashank Kamdar"
      ],
      "a": [
       "Stephen Conger",
@@ -52164,8 +52164,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Dustin Rabinowitz"
      ],
      "a": [
       "Tyler Arsenault",
@@ -52175,8 +52175,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Kilimnik",
+      "Ryan Rosen"
      ],
      "a": [
       "Zach Bowe",
@@ -52186,8 +52186,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shashank Kamdar",
+      "Vaughn Lawrence"
      ],
      "a": [
       "Braden Keith",
@@ -52197,19 +52197,19 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Austin Gow",
+      "Anushk Gupta"
      ],
      "a": [
       "Stephen Conger",
-      "Dean Tridente"
+      "Daniel Schwab"
      ]
     },
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Lou Frignito",
+      "Shashank Kamdar"
      ],
      "a": [
       "Zach Bowe",
@@ -52219,8 +52219,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Rosen",
+      "Jeff Zamorski"
      ],
      "a": [
       "Tyler Arsenault",
@@ -52230,8 +52230,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Jordan Long"
      ],
      "a": [
       "Ryan Furman",
@@ -52241,52 +52241,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Vaughn Mcclelland",
-      "Dean Tridente"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Zach Bowe",
-      "Dean Tridente"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Tyler Arsenault",
-      "Stephen Conger"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
-     ],
-     "a": [
-      "Ryan Furman",
-      "Sheel Motiwala"
-     ]
-    },
-    {
-     "t": "male",
-     "h": [
-      "",
-      ""
+      "Mark Kilimnik",
+      "Austin Gow"
      ],
      "a": [
       "Vaughn Mcclelland",
@@ -52296,8 +52252,52 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Long",
+      "Vaughn Lawrence"
+     ],
+     "a": [
+      "Zach Bowe",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Shashank Kamdar",
+      "Austin Gow"
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Dustin Rabinowitz",
+      "Ryan Rosen"
+     ],
+     "a": [
+      "Ryan Furman",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Lou Frignito",
+      "Mark Kilimnik"
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jordan Long",
+      "Jeff Zamorski"
      ],
      "a": [
       "Zach Bowe",
@@ -52307,8 +52307,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dustin Rabinowitz",
+      "Lou Frignito"
      ],
      "a": [
       "Sheel Motiwala",
@@ -52318,8 +52318,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Vaughn Lawrence",
+      "Ryan Rosen"
      ],
      "a": [
       "Ryan Furman",
@@ -52329,12 +52329,12 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Mark Kilimnik",
+      "Austin Gow"
      ],
      "a": [
       "Daniel Schwab",
-      "Dean Tridente"
+      "Braden Keith"
      ]
     }
    ]
@@ -53559,7 +53559,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-22T02:44:39.139Z";
+  DATA.meta.asOf = "2026-11-22T19:54:04.984Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
