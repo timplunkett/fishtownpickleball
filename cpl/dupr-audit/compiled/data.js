@@ -7148,6 +7148,13 @@ window.DUPR_AUDIT = {
   {
    "name": "Hector Lopez",
    "playerId": "e02b2266-0586-4da7-9451-b90445d145bf",
+   "team": "Flemington",
+   "slug": "e27386b3",
+   "gender": "Male"
+  },
+  {
+   "name": "Hector Lopez",
+   "playerId": "e02b2266-0586-4da7-9451-b90445d145bf",
    "team": "Flemington Green",
    "slug": "1e12eb3f",
    "gender": "Male"

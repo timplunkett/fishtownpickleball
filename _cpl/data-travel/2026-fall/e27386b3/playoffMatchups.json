@@ -1,21 +1,6 @@
 {
   "$values": [
     {
-      "matchupId": "557382de-8d86-4332-bd3d-12566a66cda8",
-      "weekNumber": 1,
-      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
-      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-23T19:00:00",
-      "homeName": "Pickleball Kingdom Lehigh Valley",
-      "awayName": "APC Garden State",
-      "playoffGame": 6,
-      "homePodRanking": 2,
-      "awayPodRanking": 3
-    },
-    {
       "matchupId": "aac2ce84-06bd-4367-b5ba-3fd389534eee",
       "weekNumber": 1,
       "homeTeamId": "61991753-23b2-4289-96dc-d68ac3b19961",
@@ -59,6 +44,21 @@
       "playoffGame": 4,
       "homePodRanking": 1,
       "awayPodRanking": 2
+    },
+    {
+      "matchupId": "557382de-8d86-4332-bd3d-12566a66cda8",
+      "weekNumber": 1,
+      "homeTeamId": "abc1152f-9232-4d6e-bcbb-353f8ae73bf5",
+      "awayTeamId": "4c2a170f-6c00-4708-8756-7d5b3e9b59a6",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-23T19:30:00",
+      "homeName": "Pickleball Kingdom Lehigh Valley",
+      "awayName": "APC Garden State",
+      "playoffGame": 6,
+      "homePodRanking": 2,
+      "awayPodRanking": 3
     },
     {
       "matchupId": "56ba4b79-2e79-4bfe-bbed-f8e9004950fc",

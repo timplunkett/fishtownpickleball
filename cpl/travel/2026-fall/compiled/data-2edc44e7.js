@@ -52671,6 +52671,42 @@
       "Jim Darcangelo",
       "Michael Finkelstein"
      ]
+    },
+    {
+     "t": "mixed",
+     "h": [
+      "Kate Siedell",
+      "Marc Harden"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "female",
+     "h": [
+      "Pam Boyd",
+      "Stacey Frank"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "h": [
+      "Jeff Lorman",
+      "Michael Boyle"
+     ],
+     "a": [
+      "",
+      ""
+     ],
+     "tb": 1
     }
    ]
   }
@@ -53662,7 +53698,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-21T20:41:48.339Z";
+  DATA.meta.asOf = "2026-11-22T02:41:54.643Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;

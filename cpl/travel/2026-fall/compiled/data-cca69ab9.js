@@ -51336,7 +51336,7 @@
       ""
      ],
      "a": [
-      "Adam Weinstock",
+      "Marcin Glowacki",
       "Tom Laiso"
      ]
     },
@@ -51348,7 +51348,7 @@
      ],
      "a": [
       "Chenfei Gao",
-      "Marcin Glowacki"
+      "Adam Weinstock"
      ]
     },
     {
@@ -51359,7 +51359,7 @@
      ],
      "a": [
       "Yoon Choi",
-      "Harrison Mui"
+      "Eugene Zaslavsky"
      ]
     },
     {
@@ -51391,7 +51391,7 @@
       ""
      ],
      "a": [
-      "Eugene Zaslavsky",
+      "Harrison Mui",
       "Samuel Levinson"
      ]
     },
@@ -51447,7 +51447,7 @@
      ],
      "a": [
       "Yoon Choi",
-      "Harrison Mui"
+      "Eugene Zaslavsky"
      ]
     },
     {
@@ -51457,7 +51457,7 @@
       ""
      ],
      "a": [
-      "Eugene Zaslavsky",
+      "Harrison Mui",
       "Tom Laiso"
      ]
     },
@@ -51482,6 +51482,94 @@
       "Adam Weinstock",
       "Marcin Glowacki"
      ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yoon Choi",
+      "Chenfei Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Eugene Zaslavsky",
+      "Tom Laiso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Weinstock",
+      "Harrison Mui"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Lagrua",
+      "Marcin Glowacki"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Yoon Choi",
+      "Tom Laiso"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Lagrua",
+      "Eugene Zaslavsky"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adam Weinstock",
+      "Chenfei Gao"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Marcin Glowacki",
+      "Harrison Mui"
+     ]
     }
    ]
   },
@@ -51494,7 +51582,397 @@
    "complete": false,
    "homeSeed": 2,
    "awaySeed": 3,
-   "game": 2
+   "game": 2,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Chris Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Como",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Matthew Friedman",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Como",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neil Ottrando",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Chris Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Gary White",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neil Ottrando",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Jacob Yandoli"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Chris Frangipane"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Como",
+      "Neil Ottrando"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Rob Pandolfi",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yandoli",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Neil Ottrando",
+      "Michael Rapaglia"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Gary White"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Rob Pandolfi"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Jacob Yandoli",
+      "Nicholas Como"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Michael Rapaglia",
+      "Matthew Friedman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Boris Tserlin",
+      "Gary White"
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Chris Frangipane",
+      "Rob Pandolfi"
+     ],
+     "tb": 1
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Nicholas Como",
+      "Jacob Yandoli"
+     ],
+     "tb": 1
+    }
+   ]
   },
   {
    "result": null,
@@ -51505,7 +51983,361 @@
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
-   "game": 3
+   "game": 3,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Dean Tridente"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Dean Tridente"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Conger",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Conger",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Ryan Furman"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Braden Keith",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Stephen Conger",
+      "Dean Tridente"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Daniel Schwab"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Dean Tridente"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Dean Tridente"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Tyler Arsenault",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Sheel Motiwala"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Vaughn Mcclelland",
+      "Braden Keith"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zach Bowe",
+      "Tyler Arsenault"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Sheel Motiwala",
+      "Vaughn Mcclelland"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ryan Furman",
+      "Stephen Conger"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Daniel Schwab",
+      "Dean Tridente"
+     ]
+    }
+   ]
   },
   {
    "result": null,
@@ -51516,7 +52348,361 @@
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
-   "game": 4
+   "game": 4,
+   "games": [
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Justin Bautista",
+      "Zyril Carilo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Boory",
+      "Alex Mihalca"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Mihalca",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Justin Chin",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Mihalca",
+      "Zyril Carilo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Brandyn Schuchart"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Justin Bautista",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Adriene Khon"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Justin Bautista",
+      "Zyril Carilo"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Boory",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Alex Mihalca"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Brandyn Schuchart",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Justin Chin"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Alex Mihalca"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Justin Bautista"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Justin Chin",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Adriene Khon",
+      "Ashwin Korde"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Alex Mihalca",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zachary Lessner",
+      "Brandyn Schuchart"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Justin Bautista",
+      "Josh Knupp"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Ashwin Korde",
+      "Alex Boory"
+     ]
+    },
+    {
+     "t": "male",
+     "h": [
+      "",
+      ""
+     ],
+     "a": [
+      "Zyril Carilo",
+      "Justin Chin"
+     ]
+    }
+   ]
   }
  ],
  "extraPlayerIds": {
@@ -52373,7 +53559,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-21T20:44:02.347Z";
+  DATA.meta.asOf = "2026-11-22T02:44:39.139Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
