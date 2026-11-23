@@ -97816,7 +97816,7 @@
       "Brad De Jesus"
      ],
      "a": [
-      "Simon Burns",
+      "Mike Fede",
       "Matthew Cohen"
      ]
     },
@@ -97861,7 +97861,7 @@
      ],
      "a": [
       "Sandy Duarte",
-      "Simon Burns"
+      "Thomas Lum"
      ]
     },
     {
@@ -97905,7 +97905,7 @@
      ],
      "a": [
       "Bill Dower",
-      "Simon Burns"
+      "Matthew Cohen"
      ]
     },
     {
@@ -97927,7 +97927,7 @@
      ],
      "a": [
       "Ashley Altman",
-      "Simon Burns"
+      "Thomas Lum"
      ]
     },
     {
@@ -97993,7 +97993,7 @@
      ],
      "a": [
       "Matthew Cohen",
-      "Simon Burns"
+      "Bill Dower"
      ]
     },
     {
@@ -99505,7 +99505,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T02:42:28.648Z";
+  DATA.meta.asOf = "2026-11-23T14:42:14.332Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;
