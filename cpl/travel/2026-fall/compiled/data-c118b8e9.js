@@ -76919,8 +76919,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Matt Enz"
      ],
      "a": [
       "Varun Gurram",
@@ -76930,8 +76930,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Graham Heavenrich"
      ],
      "a": [
       "Rajeeth Nadig",
@@ -76941,8 +76941,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Andrew Neave"
      ],
      "a": [
       "Jitendra Arora",
@@ -76952,8 +76952,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Hathaway",
+      "Jamison Rowles"
      ],
      "a": [
       "Karan N",
@@ -76963,8 +76963,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Matheus Korndoerfer"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -76974,8 +76974,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Hathaway",
+      "Harrison Bohrer"
      ],
      "a": [
       "Varun Gurram",
@@ -76985,8 +76985,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Matt Enz"
      ],
      "a": [
       "Karan N",
@@ -76996,8 +76996,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Andrew Neave"
      ],
      "a": [
       "Jitendra Arora",
@@ -77007,8 +77007,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Hathaway",
+      "Jamison Rowles"
      ],
      "a": [
       "Varun Gurram",
@@ -77018,8 +77018,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Harrison Bohrer"
      ],
      "a": [
       "Shyler Smith",
@@ -77029,8 +77029,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Andrew Neave"
      ],
      "a": [
       "Karan N",
@@ -77040,8 +77040,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Vincent Demarco"
      ],
      "a": [
       "Aidan Fredericks",
@@ -77051,8 +77051,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Ryan Hathaway"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -77062,8 +77062,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Vincent Demarco"
      ],
      "a": [
       "Varun Gurram",
@@ -77073,8 +77073,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Harrison Bohrer"
      ],
      "a": [
       "Rajeeth Nadig",
@@ -77084,8 +77084,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Lincoln Jensen"
      ],
      "a": [
       "Ping Peng",
@@ -77095,8 +77095,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jamison Rowles",
+      "Matt Enz"
      ],
      "a": [
       "Varun Gurram",
@@ -77106,8 +77106,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Jordan Demcher"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -77117,8 +77117,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Vincent Demarco"
      ],
      "a": [
       "Shyler Smith",
@@ -77128,8 +77128,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Lincoln Jensen"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -77139,8 +77139,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Hathaway",
+      "Jordan Demcher"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -77150,8 +77150,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Charles Evans",
+      "Harvey Mitchell"
      ],
      "a": [
       "Varun Gurram",
@@ -77161,8 +77161,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jamison Rowles",
+      "Matt Enz"
      ],
      "a": [
       "Karan N",
@@ -77172,8 +77172,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harrison Bohrer",
+      "Lincoln Jensen"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -77183,8 +77183,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Graham Heavenrich"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -77194,8 +77194,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Charles Evans"
      ],
      "a": [
       "Shyler Smith",
@@ -77205,8 +77205,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matheus Korndoerfer",
+      "Harrison Bohrer"
      ],
      "a": [
       "Varun Gurram",
@@ -77216,8 +77216,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jordan Demcher",
+      "Jamison Rowles"
      ],
      "a": [
       "Aidan Fredericks",
@@ -77227,8 +77227,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harvey Mitchell",
+      "Charles Evans"
      ],
      "a": [
       "Sree Harsha Konduru",
@@ -77238,8 +77238,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Matt Enz",
+      "Jordan Demcher"
      ],
      "a": [
       "Jitendra Arora",
@@ -77249,8 +77249,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Graham Heavenrich",
+      "Matheus Korndoerfer"
      ],
      "a": [
       "Shyler Smith",
@@ -77260,8 +77260,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ryan Hathaway",
+      "Harrison Bohrer"
      ],
      "a": [
       "Anil Kumar Jakkaladki",
@@ -78881,7 +78881,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T02:44:39.771Z";
+  DATA.meta.asOf = "2026-11-23T07:57:40.756Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
