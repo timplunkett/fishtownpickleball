@@ -76554,8 +76554,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rahul Desai"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76565,8 +76565,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Cullen Curley"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76576,8 +76576,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "Carlos Rincon"
      ],
      "a": [
       "Luca Hendrickson",
@@ -76587,8 +76587,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Dion Brown"
      ],
      "a": [
       "David Wheeler",
@@ -76598,8 +76598,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Carlos Rincon"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76609,8 +76609,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Rahul Desai"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76620,8 +76620,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Michael Barndt"
      ],
      "a": [
       "Luca Hendrickson",
@@ -76631,8 +76631,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "Eric Ruiz"
      ],
      "a": [
       "David Wheeler",
@@ -76642,8 +76642,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Eric Ruiz",
+      "Cullen Curley"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76653,8 +76653,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Rohit Mankotia"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76664,8 +76664,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Rahul Desai"
      ],
      "a": [
       "Luca Hendrickson",
@@ -76675,8 +76675,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Harlos Vizcarrondo",
+      "Carlos Rincon"
      ],
      "a": [
       "Christopher Hendrickson",
@@ -76686,8 +76686,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Eric Ruiz"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76697,8 +76697,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rohit Mankotia"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76708,8 +76708,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "David Reyes"
      ],
      "a": [
       "Luca Hendrickson",
@@ -76719,8 +76719,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "Dion Brown"
      ],
      "a": [
       "Christopher Hendrickson",
@@ -76730,8 +76730,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Cullen Curley"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76741,8 +76741,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dion Brown",
+      "David Reyes"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76752,8 +76752,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Zane Pagotto"
      ],
      "a": [
       "Jimmy Ramja",
@@ -76763,8 +76763,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rohit Mankotia",
+      "Eric Ruiz"
      ],
      "a": [
       "Kyle Korman",
@@ -76785,8 +76785,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Eric Ruiz"
      ],
      "a": [
       "Anthony Simonetti",
@@ -77284,8 +77284,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "John Manuzza"
      ],
      "a": [
       "Kapil Khanna",
@@ -77295,8 +77295,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Shalin Rawal"
      ],
      "a": [
       "Yash Mehta",
@@ -77306,8 +77306,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Xhulio Kola"
      ],
      "a": [
       "Pritpal Singh",
@@ -77317,8 +77317,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Luke Simon"
      ],
      "a": [
       "Syed Haider",
@@ -77328,8 +77328,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Meet Thakkar"
      ],
      "a": [
       "Yash Mehta",
@@ -77339,8 +77339,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Xhulio Kola"
      ],
      "a": [
       "Ashish Kumar",
@@ -77350,8 +77350,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "Luke Simon"
      ],
      "a": [
       "Imran Mazhar",
@@ -77361,8 +77361,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Jesse Mynahan"
      ],
      "a": [
       "Dilip Patel",
@@ -77372,8 +77372,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cesar Santamaria-Aranda",
+      "Luke Simon"
      ],
      "a": [
       "Ashish Kumar",
@@ -77383,8 +77383,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Xhulio Kola"
      ],
      "a": [
       "Imran Mazhar",
@@ -77394,8 +77394,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "John Manuzza"
      ],
      "a": [
       "Yash Mehta",
@@ -77405,8 +77405,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Meet Thakkar"
      ],
      "a": [
       "Harsh Upadhyaya",
@@ -77416,8 +77416,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Kapil Khanna",
@@ -77427,8 +77427,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Shalin Rawal"
      ],
      "a": [
       "Ashish Kumar",
@@ -77438,8 +77438,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Bill Olderman"
      ],
      "a": [
       "Yash Mehta",
@@ -77449,8 +77449,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Luke Simon"
      ],
      "a": [
       "Harsh Upadhyaya",
@@ -77460,8 +77460,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Luke Simon"
      ],
      "a": [
       "Yash Mehta",
@@ -77471,8 +77471,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Kapil Khanna",
@@ -77482,8 +77482,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Shalin Rawal"
      ],
      "a": [
       "Imran Mazhar",
@@ -77493,8 +77493,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Xhulio Kola"
      ],
      "a": [
       "Harsh Upadhyaya",
@@ -77504,8 +77504,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Luke Simon"
      ],
      "a": [
       "Yash Mehta",
@@ -77515,8 +77515,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Xhulio Kola",
+      "Jesse Mynahan"
      ],
      "a": [
       "Ashish Kumar",
@@ -77526,8 +77526,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Kapil Khanna",
@@ -77537,8 +77537,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "John Manuzza"
      ],
      "a": [
       "Imran Mazhar",
@@ -77548,8 +77548,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Bill Olderman"
      ],
      "a": [
       "Yash Mehta",
@@ -77559,8 +77559,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Meet Thakkar"
      ],
      "a": [
       "Kapil Khanna",
@@ -77570,8 +77570,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Shalin Rawal",
+      "Xhulio Kola"
      ],
      "a": [
       "Ashish Kumar",
@@ -77581,8 +77581,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jesse Mynahan",
+      "Luke Simon"
      ],
      "a": [
       "Dilip Patel",
@@ -77592,8 +77592,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Umang Pathak",
+      "Shalin Rawal"
      ],
      "a": [
       "Yash Mehta",
@@ -77603,8 +77603,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "John Manuzza",
+      "Cesar Santamaria-Aranda"
      ],
      "a": [
       "Kapil Khanna",
@@ -77614,8 +77614,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Meet Thakkar",
+      "Xhulio Kola"
      ],
      "a": [
       "Pritpal Singh",
@@ -77625,8 +77625,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Bill Olderman",
+      "Jesse Mynahan"
      ],
      "a": [
       "Syed Haider",
@@ -78881,7 +78881,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T07:57:40.756Z";
+  DATA.meta.asOf = "2026-11-23T20:44:22.135Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;

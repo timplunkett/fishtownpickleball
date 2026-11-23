@@ -61,21 +61,6 @@
       "awayPodRanking": null
     },
     {
-      "matchupId": "3b0d609b-1eb3-4ec6-ab55-e5ae35c97734",
-      "weekNumber": 2,
-      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
-      "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-12-03T20:00:00",
-      "homeName": "Pickleball Kingdom Tinton Falls",
-      "awayName": "Life Time Red Bank",
-      "playoffGame": 1,
-      "homePodRanking": 1,
-      "awayPodRanking": 2
-    },
-    {
       "matchupId": "c3c727c0-9b4e-46a2-8e49-c44d81fede6e",
       "weekNumber": 2,
       "homeTeamId": "9ecdbb3d-9d38-4eb0-8b09-787201cc9f00",
@@ -83,10 +68,25 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-12-03T23:00:00",
+      "scheduledTime": "2026-12-03T11:00:00",
       "homeName": "Flemington Green",
       "awayName": "Montville",
       "playoffGame": 2,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    },
+    {
+      "matchupId": "3b0d609b-1eb3-4ec6-ab55-e5ae35c97734",
+      "weekNumber": 2,
+      "homeTeamId": "2fb82d21-0d22-45e2-956b-f98512371aec",
+      "awayTeamId": "8f9b56d4-6dae-4286-8270-052626bda5ba",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-12-03T12:00:00",
+      "homeName": "Pickleball Kingdom Tinton Falls",
+      "awayName": "Life Time Red Bank",
+      "playoffGame": 1,
       "homePodRanking": 1,
       "awayPodRanking": 2
     }

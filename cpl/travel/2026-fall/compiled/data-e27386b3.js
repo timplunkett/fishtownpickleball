@@ -11535,7 +11535,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 436,
+   "leagueRank": 437,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11593,7 +11593,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 434,
+   "leagueRank": 435,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11622,7 +11622,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 446,
+   "leagueRank": 447,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11680,7 +11680,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 432,
+   "leagueRank": 433,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11709,7 +11709,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 440,
+   "leagueRank": 441,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11767,7 +11767,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 437,
+   "leagueRank": 438,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -11796,7 +11796,7 @@
    "winPct": 0,
    "diff": 0,
    "ppg": 0,
-   "leagueRank": 435,
+   "leagueRank": 436,
    "rating": null,
    "ratingGames": 0,
    "confidence": 0,
@@ -95854,7 +95854,7 @@
      ],
      "a": [
       "Jasmine Nguyen",
-      "Taylor Newell"
+      "Kevin Algarme"
      ]
     },
     {
@@ -95920,7 +95920,7 @@
      ],
      "a": [
       "Holden Smith",
-      "Taylor Newell"
+      "Kevin Algarme"
      ]
     },
     {
@@ -95953,7 +95953,7 @@
      ],
      "a": [
       "Jane Pascua",
-      "Taylor Newell"
+      "Ryan Ablaza"
      ]
     },
     {
@@ -96008,7 +96008,7 @@
      ],
      "a": [
       "Holden Smith",
-      "Taylor Newell"
+      "Ismael Hernandez"
      ]
     },
     {
@@ -96129,7 +96129,7 @@
      ],
      "a": [
       "Jasmine Nguyen",
-      "Taylor Newell"
+      "Raymond Duong"
      ]
     },
     {
@@ -96183,7 +96183,7 @@
       "Thomas Nguyen"
      ],
      "a": [
-      "Taylor Newell",
+      "Holden Smith",
       "Kevin Algarme"
      ]
     }
@@ -96952,42 +96952,6 @@
       "Jonathan Jamison",
       "Joseph Mckenna"
      ]
-    },
-    {
-     "t": "mixed",
-     "h": [
-      "Suzane Sullivan",
-      "Adam Werwie"
-     ],
-     "a": [
-      "",
-      ""
-     ],
-     "tb": 1
-    },
-    {
-     "t": "female",
-     "h": [
-      "Halimah Maideen",
-      "Sabiha Kermalli"
-     ],
-     "a": [
-      "",
-      ""
-     ],
-     "tb": 1
-    },
-    {
-     "t": "male",
-     "h": [
-      "Marcus Burritt",
-      "Anthony Serratore"
-     ],
-     "a": [
-      "",
-      ""
-     ],
-     "tb": 1
     }
    ]
   },
@@ -98504,6 +98468,7 @@
   "Isabella Silva": "6b4c5230-95a7-4b24-b971-47c8eb53b251",
   "Shaozhi Zheng": "6df2a5f8-60fd-45c0-a7bd-3d0ad722d0fd",
   "John Dick": "a16c6053-9417-4888-ab5d-7c08b327c117",
+  "Eric Giuliano": "b9c60aeb-6cb2-4983-928e-7b5d5fa7ce40",
   "Diane Herbst": "cadae4ee-fcfc-42ab-bfba-86525b5df4c9",
   "Charlene Fletcher": "d05d7514-8679-4d34-ad12-654b496f2308",
   "Lynn Bresnahan": "dfc7b259-63e3-4fbe-bb0f-0eab2f84f4a8",
@@ -99049,6 +99014,14 @@
    "outsideSub": true
   },
   {
+   "name": "Eric Giuliano",
+   "playerId": "b9c60aeb-6cb2-4983-928e-7b5d5fa7ce40",
+   "gender": "Male",
+   "team": "Bounce Philly",
+   "isCaptain": true,
+   "outsideSub": true
+  },
+  {
    "name": "Sheila Curran",
    "playerId": "bbb3cbbd-edc3-4fa6-adef-800076f97402",
    "gender": "Female",
@@ -99505,7 +99478,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T14:42:14.332Z";
+  DATA.meta.asOf = "2026-11-23T20:42:18.737Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["e27386b3"] = DATA;

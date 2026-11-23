@@ -87798,24 +87798,24 @@
   {
    "result": null,
    "round": 2,
-   "home": "Home Court",
-   "away": "PCKLRAMA",
-   "time": "2026-11-29T14:00:00",
-   "complete": false,
-   "homeSeed": 1,
-   "awaySeed": 2,
-   "game": 2
-  },
-  {
-   "result": null,
-   "round": 2,
    "home": "Picklr Newtown",
    "away": "Monroe",
-   "time": "2026-11-29T14:00:00",
+   "time": "2026-11-29T12:00:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
    "game": 3
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Home Court",
+   "away": "PCKLRAMA",
+   "time": "2026-11-29T13:00:00",
+   "complete": false,
+   "homeSeed": 1,
+   "awaySeed": 2,
+   "game": 2
   },
   {
    "result": null,
@@ -89395,7 +89395,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T02:43:36.053Z";
+  DATA.meta.asOf = "2026-11-23T20:43:19.358Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

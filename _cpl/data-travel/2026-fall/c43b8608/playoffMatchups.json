@@ -121,21 +121,6 @@
       "awayPodRanking": 3
     },
     {
-      "matchupId": "149d974a-8ace-443f-aed4-8a1e8f749b0c",
-      "weekNumber": 2,
-      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
-      "awayTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
-      "scheduledTime": "2026-11-29T14:00:00",
-      "homeName": "Home Court",
-      "awayName": "PCKLRAMA",
-      "playoffGame": 2,
-      "homePodRanking": 1,
-      "awayPodRanking": 2
-    },
-    {
       "matchupId": "5b3bd05e-a79e-4b09-91ff-91ef6f85a9ab",
       "weekNumber": 2,
       "homeTeamId": "725be103-38c7-40a9-973e-4df5bd927bea",
@@ -143,10 +128,25 @@
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-29T14:00:00",
+      "scheduledTime": "2026-11-29T12:00:00",
       "homeName": "Picklr Newtown",
       "awayName": "Monroe",
       "playoffGame": 3,
+      "homePodRanking": 1,
+      "awayPodRanking": 2
+    },
+    {
+      "matchupId": "149d974a-8ace-443f-aed4-8a1e8f749b0c",
+      "weekNumber": 2,
+      "homeTeamId": "a7d5c302-9ee0-4bd6-9205-971efe6af562",
+      "awayTeamId": "1cf6f04e-c019-4992-9d38-948423a18dde",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-29T13:00:00",
+      "homeName": "Home Court",
+      "awayName": "PCKLRAMA",
+      "playoffGame": 2,
       "homePodRanking": 1,
       "awayPodRanking": 2
     },
