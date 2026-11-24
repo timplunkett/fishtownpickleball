@@ -9137,7 +9137,7 @@
    "playerId": "3b4a5b66-69e2-44be-96c8-b48d93e9ae6f"
   },
   {
-   "name": "Colleen Deroae",
+   "name": "Colleen Derose",
    "gender": "Female",
    "team": "ACE Moorestown",
    "matches": 6,
@@ -15959,7 +15959,7 @@
    "bId": "c95c4833-a2e9-44ca-8451-b39430659a7e"
   },
   {
-   "a": "Colleen Deroae",
+   "a": "Colleen Derose",
    "b": "Jason Fingerman",
    "team": "ACE Moorestown",
    "n": 3,
@@ -20093,7 +20093,7 @@
    "bId": "f918cd15-2c56-4b28-a4ae-7e5588920538"
   },
   {
-   "a": "Colleen Deroae",
+   "a": "Colleen Derose",
    "b": "Cathy Fiebs",
    "team": "ACE Moorestown",
    "n": 3,
@@ -20600,7 +20600,7 @@
    "bId": "ff713931-208e-4b8f-9b1d-c7919e6af892"
   },
   {
-   "a": "Colleen Deroae",
+   "a": "Colleen Derose",
    "b": "Kelley Batejan",
    "team": "ACE Moorestown",
    "n": 4,
@@ -21809,7 +21809,7 @@
    "bId": "d566e39d-ad62-41aa-be9c-a535f141a8ee"
   },
   {
-   "a": "Colleen Deroae",
+   "a": "Colleen Derose",
    "b": "Andrea Schwab",
    "team": "ACE Moorestown",
    "n": 7,
@@ -24539,7 +24539,7 @@
    "bId": "71f39077-b218-4226-8cf0-6419364ce275"
   },
   {
-   "a": "Colleen Deroae",
+   "a": "Colleen Derose",
    "b": "Pete Dunn",
    "team": "ACE Moorestown",
    "n": 3,
@@ -28127,7 +28127,7 @@
    "bId": "e1957c7a-4e30-47e1-bf43-fae97adcf183"
   },
   {
-   "a": "Colleen Deroae",
+   "a": "Colleen Derose",
    "b": "Dawn Gordon",
    "team": "ACE Moorestown",
    "n": 3,
@@ -43031,7 +43031,7 @@
      ],
      "a": [
       "Andrea Schwab",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -43143,7 +43143,7 @@
      ],
      "a": [
       "Andrea Schwab",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -43255,7 +43255,7 @@
      ],
      "a": [
       "Cathy Fiebs",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -45793,7 +45793,7 @@
       "Alfonse Calato"
      ],
      "a": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Pete Dunn"
      ]
     },
@@ -45835,7 +45835,7 @@
       "Eileen Clark"
      ],
      "a": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Kelley Batejan"
      ]
     },
@@ -45933,7 +45933,7 @@
       "Eileen Clark"
      ],
      "a": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Kelley Batejan"
      ]
     },
@@ -46115,7 +46115,7 @@
       "Thomas Licciardello"
      ],
      "a": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Jason Fingerman"
      ]
     },
@@ -46172,7 +46172,7 @@
      ],
      "a": [
       "Cathy Fiebs",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -50969,7 +50969,7 @@
      "as": 21,
      "h": [
       "Andrea Schwab",
-      "Colleen Deroae"
+      "Colleen Derose"
      ],
      "a": [
       "Patty Andrzejewski",
@@ -51067,7 +51067,7 @@
      "as": 21,
      "h": [
       "Lisa Blaber",
-      "Colleen Deroae"
+      "Colleen Derose"
      ],
      "a": [
       "Patty Andrzejewski",
@@ -51150,7 +51150,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Bob Sochor"
      ],
      "a": [
@@ -51276,7 +51276,7 @@
      "hs": 21,
      "as": 23,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Pete Dunn"
      ],
      "a": [
@@ -51305,7 +51305,7 @@
      "as": 21,
      "h": [
       "Kelley Batejan",
-      "Colleen Deroae"
+      "Colleen Derose"
      ],
      "a": [
       "Kimberly Brooks",
@@ -59298,7 +59298,7 @@
      "hs": 21,
      "as": 13,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Jason Fingerman"
      ],
      "a": [
@@ -59382,7 +59382,7 @@
      "hs": 19,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Jason Fingerman"
      ],
      "a": [
@@ -59438,7 +59438,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Kelley Batejan"
      ],
      "a": [
@@ -59550,7 +59550,7 @@
      "hs": 21,
      "as": 14,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Andrea Schwab"
      ],
      "a": [
@@ -59662,7 +59662,7 @@
      "hs": 8,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Andrea Schwab"
      ],
      "a": [
@@ -66139,7 +66139,7 @@
      "hs": 16,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Scott Auty"
      ],
      "a": [
@@ -66196,7 +66196,7 @@
      "as": 22,
      "h": [
       "Cathy Fiebs",
-      "Colleen Deroae"
+      "Colleen Derose"
      ],
      "a": [
       "Geordielyn Alviola",
@@ -66307,7 +66307,7 @@
      "hs": 14,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Dawn Gordon"
      ],
      "a": [
@@ -66420,7 +66420,7 @@
      "as": 21,
      "h": [
       "Leslie Laganella",
-      "Colleen Deroae"
+      "Colleen Derose"
      ],
      "a": [
       "Cathy Proctor",
@@ -66531,7 +66531,7 @@
      "hs": 6,
      "as": 21,
      "h": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Dawn Gordon"
      ],
      "a": [
@@ -69017,7 +69017,7 @@
      ],
      "a": [
       "Barb Mulckhuyse",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -69058,7 +69058,7 @@
       "Julian Stamper"
      ],
      "a": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Scott Auty"
      ]
     },
@@ -69115,7 +69115,7 @@
      ],
      "a": [
       "Andrea Schwab",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -69227,7 +69227,7 @@
      ],
      "a": [
       "Dawn Gordon",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -69296,7 +69296,7 @@
       "Marcos Medroso"
      ],
      "a": [
-      "Colleen Deroae",
+      "Colleen Derose",
       "Pete Dunn"
      ]
     },
@@ -69339,7 +69339,7 @@
      ],
      "a": [
       "Andrea Schwab",
-      "Colleen Deroae"
+      "Colleen Derose"
      ]
     },
     {
@@ -89395,7 +89395,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T20:43:19.358Z";
+  DATA.meta.asOf = "2026-11-24T02:43:16.162Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c43b8608"] = DATA;

@@ -3968,7 +3968,7 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Colleen Deroae",
+   "name": "Colleen Derose",
    "playerId": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
    "team": "ACE Moorestown",
    "slug": "c43b8608",

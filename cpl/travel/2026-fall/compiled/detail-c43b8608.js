@@ -42779,7 +42779,7 @@
    },
    {
     "pid": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-    "name": "Colleen Deroae",
+    "name": "Colleen Derose",
     "n": 3,
     "synergy": 1.5
    },
@@ -62413,7 +62413,7 @@
    },
    {
     "pid": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-    "name": "Colleen Deroae",
+    "name": "Colleen Derose",
     "n": 7,
     "synergy": 0
    },
@@ -76327,7 +76327,7 @@
    },
    {
     "pid": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-    "name": "Colleen Deroae",
+    "name": "Colleen Derose",
     "n": 3,
     "synergy": -1.8
    }
@@ -100869,7 +100869,7 @@
    },
    {
     "pid": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-    "name": "Colleen Deroae",
+    "name": "Colleen Derose",
     "n": 3,
     "synergy": 0.3
    },
@@ -101367,7 +101367,7 @@
    },
    {
     "pid": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-    "name": "Colleen Deroae",
+    "name": "Colleen Derose",
     "n": 4,
     "synergy": 0.2
    },
@@ -104036,7 +104036,7 @@
    },
    {
     "pid": "1b8d34a3-9006-4e6f-b475-e5f3b4f7e814",
-    "name": "Colleen Deroae",
+    "name": "Colleen Derose",
     "n": 3,
     "synergy": -0.5
    },
