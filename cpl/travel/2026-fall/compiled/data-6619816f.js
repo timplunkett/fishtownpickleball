@@ -4846,7 +4846,7 @@
   },
   {
    "name": "Christine Sandella",
-   "gender": "Female",
+   "gender": "Male",
    "team": "Home Court",
    "matches": 0,
    "outsideSub": true,
@@ -54410,7 +54410,7 @@
   {
    "name": "Christine Sandella",
    "playerId": "bd30e236-1c20-4fa1-b9ad-f56c8613d22b",
-   "gender": "Female",
+   "gender": "Male",
    "team": "Home Court",
    "isCaptain": false,
    "outsideSub": true
@@ -54676,7 +54676,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-20T14:17:13.927Z";
+  DATA.meta.asOf = "2026-11-24T00:07:19.191Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["6619816f"] = DATA;

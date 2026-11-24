@@ -76774,8 +76774,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "Carlos Rincon"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76796,8 +76796,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rahul Desai"
      ],
      "a": [
       "Jimmy Ramja",
@@ -76807,8 +76807,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Cullen Curley",
+      "Dion Brown"
      ],
      "a": [
       "Kyle Korman",
@@ -76818,8 +76818,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dion Brown",
+      "Rohit Mankotia"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76829,8 +76829,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Zane Pagotto",
+      "Michael Barndt"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76840,8 +76840,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Samuel Kashefska",
+      "Rahul Desai"
      ],
      "a": [
       "Kyle Korman",
@@ -76851,8 +76851,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "David Reyes",
+      "Carlos Rincon"
      ],
      "a": [
       "Carlos Idrovo",
@@ -76862,8 +76862,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rahul Desai",
+      "Eric Ruiz"
      ],
      "a": [
       "Noah Ludwigsen",
@@ -76873,8 +76873,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Michael Barndt",
+      "Carlos Rincon"
      ],
      "a": [
       "Anthony Simonetti",
@@ -76884,8 +76884,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ayon Codner",
+      "Zane Pagotto"
      ],
      "a": [
       "Kyle Korman",
@@ -76895,8 +76895,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Dion Brown",
+      "David Reyes"
      ],
      "a": [
       "Carlos Idrovo",
@@ -78881,7 +78881,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T20:44:22.135Z";
+  DATA.meta.asOf = "2026-11-24T00:09:01.991Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
