@@ -11571,7 +11571,7 @@
   "partners": [
    {
     "pid": "93280d5d-b0c8-49cd-94fe-0350f3e2dac5",
-    "name": "Ramam Durba",
+    "name": "Ram Dr",
     "n": 6,
     "synergy": 2.1
    },
@@ -16320,7 +16320,7 @@
    },
    {
     "pid": "93280d5d-b0c8-49cd-94fe-0350f3e2dac5",
-    "name": "Ramam Durba",
+    "name": "Ram Dr",
     "n": 3,
     "synergy": 0.6
    },
@@ -19898,7 +19898,7 @@
    },
    {
     "pid": "93280d5d-b0c8-49cd-94fe-0350f3e2dac5",
-    "name": "Ramam Durba",
+    "name": "Ram Dr",
     "n": 4,
     "synergy": -3.3
    }
