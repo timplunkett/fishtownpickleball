@@ -11602,7 +11602,7 @@
    "playerId": "a4310f70-ee30-4e55-b189-2efd837b7189"
   },
   {
-   "name": "Richard Medel",
+   "name": "Richi Medel",
    "gender": "Male",
    "team": "Jersey Pickleball Club",
    "matches": 10,
@@ -20913,7 +20913,7 @@
   },
   {
    "a": "Anthony Simonetti",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 3,
    "w": 2,
@@ -24917,7 +24917,7 @@
   },
   {
    "a": "Cade Chrebet",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 3,
    "w": 1,
@@ -25580,7 +25580,7 @@
   },
   {
    "a": "Neil Policastro",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 16,
    "w": 7,
@@ -31885,7 +31885,7 @@
   },
   {
    "a": "Nicci Galioto",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 7,
    "w": 3,
@@ -34342,7 +34342,7 @@
   },
   {
    "a": "Brandon Lam",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 3,
    "w": 0,
@@ -35278,7 +35278,7 @@
   },
   {
    "a": "Anthony Mcmahon",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 3,
    "w": 0,
@@ -35589,7 +35589,7 @@
    "bId": "d67489d0-d69c-425e-86a7-0f7ade15ed25"
   },
   {
-   "a": "Richard Medel",
+   "a": "Richi Medel",
    "b": "Connor Hall",
    "team": "Jersey Pickleball Club",
    "n": 3,
@@ -40452,7 +40452,7 @@
   },
   {
    "a": "Marianna Telerman",
-   "b": "Richard Medel",
+   "b": "Richi Medel",
    "team": "Jersey Pickleball Club",
    "n": 6,
    "w": 2,
@@ -43419,7 +43419,7 @@
      "as": 0,
      "h": [
       "Kali Lerner",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Danielle Kuti",
@@ -43461,7 +43461,7 @@
      "as": 23,
      "h": [
       "Neil Policastro",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Alan Liang",
@@ -43572,7 +43572,7 @@
      "hs": 21,
      "as": 18,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -43601,7 +43601,7 @@
      "as": 19,
      "h": [
       "Christina Grosso",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Jen Ogorzat",
@@ -43699,7 +43699,7 @@
      "as": 21,
      "h": [
       "Anthony Mcmahon",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Matthew Peletier",
@@ -43713,7 +43713,7 @@
      "as": 21,
      "h": [
       "Christina Grosso",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Jen Ogorzat",
@@ -43797,7 +43797,7 @@
      "as": 14,
      "h": [
       "Anthony Simonetti",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Danny Ruiz",
@@ -57314,7 +57314,7 @@
      "as": 21,
      "h": [
       "Sharon Lee",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Jordan Pirrello",
@@ -57384,7 +57384,7 @@
      "as": 12,
      "h": [
       "Anthony Simonetti",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Brian Kline",
@@ -57510,7 +57510,7 @@
      "as": 21,
      "h": [
       "Anthony Simonetti",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Michael Fidelino",
@@ -57566,7 +57566,7 @@
      "as": 21,
      "h": [
       "Sharon Lee",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Allyssa Perez",
@@ -57608,7 +57608,7 @@
      "as": 21,
      "h": [
       "Neil Policastro",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Tom Draney",
@@ -57734,7 +57734,7 @@
      "as": 21,
      "h": [
       "Connor Hall",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Kenneth Kline",
@@ -62515,7 +62515,7 @@
       "Jeff Burke"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Brandon Lam"
      ]
     },
@@ -62572,7 +62572,7 @@
      ],
      "a": [
       "Kali Lerner",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -62627,7 +62627,7 @@
       "Jeff Burke"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Brandon Lam"
      ]
     },
@@ -62684,7 +62684,7 @@
      ],
      "a": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -73102,7 +73102,7 @@
      "as": 18,
      "h": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Rachel Levkov",
@@ -73185,7 +73185,7 @@
      "hs": 23,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -73228,7 +73228,7 @@
      "as": 21,
      "h": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Carolyn Antuna",
@@ -73312,7 +73312,7 @@
      "as": 21,
      "h": [
       "Connor Hall",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Leo Wong",
@@ -73521,7 +73521,7 @@
      "hs": 17,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -80197,7 +80197,7 @@
       "Michael Costa"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ]
     },
@@ -80309,7 +80309,7 @@
       "Michael Costa"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ]
     },
@@ -80352,7 +80352,7 @@
      ],
      "a": [
       "Marianna Telerman",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -80464,7 +80464,7 @@
      ],
      "a": [
       "Marianna Telerman",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -80534,7 +80534,7 @@
      ],
      "a": [
       "Brandon Lam",
-      "Richard Medel"
+      "Richi Medel"
      ]
     }
    ],
@@ -90407,7 +90407,7 @@
      "hs": 11,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -90520,7 +90520,7 @@
      "as": 29,
      "h": [
       "Neil Policastro",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Todd Fagan",
@@ -90534,7 +90534,7 @@
      "as": 21,
      "h": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Abby Zhang",
@@ -90631,7 +90631,7 @@
      "hs": 15,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Anthony Mcmahon"
      ],
      "a": [
@@ -90646,7 +90646,7 @@
      "as": 21,
      "h": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Genifer Lefkowitz",
@@ -90744,7 +90744,7 @@
      "as": 22,
      "h": [
       "Anthony Mcmahon",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Todd Fagan",
@@ -97359,7 +97359,7 @@
      "hs": 19,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -97402,7 +97402,7 @@
      "as": 13,
      "h": [
       "Brittani Rivera",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Beth Osipowitz",
@@ -97485,7 +97485,7 @@
      "hs": 13,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Connor Hall"
      ],
      "a": [
@@ -97583,7 +97583,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Cade Chrebet"
      ],
      "a": [
@@ -97695,7 +97695,7 @@
      "hs": 18,
      "as": 21,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Cade Chrebet"
      ],
      "a": [
@@ -101208,7 +101208,7 @@
      "as": 16,
      "h": [
       "Cade Chrebet",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Joe Ying",
@@ -101264,7 +101264,7 @@
      "as": 26,
      "h": [
       "Marianna Telerman",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Allyson Fry",
@@ -101319,7 +101319,7 @@
      "hs": 21,
      "as": 10,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -101376,7 +101376,7 @@
      "as": 21,
      "h": [
       "Marianna Telerman",
-      "Richard Medel"
+      "Richi Medel"
      ],
      "a": [
       "Elsie Koo",
@@ -101431,7 +101431,7 @@
      "hs": 21,
      "as": 15,
      "h": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ],
      "a": [
@@ -117324,7 +117324,7 @@
      ],
      "a": [
       "Marianna Telerman",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -117379,7 +117379,7 @@
       "Jason Ilkowitz"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ]
     },
@@ -117491,7 +117491,7 @@
       "Tyler Kaleikini"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ]
     },
@@ -117590,7 +117590,7 @@
      ],
      "a": [
       "Alex Glushek",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -117702,7 +117702,7 @@
      ],
      "a": [
       "Alex Glushek",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -126164,7 +126164,7 @@
      ],
      "a": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -126233,7 +126233,7 @@
       "Asif Bokhari"
      ],
      "a": [
-      "Richard Medel",
+      "Richi Medel",
       "Neil Policastro"
      ]
     },
@@ -126276,7 +126276,7 @@
      ],
      "a": [
       "Nicci Galioto",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -126346,7 +126346,7 @@
      ],
      "a": [
       "Neil Policastro",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -126514,7 +126514,7 @@
      ],
      "a": [
       "Marianna Telerman",
-      "Richard Medel"
+      "Richi Medel"
      ]
     },
     {
@@ -136815,7 +136815,7 @@
   ]
  }
 };
-  DATA.meta.asOf = "2026-11-22T17:16:37.119Z";
+  DATA.meta.asOf = "2026-11-24T13:31:42.847Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["b7ca04e4"] = DATA;

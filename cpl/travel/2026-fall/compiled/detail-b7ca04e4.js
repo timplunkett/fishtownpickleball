@@ -43471,7 +43471,7 @@
   "partners": [
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 3,
     "synergy": 1.5
    },
@@ -126912,7 +126912,7 @@
    },
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 7,
     "synergy": -0.1
    },
@@ -148764,7 +148764,7 @@
   "partners": [
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 3,
     "synergy": 0.8
    },
@@ -165481,7 +165481,7 @@
    },
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 3,
     "synergy": -0.4
    },
@@ -176581,7 +176581,7 @@
   "partners": [
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 16,
     "synergy": 0.6
    },
@@ -179161,7 +179161,7 @@
    },
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 6,
     "synergy": -2
    },
@@ -186248,7 +186248,7 @@
    },
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 3,
     "synergy": -0.6
    },
@@ -200470,7 +200470,7 @@
    },
    {
     "pid": "d324675d-d202-498e-a936-c612ce344456",
-    "name": "Richard Medel",
+    "name": "Richi Medel",
     "n": 3,
     "synergy": -0.6
    }

@@ -5431,6 +5431,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "E Noach Shapiro",
+   "playerId": "aaedba87-275e-40f9-8683-a1db0d570cd7",
+   "team": "Pickleball Palace Black",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Ed Amato",
    "playerId": "ce893b2d-f5ea-40aa-98c0-d67402405b64",
    "team": "PickleRage Union County Pandas",
@@ -14783,13 +14790,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Noach Shapiro",
-   "playerId": "aaedba87-275e-40f9-8683-a1db0d570cd7",
-   "team": "Pickleball Palace Black",
-   "slug": "1e12eb3f",
-   "gender": "Male"
-  },
-  {
    "name": "Noah Goding",
    "playerId": "80138d68-a74a-4f8c-aea1-7d31e682efa8",
    "team": "Home Court",
@@ -15980,13 +15980,6 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
-   "name": "Richard Medel",
-   "playerId": "d324675d-d202-498e-a936-c612ce344456",
-   "team": "Jersey Pickleball Club",
-   "slug": "b7ca04e4",
-   "gender": "Male"
-  },
-  {
    "name": "Richard Ricciardi",
    "playerId": "705bad48-cc2d-40fe-b96f-409996010d0d",
    "team": "Monroe",
@@ -15998,6 +15991,13 @@ window.DUPR_AUDIT = {
    "playerId": "9d1192c8-e17a-4251-a23b-59d122f4bada",
    "team": "APC Garden State",
    "slug": "c43b8608",
+   "gender": "Male"
+  },
+  {
+   "name": "Richi Medel",
+   "playerId": "d324675d-d202-498e-a936-c612ce344456",
+   "team": "Jersey Pickleball Club",
+   "slug": "b7ca04e4",
    "gender": "Male"
   },
   {

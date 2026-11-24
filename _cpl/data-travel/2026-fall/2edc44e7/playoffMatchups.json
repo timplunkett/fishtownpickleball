@@ -93,17 +93,17 @@
     {
       "matchupId": "51673b0b-391f-44ea-a919-b2ad2a05fe5a",
       "weekNumber": 3,
-      "homeTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
-      "awayTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+      "homeTeamId": "8b9eb207-c82f-470f-89fa-143f46706f98",
+      "awayTeamId": "848d44a0-ea94-4ed8-bc6f-b78faa23321e",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
-      "scheduledTime": "2026-11-28T14:00:00",
-      "homeName": "Flemington Blue",
-      "awayName": "Bounce Malvern Black",
+      "scheduledTime": "2026-12-05T12:00:00",
+      "homeName": "Bounce Malvern Black",
+      "awayName": "Flemington Blue",
       "playoffGame": 1,
-      "homePodRanking": 3,
-      "awayPodRanking": 2
+      "homePodRanking": 2,
+      "awayPodRanking": 3
     }
   ]
 }

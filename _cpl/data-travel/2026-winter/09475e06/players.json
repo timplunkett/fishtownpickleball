@@ -21,7 +21,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 12
+      "ranking": 16
     },
     {
       "playerId": "0ac4f132-2c5c-4a1b-92a6-350f1952aa75",
@@ -44,7 +44,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 32
+      "ranking": 41
     },
     {
       "playerId": "0d736ba1-d552-490a-a21c-8aa58bec268e",
@@ -67,7 +67,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 38
+      "ranking": 47
     },
     {
       "playerId": "0dace2fb-e133-4556-9d90-288c0f41805a",
@@ -90,7 +90,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 28
+      "ranking": 36
+    },
+    {
+      "playerId": "110b981a-77ae-42b0-8200-4e30e9ce157a",
+      "firstName": "Laura",
+      "lastName": "Govan",
+      "gender": "Female",
+      "dupr": "V7VX96",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 27
     },
     {
       "playerId": "13c4d5cf-50d3-4156-95a0-aa4c45c19e20",
@@ -113,7 +136,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 18
+      "ranking": 24
     },
     {
       "playerId": "1a34ae87-9a09-4766-bdeb-dc8638846f24",
@@ -136,7 +159,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 29
+      "ranking": 38
     },
     {
       "playerId": "1c8ac03f-c618-46c4-bed2-c8391c4e1028",
@@ -159,7 +182,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 59
+      "ranking": 70
     },
     {
       "playerId": "1f688eb7-dd8a-4b49-a2a5-98cac5782835",
@@ -228,7 +251,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 54
+      "ranking": 65
     },
     {
       "playerId": "2d00c1a4-78ae-4fe3-9192-2622842e354d",
@@ -251,7 +274,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 51
+      "ranking": 62
     },
     {
       "playerId": "343d9ed5-c257-4043-98e3-fb3c6c21a537",
@@ -274,7 +297,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 24
+      "ranking": 31
     },
     {
       "playerId": "35d708f3-cc15-44a3-9195-60137e836e26",
@@ -297,7 +320,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 55
+      "ranking": 66
     },
     {
       "playerId": "43e3e482-aa27-49c2-a18f-59a7abdbc7ba",
@@ -320,7 +343,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 27
+      "ranking": 34
     },
     {
       "playerId": "45230dff-64e7-49b9-b211-595fad5c3e40",
@@ -343,7 +366,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 20
+      "ranking": 26
     },
     {
       "playerId": "4b57327b-cf8c-41d3-8b29-6884a8d927f1",
@@ -366,7 +389,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 45
+      "ranking": 55
+    },
+    {
+      "playerId": "4b63ffb6-e7b0-4c73-a2d7-529284e5ecf0",
+      "firstName": "Maureen",
+      "lastName": "Dazzo",
+      "gender": "Female",
+      "dupr": "PKLLQE",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 15
     },
     {
       "playerId": "4c4297a1-6537-482c-aeee-beb3aa5c3eb1",
@@ -389,7 +435,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 48
+      "ranking": 59
     },
     {
       "playerId": "53a2fafe-37e7-4673-ae8d-a6c36cf06003",
@@ -412,7 +458,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 57
+      "ranking": 68
     },
     {
       "playerId": "54a0bc36-2277-4497-bb82-d8499157c1fe",
@@ -435,7 +481,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 39
+      "ranking": 48
+    },
+    {
+      "playerId": "57f76666-8731-4408-9e83-fbab3d007fae",
+      "firstName": "Sherri",
+      "lastName": "Falsetti",
+      "gender": "Female",
+      "dupr": "8W2QGY",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 19
     },
     {
       "playerId": "643d57f1-e4de-431d-b486-01fcc266501f",
@@ -458,7 +527,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 58
+      "ranking": 69
     },
     {
       "playerId": "66df26d7-8f8c-44ee-8294-7501f7ce0760",
@@ -481,7 +550,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 9
+      "ranking": 12
+    },
+    {
+      "playerId": "6997697d-b140-481f-a35f-d16f9712674f",
+      "firstName": "Sheila",
+      "lastName": "Ash",
+      "gender": "Female",
+      "dupr": "3PG4VX",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 4
     },
     {
       "playerId": "6ecbb5ab-31f0-4238-a336-c384778fa3a7",
@@ -504,7 +596,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 19
+      "ranking": 25
     },
     {
       "playerId": "708f285b-0855-47a2-a8b4-9c1459f65781",
@@ -527,7 +619,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 22
+      "ranking": 29
     },
     {
       "playerId": "714331ee-d124-483d-a89e-11d1431a7fca",
@@ -550,7 +642,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 6
+      "ranking": 8
     },
     {
       "playerId": "723a730c-06c9-4a53-9275-53e2f98cce6f",
@@ -573,7 +665,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 31
+      "ranking": 40
     },
     {
       "playerId": "7317ce16-29ce-4976-ae0f-e8af7440ec7b",
@@ -596,7 +688,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 25
+      "ranking": 32
     },
     {
       "playerId": "7a8e232f-7cb0-409f-ab0a-75c274ad2727",
@@ -619,7 +711,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 30
+      "ranking": 39
     },
     {
       "playerId": "82fdcfb0-fd11-4b4c-a12f-65bfe77ebde3",
@@ -642,7 +734,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 44
+      "ranking": 54
+    },
+    {
+      "playerId": "85643f89-6cfc-4c76-8d09-0f0e4869a9dc",
+      "firstName": "Jeannine",
+      "lastName": "Calhoun",
+      "gender": "Female",
+      "dupr": "V7566P",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 10
     },
     {
       "playerId": "8a8e0b35-1b88-44c9-914d-643787dc3ccd",
@@ -665,7 +780,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 43
+      "ranking": 53
+    },
+    {
+      "playerId": "8fb87112-3824-4d16-96d1-3f4abcb2ae45",
+      "firstName": "Mary",
+      "lastName": "Brashier",
+      "gender": "Female",
+      "dupr": "30OXL2",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 7
     },
     {
       "playerId": "91857142-d537-4b98-bbc2-481129371949",
@@ -688,7 +826,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 40
+      "ranking": 49
     },
     {
       "playerId": "9334d28c-6aab-4669-9297-799876b8ca16",
@@ -711,7 +849,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 37
+      "ranking": 46
     },
     {
       "playerId": "947cf956-08c0-44d2-9bae-2458fd24c9d0",
@@ -734,7 +872,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 17
+      "ranking": 23
     },
     {
       "playerId": "98abb8c4-ac0b-4c10-b711-3c4a188429a2",
@@ -757,7 +895,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 62
+      "ranking": 74
+    },
+    {
+      "playerId": "9e2b45ad-e99b-4786-915c-d89e1d1bfee2",
+      "firstName": "Patricia",
+      "lastName": "Kavanaugh",
+      "gender": "Female",
+      "dupr": "8EY4WE",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 35
     },
     {
       "playerId": "a10029d9-c75f-4a33-98cd-6173faa99ddc",
@@ -780,7 +941,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 4
+      "ranking": 5
     },
     {
       "playerId": "a4fb87af-daed-4bc9-9027-2a4b215c060c",
@@ -803,7 +964,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 26
+      "ranking": 33
     },
     {
       "playerId": "a5bd8b40-0fdc-4a92-b452-d0fe555d2abf",
@@ -826,7 +987,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 5
+      "ranking": 6
     },
     {
       "playerId": "a9c9b8dc-e4b6-49b3-9ec3-de99246526fa",
@@ -849,7 +1010,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 46
+      "ranking": 56
     },
     {
       "playerId": "aaf27c02-6d20-4a96-835c-3084d799ac0f",
@@ -872,7 +1033,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 13
+      "ranking": 17
+    },
+    {
+      "playerId": "ae015f4e-a359-406a-a394-b04d1ec288b7",
+      "firstName": "Natalia",
+      "lastName": "Koontz",
+      "gender": "Female",
+      "dupr": "ZN4VJD",
+      "isCaptain": false,
+      "isSub": true,
+      "teamId": "230fdd6b-e6bb-4a7b-b1d9-d25a40b3487c",
+      "teamName": "Dill Dinkers Hatboro",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 37
     },
     {
       "playerId": "b0666637-423b-42ed-b2a4-02a6d12164c2",
@@ -895,7 +1079,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 34
+      "ranking": 43
     },
     {
       "playerId": "b1066a81-7537-4512-939d-5acbf11ef9aa",
@@ -918,7 +1102,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 61
+      "ranking": 72
+    },
+    {
+      "playerId": "b3448785-cc93-4aed-9940-a4cc2e7a66d9",
+      "firstName": "Jessica",
+      "lastName": "Wormeck",
+      "gender": "Female",
+      "dupr": "N7N5JZ",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "61991753-23b2-4289-96dc-d68ac3b19961",
+      "teamName": "Flemington",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 73
     },
     {
       "playerId": "b3e8de81-d69a-4912-b366-f6b66ea6dd8e",
@@ -941,7 +1148,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 15
+      "ranking": 21
     },
     {
       "playerId": "b8205aff-6aa6-4abc-886c-beb676c45c04",
@@ -964,7 +1171,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 47
+      "ranking": 57
     },
     {
       "playerId": "b93c7239-a974-467a-991e-b49159902fcf",
@@ -987,7 +1194,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 36
+      "ranking": 45
     },
     {
       "playerId": "bfbefe4a-fa83-4446-9693-067b414321a5",
@@ -1010,7 +1217,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 16
+      "ranking": 22
     },
     {
       "playerId": "c1e41980-e98d-4208-aa10-dc04e407cf8f",
@@ -1033,7 +1240,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 21
+      "ranking": 28
     },
     {
       "playerId": "c7d6417a-1519-48bd-831a-58e1714d70a9",
@@ -1056,7 +1263,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 33
+      "ranking": 42
     },
     {
       "playerId": "ca2c7d14-de39-45a1-805a-ff1ab5be31d9",
@@ -1079,7 +1286,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 49
+      "ranking": 60
     },
     {
       "playerId": "cb9b7db4-1854-4aba-93bd-2fc96f563e6c",
@@ -1125,7 +1332,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 11
+      "ranking": 14
     },
     {
       "playerId": "d070507f-0cb9-4a5f-a138-7e7e962e3c9a",
@@ -1148,7 +1355,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 8
+      "ranking": 11
     },
     {
       "playerId": "d642dcb5-f300-4b91-98ac-c1b49e34bd85",
@@ -1171,7 +1378,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 23
+      "ranking": 30
     },
     {
       "playerId": "d644942e-27c4-4785-ae52-0d5714545ee8",
@@ -1194,7 +1401,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 50
+      "ranking": 61
     },
     {
       "playerId": "da7ce23d-f915-469e-9ec1-d820d55b3b22",
@@ -1217,7 +1424,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 41
+      "ranking": 50
+    },
+    {
+      "playerId": "dd2bf155-cdc2-480c-9978-f3dbe796d749",
+      "firstName": "Missy",
+      "lastName": "Fox Decker",
+      "gender": "Female",
+      "dupr": "84KQK6",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 20
     },
     {
       "playerId": "e1957c7a-4e30-47e1-bf43-fae97adcf183",
@@ -1240,7 +1470,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 60
+      "ranking": 71
     },
     {
       "playerId": "e379e47b-dcde-4adb-8cc6-76e5660c457e",
@@ -1263,7 +1493,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 42
+      "ranking": 52
     },
     {
       "playerId": "e5286531-2721-41b9-b79b-c5476d7fb1cb",
@@ -1286,7 +1516,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 52
+      "ranking": 63
     },
     {
       "playerId": "e8a46252-99c1-405e-857c-d52d9550717a",
@@ -1309,7 +1539,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 10
+      "ranking": 13
     },
     {
       "playerId": "e9933537-c449-42e8-b742-0fd7e4ea8619",
@@ -1332,7 +1562,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 53
+      "ranking": 64
     },
     {
       "playerId": "e9c2ebf6-88d5-485d-be0f-8c71488231ae",
@@ -1355,7 +1585,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 56
+      "ranking": 67
     },
     {
       "playerId": "ef8658d8-6728-491e-8ecc-e20f7ef586d5",
@@ -1378,7 +1608,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 7
+      "ranking": 9
+    },
+    {
+      "playerId": "f1291bb6-abec-48c1-9730-68eaeead8426",
+      "firstName": "Rachel",
+      "lastName": "McGowan",
+      "gender": "Female",
+      "dupr": "GODVOM",
+      "isCaptain": false,
+      "isSub": false,
+      "teamId": "725be103-38c7-40a9-973e-4df5bd927bea",
+      "teamName": "Picklr Newtown",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 51
     },
     {
       "playerId": "f4a55eec-b8bb-4826-ba80-aba2c6d91f1f",
@@ -1401,7 +1654,30 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 14
+      "ranking": 18
+    },
+    {
+      "playerId": "f886bdf8-6b28-4b31-9587-fe6d2e9aea4a",
+      "firstName": "Raffaella",
+      "lastName": "Pernice",
+      "gender": "Female",
+      "dupr": "84506M",
+      "isCaptain": true,
+      "isSub": false,
+      "teamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "teamName": "Premiere",
+      "wins": 0,
+      "losses": 0,
+      "gamesPlayed": 0,
+      "pointsWon": 0,
+      "totalPointsAgainst": 0,
+      "clutchWins": 0,
+      "clutchLosses": 0,
+      "mixedWins": 0,
+      "mixedLosses": 0,
+      "genderWins": 0,
+      "genderLosses": 0,
+      "ranking": 58
     },
     {
       "playerId": "f89874de-ee0c-486f-af7d-32e4aed59df8",
@@ -1424,7 +1700,7 @@
       "mixedLosses": 0,
       "genderWins": 0,
       "genderLosses": 0,
-      "ranking": 35
+      "ranking": 44
     }
   ]
 }

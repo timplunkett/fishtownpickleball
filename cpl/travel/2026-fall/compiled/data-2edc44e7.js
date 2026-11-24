@@ -53115,12 +53115,12 @@
   {
    "result": null,
    "round": 3,
-   "home": "Flemington Blue",
-   "away": "Bounce Malvern Black",
-   "time": "2026-11-28T14:00:00",
+   "home": "Bounce Malvern Black",
+   "away": "Flemington Blue",
+   "time": "2026-12-05T12:00:00",
    "complete": false,
-   "homeSeed": 3,
-   "awaySeed": 2,
+   "homeSeed": 2,
+   "awaySeed": 3,
    "game": 1
   }
  ],
@@ -54116,7 +54116,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-23T02:41:49.937Z";
+  DATA.meta.asOf = "2026-11-24T13:28:28.367Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["2edc44e7"] = DATA;
