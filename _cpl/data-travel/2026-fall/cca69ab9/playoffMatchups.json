@@ -20,9 +20,9 @@
       "weekNumber": 1,
       "homeTeamId": "d66bdb04-03d3-4167-8b12-f2c57ecc9ca2",
       "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 657,
+      "awayPoints": 661,
+      "endResult": "away",
       "scheduledTime": "2026-11-23T19:30:00",
       "homeName": "Pickleball Kingdom Watchung",
       "awayName": "Premiere",
@@ -59,6 +59,21 @@
       "playoffGame": 4,
       "homePodRanking": 1,
       "awayPodRanking": 2
+    },
+    {
+      "matchupId": "2faed35c-7da5-441e-a140-82e1bc9cc2bb",
+      "weekNumber": 2,
+      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-30T19:30:00",
+      "homeName": "Dill Dinkers Freehold",
+      "awayName": "Premiere",
+      "playoffGame": 1,
+      "homePodRanking": 4,
+      "awayPodRanking": 3
     }
   ]
 }

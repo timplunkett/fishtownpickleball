@@ -51957,7 +51957,6 @@
    "homeSeed": 2,
    "awaySeed": 3,
    "game": 2,
-   "provisional": true,
    "homePoints": 657,
    "awayPoints": 661,
    "homeGW": 17,
@@ -53391,6 +53390,17 @@
     }
    ],
    "subs": []
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Dill Dinkers Freehold",
+   "away": "Premiere",
+   "time": "2026-11-30T19:30:00",
+   "complete": false,
+   "homeSeed": 4,
+   "awaySeed": 3,
+   "game": 1
   }
  ],
  "extraPlayerIds": {
@@ -54252,7 +54262,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-24T13:33:04.346Z";
+  DATA.meta.asOf = "2026-11-25T08:42:47.193Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
