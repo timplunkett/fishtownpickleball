@@ -50,9 +50,9 @@
       "weekNumber": 1,
       "homeTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "awayTeamId": "4a48846a-6252-4acc-9cd9-412857dfc2c4",
-      "homePoints": 0,
-      "awayPoints": 0,
-      "endResult": null,
+      "homePoints": 623,
+      "awayPoints": 609,
+      "endResult": "home",
       "scheduledTime": "2026-11-23T19:30:00",
       "homeName": "Pickle House",
       "awayName": "Bounce Tempest",
@@ -63,17 +63,32 @@
     {
       "matchupId": "2faed35c-7da5-441e-a140-82e1bc9cc2bb",
       "weekNumber": 2,
-      "homeTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
-      "awayTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "homeTeamId": "2838a1b8-72b2-46e4-a575-c7b98677a288",
+      "awayTeamId": "ebaf7ebf-f0c5-4618-a4e6-b231b3637a21",
+      "homePoints": 0,
+      "awayPoints": 0,
+      "endResult": null,
+      "scheduledTime": "2026-11-30T19:00:00",
+      "homeName": "Premiere",
+      "awayName": "Dill Dinkers Freehold",
+      "playoffGame": 1,
+      "homePodRanking": 3,
+      "awayPodRanking": 4
+    },
+    {
+      "matchupId": "418c9128-9cf9-4d09-b295-5bf107e0f0cc",
+      "weekNumber": 2,
+      "homeTeamId": "ce06a1b8-0a97-474c-ae78-6425313a0a7f",
+      "awayTeamId": "287c7f02-485c-45c4-ada9-9eb72f344d77",
       "homePoints": 0,
       "awayPoints": 0,
       "endResult": null,
       "scheduledTime": "2026-11-30T19:30:00",
-      "homeName": "Dill Dinkers Freehold",
-      "awayName": "Premiere",
-      "playoffGame": 1,
-      "homePodRanking": 4,
-      "awayPodRanking": 3
+      "homeName": "Bounce Malvern",
+      "awayName": "Pickle House",
+      "playoffGame": 2,
+      "homePodRanking": 1,
+      "awayPodRanking": 1
     }
   ]
 }

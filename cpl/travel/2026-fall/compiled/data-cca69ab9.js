@@ -52934,7 +52934,6 @@
    "homeSeed": 1,
    "awaySeed": 2,
    "game": 4,
-   "provisional": true,
    "homePoints": 623,
    "awayPoints": 609,
    "homeGW": 18,
@@ -53394,13 +53393,24 @@
   {
    "result": null,
    "round": 2,
-   "home": "Dill Dinkers Freehold",
-   "away": "Premiere",
+   "home": "Premiere",
+   "away": "Dill Dinkers Freehold",
+   "time": "2026-11-30T19:00:00",
+   "complete": false,
+   "homeSeed": 3,
+   "awaySeed": 4,
+   "game": 1
+  },
+  {
+   "result": null,
+   "round": 2,
+   "home": "Bounce Malvern",
+   "away": "Pickle House",
    "time": "2026-11-30T19:30:00",
    "complete": false,
-   "homeSeed": 4,
-   "awaySeed": 3,
-   "game": 1
+   "homeSeed": 1,
+   "awaySeed": 1,
+   "game": 2
   }
  ],
  "extraPlayerIds": {
@@ -54262,7 +54272,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-25T08:42:47.193Z";
+  DATA.meta.asOf = "2026-11-27T20:43:34.261Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["cca69ab9"] = DATA;
