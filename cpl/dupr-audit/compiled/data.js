@@ -4619,6 +4619,13 @@ window.DUPR_AUDIT = {
    "gender": "Male"
   },
   {
+   "name": "Dave Barban",
+   "playerId": "6ffc191a-d2b1-4839-bd30-f93b5f9cd4d9",
+   "team": "Pickleball Palace Blue",
+   "slug": "1e12eb3f",
+   "gender": "Male"
+  },
+  {
    "name": "Dave Brucker",
    "playerId": "22e07ace-661a-4942-b923-d48f446b0bba",
    "team": "Jersey Devil Navy",
@@ -4651,13 +4658,6 @@ window.DUPR_AUDIT = {
    "playerId": "5eb63fde-a52b-4ec5-a771-a1a8c3776732",
    "team": "Flemington",
    "slug": "e27386b3",
-   "gender": "Male"
-  },
-  {
-   "name": "David Barban",
-   "playerId": "6ffc191a-d2b1-4839-bd30-f93b5f9cd4d9",
-   "team": "Pickleball Palace Blue",
-   "slug": "1e12eb3f",
    "gender": "Male"
   },
   {
@@ -12793,6 +12793,13 @@ window.DUPR_AUDIT = {
    "team": "Jersey Devil",
    "slug": "c118b8e9",
    "gender": "Male"
+  },
+  {
+   "name": "Mariola Biekisz",
+   "playerId": "188e1231-451b-48a6-84b8-9a9b11524618",
+   "team": "Flemington Green",
+   "slug": "1e12eb3f",
+   "gender": "Female"
   },
   {
    "name": "Marita Dow",
