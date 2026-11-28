@@ -111687,8 +111687,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "James Azarowicz"
      ],
      "a": [
       "Olga Sedycias",
@@ -111698,8 +111698,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Rafael Moreano"
      ],
      "a": [
       "Qiuyan Kong",
@@ -111709,8 +111709,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Ward Greer"
      ],
      "a": [
       "Patricia Cordts",
@@ -111720,8 +111720,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Jack Cappello"
      ],
      "a": [
       "Mylene Tenorio",
@@ -111731,8 +111731,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Terri Marxen"
      ],
      "a": [
       "Marcia Rathjen",
@@ -111742,8 +111742,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Cheryl Minerowicz"
      ],
      "a": [
       "Mylene Tenorio",
@@ -111753,8 +111753,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Rafael Moreano"
      ],
      "a": [
       "Eldon Carandan",
@@ -111764,8 +111764,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Alan Weissman",
+      "E Noach Shapiro"
      ],
      "a": [
       "Dennis Tenorio",
@@ -111775,8 +111775,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Jack Cappello"
      ],
      "a": [
       "Patty Direzze",
@@ -111786,8 +111786,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terri Marxen",
+      "E Noach Shapiro"
      ],
      "a": [
       "Olga Sedycias",
@@ -111797,8 +111797,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Ward Greer"
      ],
      "a": [
       "Patricia Cordts",
@@ -111808,8 +111808,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Rafael Moreano"
      ],
      "a": [
       "Mylene Tenorio",
@@ -111819,8 +111819,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Kristin Duva"
      ],
      "a": [
       "Marcia Rathjen",
@@ -111830,8 +111830,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Charlene Fletcher"
      ],
      "a": [
       "Patty Direzze",
@@ -111841,8 +111841,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Jack Cappello",
+      "Alan Weissman"
      ],
      "a": [
       "Chuck Silvester",
@@ -111852,8 +111852,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Rafael Moreano"
      ],
      "a": [
       "Craig Rathjen",
@@ -111863,8 +111863,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "James Azarowicz"
      ],
      "a": [
       "Qiuyan Kong",
@@ -111874,8 +111874,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Ward Greer"
      ],
      "a": [
       "Olga Sedycias",
@@ -111885,8 +111885,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terri Marxen",
+      "Alan Weissman"
      ],
      "a": [
       "Mylene Tenorio",
@@ -111896,8 +111896,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Jack Cappello"
      ],
      "a": [
       "Marcia Rathjen",
@@ -111907,8 +111907,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Terri Marxen"
      ],
      "a": [
       "Mylene Tenorio",
@@ -111918,8 +111918,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Kristin Duva",
+      "Charlene Fletcher"
      ],
      "a": [
       "Patty Direzze",
@@ -111929,8 +111929,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Jack Cappello"
      ],
      "a": [
       "Peter O'Farrill",
@@ -111940,8 +111940,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "E Noach Shapiro"
      ],
      "a": [
       "Chuck Silvester",
@@ -111951,8 +111951,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Terri Marxen",
+      "Rafael Moreano"
      ],
      "a": [
       "Mylene Tenorio",
@@ -111962,8 +111962,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Charlene Fletcher",
+      "Alan Weissman"
      ],
      "a": [
       "Olga Sedycias",
@@ -111973,8 +111973,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Ward Greer"
      ],
      "a": [
       "Qiuyan Kong",
@@ -111984,8 +111984,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "E Noach Shapiro"
      ],
      "a": [
       "Patty Direzze",
@@ -111995,8 +111995,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Kristin Duva"
      ],
      "a": [
       "Olga Sedycias",
@@ -112006,8 +112006,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Anne Buckley",
+      "Debbie Spurr"
      ],
      "a": [
       "Qiuyan Kong",
@@ -112017,8 +112017,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Ward Greer",
+      "James Azarowicz"
      ],
      "a": [
       "Peter O'Farrill",
@@ -112028,8 +112028,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "Rafael Moreano",
+      "Jack Cappello"
      ],
      "a": [
       "Craig Rathjen",
@@ -112039,8 +112039,8 @@
     {
      "t": "mixed",
      "h": [
-      "",
-      ""
+      "Debbie Spurr",
+      "Jack Cappello"
      ],
      "a": [
       "Mylene Tenorio",
@@ -112051,8 +112051,8 @@
     {
      "t": "female",
      "h": [
-      "",
-      ""
+      "Cheryl Minerowicz",
+      "Anne Buckley"
      ],
      "a": [
       "Marcia Rathjen",
@@ -112063,8 +112063,8 @@
     {
      "t": "male",
      "h": [
-      "",
-      ""
+      "James Azarowicz",
+      "Ward Greer"
      ],
      "a": [
       "Peter O'Farrill",
@@ -114620,7 +114620,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-27T20:42:19.978Z";
+  DATA.meta.asOf = "2026-11-28T02:42:21.084Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["1e12eb3f"] = DATA;

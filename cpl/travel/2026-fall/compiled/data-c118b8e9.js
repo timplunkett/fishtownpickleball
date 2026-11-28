@@ -78597,7 +78597,7 @@
    "round": 3,
    "home": "Bounce Malvern",
    "away": "Pickleball HQ",
-   "time": "2026-12-01T19:00:00",
+   "time": "2026-12-01T19:30:00",
    "complete": false,
    "homeSeed": 1,
    "awaySeed": 2,
@@ -79500,7 +79500,7 @@
   }
  }
 };
-  DATA.meta.asOf = "2026-11-25T14:44:17.357Z";
+  DATA.meta.asOf = "2026-11-28T02:44:08.878Z";
   window.DATA = DATA;
   window.CPL_DATASETS = window.CPL_DATASETS || {};
   window.CPL_DATASETS["c118b8e9"] = DATA;
